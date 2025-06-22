@@ -1,0 +1,43 @@
+$schema: "http://json-schema.org/draft-07/schema#"
+title: Set
+type: object
+required:
+  - set_id
+  - name
+  - release_date
+
+properties:
+  set_id:
+    type: string
+    description: Unique identifier for the set (e.g., "2023-mlb-series1").
+  name:
+    type: string
+    description: Official name of the set.
+  series:
+    type: string
+    description: Series or umbrella grouping the set belongs to (optional).
+  release_date:
+    type: string
+    format: date
+    description: Release date of the set.
+  manufacturer:
+    type: string
+    description: Company producing the set (e.g., Topps, Panini).
+  print_run:
+    type: integer
+    minimum: 0
+    description: Known print run quantity for the set (optional).
+  subset:
+    type: string
+    description: Subset or insert group name (optional).
+  description:
+    type: string
+    description: Human-readable summary of the set (optional).
+  image_url:
+    type: string
+    format: uri
+    description: Optional URL for a set logo or representative image.
+  metadata:
+    type: object
+    additionalProperties: true
+    description: Optional freeform key-value metadata for the set.
