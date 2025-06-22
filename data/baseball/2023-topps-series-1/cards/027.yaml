@@ -1,0 +1,17 @@
+number: "27"
+uuid: "22222222-2222-2222-2222-222222222222"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2023-topps-series-1"
+subjects:
+  - name: "Mike Trout"
+    role: "Player"
+    team: "Los Angeles Angels"
+card_name: "Mike Trout Gold Parallel"
+description: "Gold parallel card of Mike Trout."
+parallel: "Gold"
+serial_numbered: true
+rookie_card: false
+autograph: false
+release_date: "2023-03-15"
+image_url: "https://example.com/cards/trout-gold.jpg"
