@@ -1,5 +1,7 @@
 # Open Checklist Project
 
+![Validate Data](https://github.com/cardtechie/open-checklist-project/actions/workflows/validate.yml/badge.svg)
+
 The **Open Checklist Project** is an open-data initiative to standardize and share trading card checklist data for collectors, developers, and the broader hobby ecosystem.
 
 ## Goals
