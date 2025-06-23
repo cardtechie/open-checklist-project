@@ -13,7 +13,7 @@ properties:
   uuid:
     type: string
     format: uuid
-    description: Optional unique identifier for this card.
+    description: Unique identifier for this card. This field is required.
   number:
     type: string
     description: Printed card number or identifier.
