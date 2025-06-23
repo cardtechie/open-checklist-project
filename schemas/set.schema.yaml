@@ -3,10 +3,15 @@ description: "Set object schema for the Open Checklist Project"
 title: Set
 type: object
 required:
+  - uuid
   - set_id
   - name
 
 properties:
+  uuid:
+    type: string
+    format: uuid
+    description: "Globally unique ID for the set (UUID v4)"
   set_id:
     type: string
     description: Unique identifier for the set (e.g., "2023-mlb-series1").
