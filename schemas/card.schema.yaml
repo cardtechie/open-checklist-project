@@ -1,4 +1,5 @@
 $schema_version: "0.1"
+description: "Card object schema for the Open Checklist Project"
 title: Card
 type: object
 required:
