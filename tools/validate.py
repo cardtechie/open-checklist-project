@@ -1,33 +1,63 @@
 import os
+import sys
+import json
 import yaml
 import jsonschema
 from pathlib import Path
 
-# Load schemas
-def load_schema(schema_path):
-    with open(schema_path, 'r') as f:
+# Config
+SCHEMA_DIR = Path("schemas")
+DATA_DIR = Path("data")
+
+def load_schema(schema_file):
+    with open(schema_file, "r") as f:
         return yaml.safe_load(f)
 
-card_schema = load_schema('schemas/card.schema.yaml')
-set_schema = load_schema('schemas/set.schema.yaml')
-
-def validate_yaml_file(file_path, schema):
-    with open(file_path, 'r') as f:
+def validate_file(file_path, schema):
+    with open(file_path, "r") as f:
         try:
             data = yaml.safe_load(f)
             jsonschema.validate(instance=data, schema=schema)
-            print(f"✅ Valid: {file_path}")
-        except yaml.YAMLError as e:
-            print(f"❌ YAML error in {file_path}: {e}")
-        except jsonschema.exceptions.ValidationError as e:
-            print(f"❌ Schema error in {file_path}: {e.message}")
+            return True, None
+        except jsonschema.ValidationError as e:
+            return False, str(e)
+        except Exception as e:
+            return False, f"Invalid YAML or unexpected error: {e}"
 
-# Walk through all YAML files in data directory
-for root, dirs, files in os.walk('data'):
-    for file in files:
-        if file.endswith('.yaml'):
-            path = Path(root) / file
-            if file == 'set.yaml':
-                validate_yaml_file(path, set_schema)
-            else:
-                validate_yaml_file(path, card_schema)
+def main():
+    errors_found = False
+
+    # Load schemas
+    card_schema = load_schema(SCHEMA_DIR / "card.schema.yaml")
+    set_schema = load_schema(SCHEMA_DIR / "set.schema.yaml")
+
+    # Validate sets
+    print("🔍 Validating sets...")
+    for set_file in DATA_DIR.rglob("*/set.yaml"):
+        is_valid, error = validate_file(set_file, set_schema)
+        if is_valid:
+            print(f"✅ {set_file}")
+        else:
+            print(f"❌ {set_file}\n    {error}")
+            errors_found = True
+
+    # Validate cards
+    print("\n🔍 Validating cards...")
+    for card_file in DATA_DIR.rglob("cards/*.yaml"):
+        is_valid, error = validate_file(card_file, card_schema)
+        if is_valid:
+            print(f"✅ {card_file}")
+        else:
+            print(f"❌ {card_file}\n    {error}")
+            errors_found = True
+
+    if errors_found:
+        print("\n❌ Validation completed with errors.")
+        sys.exit(1)
+    else:
+        print("\n✅ All files validated successfully.")
+        sys.exit(0)
+
+if __name__ == "__main__":
+    main()
+
