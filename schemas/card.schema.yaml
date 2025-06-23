@@ -3,19 +3,20 @@ description: "Card object schema for the Open Checklist Project"
 title: Card
 type: object
 required:
+  - uuid
   - number
   - genre
   - subjects
   - set_id
 
 properties:
-  number:
-    type: string
-    description: Printed card number or identifier.
   uuid:
     type: string
     format: uuid
     description: Optional unique identifier for this card.
+  number:
+    type: string
+    description: Printed card number or identifier.
   genre:
     type: string
     enum: [Sports, TCG, Non-Sport]
