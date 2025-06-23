@@ -4,7 +4,6 @@ type: object
 required:
   - set_id
   - name
-  - release_date
 
 properties:
   set_id:
