@@ -17,6 +17,25 @@ The **Open Checklist Project** is an open-data initiative to standardize and sha
 - 🛠 Tools for validating, transforming, and consuming data
 - 🤝 GitHub workflows for contributor validation
 
+## Validation
+
+To validate your data against the schemas, you can use Docker:
+
+```bash
+# Build the validation container
+docker build -t open-checklist-validator .
+
+# Run validation on all data files
+docker run open-checklist-validator
+```
+
+Alternatively, if you have Python 3.11+ installed:
+
+```bash
+pip install pyyaml jsonschema
+python tools/validate.py
+```
+
 ## Learn More
 
 - [Website](https://openchecklistproject.org)
