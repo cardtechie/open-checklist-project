@@ -17,6 +17,15 @@ The **Open Checklist Project** is an open-data initiative to standardize and sha
 - 🛠 Tools for validating, transforming, and consuming data
 - 🤝 GitHub workflows for contributor validation
 
+## Schemas
+
+The project includes standardized schemas for consistent data structure:
+
+- **Card Schema v0.1**: [`schemas/card/schema.yaml`](schemas/card/schema.yaml) ([Latest Documentation](schemas/card/README.md))
+- **Set Schema v0.2**: [`schemas/set/schema.yaml`](schemas/set/schema.yaml) ([Latest Documentation](schemas/set/README.md))
+
+For detailed schema documentation, version history, and examples, see the [schemas directory](schemas/README.md).
+
 ## Validation
 
 To validate your data against the schemas, you can use Docker:

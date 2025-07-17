@@ -4,8 +4,8 @@ This directory contains YAML schemas for the Open Checklist Project data structu
 
 ## Current Versions
 
-- **Card Schema**: v0.1 (`card/schema.yaml`)
-- **Set Schema**: v0.2 (`set/schema.yaml`)
+- **Card Schema**: v0.1 ([`card/schema.yaml`](card/schema.yaml)) - [Documentation](card/README.md)
+- **Set Schema**: v0.2 ([`set/schema.yaml`](set/schema.yaml)) - [Documentation](set/README.md)
 
 ## Directory Structure
 
@@ -57,6 +57,15 @@ When schemas change, existing data may need migration:
 1. Check the CHANGELOG.md for breaking changes
 2. Use version-specific documentation for field mappings
 3. Update data files to match new required fields
+
+## Version History
+
+### Card Schema ([changelog](card/CHANGELOG.md))
+- **v0.1** ([schema](card/v0.1/schema.yaml), [documentation](card/v0.1/README.md)) - Initial release with core card fields
+
+### Set Schema ([changelog](set/CHANGELOG.md))
+- **v0.2** ([schema](set/v0.2/schema.yaml), [documentation](set/v0.2/README.md)) - Added required `genre` and `category` fields, enhanced temporal handling
+- **v0.1** ([schema](set/v0.1/schema.yaml), [documentation](set/v0.1/README.md)) - Initial basic set structure
 
 ---
 
