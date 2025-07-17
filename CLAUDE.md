@@ -27,9 +27,10 @@ python tools/validate.py
 
 ### Schema Versions
 
-- Card schema: v0.1 (`schemas/card.schema.yaml`)
-- Set schema: v0.2 (`schemas/set.schema.yaml`) 
-- Schema changes documented in `schemas/CHANGELOG.md`
+- Card schema: v0.1 (`schemas/card/schema.yaml` → `schemas/card/v0.1/schema.yaml`)
+- Set schema: v0.2 (`schemas/set/schema.yaml` → `schemas/set/v0.2/schema.yaml`)
+- Previous versions available in `schemas/{type}/v{version}/` directories
+- Schema changes documented in respective `schemas/{type}/CHANGELOG.md` files
 
 ## Architecture
 

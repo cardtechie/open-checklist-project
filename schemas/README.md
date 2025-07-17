@@ -1,13 +1,66 @@
-# Open Checklist Project - Schema Documentation
+# Schemas
 
-## Overview
+This directory contains YAML schemas for the Open Checklist Project data structures.
 
-The Open Checklist Project provides standardized JSON Schema definitions for trading card data. This document describes the Card and Set schemas that form the foundation of the data model.
+## Current Versions
 
-## Schema Versions
+- **Card Schema**: v0.1 (`card/schema.yaml`)
+- **Set Schema**: v0.2 (`set/schema.yaml`)
 
-- **Set Schema**: v0.2
-- **Card Schema**: v0.1
+## Directory Structure
+
+```
+schemas/
+├── card/
+│   ├── schema.yaml      # Symlink to latest version
+│   ├── README.md        # Latest documentation
+│   ├── CHANGELOG.md     # Version history
+│   └── v0.1/           # Version-specific files
+│       ├── schema.yaml
+│       └── README.md
+└── set/
+    ├── schema.yaml      # Symlink to latest version
+    ├── README.md        # Latest documentation  
+    ├── CHANGELOG.md     # Version history
+    ├── v0.1/           # Initial version
+    │   ├── schema.yaml
+    │   └── README.md
+    └── v0.2/           # Current version
+        ├── schema.yaml
+        └── README.md
+```
+
+## Versioning
+
+Each schema maintains independent versioning:
+- **Breaking changes** increment the major version (v0.1 → v1.0)
+- **New optional fields** increment the minor version (v0.1 → v0.2)
+- **Documentation updates** don't change the schema version
+
+## Using Schemas
+
+### For Validation
+The validation script automatically uses the latest versions via symlinks:
+```bash
+python tools/validate.py
+```
+
+### For Specific Versions
+Reference version-specific schemas for backward compatibility:
+```python
+# Load specific version
+schema = load_schema("schemas/set/v0.1/schema.yaml")
+```
+
+### Migration
+When schemas change, existing data may need migration:
+1. Check the CHANGELOG.md for breaking changes
+2. Use version-specific documentation for field mappings
+3. Update data files to match new required fields
+
+---
+
+# Detailed Schema Documentation
 
 ## Architecture
 

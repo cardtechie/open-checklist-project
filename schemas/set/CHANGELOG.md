@@ -8,5 +8,7 @@
 - Made genre and category required fields
 
 ## [v0.1] - 2025-06-22
-- Initial release of card and set schemas
-- Added support for sports and TCG genres
+- Initial release of set schema
+- Basic set metadata support (uuid, set_id, name)
+- Release date and manufacturer fields
+- Optional metadata object for extensibility
