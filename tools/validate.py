@@ -28,8 +28,8 @@ def main():
     errors_found = False
 
     # Load schemas
-    card_schema = load_schema(SCHEMA_DIR / "card.schema.yaml")
-    set_schema = load_schema(SCHEMA_DIR / "set.schema.yaml")
+    card_schema = load_schema(SCHEMA_DIR / "card" / "schema.yaml")
+    set_schema = load_schema(SCHEMA_DIR / "set" / "schema.yaml")
 
     # Validate sets
     print("🔍 Validating sets...")

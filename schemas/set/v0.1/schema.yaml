@@ -6,7 +6,6 @@ required:
   - uuid
   - set_id
   - name
-
 properties:
   uuid:
     type: string
@@ -20,7 +19,7 @@ properties:
     description: Official name of the set.
   series:
     type: string
-    description: Series or umbrella grouping the set belongs to (optional).
+    description: Series or umbrella grouping the set belongs to (e.g., "2024 Topps Baseball", "Pokemon Scarlet & Violet").
   release_date:
     type: string
     format: date

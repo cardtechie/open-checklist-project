@@ -1,9 +1,16 @@
 uuid: 64532873-a2d3-4d78-ab91-fe9af8410def
 set_id: "2023-topps-series-1"
 name: "Topps Series 1"
-series: "MLB"
+genre: "Sports"
+category: ["MLB"]
+sports: ["Baseball"]
+season: "2023"
+years: [2023]
+series: "2023 Topps Baseball"
+series_number: 1
 release_date: "2023-03-15"
 manufacturer: "Topps"
+card_count: 330
 print_run: 5000000
 subset: "Base Set"
 description: "2023 Topps Series 1 baseball release with rookies and inserts."
