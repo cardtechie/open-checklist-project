@@ -1,4 +1,4 @@
-$schema_version: "0.1"
+$schema_version: "0.2"
 description: "Set object schema for the Open Checklist Project"
 title: Set
 type: object
@@ -6,7 +6,8 @@ required:
   - uuid
   - set_id
   - name
-
+  - genre
+  - category
 properties:
   uuid:
     type: string
@@ -18,9 +19,71 @@ properties:
   name:
     type: string
     description: Official name of the set.
+  genre:
+    type: string
+    enum: [Sports, TCG, Non-Sport]
+    description: Broad genre of the set.
+  category:
+    type: array
+    items:
+      type: string
+    minItems: 1
+    description: Category or categories that describe the set's subject matter, franchise, or league (e.g., ["MLB"], ["Pokemon"], ["Star Wars"], ["Olympics"]).
+  sports:
+    type: array
+    items:
+      type: string
+      enum:
+        - Baseball
+        - Basketball
+        - Football
+        - Hockey
+        - Soccer
+        - Golf
+        - Boxing
+        - Wrestling
+        - Tennis
+        - Racing
+        - MMA
+        - Olympics
+        - Cricket
+        - Lacrosse
+        - Pickleball
+        - Bowling
+    description: Specific sports covered by the set (used when genre is Sports).
+  season:
+    type: string
+    description: Official season designation (e.g., "2021-22", "2023").
+  years:
+    type: array
+    items:
+      type: integer
+      minimum: 1800
+      maximum: 2030
+    description: All years the set covers (e.g., [2021, 2022] for "2021-22" sets, [2023] for "2023" sets).
+  parallel:
+    type: boolean
+    description: True if this set is a parallel version of a base set (different foiling, colors, numbering, etc.).
+  insert:
+    type: boolean
+    description: True if this set consists primarily of insert/chase cards found within base set products.
+  autograph:
+    type: boolean
+    description: True if this set consists primarily of autographed cards.
+  relic:
+    type: boolean
+    description: True if this set consists primarily of memorabilia/relic cards.
+  base_set:
+    type: string
+    format: uuid
+    description: UUID of the base set (for parallel and insert sets). Optional to allow for cases where base set is not yet defined.
   series:
     type: string
-    description: Series or umbrella grouping the set belongs to (optional).
+    description: Series or umbrella grouping the set belongs to (e.g., "2024 Topps Baseball", "Pokemon Scarlet & Violet").
+  series_number:
+    type: integer
+    minimum: 1
+    description: Sequential number within the series (e.g., 1 for Series 1, 2 for Series 2).
   release_date:
     type: string
     format: date
@@ -28,6 +91,10 @@ properties:
   manufacturer:
     type: string
     description: Company producing the set (e.g., Topps, Panini).
+  card_count:
+    type: integer
+    minimum: 1
+    description: Total number of cards in the set.
   print_run:
     type: integer
     minimum: 0
