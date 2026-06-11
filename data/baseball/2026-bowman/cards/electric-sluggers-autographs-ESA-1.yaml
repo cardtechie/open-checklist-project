@@ -1,0 +1,19 @@
+number: "ESA-1"
+uuid: "4112c992-5fd4-4c7e-93a8-5c74c70f5634"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-bowman"
+subjects:
+  - name: "Samuel Basallo"
+    role: "Player"
+    team: "Baltimore Orioles"
+subset: "Electric Sluggers Autographs"
+card_name: "Samuel Basallo - Electric Sluggers Autographs"
+description: "Autographed Electric Sluggers Autographs card featuring Samuel Basallo."
+series: "2026 Bowman"
+print_run: 99
+rookie_card: false
+autograph: true
+serial_numbered: true
+release_date: "2026-05-13"
+image_url: "https://example.com/cards/2026-bowman/electric-sluggers-autographs-ESA-1.jpg"

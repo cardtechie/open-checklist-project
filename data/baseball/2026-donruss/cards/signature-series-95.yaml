@@ -1,0 +1,19 @@
+number: "95"
+uuid: "61b7c240-2c05-4e2e-b37c-dc55fe6be326"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "Hagen Smith"
+    role: "Player"
+    team: "Chicago White Sox"
+subset: "Signature Series"
+card_name: "Hagen Smith - Signature Series"
+description: "Autographed Signature Series card featuring Hagen Smith."
+series: "2026 Donruss"
+rookie_card: false
+autograph: true
+relic: false
+serial_numbered: false
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/signature-series-95.jpg"

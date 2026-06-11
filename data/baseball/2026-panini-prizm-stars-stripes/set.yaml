@@ -1,0 +1,43 @@
+uuid: 031502ae-b19f-4243-bbed-8fb73939e8f5
+set_id: "2026-panini-prizm-stars-stripes"
+name: "2026 Panini Stars & Stripes Prizm"
+genre: "Sports"
+category: ["USA Baseball"]
+sports: ["Baseball"]
+season: "2026"
+years: [2026]
+series: "2026 Panini Stars & Stripes Prizm"
+release_date: "2026-04-03"
+manufacturer: "Panini"
+card_count: 1185
+description: "2026 Panini Stars & Stripes Prizm was released April 3rd and features current and former members of the USA Baseball team. For the first time, the Stars & Stripes product is printed on Optichrome card stock. Each Hobby pack will contain an insert, a Prizm parallel and either an autograph or game-used card or another Prizm parallel.."
+image_url: "https://example.com/images/2026-panini-prizm-stars-stripes.jpg"
+metadata:
+  language: "en"
+  year: 2026
+  source_name: "BaseballCardpedia"
+  source_url: "https://baseballcardpedia.com/index.php/2026_Panini_Stars_%26_Stripes_Prizm#Checklist"
+  source_file: "import/2026-Panini-Prizm-Stars-Stripes-Baseball-Checklist.xlsx"
+  subsets:
+    - name: "Base Set"
+      card_count: 200
+    - name: "13U/14U National Team Signatures"
+      card_count: 50
+    - name: "15U National Team Signatures"
+      card_count: 20
+    - name: "16U/17U National Team Signatures"
+      card_count: 71
+    - name: "18U National Team Signatures"
+      card_count: 28
+    - name: "Base Prizms Signatures"
+      card_count: 200
+    - name: "Base Prizms Signatures Green"
+      card_count: 32
+    - name: "Jumbo Materials Flag"
+      card_count: 184
+    - name: "Jumbo Materials Jersey Number"
+      card_count: 186
+    - name: "Jumbo Materials Patch"
+      card_count: 189
+    - name: "All-American"
+      card_count: 25

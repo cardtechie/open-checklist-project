@@ -1,0 +1,19 @@
+number: "75"
+uuid: "ff29b913-b4b4-4687-9fa2-5cc3d846c40b"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "Adam Dunn"
+    role: "Player"
+    team: "Cincinnati Reds"
+subset: "Signature Series"
+card_name: "Adam Dunn - Signature Series"
+description: "Autographed Signature Series card featuring Adam Dunn."
+series: "2026 Donruss"
+rookie_card: false
+autograph: true
+relic: false
+serial_numbered: false
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/signature-series-75.jpg"

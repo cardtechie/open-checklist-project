@@ -1,0 +1,17 @@
+number: "70"
+uuid: "a7e7946e-c1a9-40a9-af5f-10bb0400bde0"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-bowman"
+subjects:
+  - name: "Alex Freeland"
+    role: "Player"
+    team: "Los Angeles Dodgers"
+card_name: "Alex Freeland - Base"
+description: "Base card featuring Alex Freeland."
+series: "2026 Bowman"
+rookie_card: true
+autograph: false
+serial_numbered: false
+release_date: "2026-05-13"
+image_url: "https://example.com/cards/2026-bowman/70.jpg"

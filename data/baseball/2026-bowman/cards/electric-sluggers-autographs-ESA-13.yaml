@@ -1,0 +1,19 @@
+number: "ESA-13"
+uuid: "48d74a95-1415-4dbb-b36a-8932a48c0a84"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-bowman"
+subjects:
+  - name: "Nick Kurtz"
+    role: "Player"
+    team: "Athletics"
+subset: "Electric Sluggers Autographs"
+card_name: "Nick Kurtz - Electric Sluggers Autographs"
+description: "Autographed Electric Sluggers Autographs card featuring Nick Kurtz."
+series: "2026 Bowman"
+print_run: 99
+rookie_card: false
+autograph: true
+serial_numbered: true
+release_date: "2026-05-13"
+image_url: "https://example.com/cards/2026-bowman/electric-sluggers-autographs-ESA-13.jpg"

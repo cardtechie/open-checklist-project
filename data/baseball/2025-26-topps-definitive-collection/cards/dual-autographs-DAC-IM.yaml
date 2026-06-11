@@ -1,0 +1,23 @@
+number: "DAC-IM"
+uuid: "4253a521-9b8d-4736-99a1-e0a257ecd092"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2025-26-topps-definitive-collection"
+subjects:
+  - name: "Hideki Matsui"
+    role: "Player"
+    team: "New York Yankees"
+  - name: "Ichiro"
+    role: "Player"
+    team: "Seattle Mariners"
+subset: "Dual Autographs"
+card_name: "Hideki Matsui / Ichiro - Dual Autographs"
+description: "Autographed Dual Autographs card featuring Hideki Matsui / Ichiro."
+series: "Topps Definitive Collection"
+print_run: 50
+rookie_card: false
+autograph: true
+relic: false
+serial_numbered: true
+release_date: "2026-04-29"
+image_url: "https://example.com/cards/2025-26-topps-definitive-collection/dual-autographs-DAC-IM.jpg"

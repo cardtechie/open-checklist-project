@@ -1,0 +1,19 @@
+number: "1"
+uuid: "63c3e9dc-34fb-4755-aa43-06b38f2027a9"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "Aaron Judge"
+    role: "Player"
+    team: "New York Yankees"
+subset: "Stained Glass"
+card_name: "Aaron Judge - Stained Glass"
+description: "Stained Glass card featuring Aaron Judge."
+series: "2026 Donruss"
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: false
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/stained-glass-1.jpg"

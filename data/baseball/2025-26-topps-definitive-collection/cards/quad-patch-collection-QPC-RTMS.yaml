@@ -1,0 +1,29 @@
+number: "QPC-RTMS"
+uuid: "630ffb62-5789-4fbb-b712-43198cfb4002"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2025-26-topps-definitive-collection"
+subjects:
+  - name: "Eddie Murray"
+    role: "Player"
+    team: "Cleveland"
+  - name: "José Ramírez"
+    role: "Player"
+    team: "Cleveland Guardians"
+  - name: "CC Sabathia"
+    role: "Player"
+    team: "Cleveland"
+  - name: "Jim Thome"
+    role: "Player"
+    team: "Cleveland"
+subset: "Quad Patch Collection"
+card_name: "Eddie Murray / José Ramírez / CC Sabathia / Jim Thome - Quad Patch Collection"
+description: "Quad Patch Collection memorabilia card featuring Eddie Murray / José Ramírez / CC Sabathia / Jim Thome."
+series: "Topps Definitive Collection"
+print_run: 50
+rookie_card: false
+autograph: false
+relic: true
+serial_numbered: true
+release_date: "2026-04-29"
+image_url: "https://example.com/cards/2025-26-topps-definitive-collection/quad-patch-collection-QPC-RTMS.jpg"

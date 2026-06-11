@@ -1,0 +1,25 @@
+number: "TCTP-TMB"
+uuid: "afaf17cc-5cb5-4626-9b5d-4248f92e9697"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2025-26-topps-transcendent"
+subjects:
+  - name: "Xander Bogaerts"
+    role: "Player"
+    team: "San Diego Padres"
+  - name: "Fernando Tatis Jr."
+    role: "Player"
+    team: "San Diego Padres"
+  - name: "Manny Machado"
+    role: "Player"
+    team: "San Diego Padres"
+subset: "Transcendent Collection Triple Patches"
+card_name: "Xander Bogaerts / Fernando Tatis Jr. / Manny Machado - Transcendent Collection Triple Patches"
+description: "Transcendent Collection Triple Patches memorabilia card featuring Xander Bogaerts / Fernando Tatis Jr. / Manny Machado."
+series: "Topps Transcendent"
+rookie_card: false
+autograph: false
+relic: true
+serial_numbered: false
+release_date: "2026-04-01"
+image_url: "https://example.com/cards/2025-26-topps-transcendent/transcendent-collection-triple-patches-TCTP-TMB.jpg"

@@ -1,0 +1,85 @@
+uuid: 37675d01-2353-4475-b55e-25a979f0f219
+set_id: "2025-26-topps-definitive-collection"
+name: "2025-26 Topps Definitive Collection"
+genre: "Sports"
+category: ["MLB"]
+sports: ["Baseball"]
+season: "2025-26"
+years: [2025, 2026]
+series: "Topps Definitive Collection"
+release_date: "2026-04-29"
+manufacturer: "Topps"
+card_count: 1229
+description: "2025-26 Topps Definitive Collection was released April 29th, 2026."
+image_url: "https://example.com/images/2025-26-topps-definitive-collection.jpg"
+metadata:
+  language: "en"
+  year: 2026
+  source_name: "BaseballCardpedia"
+  source_url: "https://baseballcardpedia.com/index.php/2025-26_Topps_Definitive_Collection#Checklist"
+  source_file: "import/2025-Topps-Definitive-Baseball-Checklist.xlsx"
+  subsets:
+    - name: "Base Autographed Relics"
+      card_count: 49
+    - name: "Legendary Autograph Collection"
+      card_count: 46
+    - name: "Framed Autograph Collection"
+      card_count: 45
+    - name: "Dual Autographs"
+      card_count: 37
+    - name: "Dual World Series Autograph Collection"
+      card_count: 13
+    - name: "Definitive Triple Autographs"
+      card_count: 8
+    - name: "Definitive Quad Autographs"
+      card_count: 7
+    - name: "Definitive Rookie Autographs"
+      card_count: 42
+    - name: "Defining Images Autographs"
+      card_count: 43
+    - name: "Definitive Moments Autographs"
+      card_count: 23
+    - name: "Definitive Cut Signatures"
+      card_count: 42
+    - name: "Definitive Rookie Patch Autographs"
+      card_count: 34
+    - name: "Autographed Patch Booklets"
+      card_count: 40
+    - name: "Dual Autograph Relic Collection"
+      card_count: 29
+    - name: "Framed Autograph Patches"
+      card_count: 41
+    - name: "Definitive Autographed Relics"
+      card_count: 86
+    - name: "Definitive City Connect Slogan Autographed Booklets"
+      card_count: 32
+    - name: "Definitive Autographed First Batting Gloves"
+      card_count: 49
+    - name: "Protectors At The Plate Autographed Relics"
+      card_count: 10
+    - name: "Definitive Helmet Collection Autographs"
+      card_count: 21
+    - name: "Definitive World Series Baseball Autographed Relics"
+      card_count: 9
+    - name: "Definitive Autographed Ultra Patches"
+      card_count: 40
+    - name: "Definitive MLB Logo Patches"
+      card_count: 87
+    - name: "Definitive Dual MLB Logo Patch Booklets"
+      card_count: 22
+    - name: "Definitive Triple MLB Logo Patch Booklets"
+      card_count: 15
+    - name: "Definitive Helmet Collection"
+      card_count: 43
+    - name: "Definitive Patch Collection"
+      card_count: 87
+    - name: "Jumbo Relic Collection"
+      card_count: 91
+    - name: "Protector At The Plate"
+      card_count: 10
+    - name: "Quad Patch Collection"
+      card_count: 20
+    - name: "Definitive Nameplate Collection"
+      card_count: 80
+    - name: "Willie Mays Commemorative Patches"
+      card_count: 28

@@ -1,0 +1,19 @@
+number: "ES-25"
+uuid: "7a97c1cd-abf7-4bfb-b494-93d234ff9cd6"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-bowman"
+subjects:
+  - name: "Mike Trout"
+    role: "Player"
+    team: "Los Angeles Angels"
+subset: "Electric Sluggers"
+card_name: "Mike Trout - Electric Sluggers"
+description: "Electric Sluggers card featuring Mike Trout."
+series: "2026 Bowman"
+print_run: 69625
+rookie_card: false
+autograph: false
+serial_numbered: false
+release_date: "2026-05-13"
+image_url: "https://example.com/cards/2026-bowman/electric-sluggers-ES-25.jpg"

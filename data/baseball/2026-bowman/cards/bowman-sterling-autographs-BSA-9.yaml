@@ -1,0 +1,19 @@
+number: "BSA-9"
+uuid: "49092cce-5441-4402-893a-867b7280511d"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-bowman"
+subjects:
+  - name: "Roman Anthony"
+    role: "Player"
+    team: "Boston Red Sox"
+subset: "Bowman Sterling Autographs"
+card_name: "Roman Anthony - Bowman Sterling Autographs"
+description: "Autographed Bowman Sterling Autographs card featuring Roman Anthony."
+series: "2026 Bowman"
+print_run: 150
+rookie_card: false
+autograph: true
+serial_numbered: true
+release_date: "2026-05-13"
+image_url: "https://example.com/cards/2026-bowman/bowman-sterling-autographs-BSA-9.jpg"

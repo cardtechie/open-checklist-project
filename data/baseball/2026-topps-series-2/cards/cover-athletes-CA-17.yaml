@@ -1,0 +1,19 @@
+number: "CA-17"
+uuid: "9feefae1-7ecb-437a-9246-316e7a49d3b0"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-topps-series-2"
+subjects:
+  - name: "Aaron Judge"
+    role: "Player"
+    team: "New York Yankees"
+subset: "Cover Athletes"
+card_name: "Aaron Judge - Cover Athletes"
+description: "Cover Athletes card featuring Aaron Judge."
+series: "2026 Topps Baseball"
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: false
+release_date: "2026-06-11"
+image_url: "https://example.com/cards/2026-topps-series-2/cover-athletes-CA-17.jpg"

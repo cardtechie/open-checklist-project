@@ -1,0 +1,20 @@
+number: "DPC-DJ"
+uuid: "d42bd21c-1dbf-417e-9fe8-401cdcb139d9"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2025-26-topps-definitive-collection"
+subjects:
+  - name: "Derek Jeter"
+    role: "Player"
+    team: "New York Yankees"
+subset: "Definitive Patch Collection"
+card_name: "Derek Jeter - Definitive Patch Collection"
+description: "Definitive Patch Collection memorabilia card featuring Derek Jeter."
+series: "Topps Definitive Collection"
+print_run: 50
+rookie_card: false
+autograph: false
+relic: true
+serial_numbered: true
+release_date: "2026-04-29"
+image_url: "https://example.com/cards/2025-26-topps-definitive-collection/definitive-patch-collection-DPC-DJ.jpg"

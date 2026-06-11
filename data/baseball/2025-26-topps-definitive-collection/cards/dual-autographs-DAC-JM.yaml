@@ -1,0 +1,23 @@
+number: "DAC-JM"
+uuid: "20e385d8-60be-4ea0-83b1-465ce999f996"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2025-26-topps-definitive-collection"
+subjects:
+  - name: "Mark McGwire"
+    role: "Player"
+    team: "Oakland Athletics"
+  - name: "Reggie Jackson"
+    role: "Player"
+    team: "Oakland Athletics"
+subset: "Dual Autographs"
+card_name: "Mark McGwire / Reggie Jackson - Dual Autographs"
+description: "Autographed Dual Autographs card featuring Mark McGwire / Reggie Jackson."
+series: "Topps Definitive Collection"
+print_run: 50
+rookie_card: false
+autograph: true
+relic: false
+serial_numbered: true
+release_date: "2026-04-29"
+image_url: "https://example.com/cards/2025-26-topps-definitive-collection/dual-autographs-DAC-JM.jpg"

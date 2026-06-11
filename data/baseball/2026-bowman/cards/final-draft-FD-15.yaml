@@ -1,0 +1,18 @@
+number: "FD-15"
+uuid: "f5b1eccb-fdf0-4133-81b3-2357c6b4d29c"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-bowman"
+subjects:
+  - name: "Manny Ramirez"
+    role: "Player"
+    team: "Boston Red Sox"
+subset: "Final Draft"
+card_name: "Manny Ramirez - Final Draft"
+description: "Final Draft card featuring Manny Ramirez."
+series: "2026 Bowman"
+rookie_card: false
+autograph: false
+serial_numbered: false
+release_date: "2026-05-13"
+image_url: "https://example.com/cards/2026-bowman/final-draft-FD-15.jpg"

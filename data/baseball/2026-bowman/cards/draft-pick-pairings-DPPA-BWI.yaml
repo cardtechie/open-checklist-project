@@ -1,0 +1,22 @@
+number: "DPPA-BWI"
+uuid: "2a005e64-c7b4-4955-a3c8-0e2ad51a78bb"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-bowman"
+subjects:
+  - name: "Travis Bazzana"
+    role: "Player"
+    team: "Cleveland Guardians"
+  - name: "Eli Willits"
+    role: "Player"
+    team: "Washington Nationals"
+subset: "Draft Pick Pairings"
+card_name: "Travis Bazzana / Eli Willits - Draft Pick Pairings"
+description: "Draft Pick Pairings card featuring Travis Bazzana / Eli Willits."
+series: "2026 Bowman"
+print_run: 25
+rookie_card: false
+autograph: false
+serial_numbered: true
+release_date: "2026-05-13"
+image_url: "https://example.com/cards/2026-bowman/draft-pick-pairings-DPPA-BWI.jpg"

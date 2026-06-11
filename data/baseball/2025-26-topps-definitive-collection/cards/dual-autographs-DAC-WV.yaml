@@ -1,0 +1,23 @@
+number: "DAC-WV"
+uuid: "d60d0307-ece9-4182-9f6c-4b0502b12b50"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2025-26-topps-definitive-collection"
+subjects:
+  - name: "Larry Walker"
+    role: "Player"
+    team: "Colorado Rockies"
+  - name: "Joey Votto"
+    role: "Player"
+    team: "Cincinnati Reds"
+subset: "Dual Autographs"
+card_name: "Larry Walker / Joey Votto - Dual Autographs"
+description: "Autographed Dual Autographs card featuring Larry Walker / Joey Votto."
+series: "Topps Definitive Collection"
+print_run: 50
+rookie_card: false
+autograph: true
+relic: false
+serial_numbered: true
+release_date: "2026-04-29"
+image_url: "https://example.com/cards/2025-26-topps-definitive-collection/dual-autographs-DAC-WV.jpg"

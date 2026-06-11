@@ -1,0 +1,17 @@
+number: "9"
+uuid: "ef729c24-9750-41a8-adef-16c3dbca6c38"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-bowman"
+subjects:
+  - name: "Munetaka Murakami"
+    role: "Player"
+    team: "Chicago White Sox"
+card_name: "Munetaka Murakami - Base"
+description: "Base card featuring Munetaka Murakami."
+series: "2026 Bowman"
+rookie_card: true
+autograph: false
+serial_numbered: false
+release_date: "2026-05-13"
+image_url: "https://example.com/cards/2026-bowman/9.jpg"

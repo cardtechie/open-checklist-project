@@ -1,0 +1,19 @@
+number: "4"
+uuid: "21f1bf1c-5ee4-487c-9916-3931b1e41160"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "Caitlin Clark"
+    role: "Player"
+    team: "Chicago Cubs"
+subset: "Donruss Ballpark Stars Signatures"
+card_name: "Caitlin Clark - Donruss Ballpark Stars Signatures"
+description: "Autographed Donruss Ballpark Stars Signatures card featuring Caitlin Clark."
+series: "2026 Donruss"
+rookie_card: false
+autograph: true
+relic: false
+serial_numbered: false
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/donruss-ballpark-stars-signatures-4.jpg"

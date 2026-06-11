@@ -1,0 +1,19 @@
+number: "HA-30"
+uuid: "a864598f-2541-428c-a80b-6e8855172b00"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-topps-series-2"
+subjects:
+  - name: "Sammy Sosa"
+    role: "Player"
+    team: "Chicago Cubs"
+subset: "Home Field"
+card_name: "Sammy Sosa - Home Field"
+description: "Home Field card featuring Sammy Sosa."
+series: "2026 Topps Baseball"
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: false
+release_date: "2026-06-11"
+image_url: "https://example.com/cards/2026-topps-series-2/home-field-HA-30.jpg"

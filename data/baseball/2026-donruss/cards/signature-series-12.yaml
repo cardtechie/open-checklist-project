@@ -1,0 +1,19 @@
+number: "12"
+uuid: "c335a26b-f976-417b-b22a-fe378623b7e9"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "Cam Smith"
+    role: "Player"
+    team: "Houston Astros"
+subset: "Signature Series"
+card_name: "Cam Smith - Signature Series"
+description: "Autographed Signature Series card featuring Cam Smith."
+series: "2026 Donruss"
+rookie_card: false
+autograph: true
+relic: false
+serial_numbered: false
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/signature-series-12.jpg"

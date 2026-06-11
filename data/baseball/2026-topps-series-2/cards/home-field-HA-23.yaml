@@ -1,0 +1,19 @@
+number: "HA-23"
+uuid: "b40f2148-9bb2-44f5-9c60-372874ae9627"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-topps-series-2"
+subjects:
+  - name: "Mark McGwire"
+    role: "Player"
+    team: "St. Louis Cardinals"
+subset: "Home Field"
+card_name: "Mark McGwire - Home Field"
+description: "Home Field card featuring Mark McGwire."
+series: "2026 Topps Baseball"
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: false
+release_date: "2026-06-11"
+image_url: "https://example.com/cards/2026-topps-series-2/home-field-HA-23.jpg"

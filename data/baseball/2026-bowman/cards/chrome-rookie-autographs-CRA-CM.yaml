@@ -1,0 +1,18 @@
+number: "CRA-CM"
+uuid: "5dfa7a6d-b412-4ee8-be59-dbfe034e05fd"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-bowman"
+subjects:
+  - name: "Christian Moore"
+    role: "Player"
+    team: "Los Angeles Angels"
+subset: "Chrome Rookie Autographs"
+card_name: "Christian Moore - Chrome Rookie Autographs"
+description: "Autographed Chrome Rookie Autographs card featuring Christian Moore."
+series: "2026 Bowman"
+rookie_card: false
+autograph: true
+serial_numbered: false
+release_date: "2026-05-13"
+image_url: "https://example.com/cards/2026-bowman/chrome-rookie-autographs-CRA-CM.jpg"

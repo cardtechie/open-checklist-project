@@ -1,0 +1,18 @@
+number: "BCP-123"
+uuid: "dcf32249-0cf7-4919-b2a5-86b01a4aaa05"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-bowman"
+subjects:
+  - name: "JR Ritchie"
+    role: "Player"
+    team: "Atlanta Braves"
+subset: "Chrome Prospects"
+card_name: "JR Ritchie - Chrome Prospects"
+description: "Chrome Prospects card featuring JR Ritchie."
+series: "2026 Bowman"
+rookie_card: false
+autograph: false
+serial_numbered: false
+release_date: "2026-05-13"
+image_url: "https://example.com/cards/2026-bowman/chrome-prospects-BCP-123.jpg"

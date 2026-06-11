@@ -1,0 +1,18 @@
+number: "BCP-46"
+uuid: "6cac2899-11a5-472c-99a4-47a2baf88f53"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-bowman"
+subjects:
+  - name: "Charlie Condon"
+    role: "Player"
+    team: "Colorado Rockies"
+subset: "Chrome Prospects"
+card_name: "Charlie Condon - Chrome Prospects"
+description: "Chrome Prospects card featuring Charlie Condon."
+series: "2026 Bowman"
+rookie_card: false
+autograph: false
+serial_numbered: false
+release_date: "2026-05-13"
+image_url: "https://example.com/cards/2026-bowman/chrome-prospects-BCP-46.jpg"

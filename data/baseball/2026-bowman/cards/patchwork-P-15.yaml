@@ -1,0 +1,18 @@
+number: "P-15"
+uuid: "9d8e16b1-e573-4dfa-ae2b-416cc9b9507d"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-bowman"
+subjects:
+  - name: "Juan Soto"
+    role: "Player"
+    team: "New York Mets"
+subset: "Patchwork"
+card_name: "Juan Soto - Patchwork"
+description: "Patchwork card featuring Juan Soto."
+series: "2026 Bowman"
+rookie_card: false
+autograph: false
+serial_numbered: false
+release_date: "2026-05-13"
+image_url: "https://example.com/cards/2026-bowman/patchwork-P-15.jpg"

@@ -1,0 +1,18 @@
+number: "32"
+uuid: "1be8099a-5892-49ac-a2c5-b95e04f2421d"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "Nolan Ryan"
+    role: "Player"
+    team: "Texas Rangers"
+card_name: "Nolan Ryan - Base"
+description: "Base card featuring Nolan Ryan."
+series: "2026 Donruss"
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: false
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/32.jpg"

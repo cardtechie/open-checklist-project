@@ -1,0 +1,23 @@
+number: "WMCP-CRM"
+uuid: "be235b25-6055-4ad7-95e6-1cc4f46dcb56"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2025-26-topps-definitive-collection"
+subjects:
+  - name: "Willie Mays"
+    role: "Player"
+    team: "San Francisco Giants"
+  - name: "Brandon Crawford"
+    role: "Player"
+    team: "St. Louis Cardinals"
+subset: "Willie Mays Commemorative Patches"
+card_name: "Willie Mays / Brandon Crawford - Willie Mays Commemorative Patches"
+description: "Willie Mays Commemorative Patches memorabilia card featuring Willie Mays / Brandon Crawford."
+series: "Topps Definitive Collection"
+print_run: 50
+rookie_card: false
+autograph: false
+relic: true
+serial_numbered: true
+release_date: "2026-04-29"
+image_url: "https://example.com/cards/2025-26-topps-definitive-collection/willie-mays-commemorative-patches-WMCP-CRM.jpg"

@@ -1,0 +1,19 @@
+number: "UR-2"
+uuid: "ede39e7e-b71a-42af-9750-43f1ed895864"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-bowman"
+subjects:
+  - name: "Cam Schlittler"
+    role: "Player"
+    team: "New York Yankees"
+subset: "Under The Radar"
+card_name: "Cam Schlittler - Under The Radar"
+description: "Under The Radar card featuring Cam Schlittler."
+series: "2026 Bowman"
+print_run: 80900
+rookie_card: false
+autograph: false
+serial_numbered: false
+release_date: "2026-05-13"
+image_url: "https://example.com/cards/2026-bowman/under-the-radar-UR-2.jpg"

@@ -1,0 +1,19 @@
+number: "ES-13"
+uuid: "e3b2a065-8c05-4a36-af39-a3b13274816b"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-bowman"
+subjects:
+  - name: "Ethan Holliday"
+    role: "Player"
+    team: "Colorado Rockies"
+subset: "Electric Sluggers"
+card_name: "Ethan Holliday - Electric Sluggers"
+description: "Electric Sluggers card featuring Ethan Holliday."
+series: "2026 Bowman"
+print_run: 69625
+rookie_card: false
+autograph: false
+serial_numbered: false
+release_date: "2026-05-13"
+image_url: "https://example.com/cards/2026-bowman/electric-sluggers-ES-13.jpg"

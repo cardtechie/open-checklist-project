@@ -1,0 +1,18 @@
+number: "BCP-79"
+uuid: "dd1ba47f-df9d-42a9-be5e-697744687f88"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-bowman"
+subjects:
+  - name: "Esteban Mejia"
+    role: "Player"
+    team: "Baltimore Orioles"
+subset: "Chrome Prospects"
+card_name: "Esteban Mejia - Chrome Prospects"
+description: "Chrome Prospects card featuring Esteban Mejia."
+series: "2026 Bowman"
+rookie_card: false
+autograph: false
+serial_numbered: false
+release_date: "2026-05-13"
+image_url: "https://example.com/cards/2026-bowman/chrome-prospects-BCP-79.jpg"

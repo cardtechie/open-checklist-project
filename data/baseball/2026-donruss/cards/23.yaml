@@ -1,0 +1,18 @@
+number: "23"
+uuid: "9a696fe9-0a12-4f34-86c7-4182067bf7a0"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "Randy Johnson"
+    role: "Player"
+    team: "Seattle Mariners"
+card_name: "Randy Johnson - Base"
+description: "Base card featuring Randy Johnson."
+series: "2026 Donruss"
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: false
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/23.jpg"

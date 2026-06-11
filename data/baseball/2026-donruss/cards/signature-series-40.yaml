@@ -1,0 +1,19 @@
+number: "40"
+uuid: "b078fd10-4fd2-4bcc-a149-15ae6c0ab4d6"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "Aiden May"
+    role: "Player"
+    team: "Miami Marlins"
+subset: "Signature Series"
+card_name: "Aiden May - Signature Series"
+description: "Autographed Signature Series card featuring Aiden May."
+series: "2026 Donruss"
+rookie_card: false
+autograph: true
+relic: false
+serial_numbered: false
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/signature-series-40.jpg"

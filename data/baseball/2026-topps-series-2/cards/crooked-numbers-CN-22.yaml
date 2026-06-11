@@ -1,0 +1,19 @@
+number: "CN-22"
+uuid: "c712818d-8f7e-46e4-9211-8ddde524a098"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-topps-series-2"
+subjects:
+  - name: "Babe Ruth"
+    role: "Player"
+    team: "New York Yankees"
+subset: "Crooked Numbers"
+card_name: "Babe Ruth - Crooked Numbers"
+description: "Crooked Numbers card featuring Babe Ruth."
+series: "2026 Topps Baseball"
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: false
+release_date: "2026-06-11"
+image_url: "https://example.com/cards/2026-topps-series-2/crooked-numbers-CN-22.jpg"

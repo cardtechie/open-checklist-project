@@ -1,0 +1,19 @@
+number: "UR-4"
+uuid: "501f779c-68dd-49ed-8cbc-2501ff781147"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-bowman"
+subjects:
+  - name: "Colt Emerson"
+    role: "Player"
+    team: "Seattle Mariners"
+subset: "Under The Radar"
+card_name: "Colt Emerson - Under The Radar"
+description: "Under The Radar card featuring Colt Emerson."
+series: "2026 Bowman"
+print_run: 80900
+rookie_card: false
+autograph: false
+serial_numbered: false
+release_date: "2026-05-13"
+image_url: "https://example.com/cards/2026-bowman/under-the-radar-UR-4.jpg"

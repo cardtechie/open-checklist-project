@@ -1,0 +1,25 @@
+number: "TCTP-ALS"
+uuid: "bb524f7d-7c31-4849-a3fa-ec9e772a4c66"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2025-26-topps-transcendent"
+subjects:
+  - name: "Francisco Lindor"
+    role: "Player"
+    team: "New York Mets"
+  - name: "Juan Soto"
+    role: "Player"
+    team: "New York Mets"
+  - name: "Pete Alonso"
+    role: "Player"
+    team: "New York Mets"
+subset: "Transcendent Collection Triple Patches"
+card_name: "Francisco Lindor / Juan Soto / Pete Alonso - Transcendent Collection Triple Patches"
+description: "Transcendent Collection Triple Patches memorabilia card featuring Francisco Lindor / Juan Soto / Pete Alonso."
+series: "Topps Transcendent"
+rookie_card: false
+autograph: false
+relic: true
+serial_numbered: false
+release_date: "2026-04-01"
+image_url: "https://example.com/cards/2025-26-topps-transcendent/transcendent-collection-triple-patches-TCTP-ALS.jpg"

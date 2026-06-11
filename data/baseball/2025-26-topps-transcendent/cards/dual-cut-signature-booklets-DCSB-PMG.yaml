@@ -1,0 +1,26 @@
+number: "DCSB-PMG"
+uuid: "88f23052-1577-4a26-8d39-847c43a30a0a"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2025-26-topps-transcendent"
+subjects:
+  - name: "Bob Gibson"
+    role: "Player"
+    team: "St. Louis Cardinals"
+  - name: "Stan Musial"
+    role: "Player"
+    team: "St. Louis Cardinals"
+  - name: "Albert Pujols"
+    role: "Player"
+    team: "St. Louis Cardinals"
+subset: "Dual Cut Signature Booklets"
+card_name: "Bob Gibson / Stan Musial / Albert Pujols - Dual Cut Signature Booklets"
+description: "Autographed Dual Cut Signature Booklets card featuring Bob Gibson / Stan Musial / Albert Pujols."
+series: "Topps Transcendent"
+print_run: 1
+rookie_card: false
+autograph: true
+relic: false
+serial_numbered: true
+release_date: "2026-04-01"
+image_url: "https://example.com/cards/2025-26-topps-transcendent/dual-cut-signature-booklets-DCSB-PMG.jpg"

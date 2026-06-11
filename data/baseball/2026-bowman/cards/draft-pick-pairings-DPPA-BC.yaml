@@ -1,0 +1,22 @@
+number: "DPPA-BC"
+uuid: "a68c3cfc-0a18-48da-ae7d-8c27ed023243"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-bowman"
+subjects:
+  - name: "Dylan Crews"
+    role: "Player"
+    team: "Washington Nationals"
+  - name: "Alex Bregman"
+    role: "Player"
+    team: "Houston Astros"
+subset: "Draft Pick Pairings"
+card_name: "Dylan Crews / Alex Bregman - Draft Pick Pairings"
+description: "Draft Pick Pairings card featuring Dylan Crews / Alex Bregman."
+series: "2026 Bowman"
+print_run: 25
+rookie_card: false
+autograph: false
+serial_numbered: true
+release_date: "2026-05-13"
+image_url: "https://example.com/cards/2026-bowman/draft-pick-pairings-DPPA-BC.jpg"

@@ -1,0 +1,22 @@
+number: "DPPA-WC"
+uuid: "c9ff8790-b558-4f4a-a1d8-0c1dff8eaed6"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-bowman"
+subjects:
+  - name: "Jac Caglianone"
+    role: "Player"
+    team: "Kansas City Royals"
+  - name: "Jacob Wilson"
+    role: "Player"
+    team: "Athletics"
+subset: "Draft Pick Pairings"
+card_name: "Jac Caglianone / Jacob Wilson - Draft Pick Pairings"
+description: "Draft Pick Pairings card featuring Jac Caglianone / Jacob Wilson."
+series: "2026 Bowman"
+print_run: 25
+rookie_card: false
+autograph: false
+serial_numbered: true
+release_date: "2026-05-13"
+image_url: "https://example.com/cards/2026-bowman/draft-pick-pairings-DPPA-WC.jpg"

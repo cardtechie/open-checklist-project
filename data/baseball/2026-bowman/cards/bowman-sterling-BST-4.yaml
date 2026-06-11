@@ -1,0 +1,19 @@
+number: "BST-4"
+uuid: "34e29fb8-1791-47b6-9e72-25a90d4a506e"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-bowman"
+subjects:
+  - name: "Aaron Judge"
+    role: "Player"
+    team: "New York Yankees"
+subset: "Bowman Sterling"
+card_name: "Aaron Judge - Bowman Sterling"
+description: "Bowman Sterling card featuring Aaron Judge."
+series: "2026 Bowman"
+print_run: 107800
+rookie_card: false
+autograph: false
+serial_numbered: false
+release_date: "2026-05-13"
+image_url: "https://example.com/cards/2026-bowman/bowman-sterling-BST-4.jpg"

@@ -1,0 +1,19 @@
+number: "10"
+uuid: "c0365994-95d0-4a49-ae31-5a3135334852"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "Payton Tolle"
+    role: "Player"
+    team: "Boston Red Sox"
+subset: "Jersey Kings"
+card_name: "Payton Tolle - Jersey Kings"
+description: "Jersey Kings memorabilia card featuring Payton Tolle."
+series: "2026 Donruss"
+rookie_card: false
+autograph: false
+relic: true
+serial_numbered: false
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/jersey-kings-10.jpg"

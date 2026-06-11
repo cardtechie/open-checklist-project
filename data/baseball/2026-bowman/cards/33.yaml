@@ -1,0 +1,17 @@
+number: "33"
+uuid: "670dc478-7017-4541-8f3c-1020c763fd7f"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-bowman"
+subjects:
+  - name: "Brandon Sproat"
+    role: "Player"
+    team: "New York Mets"
+card_name: "Brandon Sproat - Base"
+description: "Base card featuring Brandon Sproat."
+series: "2026 Bowman"
+rookie_card: true
+autograph: false
+serial_numbered: false
+release_date: "2026-05-13"
+image_url: "https://example.com/cards/2026-bowman/33.jpg"

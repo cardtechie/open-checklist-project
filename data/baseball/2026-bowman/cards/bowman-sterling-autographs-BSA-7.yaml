@@ -1,0 +1,19 @@
+number: "BSA-7"
+uuid: "036fa729-3f72-486d-bec7-0718ae6f283f"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-bowman"
+subjects:
+  - name: "Chase Burns"
+    role: "Player"
+    team: "Cincinnati Reds"
+subset: "Bowman Sterling Autographs"
+card_name: "Chase Burns - Bowman Sterling Autographs"
+description: "Autographed Bowman Sterling Autographs card featuring Chase Burns."
+series: "2026 Bowman"
+print_run: 150
+rookie_card: false
+autograph: true
+serial_numbered: true
+release_date: "2026-05-13"
+image_url: "https://example.com/cards/2026-bowman/bowman-sterling-autographs-BSA-7.jpg"

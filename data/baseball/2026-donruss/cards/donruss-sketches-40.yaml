@@ -1,0 +1,20 @@
+number: "40"
+uuid: "2142be1c-eb23-4544-9730-8f336770133a"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "Matt Shaw"
+    role: "Player"
+    team: "Chicago Cubs"
+subset: "Donruss Sketches"
+card_name: "Matt Shaw - Donruss Sketches"
+description: "Donruss Sketches card featuring Matt Shaw."
+series: "2026 Donruss"
+print_run: 1
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: true
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/donruss-sketches-40.jpg"

@@ -1,0 +1,18 @@
+number: "BP-123"
+uuid: "bda6b39f-4b8f-426e-809c-f100611d3348"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-bowman"
+subjects:
+  - name: "JR Ritchie"
+    role: "Player"
+    team: "Atlanta Braves"
+subset: "Base Prospects"
+card_name: "JR Ritchie - Base Prospects"
+description: "Base Prospects card featuring JR Ritchie."
+series: "2026 Bowman"
+rookie_card: false
+autograph: false
+serial_numbered: false
+release_date: "2026-05-13"
+image_url: "https://example.com/cards/2026-bowman/base-prospects-BP-123.jpg"

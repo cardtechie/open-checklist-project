@@ -1,0 +1,18 @@
+number: "BS-2"
+uuid: "b23bdebd-9e58-4875-af67-7aa4b5e844aa"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-bowman"
+subjects:
+  - name: "Nolan McLean"
+    role: "Player"
+    team: "New York Mets"
+subset: "Bowman Spotlights"
+card_name: "Nolan McLean - Bowman Spotlights"
+description: "Bowman Spotlights card featuring Nolan McLean."
+series: "2026 Bowman"
+rookie_card: false
+autograph: false
+serial_numbered: false
+release_date: "2026-05-13"
+image_url: "https://example.com/cards/2026-bowman/bowman-spotlights-BS-2.jpg"

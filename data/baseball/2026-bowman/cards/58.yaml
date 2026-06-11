@@ -1,0 +1,17 @@
+number: "58"
+uuid: "48ede7bb-9448-45bb-a65d-108fe29d6be6"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-bowman"
+subjects:
+  - name: "Bryce Eldridge"
+    role: "Player"
+    team: "San Francisco Giants"
+card_name: "Bryce Eldridge - Base"
+description: "Base card featuring Bryce Eldridge."
+series: "2026 Bowman"
+rookie_card: true
+autograph: false
+serial_numbered: false
+release_date: "2026-05-13"
+image_url: "https://example.com/cards/2026-bowman/58.jpg"

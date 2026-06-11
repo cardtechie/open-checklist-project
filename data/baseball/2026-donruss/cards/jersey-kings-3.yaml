@@ -1,0 +1,19 @@
+number: "3"
+uuid: "3aacde0f-2a47-45bf-aa9c-4540c3f4ce72"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "Hye-Seong Kim"
+    role: "Player"
+    team: "Los Angeles Dodgers"
+subset: "Jersey Kings"
+card_name: "Hye-Seong Kim - Jersey Kings"
+description: "Jersey Kings memorabilia card featuring Hye-Seong Kim."
+series: "2026 Donruss"
+rookie_card: false
+autograph: false
+relic: true
+serial_numbered: false
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/jersey-kings-3.jpg"

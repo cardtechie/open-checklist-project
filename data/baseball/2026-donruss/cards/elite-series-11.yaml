@@ -1,0 +1,19 @@
+number: "11"
+uuid: "3131354d-37e2-4e23-9b0c-d3cdfe1b9d07"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "Robinson Cano"
+    role: "Player"
+    team: "New York Yankees"
+subset: "Elite Series"
+card_name: "Robinson Cano - Elite Series"
+description: "Elite Series card featuring Robinson Cano."
+series: "2026 Donruss"
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: false
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/elite-series-11.jpg"

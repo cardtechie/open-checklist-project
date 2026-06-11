@@ -1,0 +1,22 @@
+number: "DPPA-WL"
+uuid: "e4a81101-7d08-4c96-821c-efab0e1c998d"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-bowman"
+subjects:
+  - name: "Dave Winfield"
+    role: "Player"
+    team: "San Diego Padres"
+  - name: "Barry Larkin"
+    role: "Player"
+    team: "Cincinnati Reds"
+subset: "Draft Pick Pairings"
+card_name: "Dave Winfield / Barry Larkin - Draft Pick Pairings"
+description: "Draft Pick Pairings card featuring Dave Winfield / Barry Larkin."
+series: "2026 Bowman"
+print_run: 25
+rookie_card: false
+autograph: false
+serial_numbered: true
+release_date: "2026-05-13"
+image_url: "https://example.com/cards/2026-bowman/draft-pick-pairings-DPPA-WL.jpg"

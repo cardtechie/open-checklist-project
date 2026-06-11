@@ -1,0 +1,17 @@
+number: "81"
+uuid: "9fb886c9-e6c8-4b9d-8489-4566cc58cfae"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-bowman"
+subjects:
+  - name: "Mookie Betts"
+    role: "Player"
+    team: "Los Angeles Dodgers"
+card_name: "Mookie Betts - Base"
+description: "Base card featuring Mookie Betts."
+series: "2026 Bowman"
+rookie_card: false
+autograph: false
+serial_numbered: false
+release_date: "2026-05-13"
+image_url: "https://example.com/cards/2026-bowman/81.jpg"

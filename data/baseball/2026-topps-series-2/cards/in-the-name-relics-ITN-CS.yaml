@@ -1,0 +1,20 @@
+number: "ITN-CS"
+uuid: "f346a166-7f94-4f71-9425-157cfb71f3fb"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-topps-series-2"
+subjects:
+  - name: "Chris Sale"
+    role: "Player"
+    team: "Atlanta Braves"
+subset: "In The Name Relics"
+card_name: "Chris Sale - In The Name Relics"
+description: "In The Name Relics memorabilia card featuring Chris Sale."
+series: "2026 Topps Baseball"
+print_run: 1
+rookie_card: false
+autograph: false
+relic: true
+serial_numbered: true
+release_date: "2026-06-11"
+image_url: "https://example.com/cards/2026-topps-series-2/in-the-name-relics-ITN-CS.jpg"

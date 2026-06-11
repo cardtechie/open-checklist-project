@@ -1,0 +1,19 @@
+number: "10"
+uuid: "2a300b8a-95d5-4024-aa1b-8d794e1380de"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "Ryan Zimmerman"
+    role: "Player"
+    team: "Washington Nationals"
+subset: "Signature Series"
+card_name: "Ryan Zimmerman - Signature Series"
+description: "Autographed Signature Series card featuring Ryan Zimmerman."
+series: "2026 Donruss"
+rookie_card: false
+autograph: true
+relic: false
+serial_numbered: false
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/signature-series-10.jpg"

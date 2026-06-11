@@ -1,0 +1,19 @@
+number: "4"
+uuid: "cc7aa585-d966-4e4e-92e8-9e2af90fd1de"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "Bryce Eldridge"
+    role: "Player"
+    team: "San Francisco Giants"
+subset: "Jersey Kings"
+card_name: "Bryce Eldridge - Jersey Kings"
+description: "Jersey Kings memorabilia card featuring Bryce Eldridge."
+series: "2026 Donruss"
+rookie_card: false
+autograph: false
+relic: true
+serial_numbered: false
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/jersey-kings-4.jpg"

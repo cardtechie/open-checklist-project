@@ -1,0 +1,25 @@
+number: "TCTP-RRM"
+uuid: "05b3f108-7bad-44fc-80aa-bcb09a6f69b1"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2025-26-topps-transcendent"
+subjects:
+  - name: "José Ramírez"
+    role: "Player"
+    team: "Cleveland Guardians"
+  - name: "Austin Riley"
+    role: "Player"
+    team: "Atlanta Braves"
+  - name: "Manny Machado"
+    role: "Player"
+    team: "San Diego Padres"
+subset: "Transcendent Collection Triple Patches"
+card_name: "José Ramírez / Austin Riley / Manny Machado - Transcendent Collection Triple Patches"
+description: "Transcendent Collection Triple Patches memorabilia card featuring José Ramírez / Austin Riley / Manny Machado."
+series: "Topps Transcendent"
+rookie_card: false
+autograph: false
+relic: true
+serial_numbered: false
+release_date: "2026-04-01"
+image_url: "https://example.com/cards/2025-26-topps-transcendent/transcendent-collection-triple-patches-TCTP-RRM.jpg"
