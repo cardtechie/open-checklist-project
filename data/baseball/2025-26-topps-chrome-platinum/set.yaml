@@ -1,0 +1,41 @@
+uuid: e032a059-f1be-4da9-afe0-e2c12a663f20
+set_id: "2025-26-topps-chrome-platinum"
+name: "2025-26 Topps Chrome Platinum Anniversary"
+genre: "Sports"
+category: ["MLB"]
+sports: ["Baseball"]
+season: "2025-26"
+years: [2025, 2026]
+series: "Topps Chrome Platinum Anniversary"
+release_date: "2026-06-05"
+manufacturer: "Topps"
+card_count: 970
+description: "2025-26 Topps Chrome Platinum Anniversary is a 500-card set, released June 5th, 2026. The brand returns after a one-year absence. All cards are on chrome stock and are done in the style of the 1955 Topps set."
+image_url: "https://example.com/images/2025-26-topps-chrome-platinum.jpg"
+metadata:
+  language: "en"
+  year: 2026
+  source_name: "BaseballCardpedia"
+  source_url: "https://baseballcardpedia.com/index.php/2025-26_Topps_Chrome_Platinum"
+  source_file: "import/2025-Topps-Chrome-Platinum-Baseball-Checklist.xlsx"
+  subsets:
+    - name: "Base"
+      card_count: 500
+    - name: "Base - Image Variations"
+      card_count: 40
+    - name: "Base - City Variations"
+      card_count: 80
+    - name: "Chrome Platinum Autographs"
+      card_count: 178
+    - name: "1955 Topps City Variations Autographs"
+      card_count: 92
+    - name: "1955 World Series"
+      card_count: 10
+    - name: "1955 Topps Rails And Sails"
+      card_count: 20
+    - name: "1955 Topps Doubleheaders"
+      card_count: 20
+    - name: "1955 Cards That Never Were"
+      card_count: 20
+    - name: "1955 Topps Employee Super Short Prints"
+      card_count: 10

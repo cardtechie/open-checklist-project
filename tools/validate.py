@@ -11,7 +11,16 @@ DATA_DIR = Path("data")
 
 def load_schema(schema_file):
     with open(schema_file, "r") as f:
-        return yaml.safe_load(f)
+        schema = yaml.safe_load(f)
+
+    # Windows checkouts without symlink support can read schema symlinks as
+    # plain files containing targets like "v0.2/schema.yaml".
+    if isinstance(schema, str) and schema.endswith((".yaml", ".yml")):
+        target = schema_file.parent / schema
+        with open(target, "r") as f:
+            schema = yaml.safe_load(f)
+
+    return schema
 
 def validate_file(file_path, schema):
     with open(file_path, "r") as f:
