@@ -1,0 +1,20 @@
+number: "ITN-MT"
+uuid: "5756588f-b404-48b4-9485-42ab5efd5220"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-topps-series-2"
+subjects:
+  - name: "Mike Trout"
+    role: "Player"
+    team: "Los Angeles Angels"
+subset: "In The Name Relics"
+card_name: "Mike Trout - In The Name Relics"
+description: "In The Name Relics memorabilia card featuring Mike Trout."
+series: "2026 Topps Baseball"
+print_run: 1
+rookie_card: false
+autograph: false
+relic: true
+serial_numbered: true
+release_date: "2026-06-11"
+image_url: "https://example.com/cards/2026-topps-series-2/in-the-name-relics-ITN-MT.jpg"

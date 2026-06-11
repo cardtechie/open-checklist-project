@@ -1,0 +1,17 @@
+number: "7"
+uuid: "de3f1bbe-531f-4e1c-93bb-a54da2754342"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-bowman"
+subjects:
+  - name: "Bryce Harper"
+    role: "Player"
+    team: "Philadelphia Phillies"
+card_name: "Bryce Harper - Base"
+description: "Base card featuring Bryce Harper."
+series: "2026 Bowman"
+rookie_card: false
+autograph: false
+serial_numbered: false
+release_date: "2026-05-13"
+image_url: "https://example.com/cards/2026-bowman/7.jpg"

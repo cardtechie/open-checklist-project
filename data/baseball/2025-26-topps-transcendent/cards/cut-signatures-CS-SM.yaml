@@ -1,0 +1,20 @@
+number: "CS-SM"
+uuid: "cd2e8689-86b9-4336-97a4-d0130eff5dd8"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2025-26-topps-transcendent"
+subjects:
+  - name: "Stan Musial"
+    role: "Player"
+    team: "St. Louis Cardinals"
+subset: "Cut Signatures"
+card_name: "Stan Musial - Cut Signatures"
+description: "Autographed Cut Signatures card featuring Stan Musial."
+series: "Topps Transcendent"
+print_run: 1
+rookie_card: false
+autograph: true
+relic: false
+serial_numbered: true
+release_date: "2026-04-01"
+image_url: "https://example.com/cards/2025-26-topps-transcendent/cut-signatures-CS-SM.jpg"

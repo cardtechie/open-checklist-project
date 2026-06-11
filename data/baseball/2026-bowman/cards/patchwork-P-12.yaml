@@ -1,0 +1,18 @@
+number: "P-12"
+uuid: "5444ab11-edb4-45be-8f87-308522504fd6"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-bowman"
+subjects:
+  - name: "Ichiro"
+    role: "Player"
+    team: "Seattle Mariners"
+subset: "Patchwork"
+card_name: "Ichiro - Patchwork"
+description: "Patchwork card featuring Ichiro."
+series: "2026 Bowman"
+rookie_card: false
+autograph: false
+serial_numbered: false
+release_date: "2026-05-13"
+image_url: "https://example.com/cards/2026-bowman/patchwork-P-12.jpg"

@@ -1,0 +1,19 @@
+number: "500"
+uuid: "1a4a4d21-c985-499c-88b3-a422bcfa55b4"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-topps-series-2"
+subjects:
+  - name: "Shohei Ohtani"
+    role: "Player"
+    team: "Los Angeles Dodgers"
+subset: "Real One Relics"
+card_name: "Shohei Ohtani - Real One Relics"
+description: "Real One Relics memorabilia card featuring Shohei Ohtani."
+series: "2026 Topps Baseball"
+rookie_card: false
+autograph: false
+relic: true
+serial_numbered: false
+release_date: "2026-06-11"
+image_url: "https://example.com/cards/2026-topps-series-2/real-one-relics-500.jpg"

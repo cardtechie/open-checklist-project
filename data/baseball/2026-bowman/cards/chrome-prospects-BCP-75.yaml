@@ -1,0 +1,18 @@
+number: "BCP-75"
+uuid: "2b0f87b0-18d2-4b1e-9e4b-a6228e6be394"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-bowman"
+subjects:
+  - name: "Juan Torres"
+    role: "Player"
+    team: "New York Yankees"
+subset: "Chrome Prospects"
+card_name: "Juan Torres - Chrome Prospects"
+description: "Chrome Prospects card featuring Juan Torres."
+series: "2026 Bowman"
+rookie_card: false
+autograph: false
+serial_numbered: false
+release_date: "2026-05-13"
+image_url: "https://example.com/cards/2026-bowman/chrome-prospects-BCP-75.jpg"

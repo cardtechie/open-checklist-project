@@ -1,0 +1,25 @@
+number: "TCTP-MLS"
+uuid: "76336fd8-a44c-495f-a181-1ca37fb4aa33"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2025-26-topps-transcendent"
+subjects:
+  - name: "Willie Mays"
+    role: "Player"
+    team: "New York Mets"
+  - name: "Juan Soto"
+    role: "Player"
+    team: "New York Mets"
+  - name: "Francisco Lindor"
+    role: "Player"
+    team: "New York Mets"
+subset: "Transcendent Collection Triple Patches"
+card_name: "Willie Mays / Juan Soto / Francisco Lindor - Transcendent Collection Triple Patches"
+description: "Transcendent Collection Triple Patches memorabilia card featuring Willie Mays / Juan Soto / Francisco Lindor."
+series: "Topps Transcendent"
+rookie_card: false
+autograph: false
+relic: true
+serial_numbered: false
+release_date: "2026-04-01"
+image_url: "https://example.com/cards/2025-26-topps-transcendent/transcendent-collection-triple-patches-TCTP-MLS.jpg"

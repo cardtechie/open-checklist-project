@@ -1,0 +1,17 @@
+number: "42"
+uuid: "49f96afa-7132-4139-a8bc-6e136720e1ec"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-bowman"
+subjects:
+  - name: "Zach Neto"
+    role: "Player"
+    team: "Los Angeles Angels"
+card_name: "Zach Neto - Base"
+description: "Base card featuring Zach Neto."
+series: "2026 Bowman"
+rookie_card: false
+autograph: false
+serial_numbered: false
+release_date: "2026-05-13"
+image_url: "https://example.com/cards/2026-bowman/42.jpg"

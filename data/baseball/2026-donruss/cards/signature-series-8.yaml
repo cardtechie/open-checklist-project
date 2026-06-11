@@ -1,0 +1,19 @@
+number: "8"
+uuid: "201b50fe-c6d8-4694-8f79-2481f460c5ec"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "Cameron Schlittler"
+    role: "Player"
+    team: "New York Yankees"
+subset: "Signature Series"
+card_name: "Cameron Schlittler - Signature Series"
+description: "Autographed Signature Series card featuring Cameron Schlittler."
+series: "2026 Donruss"
+rookie_card: false
+autograph: true
+relic: false
+serial_numbered: false
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/signature-series-8.jpg"

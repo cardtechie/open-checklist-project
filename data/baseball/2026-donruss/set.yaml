@@ -1,0 +1,83 @@
+uuid: ba33d9cc-5c7f-4ef3-b0ee-325e2fb8c19a
+set_id: "2026-donruss"
+name: "2026 Donruss"
+genre: "Sports"
+category: ["Baseball"]
+sports: ["Baseball"]
+season: "2026"
+years: [2026]
+series: "2026 Donruss"
+release_date: "2026-05-27"
+manufacturer: "Panini"
+card_count: 1199
+description: "2026 Donruss is a 200 card set released May 27th."
+image_url: "https://example.com/images/2026-donruss.jpg"
+metadata:
+  language: "en"
+  year: 2026
+  source_name: "BaseballCardpedia"
+  source_url: "https://baseballcardpedia.com/index.php/2026_Donruss#Checklist"
+  source_file: "import/2026-Donruss-Baseball-Checklist.xlsx"
+  subsets:
+    - name: "Base Set"
+      card_count: 100
+    - name: "Base - Rated Prospects"
+      card_count: 100
+    - name: "Clearly - Rated Prospects"
+      card_count: 100
+    - name: "Base - Optic"
+      card_count: 100
+    - name: "Base - Rated Prospects - Optic"
+      card_count: 100
+    - name: "1986 Donruss Recollection Collection"
+      card_count: 22
+    - name: "Base Rated Prospects Optic Signatures"
+      card_count: 100
+    - name: "Donruss Ballpark Stars Signatures"
+      card_count: 5
+    - name: "Get To Know"
+      card_count: 18
+    - name: "Next Day Autographs"
+      card_count: 36
+    - name: "Retro 1997 Donruss Signature Series Autographs"
+      card_count: 14
+    - name: "Signature Series"
+      card_count: 100
+    - name: "Jersey Kings"
+      card_count: 30
+    - name: "Prospect Jersey Kings"
+      card_count: 40
+    - name: "Retro 1986 Materials"
+      card_count: 29
+    - name: "Alter Ego"
+      card_count: 10
+    - name: "Animations"
+      card_count: 10
+    - name: "Bomb Squad"
+      card_count: 20
+    - name: "Coming Attractions"
+      card_count: 25
+    - name: "Crunch Time"
+      card_count: 20
+    - name: "Diamond Kings"
+      card_count: 30
+    - name: "Diamond Marvels"
+      card_count: 20
+    - name: "Donruss Ballpark Stars"
+      card_count: 5
+    - name: "Donruss Sketches"
+      card_count: 55
+    - name: "Downtown Duos"
+      card_count: 10
+    - name: "Elite Series"
+      card_count: 20
+    - name: "Greetings From"
+      card_count: 20
+    - name: "Night Moves"
+      card_count: 10
+    - name: "Stained Glass"
+      card_count: 20
+    - name: "Unleashed"
+      card_count: 20
+    - name: "Whammy!"
+      card_count: 10

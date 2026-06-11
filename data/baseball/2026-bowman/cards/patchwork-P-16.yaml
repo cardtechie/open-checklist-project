@@ -1,0 +1,18 @@
+number: "P-16"
+uuid: "2b12ab48-7c81-412b-aa73-76df7bba8544"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-bowman"
+subjects:
+  - name: "Manny Machado"
+    role: "Player"
+    team: "San Diego Padres"
+subset: "Patchwork"
+card_name: "Manny Machado - Patchwork"
+description: "Patchwork card featuring Manny Machado."
+series: "2026 Bowman"
+rookie_card: false
+autograph: false
+serial_numbered: false
+release_date: "2026-05-13"
+image_url: "https://example.com/cards/2026-bowman/patchwork-P-16.jpg"

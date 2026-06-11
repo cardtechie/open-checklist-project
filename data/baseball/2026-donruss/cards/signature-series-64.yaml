@@ -1,0 +1,19 @@
+number: "64"
+uuid: "d3395ee3-d649-40aa-8a3e-1f1c12991353"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "David Cone"
+    role: "Player"
+    team: "New York Mets"
+subset: "Signature Series"
+card_name: "David Cone - Signature Series"
+description: "Autographed Signature Series card featuring David Cone."
+series: "2026 Donruss"
+rookie_card: false
+autograph: true
+relic: false
+serial_numbered: false
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/signature-series-64.jpg"

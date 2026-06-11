@@ -1,0 +1,19 @@
+number: "98"
+uuid: "251d6887-9b2d-4fa4-bd58-42d0fe7c65f8"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "Harry Ford"
+    role: "Player"
+    team: "Seattle Mariners"
+subset: "Signature Series"
+card_name: "Harry Ford - Signature Series"
+description: "Autographed Signature Series card featuring Harry Ford."
+series: "2026 Donruss"
+rookie_card: false
+autograph: true
+relic: false
+serial_numbered: false
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/signature-series-98.jpg"

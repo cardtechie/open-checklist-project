@@ -1,0 +1,17 @@
+number: "6"
+uuid: "e3197010-ee77-475f-9240-5188859592aa"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-bowman"
+subjects:
+  - name: "Sal Stewart"
+    role: "Player"
+    team: "Cincinnati Reds"
+card_name: "Sal Stewart - Base"
+description: "Base card featuring Sal Stewart."
+series: "2026 Bowman"
+rookie_card: true
+autograph: false
+serial_numbered: false
+release_date: "2026-05-13"
+image_url: "https://example.com/cards/2026-bowman/6.jpg"

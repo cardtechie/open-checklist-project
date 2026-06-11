@@ -1,0 +1,19 @@
+number: "32"
+uuid: "022e1963-1d2e-40db-84a2-a0b62e04f776"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "Cole Mathis"
+    role: "Player"
+    team: "Chicago Cubs"
+subset: "Signature Series"
+card_name: "Cole Mathis - Signature Series"
+description: "Autographed Signature Series card featuring Cole Mathis."
+series: "2026 Donruss"
+rookie_card: false
+autograph: true
+relic: false
+serial_numbered: false
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/signature-series-32.jpg"

@@ -1,0 +1,25 @@
+number: "TCTP-FAO"
+uuid: "61c06c10-16fd-4a4b-b949-3a47f49db4ce"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2025-26-topps-transcendent"
+subjects:
+  - name: "Freddie Freeman"
+    role: "Player"
+    team: "Los Angeles Dodgers"
+  - name: "Matt Olson"
+    role: "Player"
+    team: "Atlanta Braves"
+  - name: "Pete Alonso"
+    role: "Player"
+    team: "New York Mets"
+subset: "Transcendent Collection Triple Patches"
+card_name: "Freddie Freeman / Matt Olson / Pete Alonso - Transcendent Collection Triple Patches"
+description: "Transcendent Collection Triple Patches memorabilia card featuring Freddie Freeman / Matt Olson / Pete Alonso."
+series: "Topps Transcendent"
+rookie_card: false
+autograph: false
+relic: true
+serial_numbered: false
+release_date: "2026-04-01"
+image_url: "https://example.com/cards/2025-26-topps-transcendent/transcendent-collection-triple-patches-TCTP-FAO.jpg"

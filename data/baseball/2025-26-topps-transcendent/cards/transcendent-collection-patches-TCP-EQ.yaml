@@ -1,0 +1,19 @@
+number: "TCP-EQ"
+uuid: "d15a91ab-15c3-423c-b1dc-f716d51f8785"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2025-26-topps-transcendent"
+subjects:
+  - name: "Edgar Quero"
+    role: "Player"
+    team: "Chicago White Sox"
+subset: "Transcendent Collection Patches"
+card_name: "Edgar Quero - Transcendent Collection Patches"
+description: "Transcendent Collection Patches memorabilia card featuring Edgar Quero."
+series: "Topps Transcendent"
+rookie_card: false
+autograph: false
+relic: true
+serial_numbered: false
+release_date: "2026-04-01"
+image_url: "https://example.com/cards/2025-26-topps-transcendent/transcendent-collection-patches-TCP-EQ.jpg"

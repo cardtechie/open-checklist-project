@@ -1,0 +1,18 @@
+number: "BA-10"
+uuid: "3a247352-3bfc-41ac-bc34-1b5f06cba062"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-bowman"
+subjects:
+  - name: "Manny Ramirez"
+    role: "Player"
+    team: "Boston Red Sox"
+subset: "Anime"
+card_name: "Manny Ramirez - Anime"
+description: "Anime card featuring Manny Ramirez."
+series: "2026 Bowman"
+rookie_card: false
+autograph: false
+serial_numbered: false
+release_date: "2026-05-13"
+image_url: "https://example.com/cards/2026-bowman/anime-BA-10.jpg"

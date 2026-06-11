@@ -1,0 +1,17 @@
+number: "19"
+uuid: "06030c11-6d3f-49b6-923a-afe9f205b7a1"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-bowman"
+subjects:
+  - name: "Kyle Teel"
+    role: "Player"
+    team: "Chicago White Sox"
+card_name: "Kyle Teel - Base"
+description: "Base card featuring Kyle Teel."
+series: "2026 Bowman"
+rookie_card: true
+autograph: false
+serial_numbered: false
+release_date: "2026-05-13"
+image_url: "https://example.com/cards/2026-bowman/19.jpg"

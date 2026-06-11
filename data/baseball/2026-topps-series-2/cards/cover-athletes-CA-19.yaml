@@ -1,0 +1,19 @@
+number: "CA-19"
+uuid: "ef6cd52c-5e97-4006-b314-30f6a3fe108b"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-topps-series-2"
+subjects:
+  - name: "Mike Trout"
+    role: "Player"
+    team: "Los Angeles Angels"
+subset: "Cover Athletes"
+card_name: "Mike Trout - Cover Athletes"
+description: "Cover Athletes card featuring Mike Trout."
+series: "2026 Topps Baseball"
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: false
+release_date: "2026-06-11"
+image_url: "https://example.com/cards/2026-topps-series-2/cover-athletes-CA-19.jpg"

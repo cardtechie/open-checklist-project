@@ -1,0 +1,22 @@
+number: "DPPA-MS"
+uuid: "aee34b1d-3626-4a8b-aba4-c9cb5e3e66d4"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-bowman"
+subjects:
+  - name: "Max Scherzer"
+    role: "Player"
+    team: "Arizona Diamondbacks"
+  - name: "Andrew McCutchen"
+    role: "Player"
+    team: "Pittsburgh Pirates"
+subset: "Draft Pick Pairings"
+card_name: "Max Scherzer / Andrew McCutchen - Draft Pick Pairings"
+description: "Draft Pick Pairings card featuring Max Scherzer / Andrew McCutchen."
+series: "2026 Bowman"
+print_run: 25
+rookie_card: false
+autograph: false
+serial_numbered: true
+release_date: "2026-05-13"
+image_url: "https://example.com/cards/2026-bowman/draft-pick-pairings-DPPA-MS.jpg"

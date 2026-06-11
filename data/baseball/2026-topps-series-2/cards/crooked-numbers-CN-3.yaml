@@ -1,0 +1,19 @@
+number: "CN-3"
+uuid: "99df814e-d023-4fe8-b162-b70153c80b9e"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-topps-series-2"
+subjects:
+  - name: "Juan Soto"
+    role: "Player"
+    team: "New York Mets"
+subset: "Crooked Numbers"
+card_name: "Juan Soto - Crooked Numbers"
+description: "Crooked Numbers card featuring Juan Soto."
+series: "2026 Topps Baseball"
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: false
+release_date: "2026-06-11"
+image_url: "https://example.com/cards/2026-topps-series-2/crooked-numbers-CN-3.jpg"

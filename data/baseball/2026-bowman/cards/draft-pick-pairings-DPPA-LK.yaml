@@ -1,0 +1,22 @@
+number: "DPPA-LK"
+uuid: "2e023ba3-65f0-4d54-b99a-1f23e2042a91"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-bowman"
+subjects:
+  - name: "Wyatt Langford"
+    role: "Player"
+    team: "Texas Rangers"
+  - name: "Nick Kurtz"
+    role: "Player"
+    team: "Athletics"
+subset: "Draft Pick Pairings"
+card_name: "Wyatt Langford / Nick Kurtz - Draft Pick Pairings"
+description: "Draft Pick Pairings card featuring Wyatt Langford / Nick Kurtz."
+series: "2026 Bowman"
+print_run: 25
+rookie_card: false
+autograph: false
+serial_numbered: true
+release_date: "2026-05-13"
+image_url: "https://example.com/cards/2026-bowman/draft-pick-pairings-DPPA-LK.jpg"

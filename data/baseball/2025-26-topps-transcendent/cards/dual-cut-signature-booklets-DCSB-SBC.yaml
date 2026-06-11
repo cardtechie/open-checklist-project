@@ -1,0 +1,26 @@
+number: "DCSB-SBC"
+uuid: "77838900-2b0f-4ed6-a3eb-85ba8f53ef82"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2025-26-topps-transcendent"
+subjects:
+  - name: "Barry Bonds"
+    role: "Player"
+    team: "Pittsburgh Pirates"
+  - name: "Willie Stargell"
+    role: "Player"
+    team: "Pittsburgh Pirates"
+  - name: "Roberto Clemente"
+    role: "Player"
+    team: "Pittsburgh Pirates"
+subset: "Dual Cut Signature Booklets"
+card_name: "Barry Bonds / Willie Stargell / Roberto Clemente - Dual Cut Signature Booklets"
+description: "Autographed Dual Cut Signature Booklets card featuring Barry Bonds / Willie Stargell / Roberto Clemente."
+series: "Topps Transcendent"
+print_run: 1
+rookie_card: false
+autograph: true
+relic: false
+serial_numbered: true
+release_date: "2026-04-01"
+image_url: "https://example.com/cards/2025-26-topps-transcendent/dual-cut-signature-booklets-DCSB-SBC.jpg"

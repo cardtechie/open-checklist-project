@@ -1,0 +1,20 @@
+number: "12"
+uuid: "50d2d85c-19d3-4a3e-aa03-39c34a0a7155"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "Chase DeLauter"
+    role: "Player"
+    team: "Cleveland Guardians"
+subset: "Donruss Sketches"
+card_name: "Chase DeLauter - Donruss Sketches"
+description: "Donruss Sketches card featuring Chase DeLauter."
+series: "2026 Donruss"
+print_run: 1
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: true
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/donruss-sketches-12.jpg"

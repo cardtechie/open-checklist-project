@@ -1,0 +1,19 @@
+number: "ES-1"
+uuid: "0fe06f7f-a8c4-4d39-a70c-4aa5304b9bf0"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-bowman"
+subjects:
+  - name: "Francisco Lindor"
+    role: "Player"
+    team: "New York Mets"
+subset: "Electric Sluggers"
+card_name: "Francisco Lindor - Electric Sluggers"
+description: "Electric Sluggers card featuring Francisco Lindor."
+series: "2026 Bowman"
+print_run: 69625
+rookie_card: false
+autograph: false
+serial_numbered: false
+release_date: "2026-05-13"
+image_url: "https://example.com/cards/2026-bowman/electric-sluggers-ES-1.jpg"

@@ -1,0 +1,19 @@
+number: "15"
+uuid: "a0f0bd8c-2e38-4583-88f6-cd5111529fab"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "Trey Yesavage"
+    role: "Player"
+    team: "Toronto Blue Jays"
+subset: "Jersey Kings"
+card_name: "Trey Yesavage - Jersey Kings"
+description: "Jersey Kings memorabilia card featuring Trey Yesavage."
+series: "2026 Donruss"
+rookie_card: false
+autograph: false
+relic: true
+serial_numbered: false
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/jersey-kings-15.jpg"

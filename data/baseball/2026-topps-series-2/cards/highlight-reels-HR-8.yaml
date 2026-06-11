@@ -1,0 +1,19 @@
+number: "HR-8"
+uuid: "42344145-97bb-400e-860b-c60efeae8476"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-topps-series-2"
+subjects:
+  - name: "Mike Trout"
+    role: "Player"
+    team: "Los Angeles Angels"
+subset: "Highlight Reels"
+card_name: "Mike Trout - Highlight Reels"
+description: "Highlight Reels card featuring Mike Trout."
+series: "2026 Topps Baseball"
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: false
+release_date: "2026-06-11"
+image_url: "https://example.com/cards/2026-topps-series-2/highlight-reels-HR-8.jpg"

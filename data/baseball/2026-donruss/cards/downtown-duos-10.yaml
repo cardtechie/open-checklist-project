@@ -1,0 +1,22 @@
+number: "10"
+uuid: "b75262fe-494a-4a36-9637-5c47a4c21c52"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "Nolan Ryan"
+    role: "Player"
+    team: "New York Mets"
+  - name: "Tom Seaver"
+    role: "Player"
+    team: "New York Mets"
+subset: "Downtown Duos"
+card_name: "Nolan Ryan / Tom Seaver - Downtown Duos"
+description: "Downtown Duos card featuring Nolan Ryan / Tom Seaver."
+series: "2026 Donruss"
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: false
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/downtown-duos-10.jpg"

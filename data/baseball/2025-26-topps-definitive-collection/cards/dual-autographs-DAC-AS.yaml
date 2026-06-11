@@ -1,0 +1,23 @@
+number: "DAC-AS"
+uuid: "ea5606a2-32d5-45b9-a68e-2065b4e6acd7"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2025-26-topps-definitive-collection"
+subjects:
+  - name: "Cam Smith"
+    role: "Player"
+    team: "Houston Astros"
+  - name: "Jose Altuve"
+    role: "Player"
+    team: "Houston Astros"
+subset: "Dual Autographs"
+card_name: "Cam Smith / Jose Altuve - Dual Autographs"
+description: "Autographed Dual Autographs card featuring Cam Smith / Jose Altuve."
+series: "Topps Definitive Collection"
+print_run: 50
+rookie_card: false
+autograph: true
+relic: false
+serial_numbered: true
+release_date: "2026-04-29"
+image_url: "https://example.com/cards/2025-26-topps-definitive-collection/dual-autographs-DAC-AS.jpg"

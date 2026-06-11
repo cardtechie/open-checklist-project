@@ -1,0 +1,19 @@
+number: "23"
+uuid: "3cd860d0-d255-438c-aeab-b5abee8ef36a"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "Luke Keaschall"
+    role: "Player"
+    team: "Minnesota Twins"
+subset: "Jersey Kings"
+card_name: "Luke Keaschall - Jersey Kings"
+description: "Jersey Kings memorabilia card featuring Luke Keaschall."
+series: "2026 Donruss"
+rookie_card: false
+autograph: false
+relic: true
+serial_numbered: false
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/jersey-kings-23.jpg"

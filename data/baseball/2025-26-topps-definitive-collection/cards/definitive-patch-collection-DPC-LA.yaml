@@ -1,0 +1,20 @@
+number: "DPC-LA"
+uuid: "a2456f07-00a5-4723-b55e-5c5a9a0b4c06"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2025-26-topps-definitive-collection"
+subjects:
+  - name: "Luis Arraez"
+    role: "Player"
+    team: "San Diego Padres"
+subset: "Definitive Patch Collection"
+card_name: "Luis Arraez - Definitive Patch Collection"
+description: "Definitive Patch Collection memorabilia card featuring Luis Arraez."
+series: "Topps Definitive Collection"
+print_run: 50
+rookie_card: false
+autograph: false
+relic: true
+serial_numbered: true
+release_date: "2026-04-29"
+image_url: "https://example.com/cards/2025-26-topps-definitive-collection/definitive-patch-collection-DPC-LA.jpg"

@@ -1,0 +1,25 @@
+number: "TCTP-STS"
+uuid: "7bbb18a4-1dab-4006-af6d-4cc094d7f483"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2025-26-topps-transcendent"
+subjects:
+  - name: "Max Scherzer"
+    role: "Player"
+    team: "Washington Nationals"
+  - name: "Juan Soto"
+    role: "Player"
+    team: "Washington Nationals"
+  - name: "Trea Turner"
+    role: "Player"
+    team: "Washington Nationals"
+subset: "Transcendent Collection Triple Patches"
+card_name: "Max Scherzer / Juan Soto / Trea Turner - Transcendent Collection Triple Patches"
+description: "Transcendent Collection Triple Patches memorabilia card featuring Max Scherzer / Juan Soto / Trea Turner."
+series: "Topps Transcendent"
+rookie_card: false
+autograph: false
+relic: true
+serial_numbered: false
+release_date: "2026-04-01"
+image_url: "https://example.com/cards/2025-26-topps-transcendent/transcendent-collection-triple-patches-TCTP-STS.jpg"

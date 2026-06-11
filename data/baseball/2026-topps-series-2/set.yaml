@@ -1,0 +1,158 @@
+uuid: 454adae3-692f-42e6-8f6a-459079498348
+set_id: "2026-topps-series-2"
+name: "2026 Topps Series 2"
+genre: "Sports"
+category: ["MLB"]
+sports: ["Baseball"]
+season: "2026"
+years: [2026]
+series: "2026 Topps Baseball"
+series_number: 2
+release_date: "2026-06-11"
+manufacturer: "Topps"
+card_count: 3468
+description: "2026 Topps is a 700-card set released in two equal series of 350 cards. Series One was issued the week of February 13th. As usual, each 20-pack Hobby box will yield either an autograph or a Relic card while Hobby-exclusive jumbo boxes will yield an autograph, a game-used Relic -- down from the previous year's two."
+image_url: "https://example.com/images/2026-topps-series-2.jpg"
+metadata:
+  language: "en"
+  year: 2026
+  source_name: "BaseballCardpedia"
+  source_url: "https://baseballcardpedia.com/index.php/2026_Topps#Checklist"
+  source_file: "import/2026-Topps-Series-2-Baseball-Checklist.xlsx"
+  subsets:
+    - name: "Base"
+      card_count: 350
+    - name: "Golden Mirror Variations"
+      card_count: 350
+    - name: "Vintage Stock Variations"
+      card_count: 100
+    - name: "Clear Variation"
+      card_count: 100
+    - name: "True Photo Variations"
+      card_count: 100
+    - name: "Team Color Border Variations"
+      card_count: 100
+    - name: "Holiday Variations"
+      card_count: 100
+    - name: "Player Number Variations"
+      card_count: 25
+    - name: "Apple Foil Variations"
+      card_count: 100
+    - name: "Base - Short Print Rookie Cards"
+      card_count: 4
+    - name: "Golden Mirror Legend Variations"
+      card_count: 50
+    - name: "Through The Years Golden Mirror Rookie Cards"
+      card_count: 5
+    - name: "Base - 1952 Variations"
+      card_count: 20
+    - name: "First Pitch Autographs"
+      card_count: 6
+    - name: "Baseball Stars Autographs"
+      card_count: 92
+    - name: "1991 Topps Baseball Autographs"
+      card_count: 90
+    - name: "1991 Topps Baseball All-Star Autographs"
+      card_count: 71
+    - name: "World Champion Autographs"
+      card_count: 14
+    - name: "Postseason Performance Autographs"
+      card_count: 33
+    - name: "Signature Tunes Dual Aurographs"
+      card_count: 2
+    - name: "Cover Athlete Autographs"
+      card_count: 9
+    - name: "Flagship Real One Autographs"
+      card_count: 66
+    - name: "1952 Rookie Variation Autographs"
+      card_count: 19
+    - name: "1991 Topps Baseball Chrome Autographs"
+      card_count: 44
+    - name: "1991 Topps Baseball Chrome All-Star Autographs"
+      card_count: 43
+    - name: "The Flagship Collection - Chrome Autographs"
+      card_count: 63
+    - name: "Highlight Reels Autographs"
+      card_count: 5
+    - name: "75 Years Of Topps Die-Cut Autographs"
+      card_count: 11
+    - name: "Topps Flagship Autograph Patches"
+      card_count: 51
+    - name: "Heavy Lumber Autograph Relics"
+      card_count: 43
+    - name: "Major League Materials Autographs"
+      card_count: 65
+    - name: "Major Legaue Materials Dual Autographs"
+      card_count: 4
+    - name: "City Connect Swatches Autographs"
+      card_count: 56
+    - name: "Rounding The Bases Autographs"
+      card_count: 61
+    - name: "Major League Material"
+      card_count: 98
+    - name: "City Connect Swatch Collection"
+      card_count: 50
+    - name: "Real One Relics"
+      card_count: 45
+    - name: "Rounding The Bases Relics"
+      card_count: 79
+    - name: "1991 Topps Baseball Relics"
+      card_count: 50
+    - name: "1991 Topps Baseball All-Star Relics"
+      card_count: 50
+    - name: "In The Name Relics"
+      card_count: 91
+    - name: "Crooked Numbers"
+      card_count: 25
+    - name: "Glove Work"
+      card_count: 65
+    - name: "First Pitch"
+      card_count: 6
+    - name: "Heavy Lumber"
+      card_count: 25
+    - name: "Home Field"
+      card_count: 20
+    - name: "All Aces"
+      card_count: 10
+    - name: "All Kings"
+      card_count: 15
+    - name: "Highlight Reels"
+      card_count: 10
+    - name: "1991 Topps Baseball"
+      card_count: 50
+    - name: "1991 Topps All-Stars"
+      card_count: 50
+    - name: "1991 Topps Baseball Chrome"
+      card_count: 50
+    - name: "1991 Topps Baseball Chrome All-Stars"
+      card_count: 50
+    - name: "Base - Funko Pop Cards"
+      card_count: 5
+    - name: "Funko Pops"
+      card_count: 5
+    - name: "Oversized 1991 Topps Baseball"
+      card_count: 16
+    - name: "Oversized 2026 Topps Baseball"
+      card_count: 16
+    - name: "Stars Of MLB"
+      card_count: 30
+    - name: "Titans Of The Game"
+      card_count: 20
+    - name: "Swinging With The Stars"
+      card_count: 25
+    - name: "Home Field FanFest"
+      card_count: 1
+    - name: "Cover Athletes"
+      card_count: 10
+    - name: "Bulk Order"
+      card_count: 10
+    - name: "The Flagship Collection"
+      card_count: 90
+    - name: "The Flagship Collection - Chrome"
+      card_count: 90
+    - name: "Diamond Dust"
+      card_count: 10
+    - name: "Fanatics Authentics Redemptions"
+      card_count: 30
+    - name: "Iconic Topps Buyback Cards"
+      card_count: 19

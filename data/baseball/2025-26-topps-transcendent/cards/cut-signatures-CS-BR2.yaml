@@ -1,0 +1,20 @@
+number: "CS-BR2"
+uuid: "f02e36e7-1984-433f-8bd7-b501287a3675"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2025-26-topps-transcendent"
+subjects:
+  - name: "Babe Ruth"
+    role: "Player"
+    team: "Boston Red Sox"
+subset: "Cut Signatures"
+card_name: "Babe Ruth - Cut Signatures"
+description: "Autographed Cut Signatures card featuring Babe Ruth."
+series: "Topps Transcendent"
+print_run: 1
+rookie_card: false
+autograph: true
+relic: false
+serial_numbered: true
+release_date: "2026-04-01"
+image_url: "https://example.com/cards/2025-26-topps-transcendent/cut-signatures-CS-BR2.jpg"

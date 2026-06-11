@@ -1,0 +1,19 @@
+number: "99"
+uuid: "b0e93c76-8d00-4efe-a1c1-33ce881349f9"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "Bronson Arroyo"
+    role: "Player"
+    team: "Boston Red Sox"
+subset: "Signature Series"
+card_name: "Bronson Arroyo - Signature Series"
+description: "Autographed Signature Series card featuring Bronson Arroyo."
+series: "2026 Donruss"
+rookie_card: false
+autograph: true
+relic: false
+serial_numbered: false
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/signature-series-99.jpg"

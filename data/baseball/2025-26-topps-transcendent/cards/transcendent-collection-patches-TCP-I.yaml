@@ -1,0 +1,19 @@
+number: "TCP-I"
+uuid: "25d6cbc4-8614-4452-b2a5-1ffe240fd334"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2025-26-topps-transcendent"
+subjects:
+  - name: "Ichiro"
+    role: "Player"
+    team: "Miami Marlins"
+subset: "Transcendent Collection Patches"
+card_name: "Ichiro - Transcendent Collection Patches"
+description: "Transcendent Collection Patches memorabilia card featuring Ichiro."
+series: "Topps Transcendent"
+rookie_card: false
+autograph: false
+relic: true
+serial_numbered: false
+release_date: "2026-04-01"
+image_url: "https://example.com/cards/2025-26-topps-transcendent/transcendent-collection-patches-TCP-I.jpg"

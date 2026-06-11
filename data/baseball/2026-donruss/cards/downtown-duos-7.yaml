@@ -1,0 +1,22 @@
+number: "7"
+uuid: "45308015-59f6-4202-9f39-c62c24a56e26"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "Aaron Judge"
+    role: "Player"
+    team: "New York Yankees"
+  - name: "Joe DiMaggio"
+    role: "Player"
+    team: "New York Yankees"
+subset: "Downtown Duos"
+card_name: "Aaron Judge / Joe DiMaggio - Downtown Duos"
+description: "Downtown Duos card featuring Aaron Judge / Joe DiMaggio."
+series: "2026 Donruss"
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: false
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/downtown-duos-7.jpg"

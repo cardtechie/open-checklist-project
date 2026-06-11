@@ -1,0 +1,19 @@
+number: "22"
+uuid: "730569a3-c05c-47f8-ab6d-c4a8172b8c87"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "Pedro Martinez"
+    role: "Player"
+    team: "Montreal Expos"
+subset: "Signature Series"
+card_name: "Pedro Martinez - Signature Series"
+description: "Autographed Signature Series card featuring Pedro Martinez."
+series: "2026 Donruss"
+rookie_card: false
+autograph: true
+relic: false
+serial_numbered: false
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/signature-series-22.jpg"

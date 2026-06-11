@@ -1,0 +1,19 @@
+number: "70"
+uuid: "e3c6ddeb-b29c-4fd5-8150-78d2d94d6b1c"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "Ty Floyd"
+    role: "Player"
+    team: "Cincinnati Reds"
+subset: "Signature Series"
+card_name: "Ty Floyd - Signature Series"
+description: "Autographed Signature Series card featuring Ty Floyd."
+series: "2026 Donruss"
+rookie_card: false
+autograph: true
+relic: false
+serial_numbered: false
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/signature-series-70.jpg"

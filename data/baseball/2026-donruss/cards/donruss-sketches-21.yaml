@@ -1,0 +1,20 @@
+number: "21"
+uuid: "dd2e99cd-2271-4771-98b2-bd94f50aa0e7"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "Gavin Kilen"
+    role: "Player"
+    team: "San Francisco Giants"
+subset: "Donruss Sketches"
+card_name: "Gavin Kilen - Donruss Sketches"
+description: "Donruss Sketches card featuring Gavin Kilen."
+series: "2026 Donruss"
+print_run: 1
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: true
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/donruss-sketches-21.jpg"

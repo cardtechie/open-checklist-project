@@ -1,0 +1,19 @@
+number: "42"
+uuid: "683a1589-aa67-4a18-b579-75c40cb6603a"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "Wyatt Sanford"
+    role: "Player"
+    team: "Pittsburgh Pirates"
+subset: "Signature Series"
+card_name: "Wyatt Sanford - Signature Series"
+description: "Autographed Signature Series card featuring Wyatt Sanford."
+series: "2026 Donruss"
+rookie_card: false
+autograph: true
+relic: false
+serial_numbered: false
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/signature-series-42.jpg"

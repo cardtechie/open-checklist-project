@@ -1,0 +1,85 @@
+uuid: 0bc90d45-1dd1-49f7-b77b-340d3dd5ab48
+set_id: "2025-26-topps-transcendent"
+name: "2025-26 Topps Transcendent"
+genre: "Sports"
+category: ["MLB"]
+sports: ["Baseball"]
+season: "2025-26"
+years: [2025, 2026]
+series: "Topps Transcendent"
+release_date: "2026-04-01"
+manufacturer: "Topps"
+card_count: 1140
+description: "2025-26 Topps Transcendent was released April 1st, 2026. Each box contains eight packs of four cards, plus ten additional cards. Each box will also contain the following:"
+image_url: "https://example.com/images/2025-26-topps-transcendent.jpg"
+metadata:
+  language: "en"
+  year: 2026
+  source_name: "BaseballCardpedia"
+  source_url: "https://baseballcardpedia.com/index.php/2025-26_Topps_Transcendent#Checklist"
+  source_file: "import/2025-Topps-Transcendent-Baseball-Checklist.xlsx"
+  subsets:
+    - name: "Base Set"
+      card_count: 100
+    - name: "Base Set - Image Variations"
+      card_count: 99
+    - name: "Transcendent Icons Chrome Autograph"
+      card_count: 61
+    - name: "Transcendent Collection Gold Framed Autographs"
+      card_count: 92
+    - name: "Transcendent Collection Rookie Showcase Autographs"
+      card_count: 41
+    - name: "2025 Rookies Through the Years Autographs"
+      card_count: 81
+    - name: "Through the Years Dual Autographs"
+      card_count: 8
+    - name: "1961 Topps Superfractor Autographs"
+      card_count: 77
+    - name: "1961 Topps All Star Superfractor Autographs"
+      card_count: 27
+    - name: "1961 Topps MVP Superfractor Autographs"
+      card_count: 40
+    - name: "1961 Topps Combos Superfractor Autographs"
+      card_count: 7
+    - name: "Transcendent Autograph Relic"
+      card_count: 51
+    - name: "Transcendent Collection Rookie Showcase Patch Autographs"
+      card_count: 33
+    - name: "MLB Logo Autograph Patch Card"
+      card_count: 32
+    - name: "Transcendent Collection World Series Relic Autograph"
+      card_count: 6
+    - name: "Transcendent Collection World Series Patch Autograph"
+      card_count: 5
+    - name: "Transcendent Collection World Series Logo Patch Autograph"
+      card_count: 5
+    - name: "Transcendent Collection Dual Patch Autograph Variation"
+      card_count: 10
+    - name: "Transcendent Collection Patch Autographs"
+      card_count: 50
+    - name: "Transcendent Collection Jumbo Patch Autographs"
+      card_count: 23
+    - name: "Record Breaking Autograph Relic"
+      card_count: 1
+    - name: "Record Breaking MLB Logo Patch Autographed Relic"
+      card_count: 1
+    - name: "Cut Signature Booklets"
+      card_count: 15
+    - name: "Dual Cut Signature Booklets"
+      card_count: 5
+    - name: "Cut Signatures"
+      card_count: 43
+    - name: "Oversized Quad Cut Signatures"
+      card_count: 1
+    - name: "Transcendent Collection Patches"
+      card_count: 78
+    - name: "Transcendent Collection Dual Patches"
+      card_count: 40
+    - name: "Transcendent Collection Triple Patches"
+      card_count: 41
+    - name: "Transcendent Collection MLB Logo Patches"
+      card_count: 48
+    - name: "Transcendent Collection Legendary Relic Cards"
+      card_count: 15
+    - name: "Gemstones"
+      card_count: 4

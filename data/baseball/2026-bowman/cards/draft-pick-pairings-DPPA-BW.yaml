@@ -1,0 +1,22 @@
+number: "DPPA-BW"
+uuid: "c1e59726-2db7-4769-b897-6012511beee9"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-bowman"
+subjects:
+  - name: "Alex Bregman"
+    role: "Player"
+    team: "Houston Astros"
+  - name: "Bobby Witt Jr."
+    role: "Player"
+    team: "Kansas City Royals"
+subset: "Draft Pick Pairings"
+card_name: "Alex Bregman / Bobby Witt Jr. - Draft Pick Pairings"
+description: "Draft Pick Pairings card featuring Alex Bregman / Bobby Witt Jr.."
+series: "2026 Bowman"
+print_run: 25
+rookie_card: false
+autograph: false
+serial_numbered: true
+release_date: "2026-05-13"
+image_url: "https://example.com/cards/2026-bowman/draft-pick-pairings-DPPA-BW.jpg"

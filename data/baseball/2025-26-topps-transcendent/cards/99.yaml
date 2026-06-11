@@ -1,0 +1,18 @@
+number: "99"
+uuid: "1bd04a82-608d-4e98-ad71-6fe2edd2ebf4"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2025-26-topps-transcendent"
+subjects:
+  - name: "Aaron Judge"
+    role: "Player"
+    team: "New York Yankees"
+card_name: "Aaron Judge - Base"
+description: "Base card featuring Aaron Judge."
+series: "Topps Transcendent"
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: false
+release_date: "2026-04-01"
+image_url: "https://example.com/cards/2025-26-topps-transcendent/99.jpg"

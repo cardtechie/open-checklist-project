@@ -1,0 +1,19 @@
+number: "BO-2"
+uuid: "1459ab7c-e9e3-4d80-ac01-62d768b7aff6"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-topps-series-2"
+subjects:
+  - name: "Juan Soto"
+    role: "Player"
+    team: "New York Mets"
+subset: "Bulk Order"
+card_name: "Juan Soto - Bulk Order"
+description: "Bulk Order card featuring Juan Soto."
+series: "2026 Topps Baseball"
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: false
+release_date: "2026-06-11"
+image_url: "https://example.com/cards/2026-topps-series-2/bulk-order-BO-2.jpg"

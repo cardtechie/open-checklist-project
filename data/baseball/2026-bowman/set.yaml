@@ -1,0 +1,81 @@
+uuid: edb5a80d-2881-4ebb-9a64-67f594eb8c67
+set_id: "2026-bowman"
+name: "2026 Bowman"
+genre: "Sports"
+category: ["MLB"]
+sports: ["Baseball"]
+season: "2026"
+years: [2026]
+series: "2026 Bowman"
+release_date: "2026-05-13"
+manufacturer: "Topps"
+card_count: 1240
+description: "2026 Bowman is a 100-card set, supplemented by a 150-card Prospects set, released May 13th. Each Hobby box will yield one autograph and 18 inserts. Hobby Jumbo boxes will contain three autographs and 12 inserts."
+image_url: "https://example.com/images/2026-bowman.jpg"
+metadata:
+  language: "en"
+  year: 2026
+  source_name: "BaseballCardpedia"
+  source_url: "https://baseballcardpedia.com/index.php/2026_Bowman#Checklist"
+  source_file: "import/2026-Bowman-Baseball-Checklist.xlsx"
+  subsets:
+    - name: "Base Set"
+      card_count: 100
+    - name: "Base - Etched In Glass Variations"
+      card_count: 12
+    - name: "Base - Red RC Variations"
+      card_count: 40
+    - name: "Base Prospects"
+      card_count: 150
+    - name: "Chrome Prospects"
+      card_count: 150
+    - name: "Chrome Prospects Packfractor Variation"
+      card_count: 150
+    - name: "Chrome Prospects - Etched In Glass Variations"
+      card_count: 11
+    - name: "Chrome Prospect Autographs"
+      card_count: 87
+    - name: "Chrome Prospect Gold Ink Autographs"
+      card_count: 47
+    - name: "Chrome Prospect Packfractor Autographs"
+      card_count: 39
+    - name: "Chrome Rookie Autographs"
+      card_count: 13
+    - name: "Draft Pick Pairings"
+      card_count: 16
+    - name: "Bowman Sterling Autographs"
+      card_count: 10
+    - name: "Electric Sluggers Autographs"
+      card_count: 14
+    - name: "Under The Radar Autographs"
+      card_count: 13
+    - name: "Power Chords Autographs"
+      card_count: 15
+    - name: "Base Prospect Retail Autographs"
+      card_count: 31
+    - name: "Base Rookie and Veteran Retail Autographs"
+      card_count: 35
+    - name: "Ultimate Autograph Booklet"
+      card_count: 1
+    - name: "Bowman Scouts Top 100"
+      card_count: 100
+    - name: "Bowman Sterling"
+      card_count: 15
+    - name: "Patchwork"
+      card_count: 30
+    - name: "Electric Sluggers"
+      card_count: 25
+    - name: "Under The Radar"
+      card_count: 20
+    - name: "Power Chords"
+      card_count: 25
+    - name: "Anime"
+      card_count: 29
+    - name: "Anime - Kanji Variations"
+      card_count: 7
+    - name: "Final Draft"
+      card_count: 20
+    - name: "Crystallized"
+      card_count: 20
+    - name: "Bowman Spotlights"
+      card_count: 15

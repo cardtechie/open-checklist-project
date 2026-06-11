@@ -1,0 +1,18 @@
+number: "FD-4"
+uuid: "3f429b43-b26e-462e-9ff4-2aa07dcc36b3"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-bowman"
+subjects:
+  - name: "Bryce Eldridge"
+    role: "Player"
+    team: "San Francisco Giants"
+subset: "Final Draft"
+card_name: "Bryce Eldridge - Final Draft"
+description: "Final Draft card featuring Bryce Eldridge."
+series: "2026 Bowman"
+rookie_card: false
+autograph: false
+serial_numbered: false
+release_date: "2026-05-13"
+image_url: "https://example.com/cards/2026-bowman/final-draft-FD-4.jpg"

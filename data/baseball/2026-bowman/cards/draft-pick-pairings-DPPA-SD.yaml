@@ -1,0 +1,22 @@
+number: "DPPA-SD"
+uuid: "aee81b24-4441-4f60-a3f6-d60bf1c00428"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-bowman"
+subjects:
+  - name: "Hagen Smith"
+    role: "Player"
+    team: "Chicago White Sox"
+  - name: "Liam Doyle"
+    role: "Player"
+    team: "St. Louis Cardinals"
+subset: "Draft Pick Pairings"
+card_name: "Hagen Smith / Liam Doyle - Draft Pick Pairings"
+description: "Draft Pick Pairings card featuring Hagen Smith / Liam Doyle."
+series: "2026 Bowman"
+print_run: 25
+rookie_card: false
+autograph: false
+serial_numbered: true
+release_date: "2026-05-13"
+image_url: "https://example.com/cards/2026-bowman/draft-pick-pairings-DPPA-SD.jpg"

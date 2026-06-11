@@ -1,0 +1,19 @@
+number: "AA-12"
+uuid: "61b97f7c-db03-4072-a14b-0562ce5045a9"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-topps-series-2"
+subjects:
+  - name: "Greg Maddux"
+    role: "Player"
+    team: "Chicago Cubs"
+subset: "All Aces"
+card_name: "Greg Maddux - All Aces"
+description: "All Aces card featuring Greg Maddux."
+series: "2026 Topps Baseball"
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: false
+release_date: "2026-06-11"
+image_url: "https://example.com/cards/2026-topps-series-2/all-aces-AA-12.jpg"

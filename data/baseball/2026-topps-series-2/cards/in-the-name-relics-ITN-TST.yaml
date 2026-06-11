@@ -1,0 +1,20 @@
+number: "ITN-TST"
+uuid: "aec34fe5-1744-4858-b260-8deac41dec8e"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-topps-series-2"
+subjects:
+  - name: "Trevor Story"
+    role: "Player"
+    team: "Boston Red Sox"
+subset: "In The Name Relics"
+card_name: "Trevor Story - In The Name Relics"
+description: "In The Name Relics memorabilia card featuring Trevor Story."
+series: "2026 Topps Baseball"
+print_run: 1
+rookie_card: false
+autograph: false
+relic: true
+serial_numbered: true
+release_date: "2026-06-11"
+image_url: "https://example.com/cards/2026-topps-series-2/in-the-name-relics-ITN-TST.jpg"

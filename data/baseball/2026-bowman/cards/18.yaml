@@ -1,0 +1,17 @@
+number: "18"
+uuid: "723f0a98-1444-4d98-8d5c-08dbcbb7783f"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-bowman"
+subjects:
+  - name: "Roman Anthony"
+    role: "Player"
+    team: "Boston Red Sox"
+card_name: "Roman Anthony - Base"
+description: "Base card featuring Roman Anthony."
+series: "2026 Bowman"
+rookie_card: true
+autograph: false
+serial_numbered: false
+release_date: "2026-05-13"
+image_url: "https://example.com/cards/2026-bowman/18.jpg"

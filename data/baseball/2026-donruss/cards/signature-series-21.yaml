@@ -1,0 +1,19 @@
+number: "21"
+uuid: "f981246a-a9e5-455c-bf4d-f656fb0d4bdf"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "Alex Gordon"
+    role: "Player"
+    team: "Kansas City Royals"
+subset: "Signature Series"
+card_name: "Alex Gordon - Signature Series"
+description: "Autographed Signature Series card featuring Alex Gordon."
+series: "2026 Donruss"
+rookie_card: false
+autograph: true
+relic: false
+serial_numbered: false
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/signature-series-21.jpg"

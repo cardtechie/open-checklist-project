@@ -1,0 +1,22 @@
+number: "DPPA-JC"
+uuid: "d93c5c2c-7931-47f6-b70f-0fca746dcc19"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-bowman"
+subjects:
+  - name: "Jackson Jobe"
+    role: "Player"
+    team: "Detroit Tigers"
+  - name: "Max Clark"
+    role: "Player"
+    team: "Detroit Tigers"
+subset: "Draft Pick Pairings"
+card_name: "Jackson Jobe / Max Clark - Draft Pick Pairings"
+description: "Draft Pick Pairings card featuring Jackson Jobe / Max Clark."
+series: "2026 Bowman"
+print_run: 25
+rookie_card: false
+autograph: false
+serial_numbered: true
+release_date: "2026-05-13"
+image_url: "https://example.com/cards/2026-bowman/draft-pick-pairings-DPPA-JC.jpg"

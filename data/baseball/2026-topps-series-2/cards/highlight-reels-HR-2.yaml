@@ -1,0 +1,19 @@
+number: "HR-2"
+uuid: "88da1450-4cf9-44c8-94d4-28b41ca17694"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-topps-series-2"
+subjects:
+  - name: "Aaron Judge"
+    role: "Player"
+    team: "New York Yankees"
+subset: "Highlight Reels"
+card_name: "Aaron Judge - Highlight Reels"
+description: "Highlight Reels card featuring Aaron Judge."
+series: "2026 Topps Baseball"
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: false
+release_date: "2026-06-11"
+image_url: "https://example.com/cards/2026-topps-series-2/highlight-reels-HR-2.jpg"

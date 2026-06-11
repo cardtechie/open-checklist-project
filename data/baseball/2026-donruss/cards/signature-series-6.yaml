@@ -1,0 +1,19 @@
+number: "6"
+uuid: "dadd8aaf-ea7c-4ffd-8512-c470039cf2ec"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "Carter Johnson"
+    role: "Player"
+    team: "Miami Marlins"
+subset: "Signature Series"
+card_name: "Carter Johnson - Signature Series"
+description: "Autographed Signature Series card featuring Carter Johnson."
+series: "2026 Donruss"
+rookie_card: false
+autograph: true
+relic: false
+serial_numbered: false
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/signature-series-6.jpg"

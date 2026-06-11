@@ -1,0 +1,19 @@
+number: "TCP-MT"
+uuid: "cb99e09e-8c37-413e-b348-d3b8dce4ea6c"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2025-26-topps-transcendent"
+subjects:
+  - name: "Mike Trout"
+    role: "Player"
+    team: "Angels"
+subset: "Transcendent Collection Patches"
+card_name: "Mike Trout - Transcendent Collection Patches"
+description: "Transcendent Collection Patches memorabilia card featuring Mike Trout."
+series: "Topps Transcendent"
+rookie_card: false
+autograph: false
+relic: true
+serial_numbered: false
+release_date: "2026-04-01"
+image_url: "https://example.com/cards/2025-26-topps-transcendent/transcendent-collection-patches-TCP-MT.jpg"

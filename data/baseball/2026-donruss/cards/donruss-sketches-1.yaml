@@ -1,0 +1,20 @@
+number: "1"
+uuid: "01990f47-a924-405d-b639-02e75e25b128"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "Aidan Miller"
+    role: "Player"
+    team: "Philadelphia Phillies"
+subset: "Donruss Sketches"
+card_name: "Aidan Miller - Donruss Sketches"
+description: "Donruss Sketches card featuring Aidan Miller."
+series: "2026 Donruss"
+print_run: 1
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: true
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/donruss-sketches-1.jpg"

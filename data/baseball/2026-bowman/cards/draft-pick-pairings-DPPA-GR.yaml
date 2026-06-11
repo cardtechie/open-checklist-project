@@ -1,0 +1,22 @@
+number: "DPPA-GR"
+uuid: "a7c9ae0d-c790-47c1-bb46-b7006bcb50db"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-bowman"
+subjects:
+  - name: "Alex Rodriguez"
+    role: "Player"
+    team: "Seattle Mariners"
+  - name: "Ken Griffey Jr."
+    role: "Player"
+    team: "Seattle Mariners"
+subset: "Draft Pick Pairings"
+card_name: "Alex Rodriguez / Ken Griffey Jr. - Draft Pick Pairings"
+description: "Draft Pick Pairings card featuring Alex Rodriguez / Ken Griffey Jr.."
+series: "2026 Bowman"
+print_run: 25
+rookie_card: false
+autograph: false
+serial_numbered: true
+release_date: "2026-05-13"
+image_url: "https://example.com/cards/2026-bowman/draft-pick-pairings-DPPA-GR.jpg"

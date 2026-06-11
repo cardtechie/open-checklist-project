@@ -1,0 +1,19 @@
+number: "100"
+uuid: "1e40c528-a696-43b3-9473-f37b10cd0dba"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "Harold Baines"
+    role: "Player"
+    team: "Chicago White Sox"
+subset: "Signature Series"
+card_name: "Harold Baines - Signature Series"
+description: "Autographed Signature Series card featuring Harold Baines."
+series: "2026 Donruss"
+rookie_card: false
+autograph: true
+relic: false
+serial_numbered: false
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/signature-series-100.jpg"

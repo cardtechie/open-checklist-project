@@ -1,0 +1,19 @@
+number: "PC-1"
+uuid: "bfe68205-d3f1-41d3-97a9-5447d31b2bfd"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-bowman"
+subjects:
+  - name: "Aaron Judge"
+    role: "Player"
+    team: "New York Yankees"
+subset: "Power Chords"
+card_name: "Aaron Judge - Power Chords"
+description: "Power Chords card featuring Aaron Judge."
+series: "2026 Bowman"
+print_run: 29075
+rookie_card: false
+autograph: false
+serial_numbered: false
+release_date: "2026-05-13"
+image_url: "https://example.com/cards/2026-bowman/power-chords-PC-1.jpg"

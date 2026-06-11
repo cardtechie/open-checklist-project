@@ -1,0 +1,17 @@
+number: "20"
+uuid: "8f6d82da-7943-48bb-9205-b275bb4094cd"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-bowman"
+subjects:
+  - name: "Kyle Schwarber"
+    role: "Player"
+    team: "Philadelphia Phillies"
+card_name: "Kyle Schwarber - Base"
+description: "Base card featuring Kyle Schwarber."
+series: "2026 Bowman"
+rookie_card: false
+autograph: false
+serial_numbered: false
+release_date: "2026-05-13"
+image_url: "https://example.com/cards/2026-bowman/20.jpg"
