@@ -1,0 +1,23 @@
+number: "BCP-146"
+uuid: "b65f3000-827c-4045-b010-feb9b08d6a43"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-bowman"
+subjects:
+  - name: "Matt Klein"
+    role: "Player"
+    team: "Colorado Rockies"
+subset: "Chrome Prospects"
+card_name: "Matt Klein - Chrome Prospects - Speckle Refractor"
+description: "Speckle Refractor parallel of Chrome Prospects card featuring Matt Klein."
+series: "2026 Bowman"
+parallel: "Speckle Refractor"
+print_run: 299
+rookie_card: false
+autograph: false
+serial_numbered: true
+release_date: "2026-05-13"
+image_url: "https://example.com/cards/2026-bowman/chrome-prospects-BCP-146-speckle-refractor.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Bowman#Insertion_Ratios"

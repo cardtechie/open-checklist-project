@@ -1,0 +1,23 @@
+number: "BCP-132"
+uuid: "a5e5a435-4deb-4fc6-904e-ba9eaa8086b7"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-bowman"
+subjects:
+  - name: "Keyner Martinez"
+    role: "Player"
+    team: "San Francisco Giants"
+subset: "Chrome Prospects"
+card_name: "Keyner Martinez - Chrome Prospects - Red Lava Refractor"
+description: "Red Lava Refractor parallel of Chrome Prospects card featuring Keyner Martinez."
+series: "2026 Bowman"
+parallel: "Red Lava Refractor"
+print_run: 5
+rookie_card: false
+autograph: false
+serial_numbered: true
+release_date: "2026-05-13"
+image_url: "https://example.com/cards/2026-bowman/chrome-prospects-BCP-132-red-lava-refractor.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Bowman#Insertion_Ratios"

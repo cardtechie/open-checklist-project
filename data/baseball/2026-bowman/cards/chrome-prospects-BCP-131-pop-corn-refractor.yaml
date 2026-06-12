@@ -1,0 +1,22 @@
+number: "BCP-131"
+uuid: "56da1708-67a5-4434-af12-32795a107f01"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-bowman"
+subjects:
+  - name: "Walker Janek"
+    role: "Player"
+    team: "Houston Astros"
+subset: "Chrome Prospects"
+card_name: "Walker Janek - Chrome Prospects - Pop Corn Refractor"
+description: "Pop Corn Refractor parallel of Chrome Prospects card featuring Walker Janek."
+series: "2026 Bowman"
+parallel: "Pop Corn Refractor"
+rookie_card: false
+autograph: false
+serial_numbered: false
+release_date: "2026-05-13"
+image_url: "https://example.com/cards/2026-bowman/chrome-prospects-BCP-131-pop-corn-refractor.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Bowman#Insertion_Ratios"

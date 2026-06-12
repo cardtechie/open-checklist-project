@@ -1,0 +1,23 @@
+number: "BCP-131"
+uuid: "a8df1f7d-5ece-4a56-8f0f-df2d14be2a78"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-bowman"
+subjects:
+  - name: "Walker Janek"
+    role: "Player"
+    team: "Houston Astros"
+subset: "Chrome Prospects"
+card_name: "Walker Janek - Chrome Prospects - Aqua X-Fractor"
+description: "Aqua X-Fractor parallel of Chrome Prospects card featuring Walker Janek."
+series: "2026 Bowman"
+parallel: "Aqua X-Fractor"
+print_run: 125
+rookie_card: false
+autograph: false
+serial_numbered: true
+release_date: "2026-05-13"
+image_url: "https://example.com/cards/2026-bowman/chrome-prospects-BCP-131-aqua-x-fractor.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Bowman#Insertion_Ratios"

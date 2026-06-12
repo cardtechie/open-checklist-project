@@ -1,0 +1,23 @@
+number: "BCP-132"
+uuid: "6f053f4b-7062-4db7-bf1c-ac4dcd31cd78"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-bowman"
+subjects:
+  - name: "Keyner Martinez"
+    role: "Player"
+    team: "San Francisco Giants"
+subset: "Chrome Prospects"
+card_name: "Keyner Martinez - Chrome Prospects - Rose Gold X-Fractor"
+description: "Rose Gold X-Fractor parallel of Chrome Prospects card featuring Keyner Martinez."
+series: "2026 Bowman"
+parallel: "Rose Gold X-Fractor"
+print_run: 15
+rookie_card: false
+autograph: false
+serial_numbered: true
+release_date: "2026-05-13"
+image_url: "https://example.com/cards/2026-bowman/chrome-prospects-BCP-132-rose-gold-x-fractor.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Bowman#Insertion_Ratios"

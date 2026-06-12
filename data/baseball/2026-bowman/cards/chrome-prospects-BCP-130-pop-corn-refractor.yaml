@@ -1,0 +1,22 @@
+number: "BCP-130"
+uuid: "85e2f8b7-99d0-4cdb-9ffc-42d31ef4bd0a"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-bowman"
+subjects:
+  - name: "Kenly Hunter"
+    role: "Player"
+    team: "St. Louis Cardinals"
+subset: "Chrome Prospects"
+card_name: "Kenly Hunter - Chrome Prospects - Pop Corn Refractor"
+description: "Pop Corn Refractor parallel of Chrome Prospects card featuring Kenly Hunter."
+series: "2026 Bowman"
+parallel: "Pop Corn Refractor"
+rookie_card: false
+autograph: false
+serial_numbered: false
+release_date: "2026-05-13"
+image_url: "https://example.com/cards/2026-bowman/chrome-prospects-BCP-130-pop-corn-refractor.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Bowman#Insertion_Ratios"

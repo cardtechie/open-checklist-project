@@ -1,0 +1,23 @@
+number: "BCP-133"
+uuid: "4949c0e6-fe0d-4ceb-990f-12932d02fb02"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-bowman"
+subjects:
+  - name: "Xavier Neyens"
+    role: "Player"
+    team: "Houston Astros"
+subset: "Chrome Prospects"
+card_name: "Xavier Neyens - Chrome Prospects - Reptilian Gold Refractor"
+description: "Reptilian Gold Refractor parallel of Chrome Prospects card featuring Xavier Neyens."
+series: "2026 Bowman"
+parallel: "Reptilian Gold Refractor"
+print_run: 50
+rookie_card: false
+autograph: false
+serial_numbered: true
+release_date: "2026-05-13"
+image_url: "https://example.com/cards/2026-bowman/chrome-prospects-BCP-133-reptilian-gold-refractor.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Bowman#Insertion_Ratios"

@@ -1,0 +1,23 @@
+number: "BCP-144"
+uuid: "d24fab90-fe0a-40a5-9ebe-2e4a4e325606"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-bowman"
+subjects:
+  - name: "Colby Shelton"
+    role: "Player"
+    team: "Chicago White Sox"
+subset: "Chrome Prospects"
+card_name: "Colby Shelton - Chrome Prospects - Reptilian Green Refractor"
+description: "Reptilian Green Refractor parallel of Chrome Prospects card featuring Colby Shelton."
+series: "2026 Bowman"
+parallel: "Reptilian Green Refractor"
+print_run: 99
+rookie_card: false
+autograph: false
+serial_numbered: true
+release_date: "2026-05-13"
+image_url: "https://example.com/cards/2026-bowman/chrome-prospects-BCP-144-reptilian-green-refractor.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Bowman#Insertion_Ratios"

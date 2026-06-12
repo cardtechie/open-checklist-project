@@ -1,0 +1,23 @@
+number: "BCP-140"
+uuid: "c42af2a6-69bb-4e22-8ee7-b7f3d5504de6"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-bowman"
+subjects:
+  - name: "Pedro Ibarguen"
+    role: "Player"
+    team: "Milwaukee Brewers"
+subset: "Chrome Prospects"
+card_name: "Pedro Ibarguen - Chrome Prospects - Purple Refractor"
+description: "Purple Refractor parallel of Chrome Prospects card featuring Pedro Ibarguen."
+series: "2026 Bowman"
+parallel: "Purple Refractor"
+print_run: 250
+rookie_card: false
+autograph: false
+serial_numbered: true
+release_date: "2026-05-13"
+image_url: "https://example.com/cards/2026-bowman/chrome-prospects-BCP-140-purple-refractor.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Bowman#Insertion_Ratios"

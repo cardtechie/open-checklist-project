@@ -1,0 +1,23 @@
+number: "BCP-136"
+uuid: "dcd3948c-c6f8-4c2f-bf78-d03350550793"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-bowman"
+subjects:
+  - name: "Gavin Kilen"
+    role: "Player"
+    team: "San Francisco Giants"
+subset: "Chrome Prospects"
+card_name: "Gavin Kilen - Chrome Prospects - Printing Plates"
+description: "Printing Plates parallel of Chrome Prospects card featuring Gavin Kilen."
+series: "2026 Bowman"
+parallel: "Printing Plates"
+print_run: 4
+rookie_card: false
+autograph: false
+serial_numbered: true
+release_date: "2026-05-13"
+image_url: "https://example.com/cards/2026-bowman/chrome-prospects-BCP-136-printing-plates.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Bowman#Insertion_Ratios"

@@ -1,0 +1,23 @@
+number: "BCP-144"
+uuid: "1b989a9a-4fb6-4c48-b4cb-adf1c072226f"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-bowman"
+subjects:
+  - name: "Colby Shelton"
+    role: "Player"
+    team: "Chicago White Sox"
+subset: "Chrome Prospects"
+card_name: "Colby Shelton - Chrome Prospects - Orange Refractor"
+description: "Orange Refractor parallel of Chrome Prospects card featuring Colby Shelton."
+series: "2026 Bowman"
+parallel: "Orange Refractor"
+print_run: 25
+rookie_card: false
+autograph: false
+serial_numbered: true
+release_date: "2026-05-13"
+image_url: "https://example.com/cards/2026-bowman/chrome-prospects-BCP-144-orange-refractor.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Bowman#Insertion_Ratios"

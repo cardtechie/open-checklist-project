@@ -1,0 +1,22 @@
+number: "BCP-137"
+uuid: "5d638db8-2278-49e1-a69b-b1ccdc939ee3"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-bowman"
+subjects:
+  - name: "Braden Nett"
+    role: "Player"
+    team: "Athletics"
+subset: "Chrome Prospects"
+card_name: "Braden Nett - Chrome Prospects - LogoFractor"
+description: "LogoFractor parallel of Chrome Prospects card featuring Braden Nett."
+series: "2026 Bowman"
+parallel: "LogoFractor"
+rookie_card: false
+autograph: false
+serial_numbered: false
+release_date: "2026-05-13"
+image_url: "https://example.com/cards/2026-bowman/chrome-prospects-BCP-137-logofractor.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Bowman#Insertion_Ratios"

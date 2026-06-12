@@ -1,0 +1,23 @@
+number: "BCP-133"
+uuid: "d8fe397f-4506-440d-8547-7dffb4d6c5fa"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-bowman"
+subjects:
+  - name: "Xavier Neyens"
+    role: "Player"
+    team: "Houston Astros"
+subset: "Chrome Prospects"
+card_name: "Xavier Neyens - Chrome Prospects - Purple Refractor"
+description: "Purple Refractor parallel of Chrome Prospects card featuring Xavier Neyens."
+series: "2026 Bowman"
+parallel: "Purple Refractor"
+print_run: 250
+rookie_card: false
+autograph: false
+serial_numbered: true
+release_date: "2026-05-13"
+image_url: "https://example.com/cards/2026-bowman/chrome-prospects-BCP-133-purple-refractor.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Bowman#Insertion_Ratios"

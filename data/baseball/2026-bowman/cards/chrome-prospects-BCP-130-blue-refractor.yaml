@@ -1,0 +1,23 @@
+number: "BCP-130"
+uuid: "4bd984ea-8ba7-4d30-8edb-b96314be1b3e"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-bowman"
+subjects:
+  - name: "Kenly Hunter"
+    role: "Player"
+    team: "St. Louis Cardinals"
+subset: "Chrome Prospects"
+card_name: "Kenly Hunter - Chrome Prospects - Blue Refractor"
+description: "Blue Refractor parallel of Chrome Prospects card featuring Kenly Hunter."
+series: "2026 Bowman"
+parallel: "Blue Refractor"
+print_run: 150
+rookie_card: false
+autograph: false
+serial_numbered: true
+release_date: "2026-05-13"
+image_url: "https://example.com/cards/2026-bowman/chrome-prospects-BCP-130-blue-refractor.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Bowman#Insertion_Ratios"

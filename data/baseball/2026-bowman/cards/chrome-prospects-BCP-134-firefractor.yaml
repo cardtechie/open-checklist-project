@@ -1,0 +1,23 @@
+number: "BCP-134"
+uuid: "60eb22dc-0ed1-4f0d-b5b1-9c96707f330a"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-bowman"
+subjects:
+  - name: "T.J. Rumfield"
+    role: "Player"
+    team: "New York Yankees"
+subset: "Chrome Prospects"
+card_name: "T.J. Rumfield - Chrome Prospects - FireFractor"
+description: "FireFractor parallel of Chrome Prospects card featuring T.J. Rumfield."
+series: "2026 Bowman"
+parallel: "FireFractor"
+print_run: 3
+rookie_card: false
+autograph: false
+serial_numbered: true
+release_date: "2026-05-13"
+image_url: "https://example.com/cards/2026-bowman/chrome-prospects-BCP-134-firefractor.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Bowman#Insertion_Ratios"

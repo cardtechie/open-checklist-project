@@ -1,0 +1,23 @@
+number: "BCP-140"
+uuid: "b5a10a4a-b8d2-412c-b751-f783b11831d6"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-bowman"
+subjects:
+  - name: "Pedro Ibarguen"
+    role: "Player"
+    team: "Milwaukee Brewers"
+subset: "Chrome Prospects"
+card_name: "Pedro Ibarguen - Chrome Prospects - Reptilian Fuschia Refractor"
+description: "Reptilian Fuschia Refractor parallel of Chrome Prospects card featuring Pedro Ibarguen."
+series: "2026 Bowman"
+parallel: "Reptilian Fuschia Refractor"
+print_run: 199
+rookie_card: false
+autograph: false
+serial_numbered: true
+release_date: "2026-05-13"
+image_url: "https://example.com/cards/2026-bowman/chrome-prospects-BCP-140-reptilian-fuschia-refractor.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Bowman#Insertion_Ratios"

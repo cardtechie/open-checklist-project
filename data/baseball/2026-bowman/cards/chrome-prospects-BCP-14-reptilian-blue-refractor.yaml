@@ -1,0 +1,23 @@
+number: "BCP-14"
+uuid: "7ce9d2b5-d1a7-4bbc-80f9-8c51100d970b"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-bowman"
+subjects:
+  - name: "Carlos Gutierrez"
+    role: "Player"
+    team: "San Francisco Giants"
+subset: "Chrome Prospects"
+card_name: "Carlos Gutierrez - Chrome Prospects - Reptilian Blue Refractor"
+description: "Reptilian Blue Refractor parallel of Chrome Prospects card featuring Carlos Gutierrez."
+series: "2026 Bowman"
+parallel: "Reptilian Blue Refractor"
+print_run: 150
+rookie_card: false
+autograph: false
+serial_numbered: true
+release_date: "2026-05-13"
+image_url: "https://example.com/cards/2026-bowman/chrome-prospects-BCP-14-reptilian-blue-refractor.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Bowman#Insertion_Ratios"

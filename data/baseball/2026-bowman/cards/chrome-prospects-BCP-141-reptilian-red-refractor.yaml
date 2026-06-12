@@ -1,0 +1,23 @@
+number: "BCP-141"
+uuid: "c8320f71-2f9a-4db5-a39f-cdfe40b982f4"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-bowman"
+subjects:
+  - name: "Justin Gonzales"
+    role: "Player"
+    team: "Boston Red Sox"
+subset: "Chrome Prospects"
+card_name: "Justin Gonzales - Chrome Prospects - Reptilian Red Refractor"
+description: "Reptilian Red Refractor parallel of Chrome Prospects card featuring Justin Gonzales."
+series: "2026 Bowman"
+parallel: "Reptilian Red Refractor"
+print_run: 5
+rookie_card: false
+autograph: false
+serial_numbered: true
+release_date: "2026-05-13"
+image_url: "https://example.com/cards/2026-bowman/chrome-prospects-BCP-141-reptilian-red-refractor.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Bowman#Insertion_Ratios"

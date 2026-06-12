@@ -1,0 +1,23 @@
+number: "BCP-141"
+uuid: "2a5f2b15-6f53-408b-98d4-3c750311e1f0"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-bowman"
+subjects:
+  - name: "Justin Gonzales"
+    role: "Player"
+    team: "Boston Red Sox"
+subset: "Chrome Prospects"
+card_name: "Justin Gonzales - Chrome Prospects - Lava Refractor"
+description: "Lava Refractor parallel of Chrome Prospects card featuring Justin Gonzales."
+series: "2026 Bowman"
+parallel: "Lava Refractor"
+print_run: 399
+rookie_card: false
+autograph: false
+serial_numbered: true
+release_date: "2026-05-13"
+image_url: "https://example.com/cards/2026-bowman/chrome-prospects-BCP-141-lava-refractor.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Bowman#Insertion_Ratios"

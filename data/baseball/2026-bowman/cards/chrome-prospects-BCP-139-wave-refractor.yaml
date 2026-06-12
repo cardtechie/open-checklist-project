@@ -1,0 +1,23 @@
+number: "BCP-139"
+uuid: "a12452eb-9d72-4698-8522-60d1cefb97b7"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-bowman"
+subjects:
+  - name: "Edgar Montero"
+    role: "Player"
+    team: "Athletics"
+subset: "Chrome Prospects"
+card_name: "Edgar Montero - Chrome Prospects - Wave Refractor"
+description: "Wave Refractor parallel of Chrome Prospects card featuring Edgar Montero."
+series: "2026 Bowman"
+parallel: "Wave Refractor"
+print_run: 350
+rookie_card: false
+autograph: false
+serial_numbered: true
+release_date: "2026-05-13"
+image_url: "https://example.com/cards/2026-bowman/chrome-prospects-BCP-139-wave-refractor.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Bowman#Insertion_Ratios"

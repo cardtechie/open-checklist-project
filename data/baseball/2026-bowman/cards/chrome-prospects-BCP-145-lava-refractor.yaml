@@ -1,0 +1,23 @@
+number: "BCP-145"
+uuid: "ac44d54c-49c8-4823-abff-3070a1a2df16"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-bowman"
+subjects:
+  - name: "Kevin McGonigle"
+    role: "Player"
+    team: "Detroit Tigers"
+subset: "Chrome Prospects"
+card_name: "Kevin McGonigle - Chrome Prospects - Lava Refractor"
+description: "Lava Refractor parallel of Chrome Prospects card featuring Kevin McGonigle."
+series: "2026 Bowman"
+parallel: "Lava Refractor"
+print_run: 399
+rookie_card: false
+autograph: false
+serial_numbered: true
+release_date: "2026-05-13"
+image_url: "https://example.com/cards/2026-bowman/chrome-prospects-BCP-145-lava-refractor.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Bowman#Insertion_Ratios"

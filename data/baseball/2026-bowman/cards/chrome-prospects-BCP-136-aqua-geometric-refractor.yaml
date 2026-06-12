@@ -1,0 +1,23 @@
+number: "BCP-136"
+uuid: "e2a7e526-461c-4339-b724-8d758509ed51"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-bowman"
+subjects:
+  - name: "Gavin Kilen"
+    role: "Player"
+    team: "San Francisco Giants"
+subset: "Chrome Prospects"
+card_name: "Gavin Kilen - Chrome Prospects - Aqua Geometric Refractor"
+description: "Aqua Geometric Refractor parallel of Chrome Prospects card featuring Gavin Kilen."
+series: "2026 Bowman"
+parallel: "Aqua Geometric Refractor"
+print_run: 125
+rookie_card: false
+autograph: false
+serial_numbered: true
+release_date: "2026-05-13"
+image_url: "https://example.com/cards/2026-bowman/chrome-prospects-BCP-136-aqua-geometric-refractor.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Bowman#Insertion_Ratios"

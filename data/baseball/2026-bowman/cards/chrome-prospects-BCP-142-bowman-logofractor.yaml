@@ -1,0 +1,23 @@
+number: "BCP-142"
+uuid: "07a20b9a-b15b-49b3-b861-d0e5a5c6e019"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-bowman"
+subjects:
+  - name: "Brady Ebel"
+    role: "Player"
+    team: "Milwaukee Brewers"
+subset: "Chrome Prospects"
+card_name: "Brady Ebel - Chrome Prospects - Bowman LogoFractor"
+description: "Bowman LogoFractor parallel of Chrome Prospects card featuring Brady Ebel."
+series: "2026 Bowman"
+parallel: "Bowman LogoFractor"
+print_run: 35
+rookie_card: false
+autograph: false
+serial_numbered: true
+release_date: "2026-05-13"
+image_url: "https://example.com/cards/2026-bowman/chrome-prospects-BCP-142-bowman-logofractor.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Bowman#Insertion_Ratios"

@@ -1,0 +1,23 @@
+number: "BCP-138"
+uuid: "ebc7235d-3654-4d04-a659-db0d4fdd89c9"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-bowman"
+subjects:
+  - name: "Patrick Copen"
+    role: "Player"
+    team: "Los Angeles Dodgers"
+subset: "Chrome Prospects"
+card_name: "Patrick Copen - Chrome Prospects - Refractor"
+description: "Refractor parallel of Chrome Prospects card featuring Patrick Copen."
+series: "2026 Bowman"
+parallel: "Refractor"
+print_run: 499
+rookie_card: false
+autograph: false
+serial_numbered: true
+release_date: "2026-05-13"
+image_url: "https://example.com/cards/2026-bowman/chrome-prospects-BCP-138-refractor.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Bowman#Insertion_Ratios"

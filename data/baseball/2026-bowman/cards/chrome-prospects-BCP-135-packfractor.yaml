@@ -1,0 +1,23 @@
+number: "BCP-135"
+uuid: "6667ee06-99d0-4bd5-956f-d936793b8768"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-bowman"
+subjects:
+  - name: "Wehiwa Aloy"
+    role: "Player"
+    team: "Baltimore Orioles"
+subset: "Chrome Prospects"
+card_name: "Wehiwa Aloy - Chrome Prospects - PackFractor"
+description: "PackFractor parallel of Chrome Prospects card featuring Wehiwa Aloy."
+series: "2026 Bowman"
+parallel: "PackFractor"
+print_run: 89
+rookie_card: false
+autograph: false
+serial_numbered: true
+release_date: "2026-05-13"
+image_url: "https://example.com/cards/2026-bowman/chrome-prospects-BCP-135-packfractor.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Bowman#Insertion_Ratios"

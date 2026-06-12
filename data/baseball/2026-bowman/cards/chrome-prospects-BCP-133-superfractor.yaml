@@ -1,0 +1,23 @@
+number: "BCP-133"
+uuid: "bbd8bcf8-e362-4759-89f3-f53c722522f8"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-bowman"
+subjects:
+  - name: "Xavier Neyens"
+    role: "Player"
+    team: "Houston Astros"
+subset: "Chrome Prospects"
+card_name: "Xavier Neyens - Chrome Prospects - SuperFractor"
+description: "SuperFractor parallel of Chrome Prospects card featuring Xavier Neyens."
+series: "2026 Bowman"
+parallel: "SuperFractor"
+print_run: 1
+rookie_card: false
+autograph: false
+serial_numbered: true
+release_date: "2026-05-13"
+image_url: "https://example.com/cards/2026-bowman/chrome-prospects-BCP-133-superfractor.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Bowman#Insertion_Ratios"

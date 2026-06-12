@@ -1,0 +1,22 @@
+number: "BCP-138"
+uuid: "ea23ae26-0b38-4dff-b6cf-0ac2ba45ead9"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-bowman"
+subjects:
+  - name: "Patrick Copen"
+    role: "Player"
+    team: "Los Angeles Dodgers"
+subset: "Chrome Prospects"
+card_name: "Patrick Copen - Chrome Prospects - Sunflower Seeds Refractor"
+description: "Sunflower Seeds Refractor parallel of Chrome Prospects card featuring Patrick Copen."
+series: "2026 Bowman"
+parallel: "Sunflower Seeds Refractor"
+rookie_card: false
+autograph: false
+serial_numbered: false
+release_date: "2026-05-13"
+image_url: "https://example.com/cards/2026-bowman/chrome-prospects-BCP-138-sunflower-seeds-refractor.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Bowman#Insertion_Ratios"

@@ -1,0 +1,23 @@
+number: "BCP-141"
+uuid: "dc90d046-f90d-41ce-b52c-336f83f8c88b"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-bowman"
+subjects:
+  - name: "Justin Gonzales"
+    role: "Player"
+    team: "Boston Red Sox"
+subset: "Chrome Prospects"
+card_name: "Justin Gonzales - Chrome Prospects - Purple RayWave Refractor"
+description: "Purple RayWave Refractor parallel of Chrome Prospects card featuring Justin Gonzales."
+series: "2026 Bowman"
+parallel: "Purple RayWave Refractor"
+print_run: 250
+rookie_card: false
+autograph: false
+serial_numbered: true
+release_date: "2026-05-13"
+image_url: "https://example.com/cards/2026-bowman/chrome-prospects-BCP-141-purple-raywave-refractor.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Bowman#Insertion_Ratios"

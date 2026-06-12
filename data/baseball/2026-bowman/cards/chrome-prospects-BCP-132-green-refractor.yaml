@@ -1,0 +1,23 @@
+number: "BCP-132"
+uuid: "93a8f50a-43a0-4f70-9afa-1997a578ccf7"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-bowman"
+subjects:
+  - name: "Keyner Martinez"
+    role: "Player"
+    team: "San Francisco Giants"
+subset: "Chrome Prospects"
+card_name: "Keyner Martinez - Chrome Prospects - Green Refractor"
+description: "Green Refractor parallel of Chrome Prospects card featuring Keyner Martinez."
+series: "2026 Bowman"
+parallel: "Green Refractor"
+print_run: 99
+rookie_card: false
+autograph: false
+serial_numbered: true
+release_date: "2026-05-13"
+image_url: "https://example.com/cards/2026-bowman/chrome-prospects-BCP-132-green-refractor.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Bowman#Insertion_Ratios"

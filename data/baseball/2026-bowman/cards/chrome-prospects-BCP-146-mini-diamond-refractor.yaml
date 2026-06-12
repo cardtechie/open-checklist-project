@@ -1,0 +1,22 @@
+number: "BCP-146"
+uuid: "3a9dc855-0371-4547-a502-767c1abb9ed8"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-bowman"
+subjects:
+  - name: "Matt Klein"
+    role: "Player"
+    team: "Colorado Rockies"
+subset: "Chrome Prospects"
+card_name: "Matt Klein - Chrome Prospects - Mini-Diamond Refractor"
+description: "Mini-Diamond Refractor parallel of Chrome Prospects card featuring Matt Klein."
+series: "2026 Bowman"
+parallel: "Mini-Diamond Refractor"
+rookie_card: false
+autograph: false
+serial_numbered: false
+release_date: "2026-05-13"
+image_url: "https://example.com/cards/2026-bowman/chrome-prospects-BCP-146-mini-diamond-refractor.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Bowman#Insertion_Ratios"

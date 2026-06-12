@@ -1,0 +1,23 @@
+number: "BCP-139"
+uuid: "c1cf5f12-114b-44f7-8276-e263348b58d0"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-bowman"
+subjects:
+  - name: "Edgar Montero"
+    role: "Player"
+    team: "Athletics"
+subset: "Chrome Prospects"
+card_name: "Edgar Montero - Chrome Prospects - Purple Refractor"
+description: "Purple Refractor parallel of Chrome Prospects card featuring Edgar Montero."
+series: "2026 Bowman"
+parallel: "Purple Refractor"
+print_run: 250
+rookie_card: false
+autograph: false
+serial_numbered: true
+release_date: "2026-05-13"
+image_url: "https://example.com/cards/2026-bowman/chrome-prospects-BCP-139-purple-refractor.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Bowman#Insertion_Ratios"

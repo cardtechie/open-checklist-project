@@ -1,0 +1,22 @@
+number: "BCP-131"
+uuid: "d4e379e4-dccb-4484-a2f0-6ddd9eb7d07f"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-bowman"
+subjects:
+  - name: "Walker Janek"
+    role: "Player"
+    team: "Houston Astros"
+subset: "Chrome Prospects"
+card_name: "Walker Janek - Chrome Prospects - Laser Refractor"
+description: "Laser Refractor parallel of Chrome Prospects card featuring Walker Janek."
+series: "2026 Bowman"
+parallel: "Laser Refractor"
+rookie_card: false
+autograph: false
+serial_numbered: false
+release_date: "2026-05-13"
+image_url: "https://example.com/cards/2026-bowman/chrome-prospects-BCP-131-laser-refractor.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Bowman#Insertion_Ratios"

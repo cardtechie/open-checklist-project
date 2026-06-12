@@ -1,0 +1,23 @@
+number: "BCP-141"
+uuid: "97bd4f2c-6c61-4e68-9be8-77505c92dd76"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-bowman"
+subjects:
+  - name: "Justin Gonzales"
+    role: "Player"
+    team: "Boston Red Sox"
+subset: "Chrome Prospects"
+card_name: "Justin Gonzales - Chrome Prospects - Printing Plates"
+description: "Printing Plates parallel of Chrome Prospects card featuring Justin Gonzales."
+series: "2026 Bowman"
+parallel: "Printing Plates"
+print_run: 4
+rookie_card: false
+autograph: false
+serial_numbered: true
+release_date: "2026-05-13"
+image_url: "https://example.com/cards/2026-bowman/chrome-prospects-BCP-141-printing-plates.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Bowman#Insertion_Ratios"

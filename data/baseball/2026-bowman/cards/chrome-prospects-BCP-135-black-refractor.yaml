@@ -1,0 +1,23 @@
+number: "BCP-135"
+uuid: "8b9fb9c7-6af0-4a89-9a28-35ef33ae4b26"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-bowman"
+subjects:
+  - name: "Wehiwa Aloy"
+    role: "Player"
+    team: "Baltimore Orioles"
+subset: "Chrome Prospects"
+card_name: "Wehiwa Aloy - Chrome Prospects - Black Refractor"
+description: "Black Refractor parallel of Chrome Prospects card featuring Wehiwa Aloy."
+series: "2026 Bowman"
+parallel: "Black Refractor"
+print_run: 10
+rookie_card: false
+autograph: false
+serial_numbered: true
+release_date: "2026-05-13"
+image_url: "https://example.com/cards/2026-bowman/chrome-prospects-BCP-135-black-refractor.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Bowman#Insertion_Ratios"

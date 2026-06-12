@@ -1,0 +1,23 @@
+number: "BCP-138"
+uuid: "5cea720d-2e8b-4e9d-a72b-d70a1e590a3f"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-bowman"
+subjects:
+  - name: "Patrick Copen"
+    role: "Player"
+    team: "Los Angeles Dodgers"
+subset: "Chrome Prospects"
+card_name: "Patrick Copen - Chrome Prospects - Green Grass Refractor"
+description: "Green Grass Refractor parallel of Chrome Prospects card featuring Patrick Copen."
+series: "2026 Bowman"
+parallel: "Green Grass Refractor"
+print_run: 99
+rookie_card: false
+autograph: false
+serial_numbered: true
+release_date: "2026-05-13"
+image_url: "https://example.com/cards/2026-bowman/chrome-prospects-BCP-138-green-grass-refractor.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Bowman#Insertion_Ratios"

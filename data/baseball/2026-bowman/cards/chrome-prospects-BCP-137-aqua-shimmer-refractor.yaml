@@ -1,0 +1,23 @@
+number: "BCP-137"
+uuid: "f30b7409-116a-4a80-a951-2637d0ea725a"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-bowman"
+subjects:
+  - name: "Braden Nett"
+    role: "Player"
+    team: "Athletics"
+subset: "Chrome Prospects"
+card_name: "Braden Nett - Chrome Prospects - Aqua Shimmer Refractor"
+description: "Aqua Shimmer Refractor parallel of Chrome Prospects card featuring Braden Nett."
+series: "2026 Bowman"
+parallel: "Aqua Shimmer Refractor"
+print_run: 125
+rookie_card: false
+autograph: false
+serial_numbered: true
+release_date: "2026-05-13"
+image_url: "https://example.com/cards/2026-bowman/chrome-prospects-BCP-137-aqua-shimmer-refractor.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Bowman#Insertion_Ratios"

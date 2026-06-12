@@ -1,0 +1,23 @@
+number: "BCP-145"
+uuid: "650e5d88-0075-46ff-b99f-cb5af07b10cf"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-bowman"
+subjects:
+  - name: "Kevin McGonigle"
+    role: "Player"
+    team: "Detroit Tigers"
+subset: "Chrome Prospects"
+card_name: "Kevin McGonigle - Chrome Prospects - Aqua Shimmer Refractor"
+description: "Aqua Shimmer Refractor parallel of Chrome Prospects card featuring Kevin McGonigle."
+series: "2026 Bowman"
+parallel: "Aqua Shimmer Refractor"
+print_run: 125
+rookie_card: false
+autograph: false
+serial_numbered: true
+release_date: "2026-05-13"
+image_url: "https://example.com/cards/2026-bowman/chrome-prospects-BCP-145-aqua-shimmer-refractor.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Bowman#Insertion_Ratios"

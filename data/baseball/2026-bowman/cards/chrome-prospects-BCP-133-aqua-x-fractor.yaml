@@ -1,0 +1,23 @@
+number: "BCP-133"
+uuid: "9de64695-2f0a-41c8-be94-b5a17278f2b3"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-bowman"
+subjects:
+  - name: "Xavier Neyens"
+    role: "Player"
+    team: "Houston Astros"
+subset: "Chrome Prospects"
+card_name: "Xavier Neyens - Chrome Prospects - Aqua X-Fractor"
+description: "Aqua X-Fractor parallel of Chrome Prospects card featuring Xavier Neyens."
+series: "2026 Bowman"
+parallel: "Aqua X-Fractor"
+print_run: 125
+rookie_card: false
+autograph: false
+serial_numbered: true
+release_date: "2026-05-13"
+image_url: "https://example.com/cards/2026-bowman/chrome-prospects-BCP-133-aqua-x-fractor.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Bowman#Insertion_Ratios"
