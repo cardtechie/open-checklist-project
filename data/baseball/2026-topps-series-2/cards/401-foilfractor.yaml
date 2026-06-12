@@ -1,0 +1,23 @@
+number: "401"
+uuid: "d49f9130-1703-44a2-9f22-7072671c1e3c"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-topps-series-2"
+subjects:
+  - name: "Eduarniel Núñez"
+    role: "Player"
+    team: "Athletics"
+card_name: "Eduarniel Núñez - Base - FoilFractor"
+description: "FoilFractor parallel of Base card featuring Eduarniel Núñez."
+series: "2026 Topps Baseball"
+parallel: "FoilFractor"
+print_run: 1
+rookie_card: true
+autograph: false
+relic: false
+serial_numbered: true
+release_date: "2026-06-11"
+image_url: "https://example.com/cards/2026-topps-series-2/401-foilfractor.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Topps#Insertion_Ratios"

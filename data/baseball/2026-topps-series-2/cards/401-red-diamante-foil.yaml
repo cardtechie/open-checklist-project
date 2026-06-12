@@ -1,0 +1,23 @@
+number: "401"
+uuid: "30e8a8dd-40a2-4df6-aae3-efb88075c393"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-topps-series-2"
+subjects:
+  - name: "Eduarniel Núñez"
+    role: "Player"
+    team: "Athletics"
+card_name: "Eduarniel Núñez - Base - Red Diamante Foil"
+description: "Red Diamante Foil parallel of Base card featuring Eduarniel Núñez."
+series: "2026 Topps Baseball"
+parallel: "Red Diamante Foil"
+print_run: 5
+rookie_card: true
+autograph: false
+relic: false
+serial_numbered: true
+release_date: "2026-06-11"
+image_url: "https://example.com/cards/2026-topps-series-2/401-red-diamante-foil.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Topps#Insertion_Ratios"

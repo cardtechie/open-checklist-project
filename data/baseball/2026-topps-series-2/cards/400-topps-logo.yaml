@@ -1,0 +1,22 @@
+number: "400"
+uuid: "78a9496e-4c1d-4444-8e46-d295cfbc5311"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-topps-series-2"
+subjects:
+  - name: "Pete Alonso"
+    role: "Player"
+    team: "Baltimore Orioles"
+card_name: "Pete Alonso - Base - Topps Logo"
+description: "Topps Logo parallel of Base card featuring Pete Alonso."
+series: "2026 Topps Baseball"
+parallel: "Topps Logo"
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: false
+release_date: "2026-06-11"
+image_url: "https://example.com/cards/2026-topps-series-2/400-topps-logo.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Topps#Insertion_Ratios"

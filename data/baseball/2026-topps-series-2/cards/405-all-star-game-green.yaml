@@ -1,0 +1,23 @@
+number: "405"
+uuid: "e4e9b87f-6fc5-417e-89d2-318bced706ae"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-topps-series-2"
+subjects:
+  - name: "PJ Poulin"
+    role: "Player"
+    team: "Washington Nationals"
+card_name: "PJ Poulin - Base - All-Star Game Green"
+description: "All-Star Game Green parallel of Base card featuring PJ Poulin."
+series: "2026 Topps Baseball"
+parallel: "All-Star Game Green"
+print_run: 99
+rookie_card: true
+autograph: false
+relic: false
+serial_numbered: true
+release_date: "2026-06-11"
+image_url: "https://example.com/cards/2026-topps-series-2/405-all-star-game-green.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Topps#Insertion_Ratios"

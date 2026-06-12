@@ -1,0 +1,23 @@
+number: "400"
+uuid: "be1fc01f-a297-4a25-9417-e88d3c2ebd81"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-topps-series-2"
+subjects:
+  - name: "Pete Alonso"
+    role: "Player"
+    team: "Baltimore Orioles"
+card_name: "Pete Alonso - Base - Orange Holo Foil"
+description: "Orange Holo Foil parallel of Base card featuring Pete Alonso."
+series: "2026 Topps Baseball"
+parallel: "Orange Holo Foil"
+print_run: 25
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: true
+release_date: "2026-06-11"
+image_url: "https://example.com/cards/2026-topps-series-2/400-orange-holo-foil.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Topps#Insertion_Ratios"

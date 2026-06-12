@@ -1,0 +1,23 @@
+number: "400"
+uuid: "be370c64-1f58-4f49-b0ae-34ad58f8bfe8"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-topps-series-2"
+subjects:
+  - name: "Pete Alonso"
+    role: "Player"
+    team: "Baltimore Orioles"
+card_name: "Pete Alonso - Base - Pink Holo"
+description: "Pink Holo parallel of Base card featuring Pete Alonso."
+series: "2026 Topps Baseball"
+parallel: "Pink Holo"
+print_run: 800
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: true
+release_date: "2026-06-11"
+image_url: "https://example.com/cards/2026-topps-series-2/400-pink-holo.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Topps#Insertion_Ratios"

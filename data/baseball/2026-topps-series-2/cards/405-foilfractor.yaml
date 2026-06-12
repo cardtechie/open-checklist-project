@@ -1,0 +1,23 @@
+number: "405"
+uuid: "3b115698-349d-4759-b635-6dbe5525ed3b"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-topps-series-2"
+subjects:
+  - name: "PJ Poulin"
+    role: "Player"
+    team: "Washington Nationals"
+card_name: "PJ Poulin - Base - FoilFractor"
+description: "FoilFractor parallel of Base card featuring PJ Poulin."
+series: "2026 Topps Baseball"
+parallel: "FoilFractor"
+print_run: 1
+rookie_card: true
+autograph: false
+relic: false
+serial_numbered: true
+release_date: "2026-06-11"
+image_url: "https://example.com/cards/2026-topps-series-2/405-foilfractor.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Topps#Insertion_Ratios"

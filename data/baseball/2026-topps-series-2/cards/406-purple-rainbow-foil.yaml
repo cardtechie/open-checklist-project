@@ -1,0 +1,23 @@
+number: "406"
+uuid: "765f03ef-42cd-4227-9f4f-103cf7dd03b1"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-topps-series-2"
+subjects:
+  - name: "Bryce Eldridge"
+    role: "Player"
+    team: "San Francisco Giants"
+card_name: "Bryce Eldridge - Base - Purple Rainbow Foil"
+description: "Purple Rainbow Foil parallel of Base card featuring Bryce Eldridge."
+series: "2026 Topps Baseball"
+parallel: "Purple Rainbow Foil"
+print_run: 250
+rookie_card: true
+autograph: false
+relic: false
+serial_numbered: true
+release_date: "2026-06-11"
+image_url: "https://example.com/cards/2026-topps-series-2/406-purple-rainbow-foil.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Topps#Insertion_Ratios"

@@ -1,0 +1,23 @@
+number: "405"
+uuid: "76244d4f-cf91-4ef1-89d7-87602f331b93"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-topps-series-2"
+subjects:
+  - name: "PJ Poulin"
+    role: "Player"
+    team: "Washington Nationals"
+card_name: "PJ Poulin - Base - Canvas"
+description: "Canvas parallel of Base card featuring PJ Poulin."
+series: "2026 Topps Baseball"
+parallel: "Canvas"
+print_run: 50
+rookie_card: true
+autograph: false
+relic: false
+serial_numbered: true
+release_date: "2026-06-11"
+image_url: "https://example.com/cards/2026-topps-series-2/405-canvas.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Topps#Insertion_Ratios"

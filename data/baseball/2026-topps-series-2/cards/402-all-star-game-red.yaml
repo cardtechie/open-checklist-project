@@ -1,0 +1,23 @@
+number: "402"
+uuid: "6d8cced6-9b67-4a86-b98b-cd1da5616d5e"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-topps-series-2"
+subjects:
+  - name: "Anthony Santander"
+    role: "Player"
+    team: "Toronto Blue Jays"
+card_name: "Anthony Santander - Base - All-Star Game Red"
+description: "All-Star Game Red parallel of Base card featuring Anthony Santander."
+series: "2026 Topps Baseball"
+parallel: "All-Star Game Red"
+print_run: 5
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: true
+release_date: "2026-06-11"
+image_url: "https://example.com/cards/2026-topps-series-2/402-all-star-game-red.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Topps#Insertion_Ratios"

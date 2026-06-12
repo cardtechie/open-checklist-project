@@ -1,0 +1,23 @@
+number: "401"
+uuid: "f24a5410-c807-43c7-8284-d1cfe0d4246e"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-topps-series-2"
+subjects:
+  - name: "Eduarniel Núñez"
+    role: "Player"
+    team: "Athletics"
+card_name: "Eduarniel Núñez - Base - Blue Holo Foil"
+description: "Blue Holo Foil parallel of Base card featuring Eduarniel Núñez."
+series: "2026 Topps Baseball"
+parallel: "Blue Holo Foil"
+print_run: 150
+rookie_card: true
+autograph: false
+relic: false
+serial_numbered: true
+release_date: "2026-06-11"
+image_url: "https://example.com/cards/2026-topps-series-2/401-blue-holo-foil.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Topps#Insertion_Ratios"
