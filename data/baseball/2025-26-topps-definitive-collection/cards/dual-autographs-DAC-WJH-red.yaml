@@ -1,0 +1,27 @@
+number: "DAC-WJH"
+uuid: "2cba69a9-8ab7-45b8-ac07-0758c04387f5"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2025-26-topps-definitive-collection"
+subjects:
+  - name: "Bobby Witt Jr."
+    role: "Player"
+    team: "Kansas City Royals"
+  - name: "Gunnar Henderson"
+    role: "Player"
+    team: "Baltimore Orioles"
+subset: "Dual Autographs"
+card_name: "Bobby Witt Jr. / Gunnar Henderson - Dual Autographs - Red"
+description: "Red parallel of Autographed Dual Autographs card featuring Bobby Witt Jr. / Gunnar Henderson."
+series: "Topps Definitive Collection"
+parallel: "Red"
+print_run: 5
+rookie_card: false
+autograph: true
+relic: false
+serial_numbered: true
+release_date: "2026-04-29"
+image_url: "https://example.com/cards/2025-26-topps-definitive-collection/dual-autographs-DAC-WJH-red.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2025-26_Topps_Definitive_Collection#Checklist"

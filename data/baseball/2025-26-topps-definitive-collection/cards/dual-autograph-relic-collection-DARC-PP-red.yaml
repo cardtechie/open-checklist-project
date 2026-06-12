@@ -1,0 +1,27 @@
+number: "DARC-PP"
+uuid: "4222dbc5-7fad-473f-9df4-05071f8b1e46"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2025-26-topps-definitive-collection"
+subjects:
+  - name: "Jorge Posada"
+    role: "Player"
+    team: "New York Yankees"
+  - name: "Andy Pettitte"
+    role: "Player"
+    team: "New York Yankees"
+subset: "Dual Autograph Relic Collection"
+card_name: "Jorge Posada / Andy Pettitte - Dual Autograph Relic Collection - Red"
+description: "Red parallel of Autographed Dual Autograph Relic Collection card featuring Jorge Posada / Andy Pettitte."
+series: "Topps Definitive Collection"
+parallel: "Red"
+print_run: 5
+rookie_card: false
+autograph: true
+relic: true
+serial_numbered: true
+release_date: "2026-04-29"
+image_url: "https://example.com/cards/2025-26-topps-definitive-collection/dual-autograph-relic-collection-DARC-PP-red.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2025-26_Topps_Definitive_Collection#Checklist"

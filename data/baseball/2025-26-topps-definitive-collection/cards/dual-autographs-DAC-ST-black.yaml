@@ -1,0 +1,27 @@
+number: "DAC-ST"
+uuid: "2621fb3e-4140-4732-afd8-9ed2c9ee8fa8"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2025-26-topps-definitive-collection"
+subjects:
+  - name: "Kyle Tucker"
+    role: "Player"
+    team: "Chicago Cubs"
+  - name: "Sammy Sosa"
+    role: "Player"
+    team: "Chicago Cubs"
+subset: "Dual Autographs"
+card_name: "Kyle Tucker / Sammy Sosa - Dual Autographs - Black"
+description: "Black parallel of Autographed Dual Autographs card featuring Kyle Tucker / Sammy Sosa."
+series: "Topps Definitive Collection"
+parallel: "Black"
+print_run: 10
+rookie_card: false
+autograph: true
+relic: false
+serial_numbered: true
+release_date: "2026-04-29"
+image_url: "https://example.com/cards/2025-26-topps-definitive-collection/dual-autographs-DAC-ST-black.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2025-26_Topps_Definitive_Collection#Checklist"

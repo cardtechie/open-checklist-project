@@ -1,0 +1,27 @@
+number: "DARC-MO"
+uuid: "3f911ba0-2d93-4a72-9694-dff869d39c6c"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2025-26-topps-definitive-collection"
+subjects:
+  - name: "Matt Olson"
+    role: "Player"
+    team: "Atlanta Braves"
+  - name: "Fred McGriff"
+    role: "Player"
+    team: "Atlanta Braves"
+subset: "Dual Autograph Relic Collection"
+card_name: "Matt Olson / Fred McGriff - Dual Autograph Relic Collection - Black"
+description: "Black parallel of Autographed Dual Autograph Relic Collection card featuring Matt Olson / Fred McGriff."
+series: "Topps Definitive Collection"
+parallel: "Black"
+print_run: 10
+rookie_card: false
+autograph: true
+relic: true
+serial_numbered: true
+release_date: "2026-04-29"
+image_url: "https://example.com/cards/2025-26-topps-definitive-collection/dual-autograph-relic-collection-DARC-MO-black.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2025-26_Topps_Definitive_Collection#Checklist"

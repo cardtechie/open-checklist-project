@@ -1,0 +1,27 @@
+number: "DAC-RR"
+uuid: "e41780cd-f9ea-4694-89c0-01a8e7e48d83"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2025-26-topps-definitive-collection"
+subjects:
+  - name: "Nolan Ryan"
+    role: "Player"
+    team: "Texas Rangers"
+  - name: "Ivan Rodriguez"
+    role: "Player"
+    team: "Texas Rangers"
+subset: "Dual Autographs"
+card_name: "Nolan Ryan / Ivan Rodriguez - Dual Autographs - Gold"
+description: "Gold parallel of Autographed Dual Autographs card featuring Nolan Ryan / Ivan Rodriguez."
+series: "Topps Definitive Collection"
+parallel: "Gold"
+print_run: 1
+rookie_card: false
+autograph: true
+relic: false
+serial_numbered: true
+release_date: "2026-04-29"
+image_url: "https://example.com/cards/2025-26-topps-definitive-collection/dual-autographs-DAC-RR-gold.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2025-26_Topps_Definitive_Collection#Checklist"

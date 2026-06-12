@@ -1,0 +1,27 @@
+number: "DAC-PT"
+uuid: "dfaf3be8-8d45-472f-9cbb-59d98515df6a"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2025-26-topps-definitive-collection"
+subjects:
+  - name: "Albert Pujols"
+    role: "Player"
+    team: "Los Angeles Angels"
+  - name: "Mike Trout"
+    role: "Player"
+    team: "Los Angeles Angels"
+subset: "Dual Autographs"
+card_name: "Albert Pujols / Mike Trout - Dual Autographs - Black"
+description: "Black parallel of Autographed Dual Autographs card featuring Albert Pujols / Mike Trout."
+series: "Topps Definitive Collection"
+parallel: "Black"
+print_run: 10
+rookie_card: false
+autograph: true
+relic: false
+serial_numbered: true
+release_date: "2026-04-29"
+image_url: "https://example.com/cards/2025-26-topps-definitive-collection/dual-autographs-DAC-PT-black.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2025-26_Topps_Definitive_Collection#Checklist"

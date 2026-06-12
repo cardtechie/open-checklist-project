@@ -1,0 +1,27 @@
+number: "DARC-SM"
+uuid: "26c377f7-5f21-4786-84f1-1abcf063c535"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2025-26-topps-definitive-collection"
+subjects:
+  - name: "Andrew McCutchen"
+    role: "Player"
+    team: "Pittsburgh Pirates"
+  - name: "Paul Skenes"
+    role: "Player"
+    team: "Pittsburgh Pirates"
+subset: "Dual Autograph Relic Collection"
+card_name: "Andrew McCutchen / Paul Skenes - Dual Autograph Relic Collection - Red"
+description: "Red parallel of Autographed Dual Autograph Relic Collection card featuring Andrew McCutchen / Paul Skenes."
+series: "Topps Definitive Collection"
+parallel: "Red"
+print_run: 5
+rookie_card: false
+autograph: true
+relic: true
+serial_numbered: true
+release_date: "2026-04-29"
+image_url: "https://example.com/cards/2025-26-topps-definitive-collection/dual-autograph-relic-collection-DARC-SM-red.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2025-26_Topps_Definitive_Collection#Checklist"

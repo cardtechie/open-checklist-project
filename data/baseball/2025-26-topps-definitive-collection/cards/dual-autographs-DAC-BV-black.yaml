@@ -1,0 +1,27 @@
+number: "DAC-BV"
+uuid: "56107ca7-3433-4ce5-8d94-d6b4509d4259"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2025-26-topps-definitive-collection"
+subjects:
+  - name: "Johnny Bench"
+    role: "Player"
+    team: "Cincinnati Reds"
+  - name: "Joey Votto"
+    role: "Player"
+    team: "Cincinnati Reds"
+subset: "Dual Autographs"
+card_name: "Johnny Bench / Joey Votto - Dual Autographs - Black"
+description: "Black parallel of Autographed Dual Autographs card featuring Johnny Bench / Joey Votto."
+series: "Topps Definitive Collection"
+parallel: "Black"
+print_run: 10
+rookie_card: false
+autograph: true
+relic: false
+serial_numbered: true
+release_date: "2026-04-29"
+image_url: "https://example.com/cards/2025-26-topps-definitive-collection/dual-autographs-DAC-BV-black.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2025-26_Topps_Definitive_Collection#Checklist"

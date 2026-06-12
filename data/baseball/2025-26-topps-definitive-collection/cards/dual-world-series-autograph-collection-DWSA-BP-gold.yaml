@@ -1,0 +1,27 @@
+number: "DWSA-BP"
+uuid: "8f2dc43e-5008-4ec8-9288-9dcc8595a5c5"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2025-26-topps-definitive-collection"
+subjects:
+  - name: "Johnny Bench"
+    role: "Player"
+    team: "Cincinnati Reds"
+  - name: "Tony Pérez"
+    role: "Player"
+    team: "Cincinnati Reds"
+subset: "Dual World Series Autograph Collection"
+card_name: "Johnny Bench / Tony Pérez - Dual World Series Autograph Collection - Gold"
+description: "Gold parallel of Autographed Dual World Series Autograph Collection card featuring Johnny Bench / Tony Pérez."
+series: "Topps Definitive Collection"
+parallel: "Gold"
+print_run: 1
+rookie_card: false
+autograph: true
+relic: false
+serial_numbered: true
+release_date: "2026-04-29"
+image_url: "https://example.com/cards/2025-26-topps-definitive-collection/dual-world-series-autograph-collection-DWSA-BP-gold.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2025-26_Topps_Definitive_Collection#Checklist"

@@ -1,0 +1,27 @@
+number: "DARC-TR"
+uuid: "50c2595d-d5e0-4506-884a-a86fb4939cf8"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2025-26-topps-definitive-collection"
+subjects:
+  - name: "J.T. Realmuto"
+    role: "Player"
+    team: "Philadelphia Phillies"
+  - name: "Trea Turner"
+    role: "Player"
+    team: "Philadelphia Phillies"
+subset: "Dual Autograph Relic Collection"
+card_name: "J.T. Realmuto / Trea Turner - Dual Autograph Relic Collection - Gold"
+description: "Gold parallel of Autographed Dual Autograph Relic Collection card featuring J.T. Realmuto / Trea Turner."
+series: "Topps Definitive Collection"
+parallel: "Gold"
+print_run: 1
+rookie_card: false
+autograph: true
+relic: true
+serial_numbered: true
+release_date: "2026-04-29"
+image_url: "https://example.com/cards/2025-26-topps-definitive-collection/dual-autograph-relic-collection-DARC-TR-gold.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2025-26_Topps_Definitive_Collection#Checklist"

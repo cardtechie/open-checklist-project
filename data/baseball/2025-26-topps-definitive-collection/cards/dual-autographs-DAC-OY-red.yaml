@@ -1,0 +1,27 @@
+number: "DAC-OY"
+uuid: "8b846a08-4b92-4202-b07f-a3afbfb23acc"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2025-26-topps-definitive-collection"
+subjects:
+  - name: "Shohei Ohtani"
+    role: "Player"
+    team: "Los Angeles Dodgers"
+  - name: "Yoshinobu Yamamoto"
+    role: "Player"
+    team: "Los Angeles Dodgers"
+subset: "Dual Autographs"
+card_name: "Shohei Ohtani / Yoshinobu Yamamoto - Dual Autographs - Red"
+description: "Red parallel of Autographed Dual Autographs card featuring Shohei Ohtani / Yoshinobu Yamamoto."
+series: "Topps Definitive Collection"
+parallel: "Red"
+print_run: 5
+rookie_card: false
+autograph: true
+relic: false
+serial_numbered: true
+release_date: "2026-04-29"
+image_url: "https://example.com/cards/2025-26-topps-definitive-collection/dual-autographs-DAC-OY-red.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2025-26_Topps_Definitive_Collection#Checklist"

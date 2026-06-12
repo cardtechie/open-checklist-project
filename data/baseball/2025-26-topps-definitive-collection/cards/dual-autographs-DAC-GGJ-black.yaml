@@ -1,0 +1,27 @@
+number: "DAC-GGJ"
+uuid: "acb3b903-7bde-4d0b-867b-1ec700d9b2ce"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2025-26-topps-definitive-collection"
+subjects:
+  - name: "Vladimir Guerrero"
+    role: "Player"
+    team: "Montreál Expos"
+  - name: "Vladimir Guerrero Jr."
+    role: "Player"
+    team: "Toronto Blue Jays"
+subset: "Dual Autographs"
+card_name: "Vladimir Guerrero / Vladimir Guerrero Jr. - Dual Autographs - Black"
+description: "Black parallel of Autographed Dual Autographs card featuring Vladimir Guerrero / Vladimir Guerrero Jr.."
+series: "Topps Definitive Collection"
+parallel: "Black"
+print_run: 10
+rookie_card: false
+autograph: true
+relic: false
+serial_numbered: true
+release_date: "2026-04-29"
+image_url: "https://example.com/cards/2025-26-topps-definitive-collection/dual-autographs-DAC-GGJ-black.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2025-26_Topps_Definitive_Collection#Checklist"

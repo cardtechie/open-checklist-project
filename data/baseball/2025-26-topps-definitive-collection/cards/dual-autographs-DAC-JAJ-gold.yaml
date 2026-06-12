@@ -1,0 +1,27 @@
+number: "DAC-JAJ"
+uuid: "1a7cbd33-5dff-4cd6-8907-612b537a270b"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2025-26-topps-definitive-collection"
+subjects:
+  - name: "Chipper Jones"
+    role: "Player"
+    team: "Atlanta Braves"
+  - name: "Ronald Acuña Jr."
+    role: "Player"
+    team: "Atlanta Braves"
+subset: "Dual Autographs"
+card_name: "Chipper Jones / Ronald Acuña Jr. - Dual Autographs - Gold"
+description: "Gold parallel of Autographed Dual Autographs card featuring Chipper Jones / Ronald Acuña Jr.."
+series: "Topps Definitive Collection"
+parallel: "Gold"
+print_run: 1
+rookie_card: false
+autograph: true
+relic: false
+serial_numbered: true
+release_date: "2026-04-29"
+image_url: "https://example.com/cards/2025-26-topps-definitive-collection/dual-autographs-DAC-JAJ-gold.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2025-26_Topps_Definitive_Collection#Checklist"

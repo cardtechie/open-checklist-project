@@ -1,0 +1,27 @@
+number: "DWSA-ST"
+uuid: "40729216-e64f-43bd-9cf0-043b83eda7b6"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2025-26-topps-definitive-collection"
+subjects:
+  - name: "Trea Turner"
+    role: "Player"
+    team: "Washington Nationals"
+  - name: "Juan Soto"
+    role: "Player"
+    team: "Washington Nationals"
+subset: "Dual World Series Autograph Collection"
+card_name: "Trea Turner / Juan Soto - Dual World Series Autograph Collection - Red"
+description: "Red parallel of Autographed Dual World Series Autograph Collection card featuring Trea Turner / Juan Soto."
+series: "Topps Definitive Collection"
+parallel: "Red"
+print_run: 5
+rookie_card: false
+autograph: true
+relic: false
+serial_numbered: true
+release_date: "2026-04-29"
+image_url: "https://example.com/cards/2025-26-topps-definitive-collection/dual-world-series-autograph-collection-DWSA-ST-red.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2025-26_Topps_Definitive_Collection#Checklist"

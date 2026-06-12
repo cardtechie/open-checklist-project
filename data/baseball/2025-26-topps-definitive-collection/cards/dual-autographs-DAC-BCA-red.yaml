@@ -1,0 +1,27 @@
+number: "DAC-BCA"
+uuid: "dc155134-2981-4c92-9fe7-aabaa1e63183"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2025-26-topps-definitive-collection"
+subjects:
+  - name: "Kristian Campbell"
+    role: "Player"
+    team: "Boston Red Sox"
+  - name: "Alex Bregman"
+    role: "Player"
+    team: "Boston Red Sox"
+subset: "Dual Autographs"
+card_name: "Kristian Campbell / Alex Bregman - Dual Autographs - Red"
+description: "Red parallel of Autographed Dual Autographs card featuring Kristian Campbell / Alex Bregman."
+series: "Topps Definitive Collection"
+parallel: "Red"
+print_run: 5
+rookie_card: false
+autograph: true
+relic: false
+serial_numbered: true
+release_date: "2026-04-29"
+image_url: "https://example.com/cards/2025-26-topps-definitive-collection/dual-autographs-DAC-BCA-red.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2025-26_Topps_Definitive_Collection#Checklist"

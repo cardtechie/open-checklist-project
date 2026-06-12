@@ -1,0 +1,30 @@
+number: "DTAC-PWS"
+uuid: "79a7d076-ce2c-4b97-baf7-e8aa78f0d4b8"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2025-26-topps-definitive-collection"
+subjects:
+  - name: "David Wright"
+    role: "Player"
+    team: "New York Mets"
+  - name: "Juan Soto"
+    role: "Player"
+    team: "New York Mets"
+  - name: "Mike Piazza"
+    role: "Player"
+    team: "New York Mets"
+subset: "Definitive Triple Autographs"
+card_name: "David Wright / Juan Soto / Mike Piazza - Definitive Triple Autographs - Red"
+description: "Red parallel of Autographed Definitive Triple Autographs card featuring David Wright / Juan Soto / Mike Piazza."
+series: "Topps Definitive Collection"
+parallel: "Red"
+print_run: 5
+rookie_card: false
+autograph: true
+relic: false
+serial_numbered: true
+release_date: "2026-04-29"
+image_url: "https://example.com/cards/2025-26-topps-definitive-collection/definitive-triple-autographs-DTAC-PWS-red.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2025-26_Topps_Definitive_Collection#Checklist"

@@ -1,0 +1,27 @@
+number: "DAC-PS"
+uuid: "b7a048e8-e98a-4e08-9685-38619110b977"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2025-26-topps-definitive-collection"
+subjects:
+  - name: "Mike Piazza"
+    role: "Player"
+    team: "New York Mets"
+  - name: "Juan Soto"
+    role: "Player"
+    team: "New York Mets"
+subset: "Dual Autographs"
+card_name: "Mike Piazza / Juan Soto - Dual Autographs - Gold"
+description: "Gold parallel of Autographed Dual Autographs card featuring Mike Piazza / Juan Soto."
+series: "Topps Definitive Collection"
+parallel: "Gold"
+print_run: 1
+rookie_card: false
+autograph: true
+relic: false
+serial_numbered: true
+release_date: "2026-04-29"
+image_url: "https://example.com/cards/2025-26-topps-definitive-collection/dual-autographs-DAC-PS-gold.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2025-26_Topps_Definitive_Collection#Checklist"

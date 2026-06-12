@@ -1,0 +1,27 @@
+number: "DARC-PT"
+uuid: "c17ac3db-508c-4cac-b840-a838eda294db"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2025-26-topps-definitive-collection"
+subjects:
+  - name: "Albert Pujols"
+    role: "Player"
+    team: "Los Angeles Angels"
+  - name: "Mike Trout"
+    role: "Player"
+    team: "Los Angeles Angels"
+subset: "Dual Autograph Relic Collection"
+card_name: "Albert Pujols / Mike Trout - Dual Autograph Relic Collection - Gold"
+description: "Gold parallel of Autographed Dual Autograph Relic Collection card featuring Albert Pujols / Mike Trout."
+series: "Topps Definitive Collection"
+parallel: "Gold"
+print_run: 1
+rookie_card: false
+autograph: true
+relic: true
+serial_numbered: true
+release_date: "2026-04-29"
+image_url: "https://example.com/cards/2025-26-topps-definitive-collection/dual-autograph-relic-collection-DARC-PT-gold.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2025-26_Topps_Definitive_Collection#Checklist"

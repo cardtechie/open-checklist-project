@@ -1,0 +1,27 @@
+number: "DWSA-SP"
+uuid: "743c4626-4a92-4428-ba24-9eda7d0eec81"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2025-26-topps-definitive-collection"
+subjects:
+  - name: "Andy Pettitte"
+    role: "Player"
+    team: "New York Yankees"
+  - name: "CC Sabathia"
+    role: "Player"
+    team: "New York Yankees"
+subset: "Dual World Series Autograph Collection"
+card_name: "Andy Pettitte / CC Sabathia - Dual World Series Autograph Collection - Red"
+description: "Red parallel of Autographed Dual World Series Autograph Collection card featuring Andy Pettitte / CC Sabathia."
+series: "Topps Definitive Collection"
+parallel: "Red"
+print_run: 5
+rookie_card: false
+autograph: true
+relic: false
+serial_numbered: true
+release_date: "2026-04-29"
+image_url: "https://example.com/cards/2025-26-topps-definitive-collection/dual-world-series-autograph-collection-DWSA-SP-red.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2025-26_Topps_Definitive_Collection#Checklist"

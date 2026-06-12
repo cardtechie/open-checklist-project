@@ -1,0 +1,27 @@
+number: "DAC-YS"
+uuid: "ea134c5a-e727-4c3a-b193-6e37f96873de"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2025-26-topps-definitive-collection"
+subjects:
+  - name: "Yoshinobu Yamamoto"
+    role: "Player"
+    team: "Los Angeles Dodgers"
+  - name: "Roki Sasaki"
+    role: "Player"
+    team: "Los Angeles Dodgers"
+subset: "Dual Autographs"
+card_name: "Yoshinobu Yamamoto / Roki Sasaki - Dual Autographs - Black"
+description: "Black parallel of Autographed Dual Autographs card featuring Yoshinobu Yamamoto / Roki Sasaki."
+series: "Topps Definitive Collection"
+parallel: "Black"
+print_run: 10
+rookie_card: false
+autograph: true
+relic: false
+serial_numbered: true
+release_date: "2026-04-29"
+image_url: "https://example.com/cards/2025-26-topps-definitive-collection/dual-autographs-DAC-YS-black.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2025-26_Topps_Definitive_Collection#Checklist"

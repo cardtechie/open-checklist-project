@@ -1,0 +1,27 @@
+number: "DWSA-OJ"
+uuid: "6af96c51-9ff9-4a6d-aa14-b7077c6864e8"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2025-26-topps-definitive-collection"
+subjects:
+  - name: "Aaron Judge"
+    role: "Player"
+    team: "New York Yankees"
+  - name: "Shohei Ohtani"
+    role: "Player"
+    team: "Los Angeles Dodgers"
+subset: "Dual World Series Autograph Collection"
+card_name: "Aaron Judge / Shohei Ohtani - Dual World Series Autograph Collection - Black"
+description: "Black parallel of Autographed Dual World Series Autograph Collection card featuring Aaron Judge / Shohei Ohtani."
+series: "Topps Definitive Collection"
+parallel: "Black"
+print_run: 10
+rookie_card: false
+autograph: true
+relic: false
+serial_numbered: true
+release_date: "2026-04-29"
+image_url: "https://example.com/cards/2025-26-topps-definitive-collection/dual-world-series-autograph-collection-DWSA-OJ-black.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2025-26_Topps_Definitive_Collection#Checklist"
