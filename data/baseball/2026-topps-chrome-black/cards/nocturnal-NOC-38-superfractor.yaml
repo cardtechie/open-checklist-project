@@ -1,0 +1,24 @@
+number: "NOC-38"
+uuid: "3a8acce7-0eda-4c28-a5bd-d59485ed45b5"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-topps-chrome-black"
+subjects:
+  - name: "Elly De La Cruz"
+    role: "Player"
+    team: "Cincinnati Reds"
+subset: "Nocturnal"
+card_name: "Elly De La Cruz - Nocturnal - SuperFractor"
+description: "SuperFractor parallel of Nocturnal card featuring Elly De La Cruz."
+series: "2026 Topps Chrome Black"
+parallel: "SuperFractor"
+print_run: 1
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: true
+release_date: "2026-04-29"
+image_url: "https://example.com/cards/2026-topps-chrome-black/nocturnal-NOC-38-superfractor.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Topps_Chrome_Black#Insertion_Ratios"

@@ -1,0 +1,24 @@
+number: "NOC-13"
+uuid: "418cbfd6-c85d-41ef-b1e3-92a3fb0fb96d"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-topps-chrome-black"
+subjects:
+  - name: "Alex Freeland"
+    role: "Player"
+    team: "Los Angeles Dodgers"
+subset: "Nocturnal"
+card_name: "Alex Freeland - Nocturnal - SuperFractor"
+description: "SuperFractor parallel of Nocturnal card featuring Alex Freeland."
+series: "2026 Topps Chrome Black"
+parallel: "SuperFractor"
+print_run: 1
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: true
+release_date: "2026-04-29"
+image_url: "https://example.com/cards/2026-topps-chrome-black/nocturnal-NOC-13-superfractor.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Topps_Chrome_Black#Insertion_Ratios"

@@ -1,0 +1,27 @@
+number: "PDPA-JI"
+uuid: "228dd86a-1bc4-4707-8524-66ac0ce32e7b"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-topps-chrome-black"
+subjects:
+  - name: "Ichiro"
+    role: "Player"
+    team: "New York Yankees"
+  - name: "Derek Jeter"
+    role: "Player"
+    team: "New York Yankees"
+subset: "Pitch Black Pairings Dual Autographs"
+card_name: "Ichiro / Derek Jeter - Pitch Black Pairings Dual Autographs - SuperFractor"
+description: "SuperFractor parallel of Autographed Pitch Black Pairings Dual Autographs card featuring Ichiro / Derek Jeter."
+series: "2026 Topps Chrome Black"
+parallel: "SuperFractor"
+print_run: 1
+rookie_card: false
+autograph: true
+relic: false
+serial_numbered: true
+release_date: "2026-04-29"
+image_url: "https://example.com/cards/2026-topps-chrome-black/pitch-black-pairings-dual-autographs-PDPA-JI-superfractor.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Topps_Chrome_Black#Insertion_Ratios"

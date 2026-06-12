@@ -1,0 +1,27 @@
+number: "PDPA-WG"
+uuid: "05fc758e-ec2b-4ba9-bad6-adedb0e9b3da"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-topps-chrome-black"
+subjects:
+  - name: "Vladimir Guerrero"
+    role: "Player"
+    team: "Montréal Expos"
+  - name: "Larry Walker"
+    role: "Player"
+    team: "Montréal Expos"
+subset: "Pitch Black Pairings Dual Autographs"
+card_name: "Vladimir Guerrero / Larry Walker - Pitch Black Pairings Dual Autographs - SuperFractor"
+description: "SuperFractor parallel of Autographed Pitch Black Pairings Dual Autographs card featuring Vladimir Guerrero / Larry Walker."
+series: "2026 Topps Chrome Black"
+parallel: "SuperFractor"
+print_run: 1
+rookie_card: false
+autograph: true
+relic: false
+serial_numbered: true
+release_date: "2026-04-29"
+image_url: "https://example.com/cards/2026-topps-chrome-black/pitch-black-pairings-dual-autographs-PDPA-WG-superfractor.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Topps_Chrome_Black#Insertion_Ratios"

@@ -1,0 +1,24 @@
+number: "NOC-33"
+uuid: "62c52389-085a-44ec-9fd7-0d1c422c1037"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-topps-chrome-black"
+subjects:
+  - name: "Pete Crow-Armstrong"
+    role: "Player"
+    team: "Chicago Cubs"
+subset: "Nocturnal"
+card_name: "Pete Crow-Armstrong - Nocturnal - SuperFractor"
+description: "SuperFractor parallel of Nocturnal card featuring Pete Crow-Armstrong."
+series: "2026 Topps Chrome Black"
+parallel: "SuperFractor"
+print_run: 1
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: true
+release_date: "2026-04-29"
+image_url: "https://example.com/cards/2026-topps-chrome-black/nocturnal-NOC-33-superfractor.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Topps_Chrome_Black#Insertion_Ratios"

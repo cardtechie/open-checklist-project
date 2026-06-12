@@ -1,0 +1,24 @@
+number: "SFA-CM"
+uuid: "d5bb3686-eddf-49dd-9c8a-a1657f3bc33e"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-topps-chrome-black"
+subjects:
+  - name: "Christian Moore"
+    role: "Player"
+    team: "Los Angeles Angels"
+subset: "Super Futures Autographs"
+card_name: "Christian Moore - Super Futures Autographs - Gold Refractor"
+description: "Gold Refractor parallel of Autographed Super Futures Autographs card featuring Christian Moore."
+series: "2026 Topps Chrome Black"
+parallel: "Gold Refractor"
+print_run: 50
+rookie_card: false
+autograph: true
+relic: false
+serial_numbered: true
+release_date: "2026-04-29"
+image_url: "https://example.com/cards/2026-topps-chrome-black/super-futures-autographs-SFA-CM-gold-refractor.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Topps_Chrome_Black#Insertion_Ratios"

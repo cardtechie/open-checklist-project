@@ -1,0 +1,24 @@
+number: "IVA-BB"
+uuid: "5c039672-4b91-4765-b18a-88b87fa37ece"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-topps-chrome-black"
+subjects:
+  - name: "Barry Bonds"
+    role: "Player"
+    team: "San Francisco Giants"
+subset: "Ivory Autographs"
+card_name: "Barry Bonds - Ivory Autographs - Orange Trim"
+description: "Orange Trim parallel of Autographed Ivory Autographs card featuring Barry Bonds."
+series: "2026 Topps Chrome Black"
+parallel: "Orange Trim"
+print_run: 25
+rookie_card: false
+autograph: true
+relic: false
+serial_numbered: true
+release_date: "2026-04-29"
+image_url: "https://example.com/cards/2026-topps-chrome-black/ivory-autographs-IVA-BB-orange-trim.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Topps_Chrome_Black#Insertion_Ratios"

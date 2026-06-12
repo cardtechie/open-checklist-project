@@ -1,0 +1,24 @@
+number: "DAM-1"
+uuid: "2daec82e-6826-4501-a2ac-0cb1fb1aca27"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-topps-chrome-black"
+subjects:
+  - name: "Shohei Ohtani"
+    role: "Player"
+    team: "Los Angeles Dodgers"
+subset: "Damascus"
+card_name: "Shohei Ohtani - Damascus - SuperFractor"
+description: "SuperFractor parallel of Damascus card featuring Shohei Ohtani."
+series: "2026 Topps Chrome Black"
+parallel: "SuperFractor"
+print_run: 1
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: true
+release_date: "2026-04-29"
+image_url: "https://example.com/cards/2026-topps-chrome-black/damascus-DAM-1-superfractor.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Topps_Chrome_Black#Insertion_Ratios"

@@ -1,0 +1,24 @@
+number: "DOD-10"
+uuid: "079f13bc-d419-4dca-a807-db88ac7f5bb0"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-topps-chrome-black"
+subjects:
+  - name: "Bryce Harper"
+    role: "Player"
+    team: "Philadelphia Phillies"
+subset: "Depth Of Darkness"
+card_name: "Bryce Harper - Depth Of Darkness - Red Refractor"
+description: "Red Refractor parallel of Depth Of Darkness card featuring Bryce Harper."
+series: "2026 Topps Chrome Black"
+parallel: "Red Refractor"
+print_run: 5
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: true
+release_date: "2026-04-29"
+image_url: "https://example.com/cards/2026-topps-chrome-black/depth-of-darkness-DOD-10-red-refractor.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Topps_Chrome_Black#Insertion_Ratios"

@@ -1,0 +1,24 @@
+number: "DOD-9"
+uuid: "9cdaa919-9f37-411d-b97d-4d4c53f9b99f"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-topps-chrome-black"
+subjects:
+  - name: "Aaron Judge"
+    role: "Player"
+    team: "New York Yankees"
+subset: "Depth Of Darkness"
+card_name: "Aaron Judge - Depth Of Darkness - Red Refractor"
+description: "Red Refractor parallel of Depth Of Darkness card featuring Aaron Judge."
+series: "2026 Topps Chrome Black"
+parallel: "Red Refractor"
+print_run: 5
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: true
+release_date: "2026-04-29"
+image_url: "https://example.com/cards/2026-topps-chrome-black/depth-of-darkness-DOD-9-red-refractor.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Topps_Chrome_Black#Insertion_Ratios"

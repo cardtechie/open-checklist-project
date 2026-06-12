@@ -1,0 +1,24 @@
+number: "CBA-MM"
+uuid: "3ee7aadf-bd2c-4b25-a5b5-98c4437f0616"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-topps-chrome-black"
+subjects:
+  - name: "Mark McGwire"
+    role: "Player"
+    team: "St. Louis Cardinals"
+subset: "Chrome Black Autographs"
+card_name: "Mark McGwire - Chrome Black Autographs - Red Refractor"
+description: "Red Refractor parallel of Autographed Chrome Black Autographs card featuring Mark McGwire."
+series: "2026 Topps Chrome Black"
+parallel: "Red Refractor"
+print_run: 5
+rookie_card: false
+autograph: true
+relic: false
+serial_numbered: true
+release_date: "2026-04-29"
+image_url: "https://example.com/cards/2026-topps-chrome-black/chrome-black-autographs-CBA-MM-red-refractor.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Topps_Chrome_Black#Insertion_Ratios"

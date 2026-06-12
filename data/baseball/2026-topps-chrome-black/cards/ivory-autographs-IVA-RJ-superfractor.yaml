@@ -1,0 +1,24 @@
+number: "IVA-RJ"
+uuid: "f562005a-1b39-42ba-bef4-10ac559203d5"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-topps-chrome-black"
+subjects:
+  - name: "Randy Johnson"
+    role: "Player"
+    team: "Seattle Mariners"
+subset: "Ivory Autographs"
+card_name: "Randy Johnson - Ivory Autographs - SuperFractor"
+description: "SuperFractor parallel of Autographed Ivory Autographs card featuring Randy Johnson."
+series: "2026 Topps Chrome Black"
+parallel: "SuperFractor"
+print_run: 1
+rookie_card: false
+autograph: true
+relic: false
+serial_numbered: true
+release_date: "2026-04-29"
+image_url: "https://example.com/cards/2026-topps-chrome-black/ivory-autographs-IVA-RJ-superfractor.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Topps_Chrome_Black#Insertion_Ratios"

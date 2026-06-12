@@ -1,0 +1,24 @@
+number: "NOC-40"
+uuid: "778b0f66-7cad-487f-be9f-fc98196569c7"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-topps-chrome-black"
+subjects:
+  - name: "Trea Turner"
+    role: "Player"
+    team: "Philadelphia Phillies"
+subset: "Nocturnal"
+card_name: "Trea Turner - Nocturnal - SuperFractor"
+description: "SuperFractor parallel of Nocturnal card featuring Trea Turner."
+series: "2026 Topps Chrome Black"
+parallel: "SuperFractor"
+print_run: 1
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: true
+release_date: "2026-04-29"
+image_url: "https://example.com/cards/2026-topps-chrome-black/nocturnal-NOC-40-superfractor.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Topps_Chrome_Black#Insertion_Ratios"

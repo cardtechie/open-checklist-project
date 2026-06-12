@@ -1,0 +1,24 @@
+number: "NOC-15"
+uuid: "511fb50c-72bc-430a-9067-e975bb8040c7"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-topps-chrome-black"
+subjects:
+  - name: "Carson Williams"
+    role: "Player"
+    team: "Tampa Bay Rays"
+subset: "Nocturnal"
+card_name: "Carson Williams - Nocturnal - SuperFractor"
+description: "SuperFractor parallel of Nocturnal card featuring Carson Williams."
+series: "2026 Topps Chrome Black"
+parallel: "SuperFractor"
+print_run: 1
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: true
+release_date: "2026-04-29"
+image_url: "https://example.com/cards/2026-topps-chrome-black/nocturnal-NOC-15-superfractor.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Topps_Chrome_Black#Insertion_Ratios"

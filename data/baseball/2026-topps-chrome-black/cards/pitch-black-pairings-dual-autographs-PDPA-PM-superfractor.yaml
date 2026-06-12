@@ -1,0 +1,27 @@
+number: "PDPA-PM"
+uuid: "890e0928-bb06-4a9d-ace0-b9451844ec59"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-topps-chrome-black"
+subjects:
+  - name: "Mark McGwire"
+    role: "Player"
+    team: "St. Louis Cardinals"
+  - name: "Albert Pujols"
+    role: "Player"
+    team: "St. Louis Cardinals"
+subset: "Pitch Black Pairings Dual Autographs"
+card_name: "Mark McGwire / Albert Pujols - Pitch Black Pairings Dual Autographs - SuperFractor"
+description: "SuperFractor parallel of Autographed Pitch Black Pairings Dual Autographs card featuring Mark McGwire / Albert Pujols."
+series: "2026 Topps Chrome Black"
+parallel: "SuperFractor"
+print_run: 1
+rookie_card: false
+autograph: true
+relic: false
+serial_numbered: true
+release_date: "2026-04-29"
+image_url: "https://example.com/cards/2026-topps-chrome-black/pitch-black-pairings-dual-autographs-PDPA-PM-superfractor.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Topps_Chrome_Black#Insertion_Ratios"

@@ -1,0 +1,24 @@
+number: "IVA-GB"
+uuid: "6795caf3-ceb7-4a79-9a32-042b98527bee"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-topps-chrome-black"
+subjects:
+  - name: "George Brett"
+    role: "Player"
+    team: "Kansas City Royals"
+subset: "Ivory Autographs"
+card_name: "George Brett - Ivory Autographs - Orange Trim"
+description: "Orange Trim parallel of Autographed Ivory Autographs card featuring George Brett."
+series: "2026 Topps Chrome Black"
+parallel: "Orange Trim"
+print_run: 25
+rookie_card: false
+autograph: true
+relic: false
+serial_numbered: true
+release_date: "2026-04-29"
+image_url: "https://example.com/cards/2026-topps-chrome-black/ivory-autographs-IVA-GB-orange-trim.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Topps_Chrome_Black#Insertion_Ratios"

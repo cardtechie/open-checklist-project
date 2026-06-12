@@ -1,0 +1,27 @@
+number: "PDPA-JI"
+uuid: "03494e83-73e6-4d4c-82a4-9e30b375a3e1"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-topps-chrome-black"
+subjects:
+  - name: "Ichiro"
+    role: "Player"
+    team: "New York Yankees"
+  - name: "Derek Jeter"
+    role: "Player"
+    team: "New York Yankees"
+subset: "Pitch Black Pairings Dual Autographs"
+card_name: "Ichiro / Derek Jeter - Pitch Black Pairings Dual Autographs - Orange Refractor"
+description: "Orange Refractor parallel of Autographed Pitch Black Pairings Dual Autographs card featuring Ichiro / Derek Jeter."
+series: "2026 Topps Chrome Black"
+parallel: "Orange Refractor"
+print_run: 25
+rookie_card: false
+autograph: true
+relic: false
+serial_numbered: true
+release_date: "2026-04-29"
+image_url: "https://example.com/cards/2026-topps-chrome-black/pitch-black-pairings-dual-autographs-PDPA-JI-orange-refractor.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Topps_Chrome_Black#Insertion_Ratios"

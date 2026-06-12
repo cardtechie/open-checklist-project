@@ -1,0 +1,24 @@
+number: "CBHA-12"
+uuid: "f9cf9605-6bf2-4b33-b3d6-d716db5128f0"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-topps-chrome-black"
+subjects:
+  - name: "Honus Wagner"
+    role: "Player"
+    team: "Pittsburgh Pirates"
+subset: "Home Field"
+card_name: "Honus Wagner - Home Field - Black Refractor"
+description: "Black Refractor parallel of Home Field card featuring Honus Wagner."
+series: "2026 Topps Chrome Black"
+parallel: "Black Refractor"
+print_run: 1
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: true
+release_date: "2026-04-29"
+image_url: "https://example.com/cards/2026-topps-chrome-black/home-field-CBHA-12-black-refractor.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Topps_Chrome_Black#Insertion_Ratios"

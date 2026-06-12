@@ -1,0 +1,24 @@
+number: "NOC-11"
+uuid: "9731ecfa-c686-460f-8f57-e8dab118a187"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-topps-chrome-black"
+subjects:
+  - name: "Sal Stewart"
+    role: "Player"
+    team: "Cincinnati Reds"
+subset: "Nocturnal"
+card_name: "Sal Stewart - Nocturnal - SuperFractor"
+description: "SuperFractor parallel of Nocturnal card featuring Sal Stewart."
+series: "2026 Topps Chrome Black"
+parallel: "SuperFractor"
+print_run: 1
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: true
+release_date: "2026-04-29"
+image_url: "https://example.com/cards/2026-topps-chrome-black/nocturnal-NOC-11-superfractor.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Topps_Chrome_Black#Insertion_Ratios"
