@@ -1,0 +1,24 @@
+number: "550"
+uuid: "42976a42-a9e6-474d-b55e-68e99d69fce4"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-topps-series-2"
+subjects:
+  - name: "Dansby Swanson"
+    role: "Player"
+    team: "Chicago Cubs"
+subset: "Real One Relics"
+card_name: "Dansby Swanson - Real One Relics - FoilFractor"
+description: "FoilFractor parallel of Real One Relics memorabilia card featuring Dansby Swanson."
+series: "2026 Topps Baseball"
+parallel: "FoilFractor"
+print_run: 1
+rookie_card: false
+autograph: false
+relic: true
+serial_numbered: true
+release_date: "2026-06-11"
+image_url: "https://example.com/cards/2026-topps-series-2/real-one-relics-550-foilfractor.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Topps#Insertion_Ratios"

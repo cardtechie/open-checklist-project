@@ -1,0 +1,24 @@
+number: "TOG-38"
+uuid: "8fb2c7e5-62ff-4c07-8a6b-09575c2f3a3e"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-topps-series-2"
+subjects:
+  - name: "Bryce Eldridge"
+    role: "Player"
+    team: "San Francisco Giants"
+subset: "Titans Of The Game"
+card_name: "Bryce Eldridge - Titans Of The Game - Gold Foil"
+description: "Gold Foil parallel of Titans Of The Game card featuring Bryce Eldridge."
+series: "2026 Topps Baseball"
+parallel: "Gold Foil"
+print_run: 50
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: true
+release_date: "2026-06-11"
+image_url: "https://example.com/cards/2026-topps-series-2/titans-of-the-game-TOG-38-gold-foil.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Topps#Insertion_Ratios"

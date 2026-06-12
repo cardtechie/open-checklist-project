@@ -1,0 +1,24 @@
+number: "MLM2-VP"
+uuid: "1f88b16e-3bbd-4524-a48b-2c4717e8abaa"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-topps-series-2"
+subjects:
+  - name: "Vinnie Pasquantino"
+    role: "Player"
+    team: "Kansas City Royals"
+subset: "Major League Material"
+card_name: "Vinnie Pasquantino - Major League Material - Green"
+description: "Green parallel of Major League Material memorabilia card featuring Vinnie Pasquantino."
+series: "2026 Topps Baseball"
+parallel: "Green"
+print_run: 99
+rookie_card: false
+autograph: false
+relic: true
+serial_numbered: true
+release_date: "2026-06-11"
+image_url: "https://example.com/cards/2026-topps-series-2/major-league-material-MLM2-VP-green.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Topps#Insertion_Ratios"

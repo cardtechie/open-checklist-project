@@ -1,0 +1,24 @@
+number: "SMLB-53"
+uuid: "e445cab8-cc0f-4753-96ce-3db55edae8c5"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-topps-series-2"
+subjects:
+  - name: "Cole Young"
+    role: "Player"
+    team: "Seattle Mariners"
+subset: "Stars Of MLB"
+card_name: "Cole Young - Stars Of MLB - Orange Foil"
+description: "Orange Foil parallel of Stars Of MLB card featuring Cole Young."
+series: "2026 Topps Baseball"
+parallel: "Orange Foil"
+print_run: 25
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: true
+release_date: "2026-06-11"
+image_url: "https://example.com/cards/2026-topps-series-2/stars-of-mlb-SMLB-53-orange-foil.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Topps#Insertion_Ratios"

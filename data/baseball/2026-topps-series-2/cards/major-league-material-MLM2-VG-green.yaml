@@ -1,0 +1,24 @@
+number: "MLM2-VG"
+uuid: "02649df8-b8dc-4ef2-b28d-427844dbd331"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-topps-series-2"
+subjects:
+  - name: "Vladimir Guerrero"
+    role: "Player"
+    team: "Montréal Expos"
+subset: "Major League Material"
+card_name: "Vladimir Guerrero - Major League Material - Green"
+description: "Green parallel of Major League Material memorabilia card featuring Vladimir Guerrero."
+series: "2026 Topps Baseball"
+parallel: "Green"
+print_run: 99
+rookie_card: false
+autograph: false
+relic: true
+serial_numbered: true
+release_date: "2026-06-11"
+image_url: "https://example.com/cards/2026-topps-series-2/major-league-material-MLM2-VG-green.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Topps#Insertion_Ratios"

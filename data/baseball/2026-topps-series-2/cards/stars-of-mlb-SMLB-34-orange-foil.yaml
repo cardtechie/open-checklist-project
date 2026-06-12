@@ -1,0 +1,24 @@
+number: "SMLB-34"
+uuid: "1b1b8953-bfd1-4111-99ce-0cdd1ac3aae4"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-topps-series-2"
+subjects:
+  - name: "Payton Tolle"
+    role: "Player"
+    team: "Boston Red Sox"
+subset: "Stars Of MLB"
+card_name: "Payton Tolle - Stars Of MLB - Orange Foil"
+description: "Orange Foil parallel of Stars Of MLB card featuring Payton Tolle."
+series: "2026 Topps Baseball"
+parallel: "Orange Foil"
+print_run: 25
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: true
+release_date: "2026-06-11"
+image_url: "https://example.com/cards/2026-topps-series-2/stars-of-mlb-SMLB-34-orange-foil.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Topps#Insertion_Ratios"

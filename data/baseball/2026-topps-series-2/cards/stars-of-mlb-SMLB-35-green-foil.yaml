@@ -1,0 +1,24 @@
+number: "SMLB-35"
+uuid: "1ddbc9c3-5ab9-450f-9646-d8a9c54fd841"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-topps-series-2"
+subjects:
+  - name: "Jarren Duran"
+    role: "Player"
+    team: "Boston Red Sox"
+subset: "Stars Of MLB"
+card_name: "Jarren Duran - Stars Of MLB - Green Foil"
+description: "Green Foil parallel of Stars Of MLB card featuring Jarren Duran."
+series: "2026 Topps Baseball"
+parallel: "Green Foil"
+print_run: 99
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: true
+release_date: "2026-06-11"
+image_url: "https://example.com/cards/2026-topps-series-2/stars-of-mlb-SMLB-35-green-foil.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Topps#Insertion_Ratios"

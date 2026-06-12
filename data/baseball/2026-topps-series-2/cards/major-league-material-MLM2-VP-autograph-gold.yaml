@@ -1,0 +1,24 @@
+number: "MLM2-VP"
+uuid: "81071cd7-6fd9-4a2d-9c1a-0650abe7c177"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-topps-series-2"
+subjects:
+  - name: "Vinnie Pasquantino"
+    role: "Player"
+    team: "Kansas City Royals"
+subset: "Major League Material"
+card_name: "Vinnie Pasquantino - Major League Material - Autograph Gold"
+description: "Autograph Gold parallel of Major League Material memorabilia card featuring Vinnie Pasquantino."
+series: "2026 Topps Baseball"
+parallel: "Autograph Gold"
+print_run: 50
+rookie_card: false
+autograph: false
+relic: true
+serial_numbered: true
+release_date: "2026-06-11"
+image_url: "https://example.com/cards/2026-topps-series-2/major-league-material-MLM2-VP-autograph-gold.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Topps#Insertion_Ratios"

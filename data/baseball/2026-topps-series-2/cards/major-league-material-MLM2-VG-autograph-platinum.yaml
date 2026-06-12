@@ -1,0 +1,24 @@
+number: "MLM2-VG"
+uuid: "72a7d047-1967-4f40-846e-458c97b6d1e5"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-topps-series-2"
+subjects:
+  - name: "Vladimir Guerrero"
+    role: "Player"
+    team: "Montréal Expos"
+subset: "Major League Material"
+card_name: "Vladimir Guerrero - Major League Material - Autograph Platinum"
+description: "Autograph Platinum parallel of Major League Material memorabilia card featuring Vladimir Guerrero."
+series: "2026 Topps Baseball"
+parallel: "Autograph Platinum"
+print_run: 1
+rookie_card: false
+autograph: false
+relic: true
+serial_numbered: true
+release_date: "2026-06-11"
+image_url: "https://example.com/cards/2026-topps-series-2/major-league-material-MLM2-VG-autograph-platinum.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Topps#Insertion_Ratios"

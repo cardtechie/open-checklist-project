@@ -1,0 +1,24 @@
+number: "SWS-23"
+uuid: "09d76972-7519-4f95-bd67-a1b8cdca27e7"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-topps-series-2"
+subjects:
+  - name: "Derek Jeter"
+    role: "Player"
+    team: "New York Yankees"
+subset: "Swinging With The Stars"
+card_name: "Derek Jeter - Swinging With The Stars - Chrome SuperFractor"
+description: "Chrome SuperFractor parallel of Swinging With The Stars card featuring Derek Jeter."
+series: "2026 Topps Baseball"
+parallel: "Chrome SuperFractor"
+print_run: 1
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: true
+release_date: "2026-06-11"
+image_url: "https://example.com/cards/2026-topps-series-2/swinging-with-the-stars-SWS-23-chrome-superfractor.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Topps#Insertion_Ratios"

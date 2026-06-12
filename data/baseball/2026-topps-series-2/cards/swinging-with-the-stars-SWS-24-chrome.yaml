@@ -1,0 +1,23 @@
+number: "SWS-24"
+uuid: "a25752bf-45c7-4118-a3e9-5a67b87c5659"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-topps-series-2"
+subjects:
+  - name: "Mickey Mantle"
+    role: "Player"
+    team: "New York Yankees"
+subset: "Swinging With The Stars"
+card_name: "Mickey Mantle - Swinging With The Stars - Chrome"
+description: "Chrome parallel of Swinging With The Stars card featuring Mickey Mantle."
+series: "2026 Topps Baseball"
+parallel: "Chrome"
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: false
+release_date: "2026-06-11"
+image_url: "https://example.com/cards/2026-topps-series-2/swinging-with-the-stars-SWS-24-chrome.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Topps#Insertion_Ratios"

@@ -1,0 +1,24 @@
+number: "SWS-24"
+uuid: "02e470e8-92f4-4d5a-a8aa-006a947b3a31"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-topps-series-2"
+subjects:
+  - name: "Mickey Mantle"
+    role: "Player"
+    team: "New York Yankees"
+subset: "Swinging With The Stars"
+card_name: "Mickey Mantle - Swinging With The Stars - Chrome Black Refractor"
+description: "Chrome Black Refractor parallel of Swinging With The Stars card featuring Mickey Mantle."
+series: "2026 Topps Baseball"
+parallel: "Chrome Black Refractor"
+print_run: 10
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: true
+release_date: "2026-06-11"
+image_url: "https://example.com/cards/2026-topps-series-2/swinging-with-the-stars-SWS-24-chrome-black-refractor.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Topps#Insertion_Ratios"
