@@ -1,0 +1,24 @@
+number: "5"
+uuid: "057124e6-7f18-4719-ba62-be92b6c1c103"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "Bubba Chandler"
+    role: "Player"
+    team: "Pittsburgh Pirates"
+subset: "Base - Optic"
+card_name: "Bubba Chandler - Base - Optic - Black Velocity"
+description: "Black Velocity parallel of Base - Optic card featuring Bubba Chandler."
+series: "2026 Donruss"
+parallel: "Black Velocity"
+print_run: 39
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: true
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/base-optic-5-black-velocity.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Donruss#Checklist"

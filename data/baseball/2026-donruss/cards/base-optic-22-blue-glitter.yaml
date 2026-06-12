@@ -1,0 +1,24 @@
+number: "22"
+uuid: "8149ea48-43b9-47ab-880e-caa97e55c100"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "Tony Perez"
+    role: "Player"
+    team: "Cincinnati Reds"
+subset: "Base - Optic"
+card_name: "Tony Perez - Base - Optic - Blue Glitter"
+description: "Blue Glitter parallel of Base - Optic card featuring Tony Perez."
+series: "2026 Donruss"
+parallel: "Blue Glitter"
+print_run: 6
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: true
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/base-optic-22-blue-glitter.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Donruss#Checklist"

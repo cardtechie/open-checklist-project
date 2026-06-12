@@ -1,0 +1,22 @@
+number: "90"
+uuid: "1d9c4f8c-0fd4-4210-950a-b35fbca231a1"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "Josh Gibson"
+    role: "Player"
+    team: "Homestead Grays"
+card_name: "Josh Gibson - Base - Laser"
+description: "Laser parallel of Base card featuring Josh Gibson."
+series: "2026 Donruss"
+parallel: "Laser"
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: false
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/90-laser.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Donruss#Checklist"

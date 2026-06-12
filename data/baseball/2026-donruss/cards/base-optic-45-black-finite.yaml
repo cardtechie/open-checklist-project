@@ -1,0 +1,24 @@
+number: "45"
+uuid: "fe0ec3a4-febe-498b-92d2-91b40cc49890"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "Jose Canseco"
+    role: "Player"
+    team: "Oakland A's"
+subset: "Base - Optic"
+card_name: "Jose Canseco - Base - Optic - Black Finite"
+description: "Black Finite parallel of Base - Optic card featuring Jose Canseco."
+series: "2026 Donruss"
+parallel: "Black Finite"
+print_run: 1
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: true
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/base-optic-45-black-finite.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Donruss#Checklist"

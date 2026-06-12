@@ -1,0 +1,24 @@
+number: "63"
+uuid: "d25d9818-2e88-4437-9591-3b1d9a30f8e5"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "Pie Traynor"
+    role: "Player"
+    team: "Pittsburgh Pirates"
+subset: "Base - Optic"
+card_name: "Pie Traynor - Base - Optic - Blue Cracked Ice"
+description: "Blue Cracked Ice parallel of Base - Optic card featuring Pie Traynor."
+series: "2026 Donruss"
+parallel: "Blue Cracked Ice"
+print_run: 15
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: true
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/base-optic-63-blue-cracked-ice.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Donruss#Checklist"

@@ -1,0 +1,24 @@
+number: "63"
+uuid: "b22d0163-1359-4429-9e3b-d01cab13877e"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "Pie Traynor"
+    role: "Player"
+    team: "Pittsburgh Pirates"
+subset: "Base - Optic"
+card_name: "Pie Traynor - Base - Optic - Black Velocity"
+description: "Black Velocity parallel of Base - Optic card featuring Pie Traynor."
+series: "2026 Donruss"
+parallel: "Black Velocity"
+print_run: 39
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: true
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/base-optic-63-black-velocity.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Donruss#Checklist"

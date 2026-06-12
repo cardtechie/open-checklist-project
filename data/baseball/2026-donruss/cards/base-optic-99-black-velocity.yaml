@@ -1,0 +1,24 @@
+number: "99"
+uuid: "536ba8da-e33a-4c56-a4de-d8f086f2fd97"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "Aaron Judge"
+    role: "Player"
+    team: "New York Yankees"
+subset: "Base - Optic"
+card_name: "Aaron Judge - Base - Optic - Black Velocity"
+description: "Black Velocity parallel of Base - Optic card featuring Aaron Judge."
+series: "2026 Donruss"
+parallel: "Black Velocity"
+print_run: 39
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: true
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/base-optic-99-black-velocity.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Donruss#Checklist"

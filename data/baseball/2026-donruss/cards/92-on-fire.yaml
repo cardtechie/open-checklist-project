@@ -1,0 +1,23 @@
+number: "92"
+uuid: "ce0ec285-77ef-47c0-893c-a824bca4cf78"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "Colt Keith"
+    role: "Player"
+    team: "Detroit Tigers"
+card_name: "Colt Keith - Base - On Fire"
+description: "On Fire parallel of Base card featuring Colt Keith."
+series: "2026 Donruss"
+parallel: "On Fire"
+print_run: 75
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: true
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/92-on-fire.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Donruss#Checklist"

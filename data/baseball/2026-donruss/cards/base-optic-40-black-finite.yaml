@@ -1,0 +1,24 @@
+number: "40"
+uuid: "c38c4ae1-063f-41d4-acfa-bb077af50d42"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "Jace Jung"
+    role: "Player"
+    team: "Detroit Tigers"
+subset: "Base - Optic"
+card_name: "Jace Jung - Base - Optic - Black Finite"
+description: "Black Finite parallel of Base - Optic card featuring Jace Jung."
+series: "2026 Donruss"
+parallel: "Black Finite"
+print_run: 1
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: true
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/base-optic-40-black-finite.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Donruss#Checklist"

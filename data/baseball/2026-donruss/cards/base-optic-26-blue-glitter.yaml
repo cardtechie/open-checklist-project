@@ -1,0 +1,24 @@
+number: "26"
+uuid: "ce75d6f8-b236-4a9f-a447-2693101ae5eb"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "Gil Hodges"
+    role: "Player"
+    team: "Brooklyn Dodgers"
+subset: "Base - Optic"
+card_name: "Gil Hodges - Base - Optic - Blue Glitter"
+description: "Blue Glitter parallel of Base - Optic card featuring Gil Hodges."
+series: "2026 Donruss"
+parallel: "Blue Glitter"
+print_run: 6
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: true
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/base-optic-26-blue-glitter.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Donruss#Checklist"

@@ -1,0 +1,23 @@
+number: "15"
+uuid: "6df96b4b-bb37-4e66-9e2c-2bf63457fc85"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "Sung-Mun Song"
+    role: "Player"
+    team: "San Diego Padres"
+subset: "Base - Optic"
+card_name: "Sung-Mun Song - Base - Optic - Blue Velocity"
+description: "Blue Velocity parallel of Base - Optic card featuring Sung-Mun Song."
+series: "2026 Donruss"
+parallel: "Blue Velocity"
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: false
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/base-optic-15-blue-velocity.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Donruss#Checklist"

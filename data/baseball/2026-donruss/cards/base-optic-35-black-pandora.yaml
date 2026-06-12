@@ -1,0 +1,23 @@
+number: "35"
+uuid: "b46bab4b-dca8-4c1a-afbc-8b6da8cd3b5b"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "Darryl Strawberry"
+    role: "Player"
+    team: "New York Mets"
+subset: "Base - Optic"
+card_name: "Darryl Strawberry - Base - Optic - Black Pandora"
+description: "Black Pandora parallel of Base - Optic card featuring Darryl Strawberry."
+series: "2026 Donruss"
+parallel: "Black Pandora"
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: false
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/base-optic-35-black-pandora.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Donruss#Checklist"

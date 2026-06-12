@@ -1,0 +1,23 @@
+number: "10"
+uuid: "e2c525fa-43a1-463e-8038-47aaba3b7af8"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "Brandon Sproat"
+    role: "Player"
+    team: "Milwaukee Brewers"
+subset: "Base - Optic"
+card_name: "Brandon Sproat - Base - Optic - Blue Velocity"
+description: "Blue Velocity parallel of Base - Optic card featuring Brandon Sproat."
+series: "2026 Donruss"
+parallel: "Blue Velocity"
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: false
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/base-optic-10-blue-velocity.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Donruss#Checklist"

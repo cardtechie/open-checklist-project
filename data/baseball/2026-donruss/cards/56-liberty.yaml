@@ -1,0 +1,22 @@
+number: "56"
+uuid: "b4407801-2dc7-4d9e-a8fa-c331f43d9d97"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "Tomoyuki Sugano"
+    role: "Player"
+    team: "Baltimore Orioles"
+card_name: "Tomoyuki Sugano - Base - Liberty"
+description: "Liberty parallel of Base card featuring Tomoyuki Sugano."
+series: "2026 Donruss"
+parallel: "Liberty"
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: false
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/56-liberty.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Donruss#Checklist"

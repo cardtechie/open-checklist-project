@@ -1,0 +1,23 @@
+number: "23"
+uuid: "cf9b60ee-9569-478d-b697-0b648a182178"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "Randy Johnson"
+    role: "Player"
+    team: "Seattle Mariners"
+subset: "Base - Optic"
+card_name: "Randy Johnson - Base - Optic - Black Pandora"
+description: "Black Pandora parallel of Base - Optic card featuring Randy Johnson."
+series: "2026 Donruss"
+parallel: "Black Pandora"
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: false
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/base-optic-23-black-pandora.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Donruss#Checklist"

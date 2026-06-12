@@ -1,0 +1,23 @@
+number: "41"
+uuid: "d661dc0e-4e06-492e-a183-0b3d6e974668"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "Felix Hernandez"
+    role: "Player"
+    team: "Seattle Mariners"
+subset: "Base - Optic"
+card_name: "Felix Hernandez - Base - Optic - Blue Velocity"
+description: "Blue Velocity parallel of Base - Optic card featuring Felix Hernandez."
+series: "2026 Donruss"
+parallel: "Blue Velocity"
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: false
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/base-optic-41-blue-velocity.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Donruss#Checklist"

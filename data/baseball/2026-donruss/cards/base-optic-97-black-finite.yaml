@@ -1,0 +1,24 @@
+number: "97"
+uuid: "2eb7b2dd-09a2-4b15-bc63-59ebc6048edd"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "Cameron Schlittler"
+    role: "Player"
+    team: "New York Yankees"
+subset: "Base - Optic"
+card_name: "Cameron Schlittler - Base - Optic - Black Finite"
+description: "Black Finite parallel of Base - Optic card featuring Cameron Schlittler."
+series: "2026 Donruss"
+parallel: "Black Finite"
+print_run: 1
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: true
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/base-optic-97-black-finite.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Donruss#Checklist"

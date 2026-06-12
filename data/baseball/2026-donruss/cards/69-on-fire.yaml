@@ -1,0 +1,23 @@
+number: "69"
+uuid: "b36ff100-fecc-4980-9490-5a95ec80148d"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "Robin Yount"
+    role: "Player"
+    team: "Milwaukee Brewers"
+card_name: "Robin Yount - Base - On Fire"
+description: "On Fire parallel of Base card featuring Robin Yount."
+series: "2026 Donruss"
+parallel: "On Fire"
+print_run: 75
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: true
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/69-on-fire.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Donruss#Checklist"

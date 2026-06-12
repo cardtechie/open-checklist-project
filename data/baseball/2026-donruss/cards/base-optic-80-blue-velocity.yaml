@@ -1,0 +1,23 @@
+number: "80"
+uuid: "35dcfc2a-bd99-48cc-b657-af157b42aed5"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "Mike Schmidt"
+    role: "Player"
+    team: "Philadelphia Phillies"
+subset: "Base - Optic"
+card_name: "Mike Schmidt - Base - Optic - Blue Velocity"
+description: "Blue Velocity parallel of Base - Optic card featuring Mike Schmidt."
+series: "2026 Donruss"
+parallel: "Blue Velocity"
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: false
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/base-optic-80-blue-velocity.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Donruss#Checklist"
