@@ -1,0 +1,23 @@
+number: "ES-10"
+uuid: "49d75ace-bd1e-4159-b86e-ea81401e2032"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-bowman"
+subjects:
+  - name: "Samuel Basallo"
+    role: "Player"
+    team: "Baltimore Orioles"
+subset: "Electric Sluggers"
+card_name: "Samuel Basallo - Electric Sluggers - Mega Chrome Rose Gold Refractor"
+description: "Mega Chrome Rose Gold Refractor parallel of Electric Sluggers card featuring Samuel Basallo."
+series: "2026 Bowman"
+parallel: "Mega Chrome Rose Gold Refractor"
+print_run: 1
+rookie_card: false
+autograph: false
+serial_numbered: true
+release_date: "2026-05-13"
+image_url: "https://example.com/cards/2026-bowman/electric-sluggers-ES-10-mega-chrome-rose-gold-refractor.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Bowman#Insertion_Ratios"

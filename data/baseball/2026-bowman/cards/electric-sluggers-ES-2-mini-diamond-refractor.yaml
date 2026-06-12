@@ -1,0 +1,23 @@
+number: "ES-2"
+uuid: "75eca904-a73c-469a-af80-da1c50c81b57"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-bowman"
+subjects:
+  - name: "Vladimir Guerrero Jr."
+    role: "Player"
+    team: "Toronto Blue Jays"
+subset: "Electric Sluggers"
+card_name: "Vladimir Guerrero Jr. - Electric Sluggers - Mini-Diamond Refractor"
+description: "Mini-Diamond Refractor parallel of Electric Sluggers card featuring Vladimir Guerrero Jr.."
+series: "2026 Bowman"
+parallel: "Mini-Diamond Refractor"
+print_run: 150
+rookie_card: false
+autograph: false
+serial_numbered: true
+release_date: "2026-05-13"
+image_url: "https://example.com/cards/2026-bowman/electric-sluggers-ES-2-mini-diamond-refractor.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Bowman#Insertion_Ratios"

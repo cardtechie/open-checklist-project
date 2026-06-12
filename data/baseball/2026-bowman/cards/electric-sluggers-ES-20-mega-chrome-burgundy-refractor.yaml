@@ -1,0 +1,23 @@
+number: "ES-20"
+uuid: "ddf2e9fd-5d93-4242-8ff6-e042f22c2e88"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-bowman"
+subjects:
+  - name: "Jesús Made"
+    role: "Player"
+    team: "Milwaukee Brewers"
+subset: "Electric Sluggers"
+card_name: "Jesús Made - Electric Sluggers - Mega Chrome Burgundy Refractor"
+description: "Mega Chrome Burgundy Refractor parallel of Electric Sluggers card featuring Jesús Made."
+series: "2026 Bowman"
+parallel: "Mega Chrome Burgundy Refractor"
+print_run: 299
+rookie_card: false
+autograph: false
+serial_numbered: true
+release_date: "2026-05-13"
+image_url: "https://example.com/cards/2026-bowman/electric-sluggers-ES-20-mega-chrome-burgundy-refractor.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Bowman#Insertion_Ratios"

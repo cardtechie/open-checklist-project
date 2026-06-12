@@ -1,0 +1,23 @@
+number: "ESA-1"
+uuid: "c8fc3957-d2bf-4f3c-af1d-562323271956"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-bowman"
+subjects:
+  - name: "Samuel Basallo"
+    role: "Player"
+    team: "Baltimore Orioles"
+subset: "Electric Sluggers Autographs"
+card_name: "Samuel Basallo - Electric Sluggers Autographs - SuperFractor"
+description: "SuperFractor parallel of Autographed Electric Sluggers Autographs card featuring Samuel Basallo."
+series: "2026 Bowman"
+parallel: "SuperFractor"
+print_run: 1
+rookie_card: false
+autograph: true
+serial_numbered: true
+release_date: "2026-05-13"
+image_url: "https://example.com/cards/2026-bowman/electric-sluggers-autographs-ESA-1-superfractor.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Bowman#Insertion_Ratios"

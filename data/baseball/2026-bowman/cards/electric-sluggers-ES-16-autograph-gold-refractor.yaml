@@ -1,0 +1,23 @@
+number: "ES-16"
+uuid: "ecdfa888-b40f-4f79-8668-19c5279cf832"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-bowman"
+subjects:
+  - name: "Roman Anthony"
+    role: "Player"
+    team: "Boston Red Sox"
+subset: "Electric Sluggers"
+card_name: "Roman Anthony - Electric Sluggers - Autograph Gold Refractor"
+description: "Autograph Gold Refractor parallel of Electric Sluggers card featuring Roman Anthony."
+series: "2026 Bowman"
+parallel: "Autograph Gold Refractor"
+print_run: 50
+rookie_card: false
+autograph: false
+serial_numbered: true
+release_date: "2026-05-13"
+image_url: "https://example.com/cards/2026-bowman/electric-sluggers-ES-16-autograph-gold-refractor.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Bowman#Insertion_Ratios"

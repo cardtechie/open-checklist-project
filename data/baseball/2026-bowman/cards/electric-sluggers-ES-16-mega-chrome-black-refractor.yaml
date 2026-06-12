@@ -1,0 +1,23 @@
+number: "ES-16"
+uuid: "ffd21f46-7439-4411-9815-ba4aea00161f"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-bowman"
+subjects:
+  - name: "Roman Anthony"
+    role: "Player"
+    team: "Boston Red Sox"
+subset: "Electric Sluggers"
+card_name: "Roman Anthony - Electric Sluggers - Mega Chrome Black Refractor"
+description: "Mega Chrome Black Refractor parallel of Electric Sluggers card featuring Roman Anthony."
+series: "2026 Bowman"
+parallel: "Mega Chrome Black Refractor"
+print_run: 10
+rookie_card: false
+autograph: false
+serial_numbered: true
+release_date: "2026-05-13"
+image_url: "https://example.com/cards/2026-bowman/electric-sluggers-ES-16-mega-chrome-black-refractor.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Bowman#Insertion_Ratios"

@@ -1,0 +1,22 @@
+number: "ES-20"
+uuid: "8fbdf7b9-ee5e-408b-976c-be364f374236"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-bowman"
+subjects:
+  - name: "Jesús Made"
+    role: "Player"
+    team: "Milwaukee Brewers"
+subset: "Electric Sluggers"
+card_name: "Jesús Made - Electric Sluggers - Mega Chrome"
+description: "Mega Chrome parallel of Electric Sluggers card featuring Jesús Made."
+series: "2026 Bowman"
+parallel: "Mega Chrome"
+rookie_card: false
+autograph: false
+serial_numbered: false
+release_date: "2026-05-13"
+image_url: "https://example.com/cards/2026-bowman/electric-sluggers-ES-20-mega-chrome.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Bowman#Insertion_Ratios"

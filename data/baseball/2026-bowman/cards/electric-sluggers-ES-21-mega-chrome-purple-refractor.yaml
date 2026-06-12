@@ -1,0 +1,23 @@
+number: "ES-21"
+uuid: "1e7859f0-9a6f-40c5-bc32-1b983571fae9"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-bowman"
+subjects:
+  - name: "Aiva Arquette"
+    role: "Player"
+    team: "Miami Marlins"
+subset: "Electric Sluggers"
+card_name: "Aiva Arquette - Electric Sluggers - Mega Chrome Purple Refractor"
+description: "Mega Chrome Purple Refractor parallel of Electric Sluggers card featuring Aiva Arquette."
+series: "2026 Bowman"
+parallel: "Mega Chrome Purple Refractor"
+print_run: 250
+rookie_card: false
+autograph: false
+serial_numbered: true
+release_date: "2026-05-13"
+image_url: "https://example.com/cards/2026-bowman/electric-sluggers-ES-21-mega-chrome-purple-refractor.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Bowman#Insertion_Ratios"

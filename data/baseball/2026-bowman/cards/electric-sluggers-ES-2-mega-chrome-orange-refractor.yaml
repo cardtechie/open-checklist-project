@@ -1,0 +1,23 @@
+number: "ES-2"
+uuid: "bfac6cbd-cd93-4bc3-992c-c737ca5de4a7"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-bowman"
+subjects:
+  - name: "Vladimir Guerrero Jr."
+    role: "Player"
+    team: "Toronto Blue Jays"
+subset: "Electric Sluggers"
+card_name: "Vladimir Guerrero Jr. - Electric Sluggers - Mega Chrome Orange Refractor"
+description: "Mega Chrome Orange Refractor parallel of Electric Sluggers card featuring Vladimir Guerrero Jr.."
+series: "2026 Bowman"
+parallel: "Mega Chrome Orange Refractor"
+print_run: 25
+rookie_card: false
+autograph: false
+serial_numbered: true
+release_date: "2026-05-13"
+image_url: "https://example.com/cards/2026-bowman/electric-sluggers-ES-2-mega-chrome-orange-refractor.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Bowman#Insertion_Ratios"

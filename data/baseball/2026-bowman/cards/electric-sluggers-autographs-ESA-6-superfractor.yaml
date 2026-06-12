@@ -1,0 +1,23 @@
+number: "ESA-6"
+uuid: "66832674-1156-47c6-8267-3454efc9d9ca"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-bowman"
+subjects:
+  - name: "JJ Wetherholt"
+    role: "Player"
+    team: "St. Louis Cardinals"
+subset: "Electric Sluggers Autographs"
+card_name: "JJ Wetherholt - Electric Sluggers Autographs - SuperFractor"
+description: "SuperFractor parallel of Autographed Electric Sluggers Autographs card featuring JJ Wetherholt."
+series: "2026 Bowman"
+parallel: "SuperFractor"
+print_run: 1
+rookie_card: false
+autograph: true
+serial_numbered: true
+release_date: "2026-05-13"
+image_url: "https://example.com/cards/2026-bowman/electric-sluggers-autographs-ESA-6-superfractor.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Bowman#Insertion_Ratios"

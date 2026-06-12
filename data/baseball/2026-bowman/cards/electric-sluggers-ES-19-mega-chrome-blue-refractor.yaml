@@ -1,0 +1,23 @@
+number: "ES-19"
+uuid: "d1a864a4-ea27-4f5e-a8ce-719367a08ccd"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-bowman"
+subjects:
+  - name: "Bobby Witt Jr."
+    role: "Player"
+    team: "Kansas City Royals"
+subset: "Electric Sluggers"
+card_name: "Bobby Witt Jr. - Electric Sluggers - Mega Chrome Blue Refractor"
+description: "Mega Chrome Blue Refractor parallel of Electric Sluggers card featuring Bobby Witt Jr.."
+series: "2026 Bowman"
+parallel: "Mega Chrome Blue Refractor"
+print_run: 150
+rookie_card: false
+autograph: false
+serial_numbered: true
+release_date: "2026-05-13"
+image_url: "https://example.com/cards/2026-bowman/electric-sluggers-ES-19-mega-chrome-blue-refractor.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Bowman#Insertion_Ratios"

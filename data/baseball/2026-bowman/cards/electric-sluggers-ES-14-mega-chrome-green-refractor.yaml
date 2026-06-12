@@ -1,0 +1,23 @@
+number: "ES-14"
+uuid: "7511d974-3415-4028-9542-6053ff207e5c"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-bowman"
+subjects:
+  - name: "Cal Raleigh"
+    role: "Player"
+    team: "Seattle Mariners"
+subset: "Electric Sluggers"
+card_name: "Cal Raleigh - Electric Sluggers - Mega Chrome Green Refractor"
+description: "Mega Chrome Green Refractor parallel of Electric Sluggers card featuring Cal Raleigh."
+series: "2026 Bowman"
+parallel: "Mega Chrome Green Refractor"
+print_run: 99
+rookie_card: false
+autograph: false
+serial_numbered: true
+release_date: "2026-05-13"
+image_url: "https://example.com/cards/2026-bowman/electric-sluggers-ES-14-mega-chrome-green-refractor.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Bowman#Insertion_Ratios"

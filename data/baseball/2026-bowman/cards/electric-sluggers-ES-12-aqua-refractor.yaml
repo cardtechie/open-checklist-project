@@ -1,0 +1,23 @@
+number: "ES-12"
+uuid: "6d340068-fe85-4755-99f3-d176a87d137d"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-bowman"
+subjects:
+  - name: "JJ Wetherholt"
+    role: "Player"
+    team: "St. Louis Cardinals"
+subset: "Electric Sluggers"
+card_name: "JJ Wetherholt - Electric Sluggers - Aqua Refractor"
+description: "Aqua Refractor parallel of Electric Sluggers card featuring JJ Wetherholt."
+series: "2026 Bowman"
+parallel: "Aqua Refractor"
+print_run: 125
+rookie_card: false
+autograph: false
+serial_numbered: true
+release_date: "2026-05-13"
+image_url: "https://example.com/cards/2026-bowman/electric-sluggers-ES-12-aqua-refractor.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Bowman#Insertion_Ratios"

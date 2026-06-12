@@ -1,0 +1,23 @@
+number: "ES-17"
+uuid: "84bc2811-0c2a-4b7c-8077-845b8e9c4daa"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-bowman"
+subjects:
+  - name: "Konnor Griffin"
+    role: "Player"
+    team: "Pittsburgh Pirates"
+subset: "Electric Sluggers"
+card_name: "Konnor Griffin - Electric Sluggers - Mega Chrome Pink Refractor"
+description: "Mega Chrome Pink Refractor parallel of Electric Sluggers card featuring Konnor Griffin."
+series: "2026 Bowman"
+parallel: "Mega Chrome Pink Refractor"
+print_run: 199
+rookie_card: false
+autograph: false
+serial_numbered: true
+release_date: "2026-05-13"
+image_url: "https://example.com/cards/2026-bowman/electric-sluggers-ES-17-mega-chrome-pink-refractor.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Bowman#Insertion_Ratios"
