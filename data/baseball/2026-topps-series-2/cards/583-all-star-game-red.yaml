@@ -1,0 +1,23 @@
+number: "583"
+uuid: "f4a35e6d-7e22-4ad4-bfaf-2977e0ad56de"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-topps-series-2"
+subjects:
+  - name: "Josh Simpson"
+    role: "Player"
+    team: "Miami Marlins"
+card_name: "Josh Simpson - Base - All-Star Game Red"
+description: "All-Star Game Red parallel of Base card featuring Josh Simpson."
+series: "2026 Topps Baseball"
+parallel: "All-Star Game Red"
+print_run: 5
+rookie_card: true
+autograph: false
+relic: false
+serial_numbered: true
+release_date: "2026-06-11"
+image_url: "https://example.com/cards/2026-topps-series-2/583-all-star-game-red.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Topps#Insertion_Ratios"

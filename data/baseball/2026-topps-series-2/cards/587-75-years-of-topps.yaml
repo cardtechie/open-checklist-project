@@ -1,0 +1,23 @@
+number: "587"
+uuid: "e9c701a5-be64-41e3-85da-6b555d69174f"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-topps-series-2"
+subjects:
+  - name: "Nolan Gorman"
+    role: "Player"
+    team: "St. Louis Cardinals"
+card_name: "Nolan Gorman - Base - 75 Years Of Topps"
+description: "75 Years Of Topps parallel of Base card featuring Nolan Gorman."
+series: "2026 Topps Baseball"
+parallel: "75 Years Of Topps"
+print_run: 75
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: true
+release_date: "2026-06-11"
+image_url: "https://example.com/cards/2026-topps-series-2/587-75-years-of-topps.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Topps#Insertion_Ratios"
