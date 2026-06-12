@@ -1,0 +1,24 @@
+number: "4"
+uuid: "908b7f26-03aa-429e-8e5d-329bc6f210f3"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "David Ortiz"
+    role: "Player"
+    team: "Boston Red Sox"
+subset: "Elite Series"
+card_name: "David Ortiz - Elite Series - Red Ice"
+description: "Red Ice parallel of Elite Series card featuring David Ortiz."
+series: "2026 Donruss"
+parallel: "Red Ice"
+print_run: 149
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: true
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/elite-series-4-red-ice.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Donruss#Checklist"

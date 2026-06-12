@@ -1,0 +1,23 @@
+number: "12"
+uuid: "58f799d7-793c-4189-80dc-14b8824c3561"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "Jonah Tong"
+    role: "Player"
+    team: "New York Mets"
+subset: "Diamond Marvels"
+card_name: "Jonah Tong - Diamond Marvels - Green Laser"
+description: "Green Laser parallel of Diamond Marvels card featuring Jonah Tong."
+series: "2026 Donruss"
+parallel: "Green Laser"
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: false
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/diamond-marvels-12-green-laser.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Donruss#Checklist"

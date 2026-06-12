@@ -1,0 +1,24 @@
+number: "12"
+uuid: "ed7fe3e5-fdcf-4640-acca-6b07bfc798fb"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "Cam Caminiti"
+    role: "Player"
+    team: "Atlanta Braves"
+subset: "Prospect Jersey Kings"
+card_name: "Cam Caminiti - Prospect Jersey Kings - Platinum"
+description: "Platinum parallel of Prospect Jersey Kings memorabilia card featuring Cam Caminiti."
+series: "2026 Donruss"
+parallel: "Platinum"
+print_run: 1
+rookie_card: false
+autograph: false
+relic: true
+serial_numbered: true
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/prospect-jersey-kings-12-platinum.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Donruss#Checklist"

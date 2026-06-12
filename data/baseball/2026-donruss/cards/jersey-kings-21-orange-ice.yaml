@@ -1,0 +1,23 @@
+number: "21"
+uuid: "743c1aab-a2b0-46fe-bba1-9d4ce1e5a161"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "Paul Skenes"
+    role: "Player"
+    team: "Pittsburgh Pirates"
+subset: "Jersey Kings"
+card_name: "Paul Skenes - Jersey Kings - Orange Ice"
+description: "Orange Ice parallel of Jersey Kings memorabilia card featuring Paul Skenes."
+series: "2026 Donruss"
+parallel: "Orange Ice"
+rookie_card: false
+autograph: false
+relic: true
+serial_numbered: false
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/jersey-kings-21-orange-ice.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Donruss#Checklist"

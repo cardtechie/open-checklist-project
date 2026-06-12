@@ -1,0 +1,24 @@
+number: "3"
+uuid: "ad163013-593b-434b-ba02-ad25ffb8ae13"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "Bobby Witt Jr."
+    role: "Player"
+    team: "Kansas City Royals"
+subset: "Crunch Time"
+card_name: "Bobby Witt Jr. - Crunch Time - Red Ice"
+description: "Red Ice parallel of Crunch Time card featuring Bobby Witt Jr.."
+series: "2026 Donruss"
+parallel: "Red Ice"
+print_run: 149
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: true
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/crunch-time-3-red-ice.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Donruss#Checklist"

@@ -1,0 +1,24 @@
+number: "14"
+uuid: "28bc2730-d4c3-4e88-99c6-17f1e9cb6bf5"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "Johnny Bench"
+    role: "Player"
+    team: "Cincinnati Reds"
+subset: "Elite Series"
+card_name: "Johnny Bench - Elite Series - Holo"
+description: "Holo parallel of Elite Series card featuring Johnny Bench."
+series: "2026 Donruss"
+parallel: "Holo"
+print_run: 199
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: true
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/elite-series-14-holo.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Donruss#Checklist"

@@ -1,0 +1,24 @@
+number: "4"
+uuid: "6be43420-3128-4704-b70d-0eecd51a4f3f"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "Bubba Chandler"
+    role: "Player"
+    team: "Pittsburgh Pirates"
+subset: "Crunch Time"
+card_name: "Bubba Chandler - Crunch Time - Red Ice"
+description: "Red Ice parallel of Crunch Time card featuring Bubba Chandler."
+series: "2026 Donruss"
+parallel: "Red Ice"
+print_run: 149
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: true
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/crunch-time-4-red-ice.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Donruss#Checklist"

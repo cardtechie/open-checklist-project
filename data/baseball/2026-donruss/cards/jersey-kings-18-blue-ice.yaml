@@ -1,0 +1,23 @@
+number: "18"
+uuid: "c8029795-7d16-4dc2-8bd9-cb6b8e5b01be"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "Matt Shaw"
+    role: "Player"
+    team: "Chicago Cubs"
+subset: "Jersey Kings"
+card_name: "Matt Shaw - Jersey Kings - Blue Ice"
+description: "Blue Ice parallel of Jersey Kings memorabilia card featuring Matt Shaw."
+series: "2026 Donruss"
+parallel: "Blue Ice"
+rookie_card: false
+autograph: false
+relic: true
+serial_numbered: false
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/jersey-kings-18-blue-ice.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Donruss#Checklist"

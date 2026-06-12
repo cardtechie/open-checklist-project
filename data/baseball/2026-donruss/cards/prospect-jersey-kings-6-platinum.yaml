@@ -1,0 +1,24 @@
+number: "6"
+uuid: "6a478d0f-f1d4-464c-9df4-766e2605582e"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "Steele Hall"
+    role: "Player"
+    team: "Cincinnati Reds"
+subset: "Prospect Jersey Kings"
+card_name: "Steele Hall - Prospect Jersey Kings - Platinum"
+description: "Platinum parallel of Prospect Jersey Kings memorabilia card featuring Steele Hall."
+series: "2026 Donruss"
+parallel: "Platinum"
+print_run: 1
+rookie_card: false
+autograph: false
+relic: true
+serial_numbered: true
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/prospect-jersey-kings-6-platinum.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Donruss#Checklist"

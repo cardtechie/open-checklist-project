@@ -1,0 +1,24 @@
+number: "28"
+uuid: "d23a9eda-d55e-4a12-95a5-95d09519adfb"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "Bobby Witt Jr."
+    role: "Player"
+    team: "Kansas City Royals"
+subset: "Jersey Kings"
+card_name: "Bobby Witt Jr. - Jersey Kings - Blue"
+description: "Blue parallel of Jersey Kings memorabilia card featuring Bobby Witt Jr.."
+series: "2026 Donruss"
+parallel: "Blue"
+print_run: 25
+rookie_card: false
+autograph: false
+relic: true
+serial_numbered: true
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/jersey-kings-28-blue.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Donruss#Checklist"

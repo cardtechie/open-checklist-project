@@ -1,0 +1,24 @@
+number: "17"
+uuid: "c5f6f263-6223-4491-8268-10e4236f211c"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "James Wood"
+    role: "Player"
+    team: "Washington Nationals"
+subset: "Diamond Marvels"
+card_name: "James Wood - Diamond Marvels - Platinum Diamond"
+description: "Platinum Diamond parallel of Diamond Marvels card featuring James Wood."
+series: "2026 Donruss"
+parallel: "Platinum Diamond"
+print_run: 1
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: true
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/diamond-marvels-17-platinum-diamond.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Donruss#Checklist"

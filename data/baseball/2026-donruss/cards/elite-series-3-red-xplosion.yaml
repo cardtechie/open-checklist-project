@@ -1,0 +1,24 @@
+number: "3"
+uuid: "032d594c-adc5-4d22-b943-e5c68893fff1"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "Nick Kurtz"
+    role: "Player"
+    team: "Oakland A's"
+subset: "Elite Series"
+card_name: "Nick Kurtz - Elite Series - Red Xplosion"
+description: "Red Xplosion parallel of Elite Series card featuring Nick Kurtz."
+series: "2026 Donruss"
+parallel: "Red Xplosion"
+print_run: 99
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: true
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/elite-series-3-red-xplosion.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Donruss#Checklist"

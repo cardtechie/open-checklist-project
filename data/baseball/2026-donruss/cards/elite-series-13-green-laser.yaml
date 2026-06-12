@@ -1,0 +1,23 @@
+number: "13"
+uuid: "7aeeccac-e4ce-4eab-a67a-e366de87201b"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "Payton Tolle"
+    role: "Player"
+    team: "Boston Red Sox"
+subset: "Elite Series"
+card_name: "Payton Tolle - Elite Series - Green Laser"
+description: "Green Laser parallel of Elite Series card featuring Payton Tolle."
+series: "2026 Donruss"
+parallel: "Green Laser"
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: false
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/elite-series-13-green-laser.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Donruss#Checklist"

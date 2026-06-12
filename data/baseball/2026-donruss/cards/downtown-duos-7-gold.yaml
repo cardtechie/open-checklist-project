@@ -1,0 +1,27 @@
+number: "7"
+uuid: "8fd1aba3-9dc6-4e1c-bed6-fdb0d136c5b9"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "Aaron Judge"
+    role: "Player"
+    team: "New York Yankees"
+  - name: "Joe DiMaggio"
+    role: "Player"
+    team: "New York Yankees"
+subset: "Downtown Duos"
+card_name: "Aaron Judge / Joe DiMaggio - Downtown Duos - Gold"
+description: "Gold parallel of Downtown Duos card featuring Aaron Judge / Joe DiMaggio."
+series: "2026 Donruss"
+parallel: "Gold"
+print_run: 10
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: true
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/downtown-duos-7-gold.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Donruss#Checklist"

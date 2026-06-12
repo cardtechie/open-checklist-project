@@ -1,0 +1,23 @@
+number: "8"
+uuid: "ed868fe5-faa3-4dda-ac95-37dbbd7a6a42"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "Aaron Judge"
+    role: "Player"
+    team: "New York Yankees"
+subset: "Jersey Kings"
+card_name: "Aaron Judge - Jersey Kings - Blue Ice"
+description: "Blue Ice parallel of Jersey Kings memorabilia card featuring Aaron Judge."
+series: "2026 Donruss"
+parallel: "Blue Ice"
+rookie_card: false
+autograph: false
+relic: true
+serial_numbered: false
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/jersey-kings-8-blue-ice.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Donruss#Checklist"

@@ -1,0 +1,24 @@
+number: "12"
+uuid: "0beca449-95fa-4c90-9350-fe9da39a1172"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "Jonah Tong"
+    role: "Player"
+    team: "New York Mets"
+subset: "Diamond Marvels"
+card_name: "Jonah Tong - Diamond Marvels - Blue Ice"
+description: "Blue Ice parallel of Diamond Marvels card featuring Jonah Tong."
+series: "2026 Donruss"
+parallel: "Blue Ice"
+print_run: 35
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: true
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/diamond-marvels-12-blue-ice.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Donruss#Checklist"

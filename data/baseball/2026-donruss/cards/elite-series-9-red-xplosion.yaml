@@ -1,0 +1,24 @@
+number: "9"
+uuid: "c5c9461a-dd65-4df9-94ed-5298ada4e7d3"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "Bubba Chandler"
+    role: "Player"
+    team: "Pittsburgh Pirates"
+subset: "Elite Series"
+card_name: "Bubba Chandler - Elite Series - Red Xplosion"
+description: "Red Xplosion parallel of Elite Series card featuring Bubba Chandler."
+series: "2026 Donruss"
+parallel: "Red Xplosion"
+print_run: 99
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: true
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/elite-series-9-red-xplosion.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Donruss#Checklist"

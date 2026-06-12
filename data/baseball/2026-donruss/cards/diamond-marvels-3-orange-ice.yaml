@@ -1,0 +1,24 @@
+number: "3"
+uuid: "1aaef8ff-0345-41a6-ba33-e653a84a514e"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "Bubba Chandler"
+    role: "Player"
+    team: "Pittsburgh Pirates"
+subset: "Diamond Marvels"
+card_name: "Bubba Chandler - Diamond Marvels - Orange Ice"
+description: "Orange Ice parallel of Diamond Marvels card featuring Bubba Chandler."
+series: "2026 Donruss"
+parallel: "Orange Ice"
+print_run: 75
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: true
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/diamond-marvels-3-orange-ice.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Donruss#Checklist"

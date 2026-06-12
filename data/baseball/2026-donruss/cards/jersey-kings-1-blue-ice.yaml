@@ -1,0 +1,23 @@
+number: "1"
+uuid: "8d871f26-4699-4b0a-b9b1-9a4f26c29bf6"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "Christian Moore"
+    role: "Player"
+    team: "Los Angeles Angels"
+subset: "Jersey Kings"
+card_name: "Christian Moore - Jersey Kings - Blue Ice"
+description: "Blue Ice parallel of Jersey Kings memorabilia card featuring Christian Moore."
+series: "2026 Donruss"
+parallel: "Blue Ice"
+rookie_card: false
+autograph: false
+relic: true
+serial_numbered: false
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/jersey-kings-1-blue-ice.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Donruss#Checklist"

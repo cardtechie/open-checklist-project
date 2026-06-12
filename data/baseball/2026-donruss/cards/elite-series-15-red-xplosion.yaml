@@ -1,0 +1,24 @@
+number: "15"
+uuid: "bca32351-c84a-4f72-94ef-23764e5a1572"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "Bobby Witt Jr."
+    role: "Player"
+    team: "Kansas City Royals"
+subset: "Elite Series"
+card_name: "Bobby Witt Jr. - Elite Series - Red Xplosion"
+description: "Red Xplosion parallel of Elite Series card featuring Bobby Witt Jr.."
+series: "2026 Donruss"
+parallel: "Red Xplosion"
+print_run: 99
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: true
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/elite-series-15-red-xplosion.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Donruss#Checklist"

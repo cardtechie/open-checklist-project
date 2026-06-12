@@ -1,0 +1,24 @@
+number: "6"
+uuid: "44ca8ed4-6654-408d-9338-16a3a708900e"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "George Brett"
+    role: "Player"
+    team: "Kansas City Royals"
+subset: "Elite Series"
+card_name: "George Brett - Elite Series - Blue Xplosion"
+description: "Blue Xplosion parallel of Elite Series card featuring George Brett."
+series: "2026 Donruss"
+parallel: "Blue Xplosion"
+print_run: 49
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: true
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/elite-series-6-blue-xplosion.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Donruss#Checklist"

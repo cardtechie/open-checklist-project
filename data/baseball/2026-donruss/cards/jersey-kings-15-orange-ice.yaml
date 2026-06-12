@@ -1,0 +1,23 @@
+number: "15"
+uuid: "2bcc1442-8af4-4bb5-9e1f-dd4dbdc4dafe"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "Trey Yesavage"
+    role: "Player"
+    team: "Toronto Blue Jays"
+subset: "Jersey Kings"
+card_name: "Trey Yesavage - Jersey Kings - Orange Ice"
+description: "Orange Ice parallel of Jersey Kings memorabilia card featuring Trey Yesavage."
+series: "2026 Donruss"
+parallel: "Orange Ice"
+rookie_card: false
+autograph: false
+relic: true
+serial_numbered: false
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/jersey-kings-15-orange-ice.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Donruss#Checklist"

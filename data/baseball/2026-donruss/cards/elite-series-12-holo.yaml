@@ -1,0 +1,24 @@
+number: "12"
+uuid: "b9cfa103-ce35-4c4c-892c-fb9a9e211d53"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "Mike Piazza"
+    role: "Player"
+    team: "New York Mets"
+subset: "Elite Series"
+card_name: "Mike Piazza - Elite Series - Holo"
+description: "Holo parallel of Elite Series card featuring Mike Piazza."
+series: "2026 Donruss"
+parallel: "Holo"
+print_run: 199
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: true
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/elite-series-12-holo.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Donruss#Checklist"

@@ -1,0 +1,24 @@
+number: "14"
+uuid: "2e769787-690e-45e9-900f-1fd268c3e665"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "Konnor Griffin"
+    role: "Player"
+    team: "Pittsburgh Pirates"
+subset: "Diamond Marvels"
+card_name: "Konnor Griffin - Diamond Marvels - Purple Laser"
+description: "Purple Laser parallel of Diamond Marvels card featuring Konnor Griffin."
+series: "2026 Donruss"
+parallel: "Purple Laser"
+print_run: 15
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: true
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/diamond-marvels-14-purple-laser.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Donruss#Checklist"

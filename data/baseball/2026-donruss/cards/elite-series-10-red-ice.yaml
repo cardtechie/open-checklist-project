@@ -1,0 +1,24 @@
+number: "10"
+uuid: "9f5ea7d2-028c-4066-8997-4c54eca8b707"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "Byung-Hyun Kim"
+    role: "Player"
+    team: "Arizona Diamondbacks"
+subset: "Elite Series"
+card_name: "Byung-Hyun Kim - Elite Series - Red Ice"
+description: "Red Ice parallel of Elite Series card featuring Byung-Hyun Kim."
+series: "2026 Donruss"
+parallel: "Red Ice"
+print_run: 149
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: true
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/elite-series-10-red-ice.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Donruss#Checklist"

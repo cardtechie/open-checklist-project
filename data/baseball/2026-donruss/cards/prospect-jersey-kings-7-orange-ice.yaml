@@ -1,0 +1,23 @@
+number: "7"
+uuid: "247f1f7c-d638-4c4c-bf49-8521d57cb8f9"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "Hagen Smith"
+    role: "Player"
+    team: "Chicago White Sox"
+subset: "Prospect Jersey Kings"
+card_name: "Hagen Smith - Prospect Jersey Kings - Orange Ice"
+description: "Orange Ice parallel of Prospect Jersey Kings memorabilia card featuring Hagen Smith."
+series: "2026 Donruss"
+parallel: "Orange Ice"
+rookie_card: false
+autograph: false
+relic: true
+serial_numbered: false
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/prospect-jersey-kings-7-orange-ice.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Donruss#Checklist"

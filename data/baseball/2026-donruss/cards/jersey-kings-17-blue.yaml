@@ -1,0 +1,24 @@
+number: "17"
+uuid: "88d2acf7-2439-435e-ae42-bf24fb1d0a4f"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "Jonah Tong"
+    role: "Player"
+    team: "New York Mets"
+subset: "Jersey Kings"
+card_name: "Jonah Tong - Jersey Kings - Blue"
+description: "Blue parallel of Jersey Kings memorabilia card featuring Jonah Tong."
+series: "2026 Donruss"
+parallel: "Blue"
+print_run: 25
+rookie_card: false
+autograph: false
+relic: true
+serial_numbered: true
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/jersey-kings-17-blue.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Donruss#Checklist"

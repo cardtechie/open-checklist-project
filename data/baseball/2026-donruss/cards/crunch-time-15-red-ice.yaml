@@ -1,0 +1,24 @@
+number: "15"
+uuid: "e85aaaf4-8787-4f23-8fb0-808cea1f0e27"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "Dylan Crews"
+    role: "Player"
+    team: "Washington Nationals"
+subset: "Crunch Time"
+card_name: "Dylan Crews - Crunch Time - Red Ice"
+description: "Red Ice parallel of Crunch Time card featuring Dylan Crews."
+series: "2026 Donruss"
+parallel: "Red Ice"
+print_run: 149
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: true
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/crunch-time-15-red-ice.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Donruss#Checklist"

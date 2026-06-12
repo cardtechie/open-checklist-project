@@ -1,0 +1,24 @@
+number: "2"
+uuid: "a0b5995d-ef80-4f34-87fe-0548a05fd2ff"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "Nolan Ryan"
+    role: "Player"
+    team: "Texas Rangers"
+subset: "Diamond Marvels"
+card_name: "Nolan Ryan - Diamond Marvels - Gold Ice"
+description: "Gold Ice parallel of Diamond Marvels card featuring Nolan Ryan."
+series: "2026 Donruss"
+parallel: "Gold Ice"
+print_run: 10
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: true
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/diamond-marvels-2-gold-ice.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Donruss#Checklist"

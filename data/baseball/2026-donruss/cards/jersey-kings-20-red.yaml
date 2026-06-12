@@ -1,0 +1,24 @@
+number: "20"
+uuid: "e6616728-fda0-4ca1-a4f3-844a19391a12"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "Roman Anthony"
+    role: "Player"
+    team: "Boston Red Sox"
+subset: "Jersey Kings"
+card_name: "Roman Anthony - Jersey Kings - Red"
+description: "Red parallel of Jersey Kings memorabilia card featuring Roman Anthony."
+series: "2026 Donruss"
+parallel: "Red"
+print_run: 99
+rookie_card: false
+autograph: false
+relic: true
+serial_numbered: true
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/jersey-kings-20-red.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Donruss#Checklist"

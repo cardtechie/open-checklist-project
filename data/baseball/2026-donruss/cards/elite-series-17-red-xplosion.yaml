@@ -1,0 +1,24 @@
+number: "17"
+uuid: "e14aa837-9563-4bb9-9dbd-262faf8fec46"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "Kazuma Okamoto"
+    role: "Player"
+    team: "Toronto Blue Jays"
+subset: "Elite Series"
+card_name: "Kazuma Okamoto - Elite Series - Red Xplosion"
+description: "Red Xplosion parallel of Elite Series card featuring Kazuma Okamoto."
+series: "2026 Donruss"
+parallel: "Red Xplosion"
+print_run: 99
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: true
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/elite-series-17-red-xplosion.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Donruss#Checklist"

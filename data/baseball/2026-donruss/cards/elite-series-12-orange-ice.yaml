@@ -1,0 +1,24 @@
+number: "12"
+uuid: "622ecc05-6a4e-46cd-b1eb-d13656059aad"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "Mike Piazza"
+    role: "Player"
+    team: "New York Mets"
+subset: "Elite Series"
+card_name: "Mike Piazza - Elite Series - Orange Ice"
+description: "Orange Ice parallel of Elite Series card featuring Mike Piazza."
+series: "2026 Donruss"
+parallel: "Orange Ice"
+print_run: 75
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: true
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/elite-series-12-orange-ice.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Donruss#Checklist"

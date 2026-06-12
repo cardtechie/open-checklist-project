@@ -1,0 +1,24 @@
+number: "7"
+uuid: "2b1ee50f-b87c-4bba-8351-911c6aef0eed"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "Jacob Misiorowski"
+    role: "Player"
+    team: "Milwaukee Brewers"
+subset: "Diamond Marvels"
+card_name: "Jacob Misiorowski - Diamond Marvels - Pink Ice"
+description: "Pink Ice parallel of Diamond Marvels card featuring Jacob Misiorowski."
+series: "2026 Donruss"
+parallel: "Pink Ice"
+print_run: 99
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: true
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/diamond-marvels-7-pink-ice.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Donruss#Checklist"

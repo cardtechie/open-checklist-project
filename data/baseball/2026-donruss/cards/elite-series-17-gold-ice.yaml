@@ -1,0 +1,24 @@
+number: "17"
+uuid: "18e5c05e-ce5e-41fa-a979-0c92cf5c73f8"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "Kazuma Okamoto"
+    role: "Player"
+    team: "Toronto Blue Jays"
+subset: "Elite Series"
+card_name: "Kazuma Okamoto - Elite Series - Gold Ice"
+description: "Gold Ice parallel of Elite Series card featuring Kazuma Okamoto."
+series: "2026 Donruss"
+parallel: "Gold Ice"
+print_run: 10
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: true
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/elite-series-17-gold-ice.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Donruss#Checklist"

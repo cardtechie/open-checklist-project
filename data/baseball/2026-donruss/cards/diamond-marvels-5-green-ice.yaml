@@ -1,0 +1,24 @@
+number: "5"
+uuid: "7548a9c7-504a-409f-a34e-48032e9226e6"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "Paul Skenes"
+    role: "Player"
+    team: "Pittsburgh Pirates"
+subset: "Diamond Marvels"
+card_name: "Paul Skenes - Diamond Marvels - Green Ice"
+description: "Green Ice parallel of Diamond Marvels card featuring Paul Skenes."
+series: "2026 Donruss"
+parallel: "Green Ice"
+print_run: 15
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: true
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/diamond-marvels-5-green-ice.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Donruss#Checklist"

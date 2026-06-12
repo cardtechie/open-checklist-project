@@ -1,0 +1,24 @@
+number: "6"
+uuid: "ead4be8a-693a-46b3-8f07-e31d85e5a0e3"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "George Brett"
+    role: "Player"
+    team: "Kansas City Royals"
+subset: "Elite Series"
+card_name: "George Brett - Elite Series - Purple Laser"
+description: "Purple Laser parallel of Elite Series card featuring George Brett."
+series: "2026 Donruss"
+parallel: "Purple Laser"
+print_run: 15
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: true
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/elite-series-6-purple-laser.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Donruss#Checklist"

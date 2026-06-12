@@ -1,0 +1,24 @@
+number: "30"
+uuid: "42e0e5ea-4e8f-4642-8e4c-cbf2f3da83da"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "Konnor Griffin"
+    role: "Player"
+    team: "Pittsburgh Pirates"
+subset: "Prospect Jersey Kings"
+card_name: "Konnor Griffin - Prospect Jersey Kings - Gold"
+description: "Gold parallel of Prospect Jersey Kings memorabilia card featuring Konnor Griffin."
+series: "2026 Donruss"
+parallel: "Gold"
+print_run: 10
+rookie_card: false
+autograph: false
+relic: true
+serial_numbered: true
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/prospect-jersey-kings-30-gold.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Donruss#Checklist"

@@ -1,0 +1,24 @@
+number: "2"
+uuid: "3af7faaa-0fb0-483c-b23a-c78e865d5949"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "Jacob Misiorowski"
+    role: "Player"
+    team: "Milwaukee Brewers"
+subset: "Elite Series"
+card_name: "Jacob Misiorowski - Elite Series - Green Ice"
+description: "Green Ice parallel of Elite Series card featuring Jacob Misiorowski."
+series: "2026 Donruss"
+parallel: "Green Ice"
+print_run: 15
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: true
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/elite-series-2-green-ice.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Donruss#Checklist"

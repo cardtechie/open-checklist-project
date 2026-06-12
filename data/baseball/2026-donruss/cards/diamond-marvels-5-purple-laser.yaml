@@ -1,0 +1,24 @@
+number: "5"
+uuid: "533a04bc-220f-4da8-9273-fea0f97a95b7"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "Paul Skenes"
+    role: "Player"
+    team: "Pittsburgh Pirates"
+subset: "Diamond Marvels"
+card_name: "Paul Skenes - Diamond Marvels - Purple Laser"
+description: "Purple Laser parallel of Diamond Marvels card featuring Paul Skenes."
+series: "2026 Donruss"
+parallel: "Purple Laser"
+print_run: 15
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: true
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/diamond-marvels-5-purple-laser.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Donruss#Checklist"

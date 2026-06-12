@@ -1,0 +1,24 @@
+number: "1"
+uuid: "9bf926fc-989e-43e8-9d5a-b9425068b256"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "Jesus Made"
+    role: "Player"
+    team: "Milwaukee Brewers"
+subset: "Crunch Time"
+card_name: "Jesus Made - Crunch Time - Red Xplosion"
+description: "Red Xplosion parallel of Crunch Time card featuring Jesus Made."
+series: "2026 Donruss"
+parallel: "Red Xplosion"
+print_run: 99
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: true
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/crunch-time-1-red-xplosion.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Donruss#Checklist"

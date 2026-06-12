@@ -1,0 +1,24 @@
+number: "1"
+uuid: "7c810dc7-28b1-453b-8247-88fd19a5e34f"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "Darryl Strawberry"
+    role: "Player"
+    team: "New York Mets"
+subset: "Elite Series"
+card_name: "Darryl Strawberry - Elite Series - Gold Ice"
+description: "Gold Ice parallel of Elite Series card featuring Darryl Strawberry."
+series: "2026 Donruss"
+parallel: "Gold Ice"
+print_run: 10
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: true
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/elite-series-1-gold-ice.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Donruss#Checklist"

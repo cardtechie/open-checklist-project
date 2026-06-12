@@ -1,0 +1,24 @@
+number: "22"
+uuid: "0fffa871-6141-49e4-9580-c31aa607708e"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "Chandler Simpson"
+    role: "Player"
+    team: "Tampa Bay Rays"
+subset: "Jersey Kings"
+card_name: "Chandler Simpson - Jersey Kings - Purple"
+description: "Purple parallel of Jersey Kings memorabilia card featuring Chandler Simpson."
+series: "2026 Donruss"
+parallel: "Purple"
+print_run: 49
+rookie_card: false
+autograph: false
+relic: true
+serial_numbered: true
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/jersey-kings-22-purple.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Donruss#Checklist"

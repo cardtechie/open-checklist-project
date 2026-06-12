@@ -1,0 +1,23 @@
+number: "23"
+uuid: "87f184f1-5e74-42b0-95da-8d6d5ca41e1e"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "Luis Pena"
+    role: "Player"
+    team: "Milwaukee Brewers"
+subset: "Prospect Jersey Kings"
+card_name: "Luis Pena - Prospect Jersey Kings - Orange Ice"
+description: "Orange Ice parallel of Prospect Jersey Kings memorabilia card featuring Luis Pena."
+series: "2026 Donruss"
+parallel: "Orange Ice"
+rookie_card: false
+autograph: false
+relic: true
+serial_numbered: false
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/prospect-jersey-kings-23-orange-ice.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Donruss#Checklist"

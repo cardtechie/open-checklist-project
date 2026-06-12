@@ -1,0 +1,23 @@
+number: "23"
+uuid: "0e05edb2-f04e-4ec3-be5c-118c3ee6dca9"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "Luke Keaschall"
+    role: "Player"
+    team: "Minnesota Twins"
+subset: "Jersey Kings"
+card_name: "Luke Keaschall - Jersey Kings - Orange Ice"
+description: "Orange Ice parallel of Jersey Kings memorabilia card featuring Luke Keaschall."
+series: "2026 Donruss"
+parallel: "Orange Ice"
+rookie_card: false
+autograph: false
+relic: true
+serial_numbered: false
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/jersey-kings-23-orange-ice.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Donruss#Checklist"

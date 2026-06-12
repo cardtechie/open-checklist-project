@@ -1,0 +1,23 @@
+number: "6"
+uuid: "854c2af4-d0ee-428b-86ef-18dd3573bf0a"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "Nick Kurtz"
+    role: "Player"
+    team: "Oakland A's"
+subset: "Diamond Marvels"
+card_name: "Nick Kurtz - Diamond Marvels - Green Laser"
+description: "Green Laser parallel of Diamond Marvels card featuring Nick Kurtz."
+series: "2026 Donruss"
+parallel: "Green Laser"
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: false
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/diamond-marvels-6-green-laser.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Donruss#Checklist"

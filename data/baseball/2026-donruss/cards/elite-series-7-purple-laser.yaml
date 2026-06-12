@@ -1,0 +1,24 @@
+number: "7"
+uuid: "63e421ac-54db-4c1a-ab94-2cad1adb0de6"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "Nolan Ryan"
+    role: "Player"
+    team: "Texas Rangers"
+subset: "Elite Series"
+card_name: "Nolan Ryan - Elite Series - Purple Laser"
+description: "Purple Laser parallel of Elite Series card featuring Nolan Ryan."
+series: "2026 Donruss"
+parallel: "Purple Laser"
+print_run: 15
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: true
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/elite-series-7-purple-laser.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Donruss#Checklist"

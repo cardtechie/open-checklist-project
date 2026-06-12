@@ -1,0 +1,23 @@
+number: "26"
+uuid: "d51865e5-31d2-4618-b713-5f040e9fcf74"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "James Wood"
+    role: "Player"
+    team: "Washington Nationals"
+subset: "Jersey Kings"
+card_name: "James Wood - Jersey Kings - Blue Ice"
+description: "Blue Ice parallel of Jersey Kings memorabilia card featuring James Wood."
+series: "2026 Donruss"
+parallel: "Blue Ice"
+rookie_card: false
+autograph: false
+relic: true
+serial_numbered: false
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/jersey-kings-26-blue-ice.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Donruss#Checklist"

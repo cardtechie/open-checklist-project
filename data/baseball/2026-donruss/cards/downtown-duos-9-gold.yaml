@@ -1,0 +1,27 @@
+number: "9"
+uuid: "a228bba8-e2c5-4579-a72e-620e76a82b43"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "Barry Larkin"
+    role: "Player"
+    team: "Cincinnati Reds"
+  - name: "Deion Sanders"
+    role: "Player"
+    team: "Cincinnati Reds"
+subset: "Downtown Duos"
+card_name: "Barry Larkin / Deion Sanders - Downtown Duos - Gold"
+description: "Gold parallel of Downtown Duos card featuring Barry Larkin / Deion Sanders."
+series: "2026 Donruss"
+parallel: "Gold"
+print_run: 10
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: true
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/downtown-duos-9-gold.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Donruss#Checklist"

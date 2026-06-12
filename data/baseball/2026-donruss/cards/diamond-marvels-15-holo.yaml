@@ -1,0 +1,24 @@
+number: "15"
+uuid: "ca9f80b0-fe69-4507-b075-8b3453b45e3c"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "Trey Yesavage"
+    role: "Player"
+    team: "Toronto Blue Jays"
+subset: "Diamond Marvels"
+card_name: "Trey Yesavage - Diamond Marvels - Holo"
+description: "Holo parallel of Diamond Marvels card featuring Trey Yesavage."
+series: "2026 Donruss"
+parallel: "Holo"
+print_run: 199
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: true
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/diamond-marvels-15-holo.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Donruss#Checklist"

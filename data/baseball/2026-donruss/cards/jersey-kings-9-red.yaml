@@ -1,0 +1,24 @@
+number: "9"
+uuid: "81d0b04b-1212-4d86-916c-a3fdaf892c1c"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "Cade Horton"
+    role: "Player"
+    team: "Chicago Cubs"
+subset: "Jersey Kings"
+card_name: "Cade Horton - Jersey Kings - Red"
+description: "Red parallel of Jersey Kings memorabilia card featuring Cade Horton."
+series: "2026 Donruss"
+parallel: "Red"
+print_run: 99
+rookie_card: false
+autograph: false
+relic: true
+serial_numbered: true
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/jersey-kings-9-red.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Donruss#Checklist"

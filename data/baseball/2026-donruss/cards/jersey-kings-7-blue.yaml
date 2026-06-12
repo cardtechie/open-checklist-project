@@ -1,0 +1,24 @@
+number: "7"
+uuid: "eaca316c-ac81-4086-88c1-591d63b30ab5"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "Chase DeLauter"
+    role: "Player"
+    team: "Cleveland Guardians"
+subset: "Jersey Kings"
+card_name: "Chase DeLauter - Jersey Kings - Blue"
+description: "Blue parallel of Jersey Kings memorabilia card featuring Chase DeLauter."
+series: "2026 Donruss"
+parallel: "Blue"
+print_run: 25
+rookie_card: false
+autograph: false
+relic: true
+serial_numbered: true
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/jersey-kings-7-blue.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Donruss#Checklist"

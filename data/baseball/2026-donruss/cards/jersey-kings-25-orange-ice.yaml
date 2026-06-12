@@ -1,0 +1,23 @@
+number: "25"
+uuid: "be797033-5ad2-474a-88c0-3b662f62e40e"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "Jackson Chourio"
+    role: "Player"
+    team: "Milwaukee Brewers"
+subset: "Jersey Kings"
+card_name: "Jackson Chourio - Jersey Kings - Orange Ice"
+description: "Orange Ice parallel of Jersey Kings memorabilia card featuring Jackson Chourio."
+series: "2026 Donruss"
+parallel: "Orange Ice"
+rookie_card: false
+autograph: false
+relic: true
+serial_numbered: false
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/jersey-kings-25-orange-ice.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Donruss#Checklist"

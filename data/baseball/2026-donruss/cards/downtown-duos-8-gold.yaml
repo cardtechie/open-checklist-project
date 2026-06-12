@@ -1,0 +1,27 @@
+number: "8"
+uuid: "abcc82e8-8d93-46de-8300-107d55135ff6"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "David Ortiz"
+    role: "Player"
+    team: "Boston Red Sox"
+  - name: "Pedro Martinez"
+    role: "Player"
+    team: "Boston Red Sox"
+subset: "Downtown Duos"
+card_name: "David Ortiz / Pedro Martinez - Downtown Duos - Gold"
+description: "Gold parallel of Downtown Duos card featuring David Ortiz / Pedro Martinez."
+series: "2026 Donruss"
+parallel: "Gold"
+print_run: 10
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: true
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/downtown-duos-8-gold.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Donruss#Checklist"

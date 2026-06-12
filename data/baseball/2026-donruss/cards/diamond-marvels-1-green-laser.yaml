@@ -1,0 +1,23 @@
+number: "1"
+uuid: "7470513e-0a4f-4e9b-bc5c-8ebd2bfddcbc"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "Deion Sanders"
+    role: "Player"
+    team: "Cincinnati Reds"
+subset: "Diamond Marvels"
+card_name: "Deion Sanders - Diamond Marvels - Green Laser"
+description: "Green Laser parallel of Diamond Marvels card featuring Deion Sanders."
+series: "2026 Donruss"
+parallel: "Green Laser"
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: false
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/diamond-marvels-1-green-laser.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Donruss#Checklist"

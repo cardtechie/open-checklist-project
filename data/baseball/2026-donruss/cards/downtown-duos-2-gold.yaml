@@ -1,0 +1,27 @@
+number: "2"
+uuid: "7655620e-30c6-4e73-b065-ba05dd2a76d6"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "Bo Jackson"
+    role: "Player"
+    team: "Kansas City Royals"
+  - name: "Bobby Witt Jr."
+    role: "Player"
+    team: "Kansas City Royals"
+subset: "Downtown Duos"
+card_name: "Bo Jackson / Bobby Witt Jr. - Downtown Duos - Gold"
+description: "Gold parallel of Downtown Duos card featuring Bo Jackson / Bobby Witt Jr.."
+series: "2026 Donruss"
+parallel: "Gold"
+print_run: 10
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: true
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/downtown-duos-2-gold.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Donruss#Checklist"

@@ -1,0 +1,23 @@
+number: "1"
+uuid: "262be238-833d-4535-b378-64026aadeb8d"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "Christian Moore"
+    role: "Player"
+    team: "Los Angeles Angels"
+subset: "Jersey Kings"
+card_name: "Christian Moore - Jersey Kings - Orange Ice"
+description: "Orange Ice parallel of Jersey Kings memorabilia card featuring Christian Moore."
+series: "2026 Donruss"
+parallel: "Orange Ice"
+rookie_card: false
+autograph: false
+relic: true
+serial_numbered: false
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/jersey-kings-1-orange-ice.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Donruss#Checklist"

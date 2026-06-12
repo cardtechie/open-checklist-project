@@ -1,0 +1,24 @@
+number: "18"
+uuid: "4b66c9b5-8545-4f18-9152-0a838fff9f0d"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "Aaron Judge"
+    role: "Player"
+    team: "New York Yankees"
+subset: "Diamond Marvels"
+card_name: "Aaron Judge - Diamond Marvels - Blue Xplosion"
+description: "Blue Xplosion parallel of Diamond Marvels card featuring Aaron Judge."
+series: "2026 Donruss"
+parallel: "Blue Xplosion"
+print_run: 49
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: true
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/diamond-marvels-18-blue-xplosion.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Donruss#Checklist"

@@ -1,0 +1,24 @@
+number: "16"
+uuid: "c3df52c1-67f5-4869-979e-a5dde5284b1a"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "Jacob Misiorowski"
+    role: "Player"
+    team: "Milwaukee Brewers"
+subset: "Jersey Kings"
+card_name: "Jacob Misiorowski - Jersey Kings - Purple"
+description: "Purple parallel of Jersey Kings memorabilia card featuring Jacob Misiorowski."
+series: "2026 Donruss"
+parallel: "Purple"
+print_run: 49
+rookie_card: false
+autograph: false
+relic: true
+serial_numbered: true
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/jersey-kings-16-purple.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Donruss#Checklist"

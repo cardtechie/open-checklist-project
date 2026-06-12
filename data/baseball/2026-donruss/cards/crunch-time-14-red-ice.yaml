@@ -1,0 +1,24 @@
+number: "14"
+uuid: "59286bcb-b631-4e06-adb3-f882f49368c4"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "Marcelo Mayer"
+    role: "Player"
+    team: "Boston Red Sox"
+subset: "Crunch Time"
+card_name: "Marcelo Mayer - Crunch Time - Red Ice"
+description: "Red Ice parallel of Crunch Time card featuring Marcelo Mayer."
+series: "2026 Donruss"
+parallel: "Red Ice"
+print_run: 149
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: true
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/crunch-time-14-red-ice.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Donruss#Checklist"

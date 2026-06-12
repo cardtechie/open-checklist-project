@@ -1,0 +1,23 @@
+number: "20"
+uuid: "f9b0c694-c8f4-4cc3-b957-3dcb3dcc261a"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "Aaron Judge"
+    role: "Player"
+    team: "New York Yankees"
+subset: "Elite Series"
+card_name: "Aaron Judge - Elite Series - Green Laser"
+description: "Green Laser parallel of Elite Series card featuring Aaron Judge."
+series: "2026 Donruss"
+parallel: "Green Laser"
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: false
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/elite-series-20-green-laser.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Donruss#Checklist"

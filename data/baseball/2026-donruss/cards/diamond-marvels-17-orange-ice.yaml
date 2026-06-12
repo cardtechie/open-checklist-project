@@ -1,0 +1,24 @@
+number: "17"
+uuid: "b44dcb74-1c74-464c-aa41-749a5fc21f26"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "James Wood"
+    role: "Player"
+    team: "Washington Nationals"
+subset: "Diamond Marvels"
+card_name: "James Wood - Diamond Marvels - Orange Ice"
+description: "Orange Ice parallel of Diamond Marvels card featuring James Wood."
+series: "2026 Donruss"
+parallel: "Orange Ice"
+print_run: 75
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: true
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/diamond-marvels-17-orange-ice.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Donruss#Checklist"

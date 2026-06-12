@@ -1,0 +1,23 @@
+number: "4"
+uuid: "51912d08-50e6-4ea4-b3f5-d304c03ce3ce"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "David Ortiz"
+    role: "Player"
+    team: "Boston Red Sox"
+subset: "Elite Series"
+card_name: "David Ortiz - Elite Series - Green Laser"
+description: "Green Laser parallel of Elite Series card featuring David Ortiz."
+series: "2026 Donruss"
+parallel: "Green Laser"
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: false
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/elite-series-4-green-laser.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Donruss#Checklist"

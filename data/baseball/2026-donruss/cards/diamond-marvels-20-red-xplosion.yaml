@@ -1,0 +1,24 @@
+number: "20"
+uuid: "454d0907-0bfc-42a6-940d-35b478afb783"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "Marcelo Mayer"
+    role: "Player"
+    team: "Boston Red Sox"
+subset: "Diamond Marvels"
+card_name: "Marcelo Mayer - Diamond Marvels - Red Xplosion"
+description: "Red Xplosion parallel of Diamond Marvels card featuring Marcelo Mayer."
+series: "2026 Donruss"
+parallel: "Red Xplosion"
+print_run: 99
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: true
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/diamond-marvels-20-red-xplosion.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Donruss#Checklist"

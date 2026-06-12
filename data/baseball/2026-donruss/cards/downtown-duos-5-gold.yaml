@@ -1,0 +1,27 @@
+number: "5"
+uuid: "68da4eff-3820-434f-9f37-de1975958dbe"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "Alex Rodriguez"
+    role: "Player"
+    team: "Seattle Mariners"
+  - name: "Ken Griffey Jr."
+    role: "Player"
+    team: "Seattle Mariners"
+subset: "Downtown Duos"
+card_name: "Alex Rodriguez / Ken Griffey Jr. - Downtown Duos - Gold"
+description: "Gold parallel of Downtown Duos card featuring Alex Rodriguez / Ken Griffey Jr.."
+series: "2026 Donruss"
+parallel: "Gold"
+print_run: 10
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: true
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/downtown-duos-5-gold.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Donruss#Checklist"

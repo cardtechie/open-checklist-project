@@ -1,0 +1,24 @@
+number: "14"
+uuid: "897b0f1f-e56f-433c-b592-5d89843b3728"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "Konnor Griffin"
+    role: "Player"
+    team: "Pittsburgh Pirates"
+subset: "Diamond Marvels"
+card_name: "Konnor Griffin - Diamond Marvels - Red Ice"
+description: "Red Ice parallel of Diamond Marvels card featuring Konnor Griffin."
+series: "2026 Donruss"
+parallel: "Red Ice"
+print_run: 149
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: true
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/diamond-marvels-14-red-ice.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Donruss#Checklist"

@@ -1,0 +1,24 @@
+number: "18"
+uuid: "c174697f-7aeb-40c8-ad6a-3d91bddfa4c0"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "Roger Clemens"
+    role: "Player"
+    team: "Boston Red Sox"
+subset: "Elite Series"
+card_name: "Roger Clemens - Elite Series - Green Ice"
+description: "Green Ice parallel of Elite Series card featuring Roger Clemens."
+series: "2026 Donruss"
+parallel: "Green Ice"
+print_run: 15
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: true
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/elite-series-18-green-ice.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Donruss#Checklist"

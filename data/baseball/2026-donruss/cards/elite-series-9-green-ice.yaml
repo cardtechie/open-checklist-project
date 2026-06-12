@@ -1,0 +1,24 @@
+number: "9"
+uuid: "1878ce4d-20f0-4d22-8b2f-1c3072853d93"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "Bubba Chandler"
+    role: "Player"
+    team: "Pittsburgh Pirates"
+subset: "Elite Series"
+card_name: "Bubba Chandler - Elite Series - Green Ice"
+description: "Green Ice parallel of Elite Series card featuring Bubba Chandler."
+series: "2026 Donruss"
+parallel: "Green Ice"
+print_run: 15
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: true
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/elite-series-9-green-ice.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Donruss#Checklist"

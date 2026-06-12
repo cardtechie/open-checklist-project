@@ -1,0 +1,24 @@
+number: "17"
+uuid: "05a3973c-7447-4c2f-96dd-ae3cd89dbe09"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "Kazuma Okamoto"
+    role: "Player"
+    team: "Toronto Blue Jays"
+subset: "Elite Series"
+card_name: "Kazuma Okamoto - Elite Series - Blue Ice"
+description: "Blue Ice parallel of Elite Series card featuring Kazuma Okamoto."
+series: "2026 Donruss"
+parallel: "Blue Ice"
+print_run: 35
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: true
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/elite-series-17-blue-ice.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Donruss#Checklist"

@@ -1,0 +1,24 @@
+number: "11"
+uuid: "327bba15-d322-40b5-9c07-2ae417651bd0"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "Robinson Cano"
+    role: "Player"
+    team: "New York Yankees"
+subset: "Elite Series"
+card_name: "Robinson Cano - Elite Series - Blue Xplosion"
+description: "Blue Xplosion parallel of Elite Series card featuring Robinson Cano."
+series: "2026 Donruss"
+parallel: "Blue Xplosion"
+print_run: 49
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: true
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/elite-series-11-blue-xplosion.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Donruss#Checklist"

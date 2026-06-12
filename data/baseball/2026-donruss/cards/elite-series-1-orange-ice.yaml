@@ -1,0 +1,24 @@
+number: "1"
+uuid: "37cecb17-4e9b-44c6-ba12-7b3e556a566d"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "Darryl Strawberry"
+    role: "Player"
+    team: "New York Mets"
+subset: "Elite Series"
+card_name: "Darryl Strawberry - Elite Series - Orange Ice"
+description: "Orange Ice parallel of Elite Series card featuring Darryl Strawberry."
+series: "2026 Donruss"
+parallel: "Orange Ice"
+print_run: 75
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: true
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/elite-series-1-orange-ice.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Donruss#Checklist"

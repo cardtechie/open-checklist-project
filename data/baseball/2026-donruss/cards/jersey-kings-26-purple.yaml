@@ -1,0 +1,24 @@
+number: "26"
+uuid: "fcc2604d-d7f4-49c4-8992-6a694f23149d"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "James Wood"
+    role: "Player"
+    team: "Washington Nationals"
+subset: "Jersey Kings"
+card_name: "James Wood - Jersey Kings - Purple"
+description: "Purple parallel of Jersey Kings memorabilia card featuring James Wood."
+series: "2026 Donruss"
+parallel: "Purple"
+print_run: 49
+rookie_card: false
+autograph: false
+relic: true
+serial_numbered: true
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/jersey-kings-26-purple.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Donruss#Checklist"

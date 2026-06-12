@@ -1,0 +1,24 @@
+number: "2"
+uuid: "f921cc1f-71de-44cb-9988-c9960c08d856"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "Jacob Misiorowski"
+    role: "Player"
+    team: "Milwaukee Brewers"
+subset: "Elite Series"
+card_name: "Jacob Misiorowski - Elite Series - Red Xplosion"
+description: "Red Xplosion parallel of Elite Series card featuring Jacob Misiorowski."
+series: "2026 Donruss"
+parallel: "Red Xplosion"
+print_run: 99
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: true
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/elite-series-2-red-xplosion.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Donruss#Checklist"

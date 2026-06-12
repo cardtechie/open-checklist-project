@@ -1,0 +1,24 @@
+number: "1"
+uuid: "1b77f32f-8c5e-496b-9c78-45e8a8bf6bfc"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "Darryl Strawberry"
+    role: "Player"
+    team: "New York Mets"
+subset: "Elite Series"
+card_name: "Darryl Strawberry - Elite Series - Blue Xplosion"
+description: "Blue Xplosion parallel of Elite Series card featuring Darryl Strawberry."
+series: "2026 Donruss"
+parallel: "Blue Xplosion"
+print_run: 49
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: true
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/elite-series-1-blue-xplosion.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Donruss#Checklist"

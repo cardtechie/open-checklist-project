@@ -1,0 +1,24 @@
+number: "7"
+uuid: "b1f767f3-9c8b-49ca-84e0-9aae12c7d7a8"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "Nolan Ryan"
+    role: "Player"
+    team: "Texas Rangers"
+subset: "Elite Series"
+card_name: "Nolan Ryan - Elite Series - Red Ice"
+description: "Red Ice parallel of Elite Series card featuring Nolan Ryan."
+series: "2026 Donruss"
+parallel: "Red Ice"
+print_run: 149
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: true
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/elite-series-7-red-ice.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Donruss#Checklist"

@@ -1,0 +1,24 @@
+number: "11"
+uuid: "c296626f-4e47-47c1-acae-c5ba17d0161f"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "Roman Anthony"
+    role: "Player"
+    team: "Boston Red Sox"
+subset: "Diamond Marvels"
+card_name: "Roman Anthony - Diamond Marvels - Green Ice"
+description: "Green Ice parallel of Diamond Marvels card featuring Roman Anthony."
+series: "2026 Donruss"
+parallel: "Green Ice"
+print_run: 15
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: true
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/diamond-marvels-11-green-ice.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Donruss#Checklist"

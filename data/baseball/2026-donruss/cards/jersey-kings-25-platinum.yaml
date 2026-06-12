@@ -1,0 +1,24 @@
+number: "25"
+uuid: "e0f29789-4d8e-4f25-89ba-27ea3adf5213"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "Jackson Chourio"
+    role: "Player"
+    team: "Milwaukee Brewers"
+subset: "Jersey Kings"
+card_name: "Jackson Chourio - Jersey Kings - Platinum"
+description: "Platinum parallel of Jersey Kings memorabilia card featuring Jackson Chourio."
+series: "2026 Donruss"
+parallel: "Platinum"
+print_run: 1
+rookie_card: false
+autograph: false
+relic: true
+serial_numbered: true
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/jersey-kings-25-platinum.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Donruss#Checklist"

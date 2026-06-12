@@ -1,0 +1,24 @@
+number: "10"
+uuid: "a223b175-78fa-4f37-8f50-cddb20ec4130"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "Kellon Lindsey"
+    role: "Player"
+    team: "Los Angeles Dodgers"
+subset: "Prospect Jersey Kings"
+card_name: "Kellon Lindsey - Prospect Jersey Kings - Platinum"
+description: "Platinum parallel of Prospect Jersey Kings memorabilia card featuring Kellon Lindsey."
+series: "2026 Donruss"
+parallel: "Platinum"
+print_run: 1
+rookie_card: false
+autograph: false
+relic: true
+serial_numbered: true
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/prospect-jersey-kings-10-platinum.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Donruss#Checklist"

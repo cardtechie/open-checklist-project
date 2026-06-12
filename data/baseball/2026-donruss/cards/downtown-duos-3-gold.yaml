@@ -1,0 +1,27 @@
+number: "3"
+uuid: "a2c88ce7-23c4-400b-9c64-b0292b3a797f"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "Marcelo Mayer"
+    role: "Player"
+    team: "Boston Red Sox"
+  - name: "Roman Anthony"
+    role: "Player"
+    team: "Boston Red Sox"
+subset: "Downtown Duos"
+card_name: "Marcelo Mayer / Roman Anthony - Downtown Duos - Gold"
+description: "Gold parallel of Downtown Duos card featuring Marcelo Mayer / Roman Anthony."
+series: "2026 Donruss"
+parallel: "Gold"
+print_run: 10
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: true
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/downtown-duos-3-gold.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Donruss#Checklist"

@@ -1,0 +1,24 @@
+number: "15"
+uuid: "8929d434-f1e9-48ce-abe6-a86b1c3f7c19"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "Trey Yesavage"
+    role: "Player"
+    team: "Toronto Blue Jays"
+subset: "Diamond Marvels"
+card_name: "Trey Yesavage - Diamond Marvels - Pink Ice"
+description: "Pink Ice parallel of Diamond Marvels card featuring Trey Yesavage."
+series: "2026 Donruss"
+parallel: "Pink Ice"
+print_run: 99
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: true
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/diamond-marvels-15-pink-ice.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Donruss#Checklist"
