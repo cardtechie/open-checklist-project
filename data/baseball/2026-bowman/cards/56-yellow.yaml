@@ -1,0 +1,22 @@
+number: "56"
+uuid: "86238de2-6df5-4215-b3f2-c4019d50314f"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-bowman"
+subjects:
+  - name: "Brice Matthews"
+    role: "Player"
+    team: "Houston Astros"
+card_name: "Brice Matthews - Base - Yellow"
+description: "Yellow parallel of Base card featuring Brice Matthews."
+series: "2026 Bowman"
+parallel: "Yellow"
+print_run: 75
+rookie_card: true
+autograph: false
+serial_numbered: true
+release_date: "2026-05-13"
+image_url: "https://example.com/cards/2026-bowman/56-yellow.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Bowman#Insertion_Ratios"

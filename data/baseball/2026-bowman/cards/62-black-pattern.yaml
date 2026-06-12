@@ -1,0 +1,22 @@
+number: "62"
+uuid: "539f954a-91cb-4119-a5a6-840e92f7dfcc"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-bowman"
+subjects:
+  - name: "Owen Caissie"
+    role: "Player"
+    team: "Chicago Cubs"
+card_name: "Owen Caissie - Base - Black Pattern"
+description: "Black Pattern parallel of Base card featuring Owen Caissie."
+series: "2026 Bowman"
+parallel: "Black Pattern"
+print_run: 10
+rookie_card: true
+autograph: false
+serial_numbered: true
+release_date: "2026-05-13"
+image_url: "https://example.com/cards/2026-bowman/62-black-pattern.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Bowman#Insertion_Ratios"

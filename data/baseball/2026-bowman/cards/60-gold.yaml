@@ -1,0 +1,22 @@
+number: "60"
+uuid: "bf1a9f4a-a7af-4289-bfa8-fe7205ddda79"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-bowman"
+subjects:
+  - name: "Manny Machado"
+    role: "Player"
+    team: "San Diego Padres"
+card_name: "Manny Machado - Base - Gold"
+description: "Gold parallel of Base card featuring Manny Machado."
+series: "2026 Bowman"
+parallel: "Gold"
+print_run: 50
+rookie_card: false
+autograph: false
+serial_numbered: true
+release_date: "2026-05-13"
+image_url: "https://example.com/cards/2026-bowman/60-gold.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Bowman#Insertion_Ratios"

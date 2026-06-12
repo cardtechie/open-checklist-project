@@ -1,0 +1,21 @@
+number: "4"
+uuid: "aec89de1-f608-43fd-82f3-70e262bb17a3"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-bowman"
+subjects:
+  - name: "Jackson Chourio"
+    role: "Player"
+    team: "Milwaukee Brewers"
+card_name: "Jackson Chourio - Base - Bowman Scouts' Top 100"
+description: "Bowman Scouts' Top 100 parallel of Base card featuring Jackson Chourio."
+series: "2026 Bowman"
+parallel: "Bowman Scouts' Top 100"
+rookie_card: false
+autograph: false
+serial_numbered: false
+release_date: "2026-05-13"
+image_url: "https://example.com/cards/2026-bowman/4-bowman-scouts-top-100.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Bowman#Insertion_Ratios"

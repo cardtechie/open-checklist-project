@@ -1,0 +1,22 @@
+number: "61"
+uuid: "7c9c4925-47d3-4f53-98c4-2857877d4e63"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-bowman"
+subjects:
+  - name: "Vladimir Guerrero Jr."
+    role: "Player"
+    team: "Toronto Blue Jays"
+card_name: "Vladimir Guerrero Jr. - Base - Platinum"
+description: "Platinum parallel of Base card featuring Vladimir Guerrero Jr.."
+series: "2026 Bowman"
+parallel: "Platinum"
+print_run: 1
+rookie_card: false
+autograph: false
+serial_numbered: true
+release_date: "2026-05-13"
+image_url: "https://example.com/cards/2026-bowman/61-platinum.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Bowman#Insertion_Ratios"

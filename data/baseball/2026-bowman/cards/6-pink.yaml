@@ -1,0 +1,22 @@
+number: "6"
+uuid: "2b7cd4fb-32a6-4c41-8cdc-d04521c3c6f4"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-bowman"
+subjects:
+  - name: "Sal Stewart"
+    role: "Player"
+    team: "Cincinnati Reds"
+card_name: "Sal Stewart - Base - Pink"
+description: "Pink parallel of Base card featuring Sal Stewart."
+series: "2026 Bowman"
+parallel: "Pink"
+print_run: 175
+rookie_card: true
+autograph: false
+serial_numbered: true
+release_date: "2026-05-13"
+image_url: "https://example.com/cards/2026-bowman/6-pink.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Bowman#Insertion_Ratios"

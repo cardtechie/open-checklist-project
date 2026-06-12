@@ -1,0 +1,21 @@
+number: "40"
+uuid: "3a6b27c5-ca35-4177-ad67-25a287594e61"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-bowman"
+subjects:
+  - name: "Drew Gilbert"
+    role: "Player"
+    team: "San Francisco Giants"
+card_name: "Drew Gilbert - Base - Bowman Logo"
+description: "Bowman Logo parallel of Base card featuring Drew Gilbert."
+series: "2026 Bowman"
+parallel: "Bowman Logo"
+rookie_card: true
+autograph: false
+serial_numbered: false
+release_date: "2026-05-13"
+image_url: "https://example.com/cards/2026-bowman/40-bowman-logo.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Bowman#Insertion_Ratios"

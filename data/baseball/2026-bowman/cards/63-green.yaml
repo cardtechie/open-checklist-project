@@ -1,0 +1,22 @@
+number: "63"
+uuid: "139cdc3a-7af9-4425-bea4-43e3b4ef7fa7"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-bowman"
+subjects:
+  - name: "Roki Sasaki"
+    role: "Player"
+    team: "Los Angeles Dodgers"
+card_name: "Roki Sasaki - Base - Green"
+description: "Green parallel of Base card featuring Roki Sasaki."
+series: "2026 Bowman"
+parallel: "Green"
+print_run: 99
+rookie_card: false
+autograph: false
+serial_numbered: true
+release_date: "2026-05-13"
+image_url: "https://example.com/cards/2026-bowman/63-green.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Bowman#Insertion_Ratios"

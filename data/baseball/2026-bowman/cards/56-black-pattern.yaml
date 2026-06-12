@@ -1,0 +1,22 @@
+number: "56"
+uuid: "e23dd173-8464-4143-ab36-17ed286c7fd6"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-bowman"
+subjects:
+  - name: "Brice Matthews"
+    role: "Player"
+    team: "Houston Astros"
+card_name: "Brice Matthews - Base - Black Pattern"
+description: "Black Pattern parallel of Base card featuring Brice Matthews."
+series: "2026 Bowman"
+parallel: "Black Pattern"
+print_run: 10
+rookie_card: true
+autograph: false
+serial_numbered: true
+release_date: "2026-05-13"
+image_url: "https://example.com/cards/2026-bowman/56-black-pattern.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Bowman#Insertion_Ratios"

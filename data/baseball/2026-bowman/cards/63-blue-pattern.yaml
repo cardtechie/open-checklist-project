@@ -1,0 +1,22 @@
+number: "63"
+uuid: "bdb9e9c9-4775-4cf3-b51f-b556b17688a9"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-bowman"
+subjects:
+  - name: "Roki Sasaki"
+    role: "Player"
+    team: "Los Angeles Dodgers"
+card_name: "Roki Sasaki - Base - Blue Pattern"
+description: "Blue Pattern parallel of Base card featuring Roki Sasaki."
+series: "2026 Bowman"
+parallel: "Blue Pattern"
+print_run: 150
+rookie_card: false
+autograph: false
+serial_numbered: true
+release_date: "2026-05-13"
+image_url: "https://example.com/cards/2026-bowman/63-blue-pattern.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Bowman#Insertion_Ratios"

@@ -1,0 +1,21 @@
+number: "60"
+uuid: "743d8835-e329-4a36-a572-0a32b6d31010"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-bowman"
+subjects:
+  - name: "Manny Machado"
+    role: "Player"
+    team: "San Diego Padres"
+card_name: "Manny Machado - Base - Bowman Scouts' Top 100"
+description: "Bowman Scouts' Top 100 parallel of Base card featuring Manny Machado."
+series: "2026 Bowman"
+parallel: "Bowman Scouts' Top 100"
+rookie_card: false
+autograph: false
+serial_numbered: false
+release_date: "2026-05-13"
+image_url: "https://example.com/cards/2026-bowman/60-bowman-scouts-top-100.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Bowman#Insertion_Ratios"

@@ -1,0 +1,22 @@
+number: "61"
+uuid: "3ccb0e43-0baf-4fe7-9ebe-4ad820493659"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-bowman"
+subjects:
+  - name: "Vladimir Guerrero Jr."
+    role: "Player"
+    team: "Toronto Blue Jays"
+card_name: "Vladimir Guerrero Jr. - Base - Blue Pattern"
+description: "Blue Pattern parallel of Base card featuring Vladimir Guerrero Jr.."
+series: "2026 Bowman"
+parallel: "Blue Pattern"
+print_run: 150
+rookie_card: false
+autograph: false
+serial_numbered: true
+release_date: "2026-05-13"
+image_url: "https://example.com/cards/2026-bowman/61-blue-pattern.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Bowman#Insertion_Ratios"

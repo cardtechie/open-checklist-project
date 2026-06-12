@@ -1,0 +1,21 @@
+number: "47"
+uuid: "9e321f81-b27f-4b6a-a639-4618de57af77"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-bowman"
+subjects:
+  - name: "Fernando Tatis Jr."
+    role: "Player"
+    team: "San Diego Padres"
+card_name: "Fernando Tatis Jr. - Base - Bowman Logo"
+description: "Bowman Logo parallel of Base card featuring Fernando Tatis Jr.."
+series: "2026 Bowman"
+parallel: "Bowman Logo"
+rookie_card: false
+autograph: false
+serial_numbered: false
+release_date: "2026-05-13"
+image_url: "https://example.com/cards/2026-bowman/47-bowman-logo.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Bowman#Insertion_Ratios"

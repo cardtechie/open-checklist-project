@@ -1,0 +1,22 @@
+number: "50"
+uuid: "274a914d-e2c9-4449-b579-fbdc4e70d99a"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-bowman"
+subjects:
+  - name: "Jackson Merrill"
+    role: "Player"
+    team: "San Diego Padres"
+card_name: "Jackson Merrill - Base - Sky Blue"
+description: "Sky Blue parallel of Base card featuring Jackson Merrill."
+series: "2026 Bowman"
+parallel: "Sky Blue"
+print_run: 499
+rookie_card: false
+autograph: false
+serial_numbered: true
+release_date: "2026-05-13"
+image_url: "https://example.com/cards/2026-bowman/50-sky-blue.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Bowman#Insertion_Ratios"

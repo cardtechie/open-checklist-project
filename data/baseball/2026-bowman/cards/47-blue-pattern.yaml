@@ -1,0 +1,22 @@
+number: "47"
+uuid: "f0de2724-3660-4985-836c-90bfe9bcd2d0"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-bowman"
+subjects:
+  - name: "Fernando Tatis Jr."
+    role: "Player"
+    team: "San Diego Padres"
+card_name: "Fernando Tatis Jr. - Base - Blue Pattern"
+description: "Blue Pattern parallel of Base card featuring Fernando Tatis Jr.."
+series: "2026 Bowman"
+parallel: "Blue Pattern"
+print_run: 150
+rookie_card: false
+autograph: false
+serial_numbered: true
+release_date: "2026-05-13"
+image_url: "https://example.com/cards/2026-bowman/47-blue-pattern.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Bowman#Insertion_Ratios"

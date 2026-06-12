@@ -1,0 +1,22 @@
+number: "53"
+uuid: "a95428d1-cfe5-46bd-a63c-f1b69498d56a"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-bowman"
+subjects:
+  - name: "Cam Schlittler"
+    role: "Player"
+    team: "New York Yankees"
+card_name: "Cam Schlittler - Base - Orange"
+description: "Orange parallel of Base card featuring Cam Schlittler."
+series: "2026 Bowman"
+parallel: "Orange"
+print_run: 25
+rookie_card: true
+autograph: false
+serial_numbered: true
+release_date: "2026-05-13"
+image_url: "https://example.com/cards/2026-bowman/53-orange.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Bowman#Insertion_Ratios"

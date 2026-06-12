@@ -1,0 +1,22 @@
+number: "63"
+uuid: "09a86078-9570-46a5-aaee-119ab8ef8005"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-bowman"
+subjects:
+  - name: "Roki Sasaki"
+    role: "Player"
+    team: "Los Angeles Dodgers"
+card_name: "Roki Sasaki - Base - Purple"
+description: "Purple parallel of Base card featuring Roki Sasaki."
+series: "2026 Bowman"
+parallel: "Purple"
+print_run: 250
+rookie_card: false
+autograph: false
+serial_numbered: true
+release_date: "2026-05-13"
+image_url: "https://example.com/cards/2026-bowman/63-purple.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Bowman#Insertion_Ratios"

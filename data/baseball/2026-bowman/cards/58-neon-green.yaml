@@ -1,0 +1,22 @@
+number: "58"
+uuid: "2d63843a-77a8-4a38-9ef3-474d7b8ee60e"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-bowman"
+subjects:
+  - name: "Bryce Eldridge"
+    role: "Player"
+    team: "San Francisco Giants"
+card_name: "Bryce Eldridge - Base - Neon Green"
+description: "Neon Green parallel of Base card featuring Bryce Eldridge."
+series: "2026 Bowman"
+parallel: "Neon Green"
+print_run: 399
+rookie_card: true
+autograph: false
+serial_numbered: true
+release_date: "2026-05-13"
+image_url: "https://example.com/cards/2026-bowman/58-neon-green.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Bowman#Insertion_Ratios"

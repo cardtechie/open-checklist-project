@@ -1,0 +1,22 @@
+number: "41"
+uuid: "f078e380-7366-400b-bba9-06a8f0b21667"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-bowman"
+subjects:
+  - name: "Trey Yesavage"
+    role: "Player"
+    team: "Toronto Blue Jays"
+card_name: "Trey Yesavage - Base - Platinum"
+description: "Platinum parallel of Base card featuring Trey Yesavage."
+series: "2026 Bowman"
+parallel: "Platinum"
+print_run: 1
+rookie_card: true
+autograph: false
+serial_numbered: true
+release_date: "2026-05-13"
+image_url: "https://example.com/cards/2026-bowman/41-platinum.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Bowman#Insertion_Ratios"

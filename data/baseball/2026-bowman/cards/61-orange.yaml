@@ -1,0 +1,22 @@
+number: "61"
+uuid: "f0595255-307f-43ca-ad0a-9b4d8d67ea0c"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-bowman"
+subjects:
+  - name: "Vladimir Guerrero Jr."
+    role: "Player"
+    team: "Toronto Blue Jays"
+card_name: "Vladimir Guerrero Jr. - Base - Orange"
+description: "Orange parallel of Base card featuring Vladimir Guerrero Jr.."
+series: "2026 Bowman"
+parallel: "Orange"
+print_run: 25
+rookie_card: false
+autograph: false
+serial_numbered: true
+release_date: "2026-05-13"
+image_url: "https://example.com/cards/2026-bowman/61-orange.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Bowman#Insertion_Ratios"

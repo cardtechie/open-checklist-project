@@ -1,0 +1,22 @@
+number: "49"
+uuid: "723a30f7-e4d8-4db9-a61b-b3f79111368f"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-bowman"
+subjects:
+  - name: "Luis Morales"
+    role: "Player"
+    team: "Athletics"
+card_name: "Luis Morales - Base - Green Pattern"
+description: "Green Pattern parallel of Base card featuring Luis Morales."
+series: "2026 Bowman"
+parallel: "Green Pattern"
+print_run: 99
+rookie_card: true
+autograph: false
+serial_numbered: true
+release_date: "2026-05-13"
+image_url: "https://example.com/cards/2026-bowman/49-green-pattern.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Bowman#Insertion_Ratios"

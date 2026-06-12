@@ -1,0 +1,22 @@
+number: "50"
+uuid: "ff76433b-d961-4986-be70-7f5dce86eed4"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-bowman"
+subjects:
+  - name: "Jackson Merrill"
+    role: "Player"
+    team: "San Diego Padres"
+card_name: "Jackson Merrill - Base - Gold"
+description: "Gold parallel of Base card featuring Jackson Merrill."
+series: "2026 Bowman"
+parallel: "Gold"
+print_run: 50
+rookie_card: false
+autograph: false
+serial_numbered: true
+release_date: "2026-05-13"
+image_url: "https://example.com/cards/2026-bowman/50-gold.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Bowman#Insertion_Ratios"

@@ -1,0 +1,22 @@
+number: "66"
+uuid: "a354dec9-5281-4a07-92dd-8be2512d5bd2"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-bowman"
+subjects:
+  - name: "Carter Jensen"
+    role: "Player"
+    team: "Kansas City Royals"
+card_name: "Carter Jensen - Base - Gold"
+description: "Gold parallel of Base card featuring Carter Jensen."
+series: "2026 Bowman"
+parallel: "Gold"
+print_run: 50
+rookie_card: true
+autograph: false
+serial_numbered: true
+release_date: "2026-05-13"
+image_url: "https://example.com/cards/2026-bowman/66-gold.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Bowman#Insertion_Ratios"

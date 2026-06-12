@@ -1,0 +1,22 @@
+number: "48"
+uuid: "f0fcf110-230b-4bb3-85b6-94e913bbaa5f"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-bowman"
+subjects:
+  - name: "Riley Greene"
+    role: "Player"
+    team: "Detroit Tigers"
+card_name: "Riley Greene - Base - Blue Pattern"
+description: "Blue Pattern parallel of Base card featuring Riley Greene."
+series: "2026 Bowman"
+parallel: "Blue Pattern"
+print_run: 150
+rookie_card: false
+autograph: false
+serial_numbered: true
+release_date: "2026-05-13"
+image_url: "https://example.com/cards/2026-bowman/48-blue-pattern.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Bowman#Insertion_Ratios"

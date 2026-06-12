@@ -1,0 +1,22 @@
+number: "54"
+uuid: "1364cd96-b3c9-4247-8c86-8da804eb41c1"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-bowman"
+subjects:
+  - name: "Dylan Crews"
+    role: "Player"
+    team: "Washington Nationals"
+card_name: "Dylan Crews - Base - Blue Pattern"
+description: "Blue Pattern parallel of Base card featuring Dylan Crews."
+series: "2026 Bowman"
+parallel: "Blue Pattern"
+print_run: 150
+rookie_card: false
+autograph: false
+serial_numbered: true
+release_date: "2026-05-13"
+image_url: "https://example.com/cards/2026-bowman/54-blue-pattern.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Bowman#Insertion_Ratios"

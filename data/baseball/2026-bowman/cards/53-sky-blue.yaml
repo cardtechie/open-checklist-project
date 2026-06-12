@@ -1,0 +1,22 @@
+number: "53"
+uuid: "672c7b23-8afc-4bb7-b893-357e722be382"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-bowman"
+subjects:
+  - name: "Cam Schlittler"
+    role: "Player"
+    team: "New York Yankees"
+card_name: "Cam Schlittler - Base - Sky Blue"
+description: "Sky Blue parallel of Base card featuring Cam Schlittler."
+series: "2026 Bowman"
+parallel: "Sky Blue"
+print_run: 499
+rookie_card: true
+autograph: false
+serial_numbered: true
+release_date: "2026-05-13"
+image_url: "https://example.com/cards/2026-bowman/53-sky-blue.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Bowman#Insertion_Ratios"

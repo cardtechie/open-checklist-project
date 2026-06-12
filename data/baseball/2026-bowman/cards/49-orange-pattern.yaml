@@ -1,0 +1,22 @@
+number: "49"
+uuid: "cc5e6f89-3a52-4489-8b74-6426b89035a8"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-bowman"
+subjects:
+  - name: "Luis Morales"
+    role: "Player"
+    team: "Athletics"
+card_name: "Luis Morales - Base - Orange Pattern"
+description: "Orange Pattern parallel of Base card featuring Luis Morales."
+series: "2026 Bowman"
+parallel: "Orange Pattern"
+print_run: 25
+rookie_card: true
+autograph: false
+serial_numbered: true
+release_date: "2026-05-13"
+image_url: "https://example.com/cards/2026-bowman/49-orange-pattern.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Bowman#Insertion_Ratios"

@@ -1,0 +1,22 @@
+number: "49"
+uuid: "8829094a-8967-4c63-ab6b-cc46f04695e6"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-bowman"
+subjects:
+  - name: "Luis Morales"
+    role: "Player"
+    team: "Athletics"
+card_name: "Luis Morales - Base - Red"
+description: "Red parallel of Base card featuring Luis Morales."
+series: "2026 Bowman"
+parallel: "Red"
+print_run: 5
+rookie_card: true
+autograph: false
+serial_numbered: true
+release_date: "2026-05-13"
+image_url: "https://example.com/cards/2026-bowman/49-red.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Bowman#Insertion_Ratios"
