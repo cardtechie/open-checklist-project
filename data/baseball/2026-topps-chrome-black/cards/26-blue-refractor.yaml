@@ -1,0 +1,23 @@
+number: "26"
+uuid: "a0d7034f-0e13-4947-8254-16c6df2593f3"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-topps-chrome-black"
+subjects:
+  - name: "Payton Tolle"
+    role: "Player"
+    team: "Boston Red Sox"
+card_name: "Payton Tolle - Base - Blue Refractor"
+description: "Blue Refractor parallel of Base card featuring Payton Tolle."
+series: "2026 Topps Chrome Black"
+parallel: "Blue Refractor"
+print_run: 150
+rookie_card: true
+autograph: false
+relic: false
+serial_numbered: true
+release_date: "2026-04-29"
+image_url: "https://example.com/cards/2026-topps-chrome-black/26-blue-refractor.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Topps_Chrome_Black#Insertion_Ratios"

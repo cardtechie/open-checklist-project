@@ -1,0 +1,23 @@
+number: "41"
+uuid: "d69d9bd6-a1b5-46bb-8cb8-f9067d9fa339"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-topps-chrome-black"
+subjects:
+  - name: "Samuel Basallo"
+    role: "Player"
+    team: "Baltimore Orioles"
+card_name: "Samuel Basallo - Base - Green Refractor"
+description: "Green Refractor parallel of Base card featuring Samuel Basallo."
+series: "2026 Topps Chrome Black"
+parallel: "Green Refractor"
+print_run: 99
+rookie_card: true
+autograph: false
+relic: false
+serial_numbered: true
+release_date: "2026-04-29"
+image_url: "https://example.com/cards/2026-topps-chrome-black/41-green-refractor.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Topps_Chrome_Black#Insertion_Ratios"

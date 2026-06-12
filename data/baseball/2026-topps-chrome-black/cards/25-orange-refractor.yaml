@@ -1,0 +1,23 @@
+number: "25"
+uuid: "67b64920-a22e-4450-a9b5-9224473f0bfe"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-topps-chrome-black"
+subjects:
+  - name: "Nolan Arenado"
+    role: "Player"
+    team: "St. Louis Cardinals"
+card_name: "Nolan Arenado - Base - Orange Refractor"
+description: "Orange Refractor parallel of Base card featuring Nolan Arenado."
+series: "2026 Topps Chrome Black"
+parallel: "Orange Refractor"
+print_run: 25
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: true
+release_date: "2026-04-29"
+image_url: "https://example.com/cards/2026-topps-chrome-black/25-orange-refractor.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Topps_Chrome_Black#Insertion_Ratios"

@@ -1,0 +1,23 @@
+number: "42"
+uuid: "9fa2f310-b0b1-4080-8489-df1a7bd8c777"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-topps-chrome-black"
+subjects:
+  - name: "Christian Yelich"
+    role: "Player"
+    team: "Milwaukee Brewers"
+card_name: "Christian Yelich - Base - Purple Wave Refractor"
+description: "Purple Wave Refractor parallel of Base card featuring Christian Yelich."
+series: "2026 Topps Chrome Black"
+parallel: "Purple Wave Refractor"
+print_run: 75
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: true
+release_date: "2026-04-29"
+image_url: "https://example.com/cards/2026-topps-chrome-black/42-purple-wave-refractor.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Topps_Chrome_Black#Insertion_Ratios"

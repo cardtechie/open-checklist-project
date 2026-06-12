@@ -1,0 +1,23 @@
+number: "200"
+uuid: "1b5fe1c4-350f-48b4-b0fa-c82be01cb955"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-topps-chrome-black"
+subjects:
+  - name: "Kyle Schwarber"
+    role: "Player"
+    team: "Philadelphia Phillies"
+card_name: "Kyle Schwarber - Base - Red Refractor"
+description: "Red Refractor parallel of Base card featuring Kyle Schwarber."
+series: "2026 Topps Chrome Black"
+parallel: "Red Refractor"
+print_run: 5
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: true
+release_date: "2026-04-29"
+image_url: "https://example.com/cards/2026-topps-chrome-black/200-red-refractor.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Topps_Chrome_Black#Insertion_Ratios"

@@ -1,0 +1,23 @@
+number: "28"
+uuid: "6fc870cd-1c23-4d1f-ae8a-26f72c30389e"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-topps-chrome-black"
+subjects:
+  - name: "Alex Freeland"
+    role: "Player"
+    team: "Los Angeles Dodgers"
+card_name: "Alex Freeland - Base - Gold Refractor"
+description: "Gold Refractor parallel of Base card featuring Alex Freeland."
+series: "2026 Topps Chrome Black"
+parallel: "Gold Refractor"
+print_run: 50
+rookie_card: true
+autograph: false
+relic: false
+serial_numbered: true
+release_date: "2026-04-29"
+image_url: "https://example.com/cards/2026-topps-chrome-black/28-gold-refractor.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Topps_Chrome_Black#Insertion_Ratios"

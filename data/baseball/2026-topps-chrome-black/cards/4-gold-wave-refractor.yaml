@@ -1,0 +1,23 @@
+number: "4"
+uuid: "70558bf0-0338-4379-a8e3-4839f785ffcb"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-topps-chrome-black"
+subjects:
+  - name: "Mookie Betts"
+    role: "Player"
+    team: "Los Angeles Dodgers"
+card_name: "Mookie Betts - Base - Gold Wave Refractor"
+description: "Gold Wave Refractor parallel of Base card featuring Mookie Betts."
+series: "2026 Topps Chrome Black"
+parallel: "Gold Wave Refractor"
+print_run: 50
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: true
+release_date: "2026-04-29"
+image_url: "https://example.com/cards/2026-topps-chrome-black/4-gold-wave-refractor.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Topps_Chrome_Black#Insertion_Ratios"
