@@ -1,0 +1,23 @@
+number: "469"
+uuid: "2dd78865-e224-49fb-b6e2-d1af40fda520"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-topps-series-2"
+subjects:
+  - name: "Jonathan Pintaro"
+    role: "Player"
+    team: "New York Mets"
+card_name: "Jonathan Pintaro - Base - All-Star Game Green"
+description: "All-Star Game Green parallel of Base card featuring Jonathan Pintaro."
+series: "2026 Topps Baseball"
+parallel: "All-Star Game Green"
+print_run: 99
+rookie_card: true
+autograph: false
+relic: false
+serial_numbered: true
+release_date: "2026-06-11"
+image_url: "https://example.com/cards/2026-topps-series-2/469-all-star-game-green.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Topps#Insertion_Ratios"

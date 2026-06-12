@@ -1,0 +1,23 @@
+number: "469"
+uuid: "a17694b8-5efb-41fa-a2cd-04e063500cd0"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-topps-series-2"
+subjects:
+  - name: "Jonathan Pintaro"
+    role: "Player"
+    team: "New York Mets"
+card_name: "Jonathan Pintaro - Base - Wood"
+description: "Wood parallel of Base card featuring Jonathan Pintaro."
+series: "2026 Topps Baseball"
+parallel: "Wood"
+print_run: 25
+rookie_card: true
+autograph: false
+relic: false
+serial_numbered: true
+release_date: "2026-06-11"
+image_url: "https://example.com/cards/2026-topps-series-2/469-wood.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Topps#Insertion_Ratios"

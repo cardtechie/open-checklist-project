@@ -1,0 +1,23 @@
+number: "480"
+uuid: "96fc79cb-bb0e-4657-978b-bc3b24b47d2c"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-topps-series-2"
+subjects:
+  - name: "Luis Torrens"
+    role: "Player"
+    team: "New York Mets"
+card_name: "Luis Torrens - Base - FoilFractor"
+description: "FoilFractor parallel of Base card featuring Luis Torrens."
+series: "2026 Topps Baseball"
+parallel: "FoilFractor"
+print_run: 1
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: true
+release_date: "2026-06-11"
+image_url: "https://example.com/cards/2026-topps-series-2/480-foilfractor.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Topps#Insertion_Ratios"
