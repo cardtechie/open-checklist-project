@@ -3,6 +3,7 @@ import re
 import uuid
 from pathlib import Path
 
+import requests
 import yaml
 from openpyxl import load_workbook
 
@@ -11,6 +12,224 @@ DATA_DIR = Path("data") / "baseball"
 
 
 PARALLEL_PLANS = {
+    "2025-26-topps-chrome-platinum": {
+        "source_url": "https://baseballcardpedia.com/index.php/2025-26_Topps_Chrome_Platinum#Checklist",
+        "sections": {
+            "Base": [
+                ("Refractor", None),
+                ("Prism Refractor", None),
+                ("Blue Prism Refractor", None),
+                ("Red Prism Refractor", None),
+                ("Gold Prism Refractor", None),
+                ("Topps Refractor", 499),
+                ("Vibration Refractor", 250),
+                ("Blue Mini-Diamond Refractor", 199),
+                ("Speckle Refractor", 150),
+                ("Blue Vibration Refractor", 150),
+                ("Blue Lava Refractor", 100),
+                ("Platinum Toile Cream/Fuchsia Shimmer Refractor", 100),
+                ("Green Wave Refractor", 99),
+                ("Platinum Toile White/Green Refractor", 99),
+                ("Green Vibration Refractor", 99),
+                ("Platinum Toile Cream/Rose Gold Refractor", 75),
+                ("Rose Gold Refractor", 75),
+                ("Rose Gold Mini-Diamond Refractor", 75),
+                ("Diamond Etch Refractor", 55),
+                ("Gold Refractor", 50),
+                ("Gold Wave Refractor", 50),
+                ("Platinum Toile Cream/Gold Refractor", 50),
+                ("Gold Vibration Refractor", 50),
+                ("Platinum Toile White/Orange Refractor", 25),
+                ("Orange Refractor", 25),
+                ("Orange Wave Refractor", 25),
+                ("Orange Vibration Refractor", 25),
+                ("Black Refractor", 10),
+                ("Platinum Toile Cream/Black Refractor", 10),
+                ("Black Vibration Refractor", 10),
+                ("Red Refractor", 5),
+                ("Platinum Toile Cream/Red Refractor", 5),
+                ("Red Lava Refractor", 5),
+                ("Red Vibration Refractor", 5),
+                ("SuperFractor", 1),
+            ],
+            "1955 World Series": [
+                ("Green Refractor", 99),
+                ("Gold Refractor", 50),
+                ("Orange Refractor", 25),
+                ("Black Refractor", 10),
+                ("Red Refractor", 5),
+                ("SuperFractor", 1),
+            ],
+            "1955 Topps Rails And Sails": [
+                ("Green Refractor", 99),
+                ("Gold Refractor", 50),
+                ("Orange Refractor", 25),
+                ("Black Refractor", 10),
+                ("Red Refractor", 5),
+                ("SuperFractor", 1),
+            ],
+            "1955 Topps Doubleheaders": [
+                ("Green Refractor", 99),
+                ("Gold Refractor", 50),
+                ("Orange Refractor", 25),
+                ("Black Refractor", 10),
+                ("Red Refractor", 5),
+                ("SuperFractor", 1),
+            ],
+            "1955 Cards That Never Were": [("SuperFractor", 1)],
+            "Base - City Variations": [("SuperFractor", 1)],
+            "Chrome Platinum Autographs": [
+                ("Refractor", 199),
+                ("Aqua Refractor", 150),
+                ("Blue Prism Refractor", 99),
+                ("Platinum Toile Cream/Blue Refractor", 99),
+                ("Green Mini-Diamond Refractor", 75),
+                ("Gold Refractor", 50),
+                ("Orange Refractor", 25),
+                ("Pink Refractor", 15),
+                ("Black Refractor", 10),
+                ("Platinum Toile Cream/Red Refractor", 5),
+                ("Red Refractor", 5),
+                ("SuperFractor", 1),
+            ],
+            "1955 Topps City Variations Autographs": [("SuperFractor", 1)],
+        },
+    },
+    "2025-26-topps-definitive-collection": {
+        "source_url": "https://baseballcardpedia.com/index.php/2025-26_Topps_Definitive_Collection#Checklist",
+        "sections": {
+            "Jumbo Relic Collection": [("Orange", 25), ("Pink", 15), ("Black", 10), ("Red", 5), ("Gold", 1)],
+            "Definitive Helmet Collection": [("Red", 5), ("MLB Logo Gold", 1), ("Rawlings Authentic Tag Gold", 1), ("Rawlings Logo Gold", 1), ("Player Number Gold", 1)],
+            "Protector At The Plate": [("Black", 10), ("Red", 5), ("Gold", 1)],
+            "Quad Patch Collection": [("Gold", 1)],
+            "Definitive Rookie Autographs": [("Orange", 25), ("Black", 10), ("Red", 5), ("Gold", 1)],
+            "Framed Autograph Collection": [("Black", 10), ("Red", 5), ("Gold", 1)],
+            "Legendary Autograph Collection": [("Black", 10), ("Red", 5), ("Gold", 1)],
+            "Defining Images Autographs": [("Black", 10), ("Red", 5), ("Gold", 1)],
+            "Dual Autographs": [("Black", 10), ("Red", 5), ("Gold", 1)],
+            "Definitive Triple Autographs": [("Black", 10), ("Red", 5), ("Gold", 1)],
+            "Definitive Quad Autographs": [("Gold", 1)],
+            "Dual World Series Autograph Collection": [("Black", 10), ("Red", 5), ("Gold", 1)],
+            "Base Autographed Relics": [("Orange", 25), ("Black", 10), ("Red", 5), ("Jersey Button Gold", 1), ("Laundry Tag Gold", 1), ("Brand Logo Gold", 1), ("MLB Logo Gold", 1)],
+            "Definitive Autographed Relics": [("Green", 10), ("Purple", 5), ("Red", 1)],
+            "Definitive Rookie Patch Autographs": [("Orange", 25), ("Black", 10), ("Red", 5), ("Gold", 1)],
+            "Definitive Autographed First Batting Gloves": [("Red", 5), ("Gold", 1)],
+            "Autographed Patch Booklets": [("Red", 1)],
+            "Framed Autograph Patches": [("Black", 10), ("Red", 5), ("Gold", 1)],
+            "Definitive Helmet Collection Autographs": [("Gold", 1)],
+            "Protectors At The Plate Autographed Relics": [("Red", 1)],
+            "Dual Autograph Relic Collection": [("Black", 10), ("Red", 5), ("Gold", 1)],
+        },
+    },
+    "2025-26-topps-transcendent": {
+        "source_url": "https://baseballcardpedia.com/index.php/2025-26_Topps_Transcendent#Checklist",
+        "sections": {
+            "Base": [("Orange Refractor", 25), ("Gold Refractor", 10), ("Red Refractor", 5), ("SuperFractor", 1)],
+            "Base Set - Image Variations": [("Orange Refractor", 25), ("Gold Refractor", 10), ("Red Refractor", 5), ("SuperFractor", 1)],
+            "Transcendent Collection Legendary Relic Cards": [("Platinum", 1)],
+            "Transcendent Icons Chrome Autograph": [("Blue", 10), ("Emerald", 5), ("Platinum", 1)],
+            "Transcendent Collection Rookie Showcase Autographs": [("Blue", 10), ("Emerald", 5), ("Platinum", 1)],
+            "MLB Logo Autograph Patch Card": [("Black Refractor", 10), ("Red Refractor", 5), ("SuperFractor", 1)],
+            "Transcendent Autograph Relic": [("Blue", 10), ("Emerald", 5), ("Platinum", 1)],
+            "Transcendent Collection Patch Autographs": [("Blue", 10), ("Emerald", 5), ("Platinum", 1)],
+            "Transcendent Collection Dual Patch Autograph Variation": [("Emerald", 5), ("Platinum", 1)],
+            "Transcendent Collection Rookie Showcase Patch Autographs": [("Platinum", 1)],
+            "Transcendent Collection Jumbo Patch Autographs": [("Platinum", 1)],
+            "Record Breaking Autograph Relic": [("MLB Logo Patch", 1)],
+            "Transcendent Collection World Series Relic Autograph": [("Blue", 10), ("Emerald", 5), ("Platinum", 1)],
+            "Transcendent Collection World Series Patch Autograph": [("Blue", 10), ("Emerald", 5), ("Platinum", 1)],
+            "Transcendent Collection World Series Logo Patch Autograph": [("Platinum", 1)],
+        },
+    },
+    "2026-bowman": {
+        "source_url": "https://baseballcardpedia.com/index.php/2026_Bowman#Insertion_Ratios",
+        "wiki_table": "https://baseballcardpedia.com/index.php?title=2026_Bowman&action=raw",
+        "default_base_subset": "Base",
+        "default_base_total": 100,
+        "default_base_skip_prefixes": ["Mega Chrome", "Rookie Red RC"],
+        "table_aliases": {
+            "Base Set": "Base",
+            "Prospects": "Base Prospects",
+            "Chrome Prospects": "Chrome Prospects",
+            "Etched in Glass": "Base - Etched In Glass Variations",
+            "Chrome Prospects Etched in Glass": "Chrome Prospects - Etched In Glass Variations",
+            "PackFractor": "Chrome Prospects Packfractor Variation",
+            "Red RC Icon": "Base - Red RC Variations",
+            "Scouts' Top 100": "Bowman Scouts Top 100",
+            "Sterling": "Bowman Sterling",
+            "Electric Sluggers": "Electric Sluggers",
+            "Under the Radar": "Under The Radar",
+            "Power Chords": "Power Chords",
+            "Chrome Rookie Autographs": "Chrome Rookie Autographs",
+            "Chrome Prospect Autographs": "Chrome Prospect Autographs",
+            "Chrome Prospect Gold Ink Autographs": "Chrome Prospect Gold Ink Autographs",
+            "Chrome Prospect PackFractor Autographs": "Chrome Prospect Packfractor Autographs",
+            "Sterling Autographs": "Bowman Sterling Autographs",
+            "Electric Sluggers Autographs": "Electric Sluggers Autographs",
+            "Under the Radar Autographs": "Under The Radar Autographs",
+            "Power Chords Autographs": "Power Chords Autographs",
+        },
+    },
+    "2026-topps-series-2": {
+        "source_url": "https://baseballcardpedia.com/index.php/2026_Topps#Insertion_Ratios",
+        "wiki_table": "https://baseballcardpedia.com/index.php?title=2026_Topps&action=raw",
+        "start_heading": "==Series Two==",
+        "end_heading": "=Checklist=",
+        "default_base_subset": "Base",
+        "default_base_total": 350,
+        "default_base_skip_prefixes": [
+            "Team Color Border",
+            "True Photo",
+            "Golden Mirror",
+            "Holiday",
+            "Vintage Stock",
+            "Clear",
+            "Apple Foil",
+            "1991",
+        ],
+        "table_aliases": {
+            "Base": "Base",
+            "Team Color Border Variation": "Team Color Border Variations",
+            "True Photo Variation": "True Photo Variations",
+            "Golden Mirror Variation": "Golden Mirror Variations",
+            "Holiday Variation": "Holiday Variations",
+            "Vintage Stock Variation": "Vintage Stock Variations",
+            "Clear Variation": "Clear Variation",
+            "Apple Foil Variation": "Apple Foil Variations",
+            "1991 Topps Baseball": "1991 Topps Baseball",
+            "1991 Topps Baseball Chrome": "1991 Topps Baseball Chrome",
+            "1991 Topps All-Stars": "1991 Topps All-Stars",
+            "1991 Topps Baseball Chrome All-Stars": "1991 Topps Baseball Chrome All-Stars",
+            "The Flagship Collection": "The Flagship Collection",
+            "The Flagship Collection Chrome": "The Flagship Collection - Chrome",
+            "Stars of MLB": "Stars Of MLB",
+            "All Aces": "All Aces",
+            "All Kings": "All Kings",
+            "Crooked Numbers": "Crooked Numbers",
+            "Glove Work": "Glove Work",
+            "Heavy Lumber": "Heavy Lumber",
+            "Home Field Advantage": "Home Field",
+            "Cover Athletes": "Cover Athletes",
+            "Titans of the Game": "Titans Of The Game",
+            "Swinging with the Stars": "Swinging With The Stars",
+            "Diamond Dust": "Diamond Dust",
+            "Topps Flagship Autograph Patches": "Topps Flagship Autograph Patches",
+            "Baseball Stars Autographs": "Baseball Stars Autographs",
+            "First Pitch Autographs": "First Pitch Autographs",
+            "1991 Topps Baseball Autographs": "1991 Topps Baseball Autographs",
+            "1991 Topps Baseball Chrome Autographs": "1991 Topps Baseball Chrome Autographs",
+            "1991 Topps Baseball All-Star Autographs": "1991 Topps Baseball All-Star Autographs",
+            "1991 Topps Baseball Chrome All-Star Autographs": "1991 Topps Baseball Chrome All-Star Autographs",
+            "Major League Materials Autographs": "Major League Materials Autographs",
+            "Major League Material": "Major League Material",
+            "City Connect Swatch Collection": "City Connect Swatch Collection",
+            "City Connect Swatches Autographs": "City Connect Swatches Autographs",
+            "Real One Relics": "Real One Relics",
+            "Rounding the Bases Relics": "Rounding The Bases Relics",
+            "Rounding the Bases Autographs": "Rounding The Bases Autographs",
+            "In the Name Relics": "In The Name Relics",
+        },
+    },
     "2026-topps-chrome-black": {
         "source_url": "https://baseballcardpedia.com/index.php/2026_Topps_Chrome_Black#Insertion_Ratios",
         "sections": {
@@ -135,6 +354,21 @@ def slugify(value):
 
 def normalize(value):
     return re.sub(r"[^a-z0-9]+", "", str(value).lower())
+
+
+def print_run_from_text(value):
+    value = str(value).strip().lower().replace(",", "")
+    if not value or value in {"-", "n/a", "?"}:
+        return None
+    if "one-of-one" in value or value == "1/1":
+        return 1
+    if "four for each" in value:
+        return 4
+    words = {"ten": 10, "fifteen": 15, "five": 5}
+    if value in words:
+        return words[value]
+    match = re.search(r"\d+", value)
+    return int(match.group(0)) if match else None
 
 
 def yaml_quote(value):
@@ -301,10 +535,72 @@ def expand_master_set(set_id, limit):
     return written
 
 
+def wiki_table_rows(plan):
+    text = requests.get(plan["wiki_table"], timeout=30).text
+    if plan.get("start_heading"):
+        start = text.find(plan["start_heading"])
+        if start != -1:
+            text = text[start:]
+    if plan.get("end_heading"):
+        end = text.find(plan["end_heading"])
+        if end != -1:
+            text = text[:end]
+    for line in text.splitlines():
+        if not line.startswith("|"):
+            continue
+        cells = [cell.strip() for cell in line.strip("|").split("||")]
+        if len(cells) < 3:
+            continue
+        label = re.sub(r"''+", "", cells[0]).strip()
+        label = re.sub(r"\[\[(?:[^|\]]+\|)?([^\]]+)\]\]", r"\1", label)
+        total = print_run_from_text(cells[1])
+        print_run = print_run_from_text(cells[2])
+        if not label or label.lower() == "cards":
+            continue
+        yield label, total, print_run
+
+
+def wiki_variants(plan):
+    aliases = sorted(plan["table_aliases"].items(), key=lambda item: len(normalize(item[0])), reverse=True)
+    variants = {}
+    for label, total, print_run in wiki_table_rows(plan):
+        normalized_label = normalize(label)
+        matched = False
+        for prefix, subset in aliases:
+            normalized_prefix = normalize(prefix)
+            if normalized_label == normalized_prefix:
+                matched = True
+                break
+            if normalized_label.startswith(normalized_prefix):
+                parallel = label[len(prefix) :].strip(" -")
+                if not parallel or normalize(parallel) in {"s", "base", "set", "autograph", "autographs", "relic", "relics"}:
+                    matched = True
+                    break
+                variants.setdefault(subset, [])
+                item = (parallel, print_run)
+                if item not in variants[subset]:
+                    variants[subset].append(item)
+                matched = True
+                break
+        if matched:
+            continue
+        if plan.get("default_base_subset") and total == plan.get("default_base_total"):
+            skip = any(normalized_label.startswith(normalize(prefix)) for prefix in plan.get("default_base_skip_prefixes", []))
+            if not skip and normalized_label not in {"base", "baseset"}:
+                variants.setdefault(plan["default_base_subset"], [])
+                item = (label, print_run)
+                if item not in variants[plan["default_base_subset"]]:
+                    variants[plan["default_base_subset"]].append(item)
+    return variants
+
+
 def expand_set(set_id, limit):
     plan = PARALLEL_PLANS[set_id]
     if "master_xlsx" in plan:
         return expand_master_set(set_id, limit)
+    if "wiki_table" in plan:
+        plan = dict(plan)
+        plan["sections"] = wiki_variants(plan)
     set_dir = DATA_DIR / set_id
     cards_dir = set_dir / "cards"
     written = 0
