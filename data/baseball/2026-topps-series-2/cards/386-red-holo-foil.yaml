@@ -1,0 +1,23 @@
+number: "386"
+uuid: "20d63c4e-1c17-4744-8130-138b35f19a7f"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-topps-series-2"
+subjects:
+  - name: "Luis Curvelo"
+    role: "Player"
+    team: "Texas Rangers"
+card_name: "Luis Curvelo - Base - Red Holo Foil"
+description: "Red Holo Foil parallel of Base card featuring Luis Curvelo."
+series: "2026 Topps Baseball"
+parallel: "Red Holo Foil"
+print_run: 5
+rookie_card: true
+autograph: false
+relic: false
+serial_numbered: true
+release_date: "2026-06-11"
+image_url: "https://example.com/cards/2026-topps-series-2/386-red-holo-foil.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Topps#Insertion_Ratios"

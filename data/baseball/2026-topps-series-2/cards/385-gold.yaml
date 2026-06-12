@@ -1,0 +1,23 @@
+number: "385"
+uuid: "a2fc9198-4f42-4b5b-a8c0-4c2fd0ef36df"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-topps-series-2"
+subjects:
+  - name: "Nick Raquet"
+    role: "Player"
+    team: "St. Louis Cardinals"
+card_name: "Nick Raquet - Base - Gold"
+description: "Gold parallel of Base card featuring Nick Raquet."
+series: "2026 Topps Baseball"
+parallel: "Gold"
+print_run: 2026
+rookie_card: true
+autograph: false
+relic: false
+serial_numbered: true
+release_date: "2026-06-11"
+image_url: "https://example.com/cards/2026-topps-series-2/385-gold.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Topps#Insertion_Ratios"

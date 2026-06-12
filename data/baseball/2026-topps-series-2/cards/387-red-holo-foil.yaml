@@ -1,0 +1,23 @@
+number: "387"
+uuid: "b345f162-fa07-43c9-8832-112bb4467b7b"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-topps-series-2"
+subjects:
+  - name: "Drew Sommers"
+    role: "Player"
+    team: "Detroit Tigers"
+card_name: "Drew Sommers - Base - Red Holo Foil"
+description: "Red Holo Foil parallel of Base card featuring Drew Sommers."
+series: "2026 Topps Baseball"
+parallel: "Red Holo Foil"
+print_run: 5
+rookie_card: true
+autograph: false
+relic: false
+serial_numbered: true
+release_date: "2026-06-11"
+image_url: "https://example.com/cards/2026-topps-series-2/387-red-holo-foil.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Topps#Insertion_Ratios"

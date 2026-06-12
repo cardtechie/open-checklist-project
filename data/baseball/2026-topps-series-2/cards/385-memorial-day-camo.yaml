@@ -1,0 +1,23 @@
+number: "385"
+uuid: "8821ebcc-20de-4e9b-96a0-2bf43d9efc48"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-topps-series-2"
+subjects:
+  - name: "Nick Raquet"
+    role: "Player"
+    team: "St. Louis Cardinals"
+card_name: "Nick Raquet - Base - Memorial Day Camo"
+description: "Memorial Day Camo parallel of Base card featuring Nick Raquet."
+series: "2026 Topps Baseball"
+parallel: "Memorial Day Camo"
+print_run: 25
+rookie_card: true
+autograph: false
+relic: false
+serial_numbered: true
+release_date: "2026-06-11"
+image_url: "https://example.com/cards/2026-topps-series-2/385-memorial-day-camo.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Topps#Insertion_Ratios"

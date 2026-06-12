@@ -1,0 +1,23 @@
+number: "385"
+uuid: "5c3877ac-7871-4f11-9164-9b5274ac7986"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-topps-series-2"
+subjects:
+  - name: "Nick Raquet"
+    role: "Player"
+    team: "St. Louis Cardinals"
+card_name: "Nick Raquet - Base - Independence Day"
+description: "Independence Day parallel of Base card featuring Nick Raquet."
+series: "2026 Topps Baseball"
+parallel: "Independence Day"
+print_run: 76
+rookie_card: true
+autograph: false
+relic: false
+serial_numbered: true
+release_date: "2026-06-11"
+image_url: "https://example.com/cards/2026-topps-series-2/385-independence-day.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Topps#Insertion_Ratios"

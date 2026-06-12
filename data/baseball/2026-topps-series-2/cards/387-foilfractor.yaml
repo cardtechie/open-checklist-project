@@ -1,0 +1,23 @@
+number: "387"
+uuid: "e4f6c460-3aff-40e6-87bf-21730091a92c"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-topps-series-2"
+subjects:
+  - name: "Drew Sommers"
+    role: "Player"
+    team: "Detroit Tigers"
+card_name: "Drew Sommers - Base - FoilFractor"
+description: "FoilFractor parallel of Base card featuring Drew Sommers."
+series: "2026 Topps Baseball"
+parallel: "FoilFractor"
+print_run: 1
+rookie_card: true
+autograph: false
+relic: false
+serial_numbered: true
+release_date: "2026-06-11"
+image_url: "https://example.com/cards/2026-topps-series-2/387-foilfractor.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Topps#Insertion_Ratios"

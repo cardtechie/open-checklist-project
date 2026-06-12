@@ -1,0 +1,22 @@
+number: "380"
+uuid: "79e86810-c10f-465d-bafc-3e2b29bf7d64"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-topps-series-2"
+subjects:
+  - name: "Framber Valdez"
+    role: "Player"
+    team: "Detroit Tigers"
+card_name: "Framber Valdez - Base - All-Star Game"
+description: "All-Star Game parallel of Base card featuring Framber Valdez."
+series: "2026 Topps Baseball"
+parallel: "All-Star Game"
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: false
+release_date: "2026-06-11"
+image_url: "https://example.com/cards/2026-topps-series-2/380-all-star-game.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Topps#Insertion_Ratios"

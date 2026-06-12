@@ -1,0 +1,23 @@
+number: "389"
+uuid: "9125bb05-957b-4ee2-8496-4be172bf60ff"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-topps-series-2"
+subjects:
+  - name: "Nick Allen"
+    role: "Player"
+    team: "Houston Astros"
+card_name: "Nick Allen - Base - Cherry Blossom"
+description: "Cherry Blossom parallel of Base card featuring Nick Allen."
+series: "2026 Topps Baseball"
+parallel: "Cherry Blossom"
+print_run: 99
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: true
+release_date: "2026-06-11"
+image_url: "https://example.com/cards/2026-topps-series-2/389-cherry-blossom.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Topps#Insertion_Ratios"

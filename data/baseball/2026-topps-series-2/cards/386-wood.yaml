@@ -1,0 +1,23 @@
+number: "386"
+uuid: "43e0a49a-d577-4f8e-9e82-38c7cb5c9d40"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-topps-series-2"
+subjects:
+  - name: "Luis Curvelo"
+    role: "Player"
+    team: "Texas Rangers"
+card_name: "Luis Curvelo - Base - Wood"
+description: "Wood parallel of Base card featuring Luis Curvelo."
+series: "2026 Topps Baseball"
+parallel: "Wood"
+print_run: 25
+rookie_card: true
+autograph: false
+relic: false
+serial_numbered: true
+release_date: "2026-06-11"
+image_url: "https://example.com/cards/2026-topps-series-2/386-wood.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Topps#Insertion_Ratios"

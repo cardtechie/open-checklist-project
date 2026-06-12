@@ -1,0 +1,23 @@
+number: "389"
+uuid: "5b611930-2725-4974-b27c-734cf76b71f0"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-topps-series-2"
+subjects:
+  - name: "Nick Allen"
+    role: "Player"
+    team: "Houston Astros"
+card_name: "Nick Allen - Base - All-Star Game Orange"
+description: "All-Star Game Orange parallel of Base card featuring Nick Allen."
+series: "2026 Topps Baseball"
+parallel: "All-Star Game Orange"
+print_run: 25
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: true
+release_date: "2026-06-11"
+image_url: "https://example.com/cards/2026-topps-series-2/389-all-star-game-orange.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Topps#Insertion_Ratios"
