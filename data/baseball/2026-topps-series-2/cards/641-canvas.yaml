@@ -1,0 +1,23 @@
+number: "641"
+uuid: "f7a2e49e-bf78-46e3-b291-b46555b0dc89"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-topps-series-2"
+subjects:
+  - name: "Slade Cecconi"
+    role: "Player"
+    team: "Cleveland Guardians"
+card_name: "Slade Cecconi - Base - Canvas"
+description: "Canvas parallel of Base card featuring Slade Cecconi."
+series: "2026 Topps Baseball"
+parallel: "Canvas"
+print_run: 50
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: true
+release_date: "2026-06-11"
+image_url: "https://example.com/cards/2026-topps-series-2/641-canvas.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Topps#Insertion_Ratios"

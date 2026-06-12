@@ -1,0 +1,23 @@
+number: "640"
+uuid: "b07a2aa4-1e96-4c51-80d7-f1e2b205a093"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-topps-series-2"
+subjects:
+  - name: "Atlanta Braves"
+    role: "Team"
+    team: "Atlanta Braves"
+card_name: "Atlanta Braves - Base - Yellow Holo Foil"
+description: "Yellow Holo Foil parallel of Base card featuring Atlanta Braves."
+series: "2026 Topps Baseball"
+parallel: "Yellow Holo Foil"
+print_run: 399
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: true
+release_date: "2026-06-11"
+image_url: "https://example.com/cards/2026-topps-series-2/640-yellow-holo-foil.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Topps#Insertion_Ratios"

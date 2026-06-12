@@ -1,0 +1,23 @@
+number: "640"
+uuid: "67daaaa0-b924-4073-8b0b-4d59be3435fe"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-topps-series-2"
+subjects:
+  - name: "Atlanta Braves"
+    role: "Team"
+    team: "Atlanta Braves"
+card_name: "Atlanta Braves - Base - Green Rainbow Foil"
+description: "Green Rainbow Foil parallel of Base card featuring Atlanta Braves."
+series: "2026 Topps Baseball"
+parallel: "Green Rainbow Foil"
+print_run: 99
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: true
+release_date: "2026-06-11"
+image_url: "https://example.com/cards/2026-topps-series-2/640-green-rainbow-foil.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Topps#Insertion_Ratios"
