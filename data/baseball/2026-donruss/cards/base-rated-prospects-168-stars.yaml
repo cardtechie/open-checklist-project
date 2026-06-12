@@ -1,0 +1,24 @@
+number: "168"
+uuid: "778b0a1f-3172-4c67-bf7c-e73cf504e231"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "Josuar Gonzalez"
+    role: "Player"
+    team: "San Francisco Giants"
+subset: "Base - Rated Prospects"
+card_name: "Josuar Gonzalez - Base - Rated Prospects - Stars"
+description: "Stars parallel of Base - Rated Prospects card featuring Josuar Gonzalez."
+series: "2026 Donruss"
+parallel: "Stars"
+print_run: 250
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: true
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/base-rated-prospects-168-stars.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Donruss#Checklist"
