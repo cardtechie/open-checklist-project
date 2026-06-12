@@ -1,0 +1,23 @@
+number: "70"
+uuid: "ecf3ec33-ab1c-4d08-9721-1149e8f8fa71"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-topps-chrome-black"
+subjects:
+  - name: "Dylan Beavers"
+    role: "Player"
+    team: "Baltimore Orioles"
+card_name: "Dylan Beavers - Base - Gold Refractor"
+description: "Gold Refractor parallel of Base card featuring Dylan Beavers."
+series: "2026 Topps Chrome Black"
+parallel: "Gold Refractor"
+print_run: 50
+rookie_card: true
+autograph: false
+relic: false
+serial_numbered: true
+release_date: "2026-04-29"
+image_url: "https://example.com/cards/2026-topps-chrome-black/70-gold-refractor.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Topps_Chrome_Black#Insertion_Ratios"

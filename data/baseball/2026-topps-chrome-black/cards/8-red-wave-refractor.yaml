@@ -1,0 +1,23 @@
+number: "8"
+uuid: "231dd010-1e5d-40e1-9dd9-8de8de1e88c2"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-topps-chrome-black"
+subjects:
+  - name: "Aaron Judge"
+    role: "Player"
+    team: "New York Yankees"
+card_name: "Aaron Judge - Base - Red Wave Refractor"
+description: "Red Wave Refractor parallel of Base card featuring Aaron Judge."
+series: "2026 Topps Chrome Black"
+parallel: "Red Wave Refractor"
+print_run: 5
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: true
+release_date: "2026-04-29"
+image_url: "https://example.com/cards/2026-topps-chrome-black/8-red-wave-refractor.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Topps_Chrome_Black#Insertion_Ratios"

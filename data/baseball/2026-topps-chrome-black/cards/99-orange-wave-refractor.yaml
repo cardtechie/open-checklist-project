@@ -1,0 +1,23 @@
+number: "99"
+uuid: "466e69af-5b81-47d0-9cf8-265c4b10cac2"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-topps-chrome-black"
+subjects:
+  - name: "Jimmy Crooks"
+    role: "Player"
+    team: "St. Louis Cardinals"
+card_name: "Jimmy Crooks - Base - Orange Wave Refractor"
+description: "Orange Wave Refractor parallel of Base card featuring Jimmy Crooks."
+series: "2026 Topps Chrome Black"
+parallel: "Orange Wave Refractor"
+print_run: 25
+rookie_card: true
+autograph: false
+relic: false
+serial_numbered: true
+release_date: "2026-04-29"
+image_url: "https://example.com/cards/2026-topps-chrome-black/99-orange-wave-refractor.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Topps_Chrome_Black#Insertion_Ratios"

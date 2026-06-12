@@ -1,0 +1,23 @@
+number: "78"
+uuid: "830c275f-2988-4294-88db-0c5ca3f645ea"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-topps-chrome-black"
+subjects:
+  - name: "Ryan Ritter"
+    role: "Player"
+    team: "Colorado Rockies"
+card_name: "Ryan Ritter - Base - Red Refractor"
+description: "Red Refractor parallel of Base card featuring Ryan Ritter."
+series: "2026 Topps Chrome Black"
+parallel: "Red Refractor"
+print_run: 5
+rookie_card: true
+autograph: false
+relic: false
+serial_numbered: true
+release_date: "2026-04-29"
+image_url: "https://example.com/cards/2026-topps-chrome-black/78-red-refractor.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Topps_Chrome_Black#Insertion_Ratios"

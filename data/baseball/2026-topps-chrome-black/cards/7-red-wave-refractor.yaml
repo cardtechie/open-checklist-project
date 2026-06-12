@@ -1,0 +1,23 @@
+number: "7"
+uuid: "70cce8f1-fd07-434c-98fd-026ce041bbec"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-topps-chrome-black"
+subjects:
+  - name: "Julio Rodríguez"
+    role: "Player"
+    team: "Seattle Mariners"
+card_name: "Julio Rodríguez - Base - Red Wave Refractor"
+description: "Red Wave Refractor parallel of Base card featuring Julio Rodríguez."
+series: "2026 Topps Chrome Black"
+parallel: "Red Wave Refractor"
+print_run: 5
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: true
+release_date: "2026-04-29"
+image_url: "https://example.com/cards/2026-topps-chrome-black/7-red-wave-refractor.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Topps_Chrome_Black#Insertion_Ratios"
