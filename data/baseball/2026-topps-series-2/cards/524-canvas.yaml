@@ -1,0 +1,23 @@
+number: "524"
+uuid: "134e54e9-0e55-4b6f-b1c8-cfac1fee4f97"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-topps-series-2"
+subjects:
+  - name: "Emmet Sheehan"
+    role: "Player"
+    team: "Los Angeles Dodgers"
+card_name: "Emmet Sheehan - Base - Canvas"
+description: "Canvas parallel of Base card featuring Emmet Sheehan."
+series: "2026 Topps Baseball"
+parallel: "Canvas"
+print_run: 50
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: true
+release_date: "2026-06-11"
+image_url: "https://example.com/cards/2026-topps-series-2/524-canvas.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Topps#Insertion_Ratios"

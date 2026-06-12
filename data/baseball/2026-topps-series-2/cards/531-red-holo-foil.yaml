@@ -1,0 +1,23 @@
+number: "531"
+uuid: "1efb1a23-2ae1-4154-b3e9-4913f51b0b7c"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-topps-series-2"
+subjects:
+  - name: "Alejandro Carrillo"
+    role: "Player"
+    team: "New York Mets"
+card_name: "Alejandro Carrillo - Base - Red Holo Foil"
+description: "Red Holo Foil parallel of Base card featuring Alejandro Carrillo."
+series: "2026 Topps Baseball"
+parallel: "Red Holo Foil"
+print_run: 5
+rookie_card: true
+autograph: false
+relic: false
+serial_numbered: true
+release_date: "2026-06-11"
+image_url: "https://example.com/cards/2026-topps-series-2/531-red-holo-foil.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Topps#Insertion_Ratios"

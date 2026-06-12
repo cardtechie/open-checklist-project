@@ -1,0 +1,23 @@
+number: "525"
+uuid: "185a3f6a-1e50-4882-9c4d-f8c17a3959f7"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-topps-series-2"
+subjects:
+  - name: "Seattle Mariners"
+    role: "Team"
+    team: "Seattle Mariners"
+card_name: "Seattle Mariners - Base - All-Star Game Gold"
+description: "All-Star Game Gold parallel of Base card featuring Seattle Mariners."
+series: "2026 Topps Baseball"
+parallel: "All-Star Game Gold"
+print_run: 50
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: true
+release_date: "2026-06-11"
+image_url: "https://example.com/cards/2026-topps-series-2/525-all-star-game-gold.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Topps#Insertion_Ratios"
