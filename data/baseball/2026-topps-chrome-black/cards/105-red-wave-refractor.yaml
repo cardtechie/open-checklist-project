@@ -1,0 +1,23 @@
+number: "105"
+uuid: "65b66a1c-3e61-4715-8c76-8ec1ac191326"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-topps-chrome-black"
+subjects:
+  - name: "Bryce Harper"
+    role: "Player"
+    team: "Philadelphia Phillies"
+card_name: "Bryce Harper - Base - Red Wave Refractor"
+description: "Red Wave Refractor parallel of Base card featuring Bryce Harper."
+series: "2026 Topps Chrome Black"
+parallel: "Red Wave Refractor"
+print_run: 5
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: true
+release_date: "2026-04-29"
+image_url: "https://example.com/cards/2026-topps-chrome-black/105-red-wave-refractor.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Topps_Chrome_Black#Insertion_Ratios"

@@ -1,0 +1,23 @@
+number: "104"
+uuid: "78b7ff0b-8067-4957-b4b9-ee5bd1fe0b48"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-topps-chrome-black"
+subjects:
+  - name: "Zack Wheeler"
+    role: "Player"
+    team: "Philadelphia Phillies"
+card_name: "Zack Wheeler - Base - Green Refractor"
+description: "Green Refractor parallel of Base card featuring Zack Wheeler."
+series: "2026 Topps Chrome Black"
+parallel: "Green Refractor"
+print_run: 99
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: true
+release_date: "2026-04-29"
+image_url: "https://example.com/cards/2026-topps-chrome-black/104-green-refractor.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Topps_Chrome_Black#Insertion_Ratios"
