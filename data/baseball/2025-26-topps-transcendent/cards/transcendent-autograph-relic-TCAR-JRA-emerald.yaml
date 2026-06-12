@@ -1,0 +1,24 @@
+number: "TCAR-JRA"
+uuid: "996ae111-9bdc-43bc-b682-cff990e97bcc"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2025-26-topps-transcendent"
+subjects:
+  - name: "José Ramírez"
+    role: "Player"
+    team: "Cleveland Guardians"
+subset: "Transcendent Autograph Relic"
+card_name: "José Ramírez - Transcendent Autograph Relic - Emerald"
+description: "Emerald parallel of Autographed Transcendent Autograph Relic card featuring José Ramírez."
+series: "Topps Transcendent"
+parallel: "Emerald"
+print_run: 5
+rookie_card: false
+autograph: true
+relic: true
+serial_numbered: true
+release_date: "2026-04-01"
+image_url: "https://example.com/cards/2025-26-topps-transcendent/transcendent-autograph-relic-TCAR-JRA-emerald.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2025-26_Topps_Transcendent#Checklist"

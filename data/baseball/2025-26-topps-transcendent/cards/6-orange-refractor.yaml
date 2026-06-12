@@ -1,0 +1,23 @@
+number: "6"
+uuid: "e47dcc84-dcca-4644-b75f-b3b7e762c198"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2025-26-topps-transcendent"
+subjects:
+  - name: "Mike Trout"
+    role: "Player"
+    team: "Angels"
+card_name: "Mike Trout - Base - Orange Refractor"
+description: "Orange Refractor parallel of Base card featuring Mike Trout."
+series: "Topps Transcendent"
+parallel: "Orange Refractor"
+print_run: 25
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: true
+release_date: "2026-04-01"
+image_url: "https://example.com/cards/2025-26-topps-transcendent/6-orange-refractor.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2025-26_Topps_Transcendent#Checklist"

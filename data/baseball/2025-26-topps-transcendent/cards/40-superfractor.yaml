@@ -1,0 +1,23 @@
+number: "40"
+uuid: "7934d9cd-7167-4cbb-b623-0c8f55f849f0"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2025-26-topps-transcendent"
+subjects:
+  - name: "Nolan Ryan"
+    role: "Player"
+    team: "California Angels"
+card_name: "Nolan Ryan - Base - SuperFractor"
+description: "SuperFractor parallel of Base card featuring Nolan Ryan."
+series: "Topps Transcendent"
+parallel: "SuperFractor"
+print_run: 1
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: true
+release_date: "2026-04-01"
+image_url: "https://example.com/cards/2025-26-topps-transcendent/40-superfractor.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2025-26_Topps_Transcendent#Checklist"

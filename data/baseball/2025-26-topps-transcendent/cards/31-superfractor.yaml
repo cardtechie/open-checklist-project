@@ -1,0 +1,23 @@
+number: "31"
+uuid: "20e253d8-ac04-4208-9fa9-b57903116f1f"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2025-26-topps-transcendent"
+subjects:
+  - name: "Hideki Matsui"
+    role: "Player"
+    team: "New York Yankees"
+card_name: "Hideki Matsui - Base - SuperFractor"
+description: "SuperFractor parallel of Base card featuring Hideki Matsui."
+series: "Topps Transcendent"
+parallel: "SuperFractor"
+print_run: 1
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: true
+release_date: "2026-04-01"
+image_url: "https://example.com/cards/2025-26-topps-transcendent/31-superfractor.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2025-26_Topps_Transcendent#Checklist"

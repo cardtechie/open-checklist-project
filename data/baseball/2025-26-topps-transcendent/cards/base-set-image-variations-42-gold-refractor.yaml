@@ -1,0 +1,25 @@
+number: "42"
+uuid: "2b3cb894-4bd9-4011-b954-4325c79366f6"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2025-26-topps-transcendent"
+subjects:
+  - name: "Mariano Rivera"
+    role: "Player"
+    team: "New York Yankees"
+subset: "Base Set - Image Variations"
+card_name: "Mariano Rivera - Base Set - Image Variations - Gold Refractor"
+description: "Gold Refractor parallel of Base Set - Image Variations card featuring Mariano Rivera."
+series: "Topps Transcendent"
+variation: "Image Variation"
+parallel: "Gold Refractor"
+print_run: 10
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: true
+release_date: "2026-04-01"
+image_url: "https://example.com/cards/2025-26-topps-transcendent/base-set-image-variations-42-gold-refractor.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2025-26_Topps_Transcendent#Checklist"

@@ -1,0 +1,24 @@
+number: "TCAR-KA"
+uuid: "b01edf76-c414-4cf9-9ce4-c9b86920c9fb"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2025-26-topps-transcendent"
+subjects:
+  - name: "Kevin Alcántara"
+    role: "Player"
+    team: "Chicago Cubs"
+subset: "Transcendent Autograph Relic"
+card_name: "Kevin Alcántara - Transcendent Autograph Relic - Emerald"
+description: "Emerald parallel of Autographed Transcendent Autograph Relic card featuring Kevin Alcántara."
+series: "Topps Transcendent"
+parallel: "Emerald"
+print_run: 5
+rookie_card: false
+autograph: true
+relic: true
+serial_numbered: true
+release_date: "2026-04-01"
+image_url: "https://example.com/cards/2025-26-topps-transcendent/transcendent-autograph-relic-TCAR-KA-emerald.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2025-26_Topps_Transcendent#Checklist"

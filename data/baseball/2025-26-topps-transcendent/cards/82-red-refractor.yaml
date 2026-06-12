@@ -1,0 +1,23 @@
+number: "82"
+uuid: "3616a9ab-67c2-47ae-b499-53cdf2f1de5f"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2025-26-topps-transcendent"
+subjects:
+  - name: "Edgar Quero"
+    role: "Player"
+    team: "Chicago White Sox"
+card_name: "Edgar Quero - Base - Red Refractor"
+description: "Red Refractor parallel of Base card featuring Edgar Quero."
+series: "Topps Transcendent"
+parallel: "Red Refractor"
+print_run: 5
+rookie_card: true
+autograph: false
+relic: false
+serial_numbered: true
+release_date: "2026-04-01"
+image_url: "https://example.com/cards/2025-26-topps-transcendent/82-red-refractor.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2025-26_Topps_Transcendent#Checklist"

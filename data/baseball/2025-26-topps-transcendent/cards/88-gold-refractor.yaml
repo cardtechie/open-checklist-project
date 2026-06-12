@@ -1,0 +1,23 @@
+number: "88"
+uuid: "3b448aac-9b50-43e3-80fe-65d0f5b27c61"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2025-26-topps-transcendent"
+subjects:
+  - name: "Rhett Lowder"
+    role: "Player"
+    team: "Cincinnati Reds"
+card_name: "Rhett Lowder - Base - Gold Refractor"
+description: "Gold Refractor parallel of Base card featuring Rhett Lowder."
+series: "Topps Transcendent"
+parallel: "Gold Refractor"
+print_run: 10
+rookie_card: true
+autograph: false
+relic: false
+serial_numbered: true
+release_date: "2026-04-01"
+image_url: "https://example.com/cards/2025-26-topps-transcendent/88-gold-refractor.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2025-26_Topps_Transcendent#Checklist"

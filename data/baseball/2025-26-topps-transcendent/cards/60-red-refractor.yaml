@@ -1,0 +1,23 @@
+number: "60"
+uuid: "b664528a-cdcb-4b9b-8433-c719fe0914d1"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2025-26-topps-transcendent"
+subjects:
+  - name: "Jackson Jobe"
+    role: "Player"
+    team: "Detroit Tigers"
+card_name: "Jackson Jobe - Base - Red Refractor"
+description: "Red Refractor parallel of Base card featuring Jackson Jobe."
+series: "Topps Transcendent"
+parallel: "Red Refractor"
+print_run: 5
+rookie_card: true
+autograph: false
+relic: false
+serial_numbered: true
+release_date: "2026-04-01"
+image_url: "https://example.com/cards/2025-26-topps-transcendent/60-red-refractor.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2025-26_Topps_Transcendent#Checklist"

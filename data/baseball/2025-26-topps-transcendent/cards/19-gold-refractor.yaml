@@ -1,0 +1,23 @@
+number: "19"
+uuid: "2354fdc4-ddbc-4e9d-bf32-ed42afa96d93"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2025-26-topps-transcendent"
+subjects:
+  - name: "Nolan Arenado"
+    role: "Player"
+    team: "St. Louis Cardinals"
+card_name: "Nolan Arenado - Base - Gold Refractor"
+description: "Gold Refractor parallel of Base card featuring Nolan Arenado."
+series: "Topps Transcendent"
+parallel: "Gold Refractor"
+print_run: 10
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: true
+release_date: "2026-04-01"
+image_url: "https://example.com/cards/2025-26-topps-transcendent/19-gold-refractor.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2025-26_Topps_Transcendent#Checklist"

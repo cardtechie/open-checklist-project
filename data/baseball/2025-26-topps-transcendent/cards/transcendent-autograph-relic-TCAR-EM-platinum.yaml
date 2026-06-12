@@ -1,0 +1,24 @@
+number: "TCAR-EM"
+uuid: "cf4e4a51-a5ff-47fe-b32d-7784bd7f70ff"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2025-26-topps-transcendent"
+subjects:
+  - name: "Eddie Murray"
+    role: "Player"
+    team: "New York Mets"
+subset: "Transcendent Autograph Relic"
+card_name: "Eddie Murray - Transcendent Autograph Relic - Platinum"
+description: "Platinum parallel of Autographed Transcendent Autograph Relic card featuring Eddie Murray."
+series: "Topps Transcendent"
+parallel: "Platinum"
+print_run: 1
+rookie_card: false
+autograph: true
+relic: true
+serial_numbered: true
+release_date: "2026-04-01"
+image_url: "https://example.com/cards/2025-26-topps-transcendent/transcendent-autograph-relic-TCAR-EM-platinum.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2025-26_Topps_Transcendent#Checklist"

@@ -1,0 +1,23 @@
+number: "89"
+uuid: "9390921c-25f9-4dcf-b3a0-21aada66a38e"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2025-26-topps-transcendent"
+subjects:
+  - name: "Ichiro"
+    role: "Player"
+    team: "Miami Marlins"
+card_name: "Ichiro - Base - SuperFractor"
+description: "SuperFractor parallel of Base card featuring Ichiro."
+series: "Topps Transcendent"
+parallel: "SuperFractor"
+print_run: 1
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: true
+release_date: "2026-04-01"
+image_url: "https://example.com/cards/2025-26-topps-transcendent/89-superfractor.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2025-26_Topps_Transcendent#Checklist"

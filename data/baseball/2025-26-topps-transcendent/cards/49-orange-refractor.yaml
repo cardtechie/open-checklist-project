@@ -1,0 +1,23 @@
+number: "49"
+uuid: "4ff5e650-7739-409c-a85b-b9323de03d81"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2025-26-topps-transcendent"
+subjects:
+  - name: "Manny Machado"
+    role: "Player"
+    team: "San Diego Padres"
+card_name: "Manny Machado - Base - Orange Refractor"
+description: "Orange Refractor parallel of Base card featuring Manny Machado."
+series: "Topps Transcendent"
+parallel: "Orange Refractor"
+print_run: 25
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: true
+release_date: "2026-04-01"
+image_url: "https://example.com/cards/2025-26-topps-transcendent/49-orange-refractor.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2025-26_Topps_Transcendent#Checklist"

@@ -1,0 +1,23 @@
+number: "35"
+uuid: "8dbbb004-c4c1-4dff-a1e0-7a9da8ad398e"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2025-26-topps-transcendent"
+subjects:
+  - name: "Chandler Simpson"
+    role: "Player"
+    team: "Tampa Bay Rays"
+card_name: "Chandler Simpson - Base - SuperFractor"
+description: "SuperFractor parallel of Base card featuring Chandler Simpson."
+series: "Topps Transcendent"
+parallel: "SuperFractor"
+print_run: 1
+rookie_card: true
+autograph: false
+relic: false
+serial_numbered: true
+release_date: "2026-04-01"
+image_url: "https://example.com/cards/2025-26-topps-transcendent/35-superfractor.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2025-26_Topps_Transcendent#Checklist"

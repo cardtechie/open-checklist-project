@@ -1,0 +1,23 @@
+number: "98"
+uuid: "c191c82a-b00d-4ebc-86c1-ca18d127991e"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2025-26-topps-transcendent"
+subjects:
+  - name: "Zac Veen"
+    role: "Player"
+    team: "Colorado Rockies"
+card_name: "Zac Veen - Base - Gold Refractor"
+description: "Gold Refractor parallel of Base card featuring Zac Veen."
+series: "Topps Transcendent"
+parallel: "Gold Refractor"
+print_run: 10
+rookie_card: true
+autograph: false
+relic: false
+serial_numbered: true
+release_date: "2026-04-01"
+image_url: "https://example.com/cards/2025-26-topps-transcendent/98-gold-refractor.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2025-26_Topps_Transcendent#Checklist"

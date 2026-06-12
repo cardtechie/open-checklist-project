@@ -1,0 +1,23 @@
+number: "13"
+uuid: "b0a48ed6-86bb-4f2d-bc61-adfa5549a3d0"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2025-26-topps-transcendent"
+subjects:
+  - name: "Rafael Devers"
+    role: "Player"
+    team: "San Francisco Giants"
+card_name: "Rafael Devers - Base - SuperFractor"
+description: "SuperFractor parallel of Base card featuring Rafael Devers."
+series: "Topps Transcendent"
+parallel: "SuperFractor"
+print_run: 1
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: true
+release_date: "2026-04-01"
+image_url: "https://example.com/cards/2025-26-topps-transcendent/13-superfractor.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2025-26_Topps_Transcendent#Checklist"

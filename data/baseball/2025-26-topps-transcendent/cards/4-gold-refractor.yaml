@@ -1,0 +1,23 @@
+number: "4"
+uuid: "16926983-95fb-4abe-ac20-6b175ab97a6c"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2025-26-topps-transcendent"
+subjects:
+  - name: "Bryce Harper"
+    role: "Player"
+    team: "Philadelphia Phillies"
+card_name: "Bryce Harper - Base - Gold Refractor"
+description: "Gold Refractor parallel of Base card featuring Bryce Harper."
+series: "Topps Transcendent"
+parallel: "Gold Refractor"
+print_run: 10
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: true
+release_date: "2026-04-01"
+image_url: "https://example.com/cards/2025-26-topps-transcendent/4-gold-refractor.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2025-26_Topps_Transcendent#Checklist"

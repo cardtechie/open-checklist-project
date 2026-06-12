@@ -1,0 +1,23 @@
+number: "13"
+uuid: "065b6018-e1f0-4004-909f-5e4e3879a571"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2025-26-topps-transcendent"
+subjects:
+  - name: "Rafael Devers"
+    role: "Player"
+    team: "San Francisco Giants"
+card_name: "Rafael Devers - Base - Red Refractor"
+description: "Red Refractor parallel of Base card featuring Rafael Devers."
+series: "Topps Transcendent"
+parallel: "Red Refractor"
+print_run: 5
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: true
+release_date: "2026-04-01"
+image_url: "https://example.com/cards/2025-26-topps-transcendent/13-red-refractor.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2025-26_Topps_Transcendent#Checklist"

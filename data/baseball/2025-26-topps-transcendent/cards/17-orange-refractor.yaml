@@ -1,0 +1,23 @@
+number: "17"
+uuid: "35d64e43-21c0-4671-8c61-381b7fb7a591"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2025-26-topps-transcendent"
+subjects:
+  - name: "Javier Báez"
+    role: "Player"
+    team: "Detroit Tigers"
+card_name: "Javier Báez - Base - Orange Refractor"
+description: "Orange Refractor parallel of Base card featuring Javier Báez."
+series: "Topps Transcendent"
+parallel: "Orange Refractor"
+print_run: 25
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: true
+release_date: "2026-04-01"
+image_url: "https://example.com/cards/2025-26-topps-transcendent/17-orange-refractor.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2025-26_Topps_Transcendent#Checklist"

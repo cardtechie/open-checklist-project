@@ -1,0 +1,23 @@
+number: "27"
+uuid: "be2e18ec-f038-4c78-915a-1a9e86516d64"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2025-26-topps-transcendent"
+subjects:
+  - name: "Corey Seager"
+    role: "Player"
+    team: "Texas Rangers"
+card_name: "Corey Seager - Base - SuperFractor"
+description: "SuperFractor parallel of Base card featuring Corey Seager."
+series: "Topps Transcendent"
+parallel: "SuperFractor"
+print_run: 1
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: true
+release_date: "2026-04-01"
+image_url: "https://example.com/cards/2025-26-topps-transcendent/27-superfractor.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2025-26_Topps_Transcendent#Checklist"

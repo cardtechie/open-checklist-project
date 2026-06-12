@@ -1,0 +1,23 @@
+number: "18"
+uuid: "1faacbb9-ac00-4c9e-bad6-757956ed95f1"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2025-26-topps-transcendent"
+subjects:
+  - name: "Alex Rodriguez"
+    role: "Player"
+    team: "Texas Rangers"
+card_name: "Alex Rodriguez - Base - Orange Refractor"
+description: "Orange Refractor parallel of Base card featuring Alex Rodriguez."
+series: "Topps Transcendent"
+parallel: "Orange Refractor"
+print_run: 25
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: true
+release_date: "2026-04-01"
+image_url: "https://example.com/cards/2025-26-topps-transcendent/18-orange-refractor.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2025-26_Topps_Transcendent#Checklist"

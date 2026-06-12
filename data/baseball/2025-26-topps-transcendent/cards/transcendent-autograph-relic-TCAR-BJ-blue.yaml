@@ -1,0 +1,24 @@
+number: "TCAR-BJ"
+uuid: "b6da2e6f-4fa1-4374-a5ee-65f0132f3fcf"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2025-26-topps-transcendent"
+subjects:
+  - name: "Bo Jackson"
+    role: "Player"
+    team: "Chicago White Sox"
+subset: "Transcendent Autograph Relic"
+card_name: "Bo Jackson - Transcendent Autograph Relic - Blue"
+description: "Blue parallel of Autographed Transcendent Autograph Relic card featuring Bo Jackson."
+series: "Topps Transcendent"
+parallel: "Blue"
+print_run: 10
+rookie_card: false
+autograph: true
+relic: true
+serial_numbered: true
+release_date: "2026-04-01"
+image_url: "https://example.com/cards/2025-26-topps-transcendent/transcendent-autograph-relic-TCAR-BJ-blue.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2025-26_Topps_Transcendent#Checklist"

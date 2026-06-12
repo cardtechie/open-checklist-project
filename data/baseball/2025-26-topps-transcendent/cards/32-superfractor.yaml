@@ -1,0 +1,23 @@
+number: "32"
+uuid: "9e285562-f846-4a8d-a9be-b9591c9d5396"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2025-26-topps-transcendent"
+subjects:
+  - name: "Mike Piazza"
+    role: "Player"
+    team: "New York Mets"
+card_name: "Mike Piazza - Base - SuperFractor"
+description: "SuperFractor parallel of Base card featuring Mike Piazza."
+series: "Topps Transcendent"
+parallel: "SuperFractor"
+print_run: 1
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: true
+release_date: "2026-04-01"
+image_url: "https://example.com/cards/2025-26-topps-transcendent/32-superfractor.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2025-26_Topps_Transcendent#Checklist"
