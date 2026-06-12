@@ -1,0 +1,23 @@
+number: "BCP-28"
+uuid: "b5b23d41-9ab2-4ae7-8bc3-dcbc061211a9"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-bowman"
+subjects:
+  - name: "Carlos Virahonda"
+    role: "Player"
+    team: "Arizona Diamondbacks"
+subset: "Chrome Prospects"
+card_name: "Carlos Virahonda - Chrome Prospects - Blue Refractor"
+description: "Blue Refractor parallel of Chrome Prospects card featuring Carlos Virahonda."
+series: "2026 Bowman"
+parallel: "Blue Refractor"
+print_run: 150
+rookie_card: false
+autograph: false
+serial_numbered: true
+release_date: "2026-05-13"
+image_url: "https://example.com/cards/2026-bowman/chrome-prospects-BCP-28-blue-refractor.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Bowman#Insertion_Ratios"

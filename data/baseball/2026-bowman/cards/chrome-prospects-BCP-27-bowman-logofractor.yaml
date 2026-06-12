@@ -1,0 +1,23 @@
+number: "BCP-27"
+uuid: "b873d966-c80b-4545-95c7-e89995201455"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-bowman"
+subjects:
+  - name: "Franklin Arias"
+    role: "Player"
+    team: "Boston Red Sox"
+subset: "Chrome Prospects"
+card_name: "Franklin Arias - Chrome Prospects - Bowman LogoFractor"
+description: "Bowman LogoFractor parallel of Chrome Prospects card featuring Franklin Arias."
+series: "2026 Bowman"
+parallel: "Bowman LogoFractor"
+print_run: 35
+rookie_card: false
+autograph: false
+serial_numbered: true
+release_date: "2026-05-13"
+image_url: "https://example.com/cards/2026-bowman/chrome-prospects-BCP-27-bowman-logofractor.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Bowman#Insertion_Ratios"

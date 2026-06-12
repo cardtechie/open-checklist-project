@@ -1,0 +1,23 @@
+number: "BCP-33"
+uuid: "45d6831b-fc39-4d30-9cfd-95eb692aa0e0"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-bowman"
+subjects:
+  - name: "Coy James"
+    role: "Player"
+    team: "Washington Nationals"
+subset: "Chrome Prospects"
+card_name: "Coy James - Chrome Prospects - Green Geometric Refractor"
+description: "Green Geometric Refractor parallel of Chrome Prospects card featuring Coy James."
+series: "2026 Bowman"
+parallel: "Green Geometric Refractor"
+print_run: 99
+rookie_card: false
+autograph: false
+serial_numbered: true
+release_date: "2026-05-13"
+image_url: "https://example.com/cards/2026-bowman/chrome-prospects-BCP-33-green-geometric-refractor.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Bowman#Insertion_Ratios"

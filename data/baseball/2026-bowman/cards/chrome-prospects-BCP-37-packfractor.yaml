@@ -1,0 +1,23 @@
+number: "BCP-37"
+uuid: "89d216e7-719e-422b-a33c-a0d2e91cabcf"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-bowman"
+subjects:
+  - name: "Gage Stanifer"
+    role: "Player"
+    team: "Toronto Blue Jays"
+subset: "Chrome Prospects"
+card_name: "Gage Stanifer - Chrome Prospects - PackFractor"
+description: "PackFractor parallel of Chrome Prospects card featuring Gage Stanifer."
+series: "2026 Bowman"
+parallel: "PackFractor"
+print_run: 89
+rookie_card: false
+autograph: false
+serial_numbered: true
+release_date: "2026-05-13"
+image_url: "https://example.com/cards/2026-bowman/chrome-prospects-BCP-37-packfractor.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Bowman#Insertion_Ratios"

@@ -1,0 +1,23 @@
+number: "BCP-3"
+uuid: "9c094654-c4f6-429f-b8c9-aaadf553ad79"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-bowman"
+subjects:
+  - name: "Yojancel Cabrera"
+    role: "Player"
+    team: "Los Angeles Angels"
+subset: "Chrome Prospects"
+card_name: "Yojancel Cabrera - Chrome Prospects - Green Grass Refractor"
+description: "Green Grass Refractor parallel of Chrome Prospects card featuring Yojancel Cabrera."
+series: "2026 Bowman"
+parallel: "Green Grass Refractor"
+print_run: 99
+rookie_card: false
+autograph: false
+serial_numbered: true
+release_date: "2026-05-13"
+image_url: "https://example.com/cards/2026-bowman/chrome-prospects-BCP-3-green-grass-refractor.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Bowman#Insertion_Ratios"

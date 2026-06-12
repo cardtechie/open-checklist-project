@@ -1,0 +1,23 @@
+number: "BCP-34"
+uuid: "226660fb-87e6-4c7c-b380-5d69575c3f66"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-bowman"
+subjects:
+  - name: "Cristopher Polanco"
+    role: "Player"
+    team: "Toronto Blue Jays"
+subset: "Chrome Prospects"
+card_name: "Cristopher Polanco - Chrome Prospects - Reptilian Red Refractor"
+description: "Reptilian Red Refractor parallel of Chrome Prospects card featuring Cristopher Polanco."
+series: "2026 Bowman"
+parallel: "Reptilian Red Refractor"
+print_run: 5
+rookie_card: false
+autograph: false
+serial_numbered: true
+release_date: "2026-05-13"
+image_url: "https://example.com/cards/2026-bowman/chrome-prospects-BCP-34-reptilian-red-refractor.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Bowman#Insertion_Ratios"

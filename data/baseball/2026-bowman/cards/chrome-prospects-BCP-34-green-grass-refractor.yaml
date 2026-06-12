@@ -1,0 +1,23 @@
+number: "BCP-34"
+uuid: "3d109102-a000-4264-8556-5f86bcd86cda"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-bowman"
+subjects:
+  - name: "Cristopher Polanco"
+    role: "Player"
+    team: "Toronto Blue Jays"
+subset: "Chrome Prospects"
+card_name: "Cristopher Polanco - Chrome Prospects - Green Grass Refractor"
+description: "Green Grass Refractor parallel of Chrome Prospects card featuring Cristopher Polanco."
+series: "2026 Bowman"
+parallel: "Green Grass Refractor"
+print_run: 99
+rookie_card: false
+autograph: false
+serial_numbered: true
+release_date: "2026-05-13"
+image_url: "https://example.com/cards/2026-bowman/chrome-prospects-BCP-34-green-grass-refractor.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Bowman#Insertion_Ratios"

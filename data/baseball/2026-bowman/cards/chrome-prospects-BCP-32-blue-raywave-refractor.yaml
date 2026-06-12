@@ -1,0 +1,23 @@
+number: "BCP-32"
+uuid: "c2c2c95e-40fa-4d83-a922-2ad455a6edbb"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-bowman"
+subjects:
+  - name: "Breyson Guedez"
+    role: "Player"
+    team: "Athletics"
+subset: "Chrome Prospects"
+card_name: "Breyson Guedez - Chrome Prospects - Blue RayWave Refractor"
+description: "Blue RayWave Refractor parallel of Chrome Prospects card featuring Breyson Guedez."
+series: "2026 Bowman"
+parallel: "Blue RayWave Refractor"
+print_run: 150
+rookie_card: false
+autograph: false
+serial_numbered: true
+release_date: "2026-05-13"
+image_url: "https://example.com/cards/2026-bowman/chrome-prospects-BCP-32-blue-raywave-refractor.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Bowman#Insertion_Ratios"

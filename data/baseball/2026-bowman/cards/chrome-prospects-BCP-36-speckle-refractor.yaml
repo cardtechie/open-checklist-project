@@ -1,0 +1,23 @@
+number: "BCP-36"
+uuid: "894f5d14-dd1e-435d-970d-2f52211798c7"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-bowman"
+subjects:
+  - name: "Moisés Chace"
+    role: "Player"
+    team: "Philadelphia Phillies"
+subset: "Chrome Prospects"
+card_name: "Moisés Chace - Chrome Prospects - Speckle Refractor"
+description: "Speckle Refractor parallel of Chrome Prospects card featuring Moisés Chace."
+series: "2026 Bowman"
+parallel: "Speckle Refractor"
+print_run: 299
+rookie_card: false
+autograph: false
+serial_numbered: true
+release_date: "2026-05-13"
+image_url: "https://example.com/cards/2026-bowman/chrome-prospects-BCP-36-speckle-refractor.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Bowman#Insertion_Ratios"

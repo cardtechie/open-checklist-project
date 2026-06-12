@@ -1,0 +1,23 @@
+number: "BCP-33"
+uuid: "3842451f-8a90-4e16-9049-da0db87ea184"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-bowman"
+subjects:
+  - name: "Coy James"
+    role: "Player"
+    team: "Washington Nationals"
+subset: "Chrome Prospects"
+card_name: "Coy James - Chrome Prospects - Aqua Shimmer Refractor"
+description: "Aqua Shimmer Refractor parallel of Chrome Prospects card featuring Coy James."
+series: "2026 Bowman"
+parallel: "Aqua Shimmer Refractor"
+print_run: 125
+rookie_card: false
+autograph: false
+serial_numbered: true
+release_date: "2026-05-13"
+image_url: "https://example.com/cards/2026-bowman/chrome-prospects-BCP-33-aqua-shimmer-refractor.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Bowman#Insertion_Ratios"

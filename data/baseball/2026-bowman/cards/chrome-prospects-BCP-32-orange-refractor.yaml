@@ -1,0 +1,23 @@
+number: "BCP-32"
+uuid: "3765b6c4-a6b7-4467-8b4f-ffeabdfca0e4"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-bowman"
+subjects:
+  - name: "Breyson Guedez"
+    role: "Player"
+    team: "Athletics"
+subset: "Chrome Prospects"
+card_name: "Breyson Guedez - Chrome Prospects - Orange Refractor"
+description: "Orange Refractor parallel of Chrome Prospects card featuring Breyson Guedez."
+series: "2026 Bowman"
+parallel: "Orange Refractor"
+print_run: 25
+rookie_card: false
+autograph: false
+serial_numbered: true
+release_date: "2026-05-13"
+image_url: "https://example.com/cards/2026-bowman/chrome-prospects-BCP-32-orange-refractor.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Bowman#Insertion_Ratios"

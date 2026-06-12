@@ -1,0 +1,23 @@
+number: "BCP-28"
+uuid: "3d5a370e-1465-4aa8-8c4b-aa8adb83033b"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-bowman"
+subjects:
+  - name: "Carlos Virahonda"
+    role: "Player"
+    team: "Arizona Diamondbacks"
+subset: "Chrome Prospects"
+card_name: "Carlos Virahonda - Chrome Prospects - Fuschia Refractor"
+description: "Fuschia Refractor parallel of Chrome Prospects card featuring Carlos Virahonda."
+series: "2026 Bowman"
+parallel: "Fuschia Refractor"
+print_run: 199
+rookie_card: false
+autograph: false
+serial_numbered: true
+release_date: "2026-05-13"
+image_url: "https://example.com/cards/2026-bowman/chrome-prospects-BCP-28-fuschia-refractor.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Bowman#Insertion_Ratios"

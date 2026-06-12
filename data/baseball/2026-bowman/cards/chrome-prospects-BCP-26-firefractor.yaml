@@ -1,0 +1,23 @@
+number: "BCP-26"
+uuid: "d33380d0-e08f-49a5-9b0e-59fd3ebfcdfb"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-bowman"
+subjects:
+  - name: "Sean Paul Liñan"
+    role: "Player"
+    team: "Washington Nationals"
+subset: "Chrome Prospects"
+card_name: "Sean Paul Liñan - Chrome Prospects - FireFractor"
+description: "FireFractor parallel of Chrome Prospects card featuring Sean Paul Liñan."
+series: "2026 Bowman"
+parallel: "FireFractor"
+print_run: 3
+rookie_card: false
+autograph: false
+serial_numbered: true
+release_date: "2026-05-13"
+image_url: "https://example.com/cards/2026-bowman/chrome-prospects-BCP-26-firefractor.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Bowman#Insertion_Ratios"

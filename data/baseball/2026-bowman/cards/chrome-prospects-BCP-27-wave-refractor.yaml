@@ -1,0 +1,23 @@
+number: "BCP-27"
+uuid: "b0fa1e25-6961-4df9-9dd1-5b6985ba13fa"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-bowman"
+subjects:
+  - name: "Franklin Arias"
+    role: "Player"
+    team: "Boston Red Sox"
+subset: "Chrome Prospects"
+card_name: "Franklin Arias - Chrome Prospects - Wave Refractor"
+description: "Wave Refractor parallel of Chrome Prospects card featuring Franklin Arias."
+series: "2026 Bowman"
+parallel: "Wave Refractor"
+print_run: 350
+rookie_card: false
+autograph: false
+serial_numbered: true
+release_date: "2026-05-13"
+image_url: "https://example.com/cards/2026-bowman/chrome-prospects-BCP-27-wave-refractor.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Bowman#Insertion_Ratios"

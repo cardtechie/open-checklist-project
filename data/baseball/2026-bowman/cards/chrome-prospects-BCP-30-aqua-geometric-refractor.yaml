@@ -1,0 +1,23 @@
+number: "BCP-30"
+uuid: "4cdc642d-f0b8-48da-9cbe-20c7565c9388"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-bowman"
+subjects:
+  - name: "Alimber Santa"
+    role: "Player"
+    team: "Houston Astros"
+subset: "Chrome Prospects"
+card_name: "Alimber Santa - Chrome Prospects - Aqua Geometric Refractor"
+description: "Aqua Geometric Refractor parallel of Chrome Prospects card featuring Alimber Santa."
+series: "2026 Bowman"
+parallel: "Aqua Geometric Refractor"
+print_run: 125
+rookie_card: false
+autograph: false
+serial_numbered: true
+release_date: "2026-05-13"
+image_url: "https://example.com/cards/2026-bowman/chrome-prospects-BCP-30-aqua-geometric-refractor.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Bowman#Insertion_Ratios"

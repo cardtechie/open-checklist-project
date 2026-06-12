@@ -1,0 +1,23 @@
+number: "BCP-4"
+uuid: "e0f46c1e-d94d-4f95-8658-ea0adc4a332f"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-bowman"
+subjects:
+  - name: "James Quinn-Irons"
+    role: "Player"
+    team: "Tampa Bay Rays"
+subset: "Chrome Prospects"
+card_name: "James Quinn-Irons - Chrome Prospects - Red Geometric Refractor"
+description: "Red Geometric Refractor parallel of Chrome Prospects card featuring James Quinn-Irons."
+series: "2026 Bowman"
+parallel: "Red Geometric Refractor"
+print_run: 5
+rookie_card: false
+autograph: false
+serial_numbered: true
+release_date: "2026-05-13"
+image_url: "https://example.com/cards/2026-bowman/chrome-prospects-BCP-4-red-geometric-refractor.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Bowman#Insertion_Ratios"

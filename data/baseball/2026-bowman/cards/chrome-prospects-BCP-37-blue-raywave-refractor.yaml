@@ -1,0 +1,23 @@
+number: "BCP-37"
+uuid: "e92b392e-e55a-4136-8b06-f25b9a8826f2"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-bowman"
+subjects:
+  - name: "Gage Stanifer"
+    role: "Player"
+    team: "Toronto Blue Jays"
+subset: "Chrome Prospects"
+card_name: "Gage Stanifer - Chrome Prospects - Blue RayWave Refractor"
+description: "Blue RayWave Refractor parallel of Chrome Prospects card featuring Gage Stanifer."
+series: "2026 Bowman"
+parallel: "Blue RayWave Refractor"
+print_run: 150
+rookie_card: false
+autograph: false
+serial_numbered: true
+release_date: "2026-05-13"
+image_url: "https://example.com/cards/2026-bowman/chrome-prospects-BCP-37-blue-raywave-refractor.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Bowman#Insertion_Ratios"

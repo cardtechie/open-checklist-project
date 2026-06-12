@@ -1,0 +1,23 @@
+number: "BCP-34"
+uuid: "f740a1f9-8aa4-475e-8b0b-8c2fb09e98e7"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-bowman"
+subjects:
+  - name: "Cristopher Polanco"
+    role: "Player"
+    team: "Toronto Blue Jays"
+subset: "Chrome Prospects"
+card_name: "Cristopher Polanco - Chrome Prospects - Rose Gold X-Fractor"
+description: "Rose Gold X-Fractor parallel of Chrome Prospects card featuring Cristopher Polanco."
+series: "2026 Bowman"
+parallel: "Rose Gold X-Fractor"
+print_run: 15
+rookie_card: false
+autograph: false
+serial_numbered: true
+release_date: "2026-05-13"
+image_url: "https://example.com/cards/2026-bowman/chrome-prospects-BCP-34-rose-gold-x-fractor.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Bowman#Insertion_Ratios"

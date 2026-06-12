@@ -1,0 +1,23 @@
+number: "BCP-32"
+uuid: "e29ee851-c148-4ba6-8fa5-aa1a21ff374d"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-bowman"
+subjects:
+  - name: "Breyson Guedez"
+    role: "Player"
+    team: "Athletics"
+subset: "Chrome Prospects"
+card_name: "Breyson Guedez - Chrome Prospects - Fuschia Refractor"
+description: "Fuschia Refractor parallel of Chrome Prospects card featuring Breyson Guedez."
+series: "2026 Bowman"
+parallel: "Fuschia Refractor"
+print_run: 199
+rookie_card: false
+autograph: false
+serial_numbered: true
+release_date: "2026-05-13"
+image_url: "https://example.com/cards/2026-bowman/chrome-prospects-BCP-32-fuschia-refractor.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Bowman#Insertion_Ratios"

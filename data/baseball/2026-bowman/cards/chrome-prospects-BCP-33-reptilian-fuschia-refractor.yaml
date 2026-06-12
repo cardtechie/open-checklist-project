@@ -1,0 +1,23 @@
+number: "BCP-33"
+uuid: "0a0c9ce9-ca99-4dc3-9c90-337fde6e4deb"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-bowman"
+subjects:
+  - name: "Coy James"
+    role: "Player"
+    team: "Washington Nationals"
+subset: "Chrome Prospects"
+card_name: "Coy James - Chrome Prospects - Reptilian Fuschia Refractor"
+description: "Reptilian Fuschia Refractor parallel of Chrome Prospects card featuring Coy James."
+series: "2026 Bowman"
+parallel: "Reptilian Fuschia Refractor"
+print_run: 199
+rookie_card: false
+autograph: false
+serial_numbered: true
+release_date: "2026-05-13"
+image_url: "https://example.com/cards/2026-bowman/chrome-prospects-BCP-33-reptilian-fuschia-refractor.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Bowman#Insertion_Ratios"

@@ -1,0 +1,23 @@
+number: "BCP-39"
+uuid: "d0e00b5c-71e7-4a97-b4e0-f2644cd9f2fe"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-bowman"
+subjects:
+  - name: "Ryan Waldschmidt"
+    role: "Player"
+    team: "Arizona Diamondbacks"
+subset: "Chrome Prospects"
+card_name: "Ryan Waldschmidt - Chrome Prospects - Purple RayWave Refractor"
+description: "Purple RayWave Refractor parallel of Chrome Prospects card featuring Ryan Waldschmidt."
+series: "2026 Bowman"
+parallel: "Purple RayWave Refractor"
+print_run: 250
+rookie_card: false
+autograph: false
+serial_numbered: true
+release_date: "2026-05-13"
+image_url: "https://example.com/cards/2026-bowman/chrome-prospects-BCP-39-purple-raywave-refractor.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Bowman#Insertion_Ratios"

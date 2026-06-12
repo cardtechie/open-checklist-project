@@ -1,0 +1,23 @@
+number: "BCP-36"
+uuid: "fe74415d-a372-4bf4-9f65-aee70632e806"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-bowman"
+subjects:
+  - name: "Moisés Chace"
+    role: "Player"
+    team: "Philadelphia Phillies"
+subset: "Chrome Prospects"
+card_name: "Moisés Chace - Chrome Prospects - Yellow Wave Refractor"
+description: "Yellow Wave Refractor parallel of Chrome Prospects card featuring Moisés Chace."
+series: "2026 Bowman"
+parallel: "Yellow Wave Refractor"
+print_run: 75
+rookie_card: false
+autograph: false
+serial_numbered: true
+release_date: "2026-05-13"
+image_url: "https://example.com/cards/2026-bowman/chrome-prospects-BCP-36-yellow-wave-refractor.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Bowman#Insertion_Ratios"

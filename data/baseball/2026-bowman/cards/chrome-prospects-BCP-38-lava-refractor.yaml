@@ -1,0 +1,23 @@
+number: "BCP-38"
+uuid: "d5d03e22-ac9c-4f5e-910c-69d13083f950"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-bowman"
+subjects:
+  - name: "Luis Cova"
+    role: "Player"
+    team: "Miami Marlins"
+subset: "Chrome Prospects"
+card_name: "Luis Cova - Chrome Prospects - Lava Refractor"
+description: "Lava Refractor parallel of Chrome Prospects card featuring Luis Cova."
+series: "2026 Bowman"
+parallel: "Lava Refractor"
+print_run: 399
+rookie_card: false
+autograph: false
+serial_numbered: true
+release_date: "2026-05-13"
+image_url: "https://example.com/cards/2026-bowman/chrome-prospects-BCP-38-lava-refractor.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Bowman#Insertion_Ratios"

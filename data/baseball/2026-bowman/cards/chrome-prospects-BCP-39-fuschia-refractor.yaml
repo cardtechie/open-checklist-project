@@ -1,0 +1,23 @@
+number: "BCP-39"
+uuid: "e0786acf-9f62-42d4-ac1f-3747290c01fd"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-bowman"
+subjects:
+  - name: "Ryan Waldschmidt"
+    role: "Player"
+    team: "Arizona Diamondbacks"
+subset: "Chrome Prospects"
+card_name: "Ryan Waldschmidt - Chrome Prospects - Fuschia Refractor"
+description: "Fuschia Refractor parallel of Chrome Prospects card featuring Ryan Waldschmidt."
+series: "2026 Bowman"
+parallel: "Fuschia Refractor"
+print_run: 199
+rookie_card: false
+autograph: false
+serial_numbered: true
+release_date: "2026-05-13"
+image_url: "https://example.com/cards/2026-bowman/chrome-prospects-BCP-39-fuschia-refractor.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Bowman#Insertion_Ratios"

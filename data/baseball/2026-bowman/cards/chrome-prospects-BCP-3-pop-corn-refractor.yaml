@@ -1,0 +1,22 @@
+number: "BCP-3"
+uuid: "df6567d3-8e42-47e4-b1f2-eb8a21577156"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-bowman"
+subjects:
+  - name: "Yojancel Cabrera"
+    role: "Player"
+    team: "Los Angeles Angels"
+subset: "Chrome Prospects"
+card_name: "Yojancel Cabrera - Chrome Prospects - Pop Corn Refractor"
+description: "Pop Corn Refractor parallel of Chrome Prospects card featuring Yojancel Cabrera."
+series: "2026 Bowman"
+parallel: "Pop Corn Refractor"
+rookie_card: false
+autograph: false
+serial_numbered: false
+release_date: "2026-05-13"
+image_url: "https://example.com/cards/2026-bowman/chrome-prospects-BCP-3-pop-corn-refractor.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Bowman#Insertion_Ratios"

@@ -1,0 +1,23 @@
+number: "BCP-30"
+uuid: "1a5ac6e9-419e-42ff-9ccf-45773be5b9a1"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-bowman"
+subjects:
+  - name: "Alimber Santa"
+    role: "Player"
+    team: "Houston Astros"
+subset: "Chrome Prospects"
+card_name: "Alimber Santa - Chrome Prospects - Orange Shimmer Refractor"
+description: "Orange Shimmer Refractor parallel of Chrome Prospects card featuring Alimber Santa."
+series: "2026 Bowman"
+parallel: "Orange Shimmer Refractor"
+print_run: 25
+rookie_card: false
+autograph: false
+serial_numbered: true
+release_date: "2026-05-13"
+image_url: "https://example.com/cards/2026-bowman/chrome-prospects-BCP-30-orange-shimmer-refractor.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Bowman#Insertion_Ratios"

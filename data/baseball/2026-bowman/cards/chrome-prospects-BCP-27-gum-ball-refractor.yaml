@@ -1,0 +1,22 @@
+number: "BCP-27"
+uuid: "424376c6-dd83-42bd-8d93-3e8e34813d7c"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-bowman"
+subjects:
+  - name: "Franklin Arias"
+    role: "Player"
+    team: "Boston Red Sox"
+subset: "Chrome Prospects"
+card_name: "Franklin Arias - Chrome Prospects - Gum Ball Refractor"
+description: "Gum Ball Refractor parallel of Chrome Prospects card featuring Franklin Arias."
+series: "2026 Bowman"
+parallel: "Gum Ball Refractor"
+rookie_card: false
+autograph: false
+serial_numbered: false
+release_date: "2026-05-13"
+image_url: "https://example.com/cards/2026-bowman/chrome-prospects-BCP-27-gum-ball-refractor.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Bowman#Insertion_Ratios"
