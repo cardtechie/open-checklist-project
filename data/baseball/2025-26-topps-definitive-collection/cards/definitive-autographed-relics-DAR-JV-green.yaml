@@ -1,0 +1,24 @@
+number: "DAR-JV"
+uuid: "8d7c6d89-eb8c-4d4f-ac05-f2e2bbaa3937"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2025-26-topps-definitive-collection"
+subjects:
+  - name: "Joey Votto"
+    role: "Player"
+    team: "Cincinnati Reds"
+subset: "Definitive Autographed Relics"
+card_name: "Joey Votto - Definitive Autographed Relics - Green"
+description: "Green parallel of Autographed Definitive Autographed Relics card featuring Joey Votto."
+series: "Topps Definitive Collection"
+parallel: "Green"
+print_run: 10
+rookie_card: false
+autograph: true
+relic: true
+serial_numbered: true
+release_date: "2026-04-29"
+image_url: "https://example.com/cards/2025-26-topps-definitive-collection/definitive-autographed-relics-DAR-JV-green.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2025-26_Topps_Definitive_Collection#Checklist"

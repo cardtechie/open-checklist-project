@@ -1,0 +1,24 @@
+number: "DAR-OS"
+uuid: "95089638-5758-419f-9a16-8aaa4853ae8b"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2025-26-topps-definitive-collection"
+subjects:
+  - name: "Ozzie Smith"
+    role: "Player"
+    team: "St. Louis Cardinals"
+subset: "Definitive Autographed Relics"
+card_name: "Ozzie Smith - Definitive Autographed Relics - Green"
+description: "Green parallel of Autographed Definitive Autographed Relics card featuring Ozzie Smith."
+series: "Topps Definitive Collection"
+parallel: "Green"
+print_run: 10
+rookie_card: false
+autograph: true
+relic: true
+serial_numbered: true
+release_date: "2026-04-29"
+image_url: "https://example.com/cards/2025-26-topps-definitive-collection/definitive-autographed-relics-DAR-OS-green.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2025-26_Topps_Definitive_Collection#Checklist"

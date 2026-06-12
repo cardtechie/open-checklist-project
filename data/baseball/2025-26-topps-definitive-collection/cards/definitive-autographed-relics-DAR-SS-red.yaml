@@ -1,0 +1,24 @@
+number: "DAR-SS"
+uuid: "a6845f9a-1826-49a1-b716-f22f2f5f892b"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2025-26-topps-definitive-collection"
+subjects:
+  - name: "Sammy Sosa"
+    role: "Player"
+    team: "Chicago Cubs"
+subset: "Definitive Autographed Relics"
+card_name: "Sammy Sosa - Definitive Autographed Relics - Red"
+description: "Red parallel of Autographed Definitive Autographed Relics card featuring Sammy Sosa."
+series: "Topps Definitive Collection"
+parallel: "Red"
+print_run: 1
+rookie_card: false
+autograph: true
+relic: true
+serial_numbered: true
+release_date: "2026-04-29"
+image_url: "https://example.com/cards/2025-26-topps-definitive-collection/definitive-autographed-relics-DAR-SS-red.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2025-26_Topps_Definitive_Collection#Checklist"

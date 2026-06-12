@@ -1,0 +1,24 @@
+number: "DAR-HM"
+uuid: "312879c0-aa69-4c84-b82c-9704e4c1bed9"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2025-26-topps-definitive-collection"
+subjects:
+  - name: "Hideki Matsui"
+    role: "Player"
+    team: "New York Yankees"
+subset: "Definitive Autographed Relics"
+card_name: "Hideki Matsui - Definitive Autographed Relics - Purple"
+description: "Purple parallel of Autographed Definitive Autographed Relics card featuring Hideki Matsui."
+series: "Topps Definitive Collection"
+parallel: "Purple"
+print_run: 5
+rookie_card: false
+autograph: true
+relic: true
+serial_numbered: true
+release_date: "2026-04-29"
+image_url: "https://example.com/cards/2025-26-topps-definitive-collection/definitive-autographed-relics-DAR-HM-purple.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2025-26_Topps_Definitive_Collection#Checklist"

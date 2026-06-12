@@ -1,0 +1,24 @@
+number: "DIAC-JS"
+uuid: "ebe1de09-9386-4c2b-b874-5d95c6e2826b"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2025-26-topps-definitive-collection"
+subjects:
+  - name: "Juan Soto"
+    role: "Player"
+    team: "New York Mets"
+subset: "Defining Images Autographs"
+card_name: "Juan Soto - Defining Images Autographs - Red"
+description: "Red parallel of Autographed Defining Images Autographs card featuring Juan Soto."
+series: "Topps Definitive Collection"
+parallel: "Red"
+print_run: 5
+rookie_card: false
+autograph: true
+relic: false
+serial_numbered: true
+release_date: "2026-04-29"
+image_url: "https://example.com/cards/2025-26-topps-definitive-collection/defining-images-autographs-DIAC-JS-red.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2025-26_Topps_Definitive_Collection#Checklist"

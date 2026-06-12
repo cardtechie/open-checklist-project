@@ -1,0 +1,24 @@
+number: "DAR-SO"
+uuid: "b5b98a45-3964-481f-9942-5670d0b8a6a3"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2025-26-topps-definitive-collection"
+subjects:
+  - name: "Shohei Ohtani"
+    role: "Player"
+    team: "Los Angeles Dodgers"
+subset: "Definitive Autographed Relics"
+card_name: "Shohei Ohtani - Definitive Autographed Relics - Green"
+description: "Green parallel of Autographed Definitive Autographed Relics card featuring Shohei Ohtani."
+series: "Topps Definitive Collection"
+parallel: "Green"
+print_run: 10
+rookie_card: false
+autograph: true
+relic: true
+serial_numbered: true
+release_date: "2026-04-29"
+image_url: "https://example.com/cards/2025-26-topps-definitive-collection/definitive-autographed-relics-DAR-SO-green.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2025-26_Topps_Definitive_Collection#Checklist"

@@ -1,0 +1,24 @@
+number: "DAR-DW"
+uuid: "d9a9a6db-b3b4-4779-a025-596eb4e7435b"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2025-26-topps-definitive-collection"
+subjects:
+  - name: "Dave Winfield"
+    role: "Player"
+    team: "Minnesota Twins"
+subset: "Definitive Autographed Relics"
+card_name: "Dave Winfield - Definitive Autographed Relics - Red"
+description: "Red parallel of Autographed Definitive Autographed Relics card featuring Dave Winfield."
+series: "Topps Definitive Collection"
+parallel: "Red"
+print_run: 1
+rookie_card: false
+autograph: true
+relic: true
+serial_numbered: true
+release_date: "2026-04-29"
+image_url: "https://example.com/cards/2025-26-topps-definitive-collection/definitive-autographed-relics-DAR-DW-red.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2025-26_Topps_Definitive_Collection#Checklist"

@@ -1,0 +1,24 @@
+number: "ARC-MY"
+uuid: "5c33c99f-17d1-459d-bf23-6b40d54a1d47"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2025-26-topps-definitive-collection"
+subjects:
+  - name: "Masataka Yoshida"
+    role: "Player"
+    team: "Boston Red Sox"
+subset: "Base Autographed Relics"
+card_name: "Masataka Yoshida - Base Autographed Relics - Orange"
+description: "Orange parallel of Autographed Base Autographed Relics card featuring Masataka Yoshida."
+series: "Topps Definitive Collection"
+parallel: "Orange"
+print_run: 25
+rookie_card: false
+autograph: true
+relic: true
+serial_numbered: true
+release_date: "2026-04-29"
+image_url: "https://example.com/cards/2025-26-topps-definitive-collection/base-autographed-relics-ARC-MY-orange.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2025-26_Topps_Definitive_Collection#Checklist"

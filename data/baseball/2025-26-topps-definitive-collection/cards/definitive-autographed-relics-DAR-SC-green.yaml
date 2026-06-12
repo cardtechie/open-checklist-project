@@ -1,0 +1,24 @@
+number: "DAR-SC"
+uuid: "27c2499d-b5a1-49f9-b528-aa9760029011"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2025-26-topps-definitive-collection"
+subjects:
+  - name: "Steve Carlton"
+    role: "Player"
+    team: "Philadelphia Phillies"
+subset: "Definitive Autographed Relics"
+card_name: "Steve Carlton - Definitive Autographed Relics - Green"
+description: "Green parallel of Autographed Definitive Autographed Relics card featuring Steve Carlton."
+series: "Topps Definitive Collection"
+parallel: "Green"
+print_run: 10
+rookie_card: false
+autograph: true
+relic: true
+serial_numbered: true
+release_date: "2026-04-29"
+image_url: "https://example.com/cards/2025-26-topps-definitive-collection/definitive-autographed-relics-DAR-SC-green.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2025-26_Topps_Definitive_Collection#Checklist"

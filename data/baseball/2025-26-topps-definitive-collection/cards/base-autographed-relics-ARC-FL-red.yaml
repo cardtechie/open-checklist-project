@@ -1,0 +1,24 @@
+number: "ARC-FL"
+uuid: "24ea0629-2b7e-4da0-bfd9-bdef3746f6f7"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2025-26-topps-definitive-collection"
+subjects:
+  - name: "Francisco Lindor"
+    role: "Player"
+    team: "New York Mets"
+subset: "Base Autographed Relics"
+card_name: "Francisco Lindor - Base Autographed Relics - Red"
+description: "Red parallel of Autographed Base Autographed Relics card featuring Francisco Lindor."
+series: "Topps Definitive Collection"
+parallel: "Red"
+print_run: 5
+rookie_card: false
+autograph: true
+relic: true
+serial_numbered: true
+release_date: "2026-04-29"
+image_url: "https://example.com/cards/2025-26-topps-definitive-collection/base-autographed-relics-ARC-FL-red.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2025-26_Topps_Definitive_Collection#Checklist"

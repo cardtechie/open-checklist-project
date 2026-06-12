@@ -1,0 +1,24 @@
+number: "DAR-DG"
+uuid: "d38545cb-59b8-4d69-96c1-92eccbb8f9ab"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2025-26-topps-definitive-collection"
+subjects:
+  - name: "Dwight Gooden"
+    role: "Player"
+    team: "New York Yankees"
+subset: "Definitive Autographed Relics"
+card_name: "Dwight Gooden - Definitive Autographed Relics - Purple"
+description: "Purple parallel of Autographed Definitive Autographed Relics card featuring Dwight Gooden."
+series: "Topps Definitive Collection"
+parallel: "Purple"
+print_run: 5
+rookie_card: false
+autograph: true
+relic: true
+serial_numbered: true
+release_date: "2026-04-29"
+image_url: "https://example.com/cards/2025-26-topps-definitive-collection/definitive-autographed-relics-DAR-DG-purple.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2025-26_Topps_Definitive_Collection#Checklist"

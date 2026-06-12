@@ -1,0 +1,24 @@
+number: "DAR-I"
+uuid: "94761d0e-e846-409b-b789-6f97ef90cdaf"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2025-26-topps-definitive-collection"
+subjects:
+  - name: "Ichiro"
+    role: "Player"
+    team: "Miami Marlins"
+subset: "Definitive Autographed Relics"
+card_name: "Ichiro - Definitive Autographed Relics - Green"
+description: "Green parallel of Autographed Definitive Autographed Relics card featuring Ichiro."
+series: "Topps Definitive Collection"
+parallel: "Green"
+print_run: 10
+rookie_card: false
+autograph: true
+relic: true
+serial_numbered: true
+release_date: "2026-04-29"
+image_url: "https://example.com/cards/2025-26-topps-definitive-collection/definitive-autographed-relics-DAR-I-green.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2025-26_Topps_Definitive_Collection#Checklist"

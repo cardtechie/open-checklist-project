@@ -1,0 +1,24 @@
+number: "DAR-RC"
+uuid: "1f3a9a07-6495-4b69-89b0-ad34469df74c"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2025-26-topps-definitive-collection"
+subjects:
+  - name: "Roger Clemens"
+    role: "Player"
+    team: "New York Yankees"
+subset: "Definitive Autographed Relics"
+card_name: "Roger Clemens - Definitive Autographed Relics - Purple"
+description: "Purple parallel of Autographed Definitive Autographed Relics card featuring Roger Clemens."
+series: "Topps Definitive Collection"
+parallel: "Purple"
+print_run: 5
+rookie_card: false
+autograph: true
+relic: true
+serial_numbered: true
+release_date: "2026-04-29"
+image_url: "https://example.com/cards/2025-26-topps-definitive-collection/definitive-autographed-relics-DAR-RC-purple.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2025-26_Topps_Definitive_Collection#Checklist"

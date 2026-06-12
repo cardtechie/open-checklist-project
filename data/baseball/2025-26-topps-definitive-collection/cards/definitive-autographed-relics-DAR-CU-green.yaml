@@ -1,0 +1,24 @@
+number: "DAR-CU"
+uuid: "1ba51850-f3e6-4d69-b3a1-f3b0b51968df"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2025-26-topps-definitive-collection"
+subjects:
+  - name: "Chase Utley"
+    role: "Player"
+    team: "Philadelphia Phillies"
+subset: "Definitive Autographed Relics"
+card_name: "Chase Utley - Definitive Autographed Relics - Green"
+description: "Green parallel of Autographed Definitive Autographed Relics card featuring Chase Utley."
+series: "Topps Definitive Collection"
+parallel: "Green"
+print_run: 10
+rookie_card: false
+autograph: true
+relic: true
+serial_numbered: true
+release_date: "2026-04-29"
+image_url: "https://example.com/cards/2025-26-topps-definitive-collection/definitive-autographed-relics-DAR-CU-green.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2025-26_Topps_Definitive_Collection#Checklist"

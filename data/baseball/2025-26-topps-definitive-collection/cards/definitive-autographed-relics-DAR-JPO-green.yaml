@@ -1,0 +1,24 @@
+number: "DAR-JPO"
+uuid: "c0e3cd89-55ce-4a84-b6d0-d196b40dd1a8"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2025-26-topps-definitive-collection"
+subjects:
+  - name: "Jorge Posada"
+    role: "Player"
+    team: "New York Yankees"
+subset: "Definitive Autographed Relics"
+card_name: "Jorge Posada - Definitive Autographed Relics - Green"
+description: "Green parallel of Autographed Definitive Autographed Relics card featuring Jorge Posada."
+series: "Topps Definitive Collection"
+parallel: "Green"
+print_run: 10
+rookie_card: false
+autograph: true
+relic: true
+serial_numbered: true
+release_date: "2026-04-29"
+image_url: "https://example.com/cards/2025-26-topps-definitive-collection/definitive-autographed-relics-DAR-JPO-green.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2025-26_Topps_Definitive_Collection#Checklist"
