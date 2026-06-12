@@ -1,0 +1,23 @@
+number: "354"
+uuid: "3536cb64-33f7-46b6-98e4-602e23af39b3"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-topps-series-2"
+subjects:
+  - name: "Gabriel Arias"
+    role: "Player"
+    team: "Cleveland Guardians"
+card_name: "Gabriel Arias - Base - Cherry Blossom"
+description: "Cherry Blossom parallel of Base card featuring Gabriel Arias."
+series: "2026 Topps Baseball"
+parallel: "Cherry Blossom"
+print_run: 99
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: true
+release_date: "2026-06-11"
+image_url: "https://example.com/cards/2026-topps-series-2/354-cherry-blossom.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Topps#Insertion_Ratios"

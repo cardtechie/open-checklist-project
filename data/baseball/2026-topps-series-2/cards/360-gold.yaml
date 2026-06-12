@@ -1,0 +1,23 @@
+number: "360"
+uuid: "042d0d6a-7b31-4a11-bf59-f029b2ac8805"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-topps-series-2"
+subjects:
+  - name: "Ben Joyce"
+    role: "Player"
+    team: "Los Angeles Angels"
+card_name: "Ben Joyce - Base - Gold"
+description: "Gold parallel of Base card featuring Ben Joyce."
+series: "2026 Topps Baseball"
+parallel: "Gold"
+print_run: 2026
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: true
+release_date: "2026-06-11"
+image_url: "https://example.com/cards/2026-topps-series-2/360-gold.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Topps#Insertion_Ratios"

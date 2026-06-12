@@ -1,0 +1,23 @@
+number: "369"
+uuid: "3d2ff7d4-3ac6-411e-9ee8-e17410341e7e"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-topps-series-2"
+subjects:
+  - name: "Julio Rodríguez"
+    role: "Player"
+    team: "Seattle Mariners"
+card_name: "Julio Rodríguez - Base - Sandglitter Black"
+description: "Sandglitter Black parallel of Base card featuring Julio Rodríguez."
+series: "2026 Topps Baseball"
+parallel: "Sandglitter Black"
+print_run: 10
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: true
+release_date: "2026-06-11"
+image_url: "https://example.com/cards/2026-topps-series-2/369-sandglitter-black.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Topps#Insertion_Ratios"

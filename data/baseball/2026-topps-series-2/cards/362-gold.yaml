@@ -1,0 +1,23 @@
+number: "362"
+uuid: "10aef6e8-c755-4d84-b77c-fd10d6ed1764"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-topps-series-2"
+subjects:
+  - name: "Luis Severino"
+    role: "Player"
+    team: "Athletics"
+card_name: "Luis Severino - Base - Gold"
+description: "Gold parallel of Base card featuring Luis Severino."
+series: "2026 Topps Baseball"
+parallel: "Gold"
+print_run: 2026
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: true
+release_date: "2026-06-11"
+image_url: "https://example.com/cards/2026-topps-series-2/362-gold.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Topps#Insertion_Ratios"

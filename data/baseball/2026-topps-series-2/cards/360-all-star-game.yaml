@@ -1,0 +1,22 @@
+number: "360"
+uuid: "25c0cba1-b028-49f1-9477-cc684c24d61f"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-topps-series-2"
+subjects:
+  - name: "Ben Joyce"
+    role: "Player"
+    team: "Los Angeles Angels"
+card_name: "Ben Joyce - Base - All-Star Game"
+description: "All-Star Game parallel of Base card featuring Ben Joyce."
+series: "2026 Topps Baseball"
+parallel: "All-Star Game"
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: false
+release_date: "2026-06-11"
+image_url: "https://example.com/cards/2026-topps-series-2/360-all-star-game.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Topps#Insertion_Ratios"

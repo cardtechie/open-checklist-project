@@ -1,0 +1,23 @@
+number: "360"
+uuid: "5652da55-2284-46fa-bcdd-0a075d6164ee"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-topps-series-2"
+subjects:
+  - name: "Ben Joyce"
+    role: "Player"
+    team: "Los Angeles Angels"
+card_name: "Ben Joyce - Base - FoilFractor"
+description: "FoilFractor parallel of Base card featuring Ben Joyce."
+series: "2026 Topps Baseball"
+parallel: "FoilFractor"
+print_run: 1
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: true
+release_date: "2026-06-11"
+image_url: "https://example.com/cards/2026-topps-series-2/360-foilfractor.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Topps#Insertion_Ratios"

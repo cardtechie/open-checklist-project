@@ -1,0 +1,23 @@
+number: "360"
+uuid: "1e654ca0-c81e-4f18-b0c7-38a4ef68b248"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-topps-series-2"
+subjects:
+  - name: "Ben Joyce"
+    role: "Player"
+    team: "Los Angeles Angels"
+card_name: "Ben Joyce - Base - Gold Rainbow Foil"
+description: "Gold Rainbow Foil parallel of Base card featuring Ben Joyce."
+series: "2026 Topps Baseball"
+parallel: "Gold Rainbow Foil"
+print_run: 50
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: true
+release_date: "2026-06-11"
+image_url: "https://example.com/cards/2026-topps-series-2/360-gold-rainbow-foil.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Topps#Insertion_Ratios"

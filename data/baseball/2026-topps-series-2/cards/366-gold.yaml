@@ -1,0 +1,23 @@
+number: "366"
+uuid: "79c6ef06-970e-4c55-858d-784f8d0cfb61"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-topps-series-2"
+subjects:
+  - name: "Isaac Paredes"
+    role: "Player"
+    team: "Houston Astros"
+card_name: "Isaac Paredes - Base - Gold"
+description: "Gold parallel of Base card featuring Isaac Paredes."
+series: "2026 Topps Baseball"
+parallel: "Gold"
+print_run: 2026
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: true
+release_date: "2026-06-11"
+image_url: "https://example.com/cards/2026-topps-series-2/366-gold.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Topps#Insertion_Ratios"

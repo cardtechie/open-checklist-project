@@ -1,0 +1,23 @@
+number: "367"
+uuid: "1a3293e0-a05a-4f53-84e3-7e2509fde98d"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-topps-series-2"
+subjects:
+  - name: "Robbie Ray"
+    role: "Player"
+    team: "San Francisco Giants"
+card_name: "Robbie Ray - Base - All-Star Game Black"
+description: "All-Star Game Black parallel of Base card featuring Robbie Ray."
+series: "2026 Topps Baseball"
+parallel: "All-Star Game Black"
+print_run: 10
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: true
+release_date: "2026-06-11"
+image_url: "https://example.com/cards/2026-topps-series-2/367-all-star-game-black.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Topps#Insertion_Ratios"
