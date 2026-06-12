@@ -1,0 +1,24 @@
+number: "35"
+uuid: "615d63f2-2db5-43d4-8439-ecec4e71ac1e"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "Darryl Strawberry"
+    role: "Player"
+    team: "New York Mets"
+subset: "Base - Optic"
+card_name: "Darryl Strawberry - Base - Optic - Flex"
+description: "Flex parallel of Base - Optic card featuring Darryl Strawberry."
+series: "2026 Donruss"
+parallel: "Flex"
+print_run: 149
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: true
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/base-optic-35-flex.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Donruss#Checklist"

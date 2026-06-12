@@ -1,0 +1,24 @@
+number: "72"
+uuid: "7b01c503-5634-43b3-b1d0-96d9f33570b8"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "Michael Young"
+    role: "Player"
+    team: "Texas Rangers"
+subset: "Base - Optic"
+card_name: "Michael Young - Base - Optic - Green Scope"
+description: "Green Scope parallel of Base - Optic card featuring Michael Young."
+series: "2026 Donruss"
+parallel: "Green Scope"
+print_run: 65
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: true
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/base-optic-72-green-scope.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Donruss#Checklist"

@@ -1,0 +1,24 @@
+number: "37"
+uuid: "741e7bcb-1237-429c-955b-ebc89e2053ce"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "Trey Yesavage"
+    role: "Player"
+    team: "Toronto Blue Jays"
+subset: "Base - Optic"
+card_name: "Trey Yesavage - Base - Optic - Green Scope"
+description: "Green Scope parallel of Base - Optic card featuring Trey Yesavage."
+series: "2026 Donruss"
+parallel: "Green Scope"
+print_run: 65
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: true
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/base-optic-37-green-scope.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Donruss#Checklist"

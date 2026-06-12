@@ -1,0 +1,24 @@
+number: "40"
+uuid: "ec12e377-4e38-4d38-bac4-71f0bd6ce889"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "Jace Jung"
+    role: "Player"
+    team: "Detroit Tigers"
+subset: "Base - Optic"
+card_name: "Jace Jung - Base - Optic - Gold Velocity"
+description: "Gold Velocity parallel of Base - Optic card featuring Jace Jung."
+series: "2026 Donruss"
+parallel: "Gold Velocity"
+print_run: 10
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: true
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/base-optic-40-gold-velocity.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Donruss#Checklist"

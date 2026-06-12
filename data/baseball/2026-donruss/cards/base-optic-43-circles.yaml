@@ -1,0 +1,23 @@
+number: "43"
+uuid: "0abc4244-9b6c-4000-ba6d-168b91f7d3e6"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "Jimmie Foxx"
+    role: "Player"
+    team: "Philadelphia Athletics"
+subset: "Base - Optic"
+card_name: "Jimmie Foxx - Base - Optic - Circles"
+description: "Circles parallel of Base - Optic card featuring Jimmie Foxx."
+series: "2026 Donruss"
+parallel: "Circles"
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: false
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/base-optic-43-circles.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Donruss#Checklist"

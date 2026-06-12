@@ -1,0 +1,24 @@
+number: "98"
+uuid: "2ef1b507-f0a1-4e8b-a608-0001b9565392"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "Trevor Hoffman"
+    role: "Player"
+    team: "San Diego Padres"
+subset: "Base - Optic"
+card_name: "Trevor Hoffman - Base - Optic - Green"
+description: "Green parallel of Base - Optic card featuring Trevor Hoffman."
+series: "2026 Donruss"
+parallel: "Green"
+print_run: 5
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: true
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/base-optic-98-green.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Donruss#Checklist"

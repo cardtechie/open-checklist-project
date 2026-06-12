@@ -1,0 +1,24 @@
+number: "75"
+uuid: "11bdad41-3d37-4d6e-a567-b92cccf7277c"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "Don Mattingly"
+    role: "Player"
+    team: "New York Yankees"
+subset: "Base - Optic"
+card_name: "Don Mattingly - Base - Optic - Green Scope"
+description: "Green Scope parallel of Base - Optic card featuring Don Mattingly."
+series: "2026 Donruss"
+parallel: "Green Scope"
+print_run: 65
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: true
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/base-optic-75-green-scope.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Donruss#Checklist"

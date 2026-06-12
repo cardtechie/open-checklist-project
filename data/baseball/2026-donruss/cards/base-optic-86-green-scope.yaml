@@ -1,0 +1,24 @@
+number: "86"
+uuid: "94d7b063-d3c6-4a79-a33e-fc64762cd604"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "Dwight Gooden"
+    role: "Player"
+    team: "New York Mets"
+subset: "Base - Optic"
+card_name: "Dwight Gooden - Base - Optic - Green Scope"
+description: "Green Scope parallel of Base - Optic card featuring Dwight Gooden."
+series: "2026 Donruss"
+parallel: "Green Scope"
+print_run: 65
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: true
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/base-optic-86-green-scope.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Donruss#Checklist"

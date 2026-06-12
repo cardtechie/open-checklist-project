@@ -1,0 +1,24 @@
+number: "54"
+uuid: "ab51679c-5ff7-4f08-bb1e-12796c18bc6f"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "Josh Hamilton"
+    role: "Player"
+    team: "Texas Rangers"
+subset: "Base - Optic"
+card_name: "Josh Hamilton - Base - Optic - Flex"
+description: "Flex parallel of Base - Optic card featuring Josh Hamilton."
+series: "2026 Donruss"
+parallel: "Flex"
+print_run: 149
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: true
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/base-optic-54-flex.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Donruss#Checklist"

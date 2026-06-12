@@ -1,0 +1,24 @@
+number: "64"
+uuid: "9125a549-c709-4f8c-82c5-eb2a53c568f3"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "Ivan Rodriguez"
+    role: "Player"
+    team: "Texas Rangers"
+subset: "Base - Optic"
+card_name: "Ivan Rodriguez - Base - Optic - Electricity"
+description: "Electricity parallel of Base - Optic card featuring Ivan Rodriguez."
+series: "2026 Donruss"
+parallel: "Electricity"
+print_run: 69
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: true
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/base-optic-64-electricity.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Donruss#Checklist"

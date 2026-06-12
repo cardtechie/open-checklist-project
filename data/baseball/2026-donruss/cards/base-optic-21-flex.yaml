@@ -1,0 +1,24 @@
+number: "21"
+uuid: "5bcfd7ff-904e-4350-8be1-e9c62afade7c"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "Pat Murphy"
+    role: "Player"
+    team: "Milwaukee Brewers"
+subset: "Base - Optic"
+card_name: "Pat Murphy - Base - Optic - Flex"
+description: "Flex parallel of Base - Optic card featuring Pat Murphy."
+series: "2026 Donruss"
+parallel: "Flex"
+print_run: 149
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: true
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/base-optic-21-flex.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Donruss#Checklist"

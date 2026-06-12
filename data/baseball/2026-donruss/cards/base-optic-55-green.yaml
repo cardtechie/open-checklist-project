@@ -1,0 +1,24 @@
+number: "55"
+uuid: "31e1af01-6ee3-4db7-bc37-c52b65cc3644"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "Frank Chance"
+    role: "Player"
+    team: "Chicago Cubs"
+subset: "Base - Optic"
+card_name: "Frank Chance - Base - Optic - Green"
+description: "Green parallel of Base - Optic card featuring Frank Chance."
+series: "2026 Donruss"
+parallel: "Green"
+print_run: 5
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: true
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/base-optic-55-green.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Donruss#Checklist"

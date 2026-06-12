@@ -1,0 +1,24 @@
+number: "67"
+uuid: "2336ca1f-2506-4805-b874-f1c625d48bbc"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "Bobby Witt Jr."
+    role: "Player"
+    team: "Kansas City Royals"
+subset: "Base - Optic"
+card_name: "Bobby Witt Jr. - Base - Optic - Green"
+description: "Green parallel of Base - Optic card featuring Bobby Witt Jr.."
+series: "2026 Donruss"
+parallel: "Green"
+print_run: 5
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: true
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/base-optic-67-green.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Donruss#Checklist"

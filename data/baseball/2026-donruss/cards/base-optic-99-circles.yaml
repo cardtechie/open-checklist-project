@@ -1,0 +1,23 @@
+number: "99"
+uuid: "7f6a714f-ff0b-44f4-85d2-4aafbfee500c"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "Aaron Judge"
+    role: "Player"
+    team: "New York Yankees"
+subset: "Base - Optic"
+card_name: "Aaron Judge - Base - Optic - Circles"
+description: "Circles parallel of Base - Optic card featuring Aaron Judge."
+series: "2026 Donruss"
+parallel: "Circles"
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: false
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/base-optic-99-circles.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Donruss#Checklist"

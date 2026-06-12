@@ -1,0 +1,24 @@
+number: "78"
+uuid: "ad0f58da-13b2-4d72-b567-fdbed1c637c5"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "Jimmy Crooks"
+    role: "Player"
+    team: "St. Louis Cardinals"
+subset: "Base - Optic"
+card_name: "Jimmy Crooks - Base - Optic - Green"
+description: "Green parallel of Base - Optic card featuring Jimmy Crooks."
+series: "2026 Donruss"
+parallel: "Green"
+print_run: 5
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: true
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/base-optic-78-green.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Donruss#Checklist"

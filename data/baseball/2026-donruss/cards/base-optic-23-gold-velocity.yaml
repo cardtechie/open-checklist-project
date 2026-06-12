@@ -1,0 +1,24 @@
+number: "23"
+uuid: "6b674381-50d8-4eea-9a21-f05f3ba0cdee"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "Randy Johnson"
+    role: "Player"
+    team: "Seattle Mariners"
+subset: "Base - Optic"
+card_name: "Randy Johnson - Base - Optic - Gold Velocity"
+description: "Gold Velocity parallel of Base - Optic card featuring Randy Johnson."
+series: "2026 Donruss"
+parallel: "Gold Velocity"
+print_run: 10
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: true
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/base-optic-23-gold-velocity.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Donruss#Checklist"

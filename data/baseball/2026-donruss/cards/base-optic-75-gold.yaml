@@ -1,0 +1,24 @@
+number: "75"
+uuid: "50e3fd48-8bfb-42d2-b415-d46a9c06b0cb"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "Don Mattingly"
+    role: "Player"
+    team: "New York Yankees"
+subset: "Base - Optic"
+card_name: "Don Mattingly - Base - Optic - Gold"
+description: "Gold parallel of Base - Optic card featuring Don Mattingly."
+series: "2026 Donruss"
+parallel: "Gold"
+print_run: 10
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: true
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/base-optic-75-gold.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Donruss#Checklist"

@@ -1,0 +1,24 @@
+number: "25"
+uuid: "48e49295-e1bb-41d1-bacc-ffd41321af67"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "Cade Horton"
+    role: "Player"
+    team: "Chicago Cubs"
+subset: "Base - Optic"
+card_name: "Cade Horton - Base - Optic - Green"
+description: "Green parallel of Base - Optic card featuring Cade Horton."
+series: "2026 Donruss"
+parallel: "Green"
+print_run: 5
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: true
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/base-optic-25-green.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Donruss#Checklist"

@@ -1,0 +1,24 @@
+number: "13"
+uuid: "12c9a0d3-7ff5-4342-b7f7-33c8ca094414"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "Jacob Wilson"
+    role: "Player"
+    team: "Oakland A's"
+subset: "Base - Optic"
+card_name: "Jacob Wilson - Base - Optic - Green"
+description: "Green parallel of Base - Optic card featuring Jacob Wilson."
+series: "2026 Donruss"
+parallel: "Green"
+print_run: 5
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: true
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/base-optic-13-green.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Donruss#Checklist"

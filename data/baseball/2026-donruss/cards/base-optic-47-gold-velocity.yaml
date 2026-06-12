@@ -1,0 +1,24 @@
+number: "47"
+uuid: "1547c287-ce0b-41f7-ae4f-7fbbc1f24d88"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "Yadier Molina"
+    role: "Player"
+    team: "St. Louis Cardinals"
+subset: "Base - Optic"
+card_name: "Yadier Molina - Base - Optic - Gold Velocity"
+description: "Gold Velocity parallel of Base - Optic card featuring Yadier Molina."
+series: "2026 Donruss"
+parallel: "Gold Velocity"
+print_run: 10
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: true
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/base-optic-47-gold-velocity.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Donruss#Checklist"

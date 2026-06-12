@@ -1,0 +1,24 @@
+number: "14"
+uuid: "5976c344-fca3-40fd-b855-dae97158571c"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "Cal Ripken"
+    role: "Player"
+    team: "Baltimore Orioles"
+subset: "Base - Optic"
+card_name: "Cal Ripken - Base - Optic - Electricity"
+description: "Electricity parallel of Base - Optic card featuring Cal Ripken."
+series: "2026 Donruss"
+parallel: "Electricity"
+print_run: 69
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: true
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/base-optic-14-electricity.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Donruss#Checklist"

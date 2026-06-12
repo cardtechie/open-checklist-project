@@ -1,0 +1,24 @@
+number: "96"
+uuid: "4a85da8a-8aa6-4da9-b87c-df307711d5c9"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "Marcelo Mayer"
+    role: "Player"
+    team: "Boston Red Sox"
+subset: "Base - Optic"
+card_name: "Marcelo Mayer - Base - Optic - Cracked Ice"
+description: "Cracked Ice parallel of Base - Optic card featuring Marcelo Mayer."
+series: "2026 Donruss"
+parallel: "Cracked Ice"
+print_run: 25
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: true
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/base-optic-96-cracked-ice.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Donruss#Checklist"

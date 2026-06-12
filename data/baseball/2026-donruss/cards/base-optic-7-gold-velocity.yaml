@@ -1,0 +1,24 @@
+number: "7"
+uuid: "5901ca35-ebe8-46ea-abc3-8378971ad4dd"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "Rhett Lowder"
+    role: "Player"
+    team: "Cincinnati Reds"
+subset: "Base - Optic"
+card_name: "Rhett Lowder - Base - Optic - Gold Velocity"
+description: "Gold Velocity parallel of Base - Optic card featuring Rhett Lowder."
+series: "2026 Donruss"
+parallel: "Gold Velocity"
+print_run: 10
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: true
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/base-optic-7-gold-velocity.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Donruss#Checklist"

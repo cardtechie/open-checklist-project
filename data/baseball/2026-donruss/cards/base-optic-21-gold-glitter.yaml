@@ -1,0 +1,24 @@
+number: "21"
+uuid: "b08bb385-d1b3-45c0-b2f8-fc4eacd3c919"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "Pat Murphy"
+    role: "Player"
+    team: "Milwaukee Brewers"
+subset: "Base - Optic"
+card_name: "Pat Murphy - Base - Optic - Gold Glitter"
+description: "Gold Glitter parallel of Base - Optic card featuring Pat Murphy."
+series: "2026 Donruss"
+parallel: "Gold Glitter"
+print_run: 4
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: true
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/base-optic-21-gold-glitter.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Donruss#Checklist"

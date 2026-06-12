@@ -1,0 +1,24 @@
+number: "99"
+uuid: "24a25a38-d4f5-4e2e-acd9-dc8baa31967b"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "Aaron Judge"
+    role: "Player"
+    team: "New York Yankees"
+subset: "Base - Optic"
+card_name: "Aaron Judge - Base - Optic - Flex"
+description: "Flex parallel of Base - Optic card featuring Aaron Judge."
+series: "2026 Donruss"
+parallel: "Flex"
+print_run: 149
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: true
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/base-optic-99-flex.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Donruss#Checklist"

@@ -1,0 +1,24 @@
+number: "16"
+uuid: "ddfb5de8-9c15-4c41-8b05-645b11ee50e0"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "Ozzie Smith"
+    role: "Player"
+    team: "St. Louis Cardinals"
+subset: "Base - Optic"
+card_name: "Ozzie Smith - Base - Optic - Green Scope"
+description: "Green Scope parallel of Base - Optic card featuring Ozzie Smith."
+series: "2026 Donruss"
+parallel: "Green Scope"
+print_run: 65
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: true
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/base-optic-16-green-scope.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Donruss#Checklist"

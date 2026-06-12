@@ -1,0 +1,24 @@
+number: "21"
+uuid: "315e6ad7-d0b4-4acd-acac-f3c123456d1d"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "Pat Murphy"
+    role: "Player"
+    team: "Milwaukee Brewers"
+subset: "Base - Optic"
+card_name: "Pat Murphy - Base - Optic - Electricity"
+description: "Electricity parallel of Base - Optic card featuring Pat Murphy."
+series: "2026 Donruss"
+parallel: "Electricity"
+print_run: 69
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: true
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/base-optic-21-electricity.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Donruss#Checklist"

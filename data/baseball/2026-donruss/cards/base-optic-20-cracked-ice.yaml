@@ -1,0 +1,24 @@
+number: "20"
+uuid: "e07a934d-0f6c-4940-9644-cc5dda9b8bab"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "David Wright"
+    role: "Player"
+    team: "New York Mets"
+subset: "Base - Optic"
+card_name: "David Wright - Base - Optic - Cracked Ice"
+description: "Cracked Ice parallel of Base - Optic card featuring David Wright."
+series: "2026 Donruss"
+parallel: "Cracked Ice"
+print_run: 25
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: true
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/base-optic-20-cracked-ice.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Donruss#Checklist"

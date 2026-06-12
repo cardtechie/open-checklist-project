@@ -1,0 +1,24 @@
+number: "59"
+uuid: "cbe6d3ef-c646-4f01-b3eb-2cc4b53e23d5"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "Alex Rodriguez"
+    role: "Player"
+    team: "Texas Rangers"
+subset: "Base - Optic"
+card_name: "Alex Rodriguez - Base - Optic - Gold"
+description: "Gold parallel of Base - Optic card featuring Alex Rodriguez."
+series: "2026 Donruss"
+parallel: "Gold"
+print_run: 10
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: true
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/base-optic-59-gold.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Donruss#Checklist"

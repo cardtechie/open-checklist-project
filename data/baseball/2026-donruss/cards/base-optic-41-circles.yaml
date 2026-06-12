@@ -1,0 +1,23 @@
+number: "41"
+uuid: "58ed7dd2-32a4-4e59-8a28-584219f87fd5"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "Felix Hernandez"
+    role: "Player"
+    team: "Seattle Mariners"
+subset: "Base - Optic"
+card_name: "Felix Hernandez - Base - Optic - Circles"
+description: "Circles parallel of Base - Optic card featuring Felix Hernandez."
+series: "2026 Donruss"
+parallel: "Circles"
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: false
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/base-optic-41-circles.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Donruss#Checklist"

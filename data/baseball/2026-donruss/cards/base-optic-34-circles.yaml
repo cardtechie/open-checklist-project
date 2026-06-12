@@ -1,0 +1,23 @@
+number: "34"
+uuid: "836535f1-9fc5-4224-84b6-3c914f8b1652"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "Dave Winfield"
+    role: "Player"
+    team: "San Diego Padres"
+subset: "Base - Optic"
+card_name: "Dave Winfield - Base - Optic - Circles"
+description: "Circles parallel of Base - Optic card featuring Dave Winfield."
+series: "2026 Donruss"
+parallel: "Circles"
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: false
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/base-optic-34-circles.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Donruss#Checklist"

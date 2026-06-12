@@ -1,0 +1,24 @@
+number: "27"
+uuid: "0dc2b5f5-8826-47dd-8067-58a5b5c6c66e"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "Deion Sanders"
+    role: "Player"
+    team: "Cincinnati Reds"
+subset: "Base - Optic"
+card_name: "Deion Sanders - Base - Optic - Flex"
+description: "Flex parallel of Base - Optic card featuring Deion Sanders."
+series: "2026 Donruss"
+parallel: "Flex"
+print_run: 149
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: true
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/base-optic-27-flex.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Donruss#Checklist"

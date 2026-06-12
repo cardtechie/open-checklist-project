@@ -1,0 +1,24 @@
+number: "15"
+uuid: "f53f406b-a45f-460e-bb0a-e85442b03e7d"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "Sung-Mun Song"
+    role: "Player"
+    team: "San Diego Padres"
+subset: "Base - Optic"
+card_name: "Sung-Mun Song - Base - Optic - Cracked Ice"
+description: "Cracked Ice parallel of Base - Optic card featuring Sung-Mun Song."
+series: "2026 Donruss"
+parallel: "Cracked Ice"
+print_run: 25
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: true
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/base-optic-15-cracked-ice.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Donruss#Checklist"

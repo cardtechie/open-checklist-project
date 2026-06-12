@@ -1,0 +1,24 @@
+number: "51"
+uuid: "c514fd29-e82f-4630-b4e6-8ba0d66639fb"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "Madison Bumgarner"
+    role: "Player"
+    team: "San Francisco Giants"
+subset: "Base - Optic"
+card_name: "Madison Bumgarner - Base - Optic - Green Scope"
+description: "Green Scope parallel of Base - Optic card featuring Madison Bumgarner."
+series: "2026 Donruss"
+parallel: "Green Scope"
+print_run: 65
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: true
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/base-optic-51-green-scope.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Donruss#Checklist"

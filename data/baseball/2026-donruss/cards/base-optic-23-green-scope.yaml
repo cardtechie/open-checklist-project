@@ -1,0 +1,24 @@
+number: "23"
+uuid: "bc3b4481-f986-4260-abd8-2aa55e087741"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "Randy Johnson"
+    role: "Player"
+    team: "Seattle Mariners"
+subset: "Base - Optic"
+card_name: "Randy Johnson - Base - Optic - Green Scope"
+description: "Green Scope parallel of Base - Optic card featuring Randy Johnson."
+series: "2026 Donruss"
+parallel: "Green Scope"
+print_run: 65
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: true
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/base-optic-23-green-scope.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Donruss#Checklist"

@@ -1,0 +1,24 @@
+number: "82"
+uuid: "5863f316-3510-46b1-8bc0-88a31c47fb57"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "Bo Jackson"
+    role: "Player"
+    team: "Kansas City Royals"
+subset: "Base - Optic"
+card_name: "Bo Jackson - Base - Optic - Cracked Ice"
+description: "Cracked Ice parallel of Base - Optic card featuring Bo Jackson."
+series: "2026 Donruss"
+parallel: "Cracked Ice"
+print_run: 25
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: true
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/base-optic-82-cracked-ice.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Donruss#Checklist"

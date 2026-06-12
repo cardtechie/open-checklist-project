@@ -1,0 +1,24 @@
+number: "63"
+uuid: "4abd9a40-4c99-4059-aa77-a5659386d7eb"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "Pie Traynor"
+    role: "Player"
+    team: "Pittsburgh Pirates"
+subset: "Base - Optic"
+card_name: "Pie Traynor - Base - Optic - Green Scope"
+description: "Green Scope parallel of Base - Optic card featuring Pie Traynor."
+series: "2026 Donruss"
+parallel: "Green Scope"
+print_run: 65
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: true
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/base-optic-63-green-scope.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Donruss#Checklist"

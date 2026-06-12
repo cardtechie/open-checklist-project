@@ -1,0 +1,24 @@
+number: "48"
+uuid: "b3dc7a94-e0b2-464d-854f-ca78ceb9f1fa"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "Barry Larkin"
+    role: "Player"
+    team: "Cincinnati Reds"
+subset: "Base - Optic"
+card_name: "Barry Larkin - Base - Optic - Green Scope"
+description: "Green Scope parallel of Base - Optic card featuring Barry Larkin."
+series: "2026 Donruss"
+parallel: "Green Scope"
+print_run: 65
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: true
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/base-optic-48-green-scope.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Donruss#Checklist"

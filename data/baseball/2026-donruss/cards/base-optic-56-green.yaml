@@ -1,0 +1,24 @@
+number: "56"
+uuid: "1261721d-8f4b-4177-b134-388e41372e43"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "Tomoyuki Sugano"
+    role: "Player"
+    team: "Baltimore Orioles"
+subset: "Base - Optic"
+card_name: "Tomoyuki Sugano - Base - Optic - Green"
+description: "Green parallel of Base - Optic card featuring Tomoyuki Sugano."
+series: "2026 Donruss"
+parallel: "Green"
+print_run: 5
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: true
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/base-optic-56-green.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Donruss#Checklist"
