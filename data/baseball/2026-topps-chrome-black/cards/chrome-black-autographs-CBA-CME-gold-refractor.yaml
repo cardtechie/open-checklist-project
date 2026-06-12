@@ -1,0 +1,24 @@
+number: "CBA-CME"
+uuid: "b7295706-c095-4b62-a94e-1bc333c00b4d"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-topps-chrome-black"
+subjects:
+  - name: "Chase Meidroth"
+    role: "Player"
+    team: "Chicago White Sox"
+subset: "Chrome Black Autographs"
+card_name: "Chase Meidroth - Chrome Black Autographs - Gold Refractor"
+description: "Gold Refractor parallel of Autographed Chrome Black Autographs card featuring Chase Meidroth."
+series: "2026 Topps Chrome Black"
+parallel: "Gold Refractor"
+print_run: 50
+rookie_card: false
+autograph: true
+relic: false
+serial_numbered: true
+release_date: "2026-04-29"
+image_url: "https://example.com/cards/2026-topps-chrome-black/chrome-black-autographs-CBA-CME-gold-refractor.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Topps_Chrome_Black#Insertion_Ratios"

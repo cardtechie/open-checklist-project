@@ -1,0 +1,24 @@
+number: "CBA-CJ"
+uuid: "8e8b3cec-8d4d-46d9-ab3a-c9d23f9a9b84"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-topps-chrome-black"
+subjects:
+  - name: "C.J. Kayfus"
+    role: "Player"
+    team: "Cleveland Guardians"
+subset: "Chrome Black Autographs"
+card_name: "C.J. Kayfus - Chrome Black Autographs - Gold Refractor"
+description: "Gold Refractor parallel of Autographed Chrome Black Autographs card featuring C.J. Kayfus."
+series: "2026 Topps Chrome Black"
+parallel: "Gold Refractor"
+print_run: 50
+rookie_card: false
+autograph: true
+relic: false
+serial_numbered: true
+release_date: "2026-04-29"
+image_url: "https://example.com/cards/2026-topps-chrome-black/chrome-black-autographs-CBA-CJ-gold-refractor.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Topps_Chrome_Black#Insertion_Ratios"

@@ -1,0 +1,24 @@
+number: "CBA-DGI"
+uuid: "6a641b06-08ef-49a8-9616-b5e1abba3f32"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-topps-chrome-black"
+subjects:
+  - name: "Drew Gilbert"
+    role: "Player"
+    team: "San Francisco Giants"
+subset: "Chrome Black Autographs"
+card_name: "Drew Gilbert - Chrome Black Autographs - Red Refractor"
+description: "Red Refractor parallel of Autographed Chrome Black Autographs card featuring Drew Gilbert."
+series: "2026 Topps Chrome Black"
+parallel: "Red Refractor"
+print_run: 5
+rookie_card: false
+autograph: true
+relic: false
+serial_numbered: true
+release_date: "2026-04-29"
+image_url: "https://example.com/cards/2026-topps-chrome-black/chrome-black-autographs-CBA-DGI-red-refractor.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Topps_Chrome_Black#Insertion_Ratios"

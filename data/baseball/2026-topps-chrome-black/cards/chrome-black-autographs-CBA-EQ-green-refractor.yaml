@@ -1,0 +1,24 @@
+number: "CBA-EQ"
+uuid: "416bad85-1ff5-403e-9aad-a27eda5d791f"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-topps-chrome-black"
+subjects:
+  - name: "Edgar Quero"
+    role: "Player"
+    team: "Chicago White Sox"
+subset: "Chrome Black Autographs"
+card_name: "Edgar Quero - Chrome Black Autographs - Green Refractor"
+description: "Green Refractor parallel of Autographed Chrome Black Autographs card featuring Edgar Quero."
+series: "2026 Topps Chrome Black"
+parallel: "Green Refractor"
+print_run: 99
+rookie_card: false
+autograph: true
+relic: false
+serial_numbered: true
+release_date: "2026-04-29"
+image_url: "https://example.com/cards/2026-topps-chrome-black/chrome-black-autographs-CBA-EQ-green-refractor.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Topps_Chrome_Black#Insertion_Ratios"
