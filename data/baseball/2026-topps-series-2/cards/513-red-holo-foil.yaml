@@ -1,0 +1,23 @@
+number: "513"
+uuid: "1c24a188-5d6a-4b29-8815-2f429e49d44c"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-topps-series-2"
+subjects:
+  - name: "Tatsuya Imai"
+    role: "Player"
+    team: "Houston Astros"
+card_name: "Tatsuya Imai - Base - Red Holo Foil"
+description: "Red Holo Foil parallel of Base card featuring Tatsuya Imai."
+series: "2026 Topps Baseball"
+parallel: "Red Holo Foil"
+print_run: 5
+rookie_card: true
+autograph: false
+relic: false
+serial_numbered: true
+release_date: "2026-06-11"
+image_url: "https://example.com/cards/2026-topps-series-2/513-red-holo-foil.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Topps#Insertion_Ratios"

@@ -1,0 +1,23 @@
+number: "512"
+uuid: "adf69ebe-d246-46cd-ac6b-b280a6d934ee"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-topps-series-2"
+subjects:
+  - name: "Simeon Woods Richardson"
+    role: "Player"
+    team: "Minnesota Twins"
+card_name: "Simeon Woods Richardson - Base - 75 Years Of Topps"
+description: "75 Years Of Topps parallel of Base card featuring Simeon Woods Richardson."
+series: "2026 Topps Baseball"
+parallel: "75 Years Of Topps"
+print_run: 75
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: true
+release_date: "2026-06-11"
+image_url: "https://example.com/cards/2026-topps-series-2/512-75-years-of-topps.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Topps#Insertion_Ratios"

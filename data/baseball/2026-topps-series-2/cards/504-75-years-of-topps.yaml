@@ -1,0 +1,23 @@
+number: "504"
+uuid: "7e31e1c4-e7f6-4bde-80cb-dcc27aebe5a7"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-topps-series-2"
+subjects:
+  - name: "Tanner Houck"
+    role: "Player"
+    team: "Boston Red Sox"
+card_name: "Tanner Houck - Base - 75 Years Of Topps"
+description: "75 Years Of Topps parallel of Base card featuring Tanner Houck."
+series: "2026 Topps Baseball"
+parallel: "75 Years Of Topps"
+print_run: 75
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: true
+release_date: "2026-06-11"
+image_url: "https://example.com/cards/2026-topps-series-2/504-75-years-of-topps.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Topps#Insertion_Ratios"

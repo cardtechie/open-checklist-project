@@ -1,0 +1,23 @@
+number: "519"
+uuid: "5d4aa330-a5e4-4c39-98cd-646984fed2dd"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-topps-series-2"
+subjects:
+  - name: "Ramón Laureano"
+    role: "Player"
+    team: "San Diego Padres"
+card_name: "Ramón Laureano - Base - Cherry Blossom"
+description: "Cherry Blossom parallel of Base card featuring Ramón Laureano."
+series: "2026 Topps Baseball"
+parallel: "Cherry Blossom"
+print_run: 99
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: true
+release_date: "2026-06-11"
+image_url: "https://example.com/cards/2026-topps-series-2/519-cherry-blossom.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Topps#Insertion_Ratios"

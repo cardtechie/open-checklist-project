@@ -1,0 +1,23 @@
+number: "519"
+uuid: "b9e66b12-7bd0-4bb7-9a62-9f700545b4c4"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-topps-series-2"
+subjects:
+  - name: "Ramón Laureano"
+    role: "Player"
+    team: "San Diego Padres"
+card_name: "Ramón Laureano - Base - Wood"
+description: "Wood parallel of Base card featuring Ramón Laureano."
+series: "2026 Topps Baseball"
+parallel: "Wood"
+print_run: 25
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: true
+release_date: "2026-06-11"
+image_url: "https://example.com/cards/2026-topps-series-2/519-wood.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Topps#Insertion_Ratios"

@@ -1,0 +1,22 @@
+number: "511"
+uuid: "731bfb54-b641-4cce-9c22-a6156a245e67"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-topps-series-2"
+subjects:
+  - name: "Jayvien Sandridge"
+    role: "Player"
+    team: "Los Angeles Angels"
+card_name: "Jayvien Sandridge - Base - All-Star Game"
+description: "All-Star Game parallel of Base card featuring Jayvien Sandridge."
+series: "2026 Topps Baseball"
+parallel: "All-Star Game"
+rookie_card: true
+autograph: false
+relic: false
+serial_numbered: false
+release_date: "2026-06-11"
+image_url: "https://example.com/cards/2026-topps-series-2/511-all-star-game.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Topps#Insertion_Ratios"

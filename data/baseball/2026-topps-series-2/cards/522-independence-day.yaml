@@ -1,0 +1,23 @@
+number: "522"
+uuid: "20edb7e9-49fa-46e8-ab40-808482342627"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-topps-series-2"
+subjects:
+  - name: "Miami Marlins"
+    role: "Team"
+    team: "Miami Marlins"
+card_name: "Miami Marlins - Base - Independence Day"
+description: "Independence Day parallel of Base card featuring Miami Marlins."
+series: "2026 Topps Baseball"
+parallel: "Independence Day"
+print_run: 76
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: true
+release_date: "2026-06-11"
+image_url: "https://example.com/cards/2026-topps-series-2/522-independence-day.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Topps#Insertion_Ratios"

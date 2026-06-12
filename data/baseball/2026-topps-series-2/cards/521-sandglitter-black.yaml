@@ -1,0 +1,23 @@
+number: "521"
+uuid: "a60b884c-07be-4898-9b0b-47bd555a37fb"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-topps-series-2"
+subjects:
+  - name: "Henry Davis"
+    role: "Player"
+    team: "Pittsburgh Pirates"
+card_name: "Henry Davis - Base - Sandglitter Black"
+description: "Sandglitter Black parallel of Base card featuring Henry Davis."
+series: "2026 Topps Baseball"
+parallel: "Sandglitter Black"
+print_run: 10
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: true
+release_date: "2026-06-11"
+image_url: "https://example.com/cards/2026-topps-series-2/521-sandglitter-black.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Topps#Insertion_Ratios"

@@ -1,0 +1,23 @@
+number: "522"
+uuid: "adf5fe49-e38c-483e-a629-5c10adc924f7"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-topps-series-2"
+subjects:
+  - name: "Miami Marlins"
+    role: "Team"
+    team: "Miami Marlins"
+card_name: "Miami Marlins - Base - Cherry Blossom"
+description: "Cherry Blossom parallel of Base card featuring Miami Marlins."
+series: "2026 Topps Baseball"
+parallel: "Cherry Blossom"
+print_run: 99
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: true
+release_date: "2026-06-11"
+image_url: "https://example.com/cards/2026-topps-series-2/522-cherry-blossom.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Topps#Insertion_Ratios"

@@ -1,0 +1,23 @@
+number: "509"
+uuid: "5d292eaf-0925-48a0-8928-39a7dd5d0629"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-topps-series-2"
+subjects:
+  - name: "Pablo López"
+    role: "Player"
+    team: "Minnesota Twins"
+card_name: "Pablo López - Base - Sandglitter Gold"
+description: "Sandglitter Gold parallel of Base card featuring Pablo López."
+series: "2026 Topps Baseball"
+parallel: "Sandglitter Gold"
+print_run: 50
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: true
+release_date: "2026-06-11"
+image_url: "https://example.com/cards/2026-topps-series-2/509-sandglitter-gold.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Topps#Insertion_Ratios"

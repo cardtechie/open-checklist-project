@@ -1,0 +1,23 @@
+number: "512"
+uuid: "870e719c-3295-4e0d-b884-76367f2ad23c"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-topps-series-2"
+subjects:
+  - name: "Simeon Woods Richardson"
+    role: "Player"
+    team: "Minnesota Twins"
+card_name: "Simeon Woods Richardson - Base - Canvas"
+description: "Canvas parallel of Base card featuring Simeon Woods Richardson."
+series: "2026 Topps Baseball"
+parallel: "Canvas"
+print_run: 50
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: true
+release_date: "2026-06-11"
+image_url: "https://example.com/cards/2026-topps-series-2/512-canvas.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Topps#Insertion_Ratios"
