@@ -1,0 +1,24 @@
+number: "91B2-37"
+uuid: "7aa8a0a1-f0da-4cad-85ef-77b8c951c92f"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-topps-series-2"
+subjects:
+  - name: "Honus Wagner"
+    role: "Player"
+    team: "Pittsburgh Pirates"
+subset: "1991 Topps Baseball"
+card_name: "Honus Wagner - 1991 Topps Baseball - Relics Gold"
+description: "Relics Gold parallel of 1991 Topps Baseball card featuring Honus Wagner."
+series: "2026 Topps Baseball"
+parallel: "Relics Gold"
+print_run: 50
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: true
+release_date: "2026-06-11"
+image_url: "https://example.com/cards/2026-topps-series-2/1991-topps-baseball-91B2-37-relics-gold.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Topps#Insertion_Ratios"
