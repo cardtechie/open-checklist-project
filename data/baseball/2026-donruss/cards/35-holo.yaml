@@ -1,0 +1,22 @@
+number: "35"
+uuid: "d3e6e6c2-975c-4dff-845f-983ed9ab3a42"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "Darryl Strawberry"
+    role: "Player"
+    team: "New York Mets"
+card_name: "Darryl Strawberry - Base - Holo"
+description: "Holo parallel of Base card featuring Darryl Strawberry."
+series: "2026 Donruss"
+parallel: "Holo"
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: false
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/35-holo.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Donruss#Checklist"

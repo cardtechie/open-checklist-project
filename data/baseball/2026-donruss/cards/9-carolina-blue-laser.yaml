@@ -1,0 +1,23 @@
+number: "9"
+uuid: "2bd9b7f0-dafa-4315-94de-46eb53c730d6"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "Leo Durocher"
+    role: "Player"
+    team: "Chicago Cubs"
+card_name: "Leo Durocher - Base - Carolina Blue Laser"
+description: "Carolina Blue Laser parallel of Base card featuring Leo Durocher."
+series: "2026 Donruss"
+parallel: "Carolina Blue Laser"
+print_run: 249
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: true
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/9-carolina-blue-laser.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Donruss#Checklist"

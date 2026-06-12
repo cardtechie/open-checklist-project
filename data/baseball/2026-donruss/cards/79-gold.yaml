@@ -1,0 +1,23 @@
+number: "79"
+uuid: "78d6fc6a-91d2-42a1-8c6d-6b4f39f5828d"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "Carlton Fisk"
+    role: "Player"
+    team: "Boston Red Sox"
+card_name: "Carlton Fisk - Base - Gold"
+description: "Gold parallel of Base card featuring Carlton Fisk."
+series: "2026 Donruss"
+parallel: "Gold"
+print_run: 10
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: true
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/79-gold.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Donruss#Checklist"

@@ -1,0 +1,22 @@
+number: "26"
+uuid: "844aa137-e609-4d23-803d-a6f95df7e0a7"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "Gil Hodges"
+    role: "Player"
+    team: "Brooklyn Dodgers"
+card_name: "Gil Hodges - Base - Green Laser"
+description: "Green Laser parallel of Base card featuring Gil Hodges."
+series: "2026 Donruss"
+parallel: "Green Laser"
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: false
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/26-green-laser.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Donruss#Checklist"

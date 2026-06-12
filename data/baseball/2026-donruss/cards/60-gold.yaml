@@ -1,0 +1,23 @@
+number: "60"
+uuid: "9fc84841-3dca-4502-b59c-10107d2e2658"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "Sammy Sosa"
+    role: "Player"
+    team: "Chicago Cubs"
+card_name: "Sammy Sosa - Base - Gold"
+description: "Gold parallel of Base card featuring Sammy Sosa."
+series: "2026 Donruss"
+parallel: "Gold"
+print_run: 10
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: true
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/60-gold.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Donruss#Checklist"

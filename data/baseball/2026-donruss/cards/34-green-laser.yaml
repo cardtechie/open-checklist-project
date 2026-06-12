@@ -1,0 +1,22 @@
+number: "34"
+uuid: "6b715ca2-0f05-4917-a384-da79c84f9a98"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "Dave Winfield"
+    role: "Player"
+    team: "San Diego Padres"
+card_name: "Dave Winfield - Base - Green Laser"
+description: "Green Laser parallel of Base card featuring Dave Winfield."
+series: "2026 Donruss"
+parallel: "Green Laser"
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: false
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/34-green-laser.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Donruss#Checklist"

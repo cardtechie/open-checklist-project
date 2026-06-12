@@ -1,0 +1,23 @@
+number: "50"
+uuid: "173f9bd1-5a4a-41b7-b77b-ef057ea0337b"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "Rickey Henderson"
+    role: "Player"
+    team: "Oakland A's"
+card_name: "Rickey Henderson - Base - Green"
+description: "Green parallel of Base card featuring Rickey Henderson."
+series: "2026 Donruss"
+parallel: "Green"
+print_run: 199
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: true
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/50-green.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Donruss#Checklist"

@@ -1,0 +1,23 @@
+number: "16"
+uuid: "0cab622c-6c3f-453e-b0d4-a8846170e821"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "Ozzie Smith"
+    role: "Player"
+    team: "St. Louis Cardinals"
+card_name: "Ozzie Smith - Base - Gold Die Cut"
+description: "Gold Die Cut parallel of Base card featuring Ozzie Smith."
+series: "2026 Donruss"
+parallel: "Gold Die Cut"
+print_run: 25
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: true
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/16-gold-die-cut.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Donruss#Checklist"

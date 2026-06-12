@@ -1,0 +1,23 @@
+number: "69"
+uuid: "a80e1242-3504-4409-b27a-2f4d63df8b59"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "Robin Yount"
+    role: "Player"
+    team: "Milwaukee Brewers"
+card_name: "Robin Yount - Base - Artist Proof"
+description: "Artist Proof parallel of Base card featuring Robin Yount."
+series: "2026 Donruss"
+parallel: "Artist Proof"
+print_run: 25
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: true
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/69-artist-proof.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Donruss#Checklist"

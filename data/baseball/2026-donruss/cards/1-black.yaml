@@ -1,0 +1,23 @@
+number: "1"
+uuid: "f9d5fbf5-91bd-4e63-bd20-2a39c71d91e6"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "Ken Griffey Jr."
+    role: "Player"
+    team: "Seattle Mariners"
+card_name: "Ken Griffey Jr. - Base - Black"
+description: "Black parallel of Base card featuring Ken Griffey Jr.."
+series: "2026 Donruss"
+parallel: "Black"
+print_run: 1
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: true
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/1-black.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Donruss#Checklist"

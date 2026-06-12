@@ -1,0 +1,23 @@
+number: "50"
+uuid: "cad2c09a-b308-4802-bc32-0eff2377d0a5"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "Rickey Henderson"
+    role: "Player"
+    team: "Oakland A's"
+card_name: "Rickey Henderson - Base - Blue"
+description: "Blue parallel of Base card featuring Rickey Henderson."
+series: "2026 Donruss"
+parallel: "Blue"
+print_run: 149
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: true
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/50-blue.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Donruss#Checklist"

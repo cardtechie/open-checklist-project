@@ -1,0 +1,23 @@
+number: "67"
+uuid: "40e71601-1e56-477f-b2af-b8f5e30971a4"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "Bobby Witt Jr."
+    role: "Player"
+    team: "Kansas City Royals"
+card_name: "Bobby Witt Jr. - Base - Green"
+description: "Green parallel of Base card featuring Bobby Witt Jr.."
+series: "2026 Donruss"
+parallel: "Green"
+print_run: 199
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: true
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/67-green.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Donruss#Checklist"

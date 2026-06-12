@@ -1,0 +1,23 @@
+number: "48"
+uuid: "e56eb176-24c6-4a7b-9ce7-0e81b6feb3ac"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "Barry Larkin"
+    role: "Player"
+    team: "Cincinnati Reds"
+card_name: "Barry Larkin - Base - Gold"
+description: "Gold parallel of Base card featuring Barry Larkin."
+series: "2026 Donruss"
+parallel: "Gold"
+print_run: 10
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: true
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/48-gold.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Donruss#Checklist"

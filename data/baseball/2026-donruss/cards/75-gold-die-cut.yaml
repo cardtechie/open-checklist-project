@@ -1,0 +1,23 @@
+number: "75"
+uuid: "018df2f4-4ff8-44ed-978c-9d450322283b"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "Don Mattingly"
+    role: "Player"
+    team: "New York Yankees"
+card_name: "Don Mattingly - Base - Gold Die Cut"
+description: "Gold Die Cut parallel of Base card featuring Don Mattingly."
+series: "2026 Donruss"
+parallel: "Gold Die Cut"
+print_run: 25
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: true
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/75-gold-die-cut.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Donruss#Checklist"

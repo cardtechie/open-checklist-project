@@ -1,0 +1,23 @@
+number: "97"
+uuid: "b986c9b2-892e-4c25-9814-75c19e26517e"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "Cameron Schlittler"
+    role: "Player"
+    team: "New York Yankees"
+card_name: "Cameron Schlittler - Base - Blue"
+description: "Blue parallel of Base card featuring Cameron Schlittler."
+series: "2026 Donruss"
+parallel: "Blue"
+print_run: 149
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: true
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/97-blue.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Donruss#Checklist"

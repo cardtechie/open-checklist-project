@@ -1,0 +1,23 @@
+number: "95"
+uuid: "2006e9d6-f3d6-4019-b99c-af460aed47c1"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "Tony Lazzeri"
+    role: "Player"
+    team: "New York Yankees"
+card_name: "Tony Lazzeri - Base - Blue"
+description: "Blue parallel of Base card featuring Tony Lazzeri."
+series: "2026 Donruss"
+parallel: "Blue"
+print_run: 149
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: true
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/95-blue.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Donruss#Checklist"

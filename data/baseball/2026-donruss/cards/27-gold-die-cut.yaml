@@ -1,0 +1,23 @@
+number: "27"
+uuid: "fbed5b33-eb4e-4f57-9a3d-9defb562ec66"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "Deion Sanders"
+    role: "Player"
+    team: "Cincinnati Reds"
+card_name: "Deion Sanders - Base - Gold Die Cut"
+description: "Gold Die Cut parallel of Base card featuring Deion Sanders."
+series: "2026 Donruss"
+parallel: "Gold Die Cut"
+print_run: 25
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: true
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/27-gold-die-cut.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Donruss#Checklist"

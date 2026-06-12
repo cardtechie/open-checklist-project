@@ -1,0 +1,23 @@
+number: "76"
+uuid: "a2e5720c-2ac0-43f1-9455-60968378e99c"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "Heston Kjerstad"
+    role: "Player"
+    team: "Baltimore Orioles"
+card_name: "Heston Kjerstad - Base - Green"
+description: "Green parallel of Base card featuring Heston Kjerstad."
+series: "2026 Donruss"
+parallel: "Green"
+print_run: 199
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: true
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/76-green.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Donruss#Checklist"

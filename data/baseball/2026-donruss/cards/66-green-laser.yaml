@@ -1,0 +1,22 @@
+number: "66"
+uuid: "ed6c749a-bcb7-465c-8ac4-f149a019a012"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "Hideki Matsui"
+    role: "Player"
+    team: "New York Yankees"
+card_name: "Hideki Matsui - Base - Green Laser"
+description: "Green Laser parallel of Base card featuring Hideki Matsui."
+series: "2026 Donruss"
+parallel: "Green Laser"
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: false
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/66-green-laser.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Donruss#Checklist"

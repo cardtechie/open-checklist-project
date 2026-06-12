@@ -1,0 +1,23 @@
+number: "28"
+uuid: "b4fbee18-bdcd-4bdb-a4c3-193f3b759f5d"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "Matt Shaw"
+    role: "Player"
+    team: "Chicago Cubs"
+card_name: "Matt Shaw - Base - Gold Die Cut"
+description: "Gold Die Cut parallel of Base card featuring Matt Shaw."
+series: "2026 Donruss"
+parallel: "Gold Die Cut"
+print_run: 25
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: true
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/28-gold-die-cut.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Donruss#Checklist"

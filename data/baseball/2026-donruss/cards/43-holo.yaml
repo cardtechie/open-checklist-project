@@ -1,0 +1,22 @@
+number: "43"
+uuid: "8b766616-0f63-4f82-8017-eb0105649da8"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "Jimmie Foxx"
+    role: "Player"
+    team: "Philadelphia Athletics"
+card_name: "Jimmie Foxx - Base - Holo"
+description: "Holo parallel of Base card featuring Jimmie Foxx."
+series: "2026 Donruss"
+parallel: "Holo"
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: false
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/43-holo.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Donruss#Checklist"

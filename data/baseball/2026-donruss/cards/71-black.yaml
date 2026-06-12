@@ -1,0 +1,23 @@
+number: "71"
+uuid: "b65c2852-bc46-4f01-a87a-187ccd074cb8"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "Elston Howard"
+    role: "Player"
+    team: "New York Yankees"
+card_name: "Elston Howard - Base - Black"
+description: "Black parallel of Base card featuring Elston Howard."
+series: "2026 Donruss"
+parallel: "Black"
+print_run: 1
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: true
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/71-black.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Donruss#Checklist"

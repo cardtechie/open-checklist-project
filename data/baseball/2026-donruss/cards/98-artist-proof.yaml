@@ -1,0 +1,23 @@
+number: "98"
+uuid: "c8cb3a76-c587-435f-990e-9e267e326db9"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "Trevor Hoffman"
+    role: "Player"
+    team: "San Diego Padres"
+card_name: "Trevor Hoffman - Base - Artist Proof"
+description: "Artist Proof parallel of Base card featuring Trevor Hoffman."
+series: "2026 Donruss"
+parallel: "Artist Proof"
+print_run: 25
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: true
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/98-artist-proof.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Donruss#Checklist"

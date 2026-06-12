@@ -1,0 +1,22 @@
+number: "57"
+uuid: "8e3b881f-4395-4bc3-a2d6-98fac210d866"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "Roger Clemens"
+    role: "Player"
+    team: "Boston Red Sox"
+card_name: "Roger Clemens - Base - Holo"
+description: "Holo parallel of Base card featuring Roger Clemens."
+series: "2026 Donruss"
+parallel: "Holo"
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: false
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/57-holo.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Donruss#Checklist"

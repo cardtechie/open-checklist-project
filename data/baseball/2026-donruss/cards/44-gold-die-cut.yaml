@@ -1,0 +1,23 @@
+number: "44"
+uuid: "097a46e0-faa5-4e4b-b27f-4566a080fb65"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "Vladimir Guerrero"
+    role: "Player"
+    team: "Anaheim Angels"
+card_name: "Vladimir Guerrero - Base - Gold Die Cut"
+description: "Gold Die Cut parallel of Base card featuring Vladimir Guerrero."
+series: "2026 Donruss"
+parallel: "Gold Die Cut"
+print_run: 25
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: true
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/44-gold-die-cut.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Donruss#Checklist"

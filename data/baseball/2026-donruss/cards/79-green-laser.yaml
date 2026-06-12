@@ -1,0 +1,22 @@
+number: "79"
+uuid: "9e4081e3-4389-41a4-98d3-8c013a06c63a"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "Carlton Fisk"
+    role: "Player"
+    team: "Boston Red Sox"
+card_name: "Carlton Fisk - Base - Green Laser"
+description: "Green Laser parallel of Base card featuring Carlton Fisk."
+series: "2026 Donruss"
+parallel: "Green Laser"
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: false
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/79-green-laser.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Donruss#Checklist"

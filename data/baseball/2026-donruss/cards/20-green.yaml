@@ -1,0 +1,23 @@
+number: "20"
+uuid: "006db990-70d2-4120-a56d-207885f072ec"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "David Wright"
+    role: "Player"
+    team: "New York Mets"
+card_name: "David Wright - Base - Green"
+description: "Green parallel of Base card featuring David Wright."
+series: "2026 Donruss"
+parallel: "Green"
+print_run: 199
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: true
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/20-green.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Donruss#Checklist"

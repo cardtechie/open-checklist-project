@@ -1,0 +1,23 @@
+number: "23"
+uuid: "2eba5419-ba24-453b-84cf-ddf8aceb4fee"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "Randy Johnson"
+    role: "Player"
+    team: "Seattle Mariners"
+card_name: "Randy Johnson - Base - Gold Die Cut"
+description: "Gold Die Cut parallel of Base card featuring Randy Johnson."
+series: "2026 Donruss"
+parallel: "Gold Die Cut"
+print_run: 25
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: true
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/23-gold-die-cut.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Donruss#Checklist"

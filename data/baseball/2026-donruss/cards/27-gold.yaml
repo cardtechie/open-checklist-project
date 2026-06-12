@@ -1,0 +1,23 @@
+number: "27"
+uuid: "f3201b2f-ec8d-486d-a7f4-f393f833bb54"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "Deion Sanders"
+    role: "Player"
+    team: "Cincinnati Reds"
+card_name: "Deion Sanders - Base - Gold"
+description: "Gold parallel of Base card featuring Deion Sanders."
+series: "2026 Donruss"
+parallel: "Gold"
+print_run: 10
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: true
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/27-gold.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Donruss#Checklist"

@@ -1,0 +1,23 @@
+number: "88"
+uuid: "2ce15ce9-2c26-4b0d-8464-4c706f1d9fe7"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "Mariano Rivera"
+    role: "Player"
+    team: "New York Yankees"
+card_name: "Mariano Rivera - Base - Artist Proof Black"
+description: "Artist Proof Black parallel of Base card featuring Mariano Rivera."
+series: "2026 Donruss"
+parallel: "Artist Proof Black"
+print_run: 1
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: true
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/88-artist-proof-black.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Donruss#Checklist"

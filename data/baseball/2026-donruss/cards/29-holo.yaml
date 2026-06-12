@@ -1,0 +1,22 @@
+number: "29"
+uuid: "a0e91ea6-99e6-4309-954f-46d20e508584"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "Chandler Simpson"
+    role: "Player"
+    team: "Tampa Bay Rays"
+card_name: "Chandler Simpson - Base - Holo"
+description: "Holo parallel of Base card featuring Chandler Simpson."
+series: "2026 Donruss"
+parallel: "Holo"
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: false
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/29-holo.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Donruss#Checklist"

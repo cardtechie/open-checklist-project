@@ -1,0 +1,23 @@
+number: "38"
+uuid: "ae55fe8c-4fb3-43b0-98d7-a8722da5d939"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "Brice Matthews"
+    role: "Player"
+    team: "Houston Astros"
+card_name: "Brice Matthews - Base - Gold"
+description: "Gold parallel of Base card featuring Brice Matthews."
+series: "2026 Donruss"
+parallel: "Gold"
+print_run: 10
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: true
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/38-gold.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Donruss#Checklist"

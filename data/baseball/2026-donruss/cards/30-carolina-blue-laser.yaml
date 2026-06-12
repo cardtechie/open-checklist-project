@@ -1,0 +1,23 @@
+number: "30"
+uuid: "77581d0a-33b1-437a-955f-2c88970f542c"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "Luke Keaschall"
+    role: "Player"
+    team: "Minnesota Twins"
+card_name: "Luke Keaschall - Base - Carolina Blue Laser"
+description: "Carolina Blue Laser parallel of Base card featuring Luke Keaschall."
+series: "2026 Donruss"
+parallel: "Carolina Blue Laser"
+print_run: 249
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: true
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/30-carolina-blue-laser.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Donruss#Checklist"

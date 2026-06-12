@@ -1,0 +1,23 @@
+number: "42"
+uuid: "58b16cfe-cd3a-477f-9728-75b1502e8365"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "Tatsuya Imai"
+    role: "Player"
+    team: "Houston Astros"
+card_name: "Tatsuya Imai - Base - Carolina Blue Laser"
+description: "Carolina Blue Laser parallel of Base card featuring Tatsuya Imai."
+series: "2026 Donruss"
+parallel: "Carolina Blue Laser"
+print_run: 249
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: true
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/42-carolina-blue-laser.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Donruss#Checklist"

@@ -1,0 +1,23 @@
+number: "28"
+uuid: "56a69415-46cf-49e4-a27f-6c01c852c742"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "Matt Shaw"
+    role: "Player"
+    team: "Chicago Cubs"
+card_name: "Matt Shaw - Base - Gold"
+description: "Gold parallel of Base card featuring Matt Shaw."
+series: "2026 Donruss"
+parallel: "Gold"
+print_run: 10
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: true
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/28-gold.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Donruss#Checklist"

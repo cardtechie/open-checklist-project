@@ -1,0 +1,23 @@
+number: "86"
+uuid: "4d1437aa-4cb5-477a-8354-5e81bcc8c646"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "Dwight Gooden"
+    role: "Player"
+    team: "New York Mets"
+card_name: "Dwight Gooden - Base - Green"
+description: "Green parallel of Base card featuring Dwight Gooden."
+series: "2026 Donruss"
+parallel: "Green"
+print_run: 199
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: true
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/86-green.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Donruss#Checklist"

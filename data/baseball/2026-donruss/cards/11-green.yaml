@@ -1,0 +1,23 @@
+number: "11"
+uuid: "7468f84c-603b-4755-a60a-b9e481c776ff"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "David Ortiz"
+    role: "Player"
+    team: "Boston Red Sox"
+card_name: "David Ortiz - Base - Green"
+description: "Green parallel of Base card featuring David Ortiz."
+series: "2026 Donruss"
+parallel: "Green"
+print_run: 199
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: true
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/11-green.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Donruss#Checklist"

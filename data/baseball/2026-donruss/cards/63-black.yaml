@@ -1,0 +1,23 @@
+number: "63"
+uuid: "2643ceb0-8c79-4df9-96d4-077a68df84cd"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "Pie Traynor"
+    role: "Player"
+    team: "Pittsburgh Pirates"
+card_name: "Pie Traynor - Base - Black"
+description: "Black parallel of Base card featuring Pie Traynor."
+series: "2026 Donruss"
+parallel: "Black"
+print_run: 1
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: true
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/63-black.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Donruss#Checklist"

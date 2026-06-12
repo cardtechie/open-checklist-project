@@ -1,0 +1,23 @@
+number: "17"
+uuid: "718076ea-7163-4181-8441-f4c3290665ab"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "Reggie Jackson"
+    role: "Player"
+    team: "New York Yankees"
+card_name: "Reggie Jackson - Base - Artist Proof"
+description: "Artist Proof parallel of Base card featuring Reggie Jackson."
+series: "2026 Donruss"
+parallel: "Artist Proof"
+print_run: 25
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: true
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/17-artist-proof.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Donruss#Checklist"

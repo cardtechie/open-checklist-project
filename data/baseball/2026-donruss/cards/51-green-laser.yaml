@@ -1,0 +1,22 @@
+number: "51"
+uuid: "851bd29e-0033-4bac-8b6c-552250d0a9a4"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "Madison Bumgarner"
+    role: "Player"
+    team: "San Francisco Giants"
+card_name: "Madison Bumgarner - Base - Green Laser"
+description: "Green Laser parallel of Base card featuring Madison Bumgarner."
+series: "2026 Donruss"
+parallel: "Green Laser"
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: false
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/51-green-laser.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Donruss#Checklist"

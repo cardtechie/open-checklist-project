@@ -1,0 +1,22 @@
+number: "3"
+uuid: "39c7627a-d2c0-4ba0-952e-0d8238cc8701"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "Chase DeLauter"
+    role: "Player"
+    team: "Cleveland Guardians"
+card_name: "Chase DeLauter - Base - Green Laser"
+description: "Green Laser parallel of Base card featuring Chase DeLauter."
+series: "2026 Donruss"
+parallel: "Green Laser"
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: false
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/3-green-laser.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Donruss#Checklist"

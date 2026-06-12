@@ -1,0 +1,23 @@
+number: "81"
+uuid: "715bf0ad-6411-4a27-b7fe-cf69f754ad67"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "Cam Smith"
+    role: "Player"
+    team: "Houston Astros"
+card_name: "Cam Smith - Base - Artist Proof"
+description: "Artist Proof parallel of Base card featuring Cam Smith."
+series: "2026 Donruss"
+parallel: "Artist Proof"
+print_run: 25
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: true
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/81-artist-proof.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Donruss#Checklist"

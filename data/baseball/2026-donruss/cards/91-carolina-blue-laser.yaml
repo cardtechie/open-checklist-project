@@ -1,0 +1,23 @@
+number: "91"
+uuid: "43c5167a-90b7-4089-9adf-4c8a7862aa20"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "George Brett"
+    role: "Player"
+    team: "Kansas City Royals"
+card_name: "George Brett - Base - Carolina Blue Laser"
+description: "Carolina Blue Laser parallel of Base card featuring George Brett."
+series: "2026 Donruss"
+parallel: "Carolina Blue Laser"
+print_run: 249
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: true
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/91-carolina-blue-laser.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Donruss#Checklist"

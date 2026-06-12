@@ -1,0 +1,23 @@
+number: "72"
+uuid: "86df73e4-f653-40b9-99c2-68e698460634"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "Michael Young"
+    role: "Player"
+    team: "Texas Rangers"
+card_name: "Michael Young - Base - Blue"
+description: "Blue parallel of Base card featuring Michael Young."
+series: "2026 Donruss"
+parallel: "Blue"
+print_run: 149
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: true
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/72-blue.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Donruss#Checklist"

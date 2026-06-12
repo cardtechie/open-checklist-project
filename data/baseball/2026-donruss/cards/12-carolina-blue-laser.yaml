@@ -1,0 +1,23 @@
+number: "12"
+uuid: "aa2965a8-047e-4095-af10-4d3cb1da62b8"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "Miguel Cabrera"
+    role: "Player"
+    team: "Detroit Tigers"
+card_name: "Miguel Cabrera - Base - Carolina Blue Laser"
+description: "Carolina Blue Laser parallel of Base card featuring Miguel Cabrera."
+series: "2026 Donruss"
+parallel: "Carolina Blue Laser"
+print_run: 249
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: true
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/12-carolina-blue-laser.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Donruss#Checklist"

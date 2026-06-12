@@ -1,0 +1,22 @@
+number: "3"
+uuid: "6c6292c7-c015-4f9d-ab13-841640bbb006"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "Chase DeLauter"
+    role: "Player"
+    team: "Cleveland Guardians"
+card_name: "Chase DeLauter - Base - Holo"
+description: "Holo parallel of Base card featuring Chase DeLauter."
+series: "2026 Donruss"
+parallel: "Holo"
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: false
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/3-holo.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Donruss#Checklist"

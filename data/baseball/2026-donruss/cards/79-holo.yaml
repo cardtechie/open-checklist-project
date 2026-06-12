@@ -1,0 +1,22 @@
+number: "79"
+uuid: "8c138cb1-33fb-45ad-b887-de722183dd39"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "Carlton Fisk"
+    role: "Player"
+    team: "Boston Red Sox"
+card_name: "Carlton Fisk - Base - Holo"
+description: "Holo parallel of Base card featuring Carlton Fisk."
+series: "2026 Donruss"
+parallel: "Holo"
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: false
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/79-holo.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Donruss#Checklist"

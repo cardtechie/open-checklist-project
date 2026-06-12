@@ -1,0 +1,23 @@
+number: "82"
+uuid: "7a2f1888-c041-4da4-96e6-8d433431215f"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "Bo Jackson"
+    role: "Player"
+    team: "Kansas City Royals"
+card_name: "Bo Jackson - Base - Gold"
+description: "Gold parallel of Base card featuring Bo Jackson."
+series: "2026 Donruss"
+parallel: "Gold"
+print_run: 10
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: true
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/82-gold.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Donruss#Checklist"

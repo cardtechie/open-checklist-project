@@ -1,0 +1,23 @@
+number: "14"
+uuid: "25282ef0-bbc5-40fa-a9d4-0a0bcf154577"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "Cal Ripken"
+    role: "Player"
+    team: "Baltimore Orioles"
+card_name: "Cal Ripken - Base - Artist Proof"
+description: "Artist Proof parallel of Base card featuring Cal Ripken."
+series: "2026 Donruss"
+parallel: "Artist Proof"
+print_run: 25
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: true
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/14-artist-proof.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Donruss#Checklist"

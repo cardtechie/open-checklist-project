@@ -1,0 +1,23 @@
+number: "29"
+uuid: "0fad4d1b-d5a2-42df-9e4e-1a52295579b1"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "Chandler Simpson"
+    role: "Player"
+    team: "Tampa Bay Rays"
+card_name: "Chandler Simpson - Base - Gold"
+description: "Gold parallel of Base card featuring Chandler Simpson."
+series: "2026 Donruss"
+parallel: "Gold"
+print_run: 10
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: true
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/29-gold.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Donruss#Checklist"

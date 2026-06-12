@@ -1,0 +1,23 @@
+number: "89"
+uuid: "ba9f29e5-9a59-458d-bb5e-ca8f3d0e86bc"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "Kristian Campbell"
+    role: "Player"
+    team: "Boston Red Sox"
+card_name: "Kristian Campbell - Base - Black"
+description: "Black parallel of Base card featuring Kristian Campbell."
+series: "2026 Donruss"
+parallel: "Black"
+print_run: 1
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: true
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/89-black.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Donruss#Checklist"

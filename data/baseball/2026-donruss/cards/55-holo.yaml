@@ -1,0 +1,22 @@
+number: "55"
+uuid: "4464c85b-67f2-4d20-8e8f-198d5a3eaa7f"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "Frank Chance"
+    role: "Player"
+    team: "Chicago Cubs"
+card_name: "Frank Chance - Base - Holo"
+description: "Holo parallel of Base card featuring Frank Chance."
+series: "2026 Donruss"
+parallel: "Holo"
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: false
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/55-holo.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Donruss#Checklist"

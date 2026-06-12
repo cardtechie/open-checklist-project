@@ -1,0 +1,23 @@
+number: "7"
+uuid: "5890c812-3669-4e42-9746-473273dfa5d2"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "Rhett Lowder"
+    role: "Player"
+    team: "Cincinnati Reds"
+card_name: "Rhett Lowder - Base - Green"
+description: "Green parallel of Base card featuring Rhett Lowder."
+series: "2026 Donruss"
+parallel: "Green"
+print_run: 199
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: true
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/7-green.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Donruss#Checklist"

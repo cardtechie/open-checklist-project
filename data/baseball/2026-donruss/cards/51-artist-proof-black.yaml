@@ -1,0 +1,23 @@
+number: "51"
+uuid: "2c98da25-19d8-4a83-afd4-5b2f581b57ba"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "Madison Bumgarner"
+    role: "Player"
+    team: "San Francisco Giants"
+card_name: "Madison Bumgarner - Base - Artist Proof Black"
+description: "Artist Proof Black parallel of Base card featuring Madison Bumgarner."
+series: "2026 Donruss"
+parallel: "Artist Proof Black"
+print_run: 1
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: true
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/51-artist-proof-black.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Donruss#Checklist"

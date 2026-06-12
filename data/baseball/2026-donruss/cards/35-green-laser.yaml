@@ -1,0 +1,22 @@
+number: "35"
+uuid: "d34fa6ca-7944-4a3f-9aba-96e49ed914f2"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "Darryl Strawberry"
+    role: "Player"
+    team: "New York Mets"
+card_name: "Darryl Strawberry - Base - Green Laser"
+description: "Green Laser parallel of Base card featuring Darryl Strawberry."
+series: "2026 Donruss"
+parallel: "Green Laser"
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: false
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/35-green-laser.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Donruss#Checklist"

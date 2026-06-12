@@ -1,0 +1,22 @@
+number: "15"
+uuid: "88fdd6ff-1411-4d2e-bc0a-53b92f3a9c59"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "Sung-Mun Song"
+    role: "Player"
+    team: "San Diego Padres"
+card_name: "Sung-Mun Song - Base - Holo"
+description: "Holo parallel of Base card featuring Sung-Mun Song."
+series: "2026 Donruss"
+parallel: "Holo"
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: false
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/15-holo.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Donruss#Checklist"

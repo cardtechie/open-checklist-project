@@ -1,0 +1,23 @@
+number: "23"
+uuid: "b975e2c4-0e5d-479c-9109-a9c93e2bf1e0"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "Randy Johnson"
+    role: "Player"
+    team: "Seattle Mariners"
+card_name: "Randy Johnson - Base - Black"
+description: "Black parallel of Base card featuring Randy Johnson."
+series: "2026 Donruss"
+parallel: "Black"
+print_run: 1
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: true
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/23-black.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Donruss#Checklist"

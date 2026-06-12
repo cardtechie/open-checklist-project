@@ -1,0 +1,22 @@
+number: "65"
+uuid: "a92a26cb-cc99-4c86-9d56-3606a58f1cc5"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "Yogi Berra"
+    role: "Player"
+    team: "New York Yankees"
+card_name: "Yogi Berra - Base - Green Laser"
+description: "Green Laser parallel of Base card featuring Yogi Berra."
+series: "2026 Donruss"
+parallel: "Green Laser"
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: false
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/65-green-laser.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Donruss#Checklist"

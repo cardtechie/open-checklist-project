@@ -1,0 +1,23 @@
+number: "89"
+uuid: "add3eb15-7ffe-4781-bb1a-49a90e505ddb"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "Kristian Campbell"
+    role: "Player"
+    team: "Boston Red Sox"
+card_name: "Kristian Campbell - Base - Artist Proof Black"
+description: "Artist Proof Black parallel of Base card featuring Kristian Campbell."
+series: "2026 Donruss"
+parallel: "Artist Proof Black"
+print_run: 1
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: true
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/89-artist-proof-black.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Donruss#Checklist"

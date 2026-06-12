@@ -1,0 +1,23 @@
+number: "59"
+uuid: "b5783328-da54-4e7b-a6b0-78a53216749b"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "Alex Rodriguez"
+    role: "Player"
+    team: "Texas Rangers"
+card_name: "Alex Rodriguez - Base - Blue"
+description: "Blue parallel of Base card featuring Alex Rodriguez."
+series: "2026 Donruss"
+parallel: "Blue"
+print_run: 149
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: true
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/59-blue.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Donruss#Checklist"

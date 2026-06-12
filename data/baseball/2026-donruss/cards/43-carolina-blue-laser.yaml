@@ -1,0 +1,23 @@
+number: "43"
+uuid: "e14cbc04-2cc9-4119-8eff-db4f9f794192"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "Jimmie Foxx"
+    role: "Player"
+    team: "Philadelphia Athletics"
+card_name: "Jimmie Foxx - Base - Carolina Blue Laser"
+description: "Carolina Blue Laser parallel of Base card featuring Jimmie Foxx."
+series: "2026 Donruss"
+parallel: "Carolina Blue Laser"
+print_run: 249
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: true
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/43-carolina-blue-laser.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Donruss#Checklist"

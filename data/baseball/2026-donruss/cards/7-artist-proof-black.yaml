@@ -1,0 +1,23 @@
+number: "7"
+uuid: "891db981-da8d-4204-ab79-1359209af44e"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "Rhett Lowder"
+    role: "Player"
+    team: "Cincinnati Reds"
+card_name: "Rhett Lowder - Base - Artist Proof Black"
+description: "Artist Proof Black parallel of Base card featuring Rhett Lowder."
+series: "2026 Donruss"
+parallel: "Artist Proof Black"
+print_run: 1
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: true
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/7-artist-proof-black.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Donruss#Checklist"

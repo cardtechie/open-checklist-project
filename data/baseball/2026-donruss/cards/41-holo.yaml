@@ -1,0 +1,22 @@
+number: "41"
+uuid: "8d2f896b-7391-4729-9163-7098c6b66c51"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "Felix Hernandez"
+    role: "Player"
+    team: "Seattle Mariners"
+card_name: "Felix Hernandez - Base - Holo"
+description: "Holo parallel of Base card featuring Felix Hernandez."
+series: "2026 Donruss"
+parallel: "Holo"
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: false
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/41-holo.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Donruss#Checklist"

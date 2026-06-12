@@ -1,0 +1,23 @@
+number: "19"
+uuid: "e664a4f3-c9b5-4419-bbd8-cefdb64266e6"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "Dick Allen"
+    role: "Player"
+    team: "Chicago White Sox"
+card_name: "Dick Allen - Base - Blue"
+description: "Blue parallel of Base card featuring Dick Allen."
+series: "2026 Donruss"
+parallel: "Blue"
+print_run: 149
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: true
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/19-blue.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Donruss#Checklist"

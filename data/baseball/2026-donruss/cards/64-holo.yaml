@@ -1,0 +1,22 @@
+number: "64"
+uuid: "73c2c3fa-ceef-4612-999e-11e57bb62456"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "Ivan Rodriguez"
+    role: "Player"
+    team: "Texas Rangers"
+card_name: "Ivan Rodriguez - Base - Holo"
+description: "Holo parallel of Base card featuring Ivan Rodriguez."
+series: "2026 Donruss"
+parallel: "Holo"
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: false
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/64-holo.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Donruss#Checklist"

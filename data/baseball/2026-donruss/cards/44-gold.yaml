@@ -1,0 +1,23 @@
+number: "44"
+uuid: "55c27b6f-8818-4ce0-8dbc-84f50ef956dc"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "Vladimir Guerrero"
+    role: "Player"
+    team: "Anaheim Angels"
+card_name: "Vladimir Guerrero - Base - Gold"
+description: "Gold parallel of Base card featuring Vladimir Guerrero."
+series: "2026 Donruss"
+parallel: "Gold"
+print_run: 10
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: true
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/44-gold.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Donruss#Checklist"

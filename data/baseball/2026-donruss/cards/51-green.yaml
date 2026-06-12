@@ -1,0 +1,23 @@
+number: "51"
+uuid: "34a52c92-e8d3-40ea-90d5-f2819d984033"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "Madison Bumgarner"
+    role: "Player"
+    team: "San Francisco Giants"
+card_name: "Madison Bumgarner - Base - Green"
+description: "Green parallel of Base card featuring Madison Bumgarner."
+series: "2026 Donruss"
+parallel: "Green"
+print_run: 199
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: true
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/51-green.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Donruss#Checklist"

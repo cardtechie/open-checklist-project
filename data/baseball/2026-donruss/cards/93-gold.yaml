@@ -1,0 +1,23 @@
+number: "93"
+uuid: "a634f46c-5131-401c-9dae-9aa91f6f133c"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "Mike Piazza"
+    role: "Player"
+    team: "New York Mets"
+card_name: "Mike Piazza - Base - Gold"
+description: "Gold parallel of Base card featuring Mike Piazza."
+series: "2026 Donruss"
+parallel: "Gold"
+print_run: 10
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: true
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/93-gold.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Donruss#Checklist"

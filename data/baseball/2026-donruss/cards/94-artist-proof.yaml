@@ -1,0 +1,23 @@
+number: "94"
+uuid: "0200ad6a-0839-4249-803c-445a30505ffa"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "Payton Tolle"
+    role: "Player"
+    team: "Boston Red Sox"
+card_name: "Payton Tolle - Base - Artist Proof"
+description: "Artist Proof parallel of Base card featuring Payton Tolle."
+series: "2026 Donruss"
+parallel: "Artist Proof"
+print_run: 25
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: true
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/94-artist-proof.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Donruss#Checklist"

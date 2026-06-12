@@ -1,0 +1,23 @@
+number: "22"
+uuid: "d306d5a4-276c-4249-ba27-d2c6d4552fa2"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "Tony Perez"
+    role: "Player"
+    team: "Cincinnati Reds"
+card_name: "Tony Perez - Base - Green"
+description: "Green parallel of Base card featuring Tony Perez."
+series: "2026 Donruss"
+parallel: "Green"
+print_run: 199
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: true
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/22-green.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Donruss#Checklist"

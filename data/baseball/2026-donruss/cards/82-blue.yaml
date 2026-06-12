@@ -1,0 +1,23 @@
+number: "82"
+uuid: "16a2a930-e585-4d04-9a82-744111c8ad83"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "Bo Jackson"
+    role: "Player"
+    team: "Kansas City Royals"
+card_name: "Bo Jackson - Base - Blue"
+description: "Blue parallel of Base card featuring Bo Jackson."
+series: "2026 Donruss"
+parallel: "Blue"
+print_run: 149
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: true
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/82-blue.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Donruss#Checklist"

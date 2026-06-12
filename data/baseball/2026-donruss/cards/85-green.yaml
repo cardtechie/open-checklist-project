@@ -1,0 +1,23 @@
+number: "85"
+uuid: "9878e3f2-c136-496b-be5f-f8fe207fdd33"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "Chipper Jones"
+    role: "Player"
+    team: "Atlanta Braves"
+card_name: "Chipper Jones - Base - Green"
+description: "Green parallel of Base card featuring Chipper Jones."
+series: "2026 Donruss"
+parallel: "Green"
+print_run: 199
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: true
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/85-green.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Donruss#Checklist"

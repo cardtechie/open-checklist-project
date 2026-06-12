@@ -1,0 +1,23 @@
+number: "33"
+uuid: "f95fa238-26fb-43f4-ac12-448c61d6af2d"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "Carter Jensen"
+    role: "Player"
+    team: "Kansas City Royals"
+card_name: "Carter Jensen - Base - Carolina Blue Laser"
+description: "Carolina Blue Laser parallel of Base card featuring Carter Jensen."
+series: "2026 Donruss"
+parallel: "Carolina Blue Laser"
+print_run: 249
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: true
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/33-carolina-blue-laser.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Donruss#Checklist"

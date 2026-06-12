@@ -1,0 +1,23 @@
+number: "4"
+uuid: "f859c32b-1560-4c5a-b1e6-5fff9648d82a"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "Byung-Hyun Kim"
+    role: "Player"
+    team: "Arizona Diamondbacks"
+card_name: "Byung-Hyun Kim - Base - Gold"
+description: "Gold parallel of Base card featuring Byung-Hyun Kim."
+series: "2026 Donruss"
+parallel: "Gold"
+print_run: 10
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: true
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/4-gold.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Donruss#Checklist"

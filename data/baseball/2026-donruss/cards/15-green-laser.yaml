@@ -1,0 +1,22 @@
+number: "15"
+uuid: "1004c547-4a9d-41f2-94a8-5e9ab136a89a"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "Sung-Mun Song"
+    role: "Player"
+    team: "San Diego Padres"
+card_name: "Sung-Mun Song - Base - Green Laser"
+description: "Green Laser parallel of Base card featuring Sung-Mun Song."
+series: "2026 Donruss"
+parallel: "Green Laser"
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: false
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/15-green-laser.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Donruss#Checklist"

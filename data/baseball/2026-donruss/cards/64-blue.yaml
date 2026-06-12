@@ -1,0 +1,23 @@
+number: "64"
+uuid: "f20f9c2c-1174-4c6a-a417-3f6e432a8a91"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "Ivan Rodriguez"
+    role: "Player"
+    team: "Texas Rangers"
+card_name: "Ivan Rodriguez - Base - Blue"
+description: "Blue parallel of Base card featuring Ivan Rodriguez."
+series: "2026 Donruss"
+parallel: "Blue"
+print_run: 149
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: true
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/64-blue.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Donruss#Checklist"

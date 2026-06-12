@@ -1,0 +1,23 @@
+number: "2"
+uuid: "b674c186-77e6-4489-b11e-3eef5f68394c"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "Johnny Bench"
+    role: "Player"
+    team: "Cincinnati Reds"
+card_name: "Johnny Bench - Base - Artist Proof Black"
+description: "Artist Proof Black parallel of Base card featuring Johnny Bench."
+series: "2026 Donruss"
+parallel: "Artist Proof Black"
+print_run: 1
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: true
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/2-artist-proof-black.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Donruss#Checklist"

@@ -1,0 +1,23 @@
+number: "54"
+uuid: "6fc9e8d6-27e0-4ff9-8036-f83901487c16"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "Josh Hamilton"
+    role: "Player"
+    team: "Texas Rangers"
+card_name: "Josh Hamilton - Base - Blue"
+description: "Blue parallel of Base card featuring Josh Hamilton."
+series: "2026 Donruss"
+parallel: "Blue"
+print_run: 149
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: true
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/54-blue.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Donruss#Checklist"

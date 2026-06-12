@@ -1,0 +1,23 @@
+number: "20"
+uuid: "58275999-67d7-428a-b755-4c401322d8d1"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "David Wright"
+    role: "Player"
+    team: "New York Mets"
+card_name: "David Wright - Base - Gold"
+description: "Gold parallel of Base card featuring David Wright."
+series: "2026 Donruss"
+parallel: "Gold"
+print_run: 10
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: true
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/20-gold.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Donruss#Checklist"

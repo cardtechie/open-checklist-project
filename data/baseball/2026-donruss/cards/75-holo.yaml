@@ -1,0 +1,22 @@
+number: "75"
+uuid: "68f4b13d-5b39-482c-acae-6e3f743ff055"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "Don Mattingly"
+    role: "Player"
+    team: "New York Yankees"
+card_name: "Don Mattingly - Base - Holo"
+description: "Holo parallel of Base card featuring Don Mattingly."
+series: "2026 Donruss"
+parallel: "Holo"
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: false
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/75-holo.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Donruss#Checklist"

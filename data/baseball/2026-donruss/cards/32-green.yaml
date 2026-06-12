@@ -1,0 +1,23 @@
+number: "32"
+uuid: "e871c55c-b065-470d-99e3-693d2158aab4"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "Nolan Ryan"
+    role: "Player"
+    team: "Texas Rangers"
+card_name: "Nolan Ryan - Base - Green"
+description: "Green parallel of Base card featuring Nolan Ryan."
+series: "2026 Donruss"
+parallel: "Green"
+print_run: 199
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: true
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/32-green.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Donruss#Checklist"

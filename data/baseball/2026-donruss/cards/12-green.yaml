@@ -1,0 +1,23 @@
+number: "12"
+uuid: "100a1d07-e39e-4c2e-b6d5-890df98fd734"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "Miguel Cabrera"
+    role: "Player"
+    team: "Detroit Tigers"
+card_name: "Miguel Cabrera - Base - Green"
+description: "Green parallel of Base card featuring Miguel Cabrera."
+series: "2026 Donruss"
+parallel: "Green"
+print_run: 199
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: true
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/12-green.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Donruss#Checklist"

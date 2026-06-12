@@ -1,0 +1,23 @@
+number: "91"
+uuid: "c5d351db-3e17-4c0b-b696-6e5c6f2a087b"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "George Brett"
+    role: "Player"
+    team: "Kansas City Royals"
+card_name: "George Brett - Base - Blue"
+description: "Blue parallel of Base card featuring George Brett."
+series: "2026 Donruss"
+parallel: "Blue"
+print_run: 149
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: true
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/91-blue.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Donruss#Checklist"
