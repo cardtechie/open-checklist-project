@@ -1,0 +1,23 @@
+number: "CPA-API"
+uuid: "d159131c-c96f-4b86-8f74-ff35009769f2"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2025-26-topps-chrome-platinum"
+subjects:
+  - name: "AJ Pierzynski"
+    role: "Player"
+    team: "Chicago White Sox"
+subset: "Chrome Platinum Autographs"
+card_name: "AJ Pierzynski - Chrome Platinum Autographs - SuperFractor"
+description: "SuperFractor parallel of Autographed Chrome Platinum Autographs card featuring AJ Pierzynski."
+series: "Topps Chrome Platinum Anniversary"
+parallel: "SuperFractor"
+print_run: 1
+rookie_card: false
+autograph: true
+serial_numbered: true
+release_date: "2026-06-05"
+image_url: "https://example.com/cards/2025-26-topps-chrome-platinum/chrome-platinum-autographs-CPA-API-superfractor.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2025-26_Topps_Chrome_Platinum#Checklist"

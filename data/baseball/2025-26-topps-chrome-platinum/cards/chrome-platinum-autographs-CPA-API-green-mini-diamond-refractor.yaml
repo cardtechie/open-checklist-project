@@ -1,0 +1,23 @@
+number: "CPA-API"
+uuid: "7a43241e-f1e7-4fa5-8c1e-e443124f8e6c"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2025-26-topps-chrome-platinum"
+subjects:
+  - name: "AJ Pierzynski"
+    role: "Player"
+    team: "Chicago White Sox"
+subset: "Chrome Platinum Autographs"
+card_name: "AJ Pierzynski - Chrome Platinum Autographs - Green Mini-Diamond Refractor"
+description: "Green Mini-Diamond Refractor parallel of Autographed Chrome Platinum Autographs card featuring AJ Pierzynski."
+series: "Topps Chrome Platinum Anniversary"
+parallel: "Green Mini-Diamond Refractor"
+print_run: 75
+rookie_card: false
+autograph: true
+serial_numbered: true
+release_date: "2026-06-05"
+image_url: "https://example.com/cards/2025-26-topps-chrome-platinum/chrome-platinum-autographs-CPA-API-green-mini-diamond-refractor.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2025-26_Topps_Chrome_Platinum#Checklist"
