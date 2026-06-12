@@ -1,0 +1,23 @@
+number: "628"
+uuid: "52986684-0d35-4121-98b6-e9ca9407ef9a"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-topps-series-2"
+subjects:
+  - name: "New York Yankees"
+    role: "Team"
+    team: "New York Yankees"
+card_name: "New York Yankees - Base - Black"
+description: "Black parallel of Base card featuring New York Yankees."
+series: "2026 Topps Baseball"
+parallel: "Black"
+print_run: 75
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: true
+release_date: "2026-06-11"
+image_url: "https://example.com/cards/2026-topps-series-2/628-black.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Topps#Insertion_Ratios"

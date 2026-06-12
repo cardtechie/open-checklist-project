@@ -1,0 +1,23 @@
+number: "625"
+uuid: "f3e454c2-1297-4b2d-b64a-de4351610ef7"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-topps-series-2"
+subjects:
+  - name: "Yoán Moncada"
+    role: "Player"
+    team: "Los Angeles Angels"
+card_name: "Yoán Moncada - Base - Sandglitter Gold"
+description: "Sandglitter Gold parallel of Base card featuring Yoán Moncada."
+series: "2026 Topps Baseball"
+parallel: "Sandglitter Gold"
+print_run: 50
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: true
+release_date: "2026-06-11"
+image_url: "https://example.com/cards/2026-topps-series-2/625-sandglitter-gold.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Topps#Insertion_Ratios"

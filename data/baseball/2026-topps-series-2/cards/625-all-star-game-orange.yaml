@@ -1,0 +1,23 @@
+number: "625"
+uuid: "bab32922-f3bd-405f-a65d-0f6d0e87603c"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-topps-series-2"
+subjects:
+  - name: "Yoán Moncada"
+    role: "Player"
+    team: "Los Angeles Angels"
+card_name: "Yoán Moncada - Base - All-Star Game Orange"
+description: "All-Star Game Orange parallel of Base card featuring Yoán Moncada."
+series: "2026 Topps Baseball"
+parallel: "All-Star Game Orange"
+print_run: 25
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: true
+release_date: "2026-06-11"
+image_url: "https://example.com/cards/2026-topps-series-2/625-all-star-game-orange.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Topps#Insertion_Ratios"

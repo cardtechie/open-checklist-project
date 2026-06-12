@@ -1,0 +1,23 @@
+number: "635"
+uuid: "4b389627-0c07-4e4b-bcf6-aa8243dc3865"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-topps-series-2"
+subjects:
+  - name: "Edgar Quero"
+    role: "Player"
+    team: "Chicago White Sox"
+card_name: "Edgar Quero - Base - Black"
+description: "Black parallel of Base card featuring Edgar Quero."
+series: "2026 Topps Baseball"
+parallel: "Black"
+print_run: 75
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: true
+release_date: "2026-06-11"
+image_url: "https://example.com/cards/2026-topps-series-2/635-black.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Topps#Insertion_Ratios"

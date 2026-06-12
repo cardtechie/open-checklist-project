@@ -1,0 +1,23 @@
+number: "625"
+uuid: "0f1dabad-799d-47b3-8ea8-9237371e3fd9"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-topps-series-2"
+subjects:
+  - name: "Yoán Moncada"
+    role: "Player"
+    team: "Los Angeles Angels"
+card_name: "Yoán Moncada - Base - 75 Years Of Topps"
+description: "75 Years Of Topps parallel of Base card featuring Yoán Moncada."
+series: "2026 Topps Baseball"
+parallel: "75 Years Of Topps"
+print_run: 75
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: true
+release_date: "2026-06-11"
+image_url: "https://example.com/cards/2026-topps-series-2/625-75-years-of-topps.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Topps#Insertion_Ratios"

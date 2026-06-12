@@ -1,0 +1,23 @@
+number: "628"
+uuid: "41c1ff75-2e63-45ff-b77f-c217e5c8b064"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-topps-series-2"
+subjects:
+  - name: "New York Yankees"
+    role: "Team"
+    team: "New York Yankees"
+card_name: "New York Yankees - Base - Independence Day"
+description: "Independence Day parallel of Base card featuring New York Yankees."
+series: "2026 Topps Baseball"
+parallel: "Independence Day"
+print_run: 76
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: true
+release_date: "2026-06-11"
+image_url: "https://example.com/cards/2026-topps-series-2/628-independence-day.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Topps#Insertion_Ratios"

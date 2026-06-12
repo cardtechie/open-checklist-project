@@ -1,0 +1,23 @@
+number: "625"
+uuid: "9c4f9654-0c29-42e4-98c5-0e7eda4b9fdd"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-topps-series-2"
+subjects:
+  - name: "Yoán Moncada"
+    role: "Player"
+    team: "Los Angeles Angels"
+card_name: "Yoán Moncada - Base - All-Star Game Platinum"
+description: "All-Star Game Platinum parallel of Base card featuring Yoán Moncada."
+series: "2026 Topps Baseball"
+parallel: "All-Star Game Platinum"
+print_run: 1
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: true
+release_date: "2026-06-11"
+image_url: "https://example.com/cards/2026-topps-series-2/625-all-star-game-platinum.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Topps#Insertion_Ratios"

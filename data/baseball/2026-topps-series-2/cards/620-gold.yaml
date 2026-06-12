@@ -1,0 +1,23 @@
+number: "620"
+uuid: "6b26ea2b-f5b1-48fe-8b23-8c848e0278a6"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-topps-series-2"
+subjects:
+  - name: "Trey Yesavage"
+    role: "Player"
+    team: "Toronto Blue Jays"
+card_name: "Trey Yesavage - Base - Gold"
+description: "Gold parallel of Base card featuring Trey Yesavage."
+series: "2026 Topps Baseball"
+parallel: "Gold"
+print_run: 2026
+rookie_card: true
+autograph: false
+relic: false
+serial_numbered: true
+release_date: "2026-06-11"
+image_url: "https://example.com/cards/2026-topps-series-2/620-gold.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Topps#Insertion_Ratios"

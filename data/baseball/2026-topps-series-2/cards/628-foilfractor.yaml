@@ -1,0 +1,23 @@
+number: "628"
+uuid: "6da3f5dc-4ff3-490b-9b1e-9c801401070f"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-topps-series-2"
+subjects:
+  - name: "New York Yankees"
+    role: "Team"
+    team: "New York Yankees"
+card_name: "New York Yankees - Base - FoilFractor"
+description: "FoilFractor parallel of Base card featuring New York Yankees."
+series: "2026 Topps Baseball"
+parallel: "FoilFractor"
+print_run: 1
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: true
+release_date: "2026-06-11"
+image_url: "https://example.com/cards/2026-topps-series-2/628-foilfractor.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Topps#Insertion_Ratios"

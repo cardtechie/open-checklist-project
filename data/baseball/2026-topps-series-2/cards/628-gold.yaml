@@ -1,0 +1,23 @@
+number: "628"
+uuid: "3f1c83ae-8e42-496e-b747-e6e63a0f743c"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-topps-series-2"
+subjects:
+  - name: "New York Yankees"
+    role: "Team"
+    team: "New York Yankees"
+card_name: "New York Yankees - Base - Gold"
+description: "Gold parallel of Base card featuring New York Yankees."
+series: "2026 Topps Baseball"
+parallel: "Gold"
+print_run: 2026
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: true
+release_date: "2026-06-11"
+image_url: "https://example.com/cards/2026-topps-series-2/628-gold.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Topps#Insertion_Ratios"
