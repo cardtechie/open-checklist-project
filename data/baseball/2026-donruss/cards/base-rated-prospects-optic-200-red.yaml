@@ -1,0 +1,24 @@
+number: "200"
+uuid: "2124083b-d88b-472a-8d8b-c5d14bc2c2a6"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "Luis Hernandez"
+    role: "Player"
+    team: "San Francisco Giants"
+subset: "Base - Rated Prospects - Optic"
+card_name: "Luis Hernandez - Base - Rated Prospects - Optic - Red"
+description: "Red parallel of Base - Rated Prospects - Optic card featuring Luis Hernandez."
+series: "2026 Donruss"
+parallel: "Red"
+print_run: 99
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: true
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/base-rated-prospects-optic-200-red.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Donruss#Checklist"
