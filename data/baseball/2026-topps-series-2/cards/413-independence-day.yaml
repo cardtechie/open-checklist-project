@@ -1,0 +1,23 @@
+number: "413"
+uuid: "3c65d1bb-2000-4782-a7aa-0a8f5500a646"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-topps-series-2"
+subjects:
+  - name: "Mike Burrows"
+    role: "Player"
+    team: "Houston Astros"
+card_name: "Mike Burrows - Base - Independence Day"
+description: "Independence Day parallel of Base card featuring Mike Burrows."
+series: "2026 Topps Baseball"
+parallel: "Independence Day"
+print_run: 76
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: true
+release_date: "2026-06-11"
+image_url: "https://example.com/cards/2026-topps-series-2/413-independence-day.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Topps#Insertion_Ratios"

@@ -1,0 +1,23 @@
+number: "422"
+uuid: "fa6caed8-f33b-4b4c-bb33-080e5c4160b6"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-topps-series-2"
+subjects:
+  - name: "Shane Bieber"
+    role: "Player"
+    team: "Toronto Blue Jays"
+card_name: "Shane Bieber - Base - Wood"
+description: "Wood parallel of Base card featuring Shane Bieber."
+series: "2026 Topps Baseball"
+parallel: "Wood"
+print_run: 25
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: true
+release_date: "2026-06-11"
+image_url: "https://example.com/cards/2026-topps-series-2/422-wood.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Topps#Insertion_Ratios"

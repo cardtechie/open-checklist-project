@@ -1,0 +1,23 @@
+number: "416"
+uuid: "ae67fdce-8c12-4d9f-820e-b9c4a59ed58e"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-topps-series-2"
+subjects:
+  - name: "Austin Martin"
+    role: "Player"
+    team: "Minnesota Twins"
+card_name: "Austin Martin - Base - Canvas"
+description: "Canvas parallel of Base card featuring Austin Martin."
+series: "2026 Topps Baseball"
+parallel: "Canvas"
+print_run: 50
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: true
+release_date: "2026-06-11"
+image_url: "https://example.com/cards/2026-topps-series-2/416-canvas.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Topps#Insertion_Ratios"

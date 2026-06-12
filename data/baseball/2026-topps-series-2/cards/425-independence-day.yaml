@@ -1,0 +1,23 @@
+number: "425"
+uuid: "a75bb7af-8065-4bed-b3f5-634fe2c899ea"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-topps-series-2"
+subjects:
+  - name: "Trent Grisham"
+    role: "Player"
+    team: "New York Yankees"
+card_name: "Trent Grisham - Base - Independence Day"
+description: "Independence Day parallel of Base card featuring Trent Grisham."
+series: "2026 Topps Baseball"
+parallel: "Independence Day"
+print_run: 76
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: true
+release_date: "2026-06-11"
+image_url: "https://example.com/cards/2026-topps-series-2/425-independence-day.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Topps#Insertion_Ratios"

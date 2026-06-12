@@ -1,0 +1,23 @@
+number: "425"
+uuid: "7b6f3c96-3861-4747-93c0-0e7fbda376c7"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-topps-series-2"
+subjects:
+  - name: "Trent Grisham"
+    role: "Player"
+    team: "New York Yankees"
+card_name: "Trent Grisham - Base - All-Star Game Orange"
+description: "All-Star Game Orange parallel of Base card featuring Trent Grisham."
+series: "2026 Topps Baseball"
+parallel: "All-Star Game Orange"
+print_run: 25
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: true
+release_date: "2026-06-11"
+image_url: "https://example.com/cards/2026-topps-series-2/425-all-star-game-orange.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Topps#Insertion_Ratios"

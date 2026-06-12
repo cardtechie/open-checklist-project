@@ -1,0 +1,23 @@
+number: "420"
+uuid: "a47dda1c-588c-477c-967a-59b7b02d229b"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-topps-series-2"
+subjects:
+  - name: "Luis Arraez"
+    role: "Player"
+    team: "San Francisco Giants"
+card_name: "Luis Arraez - Base - Sandglitter Gold"
+description: "Sandglitter Gold parallel of Base card featuring Luis Arraez."
+series: "2026 Topps Baseball"
+parallel: "Sandglitter Gold"
+print_run: 50
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: true
+release_date: "2026-06-11"
+image_url: "https://example.com/cards/2026-topps-series-2/420-sandglitter-gold.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Topps#Insertion_Ratios"

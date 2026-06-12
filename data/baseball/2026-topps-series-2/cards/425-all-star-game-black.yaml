@@ -1,0 +1,23 @@
+number: "425"
+uuid: "581e1aa4-18a0-4d8c-be53-c579602058c6"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-topps-series-2"
+subjects:
+  - name: "Trent Grisham"
+    role: "Player"
+    team: "New York Yankees"
+card_name: "Trent Grisham - Base - All-Star Game Black"
+description: "All-Star Game Black parallel of Base card featuring Trent Grisham."
+series: "2026 Topps Baseball"
+parallel: "All-Star Game Black"
+print_run: 10
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: true
+release_date: "2026-06-11"
+image_url: "https://example.com/cards/2026-topps-series-2/425-all-star-game-black.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Topps#Insertion_Ratios"

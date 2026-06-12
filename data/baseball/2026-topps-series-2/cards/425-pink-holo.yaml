@@ -1,0 +1,23 @@
+number: "425"
+uuid: "7c5118c9-d99e-4673-a3e1-85c96ac7bbce"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-topps-series-2"
+subjects:
+  - name: "Trent Grisham"
+    role: "Player"
+    team: "New York Yankees"
+card_name: "Trent Grisham - Base - Pink Holo"
+description: "Pink Holo parallel of Base card featuring Trent Grisham."
+series: "2026 Topps Baseball"
+parallel: "Pink Holo"
+print_run: 800
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: true
+release_date: "2026-06-11"
+image_url: "https://example.com/cards/2026-topps-series-2/425-pink-holo.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Topps#Insertion_Ratios"

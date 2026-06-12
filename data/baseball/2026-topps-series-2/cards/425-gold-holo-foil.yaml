@@ -1,0 +1,23 @@
+number: "425"
+uuid: "fe9050b0-ec39-4161-8437-e2048abe23e6"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-topps-series-2"
+subjects:
+  - name: "Trent Grisham"
+    role: "Player"
+    team: "New York Yankees"
+card_name: "Trent Grisham - Base - Gold Holo Foil"
+description: "Gold Holo Foil parallel of Base card featuring Trent Grisham."
+series: "2026 Topps Baseball"
+parallel: "Gold Holo Foil"
+print_run: 50
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: true
+release_date: "2026-06-11"
+image_url: "https://example.com/cards/2026-topps-series-2/425-gold-holo-foil.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Topps#Insertion_Ratios"
