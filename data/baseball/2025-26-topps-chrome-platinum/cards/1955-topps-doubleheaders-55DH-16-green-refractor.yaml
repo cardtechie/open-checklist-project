@@ -1,0 +1,26 @@
+number: "55DH-16"
+uuid: "ee6bd025-507f-47d2-98c3-48c16686ae3f"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2025-26-topps-chrome-platinum"
+subjects:
+  - name: "Pedro Martinez"
+    role: "Player"
+    team: "Boston Red Sox"
+  - name: "David Ortiz"
+    role: "Player"
+    team: "Boston Red Sox"
+subset: "1955 Topps Doubleheaders"
+card_name: "Pedro Martinez / David Ortiz - 1955 Topps Doubleheaders - Green Refractor"
+description: "Green Refractor parallel of 1955 Topps Doubleheaders card featuring Pedro Martinez / David Ortiz."
+series: "Topps Chrome Platinum Anniversary"
+parallel: "Green Refractor"
+print_run: 99
+rookie_card: false
+autograph: false
+serial_numbered: true
+release_date: "2026-06-05"
+image_url: "https://example.com/cards/2025-26-topps-chrome-platinum/1955-topps-doubleheaders-55DH-16-green-refractor.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2025-26_Topps_Chrome_Platinum#Checklist"

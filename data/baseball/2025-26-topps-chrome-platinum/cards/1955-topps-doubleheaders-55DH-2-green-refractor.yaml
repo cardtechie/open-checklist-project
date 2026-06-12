@@ -1,0 +1,26 @@
+number: "55DH-2"
+uuid: "83b3366b-0245-4a67-b7e2-bfca7510021e"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2025-26-topps-chrome-platinum"
+subjects:
+  - name: "Mickey Mantle"
+    role: "Player"
+    team: "New York Yankees"
+  - name: "Aaron Judge"
+    role: "Player"
+    team: "New York Yankees"
+subset: "1955 Topps Doubleheaders"
+card_name: "Mickey Mantle / Aaron Judge - 1955 Topps Doubleheaders - Green Refractor"
+description: "Green Refractor parallel of 1955 Topps Doubleheaders card featuring Mickey Mantle / Aaron Judge."
+series: "Topps Chrome Platinum Anniversary"
+parallel: "Green Refractor"
+print_run: 99
+rookie_card: false
+autograph: false
+serial_numbered: true
+release_date: "2026-06-05"
+image_url: "https://example.com/cards/2025-26-topps-chrome-platinum/1955-topps-doubleheaders-55DH-2-green-refractor.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2025-26_Topps_Chrome_Platinum#Checklist"
