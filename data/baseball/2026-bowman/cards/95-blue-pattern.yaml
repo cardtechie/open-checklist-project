@@ -1,0 +1,22 @@
+number: "95"
+uuid: "ab1234e2-ec3e-4bbb-a122-74af78cc0208"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-bowman"
+subjects:
+  - name: "George Springer"
+    role: "Player"
+    team: "Toronto Blue Jays"
+card_name: "George Springer - Base - Blue Pattern"
+description: "Blue Pattern parallel of Base card featuring George Springer."
+series: "2026 Bowman"
+parallel: "Blue Pattern"
+print_run: 150
+rookie_card: false
+autograph: false
+serial_numbered: true
+release_date: "2026-05-13"
+image_url: "https://example.com/cards/2026-bowman/95-blue-pattern.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Bowman#Insertion_Ratios"

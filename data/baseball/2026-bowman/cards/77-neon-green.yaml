@@ -1,0 +1,22 @@
+number: "77"
+uuid: "d73d4d9b-5009-4582-9e4f-445adc82db90"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-bowman"
+subjects:
+  - name: "José Ramírez"
+    role: "Player"
+    team: "Cleveland Guardians"
+card_name: "José Ramírez - Base - Neon Green"
+description: "Neon Green parallel of Base card featuring José Ramírez."
+series: "2026 Bowman"
+parallel: "Neon Green"
+print_run: 399
+rookie_card: false
+autograph: false
+serial_numbered: true
+release_date: "2026-05-13"
+image_url: "https://example.com/cards/2026-bowman/77-neon-green.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Bowman#Insertion_Ratios"

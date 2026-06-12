@@ -1,0 +1,22 @@
+number: "86"
+uuid: "00a8be2e-98e0-4da7-b701-9e31a9cb39a9"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-bowman"
+subjects:
+  - name: "Jakob Marsee"
+    role: "Player"
+    team: "Miami Marlins"
+card_name: "Jakob Marsee - Base - Green Pattern"
+description: "Green Pattern parallel of Base card featuring Jakob Marsee."
+series: "2026 Bowman"
+parallel: "Green Pattern"
+print_run: 99
+rookie_card: true
+autograph: false
+serial_numbered: true
+release_date: "2026-05-13"
+image_url: "https://example.com/cards/2026-bowman/86-green-pattern.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Bowman#Insertion_Ratios"

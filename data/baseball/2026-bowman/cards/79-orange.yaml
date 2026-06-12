@@ -1,0 +1,22 @@
+number: "79"
+uuid: "cb64b11b-bbd5-40d1-b748-2b47a90b37c1"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-bowman"
+subjects:
+  - name: "James Wood"
+    role: "Player"
+    team: "Washington Nationals"
+card_name: "James Wood - Base - Orange"
+description: "Orange parallel of Base card featuring James Wood."
+series: "2026 Bowman"
+parallel: "Orange"
+print_run: 25
+rookie_card: false
+autograph: false
+serial_numbered: true
+release_date: "2026-05-13"
+image_url: "https://example.com/cards/2026-bowman/79-orange.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Bowman#Insertion_Ratios"

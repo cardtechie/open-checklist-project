@@ -1,0 +1,22 @@
+number: "78"
+uuid: "a28b98e4-d7bb-4123-82c4-b77589ad9bff"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-bowman"
+subjects:
+  - name: "Cole Young"
+    role: "Player"
+    team: "Seattle Mariners"
+card_name: "Cole Young - Base - Black"
+description: "Black parallel of Base card featuring Cole Young."
+series: "2026 Bowman"
+parallel: "Black"
+print_run: 10
+rookie_card: true
+autograph: false
+serial_numbered: true
+release_date: "2026-05-13"
+image_url: "https://example.com/cards/2026-bowman/78-black.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Bowman#Insertion_Ratios"

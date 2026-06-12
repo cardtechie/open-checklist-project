@@ -1,0 +1,22 @@
+number: "82"
+uuid: "d31ff45f-77e0-4b66-8d08-f9b72d7600d9"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-bowman"
+subjects:
+  - name: "Hunter Goodman"
+    role: "Player"
+    team: "Colorado Rockies"
+card_name: "Hunter Goodman - Base - Blue"
+description: "Blue parallel of Base card featuring Hunter Goodman."
+series: "2026 Bowman"
+parallel: "Blue"
+print_run: 150
+rookie_card: false
+autograph: false
+serial_numbered: true
+release_date: "2026-05-13"
+image_url: "https://example.com/cards/2026-bowman/82-blue.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Bowman#Insertion_Ratios"

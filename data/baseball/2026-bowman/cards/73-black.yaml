@@ -1,0 +1,22 @@
+number: "73"
+uuid: "bebc5a75-67af-4dda-bce5-197896d09a9a"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-bowman"
+subjects:
+  - name: "Gunnar Henderson"
+    role: "Player"
+    team: "Baltimore Orioles"
+card_name: "Gunnar Henderson - Base - Black"
+description: "Black parallel of Base card featuring Gunnar Henderson."
+series: "2026 Bowman"
+parallel: "Black"
+print_run: 10
+rookie_card: false
+autograph: false
+serial_numbered: true
+release_date: "2026-05-13"
+image_url: "https://example.com/cards/2026-bowman/73-black.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Bowman#Insertion_Ratios"

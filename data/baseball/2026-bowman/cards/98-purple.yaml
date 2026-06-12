@@ -1,0 +1,22 @@
+number: "98"
+uuid: "5653b0dd-a6c9-4d2b-b4d5-1feefb851726"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-bowman"
+subjects:
+  - name: "C.J. Kayfus"
+    role: "Player"
+    team: "Cleveland Guardians"
+card_name: "C.J. Kayfus - Base - Purple"
+description: "Purple parallel of Base card featuring C.J. Kayfus."
+series: "2026 Bowman"
+parallel: "Purple"
+print_run: 250
+rookie_card: true
+autograph: false
+serial_numbered: true
+release_date: "2026-05-13"
+image_url: "https://example.com/cards/2026-bowman/98-purple.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Bowman#Insertion_Ratios"

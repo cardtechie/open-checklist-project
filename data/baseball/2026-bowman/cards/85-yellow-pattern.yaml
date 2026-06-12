@@ -1,0 +1,22 @@
+number: "85"
+uuid: "b1f0cdf7-0aae-498a-b780-a9bf9312cc66"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-bowman"
+subjects:
+  - name: "Nolan McLean"
+    role: "Player"
+    team: "New York Mets"
+card_name: "Nolan McLean - Base - Yellow Pattern"
+description: "Yellow Pattern parallel of Base card featuring Nolan McLean."
+series: "2026 Bowman"
+parallel: "Yellow Pattern"
+print_run: 75
+rookie_card: true
+autograph: false
+serial_numbered: true
+release_date: "2026-05-13"
+image_url: "https://example.com/cards/2026-bowman/85-yellow-pattern.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Bowman#Insertion_Ratios"

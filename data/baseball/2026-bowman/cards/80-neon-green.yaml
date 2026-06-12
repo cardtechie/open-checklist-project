@@ -1,0 +1,22 @@
+number: "80"
+uuid: "c2af373e-9ff0-49d6-8a0d-e0cf040546ce"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-bowman"
+subjects:
+  - name: "Corbin Carroll"
+    role: "Player"
+    team: "Arizona Diamondbacks"
+card_name: "Corbin Carroll - Base - Neon Green"
+description: "Neon Green parallel of Base card featuring Corbin Carroll."
+series: "2026 Bowman"
+parallel: "Neon Green"
+print_run: 399
+rookie_card: false
+autograph: false
+serial_numbered: true
+release_date: "2026-05-13"
+image_url: "https://example.com/cards/2026-bowman/80-neon-green.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Bowman#Insertion_Ratios"

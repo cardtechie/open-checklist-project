@@ -1,0 +1,22 @@
+number: "92"
+uuid: "c4af483d-4074-4046-9742-1caa835e6ad3"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-bowman"
+subjects:
+  - name: "Brady House"
+    role: "Player"
+    team: "Washington Nationals"
+card_name: "Brady House - Base - Purple Pattern"
+description: "Purple Pattern parallel of Base card featuring Brady House."
+series: "2026 Bowman"
+parallel: "Purple Pattern"
+print_run: 250
+rookie_card: true
+autograph: false
+serial_numbered: true
+release_date: "2026-05-13"
+image_url: "https://example.com/cards/2026-bowman/92-purple-pattern.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Bowman#Insertion_Ratios"

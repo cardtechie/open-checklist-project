@@ -1,0 +1,22 @@
+number: "92"
+uuid: "c1fbb690-9b9b-4c63-a3f6-c12d85130886"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-bowman"
+subjects:
+  - name: "Brady House"
+    role: "Player"
+    team: "Washington Nationals"
+card_name: "Brady House - Base - Green"
+description: "Green parallel of Base card featuring Brady House."
+series: "2026 Bowman"
+parallel: "Green"
+print_run: 99
+rookie_card: true
+autograph: false
+serial_numbered: true
+release_date: "2026-05-13"
+image_url: "https://example.com/cards/2026-bowman/92-green.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Bowman#Insertion_Ratios"

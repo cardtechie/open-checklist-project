@@ -1,0 +1,22 @@
+number: "88"
+uuid: "e15e19eb-8401-48ad-9b98-4562ed9b5eb5"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-bowman"
+subjects:
+  - name: "Wyatt Langford"
+    role: "Player"
+    team: "Texas Rangers"
+card_name: "Wyatt Langford - Base - Yellow Pattern"
+description: "Yellow Pattern parallel of Base card featuring Wyatt Langford."
+series: "2026 Bowman"
+parallel: "Yellow Pattern"
+print_run: 75
+rookie_card: false
+autograph: false
+serial_numbered: true
+release_date: "2026-05-13"
+image_url: "https://example.com/cards/2026-bowman/88-yellow-pattern.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Bowman#Insertion_Ratios"

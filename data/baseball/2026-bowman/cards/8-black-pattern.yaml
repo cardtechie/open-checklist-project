@@ -1,0 +1,22 @@
+number: "8"
+uuid: "04a5fc35-400a-498c-ae95-f51b200ee81d"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-bowman"
+subjects:
+  - name: "Ernie Clement"
+    role: "Player"
+    team: "Toronto Blue Jays"
+card_name: "Ernie Clement - Base - Black Pattern"
+description: "Black Pattern parallel of Base card featuring Ernie Clement."
+series: "2026 Bowman"
+parallel: "Black Pattern"
+print_run: 10
+rookie_card: false
+autograph: false
+serial_numbered: true
+release_date: "2026-05-13"
+image_url: "https://example.com/cards/2026-bowman/8-black-pattern.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Bowman#Insertion_Ratios"

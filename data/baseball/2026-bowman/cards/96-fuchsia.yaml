@@ -1,0 +1,22 @@
+number: "96"
+uuid: "27cba69d-18c9-46da-9d5f-054979ce7257"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-bowman"
+subjects:
+  - name: "Jacob Wilson"
+    role: "Player"
+    team: "Athletics"
+card_name: "Jacob Wilson - Base - Fuchsia"
+description: "Fuchsia parallel of Base card featuring Jacob Wilson."
+series: "2026 Bowman"
+parallel: "Fuchsia"
+print_run: 299
+rookie_card: false
+autograph: false
+serial_numbered: true
+release_date: "2026-05-13"
+image_url: "https://example.com/cards/2026-bowman/96-fuchsia.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Bowman#Insertion_Ratios"

@@ -1,0 +1,22 @@
+number: "73"
+uuid: "f2c7926a-b165-48b7-a837-7c3d1417a932"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-bowman"
+subjects:
+  - name: "Gunnar Henderson"
+    role: "Player"
+    team: "Baltimore Orioles"
+card_name: "Gunnar Henderson - Base - Blue"
+description: "Blue parallel of Base card featuring Gunnar Henderson."
+series: "2026 Bowman"
+parallel: "Blue"
+print_run: 150
+rookie_card: false
+autograph: false
+serial_numbered: true
+release_date: "2026-05-13"
+image_url: "https://example.com/cards/2026-bowman/73-blue.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Bowman#Insertion_Ratios"

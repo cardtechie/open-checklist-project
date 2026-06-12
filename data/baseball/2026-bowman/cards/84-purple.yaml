@@ -1,0 +1,22 @@
+number: "84"
+uuid: "0935b27c-0c7c-4d2c-8fb3-c32b637f3825"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-bowman"
+subjects:
+  - name: "Harry Ford"
+    role: "Player"
+    team: "Washington Nationals"
+card_name: "Harry Ford - Base - Purple"
+description: "Purple parallel of Base card featuring Harry Ford."
+series: "2026 Bowman"
+parallel: "Purple"
+print_run: 250
+rookie_card: true
+autograph: false
+serial_numbered: true
+release_date: "2026-05-13"
+image_url: "https://example.com/cards/2026-bowman/84-purple.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Bowman#Insertion_Ratios"

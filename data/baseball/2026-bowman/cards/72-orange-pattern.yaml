@@ -1,0 +1,22 @@
+number: "72"
+uuid: "c5fa1e03-c3e5-4dbc-9b99-c53d07bfd5fc"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-bowman"
+subjects:
+  - name: "Masyn Winn"
+    role: "Player"
+    team: "St. Louis Cardinals"
+card_name: "Masyn Winn - Base - Orange Pattern"
+description: "Orange Pattern parallel of Base card featuring Masyn Winn."
+series: "2026 Bowman"
+parallel: "Orange Pattern"
+print_run: 25
+rookie_card: false
+autograph: false
+serial_numbered: true
+release_date: "2026-05-13"
+image_url: "https://example.com/cards/2026-bowman/72-orange-pattern.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Bowman#Insertion_Ratios"

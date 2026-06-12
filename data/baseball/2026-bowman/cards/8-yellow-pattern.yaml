@@ -1,0 +1,22 @@
+number: "8"
+uuid: "1f0c482b-3827-41a4-8590-5959bf6a767d"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-bowman"
+subjects:
+  - name: "Ernie Clement"
+    role: "Player"
+    team: "Toronto Blue Jays"
+card_name: "Ernie Clement - Base - Yellow Pattern"
+description: "Yellow Pattern parallel of Base card featuring Ernie Clement."
+series: "2026 Bowman"
+parallel: "Yellow Pattern"
+print_run: 75
+rookie_card: false
+autograph: false
+serial_numbered: true
+release_date: "2026-05-13"
+image_url: "https://example.com/cards/2026-bowman/8-yellow-pattern.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Bowman#Insertion_Ratios"

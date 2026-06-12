@@ -1,0 +1,22 @@
+number: "9"
+uuid: "8fef062a-1047-490d-869b-15dca1e52f83"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-bowman"
+subjects:
+  - name: "Munetaka Murakami"
+    role: "Player"
+    team: "Chicago White Sox"
+card_name: "Munetaka Murakami - Base - Blue Pattern"
+description: "Blue Pattern parallel of Base card featuring Munetaka Murakami."
+series: "2026 Bowman"
+parallel: "Blue Pattern"
+print_run: 150
+rookie_card: true
+autograph: false
+serial_numbered: true
+release_date: "2026-05-13"
+image_url: "https://example.com/cards/2026-bowman/9-blue-pattern.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Bowman#Insertion_Ratios"

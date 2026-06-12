@@ -1,0 +1,22 @@
+number: "98"
+uuid: "3e5aa51e-4f01-4792-a2c2-621f1b8a85e8"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-bowman"
+subjects:
+  - name: "C.J. Kayfus"
+    role: "Player"
+    team: "Cleveland Guardians"
+card_name: "C.J. Kayfus - Base - Gold"
+description: "Gold parallel of Base card featuring C.J. Kayfus."
+series: "2026 Bowman"
+parallel: "Gold"
+print_run: 50
+rookie_card: true
+autograph: false
+serial_numbered: true
+release_date: "2026-05-13"
+image_url: "https://example.com/cards/2026-bowman/98-gold.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Bowman#Insertion_Ratios"

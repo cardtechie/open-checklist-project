@@ -1,0 +1,22 @@
+number: "87"
+uuid: "cd1521b7-3294-4eb6-8dc4-1ae1b1e0fffe"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-bowman"
+subjects:
+  - name: "Jacob Melton"
+    role: "Player"
+    team: "Tampa Bay Rays"
+card_name: "Jacob Melton - Base - Black"
+description: "Black parallel of Base card featuring Jacob Melton."
+series: "2026 Bowman"
+parallel: "Black"
+print_run: 10
+rookie_card: true
+autograph: false
+serial_numbered: true
+release_date: "2026-05-13"
+image_url: "https://example.com/cards/2026-bowman/87-black.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Bowman#Insertion_Ratios"

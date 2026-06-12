@@ -1,0 +1,22 @@
+number: "82"
+uuid: "05b2345c-9d33-4602-a4a1-0d0c189d3de3"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-bowman"
+subjects:
+  - name: "Hunter Goodman"
+    role: "Player"
+    team: "Colorado Rockies"
+card_name: "Hunter Goodman - Base - Black Pattern"
+description: "Black Pattern parallel of Base card featuring Hunter Goodman."
+series: "2026 Bowman"
+parallel: "Black Pattern"
+print_run: 10
+rookie_card: false
+autograph: false
+serial_numbered: true
+release_date: "2026-05-13"
+image_url: "https://example.com/cards/2026-bowman/82-black-pattern.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Bowman#Insertion_Ratios"

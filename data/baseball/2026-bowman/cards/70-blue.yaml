@@ -1,0 +1,22 @@
+number: "70"
+uuid: "c4927ed0-fcc2-4f21-91f1-d9f852aefe7b"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-bowman"
+subjects:
+  - name: "Alex Freeland"
+    role: "Player"
+    team: "Los Angeles Dodgers"
+card_name: "Alex Freeland - Base - Blue"
+description: "Blue parallel of Base card featuring Alex Freeland."
+series: "2026 Bowman"
+parallel: "Blue"
+print_run: 150
+rookie_card: true
+autograph: false
+serial_numbered: true
+release_date: "2026-05-13"
+image_url: "https://example.com/cards/2026-bowman/70-blue.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Bowman#Insertion_Ratios"

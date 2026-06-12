@@ -1,0 +1,22 @@
+number: "87"
+uuid: "fb03aedc-47f9-4e69-a5a9-873c2cf63217"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-bowman"
+subjects:
+  - name: "Jacob Melton"
+    role: "Player"
+    team: "Tampa Bay Rays"
+card_name: "Jacob Melton - Base - Purple Pattern"
+description: "Purple Pattern parallel of Base card featuring Jacob Melton."
+series: "2026 Bowman"
+parallel: "Purple Pattern"
+print_run: 250
+rookie_card: true
+autograph: false
+serial_numbered: true
+release_date: "2026-05-13"
+image_url: "https://example.com/cards/2026-bowman/87-purple-pattern.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Bowman#Insertion_Ratios"

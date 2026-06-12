@@ -1,0 +1,22 @@
+number: "73"
+uuid: "f0e83463-7b00-4c38-a9a1-f7b3d1a87bfa"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-bowman"
+subjects:
+  - name: "Gunnar Henderson"
+    role: "Player"
+    team: "Baltimore Orioles"
+card_name: "Gunnar Henderson - Base - Orange"
+description: "Orange parallel of Base card featuring Gunnar Henderson."
+series: "2026 Bowman"
+parallel: "Orange"
+print_run: 25
+rookie_card: false
+autograph: false
+serial_numbered: true
+release_date: "2026-05-13"
+image_url: "https://example.com/cards/2026-bowman/73-orange.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Bowman#Insertion_Ratios"

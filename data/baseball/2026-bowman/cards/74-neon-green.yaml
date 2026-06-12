@@ -1,0 +1,22 @@
+number: "74"
+uuid: "4236b2fd-fc9e-4d45-934a-f398ecf37b01"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-bowman"
+subjects:
+  - name: "Tatsuya Imai"
+    role: "Player"
+    team: "Houston Astros"
+card_name: "Tatsuya Imai - Base - Neon Green"
+description: "Neon Green parallel of Base card featuring Tatsuya Imai."
+series: "2026 Bowman"
+parallel: "Neon Green"
+print_run: 399
+rookie_card: true
+autograph: false
+serial_numbered: true
+release_date: "2026-05-13"
+image_url: "https://example.com/cards/2026-bowman/74-neon-green.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Bowman#Insertion_Ratios"

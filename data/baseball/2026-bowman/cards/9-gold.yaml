@@ -1,0 +1,22 @@
+number: "9"
+uuid: "7dc0593d-5a9b-4fdc-8a08-f1b897f5fdff"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-bowman"
+subjects:
+  - name: "Munetaka Murakami"
+    role: "Player"
+    team: "Chicago White Sox"
+card_name: "Munetaka Murakami - Base - Gold"
+description: "Gold parallel of Base card featuring Munetaka Murakami."
+series: "2026 Bowman"
+parallel: "Gold"
+print_run: 50
+rookie_card: true
+autograph: false
+serial_numbered: true
+release_date: "2026-05-13"
+image_url: "https://example.com/cards/2026-bowman/9-gold.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Bowman#Insertion_Ratios"

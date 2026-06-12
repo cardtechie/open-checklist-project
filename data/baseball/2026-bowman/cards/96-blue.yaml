@@ -1,0 +1,22 @@
+number: "96"
+uuid: "72b1e037-0b80-4ce7-93bc-1614c2c12c15"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-bowman"
+subjects:
+  - name: "Jacob Wilson"
+    role: "Player"
+    team: "Athletics"
+card_name: "Jacob Wilson - Base - Blue"
+description: "Blue parallel of Base card featuring Jacob Wilson."
+series: "2026 Bowman"
+parallel: "Blue"
+print_run: 150
+rookie_card: false
+autograph: false
+serial_numbered: true
+release_date: "2026-05-13"
+image_url: "https://example.com/cards/2026-bowman/96-blue.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Bowman#Insertion_Ratios"

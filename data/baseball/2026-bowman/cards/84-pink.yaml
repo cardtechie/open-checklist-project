@@ -1,0 +1,22 @@
+number: "84"
+uuid: "3ea1cd5f-01b7-49ac-8be6-ce0d18892db6"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-bowman"
+subjects:
+  - name: "Harry Ford"
+    role: "Player"
+    team: "Washington Nationals"
+card_name: "Harry Ford - Base - Pink"
+description: "Pink parallel of Base card featuring Harry Ford."
+series: "2026 Bowman"
+parallel: "Pink"
+print_run: 175
+rookie_card: true
+autograph: false
+serial_numbered: true
+release_date: "2026-05-13"
+image_url: "https://example.com/cards/2026-bowman/84-pink.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Bowman#Insertion_Ratios"
