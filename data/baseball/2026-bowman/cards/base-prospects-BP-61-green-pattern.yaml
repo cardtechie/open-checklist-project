@@ -1,0 +1,23 @@
+number: "BP-61"
+uuid: "9fabe5d3-3359-43a4-85f0-ad1933b79b28"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-bowman"
+subjects:
+  - name: "Chris Arroyo"
+    role: "Player"
+    team: "Miami Marlins"
+subset: "Base Prospects"
+card_name: "Chris Arroyo - Base Prospects - Green Pattern"
+description: "Green Pattern parallel of Base Prospects card featuring Chris Arroyo."
+series: "2026 Bowman"
+parallel: "Green Pattern"
+print_run: 75
+rookie_card: false
+autograph: false
+serial_numbered: true
+release_date: "2026-05-13"
+image_url: "https://example.com/cards/2026-bowman/base-prospects-BP-61-green-pattern.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Bowman#Insertion_Ratios"

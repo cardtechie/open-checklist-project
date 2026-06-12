@@ -1,0 +1,23 @@
+number: "BP-5"
+uuid: "e340264f-3bde-4832-85ba-6b769e8828c1"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-bowman"
+subjects:
+  - name: "Tyson Lewis"
+    role: "Player"
+    team: "Cincinnati Reds"
+subset: "Base Prospects"
+card_name: "Tyson Lewis - Base Prospects - Sky Blue"
+description: "Sky Blue parallel of Base Prospects card featuring Tyson Lewis."
+series: "2026 Bowman"
+parallel: "Sky Blue"
+print_run: 399
+rookie_card: false
+autograph: false
+serial_numbered: true
+release_date: "2026-05-13"
+image_url: "https://example.com/cards/2026-bowman/base-prospects-BP-5-sky-blue.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Bowman#Insertion_Ratios"

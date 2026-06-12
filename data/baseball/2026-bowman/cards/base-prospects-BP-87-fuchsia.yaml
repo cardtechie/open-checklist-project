@@ -1,0 +1,23 @@
+number: "BP-87"
+uuid: "308823ba-783c-4c78-aa28-7de5963bc9b0"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-bowman"
+subjects:
+  - name: "Jean Carlos Sio"
+    role: "Player"
+    team: "San Francisco Giants"
+subset: "Base Prospects"
+card_name: "Jean Carlos Sio - Base Prospects - Fuchsia"
+description: "Fuchsia parallel of Base Prospects card featuring Jean Carlos Sio."
+series: "2026 Bowman"
+parallel: "Fuchsia"
+print_run: 250
+rookie_card: false
+autograph: false
+serial_numbered: true
+release_date: "2026-05-13"
+image_url: "https://example.com/cards/2026-bowman/base-prospects-BP-87-fuchsia.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Bowman#Insertion_Ratios"

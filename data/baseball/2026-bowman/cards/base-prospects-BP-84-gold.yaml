@@ -1,0 +1,23 @@
+number: "BP-84"
+uuid: "2824a22c-57a2-4c5f-b4fb-2b6c76c202d6"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-bowman"
+subjects:
+  - name: "David Hagaman"
+    role: "Player"
+    team: "Arizona Diamondbacks"
+subset: "Base Prospects"
+card_name: "David Hagaman - Base Prospects - Gold"
+description: "Gold parallel of Base Prospects card featuring David Hagaman."
+series: "2026 Bowman"
+parallel: "Gold"
+print_run: 50
+rookie_card: false
+autograph: false
+serial_numbered: true
+release_date: "2026-05-13"
+image_url: "https://example.com/cards/2026-bowman/base-prospects-BP-84-gold.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Bowman#Insertion_Ratios"

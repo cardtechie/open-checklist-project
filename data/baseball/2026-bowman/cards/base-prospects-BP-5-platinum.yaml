@@ -1,0 +1,23 @@
+number: "BP-5"
+uuid: "7098c85a-85ff-4285-993d-88f55e3cfbb3"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-bowman"
+subjects:
+  - name: "Tyson Lewis"
+    role: "Player"
+    team: "Cincinnati Reds"
+subset: "Base Prospects"
+card_name: "Tyson Lewis - Base Prospects - Platinum"
+description: "Platinum parallel of Base Prospects card featuring Tyson Lewis."
+series: "2026 Bowman"
+parallel: "Platinum"
+print_run: 1
+rookie_card: false
+autograph: false
+serial_numbered: true
+release_date: "2026-05-13"
+image_url: "https://example.com/cards/2026-bowman/base-prospects-BP-5-platinum.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Bowman#Insertion_Ratios"

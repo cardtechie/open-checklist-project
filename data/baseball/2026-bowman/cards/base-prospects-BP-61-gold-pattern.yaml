@@ -1,0 +1,23 @@
+number: "BP-61"
+uuid: "bf7f4bd7-d0c3-418e-b1a0-d625eabee420"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-bowman"
+subjects:
+  - name: "Chris Arroyo"
+    role: "Player"
+    team: "Miami Marlins"
+subset: "Base Prospects"
+card_name: "Chris Arroyo - Base Prospects - Gold Pattern"
+description: "Gold Pattern parallel of Base Prospects card featuring Chris Arroyo."
+series: "2026 Bowman"
+parallel: "Gold Pattern"
+print_run: 50
+rookie_card: false
+autograph: false
+serial_numbered: true
+release_date: "2026-05-13"
+image_url: "https://example.com/cards/2026-bowman/base-prospects-BP-61-gold-pattern.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Bowman#Insertion_Ratios"

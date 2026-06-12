@@ -1,0 +1,23 @@
+number: "BP-70"
+uuid: "5db1a6b2-86fc-4158-8ab3-6d62dad974cc"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-bowman"
+subjects:
+  - name: "Kash Mayfield"
+    role: "Player"
+    team: "San Diego Padres"
+subset: "Base Prospects"
+card_name: "Kash Mayfield - Base Prospects - Gold Pattern"
+description: "Gold Pattern parallel of Base Prospects card featuring Kash Mayfield."
+series: "2026 Bowman"
+parallel: "Gold Pattern"
+print_run: 50
+rookie_card: false
+autograph: false
+serial_numbered: true
+release_date: "2026-05-13"
+image_url: "https://example.com/cards/2026-bowman/base-prospects-BP-70-gold-pattern.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Bowman#Insertion_Ratios"

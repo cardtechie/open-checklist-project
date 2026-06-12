@@ -1,0 +1,23 @@
+number: "BP-70"
+uuid: "96fdaac0-0bb2-4d43-806d-11ce1cc748af"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-bowman"
+subjects:
+  - name: "Kash Mayfield"
+    role: "Player"
+    team: "San Diego Padres"
+subset: "Base Prospects"
+card_name: "Kash Mayfield - Base Prospects - Fuchsia"
+description: "Fuchsia parallel of Base Prospects card featuring Kash Mayfield."
+series: "2026 Bowman"
+parallel: "Fuchsia"
+print_run: 250
+rookie_card: false
+autograph: false
+serial_numbered: true
+release_date: "2026-05-13"
+image_url: "https://example.com/cards/2026-bowman/base-prospects-BP-70-fuchsia.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Bowman#Insertion_Ratios"

@@ -1,0 +1,23 @@
+number: "BP-85"
+uuid: "b6a551ef-40df-4787-b168-e03d4ba7a9f7"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-bowman"
+subjects:
+  - name: "Anthony Frobose"
+    role: "Player"
+    team: "New York Mets"
+subset: "Base Prospects"
+card_name: "Anthony Frobose - Base Prospects - Sky Blue"
+description: "Sky Blue parallel of Base Prospects card featuring Anthony Frobose."
+series: "2026 Bowman"
+parallel: "Sky Blue"
+print_run: 399
+rookie_card: false
+autograph: false
+serial_numbered: true
+release_date: "2026-05-13"
+image_url: "https://example.com/cards/2026-bowman/base-prospects-BP-85-sky-blue.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Bowman#Insertion_Ratios"

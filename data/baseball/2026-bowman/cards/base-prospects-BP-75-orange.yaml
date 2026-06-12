@@ -1,0 +1,23 @@
+number: "BP-75"
+uuid: "4669036e-10d3-4a7e-9b6d-e4f077da090b"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-bowman"
+subjects:
+  - name: "Juan Torres"
+    role: "Player"
+    team: "New York Yankees"
+subset: "Base Prospects"
+card_name: "Juan Torres - Base Prospects - Orange"
+description: "Orange parallel of Base Prospects card featuring Juan Torres."
+series: "2026 Bowman"
+parallel: "Orange"
+print_run: 25
+rookie_card: false
+autograph: false
+serial_numbered: true
+release_date: "2026-05-13"
+image_url: "https://example.com/cards/2026-bowman/base-prospects-BP-75-orange.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Bowman#Insertion_Ratios"

@@ -1,0 +1,23 @@
+number: "BP-5"
+uuid: "dd0e03bc-d6a8-459c-aee0-b7dc49406850"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-bowman"
+subjects:
+  - name: "Tyson Lewis"
+    role: "Player"
+    team: "Cincinnati Reds"
+subset: "Base Prospects"
+card_name: "Tyson Lewis - Base Prospects - Neon Green"
+description: "Neon Green parallel of Base Prospects card featuring Tyson Lewis."
+series: "2026 Bowman"
+parallel: "Neon Green"
+print_run: 299
+rookie_card: false
+autograph: false
+serial_numbered: true
+release_date: "2026-05-13"
+image_url: "https://example.com/cards/2026-bowman/base-prospects-BP-5-neon-green.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Bowman#Insertion_Ratios"

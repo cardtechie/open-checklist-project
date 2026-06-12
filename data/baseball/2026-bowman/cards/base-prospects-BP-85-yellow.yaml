@@ -1,0 +1,23 @@
+number: "BP-85"
+uuid: "eda7f1fc-57cb-4af9-94e0-e35f89c1756c"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-bowman"
+subjects:
+  - name: "Anthony Frobose"
+    role: "Player"
+    team: "New York Mets"
+subset: "Base Prospects"
+card_name: "Anthony Frobose - Base Prospects - Yellow"
+description: "Yellow parallel of Base Prospects card featuring Anthony Frobose."
+series: "2026 Bowman"
+parallel: "Yellow"
+print_run: 75
+rookie_card: false
+autograph: false
+serial_numbered: true
+release_date: "2026-05-13"
+image_url: "https://example.com/cards/2026-bowman/base-prospects-BP-85-yellow.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Bowman#Insertion_Ratios"
