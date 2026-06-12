@@ -1,0 +1,23 @@
+number: "550"
+uuid: "6cea78e0-dd84-4a86-ae1a-38a6a2a32968"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-topps-series-2"
+subjects:
+  - name: "Dansby Swanson"
+    role: "Player"
+    team: "Chicago Cubs"
+card_name: "Dansby Swanson - Base - FoilFractor"
+description: "FoilFractor parallel of Base card featuring Dansby Swanson."
+series: "2026 Topps Baseball"
+parallel: "FoilFractor"
+print_run: 1
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: true
+release_date: "2026-06-11"
+image_url: "https://example.com/cards/2026-topps-series-2/550-foilfractor.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Topps#Insertion_Ratios"

@@ -1,0 +1,23 @@
+number: "551"
+uuid: "ccdd6293-0fbc-4988-8325-7df5ca4b164c"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-topps-series-2"
+subjects:
+  - name: "Taylor Ward"
+    role: "Player"
+    team: "Baltimore Orioles"
+card_name: "Taylor Ward - Base - Gold"
+description: "Gold parallel of Base card featuring Taylor Ward."
+series: "2026 Topps Baseball"
+parallel: "Gold"
+print_run: 2026
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: true
+release_date: "2026-06-11"
+image_url: "https://example.com/cards/2026-topps-series-2/551-gold.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Topps#Insertion_Ratios"

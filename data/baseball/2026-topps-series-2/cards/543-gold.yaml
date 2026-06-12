@@ -1,0 +1,23 @@
+number: "543"
+uuid: "9dbf2698-710b-4902-ad83-68ef99e4f49f"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-topps-series-2"
+subjects:
+  - name: "Jonny DeLuca"
+    role: "Player"
+    team: "Tampa Bay Rays"
+card_name: "Jonny DeLuca - Base - Gold"
+description: "Gold parallel of Base card featuring Jonny DeLuca."
+series: "2026 Topps Baseball"
+parallel: "Gold"
+print_run: 2026
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: true
+release_date: "2026-06-11"
+image_url: "https://example.com/cards/2026-topps-series-2/543-gold.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Topps#Insertion_Ratios"

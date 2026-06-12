@@ -1,0 +1,23 @@
+number: "550"
+uuid: "5b9203ff-3790-42eb-940f-a7e2cde899e6"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-topps-series-2"
+subjects:
+  - name: "Dansby Swanson"
+    role: "Player"
+    team: "Chicago Cubs"
+card_name: "Dansby Swanson - Base - Wood"
+description: "Wood parallel of Base card featuring Dansby Swanson."
+series: "2026 Topps Baseball"
+parallel: "Wood"
+print_run: 25
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: true
+release_date: "2026-06-11"
+image_url: "https://example.com/cards/2026-topps-series-2/550-wood.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Topps#Insertion_Ratios"

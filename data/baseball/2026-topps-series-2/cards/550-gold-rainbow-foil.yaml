@@ -1,0 +1,23 @@
+number: "550"
+uuid: "5ee3284e-43ae-42bd-91b1-7cda118c11d4"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-topps-series-2"
+subjects:
+  - name: "Dansby Swanson"
+    role: "Player"
+    team: "Chicago Cubs"
+card_name: "Dansby Swanson - Base - Gold Rainbow Foil"
+description: "Gold Rainbow Foil parallel of Base card featuring Dansby Swanson."
+series: "2026 Topps Baseball"
+parallel: "Gold Rainbow Foil"
+print_run: 50
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: true
+release_date: "2026-06-11"
+image_url: "https://example.com/cards/2026-topps-series-2/550-gold-rainbow-foil.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Topps#Insertion_Ratios"

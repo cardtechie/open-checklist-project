@@ -1,0 +1,23 @@
+number: "555"
+uuid: "f3d88e50-865a-4189-8c54-b0950b7be236"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-topps-series-2"
+subjects:
+  - name: "Cade Povich"
+    role: "Player"
+    team: "Baltimore Orioles"
+card_name: "Cade Povich - Base - Purple Rainbow Foil"
+description: "Purple Rainbow Foil parallel of Base card featuring Cade Povich."
+series: "2026 Topps Baseball"
+parallel: "Purple Rainbow Foil"
+print_run: 250
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: true
+release_date: "2026-06-11"
+image_url: "https://example.com/cards/2026-topps-series-2/555-purple-rainbow-foil.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Topps#Insertion_Ratios"

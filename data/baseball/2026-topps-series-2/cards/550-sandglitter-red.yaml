@@ -1,0 +1,23 @@
+number: "550"
+uuid: "46a5d17f-ad08-442d-8075-9fea225d0ae2"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-topps-series-2"
+subjects:
+  - name: "Dansby Swanson"
+    role: "Player"
+    team: "Chicago Cubs"
+card_name: "Dansby Swanson - Base - Sandglitter Red"
+description: "Sandglitter Red parallel of Base card featuring Dansby Swanson."
+series: "2026 Topps Baseball"
+parallel: "Sandglitter Red"
+print_run: 5
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: true
+release_date: "2026-06-11"
+image_url: "https://example.com/cards/2026-topps-series-2/550-sandglitter-red.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Topps#Insertion_Ratios"

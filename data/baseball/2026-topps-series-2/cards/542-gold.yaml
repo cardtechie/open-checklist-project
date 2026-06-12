@@ -1,0 +1,23 @@
+number: "542"
+uuid: "1ac08b4d-c781-4c00-874d-3b29013b3218"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-topps-series-2"
+subjects:
+  - name: "Joey Ortiz"
+    role: "Player"
+    team: "Milwaukee Brewers"
+card_name: "Joey Ortiz - Base - Gold"
+description: "Gold parallel of Base card featuring Joey Ortiz."
+series: "2026 Topps Baseball"
+parallel: "Gold"
+print_run: 2026
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: true
+release_date: "2026-06-11"
+image_url: "https://example.com/cards/2026-topps-series-2/542-gold.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Topps#Insertion_Ratios"
