@@ -1,0 +1,23 @@
+number: "BP-3"
+uuid: "0be7f08b-4f34-472f-b8b8-249e5cae642e"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-bowman"
+subjects:
+  - name: "Yojancel Cabrera"
+    role: "Player"
+    team: "Los Angeles Angels"
+subset: "Base Prospects"
+card_name: "Yojancel Cabrera - Base Prospects - Green"
+description: "Green parallel of Base Prospects card featuring Yojancel Cabrera."
+series: "2026 Bowman"
+parallel: "Green"
+print_run: 99
+rookie_card: false
+autograph: false
+serial_numbered: true
+release_date: "2026-05-13"
+image_url: "https://example.com/cards/2026-bowman/base-prospects-BP-3-green.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Bowman#Insertion_Ratios"

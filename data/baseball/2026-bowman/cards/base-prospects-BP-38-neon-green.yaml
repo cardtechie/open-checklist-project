@@ -1,0 +1,23 @@
+number: "BP-38"
+uuid: "7e33ba77-a17e-4ed1-b605-907fa8909133"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-bowman"
+subjects:
+  - name: "Luis Cova"
+    role: "Player"
+    team: "Miami Marlins"
+subset: "Base Prospects"
+card_name: "Luis Cova - Base Prospects - Neon Green"
+description: "Neon Green parallel of Base Prospects card featuring Luis Cova."
+series: "2026 Bowman"
+parallel: "Neon Green"
+print_run: 299
+rookie_card: false
+autograph: false
+serial_numbered: true
+release_date: "2026-05-13"
+image_url: "https://example.com/cards/2026-bowman/base-prospects-BP-38-neon-green.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Bowman#Insertion_Ratios"

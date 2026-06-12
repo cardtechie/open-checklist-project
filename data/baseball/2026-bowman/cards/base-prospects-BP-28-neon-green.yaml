@@ -1,0 +1,23 @@
+number: "BP-28"
+uuid: "1000c5fd-1328-4028-9a8a-46e028e06a2c"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-bowman"
+subjects:
+  - name: "Carlos Virahonda"
+    role: "Player"
+    team: "Arizona Diamondbacks"
+subset: "Base Prospects"
+card_name: "Carlos Virahonda - Base Prospects - Neon Green"
+description: "Neon Green parallel of Base Prospects card featuring Carlos Virahonda."
+series: "2026 Bowman"
+parallel: "Neon Green"
+print_run: 299
+rookie_card: false
+autograph: false
+serial_numbered: true
+release_date: "2026-05-13"
+image_url: "https://example.com/cards/2026-bowman/base-prospects-BP-28-neon-green.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Bowman#Insertion_Ratios"

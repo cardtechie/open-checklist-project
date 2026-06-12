@@ -1,0 +1,23 @@
+number: "BP-24"
+uuid: "61668e1e-c16b-4f81-a725-5b2f9a36e924"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-bowman"
+subjects:
+  - name: "Edward Duran"
+    role: "Player"
+    team: "Toronto Blue Jays"
+subset: "Base Prospects"
+card_name: "Edward Duran - Base Prospects - Sky Blue"
+description: "Sky Blue parallel of Base Prospects card featuring Edward Duran."
+series: "2026 Bowman"
+parallel: "Sky Blue"
+print_run: 399
+rookie_card: false
+autograph: false
+serial_numbered: true
+release_date: "2026-05-13"
+image_url: "https://example.com/cards/2026-bowman/base-prospects-BP-24-sky-blue.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Bowman#Insertion_Ratios"

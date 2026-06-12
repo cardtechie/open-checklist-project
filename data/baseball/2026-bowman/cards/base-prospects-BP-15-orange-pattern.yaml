@@ -1,0 +1,23 @@
+number: "BP-15"
+uuid: "9dd24b73-14a3-4b1f-936c-5037c65528c0"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-bowman"
+subjects:
+  - name: "Gage Jump"
+    role: "Player"
+    team: "Athletics"
+subset: "Base Prospects"
+card_name: "Gage Jump - Base Prospects - Orange Pattern"
+description: "Orange Pattern parallel of Base Prospects card featuring Gage Jump."
+series: "2026 Bowman"
+parallel: "Orange Pattern"
+print_run: 25
+rookie_card: false
+autograph: false
+serial_numbered: true
+release_date: "2026-05-13"
+image_url: "https://example.com/cards/2026-bowman/base-prospects-BP-15-orange-pattern.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Bowman#Insertion_Ratios"

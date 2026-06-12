@@ -1,0 +1,23 @@
+number: "BP-4"
+uuid: "1a090427-1d02-4d73-8f44-ca68ff73490a"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-bowman"
+subjects:
+  - name: "James Quinn-Irons"
+    role: "Player"
+    team: "Tampa Bay Rays"
+subset: "Base Prospects"
+card_name: "James Quinn-Irons - Base Prospects - Blue"
+description: "Blue parallel of Base Prospects card featuring James Quinn-Irons."
+series: "2026 Bowman"
+parallel: "Blue"
+print_run: 150
+rookie_card: false
+autograph: false
+serial_numbered: true
+release_date: "2026-05-13"
+image_url: "https://example.com/cards/2026-bowman/base-prospects-BP-4-blue.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Bowman#Insertion_Ratios"

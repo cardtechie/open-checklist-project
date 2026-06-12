@@ -1,0 +1,23 @@
+number: "BP-148"
+uuid: "68070952-f9dc-4635-908f-ad7d9a103c6a"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-bowman"
+subjects:
+  - name: "Dillon Lewis"
+    role: "Player"
+    team: "New York Yankees"
+subset: "Base Prospects"
+card_name: "Dillon Lewis - Base Prospects - Fuchsia"
+description: "Fuchsia parallel of Base Prospects card featuring Dillon Lewis."
+series: "2026 Bowman"
+parallel: "Fuchsia"
+print_run: 250
+rookie_card: false
+autograph: false
+serial_numbered: true
+release_date: "2026-05-13"
+image_url: "https://example.com/cards/2026-bowman/base-prospects-BP-148-fuchsia.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Bowman#Insertion_Ratios"

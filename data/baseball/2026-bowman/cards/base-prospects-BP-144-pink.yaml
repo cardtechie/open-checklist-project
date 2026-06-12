@@ -1,0 +1,23 @@
+number: "BP-144"
+uuid: "017af8c9-9f3c-445a-b619-eec4d7da41c4"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-bowman"
+subjects:
+  - name: "Colby Shelton"
+    role: "Player"
+    team: "Chicago White Sox"
+subset: "Base Prospects"
+card_name: "Colby Shelton - Base Prospects - Pink"
+description: "Pink parallel of Base Prospects card featuring Colby Shelton."
+series: "2026 Bowman"
+parallel: "Pink"
+print_run: 150
+rookie_card: false
+autograph: false
+serial_numbered: true
+release_date: "2026-05-13"
+image_url: "https://example.com/cards/2026-bowman/base-prospects-BP-144-pink.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Bowman#Insertion_Ratios"

@@ -1,0 +1,22 @@
+number: "BP-19"
+uuid: "39d04f01-e9d1-4b36-8f79-0a7cbd3c741d"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-bowman"
+subjects:
+  - name: "Kade Anderson"
+    role: "Player"
+    team: "Seattle Mariners"
+subset: "Base Prospects"
+card_name: "Kade Anderson - Base Prospects - Bowman Logo"
+description: "Bowman Logo parallel of Base Prospects card featuring Kade Anderson."
+series: "2026 Bowman"
+parallel: "Bowman Logo"
+rookie_card: false
+autograph: false
+serial_numbered: false
+release_date: "2026-05-13"
+image_url: "https://example.com/cards/2026-bowman/base-prospects-BP-19-bowman-logo.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Bowman#Insertion_Ratios"

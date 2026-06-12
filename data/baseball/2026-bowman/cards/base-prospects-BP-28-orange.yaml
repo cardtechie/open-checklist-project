@@ -1,0 +1,23 @@
+number: "BP-28"
+uuid: "2fe1286b-14b0-4c78-ad48-1d1360ecfeed"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-bowman"
+subjects:
+  - name: "Carlos Virahonda"
+    role: "Player"
+    team: "Arizona Diamondbacks"
+subset: "Base Prospects"
+card_name: "Carlos Virahonda - Base Prospects - Orange"
+description: "Orange parallel of Base Prospects card featuring Carlos Virahonda."
+series: "2026 Bowman"
+parallel: "Orange"
+print_run: 25
+rookie_card: false
+autograph: false
+serial_numbered: true
+release_date: "2026-05-13"
+image_url: "https://example.com/cards/2026-bowman/base-prospects-BP-28-orange.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Bowman#Insertion_Ratios"

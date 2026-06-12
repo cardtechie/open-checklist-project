@@ -1,0 +1,23 @@
+number: "BP-38"
+uuid: "d543e2f7-0aea-4e26-b177-21d6f74e4d78"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-bowman"
+subjects:
+  - name: "Luis Cova"
+    role: "Player"
+    team: "Miami Marlins"
+subset: "Base Prospects"
+card_name: "Luis Cova - Base Prospects - Gold"
+description: "Gold parallel of Base Prospects card featuring Luis Cova."
+series: "2026 Bowman"
+parallel: "Gold"
+print_run: 50
+rookie_card: false
+autograph: false
+serial_numbered: true
+release_date: "2026-05-13"
+image_url: "https://example.com/cards/2026-bowman/base-prospects-BP-38-gold.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Bowman#Insertion_Ratios"
