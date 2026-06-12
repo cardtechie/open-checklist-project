@@ -1,0 +1,22 @@
+number: "BCP-84"
+uuid: "b8929db0-4483-4e61-ad74-cc9a563f5e36"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-bowman"
+subjects:
+  - name: "David Hagaman"
+    role: "Player"
+    team: "Arizona Diamondbacks"
+subset: "Chrome Prospects"
+card_name: "David Hagaman - Chrome Prospects - LogoFractor"
+description: "LogoFractor parallel of Chrome Prospects card featuring David Hagaman."
+series: "2026 Bowman"
+parallel: "LogoFractor"
+rookie_card: false
+autograph: false
+serial_numbered: false
+release_date: "2026-05-13"
+image_url: "https://example.com/cards/2026-bowman/chrome-prospects-BCP-84-logofractor.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Bowman#Insertion_Ratios"

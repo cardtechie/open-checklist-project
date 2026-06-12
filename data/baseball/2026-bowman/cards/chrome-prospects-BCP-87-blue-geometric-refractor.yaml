@@ -1,0 +1,23 @@
+number: "BCP-87"
+uuid: "da514194-e1b0-4d1b-9c8f-5c0826bf17c5"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-bowman"
+subjects:
+  - name: "Jean Carlos Sio"
+    role: "Player"
+    team: "San Francisco Giants"
+subset: "Chrome Prospects"
+card_name: "Jean Carlos Sio - Chrome Prospects - Blue Geometric Refractor"
+description: "Blue Geometric Refractor parallel of Chrome Prospects card featuring Jean Carlos Sio."
+series: "2026 Bowman"
+parallel: "Blue Geometric Refractor"
+print_run: 150
+rookie_card: false
+autograph: false
+serial_numbered: true
+release_date: "2026-05-13"
+image_url: "https://example.com/cards/2026-bowman/chrome-prospects-BCP-87-blue-geometric-refractor.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Bowman#Insertion_Ratios"
