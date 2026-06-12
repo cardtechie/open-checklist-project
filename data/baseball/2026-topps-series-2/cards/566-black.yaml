@@ -1,0 +1,23 @@
+number: "566"
+uuid: "485f5847-0266-4c70-a44e-4d1b229cec7b"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-topps-series-2"
+subjects:
+  - name: "Jack Little"
+    role: "Player"
+    team: "Detroit Tigers"
+card_name: "Jack Little - Base - Black"
+description: "Black parallel of Base card featuring Jack Little."
+series: "2026 Topps Baseball"
+parallel: "Black"
+print_run: 75
+rookie_card: true
+autograph: false
+relic: false
+serial_numbered: true
+release_date: "2026-06-11"
+image_url: "https://example.com/cards/2026-topps-series-2/566-black.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Topps#Insertion_Ratios"

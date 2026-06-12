@@ -1,0 +1,23 @@
+number: "566"
+uuid: "297bb169-72f0-40b7-a565-64487c82d1a8"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-topps-series-2"
+subjects:
+  - name: "Jack Little"
+    role: "Player"
+    team: "Detroit Tigers"
+card_name: "Jack Little - Base - Cherry Blossom"
+description: "Cherry Blossom parallel of Base card featuring Jack Little."
+series: "2026 Topps Baseball"
+parallel: "Cherry Blossom"
+print_run: 99
+rookie_card: true
+autograph: false
+relic: false
+serial_numbered: true
+release_date: "2026-06-11"
+image_url: "https://example.com/cards/2026-topps-series-2/566-cherry-blossom.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Topps#Insertion_Ratios"

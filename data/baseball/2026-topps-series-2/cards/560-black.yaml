@@ -1,0 +1,23 @@
+number: "560"
+uuid: "474a6d65-208e-4c48-9b33-90faadcfb0ed"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-topps-series-2"
+subjects:
+  - name: "Jarren Duran"
+    role: "Player"
+    team: "Boston Red Sox"
+card_name: "Jarren Duran - Base - Black"
+description: "Black parallel of Base card featuring Jarren Duran."
+series: "2026 Topps Baseball"
+parallel: "Black"
+print_run: 75
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: true
+release_date: "2026-06-11"
+image_url: "https://example.com/cards/2026-topps-series-2/560-black.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Topps#Insertion_Ratios"

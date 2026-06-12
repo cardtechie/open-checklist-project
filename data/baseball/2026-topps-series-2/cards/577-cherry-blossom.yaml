@@ -1,0 +1,23 @@
+number: "577"
+uuid: "80bb1028-33f0-4001-b6a9-e1a7f1995088"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-topps-series-2"
+subjects:
+  - name: "Grayson Rodriguez"
+    role: "Player"
+    team: "Los Angeles Angels"
+card_name: "Grayson Rodriguez - Base - Cherry Blossom"
+description: "Cherry Blossom parallel of Base card featuring Grayson Rodriguez."
+series: "2026 Topps Baseball"
+parallel: "Cherry Blossom"
+print_run: 99
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: true
+release_date: "2026-06-11"
+image_url: "https://example.com/cards/2026-topps-series-2/577-cherry-blossom.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Topps#Insertion_Ratios"

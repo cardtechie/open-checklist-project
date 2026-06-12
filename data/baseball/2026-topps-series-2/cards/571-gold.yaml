@@ -1,0 +1,23 @@
+number: "571"
+uuid: "f45f5aec-18bf-4ac1-957b-ae23936006ba"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-topps-series-2"
+subjects:
+  - name: "Kiké Hernández"
+    role: "Player"
+    team: "Los Angeles Dodgers"
+card_name: "Kiké Hernández - Base - Gold"
+description: "Gold parallel of Base card featuring Kiké Hernández."
+series: "2026 Topps Baseball"
+parallel: "Gold"
+print_run: 2026
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: true
+release_date: "2026-06-11"
+image_url: "https://example.com/cards/2026-topps-series-2/571-gold.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Topps#Insertion_Ratios"
