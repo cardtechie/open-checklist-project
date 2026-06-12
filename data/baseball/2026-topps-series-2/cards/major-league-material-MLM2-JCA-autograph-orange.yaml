@@ -1,0 +1,24 @@
+number: "MLM2-JCA"
+uuid: "04a5c09a-bea1-4d9f-a21b-31cae2c6f156"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-topps-series-2"
+subjects:
+  - name: "Jac Caglianone"
+    role: "Player"
+    team: "Kansas City Royals"
+subset: "Major League Material"
+card_name: "Jac Caglianone - Major League Material - Autograph Orange"
+description: "Autograph Orange parallel of Major League Material memorabilia card featuring Jac Caglianone."
+series: "2026 Topps Baseball"
+parallel: "Autograph Orange"
+print_run: 25
+rookie_card: false
+autograph: false
+relic: true
+serial_numbered: true
+release_date: "2026-06-11"
+image_url: "https://example.com/cards/2026-topps-series-2/major-league-material-MLM2-JCA-autograph-orange.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Topps#Insertion_Ratios"

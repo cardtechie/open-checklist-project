@@ -1,0 +1,24 @@
+number: "MLM2-RR"
+uuid: "951c4a91-419c-4ae5-b5d5-1b99429df112"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-topps-series-2"
+subjects:
+  - name: "Ryan Ritter"
+    role: "Player"
+    team: "Colorado Rockies"
+subset: "Major League Material"
+card_name: "Ryan Ritter - Major League Material - Blue"
+description: "Blue parallel of Major League Material memorabilia card featuring Ryan Ritter."
+series: "2026 Topps Baseball"
+parallel: "Blue"
+print_run: 150
+rookie_card: false
+autograph: false
+relic: true
+serial_numbered: true
+release_date: "2026-06-11"
+image_url: "https://example.com/cards/2026-topps-series-2/major-league-material-MLM2-RR-blue.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Topps#Insertion_Ratios"

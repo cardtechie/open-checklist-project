@@ -1,0 +1,24 @@
+number: "MLM2-OCA"
+uuid: "c6bc6e9a-125c-4ecb-9c2d-d70bc4f2e8cd"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-topps-series-2"
+subjects:
+  - name: "Owen Caissie"
+    role: "Player"
+    team: "Miami Marlins"
+subset: "Major League Material"
+card_name: "Owen Caissie - Major League Material - Green"
+description: "Green parallel of Major League Material memorabilia card featuring Owen Caissie."
+series: "2026 Topps Baseball"
+parallel: "Green"
+print_run: 99
+rookie_card: false
+autograph: false
+relic: true
+serial_numbered: true
+release_date: "2026-06-11"
+image_url: "https://example.com/cards/2026-topps-series-2/major-league-material-MLM2-OCA-green.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Topps#Insertion_Ratios"

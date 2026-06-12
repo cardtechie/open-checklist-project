@@ -1,0 +1,23 @@
+number: "MLM2-DO"
+uuid: "7e6ac3d0-4a7f-4528-ab9c-f45ed769dd5e"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-topps-series-2"
+subjects:
+  - name: "David Ortiz"
+    role: "Player"
+    team: "Boston Red Sox"
+subset: "Major League Material"
+card_name: "David Ortiz - Major League Material - Dual Autograph"
+description: "Dual Autograph parallel of Major League Material memorabilia card featuring David Ortiz."
+series: "2026 Topps Baseball"
+parallel: "Dual Autograph"
+rookie_card: false
+autograph: false
+relic: true
+serial_numbered: false
+release_date: "2026-06-11"
+image_url: "https://example.com/cards/2026-topps-series-2/major-league-material-MLM2-DO-dual-autograph.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Topps#Insertion_Ratios"

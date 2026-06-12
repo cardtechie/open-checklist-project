@@ -1,0 +1,24 @@
+number: "MLM2-JRA"
+uuid: "aa973c4c-0d80-491a-844b-f1f816b30c7c"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-topps-series-2"
+subjects:
+  - name: "José Ramírez"
+    role: "Player"
+    team: "Cleveland Guardians"
+subset: "Major League Material"
+card_name: "José Ramírez - Major League Material - Autograph Red"
+description: "Autograph Red parallel of Major League Material memorabilia card featuring José Ramírez."
+series: "2026 Topps Baseball"
+parallel: "Autograph Red"
+print_run: 5
+rookie_card: false
+autograph: false
+relic: true
+serial_numbered: true
+release_date: "2026-06-11"
+image_url: "https://example.com/cards/2026-topps-series-2/major-league-material-MLM2-JRA-autograph-red.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Topps#Insertion_Ratios"

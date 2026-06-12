@@ -1,0 +1,24 @@
+number: "MLM2-DO"
+uuid: "94506111-584a-45f6-b50e-1de39ae79fac"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-topps-series-2"
+subjects:
+  - name: "David Ortiz"
+    role: "Player"
+    team: "Boston Red Sox"
+subset: "Major League Material"
+card_name: "David Ortiz - Major League Material - Black"
+description: "Black parallel of Major League Material memorabilia card featuring David Ortiz."
+series: "2026 Topps Baseball"
+parallel: "Black"
+print_run: 10
+rookie_card: false
+autograph: false
+relic: true
+serial_numbered: true
+release_date: "2026-06-11"
+image_url: "https://example.com/cards/2026-topps-series-2/major-league-material-MLM2-DO-black.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Topps#Insertion_Ratios"

@@ -1,0 +1,24 @@
+number: "MLM2-MT"
+uuid: "5b3f1bc7-3d01-4e9c-a66f-4f3bae7b0c3c"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-topps-series-2"
+subjects:
+  - name: "Mike Trout"
+    role: "Player"
+    team: "Los Angeles Angels"
+subset: "Major League Material"
+card_name: "Mike Trout - Major League Material - Dual Autograph Red"
+description: "Dual Autograph Red parallel of Major League Material memorabilia card featuring Mike Trout."
+series: "2026 Topps Baseball"
+parallel: "Dual Autograph Red"
+print_run: 5
+rookie_card: false
+autograph: false
+relic: true
+serial_numbered: true
+release_date: "2026-06-11"
+image_url: "https://example.com/cards/2026-topps-series-2/major-league-material-MLM2-MT-dual-autograph-red.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Topps#Insertion_Ratios"

@@ -1,0 +1,24 @@
+number: "MLM2-GS"
+uuid: "2dba9b54-4247-4c16-aa38-b67d79c15065"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-topps-series-2"
+subjects:
+  - name: "Giancarlo Stanton"
+    role: "Player"
+    team: "New York Yankees"
+subset: "Major League Material"
+card_name: "Giancarlo Stanton - Major League Material - Blue"
+description: "Blue parallel of Major League Material memorabilia card featuring Giancarlo Stanton."
+series: "2026 Topps Baseball"
+parallel: "Blue"
+print_run: 150
+rookie_card: false
+autograph: false
+relic: true
+serial_numbered: true
+release_date: "2026-06-11"
+image_url: "https://example.com/cards/2026-topps-series-2/major-league-material-MLM2-GS-blue.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Topps#Insertion_Ratios"

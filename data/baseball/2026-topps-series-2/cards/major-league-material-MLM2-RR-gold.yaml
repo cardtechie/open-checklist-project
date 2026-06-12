@@ -1,0 +1,24 @@
+number: "MLM2-RR"
+uuid: "0b65314b-d2ed-406b-902d-fbe578b9adac"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-topps-series-2"
+subjects:
+  - name: "Ryan Ritter"
+    role: "Player"
+    team: "Colorado Rockies"
+subset: "Major League Material"
+card_name: "Ryan Ritter - Major League Material - Gold"
+description: "Gold parallel of Major League Material memorabilia card featuring Ryan Ritter."
+series: "2026 Topps Baseball"
+parallel: "Gold"
+print_run: 50
+rookie_card: false
+autograph: false
+relic: true
+serial_numbered: true
+release_date: "2026-06-11"
+image_url: "https://example.com/cards/2026-topps-series-2/major-league-material-MLM2-RR-gold.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Topps#Insertion_Ratios"

@@ -1,0 +1,24 @@
+number: "MLM2-DO"
+uuid: "78b8b88a-6be8-4ac9-a3ee-7cbbc1ba4e84"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-topps-series-2"
+subjects:
+  - name: "David Ortiz"
+    role: "Player"
+    team: "Boston Red Sox"
+subset: "Major League Material"
+card_name: "David Ortiz - Major League Material - Gold"
+description: "Gold parallel of Major League Material memorabilia card featuring David Ortiz."
+series: "2026 Topps Baseball"
+parallel: "Gold"
+print_run: 50
+rookie_card: false
+autograph: false
+relic: true
+serial_numbered: true
+release_date: "2026-06-11"
+image_url: "https://example.com/cards/2026-topps-series-2/major-league-material-MLM2-DO-gold.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Topps#Insertion_Ratios"

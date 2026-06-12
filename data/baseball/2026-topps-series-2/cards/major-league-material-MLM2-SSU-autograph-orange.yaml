@@ -1,0 +1,24 @@
+number: "MLM2-SSU"
+uuid: "32d87a22-4a43-440e-94ca-0c4e67eaf33c"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-topps-series-2"
+subjects:
+  - name: "Seiya Suzuki"
+    role: "Player"
+    team: "Chicago Cubs"
+subset: "Major League Material"
+card_name: "Seiya Suzuki - Major League Material - Autograph Orange"
+description: "Autograph Orange parallel of Major League Material memorabilia card featuring Seiya Suzuki."
+series: "2026 Topps Baseball"
+parallel: "Autograph Orange"
+print_run: 25
+rookie_card: false
+autograph: false
+relic: true
+serial_numbered: true
+release_date: "2026-06-11"
+image_url: "https://example.com/cards/2026-topps-series-2/major-league-material-MLM2-SSU-autograph-orange.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Topps#Insertion_Ratios"

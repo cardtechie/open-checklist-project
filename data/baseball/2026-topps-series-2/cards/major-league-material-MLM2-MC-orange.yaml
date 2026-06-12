@@ -1,0 +1,24 @@
+number: "MLM2-MC"
+uuid: "dca9faf3-c54f-484a-bb22-52f5f12fcdea"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-topps-series-2"
+subjects:
+  - name: "Matt Chapman"
+    role: "Player"
+    team: "San Francisco Giants"
+subset: "Major League Material"
+card_name: "Matt Chapman - Major League Material - Orange"
+description: "Orange parallel of Major League Material memorabilia card featuring Matt Chapman."
+series: "2026 Topps Baseball"
+parallel: "Orange"
+print_run: 25
+rookie_card: false
+autograph: false
+relic: true
+serial_numbered: true
+release_date: "2026-06-11"
+image_url: "https://example.com/cards/2026-topps-series-2/major-league-material-MLM2-MC-orange.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Topps#Insertion_Ratios"

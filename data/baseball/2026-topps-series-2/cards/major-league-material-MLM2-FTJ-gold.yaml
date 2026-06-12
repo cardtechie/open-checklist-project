@@ -1,0 +1,24 @@
+number: "MLM2-FTJ"
+uuid: "65b8d839-96f1-4bda-976b-314c5dea31b5"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-topps-series-2"
+subjects:
+  - name: "Fernando Tatis Jr."
+    role: "Player"
+    team: "San Diego Padres"
+subset: "Major League Material"
+card_name: "Fernando Tatis Jr. - Major League Material - Gold"
+description: "Gold parallel of Major League Material memorabilia card featuring Fernando Tatis Jr.."
+series: "2026 Topps Baseball"
+parallel: "Gold"
+print_run: 50
+rookie_card: false
+autograph: false
+relic: true
+serial_numbered: true
+release_date: "2026-06-11"
+image_url: "https://example.com/cards/2026-topps-series-2/major-league-material-MLM2-FTJ-gold.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Topps#Insertion_Ratios"

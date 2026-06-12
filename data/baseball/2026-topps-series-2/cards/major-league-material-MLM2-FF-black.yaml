@@ -1,0 +1,24 @@
+number: "MLM2-FF"
+uuid: "12f26803-ab23-457e-95e3-99ceeba31791"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-topps-series-2"
+subjects:
+  - name: "Freddie Freeman"
+    role: "Player"
+    team: "Los Angeles Dodgers"
+subset: "Major League Material"
+card_name: "Freddie Freeman - Major League Material - Black"
+description: "Black parallel of Major League Material memorabilia card featuring Freddie Freeman."
+series: "2026 Topps Baseball"
+parallel: "Black"
+print_run: 10
+rookie_card: false
+autograph: false
+relic: true
+serial_numbered: true
+release_date: "2026-06-11"
+image_url: "https://example.com/cards/2026-topps-series-2/major-league-material-MLM2-FF-black.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Topps#Insertion_Ratios"

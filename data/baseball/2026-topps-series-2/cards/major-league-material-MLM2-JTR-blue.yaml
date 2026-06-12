@@ -1,0 +1,24 @@
+number: "MLM2-JTR"
+uuid: "df70da58-1d94-45f0-9911-5414f6fb7834"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-topps-series-2"
+subjects:
+  - name: "J.T. Realmuto"
+    role: "Player"
+    team: "Philadelphia Phillies"
+subset: "Major League Material"
+card_name: "J.T. Realmuto - Major League Material - Blue"
+description: "Blue parallel of Major League Material memorabilia card featuring J.T. Realmuto."
+series: "2026 Topps Baseball"
+parallel: "Blue"
+print_run: 150
+rookie_card: false
+autograph: false
+relic: true
+serial_numbered: true
+release_date: "2026-06-11"
+image_url: "https://example.com/cards/2026-topps-series-2/major-league-material-MLM2-JTR-blue.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Topps#Insertion_Ratios"

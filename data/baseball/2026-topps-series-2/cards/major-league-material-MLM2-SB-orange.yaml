@@ -1,0 +1,24 @@
+number: "MLM2-SB"
+uuid: "6b03e40c-4f7f-42fc-8565-a82e44ad06ea"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-topps-series-2"
+subjects:
+  - name: "Samuel Basallo"
+    role: "Player"
+    team: "Baltimore Orioles"
+subset: "Major League Material"
+card_name: "Samuel Basallo - Major League Material - Orange"
+description: "Orange parallel of Major League Material memorabilia card featuring Samuel Basallo."
+series: "2026 Topps Baseball"
+parallel: "Orange"
+print_run: 25
+rookie_card: false
+autograph: false
+relic: true
+serial_numbered: true
+release_date: "2026-06-11"
+image_url: "https://example.com/cards/2026-topps-series-2/major-league-material-MLM2-SB-orange.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Topps#Insertion_Ratios"
