@@ -1,0 +1,24 @@
+number: "91B2-10"
+uuid: "2d8b6830-25bf-4d82-98b8-0fb385cb8a1d"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-topps-series-2"
+subjects:
+  - name: "Ty Cobb"
+    role: "Player"
+    team: "Detroit Tigers"
+subset: "1991 Topps Baseball"
+card_name: "Ty Cobb - 1991 Topps Baseball - Relics Red"
+description: "Relics Red parallel of 1991 Topps Baseball card featuring Ty Cobb."
+series: "2026 Topps Baseball"
+parallel: "Relics Red"
+print_run: 5
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: true
+release_date: "2026-06-11"
+image_url: "https://example.com/cards/2026-topps-series-2/1991-topps-baseball-91B2-10-relics-red.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Topps#Insertion_Ratios"
