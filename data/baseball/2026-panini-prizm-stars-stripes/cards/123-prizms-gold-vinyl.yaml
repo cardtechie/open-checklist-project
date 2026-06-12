@@ -1,0 +1,23 @@
+number: "123"
+uuid: "9b656839-7b12-477b-8b82-5ebf8e6465b0"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-panini-prizm-stars-stripes"
+subjects:
+  - name: "Tyler Smith"
+    role: "Player"
+    team: "USA Baseball"
+card_name: "Tyler Smith - Base - Prizms Gold Vinyl"
+description: "Prizms Gold Vinyl parallel of Base card featuring Tyler Smith."
+series: "2026 Panini Stars & Stripes Prizm"
+parallel: "Prizms Gold Vinyl"
+print_run: 1
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: true
+release_date: "2026-04-03"
+image_url: "https://example.com/cards/2026-panini-prizm-stars-stripes/123-prizms-gold-vinyl.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Panini_Stars_%26_Stripes_Prizm#Checklist"
