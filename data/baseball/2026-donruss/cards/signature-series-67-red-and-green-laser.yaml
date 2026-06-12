@@ -1,0 +1,24 @@
+number: "67"
+uuid: "2bfb7eff-d7a6-4f7b-9ac3-c1b59de891db"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "Zach Ehrhard"
+    role: "Player"
+    team: "Los Angeles Dodgers"
+subset: "Signature Series"
+card_name: "Zach Ehrhard - Signature Series - Red and Green Laser"
+description: "Red and Green Laser parallel of Autographed Signature Series card featuring Zach Ehrhard."
+series: "2026 Donruss"
+parallel: "Red and Green Laser"
+print_run: 99
+rookie_card: false
+autograph: true
+relic: false
+serial_numbered: true
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/signature-series-67-red-and-green-laser.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Donruss#Checklist"

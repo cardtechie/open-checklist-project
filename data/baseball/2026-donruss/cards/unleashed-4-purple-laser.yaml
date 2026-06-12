@@ -1,0 +1,24 @@
+number: "4"
+uuid: "a232cd30-7987-4283-bae7-ec5c5d3b3333"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "Dylan Crews"
+    role: "Player"
+    team: "Washington Nationals"
+subset: "Unleashed"
+card_name: "Dylan Crews - Unleashed - Purple Laser"
+description: "Purple Laser parallel of Unleashed card featuring Dylan Crews."
+series: "2026 Donruss"
+parallel: "Purple Laser"
+print_run: 15
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: true
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/unleashed-4-purple-laser.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Donruss#Checklist"

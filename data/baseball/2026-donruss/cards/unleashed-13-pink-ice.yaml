@@ -1,0 +1,24 @@
+number: "13"
+uuid: "55c07ec1-8da8-4cd1-8d5a-d992404b953e"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "Charlie Condon"
+    role: "Player"
+    team: "Colorado Rockies"
+subset: "Unleashed"
+card_name: "Charlie Condon - Unleashed - Pink Ice"
+description: "Pink Ice parallel of Unleashed card featuring Charlie Condon."
+series: "2026 Donruss"
+parallel: "Pink Ice"
+print_run: 99
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: true
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/unleashed-13-pink-ice.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Donruss#Checklist"

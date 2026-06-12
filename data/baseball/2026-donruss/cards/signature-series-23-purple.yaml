@@ -1,0 +1,24 @@
+number: "23"
+uuid: "9e4e8d6b-79f2-4eb3-ba8c-b5839d8ba574"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "Tai Peete"
+    role: "Player"
+    team: "Seattle Mariners"
+subset: "Signature Series"
+card_name: "Tai Peete - Signature Series - Purple"
+description: "Purple parallel of Autographed Signature Series card featuring Tai Peete."
+series: "2026 Donruss"
+parallel: "Purple"
+print_run: 49
+rookie_card: false
+autograph: true
+relic: false
+serial_numbered: true
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/signature-series-23-purple.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Donruss#Checklist"

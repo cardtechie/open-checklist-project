@@ -1,0 +1,24 @@
+number: "8"
+uuid: "5307f7ca-5904-4d40-8bcf-3cf701f0b0cd"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "Bryce Eldridge"
+    role: "Player"
+    team: "San Francisco Giants"
+subset: "Unleashed"
+card_name: "Bryce Eldridge - Unleashed - Platinum Diamond"
+description: "Platinum Diamond parallel of Unleashed card featuring Bryce Eldridge."
+series: "2026 Donruss"
+parallel: "Platinum Diamond"
+print_run: 1
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: true
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/unleashed-8-platinum-diamond.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Donruss#Checklist"

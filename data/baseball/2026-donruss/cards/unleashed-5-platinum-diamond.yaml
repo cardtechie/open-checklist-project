@@ -1,0 +1,24 @@
+number: "5"
+uuid: "83192f1a-ab0d-4b21-8608-80d7780e7add"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "Eli Willits"
+    role: "Player"
+    team: "Washington Nationals"
+subset: "Unleashed"
+card_name: "Eli Willits - Unleashed - Platinum Diamond"
+description: "Platinum Diamond parallel of Unleashed card featuring Eli Willits."
+series: "2026 Donruss"
+parallel: "Platinum Diamond"
+print_run: 1
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: true
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/unleashed-5-platinum-diamond.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Donruss#Checklist"

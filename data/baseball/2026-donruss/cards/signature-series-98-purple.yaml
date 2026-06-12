@@ -1,0 +1,24 @@
+number: "98"
+uuid: "0e40d862-87da-4f1e-911c-8dfc0a370363"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "Harry Ford"
+    role: "Player"
+    team: "Seattle Mariners"
+subset: "Signature Series"
+card_name: "Harry Ford - Signature Series - Purple"
+description: "Purple parallel of Autographed Signature Series card featuring Harry Ford."
+series: "2026 Donruss"
+parallel: "Purple"
+print_run: 49
+rookie_card: false
+autograph: true
+relic: false
+serial_numbered: true
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/signature-series-98-purple.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Donruss#Checklist"

@@ -1,0 +1,24 @@
+number: "83"
+uuid: "d81bb7f8-0c3e-4240-b455-27fe7347e53f"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "Caleb Bonemer"
+    role: "Player"
+    team: "Chicago White Sox"
+subset: "Signature Series"
+card_name: "Caleb Bonemer - Signature Series - Red Laser"
+description: "Red Laser parallel of Autographed Signature Series card featuring Caleb Bonemer."
+series: "2026 Donruss"
+parallel: "Red Laser"
+print_run: 30
+rookie_card: false
+autograph: true
+relic: false
+serial_numbered: true
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/signature-series-83-red-laser.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Donruss#Checklist"

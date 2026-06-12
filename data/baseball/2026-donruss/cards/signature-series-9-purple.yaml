@@ -1,0 +1,24 @@
+number: "9"
+uuid: "d2aa6b46-cd65-4162-9bab-af17cc68bbf3"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "Kendall George"
+    role: "Player"
+    team: "Los Angeles Dodgers"
+subset: "Signature Series"
+card_name: "Kendall George - Signature Series - Purple"
+description: "Purple parallel of Autographed Signature Series card featuring Kendall George."
+series: "2026 Donruss"
+parallel: "Purple"
+print_run: 49
+rookie_card: false
+autograph: true
+relic: false
+serial_numbered: true
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/signature-series-9-purple.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Donruss#Checklist"

@@ -1,0 +1,24 @@
+number: "15"
+uuid: "a882fa5a-a2ec-486e-a8a6-af6507b44d76"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "Jackson Chourio"
+    role: "Player"
+    team: "Milwaukee Brewers"
+subset: "Unleashed"
+card_name: "Jackson Chourio - Unleashed - Gold Ice"
+description: "Gold Ice parallel of Unleashed card featuring Jackson Chourio."
+series: "2026 Donruss"
+parallel: "Gold Ice"
+print_run: 10
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: true
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/unleashed-15-gold-ice.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Donruss#Checklist"

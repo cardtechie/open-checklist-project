@@ -1,0 +1,24 @@
+number: "6"
+uuid: "aa4b1666-b75e-4e5c-b5d9-924718027b7e"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "Luke Keaschall"
+    role: "Player"
+    team: "Minnesota Twins"
+subset: "Unleashed"
+card_name: "Luke Keaschall - Unleashed - Red Xplosion"
+description: "Red Xplosion parallel of Unleashed card featuring Luke Keaschall."
+series: "2026 Donruss"
+parallel: "Red Xplosion"
+print_run: 99
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: true
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/unleashed-6-red-xplosion.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Donruss#Checklist"

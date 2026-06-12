@@ -1,0 +1,24 @@
+number: "8"
+uuid: "8bcc6629-0317-44f7-82e2-5c6260d3b76a"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "Paul Skenes"
+    role: "Player"
+    team: "Pittsburgh Pirates"
+subset: "Whammy!"
+card_name: "Paul Skenes - Whammy! - Gold"
+description: "Gold parallel of Whammy! card featuring Paul Skenes."
+series: "2026 Donruss"
+parallel: "Gold"
+print_run: 10
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: true
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/whammy-8-gold.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Donruss#Checklist"

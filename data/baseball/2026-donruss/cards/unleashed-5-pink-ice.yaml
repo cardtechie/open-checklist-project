@@ -1,0 +1,24 @@
+number: "5"
+uuid: "37998421-3d2e-464f-a570-2afe89117e00"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "Eli Willits"
+    role: "Player"
+    team: "Washington Nationals"
+subset: "Unleashed"
+card_name: "Eli Willits - Unleashed - Pink Ice"
+description: "Pink Ice parallel of Unleashed card featuring Eli Willits."
+series: "2026 Donruss"
+parallel: "Pink Ice"
+print_run: 99
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: true
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/unleashed-5-pink-ice.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Donruss#Checklist"

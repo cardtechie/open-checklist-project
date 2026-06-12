@@ -1,0 +1,24 @@
+number: "10"
+uuid: "489b913e-c54d-4ebd-b74e-8509d7c4ac05"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "Aaron Judge"
+    role: "Player"
+    team: "New York Yankees"
+subset: "Whammy!"
+card_name: "Aaron Judge - Whammy! - Gold"
+description: "Gold parallel of Whammy! card featuring Aaron Judge."
+series: "2026 Donruss"
+parallel: "Gold"
+print_run: 10
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: true
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/whammy-10-gold.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Donruss#Checklist"

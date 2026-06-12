@@ -1,0 +1,24 @@
+number: "6"
+uuid: "818bd0fc-9585-4727-afe7-213762f66e22"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "Jacob Misiorowski"
+    role: "Player"
+    team: "Milwaukee Brewers"
+subset: "Whammy!"
+card_name: "Jacob Misiorowski - Whammy! - Gold"
+description: "Gold parallel of Whammy! card featuring Jacob Misiorowski."
+series: "2026 Donruss"
+parallel: "Gold"
+print_run: 10
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: true
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/whammy-6-gold.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Donruss#Checklist"

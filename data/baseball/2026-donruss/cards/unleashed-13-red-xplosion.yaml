@@ -1,0 +1,24 @@
+number: "13"
+uuid: "602d7f52-ce2c-4640-a10a-57e0f4733b39"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "Charlie Condon"
+    role: "Player"
+    team: "Colorado Rockies"
+subset: "Unleashed"
+card_name: "Charlie Condon - Unleashed - Red Xplosion"
+description: "Red Xplosion parallel of Unleashed card featuring Charlie Condon."
+series: "2026 Donruss"
+parallel: "Red Xplosion"
+print_run: 99
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: true
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/unleashed-13-red-xplosion.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Donruss#Checklist"

@@ -1,0 +1,24 @@
+number: "5"
+uuid: "e6c49d2a-9901-44b4-962a-94cd68ca940b"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "Eli Willits"
+    role: "Player"
+    team: "Washington Nationals"
+subset: "Unleashed"
+card_name: "Eli Willits - Unleashed - Orange Ice"
+description: "Orange Ice parallel of Unleashed card featuring Eli Willits."
+series: "2026 Donruss"
+parallel: "Orange Ice"
+print_run: 75
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: true
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/unleashed-5-orange-ice.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Donruss#Checklist"

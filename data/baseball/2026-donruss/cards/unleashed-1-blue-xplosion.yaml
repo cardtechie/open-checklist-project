@@ -1,0 +1,24 @@
+number: "1"
+uuid: "dc489671-027e-4960-82ba-3efa263e0fe6"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "Bobby Witt Jr."
+    role: "Player"
+    team: "Kansas City Royals"
+subset: "Unleashed"
+card_name: "Bobby Witt Jr. - Unleashed - Blue Xplosion"
+description: "Blue Xplosion parallel of Unleashed card featuring Bobby Witt Jr.."
+series: "2026 Donruss"
+parallel: "Blue Xplosion"
+print_run: 49
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: true
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/unleashed-1-blue-xplosion.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Donruss#Checklist"

@@ -1,0 +1,24 @@
+number: "7"
+uuid: "37253db8-8278-4b4c-8080-3feb51fe2583"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "Brock Porter"
+    role: "Player"
+    team: "Texas Rangers"
+subset: "Signature Series"
+card_name: "Brock Porter - Signature Series - Red Laser"
+description: "Red Laser parallel of Autographed Signature Series card featuring Brock Porter."
+series: "2026 Donruss"
+parallel: "Red Laser"
+print_run: 30
+rookie_card: false
+autograph: true
+relic: false
+serial_numbered: true
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/signature-series-7-red-laser.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Donruss#Checklist"

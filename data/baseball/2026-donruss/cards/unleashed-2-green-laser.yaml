@@ -1,0 +1,23 @@
+number: "2"
+uuid: "93e8984d-1779-4d3d-8868-cafbb5f3a949"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "Andrew Painter"
+    role: "Player"
+    team: "Philadelphia Phillies"
+subset: "Unleashed"
+card_name: "Andrew Painter - Unleashed - Green Laser"
+description: "Green Laser parallel of Unleashed card featuring Andrew Painter."
+series: "2026 Donruss"
+parallel: "Green Laser"
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: false
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/unleashed-2-green-laser.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Donruss#Checklist"

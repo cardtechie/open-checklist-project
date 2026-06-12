@@ -1,0 +1,24 @@
+number: "26"
+uuid: "9ba2c002-4aa8-4e87-a7dd-392f0fe49da9"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "David Ortiz"
+    role: "Player"
+    team: "Boston Red Sox"
+subset: "Signature Series"
+card_name: "David Ortiz - Signature Series - Purple"
+description: "Purple parallel of Autographed Signature Series card featuring David Ortiz."
+series: "2026 Donruss"
+parallel: "Purple"
+print_run: 49
+rookie_card: false
+autograph: true
+relic: false
+serial_numbered: true
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/signature-series-26-purple.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Donruss#Checklist"

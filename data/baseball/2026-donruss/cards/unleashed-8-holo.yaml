@@ -1,0 +1,24 @@
+number: "8"
+uuid: "4c83978e-4af9-4d6f-9a78-ff58804e79b0"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "Bryce Eldridge"
+    role: "Player"
+    team: "San Francisco Giants"
+subset: "Unleashed"
+card_name: "Bryce Eldridge - Unleashed - Holo"
+description: "Holo parallel of Unleashed card featuring Bryce Eldridge."
+series: "2026 Donruss"
+parallel: "Holo"
+print_run: 199
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: true
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/unleashed-8-holo.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Donruss#Checklist"

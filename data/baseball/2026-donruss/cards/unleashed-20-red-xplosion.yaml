@@ -1,0 +1,24 @@
+number: "20"
+uuid: "32630749-2115-4008-a1f7-3ec69ba773e3"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "Nick Kurtz"
+    role: "Player"
+    team: "Oakland A's"
+subset: "Unleashed"
+card_name: "Nick Kurtz - Unleashed - Red Xplosion"
+description: "Red Xplosion parallel of Unleashed card featuring Nick Kurtz."
+series: "2026 Donruss"
+parallel: "Red Xplosion"
+print_run: 99
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: true
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/unleashed-20-red-xplosion.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Donruss#Checklist"

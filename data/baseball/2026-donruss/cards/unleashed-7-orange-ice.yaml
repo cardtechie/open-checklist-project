@@ -1,0 +1,24 @@
+number: "7"
+uuid: "9920a3f5-b53b-44e4-9903-364271d5b804"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "Spencer Jones"
+    role: "Player"
+    team: "New York Yankees"
+subset: "Unleashed"
+card_name: "Spencer Jones - Unleashed - Orange Ice"
+description: "Orange Ice parallel of Unleashed card featuring Spencer Jones."
+series: "2026 Donruss"
+parallel: "Orange Ice"
+print_run: 75
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: true
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/unleashed-7-orange-ice.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Donruss#Checklist"

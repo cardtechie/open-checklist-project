@@ -1,0 +1,24 @@
+number: "17"
+uuid: "6dee982f-d1ff-47ce-9b3a-be8f412157a9"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "Won-Bin Cho"
+    role: "Player"
+    team: "St. Louis Cardinals"
+subset: "Signature Series"
+card_name: "Won-Bin Cho - Signature Series - Red Laser"
+description: "Red Laser parallel of Autographed Signature Series card featuring Won-Bin Cho."
+series: "2026 Donruss"
+parallel: "Red Laser"
+print_run: 30
+rookie_card: false
+autograph: true
+relic: false
+serial_numbered: true
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/signature-series-17-red-laser.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Donruss#Checklist"

@@ -1,0 +1,24 @@
+number: "6"
+uuid: "f4a3ea1e-8018-497a-b87b-d0c09faba942"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "Carter Johnson"
+    role: "Player"
+    team: "Miami Marlins"
+subset: "Signature Series"
+card_name: "Carter Johnson - Signature Series - Purple Laser"
+description: "Purple Laser parallel of Autographed Signature Series card featuring Carter Johnson."
+series: "2026 Donruss"
+parallel: "Purple Laser"
+print_run: 49
+rookie_card: false
+autograph: true
+relic: false
+serial_numbered: true
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/signature-series-6-purple-laser.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Donruss#Checklist"

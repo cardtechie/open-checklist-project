@@ -1,0 +1,24 @@
+number: "13"
+uuid: "f0a5f56d-6cae-45dc-83c3-a1e84df5a8df"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "Charlie Condon"
+    role: "Player"
+    team: "Colorado Rockies"
+subset: "Unleashed"
+card_name: "Charlie Condon - Unleashed - Orange Ice"
+description: "Orange Ice parallel of Unleashed card featuring Charlie Condon."
+series: "2026 Donruss"
+parallel: "Orange Ice"
+print_run: 75
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: true
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/unleashed-13-orange-ice.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Donruss#Checklist"

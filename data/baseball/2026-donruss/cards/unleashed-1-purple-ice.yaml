@@ -1,0 +1,24 @@
+number: "1"
+uuid: "3c913659-4454-4cd7-9d44-6718a5ce4f1b"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "Bobby Witt Jr."
+    role: "Player"
+    team: "Kansas City Royals"
+subset: "Unleashed"
+card_name: "Bobby Witt Jr. - Unleashed - Purple Ice"
+description: "Purple Ice parallel of Unleashed card featuring Bobby Witt Jr.."
+series: "2026 Donruss"
+parallel: "Purple Ice"
+print_run: 99
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: true
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/unleashed-1-purple-ice.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Donruss#Checklist"

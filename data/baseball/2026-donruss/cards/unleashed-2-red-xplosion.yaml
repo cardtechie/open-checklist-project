@@ -1,0 +1,24 @@
+number: "2"
+uuid: "7ee4dc89-bd8c-4f1a-8dd4-5f9a4119c0d2"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "Andrew Painter"
+    role: "Player"
+    team: "Philadelphia Phillies"
+subset: "Unleashed"
+card_name: "Andrew Painter - Unleashed - Red Xplosion"
+description: "Red Xplosion parallel of Unleashed card featuring Andrew Painter."
+series: "2026 Donruss"
+parallel: "Red Xplosion"
+print_run: 99
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: true
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/unleashed-2-red-xplosion.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Donruss#Checklist"

@@ -1,0 +1,24 @@
+number: "41"
+uuid: "ce3f4208-f670-4786-88a5-e5bac82e06ea"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "Dylan Crews"
+    role: "Player"
+    team: "Washington Nationals"
+subset: "Signature Series"
+card_name: "Dylan Crews - Signature Series - Red Laser"
+description: "Red Laser parallel of Autographed Signature Series card featuring Dylan Crews."
+series: "2026 Donruss"
+parallel: "Red Laser"
+print_run: 30
+rookie_card: false
+autograph: true
+relic: false
+serial_numbered: true
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/signature-series-41-red-laser.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Donruss#Checklist"

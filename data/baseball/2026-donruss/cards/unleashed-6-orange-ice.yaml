@@ -1,0 +1,24 @@
+number: "6"
+uuid: "e5d62484-436d-435d-a968-8a3eaaff50f0"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "Luke Keaschall"
+    role: "Player"
+    team: "Minnesota Twins"
+subset: "Unleashed"
+card_name: "Luke Keaschall - Unleashed - Orange Ice"
+description: "Orange Ice parallel of Unleashed card featuring Luke Keaschall."
+series: "2026 Donruss"
+parallel: "Orange Ice"
+print_run: 75
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: true
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/unleashed-6-orange-ice.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Donruss#Checklist"

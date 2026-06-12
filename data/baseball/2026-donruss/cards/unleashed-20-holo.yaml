@@ -1,0 +1,24 @@
+number: "20"
+uuid: "4605a99a-4470-467b-a96d-7810813f9abe"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "Nick Kurtz"
+    role: "Player"
+    team: "Oakland A's"
+subset: "Unleashed"
+card_name: "Nick Kurtz - Unleashed - Holo"
+description: "Holo parallel of Unleashed card featuring Nick Kurtz."
+series: "2026 Donruss"
+parallel: "Holo"
+print_run: 199
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: true
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/unleashed-20-holo.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Donruss#Checklist"

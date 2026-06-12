@@ -1,0 +1,24 @@
+number: "4"
+uuid: "0a828e1e-ec80-4e64-ad79-4e542f23c555"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "Dylan Crews"
+    role: "Player"
+    team: "Washington Nationals"
+subset: "Unleashed"
+card_name: "Dylan Crews - Unleashed - Green Xplosion"
+description: "Green Xplosion parallel of Unleashed card featuring Dylan Crews."
+series: "2026 Donruss"
+parallel: "Green Xplosion"
+print_run: 25
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: true
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/unleashed-4-green-xplosion.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Donruss#Checklist"

@@ -1,0 +1,24 @@
+number: "18"
+uuid: "68732886-bf42-4d5b-8da4-136ab2ada71b"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "Chase DeLauter"
+    role: "Player"
+    team: "Cleveland Guardians"
+subset: "Unleashed"
+card_name: "Chase DeLauter - Unleashed - Green Ice"
+description: "Green Ice parallel of Unleashed card featuring Chase DeLauter."
+series: "2026 Donruss"
+parallel: "Green Ice"
+print_run: 15
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: true
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/unleashed-18-green-ice.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Donruss#Checklist"

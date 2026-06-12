@@ -1,0 +1,24 @@
+number: "18"
+uuid: "a3a9ed34-d1c8-4e98-93e6-c962e5abec6d"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "Bryce Eldridge"
+    role: "Player"
+    team: "San Francisco Giants"
+subset: "Signature Series"
+card_name: "Bryce Eldridge - Signature Series - Teal"
+description: "Teal parallel of Autographed Signature Series card featuring Bryce Eldridge."
+series: "2026 Donruss"
+parallel: "Teal"
+print_run: 25
+rookie_card: false
+autograph: true
+relic: false
+serial_numbered: true
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/signature-series-18-teal.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Donruss#Checklist"

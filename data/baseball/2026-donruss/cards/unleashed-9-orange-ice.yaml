@@ -1,0 +1,24 @@
+number: "9"
+uuid: "ff01d4b7-2675-43b4-9ce4-467ffe3528f9"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "Aaron Judge"
+    role: "Player"
+    team: "New York Yankees"
+subset: "Unleashed"
+card_name: "Aaron Judge - Unleashed - Orange Ice"
+description: "Orange Ice parallel of Unleashed card featuring Aaron Judge."
+series: "2026 Donruss"
+parallel: "Orange Ice"
+print_run: 75
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: true
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/unleashed-9-orange-ice.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Donruss#Checklist"

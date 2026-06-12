@@ -1,0 +1,24 @@
+number: "77"
+uuid: "0df2a857-981e-40ef-a02f-77ac1ccdc0b9"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "Seaver King"
+    role: "Player"
+    team: "Washington Nationals"
+subset: "Signature Series"
+card_name: "Seaver King - Signature Series - Purple"
+description: "Purple parallel of Autographed Signature Series card featuring Seaver King."
+series: "2026 Donruss"
+parallel: "Purple"
+print_run: 49
+rookie_card: false
+autograph: true
+relic: false
+serial_numbered: true
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/signature-series-77-purple.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Donruss#Checklist"

@@ -1,0 +1,24 @@
+number: "19"
+uuid: "c1c59e99-3d99-4106-828b-c3fb5d516074"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "Matt Shaw"
+    role: "Player"
+    team: "Chicago Cubs"
+subset: "Unleashed"
+card_name: "Matt Shaw - Unleashed - Gold Ice"
+description: "Gold Ice parallel of Unleashed card featuring Matt Shaw."
+series: "2026 Donruss"
+parallel: "Gold Ice"
+print_run: 10
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: true
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/unleashed-19-gold-ice.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Donruss#Checklist"

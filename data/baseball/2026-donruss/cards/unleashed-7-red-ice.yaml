@@ -1,0 +1,24 @@
+number: "7"
+uuid: "1556eab0-7409-4306-96a7-dad9d428445d"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "Spencer Jones"
+    role: "Player"
+    team: "New York Yankees"
+subset: "Unleashed"
+card_name: "Spencer Jones - Unleashed - Red Ice"
+description: "Red Ice parallel of Unleashed card featuring Spencer Jones."
+series: "2026 Donruss"
+parallel: "Red Ice"
+print_run: 149
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: true
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/unleashed-7-red-ice.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Donruss#Checklist"

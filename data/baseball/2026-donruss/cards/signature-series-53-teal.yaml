@@ -1,0 +1,24 @@
+number: "53"
+uuid: "1c203bf5-f62b-4d6f-b3ee-e0e4cb9e1872"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "Jace Jung"
+    role: "Player"
+    team: "Detroit Tigers"
+subset: "Signature Series"
+card_name: "Jace Jung - Signature Series - Teal"
+description: "Teal parallel of Autographed Signature Series card featuring Jace Jung."
+series: "2026 Donruss"
+parallel: "Teal"
+print_run: 25
+rookie_card: false
+autograph: true
+relic: false
+serial_numbered: true
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/signature-series-53-teal.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Donruss#Checklist"

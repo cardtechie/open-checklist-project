@@ -1,0 +1,24 @@
+number: "4"
+uuid: "f6e9d4cb-2cbc-499c-90a3-32bc82024e0d"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "Dylan Crews"
+    role: "Player"
+    team: "Washington Nationals"
+subset: "Unleashed"
+card_name: "Dylan Crews - Unleashed - Red Xplosion"
+description: "Red Xplosion parallel of Unleashed card featuring Dylan Crews."
+series: "2026 Donruss"
+parallel: "Red Xplosion"
+print_run: 99
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: true
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/unleashed-4-red-xplosion.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Donruss#Checklist"
