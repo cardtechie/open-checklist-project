@@ -1,0 +1,23 @@
+number: "432"
+uuid: "e827503c-a8e5-4a27-b98e-1781afe2616c"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-topps-series-2"
+subjects:
+  - name: "Ryan Feltner"
+    role: "Player"
+    team: "Colorado Rockies"
+card_name: "Ryan Feltner - Base - All-Star Game Red"
+description: "All-Star Game Red parallel of Base card featuring Ryan Feltner."
+series: "2026 Topps Baseball"
+parallel: "All-Star Game Red"
+print_run: 5
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: true
+release_date: "2026-06-11"
+image_url: "https://example.com/cards/2026-topps-series-2/432-all-star-game-red.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Topps#Insertion_Ratios"

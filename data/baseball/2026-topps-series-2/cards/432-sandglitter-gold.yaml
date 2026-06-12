@@ -1,0 +1,23 @@
+number: "432"
+uuid: "6f970b51-bd20-46d5-be71-c10f55346a3d"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-topps-series-2"
+subjects:
+  - name: "Ryan Feltner"
+    role: "Player"
+    team: "Colorado Rockies"
+card_name: "Ryan Feltner - Base - Sandglitter Gold"
+description: "Sandglitter Gold parallel of Base card featuring Ryan Feltner."
+series: "2026 Topps Baseball"
+parallel: "Sandglitter Gold"
+print_run: 50
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: true
+release_date: "2026-06-11"
+image_url: "https://example.com/cards/2026-topps-series-2/432-sandglitter-gold.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Topps#Insertion_Ratios"

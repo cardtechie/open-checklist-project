@@ -1,0 +1,23 @@
+number: "437"
+uuid: "f10cab3e-0720-4f7f-91ae-a22429e8a141"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-topps-series-2"
+subjects:
+  - name: "Nick Castellanos"
+    role: "Player"
+    team: "San Diego Padres"
+card_name: "Nick Castellanos - Base - Independence Day"
+description: "Independence Day parallel of Base card featuring Nick Castellanos."
+series: "2026 Topps Baseball"
+parallel: "Independence Day"
+print_run: 76
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: true
+release_date: "2026-06-11"
+image_url: "https://example.com/cards/2026-topps-series-2/437-independence-day.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Topps#Insertion_Ratios"

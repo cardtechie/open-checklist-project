@@ -1,0 +1,23 @@
+number: "433"
+uuid: "946ecce2-7f5d-43df-83f5-f96990f74fad"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-topps-series-2"
+subjects:
+  - name: "Tyler O'Neill"
+    role: "Player"
+    team: "Baltimore Orioles"
+card_name: "Tyler O'Neill - Base - 75 Years Of Topps"
+description: "75 Years Of Topps parallel of Base card featuring Tyler O'Neill."
+series: "2026 Topps Baseball"
+parallel: "75 Years Of Topps"
+print_run: 75
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: true
+release_date: "2026-06-11"
+image_url: "https://example.com/cards/2026-topps-series-2/433-75-years-of-topps.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Topps#Insertion_Ratios"

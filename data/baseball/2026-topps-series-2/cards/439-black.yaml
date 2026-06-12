@@ -1,0 +1,23 @@
+number: "439"
+uuid: "0d5d7d4a-b497-4901-a7b5-78301571b2ab"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-topps-series-2"
+subjects:
+  - name: "Gleyber Torres"
+    role: "Player"
+    team: "Detroit Tigers"
+card_name: "Gleyber Torres - Base - Black"
+description: "Black parallel of Base card featuring Gleyber Torres."
+series: "2026 Topps Baseball"
+parallel: "Black"
+print_run: 75
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: true
+release_date: "2026-06-11"
+image_url: "https://example.com/cards/2026-topps-series-2/439-black.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Topps#Insertion_Ratios"

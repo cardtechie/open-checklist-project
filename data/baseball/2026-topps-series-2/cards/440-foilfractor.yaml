@@ -1,0 +1,23 @@
+number: "440"
+uuid: "6a50ead9-5763-4ef6-a611-7fbac3f45444"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-topps-series-2"
+subjects:
+  - name: "Ranger Suárez"
+    role: "Player"
+    team: "Boston Red Sox"
+card_name: "Ranger Suárez - Base - FoilFractor"
+description: "FoilFractor parallel of Base card featuring Ranger Suárez."
+series: "2026 Topps Baseball"
+parallel: "FoilFractor"
+print_run: 1
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: true
+release_date: "2026-06-11"
+image_url: "https://example.com/cards/2026-topps-series-2/440-foilfractor.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Topps#Insertion_Ratios"

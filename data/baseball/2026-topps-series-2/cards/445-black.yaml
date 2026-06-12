@@ -1,0 +1,23 @@
+number: "445"
+uuid: "ac96be81-c03e-41e6-a65e-968e4717d570"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-topps-series-2"
+subjects:
+  - name: "Michael Massey"
+    role: "Player"
+    team: "Kansas City Royals"
+card_name: "Michael Massey - Base - Black"
+description: "Black parallel of Base card featuring Michael Massey."
+series: "2026 Topps Baseball"
+parallel: "Black"
+print_run: 75
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: true
+release_date: "2026-06-11"
+image_url: "https://example.com/cards/2026-topps-series-2/445-black.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Topps#Insertion_Ratios"
