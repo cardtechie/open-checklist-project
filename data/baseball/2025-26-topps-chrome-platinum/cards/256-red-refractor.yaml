@@ -1,0 +1,22 @@
+number: "256"
+uuid: "ac2764e6-0dc6-4b0b-b04a-10e5b6c02864"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2025-26-topps-chrome-platinum"
+subjects:
+  - name: "Carlos Narváez"
+    role: "Player"
+    team: "Boston Red Sox"
+card_name: "Carlos Narváez - Base - Red Refractor"
+description: "Red Refractor parallel of Base card featuring Carlos Narváez."
+series: "Topps Chrome Platinum Anniversary"
+parallel: "Red Refractor"
+print_run: 5
+rookie_card: true
+autograph: false
+serial_numbered: true
+release_date: "2026-06-05"
+image_url: "https://example.com/cards/2025-26-topps-chrome-platinum/256-red-refractor.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2025-26_Topps_Chrome_Platinum#Checklist"
