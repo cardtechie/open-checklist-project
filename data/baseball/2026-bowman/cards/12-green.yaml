@@ -1,0 +1,22 @@
+number: "12"
+uuid: "33b9a6d0-bc5e-4168-812a-2a9594481709"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-bowman"
+subjects:
+  - name: "Jhostynxon Garcia"
+    role: "Player"
+    team: "Pittsburgh Pirates"
+card_name: "Jhostynxon Garcia - Base - Green"
+description: "Green parallel of Base card featuring Jhostynxon Garcia."
+series: "2026 Bowman"
+parallel: "Green"
+print_run: 99
+rookie_card: true
+autograph: false
+serial_numbered: true
+release_date: "2026-05-13"
+image_url: "https://example.com/cards/2026-bowman/12-green.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Bowman#Insertion_Ratios"

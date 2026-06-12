@@ -1,0 +1,22 @@
+number: "33"
+uuid: "a34606c3-82f0-4885-b9d5-026678fff714"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-bowman"
+subjects:
+  - name: "Brandon Sproat"
+    role: "Player"
+    team: "New York Mets"
+card_name: "Brandon Sproat - Base - Orange Pattern"
+description: "Orange Pattern parallel of Base card featuring Brandon Sproat."
+series: "2026 Bowman"
+parallel: "Orange Pattern"
+print_run: 25
+rookie_card: true
+autograph: false
+serial_numbered: true
+release_date: "2026-05-13"
+image_url: "https://example.com/cards/2026-bowman/33-orange-pattern.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Bowman#Insertion_Ratios"

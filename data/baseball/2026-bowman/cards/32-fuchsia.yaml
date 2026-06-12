@@ -1,0 +1,22 @@
+number: "32"
+uuid: "71854e0f-fc49-4420-bd3c-702ab06fedce"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-bowman"
+subjects:
+  - name: "Ketel Marte"
+    role: "Player"
+    team: "Arizona Diamondbacks"
+card_name: "Ketel Marte - Base - Fuchsia"
+description: "Fuchsia parallel of Base card featuring Ketel Marte."
+series: "2026 Bowman"
+parallel: "Fuchsia"
+print_run: 299
+rookie_card: false
+autograph: false
+serial_numbered: true
+release_date: "2026-05-13"
+image_url: "https://example.com/cards/2026-bowman/32-fuchsia.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Bowman#Insertion_Ratios"

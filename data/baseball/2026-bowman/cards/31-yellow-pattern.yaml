@@ -1,0 +1,22 @@
+number: "31"
+uuid: "4d28abfb-0303-4c5a-97c9-28a1dc862a67"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-bowman"
+subjects:
+  - name: "Pete Crow-Armstrong"
+    role: "Player"
+    team: "Chicago Cubs"
+card_name: "Pete Crow-Armstrong - Base - Yellow Pattern"
+description: "Yellow Pattern parallel of Base card featuring Pete Crow-Armstrong."
+series: "2026 Bowman"
+parallel: "Yellow Pattern"
+print_run: 75
+rookie_card: false
+autograph: false
+serial_numbered: true
+release_date: "2026-05-13"
+image_url: "https://example.com/cards/2026-bowman/31-yellow-pattern.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Bowman#Insertion_Ratios"

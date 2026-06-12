@@ -1,0 +1,22 @@
+number: "30"
+uuid: "5c0abbeb-4256-45b0-8b9c-283f38d30f85"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-bowman"
+subjects:
+  - name: "Brice Turang"
+    role: "Player"
+    team: "Milwaukee Brewers"
+card_name: "Brice Turang - Base - Red"
+description: "Red parallel of Base card featuring Brice Turang."
+series: "2026 Bowman"
+parallel: "Red"
+print_run: 5
+rookie_card: false
+autograph: false
+serial_numbered: true
+release_date: "2026-05-13"
+image_url: "https://example.com/cards/2026-bowman/30-red.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Bowman#Insertion_Ratios"

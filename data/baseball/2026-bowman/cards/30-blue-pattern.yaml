@@ -1,0 +1,22 @@
+number: "30"
+uuid: "13dfa11b-cbbb-4642-8c1b-d2779802c607"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-bowman"
+subjects:
+  - name: "Brice Turang"
+    role: "Player"
+    team: "Milwaukee Brewers"
+card_name: "Brice Turang - Base - Blue Pattern"
+description: "Blue Pattern parallel of Base card featuring Brice Turang."
+series: "2026 Bowman"
+parallel: "Blue Pattern"
+print_run: 150
+rookie_card: false
+autograph: false
+serial_numbered: true
+release_date: "2026-05-13"
+image_url: "https://example.com/cards/2026-bowman/30-blue-pattern.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Bowman#Insertion_Ratios"

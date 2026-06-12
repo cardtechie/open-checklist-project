@@ -1,0 +1,22 @@
+number: "37"
+uuid: "a8564f95-f6d0-4e4d-9586-0133e4c34d45"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-bowman"
+subjects:
+  - name: "Chase DeLauter"
+    role: "Player"
+    team: "Cleveland Guardians"
+card_name: "Chase DeLauter - Base - Purple Pattern"
+description: "Purple Pattern parallel of Base card featuring Chase DeLauter."
+series: "2026 Bowman"
+parallel: "Purple Pattern"
+print_run: 250
+rookie_card: true
+autograph: false
+serial_numbered: true
+release_date: "2026-05-13"
+image_url: "https://example.com/cards/2026-bowman/37-purple-pattern.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Bowman#Insertion_Ratios"

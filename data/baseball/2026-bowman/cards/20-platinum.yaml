@@ -1,0 +1,22 @@
+number: "20"
+uuid: "3a6f5398-5593-4041-9f29-54d30cdca74f"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-bowman"
+subjects:
+  - name: "Kyle Schwarber"
+    role: "Player"
+    team: "Philadelphia Phillies"
+card_name: "Kyle Schwarber - Base - Platinum"
+description: "Platinum parallel of Base card featuring Kyle Schwarber."
+series: "2026 Bowman"
+parallel: "Platinum"
+print_run: 1
+rookie_card: false
+autograph: false
+serial_numbered: true
+release_date: "2026-05-13"
+image_url: "https://example.com/cards/2026-bowman/20-platinum.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Bowman#Insertion_Ratios"

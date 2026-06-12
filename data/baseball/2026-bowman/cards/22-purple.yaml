@@ -1,0 +1,22 @@
+number: "22"
+uuid: "0a83d93a-d86c-4d5f-b618-7e2e1af0eec8"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-bowman"
+subjects:
+  - name: "Andrew McCutchen"
+    role: "Player"
+    team: "Pittsburgh Pirates"
+card_name: "Andrew McCutchen - Base - Purple"
+description: "Purple parallel of Base card featuring Andrew McCutchen."
+series: "2026 Bowman"
+parallel: "Purple"
+print_run: 250
+rookie_card: false
+autograph: false
+serial_numbered: true
+release_date: "2026-05-13"
+image_url: "https://example.com/cards/2026-bowman/22-purple.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Bowman#Insertion_Ratios"

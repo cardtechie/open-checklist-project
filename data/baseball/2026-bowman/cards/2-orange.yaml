@@ -1,0 +1,22 @@
+number: "2"
+uuid: "16d3c2fd-b661-4251-a574-f5682171a742"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-bowman"
+subjects:
+  - name: "Yoshinobu Yamamoto"
+    role: "Player"
+    team: "Los Angeles Dodgers"
+card_name: "Yoshinobu Yamamoto - Base - Orange"
+description: "Orange parallel of Base card featuring Yoshinobu Yamamoto."
+series: "2026 Bowman"
+parallel: "Orange"
+print_run: 25
+rookie_card: false
+autograph: false
+serial_numbered: true
+release_date: "2026-05-13"
+image_url: "https://example.com/cards/2026-bowman/2-orange.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Bowman#Insertion_Ratios"

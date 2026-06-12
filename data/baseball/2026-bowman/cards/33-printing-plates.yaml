@@ -1,0 +1,22 @@
+number: "33"
+uuid: "aa967fa2-91e7-4520-b77e-9ff26c3ca1b0"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-bowman"
+subjects:
+  - name: "Brandon Sproat"
+    role: "Player"
+    team: "New York Mets"
+card_name: "Brandon Sproat - Base - Printing Plates"
+description: "Printing Plates parallel of Base card featuring Brandon Sproat."
+series: "2026 Bowman"
+parallel: "Printing Plates"
+print_run: 4
+rookie_card: true
+autograph: false
+serial_numbered: true
+release_date: "2026-05-13"
+image_url: "https://example.com/cards/2026-bowman/33-printing-plates.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Bowman#Insertion_Ratios"

@@ -1,0 +1,22 @@
+number: "33"
+uuid: "e249fba7-493e-43a7-bc2f-fa1ab296d5ef"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-bowman"
+subjects:
+  - name: "Brandon Sproat"
+    role: "Player"
+    team: "New York Mets"
+card_name: "Brandon Sproat - Base - Purple Pattern"
+description: "Purple Pattern parallel of Base card featuring Brandon Sproat."
+series: "2026 Bowman"
+parallel: "Purple Pattern"
+print_run: 250
+rookie_card: true
+autograph: false
+serial_numbered: true
+release_date: "2026-05-13"
+image_url: "https://example.com/cards/2026-bowman/33-purple-pattern.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Bowman#Insertion_Ratios"

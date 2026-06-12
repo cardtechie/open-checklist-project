@@ -1,0 +1,22 @@
+number: "16"
+uuid: "2708791e-8635-419b-86a3-ebacffc1ae89"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-bowman"
+subjects:
+  - name: "Carson Whisenhunt"
+    role: "Player"
+    team: "San Francisco Giants"
+card_name: "Carson Whisenhunt - Base - Purple Pattern"
+description: "Purple Pattern parallel of Base card featuring Carson Whisenhunt."
+series: "2026 Bowman"
+parallel: "Purple Pattern"
+print_run: 250
+rookie_card: true
+autograph: false
+serial_numbered: true
+release_date: "2026-05-13"
+image_url: "https://example.com/cards/2026-bowman/16-purple-pattern.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Bowman#Insertion_Ratios"

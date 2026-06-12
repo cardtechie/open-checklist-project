@@ -1,0 +1,22 @@
+number: "28"
+uuid: "69d65812-8417-44ed-9188-c93751dc7b99"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-bowman"
+subjects:
+  - name: "Kazuma Okamoto"
+    role: "Player"
+    team: "Toronto Blue Jays"
+card_name: "Kazuma Okamoto - Base - Gold"
+description: "Gold parallel of Base card featuring Kazuma Okamoto."
+series: "2026 Bowman"
+parallel: "Gold"
+print_run: 50
+rookie_card: true
+autograph: false
+serial_numbered: true
+release_date: "2026-05-13"
+image_url: "https://example.com/cards/2026-bowman/28-gold.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Bowman#Insertion_Ratios"

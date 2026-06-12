@@ -1,0 +1,22 @@
+number: "38"
+uuid: "273031bb-687c-4e78-9c41-4d0bf5d38211"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-bowman"
+subjects:
+  - name: "Matt Olson"
+    role: "Player"
+    team: "Atlanta Braves"
+card_name: "Matt Olson - Base - Platinum"
+description: "Platinum parallel of Base card featuring Matt Olson."
+series: "2026 Bowman"
+parallel: "Platinum"
+print_run: 1
+rookie_card: false
+autograph: false
+serial_numbered: true
+release_date: "2026-05-13"
+image_url: "https://example.com/cards/2026-bowman/38-platinum.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Bowman#Insertion_Ratios"

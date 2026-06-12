@@ -1,0 +1,22 @@
+number: "35"
+uuid: "a87c8a87-1905-4298-a2b8-af350a0370d6"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-bowman"
+subjects:
+  - name: "Jacob Misiorowski"
+    role: "Player"
+    team: "Milwaukee Brewers"
+card_name: "Jacob Misiorowski - Base - Gold Pattern"
+description: "Gold Pattern parallel of Base card featuring Jacob Misiorowski."
+series: "2026 Bowman"
+parallel: "Gold Pattern"
+print_run: 50
+rookie_card: true
+autograph: false
+serial_numbered: true
+release_date: "2026-05-13"
+image_url: "https://example.com/cards/2026-bowman/35-gold-pattern.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Bowman#Insertion_Ratios"

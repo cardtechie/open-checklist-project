@@ -1,0 +1,22 @@
+number: "29"
+uuid: "1b4ede09-8658-4b23-874d-51e432cbb740"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-bowman"
+subjects:
+  - name: "Geraldo Perdomo"
+    role: "Player"
+    team: "Arizona Diamondbacks"
+card_name: "Geraldo Perdomo - Base - Sky Blue"
+description: "Sky Blue parallel of Base card featuring Geraldo Perdomo."
+series: "2026 Bowman"
+parallel: "Sky Blue"
+print_run: 499
+rookie_card: false
+autograph: false
+serial_numbered: true
+release_date: "2026-05-13"
+image_url: "https://example.com/cards/2026-bowman/29-sky-blue.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Bowman#Insertion_Ratios"

@@ -1,0 +1,22 @@
+number: "38"
+uuid: "fbc806f1-6c09-472c-92f8-7cc25e04478d"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-bowman"
+subjects:
+  - name: "Matt Olson"
+    role: "Player"
+    team: "Atlanta Braves"
+card_name: "Matt Olson - Base - Pink"
+description: "Pink parallel of Base card featuring Matt Olson."
+series: "2026 Bowman"
+parallel: "Pink"
+print_run: 175
+rookie_card: false
+autograph: false
+serial_numbered: true
+release_date: "2026-05-13"
+image_url: "https://example.com/cards/2026-bowman/38-pink.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Bowman#Insertion_Ratios"

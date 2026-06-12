@@ -1,0 +1,22 @@
+number: "35"
+uuid: "f9457834-e976-4d8a-a762-8e432e2cc7f4"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-bowman"
+subjects:
+  - name: "Jacob Misiorowski"
+    role: "Player"
+    team: "Milwaukee Brewers"
+card_name: "Jacob Misiorowski - Base - Yellow Pattern"
+description: "Yellow Pattern parallel of Base card featuring Jacob Misiorowski."
+series: "2026 Bowman"
+parallel: "Yellow Pattern"
+print_run: 75
+rookie_card: true
+autograph: false
+serial_numbered: true
+release_date: "2026-05-13"
+image_url: "https://example.com/cards/2026-bowman/35-yellow-pattern.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Bowman#Insertion_Ratios"

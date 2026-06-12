@@ -1,0 +1,21 @@
+number: "19"
+uuid: "c39f24db-e988-4c64-ac5a-c3bdcdab8048"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-bowman"
+subjects:
+  - name: "Kyle Teel"
+    role: "Player"
+    team: "Chicago White Sox"
+card_name: "Kyle Teel - Base - Bowman Logo"
+description: "Bowman Logo parallel of Base card featuring Kyle Teel."
+series: "2026 Bowman"
+parallel: "Bowman Logo"
+rookie_card: true
+autograph: false
+serial_numbered: false
+release_date: "2026-05-13"
+image_url: "https://example.com/cards/2026-bowman/19-bowman-logo.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Bowman#Insertion_Ratios"

@@ -1,0 +1,22 @@
+number: "2"
+uuid: "98ee46af-f8f3-4326-8556-b93c358709b2"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-bowman"
+subjects:
+  - name: "Yoshinobu Yamamoto"
+    role: "Player"
+    team: "Los Angeles Dodgers"
+card_name: "Yoshinobu Yamamoto - Base - Printing Plates"
+description: "Printing Plates parallel of Base card featuring Yoshinobu Yamamoto."
+series: "2026 Bowman"
+parallel: "Printing Plates"
+print_run: 4
+rookie_card: false
+autograph: false
+serial_numbered: true
+release_date: "2026-05-13"
+image_url: "https://example.com/cards/2026-bowman/2-printing-plates.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Bowman#Insertion_Ratios"

@@ -1,0 +1,22 @@
+number: "21"
+uuid: "8cc8deea-07c7-425f-97d8-ae32d37f9b06"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-bowman"
+subjects:
+  - name: "Michael Harris II"
+    role: "Player"
+    team: "Atlanta Braves"
+card_name: "Michael Harris II - Base - Sky Blue"
+description: "Sky Blue parallel of Base card featuring Michael Harris II."
+series: "2026 Bowman"
+parallel: "Sky Blue"
+print_run: 499
+rookie_card: false
+autograph: false
+serial_numbered: true
+release_date: "2026-05-13"
+image_url: "https://example.com/cards/2026-bowman/21-sky-blue.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Bowman#Insertion_Ratios"

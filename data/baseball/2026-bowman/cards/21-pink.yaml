@@ -1,0 +1,22 @@
+number: "21"
+uuid: "46e745f3-0a08-4ab5-86c2-8c72c81f55c5"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-bowman"
+subjects:
+  - name: "Michael Harris II"
+    role: "Player"
+    team: "Atlanta Braves"
+card_name: "Michael Harris II - Base - Pink"
+description: "Pink parallel of Base card featuring Michael Harris II."
+series: "2026 Bowman"
+parallel: "Pink"
+print_run: 175
+rookie_card: false
+autograph: false
+serial_numbered: true
+release_date: "2026-05-13"
+image_url: "https://example.com/cards/2026-bowman/21-pink.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Bowman#Insertion_Ratios"

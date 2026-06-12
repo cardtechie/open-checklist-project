@@ -1,0 +1,21 @@
+number: "15"
+uuid: "7d2d52ed-f607-4380-aabb-0f9420f6bc7c"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-bowman"
+subjects:
+  - name: "Max Fried"
+    role: "Player"
+    team: "New York Yankees"
+card_name: "Max Fried - Base - Bowman Scouts' Top 100"
+description: "Bowman Scouts' Top 100 parallel of Base card featuring Max Fried."
+series: "2026 Bowman"
+parallel: "Bowman Scouts' Top 100"
+rookie_card: false
+autograph: false
+serial_numbered: false
+release_date: "2026-05-13"
+image_url: "https://example.com/cards/2026-bowman/15-bowman-scouts-top-100.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Bowman#Insertion_Ratios"

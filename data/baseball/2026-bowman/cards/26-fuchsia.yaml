@@ -1,0 +1,22 @@
+number: "26"
+uuid: "0d9e32a9-11dc-4d78-8718-e525629c403d"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-bowman"
+subjects:
+  - name: "Payton Tolle"
+    role: "Player"
+    team: "Boston Red Sox"
+card_name: "Payton Tolle - Base - Fuchsia"
+description: "Fuchsia parallel of Base card featuring Payton Tolle."
+series: "2026 Bowman"
+parallel: "Fuchsia"
+print_run: 299
+rookie_card: true
+autograph: false
+serial_numbered: true
+release_date: "2026-05-13"
+image_url: "https://example.com/cards/2026-bowman/26-fuchsia.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Bowman#Insertion_Ratios"

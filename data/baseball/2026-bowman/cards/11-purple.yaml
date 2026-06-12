@@ -1,0 +1,22 @@
+number: "11"
+uuid: "dd34eb12-8af4-4b5b-bf81-cb131caa685c"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-bowman"
+subjects:
+  - name: "Corey Seager"
+    role: "Player"
+    team: "Texas Rangers"
+card_name: "Corey Seager - Base - Purple"
+description: "Purple parallel of Base card featuring Corey Seager."
+series: "2026 Bowman"
+parallel: "Purple"
+print_run: 250
+rookie_card: false
+autograph: false
+serial_numbered: true
+release_date: "2026-05-13"
+image_url: "https://example.com/cards/2026-bowman/11-purple.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Bowman#Insertion_Ratios"

@@ -1,0 +1,22 @@
+number: "30"
+uuid: "e0d3fd77-d31c-4e05-ac87-74337958fe7a"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-bowman"
+subjects:
+  - name: "Brice Turang"
+    role: "Player"
+    team: "Milwaukee Brewers"
+card_name: "Brice Turang - Base - Yellow Pattern"
+description: "Yellow Pattern parallel of Base card featuring Brice Turang."
+series: "2026 Bowman"
+parallel: "Yellow Pattern"
+print_run: 75
+rookie_card: false
+autograph: false
+serial_numbered: true
+release_date: "2026-05-13"
+image_url: "https://example.com/cards/2026-bowman/30-yellow-pattern.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Bowman#Insertion_Ratios"

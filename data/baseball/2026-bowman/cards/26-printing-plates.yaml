@@ -1,0 +1,22 @@
+number: "26"
+uuid: "5b706d3c-fdfc-431d-bcb1-3823736e5d15"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-bowman"
+subjects:
+  - name: "Payton Tolle"
+    role: "Player"
+    team: "Boston Red Sox"
+card_name: "Payton Tolle - Base - Printing Plates"
+description: "Printing Plates parallel of Base card featuring Payton Tolle."
+series: "2026 Bowman"
+parallel: "Printing Plates"
+print_run: 4
+rookie_card: true
+autograph: false
+serial_numbered: true
+release_date: "2026-05-13"
+image_url: "https://example.com/cards/2026-bowman/26-printing-plates.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Bowman#Insertion_Ratios"

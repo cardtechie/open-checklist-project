@@ -1,0 +1,22 @@
+number: "24"
+uuid: "537e6438-ff70-4215-911e-9440850220ea"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-bowman"
+subjects:
+  - name: "Will Smith"
+    role: "Player"
+    team: "Los Angeles Dodgers"
+card_name: "Will Smith - Base - Green Pattern"
+description: "Green Pattern parallel of Base card featuring Will Smith."
+series: "2026 Bowman"
+parallel: "Green Pattern"
+print_run: 99
+rookie_card: false
+autograph: false
+serial_numbered: true
+release_date: "2026-05-13"
+image_url: "https://example.com/cards/2026-bowman/24-green-pattern.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Bowman#Insertion_Ratios"

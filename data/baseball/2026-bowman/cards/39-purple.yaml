@@ -1,0 +1,22 @@
+number: "39"
+uuid: "df1e69b9-1756-47c9-8890-73ff8fc803ce"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-bowman"
+subjects:
+  - name: "Carson Williams"
+    role: "Player"
+    team: "Tampa Bay Rays"
+card_name: "Carson Williams - Base - Purple"
+description: "Purple parallel of Base card featuring Carson Williams."
+series: "2026 Bowman"
+parallel: "Purple"
+print_run: 250
+rookie_card: true
+autograph: false
+serial_numbered: true
+release_date: "2026-05-13"
+image_url: "https://example.com/cards/2026-bowman/39-purple.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Bowman#Insertion_Ratios"

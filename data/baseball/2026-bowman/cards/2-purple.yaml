@@ -1,0 +1,22 @@
+number: "2"
+uuid: "39d4a60f-1f14-4e24-8f59-51cde74b8954"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-bowman"
+subjects:
+  - name: "Yoshinobu Yamamoto"
+    role: "Player"
+    team: "Los Angeles Dodgers"
+card_name: "Yoshinobu Yamamoto - Base - Purple"
+description: "Purple parallel of Base card featuring Yoshinobu Yamamoto."
+series: "2026 Bowman"
+parallel: "Purple"
+print_run: 250
+rookie_card: false
+autograph: false
+serial_numbered: true
+release_date: "2026-05-13"
+image_url: "https://example.com/cards/2026-bowman/2-purple.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Bowman#Insertion_Ratios"

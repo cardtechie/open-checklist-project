@@ -1,0 +1,22 @@
+number: "16"
+uuid: "19249bd0-ac2d-416f-b62e-5d9176c4f5b4"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-bowman"
+subjects:
+  - name: "Carson Whisenhunt"
+    role: "Player"
+    team: "San Francisco Giants"
+card_name: "Carson Whisenhunt - Base - Orange"
+description: "Orange parallel of Base card featuring Carson Whisenhunt."
+series: "2026 Bowman"
+parallel: "Orange"
+print_run: 25
+rookie_card: true
+autograph: false
+serial_numbered: true
+release_date: "2026-05-13"
+image_url: "https://example.com/cards/2026-bowman/16-orange.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Bowman#Insertion_Ratios"
