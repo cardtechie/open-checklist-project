@@ -1,0 +1,24 @@
+number: "GW-9"
+uuid: "93374b28-7711-44de-91ff-19726186e6e9"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-topps-series-2"
+subjects:
+  - name: "Yadier Molina"
+    role: "Player"
+    team: "St. Louis Cardinals"
+subset: "Glove Work"
+card_name: "Yadier Molina - Glove Work - Red Foil"
+description: "Red Foil parallel of Glove Work card featuring Yadier Molina."
+series: "2026 Topps Baseball"
+parallel: "Red Foil"
+print_run: 5
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: true
+release_date: "2026-06-11"
+image_url: "https://example.com/cards/2026-topps-series-2/glove-work-GW-9-red-foil.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Topps#Insertion_Ratios"

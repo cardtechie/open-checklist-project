@@ -1,0 +1,24 @@
+number: "GW-61"
+uuid: "31f319dd-c6a9-4b84-b1c8-9e9b8517f5e1"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-topps-series-2"
+subjects:
+  - name: "Jackie Robinson"
+    role: "Player"
+    team: "Brooklyn Dodgers"
+subset: "Glove Work"
+card_name: "Jackie Robinson - Glove Work - Blue Foil"
+description: "Blue Foil parallel of Glove Work card featuring Jackie Robinson."
+series: "2026 Topps Baseball"
+parallel: "Blue Foil"
+print_run: 150
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: true
+release_date: "2026-06-11"
+image_url: "https://example.com/cards/2026-topps-series-2/glove-work-GW-61-blue-foil.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Topps#Insertion_Ratios"

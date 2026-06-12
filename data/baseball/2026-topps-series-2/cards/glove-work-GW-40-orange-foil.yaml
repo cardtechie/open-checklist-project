@@ -1,0 +1,24 @@
+number: "GW-40"
+uuid: "531ca1a7-f19c-4d8e-add3-1125bc8abec0"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-topps-series-2"
+subjects:
+  - name: "Honus Wagner"
+    role: "Player"
+    team: "Pittsburgh Pirates"
+subset: "Glove Work"
+card_name: "Honus Wagner - Glove Work - Orange Foil"
+description: "Orange Foil parallel of Glove Work card featuring Honus Wagner."
+series: "2026 Topps Baseball"
+parallel: "Orange Foil"
+print_run: 25
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: true
+release_date: "2026-06-11"
+image_url: "https://example.com/cards/2026-topps-series-2/glove-work-GW-40-orange-foil.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Topps#Insertion_Ratios"

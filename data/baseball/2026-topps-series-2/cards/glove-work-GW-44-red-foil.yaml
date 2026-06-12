@@ -1,0 +1,24 @@
+number: "GW-44"
+uuid: "80d08d3d-0457-405c-b595-cf93395e0410"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-topps-series-2"
+subjects:
+  - name: "Derek Jeter"
+    role: "Player"
+    team: "New York Yankees"
+subset: "Glove Work"
+card_name: "Derek Jeter - Glove Work - Red Foil"
+description: "Red Foil parallel of Glove Work card featuring Derek Jeter."
+series: "2026 Topps Baseball"
+parallel: "Red Foil"
+print_run: 5
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: true
+release_date: "2026-06-11"
+image_url: "https://example.com/cards/2026-topps-series-2/glove-work-GW-44-red-foil.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Topps#Insertion_Ratios"

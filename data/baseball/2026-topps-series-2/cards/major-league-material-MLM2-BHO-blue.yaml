@@ -1,0 +1,24 @@
+number: "MLM2-BHO"
+uuid: "5a14aae4-06de-4ce0-a593-68151e94f621"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-topps-series-2"
+subjects:
+  - name: "Brady House"
+    role: "Player"
+    team: "Washington Nationals"
+subset: "Major League Material"
+card_name: "Brady House - Major League Material - Blue"
+description: "Blue parallel of Major League Material memorabilia card featuring Brady House."
+series: "2026 Topps Baseball"
+parallel: "Blue"
+print_run: 150
+rookie_card: false
+autograph: false
+relic: true
+serial_numbered: true
+release_date: "2026-06-11"
+image_url: "https://example.com/cards/2026-topps-series-2/major-league-material-MLM2-BHO-blue.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Topps#Insertion_Ratios"

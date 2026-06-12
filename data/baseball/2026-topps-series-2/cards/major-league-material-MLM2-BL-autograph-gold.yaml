@@ -1,0 +1,24 @@
+number: "MLM2-BL"
+uuid: "baf93c9b-d655-4a4a-a5d4-16b199ddda3e"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-topps-series-2"
+subjects:
+  - name: "Barry Larkin"
+    role: "Player"
+    team: "Cincinnati Reds"
+subset: "Major League Material"
+card_name: "Barry Larkin - Major League Material - Autograph Gold"
+description: "Autograph Gold parallel of Major League Material memorabilia card featuring Barry Larkin."
+series: "2026 Topps Baseball"
+parallel: "Autograph Gold"
+print_run: 50
+rookie_card: false
+autograph: false
+relic: true
+serial_numbered: true
+release_date: "2026-06-11"
+image_url: "https://example.com/cards/2026-topps-series-2/major-league-material-MLM2-BL-autograph-gold.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Topps#Insertion_Ratios"

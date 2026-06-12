@@ -1,0 +1,24 @@
+number: "MLM2-CSC"
+uuid: "77b9f8e5-8c23-4ebb-b3f5-52843957811f"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-topps-series-2"
+subjects:
+  - name: "Cam Schlittler"
+    role: "Player"
+    team: "New York Yankees"
+subset: "Major League Material"
+card_name: "Cam Schlittler - Major League Material - Autograph Gold"
+description: "Autograph Gold parallel of Major League Material memorabilia card featuring Cam Schlittler."
+series: "2026 Topps Baseball"
+parallel: "Autograph Gold"
+print_run: 50
+rookie_card: false
+autograph: false
+relic: true
+serial_numbered: true
+release_date: "2026-06-11"
+image_url: "https://example.com/cards/2026-topps-series-2/major-league-material-MLM2-CSC-autograph-gold.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Topps#Insertion_Ratios"

@@ -1,0 +1,24 @@
+number: "MLM2-BW"
+uuid: "f2b4fc52-f2b0-4cb7-a8bc-2e1e3bc42fab"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-topps-series-2"
+subjects:
+  - name: "Bryan Woo"
+    role: "Player"
+    team: "Seattle Mariners"
+subset: "Major League Material"
+card_name: "Bryan Woo - Major League Material - Autograph Orange"
+description: "Autograph Orange parallel of Major League Material memorabilia card featuring Bryan Woo."
+series: "2026 Topps Baseball"
+parallel: "Autograph Orange"
+print_run: 25
+rookie_card: false
+autograph: false
+relic: true
+serial_numbered: true
+release_date: "2026-06-11"
+image_url: "https://example.com/cards/2026-topps-series-2/major-league-material-MLM2-BW-autograph-orange.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Topps#Insertion_Ratios"

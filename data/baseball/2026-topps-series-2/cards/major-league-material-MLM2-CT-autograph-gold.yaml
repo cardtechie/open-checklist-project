@@ -1,0 +1,24 @@
+number: "MLM2-CT"
+uuid: "41d792f8-4b71-489b-b78e-951ad8af98d0"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-topps-series-2"
+subjects:
+  - name: "Colby Thomas"
+    role: "Player"
+    team: "Athletics"
+subset: "Major League Material"
+card_name: "Colby Thomas - Major League Material - Autograph Gold"
+description: "Autograph Gold parallel of Major League Material memorabilia card featuring Colby Thomas."
+series: "2026 Topps Baseball"
+parallel: "Autograph Gold"
+print_run: 50
+rookie_card: false
+autograph: false
+relic: true
+serial_numbered: true
+release_date: "2026-06-11"
+image_url: "https://example.com/cards/2026-topps-series-2/major-league-material-MLM2-CT-autograph-gold.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Topps#Insertion_Ratios"

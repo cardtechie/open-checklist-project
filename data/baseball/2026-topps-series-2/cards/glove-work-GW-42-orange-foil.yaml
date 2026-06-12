@@ -1,0 +1,24 @@
+number: "GW-42"
+uuid: "9eac3163-7e18-458d-b3b2-9aa3dd9e4c20"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-topps-series-2"
+subjects:
+  - name: "Ryne Sandberg"
+    role: "Player"
+    team: "Chicago Cubs"
+subset: "Glove Work"
+card_name: "Ryne Sandberg - Glove Work - Orange Foil"
+description: "Orange Foil parallel of Glove Work card featuring Ryne Sandberg."
+series: "2026 Topps Baseball"
+parallel: "Orange Foil"
+print_run: 25
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: true
+release_date: "2026-06-11"
+image_url: "https://example.com/cards/2026-topps-series-2/glove-work-GW-42-orange-foil.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Topps#Insertion_Ratios"

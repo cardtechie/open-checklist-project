@@ -1,0 +1,24 @@
+number: "GW-33"
+uuid: "413a3697-f4cc-4558-a8ea-c3da79adc41f"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-topps-series-2"
+subjects:
+  - name: "Patrick Bailey"
+    role: "Player"
+    team: "San Francisco Giants"
+subset: "Glove Work"
+card_name: "Patrick Bailey - Glove Work - FoilFractor"
+description: "FoilFractor parallel of Glove Work card featuring Patrick Bailey."
+series: "2026 Topps Baseball"
+parallel: "FoilFractor"
+print_run: 1
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: true
+release_date: "2026-06-11"
+image_url: "https://example.com/cards/2026-topps-series-2/glove-work-GW-33-foilfractor.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Topps#Insertion_Ratios"

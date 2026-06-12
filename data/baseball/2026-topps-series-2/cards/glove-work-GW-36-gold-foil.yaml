@@ -1,0 +1,24 @@
+number: "GW-36"
+uuid: "3c97760d-58a8-4e1c-9624-6aeb4b79a4a1"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-topps-series-2"
+subjects:
+  - name: "Andrés Giménez"
+    role: "Player"
+    team: "Toronto Blue Jays"
+subset: "Glove Work"
+card_name: "Andrés Giménez - Glove Work - Gold Foil"
+description: "Gold Foil parallel of Glove Work card featuring Andrés Giménez."
+series: "2026 Topps Baseball"
+parallel: "Gold Foil"
+print_run: 50
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: true
+release_date: "2026-06-11"
+image_url: "https://example.com/cards/2026-topps-series-2/glove-work-GW-36-gold-foil.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Topps#Insertion_Ratios"

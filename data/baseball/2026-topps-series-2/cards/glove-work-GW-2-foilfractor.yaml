@@ -1,0 +1,24 @@
+number: "GW-2"
+uuid: "a164504c-96ce-4ef5-847b-ccd0c3ec09ee"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-topps-series-2"
+subjects:
+  - name: "George Brett"
+    role: "Player"
+    team: "Kansas City Royals"
+subset: "Glove Work"
+card_name: "George Brett - Glove Work - FoilFractor"
+description: "FoilFractor parallel of Glove Work card featuring George Brett."
+series: "2026 Topps Baseball"
+parallel: "FoilFractor"
+print_run: 1
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: true
+release_date: "2026-06-11"
+image_url: "https://example.com/cards/2026-topps-series-2/glove-work-GW-2-foilfractor.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Topps#Insertion_Ratios"

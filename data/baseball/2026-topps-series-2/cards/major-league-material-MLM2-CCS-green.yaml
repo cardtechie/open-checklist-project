@@ -1,0 +1,24 @@
+number: "MLM2-CCS"
+uuid: "5856ef05-5b51-4a65-8589-4c2897b6b474"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-topps-series-2"
+subjects:
+  - name: "CC Sabathia"
+    role: "Player"
+    team: "New York Yankees"
+subset: "Major League Material"
+card_name: "CC Sabathia - Major League Material - Green"
+description: "Green parallel of Major League Material memorabilia card featuring CC Sabathia."
+series: "2026 Topps Baseball"
+parallel: "Green"
+print_run: 99
+rookie_card: false
+autograph: false
+relic: true
+serial_numbered: true
+release_date: "2026-06-11"
+image_url: "https://example.com/cards/2026-topps-series-2/major-league-material-MLM2-CCS-green.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Topps#Insertion_Ratios"

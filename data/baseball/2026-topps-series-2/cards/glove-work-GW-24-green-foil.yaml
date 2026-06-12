@@ -1,0 +1,24 @@
+number: "GW-24"
+uuid: "79af4bb3-07cb-4ab9-8d22-c608f3b2f021"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-topps-series-2"
+subjects:
+  - name: "Mike Trout"
+    role: "Player"
+    team: "Los Angeles Angels"
+subset: "Glove Work"
+card_name: "Mike Trout - Glove Work - Green Foil"
+description: "Green Foil parallel of Glove Work card featuring Mike Trout."
+series: "2026 Topps Baseball"
+parallel: "Green Foil"
+print_run: 99
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: true
+release_date: "2026-06-11"
+image_url: "https://example.com/cards/2026-topps-series-2/glove-work-GW-24-green-foil.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Topps#Insertion_Ratios"

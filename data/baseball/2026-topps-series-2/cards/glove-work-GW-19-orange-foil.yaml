@@ -1,0 +1,24 @@
+number: "GW-19"
+uuid: "85ac8177-64ef-4286-931c-796750ac0cf2"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-topps-series-2"
+subjects:
+  - name: "Matt Chapman"
+    role: "Player"
+    team: "San Francisco Giants"
+subset: "Glove Work"
+card_name: "Matt Chapman - Glove Work - Orange Foil"
+description: "Orange Foil parallel of Glove Work card featuring Matt Chapman."
+series: "2026 Topps Baseball"
+parallel: "Orange Foil"
+print_run: 25
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: true
+release_date: "2026-06-11"
+image_url: "https://example.com/cards/2026-topps-series-2/glove-work-GW-19-orange-foil.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Topps#Insertion_Ratios"

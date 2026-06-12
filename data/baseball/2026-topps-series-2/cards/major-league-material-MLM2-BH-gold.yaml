@@ -1,0 +1,24 @@
+number: "MLM2-BH"
+uuid: "1574ebdf-5d79-410a-864e-6a54c495bc12"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-topps-series-2"
+subjects:
+  - name: "Bryce Harper"
+    role: "Player"
+    team: "Philadelphia Phillies"
+subset: "Major League Material"
+card_name: "Bryce Harper - Major League Material - Gold"
+description: "Gold parallel of Major League Material memorabilia card featuring Bryce Harper."
+series: "2026 Topps Baseball"
+parallel: "Gold"
+print_run: 50
+rookie_card: false
+autograph: false
+relic: true
+serial_numbered: true
+release_date: "2026-06-11"
+image_url: "https://example.com/cards/2026-topps-series-2/major-league-material-MLM2-BH-gold.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Topps#Insertion_Ratios"

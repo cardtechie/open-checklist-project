@@ -1,0 +1,24 @@
+number: "GW-42"
+uuid: "29436fe2-cdd4-45cf-bf06-55104bff68cc"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-topps-series-2"
+subjects:
+  - name: "Ryne Sandberg"
+    role: "Player"
+    team: "Chicago Cubs"
+subset: "Glove Work"
+card_name: "Ryne Sandberg - Glove Work - Black Foil"
+description: "Black Foil parallel of Glove Work card featuring Ryne Sandberg."
+series: "2026 Topps Baseball"
+parallel: "Black Foil"
+print_run: 10
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: true
+release_date: "2026-06-11"
+image_url: "https://example.com/cards/2026-topps-series-2/glove-work-GW-42-black-foil.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Topps#Insertion_Ratios"

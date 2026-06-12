@@ -1,0 +1,24 @@
+number: "GW-45"
+uuid: "2e7b3129-63bf-4ba0-b8ca-069a4de5905d"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-topps-series-2"
+subjects:
+  - name: "Don Mattingly"
+    role: "Player"
+    team: "New York Yankees"
+subset: "Glove Work"
+card_name: "Don Mattingly - Glove Work - Red Foil"
+description: "Red Foil parallel of Glove Work card featuring Don Mattingly."
+series: "2026 Topps Baseball"
+parallel: "Red Foil"
+print_run: 5
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: true
+release_date: "2026-06-11"
+image_url: "https://example.com/cards/2026-topps-series-2/glove-work-GW-45-red-foil.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Topps#Insertion_Ratios"

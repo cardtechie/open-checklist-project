@@ -1,0 +1,24 @@
+number: "GW-43"
+uuid: "639f62d7-4d47-451c-9e9e-d0ac5bd4c7aa"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-topps-series-2"
+subjects:
+  - name: "Hank Aaron"
+    role: "Player"
+    team: "Atlanta Braves"
+subset: "Glove Work"
+card_name: "Hank Aaron - Glove Work - Green Foil"
+description: "Green Foil parallel of Glove Work card featuring Hank Aaron."
+series: "2026 Topps Baseball"
+parallel: "Green Foil"
+print_run: 99
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: true
+release_date: "2026-06-11"
+image_url: "https://example.com/cards/2026-topps-series-2/glove-work-GW-43-green-foil.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Topps#Insertion_Ratios"
