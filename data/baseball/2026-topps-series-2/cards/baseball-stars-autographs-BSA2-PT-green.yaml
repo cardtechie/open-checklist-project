@@ -1,0 +1,24 @@
+number: "BSA2-PT"
+uuid: "934a6c8d-5866-4dd7-88ab-39aea0c16d3e"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-topps-series-2"
+subjects:
+  - name: "Payton Tolle"
+    role: "Player"
+    team: "Boston Red Sox"
+subset: "Baseball Stars Autographs"
+card_name: "Payton Tolle - Baseball Stars Autographs - Green"
+description: "Green parallel of Autographed Baseball Stars Autographs card featuring Payton Tolle."
+series: "2026 Topps Baseball"
+parallel: "Green"
+print_run: 99
+rookie_card: false
+autograph: true
+relic: false
+serial_numbered: true
+release_date: "2026-06-11"
+image_url: "https://example.com/cards/2026-topps-series-2/baseball-stars-autographs-BSA2-PT-green.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Topps#Insertion_Ratios"

@@ -1,0 +1,24 @@
+number: "BSA2-ABO"
+uuid: "e1706440-67de-4b3d-8ab0-df02686013dc"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-topps-series-2"
+subjects:
+  - name: "Alec Bohm"
+    role: "Player"
+    team: "Philadelphia Phillies"
+subset: "Baseball Stars Autographs"
+card_name: "Alec Bohm - Baseball Stars Autographs - Platinum"
+description: "Platinum parallel of Autographed Baseball Stars Autographs card featuring Alec Bohm."
+series: "2026 Topps Baseball"
+parallel: "Platinum"
+print_run: 1
+rookie_card: false
+autograph: true
+relic: false
+serial_numbered: true
+release_date: "2026-06-11"
+image_url: "https://example.com/cards/2026-topps-series-2/baseball-stars-autographs-BSA2-ABO-platinum.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Topps#Insertion_Ratios"

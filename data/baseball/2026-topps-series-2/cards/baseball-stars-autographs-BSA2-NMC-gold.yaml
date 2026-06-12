@@ -1,0 +1,24 @@
+number: "BSA2-NMC"
+uuid: "aec0bc1d-98d2-47c0-b1e7-4164251d3fca"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-topps-series-2"
+subjects:
+  - name: "Nolan McLean"
+    role: "Player"
+    team: "New York Mets"
+subset: "Baseball Stars Autographs"
+card_name: "Nolan McLean - Baseball Stars Autographs - Gold"
+description: "Gold parallel of Autographed Baseball Stars Autographs card featuring Nolan McLean."
+series: "2026 Topps Baseball"
+parallel: "Gold"
+print_run: 50
+rookie_card: false
+autograph: true
+relic: false
+serial_numbered: true
+release_date: "2026-06-11"
+image_url: "https://example.com/cards/2026-topps-series-2/baseball-stars-autographs-BSA2-NMC-gold.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Topps#Insertion_Ratios"

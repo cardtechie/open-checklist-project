@@ -1,0 +1,24 @@
+number: "BSA2-AGR"
+uuid: "752aaa09-4ea0-478b-8890-d71ed1db3c4b"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-topps-series-2"
+subjects:
+  - name: "Andre Granillo"
+    role: "Player"
+    team: "Washington Nationals"
+subset: "Baseball Stars Autographs"
+card_name: "Andre Granillo - Baseball Stars Autographs - Blue"
+description: "Blue parallel of Autographed Baseball Stars Autographs card featuring Andre Granillo."
+series: "2026 Topps Baseball"
+parallel: "Blue"
+print_run: 150
+rookie_card: false
+autograph: true
+relic: false
+serial_numbered: true
+release_date: "2026-06-11"
+image_url: "https://example.com/cards/2026-topps-series-2/baseball-stars-autographs-BSA2-AGR-blue.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Topps#Insertion_Ratios"

@@ -380,6 +380,10 @@ def read_yaml(path):
     return yaml.safe_load(path.read_text(encoding="utf-8"))
 
 
+def is_parallel_card_file(path):
+    return re.search(r"^parallel:", path.read_text(encoding="utf-8"), re.MULTILINE) is not None
+
+
 def read_existing_uuid(path):
     if not path.exists():
         return None
@@ -475,9 +479,9 @@ def master_rows(plan):
 def existing_base_cards(cards_dir):
     cards = []
     for path in sorted(cards_dir.glob("*.yaml")):
-        card = read_yaml(path)
-        if "parallel" in card:
+        if is_parallel_card_file(path):
             continue
+        card = read_yaml(path)
         cards.append((path, card, section_name(card), normalize(section_name(card))))
     return cards
 
@@ -605,9 +609,9 @@ def expand_set(set_id, limit):
     cards_dir = set_dir / "cards"
     written = 0
     for path in sorted(cards_dir.glob("*.yaml")):
-        card = read_yaml(path)
-        if "parallel" in card:
+        if is_parallel_card_file(path):
             continue
+        card = read_yaml(path)
         variants = plan["sections"].get(section_name(card), [])
         for parallel, print_run in variants:
             variant_path, variant = build_parallel_card(card, path, parallel, print_run, plan["source_url"])

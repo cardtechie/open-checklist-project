@@ -1,0 +1,23 @@
+number: "700"
+uuid: "af303936-932d-4a61-ab31-9c98a68a9d61"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-topps-series-2"
+subjects:
+  - name: "Freddie Freeman"
+    role: "Player"
+    team: "Los Angeles Dodgers"
+card_name: "Freddie Freeman - Base - All-Star Game Black"
+description: "All-Star Game Black parallel of Base card featuring Freddie Freeman."
+series: "2026 Topps Baseball"
+parallel: "All-Star Game Black"
+print_run: 10
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: true
+release_date: "2026-06-11"
+image_url: "https://example.com/cards/2026-topps-series-2/700-all-star-game-black.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Topps#Insertion_Ratios"

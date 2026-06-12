@@ -1,0 +1,23 @@
+number: "677"
+uuid: "cdef8e20-7386-4236-ab4b-1022dc08309c"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-topps-series-2"
+subjects:
+  - name: "Wilyer Abreu"
+    role: "Player"
+    team: "Boston Red Sox"
+card_name: "Wilyer Abreu - Base - Green Holo Foil"
+description: "Green Holo Foil parallel of Base card featuring Wilyer Abreu."
+series: "2026 Topps Baseball"
+parallel: "Green Holo Foil"
+print_run: 99
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: true
+release_date: "2026-06-11"
+image_url: "https://example.com/cards/2026-topps-series-2/677-green-holo-foil.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Topps#Insertion_Ratios"

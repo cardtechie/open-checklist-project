@@ -1,0 +1,24 @@
+number: "BSA2-DC"
+uuid: "32a480c4-aaf1-4543-a851-8428a99e0ef0"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-topps-series-2"
+subjects:
+  - name: "Denzel Clarke"
+    role: "Player"
+    team: "Athletics"
+subset: "Baseball Stars Autographs"
+card_name: "Denzel Clarke - Baseball Stars Autographs - Platinum"
+description: "Platinum parallel of Autographed Baseball Stars Autographs card featuring Denzel Clarke."
+series: "2026 Topps Baseball"
+parallel: "Platinum"
+print_run: 1
+rookie_card: false
+autograph: true
+relic: false
+serial_numbered: true
+release_date: "2026-06-11"
+image_url: "https://example.com/cards/2026-topps-series-2/baseball-stars-autographs-BSA2-DC-platinum.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Topps#Insertion_Ratios"

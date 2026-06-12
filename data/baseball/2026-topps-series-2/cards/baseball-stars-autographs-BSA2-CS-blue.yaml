@@ -1,0 +1,24 @@
+number: "BSA2-CS"
+uuid: "6bdfc9b2-f04c-4b67-97e7-1a2cbf224c1b"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-topps-series-2"
+subjects:
+  - name: "Chandler Simpson"
+    role: "Player"
+    team: "Tampa Bay Rays"
+subset: "Baseball Stars Autographs"
+card_name: "Chandler Simpson - Baseball Stars Autographs - Blue"
+description: "Blue parallel of Autographed Baseball Stars Autographs card featuring Chandler Simpson."
+series: "2026 Topps Baseball"
+parallel: "Blue"
+print_run: 150
+rookie_card: false
+autograph: true
+relic: false
+serial_numbered: true
+release_date: "2026-06-11"
+image_url: "https://example.com/cards/2026-topps-series-2/baseball-stars-autographs-BSA2-CS-blue.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Topps#Insertion_Ratios"

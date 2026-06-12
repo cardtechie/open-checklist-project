@@ -1,0 +1,24 @@
+number: "BSA2-MG"
+uuid: "7f660b1c-847a-4d35-937c-3d65b3045a04"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-topps-series-2"
+subjects:
+  - name: "Mark Grace"
+    role: "Player"
+    team: "Chicago Cubs"
+subset: "Baseball Stars Autographs"
+card_name: "Mark Grace - Baseball Stars Autographs - Red"
+description: "Red parallel of Autographed Baseball Stars Autographs card featuring Mark Grace."
+series: "2026 Topps Baseball"
+parallel: "Red"
+print_run: 5
+rookie_card: false
+autograph: true
+relic: false
+serial_numbered: true
+release_date: "2026-06-11"
+image_url: "https://example.com/cards/2026-topps-series-2/baseball-stars-autographs-BSA2-MG-red.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Topps#Insertion_Ratios"

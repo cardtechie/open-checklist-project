@@ -1,0 +1,24 @@
+number: "BSA2-DB"
+uuid: "edd6b592-e2f0-4b6f-9ca2-5019c081b4e4"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-topps-series-2"
+subjects:
+  - name: "Dusty Baker"
+    role: "Player"
+    team: "Los Angeles Dodgers"
+subset: "Baseball Stars Autographs"
+card_name: "Dusty Baker - Baseball Stars Autographs - Orange"
+description: "Orange parallel of Autographed Baseball Stars Autographs card featuring Dusty Baker."
+series: "2026 Topps Baseball"
+parallel: "Orange"
+print_run: 25
+rookie_card: false
+autograph: true
+relic: false
+serial_numbered: true
+release_date: "2026-06-11"
+image_url: "https://example.com/cards/2026-topps-series-2/baseball-stars-autographs-BSA2-DB-orange.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Topps#Insertion_Ratios"

@@ -1,0 +1,24 @@
+number: "BSA2-AB"
+uuid: "8fcc4ace-2d71-408f-89a8-f46f8f0da5d1"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-topps-series-2"
+subjects:
+  - name: "Addison Barger"
+    role: "Player"
+    team: "Toronto Blue Jays"
+subset: "Baseball Stars Autographs"
+card_name: "Addison Barger - Baseball Stars Autographs - Blue"
+description: "Blue parallel of Autographed Baseball Stars Autographs card featuring Addison Barger."
+series: "2026 Topps Baseball"
+parallel: "Blue"
+print_run: 150
+rookie_card: false
+autograph: true
+relic: false
+serial_numbered: true
+release_date: "2026-06-11"
+image_url: "https://example.com/cards/2026-topps-series-2/baseball-stars-autographs-BSA2-AB-blue.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Topps#Insertion_Ratios"

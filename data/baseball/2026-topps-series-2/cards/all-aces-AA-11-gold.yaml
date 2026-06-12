@@ -1,0 +1,24 @@
+number: "AA-11"
+uuid: "0b637f0a-c082-4e3b-970b-de1510707159"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-topps-series-2"
+subjects:
+  - name: "Yoshinobu Yamamoto"
+    role: "Player"
+    team: "Los Angeles Dodgers"
+subset: "All Aces"
+card_name: "Yoshinobu Yamamoto - All Aces - Gold"
+description: "Gold parallel of All Aces card featuring Yoshinobu Yamamoto."
+series: "2026 Topps Baseball"
+parallel: "Gold"
+print_run: 1
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: true
+release_date: "2026-06-11"
+image_url: "https://example.com/cards/2026-topps-series-2/all-aces-AA-11-gold.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Topps#Insertion_Ratios"

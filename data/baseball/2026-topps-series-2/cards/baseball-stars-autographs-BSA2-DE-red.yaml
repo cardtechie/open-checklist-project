@@ -1,0 +1,24 @@
+number: "BSA2-DE"
+uuid: "03ae6ee7-f09e-4603-885b-27f921150a15"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-topps-series-2"
+subjects:
+  - name: "Dennis Eckersley"
+    role: "Player"
+    team: "Oakland Athletics"
+subset: "Baseball Stars Autographs"
+card_name: "Dennis Eckersley - Baseball Stars Autographs - Red"
+description: "Red parallel of Autographed Baseball Stars Autographs card featuring Dennis Eckersley."
+series: "2026 Topps Baseball"
+parallel: "Red"
+print_run: 5
+rookie_card: false
+autograph: true
+relic: false
+serial_numbered: true
+release_date: "2026-06-11"
+image_url: "https://example.com/cards/2026-topps-series-2/baseball-stars-autographs-BSA2-DE-red.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Topps#Insertion_Ratios"

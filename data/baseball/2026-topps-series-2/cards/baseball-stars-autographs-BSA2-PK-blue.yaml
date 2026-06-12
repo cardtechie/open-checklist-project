@@ -1,0 +1,24 @@
+number: "BSA2-PK"
+uuid: "4bd4475d-48d3-4680-a69d-8d81c92a791e"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-topps-series-2"
+subjects:
+  - name: "Paul Konerko"
+    role: "Player"
+    team: "Chicago White Sox"
+subset: "Baseball Stars Autographs"
+card_name: "Paul Konerko - Baseball Stars Autographs - Blue"
+description: "Blue parallel of Autographed Baseball Stars Autographs card featuring Paul Konerko."
+series: "2026 Topps Baseball"
+parallel: "Blue"
+print_run: 150
+rookie_card: false
+autograph: true
+relic: false
+serial_numbered: true
+release_date: "2026-06-11"
+image_url: "https://example.com/cards/2026-topps-series-2/baseball-stars-autographs-BSA2-PK-blue.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Topps#Insertion_Ratios"

@@ -1,0 +1,24 @@
+number: "AA-14"
+uuid: "b650d1b3-5d62-4544-9fb6-c94fd9b70edc"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-topps-series-2"
+subjects:
+  - name: "Christy Mathewson"
+    role: "Player"
+    team: "New York Giants"
+subset: "All Aces"
+card_name: "Christy Mathewson - All Aces - Gold"
+description: "Gold parallel of All Aces card featuring Christy Mathewson."
+series: "2026 Topps Baseball"
+parallel: "Gold"
+print_run: 1
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: true
+release_date: "2026-06-11"
+image_url: "https://example.com/cards/2026-topps-series-2/all-aces-AA-14-gold.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Topps#Insertion_Ratios"

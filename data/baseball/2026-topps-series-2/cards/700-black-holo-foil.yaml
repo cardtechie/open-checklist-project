@@ -1,0 +1,23 @@
+number: "700"
+uuid: "07535cf0-759d-40a7-af7f-99fa48055b07"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-topps-series-2"
+subjects:
+  - name: "Freddie Freeman"
+    role: "Player"
+    team: "Los Angeles Dodgers"
+card_name: "Freddie Freeman - Base - Black Holo Foil"
+description: "Black Holo Foil parallel of Base card featuring Freddie Freeman."
+series: "2026 Topps Baseball"
+parallel: "Black Holo Foil"
+print_run: 10
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: true
+release_date: "2026-06-11"
+image_url: "https://example.com/cards/2026-topps-series-2/700-black-holo-foil.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Topps#Insertion_Ratios"

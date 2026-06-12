@@ -1,0 +1,22 @@
+number: "693"
+uuid: "d3d82bd7-5738-45e1-a5a3-1add6ba46ca1"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-topps-series-2"
+subjects:
+  - name: "Luis Matos"
+    role: "Player"
+    team: "San Francisco Giants"
+card_name: "Luis Matos - Base - All-Star Game"
+description: "All-Star Game parallel of Base card featuring Luis Matos."
+series: "2026 Topps Baseball"
+parallel: "All-Star Game"
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: false
+release_date: "2026-06-11"
+image_url: "https://example.com/cards/2026-topps-series-2/693-all-star-game.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Topps#Insertion_Ratios"

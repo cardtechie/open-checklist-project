@@ -1,0 +1,22 @@
+number: "700"
+uuid: "1dac9a2f-eacc-4cd9-bff2-72a5656bda88"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-topps-series-2"
+subjects:
+  - name: "Freddie Freeman"
+    role: "Player"
+    team: "Los Angeles Dodgers"
+card_name: "Freddie Freeman - Base - Topps Logo"
+description: "Topps Logo parallel of Base card featuring Freddie Freeman."
+series: "2026 Topps Baseball"
+parallel: "Topps Logo"
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: false
+release_date: "2026-06-11"
+image_url: "https://example.com/cards/2026-topps-series-2/700-topps-logo.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Topps#Insertion_Ratios"

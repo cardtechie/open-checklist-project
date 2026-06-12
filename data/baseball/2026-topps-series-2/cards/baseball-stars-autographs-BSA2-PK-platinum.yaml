@@ -1,0 +1,24 @@
+number: "BSA2-PK"
+uuid: "4ae5f676-45cb-49a6-a0cb-27e6bc606077"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-topps-series-2"
+subjects:
+  - name: "Paul Konerko"
+    role: "Player"
+    team: "Chicago White Sox"
+subset: "Baseball Stars Autographs"
+card_name: "Paul Konerko - Baseball Stars Autographs - Platinum"
+description: "Platinum parallel of Autographed Baseball Stars Autographs card featuring Paul Konerko."
+series: "2026 Topps Baseball"
+parallel: "Platinum"
+print_run: 1
+rookie_card: false
+autograph: true
+relic: false
+serial_numbered: true
+release_date: "2026-06-11"
+image_url: "https://example.com/cards/2026-topps-series-2/baseball-stars-autographs-BSA2-PK-platinum.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Topps#Insertion_Ratios"

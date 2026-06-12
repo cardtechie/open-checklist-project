@@ -1,0 +1,24 @@
+number: "AA-13"
+uuid: "1d05d6da-c644-4ab4-91a8-621787813b19"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-topps-series-2"
+subjects:
+  - name: "Randy Johnson"
+    role: "Player"
+    team: "Seattle Mariners"
+subset: "All Aces"
+card_name: "Randy Johnson - All Aces - Gold"
+description: "Gold parallel of All Aces card featuring Randy Johnson."
+series: "2026 Topps Baseball"
+parallel: "Gold"
+print_run: 1
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: true
+release_date: "2026-06-11"
+image_url: "https://example.com/cards/2026-topps-series-2/all-aces-AA-13-gold.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Topps#Insertion_Ratios"

@@ -1,0 +1,24 @@
+number: "BSA2-PME"
+uuid: "7dcb9928-bf05-48d9-a259-926dd4d12655"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-topps-series-2"
+subjects:
+  - name: "Parker Messick"
+    role: "Player"
+    team: "Cleveland Guardians"
+subset: "Baseball Stars Autographs"
+card_name: "Parker Messick - Baseball Stars Autographs - Black"
+description: "Black parallel of Autographed Baseball Stars Autographs card featuring Parker Messick."
+series: "2026 Topps Baseball"
+parallel: "Black"
+print_run: 10
+rookie_card: false
+autograph: true
+relic: false
+serial_numbered: true
+release_date: "2026-06-11"
+image_url: "https://example.com/cards/2026-topps-series-2/baseball-stars-autographs-BSA2-PME-black.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Topps#Insertion_Ratios"
