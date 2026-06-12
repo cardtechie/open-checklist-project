@@ -1,0 +1,22 @@
+number: "53"
+uuid: "03d7e1ea-b574-4d77-b614-e3a597570602"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "Jacob Misiorowski"
+    role: "Player"
+    team: "Milwaukee Brewers"
+card_name: "Jacob Misiorowski - Base - Rockets"
+description: "Rockets parallel of Base card featuring Jacob Misiorowski."
+series: "2026 Donruss"
+parallel: "Rockets"
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: false
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/53-rockets.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Donruss#Checklist"

@@ -1,0 +1,23 @@
+number: "71"
+uuid: "162be5e2-5608-42bf-bc96-bc005fbe9840"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "Elston Howard"
+    role: "Player"
+    team: "New York Yankees"
+card_name: "Elston Howard - Base - Stars"
+description: "Stars parallel of Base card featuring Elston Howard."
+series: "2026 Donruss"
+parallel: "Stars"
+print_run: 250
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: true
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/71-stars.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Donruss#Checklist"

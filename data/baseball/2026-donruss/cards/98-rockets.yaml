@@ -1,0 +1,22 @@
+number: "98"
+uuid: "d00a666e-75c6-450a-8f2c-74c76fcc325d"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "Trevor Hoffman"
+    role: "Player"
+    team: "San Diego Padres"
+card_name: "Trevor Hoffman - Base - Rockets"
+description: "Rockets parallel of Base card featuring Trevor Hoffman."
+series: "2026 Donruss"
+parallel: "Rockets"
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: false
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/98-rockets.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Donruss#Checklist"

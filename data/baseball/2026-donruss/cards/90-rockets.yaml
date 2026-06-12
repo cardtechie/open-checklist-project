@@ -1,0 +1,22 @@
+number: "90"
+uuid: "12f6db06-4eb4-4815-a8e0-68f7948aa8a9"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "Josh Gibson"
+    role: "Player"
+    team: "Homestead Grays"
+card_name: "Josh Gibson - Base - Rockets"
+description: "Rockets parallel of Base card featuring Josh Gibson."
+series: "2026 Donruss"
+parallel: "Rockets"
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: false
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/90-rockets.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Donruss#Checklist"

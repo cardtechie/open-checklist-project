@@ -1,0 +1,22 @@
+number: "14"
+uuid: "c3a99c4b-74e4-40f3-89c0-f851da2f39f4"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "Cal Ripken"
+    role: "Player"
+    team: "Baltimore Orioles"
+card_name: "Cal Ripken - Base - Red and Blue"
+description: "Red and Blue parallel of Base card featuring Cal Ripken."
+series: "2026 Donruss"
+parallel: "Red and Blue"
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: false
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/14-red-and-blue.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Donruss#Checklist"

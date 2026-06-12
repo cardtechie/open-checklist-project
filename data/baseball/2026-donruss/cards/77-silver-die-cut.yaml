@@ -1,0 +1,23 @@
+number: "77"
+uuid: "cbc4f3c4-e6d7-42ff-a40d-85b1bb47d7d1"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "Nick Kurtz"
+    role: "Player"
+    team: "Oakland A's"
+card_name: "Nick Kurtz - Base - Silver Die Cut"
+description: "Silver Die Cut parallel of Base card featuring Nick Kurtz."
+series: "2026 Donruss"
+parallel: "Silver Die Cut"
+print_run: 75
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: true
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/77-silver-die-cut.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Donruss#Checklist"
