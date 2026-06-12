@@ -1,0 +1,33 @@
+number: "QPC-JSRP"
+uuid: "1e54ba05-89a1-421a-8e52-b63479962398"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2025-26-topps-definitive-collection"
+subjects:
+  - name: "Derek Jeter"
+    role: "Player"
+    team: "New York Yankees"
+  - name: "Andy Pettitte"
+    role: "Player"
+    team: "New York Yankees"
+  - name: "CC Sabathia"
+    role: "Player"
+    team: "New York Yankees"
+  - name: "Alex Rodriguez"
+    role: "Player"
+    team: "New York Yankees"
+subset: "Quad Patch Collection"
+card_name: "Derek Jeter / Andy Pettitte / CC Sabathia / Alex Rodriguez - Quad Patch Collection - Gold"
+description: "Gold parallel of Quad Patch Collection memorabilia card featuring Derek Jeter / Andy Pettitte / CC Sabathia / Alex Rodriguez."
+series: "Topps Definitive Collection"
+parallel: "Gold"
+print_run: 1
+rookie_card: false
+autograph: false
+relic: true
+serial_numbered: true
+release_date: "2026-04-29"
+image_url: "https://example.com/cards/2025-26-topps-definitive-collection/quad-patch-collection-QPC-JSRP-gold.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2025-26_Topps_Definitive_Collection#Checklist"

@@ -1,0 +1,24 @@
+number: "LAC-HM"
+uuid: "4c3c93ee-e843-4d18-b025-4276132ec2bd"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2025-26-topps-definitive-collection"
+subjects:
+  - name: "Hideki Matsui"
+    role: "Player"
+    team: "New York Yankees"
+subset: "Legendary Autograph Collection"
+card_name: "Hideki Matsui - Legendary Autograph Collection - Black"
+description: "Black parallel of Autographed Legendary Autograph Collection card featuring Hideki Matsui."
+series: "Topps Definitive Collection"
+parallel: "Black"
+print_run: 10
+rookie_card: false
+autograph: true
+relic: false
+serial_numbered: true
+release_date: "2026-04-29"
+image_url: "https://example.com/cards/2025-26-topps-definitive-collection/legendary-autograph-collection-LAC-HM-black.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2025-26_Topps_Definitive_Collection#Checklist"

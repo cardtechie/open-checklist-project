@@ -1,0 +1,24 @@
+number: "LAC-GB"
+uuid: "3cd0cf35-5f12-4c81-b54f-1b8a0d795144"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2025-26-topps-definitive-collection"
+subjects:
+  - name: "George Brett"
+    role: "Player"
+    team: "Kansas City Royals"
+subset: "Legendary Autograph Collection"
+card_name: "George Brett - Legendary Autograph Collection - Red"
+description: "Red parallel of Autographed Legendary Autograph Collection card featuring George Brett."
+series: "Topps Definitive Collection"
+parallel: "Red"
+print_run: 5
+rookie_card: false
+autograph: true
+relic: false
+serial_numbered: true
+release_date: "2026-04-29"
+image_url: "https://example.com/cards/2025-26-topps-definitive-collection/legendary-autograph-collection-LAC-GB-red.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2025-26_Topps_Definitive_Collection#Checklist"

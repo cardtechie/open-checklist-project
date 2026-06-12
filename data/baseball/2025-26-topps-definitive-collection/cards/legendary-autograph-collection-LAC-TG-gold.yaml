@@ -1,0 +1,24 @@
+number: "LAC-TG"
+uuid: "45fd88d2-81c1-4280-bf70-17b44e63d1fe"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2025-26-topps-definitive-collection"
+subjects:
+  - name: "Tom Glavine"
+    role: "Player"
+    team: "Atlanta Braves"
+subset: "Legendary Autograph Collection"
+card_name: "Tom Glavine - Legendary Autograph Collection - Gold"
+description: "Gold parallel of Autographed Legendary Autograph Collection card featuring Tom Glavine."
+series: "Topps Definitive Collection"
+parallel: "Gold"
+print_run: 1
+rookie_card: false
+autograph: true
+relic: false
+serial_numbered: true
+release_date: "2026-04-29"
+image_url: "https://example.com/cards/2025-26-topps-definitive-collection/legendary-autograph-collection-LAC-TG-gold.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2025-26_Topps_Definitive_Collection#Checklist"

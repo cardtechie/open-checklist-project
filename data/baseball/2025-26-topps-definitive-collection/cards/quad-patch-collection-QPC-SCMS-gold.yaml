@@ -1,0 +1,33 @@
+number: "QPC-SCMS"
+uuid: "e75d0bab-116d-4ece-804c-bb906cc9ffdf"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2025-26-topps-definitive-collection"
+subjects:
+  - name: "Oneil Cruz"
+    role: "Player"
+    team: "Pittsburgh Pirates"
+  - name: "Willie Stargell"
+    role: "Player"
+    team: "Pittsburgh Pirates"
+  - name: "Paul Skenes"
+    role: "Player"
+    team: "Pittsburgh Pirates"
+  - name: "Andrew McCutchen"
+    role: "Player"
+    team: "Pittsburgh Pirates"
+subset: "Quad Patch Collection"
+card_name: "Oneil Cruz / Willie Stargell / Paul Skenes / Andrew McCutchen - Quad Patch Collection - Gold"
+description: "Gold parallel of Quad Patch Collection memorabilia card featuring Oneil Cruz / Willie Stargell / Paul Skenes / Andrew McCutchen."
+series: "Topps Definitive Collection"
+parallel: "Gold"
+print_run: 1
+rookie_card: false
+autograph: false
+relic: true
+serial_numbered: true
+release_date: "2026-04-29"
+image_url: "https://example.com/cards/2025-26-topps-definitive-collection/quad-patch-collection-QPC-SCMS-gold.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2025-26_Topps_Definitive_Collection#Checklist"

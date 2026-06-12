@@ -1,0 +1,33 @@
+number: "QPC-OPBC"
+uuid: "5e03e073-456c-4680-9968-f4f07f4c5ce7"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2025-26-topps-definitive-collection"
+subjects:
+  - name: "Alex Bregman"
+    role: "Player"
+    team: "Boston Red Sox"
+  - name: "Dustin Pedroia"
+    role: "Player"
+    team: "Boston Red Sox"
+  - name: "David Ortiz"
+    role: "Player"
+    team: "Boston Red Sox"
+  - name: "Kristian Campbell"
+    role: "Player"
+    team: "Boston Red Sox"
+subset: "Quad Patch Collection"
+card_name: "Alex Bregman / Dustin Pedroia / David Ortiz / Kristian Campbell - Quad Patch Collection - Gold"
+description: "Gold parallel of Quad Patch Collection memorabilia card featuring Alex Bregman / Dustin Pedroia / David Ortiz / Kristian Campbell."
+series: "Topps Definitive Collection"
+parallel: "Gold"
+print_run: 1
+rookie_card: false
+autograph: false
+relic: true
+serial_numbered: true
+release_date: "2026-04-29"
+image_url: "https://example.com/cards/2025-26-topps-definitive-collection/quad-patch-collection-QPC-OPBC-gold.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2025-26_Topps_Definitive_Collection#Checklist"

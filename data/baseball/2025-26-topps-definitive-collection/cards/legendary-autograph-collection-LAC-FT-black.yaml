@@ -1,0 +1,24 @@
+number: "LAC-FT"
+uuid: "e10740a0-81b8-400a-ab7f-429181fe09c8"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2025-26-topps-definitive-collection"
+subjects:
+  - name: "Frank Thomas"
+    role: "Player"
+    team: "Chicago White Sox"
+subset: "Legendary Autograph Collection"
+card_name: "Frank Thomas - Legendary Autograph Collection - Black"
+description: "Black parallel of Autographed Legendary Autograph Collection card featuring Frank Thomas."
+series: "Topps Definitive Collection"
+parallel: "Black"
+print_run: 10
+rookie_card: false
+autograph: true
+relic: false
+serial_numbered: true
+release_date: "2026-04-29"
+image_url: "https://example.com/cards/2025-26-topps-definitive-collection/legendary-autograph-collection-LAC-FT-black.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2025-26_Topps_Definitive_Collection#Checklist"

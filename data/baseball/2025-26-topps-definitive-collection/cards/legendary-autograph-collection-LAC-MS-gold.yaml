@@ -1,0 +1,24 @@
+number: "LAC-MS"
+uuid: "9708b109-a334-4da9-93ad-1d3eb5060e67"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2025-26-topps-definitive-collection"
+subjects:
+  - name: "Mike Schmidt"
+    role: "Player"
+    team: "Philadelphia Phillies"
+subset: "Legendary Autograph Collection"
+card_name: "Mike Schmidt - Legendary Autograph Collection - Gold"
+description: "Gold parallel of Autographed Legendary Autograph Collection card featuring Mike Schmidt."
+series: "Topps Definitive Collection"
+parallel: "Gold"
+print_run: 1
+rookie_card: false
+autograph: true
+relic: false
+serial_numbered: true
+release_date: "2026-04-29"
+image_url: "https://example.com/cards/2025-26-topps-definitive-collection/legendary-autograph-collection-LAC-MS-gold.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2025-26_Topps_Definitive_Collection#Checklist"

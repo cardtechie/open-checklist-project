@@ -1,0 +1,24 @@
+number: "LAC-DW"
+uuid: "8a0dd1e3-ebb7-46cc-a190-c4f64c1e0506"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2025-26-topps-definitive-collection"
+subjects:
+  - name: "Dave Winfield"
+    role: "Player"
+    team: "San Diego Padres"
+subset: "Legendary Autograph Collection"
+card_name: "Dave Winfield - Legendary Autograph Collection - Gold"
+description: "Gold parallel of Autographed Legendary Autograph Collection card featuring Dave Winfield."
+series: "Topps Definitive Collection"
+parallel: "Gold"
+print_run: 1
+rookie_card: false
+autograph: true
+relic: false
+serial_numbered: true
+release_date: "2026-04-29"
+image_url: "https://example.com/cards/2025-26-topps-definitive-collection/legendary-autograph-collection-LAC-DW-gold.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2025-26_Topps_Definitive_Collection#Checklist"

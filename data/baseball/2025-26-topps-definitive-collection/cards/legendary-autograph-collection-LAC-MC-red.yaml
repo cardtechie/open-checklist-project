@@ -1,0 +1,24 @@
+number: "LAC-MC"
+uuid: "eb7b50d5-3b71-4d89-8a77-34a8df2d0241"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2025-26-topps-definitive-collection"
+subjects:
+  - name: "Miguel Cabrera"
+    role: "Player"
+    team: "Detroit Tigers"
+subset: "Legendary Autograph Collection"
+card_name: "Miguel Cabrera - Legendary Autograph Collection - Red"
+description: "Red parallel of Autographed Legendary Autograph Collection card featuring Miguel Cabrera."
+series: "Topps Definitive Collection"
+parallel: "Red"
+print_run: 5
+rookie_card: false
+autograph: true
+relic: false
+serial_numbered: true
+release_date: "2026-04-29"
+image_url: "https://example.com/cards/2025-26-topps-definitive-collection/legendary-autograph-collection-LAC-MC-red.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2025-26_Topps_Definitive_Collection#Checklist"

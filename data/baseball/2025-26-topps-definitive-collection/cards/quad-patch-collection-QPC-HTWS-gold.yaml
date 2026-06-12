@@ -1,0 +1,33 @@
+number: "QPC-HTWS"
+uuid: "e63c8aa9-8d67-4c93-9ccb-94b4f1158a3e"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2025-26-topps-definitive-collection"
+subjects:
+  - name: "Trea Turner"
+    role: "Player"
+    team: "Philadelphia Phillies"
+  - name: "Zack Wheeler"
+    role: "Player"
+    team: "Philadelphia Phillies"
+  - name: "Kyle Schwarber"
+    role: "Player"
+    team: "Philadelphia Phillies"
+  - name: "Bryce Harper"
+    role: "Player"
+    team: "Philadelphia Phillies"
+subset: "Quad Patch Collection"
+card_name: "Trea Turner / Zack Wheeler / Kyle Schwarber / Bryce Harper - Quad Patch Collection - Gold"
+description: "Gold parallel of Quad Patch Collection memorabilia card featuring Trea Turner / Zack Wheeler / Kyle Schwarber / Bryce Harper."
+series: "Topps Definitive Collection"
+parallel: "Gold"
+print_run: 1
+rookie_card: false
+autograph: false
+relic: true
+serial_numbered: true
+release_date: "2026-04-29"
+image_url: "https://example.com/cards/2025-26-topps-definitive-collection/quad-patch-collection-QPC-HTWS-gold.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2025-26_Topps_Definitive_Collection#Checklist"

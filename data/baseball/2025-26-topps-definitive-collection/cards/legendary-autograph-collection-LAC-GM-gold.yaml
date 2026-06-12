@@ -1,0 +1,24 @@
+number: "LAC-GM"
+uuid: "86c04983-4a54-4e16-9f7b-39e3d92ef870"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2025-26-topps-definitive-collection"
+subjects:
+  - name: "Greg Maddux"
+    role: "Player"
+    team: "Chicago Cubs"
+subset: "Legendary Autograph Collection"
+card_name: "Greg Maddux - Legendary Autograph Collection - Gold"
+description: "Gold parallel of Autographed Legendary Autograph Collection card featuring Greg Maddux."
+series: "Topps Definitive Collection"
+parallel: "Gold"
+print_run: 1
+rookie_card: false
+autograph: true
+relic: false
+serial_numbered: true
+release_date: "2026-04-29"
+image_url: "https://example.com/cards/2025-26-topps-definitive-collection/legendary-autograph-collection-LAC-GM-gold.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2025-26_Topps_Definitive_Collection#Checklist"

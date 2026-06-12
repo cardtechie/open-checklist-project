@@ -1,0 +1,24 @@
+number: "LAC-JS"
+uuid: "85de7911-8a47-4ef6-8e84-6f353293a627"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2025-26-topps-definitive-collection"
+subjects:
+  - name: "John Smoltz"
+    role: "Player"
+    team: "Atlanta Braves"
+subset: "Legendary Autograph Collection"
+card_name: "John Smoltz - Legendary Autograph Collection - Red"
+description: "Red parallel of Autographed Legendary Autograph Collection card featuring John Smoltz."
+series: "Topps Definitive Collection"
+parallel: "Red"
+print_run: 5
+rookie_card: false
+autograph: true
+relic: false
+serial_numbered: true
+release_date: "2026-04-29"
+image_url: "https://example.com/cards/2025-26-topps-definitive-collection/legendary-autograph-collection-LAC-JS-red.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2025-26_Topps_Definitive_Collection#Checklist"

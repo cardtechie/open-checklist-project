@@ -1,0 +1,24 @@
+number: "LAC-IR"
+uuid: "e2674e40-5cdb-47e6-8bf8-c0be4dbb4857"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2025-26-topps-definitive-collection"
+subjects:
+  - name: "Ivan Rodriguez"
+    role: "Player"
+    team: "Texas Rangers"
+subset: "Legendary Autograph Collection"
+card_name: "Ivan Rodriguez - Legendary Autograph Collection - Red"
+description: "Red parallel of Autographed Legendary Autograph Collection card featuring Ivan Rodriguez."
+series: "Topps Definitive Collection"
+parallel: "Red"
+print_run: 5
+rookie_card: false
+autograph: true
+relic: false
+serial_numbered: true
+release_date: "2026-04-29"
+image_url: "https://example.com/cards/2025-26-topps-definitive-collection/legendary-autograph-collection-LAC-IR-red.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2025-26_Topps_Definitive_Collection#Checklist"

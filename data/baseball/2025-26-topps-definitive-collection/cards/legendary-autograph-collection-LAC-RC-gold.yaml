@@ -1,0 +1,24 @@
+number: "LAC-RC"
+uuid: "7e42f0fe-8b29-4c1c-b313-d3407a8f0d4e"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2025-26-topps-definitive-collection"
+subjects:
+  - name: "Roger Clemens"
+    role: "Player"
+    team: "Toronto Blue Jays"
+subset: "Legendary Autograph Collection"
+card_name: "Roger Clemens - Legendary Autograph Collection - Gold"
+description: "Gold parallel of Autographed Legendary Autograph Collection card featuring Roger Clemens."
+series: "Topps Definitive Collection"
+parallel: "Gold"
+print_run: 1
+rookie_card: false
+autograph: true
+relic: false
+serial_numbered: true
+release_date: "2026-04-29"
+image_url: "https://example.com/cards/2025-26-topps-definitive-collection/legendary-autograph-collection-LAC-RC-gold.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2025-26_Topps_Definitive_Collection#Checklist"

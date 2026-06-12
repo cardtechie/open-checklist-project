@@ -1,0 +1,24 @@
+number: "LAC-DMU"
+uuid: "7c29b08f-dfa5-4837-a439-6f8db3734553"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2025-26-topps-definitive-collection"
+subjects:
+  - name: "Dale Murphy"
+    role: "Player"
+    team: "Atlanta Braves"
+subset: "Legendary Autograph Collection"
+card_name: "Dale Murphy - Legendary Autograph Collection - Red"
+description: "Red parallel of Autographed Legendary Autograph Collection card featuring Dale Murphy."
+series: "Topps Definitive Collection"
+parallel: "Red"
+print_run: 5
+rookie_card: false
+autograph: true
+relic: false
+serial_numbered: true
+release_date: "2026-04-29"
+image_url: "https://example.com/cards/2025-26-topps-definitive-collection/legendary-autograph-collection-LAC-DMU-red.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2025-26_Topps_Definitive_Collection#Checklist"

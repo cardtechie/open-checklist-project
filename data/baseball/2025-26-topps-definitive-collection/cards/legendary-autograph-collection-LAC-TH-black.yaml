@@ -1,0 +1,24 @@
+number: "LAC-TH"
+uuid: "6adc7af7-0cb5-453b-8406-e9a4f4ebb6ac"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2025-26-topps-definitive-collection"
+subjects:
+  - name: "Torii Hunter"
+    role: "Player"
+    team: "Minnesota Twins"
+subset: "Legendary Autograph Collection"
+card_name: "Torii Hunter - Legendary Autograph Collection - Black"
+description: "Black parallel of Autographed Legendary Autograph Collection card featuring Torii Hunter."
+series: "Topps Definitive Collection"
+parallel: "Black"
+print_run: 10
+rookie_card: false
+autograph: true
+relic: false
+serial_numbered: true
+release_date: "2026-04-29"
+image_url: "https://example.com/cards/2025-26-topps-definitive-collection/legendary-autograph-collection-LAC-TH-black.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2025-26_Topps_Definitive_Collection#Checklist"
