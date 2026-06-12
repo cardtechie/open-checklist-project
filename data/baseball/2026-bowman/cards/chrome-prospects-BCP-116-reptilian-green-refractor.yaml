@@ -1,0 +1,23 @@
+number: "BCP-116"
+uuid: "6e71ba4b-6057-4635-9628-356560e22ef1"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-bowman"
+subjects:
+  - name: "Dauri Fernandez"
+    role: "Player"
+    team: "Cleveland Guardians"
+subset: "Chrome Prospects"
+card_name: "Dauri Fernandez - Chrome Prospects - Reptilian Green Refractor"
+description: "Reptilian Green Refractor parallel of Chrome Prospects card featuring Dauri Fernandez."
+series: "2026 Bowman"
+parallel: "Reptilian Green Refractor"
+print_run: 99
+rookie_card: false
+autograph: false
+serial_numbered: true
+release_date: "2026-05-13"
+image_url: "https://example.com/cards/2026-bowman/chrome-prospects-BCP-116-reptilian-green-refractor.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Bowman#Insertion_Ratios"

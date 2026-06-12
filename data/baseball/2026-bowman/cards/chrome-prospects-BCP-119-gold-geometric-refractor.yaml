@@ -1,0 +1,23 @@
+number: "BCP-119"
+uuid: "efa1d96c-a18e-4945-8c2e-12b65cc30971"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-bowman"
+subjects:
+  - name: "Mathias Lacombe"
+    role: "Player"
+    team: "Chicago White Sox"
+subset: "Chrome Prospects"
+card_name: "Mathias Lacombe - Chrome Prospects - Gold Geometric Refractor"
+description: "Gold Geometric Refractor parallel of Chrome Prospects card featuring Mathias Lacombe."
+series: "2026 Bowman"
+parallel: "Gold Geometric Refractor"
+print_run: 50
+rookie_card: false
+autograph: false
+serial_numbered: true
+release_date: "2026-05-13"
+image_url: "https://example.com/cards/2026-bowman/chrome-prospects-BCP-119-gold-geometric-refractor.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Bowman#Insertion_Ratios"

@@ -1,0 +1,23 @@
+number: "BCP-120"
+uuid: "f88c9f0e-2570-4c8c-8f0c-91813a68f2da"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-bowman"
+subjects:
+  - name: "Luis Peña"
+    role: "Player"
+    team: "Milwaukee Brewers"
+subset: "Chrome Prospects"
+card_name: "Luis Peña - Chrome Prospects - Blue Shimmer Refractor"
+description: "Blue Shimmer Refractor parallel of Chrome Prospects card featuring Luis Peña."
+series: "2026 Bowman"
+parallel: "Blue Shimmer Refractor"
+print_run: 150
+rookie_card: false
+autograph: false
+serial_numbered: true
+release_date: "2026-05-13"
+image_url: "https://example.com/cards/2026-bowman/chrome-prospects-BCP-120-blue-shimmer-refractor.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Bowman#Insertion_Ratios"

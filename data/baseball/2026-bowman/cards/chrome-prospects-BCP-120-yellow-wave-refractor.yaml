@@ -1,0 +1,23 @@
+number: "BCP-120"
+uuid: "0ec15a19-0e00-4fd5-8485-d4753d10a9c7"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-bowman"
+subjects:
+  - name: "Luis Peña"
+    role: "Player"
+    team: "Milwaukee Brewers"
+subset: "Chrome Prospects"
+card_name: "Luis Peña - Chrome Prospects - Yellow Wave Refractor"
+description: "Yellow Wave Refractor parallel of Chrome Prospects card featuring Luis Peña."
+series: "2026 Bowman"
+parallel: "Yellow Wave Refractor"
+print_run: 75
+rookie_card: false
+autograph: false
+serial_numbered: true
+release_date: "2026-05-13"
+image_url: "https://example.com/cards/2026-bowman/chrome-prospects-BCP-120-yellow-wave-refractor.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Bowman#Insertion_Ratios"

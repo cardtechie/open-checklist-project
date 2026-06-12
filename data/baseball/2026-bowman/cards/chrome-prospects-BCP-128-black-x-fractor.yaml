@@ -1,0 +1,23 @@
+number: "BCP-128"
+uuid: "72f5a166-fa30-43dc-aac1-e1769ca7e7d1"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-bowman"
+subjects:
+  - name: "Hector Ramos"
+    role: "Player"
+    team: "Boston Red Sox"
+subset: "Chrome Prospects"
+card_name: "Hector Ramos - Chrome Prospects - Black X-Fractor"
+description: "Black X-Fractor parallel of Chrome Prospects card featuring Hector Ramos."
+series: "2026 Bowman"
+parallel: "Black X-Fractor"
+print_run: 10
+rookie_card: false
+autograph: false
+serial_numbered: true
+release_date: "2026-05-13"
+image_url: "https://example.com/cards/2026-bowman/chrome-prospects-BCP-128-black-x-fractor.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Bowman#Insertion_Ratios"

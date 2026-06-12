@@ -1,0 +1,23 @@
+number: "BCP-119"
+uuid: "b3f9429e-530c-44a6-b214-82ed2c76bf54"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-bowman"
+subjects:
+  - name: "Mathias Lacombe"
+    role: "Player"
+    team: "Chicago White Sox"
+subset: "Chrome Prospects"
+card_name: "Mathias Lacombe - Chrome Prospects - Reptilian Orange Refractor"
+description: "Reptilian Orange Refractor parallel of Chrome Prospects card featuring Mathias Lacombe."
+series: "2026 Bowman"
+parallel: "Reptilian Orange Refractor"
+print_run: 25
+rookie_card: false
+autograph: false
+serial_numbered: true
+release_date: "2026-05-13"
+image_url: "https://example.com/cards/2026-bowman/chrome-prospects-BCP-119-reptilian-orange-refractor.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Bowman#Insertion_Ratios"
