@@ -1,0 +1,23 @@
+number: "BCP-112"
+uuid: "4b21fdbc-5fad-47c8-b2bf-1da83397cfca"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-bowman"
+subjects:
+  - name: "Jamie Arnold"
+    role: "Player"
+    team: "Athletics"
+subset: "Chrome Prospects"
+card_name: "Jamie Arnold - Chrome Prospects - PackFractor"
+description: "PackFractor parallel of Chrome Prospects card featuring Jamie Arnold."
+series: "2026 Bowman"
+parallel: "PackFractor"
+print_run: 89
+rookie_card: false
+autograph: false
+serial_numbered: true
+release_date: "2026-05-13"
+image_url: "https://example.com/cards/2026-bowman/chrome-prospects-BCP-112-packfractor.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Bowman#Insertion_Ratios"

@@ -1,0 +1,23 @@
+number: "BCP-101"
+uuid: "3936f874-33cb-4f54-9801-4026782c0a1b"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-bowman"
+subjects:
+  - name: "Kehden Hettiger"
+    role: "Player"
+    team: "Philadelphia Phillies"
+subset: "Chrome Prospects"
+card_name: "Kehden Hettiger - Chrome Prospects - Rose Gold Refractor"
+description: "Rose Gold Refractor parallel of Chrome Prospects card featuring Kehden Hettiger."
+series: "2026 Bowman"
+parallel: "Rose Gold Refractor"
+print_run: 15
+rookie_card: false
+autograph: false
+serial_numbered: true
+release_date: "2026-05-13"
+image_url: "https://example.com/cards/2026-bowman/chrome-prospects-BCP-101-rose-gold-refractor.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Bowman#Insertion_Ratios"

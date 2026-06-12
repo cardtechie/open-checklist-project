@@ -1,0 +1,23 @@
+number: "BCP-112"
+uuid: "04a5f6a7-d275-42d3-9cb9-c11a9c4d0e7f"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-bowman"
+subjects:
+  - name: "Jamie Arnold"
+    role: "Player"
+    team: "Athletics"
+subset: "Chrome Prospects"
+card_name: "Jamie Arnold - Chrome Prospects - Blue Refractor"
+description: "Blue Refractor parallel of Chrome Prospects card featuring Jamie Arnold."
+series: "2026 Bowman"
+parallel: "Blue Refractor"
+print_run: 150
+rookie_card: false
+autograph: false
+serial_numbered: true
+release_date: "2026-05-13"
+image_url: "https://example.com/cards/2026-bowman/chrome-prospects-BCP-112-blue-refractor.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Bowman#Insertion_Ratios"
