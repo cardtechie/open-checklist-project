@@ -1,0 +1,24 @@
+number: "66"
+uuid: "40baedc6-ee67-425b-97c4-3fbad8168e65"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "Hideki Matsui"
+    role: "Player"
+    team: "New York Yankees"
+subset: "Base - Optic"
+card_name: "Hideki Matsui - Base - Optic - Purple"
+description: "Purple parallel of Base - Optic card featuring Hideki Matsui."
+series: "2026 Donruss"
+parallel: "Purple"
+print_run: 49
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: true
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/base-optic-66-purple.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Donruss#Checklist"

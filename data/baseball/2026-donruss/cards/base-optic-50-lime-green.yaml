@@ -1,0 +1,24 @@
+number: "50"
+uuid: "59444f2d-868f-43be-b5ad-eba13b41f2e1"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "Rickey Henderson"
+    role: "Player"
+    team: "Oakland A's"
+subset: "Base - Optic"
+card_name: "Rickey Henderson - Base - Optic - Lime Green"
+description: "Lime Green parallel of Base - Optic card featuring Rickey Henderson."
+series: "2026 Donruss"
+parallel: "Lime Green"
+print_run: 149
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: true
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/base-optic-50-lime-green.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Donruss#Checklist"

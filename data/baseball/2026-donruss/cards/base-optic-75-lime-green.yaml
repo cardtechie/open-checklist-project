@@ -1,0 +1,24 @@
+number: "75"
+uuid: "f4c8acc5-753d-4c57-b297-cdf1c420b17c"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "Don Mattingly"
+    role: "Player"
+    team: "New York Yankees"
+subset: "Base - Optic"
+card_name: "Don Mattingly - Base - Optic - Lime Green"
+description: "Lime Green parallel of Base - Optic card featuring Don Mattingly."
+series: "2026 Donruss"
+parallel: "Lime Green"
+print_run: 149
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: true
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/base-optic-75-lime-green.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Donruss#Checklist"

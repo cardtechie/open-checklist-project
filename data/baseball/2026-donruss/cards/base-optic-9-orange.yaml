@@ -1,0 +1,24 @@
+number: "9"
+uuid: "159079ea-e53a-4b41-8f43-e06d5b14b9ca"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "Leo Durocher"
+    role: "Player"
+    team: "Chicago Cubs"
+subset: "Base - Optic"
+card_name: "Leo Durocher - Base - Optic - Orange"
+description: "Orange parallel of Base - Optic card featuring Leo Durocher."
+series: "2026 Donruss"
+parallel: "Orange"
+print_run: 199
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: true
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/base-optic-9-orange.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Donruss#Checklist"

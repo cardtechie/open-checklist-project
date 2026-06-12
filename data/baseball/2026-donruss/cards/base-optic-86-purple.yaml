@@ -1,0 +1,24 @@
+number: "86"
+uuid: "e5c84396-464b-489e-8c24-9237f7fa7740"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "Dwight Gooden"
+    role: "Player"
+    team: "New York Mets"
+subset: "Base - Optic"
+card_name: "Dwight Gooden - Base - Optic - Purple"
+description: "Purple parallel of Base - Optic card featuring Dwight Gooden."
+series: "2026 Donruss"
+parallel: "Purple"
+print_run: 49
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: true
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/base-optic-86-purple.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Donruss#Checklist"

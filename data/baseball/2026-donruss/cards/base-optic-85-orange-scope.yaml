@@ -1,0 +1,24 @@
+number: "85"
+uuid: "3271d7ec-121f-4a33-97b1-d324ee603be4"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "Chipper Jones"
+    role: "Player"
+    team: "Atlanta Braves"
+subset: "Base - Optic"
+card_name: "Chipper Jones - Base - Optic - Orange Scope"
+description: "Orange Scope parallel of Base - Optic card featuring Chipper Jones."
+series: "2026 Donruss"
+parallel: "Orange Scope"
+print_run: 79
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: true
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/base-optic-85-orange-scope.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Donruss#Checklist"

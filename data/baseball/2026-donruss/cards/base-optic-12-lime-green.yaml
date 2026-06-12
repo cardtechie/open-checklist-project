@@ -1,0 +1,24 @@
+number: "12"
+uuid: "6f5f954e-7a7d-4142-96fb-7b64f03c8fcf"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "Miguel Cabrera"
+    role: "Player"
+    team: "Detroit Tigers"
+subset: "Base - Optic"
+card_name: "Miguel Cabrera - Base - Optic - Lime Green"
+description: "Lime Green parallel of Base - Optic card featuring Miguel Cabrera."
+series: "2026 Donruss"
+parallel: "Lime Green"
+print_run: 149
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: true
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/base-optic-12-lime-green.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Donruss#Checklist"

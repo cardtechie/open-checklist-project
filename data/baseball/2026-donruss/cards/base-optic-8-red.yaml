@@ -1,0 +1,24 @@
+number: "8"
+uuid: "e43f6459-e4e9-47b7-94a6-74f50f3faa33"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "Luisangel Acuna"
+    role: "Player"
+    team: "Chicago White Sox"
+subset: "Base - Optic"
+card_name: "Luisangel Acuna - Base - Optic - Red"
+description: "Red parallel of Base - Optic card featuring Luisangel Acuna."
+series: "2026 Donruss"
+parallel: "Red"
+print_run: 99
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: true
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/base-optic-8-red.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Donruss#Checklist"

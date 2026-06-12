@@ -1,0 +1,24 @@
+number: "14"
+uuid: "2936fee0-ab4b-4571-866e-8490110696d4"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "Cal Ripken"
+    role: "Player"
+    team: "Baltimore Orioles"
+subset: "Base - Optic"
+card_name: "Cal Ripken - Base - Optic - Orange Scope"
+description: "Orange Scope parallel of Base - Optic card featuring Cal Ripken."
+series: "2026 Donruss"
+parallel: "Orange Scope"
+print_run: 79
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: true
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/base-optic-14-orange-scope.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Donruss#Checklist"

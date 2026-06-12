@@ -1,0 +1,24 @@
+number: "5"
+uuid: "aa3a3041-3a93-46f4-9445-4a62859a6a8c"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "Bubba Chandler"
+    role: "Player"
+    team: "Pittsburgh Pirates"
+subset: "Base - Optic"
+card_name: "Bubba Chandler - Base - Optic - Lime Green"
+description: "Lime Green parallel of Base - Optic card featuring Bubba Chandler."
+series: "2026 Donruss"
+parallel: "Lime Green"
+print_run: 149
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: true
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/base-optic-5-lime-green.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Donruss#Checklist"

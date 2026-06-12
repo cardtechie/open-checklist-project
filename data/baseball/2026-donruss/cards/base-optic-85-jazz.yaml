@@ -1,0 +1,23 @@
+number: "85"
+uuid: "2ad184b9-d3f3-4769-8307-42bc7cdd86dc"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "Chipper Jones"
+    role: "Player"
+    team: "Atlanta Braves"
+subset: "Base - Optic"
+card_name: "Chipper Jones - Base - Optic - Jazz"
+description: "Jazz parallel of Base - Optic card featuring Chipper Jones."
+series: "2026 Donruss"
+parallel: "Jazz"
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: false
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/base-optic-85-jazz.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Donruss#Checklist"

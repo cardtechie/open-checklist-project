@@ -1,0 +1,24 @@
+number: "26"
+uuid: "e763e8f3-ec55-4cf0-9535-9332e7604990"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "Gil Hodges"
+    role: "Player"
+    team: "Brooklyn Dodgers"
+subset: "Base - Optic"
+card_name: "Gil Hodges - Base - Optic - Lime Green"
+description: "Lime Green parallel of Base - Optic card featuring Gil Hodges."
+series: "2026 Donruss"
+parallel: "Lime Green"
+print_run: 149
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: true
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/base-optic-26-lime-green.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Donruss#Checklist"

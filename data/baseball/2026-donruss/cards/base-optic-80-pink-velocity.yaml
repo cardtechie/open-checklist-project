@@ -1,0 +1,24 @@
+number: "80"
+uuid: "d48fd088-a614-4fc9-b395-d5a1284c94fe"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "Mike Schmidt"
+    role: "Player"
+    team: "Philadelphia Phillies"
+subset: "Base - Optic"
+card_name: "Mike Schmidt - Base - Optic - Pink Velocity"
+description: "Pink Velocity parallel of Base - Optic card featuring Mike Schmidt."
+series: "2026 Donruss"
+parallel: "Pink Velocity"
+print_run: 79
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: true
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/base-optic-80-pink-velocity.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Donruss#Checklist"

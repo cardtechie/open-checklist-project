@@ -1,0 +1,23 @@
+number: "100"
+uuid: "5d4d363e-5bed-4eac-906c-3e282d21535c"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "James Wood"
+    role: "Player"
+    team: "Washington Nationals"
+subset: "Base - Optic"
+card_name: "James Wood - Base - Optic - Holo"
+description: "Holo parallel of Base - Optic card featuring James Wood."
+series: "2026 Donruss"
+parallel: "Holo"
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: false
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/base-optic-100-holo.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Donruss#Checklist"

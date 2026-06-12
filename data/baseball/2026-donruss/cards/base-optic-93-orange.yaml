@@ -1,0 +1,24 @@
+number: "93"
+uuid: "f7b06df5-c78a-4ab1-9f27-7c7eef7ebb62"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "Mike Piazza"
+    role: "Player"
+    team: "New York Mets"
+subset: "Base - Optic"
+card_name: "Mike Piazza - Base - Optic - Orange"
+description: "Orange parallel of Base - Optic card featuring Mike Piazza."
+series: "2026 Donruss"
+parallel: "Orange"
+print_run: 199
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: true
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/base-optic-93-orange.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Donruss#Checklist"

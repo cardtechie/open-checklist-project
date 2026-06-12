@@ -1,0 +1,23 @@
+number: "10"
+uuid: "5724d174-7f53-4bf9-8018-e2baadd27cf8"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "Brandon Sproat"
+    role: "Player"
+    team: "Milwaukee Brewers"
+subset: "Base - Optic"
+card_name: "Brandon Sproat - Base - Optic - Jazz"
+description: "Jazz parallel of Base - Optic card featuring Brandon Sproat."
+series: "2026 Donruss"
+parallel: "Jazz"
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: false
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/base-optic-10-jazz.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Donruss#Checklist"

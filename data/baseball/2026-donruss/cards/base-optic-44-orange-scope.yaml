@@ -1,0 +1,24 @@
+number: "44"
+uuid: "e78908a2-972a-4d61-b233-8dd207f7eb5e"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "Vladimir Guerrero"
+    role: "Player"
+    team: "Anaheim Angels"
+subset: "Base - Optic"
+card_name: "Vladimir Guerrero - Base - Optic - Orange Scope"
+description: "Orange Scope parallel of Base - Optic card featuring Vladimir Guerrero."
+series: "2026 Donruss"
+parallel: "Orange Scope"
+print_run: 79
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: true
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/base-optic-44-orange-scope.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Donruss#Checklist"

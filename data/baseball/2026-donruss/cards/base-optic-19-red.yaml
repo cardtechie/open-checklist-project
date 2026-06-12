@@ -1,0 +1,24 @@
+number: "19"
+uuid: "b43049fb-c487-44e8-a3df-e1a5d9c166a7"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "Dick Allen"
+    role: "Player"
+    team: "Chicago White Sox"
+subset: "Base - Optic"
+card_name: "Dick Allen - Base - Optic - Red"
+description: "Red parallel of Base - Optic card featuring Dick Allen."
+series: "2026 Donruss"
+parallel: "Red"
+print_run: 99
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: true
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/base-optic-19-red.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Donruss#Checklist"
