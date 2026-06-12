@@ -1,0 +1,24 @@
+number: "28"
+uuid: "3b022427-9d00-45b7-a0e7-3f0c1261f3e2"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "Stephen Vogt"
+    role: "Player"
+    team: "Cleveland Guardians"
+subset: "Signature Series"
+card_name: "Stephen Vogt - Signature Series - Gold Laser"
+description: "Gold Laser parallel of Autographed Signature Series card featuring Stephen Vogt."
+series: "2026 Donruss"
+parallel: "Gold Laser"
+print_run: 10
+rookie_card: false
+autograph: true
+relic: false
+serial_numbered: true
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/signature-series-28-gold-laser.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Donruss#Checklist"

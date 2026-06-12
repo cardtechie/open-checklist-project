@@ -1,0 +1,24 @@
+number: "51"
+uuid: "ed5b1fcd-8c00-4e59-81f3-fbc0988f185c"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "Paul Skenes"
+    role: "Player"
+    team: "Pittsburgh Pirates"
+subset: "Signature Series"
+card_name: "Paul Skenes - Signature Series - Gold Laser"
+description: "Gold Laser parallel of Autographed Signature Series card featuring Paul Skenes."
+series: "2026 Donruss"
+parallel: "Gold Laser"
+print_run: 10
+rookie_card: false
+autograph: true
+relic: false
+serial_numbered: true
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/signature-series-51-gold-laser.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Donruss#Checklist"

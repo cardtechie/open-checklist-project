@@ -1,0 +1,24 @@
+number: "60"
+uuid: "bcad3020-016c-438e-8acd-4d4b34ebda75"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "Trey Snyder"
+    role: "Player"
+    team: "New York Mets"
+subset: "Signature Series"
+card_name: "Trey Snyder - Signature Series - Blue Laser"
+description: "Blue Laser parallel of Autographed Signature Series card featuring Trey Snyder."
+series: "2026 Donruss"
+parallel: "Blue Laser"
+print_run: 25
+rookie_card: false
+autograph: true
+relic: false
+serial_numbered: true
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/signature-series-60-blue-laser.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Donruss#Checklist"

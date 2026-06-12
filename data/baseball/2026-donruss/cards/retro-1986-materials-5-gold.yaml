@@ -1,0 +1,24 @@
+number: "5"
+uuid: "e2881ab0-cd41-4e0a-b121-a92837d4102a"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "Jose Canseco"
+    role: "Player"
+    team: "Oakland A's"
+subset: "Retro 1986 Materials"
+card_name: "Jose Canseco - Retro 1986 Materials - Gold"
+description: "Gold parallel of Retro 1986 Materials memorabilia card featuring Jose Canseco."
+series: "2026 Donruss"
+parallel: "Gold"
+print_run: 10
+rookie_card: false
+autograph: false
+relic: true
+serial_numbered: true
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/retro-1986-materials-5-gold.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Donruss#Checklist"

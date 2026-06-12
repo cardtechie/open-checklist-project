@@ -1,0 +1,23 @@
+number: "4"
+uuid: "deec7ac7-c1e7-433d-8f58-fe86c2366f0d"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "Bobby Witt Jr."
+    role: "Player"
+    team: "Kansas City Royals"
+subset: "Signature Series"
+card_name: "Bobby Witt Jr. - Signature Series - Laser"
+description: "Laser parallel of Autographed Signature Series card featuring Bobby Witt Jr.."
+series: "2026 Donruss"
+parallel: "Laser"
+rookie_card: false
+autograph: true
+relic: false
+serial_numbered: false
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/signature-series-4-laser.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Donruss#Checklist"

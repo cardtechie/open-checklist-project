@@ -1,0 +1,24 @@
+number: "58"
+uuid: "fb748f4b-1c6d-4625-9158-3af32b0bef37"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "Daniel Eagen"
+    role: "Player"
+    team: "Arizona Diamondbacks"
+subset: "Signature Series"
+card_name: "Daniel Eagen - Signature Series - Blue"
+description: "Blue parallel of Autographed Signature Series card featuring Daniel Eagen."
+series: "2026 Donruss"
+parallel: "Blue"
+print_run: 75
+rookie_card: false
+autograph: true
+relic: false
+serial_numbered: true
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/signature-series-58-blue.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Donruss#Checklist"

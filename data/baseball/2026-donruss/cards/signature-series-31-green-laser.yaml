@@ -1,0 +1,23 @@
+number: "31"
+uuid: "b05d7b80-2260-4f2f-b8ec-78c34c037480"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "Sammy Sosa"
+    role: "Player"
+    team: "Chicago Cubs"
+subset: "Signature Series"
+card_name: "Sammy Sosa - Signature Series - Green Laser"
+description: "Green Laser parallel of Autographed Signature Series card featuring Sammy Sosa."
+series: "2026 Donruss"
+parallel: "Green Laser"
+rookie_card: false
+autograph: true
+relic: false
+serial_numbered: false
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/signature-series-31-green-laser.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Donruss#Checklist"

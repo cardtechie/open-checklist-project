@@ -1,0 +1,24 @@
+number: "73"
+uuid: "31d948a4-ba7b-46cd-9cfd-e2088dbd07e4"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "Chase Davis"
+    role: "Player"
+    team: "St. Louis Cardinals"
+subset: "Signature Series"
+card_name: "Chase Davis - Signature Series - Black"
+description: "Black parallel of Autographed Signature Series card featuring Chase Davis."
+series: "2026 Donruss"
+parallel: "Black"
+print_run: 1
+rookie_card: false
+autograph: true
+relic: false
+serial_numbered: true
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/signature-series-73-black.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Donruss#Checklist"

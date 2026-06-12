@@ -1,0 +1,24 @@
+number: "9"
+uuid: "d9ce2a51-8ded-4899-95f1-cf8e0b7847c1"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "Kendall George"
+    role: "Player"
+    team: "Los Angeles Dodgers"
+subset: "Signature Series"
+card_name: "Kendall George - Signature Series - Orange Laser"
+description: "Orange Laser parallel of Autographed Signature Series card featuring Kendall George."
+series: "2026 Donruss"
+parallel: "Orange Laser"
+print_run: 25
+rookie_card: false
+autograph: true
+relic: false
+serial_numbered: true
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/signature-series-9-orange-laser.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Donruss#Checklist"

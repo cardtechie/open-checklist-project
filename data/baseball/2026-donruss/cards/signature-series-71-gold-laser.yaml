@@ -1,0 +1,24 @@
+number: "71"
+uuid: "c7a26125-5415-44d0-b083-d757bcbe81a6"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "Mitch Jebb"
+    role: "Player"
+    team: "Pittsburgh Pirates"
+subset: "Signature Series"
+card_name: "Mitch Jebb - Signature Series - Gold Laser"
+description: "Gold Laser parallel of Autographed Signature Series card featuring Mitch Jebb."
+series: "2026 Donruss"
+parallel: "Gold Laser"
+print_run: 10
+rookie_card: false
+autograph: true
+relic: false
+serial_numbered: true
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/signature-series-71-gold-laser.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Donruss#Checklist"

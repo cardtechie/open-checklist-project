@@ -1,0 +1,23 @@
+number: "21"
+uuid: "6123a542-3eb5-4a11-9f12-b25502416f23"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "Deion Sanders"
+    role: "Player"
+    team: "Atlanta Braves"
+subset: "Retro 1986 Materials"
+card_name: "Deion Sanders - Retro 1986 Materials - Blue Ice"
+description: "Blue Ice parallel of Retro 1986 Materials memorabilia card featuring Deion Sanders."
+series: "2026 Donruss"
+parallel: "Blue Ice"
+rookie_card: false
+autograph: false
+relic: true
+serial_numbered: false
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/retro-1986-materials-21-blue-ice.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Donruss#Checklist"

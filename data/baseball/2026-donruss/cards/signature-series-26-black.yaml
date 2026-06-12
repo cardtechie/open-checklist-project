@@ -1,0 +1,24 @@
+number: "26"
+uuid: "c2361239-d3c5-4438-af2f-a6fabd8f554f"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "David Ortiz"
+    role: "Player"
+    team: "Boston Red Sox"
+subset: "Signature Series"
+card_name: "David Ortiz - Signature Series - Black"
+description: "Black parallel of Autographed Signature Series card featuring David Ortiz."
+series: "2026 Donruss"
+parallel: "Black"
+print_run: 1
+rookie_card: false
+autograph: true
+relic: false
+serial_numbered: true
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/signature-series-26-black.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Donruss#Checklist"

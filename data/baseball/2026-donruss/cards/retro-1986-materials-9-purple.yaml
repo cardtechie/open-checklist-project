@@ -1,0 +1,24 @@
+number: "9"
+uuid: "398d31be-1f0d-4232-b819-c5d4b3df87da"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "David Ortiz"
+    role: "Player"
+    team: "Boston Red Sox"
+subset: "Retro 1986 Materials"
+card_name: "David Ortiz - Retro 1986 Materials - Purple"
+description: "Purple parallel of Retro 1986 Materials memorabilia card featuring David Ortiz."
+series: "2026 Donruss"
+parallel: "Purple"
+print_run: 49
+rookie_card: false
+autograph: false
+relic: true
+serial_numbered: true
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/retro-1986-materials-9-purple.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Donruss#Checklist"

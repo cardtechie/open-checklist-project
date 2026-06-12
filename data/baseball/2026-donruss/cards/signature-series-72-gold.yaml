@@ -1,0 +1,24 @@
+number: "72"
+uuid: "e1b0b95f-9898-4a0f-a11f-a56ff57c929f"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "Colin Houck"
+    role: "Player"
+    team: "New York Mets"
+subset: "Signature Series"
+card_name: "Colin Houck - Signature Series - Gold"
+description: "Gold parallel of Autographed Signature Series card featuring Colin Houck."
+series: "2026 Donruss"
+parallel: "Gold"
+print_run: 10
+rookie_card: false
+autograph: true
+relic: false
+serial_numbered: true
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/signature-series-72-gold.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Donruss#Checklist"

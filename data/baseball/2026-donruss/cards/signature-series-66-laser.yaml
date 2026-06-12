@@ -1,0 +1,23 @@
+number: "66"
+uuid: "67cc886c-3409-4597-8013-efc8d4e65c38"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "Nick Kurtz"
+    role: "Player"
+    team: "Oakland A's"
+subset: "Signature Series"
+card_name: "Nick Kurtz - Signature Series - Laser"
+description: "Laser parallel of Autographed Signature Series card featuring Nick Kurtz."
+series: "2026 Donruss"
+parallel: "Laser"
+rookie_card: false
+autograph: true
+relic: false
+serial_numbered: false
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/signature-series-66-laser.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Donruss#Checklist"

@@ -1,0 +1,24 @@
+number: "74"
+uuid: "6fc2dbea-4a4c-474f-adb1-778da5e62cad"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "Paul Konerko"
+    role: "Player"
+    team: "Chicago White Sox"
+subset: "Signature Series"
+card_name: "Paul Konerko - Signature Series - Black"
+description: "Black parallel of Autographed Signature Series card featuring Paul Konerko."
+series: "2026 Donruss"
+parallel: "Black"
+print_run: 1
+rookie_card: false
+autograph: true
+relic: false
+serial_numbered: true
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/signature-series-74-black.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Donruss#Checklist"

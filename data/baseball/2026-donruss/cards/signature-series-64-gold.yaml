@@ -1,0 +1,24 @@
+number: "64"
+uuid: "bdabf6c9-4cd3-45c0-a1fd-fa32ac3743a8"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "David Cone"
+    role: "Player"
+    team: "New York Mets"
+subset: "Signature Series"
+card_name: "David Cone - Signature Series - Gold"
+description: "Gold parallel of Autographed Signature Series card featuring David Cone."
+series: "2026 Donruss"
+parallel: "Gold"
+print_run: 10
+rookie_card: false
+autograph: true
+relic: false
+serial_numbered: true
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/signature-series-64-gold.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Donruss#Checklist"

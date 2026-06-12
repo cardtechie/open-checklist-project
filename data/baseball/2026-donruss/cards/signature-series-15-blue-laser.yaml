@@ -1,0 +1,24 @@
+number: "15"
+uuid: "02257bd8-1d3a-482d-979e-dc36bdc9a8d4"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "Ivan Luciano"
+    role: "Player"
+    team: "Arizona Diamondbacks"
+subset: "Signature Series"
+card_name: "Ivan Luciano - Signature Series - Blue Laser"
+description: "Blue Laser parallel of Autographed Signature Series card featuring Ivan Luciano."
+series: "2026 Donruss"
+parallel: "Blue Laser"
+print_run: 25
+rookie_card: false
+autograph: true
+relic: false
+serial_numbered: true
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/signature-series-15-blue-laser.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Donruss#Checklist"

@@ -1,0 +1,24 @@
+number: "28"
+uuid: "9af8b84e-2513-49e4-b808-38dd5a6ff8dd"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "Tony Oliva"
+    role: "Player"
+    team: "Minnesota Twins"
+subset: "Retro 1986 Materials"
+card_name: "Tony Oliva - Retro 1986 Materials - Red"
+description: "Red parallel of Retro 1986 Materials memorabilia card featuring Tony Oliva."
+series: "2026 Donruss"
+parallel: "Red"
+print_run: 99
+rookie_card: false
+autograph: false
+relic: true
+serial_numbered: true
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/retro-1986-materials-28-red.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Donruss#Checklist"

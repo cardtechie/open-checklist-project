@@ -1,0 +1,24 @@
+number: "79"
+uuid: "25f8afd7-8b6a-4170-ae2e-bc63f1c53dc6"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "Blake Mitchell"
+    role: "Player"
+    team: "Kansas City Royals"
+subset: "Signature Series"
+card_name: "Blake Mitchell - Signature Series - Blue Laser"
+description: "Blue Laser parallel of Autographed Signature Series card featuring Blake Mitchell."
+series: "2026 Donruss"
+parallel: "Blue Laser"
+print_run: 25
+rookie_card: false
+autograph: true
+relic: false
+serial_numbered: true
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/signature-series-79-blue-laser.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Donruss#Checklist"

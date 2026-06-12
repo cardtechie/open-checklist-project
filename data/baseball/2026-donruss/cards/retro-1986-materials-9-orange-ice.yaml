@@ -1,0 +1,23 @@
+number: "9"
+uuid: "4c9141c5-b8f2-4cc5-a957-26636ad2dbb3"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "David Ortiz"
+    role: "Player"
+    team: "Boston Red Sox"
+subset: "Retro 1986 Materials"
+card_name: "David Ortiz - Retro 1986 Materials - Orange Ice"
+description: "Orange Ice parallel of Retro 1986 Materials memorabilia card featuring David Ortiz."
+series: "2026 Donruss"
+parallel: "Orange Ice"
+rookie_card: false
+autograph: false
+relic: true
+serial_numbered: false
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/retro-1986-materials-9-orange-ice.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Donruss#Checklist"

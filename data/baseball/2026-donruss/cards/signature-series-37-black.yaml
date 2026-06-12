@@ -1,0 +1,24 @@
+number: "37"
+uuid: "364f234b-2656-47ec-9e2b-4cbf30699565"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "Brian Holiday"
+    role: "Player"
+    team: "St. Louis Cardinals"
+subset: "Signature Series"
+card_name: "Brian Holiday - Signature Series - Black"
+description: "Black parallel of Autographed Signature Series card featuring Brian Holiday."
+series: "2026 Donruss"
+parallel: "Black"
+print_run: 1
+rookie_card: false
+autograph: true
+relic: false
+serial_numbered: true
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/signature-series-37-black.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Donruss#Checklist"

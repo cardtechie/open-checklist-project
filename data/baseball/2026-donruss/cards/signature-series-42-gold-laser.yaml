@@ -1,0 +1,24 @@
+number: "42"
+uuid: "ae7d4720-7b72-4e46-a31c-e1de4685b203"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "Wyatt Sanford"
+    role: "Player"
+    team: "Pittsburgh Pirates"
+subset: "Signature Series"
+card_name: "Wyatt Sanford - Signature Series - Gold Laser"
+description: "Gold Laser parallel of Autographed Signature Series card featuring Wyatt Sanford."
+series: "2026 Donruss"
+parallel: "Gold Laser"
+print_run: 10
+rookie_card: false
+autograph: true
+relic: false
+serial_numbered: true
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/signature-series-42-gold-laser.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Donruss#Checklist"

@@ -1,0 +1,24 @@
+number: "14"
+uuid: "2af8a210-8c5c-4817-aa2f-866a1466df4b"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "Tyler Bremner"
+    role: "Player"
+    team: "Los Angeles Angels"
+subset: "Prospect Jersey Kings"
+card_name: "Tyler Bremner - Prospect Jersey Kings - Red"
+description: "Red parallel of Prospect Jersey Kings memorabilia card featuring Tyler Bremner."
+series: "2026 Donruss"
+parallel: "Red"
+print_run: 99
+rookie_card: false
+autograph: false
+relic: true
+serial_numbered: true
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/prospect-jersey-kings-14-red.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Donruss#Checklist"

@@ -1,0 +1,24 @@
+number: "90"
+uuid: "d4eb658b-7f45-4e2c-9533-f68e82710946"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "Jacob Gonzalez"
+    role: "Player"
+    team: "Chicago White Sox"
+subset: "Signature Series"
+card_name: "Jacob Gonzalez - Signature Series - Gold"
+description: "Gold parallel of Autographed Signature Series card featuring Jacob Gonzalez."
+series: "2026 Donruss"
+parallel: "Gold"
+print_run: 10
+rookie_card: false
+autograph: true
+relic: false
+serial_numbered: true
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/signature-series-90-gold.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Donruss#Checklist"

@@ -1,0 +1,23 @@
+number: "5"
+uuid: "5031db35-0fe4-45fe-8826-a592456a59e5"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "Jose Canseco"
+    role: "Player"
+    team: "Oakland A's"
+subset: "Retro 1986 Materials"
+card_name: "Jose Canseco - Retro 1986 Materials - Blue Ice"
+description: "Blue Ice parallel of Retro 1986 Materials memorabilia card featuring Jose Canseco."
+series: "2026 Donruss"
+parallel: "Blue Ice"
+rookie_card: false
+autograph: false
+relic: true
+serial_numbered: false
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/retro-1986-materials-5-blue-ice.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Donruss#Checklist"

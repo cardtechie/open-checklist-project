@@ -1,0 +1,23 @@
+number: "12"
+uuid: "6282d187-0ab3-4a44-830d-81b150e7af6f"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "Cam Smith"
+    role: "Player"
+    team: "Houston Astros"
+subset: "Signature Series"
+card_name: "Cam Smith - Signature Series - Laser"
+description: "Laser parallel of Autographed Signature Series card featuring Cam Smith."
+series: "2026 Donruss"
+parallel: "Laser"
+rookie_card: false
+autograph: true
+relic: false
+serial_numbered: false
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/signature-series-12-laser.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Donruss#Checklist"

@@ -1,0 +1,24 @@
+number: "37"
+uuid: "084a01fa-25a7-4dcf-a93b-df5cd6156eb9"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "Brian Holiday"
+    role: "Player"
+    team: "St. Louis Cardinals"
+subset: "Signature Series"
+card_name: "Brian Holiday - Signature Series - Orange Laser"
+description: "Orange Laser parallel of Autographed Signature Series card featuring Brian Holiday."
+series: "2026 Donruss"
+parallel: "Orange Laser"
+print_run: 25
+rookie_card: false
+autograph: true
+relic: false
+serial_numbered: true
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/signature-series-37-orange-laser.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Donruss#Checklist"

@@ -1,0 +1,24 @@
+number: "60"
+uuid: "c1be9bdb-c172-47db-ae31-fa1edb40db1b"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "Trey Snyder"
+    role: "Player"
+    team: "New York Mets"
+subset: "Signature Series"
+card_name: "Trey Snyder - Signature Series - Gold"
+description: "Gold parallel of Autographed Signature Series card featuring Trey Snyder."
+series: "2026 Donruss"
+parallel: "Gold"
+print_run: 10
+rookie_card: false
+autograph: true
+relic: false
+serial_numbered: true
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/signature-series-60-gold.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Donruss#Checklist"

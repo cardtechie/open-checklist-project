@@ -1,0 +1,24 @@
+number: "5"
+uuid: "dd021ded-8e2c-476e-b399-b2326c52ecc9"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "Brody Brecht"
+    role: "Player"
+    team: "Colorado Rockies"
+subset: "Signature Series"
+card_name: "Brody Brecht - Signature Series - Blue Laser"
+description: "Blue Laser parallel of Autographed Signature Series card featuring Brody Brecht."
+series: "2026 Donruss"
+parallel: "Blue Laser"
+print_run: 25
+rookie_card: false
+autograph: true
+relic: false
+serial_numbered: true
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/signature-series-5-blue-laser.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Donruss#Checklist"

@@ -1,0 +1,24 @@
+number: "22"
+uuid: "f70cfbc6-45f2-4a4f-8d9f-9b278b4849a5"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "Pedro Martinez"
+    role: "Player"
+    team: "Montreal Expos"
+subset: "Signature Series"
+card_name: "Pedro Martinez - Signature Series - Gold"
+description: "Gold parallel of Autographed Signature Series card featuring Pedro Martinez."
+series: "2026 Donruss"
+parallel: "Gold"
+print_run: 10
+rookie_card: false
+autograph: true
+relic: false
+serial_numbered: true
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/signature-series-22-gold.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Donruss#Checklist"

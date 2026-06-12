@@ -1,0 +1,23 @@
+number: "82"
+uuid: "68d0f017-f035-42ce-ab5e-40ea4c20628b"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "Peyton Stovall"
+    role: "Player"
+    team: "Cincinnati Reds"
+subset: "Signature Series"
+card_name: "Peyton Stovall - Signature Series - Laser"
+description: "Laser parallel of Autographed Signature Series card featuring Peyton Stovall."
+series: "2026 Donruss"
+parallel: "Laser"
+rookie_card: false
+autograph: true
+relic: false
+serial_numbered: false
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/signature-series-82-laser.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Donruss#Checklist"

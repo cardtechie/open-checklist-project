@@ -1,0 +1,24 @@
+number: "85"
+uuid: "19283a47-b355-43d4-b19d-a23f103d38f0"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "Brayden Taylor"
+    role: "Player"
+    team: "Tampa Bay Rays"
+subset: "Signature Series"
+card_name: "Brayden Taylor - Signature Series - Gold Laser"
+description: "Gold Laser parallel of Autographed Signature Series card featuring Brayden Taylor."
+series: "2026 Donruss"
+parallel: "Gold Laser"
+print_run: 10
+rookie_card: false
+autograph: true
+relic: false
+serial_numbered: true
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/signature-series-85-gold-laser.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Donruss#Checklist"

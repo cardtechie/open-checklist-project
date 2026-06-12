@@ -1,0 +1,24 @@
+number: "81"
+uuid: "fca79c6a-1cc5-4350-822f-45d40f8dd0a2"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "Nate Furman"
+    role: "Player"
+    team: "Cleveland Guardians"
+subset: "Signature Series"
+card_name: "Nate Furman - Signature Series - Gold Laser"
+description: "Gold Laser parallel of Autographed Signature Series card featuring Nate Furman."
+series: "2026 Donruss"
+parallel: "Gold Laser"
+print_run: 10
+rookie_card: false
+autograph: true
+relic: false
+serial_numbered: true
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/signature-series-81-gold-laser.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Donruss#Checklist"

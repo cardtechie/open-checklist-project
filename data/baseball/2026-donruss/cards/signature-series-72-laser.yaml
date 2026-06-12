@@ -1,0 +1,23 @@
+number: "72"
+uuid: "ca7f84ac-805e-4b7d-86ab-2e854985434e"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "Colin Houck"
+    role: "Player"
+    team: "New York Mets"
+subset: "Signature Series"
+card_name: "Colin Houck - Signature Series - Laser"
+description: "Laser parallel of Autographed Signature Series card featuring Colin Houck."
+series: "2026 Donruss"
+parallel: "Laser"
+rookie_card: false
+autograph: true
+relic: false
+serial_numbered: false
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/signature-series-72-laser.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Donruss#Checklist"

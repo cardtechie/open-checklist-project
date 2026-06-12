@@ -1,0 +1,24 @@
+number: "87"
+uuid: "ef9a903c-9de4-4dc8-90ce-d1a3a24ba398"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "Khadim Diaw"
+    role: "Player"
+    team: "Minnesota Twins"
+subset: "Signature Series"
+card_name: "Khadim Diaw - Signature Series - Blue Laser"
+description: "Blue Laser parallel of Autographed Signature Series card featuring Khadim Diaw."
+series: "2026 Donruss"
+parallel: "Blue Laser"
+print_run: 25
+rookie_card: false
+autograph: true
+relic: false
+serial_numbered: true
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/signature-series-87-blue-laser.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Donruss#Checklist"

@@ -1,0 +1,24 @@
+number: "39"
+uuid: "1c211144-253f-454f-8ee5-49e3169322c4"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "Tony Perez"
+    role: "Player"
+    team: "Cincinnati Reds"
+subset: "Signature Series"
+card_name: "Tony Perez - Signature Series - Blue Laser"
+description: "Blue Laser parallel of Autographed Signature Series card featuring Tony Perez."
+series: "2026 Donruss"
+parallel: "Blue Laser"
+print_run: 25
+rookie_card: false
+autograph: true
+relic: false
+serial_numbered: true
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/signature-series-39-blue-laser.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Donruss#Checklist"

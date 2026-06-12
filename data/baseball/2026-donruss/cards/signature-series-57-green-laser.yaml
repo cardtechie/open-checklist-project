@@ -1,0 +1,23 @@
+number: "57"
+uuid: "cc9af718-2aea-403c-9c43-d87332f54fbf"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "Jonah Tong"
+    role: "Player"
+    team: "New York Mets"
+subset: "Signature Series"
+card_name: "Jonah Tong - Signature Series - Green Laser"
+description: "Green Laser parallel of Autographed Signature Series card featuring Jonah Tong."
+series: "2026 Donruss"
+parallel: "Green Laser"
+rookie_card: false
+autograph: true
+relic: false
+serial_numbered: false
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/signature-series-57-green-laser.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Donruss#Checklist"

@@ -1,0 +1,24 @@
+number: "13"
+uuid: "331e53b0-541e-47b4-85b0-b5bf926b4f69"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "Sammy Stafura"
+    role: "Player"
+    team: "Pittsburgh Pirates"
+subset: "Signature Series"
+card_name: "Sammy Stafura - Signature Series - Gold"
+description: "Gold parallel of Autographed Signature Series card featuring Sammy Stafura."
+series: "2026 Donruss"
+parallel: "Gold"
+print_run: 10
+rookie_card: false
+autograph: true
+relic: false
+serial_numbered: true
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/signature-series-13-gold.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Donruss#Checklist"

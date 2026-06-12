@@ -1,0 +1,24 @@
+number: "22"
+uuid: "ee9ef7bb-e6d5-44f1-9f80-1fc5cd227724"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "Pedro Martinez"
+    role: "Player"
+    team: "Montreal Expos"
+subset: "Signature Series"
+card_name: "Pedro Martinez - Signature Series - Blue Laser"
+description: "Blue Laser parallel of Autographed Signature Series card featuring Pedro Martinez."
+series: "2026 Donruss"
+parallel: "Blue Laser"
+print_run: 25
+rookie_card: false
+autograph: true
+relic: false
+serial_numbered: true
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/signature-series-22-blue-laser.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Donruss#Checklist"

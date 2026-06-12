@@ -1,0 +1,24 @@
+number: "5"
+uuid: "59838ba7-faca-446c-a460-7a28f0809f0e"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "Travis Bazzana"
+    role: "Player"
+    team: "Cleveland Guardians"
+subset: "Prospect Jersey Kings"
+card_name: "Travis Bazzana - Prospect Jersey Kings - Red"
+description: "Red parallel of Prospect Jersey Kings memorabilia card featuring Travis Bazzana."
+series: "2026 Donruss"
+parallel: "Red"
+print_run: 99
+rookie_card: false
+autograph: false
+relic: true
+serial_numbered: true
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/prospect-jersey-kings-5-red.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Donruss#Checklist"

@@ -1,0 +1,24 @@
+number: "35"
+uuid: "5c607777-e553-4488-9b9f-4c7206dd2a23"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "Kyle Teel"
+    role: "Player"
+    team: "Chicago White Sox"
+subset: "Signature Series"
+card_name: "Kyle Teel - Signature Series - Orange Laser"
+description: "Orange Laser parallel of Autographed Signature Series card featuring Kyle Teel."
+series: "2026 Donruss"
+parallel: "Orange Laser"
+print_run: 25
+rookie_card: false
+autograph: true
+relic: false
+serial_numbered: true
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/signature-series-35-orange-laser.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Donruss#Checklist"

@@ -1,0 +1,24 @@
+number: "59"
+uuid: "14d094ad-1422-4077-8cf2-972967c9c363"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "Cole Miller"
+    role: "Player"
+    team: "Oakland A's"
+subset: "Signature Series"
+card_name: "Cole Miller - Signature Series - Blue Laser"
+description: "Blue Laser parallel of Autographed Signature Series card featuring Cole Miller."
+series: "2026 Donruss"
+parallel: "Blue Laser"
+print_run: 25
+rookie_card: false
+autograph: true
+relic: false
+serial_numbered: true
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/signature-series-59-blue-laser.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Donruss#Checklist"

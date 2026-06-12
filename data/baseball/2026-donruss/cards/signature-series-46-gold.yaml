@@ -1,0 +1,24 @@
+number: "46"
+uuid: "43bab26e-c193-45b8-8918-be58b79a9299"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "Hurston Waldrep"
+    role: "Player"
+    team: "Atlanta Braves"
+subset: "Signature Series"
+card_name: "Hurston Waldrep - Signature Series - Gold"
+description: "Gold parallel of Autographed Signature Series card featuring Hurston Waldrep."
+series: "2026 Donruss"
+parallel: "Gold"
+print_run: 10
+rookie_card: false
+autograph: true
+relic: false
+serial_numbered: true
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/signature-series-46-gold.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Donruss#Checklist"

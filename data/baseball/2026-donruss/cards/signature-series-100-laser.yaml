@@ -1,0 +1,23 @@
+number: "100"
+uuid: "13733b08-2347-4033-a3b6-4b71f63641d8"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "Harold Baines"
+    role: "Player"
+    team: "Chicago White Sox"
+subset: "Signature Series"
+card_name: "Harold Baines - Signature Series - Laser"
+description: "Laser parallel of Autographed Signature Series card featuring Harold Baines."
+series: "2026 Donruss"
+parallel: "Laser"
+rookie_card: false
+autograph: true
+relic: false
+serial_numbered: false
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/signature-series-100-laser.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Donruss#Checklist"

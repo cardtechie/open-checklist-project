@@ -1,0 +1,23 @@
+number: "96"
+uuid: "2da27695-d0cd-487c-a9f7-675402e41834"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "Zac Veen"
+    role: "Player"
+    team: "Colorado Rockies"
+subset: "Signature Series"
+card_name: "Zac Veen - Signature Series - Laser"
+description: "Laser parallel of Autographed Signature Series card featuring Zac Veen."
+series: "2026 Donruss"
+parallel: "Laser"
+rookie_card: false
+autograph: true
+relic: false
+serial_numbered: false
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/signature-series-96-laser.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Donruss#Checklist"

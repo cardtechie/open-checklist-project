@@ -1,0 +1,24 @@
+number: "18"
+uuid: "8ea4fee3-2b6f-41d4-b0dc-e2cd730b902d"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "Lee Smith"
+    role: "Player"
+    team: "St. Louis Cardinals"
+subset: "Retro 1986 Materials"
+card_name: "Lee Smith - Retro 1986 Materials - Red"
+description: "Red parallel of Retro 1986 Materials memorabilia card featuring Lee Smith."
+series: "2026 Donruss"
+parallel: "Red"
+print_run: 99
+rookie_card: false
+autograph: false
+relic: true
+serial_numbered: true
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/retro-1986-materials-18-red.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Donruss#Checklist"

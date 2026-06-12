@@ -1,0 +1,24 @@
+number: "62"
+uuid: "9220634a-19f9-4e3f-973f-744d051b76d9"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "Josh Kuroda-Grauer"
+    role: "Player"
+    team: "Oakland A's"
+subset: "Signature Series"
+card_name: "Josh Kuroda-Grauer - Signature Series - Black"
+description: "Black parallel of Autographed Signature Series card featuring Josh Kuroda-Grauer."
+series: "2026 Donruss"
+parallel: "Black"
+print_run: 1
+rookie_card: false
+autograph: true
+relic: false
+serial_numbered: true
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/signature-series-62-black.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Donruss#Checklist"

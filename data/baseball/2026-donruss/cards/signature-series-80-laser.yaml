@@ -1,0 +1,23 @@
+number: "80"
+uuid: "03da7cb8-377b-4b0a-98cb-f66ae9d90ab0"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "Nate Dohm"
+    role: "Player"
+    team: "St. Louis Cardinals"
+subset: "Signature Series"
+card_name: "Nate Dohm - Signature Series - Laser"
+description: "Laser parallel of Autographed Signature Series card featuring Nate Dohm."
+series: "2026 Donruss"
+parallel: "Laser"
+rookie_card: false
+autograph: true
+relic: false
+serial_numbered: false
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/signature-series-80-laser.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Donruss#Checklist"

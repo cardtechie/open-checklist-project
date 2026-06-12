@@ -1,0 +1,24 @@
+number: "15"
+uuid: "b09e7f6c-44bc-4cc9-9b76-acae08ef7d97"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "Ivan Luciano"
+    role: "Player"
+    team: "Arizona Diamondbacks"
+subset: "Signature Series"
+card_name: "Ivan Luciano - Signature Series - Black"
+description: "Black parallel of Autographed Signature Series card featuring Ivan Luciano."
+series: "2026 Donruss"
+parallel: "Black"
+print_run: 1
+rookie_card: false
+autograph: true
+relic: false
+serial_numbered: true
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/signature-series-15-black.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Donruss#Checklist"

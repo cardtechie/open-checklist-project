@@ -1,0 +1,23 @@
+number: "26"
+uuid: "8f63c18b-4dc8-4fa2-8d93-7d0d92043b20"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "Manny Ramirez"
+    role: "Player"
+    team: "Boston Red Sox"
+subset: "Retro 1986 Materials"
+card_name: "Manny Ramirez - Retro 1986 Materials - Blue Ice"
+description: "Blue Ice parallel of Retro 1986 Materials memorabilia card featuring Manny Ramirez."
+series: "2026 Donruss"
+parallel: "Blue Ice"
+rookie_card: false
+autograph: false
+relic: true
+serial_numbered: false
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/retro-1986-materials-26-blue-ice.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Donruss#Checklist"

@@ -1,0 +1,24 @@
+number: "35"
+uuid: "3d553d0d-b913-4d81-9156-bc75a467c040"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "Kyle Teel"
+    role: "Player"
+    team: "Chicago White Sox"
+subset: "Signature Series"
+card_name: "Kyle Teel - Signature Series - Black"
+description: "Black parallel of Autographed Signature Series card featuring Kyle Teel."
+series: "2026 Donruss"
+parallel: "Black"
+print_run: 1
+rookie_card: false
+autograph: true
+relic: false
+serial_numbered: true
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/signature-series-35-black.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Donruss#Checklist"

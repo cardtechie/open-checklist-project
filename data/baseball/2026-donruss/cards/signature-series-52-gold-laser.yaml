@@ -1,0 +1,24 @@
+number: "52"
+uuid: "fb5a5ec3-747d-4208-a36e-1b6398fd6c74"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "Ryan Howard"
+    role: "Player"
+    team: "Philadelphia Phillies"
+subset: "Signature Series"
+card_name: "Ryan Howard - Signature Series - Gold Laser"
+description: "Gold Laser parallel of Autographed Signature Series card featuring Ryan Howard."
+series: "2026 Donruss"
+parallel: "Gold Laser"
+print_run: 10
+rookie_card: false
+autograph: true
+relic: false
+serial_numbered: true
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/signature-series-52-gold-laser.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Donruss#Checklist"

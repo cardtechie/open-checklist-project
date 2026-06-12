@@ -1,0 +1,24 @@
+number: "27"
+uuid: "e98b6822-08bf-4704-b6eb-7a0a3522ce2b"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "Samuel Zavala"
+    role: "Player"
+    team: "Chicago White Sox"
+subset: "Signature Series"
+card_name: "Samuel Zavala - Signature Series - Orange Laser"
+description: "Orange Laser parallel of Autographed Signature Series card featuring Samuel Zavala."
+series: "2026 Donruss"
+parallel: "Orange Laser"
+print_run: 25
+rookie_card: false
+autograph: true
+relic: false
+serial_numbered: true
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/signature-series-27-orange-laser.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Donruss#Checklist"

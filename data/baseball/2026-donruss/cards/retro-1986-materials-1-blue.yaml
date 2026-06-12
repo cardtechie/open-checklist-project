@@ -1,0 +1,24 @@
+number: "1"
+uuid: "bee66bef-54bc-43cf-8525-1020ad28ac16"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "Adam Dunn"
+    role: "Player"
+    team: "Cincinnati Reds"
+subset: "Retro 1986 Materials"
+card_name: "Adam Dunn - Retro 1986 Materials - Blue"
+description: "Blue parallel of Retro 1986 Materials memorabilia card featuring Adam Dunn."
+series: "2026 Donruss"
+parallel: "Blue"
+print_run: 25
+rookie_card: false
+autograph: false
+relic: true
+serial_numbered: true
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/retro-1986-materials-1-blue.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Donruss#Checklist"

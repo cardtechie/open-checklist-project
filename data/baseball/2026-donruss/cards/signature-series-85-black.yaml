@@ -1,0 +1,24 @@
+number: "85"
+uuid: "b986a5bd-b569-40b2-a36c-d18998fec10d"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "Brayden Taylor"
+    role: "Player"
+    team: "Tampa Bay Rays"
+subset: "Signature Series"
+card_name: "Brayden Taylor - Signature Series - Black"
+description: "Black parallel of Autographed Signature Series card featuring Brayden Taylor."
+series: "2026 Donruss"
+parallel: "Black"
+print_run: 1
+rookie_card: false
+autograph: true
+relic: false
+serial_numbered: true
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/signature-series-85-black.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Donruss#Checklist"

@@ -1,0 +1,23 @@
+number: "25"
+uuid: "2c13cdf6-b3b5-4146-bda0-d1a7e4a60e0c"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "Joe Torre"
+    role: "Player"
+    team: "Atlanta Braves"
+subset: "Retro 1986 Materials"
+card_name: "Joe Torre - Retro 1986 Materials - Blue Ice"
+description: "Blue Ice parallel of Retro 1986 Materials memorabilia card featuring Joe Torre."
+series: "2026 Donruss"
+parallel: "Blue Ice"
+rookie_card: false
+autograph: false
+relic: true
+serial_numbered: false
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/retro-1986-materials-25-blue-ice.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Donruss#Checklist"

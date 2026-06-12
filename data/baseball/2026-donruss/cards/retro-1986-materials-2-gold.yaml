@@ -1,0 +1,24 @@
+number: "2"
+uuid: "d988e419-4446-4ed4-ac9e-ae4e719cf15b"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "Jim Rice"
+    role: "Player"
+    team: "Boston Red Sox"
+subset: "Retro 1986 Materials"
+card_name: "Jim Rice - Retro 1986 Materials - Gold"
+description: "Gold parallel of Retro 1986 Materials memorabilia card featuring Jim Rice."
+series: "2026 Donruss"
+parallel: "Gold"
+print_run: 10
+rookie_card: false
+autograph: false
+relic: true
+serial_numbered: true
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/retro-1986-materials-2-gold.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Donruss#Checklist"

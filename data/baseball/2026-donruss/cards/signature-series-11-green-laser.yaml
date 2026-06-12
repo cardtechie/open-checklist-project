@@ -1,0 +1,23 @@
+number: "11"
+uuid: "f354fbdd-ffa6-4080-b7dc-a01300a80616"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "Brooks Lee"
+    role: "Player"
+    team: "Minnesota Twins"
+subset: "Signature Series"
+card_name: "Brooks Lee - Signature Series - Green Laser"
+description: "Green Laser parallel of Autographed Signature Series card featuring Brooks Lee."
+series: "2026 Donruss"
+parallel: "Green Laser"
+rookie_card: false
+autograph: true
+relic: false
+serial_numbered: false
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/signature-series-11-green-laser.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Donruss#Checklist"

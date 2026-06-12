@@ -1,0 +1,24 @@
+number: "50"
+uuid: "5ffcd278-dc4a-4be3-b5bd-e13d5c820e17"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "Cole Messina"
+    role: "Player"
+    team: "Colorado Rockies"
+subset: "Signature Series"
+card_name: "Cole Messina - Signature Series - Black"
+description: "Black parallel of Autographed Signature Series card featuring Cole Messina."
+series: "2026 Donruss"
+parallel: "Black"
+print_run: 1
+rookie_card: false
+autograph: true
+relic: false
+serial_numbered: true
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/signature-series-50-black.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Donruss#Checklist"

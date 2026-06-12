@@ -1,0 +1,23 @@
+number: "37"
+uuid: "26662c62-c0e4-4d96-ab05-c8ecbc125bb1"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "Brian Holiday"
+    role: "Player"
+    team: "St. Louis Cardinals"
+subset: "Signature Series"
+card_name: "Brian Holiday - Signature Series - Laser"
+description: "Laser parallel of Autographed Signature Series card featuring Brian Holiday."
+series: "2026 Donruss"
+parallel: "Laser"
+rookie_card: false
+autograph: true
+relic: false
+serial_numbered: false
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/signature-series-37-laser.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Donruss#Checklist"

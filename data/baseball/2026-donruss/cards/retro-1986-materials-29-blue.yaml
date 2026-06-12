@@ -1,0 +1,24 @@
+number: "29"
+uuid: "f7acf53e-19b9-4681-b124-ec7ac2d1fb16"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "Vladimir Guerrero"
+    role: "Player"
+    team: "Los Angeles Angels"
+subset: "Retro 1986 Materials"
+card_name: "Vladimir Guerrero - Retro 1986 Materials - Blue"
+description: "Blue parallel of Retro 1986 Materials memorabilia card featuring Vladimir Guerrero."
+series: "2026 Donruss"
+parallel: "Blue"
+print_run: 25
+rookie_card: false
+autograph: false
+relic: true
+serial_numbered: true
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/retro-1986-materials-29-blue.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Donruss#Checklist"

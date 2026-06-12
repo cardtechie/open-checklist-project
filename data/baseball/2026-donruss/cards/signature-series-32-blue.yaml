@@ -1,0 +1,24 @@
+number: "32"
+uuid: "5a79e62e-4ed0-4c28-81e5-3422bd824a66"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "Cole Mathis"
+    role: "Player"
+    team: "Chicago Cubs"
+subset: "Signature Series"
+card_name: "Cole Mathis - Signature Series - Blue"
+description: "Blue parallel of Autographed Signature Series card featuring Cole Mathis."
+series: "2026 Donruss"
+parallel: "Blue"
+print_run: 75
+rookie_card: false
+autograph: true
+relic: false
+serial_numbered: true
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/signature-series-32-blue.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Donruss#Checklist"

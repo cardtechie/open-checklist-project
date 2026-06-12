@@ -1,0 +1,24 @@
+number: "26"
+uuid: "46135f7e-6874-4ffa-8851-e31283755125"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "Manny Ramirez"
+    role: "Player"
+    team: "Boston Red Sox"
+subset: "Retro 1986 Materials"
+card_name: "Manny Ramirez - Retro 1986 Materials - Platinum"
+description: "Platinum parallel of Retro 1986 Materials memorabilia card featuring Manny Ramirez."
+series: "2026 Donruss"
+parallel: "Platinum"
+print_run: 1
+rookie_card: false
+autograph: false
+relic: true
+serial_numbered: true
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/retro-1986-materials-26-platinum.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Donruss#Checklist"

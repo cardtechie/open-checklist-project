@@ -1,0 +1,24 @@
+number: "4"
+uuid: "5eb717d5-5adb-4033-8fb1-be0f007e69d0"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "Adrian Gonzalez"
+    role: "Player"
+    team: "Los Angeles Dodgers"
+subset: "Retro 1986 Materials"
+card_name: "Adrian Gonzalez - Retro 1986 Materials - Gold"
+description: "Gold parallel of Retro 1986 Materials memorabilia card featuring Adrian Gonzalez."
+series: "2026 Donruss"
+parallel: "Gold"
+print_run: 10
+rookie_card: false
+autograph: false
+relic: true
+serial_numbered: true
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/retro-1986-materials-4-gold.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Donruss#Checklist"
