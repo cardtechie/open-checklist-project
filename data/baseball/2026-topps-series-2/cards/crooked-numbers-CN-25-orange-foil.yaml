@@ -1,0 +1,24 @@
+number: "CN-25"
+uuid: "c726ea2a-20cc-43a0-859a-a1649b6d7f89"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-topps-series-2"
+subjects:
+  - name: "Mike Trout"
+    role: "Player"
+    team: "Los Angeles Angels"
+subset: "Crooked Numbers"
+card_name: "Mike Trout - Crooked Numbers - Orange Foil"
+description: "Orange Foil parallel of Crooked Numbers card featuring Mike Trout."
+series: "2026 Topps Baseball"
+parallel: "Orange Foil"
+print_run: 25
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: true
+release_date: "2026-06-11"
+image_url: "https://example.com/cards/2026-topps-series-2/crooked-numbers-CN-25-orange-foil.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Topps#Insertion_Ratios"

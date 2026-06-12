@@ -1,0 +1,24 @@
+number: "GW-12"
+uuid: "32c06cbd-b8d6-4ef4-a8ce-8e3c1b057624"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-topps-series-2"
+subjects:
+  - name: "Greg Maddux"
+    role: "Player"
+    team: "Atlanta Braves"
+subset: "Glove Work"
+card_name: "Greg Maddux - Glove Work - Green Foil"
+description: "Green Foil parallel of Glove Work card featuring Greg Maddux."
+series: "2026 Topps Baseball"
+parallel: "Green Foil"
+print_run: 99
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: true
+release_date: "2026-06-11"
+image_url: "https://example.com/cards/2026-topps-series-2/glove-work-GW-12-green-foil.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Topps#Insertion_Ratios"

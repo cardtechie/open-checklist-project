@@ -1,0 +1,24 @@
+number: "BSA2-WL"
+uuid: "96192192-6389-40d3-8933-0bef31ff3599"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-topps-series-2"
+subjects:
+  - name: "Wyatt Langford"
+    role: "Player"
+    team: "Texas Rangers"
+subset: "Baseball Stars Autographs"
+card_name: "Wyatt Langford - Baseball Stars Autographs - Black"
+description: "Black parallel of Autographed Baseball Stars Autographs card featuring Wyatt Langford."
+series: "2026 Topps Baseball"
+parallel: "Black"
+print_run: 10
+rookie_card: false
+autograph: true
+relic: false
+serial_numbered: true
+release_date: "2026-06-11"
+image_url: "https://example.com/cards/2026-topps-series-2/baseball-stars-autographs-BSA2-WL-black.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Topps#Insertion_Ratios"

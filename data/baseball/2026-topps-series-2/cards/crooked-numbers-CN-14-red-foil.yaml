@@ -1,0 +1,24 @@
+number: "CN-14"
+uuid: "68b04754-4c9e-4472-861e-d6ad6006a32d"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-topps-series-2"
+subjects:
+  - name: "Nolan Ryan"
+    role: "Player"
+    team: "California Angels"
+subset: "Crooked Numbers"
+card_name: "Nolan Ryan - Crooked Numbers - Red Foil"
+description: "Red Foil parallel of Crooked Numbers card featuring Nolan Ryan."
+series: "2026 Topps Baseball"
+parallel: "Red Foil"
+print_run: 5
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: true
+release_date: "2026-06-11"
+image_url: "https://example.com/cards/2026-topps-series-2/crooked-numbers-CN-14-red-foil.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Topps#Insertion_Ratios"

@@ -1,0 +1,24 @@
+number: "GW-1"
+uuid: "b2701318-4e34-475d-a8f0-094355cbf8e6"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-topps-series-2"
+subjects:
+  - name: "Ozzie Smith"
+    role: "Player"
+    team: "St. Louis Cardinals"
+subset: "Glove Work"
+card_name: "Ozzie Smith - Glove Work - Orange Foil"
+description: "Orange Foil parallel of Glove Work card featuring Ozzie Smith."
+series: "2026 Topps Baseball"
+parallel: "Orange Foil"
+print_run: 25
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: true
+release_date: "2026-06-11"
+image_url: "https://example.com/cards/2026-topps-series-2/glove-work-GW-1-orange-foil.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Topps#Insertion_Ratios"

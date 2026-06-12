@@ -1,0 +1,24 @@
+number: "BSA2-SS"
+uuid: "a9c5b755-8449-46f6-9b69-90cc86d7fe53"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-topps-series-2"
+subjects:
+  - name: "Sal Stewart"
+    role: "Player"
+    team: "Cincinnati Reds"
+subset: "Baseball Stars Autographs"
+card_name: "Sal Stewart - Baseball Stars Autographs - Black"
+description: "Black parallel of Autographed Baseball Stars Autographs card featuring Sal Stewart."
+series: "2026 Topps Baseball"
+parallel: "Black"
+print_run: 10
+rookie_card: false
+autograph: true
+relic: false
+serial_numbered: true
+release_date: "2026-06-11"
+image_url: "https://example.com/cards/2026-topps-series-2/baseball-stars-autographs-BSA2-SS-black.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Topps#Insertion_Ratios"

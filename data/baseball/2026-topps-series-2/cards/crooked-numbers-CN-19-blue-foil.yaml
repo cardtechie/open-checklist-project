@@ -1,0 +1,24 @@
+number: "CN-19"
+uuid: "e5d59089-22b2-424a-affa-f3a4f3801250"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-topps-series-2"
+subjects:
+  - name: "Ted Williams"
+    role: "Player"
+    team: "Boston Red Sox"
+subset: "Crooked Numbers"
+card_name: "Ted Williams - Crooked Numbers - Blue Foil"
+description: "Blue Foil parallel of Crooked Numbers card featuring Ted Williams."
+series: "2026 Topps Baseball"
+parallel: "Blue Foil"
+print_run: 150
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: true
+release_date: "2026-06-11"
+image_url: "https://example.com/cards/2026-topps-series-2/crooked-numbers-CN-19-blue-foil.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Topps#Insertion_Ratios"

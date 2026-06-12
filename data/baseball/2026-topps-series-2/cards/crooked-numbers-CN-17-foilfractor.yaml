@@ -1,0 +1,24 @@
+number: "CN-17"
+uuid: "62b4d9b9-1ed0-43b7-b2fc-bd23d9a3de0d"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-topps-series-2"
+subjects:
+  - name: "Ken Griffey Jr."
+    role: "Player"
+    team: "Seattle Mariners"
+subset: "Crooked Numbers"
+card_name: "Ken Griffey Jr. - Crooked Numbers - FoilFractor"
+description: "FoilFractor parallel of Crooked Numbers card featuring Ken Griffey Jr.."
+series: "2026 Topps Baseball"
+parallel: "FoilFractor"
+print_run: 1
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: true
+release_date: "2026-06-11"
+image_url: "https://example.com/cards/2026-topps-series-2/crooked-numbers-CN-17-foilfractor.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Topps#Insertion_Ratios"

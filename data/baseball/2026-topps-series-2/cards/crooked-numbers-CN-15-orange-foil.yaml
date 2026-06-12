@@ -1,0 +1,24 @@
+number: "CN-15"
+uuid: "5a097b72-6322-4779-83e0-c56a289a25b9"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-topps-series-2"
+subjects:
+  - name: "Sandy Koufax"
+    role: "Player"
+    team: "Los Angeles Dodgers"
+subset: "Crooked Numbers"
+card_name: "Sandy Koufax - Crooked Numbers - Orange Foil"
+description: "Orange Foil parallel of Crooked Numbers card featuring Sandy Koufax."
+series: "2026 Topps Baseball"
+parallel: "Orange Foil"
+print_run: 25
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: true
+release_date: "2026-06-11"
+image_url: "https://example.com/cards/2026-topps-series-2/crooked-numbers-CN-15-orange-foil.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Topps#Insertion_Ratios"

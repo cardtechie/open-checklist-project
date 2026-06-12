@@ -1,0 +1,24 @@
+number: "BSA2-SC"
+uuid: "dbd2faab-8738-4d62-acdd-b2921684e113"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-topps-series-2"
+subjects:
+  - name: "Steve Carlton"
+    role: "Player"
+    team: "Philadelphia Phillies"
+subset: "Baseball Stars Autographs"
+card_name: "Steve Carlton - Baseball Stars Autographs - Green"
+description: "Green parallel of Autographed Baseball Stars Autographs card featuring Steve Carlton."
+series: "2026 Topps Baseball"
+parallel: "Green"
+print_run: 99
+rookie_card: false
+autograph: true
+relic: false
+serial_numbered: true
+release_date: "2026-06-11"
+image_url: "https://example.com/cards/2026-topps-series-2/baseball-stars-autographs-BSA2-SC-green.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Topps#Insertion_Ratios"

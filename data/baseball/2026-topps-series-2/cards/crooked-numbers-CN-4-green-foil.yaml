@@ -1,0 +1,24 @@
+number: "CN-4"
+uuid: "b096441a-3c22-489d-80ac-504ac4cef131"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-topps-series-2"
+subjects:
+  - name: "Ichiro"
+    role: "Player"
+    team: "Seattle Mariners"
+subset: "Crooked Numbers"
+card_name: "Ichiro - Crooked Numbers - Green Foil"
+description: "Green Foil parallel of Crooked Numbers card featuring Ichiro."
+series: "2026 Topps Baseball"
+parallel: "Green Foil"
+print_run: 99
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: true
+release_date: "2026-06-11"
+image_url: "https://example.com/cards/2026-topps-series-2/crooked-numbers-CN-4-green-foil.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Topps#Insertion_Ratios"

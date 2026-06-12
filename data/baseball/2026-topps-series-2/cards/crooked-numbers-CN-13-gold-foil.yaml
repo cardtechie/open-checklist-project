@@ -1,0 +1,24 @@
+number: "CN-13"
+uuid: "7b130cfc-9659-4692-afc0-adb3563e67cc"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-topps-series-2"
+subjects:
+  - name: "Kyle Schwarber"
+    role: "Player"
+    team: "Philadelphia Phillies"
+subset: "Crooked Numbers"
+card_name: "Kyle Schwarber - Crooked Numbers - Gold Foil"
+description: "Gold Foil parallel of Crooked Numbers card featuring Kyle Schwarber."
+series: "2026 Topps Baseball"
+parallel: "Gold Foil"
+print_run: 50
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: true
+release_date: "2026-06-11"
+image_url: "https://example.com/cards/2026-topps-series-2/crooked-numbers-CN-13-gold-foil.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Topps#Insertion_Ratios"

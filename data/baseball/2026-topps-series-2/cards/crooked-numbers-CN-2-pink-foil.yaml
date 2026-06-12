@@ -1,0 +1,23 @@
+number: "CN-2"
+uuid: "37b0eb69-3cbd-4480-a227-11e283cb0a75"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-topps-series-2"
+subjects:
+  - name: "Rickey Henderson"
+    role: "Player"
+    team: "Oakland Athletics"
+subset: "Crooked Numbers"
+card_name: "Rickey Henderson - Crooked Numbers - Pink Foil"
+description: "Pink Foil parallel of Crooked Numbers card featuring Rickey Henderson."
+series: "2026 Topps Baseball"
+parallel: "Pink Foil"
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: false
+release_date: "2026-06-11"
+image_url: "https://example.com/cards/2026-topps-series-2/crooked-numbers-CN-2-pink-foil.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Topps#Insertion_Ratios"

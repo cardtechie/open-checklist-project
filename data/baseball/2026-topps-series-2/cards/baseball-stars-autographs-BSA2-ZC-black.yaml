@@ -1,0 +1,24 @@
+number: "BSA2-ZC"
+uuid: "8caae106-bc94-45f8-b735-f584b1f142f2"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-topps-series-2"
+subjects:
+  - name: "Zach Cole"
+    role: "Player"
+    team: "Houston Astros"
+subset: "Baseball Stars Autographs"
+card_name: "Zach Cole - Baseball Stars Autographs - Black"
+description: "Black parallel of Autographed Baseball Stars Autographs card featuring Zach Cole."
+series: "2026 Topps Baseball"
+parallel: "Black"
+print_run: 10
+rookie_card: false
+autograph: true
+relic: false
+serial_numbered: true
+release_date: "2026-06-11"
+image_url: "https://example.com/cards/2026-topps-series-2/baseball-stars-autographs-BSA2-ZC-black.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Topps#Insertion_Ratios"

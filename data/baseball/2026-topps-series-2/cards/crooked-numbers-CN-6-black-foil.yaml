@@ -1,0 +1,24 @@
+number: "CN-6"
+uuid: "64b568ca-819c-4aa6-b285-8857753dc459"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-topps-series-2"
+subjects:
+  - name: "Mark McGwire"
+    role: "Player"
+    team: "St. Louis Cardinals"
+subset: "Crooked Numbers"
+card_name: "Mark McGwire - Crooked Numbers - Black Foil"
+description: "Black Foil parallel of Crooked Numbers card featuring Mark McGwire."
+series: "2026 Topps Baseball"
+parallel: "Black Foil"
+print_run: 10
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: true
+release_date: "2026-06-11"
+image_url: "https://example.com/cards/2026-topps-series-2/crooked-numbers-CN-6-black-foil.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Topps#Insertion_Ratios"
