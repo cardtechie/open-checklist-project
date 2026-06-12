@@ -1,0 +1,24 @@
+number: "123"
+uuid: "2d18bd6a-1049-43e9-baed-c18c5c400794"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "James Tibbs III"
+    role: "Player"
+    team: "Los Angeles Dodgers"
+subset: "Base - Rated Prospects"
+card_name: "James Tibbs III - Base - Rated Prospects - Blue"
+description: "Blue parallel of Base - Rated Prospects card featuring James Tibbs III."
+series: "2026 Donruss"
+parallel: "Blue"
+print_run: 149
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: true
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/base-rated-prospects-123-blue.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Donruss#Checklist"

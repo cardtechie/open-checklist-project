@@ -1,0 +1,23 @@
+number: "95"
+uuid: "cf52ff8e-8ed3-4539-846c-835b57dc4f20"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "Tony Lazzeri"
+    role: "Player"
+    team: "New York Yankees"
+card_name: "Tony Lazzeri - Base - Purple Ice"
+description: "Purple Ice parallel of Base card featuring Tony Lazzeri."
+series: "2026 Donruss"
+parallel: "Purple Ice"
+print_run: 99
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: true
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/95-purple-ice.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Donruss#Checklist"

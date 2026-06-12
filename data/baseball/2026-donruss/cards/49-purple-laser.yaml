@@ -1,0 +1,23 @@
+number: "49"
+uuid: "699a941b-b23d-4c61-86e7-40a42283f74f"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "Ken Griffey Sr."
+    role: "Player"
+    team: "Cincinnati Reds"
+card_name: "Ken Griffey Sr. - Base - Purple Laser"
+description: "Purple Laser parallel of Base card featuring Ken Griffey Sr.."
+series: "2026 Donruss"
+parallel: "Purple Laser"
+print_run: 49
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: true
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/49-purple-laser.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Donruss#Checklist"

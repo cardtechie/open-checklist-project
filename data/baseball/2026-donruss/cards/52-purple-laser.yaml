@@ -1,0 +1,23 @@
+number: "52"
+uuid: "6dd48dd1-ecb0-4baa-9d73-da1b4c0b4070"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "Kevin Youkilis"
+    role: "Player"
+    team: "Boston Red Sox"
+card_name: "Kevin Youkilis - Base - Purple Laser"
+description: "Purple Laser parallel of Base card featuring Kevin Youkilis."
+series: "2026 Donruss"
+parallel: "Purple Laser"
+print_run: 49
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: true
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/52-purple-laser.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Donruss#Checklist"
