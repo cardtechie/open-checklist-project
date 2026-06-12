@@ -1,0 +1,23 @@
+number: "12"
+uuid: "e5dcdd84-69f5-40f0-88fd-23470aff07a3"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "Jonah Tong"
+    role: "Player"
+    team: "New York Mets"
+subset: "Crunch Time"
+card_name: "Jonah Tong - Crunch Time - Green Laser"
+description: "Green Laser parallel of Crunch Time card featuring Jonah Tong."
+series: "2026 Donruss"
+parallel: "Green Laser"
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: false
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/crunch-time-12-green-laser.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Donruss#Checklist"

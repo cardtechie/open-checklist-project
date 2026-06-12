@@ -1,0 +1,24 @@
+number: "12"
+uuid: "acba47c8-b52c-4de2-9228-e67eaf16a8de"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "Jonah Tong"
+    role: "Player"
+    team: "New York Mets"
+subset: "Crunch Time"
+card_name: "Jonah Tong - Crunch Time - Platinum Diamond"
+description: "Platinum Diamond parallel of Crunch Time card featuring Jonah Tong."
+series: "2026 Donruss"
+parallel: "Platinum Diamond"
+print_run: 1
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: true
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/crunch-time-12-platinum-diamond.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Donruss#Checklist"

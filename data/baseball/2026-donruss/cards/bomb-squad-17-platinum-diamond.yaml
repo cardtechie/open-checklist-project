@@ -1,0 +1,24 @@
+number: "17"
+uuid: "92311a16-5eb7-483f-9e78-ee1c4f695fa5"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "Prince Fielder"
+    role: "Player"
+    team: "Milwaukee Brewers"
+subset: "Bomb Squad"
+card_name: "Prince Fielder - Bomb Squad - Platinum Diamond"
+description: "Platinum Diamond parallel of Bomb Squad card featuring Prince Fielder."
+series: "2026 Donruss"
+parallel: "Platinum Diamond"
+print_run: 1
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: true
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/bomb-squad-17-platinum-diamond.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Donruss#Checklist"

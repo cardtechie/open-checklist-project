@@ -1,0 +1,24 @@
+number: "11"
+uuid: "128c8621-af9a-472a-80b6-46f3cf534899"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "Dick Allen"
+    role: "Player"
+    team: "Chicago White Sox"
+subset: "Bomb Squad"
+card_name: "Dick Allen - Bomb Squad - Red Ice"
+description: "Red Ice parallel of Bomb Squad card featuring Dick Allen."
+series: "2026 Donruss"
+parallel: "Red Ice"
+print_run: 149
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: true
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/bomb-squad-11-red-ice.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Donruss#Checklist"

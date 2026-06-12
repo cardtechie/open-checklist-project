@@ -1,0 +1,23 @@
+number: "11"
+uuid: "3c06fd20-f6bb-4b2b-92aa-0c9f4a4613f3"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "Paul Skenes"
+    role: "Player"
+    team: "Pittsburgh Pirates"
+subset: "Crunch Time"
+card_name: "Paul Skenes - Crunch Time - Green Laser"
+description: "Green Laser parallel of Crunch Time card featuring Paul Skenes."
+series: "2026 Donruss"
+parallel: "Green Laser"
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: false
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/crunch-time-11-green-laser.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Donruss#Checklist"

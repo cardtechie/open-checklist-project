@@ -1,0 +1,24 @@
+number: "7"
+uuid: "d00d7aeb-8965-4973-a4a2-e3bc15754666"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "Cade Horton"
+    role: "Player"
+    team: "Chicago Cubs"
+subset: "Crunch Time"
+card_name: "Cade Horton - Crunch Time - Holo"
+description: "Holo parallel of Crunch Time card featuring Cade Horton."
+series: "2026 Donruss"
+parallel: "Holo"
+print_run: 199
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: true
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/crunch-time-7-holo.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Donruss#Checklist"

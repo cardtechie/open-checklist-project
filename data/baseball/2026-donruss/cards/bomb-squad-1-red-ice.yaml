@@ -1,0 +1,24 @@
+number: "1"
+uuid: "2db430d5-1709-4eb2-824f-dd1d7fda03bb"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "Bryce Eldridge"
+    role: "Player"
+    team: "San Francisco Giants"
+subset: "Bomb Squad"
+card_name: "Bryce Eldridge - Bomb Squad - Red Ice"
+description: "Red Ice parallel of Bomb Squad card featuring Bryce Eldridge."
+series: "2026 Donruss"
+parallel: "Red Ice"
+print_run: 149
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: true
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/bomb-squad-1-red-ice.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Donruss#Checklist"

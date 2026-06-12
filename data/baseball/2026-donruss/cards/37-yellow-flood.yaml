@@ -1,0 +1,22 @@
+number: "37"
+uuid: "2781b35c-f8e1-44fc-b070-a90e093c6b3a"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "Trey Yesavage"
+    role: "Player"
+    team: "Toronto Blue Jays"
+card_name: "Trey Yesavage - Base - Yellow Flood"
+description: "Yellow Flood parallel of Base card featuring Trey Yesavage."
+series: "2026 Donruss"
+parallel: "Yellow Flood"
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: false
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/37-yellow-flood.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Donruss#Checklist"

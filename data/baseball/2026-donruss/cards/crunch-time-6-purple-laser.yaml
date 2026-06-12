@@ -1,0 +1,24 @@
+number: "6"
+uuid: "950cfab3-216c-46e5-92b4-878002a071ca"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "Aaron Judge"
+    role: "Player"
+    team: "New York Yankees"
+subset: "Crunch Time"
+card_name: "Aaron Judge - Crunch Time - Purple Laser"
+description: "Purple Laser parallel of Crunch Time card featuring Aaron Judge."
+series: "2026 Donruss"
+parallel: "Purple Laser"
+print_run: 15
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: true
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/crunch-time-6-purple-laser.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Donruss#Checklist"

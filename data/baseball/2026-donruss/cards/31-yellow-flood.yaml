@@ -1,0 +1,22 @@
+number: "31"
+uuid: "d4f09656-f789-4e5b-9248-bf8bb56acaa8"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "Roberto Alomar"
+    role: "Player"
+    team: "Toronto Blue Jays"
+card_name: "Roberto Alomar - Base - Yellow Flood"
+description: "Yellow Flood parallel of Base card featuring Roberto Alomar."
+series: "2026 Donruss"
+parallel: "Yellow Flood"
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: false
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/31-yellow-flood.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Donruss#Checklist"

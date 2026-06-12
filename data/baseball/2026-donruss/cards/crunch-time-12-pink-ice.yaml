@@ -1,0 +1,24 @@
+number: "12"
+uuid: "3af986ec-646e-4ef5-add2-cff8cd9b29ca"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "Jonah Tong"
+    role: "Player"
+    team: "New York Mets"
+subset: "Crunch Time"
+card_name: "Jonah Tong - Crunch Time - Pink Ice"
+description: "Pink Ice parallel of Crunch Time card featuring Jonah Tong."
+series: "2026 Donruss"
+parallel: "Pink Ice"
+print_run: 99
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: true
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/crunch-time-12-pink-ice.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Donruss#Checklist"

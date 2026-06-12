@@ -1,0 +1,24 @@
+number: "17"
+uuid: "d77ec3c4-1662-4cfb-8841-86f67f5a76d9"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "Jacob Wilson"
+    role: "Player"
+    team: "Oakland A's"
+subset: "Crunch Time"
+card_name: "Jacob Wilson - Crunch Time - Holo"
+description: "Holo parallel of Crunch Time card featuring Jacob Wilson."
+series: "2026 Donruss"
+parallel: "Holo"
+print_run: 199
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: true
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/crunch-time-17-holo.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Donruss#Checklist"

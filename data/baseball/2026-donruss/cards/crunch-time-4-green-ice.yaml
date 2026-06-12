@@ -1,0 +1,24 @@
+number: "4"
+uuid: "f7ab6814-ead6-404e-97d1-5ad3f447fa48"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "Bubba Chandler"
+    role: "Player"
+    team: "Pittsburgh Pirates"
+subset: "Crunch Time"
+card_name: "Bubba Chandler - Crunch Time - Green Ice"
+description: "Green Ice parallel of Crunch Time card featuring Bubba Chandler."
+series: "2026 Donruss"
+parallel: "Green Ice"
+print_run: 15
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: true
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/crunch-time-4-green-ice.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Donruss#Checklist"

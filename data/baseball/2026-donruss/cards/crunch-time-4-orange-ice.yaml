@@ -1,0 +1,24 @@
+number: "4"
+uuid: "294d3c20-6d7f-49c4-9ff4-bcfeeb4aceb8"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "Bubba Chandler"
+    role: "Player"
+    team: "Pittsburgh Pirates"
+subset: "Crunch Time"
+card_name: "Bubba Chandler - Crunch Time - Orange Ice"
+description: "Orange Ice parallel of Crunch Time card featuring Bubba Chandler."
+series: "2026 Donruss"
+parallel: "Orange Ice"
+print_run: 75
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: true
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/crunch-time-4-orange-ice.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Donruss#Checklist"

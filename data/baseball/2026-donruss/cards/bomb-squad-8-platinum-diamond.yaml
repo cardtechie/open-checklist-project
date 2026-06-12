@@ -1,0 +1,24 @@
+number: "8"
+uuid: "b8847b42-bf7c-4728-9e2a-df5dd56bf6a0"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "Josh Hamilton"
+    role: "Player"
+    team: "Texas Rangers"
+subset: "Bomb Squad"
+card_name: "Josh Hamilton - Bomb Squad - Platinum Diamond"
+description: "Platinum Diamond parallel of Bomb Squad card featuring Josh Hamilton."
+series: "2026 Donruss"
+parallel: "Platinum Diamond"
+print_run: 1
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: true
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/bomb-squad-8-platinum-diamond.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Donruss#Checklist"

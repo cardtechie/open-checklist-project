@@ -1,0 +1,24 @@
+number: "16"
+uuid: "81fba968-075f-4d00-8643-ea673b4bc54f"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "Brandon Sproat"
+    role: "Player"
+    team: "Milwaukee Brewers"
+subset: "Crunch Time"
+card_name: "Brandon Sproat - Crunch Time - Green Xplosion"
+description: "Green Xplosion parallel of Crunch Time card featuring Brandon Sproat."
+series: "2026 Donruss"
+parallel: "Green Xplosion"
+print_run: 25
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: true
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/crunch-time-16-green-xplosion.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Donruss#Checklist"

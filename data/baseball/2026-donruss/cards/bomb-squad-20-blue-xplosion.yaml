@@ -1,0 +1,24 @@
+number: "20"
+uuid: "6cff1eec-5f14-473a-b0ad-053a3377b7d1"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "Jose Canseco"
+    role: "Player"
+    team: "Oakland A's"
+subset: "Bomb Squad"
+card_name: "Jose Canseco - Bomb Squad - Blue Xplosion"
+description: "Blue Xplosion parallel of Bomb Squad card featuring Jose Canseco."
+series: "2026 Donruss"
+parallel: "Blue Xplosion"
+print_run: 49
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: true
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/bomb-squad-20-blue-xplosion.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Donruss#Checklist"

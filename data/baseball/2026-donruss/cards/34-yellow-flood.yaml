@@ -1,0 +1,22 @@
+number: "34"
+uuid: "6ad52779-a2da-491c-bd1f-5f04d402ed9a"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "Dave Winfield"
+    role: "Player"
+    team: "San Diego Padres"
+card_name: "Dave Winfield - Base - Yellow Flood"
+description: "Yellow Flood parallel of Base card featuring Dave Winfield."
+series: "2026 Donruss"
+parallel: "Yellow Flood"
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: false
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/34-yellow-flood.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Donruss#Checklist"

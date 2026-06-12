@@ -1,0 +1,24 @@
+number: "6"
+uuid: "76297ebb-0b8a-4c71-a5b2-a75b93b3a2f1"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "Aaron Judge"
+    role: "Player"
+    team: "New York Yankees"
+subset: "Crunch Time"
+card_name: "Aaron Judge - Crunch Time - Purple Ice"
+description: "Purple Ice parallel of Crunch Time card featuring Aaron Judge."
+series: "2026 Donruss"
+parallel: "Purple Ice"
+print_run: 99
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: true
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/crunch-time-6-purple-ice.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Donruss#Checklist"

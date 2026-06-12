@@ -1,0 +1,24 @@
+number: "12"
+uuid: "43ed2043-594f-4447-baa9-3f2c233e2dc5"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "Darryl Strawberry"
+    role: "Player"
+    team: "New York Mets"
+subset: "Bomb Squad"
+card_name: "Darryl Strawberry - Bomb Squad - Green Xplosion"
+description: "Green Xplosion parallel of Bomb Squad card featuring Darryl Strawberry."
+series: "2026 Donruss"
+parallel: "Green Xplosion"
+print_run: 25
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: true
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/bomb-squad-12-green-xplosion.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Donruss#Checklist"

@@ -1,0 +1,23 @@
+number: "2"
+uuid: "589cb42e-6392-4055-9b11-8c2b75675d23"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "Chase DeLauter"
+    role: "Player"
+    team: "Cleveland Guardians"
+subset: "Crunch Time"
+card_name: "Chase DeLauter - Crunch Time - Green Laser"
+description: "Green Laser parallel of Crunch Time card featuring Chase DeLauter."
+series: "2026 Donruss"
+parallel: "Green Laser"
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: false
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/crunch-time-2-green-laser.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Donruss#Checklist"

@@ -1,0 +1,24 @@
+number: "8"
+uuid: "8c0395b9-0fe5-4ea1-a927-5738fc1e8b4d"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "Josh Hamilton"
+    role: "Player"
+    team: "Texas Rangers"
+subset: "Bomb Squad"
+card_name: "Josh Hamilton - Bomb Squad - Pink Ice"
+description: "Pink Ice parallel of Bomb Squad card featuring Josh Hamilton."
+series: "2026 Donruss"
+parallel: "Pink Ice"
+print_run: 99
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: true
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/bomb-squad-8-pink-ice.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Donruss#Checklist"

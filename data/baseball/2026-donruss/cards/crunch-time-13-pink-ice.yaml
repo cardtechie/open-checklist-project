@@ -1,0 +1,24 @@
+number: "13"
+uuid: "56805bb4-1a60-4f48-8d17-d214b2ca6633"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "Jacob Misiorowski"
+    role: "Player"
+    team: "Milwaukee Brewers"
+subset: "Crunch Time"
+card_name: "Jacob Misiorowski - Crunch Time - Pink Ice"
+description: "Pink Ice parallel of Crunch Time card featuring Jacob Misiorowski."
+series: "2026 Donruss"
+parallel: "Pink Ice"
+print_run: 99
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: true
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/crunch-time-13-pink-ice.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Donruss#Checklist"

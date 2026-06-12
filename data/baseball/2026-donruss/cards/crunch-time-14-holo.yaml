@@ -1,0 +1,24 @@
+number: "14"
+uuid: "636f930d-fe65-4d22-819b-6befea3c9414"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "Marcelo Mayer"
+    role: "Player"
+    team: "Boston Red Sox"
+subset: "Crunch Time"
+card_name: "Marcelo Mayer - Crunch Time - Holo"
+description: "Holo parallel of Crunch Time card featuring Marcelo Mayer."
+series: "2026 Donruss"
+parallel: "Holo"
+print_run: 199
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: true
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/crunch-time-14-holo.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Donruss#Checklist"

@@ -1,0 +1,22 @@
+number: "65"
+uuid: "413b7d90-ee2e-45d7-91bf-de341cda7005"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "Yogi Berra"
+    role: "Player"
+    team: "New York Yankees"
+card_name: "Yogi Berra - Base - Yellow Flood"
+description: "Yellow Flood parallel of Base card featuring Yogi Berra."
+series: "2026 Donruss"
+parallel: "Yellow Flood"
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: false
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/65-yellow-flood.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Donruss#Checklist"

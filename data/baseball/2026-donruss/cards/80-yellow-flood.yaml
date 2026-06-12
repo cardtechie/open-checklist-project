@@ -1,0 +1,22 @@
+number: "80"
+uuid: "110f8a9a-46c0-477b-b1b5-bb6f076c616a"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "Mike Schmidt"
+    role: "Player"
+    team: "Philadelphia Phillies"
+card_name: "Mike Schmidt - Base - Yellow Flood"
+description: "Yellow Flood parallel of Base card featuring Mike Schmidt."
+series: "2026 Donruss"
+parallel: "Yellow Flood"
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: false
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/80-yellow-flood.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Donruss#Checklist"

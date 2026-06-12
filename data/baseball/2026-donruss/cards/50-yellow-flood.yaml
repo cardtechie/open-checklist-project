@@ -1,0 +1,22 @@
+number: "50"
+uuid: "b9e39afc-00e0-4966-a401-e91e41f08b84"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "Rickey Henderson"
+    role: "Player"
+    team: "Oakland A's"
+card_name: "Rickey Henderson - Base - Yellow Flood"
+description: "Yellow Flood parallel of Base card featuring Rickey Henderson."
+series: "2026 Donruss"
+parallel: "Yellow Flood"
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: false
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/50-yellow-flood.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Donruss#Checklist"

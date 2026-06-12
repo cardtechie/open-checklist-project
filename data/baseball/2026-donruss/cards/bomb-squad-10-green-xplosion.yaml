@@ -1,0 +1,24 @@
+number: "10"
+uuid: "3d3b2ce8-505c-4091-a17a-7cc1a39e7612"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "Spencer Jones"
+    role: "Player"
+    team: "New York Yankees"
+subset: "Bomb Squad"
+card_name: "Spencer Jones - Bomb Squad - Green Xplosion"
+description: "Green Xplosion parallel of Bomb Squad card featuring Spencer Jones."
+series: "2026 Donruss"
+parallel: "Green Xplosion"
+print_run: 25
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: true
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/bomb-squad-10-green-xplosion.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Donruss#Checklist"

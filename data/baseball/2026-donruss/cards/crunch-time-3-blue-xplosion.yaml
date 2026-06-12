@@ -1,0 +1,24 @@
+number: "3"
+uuid: "51408a9c-a2ab-44d4-8e36-b425d0631f71"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "Bobby Witt Jr."
+    role: "Player"
+    team: "Kansas City Royals"
+subset: "Crunch Time"
+card_name: "Bobby Witt Jr. - Crunch Time - Blue Xplosion"
+description: "Blue Xplosion parallel of Crunch Time card featuring Bobby Witt Jr.."
+series: "2026 Donruss"
+parallel: "Blue Xplosion"
+print_run: 49
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: true
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/crunch-time-3-blue-xplosion.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Donruss#Checklist"

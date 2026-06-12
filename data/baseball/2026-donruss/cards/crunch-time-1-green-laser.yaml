@@ -1,0 +1,23 @@
+number: "1"
+uuid: "ebe214c6-f7ba-4efb-80e6-e0ebed1b75fb"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "Jesus Made"
+    role: "Player"
+    team: "Milwaukee Brewers"
+subset: "Crunch Time"
+card_name: "Jesus Made - Crunch Time - Green Laser"
+description: "Green Laser parallel of Crunch Time card featuring Jesus Made."
+series: "2026 Donruss"
+parallel: "Green Laser"
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: false
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/crunch-time-1-green-laser.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Donruss#Checklist"

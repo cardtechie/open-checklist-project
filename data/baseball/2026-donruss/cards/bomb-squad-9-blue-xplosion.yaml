@@ -1,0 +1,24 @@
+number: "9"
+uuid: "6a3793f8-c7f0-457a-9a21-18bd5bb676c3"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "Bobby Witt Jr."
+    role: "Player"
+    team: "Kansas City Royals"
+subset: "Bomb Squad"
+card_name: "Bobby Witt Jr. - Bomb Squad - Blue Xplosion"
+description: "Blue Xplosion parallel of Bomb Squad card featuring Bobby Witt Jr.."
+series: "2026 Donruss"
+parallel: "Blue Xplosion"
+print_run: 49
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: true
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/bomb-squad-9-blue-xplosion.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Donruss#Checklist"

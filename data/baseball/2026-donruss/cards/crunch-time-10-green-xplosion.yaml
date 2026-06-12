@@ -1,0 +1,24 @@
+number: "10"
+uuid: "4edab701-d230-483e-9ce1-0089ab247e8d"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "Nick Kurtz"
+    role: "Player"
+    team: "Oakland A's"
+subset: "Crunch Time"
+card_name: "Nick Kurtz - Crunch Time - Green Xplosion"
+description: "Green Xplosion parallel of Crunch Time card featuring Nick Kurtz."
+series: "2026 Donruss"
+parallel: "Green Xplosion"
+print_run: 25
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: true
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/crunch-time-10-green-xplosion.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Donruss#Checklist"

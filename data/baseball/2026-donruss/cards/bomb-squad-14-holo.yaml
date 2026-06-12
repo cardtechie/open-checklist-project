@@ -1,0 +1,24 @@
+number: "14"
+uuid: "c57cedbe-dff5-4a4a-ae28-9c2c7eb52d4f"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "Nick Kurtz"
+    role: "Player"
+    team: "Oakland A's"
+subset: "Bomb Squad"
+card_name: "Nick Kurtz - Bomb Squad - Holo"
+description: "Holo parallel of Bomb Squad card featuring Nick Kurtz."
+series: "2026 Donruss"
+parallel: "Holo"
+print_run: 199
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: true
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/bomb-squad-14-holo.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Donruss#Checklist"

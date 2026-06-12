@@ -1,0 +1,24 @@
+number: "15"
+uuid: "a7fee351-a3b9-4bd3-ae39-7c3018c003b9"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "Reggie Jackson"
+    role: "Player"
+    team: "Oakland A's"
+subset: "Bomb Squad"
+card_name: "Reggie Jackson - Bomb Squad - Red Ice"
+description: "Red Ice parallel of Bomb Squad card featuring Reggie Jackson."
+series: "2026 Donruss"
+parallel: "Red Ice"
+print_run: 149
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: true
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/bomb-squad-15-red-ice.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Donruss#Checklist"

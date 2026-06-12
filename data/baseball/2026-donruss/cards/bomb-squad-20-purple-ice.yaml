@@ -1,0 +1,24 @@
+number: "20"
+uuid: "1891601b-6233-4d90-af34-12c4f70a6679"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "Jose Canseco"
+    role: "Player"
+    team: "Oakland A's"
+subset: "Bomb Squad"
+card_name: "Jose Canseco - Bomb Squad - Purple Ice"
+description: "Purple Ice parallel of Bomb Squad card featuring Jose Canseco."
+series: "2026 Donruss"
+parallel: "Purple Ice"
+print_run: 99
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: true
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/bomb-squad-20-purple-ice.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Donruss#Checklist"

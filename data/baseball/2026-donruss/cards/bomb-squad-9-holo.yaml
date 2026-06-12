@@ -1,0 +1,24 @@
+number: "9"
+uuid: "f58d88e7-7a1d-4fe9-ac2f-9f4434969de9"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "Bobby Witt Jr."
+    role: "Player"
+    team: "Kansas City Royals"
+subset: "Bomb Squad"
+card_name: "Bobby Witt Jr. - Bomb Squad - Holo"
+description: "Holo parallel of Bomb Squad card featuring Bobby Witt Jr.."
+series: "2026 Donruss"
+parallel: "Holo"
+print_run: 199
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: true
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/bomb-squad-9-holo.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Donruss#Checklist"

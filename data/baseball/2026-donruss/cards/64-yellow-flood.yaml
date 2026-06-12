@@ -1,0 +1,22 @@
+number: "64"
+uuid: "6c4e5cc5-ba2f-4cbe-be99-0be928d6f6c4"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "Ivan Rodriguez"
+    role: "Player"
+    team: "Texas Rangers"
+card_name: "Ivan Rodriguez - Base - Yellow Flood"
+description: "Yellow Flood parallel of Base card featuring Ivan Rodriguez."
+series: "2026 Donruss"
+parallel: "Yellow Flood"
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: false
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/64-yellow-flood.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Donruss#Checklist"

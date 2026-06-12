@@ -1,0 +1,22 @@
+number: "43"
+uuid: "421a569b-6e37-4dbe-92fc-0eea7e7dd1bf"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "Jimmie Foxx"
+    role: "Player"
+    team: "Philadelphia Athletics"
+card_name: "Jimmie Foxx - Base - Yellow Flood"
+description: "Yellow Flood parallel of Base card featuring Jimmie Foxx."
+series: "2026 Donruss"
+parallel: "Yellow Flood"
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: false
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/43-yellow-flood.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Donruss#Checklist"

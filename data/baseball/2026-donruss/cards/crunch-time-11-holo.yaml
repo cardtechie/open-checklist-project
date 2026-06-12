@@ -1,0 +1,24 @@
+number: "11"
+uuid: "9385692a-c96d-4c53-aa94-c1409acc05ee"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "Paul Skenes"
+    role: "Player"
+    team: "Pittsburgh Pirates"
+subset: "Crunch Time"
+card_name: "Paul Skenes - Crunch Time - Holo"
+description: "Holo parallel of Crunch Time card featuring Paul Skenes."
+series: "2026 Donruss"
+parallel: "Holo"
+print_run: 199
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: true
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/crunch-time-11-holo.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Donruss#Checklist"

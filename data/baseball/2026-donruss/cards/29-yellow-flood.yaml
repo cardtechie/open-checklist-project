@@ -1,0 +1,22 @@
+number: "29"
+uuid: "1ab45dcc-abcc-4323-813c-91b85264304d"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "Chandler Simpson"
+    role: "Player"
+    team: "Tampa Bay Rays"
+card_name: "Chandler Simpson - Base - Yellow Flood"
+description: "Yellow Flood parallel of Base card featuring Chandler Simpson."
+series: "2026 Donruss"
+parallel: "Yellow Flood"
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: false
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/29-yellow-flood.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Donruss#Checklist"

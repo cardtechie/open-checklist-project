@@ -1,0 +1,24 @@
+number: "17"
+uuid: "61aa9ade-45d9-4b83-b382-3374e381d277"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "Jacob Wilson"
+    role: "Player"
+    team: "Oakland A's"
+subset: "Crunch Time"
+card_name: "Jacob Wilson - Crunch Time - Platinum Diamond"
+description: "Platinum Diamond parallel of Crunch Time card featuring Jacob Wilson."
+series: "2026 Donruss"
+parallel: "Platinum Diamond"
+print_run: 1
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: true
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/crunch-time-17-platinum-diamond.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Donruss#Checklist"

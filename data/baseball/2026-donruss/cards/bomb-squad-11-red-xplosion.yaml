@@ -1,0 +1,24 @@
+number: "11"
+uuid: "5e93f5ab-2d52-4e1c-87d6-11e3fb298c17"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "Dick Allen"
+    role: "Player"
+    team: "Chicago White Sox"
+subset: "Bomb Squad"
+card_name: "Dick Allen - Bomb Squad - Red Xplosion"
+description: "Red Xplosion parallel of Bomb Squad card featuring Dick Allen."
+series: "2026 Donruss"
+parallel: "Red Xplosion"
+print_run: 99
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: true
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/bomb-squad-11-red-xplosion.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Donruss#Checklist"

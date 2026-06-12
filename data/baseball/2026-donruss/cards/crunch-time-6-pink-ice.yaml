@@ -1,0 +1,24 @@
+number: "6"
+uuid: "84af788a-5494-4bb8-acd6-fd6a2d4b0818"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "Aaron Judge"
+    role: "Player"
+    team: "New York Yankees"
+subset: "Crunch Time"
+card_name: "Aaron Judge - Crunch Time - Pink Ice"
+description: "Pink Ice parallel of Crunch Time card featuring Aaron Judge."
+series: "2026 Donruss"
+parallel: "Pink Ice"
+print_run: 99
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: true
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/crunch-time-6-pink-ice.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Donruss#Checklist"

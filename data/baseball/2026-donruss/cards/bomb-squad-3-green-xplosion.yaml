@@ -1,0 +1,24 @@
+number: "3"
+uuid: "d7b8b258-eaed-421d-ba1e-78eb8ccf3d75"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "Roman Anthony"
+    role: "Player"
+    team: "Boston Red Sox"
+subset: "Bomb Squad"
+card_name: "Roman Anthony - Bomb Squad - Green Xplosion"
+description: "Green Xplosion parallel of Bomb Squad card featuring Roman Anthony."
+series: "2026 Donruss"
+parallel: "Green Xplosion"
+print_run: 25
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: true
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/bomb-squad-3-green-xplosion.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Donruss#Checklist"

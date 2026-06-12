@@ -1,0 +1,24 @@
+number: "11"
+uuid: "a6ab22fa-feb0-42b8-8381-9d83cc02b9cf"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "Dick Allen"
+    role: "Player"
+    team: "Chicago White Sox"
+subset: "Bomb Squad"
+card_name: "Dick Allen - Bomb Squad - Orange Ice"
+description: "Orange Ice parallel of Bomb Squad card featuring Dick Allen."
+series: "2026 Donruss"
+parallel: "Orange Ice"
+print_run: 75
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: true
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/bomb-squad-11-orange-ice.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Donruss#Checklist"

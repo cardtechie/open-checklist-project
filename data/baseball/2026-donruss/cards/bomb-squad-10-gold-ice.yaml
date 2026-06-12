@@ -1,0 +1,24 @@
+number: "10"
+uuid: "78a0b1ff-bb6b-4d3f-a959-363ca0f5a30b"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "Spencer Jones"
+    role: "Player"
+    team: "New York Yankees"
+subset: "Bomb Squad"
+card_name: "Spencer Jones - Bomb Squad - Gold Ice"
+description: "Gold Ice parallel of Bomb Squad card featuring Spencer Jones."
+series: "2026 Donruss"
+parallel: "Gold Ice"
+print_run: 10
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: true
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/bomb-squad-10-gold-ice.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Donruss#Checklist"

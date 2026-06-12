@@ -1,0 +1,24 @@
+number: "3"
+uuid: "111e72cc-4c22-41ff-b7c4-0eb0b2b3e81f"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "Bobby Witt Jr."
+    role: "Player"
+    team: "Kansas City Royals"
+subset: "Crunch Time"
+card_name: "Bobby Witt Jr. - Crunch Time - Pink Ice"
+description: "Pink Ice parallel of Crunch Time card featuring Bobby Witt Jr.."
+series: "2026 Donruss"
+parallel: "Pink Ice"
+print_run: 99
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: true
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/crunch-time-3-pink-ice.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Donruss#Checklist"

@@ -1,0 +1,24 @@
+number: "18"
+uuid: "25960ed2-0c39-4e1c-9b15-80d65cb67ce9"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "Aaron Judge"
+    role: "Player"
+    team: "New York Yankees"
+subset: "Bomb Squad"
+card_name: "Aaron Judge - Bomb Squad - Blue Xplosion"
+description: "Blue Xplosion parallel of Bomb Squad card featuring Aaron Judge."
+series: "2026 Donruss"
+parallel: "Blue Xplosion"
+print_run: 49
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: true
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/bomb-squad-18-blue-xplosion.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Donruss#Checklist"

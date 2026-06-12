@@ -1,0 +1,24 @@
+number: "18"
+uuid: "218dac00-9329-47c2-b8a4-c89892d99961"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "Trey Yesavage"
+    role: "Player"
+    team: "Toronto Blue Jays"
+subset: "Crunch Time"
+card_name: "Trey Yesavage - Crunch Time - Purple Laser"
+description: "Purple Laser parallel of Crunch Time card featuring Trey Yesavage."
+series: "2026 Donruss"
+parallel: "Purple Laser"
+print_run: 15
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: true
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/crunch-time-18-purple-laser.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Donruss#Checklist"

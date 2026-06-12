@@ -1,0 +1,24 @@
+number: "12"
+uuid: "45606345-94ac-431b-9a71-e4507efeca93"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "Jonah Tong"
+    role: "Player"
+    team: "New York Mets"
+subset: "Crunch Time"
+card_name: "Jonah Tong - Crunch Time - Green Ice"
+description: "Green Ice parallel of Crunch Time card featuring Jonah Tong."
+series: "2026 Donruss"
+parallel: "Green Ice"
+print_run: 15
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: true
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/crunch-time-12-green-ice.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Donruss#Checklist"

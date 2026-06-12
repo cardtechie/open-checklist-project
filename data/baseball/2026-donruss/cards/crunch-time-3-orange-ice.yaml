@@ -1,0 +1,24 @@
+number: "3"
+uuid: "c2223d4f-e898-457a-a792-9e44ba0fcb2a"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "Bobby Witt Jr."
+    role: "Player"
+    team: "Kansas City Royals"
+subset: "Crunch Time"
+card_name: "Bobby Witt Jr. - Crunch Time - Orange Ice"
+description: "Orange Ice parallel of Crunch Time card featuring Bobby Witt Jr.."
+series: "2026 Donruss"
+parallel: "Orange Ice"
+print_run: 75
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: true
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/crunch-time-3-orange-ice.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Donruss#Checklist"

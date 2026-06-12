@@ -1,0 +1,23 @@
+number: "9"
+uuid: "425ced24-b65b-4097-b6f2-305246814354"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "Roman Anthony"
+    role: "Player"
+    team: "Boston Red Sox"
+subset: "Crunch Time"
+card_name: "Roman Anthony - Crunch Time - Green Laser"
+description: "Green Laser parallel of Crunch Time card featuring Roman Anthony."
+series: "2026 Donruss"
+parallel: "Green Laser"
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: false
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/crunch-time-9-green-laser.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Donruss#Checklist"

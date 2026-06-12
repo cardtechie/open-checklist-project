@@ -1,0 +1,24 @@
+number: "6"
+uuid: "e6372d36-7bde-4b0a-8dc7-fa7352a91b02"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "Aaron Judge"
+    role: "Player"
+    team: "New York Yankees"
+subset: "Crunch Time"
+card_name: "Aaron Judge - Crunch Time - Holo"
+description: "Holo parallel of Crunch Time card featuring Aaron Judge."
+series: "2026 Donruss"
+parallel: "Holo"
+print_run: 199
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: true
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/crunch-time-6-holo.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Donruss#Checklist"

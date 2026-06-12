@@ -1,0 +1,24 @@
+number: "5"
+uuid: "c525ba3e-609f-4048-840c-4d6e1cdc863c"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "James Wood"
+    role: "Player"
+    team: "Washington Nationals"
+subset: "Crunch Time"
+card_name: "James Wood - Crunch Time - Orange Ice"
+description: "Orange Ice parallel of Crunch Time card featuring James Wood."
+series: "2026 Donruss"
+parallel: "Orange Ice"
+print_run: 75
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: true
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/crunch-time-5-orange-ice.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Donruss#Checklist"

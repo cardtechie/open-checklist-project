@@ -1,0 +1,24 @@
+number: "8"
+uuid: "6c84f9a6-8f5a-4942-9075-814c488f5be6"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "Cameron Schlittler"
+    role: "Player"
+    team: "New York Yankees"
+subset: "Crunch Time"
+card_name: "Cameron Schlittler - Crunch Time - Holo"
+description: "Holo parallel of Crunch Time card featuring Cameron Schlittler."
+series: "2026 Donruss"
+parallel: "Holo"
+print_run: 199
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: true
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/crunch-time-8-holo.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Donruss#Checklist"

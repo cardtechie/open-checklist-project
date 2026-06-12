@@ -1,0 +1,24 @@
+number: "2"
+uuid: "bc6e7cca-8243-4826-a807-abbdc2acc3a7"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "Chase DeLauter"
+    role: "Player"
+    team: "Cleveland Guardians"
+subset: "Crunch Time"
+card_name: "Chase DeLauter - Crunch Time - Orange Ice"
+description: "Orange Ice parallel of Crunch Time card featuring Chase DeLauter."
+series: "2026 Donruss"
+parallel: "Orange Ice"
+print_run: 75
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: true
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/crunch-time-2-orange-ice.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Donruss#Checklist"

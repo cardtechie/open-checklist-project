@@ -1,0 +1,24 @@
+number: "9"
+uuid: "de2f3b79-d164-4c93-a58d-95ad4dd4a2cd"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "Roman Anthony"
+    role: "Player"
+    team: "Boston Red Sox"
+subset: "Crunch Time"
+card_name: "Roman Anthony - Crunch Time - Pink Ice"
+description: "Pink Ice parallel of Crunch Time card featuring Roman Anthony."
+series: "2026 Donruss"
+parallel: "Pink Ice"
+print_run: 99
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: true
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/crunch-time-9-pink-ice.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Donruss#Checklist"

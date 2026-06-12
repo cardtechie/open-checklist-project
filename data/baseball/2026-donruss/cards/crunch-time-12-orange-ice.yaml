@@ -1,0 +1,24 @@
+number: "12"
+uuid: "47783533-b04a-4b88-872b-ee1a5c28e9cc"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "Jonah Tong"
+    role: "Player"
+    team: "New York Mets"
+subset: "Crunch Time"
+card_name: "Jonah Tong - Crunch Time - Orange Ice"
+description: "Orange Ice parallel of Crunch Time card featuring Jonah Tong."
+series: "2026 Donruss"
+parallel: "Orange Ice"
+print_run: 75
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: true
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/crunch-time-12-orange-ice.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Donruss#Checklist"

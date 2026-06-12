@@ -1,0 +1,24 @@
+number: "16"
+uuid: "7c56f846-21fa-441c-ab4b-ea2d2ab9c1e5"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "Brandon Sproat"
+    role: "Player"
+    team: "Milwaukee Brewers"
+subset: "Crunch Time"
+card_name: "Brandon Sproat - Crunch Time - Green Ice"
+description: "Green Ice parallel of Crunch Time card featuring Brandon Sproat."
+series: "2026 Donruss"
+parallel: "Green Ice"
+print_run: 15
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: true
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/crunch-time-16-green-ice.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Donruss#Checklist"

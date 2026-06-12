@@ -1,0 +1,23 @@
+number: "20"
+uuid: "450973f5-c427-45c2-a4de-1d74e788875c"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "Jose Canseco"
+    role: "Player"
+    team: "Oakland A's"
+subset: "Bomb Squad"
+card_name: "Jose Canseco - Bomb Squad - Green Laser"
+description: "Green Laser parallel of Bomb Squad card featuring Jose Canseco."
+series: "2026 Donruss"
+parallel: "Green Laser"
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: false
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/bomb-squad-20-green-laser.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Donruss#Checklist"

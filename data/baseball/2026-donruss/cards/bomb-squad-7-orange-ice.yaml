@@ -1,0 +1,24 @@
+number: "7"
+uuid: "f673c3f7-0ad2-49e4-b561-d55e71c7d58d"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "Cam Smith"
+    role: "Player"
+    team: "Houston Astros"
+subset: "Bomb Squad"
+card_name: "Cam Smith - Bomb Squad - Orange Ice"
+description: "Orange Ice parallel of Bomb Squad card featuring Cam Smith."
+series: "2026 Donruss"
+parallel: "Orange Ice"
+print_run: 75
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: true
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/bomb-squad-7-orange-ice.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Donruss#Checklist"

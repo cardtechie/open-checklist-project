@@ -1,0 +1,22 @@
+number: "54"
+uuid: "14ececab-94d6-4c30-ac42-533ca50c9d52"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "Josh Hamilton"
+    role: "Player"
+    team: "Texas Rangers"
+card_name: "Josh Hamilton - Base - Yellow Flood"
+description: "Yellow Flood parallel of Base card featuring Josh Hamilton."
+series: "2026 Donruss"
+parallel: "Yellow Flood"
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: false
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/54-yellow-flood.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Donruss#Checklist"
