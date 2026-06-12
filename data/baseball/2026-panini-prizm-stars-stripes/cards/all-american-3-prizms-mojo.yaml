@@ -1,0 +1,24 @@
+number: "3"
+uuid: "bc26e93c-7912-4b41-833f-828eacb37ad2"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-panini-prizm-stars-stripes"
+subjects:
+  - name: "Alex Gordon"
+    role: "Player"
+    team: "USA Baseball"
+subset: "All-American"
+card_name: "Alex Gordon - All-American - Prizms Mojo"
+description: "Prizms Mojo parallel of All-American card featuring Alex Gordon."
+series: "2026 Panini Stars & Stripes Prizm"
+parallel: "Prizms Mojo"
+print_run: 25
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: true
+release_date: "2026-04-03"
+image_url: "https://example.com/cards/2026-panini-prizm-stars-stripes/all-american-3-prizms-mojo.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Panini_Stars_%26_Stripes_Prizm#Checklist"
