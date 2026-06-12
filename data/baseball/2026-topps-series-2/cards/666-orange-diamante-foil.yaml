@@ -1,0 +1,23 @@
+number: "666"
+uuid: "59529d67-4e60-4b01-aa57-4fd5e7b4b2c4"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-topps-series-2"
+subjects:
+  - name: "Nolan Hoffman"
+    role: "Player"
+    team: "Philadelphia Phillies"
+card_name: "Nolan Hoffman - Base - Orange Diamante Foil"
+description: "Orange Diamante Foil parallel of Base card featuring Nolan Hoffman."
+series: "2026 Topps Baseball"
+parallel: "Orange Diamante Foil"
+print_run: 25
+rookie_card: true
+autograph: false
+relic: false
+serial_numbered: true
+release_date: "2026-06-11"
+image_url: "https://example.com/cards/2026-topps-series-2/666-orange-diamante-foil.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Topps#Insertion_Ratios"

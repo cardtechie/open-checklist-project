@@ -1,0 +1,23 @@
+number: "657"
+uuid: "dd3d5fd5-2379-4a93-91bc-25ba5ccd23eb"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-topps-series-2"
+subjects:
+  - name: "Freddy Peralta"
+    role: "Player"
+    team: "New York Mets"
+card_name: "Freddy Peralta - Base - Black"
+description: "Black parallel of Base card featuring Freddy Peralta."
+series: "2026 Topps Baseball"
+parallel: "Black"
+print_run: 75
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: true
+release_date: "2026-06-11"
+image_url: "https://example.com/cards/2026-topps-series-2/657-black.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Topps#Insertion_Ratios"

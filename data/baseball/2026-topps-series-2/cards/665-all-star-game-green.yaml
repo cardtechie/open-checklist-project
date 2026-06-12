@@ -1,0 +1,23 @@
+number: "665"
+uuid: "5d0e0e3c-8ed2-4a5d-b10b-4e7af4f02798"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-topps-series-2"
+subjects:
+  - name: "Jose Corniell"
+    role: "Player"
+    team: "Texas Rangers"
+card_name: "Jose Corniell - Base - All-Star Game Green"
+description: "All-Star Game Green parallel of Base card featuring Jose Corniell."
+series: "2026 Topps Baseball"
+parallel: "All-Star Game Green"
+print_run: 99
+rookie_card: true
+autograph: false
+relic: false
+serial_numbered: true
+release_date: "2026-06-11"
+image_url: "https://example.com/cards/2026-topps-series-2/665-all-star-game-green.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Topps#Insertion_Ratios"

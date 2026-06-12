@@ -1,0 +1,23 @@
+number: "656"
+uuid: "68b8e930-3f86-4cf3-955f-d82d2df67787"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-topps-series-2"
+subjects:
+  - name: "Aroldis Chapman"
+    role: "Player"
+    team: "Boston Red Sox"
+card_name: "Aroldis Chapman - Base - Cherry Blossom"
+description: "Cherry Blossom parallel of Base card featuring Aroldis Chapman."
+series: "2026 Topps Baseball"
+parallel: "Cherry Blossom"
+print_run: 99
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: true
+release_date: "2026-06-11"
+image_url: "https://example.com/cards/2026-topps-series-2/656-cherry-blossom.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Topps#Insertion_Ratios"

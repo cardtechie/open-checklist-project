@@ -1,0 +1,23 @@
+number: "654"
+uuid: "02352c70-b6c2-4c8f-9523-e6f4ebe197f1"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-topps-series-2"
+subjects:
+  - name: "Baltimore Orioles"
+    role: "Team"
+    team: "Baltimore Orioles"
+card_name: "Baltimore Orioles - Base - Sandglitter Red"
+description: "Sandglitter Red parallel of Base card featuring Baltimore Orioles."
+series: "2026 Topps Baseball"
+parallel: "Sandglitter Red"
+print_run: 5
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: true
+release_date: "2026-06-11"
+image_url: "https://example.com/cards/2026-topps-series-2/654-sandglitter-red.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Topps#Insertion_Ratios"
