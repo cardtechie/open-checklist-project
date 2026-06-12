@@ -1,0 +1,22 @@
+number: "BCP-42"
+uuid: "d6b8f2d6-322b-4108-b11f-7f0936ce75d1"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-bowman"
+subjects:
+  - name: "David Davalillo"
+    role: "Player"
+    team: "Texas Rangers"
+subset: "Chrome Prospects"
+card_name: "David Davalillo - Chrome Prospects - LogoFractor"
+description: "LogoFractor parallel of Chrome Prospects card featuring David Davalillo."
+series: "2026 Bowman"
+parallel: "LogoFractor"
+rookie_card: false
+autograph: false
+serial_numbered: false
+release_date: "2026-05-13"
+image_url: "https://example.com/cards/2026-bowman/chrome-prospects-BCP-42-logofractor.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Bowman#Insertion_Ratios"

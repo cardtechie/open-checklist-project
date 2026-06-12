@@ -1,0 +1,23 @@
+number: "BCP-42"
+uuid: "f8a9a459-4775-4c27-add3-0bdc64f603bd"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-bowman"
+subjects:
+  - name: "David Davalillo"
+    role: "Player"
+    team: "Texas Rangers"
+subset: "Chrome Prospects"
+card_name: "David Davalillo - Chrome Prospects - Blue Geometric Refractor"
+description: "Blue Geometric Refractor parallel of Chrome Prospects card featuring David Davalillo."
+series: "2026 Bowman"
+parallel: "Blue Geometric Refractor"
+print_run: 150
+rookie_card: false
+autograph: false
+serial_numbered: true
+release_date: "2026-05-13"
+image_url: "https://example.com/cards/2026-bowman/chrome-prospects-BCP-42-blue-geometric-refractor.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Bowman#Insertion_Ratios"

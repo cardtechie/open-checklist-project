@@ -1,0 +1,23 @@
+number: "BCP-48"
+uuid: "b401b11c-b360-46c1-863d-193ec36b0927"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-bowman"
+subjects:
+  - name: "Shotaro Morii"
+    role: "Player"
+    team: "Athletics"
+subset: "Chrome Prospects"
+card_name: "Shotaro Morii - Chrome Prospects - Refractor"
+description: "Refractor parallel of Chrome Prospects card featuring Shotaro Morii."
+series: "2026 Bowman"
+parallel: "Refractor"
+print_run: 499
+rookie_card: false
+autograph: false
+serial_numbered: true
+release_date: "2026-05-13"
+image_url: "https://example.com/cards/2026-bowman/chrome-prospects-BCP-48-refractor.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Bowman#Insertion_Ratios"
