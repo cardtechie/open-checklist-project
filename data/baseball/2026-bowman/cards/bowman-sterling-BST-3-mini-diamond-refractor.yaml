@@ -1,0 +1,23 @@
+number: "BST-3"
+uuid: "3c965e9b-688c-4c6f-bb90-1ba6b67f53cd"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-bowman"
+subjects:
+  - name: "Julio Rodríguez"
+    role: "Player"
+    team: "Seattle Mariners"
+subset: "Bowman Sterling"
+card_name: "Julio Rodríguez - Bowman Sterling - Mini-Diamond Refractor"
+description: "Mini-Diamond Refractor parallel of Bowman Sterling card featuring Julio Rodríguez."
+series: "2026 Bowman"
+parallel: "Mini-Diamond Refractor"
+print_run: 150
+rookie_card: false
+autograph: false
+serial_numbered: true
+release_date: "2026-05-13"
+image_url: "https://example.com/cards/2026-bowman/bowman-sterling-BST-3-mini-diamond-refractor.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Bowman#Insertion_Ratios"

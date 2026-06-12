@@ -1,0 +1,23 @@
+number: "CPA-KG"
+uuid: "101e99e6-5a64-42df-9d79-9dac82e7211b"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-bowman"
+subjects:
+  - name: "Konnor Griffin"
+    role: "Player"
+    team: "Pittsburgh Pirates"
+subset: "Chrome Prospect Autographs"
+card_name: "Konnor Griffin - Chrome Prospect Autographs - Sunflower Seeds Refractor"
+description: "Sunflower Seeds Refractor parallel of Autographed Chrome Prospect Autographs card featuring Konnor Griffin."
+series: "2026 Bowman"
+parallel: "Sunflower Seeds Refractor"
+print_run: 5
+rookie_card: false
+autograph: true
+serial_numbered: true
+release_date: "2026-05-13"
+image_url: "https://example.com/cards/2026-bowman/chrome-prospect-autographs-CPA-KG-sunflower-seeds-refractor.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Bowman#Insertion_Ratios"

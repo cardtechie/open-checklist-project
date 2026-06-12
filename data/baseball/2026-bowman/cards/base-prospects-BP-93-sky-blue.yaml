@@ -1,0 +1,23 @@
+number: "BP-93"
+uuid: "bcf03731-4d62-43f6-a97a-4bdbe5410e8e"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-bowman"
+subjects:
+  - name: "Jorge Quintana"
+    role: "Player"
+    team: "San Diego Padres"
+subset: "Base Prospects"
+card_name: "Jorge Quintana - Base Prospects - Sky Blue"
+description: "Sky Blue parallel of Base Prospects card featuring Jorge Quintana."
+series: "2026 Bowman"
+parallel: "Sky Blue"
+print_run: 399
+rookie_card: false
+autograph: false
+serial_numbered: true
+release_date: "2026-05-13"
+image_url: "https://example.com/cards/2026-bowman/base-prospects-BP-93-sky-blue.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Bowman#Insertion_Ratios"

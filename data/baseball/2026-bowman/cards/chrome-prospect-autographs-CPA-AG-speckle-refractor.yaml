@@ -1,0 +1,23 @@
+number: "CPA-AG"
+uuid: "0b46b3ad-7381-484e-9dd9-0e03e346882a"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-bowman"
+subjects:
+  - name: "Adrian Gil"
+    role: "Player"
+    team: "Chicago White Sox"
+subset: "Chrome Prospect Autographs"
+card_name: "Adrian Gil - Chrome Prospect Autographs - Speckle Refractor"
+description: "Speckle Refractor parallel of Autographed Chrome Prospect Autographs card featuring Adrian Gil."
+series: "2026 Bowman"
+parallel: "Speckle Refractor"
+print_run: 299
+rookie_card: false
+autograph: true
+serial_numbered: true
+release_date: "2026-05-13"
+image_url: "https://example.com/cards/2026-bowman/chrome-prospect-autographs-CPA-AG-speckle-refractor.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Bowman#Insertion_Ratios"

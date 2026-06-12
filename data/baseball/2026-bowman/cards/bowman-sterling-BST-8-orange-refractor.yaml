@@ -1,0 +1,23 @@
+number: "BST-8"
+uuid: "1c2dd30a-e7f5-4b6b-9724-3a8c021c31ec"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-bowman"
+subjects:
+  - name: "Nolan McLean"
+    role: "Player"
+    team: "New York Mets"
+subset: "Bowman Sterling"
+card_name: "Nolan McLean - Bowman Sterling - Orange Refractor"
+description: "Orange Refractor parallel of Bowman Sterling card featuring Nolan McLean."
+series: "2026 Bowman"
+parallel: "Orange Refractor"
+print_run: 25
+rookie_card: false
+autograph: false
+serial_numbered: true
+release_date: "2026-05-13"
+image_url: "https://example.com/cards/2026-bowman/bowman-sterling-BST-8-orange-refractor.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Bowman#Insertion_Ratios"

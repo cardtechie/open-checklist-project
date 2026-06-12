@@ -1,0 +1,23 @@
+number: "CPA-TR"
+uuid: "51f70f89-1f9b-4b2a-ab20-7b4730fc63c9"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-bowman"
+subjects:
+  - name: "T.J. Rumfield"
+    role: "Player"
+    team: "New York Yankees"
+subset: "Chrome Prospect Autographs"
+card_name: "T.J. Rumfield - Chrome Prospect Autographs - SuperFractor"
+description: "SuperFractor parallel of Autographed Chrome Prospect Autographs card featuring T.J. Rumfield."
+series: "2026 Bowman"
+parallel: "SuperFractor"
+print_run: 1
+rookie_card: false
+autograph: true
+serial_numbered: true
+release_date: "2026-05-13"
+image_url: "https://example.com/cards/2026-bowman/chrome-prospect-autographs-CPA-TR-superfractor.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Bowman#Insertion_Ratios"

@@ -1,0 +1,23 @@
+number: "BST-9"
+uuid: "0c56d6dd-1051-485a-9720-34ce056a29ab"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-bowman"
+subjects:
+  - name: "Leo De Vries"
+    role: "Player"
+    team: "Athletics"
+subset: "Bowman Sterling"
+card_name: "Leo De Vries - Bowman Sterling - Autograph Red Refractor"
+description: "Autograph Red Refractor parallel of Bowman Sterling card featuring Leo De Vries."
+series: "2026 Bowman"
+parallel: "Autograph Red Refractor"
+print_run: 5
+rookie_card: false
+autograph: false
+serial_numbered: true
+release_date: "2026-05-13"
+image_url: "https://example.com/cards/2026-bowman/bowman-sterling-BST-9-autograph-red-refractor.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Bowman#Insertion_Ratios"

@@ -1,0 +1,23 @@
+number: "BST-7"
+uuid: "be3d2688-0f00-4e01-a8ec-4021341ec62d"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-bowman"
+subjects:
+  - name: "Konnor Griffin"
+    role: "Player"
+    team: "Pittsburgh Pirates"
+subset: "Bowman Sterling"
+card_name: "Konnor Griffin - Bowman Sterling - Aqua Refractor"
+description: "Aqua Refractor parallel of Bowman Sterling card featuring Konnor Griffin."
+series: "2026 Bowman"
+parallel: "Aqua Refractor"
+print_run: 125
+rookie_card: false
+autograph: false
+serial_numbered: true
+release_date: "2026-05-13"
+image_url: "https://example.com/cards/2026-bowman/bowman-sterling-BST-7-aqua-refractor.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Bowman#Insertion_Ratios"

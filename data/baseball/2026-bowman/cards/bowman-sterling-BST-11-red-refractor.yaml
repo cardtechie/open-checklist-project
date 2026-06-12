@@ -1,0 +1,23 @@
+number: "BST-11"
+uuid: "109d1fbc-2478-43d8-8bec-283e7593be5c"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-bowman"
+subjects:
+  - name: "Ethan Holliday"
+    role: "Player"
+    team: "Colorado Rockies"
+subset: "Bowman Sterling"
+card_name: "Ethan Holliday - Bowman Sterling - Red Refractor"
+description: "Red Refractor parallel of Bowman Sterling card featuring Ethan Holliday."
+series: "2026 Bowman"
+parallel: "Red Refractor"
+print_run: 5
+rookie_card: false
+autograph: false
+serial_numbered: true
+release_date: "2026-05-13"
+image_url: "https://example.com/cards/2026-bowman/bowman-sterling-BST-11-red-refractor.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Bowman#Insertion_Ratios"

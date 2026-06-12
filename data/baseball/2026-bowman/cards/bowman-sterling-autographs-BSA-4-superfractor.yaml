@@ -1,0 +1,23 @@
+number: "BSA-4"
+uuid: "826d5cb5-b7c2-4b42-b0c3-9139f1f37e1a"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-bowman"
+subjects:
+  - name: "Freddie Freeman"
+    role: "Player"
+    team: "Los Angeles Dodgers"
+subset: "Bowman Sterling Autographs"
+card_name: "Freddie Freeman - Bowman Sterling Autographs - SuperFractor"
+description: "SuperFractor parallel of Autographed Bowman Sterling Autographs card featuring Freddie Freeman."
+series: "2026 Bowman"
+parallel: "SuperFractor"
+print_run: 1
+rookie_card: false
+autograph: true
+serial_numbered: true
+release_date: "2026-05-13"
+image_url: "https://example.com/cards/2026-bowman/bowman-sterling-autographs-BSA-4-superfractor.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Bowman#Insertion_Ratios"

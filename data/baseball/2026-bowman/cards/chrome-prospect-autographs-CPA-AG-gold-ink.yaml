@@ -1,0 +1,23 @@
+number: "CPA-AG"
+uuid: "465110e2-a64a-4eae-a7d5-c3130da1dc49"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-bowman"
+subjects:
+  - name: "Adrian Gil"
+    role: "Player"
+    team: "Chicago White Sox"
+subset: "Chrome Prospect Autographs"
+card_name: "Adrian Gil - Chrome Prospect Autographs - Gold Ink"
+description: "Gold Ink parallel of Autographed Chrome Prospect Autographs card featuring Adrian Gil."
+series: "2026 Bowman"
+parallel: "Gold Ink"
+print_run: 15
+rookie_card: false
+autograph: true
+serial_numbered: true
+release_date: "2026-05-13"
+image_url: "https://example.com/cards/2026-bowman/chrome-prospect-autographs-CPA-AG-gold-ink.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Bowman#Insertion_Ratios"

@@ -1,0 +1,23 @@
+number: "CPA-RB"
+uuid: "68eebf93-ee5b-4af8-aed0-ed70bca46921"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-bowman"
+subjects:
+  - name: "Roldy Brito"
+    role: "Player"
+    team: "Colorado Rockies"
+subset: "Chrome Prospect Autographs"
+card_name: "Roldy Brito - Chrome Prospect Autographs - Gold Ink"
+description: "Gold Ink parallel of Autographed Chrome Prospect Autographs card featuring Roldy Brito."
+series: "2026 Bowman"
+parallel: "Gold Ink"
+print_run: 15
+rookie_card: false
+autograph: true
+serial_numbered: true
+release_date: "2026-05-13"
+image_url: "https://example.com/cards/2026-bowman/chrome-prospect-autographs-CPA-RB-gold-ink.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Bowman#Insertion_Ratios"

@@ -1,0 +1,23 @@
+number: "BST-2"
+uuid: "9a48f344-d620-4f51-9b6e-195e6c55e6c9"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-bowman"
+subjects:
+  - name: "Freddie Freeman"
+    role: "Player"
+    team: "Los Angeles Dodgers"
+subset: "Bowman Sterling"
+card_name: "Freddie Freeman - Bowman Sterling - Mega Chrome Black Refractor"
+description: "Mega Chrome Black Refractor parallel of Bowman Sterling card featuring Freddie Freeman."
+series: "2026 Bowman"
+parallel: "Mega Chrome Black Refractor"
+print_run: 10
+rookie_card: false
+autograph: false
+serial_numbered: true
+release_date: "2026-05-13"
+image_url: "https://example.com/cards/2026-bowman/bowman-sterling-BST-2-mega-chrome-black-refractor.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Bowman#Insertion_Ratios"

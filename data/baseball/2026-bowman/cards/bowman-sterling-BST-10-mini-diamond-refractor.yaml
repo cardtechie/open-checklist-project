@@ -1,0 +1,23 @@
+number: "BST-10"
+uuid: "5ce6fae8-dd24-45d2-b512-958e79c092df"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-bowman"
+subjects:
+  - name: "Chase Burns"
+    role: "Player"
+    team: "Cincinnati Reds"
+subset: "Bowman Sterling"
+card_name: "Chase Burns - Bowman Sterling - Mini-Diamond Refractor"
+description: "Mini-Diamond Refractor parallel of Bowman Sterling card featuring Chase Burns."
+series: "2026 Bowman"
+parallel: "Mini-Diamond Refractor"
+print_run: 150
+rookie_card: false
+autograph: false
+serial_numbered: true
+release_date: "2026-05-13"
+image_url: "https://example.com/cards/2026-bowman/bowman-sterling-BST-10-mini-diamond-refractor.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Bowman#Insertion_Ratios"

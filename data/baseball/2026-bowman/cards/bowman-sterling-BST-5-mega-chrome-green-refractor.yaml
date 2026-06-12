@@ -1,0 +1,23 @@
+number: "BST-5"
+uuid: "1ec2b8b3-0764-417a-bf4e-c1905fa4b8a7"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-bowman"
+subjects:
+  - name: "Max Clark"
+    role: "Player"
+    team: "Detroit Tigers"
+subset: "Bowman Sterling"
+card_name: "Max Clark - Bowman Sterling - Mega Chrome Green Refractor"
+description: "Mega Chrome Green Refractor parallel of Bowman Sterling card featuring Max Clark."
+series: "2026 Bowman"
+parallel: "Mega Chrome Green Refractor"
+print_run: 99
+rookie_card: false
+autograph: false
+serial_numbered: true
+release_date: "2026-05-13"
+image_url: "https://example.com/cards/2026-bowman/bowman-sterling-BST-5-mega-chrome-green-refractor.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Bowman#Insertion_Ratios"

@@ -1,0 +1,23 @@
+number: "CPA-DH"
+uuid: "0df26fa9-e314-46d5-8c77-8fb7ca05e537"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-bowman"
+subjects:
+  - name: "Dasan Hill"
+    role: "Player"
+    team: "Minnesota Twins"
+subset: "Chrome Prospect Autographs"
+card_name: "Dasan Hill - Chrome Prospect Autographs - Speckle Refractor"
+description: "Speckle Refractor parallel of Autographed Chrome Prospect Autographs card featuring Dasan Hill."
+series: "2026 Bowman"
+parallel: "Speckle Refractor"
+print_run: 299
+rookie_card: false
+autograph: true
+serial_numbered: true
+release_date: "2026-05-13"
+image_url: "https://example.com/cards/2026-bowman/chrome-prospect-autographs-CPA-DH-speckle-refractor.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Bowman#Insertion_Ratios"
