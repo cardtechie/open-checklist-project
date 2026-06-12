@@ -1,0 +1,23 @@
+number: "42"
+uuid: "c6072d3d-7490-4fea-abe3-ef1ecdd7d18e"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-panini-prizm-stars-stripes"
+subjects:
+  - name: "Camden Boehm"
+    role: "Player"
+    team: "USA Baseball"
+card_name: "Camden Boehm - Base - Prizms Orange Wave"
+description: "Prizms Orange Wave parallel of Base card featuring Camden Boehm."
+series: "2026 Panini Stars & Stripes Prizm"
+parallel: "Prizms Orange Wave"
+print_run: 75
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: true
+release_date: "2026-04-03"
+image_url: "https://example.com/cards/2026-panini-prizm-stars-stripes/42-prizms-orange-wave.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Panini_Stars_%26_Stripes_Prizm#Checklist"
