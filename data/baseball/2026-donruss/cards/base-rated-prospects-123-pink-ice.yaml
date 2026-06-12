@@ -1,0 +1,24 @@
+number: "123"
+uuid: "f349be40-e94c-431c-97e5-ce8315bbfb32"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "James Tibbs III"
+    role: "Player"
+    team: "Los Angeles Dodgers"
+subset: "Base - Rated Prospects"
+card_name: "James Tibbs III - Base - Rated Prospects - Pink Ice"
+description: "Pink Ice parallel of Base - Rated Prospects card featuring James Tibbs III."
+series: "2026 Donruss"
+parallel: "Pink Ice"
+print_run: 99
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: true
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/base-rated-prospects-123-pink-ice.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Donruss#Checklist"
