@@ -1,0 +1,23 @@
+number: "BP-1"
+uuid: "2aa6c769-0dc0-43a9-b3b2-8576167e9734"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-bowman"
+subjects:
+  - name: "Ethan Holliday"
+    role: "Player"
+    team: "Colorado Rockies"
+subset: "Base Prospects"
+card_name: "Ethan Holliday - Base Prospects - Yellow"
+description: "Yellow parallel of Base Prospects card featuring Ethan Holliday."
+series: "2026 Bowman"
+parallel: "Yellow"
+print_run: 75
+rookie_card: false
+autograph: false
+serial_numbered: true
+release_date: "2026-05-13"
+image_url: "https://example.com/cards/2026-bowman/base-prospects-BP-1-yellow.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Bowman#Insertion_Ratios"

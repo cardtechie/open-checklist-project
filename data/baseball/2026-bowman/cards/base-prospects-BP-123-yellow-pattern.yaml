@@ -1,0 +1,23 @@
+number: "BP-123"
+uuid: "12f22442-3a16-4cf6-bd15-c7811ed2b82d"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-bowman"
+subjects:
+  - name: "JR Ritchie"
+    role: "Player"
+    team: "Atlanta Braves"
+subset: "Base Prospects"
+card_name: "JR Ritchie - Base Prospects - Yellow Pattern"
+description: "Yellow Pattern parallel of Base Prospects card featuring JR Ritchie."
+series: "2026 Bowman"
+parallel: "Yellow Pattern"
+print_run: 75
+rookie_card: false
+autograph: false
+serial_numbered: true
+release_date: "2026-05-13"
+image_url: "https://example.com/cards/2026-bowman/base-prospects-BP-123-yellow-pattern.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Bowman#Insertion_Ratios"

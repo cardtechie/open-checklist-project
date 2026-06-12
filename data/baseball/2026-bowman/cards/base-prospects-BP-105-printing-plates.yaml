@@ -1,0 +1,23 @@
+number: "BP-105"
+uuid: "db9d8df3-1fb7-4a2a-86a9-b38dbbe62415"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-bowman"
+subjects:
+  - name: "Kade Snell"
+    role: "Player"
+    team: "Chicago Cubs"
+subset: "Base Prospects"
+card_name: "Kade Snell - Base Prospects - Printing Plates"
+description: "Printing Plates parallel of Base Prospects card featuring Kade Snell."
+series: "2026 Bowman"
+parallel: "Printing Plates"
+print_run: 4
+rookie_card: false
+autograph: false
+serial_numbered: true
+release_date: "2026-05-13"
+image_url: "https://example.com/cards/2026-bowman/base-prospects-BP-105-printing-plates.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Bowman#Insertion_Ratios"

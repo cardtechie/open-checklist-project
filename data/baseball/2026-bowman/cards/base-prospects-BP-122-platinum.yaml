@@ -1,0 +1,23 @@
+number: "BP-122"
+uuid: "f548a41d-6256-4069-a11c-70cd11d3cee3"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-bowman"
+subjects:
+  - name: "Sam Petersen"
+    role: "Player"
+    team: "Washington Nationals"
+subset: "Base Prospects"
+card_name: "Sam Petersen - Base Prospects - Platinum"
+description: "Platinum parallel of Base Prospects card featuring Sam Petersen."
+series: "2026 Bowman"
+parallel: "Platinum"
+print_run: 1
+rookie_card: false
+autograph: false
+serial_numbered: true
+release_date: "2026-05-13"
+image_url: "https://example.com/cards/2026-bowman/base-prospects-BP-122-platinum.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Bowman#Insertion_Ratios"

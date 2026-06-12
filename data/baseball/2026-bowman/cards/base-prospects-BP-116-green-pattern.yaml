@@ -1,0 +1,23 @@
+number: "BP-116"
+uuid: "7f3aea15-5abf-48c6-bf62-b58f14d165b7"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-bowman"
+subjects:
+  - name: "Dauri Fernandez"
+    role: "Player"
+    team: "Cleveland Guardians"
+subset: "Base Prospects"
+card_name: "Dauri Fernandez - Base Prospects - Green Pattern"
+description: "Green Pattern parallel of Base Prospects card featuring Dauri Fernandez."
+series: "2026 Bowman"
+parallel: "Green Pattern"
+print_run: 75
+rookie_card: false
+autograph: false
+serial_numbered: true
+release_date: "2026-05-13"
+image_url: "https://example.com/cards/2026-bowman/base-prospects-BP-116-green-pattern.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Bowman#Insertion_Ratios"

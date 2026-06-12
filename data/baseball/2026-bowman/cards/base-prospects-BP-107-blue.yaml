@@ -1,0 +1,23 @@
+number: "BP-107"
+uuid: "406e22b9-d9b4-4c07-a81a-cd616f020337"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-bowman"
+subjects:
+  - name: "Miguel Mendez"
+    role: "Player"
+    team: "San Diego Padres"
+subset: "Base Prospects"
+card_name: "Miguel Mendez - Base Prospects - Blue"
+description: "Blue parallel of Base Prospects card featuring Miguel Mendez."
+series: "2026 Bowman"
+parallel: "Blue"
+print_run: 150
+rookie_card: false
+autograph: false
+serial_numbered: true
+release_date: "2026-05-13"
+image_url: "https://example.com/cards/2026-bowman/base-prospects-BP-107-blue.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Bowman#Insertion_Ratios"

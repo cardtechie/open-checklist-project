@@ -1,0 +1,23 @@
+number: "BP-129"
+uuid: "5cffbc32-6895-4ada-b027-4e10e7685555"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-bowman"
+subjects:
+  - name: "Seaver King"
+    role: "Player"
+    team: "Washington Nationals"
+subset: "Base Prospects"
+card_name: "Seaver King - Base Prospects - Fuchsia"
+description: "Fuchsia parallel of Base Prospects card featuring Seaver King."
+series: "2026 Bowman"
+parallel: "Fuchsia"
+print_run: 250
+rookie_card: false
+autograph: false
+serial_numbered: true
+release_date: "2026-05-13"
+image_url: "https://example.com/cards/2026-bowman/base-prospects-BP-129-fuchsia.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Bowman#Insertion_Ratios"

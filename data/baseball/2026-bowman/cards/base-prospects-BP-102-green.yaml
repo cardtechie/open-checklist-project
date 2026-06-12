@@ -1,0 +1,23 @@
+number: "BP-102"
+uuid: "cf3745ba-ac17-4d18-9a0c-e883f6912a2f"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-bowman"
+subjects:
+  - name: "Eric Hartman"
+    role: "Player"
+    team: "Atlanta Braves"
+subset: "Base Prospects"
+card_name: "Eric Hartman - Base Prospects - Green"
+description: "Green parallel of Base Prospects card featuring Eric Hartman."
+series: "2026 Bowman"
+parallel: "Green"
+print_run: 99
+rookie_card: false
+autograph: false
+serial_numbered: true
+release_date: "2026-05-13"
+image_url: "https://example.com/cards/2026-bowman/base-prospects-BP-102-green.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Bowman#Insertion_Ratios"

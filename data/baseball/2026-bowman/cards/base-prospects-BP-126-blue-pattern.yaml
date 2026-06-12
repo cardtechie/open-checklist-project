@@ -1,0 +1,23 @@
+number: "BP-126"
+uuid: "6c865b6d-1b89-4b3f-8e89-8a2cf5db5004"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-bowman"
+subjects:
+  - name: "Gavin Fien"
+    role: "Player"
+    team: "Texas Rangers"
+subset: "Base Prospects"
+card_name: "Gavin Fien - Base Prospects - Blue Pattern"
+description: "Blue Pattern parallel of Base Prospects card featuring Gavin Fien."
+series: "2026 Bowman"
+parallel: "Blue Pattern"
+print_run: 99
+rookie_card: false
+autograph: false
+serial_numbered: true
+release_date: "2026-05-13"
+image_url: "https://example.com/cards/2026-bowman/base-prospects-BP-126-blue-pattern.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Bowman#Insertion_Ratios"

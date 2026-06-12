@@ -1,0 +1,23 @@
+number: "BP-13"
+uuid: "69c2907e-d360-4fc8-a3d5-0d77bedeadcd"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-bowman"
+subjects:
+  - name: "Blake Mitchell"
+    role: "Player"
+    team: "Kansas City Royals"
+subset: "Base Prospects"
+card_name: "Blake Mitchell - Base Prospects - Fuchsia"
+description: "Fuchsia parallel of Base Prospects card featuring Blake Mitchell."
+series: "2026 Bowman"
+parallel: "Fuchsia"
+print_run: 250
+rookie_card: false
+autograph: false
+serial_numbered: true
+release_date: "2026-05-13"
+image_url: "https://example.com/cards/2026-bowman/base-prospects-BP-13-fuchsia.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Bowman#Insertion_Ratios"

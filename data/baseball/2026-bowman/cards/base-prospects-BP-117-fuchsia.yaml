@@ -1,0 +1,23 @@
+number: "BP-117"
+uuid: "7f7f9b55-5771-4016-a6e3-3d84d79639f1"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-bowman"
+subjects:
+  - name: "Victor Figueroa"
+    role: "Player"
+    team: "Baltimore Orioles"
+subset: "Base Prospects"
+card_name: "Victor Figueroa - Base Prospects - Fuchsia"
+description: "Fuchsia parallel of Base Prospects card featuring Victor Figueroa."
+series: "2026 Bowman"
+parallel: "Fuchsia"
+print_run: 250
+rookie_card: false
+autograph: false
+serial_numbered: true
+release_date: "2026-05-13"
+image_url: "https://example.com/cards/2026-bowman/base-prospects-BP-117-fuchsia.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Bowman#Insertion_Ratios"

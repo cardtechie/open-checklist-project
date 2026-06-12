@@ -1,0 +1,23 @@
+number: "BP-134"
+uuid: "1dd110cf-2be4-4bb5-805c-5721af2893a2"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-bowman"
+subjects:
+  - name: "T.J. Rumfield"
+    role: "Player"
+    team: "New York Yankees"
+subset: "Base Prospects"
+card_name: "T.J. Rumfield - Base Prospects - Purple"
+description: "Purple parallel of Base Prospects card featuring T.J. Rumfield."
+series: "2026 Bowman"
+parallel: "Purple"
+print_run: 250
+rookie_card: false
+autograph: false
+serial_numbered: true
+release_date: "2026-05-13"
+image_url: "https://example.com/cards/2026-bowman/base-prospects-BP-134-purple.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Bowman#Insertion_Ratios"

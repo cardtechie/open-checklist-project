@@ -1,0 +1,23 @@
+number: "BP-101"
+uuid: "23fcf50e-ad59-4c02-ab2a-b65fa693b088"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-bowman"
+subjects:
+  - name: "Kehden Hettiger"
+    role: "Player"
+    team: "Philadelphia Phillies"
+subset: "Base Prospects"
+card_name: "Kehden Hettiger - Base Prospects - Gold"
+description: "Gold parallel of Base Prospects card featuring Kehden Hettiger."
+series: "2026 Bowman"
+parallel: "Gold"
+print_run: 50
+rookie_card: false
+autograph: false
+serial_numbered: true
+release_date: "2026-05-13"
+image_url: "https://example.com/cards/2026-bowman/base-prospects-BP-101-gold.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Bowman#Insertion_Ratios"

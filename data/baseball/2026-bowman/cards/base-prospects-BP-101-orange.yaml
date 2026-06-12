@@ -1,0 +1,23 @@
+number: "BP-101"
+uuid: "9d8e9eff-83b9-4084-8c2c-3cf2068b4f3b"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-bowman"
+subjects:
+  - name: "Kehden Hettiger"
+    role: "Player"
+    team: "Philadelphia Phillies"
+subset: "Base Prospects"
+card_name: "Kehden Hettiger - Base Prospects - Orange"
+description: "Orange parallel of Base Prospects card featuring Kehden Hettiger."
+series: "2026 Bowman"
+parallel: "Orange"
+print_run: 25
+rookie_card: false
+autograph: false
+serial_numbered: true
+release_date: "2026-05-13"
+image_url: "https://example.com/cards/2026-bowman/base-prospects-BP-101-orange.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Bowman#Insertion_Ratios"

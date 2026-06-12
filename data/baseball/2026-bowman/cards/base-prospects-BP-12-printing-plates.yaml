@@ -1,0 +1,23 @@
+number: "BP-12"
+uuid: "fc6cbe9e-d1f7-4642-aff9-403e2f508dcd"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-bowman"
+subjects:
+  - name: "Jase Mitchell"
+    role: "Player"
+    team: "Houston Astros"
+subset: "Base Prospects"
+card_name: "Jase Mitchell - Base Prospects - Printing Plates"
+description: "Printing Plates parallel of Base Prospects card featuring Jase Mitchell."
+series: "2026 Bowman"
+parallel: "Printing Plates"
+print_run: 4
+rookie_card: false
+autograph: false
+serial_numbered: true
+release_date: "2026-05-13"
+image_url: "https://example.com/cards/2026-bowman/base-prospects-BP-12-printing-plates.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Bowman#Insertion_Ratios"

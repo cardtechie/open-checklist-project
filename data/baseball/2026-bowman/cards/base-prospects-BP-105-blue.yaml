@@ -1,0 +1,23 @@
+number: "BP-105"
+uuid: "c19f2984-8f38-412c-be9d-819572fc5e89"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-bowman"
+subjects:
+  - name: "Kade Snell"
+    role: "Player"
+    team: "Chicago Cubs"
+subset: "Base Prospects"
+card_name: "Kade Snell - Base Prospects - Blue"
+description: "Blue parallel of Base Prospects card featuring Kade Snell."
+series: "2026 Bowman"
+parallel: "Blue"
+print_run: 150
+rookie_card: false
+autograph: false
+serial_numbered: true
+release_date: "2026-05-13"
+image_url: "https://example.com/cards/2026-bowman/base-prospects-BP-105-blue.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Bowman#Insertion_Ratios"

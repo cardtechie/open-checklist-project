@@ -1,0 +1,23 @@
+number: "BP-139"
+uuid: "6b1679c7-9606-4c91-9462-507abb0502d9"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-bowman"
+subjects:
+  - name: "Edgar Montero"
+    role: "Player"
+    team: "Athletics"
+subset: "Base Prospects"
+card_name: "Edgar Montero - Base Prospects - Blue"
+description: "Blue parallel of Base Prospects card featuring Edgar Montero."
+series: "2026 Bowman"
+parallel: "Blue"
+print_run: 150
+rookie_card: false
+autograph: false
+serial_numbered: true
+release_date: "2026-05-13"
+image_url: "https://example.com/cards/2026-bowman/base-prospects-BP-139-blue.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Bowman#Insertion_Ratios"

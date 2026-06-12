@@ -1,0 +1,23 @@
+number: "BP-12"
+uuid: "3f8534e6-5c0d-4d92-ae2f-915df1fc974d"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-bowman"
+subjects:
+  - name: "Jase Mitchell"
+    role: "Player"
+    team: "Houston Astros"
+subset: "Base Prospects"
+card_name: "Jase Mitchell - Base Prospects - Black"
+description: "Black parallel of Base Prospects card featuring Jase Mitchell."
+series: "2026 Bowman"
+parallel: "Black"
+print_run: 10
+rookie_card: false
+autograph: false
+serial_numbered: true
+release_date: "2026-05-13"
+image_url: "https://example.com/cards/2026-bowman/base-prospects-BP-12-black.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Bowman#Insertion_Ratios"

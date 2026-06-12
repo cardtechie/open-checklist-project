@@ -1,0 +1,22 @@
+number: "BP-108"
+uuid: "d6d8b0b8-c898-4b66-82df-e08de8fe6def"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-bowman"
+subjects:
+  - name: "Colt Emerson"
+    role: "Player"
+    team: "Seattle Mariners"
+subset: "Base Prospects"
+card_name: "Colt Emerson - Base Prospects - Bowman Logo"
+description: "Bowman Logo parallel of Base Prospects card featuring Colt Emerson."
+series: "2026 Bowman"
+parallel: "Bowman Logo"
+rookie_card: false
+autograph: false
+serial_numbered: false
+release_date: "2026-05-13"
+image_url: "https://example.com/cards/2026-bowman/base-prospects-BP-108-bowman-logo.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Bowman#Insertion_Ratios"

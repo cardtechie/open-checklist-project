@@ -1,0 +1,23 @@
+number: "BP-10"
+uuid: "c83af7c9-f7e8-47e7-a3d7-8581b1c27b8e"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-bowman"
+subjects:
+  - name: "Liam Doyle"
+    role: "Player"
+    team: "St. Louis Cardinals"
+subset: "Base Prospects"
+card_name: "Liam Doyle - Base Prospects - Blue Pattern"
+description: "Blue Pattern parallel of Base Prospects card featuring Liam Doyle."
+series: "2026 Bowman"
+parallel: "Blue Pattern"
+print_run: 99
+rookie_card: false
+autograph: false
+serial_numbered: true
+release_date: "2026-05-13"
+image_url: "https://example.com/cards/2026-bowman/base-prospects-BP-10-blue-pattern.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Bowman#Insertion_Ratios"

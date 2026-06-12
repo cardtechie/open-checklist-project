@@ -1,0 +1,23 @@
+number: "BP-117"
+uuid: "886b387d-41ef-46c2-890b-09feb37e3084"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-bowman"
+subjects:
+  - name: "Victor Figueroa"
+    role: "Player"
+    team: "Baltimore Orioles"
+subset: "Base Prospects"
+card_name: "Victor Figueroa - Base Prospects - Gold"
+description: "Gold parallel of Base Prospects card featuring Victor Figueroa."
+series: "2026 Bowman"
+parallel: "Gold"
+print_run: 50
+rookie_card: false
+autograph: false
+serial_numbered: true
+release_date: "2026-05-13"
+image_url: "https://example.com/cards/2026-bowman/base-prospects-BP-117-gold.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Bowman#Insertion_Ratios"

@@ -1,0 +1,23 @@
+number: "BP-104"
+uuid: "16d7870d-aaef-4ad2-bee1-10da885cea3b"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-bowman"
+subjects:
+  - name: "Henry Lalane"
+    role: "Player"
+    team: "New York Yankees"
+subset: "Base Prospects"
+card_name: "Henry Lalane - Base Prospects - Neon Green"
+description: "Neon Green parallel of Base Prospects card featuring Henry Lalane."
+series: "2026 Bowman"
+parallel: "Neon Green"
+print_run: 299
+rookie_card: false
+autograph: false
+serial_numbered: true
+release_date: "2026-05-13"
+image_url: "https://example.com/cards/2026-bowman/base-prospects-BP-104-neon-green.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Bowman#Insertion_Ratios"

@@ -1,0 +1,23 @@
+number: "BP-104"
+uuid: "7376cb3d-5abe-4a1b-9a9b-a34ea07265be"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-bowman"
+subjects:
+  - name: "Henry Lalane"
+    role: "Player"
+    team: "New York Yankees"
+subset: "Base Prospects"
+card_name: "Henry Lalane - Base Prospects - Purple Pattern"
+description: "Purple Pattern parallel of Base Prospects card featuring Henry Lalane."
+series: "2026 Bowman"
+parallel: "Purple Pattern"
+print_run: 175
+rookie_card: false
+autograph: false
+serial_numbered: true
+release_date: "2026-05-13"
+image_url: "https://example.com/cards/2026-bowman/base-prospects-BP-104-purple-pattern.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Bowman#Insertion_Ratios"
