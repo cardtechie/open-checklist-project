@@ -1,0 +1,23 @@
+number: "603"
+uuid: "5ca03b3a-f84f-48af-af24-e6c4e2c94b0f"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-topps-series-2"
+subjects:
+  - name: "George Valera"
+    role: "Player"
+    team: "Cleveland Guardians"
+card_name: "George Valera - Base - Canvas"
+description: "Canvas parallel of Base card featuring George Valera."
+series: "2026 Topps Baseball"
+parallel: "Canvas"
+print_run: 50
+rookie_card: true
+autograph: false
+relic: false
+serial_numbered: true
+release_date: "2026-06-11"
+image_url: "https://example.com/cards/2026-topps-series-2/603-canvas.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Topps#Insertion_Ratios"

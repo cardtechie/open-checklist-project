@@ -1,0 +1,23 @@
+number: "615"
+uuid: "40ad199f-1d98-4098-88f1-e6f3dddc2123"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-topps-series-2"
+subjects:
+  - name: "Taylor Rashi"
+    role: "Player"
+    team: "Arizona Diamondbacks"
+card_name: "Taylor Rashi - Base - Pink Holo"
+description: "Pink Holo parallel of Base card featuring Taylor Rashi."
+series: "2026 Topps Baseball"
+parallel: "Pink Holo"
+print_run: 800
+rookie_card: true
+autograph: false
+relic: false
+serial_numbered: true
+release_date: "2026-06-11"
+image_url: "https://example.com/cards/2026-topps-series-2/615-pink-holo.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Topps#Insertion_Ratios"

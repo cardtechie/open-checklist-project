@@ -1,0 +1,22 @@
+number: "600"
+uuid: "742fe9da-9a29-4deb-81df-5dfcb32c8825"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-topps-series-2"
+subjects:
+  - name: "Juan Soto"
+    role: "Player"
+    team: "New York Mets"
+card_name: "Juan Soto - Base - Rainbow Foil"
+description: "Rainbow Foil parallel of Base card featuring Juan Soto."
+series: "2026 Topps Baseball"
+parallel: "Rainbow Foil"
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: false
+release_date: "2026-06-11"
+image_url: "https://example.com/cards/2026-topps-series-2/600-rainbow-foil.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Topps#Insertion_Ratios"

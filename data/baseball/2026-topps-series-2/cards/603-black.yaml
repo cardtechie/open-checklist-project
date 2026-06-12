@@ -1,0 +1,23 @@
+number: "603"
+uuid: "c9463434-1b85-4705-b55c-b2df1ab203a2"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-topps-series-2"
+subjects:
+  - name: "George Valera"
+    role: "Player"
+    team: "Cleveland Guardians"
+card_name: "George Valera - Base - Black"
+description: "Black parallel of Base card featuring George Valera."
+series: "2026 Topps Baseball"
+parallel: "Black"
+print_run: 75
+rookie_card: true
+autograph: false
+relic: false
+serial_numbered: true
+release_date: "2026-06-11"
+image_url: "https://example.com/cards/2026-topps-series-2/603-black.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Topps#Insertion_Ratios"

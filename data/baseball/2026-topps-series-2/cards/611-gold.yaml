@@ -1,0 +1,23 @@
+number: "611"
+uuid: "30feeca9-dbb5-4f4e-97d8-30a64ca12de4"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-topps-series-2"
+subjects:
+  - name: "Paul Gervase"
+    role: "Player"
+    team: "Los Angeles Dodgers"
+card_name: "Paul Gervase - Base - Gold"
+description: "Gold parallel of Base card featuring Paul Gervase."
+series: "2026 Topps Baseball"
+parallel: "Gold"
+print_run: 2026
+rookie_card: true
+autograph: false
+relic: false
+serial_numbered: true
+release_date: "2026-06-11"
+image_url: "https://example.com/cards/2026-topps-series-2/611-gold.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Topps#Insertion_Ratios"

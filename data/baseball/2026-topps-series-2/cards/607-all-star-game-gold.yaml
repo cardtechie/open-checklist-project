@@ -1,0 +1,23 @@
+number: "607"
+uuid: "265b25c5-3dff-4a8c-9bff-7464b63e1a36"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-topps-series-2"
+subjects:
+  - name: "Cody Bellinger"
+    role: "Player"
+    team: "New York Yankees"
+card_name: "Cody Bellinger - Base - All-Star Game Gold"
+description: "All-Star Game Gold parallel of Base card featuring Cody Bellinger."
+series: "2026 Topps Baseball"
+parallel: "All-Star Game Gold"
+print_run: 50
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: true
+release_date: "2026-06-11"
+image_url: "https://example.com/cards/2026-topps-series-2/607-all-star-game-gold.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Topps#Insertion_Ratios"
