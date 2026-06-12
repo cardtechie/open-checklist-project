@@ -1,0 +1,23 @@
+number: "ES-23"
+uuid: "75102fd8-3c1f-4696-9533-7f01565a96fd"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-bowman"
+subjects:
+  - name: "Jac Caglianone"
+    role: "Player"
+    team: "Kansas City Royals"
+subset: "Electric Sluggers"
+card_name: "Jac Caglianone - Electric Sluggers - SuperFractor"
+description: "SuperFractor parallel of Electric Sluggers card featuring Jac Caglianone."
+series: "2026 Bowman"
+parallel: "SuperFractor"
+print_run: 1
+rookie_card: false
+autograph: false
+serial_numbered: true
+release_date: "2026-05-13"
+image_url: "https://example.com/cards/2026-bowman/electric-sluggers-ES-23-superfractor.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Bowman#Insertion_Ratios"

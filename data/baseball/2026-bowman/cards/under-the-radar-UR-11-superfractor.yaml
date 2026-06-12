@@ -1,0 +1,23 @@
+number: "UR-11"
+uuid: "322000ca-7523-420c-aa5d-12cedd2e5a97"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-bowman"
+subjects:
+  - name: "Sal Stewart"
+    role: "Player"
+    team: "Cincinnati Reds"
+subset: "Under The Radar"
+card_name: "Sal Stewart - Under The Radar - SuperFractor"
+description: "SuperFractor parallel of Under The Radar card featuring Sal Stewart."
+series: "2026 Bowman"
+parallel: "SuperFractor"
+print_run: 1
+rookie_card: false
+autograph: false
+serial_numbered: true
+release_date: "2026-05-13"
+image_url: "https://example.com/cards/2026-bowman/under-the-radar-UR-11-superfractor.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Bowman#Insertion_Ratios"

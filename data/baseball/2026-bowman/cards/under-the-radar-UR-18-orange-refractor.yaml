@@ -1,0 +1,23 @@
+number: "UR-18"
+uuid: "e0d76768-44a3-4151-aae0-5a75740043c6"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-bowman"
+subjects:
+  - name: "Caleb Bonemer"
+    role: "Player"
+    team: "Chicago White Sox"
+subset: "Under The Radar"
+card_name: "Caleb Bonemer - Under The Radar - Orange Refractor"
+description: "Orange Refractor parallel of Under The Radar card featuring Caleb Bonemer."
+series: "2026 Bowman"
+parallel: "Orange Refractor"
+print_run: 25
+rookie_card: false
+autograph: false
+serial_numbered: true
+release_date: "2026-05-13"
+image_url: "https://example.com/cards/2026-bowman/under-the-radar-UR-18-orange-refractor.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Bowman#Insertion_Ratios"

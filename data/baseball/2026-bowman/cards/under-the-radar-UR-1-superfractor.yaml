@@ -1,0 +1,23 @@
+number: "UR-1"
+uuid: "70f4aa0b-f643-4661-afc4-4e9e0278865b"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-bowman"
+subjects:
+  - name: "Kevin McGonigle"
+    role: "Player"
+    team: "Detroit Tigers"
+subset: "Under The Radar"
+card_name: "Kevin McGonigle - Under The Radar - SuperFractor"
+description: "SuperFractor parallel of Under The Radar card featuring Kevin McGonigle."
+series: "2026 Bowman"
+parallel: "SuperFractor"
+print_run: 1
+rookie_card: false
+autograph: false
+serial_numbered: true
+release_date: "2026-05-13"
+image_url: "https://example.com/cards/2026-bowman/under-the-radar-UR-1-superfractor.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Bowman#Insertion_Ratios"

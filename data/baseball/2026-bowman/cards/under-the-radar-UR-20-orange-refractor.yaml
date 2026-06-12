@@ -1,0 +1,23 @@
+number: "UR-20"
+uuid: "0b1b3912-91b6-4a10-a158-3233c3016c64"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-bowman"
+subjects:
+  - name: "Kaelen Culpepper"
+    role: "Player"
+    team: "Minnesota Twins"
+subset: "Under The Radar"
+card_name: "Kaelen Culpepper - Under The Radar - Orange Refractor"
+description: "Orange Refractor parallel of Under The Radar card featuring Kaelen Culpepper."
+series: "2026 Bowman"
+parallel: "Orange Refractor"
+print_run: 25
+rookie_card: false
+autograph: false
+serial_numbered: true
+release_date: "2026-05-13"
+image_url: "https://example.com/cards/2026-bowman/under-the-radar-UR-20-orange-refractor.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Bowman#Insertion_Ratios"

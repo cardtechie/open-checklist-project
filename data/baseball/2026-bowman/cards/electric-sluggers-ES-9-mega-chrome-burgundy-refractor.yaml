@@ -1,0 +1,23 @@
+number: "ES-9"
+uuid: "342e3f47-e08f-485e-9063-291203acf83e"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-bowman"
+subjects:
+  - name: "Elly De La Cruz"
+    role: "Player"
+    team: "Cincinnati Reds"
+subset: "Electric Sluggers"
+card_name: "Elly De La Cruz - Electric Sluggers - Mega Chrome Burgundy Refractor"
+description: "Mega Chrome Burgundy Refractor parallel of Electric Sluggers card featuring Elly De La Cruz."
+series: "2026 Bowman"
+parallel: "Mega Chrome Burgundy Refractor"
+print_run: 299
+rookie_card: false
+autograph: false
+serial_numbered: true
+release_date: "2026-05-13"
+image_url: "https://example.com/cards/2026-bowman/electric-sluggers-ES-9-mega-chrome-burgundy-refractor.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Bowman#Insertion_Ratios"

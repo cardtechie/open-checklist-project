@@ -1,0 +1,23 @@
+number: "ES-5"
+uuid: "233e099b-9a53-481e-bfab-87b9f9b2fec3"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-bowman"
+subjects:
+  - name: "Mookie Betts"
+    role: "Player"
+    team: "Los Angeles Dodgers"
+subset: "Electric Sluggers"
+card_name: "Mookie Betts - Electric Sluggers - Aqua Refractor"
+description: "Aqua Refractor parallel of Electric Sluggers card featuring Mookie Betts."
+series: "2026 Bowman"
+parallel: "Aqua Refractor"
+print_run: 125
+rookie_card: false
+autograph: false
+serial_numbered: true
+release_date: "2026-05-13"
+image_url: "https://example.com/cards/2026-bowman/electric-sluggers-ES-5-aqua-refractor.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Bowman#Insertion_Ratios"

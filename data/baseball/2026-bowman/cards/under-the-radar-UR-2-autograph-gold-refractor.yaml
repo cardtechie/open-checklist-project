@@ -1,0 +1,23 @@
+number: "UR-2"
+uuid: "fb992ad1-88d2-4961-8f30-7efeeaffb04f"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-bowman"
+subjects:
+  - name: "Cam Schlittler"
+    role: "Player"
+    team: "New York Yankees"
+subset: "Under The Radar"
+card_name: "Cam Schlittler - Under The Radar - Autograph Gold Refractor"
+description: "Autograph Gold Refractor parallel of Under The Radar card featuring Cam Schlittler."
+series: "2026 Bowman"
+parallel: "Autograph Gold Refractor"
+print_run: 50
+rookie_card: false
+autograph: false
+serial_numbered: true
+release_date: "2026-05-13"
+image_url: "https://example.com/cards/2026-bowman/under-the-radar-UR-2-autograph-gold-refractor.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Bowman#Insertion_Ratios"

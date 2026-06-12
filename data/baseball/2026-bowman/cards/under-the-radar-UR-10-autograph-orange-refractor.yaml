@@ -1,0 +1,23 @@
+number: "UR-10"
+uuid: "bfd5691d-572f-4fe8-bfa6-2f073524c80d"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-bowman"
+subjects:
+  - name: "Ryan Waldschmidt"
+    role: "Player"
+    team: "Arizona Diamondbacks"
+subset: "Under The Radar"
+card_name: "Ryan Waldschmidt - Under The Radar - Autograph Orange Refractor"
+description: "Autograph Orange Refractor parallel of Under The Radar card featuring Ryan Waldschmidt."
+series: "2026 Bowman"
+parallel: "Autograph Orange Refractor"
+print_run: 25
+rookie_card: false
+autograph: false
+serial_numbered: true
+release_date: "2026-05-13"
+image_url: "https://example.com/cards/2026-bowman/under-the-radar-UR-10-autograph-orange-refractor.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Bowman#Insertion_Ratios"

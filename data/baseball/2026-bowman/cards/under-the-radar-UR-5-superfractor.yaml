@@ -1,0 +1,23 @@
+number: "UR-5"
+uuid: "60787ded-d19d-40f0-9cda-50f86a9de150"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-bowman"
+subjects:
+  - name: "Franklin Arias"
+    role: "Player"
+    team: "Boston Red Sox"
+subset: "Under The Radar"
+card_name: "Franklin Arias - Under The Radar - SuperFractor"
+description: "SuperFractor parallel of Under The Radar card featuring Franklin Arias."
+series: "2026 Bowman"
+parallel: "SuperFractor"
+print_run: 1
+rookie_card: false
+autograph: false
+serial_numbered: true
+release_date: "2026-05-13"
+image_url: "https://example.com/cards/2026-bowman/under-the-radar-UR-5-superfractor.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Bowman#Insertion_Ratios"

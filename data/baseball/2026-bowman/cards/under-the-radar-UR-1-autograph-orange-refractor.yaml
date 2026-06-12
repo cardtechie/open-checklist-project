@@ -1,0 +1,23 @@
+number: "UR-1"
+uuid: "0ab5120b-f49f-4d16-b1ce-52803133eeff"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-bowman"
+subjects:
+  - name: "Kevin McGonigle"
+    role: "Player"
+    team: "Detroit Tigers"
+subset: "Under The Radar"
+card_name: "Kevin McGonigle - Under The Radar - Autograph Orange Refractor"
+description: "Autograph Orange Refractor parallel of Under The Radar card featuring Kevin McGonigle."
+series: "2026 Bowman"
+parallel: "Autograph Orange Refractor"
+print_run: 25
+rookie_card: false
+autograph: false
+serial_numbered: true
+release_date: "2026-05-13"
+image_url: "https://example.com/cards/2026-bowman/under-the-radar-UR-1-autograph-orange-refractor.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Bowman#Insertion_Ratios"

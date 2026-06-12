@@ -1,0 +1,23 @@
+number: "UR-8"
+uuid: "aa385faf-d92e-4d5d-8618-550dd63c0cd5"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-bowman"
+subjects:
+  - name: "Thomas White"
+    role: "Player"
+    team: "Miami Marlins"
+subset: "Under The Radar"
+card_name: "Thomas White - Under The Radar - Aqua Refractor"
+description: "Aqua Refractor parallel of Under The Radar card featuring Thomas White."
+series: "2026 Bowman"
+parallel: "Aqua Refractor"
+print_run: 125
+rookie_card: false
+autograph: false
+serial_numbered: true
+release_date: "2026-05-13"
+image_url: "https://example.com/cards/2026-bowman/under-the-radar-UR-8-aqua-refractor.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Bowman#Insertion_Ratios"

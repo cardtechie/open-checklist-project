@@ -1,0 +1,23 @@
+number: "ES-6"
+uuid: "0f34d576-747c-483e-8a14-71ee96a334fe"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-bowman"
+subjects:
+  - name: "Bryce Harper"
+    role: "Player"
+    team: "Philadelphia Phillies"
+subset: "Electric Sluggers"
+card_name: "Bryce Harper - Electric Sluggers - Mega Chrome Burgundy Refractor"
+description: "Mega Chrome Burgundy Refractor parallel of Electric Sluggers card featuring Bryce Harper."
+series: "2026 Bowman"
+parallel: "Mega Chrome Burgundy Refractor"
+print_run: 299
+rookie_card: false
+autograph: false
+serial_numbered: true
+release_date: "2026-05-13"
+image_url: "https://example.com/cards/2026-bowman/electric-sluggers-ES-6-mega-chrome-burgundy-refractor.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Bowman#Insertion_Ratios"

@@ -1,0 +1,23 @@
+number: "UR-5"
+uuid: "e0343bc7-8e75-4252-8352-e477af305918"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-bowman"
+subjects:
+  - name: "Franklin Arias"
+    role: "Player"
+    team: "Boston Red Sox"
+subset: "Under The Radar"
+card_name: "Franklin Arias - Under The Radar - Aqua Refractor"
+description: "Aqua Refractor parallel of Under The Radar card featuring Franklin Arias."
+series: "2026 Bowman"
+parallel: "Aqua Refractor"
+print_run: 125
+rookie_card: false
+autograph: false
+serial_numbered: true
+release_date: "2026-05-13"
+image_url: "https://example.com/cards/2026-bowman/under-the-radar-UR-5-aqua-refractor.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Bowman#Insertion_Ratios"

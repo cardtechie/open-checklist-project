@@ -1,0 +1,23 @@
+number: "UR-3"
+uuid: "348e10e7-b0d3-41b2-a659-c785c90bc9a3"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-bowman"
+subjects:
+  - name: "Jhonny Level"
+    role: "Player"
+    team: "San Francisco Giants"
+subset: "Under The Radar"
+card_name: "Jhonny Level - Under The Radar - Autograph Red Refractor"
+description: "Autograph Red Refractor parallel of Under The Radar card featuring Jhonny Level."
+series: "2026 Bowman"
+parallel: "Autograph Red Refractor"
+print_run: 5
+rookie_card: false
+autograph: false
+serial_numbered: true
+release_date: "2026-05-13"
+image_url: "https://example.com/cards/2026-bowman/under-the-radar-UR-3-autograph-red-refractor.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Bowman#Insertion_Ratios"

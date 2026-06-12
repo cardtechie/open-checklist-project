@@ -1,0 +1,23 @@
+number: "PC-8"
+uuid: "bd740e58-cdfe-405a-a2c6-67832db493d4"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-bowman"
+subjects:
+  - name: "Walker Jenkins"
+    role: "Player"
+    team: "Minnesota Twins"
+subset: "Power Chords"
+card_name: "Walker Jenkins - Power Chords - Autograph Orange Refractor"
+description: "Autograph Orange Refractor parallel of Power Chords card featuring Walker Jenkins."
+series: "2026 Bowman"
+parallel: "Autograph Orange Refractor"
+print_run: 25
+rookie_card: false
+autograph: false
+serial_numbered: true
+release_date: "2026-05-13"
+image_url: "https://example.com/cards/2026-bowman/power-chords-PC-8-autograph-orange-refractor.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Bowman#Insertion_Ratios"

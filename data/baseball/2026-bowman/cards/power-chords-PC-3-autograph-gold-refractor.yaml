@@ -1,0 +1,23 @@
+number: "PC-3"
+uuid: "c10a47a5-9a9d-4814-ab90-9bb6cb3f57a9"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-bowman"
+subjects:
+  - name: "Ronald Acuña Jr."
+    role: "Player"
+    team: "Atlanta Braves"
+subset: "Power Chords"
+card_name: "Ronald Acuña Jr. - Power Chords - Autograph Gold Refractor"
+description: "Autograph Gold Refractor parallel of Power Chords card featuring Ronald Acuña Jr.."
+series: "2026 Bowman"
+parallel: "Autograph Gold Refractor"
+print_run: 50
+rookie_card: false
+autograph: false
+serial_numbered: true
+release_date: "2026-05-13"
+image_url: "https://example.com/cards/2026-bowman/power-chords-PC-3-autograph-gold-refractor.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Bowman#Insertion_Ratios"

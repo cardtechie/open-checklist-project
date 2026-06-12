@@ -1,0 +1,23 @@
+number: "PC-4"
+uuid: "a878c923-8ed5-42a7-8fd8-efd176c52fda"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-bowman"
+subjects:
+  - name: "Jackson Chourio"
+    role: "Player"
+    team: "Milwaukee Brewers"
+subset: "Power Chords"
+card_name: "Jackson Chourio - Power Chords - Autograph Gold Refractor"
+description: "Autograph Gold Refractor parallel of Power Chords card featuring Jackson Chourio."
+series: "2026 Bowman"
+parallel: "Autograph Gold Refractor"
+print_run: 50
+rookie_card: false
+autograph: false
+serial_numbered: true
+release_date: "2026-05-13"
+image_url: "https://example.com/cards/2026-bowman/power-chords-PC-4-autograph-gold-refractor.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Bowman#Insertion_Ratios"

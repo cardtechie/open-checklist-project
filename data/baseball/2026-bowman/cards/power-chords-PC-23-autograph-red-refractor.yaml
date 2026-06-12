@@ -1,0 +1,23 @@
+number: "PC-23"
+uuid: "5881601b-a9f3-4c14-a67e-5cbc909f43e8"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-bowman"
+subjects:
+  - name: "Junior Caminero"
+    role: "Player"
+    team: "Tampa Bay Rays"
+subset: "Power Chords"
+card_name: "Junior Caminero - Power Chords - Autograph Red Refractor"
+description: "Autograph Red Refractor parallel of Power Chords card featuring Junior Caminero."
+series: "2026 Bowman"
+parallel: "Autograph Red Refractor"
+print_run: 5
+rookie_card: false
+autograph: false
+serial_numbered: true
+release_date: "2026-05-13"
+image_url: "https://example.com/cards/2026-bowman/power-chords-PC-23-autograph-red-refractor.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Bowman#Insertion_Ratios"

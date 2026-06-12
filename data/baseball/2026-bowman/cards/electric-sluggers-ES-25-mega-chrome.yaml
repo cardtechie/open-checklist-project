@@ -1,0 +1,22 @@
+number: "ES-25"
+uuid: "061dc197-0963-434f-a553-b592d123d937"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-bowman"
+subjects:
+  - name: "Mike Trout"
+    role: "Player"
+    team: "Los Angeles Angels"
+subset: "Electric Sluggers"
+card_name: "Mike Trout - Electric Sluggers - Mega Chrome"
+description: "Mega Chrome parallel of Electric Sluggers card featuring Mike Trout."
+series: "2026 Bowman"
+parallel: "Mega Chrome"
+rookie_card: false
+autograph: false
+serial_numbered: false
+release_date: "2026-05-13"
+image_url: "https://example.com/cards/2026-bowman/electric-sluggers-ES-25-mega-chrome.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Bowman#Insertion_Ratios"

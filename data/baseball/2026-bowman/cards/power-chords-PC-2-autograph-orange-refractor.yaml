@@ -1,0 +1,23 @@
+number: "PC-2"
+uuid: "200b3d1f-c7fa-4755-969f-05b621558d40"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-bowman"
+subjects:
+  - name: "Charlie Condon"
+    role: "Player"
+    team: "Colorado Rockies"
+subset: "Power Chords"
+card_name: "Charlie Condon - Power Chords - Autograph Orange Refractor"
+description: "Autograph Orange Refractor parallel of Power Chords card featuring Charlie Condon."
+series: "2026 Bowman"
+parallel: "Autograph Orange Refractor"
+print_run: 25
+rookie_card: false
+autograph: false
+serial_numbered: true
+release_date: "2026-05-13"
+image_url: "https://example.com/cards/2026-bowman/power-chords-PC-2-autograph-orange-refractor.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Bowman#Insertion_Ratios"

@@ -1,0 +1,23 @@
+number: "UR-5"
+uuid: "5c0bc82b-43d5-4cf7-beec-5871db5c8928"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-bowman"
+subjects:
+  - name: "Franklin Arias"
+    role: "Player"
+    team: "Boston Red Sox"
+subset: "Under The Radar"
+card_name: "Franklin Arias - Under The Radar - Gold Refractor"
+description: "Gold Refractor parallel of Under The Radar card featuring Franklin Arias."
+series: "2026 Bowman"
+parallel: "Gold Refractor"
+print_run: 50
+rookie_card: false
+autograph: false
+serial_numbered: true
+release_date: "2026-05-13"
+image_url: "https://example.com/cards/2026-bowman/under-the-radar-UR-5-gold-refractor.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Bowman#Insertion_Ratios"

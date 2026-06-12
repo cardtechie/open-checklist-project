@@ -1,0 +1,23 @@
+number: "UR-3"
+uuid: "7c1eadab-9136-4e08-bb28-d3a8e881c8a0"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-bowman"
+subjects:
+  - name: "Jhonny Level"
+    role: "Player"
+    team: "San Francisco Giants"
+subset: "Under The Radar"
+card_name: "Jhonny Level - Under The Radar - SuperFractor"
+description: "SuperFractor parallel of Under The Radar card featuring Jhonny Level."
+series: "2026 Bowman"
+parallel: "SuperFractor"
+print_run: 1
+rookie_card: false
+autograph: false
+serial_numbered: true
+release_date: "2026-05-13"
+image_url: "https://example.com/cards/2026-bowman/under-the-radar-UR-3-superfractor.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Bowman#Insertion_Ratios"

@@ -1,0 +1,23 @@
+number: "UTRA-4"
+uuid: "119a69aa-0451-41fb-a4a5-d13d2a548ca2"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-bowman"
+subjects:
+  - name: "Trey Yesavage"
+    role: "Player"
+    team: "Toronto Blue Jays"
+subset: "Under The Radar Autographs"
+card_name: "Trey Yesavage - Under The Radar Autographs - SuperFractor"
+description: "SuperFractor parallel of Autographed Under The Radar Autographs card featuring Trey Yesavage."
+series: "2026 Bowman"
+parallel: "SuperFractor"
+print_run: 1
+rookie_card: false
+autograph: true
+serial_numbered: true
+release_date: "2026-05-13"
+image_url: "https://example.com/cards/2026-bowman/under-the-radar-autographs-UTRA-4-superfractor.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Bowman#Insertion_Ratios"

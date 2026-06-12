@@ -1,0 +1,23 @@
+number: "PC-17"
+uuid: "19838fc5-a50a-40f3-a190-001c06ca6664"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-bowman"
+subjects:
+  - name: "Jac Caglianone"
+    role: "Player"
+    team: "Kansas City Royals"
+subset: "Power Chords"
+card_name: "Jac Caglianone - Power Chords - SuperFractor"
+description: "SuperFractor parallel of Power Chords card featuring Jac Caglianone."
+series: "2026 Bowman"
+parallel: "SuperFractor"
+print_run: 1
+rookie_card: false
+autograph: false
+serial_numbered: true
+release_date: "2026-05-13"
+image_url: "https://example.com/cards/2026-bowman/power-chords-PC-17-superfractor.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Bowman#Insertion_Ratios"

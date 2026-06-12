@@ -1,0 +1,23 @@
+number: "PC-12"
+uuid: "74cbe493-748b-44e5-ae24-5e8ce63c2bcb"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-bowman"
+subjects:
+  - name: "Juan Soto"
+    role: "Player"
+    team: "New York Mets"
+subset: "Power Chords"
+card_name: "Juan Soto - Power Chords - Autograph Orange Refractor"
+description: "Autograph Orange Refractor parallel of Power Chords card featuring Juan Soto."
+series: "2026 Bowman"
+parallel: "Autograph Orange Refractor"
+print_run: 25
+rookie_card: false
+autograph: false
+serial_numbered: true
+release_date: "2026-05-13"
+image_url: "https://example.com/cards/2026-bowman/power-chords-PC-12-autograph-orange-refractor.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Bowman#Insertion_Ratios"

@@ -1,0 +1,23 @@
+number: "PC-6"
+uuid: "d31ddbc9-68c5-467d-a1be-4d27acc6d118"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-bowman"
+subjects:
+  - name: "Nick Kurtz"
+    role: "Player"
+    team: "Athletics"
+subset: "Power Chords"
+card_name: "Nick Kurtz - Power Chords - SuperFractor"
+description: "SuperFractor parallel of Power Chords card featuring Nick Kurtz."
+series: "2026 Bowman"
+parallel: "SuperFractor"
+print_run: 1
+rookie_card: false
+autograph: false
+serial_numbered: true
+release_date: "2026-05-13"
+image_url: "https://example.com/cards/2026-bowman/power-chords-PC-6-superfractor.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Bowman#Insertion_Ratios"

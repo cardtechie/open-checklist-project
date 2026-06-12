@@ -1,0 +1,23 @@
+number: "UR-11"
+uuid: "bc9a2a19-0054-466e-851d-55fb273098ac"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-bowman"
+subjects:
+  - name: "Sal Stewart"
+    role: "Player"
+    team: "Cincinnati Reds"
+subset: "Under The Radar"
+card_name: "Sal Stewart - Under The Radar - Orange Refractor"
+description: "Orange Refractor parallel of Under The Radar card featuring Sal Stewart."
+series: "2026 Bowman"
+parallel: "Orange Refractor"
+print_run: 25
+rookie_card: false
+autograph: false
+serial_numbered: true
+release_date: "2026-05-13"
+image_url: "https://example.com/cards/2026-bowman/under-the-radar-UR-11-orange-refractor.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Bowman#Insertion_Ratios"

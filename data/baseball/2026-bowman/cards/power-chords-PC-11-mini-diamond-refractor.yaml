@@ -1,0 +1,23 @@
+number: "PC-11"
+uuid: "c0c43062-d832-4265-a480-73f6303c0d8b"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-bowman"
+subjects:
+  - name: "Shohei Ohtani"
+    role: "Player"
+    team: "Los Angeles Dodgers"
+subset: "Power Chords"
+card_name: "Shohei Ohtani - Power Chords - Mini-Diamond Refractor"
+description: "Mini-Diamond Refractor parallel of Power Chords card featuring Shohei Ohtani."
+series: "2026 Bowman"
+parallel: "Mini-Diamond Refractor"
+print_run: 150
+rookie_card: false
+autograph: false
+serial_numbered: true
+release_date: "2026-05-13"
+image_url: "https://example.com/cards/2026-bowman/power-chords-PC-11-mini-diamond-refractor.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Bowman#Insertion_Ratios"

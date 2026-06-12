@@ -1,0 +1,23 @@
+number: "ES-23"
+uuid: "949f2d13-91e8-49fe-ab89-ab766da1a152"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-bowman"
+subjects:
+  - name: "Jac Caglianone"
+    role: "Player"
+    team: "Kansas City Royals"
+subset: "Electric Sluggers"
+card_name: "Jac Caglianone - Electric Sluggers - Mega Chrome Purple Refractor"
+description: "Mega Chrome Purple Refractor parallel of Electric Sluggers card featuring Jac Caglianone."
+series: "2026 Bowman"
+parallel: "Mega Chrome Purple Refractor"
+print_run: 250
+rookie_card: false
+autograph: false
+serial_numbered: true
+release_date: "2026-05-13"
+image_url: "https://example.com/cards/2026-bowman/electric-sluggers-ES-23-mega-chrome-purple-refractor.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Bowman#Insertion_Ratios"

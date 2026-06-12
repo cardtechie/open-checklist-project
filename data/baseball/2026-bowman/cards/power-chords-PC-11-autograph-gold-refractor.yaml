@@ -1,0 +1,23 @@
+number: "PC-11"
+uuid: "5f2242b0-5318-4542-b8c4-fb0a8a959fa5"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-bowman"
+subjects:
+  - name: "Shohei Ohtani"
+    role: "Player"
+    team: "Los Angeles Dodgers"
+subset: "Power Chords"
+card_name: "Shohei Ohtani - Power Chords - Autograph Gold Refractor"
+description: "Autograph Gold Refractor parallel of Power Chords card featuring Shohei Ohtani."
+series: "2026 Bowman"
+parallel: "Autograph Gold Refractor"
+print_run: 50
+rookie_card: false
+autograph: false
+serial_numbered: true
+release_date: "2026-05-13"
+image_url: "https://example.com/cards/2026-bowman/power-chords-PC-11-autograph-gold-refractor.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Bowman#Insertion_Ratios"

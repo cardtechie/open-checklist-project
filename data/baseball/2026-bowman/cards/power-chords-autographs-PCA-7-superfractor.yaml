@@ -1,0 +1,23 @@
+number: "PCA-7"
+uuid: "c70126bb-c366-4d8e-828b-a0096e0eba44"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-bowman"
+subjects:
+  - name: "Cal Raleigh"
+    role: "Player"
+    team: "Seattle Mariners"
+subset: "Power Chords Autographs"
+card_name: "Cal Raleigh - Power Chords Autographs - SuperFractor"
+description: "SuperFractor parallel of Autographed Power Chords Autographs card featuring Cal Raleigh."
+series: "2026 Bowman"
+parallel: "SuperFractor"
+print_run: 1
+rookie_card: false
+autograph: true
+serial_numbered: true
+release_date: "2026-05-13"
+image_url: "https://example.com/cards/2026-bowman/power-chords-autographs-PCA-7-superfractor.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Bowman#Insertion_Ratios"

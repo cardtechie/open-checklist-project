@@ -1,0 +1,23 @@
+number: "UR-16"
+uuid: "e87d48a7-1faa-4084-9822-4f8d9933b305"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-bowman"
+subjects:
+  - name: "Samuel Basallo"
+    role: "Player"
+    team: "Baltimore Orioles"
+subset: "Under The Radar"
+card_name: "Samuel Basallo - Under The Radar - Autograph Gold Refractor"
+description: "Autograph Gold Refractor parallel of Under The Radar card featuring Samuel Basallo."
+series: "2026 Bowman"
+parallel: "Autograph Gold Refractor"
+print_run: 50
+rookie_card: false
+autograph: false
+serial_numbered: true
+release_date: "2026-05-13"
+image_url: "https://example.com/cards/2026-bowman/under-the-radar-UR-16-autograph-gold-refractor.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Bowman#Insertion_Ratios"

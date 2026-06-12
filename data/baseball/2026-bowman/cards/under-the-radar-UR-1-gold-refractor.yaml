@@ -1,0 +1,23 @@
+number: "UR-1"
+uuid: "19eca63c-02e8-47c8-b5da-24cd3c069602"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-bowman"
+subjects:
+  - name: "Kevin McGonigle"
+    role: "Player"
+    team: "Detroit Tigers"
+subset: "Under The Radar"
+card_name: "Kevin McGonigle - Under The Radar - Gold Refractor"
+description: "Gold Refractor parallel of Under The Radar card featuring Kevin McGonigle."
+series: "2026 Bowman"
+parallel: "Gold Refractor"
+print_run: 50
+rookie_card: false
+autograph: false
+serial_numbered: true
+release_date: "2026-05-13"
+image_url: "https://example.com/cards/2026-bowman/under-the-radar-UR-1-gold-refractor.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Bowman#Insertion_Ratios"

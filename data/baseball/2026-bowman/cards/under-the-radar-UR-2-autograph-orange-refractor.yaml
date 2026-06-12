@@ -1,0 +1,23 @@
+number: "UR-2"
+uuid: "0a682d66-5149-4c41-a534-15d2ce292386"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-bowman"
+subjects:
+  - name: "Cam Schlittler"
+    role: "Player"
+    team: "New York Yankees"
+subset: "Under The Radar"
+card_name: "Cam Schlittler - Under The Radar - Autograph Orange Refractor"
+description: "Autograph Orange Refractor parallel of Under The Radar card featuring Cam Schlittler."
+series: "2026 Bowman"
+parallel: "Autograph Orange Refractor"
+print_run: 25
+rookie_card: false
+autograph: false
+serial_numbered: true
+release_date: "2026-05-13"
+image_url: "https://example.com/cards/2026-bowman/under-the-radar-UR-2-autograph-orange-refractor.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Bowman#Insertion_Ratios"

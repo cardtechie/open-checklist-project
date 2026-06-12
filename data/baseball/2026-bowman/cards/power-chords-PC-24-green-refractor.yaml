@@ -1,0 +1,23 @@
+number: "PC-24"
+uuid: "d6c6199b-4813-41b5-8738-e047f2328bb7"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-bowman"
+subjects:
+  - name: "Mike Trout"
+    role: "Player"
+    team: "Los Angeles Angels"
+subset: "Power Chords"
+card_name: "Mike Trout - Power Chords - Green Refractor"
+description: "Green Refractor parallel of Power Chords card featuring Mike Trout."
+series: "2026 Bowman"
+parallel: "Green Refractor"
+print_run: 99
+rookie_card: false
+autograph: false
+serial_numbered: true
+release_date: "2026-05-13"
+image_url: "https://example.com/cards/2026-bowman/power-chords-PC-24-green-refractor.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Bowman#Insertion_Ratios"

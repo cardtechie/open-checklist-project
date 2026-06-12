@@ -1,0 +1,23 @@
+number: "PCA-6"
+uuid: "34630bc1-a99c-4cf7-b8fa-dc94e22acf26"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-bowman"
+subjects:
+  - name: "JJ Wetherholt"
+    role: "Player"
+    team: "St. Louis Cardinals"
+subset: "Power Chords Autographs"
+card_name: "JJ Wetherholt - Power Chords Autographs - SuperFractor"
+description: "SuperFractor parallel of Autographed Power Chords Autographs card featuring JJ Wetherholt."
+series: "2026 Bowman"
+parallel: "SuperFractor"
+print_run: 1
+rookie_card: false
+autograph: true
+serial_numbered: true
+release_date: "2026-05-13"
+image_url: "https://example.com/cards/2026-bowman/power-chords-autographs-PCA-6-superfractor.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Bowman#Insertion_Ratios"
