@@ -1,0 +1,23 @@
+number: "503"
+uuid: "3fa66886-515d-49be-a1d2-1d507c4cadb8"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-topps-series-2"
+subjects:
+  - name: "Munetaka Murakami"
+    role: "Player"
+    team: "Chicago White Sox"
+card_name: "Munetaka Murakami - Base - All-Star Game Green"
+description: "All-Star Game Green parallel of Base card featuring Munetaka Murakami."
+series: "2026 Topps Baseball"
+parallel: "All-Star Game Green"
+print_run: 99
+rookie_card: true
+autograph: false
+relic: false
+serial_numbered: true
+release_date: "2026-06-11"
+image_url: "https://example.com/cards/2026-topps-series-2/503-all-star-game-green.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Topps#Insertion_Ratios"

@@ -1,0 +1,23 @@
+number: "503"
+uuid: "86e00d79-ca72-431e-a642-f52367c9ab6c"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-topps-series-2"
+subjects:
+  - name: "Munetaka Murakami"
+    role: "Player"
+    team: "Chicago White Sox"
+card_name: "Munetaka Murakami - Base - Black"
+description: "Black parallel of Base card featuring Munetaka Murakami."
+series: "2026 Topps Baseball"
+parallel: "Black"
+print_run: 75
+rookie_card: true
+autograph: false
+relic: false
+serial_numbered: true
+release_date: "2026-06-11"
+image_url: "https://example.com/cards/2026-topps-series-2/503-black.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Topps#Insertion_Ratios"

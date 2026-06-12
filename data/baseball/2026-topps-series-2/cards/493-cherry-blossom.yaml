@@ -1,0 +1,23 @@
+number: "493"
+uuid: "1ff3c4c5-2c9d-4c2a-94fd-250b9e06fac7"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-topps-series-2"
+subjects:
+  - name: "George Kirby"
+    role: "Player"
+    team: "Seattle Mariners"
+card_name: "George Kirby - Base - Cherry Blossom"
+description: "Cherry Blossom parallel of Base card featuring George Kirby."
+series: "2026 Topps Baseball"
+parallel: "Cherry Blossom"
+print_run: 99
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: true
+release_date: "2026-06-11"
+image_url: "https://example.com/cards/2026-topps-series-2/493-cherry-blossom.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Topps#Insertion_Ratios"

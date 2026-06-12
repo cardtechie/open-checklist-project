@@ -1,0 +1,22 @@
+number: "500"
+uuid: "ea282c5b-f558-426e-ad67-ac03f6c7604d"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-topps-series-2"
+subjects:
+  - name: "Shohei Ohtani"
+    role: "Player"
+    team: "Los Angeles Dodgers"
+card_name: "Shohei Ohtani - Base - Aqua Rainbow Foil"
+description: "Aqua Rainbow Foil parallel of Base card featuring Shohei Ohtani."
+series: "2026 Topps Baseball"
+parallel: "Aqua Rainbow Foil"
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: false
+release_date: "2026-06-11"
+image_url: "https://example.com/cards/2026-topps-series-2/500-aqua-rainbow-foil.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Topps#Insertion_Ratios"

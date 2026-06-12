@@ -1,0 +1,23 @@
+number: "496"
+uuid: "dbd69e39-61a8-444b-85c6-82ecd7e095e6"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-topps-series-2"
+subjects:
+  - name: "San Francisco Giants"
+    role: "Team"
+    team: "San Francisco Giants"
+card_name: "San Francisco Giants - Base - Gold"
+description: "Gold parallel of Base card featuring San Francisco Giants."
+series: "2026 Topps Baseball"
+parallel: "Gold"
+print_run: 2026
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: true
+release_date: "2026-06-11"
+image_url: "https://example.com/cards/2026-topps-series-2/496-gold.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Topps#Insertion_Ratios"

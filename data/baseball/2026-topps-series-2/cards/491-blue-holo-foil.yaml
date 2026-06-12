@@ -1,0 +1,23 @@
+number: "491"
+uuid: "fd71c789-9392-41c5-b0ff-b0f6c2b45f7b"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-topps-series-2"
+subjects:
+  - name: "Minnesota Twins"
+    role: "Team"
+    team: "Minnesota Twins"
+card_name: "Minnesota Twins - Base - Blue Holo Foil"
+description: "Blue Holo Foil parallel of Base card featuring Minnesota Twins."
+series: "2026 Topps Baseball"
+parallel: "Blue Holo Foil"
+print_run: 150
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: true
+release_date: "2026-06-11"
+image_url: "https://example.com/cards/2026-topps-series-2/491-blue-holo-foil.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Topps#Insertion_Ratios"

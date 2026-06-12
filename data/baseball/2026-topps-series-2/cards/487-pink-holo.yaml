@@ -1,0 +1,23 @@
+number: "487"
+uuid: "f2160f48-b01c-4c2e-9fa0-4aa13954f70f"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-topps-series-2"
+subjects:
+  - name: "Jake Irvin"
+    role: "Player"
+    team: "Washington Nationals"
+card_name: "Jake Irvin - Base - Pink Holo"
+description: "Pink Holo parallel of Base card featuring Jake Irvin."
+series: "2026 Topps Baseball"
+parallel: "Pink Holo"
+print_run: 800
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: true
+release_date: "2026-06-11"
+image_url: "https://example.com/cards/2026-topps-series-2/487-pink-holo.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Topps#Insertion_Ratios"

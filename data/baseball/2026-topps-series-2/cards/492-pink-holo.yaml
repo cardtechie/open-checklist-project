@@ -1,0 +1,23 @@
+number: "492"
+uuid: "4515fc00-c12c-4b99-9356-cb25f502d756"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-topps-series-2"
+subjects:
+  - name: "Cleveland Guardians"
+    role: "Team"
+    team: "Cleveland Guardians"
+card_name: "Cleveland Guardians - Base - Pink Holo"
+description: "Pink Holo parallel of Base card featuring Cleveland Guardians."
+series: "2026 Topps Baseball"
+parallel: "Pink Holo"
+print_run: 800
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: true
+release_date: "2026-06-11"
+image_url: "https://example.com/cards/2026-topps-series-2/492-pink-holo.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Topps#Insertion_Ratios"

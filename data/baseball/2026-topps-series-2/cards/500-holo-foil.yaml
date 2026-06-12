@@ -1,0 +1,22 @@
+number: "500"
+uuid: "039f7e67-5f17-498f-b2c8-bfce2ffe5301"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-topps-series-2"
+subjects:
+  - name: "Shohei Ohtani"
+    role: "Player"
+    team: "Los Angeles Dodgers"
+card_name: "Shohei Ohtani - Base - Holo Foil"
+description: "Holo Foil parallel of Base card featuring Shohei Ohtani."
+series: "2026 Topps Baseball"
+parallel: "Holo Foil"
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: false
+release_date: "2026-06-11"
+image_url: "https://example.com/cards/2026-topps-series-2/500-holo-foil.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Topps#Insertion_Ratios"

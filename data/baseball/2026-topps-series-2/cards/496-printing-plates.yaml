@@ -1,0 +1,23 @@
+number: "496"
+uuid: "79ccd3ef-247d-4be2-b809-4fb0aad31bd6"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-topps-series-2"
+subjects:
+  - name: "San Francisco Giants"
+    role: "Team"
+    team: "San Francisco Giants"
+card_name: "San Francisco Giants - Base - Printing Plates"
+description: "Printing Plates parallel of Base card featuring San Francisco Giants."
+series: "2026 Topps Baseball"
+parallel: "Printing Plates"
+print_run: 4
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: true
+release_date: "2026-06-11"
+image_url: "https://example.com/cards/2026-topps-series-2/496-printing-plates.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Topps#Insertion_Ratios"

@@ -1,0 +1,23 @@
+number: "488"
+uuid: "a2f94e7c-28be-48d2-8ce0-4acb4756ecd6"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-topps-series-2"
+subjects:
+  - name: "Cincinnati Reds"
+    role: "Team"
+    team: "Cincinnati Reds"
+card_name: "Cincinnati Reds - Base - Sandglitter Gold"
+description: "Sandglitter Gold parallel of Base card featuring Cincinnati Reds."
+series: "2026 Topps Baseball"
+parallel: "Sandglitter Gold"
+print_run: 50
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: true
+release_date: "2026-06-11"
+image_url: "https://example.com/cards/2026-topps-series-2/488-sandglitter-gold.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Topps#Insertion_Ratios"

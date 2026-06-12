@@ -1,0 +1,23 @@
+number: "492"
+uuid: "29d1c380-ec8f-44a8-8e0e-5adcbe7a0bcd"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-topps-series-2"
+subjects:
+  - name: "Cleveland Guardians"
+    role: "Team"
+    team: "Cleveland Guardians"
+card_name: "Cleveland Guardians - Base - Gold Holo Foil"
+description: "Gold Holo Foil parallel of Base card featuring Cleveland Guardians."
+series: "2026 Topps Baseball"
+parallel: "Gold Holo Foil"
+print_run: 50
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: true
+release_date: "2026-06-11"
+image_url: "https://example.com/cards/2026-topps-series-2/492-gold-holo-foil.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Topps#Insertion_Ratios"
