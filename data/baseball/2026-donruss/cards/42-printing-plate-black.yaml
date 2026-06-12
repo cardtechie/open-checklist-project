@@ -1,0 +1,23 @@
+number: "42"
+uuid: "dcd210b7-b8c0-4e28-8c50-e411fb051b09"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "Tatsuya Imai"
+    role: "Player"
+    team: "Houston Astros"
+card_name: "Tatsuya Imai - Base - Printing Plate Black"
+description: "Printing Plate Black parallel of Base card featuring Tatsuya Imai."
+series: "2026 Donruss"
+parallel: "Printing Plate Black"
+print_run: 1
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: true
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/42-printing-plate-black.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Donruss#Checklist"

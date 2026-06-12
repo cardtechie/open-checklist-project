@@ -1,0 +1,23 @@
+number: "59"
+uuid: "b2227690-9b10-4d73-8dc9-a3dd6dbd6ba9"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "Alex Rodriguez"
+    role: "Player"
+    team: "Texas Rangers"
+card_name: "Alex Rodriguez - Base - Printing Plate Cyan"
+description: "Printing Plate Cyan parallel of Base card featuring Alex Rodriguez."
+series: "2026 Donruss"
+parallel: "Printing Plate Cyan"
+print_run: 1
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: true
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/59-printing-plate-cyan.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Donruss#Checklist"

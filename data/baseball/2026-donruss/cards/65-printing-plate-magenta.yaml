@@ -1,0 +1,23 @@
+number: "65"
+uuid: "4642ef22-3149-44b6-b131-6e89e7975ac5"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "Yogi Berra"
+    role: "Player"
+    team: "New York Yankees"
+card_name: "Yogi Berra - Base - Printing Plate Magenta"
+description: "Printing Plate Magenta parallel of Base card featuring Yogi Berra."
+series: "2026 Donruss"
+parallel: "Printing Plate Magenta"
+print_run: 1
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: true
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/65-printing-plate-magenta.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Donruss#Checklist"

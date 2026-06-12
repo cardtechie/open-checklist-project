@@ -1,0 +1,23 @@
+number: "97"
+uuid: "d3a045d5-93d8-4fbc-8134-847a37d8a902"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "Cameron Schlittler"
+    role: "Player"
+    team: "New York Yankees"
+card_name: "Cameron Schlittler - Base - Pink Ice"
+description: "Pink Ice parallel of Base card featuring Cameron Schlittler."
+series: "2026 Donruss"
+parallel: "Pink Ice"
+print_run: 99
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: true
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/97-pink-ice.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Donruss#Checklist"

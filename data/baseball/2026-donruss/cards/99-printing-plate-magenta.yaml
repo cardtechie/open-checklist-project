@@ -1,0 +1,23 @@
+number: "99"
+uuid: "8acce3a7-d3b7-4861-a2b2-3a56b086e888"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "Aaron Judge"
+    role: "Player"
+    team: "New York Yankees"
+card_name: "Aaron Judge - Base - Printing Plate Magenta"
+description: "Printing Plate Magenta parallel of Base card featuring Aaron Judge."
+series: "2026 Donruss"
+parallel: "Printing Plate Magenta"
+print_run: 1
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: true
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/99-printing-plate-magenta.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Donruss#Checklist"

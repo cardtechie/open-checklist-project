@@ -1,0 +1,23 @@
+number: "85"
+uuid: "4bf6346c-59e2-47ea-b3cf-d8676e1ab2c6"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "Chipper Jones"
+    role: "Player"
+    team: "Atlanta Braves"
+subset: "Base - Optic"
+card_name: "Chipper Jones - Base - Optic - Shock"
+description: "Shock parallel of Base - Optic card featuring Chipper Jones."
+series: "2026 Donruss"
+parallel: "Shock"
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: false
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/base-optic-85-shock.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Donruss#Checklist"

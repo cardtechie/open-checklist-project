@@ -1,0 +1,23 @@
+number: "60"
+uuid: "eceb48cf-22a6-4775-a879-e722e1bd5ee6"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "Sammy Sosa"
+    role: "Player"
+    team: "Chicago Cubs"
+card_name: "Sammy Sosa - Base - Printing Plate Yellow"
+description: "Printing Plate Yellow parallel of Base card featuring Sammy Sosa."
+series: "2026 Donruss"
+parallel: "Printing Plate Yellow"
+print_run: 1
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: true
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/60-printing-plate-yellow.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Donruss#Checklist"

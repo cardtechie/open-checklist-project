@@ -1,0 +1,23 @@
+number: "40"
+uuid: "0eef8b1d-60b2-458c-8043-23c847c8e2c4"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "Jace Jung"
+    role: "Player"
+    team: "Detroit Tigers"
+card_name: "Jace Jung - Base - Orange Laser"
+description: "Orange Laser parallel of Base card featuring Jace Jung."
+series: "2026 Donruss"
+parallel: "Orange Laser"
+print_run: 299
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: true
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/40-orange-laser.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Donruss#Checklist"

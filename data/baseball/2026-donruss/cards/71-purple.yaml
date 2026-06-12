@@ -1,0 +1,22 @@
+number: "71"
+uuid: "c6e15459-3800-48bf-9959-d62be8f15365"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "Elston Howard"
+    role: "Player"
+    team: "New York Yankees"
+card_name: "Elston Howard - Base - Purple"
+description: "Purple parallel of Base card featuring Elston Howard."
+series: "2026 Donruss"
+parallel: "Purple"
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: false
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/71-purple.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Donruss#Checklist"

@@ -1,0 +1,23 @@
+number: "73"
+uuid: "a7249976-bfd2-4058-bf74-ad53b00fad92"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "Satchel Paige"
+    role: "Player"
+    team: "St. Louis Browns"
+card_name: "Satchel Paige - Base - Pink Ice"
+description: "Pink Ice parallel of Base card featuring Satchel Paige."
+series: "2026 Donruss"
+parallel: "Pink Ice"
+print_run: 99
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: true
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/73-pink-ice.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Donruss#Checklist"

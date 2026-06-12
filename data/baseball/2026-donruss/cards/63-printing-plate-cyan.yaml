@@ -1,0 +1,23 @@
+number: "63"
+uuid: "4938e81d-1c05-46fc-bdf7-d78c5a0c5c9d"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "Pie Traynor"
+    role: "Player"
+    team: "Pittsburgh Pirates"
+card_name: "Pie Traynor - Base - Printing Plate Cyan"
+description: "Printing Plate Cyan parallel of Base card featuring Pie Traynor."
+series: "2026 Donruss"
+parallel: "Printing Plate Cyan"
+print_run: 1
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: true
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/63-printing-plate-cyan.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Donruss#Checklist"

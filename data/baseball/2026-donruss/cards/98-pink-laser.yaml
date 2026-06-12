@@ -1,0 +1,23 @@
+number: "98"
+uuid: "6c72f67d-f59c-45c3-b128-5550c555b7ec"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "Trevor Hoffman"
+    role: "Player"
+    team: "San Diego Padres"
+card_name: "Trevor Hoffman - Base - Pink Laser"
+description: "Pink Laser parallel of Base card featuring Trevor Hoffman."
+series: "2026 Donruss"
+parallel: "Pink Laser"
+print_run: 50
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: true
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/98-pink-laser.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Donruss#Checklist"

@@ -1,0 +1,23 @@
+number: "57"
+uuid: "2490d28e-8ba8-497e-9148-0b417e99c826"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "Roger Clemens"
+    role: "Player"
+    team: "Boston Red Sox"
+card_name: "Roger Clemens - Base - Printing Plate Cyan"
+description: "Printing Plate Cyan parallel of Base card featuring Roger Clemens."
+series: "2026 Donruss"
+parallel: "Printing Plate Cyan"
+print_run: 1
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: true
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/57-printing-plate-cyan.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Donruss#Checklist"
