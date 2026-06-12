@@ -1,0 +1,24 @@
+number: "PCA-DJ"
+uuid: "3b5d48eb-1548-448f-881c-2a181008ae04"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2025-26-topps-transcendent"
+subjects:
+  - name: "Derek Jeter"
+    role: "Player"
+    team: "New York Yankees"
+subset: "Transcendent Collection Patch Autographs"
+card_name: "Derek Jeter - Transcendent Collection Patch Autographs - Emerald"
+description: "Emerald parallel of Autographed Transcendent Collection Patch Autographs card featuring Derek Jeter."
+series: "Topps Transcendent"
+parallel: "Emerald"
+print_run: 5
+rookie_card: false
+autograph: true
+relic: true
+serial_numbered: true
+release_date: "2026-04-01"
+image_url: "https://example.com/cards/2025-26-topps-transcendent/transcendent-collection-patch-autographs-PCA-DJ-emerald.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2025-26_Topps_Transcendent#Checklist"

@@ -1,0 +1,24 @@
+number: "PCA-MT"
+uuid: "e2ce25cf-852e-46f7-bcb7-497b427b5f27"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2025-26-topps-transcendent"
+subjects:
+  - name: "Mike Trout"
+    role: "Player"
+    team: "Angels"
+subset: "Transcendent Collection Patch Autographs"
+card_name: "Mike Trout - Transcendent Collection Patch Autographs - Emerald"
+description: "Emerald parallel of Autographed Transcendent Collection Patch Autographs card featuring Mike Trout."
+series: "Topps Transcendent"
+parallel: "Emerald"
+print_run: 5
+rookie_card: false
+autograph: true
+relic: true
+serial_numbered: true
+release_date: "2026-04-01"
+image_url: "https://example.com/cards/2025-26-topps-transcendent/transcendent-collection-patch-autographs-PCA-MT-emerald.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2025-26_Topps_Transcendent#Checklist"

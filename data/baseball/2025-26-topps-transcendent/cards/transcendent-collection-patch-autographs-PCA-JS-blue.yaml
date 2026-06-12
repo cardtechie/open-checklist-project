@@ -1,0 +1,24 @@
+number: "PCA-JS"
+uuid: "fbc58519-3029-4fa8-ba56-b34ecb30f3e5"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2025-26-topps-transcendent"
+subjects:
+  - name: "Juan Soto"
+    role: "Player"
+    team: "New York Mets"
+subset: "Transcendent Collection Patch Autographs"
+card_name: "Juan Soto - Transcendent Collection Patch Autographs - Blue"
+description: "Blue parallel of Autographed Transcendent Collection Patch Autographs card featuring Juan Soto."
+series: "Topps Transcendent"
+parallel: "Blue"
+print_run: 10
+rookie_card: false
+autograph: true
+relic: true
+serial_numbered: true
+release_date: "2026-04-01"
+image_url: "https://example.com/cards/2025-26-topps-transcendent/transcendent-collection-patch-autographs-PCA-JS-blue.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2025-26_Topps_Transcendent#Checklist"

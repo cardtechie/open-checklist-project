@@ -1,0 +1,24 @@
+number: "PCA-JA"
+uuid: "412d3235-4b7e-4743-ae58-c7ece6d7f6e6"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2025-26-topps-transcendent"
+subjects:
+  - name: "Jose Altuve"
+    role: "Player"
+    team: "Houston Astros"
+subset: "Transcendent Collection Patch Autographs"
+card_name: "Jose Altuve - Transcendent Collection Patch Autographs - Blue"
+description: "Blue parallel of Autographed Transcendent Collection Patch Autographs card featuring Jose Altuve."
+series: "Topps Transcendent"
+parallel: "Blue"
+print_run: 10
+rookie_card: false
+autograph: true
+relic: true
+serial_numbered: true
+release_date: "2026-04-01"
+image_url: "https://example.com/cards/2025-26-topps-transcendent/transcendent-collection-patch-autographs-PCA-JA-blue.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2025-26_Topps_Transcendent#Checklist"

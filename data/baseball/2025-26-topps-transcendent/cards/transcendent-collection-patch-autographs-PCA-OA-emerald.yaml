@@ -1,0 +1,24 @@
+number: "PCA-OA"
+uuid: "d64d2a7c-e68a-4d14-881d-e180b0f961c3"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2025-26-topps-transcendent"
+subjects:
+  - name: "Ozzie Albies"
+    role: "Player"
+    team: "Atlanta Braves"
+subset: "Transcendent Collection Patch Autographs"
+card_name: "Ozzie Albies - Transcendent Collection Patch Autographs - Emerald"
+description: "Emerald parallel of Autographed Transcendent Collection Patch Autographs card featuring Ozzie Albies."
+series: "Topps Transcendent"
+parallel: "Emerald"
+print_run: 5
+rookie_card: false
+autograph: true
+relic: true
+serial_numbered: true
+release_date: "2026-04-01"
+image_url: "https://example.com/cards/2025-26-topps-transcendent/transcendent-collection-patch-autographs-PCA-OA-emerald.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2025-26_Topps_Transcendent#Checklist"

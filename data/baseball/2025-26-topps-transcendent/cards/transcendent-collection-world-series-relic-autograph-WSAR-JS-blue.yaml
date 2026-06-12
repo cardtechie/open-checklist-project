@@ -1,0 +1,24 @@
+number: "WSAR-JS"
+uuid: "2d10c311-ccbf-4d78-a67a-361223d9e39d"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2025-26-topps-transcendent"
+subjects:
+  - name: "Juan Soto"
+    role: "Player"
+    team: "New York Yankees"
+subset: "Transcendent Collection World Series Relic Autograph"
+card_name: "Juan Soto - Transcendent Collection World Series Relic Autograph - Blue"
+description: "Blue parallel of Autographed Transcendent Collection World Series Relic Autograph card featuring Juan Soto."
+series: "Topps Transcendent"
+parallel: "Blue"
+print_run: 10
+rookie_card: false
+autograph: true
+relic: true
+serial_numbered: true
+release_date: "2026-04-01"
+image_url: "https://example.com/cards/2025-26-topps-transcendent/transcendent-collection-world-series-relic-autograph-WSAR-JS-blue.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2025-26_Topps_Transcendent#Checklist"

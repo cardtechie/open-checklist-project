@@ -1,0 +1,24 @@
+number: "PCA-I"
+uuid: "35723c34-e6d8-44d7-b99a-bc29957f5f07"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2025-26-topps-transcendent"
+subjects:
+  - name: "Ichiro"
+    role: "Player"
+    team: "Seattle Mariners"
+subset: "Transcendent Collection Patch Autographs"
+card_name: "Ichiro - Transcendent Collection Patch Autographs - Platinum"
+description: "Platinum parallel of Autographed Transcendent Collection Patch Autographs card featuring Ichiro."
+series: "Topps Transcendent"
+parallel: "Platinum"
+print_run: 1
+rookie_card: false
+autograph: true
+relic: true
+serial_numbered: true
+release_date: "2026-04-01"
+image_url: "https://example.com/cards/2025-26-topps-transcendent/transcendent-collection-patch-autographs-PCA-I-platinum.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2025-26_Topps_Transcendent#Checklist"

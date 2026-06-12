@@ -1,0 +1,24 @@
+number: "PCA-APU"
+uuid: "2e5dbaa9-80df-4d5a-8e6d-5567ed78f3a9"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2025-26-topps-transcendent"
+subjects:
+  - name: "Albert Pujols"
+    role: "Player"
+    team: "Angels"
+subset: "Transcendent Collection Patch Autographs"
+card_name: "Albert Pujols - Transcendent Collection Patch Autographs - Blue"
+description: "Blue parallel of Autographed Transcendent Collection Patch Autographs card featuring Albert Pujols."
+series: "Topps Transcendent"
+parallel: "Blue"
+print_run: 10
+rookie_card: false
+autograph: true
+relic: true
+serial_numbered: true
+release_date: "2026-04-01"
+image_url: "https://example.com/cards/2025-26-topps-transcendent/transcendent-collection-patch-autographs-PCA-APU-blue.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2025-26_Topps_Transcendent#Checklist"

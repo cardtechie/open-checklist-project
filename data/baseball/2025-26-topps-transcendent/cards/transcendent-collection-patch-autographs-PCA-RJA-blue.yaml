@@ -1,0 +1,24 @@
+number: "PCA-RJA"
+uuid: "b0fb98da-4c03-42f4-b52f-1de67dac79d3"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2025-26-topps-transcendent"
+subjects:
+  - name: "Reggie Jackson"
+    role: "Player"
+    team: "California Angels"
+subset: "Transcendent Collection Patch Autographs"
+card_name: "Reggie Jackson - Transcendent Collection Patch Autographs - Blue"
+description: "Blue parallel of Autographed Transcendent Collection Patch Autographs card featuring Reggie Jackson."
+series: "Topps Transcendent"
+parallel: "Blue"
+print_run: 10
+rookie_card: false
+autograph: true
+relic: true
+serial_numbered: true
+release_date: "2026-04-01"
+image_url: "https://example.com/cards/2025-26-topps-transcendent/transcendent-collection-patch-autographs-PCA-RJA-blue.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2025-26_Topps_Transcendent#Checklist"
