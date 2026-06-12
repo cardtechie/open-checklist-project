@@ -1,0 +1,23 @@
+number: "463"
+uuid: "4a6d5a05-2422-4269-b630-3db48ada2222"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-topps-series-2"
+subjects:
+  - name: "Aaron Nola"
+    role: "Player"
+    team: "Philadelphia Phillies"
+card_name: "Aaron Nola - Base - Cherry Blossom"
+description: "Cherry Blossom parallel of Base card featuring Aaron Nola."
+series: "2026 Topps Baseball"
+parallel: "Cherry Blossom"
+print_run: 99
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: true
+release_date: "2026-06-11"
+image_url: "https://example.com/cards/2026-topps-series-2/463-cherry-blossom.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Topps#Insertion_Ratios"

@@ -1,0 +1,23 @@
+number: "448"
+uuid: "1861a012-e90c-4e5b-b784-c590df165f72"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-topps-series-2"
+subjects:
+  - name: "Jackson Chourio"
+    role: "Player"
+    team: "Milwaukee Brewers"
+card_name: "Jackson Chourio - Base - Independence Day"
+description: "Independence Day parallel of Base card featuring Jackson Chourio."
+series: "2026 Topps Baseball"
+parallel: "Independence Day"
+print_run: 76
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: true
+release_date: "2026-06-11"
+image_url: "https://example.com/cards/2026-topps-series-2/448-independence-day.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Topps#Insertion_Ratios"

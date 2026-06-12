@@ -1,0 +1,23 @@
+number: "451"
+uuid: "7fe1d9fc-f383-42cb-86d8-74962d198ea2"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-topps-series-2"
+subjects:
+  - name: "Jake Burger"
+    role: "Player"
+    team: "Texas Rangers"
+card_name: "Jake Burger - Base - All-Star Game Gold"
+description: "All-Star Game Gold parallel of Base card featuring Jake Burger."
+series: "2026 Topps Baseball"
+parallel: "All-Star Game Gold"
+print_run: 50
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: true
+release_date: "2026-06-11"
+image_url: "https://example.com/cards/2026-topps-series-2/451-all-star-game-gold.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Topps#Insertion_Ratios"

@@ -1,0 +1,23 @@
+number: "456"
+uuid: "d958db6e-7f89-4e60-8db8-63859de06d05"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-topps-series-2"
+subjects:
+  - name: "Justin Dean"
+    role: "Player"
+    team: "Chicago Cubs"
+card_name: "Justin Dean - Base - Black Diamante Foil"
+description: "Black Diamante Foil parallel of Base card featuring Justin Dean."
+series: "2026 Topps Baseball"
+parallel: "Black Diamante Foil"
+print_run: 10
+rookie_card: true
+autograph: false
+relic: false
+serial_numbered: true
+release_date: "2026-06-11"
+image_url: "https://example.com/cards/2026-topps-series-2/456-black-diamante-foil.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Topps#Insertion_Ratios"

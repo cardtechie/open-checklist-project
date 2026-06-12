@@ -1,0 +1,23 @@
+number: "455"
+uuid: "03ae376e-e1f2-4538-8ba1-87879f2a62c4"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-topps-series-2"
+subjects:
+  - name: "George Springer"
+    role: "Player"
+    team: "Toronto Blue Jays"
+card_name: "George Springer - Base - All-Star Game Gold"
+description: "All-Star Game Gold parallel of Base card featuring George Springer."
+series: "2026 Topps Baseball"
+parallel: "All-Star Game Gold"
+print_run: 50
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: true
+release_date: "2026-06-11"
+image_url: "https://example.com/cards/2026-topps-series-2/455-all-star-game-gold.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Topps#Insertion_Ratios"

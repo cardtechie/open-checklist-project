@@ -1,0 +1,23 @@
+number: "456"
+uuid: "1efa69a0-48bc-4b36-865e-b6d4e18e14e5"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-topps-series-2"
+subjects:
+  - name: "Justin Dean"
+    role: "Player"
+    team: "Chicago Cubs"
+card_name: "Justin Dean - Base - Green Holo Foil"
+description: "Green Holo Foil parallel of Base card featuring Justin Dean."
+series: "2026 Topps Baseball"
+parallel: "Green Holo Foil"
+print_run: 99
+rookie_card: true
+autograph: false
+relic: false
+serial_numbered: true
+release_date: "2026-06-11"
+image_url: "https://example.com/cards/2026-topps-series-2/456-green-holo-foil.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Topps#Insertion_Ratios"

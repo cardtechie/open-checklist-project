@@ -1,0 +1,22 @@
+number: "456"
+uuid: "10ad92d3-ecbd-4fcd-ac31-189964744473"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-topps-series-2"
+subjects:
+  - name: "Justin Dean"
+    role: "Player"
+    team: "Chicago Cubs"
+card_name: "Justin Dean - Base - Sandglitter"
+description: "Sandglitter parallel of Base card featuring Justin Dean."
+series: "2026 Topps Baseball"
+parallel: "Sandglitter"
+rookie_card: true
+autograph: false
+relic: false
+serial_numbered: false
+release_date: "2026-06-11"
+image_url: "https://example.com/cards/2026-topps-series-2/456-sandglitter.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Topps#Insertion_Ratios"

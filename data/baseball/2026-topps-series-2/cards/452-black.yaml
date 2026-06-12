@@ -1,0 +1,23 @@
+number: "452"
+uuid: "02c77fae-6f67-4f3c-a854-bb4139817b16"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-topps-series-2"
+subjects:
+  - name: "Nick Loftin"
+    role: "Player"
+    team: "Kansas City Royals"
+card_name: "Nick Loftin - Base - Black"
+description: "Black parallel of Base card featuring Nick Loftin."
+series: "2026 Topps Baseball"
+parallel: "Black"
+print_run: 75
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: true
+release_date: "2026-06-11"
+image_url: "https://example.com/cards/2026-topps-series-2/452-black.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Topps#Insertion_Ratios"
