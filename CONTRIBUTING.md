@@ -20,7 +20,8 @@ Thank you for helping improve the open trading card data ecosystem!
 To keep PRs reviewable and CI fast, scope each PR to a single concern:
 
 - **At most one set per PR — and keep that set whole.** A pull request should
-  cover no more than one set (`data/<genre>/<set-id>/`). Smaller changes are
+  cover no more than one set (`data/<sport>/<set-id>/`, e.g.
+  `data/baseball/2023-topps-series-1/`). Smaller changes are
   welcome too (fixing a card, adding a missing subset to an existing set). When
   you add a set, include all of its subsets, parallels, variations, inserts,
   autographs, and relics in the same PR — keep a set whole rather than splitting
@@ -51,12 +52,14 @@ others — not one-off scripts tailored to a single import:
 Large, machine-generated checklists are welcome, with a few expectations:
 
 - Submit them **one set at a time** (see above).
-- Record where the data came from, in the data itself: a `metadata.source_name`
-  / `source_url` on the set, and per-card `external_links` pointing to the
-  source. Raw source files (e.g. spreadsheets) should **not** be committed —
-  keep them out via `.gitignore`.
+- Record where the data came from, in the data itself: `metadata.source_name`
+  and `metadata.source_url` on the set, and per-card `external_links` pointing
+  to the source. Raw source files (e.g. spreadsheets) should **not** be
+  committed — keep them out via `.gitignore`.
 - Generated parallels and variations are accepted on a best-effort basis. As an
   open-data project, accuracy is refined over time through follow-up corrections,
   so initial imports do not need every record independently verified.
 - Use real `image_url`s where available; omit the field rather than committing
-  placeholder URLs.
+  placeholder URLs (e.g. `https://example.com/...`). Some existing data still
+  carries such placeholders; these are cleaned up incrementally as real image
+  URLs become available.
