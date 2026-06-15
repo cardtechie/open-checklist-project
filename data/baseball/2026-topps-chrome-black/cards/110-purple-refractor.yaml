@@ -1,0 +1,23 @@
+number: "110"
+uuid: "d51bc423-a2b0-4fe2-9a76-33b061f68aa2"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-topps-chrome-black"
+subjects:
+  - name: "Jasson Domínguez"
+    role: "Player"
+    team: "New York Yankees"
+card_name: "Jasson Domínguez - Base - Purple Refractor"
+description: "Purple Refractor parallel of Base card featuring Jasson Domínguez."
+series: "2026 Topps Chrome Black"
+parallel: "Purple Refractor"
+print_run: 75
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: true
+release_date: "2026-04-29"
+image_url: "https://example.com/cards/2026-topps-chrome-black/110-purple-refractor.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Topps_Chrome_Black#Insertion_Ratios"

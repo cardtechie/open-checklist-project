@@ -1,0 +1,23 @@
+number: "12"
+uuid: "ce89cff2-3905-44ea-a614-b9c3f8947237"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-topps-chrome-black"
+subjects:
+  - name: "Alex Bregman"
+    role: "Player"
+    team: "Boston Red Sox"
+card_name: "Alex Bregman - Base - Gold Refractor"
+description: "Gold Refractor parallel of Base card featuring Alex Bregman."
+series: "2026 Topps Chrome Black"
+parallel: "Gold Refractor"
+print_run: 50
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: true
+release_date: "2026-04-29"
+image_url: "https://example.com/cards/2026-topps-chrome-black/12-gold-refractor.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Topps_Chrome_Black#Insertion_Ratios"

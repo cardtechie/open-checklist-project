@@ -1,0 +1,23 @@
+number: "98"
+uuid: "c5720703-599c-42f6-8a31-694bf9c087c5"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-topps-chrome-black"
+subjects:
+  - name: "Cam Schlittler"
+    role: "Player"
+    team: "New York Yankees"
+card_name: "Cam Schlittler - Base - Purple Refractor"
+description: "Purple Refractor parallel of Base card featuring Cam Schlittler."
+series: "2026 Topps Chrome Black"
+parallel: "Purple Refractor"
+print_run: 75
+rookie_card: true
+autograph: false
+relic: false
+serial_numbered: true
+release_date: "2026-04-29"
+image_url: "https://example.com/cards/2026-topps-chrome-black/98-purple-refractor.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Topps_Chrome_Black#Insertion_Ratios"

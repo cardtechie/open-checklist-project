@@ -1,0 +1,23 @@
+number: "99"
+uuid: "3c174520-f713-4ae8-8c08-f29fb4dc9bfd"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-topps-chrome-black"
+subjects:
+  - name: "Jimmy Crooks"
+    role: "Player"
+    team: "St. Louis Cardinals"
+card_name: "Jimmy Crooks - Base - Blue Refractor"
+description: "Blue Refractor parallel of Base card featuring Jimmy Crooks."
+series: "2026 Topps Chrome Black"
+parallel: "Blue Refractor"
+print_run: 150
+rookie_card: true
+autograph: false
+relic: false
+serial_numbered: true
+release_date: "2026-04-29"
+image_url: "https://example.com/cards/2026-topps-chrome-black/99-blue-refractor.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Topps_Chrome_Black#Insertion_Ratios"

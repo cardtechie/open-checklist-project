@@ -1,0 +1,24 @@
+number: "SFA-BM"
+uuid: "9345513e-c080-4d11-8512-b6ba4b22114b"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-topps-chrome-black"
+subjects:
+  - name: "Brice Matthews"
+    role: "Player"
+    team: "Houston Astros"
+subset: "Super Futures Autographs"
+card_name: "Brice Matthews - Super Futures Autographs - SuperFractor"
+description: "SuperFractor parallel of Autographed Super Futures Autographs card featuring Brice Matthews."
+series: "2026 Topps Chrome Black"
+parallel: "SuperFractor"
+print_run: 1
+rookie_card: false
+autograph: true
+relic: false
+serial_numbered: true
+release_date: "2026-04-29"
+image_url: "https://example.com/cards/2026-topps-chrome-black/super-futures-autographs-SFA-BM-superfractor.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Topps_Chrome_Black#Insertion_Ratios"

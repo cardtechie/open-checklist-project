@@ -1,0 +1,24 @@
+number: "DAM-12"
+uuid: "f4bee8d5-e569-4878-8409-77b6c695b180"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-topps-chrome-black"
+subjects:
+  - name: "Francisco Lindor"
+    role: "Player"
+    team: "New York Mets"
+subset: "Damascus"
+card_name: "Francisco Lindor - Damascus - SuperFractor"
+description: "SuperFractor parallel of Damascus card featuring Francisco Lindor."
+series: "2026 Topps Chrome Black"
+parallel: "SuperFractor"
+print_run: 1
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: true
+release_date: "2026-04-29"
+image_url: "https://example.com/cards/2026-topps-chrome-black/damascus-DAM-12-superfractor.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Topps_Chrome_Black#Insertion_Ratios"

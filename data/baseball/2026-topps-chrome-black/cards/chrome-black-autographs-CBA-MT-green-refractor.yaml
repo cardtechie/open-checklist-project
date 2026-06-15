@@ -1,0 +1,24 @@
+number: "CBA-MT"
+uuid: "69d33e59-804c-4cae-9fb3-7470b64cf297"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-topps-chrome-black"
+subjects:
+  - name: "Mike Trout"
+    role: "Player"
+    team: "Los Angeles Angels"
+subset: "Chrome Black Autographs"
+card_name: "Mike Trout - Chrome Black Autographs - Green Refractor"
+description: "Green Refractor parallel of Autographed Chrome Black Autographs card featuring Mike Trout."
+series: "2026 Topps Chrome Black"
+parallel: "Green Refractor"
+print_run: 99
+rookie_card: false
+autograph: true
+relic: false
+serial_numbered: true
+release_date: "2026-04-29"
+image_url: "https://example.com/cards/2026-topps-chrome-black/chrome-black-autographs-CBA-MT-green-refractor.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Topps_Chrome_Black#Insertion_Ratios"

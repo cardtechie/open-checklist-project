@@ -1,0 +1,23 @@
+number: "97"
+uuid: "b204c786-2af0-4f26-98ff-590403b64386"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-topps-chrome-black"
+subjects:
+  - name: "Connelly Early"
+    role: "Player"
+    team: "Boston Red Sox"
+card_name: "Connelly Early - Base - Gold Refractor"
+description: "Gold Refractor parallel of Base card featuring Connelly Early."
+series: "2026 Topps Chrome Black"
+parallel: "Gold Refractor"
+print_run: 50
+rookie_card: true
+autograph: false
+relic: false
+serial_numbered: true
+release_date: "2026-04-29"
+image_url: "https://example.com/cards/2026-topps-chrome-black/97-gold-refractor.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Topps_Chrome_Black#Insertion_Ratios"

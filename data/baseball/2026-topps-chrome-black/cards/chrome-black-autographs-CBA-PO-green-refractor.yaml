@@ -1,0 +1,24 @@
+number: "CBA-PO"
+uuid: "4a074153-b715-488e-845f-d7ec004916b1"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-topps-chrome-black"
+subjects:
+  - name: "Paul O'Neill"
+    role: "Player"
+    team: "New York Yankees"
+subset: "Chrome Black Autographs"
+card_name: "Paul O'Neill - Chrome Black Autographs - Green Refractor"
+description: "Green Refractor parallel of Autographed Chrome Black Autographs card featuring Paul O'Neill."
+series: "2026 Topps Chrome Black"
+parallel: "Green Refractor"
+print_run: 99
+rookie_card: false
+autograph: true
+relic: false
+serial_numbered: true
+release_date: "2026-04-29"
+image_url: "https://example.com/cards/2026-topps-chrome-black/chrome-black-autographs-CBA-PO-green-refractor.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Topps_Chrome_Black#Insertion_Ratios"

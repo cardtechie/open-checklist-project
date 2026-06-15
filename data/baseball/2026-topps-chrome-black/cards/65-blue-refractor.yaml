@@ -1,0 +1,23 @@
+number: "65"
+uuid: "da2a8f93-611f-4b1e-aa92-63a822a48e23"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-topps-chrome-black"
+subjects:
+  - name: "Nolan McLean"
+    role: "Player"
+    team: "New York Mets"
+card_name: "Nolan McLean - Base - Blue Refractor"
+description: "Blue Refractor parallel of Base card featuring Nolan McLean."
+series: "2026 Topps Chrome Black"
+parallel: "Blue Refractor"
+print_run: 150
+rookie_card: true
+autograph: false
+relic: false
+serial_numbered: true
+release_date: "2026-04-29"
+image_url: "https://example.com/cards/2026-topps-chrome-black/65-blue-refractor.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Topps_Chrome_Black#Insertion_Ratios"

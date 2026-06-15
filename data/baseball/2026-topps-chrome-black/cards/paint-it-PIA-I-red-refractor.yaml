@@ -1,0 +1,24 @@
+number: "PIA-I"
+uuid: "4a25f84a-dacb-43ad-ad4b-66a2f5aa0307"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-topps-chrome-black"
+subjects:
+  - name: "Ichiro"
+    role: "Player"
+    team: "Seattle Mariners"
+subset: "Paint It"
+card_name: "Ichiro - Paint It - Red Refractor"
+description: "Red Refractor parallel of Paint It card featuring Ichiro."
+series: "2026 Topps Chrome Black"
+parallel: "Red Refractor"
+print_run: 5
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: true
+release_date: "2026-04-29"
+image_url: "https://example.com/cards/2026-topps-chrome-black/paint-it-PIA-I-red-refractor.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Topps_Chrome_Black#Insertion_Ratios"

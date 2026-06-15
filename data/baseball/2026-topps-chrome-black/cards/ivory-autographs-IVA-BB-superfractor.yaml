@@ -1,0 +1,24 @@
+number: "IVA-BB"
+uuid: "f53a567e-5af7-4549-a0d4-7bdbc8906519"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-topps-chrome-black"
+subjects:
+  - name: "Barry Bonds"
+    role: "Player"
+    team: "San Francisco Giants"
+subset: "Ivory Autographs"
+card_name: "Barry Bonds - Ivory Autographs - SuperFractor"
+description: "SuperFractor parallel of Autographed Ivory Autographs card featuring Barry Bonds."
+series: "2026 Topps Chrome Black"
+parallel: "SuperFractor"
+print_run: 1
+rookie_card: false
+autograph: true
+relic: false
+serial_numbered: true
+release_date: "2026-04-29"
+image_url: "https://example.com/cards/2026-topps-chrome-black/ivory-autographs-IVA-BB-superfractor.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Topps_Chrome_Black#Insertion_Ratios"

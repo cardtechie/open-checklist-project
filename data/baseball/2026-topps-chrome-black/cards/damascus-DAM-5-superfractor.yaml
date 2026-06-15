@@ -1,0 +1,24 @@
+number: "DAM-5"
+uuid: "59d19872-40fa-4d8c-864b-f0f566e7642e"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-topps-chrome-black"
+subjects:
+  - name: "Juan Soto"
+    role: "Player"
+    team: "New York Mets"
+subset: "Damascus"
+card_name: "Juan Soto - Damascus - SuperFractor"
+description: "SuperFractor parallel of Damascus card featuring Juan Soto."
+series: "2026 Topps Chrome Black"
+parallel: "SuperFractor"
+print_run: 1
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: true
+release_date: "2026-04-29"
+image_url: "https://example.com/cards/2026-topps-chrome-black/damascus-DAM-5-superfractor.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Topps_Chrome_Black#Insertion_Ratios"

@@ -1,0 +1,24 @@
+number: "DAM-20"
+uuid: "f58a904f-4db3-4876-b6ea-1131f86dfd02"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-topps-chrome-black"
+subjects:
+  - name: "Kyle Teel"
+    role: "Player"
+    team: "Chicago White Sox"
+subset: "Damascus"
+card_name: "Kyle Teel - Damascus - SuperFractor"
+description: "SuperFractor parallel of Damascus card featuring Kyle Teel."
+series: "2026 Topps Chrome Black"
+parallel: "SuperFractor"
+print_run: 1
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: true
+release_date: "2026-04-29"
+image_url: "https://example.com/cards/2026-topps-chrome-black/damascus-DAM-20-superfractor.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Topps_Chrome_Black#Insertion_Ratios"

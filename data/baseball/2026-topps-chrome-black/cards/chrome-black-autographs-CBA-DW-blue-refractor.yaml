@@ -1,0 +1,24 @@
+number: "CBA-DW"
+uuid: "e32bdac7-97a1-438c-a263-a9bc4e101d2f"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-topps-chrome-black"
+subjects:
+  - name: "Dave Winfield"
+    role: "Player"
+    team: "San Diego Padres"
+subset: "Chrome Black Autographs"
+card_name: "Dave Winfield - Chrome Black Autographs - Blue Refractor"
+description: "Blue Refractor parallel of Autographed Chrome Black Autographs card featuring Dave Winfield."
+series: "2026 Topps Chrome Black"
+parallel: "Blue Refractor"
+print_run: 150
+rookie_card: false
+autograph: true
+relic: false
+serial_numbered: true
+release_date: "2026-04-29"
+image_url: "https://example.com/cards/2026-topps-chrome-black/chrome-black-autographs-CBA-DW-blue-refractor.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Topps_Chrome_Black#Insertion_Ratios"

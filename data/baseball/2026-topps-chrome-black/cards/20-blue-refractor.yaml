@@ -1,0 +1,23 @@
+number: "20"
+uuid: "cc65439f-ad4b-408a-8f1d-65c8ce98b716"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-topps-chrome-black"
+subjects:
+  - name: "Teoscar Hernández"
+    role: "Player"
+    team: "Los Angeles Dodgers"
+card_name: "Teoscar Hernández - Base - Blue Refractor"
+description: "Blue Refractor parallel of Base card featuring Teoscar Hernández."
+series: "2026 Topps Chrome Black"
+parallel: "Blue Refractor"
+print_run: 150
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: true
+release_date: "2026-04-29"
+image_url: "https://example.com/cards/2026-topps-chrome-black/20-blue-refractor.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Topps_Chrome_Black#Insertion_Ratios"

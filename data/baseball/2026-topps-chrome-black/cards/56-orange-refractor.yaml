@@ -1,0 +1,23 @@
+number: "56"
+uuid: "5e28c5d0-6ab1-4362-8db5-b93b1b98d800"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-topps-chrome-black"
+subjects:
+  - name: "Roman Anthony"
+    role: "Player"
+    team: "Boston Red Sox"
+card_name: "Roman Anthony - Base - Orange Refractor"
+description: "Orange Refractor parallel of Base card featuring Roman Anthony."
+series: "2026 Topps Chrome Black"
+parallel: "Orange Refractor"
+print_run: 25
+rookie_card: true
+autograph: false
+relic: false
+serial_numbered: true
+release_date: "2026-04-29"
+image_url: "https://example.com/cards/2026-topps-chrome-black/56-orange-refractor.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Topps_Chrome_Black#Insertion_Ratios"
