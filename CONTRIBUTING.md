@@ -19,9 +19,14 @@ Thank you for helping improve the open trading card data ecosystem!
 
 To keep PRs reviewable and CI fast, scope each PR to a single concern:
 
-- **One set per PR.** Add or update exactly one set (`data/<genre>/<set-id>/`) per
-  pull request. Do not bundle multiple sets together — a single PR spanning many
-  sets and tens of thousands of files cannot be meaningfully reviewed.
+- **At most one set per PR — and keep that set whole.** A pull request should
+  cover no more than one set (`data/<genre>/<set-id>/`). Smaller changes are
+  welcome too (fixing a card, adding a missing subset to an existing set). When
+  you add a set, include all of its subsets, parallels, variations, inserts,
+  autographs, and relics in the same PR — keep a set whole rather than splitting
+  it across PRs by subset. Do not bundle *multiple* sets together — a single PR
+  spanning many sets and tens of thousands of files cannot be meaningfully
+  reviewed.
 - **Keep tooling separate from data.** Changes to `/tools` or `/schemas` go in
   their own PR, not mixed with data additions. Open an issue first for new tooling.
 - **Rebase, don't merge.** Keep your branch's history linear; avoid merge commits
