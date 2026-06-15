@@ -51,10 +51,10 @@ others — not one-off scripts tailored to a single import:
 Large, machine-generated checklists are welcome, with a few expectations:
 
 - Submit them **one set at a time** (see above).
-- Record provenance in the data itself: a `metadata.source_name` / `source_url`
-  on the set, and per-card `external_links` pointing to the source. Raw source
-  files (e.g. spreadsheets) should **not** be committed — keep them out via
-  `.gitignore`.
+- Record where the data came from, in the data itself: a `metadata.source_name`
+  / `source_url` on the set, and per-card `external_links` pointing to the
+  source. Raw source files (e.g. spreadsheets) should **not** be committed —
+  keep them out via `.gitignore`.
 - Generated parallels and variations are accepted on a best-effort basis. As an
   open-data project, accuracy is refined over time through follow-up corrections,
   so initial imports do not need every record independently verified.
