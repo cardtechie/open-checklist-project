@@ -1,0 +1,23 @@
+number: "89"
+uuid: "73ffde3b-2dbe-423f-b1d1-8fbdd4e72963"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "Kristian Campbell"
+    role: "Player"
+    team: "Boston Red Sox"
+card_name: "Kristian Campbell - Base - Pink Ice"
+description: "Pink Ice parallel of Base card featuring Kristian Campbell."
+series: "2026 Donruss"
+parallel: "Pink Ice"
+print_run: 99
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: true
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/89-pink-ice.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Donruss#Checklist"

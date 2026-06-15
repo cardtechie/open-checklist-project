@@ -1,0 +1,24 @@
+number: "24"
+uuid: "d18b23d4-d4fc-46e8-a21e-0ef24f42e392"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "Nolan Schanuel"
+    role: "Player"
+    team: "Los Angeles Angels"
+subset: "Signature Series"
+card_name: "Nolan Schanuel - Signature Series - Gold Laser"
+description: "Gold Laser parallel of Autographed Signature Series card featuring Nolan Schanuel."
+series: "2026 Donruss"
+parallel: "Gold Laser"
+print_run: 10
+rookie_card: false
+autograph: true
+relic: false
+serial_numbered: true
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/signature-series-24-gold-laser.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Donruss#Checklist"

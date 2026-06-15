@@ -1,0 +1,22 @@
+number: "75"
+uuid: "68b5283a-0532-4e19-aa7c-702b1a0d2b58"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "Don Mattingly"
+    role: "Player"
+    team: "New York Yankees"
+card_name: "Don Mattingly - Base - Purple"
+description: "Purple parallel of Base card featuring Don Mattingly."
+series: "2026 Donruss"
+parallel: "Purple"
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: false
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/75-purple.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Donruss#Checklist"

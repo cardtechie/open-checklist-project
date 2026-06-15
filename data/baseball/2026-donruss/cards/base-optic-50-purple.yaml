@@ -1,0 +1,24 @@
+number: "50"
+uuid: "21378571-bc85-4e66-8f22-196122d2851d"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "Rickey Henderson"
+    role: "Player"
+    team: "Oakland A's"
+subset: "Base - Optic"
+card_name: "Rickey Henderson - Base - Optic - Purple"
+description: "Purple parallel of Base - Optic card featuring Rickey Henderson."
+series: "2026 Donruss"
+parallel: "Purple"
+print_run: 49
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: true
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/base-optic-50-purple.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Donruss#Checklist"

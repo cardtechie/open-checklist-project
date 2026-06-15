@@ -1,0 +1,24 @@
+number: "15"
+uuid: "f079906b-4424-42f1-b053-238232e8fc46"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "Sung-Mun Song"
+    role: "Player"
+    team: "San Diego Padres"
+subset: "Base - Optic"
+card_name: "Sung-Mun Song - Base - Optic - Red"
+description: "Red parallel of Base - Optic card featuring Sung-Mun Song."
+series: "2026 Donruss"
+parallel: "Red"
+print_run: 99
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: true
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/base-optic-15-red.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Donruss#Checklist"

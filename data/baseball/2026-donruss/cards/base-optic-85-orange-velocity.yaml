@@ -1,0 +1,23 @@
+number: "85"
+uuid: "652a1a26-35d7-4b91-b5a4-0deaf3b3ef98"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "Chipper Jones"
+    role: "Player"
+    team: "Atlanta Braves"
+subset: "Base - Optic"
+card_name: "Chipper Jones - Base - Optic - Orange Velocity"
+description: "Orange Velocity parallel of Base - Optic card featuring Chipper Jones."
+series: "2026 Donruss"
+parallel: "Orange Velocity"
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: false
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/base-optic-85-orange-velocity.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Donruss#Checklist"

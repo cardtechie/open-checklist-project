@@ -1,0 +1,23 @@
+number: "65"
+uuid: "17c17c85-a8c6-4ba5-acf2-23611db66053"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "Yogi Berra"
+    role: "Player"
+    team: "New York Yankees"
+card_name: "Yogi Berra - Base - Black"
+description: "Black parallel of Base card featuring Yogi Berra."
+series: "2026 Donruss"
+parallel: "Black"
+print_run: 1
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: true
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/65-black.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Donruss#Checklist"

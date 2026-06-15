@@ -1,0 +1,22 @@
+number: "27"
+uuid: "6fb8ecb0-d442-463b-ac1e-6b4f4c4d3d8d"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "Deion Sanders"
+    role: "Player"
+    team: "Cincinnati Reds"
+card_name: "Deion Sanders - Base - Yellow Flood"
+description: "Yellow Flood parallel of Base card featuring Deion Sanders."
+series: "2026 Donruss"
+parallel: "Yellow Flood"
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: false
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/27-yellow-flood.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Donruss#Checklist"

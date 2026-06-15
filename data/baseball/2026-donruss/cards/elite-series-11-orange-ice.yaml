@@ -1,0 +1,24 @@
+number: "11"
+uuid: "44aad66f-10b1-4a6a-96ab-0b43dfbd42ba"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "Robinson Cano"
+    role: "Player"
+    team: "New York Yankees"
+subset: "Elite Series"
+card_name: "Robinson Cano - Elite Series - Orange Ice"
+description: "Orange Ice parallel of Elite Series card featuring Robinson Cano."
+series: "2026 Donruss"
+parallel: "Orange Ice"
+print_run: 75
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: true
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/elite-series-11-orange-ice.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Donruss#Checklist"

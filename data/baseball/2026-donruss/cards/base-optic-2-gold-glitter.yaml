@@ -1,0 +1,24 @@
+number: "2"
+uuid: "c75bb0c9-5198-40ff-b9e6-55b85c2a5d20"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "Johnny Bench"
+    role: "Player"
+    team: "Cincinnati Reds"
+subset: "Base - Optic"
+card_name: "Johnny Bench - Base - Optic - Gold Glitter"
+description: "Gold Glitter parallel of Base - Optic card featuring Johnny Bench."
+series: "2026 Donruss"
+parallel: "Gold Glitter"
+print_run: 4
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: true
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/base-optic-2-gold-glitter.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Donruss#Checklist"

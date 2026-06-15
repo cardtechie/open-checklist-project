@@ -1,0 +1,24 @@
+number: "45"
+uuid: "1573090b-c91b-448d-a54d-613632734eab"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "Jose Canseco"
+    role: "Player"
+    team: "Oakland A's"
+subset: "Base - Optic"
+card_name: "Jose Canseco - Base - Optic - Green"
+description: "Green parallel of Base - Optic card featuring Jose Canseco."
+series: "2026 Donruss"
+parallel: "Green"
+print_run: 5
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: true
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/base-optic-45-green.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Donruss#Checklist"

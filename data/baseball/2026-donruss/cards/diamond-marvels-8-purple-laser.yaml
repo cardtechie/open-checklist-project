@@ -1,0 +1,24 @@
+number: "8"
+uuid: "03dd19f4-7e36-4ae9-91f3-54f797a2e41a"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "Jackson Chourio"
+    role: "Player"
+    team: "Milwaukee Brewers"
+subset: "Diamond Marvels"
+card_name: "Jackson Chourio - Diamond Marvels - Purple Laser"
+description: "Purple Laser parallel of Diamond Marvels card featuring Jackson Chourio."
+series: "2026 Donruss"
+parallel: "Purple Laser"
+print_run: 15
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: true
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/diamond-marvels-8-purple-laser.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Donruss#Checklist"

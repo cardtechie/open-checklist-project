@@ -1,0 +1,22 @@
+number: "16"
+uuid: "64376dc9-0be7-4788-b698-a0206278b9d8"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "Ozzie Smith"
+    role: "Player"
+    team: "St. Louis Cardinals"
+card_name: "Ozzie Smith - Base - Green Laser"
+description: "Green Laser parallel of Base card featuring Ozzie Smith."
+series: "2026 Donruss"
+parallel: "Green Laser"
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: false
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/16-green-laser.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Donruss#Checklist"

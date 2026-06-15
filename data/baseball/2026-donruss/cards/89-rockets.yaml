@@ -1,0 +1,22 @@
+number: "89"
+uuid: "d6feed92-03fa-4c6d-8b40-dabd29329bed"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "Kristian Campbell"
+    role: "Player"
+    team: "Boston Red Sox"
+card_name: "Kristian Campbell - Base - Rockets"
+description: "Rockets parallel of Base card featuring Kristian Campbell."
+series: "2026 Donruss"
+parallel: "Rockets"
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: false
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/89-rockets.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Donruss#Checklist"

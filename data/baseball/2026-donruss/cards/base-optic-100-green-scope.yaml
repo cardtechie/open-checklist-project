@@ -1,0 +1,24 @@
+number: "100"
+uuid: "2f9080e3-ca74-4b15-b7ee-4e1bd332c699"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "James Wood"
+    role: "Player"
+    team: "Washington Nationals"
+subset: "Base - Optic"
+card_name: "James Wood - Base - Optic - Green Scope"
+description: "Green Scope parallel of Base - Optic card featuring James Wood."
+series: "2026 Donruss"
+parallel: "Green Scope"
+print_run: 65
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: true
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/base-optic-100-green-scope.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Donruss#Checklist"

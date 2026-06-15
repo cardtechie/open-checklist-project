@@ -1,0 +1,23 @@
+number: "22"
+uuid: "3afd941e-3521-4905-9262-d2441b5cc88f"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "Tony Perez"
+    role: "Player"
+    team: "Cincinnati Reds"
+card_name: "Tony Perez - Base - Purple Laser"
+description: "Purple Laser parallel of Base card featuring Tony Perez."
+series: "2026 Donruss"
+parallel: "Purple Laser"
+print_run: 49
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: true
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/22-purple-laser.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Donruss#Checklist"

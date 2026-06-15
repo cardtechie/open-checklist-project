@@ -1,0 +1,22 @@
+number: "19"
+uuid: "c22b05ff-2d01-4515-9e50-5f6b42d01d97"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "Dick Allen"
+    role: "Player"
+    team: "Chicago White Sox"
+card_name: "Dick Allen - Base - Holo"
+description: "Holo parallel of Base card featuring Dick Allen."
+series: "2026 Donruss"
+parallel: "Holo"
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: false
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/19-holo.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Donruss#Checklist"

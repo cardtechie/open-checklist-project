@@ -1,0 +1,24 @@
+number: "3"
+uuid: "a8519be6-fa81-404b-a8ef-34c441d81f9d"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "Pablo Sandoval"
+    role: "Player"
+    team: "San Francisco Giants"
+subset: "Retro 1986 Materials"
+card_name: "Pablo Sandoval - Retro 1986 Materials - Gold"
+description: "Gold parallel of Retro 1986 Materials memorabilia card featuring Pablo Sandoval."
+series: "2026 Donruss"
+parallel: "Gold"
+print_run: 10
+rookie_card: false
+autograph: false
+relic: true
+serial_numbered: true
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/retro-1986-materials-3-gold.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Donruss#Checklist"

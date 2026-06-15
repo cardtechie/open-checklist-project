@@ -1,0 +1,24 @@
+number: "15"
+uuid: "3c5d7338-c57f-4c99-9858-595fa874acff"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "Jackson Chourio"
+    role: "Player"
+    team: "Milwaukee Brewers"
+subset: "Unleashed"
+card_name: "Jackson Chourio - Unleashed - Platinum Diamond"
+description: "Platinum Diamond parallel of Unleashed card featuring Jackson Chourio."
+series: "2026 Donruss"
+parallel: "Platinum Diamond"
+print_run: 1
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: true
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/unleashed-15-platinum-diamond.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Donruss#Checklist"

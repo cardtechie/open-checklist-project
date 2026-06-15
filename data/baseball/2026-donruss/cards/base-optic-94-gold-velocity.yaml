@@ -1,0 +1,24 @@
+number: "94"
+uuid: "caec43cb-a428-4206-a37b-b570b203b5e5"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "Payton Tolle"
+    role: "Player"
+    team: "Boston Red Sox"
+subset: "Base - Optic"
+card_name: "Payton Tolle - Base - Optic - Gold Velocity"
+description: "Gold Velocity parallel of Base - Optic card featuring Payton Tolle."
+series: "2026 Donruss"
+parallel: "Gold Velocity"
+print_run: 10
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: true
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/base-optic-94-gold-velocity.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Donruss#Checklist"

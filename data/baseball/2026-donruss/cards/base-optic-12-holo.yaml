@@ -1,0 +1,23 @@
+number: "12"
+uuid: "9134976a-e660-4c90-8a16-032991349801"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "Miguel Cabrera"
+    role: "Player"
+    team: "Detroit Tigers"
+subset: "Base - Optic"
+card_name: "Miguel Cabrera - Base - Optic - Holo"
+description: "Holo parallel of Base - Optic card featuring Miguel Cabrera."
+series: "2026 Donruss"
+parallel: "Holo"
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: false
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/base-optic-12-holo.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Donruss#Checklist"

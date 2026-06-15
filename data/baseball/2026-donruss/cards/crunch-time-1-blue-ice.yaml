@@ -1,0 +1,24 @@
+number: "1"
+uuid: "6de09a94-9b41-4e09-a12e-c3dc4fd3c96f"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "Jesus Made"
+    role: "Player"
+    team: "Milwaukee Brewers"
+subset: "Crunch Time"
+card_name: "Jesus Made - Crunch Time - Blue Ice"
+description: "Blue Ice parallel of Crunch Time card featuring Jesus Made."
+series: "2026 Donruss"
+parallel: "Blue Ice"
+print_run: 35
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: true
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/crunch-time-1-blue-ice.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Donruss#Checklist"

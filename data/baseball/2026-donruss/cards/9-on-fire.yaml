@@ -1,0 +1,23 @@
+number: "9"
+uuid: "1468b566-2610-40f6-8843-272977059783"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "Leo Durocher"
+    role: "Player"
+    team: "Chicago Cubs"
+card_name: "Leo Durocher - Base - On Fire"
+description: "On Fire parallel of Base card featuring Leo Durocher."
+series: "2026 Donruss"
+parallel: "On Fire"
+print_run: 75
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: true
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/9-on-fire.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Donruss#Checklist"

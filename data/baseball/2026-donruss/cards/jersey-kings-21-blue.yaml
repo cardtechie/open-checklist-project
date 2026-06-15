@@ -1,0 +1,24 @@
+number: "21"
+uuid: "648d90e4-f489-4714-bd51-c43b1d2ba141"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "Paul Skenes"
+    role: "Player"
+    team: "Pittsburgh Pirates"
+subset: "Jersey Kings"
+card_name: "Paul Skenes - Jersey Kings - Blue"
+description: "Blue parallel of Jersey Kings memorabilia card featuring Paul Skenes."
+series: "2026 Donruss"
+parallel: "Blue"
+print_run: 25
+rookie_card: false
+autograph: false
+relic: true
+serial_numbered: true
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/jersey-kings-21-blue.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Donruss#Checklist"

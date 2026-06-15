@@ -1,0 +1,24 @@
+number: "18"
+uuid: "4fcc0845-b703-4f73-8428-3f13ab3f9eb4"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "Gavin Fien"
+    role: "Player"
+    team: "Washington Nationals"
+subset: "Prospect Jersey Kings"
+card_name: "Gavin Fien - Prospect Jersey Kings - Blue"
+description: "Blue parallel of Prospect Jersey Kings memorabilia card featuring Gavin Fien."
+series: "2026 Donruss"
+parallel: "Blue"
+print_run: 25
+rookie_card: false
+autograph: false
+relic: true
+serial_numbered: true
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/prospect-jersey-kings-18-blue.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Donruss#Checklist"

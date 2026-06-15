@@ -1,0 +1,23 @@
+number: "11"
+uuid: "d8169680-9a93-4b61-a911-f15967bc5863"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "David Ortiz"
+    role: "Player"
+    team: "Boston Red Sox"
+card_name: "David Ortiz - Base - Purple Laser"
+description: "Purple Laser parallel of Base card featuring David Ortiz."
+series: "2026 Donruss"
+parallel: "Purple Laser"
+print_run: 49
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: true
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/11-purple-laser.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Donruss#Checklist"

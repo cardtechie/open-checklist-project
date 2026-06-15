@@ -1,0 +1,24 @@
+number: "2"
+uuid: "a397e4b1-d356-41cf-ae59-1991e4c5ce6f"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "Chase DeLauter"
+    role: "Player"
+    team: "Cleveland Guardians"
+subset: "Crunch Time"
+card_name: "Chase DeLauter - Crunch Time - Blue Xplosion"
+description: "Blue Xplosion parallel of Crunch Time card featuring Chase DeLauter."
+series: "2026 Donruss"
+parallel: "Blue Xplosion"
+print_run: 49
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: true
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/crunch-time-2-blue-xplosion.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Donruss#Checklist"

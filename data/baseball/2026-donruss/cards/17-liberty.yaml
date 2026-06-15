@@ -1,0 +1,22 @@
+number: "17"
+uuid: "5cf252ea-8d7a-4cea-8a7a-d705fd2489da"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "Reggie Jackson"
+    role: "Player"
+    team: "New York Yankees"
+card_name: "Reggie Jackson - Base - Liberty"
+description: "Liberty parallel of Base card featuring Reggie Jackson."
+series: "2026 Donruss"
+parallel: "Liberty"
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: false
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/17-liberty.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Donruss#Checklist"

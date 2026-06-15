@@ -1,0 +1,23 @@
+number: "76"
+uuid: "690f651d-c7aa-4ca4-b3de-e79ef6ce8a5b"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "Heston Kjerstad"
+    role: "Player"
+    team: "Baltimore Orioles"
+card_name: "Heston Kjerstad - Base - Purple Ice"
+description: "Purple Ice parallel of Base card featuring Heston Kjerstad."
+series: "2026 Donruss"
+parallel: "Purple Ice"
+print_run: 99
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: true
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/76-purple-ice.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Donruss#Checklist"

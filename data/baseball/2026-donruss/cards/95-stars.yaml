@@ -1,0 +1,23 @@
+number: "95"
+uuid: "dd83d027-3c51-4c44-a3bb-313a66867af8"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "Tony Lazzeri"
+    role: "Player"
+    team: "New York Yankees"
+card_name: "Tony Lazzeri - Base - Stars"
+description: "Stars parallel of Base card featuring Tony Lazzeri."
+series: "2026 Donruss"
+parallel: "Stars"
+print_run: 250
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: true
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/95-stars.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Donruss#Checklist"

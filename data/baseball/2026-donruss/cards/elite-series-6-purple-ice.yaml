@@ -1,0 +1,24 @@
+number: "6"
+uuid: "9dbd9492-791d-4327-985c-66339d6ff30d"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "George Brett"
+    role: "Player"
+    team: "Kansas City Royals"
+subset: "Elite Series"
+card_name: "George Brett - Elite Series - Purple Ice"
+description: "Purple Ice parallel of Elite Series card featuring George Brett."
+series: "2026 Donruss"
+parallel: "Purple Ice"
+print_run: 99
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: true
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/elite-series-6-purple-ice.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Donruss#Checklist"

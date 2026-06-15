@@ -1,0 +1,24 @@
+number: "90"
+uuid: "e25db285-a801-47db-982b-42777b1f46a8"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "Josh Gibson"
+    role: "Player"
+    team: "Homestead Grays"
+subset: "Base - Optic"
+card_name: "Josh Gibson - Base - Optic - Blue Glitter"
+description: "Blue Glitter parallel of Base - Optic card featuring Josh Gibson."
+series: "2026 Donruss"
+parallel: "Blue Glitter"
+print_run: 6
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: true
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/base-optic-90-blue-glitter.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Donruss#Checklist"

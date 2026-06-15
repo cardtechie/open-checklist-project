@@ -1,0 +1,23 @@
+number: "8"
+uuid: "84bf2851-1b92-43f9-8348-6ab8434663b1"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "Jackson Chourio"
+    role: "Player"
+    team: "Milwaukee Brewers"
+subset: "Diamond Marvels"
+card_name: "Jackson Chourio - Diamond Marvels - Green Laser"
+description: "Green Laser parallel of Diamond Marvels card featuring Jackson Chourio."
+series: "2026 Donruss"
+parallel: "Green Laser"
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: false
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/diamond-marvels-8-green-laser.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Donruss#Checklist"

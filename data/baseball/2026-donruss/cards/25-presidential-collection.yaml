@@ -1,0 +1,23 @@
+number: "25"
+uuid: "4084e342-d10f-4198-963a-6e4272fe2469"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "Cade Horton"
+    role: "Player"
+    team: "Chicago Cubs"
+card_name: "Cade Horton - Base - Presidential Collection"
+description: "Presidential Collection parallel of Base card featuring Cade Horton."
+series: "2026 Donruss"
+parallel: "Presidential Collection"
+print_run: 47
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: true
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/25-presidential-collection.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Donruss#Checklist"

@@ -1,0 +1,23 @@
+number: "30"
+uuid: "f60ab951-dbb9-4ad2-9e81-7f45fbfed0a9"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "Luke Keaschall"
+    role: "Player"
+    team: "Minnesota Twins"
+card_name: "Luke Keaschall - Base - Purple Ice"
+description: "Purple Ice parallel of Base card featuring Luke Keaschall."
+series: "2026 Donruss"
+parallel: "Purple Ice"
+print_run: 99
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: true
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/30-purple-ice.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Donruss#Checklist"

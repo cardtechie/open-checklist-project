@@ -1,0 +1,19 @@
+number: "31"
+uuid: "60b068de-7ead-4d5d-a3c1-fa216d7e3c32"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "Sammy Sosa"
+    role: "Player"
+    team: "Chicago Cubs"
+subset: "Signature Series"
+card_name: "Sammy Sosa - Signature Series"
+description: "Autographed Signature Series card featuring Sammy Sosa."
+series: "2026 Donruss"
+rookie_card: false
+autograph: true
+relic: false
+serial_numbered: false
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/signature-series-31.jpg"

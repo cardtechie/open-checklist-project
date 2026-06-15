@@ -1,0 +1,24 @@
+number: "17"
+uuid: "cf78455d-ceb0-4153-a991-d2f8d64caf18"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "Won-Bin Cho"
+    role: "Player"
+    team: "St. Louis Cardinals"
+subset: "Signature Series"
+card_name: "Won-Bin Cho - Signature Series - Black"
+description: "Black parallel of Autographed Signature Series card featuring Won-Bin Cho."
+series: "2026 Donruss"
+parallel: "Black"
+print_run: 1
+rookie_card: false
+autograph: true
+relic: false
+serial_numbered: true
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/signature-series-17-black.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Donruss#Checklist"

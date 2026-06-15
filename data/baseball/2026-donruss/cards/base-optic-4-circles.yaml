@@ -1,0 +1,23 @@
+number: "4"
+uuid: "d5b008cf-8ac7-40f2-ae2e-4607d8ff83c3"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "Byung-Hyun Kim"
+    role: "Player"
+    team: "Arizona Diamondbacks"
+subset: "Base - Optic"
+card_name: "Byung-Hyun Kim - Base - Optic - Circles"
+description: "Circles parallel of Base - Optic card featuring Byung-Hyun Kim."
+series: "2026 Donruss"
+parallel: "Circles"
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: false
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/base-optic-4-circles.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Donruss#Checklist"

@@ -1,0 +1,22 @@
+number: "38"
+uuid: "cc16fbbe-ada4-42e4-a6c8-135c89323179"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "Brice Matthews"
+    role: "Player"
+    team: "Houston Astros"
+card_name: "Brice Matthews - Base - Liberty"
+description: "Liberty parallel of Base card featuring Brice Matthews."
+series: "2026 Donruss"
+parallel: "Liberty"
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: false
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/38-liberty.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Donruss#Checklist"

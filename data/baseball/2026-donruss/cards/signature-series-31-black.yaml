@@ -1,0 +1,24 @@
+number: "31"
+uuid: "972bba31-7c2b-43bb-bd44-c675e7354bcd"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "Sammy Sosa"
+    role: "Player"
+    team: "Chicago Cubs"
+subset: "Signature Series"
+card_name: "Sammy Sosa - Signature Series - Black"
+description: "Black parallel of Autographed Signature Series card featuring Sammy Sosa."
+series: "2026 Donruss"
+parallel: "Black"
+print_run: 1
+rookie_card: false
+autograph: true
+relic: false
+serial_numbered: true
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/signature-series-31-black.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Donruss#Checklist"

@@ -1,0 +1,24 @@
+number: "81"
+uuid: "e9117c0d-38d8-45c1-9119-4932027eb778"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "Nate Furman"
+    role: "Player"
+    team: "Cleveland Guardians"
+subset: "Signature Series"
+card_name: "Nate Furman - Signature Series - Red"
+description: "Red parallel of Autographed Signature Series card featuring Nate Furman."
+series: "2026 Donruss"
+parallel: "Red"
+print_run: 99
+rookie_card: false
+autograph: true
+relic: false
+serial_numbered: true
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/signature-series-81-red.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Donruss#Checklist"

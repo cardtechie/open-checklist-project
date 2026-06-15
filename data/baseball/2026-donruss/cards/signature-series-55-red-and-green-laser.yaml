@@ -1,0 +1,24 @@
+number: "55"
+uuid: "1fc3ecd2-a46c-40f5-9cac-b144f3e80b7f"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "Chase Dollander"
+    role: "Player"
+    team: "Colorado Rockies"
+subset: "Signature Series"
+card_name: "Chase Dollander - Signature Series - Red and Green Laser"
+description: "Red and Green Laser parallel of Autographed Signature Series card featuring Chase Dollander."
+series: "2026 Donruss"
+parallel: "Red and Green Laser"
+print_run: 99
+rookie_card: false
+autograph: true
+relic: false
+serial_numbered: true
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/signature-series-55-red-and-green-laser.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Donruss#Checklist"

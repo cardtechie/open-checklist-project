@@ -1,0 +1,24 @@
+number: "14"
+uuid: "35a86e8e-9124-46f2-b6e8-fdf716608d4b"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "Cal Ripken"
+    role: "Player"
+    team: "Baltimore Orioles"
+subset: "Base - Optic"
+card_name: "Cal Ripken - Base - Optic - Pink Velocity"
+description: "Pink Velocity parallel of Base - Optic card featuring Cal Ripken."
+series: "2026 Donruss"
+parallel: "Pink Velocity"
+print_run: 79
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: true
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/base-optic-14-pink-velocity.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Donruss#Checklist"

@@ -1,0 +1,23 @@
+number: "17"
+uuid: "d82cea0f-b094-400f-a5e0-18a8c5cc6d10"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "Reggie Jackson"
+    role: "Player"
+    team: "New York Yankees"
+card_name: "Reggie Jackson - Base - Gold"
+description: "Gold parallel of Base card featuring Reggie Jackson."
+series: "2026 Donruss"
+parallel: "Gold"
+print_run: 10
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: true
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/17-gold.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Donruss#Checklist"

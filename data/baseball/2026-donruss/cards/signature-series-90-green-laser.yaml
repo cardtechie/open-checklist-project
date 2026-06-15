@@ -1,0 +1,23 @@
+number: "90"
+uuid: "af94ca15-29e7-418a-b58b-e8e4538b64cb"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "Jacob Gonzalez"
+    role: "Player"
+    team: "Chicago White Sox"
+subset: "Signature Series"
+card_name: "Jacob Gonzalez - Signature Series - Green Laser"
+description: "Green Laser parallel of Autographed Signature Series card featuring Jacob Gonzalez."
+series: "2026 Donruss"
+parallel: "Green Laser"
+rookie_card: false
+autograph: true
+relic: false
+serial_numbered: false
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/signature-series-90-green-laser.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Donruss#Checklist"

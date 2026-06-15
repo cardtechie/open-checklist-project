@@ -1,0 +1,23 @@
+number: "99"
+uuid: "e5f755d2-f273-47c7-a476-82ad471d30f7"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "Aaron Judge"
+    role: "Player"
+    team: "New York Yankees"
+card_name: "Aaron Judge - Base - Purple Laser"
+description: "Purple Laser parallel of Base card featuring Aaron Judge."
+series: "2026 Donruss"
+parallel: "Purple Laser"
+print_run: 49
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: true
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/99-purple-laser.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Donruss#Checklist"

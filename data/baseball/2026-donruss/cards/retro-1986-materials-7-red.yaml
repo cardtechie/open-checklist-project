@@ -1,0 +1,24 @@
+number: "7"
+uuid: "2cc1bfa8-4360-4040-8505-3ef4851f611e"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "Andy Van Slyke"
+    role: "Player"
+    team: "Pittsburgh Pirates"
+subset: "Retro 1986 Materials"
+card_name: "Andy Van Slyke - Retro 1986 Materials - Red"
+description: "Red parallel of Retro 1986 Materials memorabilia card featuring Andy Van Slyke."
+series: "2026 Donruss"
+parallel: "Red"
+print_run: 99
+rookie_card: false
+autograph: false
+relic: true
+serial_numbered: true
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/retro-1986-materials-7-red.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Donruss#Checklist"

@@ -1,0 +1,24 @@
+number: "12"
+uuid: "ec12215a-482a-4b7b-aa57-d1baa5008106"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "Darryl Strawberry"
+    role: "Player"
+    team: "New York Mets"
+subset: "Bomb Squad"
+card_name: "Darryl Strawberry - Bomb Squad - Blue Xplosion"
+description: "Blue Xplosion parallel of Bomb Squad card featuring Darryl Strawberry."
+series: "2026 Donruss"
+parallel: "Blue Xplosion"
+print_run: 49
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: true
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/bomb-squad-12-blue-xplosion.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Donruss#Checklist"

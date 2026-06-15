@@ -1,0 +1,24 @@
+number: "27"
+uuid: "3445fddd-4266-409f-9ef5-8125dc0398f5"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "Deion Sanders"
+    role: "Player"
+    team: "Cincinnati Reds"
+subset: "Base - Optic"
+card_name: "Deion Sanders - Base - Optic - Cracked Ice"
+description: "Cracked Ice parallel of Base - Optic card featuring Deion Sanders."
+series: "2026 Donruss"
+parallel: "Cracked Ice"
+print_run: 25
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: true
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/base-optic-27-cracked-ice.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Donruss#Checklist"

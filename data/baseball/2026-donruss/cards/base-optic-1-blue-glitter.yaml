@@ -1,0 +1,24 @@
+number: "1"
+uuid: "ef06ac74-ac09-412a-990c-246708b2fc29"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "Ken Griffey Jr."
+    role: "Player"
+    team: "Seattle Mariners"
+subset: "Base - Optic"
+card_name: "Ken Griffey Jr. - Base - Optic - Blue Glitter"
+description: "Blue Glitter parallel of Base - Optic card featuring Ken Griffey Jr.."
+series: "2026 Donruss"
+parallel: "Blue Glitter"
+print_run: 6
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: true
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/base-optic-1-blue-glitter.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Donruss#Checklist"

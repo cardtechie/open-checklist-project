@@ -1,0 +1,22 @@
+number: "43"
+uuid: "cc482a0b-fb74-46c8-870a-93a13aabea81"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "Jimmie Foxx"
+    role: "Player"
+    team: "Philadelphia Athletics"
+card_name: "Jimmie Foxx - Base - Laser"
+description: "Laser parallel of Base card featuring Jimmie Foxx."
+series: "2026 Donruss"
+parallel: "Laser"
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: false
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/43-laser.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Donruss#Checklist"

@@ -1,0 +1,24 @@
+number: "12"
+uuid: "39c72d19-a5eb-4cff-80e8-3b82953ec97a"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "Jacob Wilson"
+    role: "Player"
+    team: "Oakland A's"
+subset: "Unleashed"
+card_name: "Jacob Wilson - Unleashed - Gold Ice"
+description: "Gold Ice parallel of Unleashed card featuring Jacob Wilson."
+series: "2026 Donruss"
+parallel: "Gold Ice"
+print_run: 10
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: true
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/unleashed-12-gold-ice.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Donruss#Checklist"

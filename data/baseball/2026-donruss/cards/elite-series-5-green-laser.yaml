@@ -1,0 +1,23 @@
+number: "5"
+uuid: "d7492f53-1e63-4246-84a6-1b27f62bbb25"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "Josh Hamilton"
+    role: "Player"
+    team: "Texas Rangers"
+subset: "Elite Series"
+card_name: "Josh Hamilton - Elite Series - Green Laser"
+description: "Green Laser parallel of Elite Series card featuring Josh Hamilton."
+series: "2026 Donruss"
+parallel: "Green Laser"
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: false
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/elite-series-5-green-laser.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Donruss#Checklist"

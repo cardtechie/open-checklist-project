@@ -1,0 +1,24 @@
+number: "46"
+uuid: "3c631dd6-25d7-4c9c-bce3-184cd21ec6e4"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "Bryce Eldridge"
+    role: "Player"
+    team: "San Francisco Giants"
+subset: "Base - Optic"
+card_name: "Bryce Eldridge - Base - Optic - Electricity"
+description: "Electricity parallel of Base - Optic card featuring Bryce Eldridge."
+series: "2026 Donruss"
+parallel: "Electricity"
+print_run: 69
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: true
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/base-optic-46-electricity.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Donruss#Checklist"

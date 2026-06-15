@@ -1,0 +1,23 @@
+number: "26"
+uuid: "9a346c23-e974-45d4-aa69-874f1823c278"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "Gil Hodges"
+    role: "Player"
+    team: "Brooklyn Dodgers"
+subset: "Base - Optic"
+card_name: "Gil Hodges - Base - Optic - Orange Velocity"
+description: "Orange Velocity parallel of Base - Optic card featuring Gil Hodges."
+series: "2026 Donruss"
+parallel: "Orange Velocity"
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: false
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/base-optic-26-orange-velocity.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Donruss#Checklist"

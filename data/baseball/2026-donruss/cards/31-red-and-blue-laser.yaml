@@ -1,0 +1,22 @@
+number: "31"
+uuid: "6a8589dd-ffb9-446c-b920-af40943b7591"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "Roberto Alomar"
+    role: "Player"
+    team: "Toronto Blue Jays"
+card_name: "Roberto Alomar - Base - Red and Blue Laser"
+description: "Red and Blue Laser parallel of Base card featuring Roberto Alomar."
+series: "2026 Donruss"
+parallel: "Red and Blue Laser"
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: false
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/31-red-and-blue-laser.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Donruss#Checklist"

@@ -1,0 +1,24 @@
+number: "18"
+uuid: "5a932391-4764-4f83-93b9-971e9528a2b8"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "Aaron Judge"
+    role: "Player"
+    team: "New York Yankees"
+subset: "Bomb Squad"
+card_name: "Aaron Judge - Bomb Squad - Gold Ice"
+description: "Gold Ice parallel of Bomb Squad card featuring Aaron Judge."
+series: "2026 Donruss"
+parallel: "Gold Ice"
+print_run: 10
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: true
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/bomb-squad-18-gold-ice.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Donruss#Checklist"

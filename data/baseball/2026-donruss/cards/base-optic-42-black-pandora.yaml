@@ -1,0 +1,23 @@
+number: "42"
+uuid: "1a49150a-6664-40c0-abdf-8a498fe5d8e8"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "Tatsuya Imai"
+    role: "Player"
+    team: "Houston Astros"
+subset: "Base - Optic"
+card_name: "Tatsuya Imai - Base - Optic - Black Pandora"
+description: "Black Pandora parallel of Base - Optic card featuring Tatsuya Imai."
+series: "2026 Donruss"
+parallel: "Black Pandora"
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: false
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/base-optic-42-black-pandora.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Donruss#Checklist"

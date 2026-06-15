@@ -1,0 +1,24 @@
+number: "42"
+uuid: "fa06c38f-2224-4474-b5c7-b6510e6a64aa"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "Tatsuya Imai"
+    role: "Player"
+    team: "Houston Astros"
+subset: "Base - Optic"
+card_name: "Tatsuya Imai - Base - Optic - Cracked Ice"
+description: "Cracked Ice parallel of Base - Optic card featuring Tatsuya Imai."
+series: "2026 Donruss"
+parallel: "Cracked Ice"
+print_run: 25
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: true
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/base-optic-42-cracked-ice.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Donruss#Checklist"

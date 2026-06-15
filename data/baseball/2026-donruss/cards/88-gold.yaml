@@ -1,0 +1,23 @@
+number: "88"
+uuid: "cb17a3cc-9823-482c-bde9-a9e088f4f24b"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "Mariano Rivera"
+    role: "Player"
+    team: "New York Yankees"
+card_name: "Mariano Rivera - Base - Gold"
+description: "Gold parallel of Base card featuring Mariano Rivera."
+series: "2026 Donruss"
+parallel: "Gold"
+print_run: 10
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: true
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/88-gold.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Donruss#Checklist"

@@ -1,0 +1,24 @@
+number: "17"
+uuid: "cc44cc22-ea1a-4581-bb89-77b92e2c09a2"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "Reggie Jackson"
+    role: "Player"
+    team: "New York Yankees"
+subset: "Base - Optic"
+card_name: "Reggie Jackson - Base - Optic - Red"
+description: "Red parallel of Base - Optic card featuring Reggie Jackson."
+series: "2026 Donruss"
+parallel: "Red"
+print_run: 99
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: true
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/base-optic-17-red.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Donruss#Checklist"

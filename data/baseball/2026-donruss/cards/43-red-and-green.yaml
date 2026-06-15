@@ -1,0 +1,22 @@
+number: "43"
+uuid: "2a87399a-db5b-4024-b11a-4de3623f2c60"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "Jimmie Foxx"
+    role: "Player"
+    team: "Philadelphia Athletics"
+card_name: "Jimmie Foxx - Base - Red and Green"
+description: "Red and Green parallel of Base card featuring Jimmie Foxx."
+series: "2026 Donruss"
+parallel: "Red and Green"
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: false
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/43-red-and-green.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Donruss#Checklist"

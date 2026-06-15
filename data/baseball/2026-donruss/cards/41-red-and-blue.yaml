@@ -1,0 +1,22 @@
+number: "41"
+uuid: "06d1ea51-def4-4317-8b35-bc1325a57270"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "Felix Hernandez"
+    role: "Player"
+    team: "Seattle Mariners"
+card_name: "Felix Hernandez - Base - Red and Blue"
+description: "Red and Blue parallel of Base card featuring Felix Hernandez."
+series: "2026 Donruss"
+parallel: "Red and Blue"
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: false
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/41-red-and-blue.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Donruss#Checklist"

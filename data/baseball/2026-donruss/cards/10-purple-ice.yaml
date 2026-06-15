@@ -1,0 +1,23 @@
+number: "10"
+uuid: "c30990ce-c30b-4055-8ce0-b8d9ba06e8fb"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "Brandon Sproat"
+    role: "Player"
+    team: "Milwaukee Brewers"
+card_name: "Brandon Sproat - Base - Purple Ice"
+description: "Purple Ice parallel of Base card featuring Brandon Sproat."
+series: "2026 Donruss"
+parallel: "Purple Ice"
+print_run: 99
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: true
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/10-purple-ice.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Donruss#Checklist"

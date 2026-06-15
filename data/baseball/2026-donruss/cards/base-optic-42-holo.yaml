@@ -1,0 +1,23 @@
+number: "42"
+uuid: "b3dd0c9f-4c50-4bf7-9ba8-d8ce3e0677f8"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "Tatsuya Imai"
+    role: "Player"
+    team: "Houston Astros"
+subset: "Base - Optic"
+card_name: "Tatsuya Imai - Base - Optic - Holo"
+description: "Holo parallel of Base - Optic card featuring Tatsuya Imai."
+series: "2026 Donruss"
+parallel: "Holo"
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: false
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/base-optic-42-holo.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Donruss#Checklist"

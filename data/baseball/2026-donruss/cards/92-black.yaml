@@ -1,0 +1,23 @@
+number: "92"
+uuid: "cbcadc7d-9517-4f98-a45d-45bdb475ef68"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "Colt Keith"
+    role: "Player"
+    team: "Detroit Tigers"
+card_name: "Colt Keith - Base - Black"
+description: "Black parallel of Base card featuring Colt Keith."
+series: "2026 Donruss"
+parallel: "Black"
+print_run: 1
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: true
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/92-black.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Donruss#Checklist"

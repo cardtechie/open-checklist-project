@@ -1,0 +1,24 @@
+number: "91"
+uuid: "b578d018-b6e8-4718-a694-d054f38aefa3"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "George Brett"
+    role: "Player"
+    team: "Kansas City Royals"
+subset: "Base - Optic"
+card_name: "George Brett - Base - Optic - Green Velocity"
+description: "Green Velocity parallel of Base - Optic card featuring George Brett."
+series: "2026 Donruss"
+parallel: "Green Velocity"
+print_run: 149
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: true
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/base-optic-91-green-velocity.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Donruss#Checklist"

@@ -1,0 +1,24 @@
+number: "16"
+uuid: "7f56e7d1-cb15-4a04-ad0c-4e7c1066b3ae"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "Deion Sanders"
+    role: "Player"
+    team: "Cincinnati Reds"
+subset: "Elite Series"
+card_name: "Deion Sanders - Elite Series - Purple Laser"
+description: "Purple Laser parallel of Elite Series card featuring Deion Sanders."
+series: "2026 Donruss"
+parallel: "Purple Laser"
+print_run: 15
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: true
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/elite-series-16-purple-laser.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Donruss#Checklist"

@@ -1,0 +1,24 @@
+number: "64"
+uuid: "0e7fe7b9-fcf9-44d9-9e66-21f1b8958a7b"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "Ivan Rodriguez"
+    role: "Player"
+    team: "Texas Rangers"
+subset: "Base - Optic"
+card_name: "Ivan Rodriguez - Base - Optic - Purple"
+description: "Purple parallel of Base - Optic card featuring Ivan Rodriguez."
+series: "2026 Donruss"
+parallel: "Purple"
+print_run: 49
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: true
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/base-optic-64-purple.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Donruss#Checklist"

@@ -1,0 +1,23 @@
+number: "22"
+uuid: "5ce8a6ff-1c07-49c2-be23-a8a3270a05ce"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "Tony Perez"
+    role: "Player"
+    team: "Cincinnati Reds"
+card_name: "Tony Perez - Base - Holo Purple"
+description: "Holo Purple parallel of Base card featuring Tony Perez."
+series: "2026 Donruss"
+parallel: "Holo Purple"
+print_run: 99
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: true
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/22-holo-purple.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Donruss#Checklist"

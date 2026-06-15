@@ -1,0 +1,24 @@
+number: "91"
+uuid: "a0bcce9d-fa67-4f03-a209-65d03a6b61ee"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "Griffin Burkholder"
+    role: "Player"
+    team: "Philadelphia Phillies"
+subset: "Signature Series"
+card_name: "Griffin Burkholder - Signature Series - Teal"
+description: "Teal parallel of Autographed Signature Series card featuring Griffin Burkholder."
+series: "2026 Donruss"
+parallel: "Teal"
+print_run: 25
+rookie_card: false
+autograph: true
+relic: false
+serial_numbered: true
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/signature-series-91-teal.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Donruss#Checklist"

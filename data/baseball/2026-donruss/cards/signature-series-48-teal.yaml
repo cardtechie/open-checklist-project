@@ -1,0 +1,24 @@
+number: "48"
+uuid: "5ea3a669-d1f2-409c-8f02-7e925556ad8d"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "Kazuma Okamoto"
+    role: "Player"
+    team: "Toronto Blue Jays"
+subset: "Signature Series"
+card_name: "Kazuma Okamoto - Signature Series - Teal"
+description: "Teal parallel of Autographed Signature Series card featuring Kazuma Okamoto."
+series: "2026 Donruss"
+parallel: "Teal"
+print_run: 25
+rookie_card: false
+autograph: true
+relic: false
+serial_numbered: true
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/signature-series-48-teal.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Donruss#Checklist"

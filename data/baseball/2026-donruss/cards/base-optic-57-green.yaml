@@ -1,0 +1,24 @@
+number: "57"
+uuid: "139b0381-2b76-49d1-8eb8-15c0bb234a14"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "Roger Clemens"
+    role: "Player"
+    team: "Boston Red Sox"
+subset: "Base - Optic"
+card_name: "Roger Clemens - Base - Optic - Green"
+description: "Green parallel of Base - Optic card featuring Roger Clemens."
+series: "2026 Donruss"
+parallel: "Green"
+print_run: 5
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: true
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/base-optic-57-green.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Donruss#Checklist"

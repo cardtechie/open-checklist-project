@@ -1,0 +1,23 @@
+number: "1"
+uuid: "bb133aee-1e64-4f20-b464-b67773fcb70d"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "Ken Griffey Jr."
+    role: "Player"
+    team: "Seattle Mariners"
+card_name: "Ken Griffey Jr. - Base - Carolina Blue Laser"
+description: "Carolina Blue Laser parallel of Base card featuring Ken Griffey Jr.."
+series: "2026 Donruss"
+parallel: "Carolina Blue Laser"
+print_run: 249
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: true
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/1-carolina-blue-laser.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Donruss#Checklist"

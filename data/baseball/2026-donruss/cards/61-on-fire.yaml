@@ -1,0 +1,23 @@
+number: "61"
+uuid: "c7bdfe4e-05f0-4a46-9e35-c9d876f288a0"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "Roman Anthony"
+    role: "Player"
+    team: "Boston Red Sox"
+card_name: "Roman Anthony - Base - On Fire"
+description: "On Fire parallel of Base card featuring Roman Anthony."
+series: "2026 Donruss"
+parallel: "On Fire"
+print_run: 75
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: true
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/61-on-fire.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Donruss#Checklist"

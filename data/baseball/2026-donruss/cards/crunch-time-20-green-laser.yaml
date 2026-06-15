@@ -1,0 +1,23 @@
+number: "20"
+uuid: "0d2f52c8-232a-4af8-adcc-f034353d13cf"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "Bryce Eldridge"
+    role: "Player"
+    team: "San Francisco Giants"
+subset: "Crunch Time"
+card_name: "Bryce Eldridge - Crunch Time - Green Laser"
+description: "Green Laser parallel of Crunch Time card featuring Bryce Eldridge."
+series: "2026 Donruss"
+parallel: "Green Laser"
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: false
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/crunch-time-20-green-laser.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Donruss#Checklist"

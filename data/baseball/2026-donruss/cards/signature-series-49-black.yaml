@@ -1,0 +1,24 @@
+number: "49"
+uuid: "96b5e4e4-6e97-441d-a591-3e0da58f5882"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "Payton Tolle"
+    role: "Player"
+    team: "Boston Red Sox"
+subset: "Signature Series"
+card_name: "Payton Tolle - Signature Series - Black"
+description: "Black parallel of Autographed Signature Series card featuring Payton Tolle."
+series: "2026 Donruss"
+parallel: "Black"
+print_run: 1
+rookie_card: false
+autograph: true
+relic: false
+serial_numbered: true
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/signature-series-49-black.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Donruss#Checklist"

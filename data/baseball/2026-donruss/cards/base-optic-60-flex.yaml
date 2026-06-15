@@ -1,0 +1,24 @@
+number: "60"
+uuid: "b5284fd0-3d06-4a28-b811-9dc16d3d623f"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "Sammy Sosa"
+    role: "Player"
+    team: "Chicago Cubs"
+subset: "Base - Optic"
+card_name: "Sammy Sosa - Base - Optic - Flex"
+description: "Flex parallel of Base - Optic card featuring Sammy Sosa."
+series: "2026 Donruss"
+parallel: "Flex"
+print_run: 149
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: true
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/base-optic-60-flex.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Donruss#Checklist"

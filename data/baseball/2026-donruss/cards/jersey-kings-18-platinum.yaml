@@ -1,0 +1,24 @@
+number: "18"
+uuid: "83c8039f-6778-4817-afff-b463b1ea2dc6"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "Matt Shaw"
+    role: "Player"
+    team: "Chicago Cubs"
+subset: "Jersey Kings"
+card_name: "Matt Shaw - Jersey Kings - Platinum"
+description: "Platinum parallel of Jersey Kings memorabilia card featuring Matt Shaw."
+series: "2026 Donruss"
+parallel: "Platinum"
+print_run: 1
+rookie_card: false
+autograph: false
+relic: true
+serial_numbered: true
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/jersey-kings-18-platinum.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Donruss#Checklist"

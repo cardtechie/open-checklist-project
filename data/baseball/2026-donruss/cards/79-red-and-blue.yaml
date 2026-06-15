@@ -1,0 +1,22 @@
+number: "79"
+uuid: "a828bae1-1c24-4959-b353-5761a07a8f2d"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "Carlton Fisk"
+    role: "Player"
+    team: "Boston Red Sox"
+card_name: "Carlton Fisk - Base - Red and Blue"
+description: "Red and Blue parallel of Base card featuring Carlton Fisk."
+series: "2026 Donruss"
+parallel: "Red and Blue"
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: false
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/79-red-and-blue.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Donruss#Checklist"

@@ -1,0 +1,23 @@
+number: "8"
+uuid: "7c9afcfa-d960-4c95-b5ab-907218eb5e42"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "Luisangel Acuna"
+    role: "Player"
+    team: "Chicago White Sox"
+card_name: "Luisangel Acuna - Base - Green"
+description: "Green parallel of Base card featuring Luisangel Acuna."
+series: "2026 Donruss"
+parallel: "Green"
+print_run: 199
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: true
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/8-green.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Donruss#Checklist"

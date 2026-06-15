@@ -1,0 +1,23 @@
+number: "41"
+uuid: "4de721cf-e228-4a7e-bfa4-a11938b10efb"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "Felix Hernandez"
+    role: "Player"
+    team: "Seattle Mariners"
+card_name: "Felix Hernandez - Base - Teal"
+description: "Teal parallel of Base card featuring Felix Hernandez."
+series: "2026 Donruss"
+parallel: "Teal"
+print_run: 25
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: true
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/41-teal.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Donruss#Checklist"

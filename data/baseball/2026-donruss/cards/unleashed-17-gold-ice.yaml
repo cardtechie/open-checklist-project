@@ -1,0 +1,24 @@
+number: "17"
+uuid: "9a2ef4a2-26eb-43b1-99a9-f141ca7f8238"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "Trey Yesavage"
+    role: "Player"
+    team: "Toronto Blue Jays"
+subset: "Unleashed"
+card_name: "Trey Yesavage - Unleashed - Gold Ice"
+description: "Gold Ice parallel of Unleashed card featuring Trey Yesavage."
+series: "2026 Donruss"
+parallel: "Gold Ice"
+print_run: 10
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: true
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/unleashed-17-gold-ice.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Donruss#Checklist"

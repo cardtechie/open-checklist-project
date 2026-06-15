@@ -1,0 +1,24 @@
+number: "17"
+uuid: "7500f12e-2b4d-42fd-b78f-7febe45ec2a6"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "Reggie Jackson"
+    role: "Player"
+    team: "New York Yankees"
+subset: "Base - Optic"
+card_name: "Reggie Jackson - Base - Optic - Blue Cracked Ice"
+description: "Blue Cracked Ice parallel of Base - Optic card featuring Reggie Jackson."
+series: "2026 Donruss"
+parallel: "Blue Cracked Ice"
+print_run: 15
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: true
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/base-optic-17-blue-cracked-ice.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Donruss#Checklist"

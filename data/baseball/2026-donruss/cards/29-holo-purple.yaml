@@ -1,0 +1,23 @@
+number: "29"
+uuid: "ebad1b16-cec4-4516-9352-574bfd1c3480"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "Chandler Simpson"
+    role: "Player"
+    team: "Tampa Bay Rays"
+card_name: "Chandler Simpson - Base - Holo Purple"
+description: "Holo Purple parallel of Base card featuring Chandler Simpson."
+series: "2026 Donruss"
+parallel: "Holo Purple"
+print_run: 99
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: true
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/29-holo-purple.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Donruss#Checklist"

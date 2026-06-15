@@ -1,0 +1,23 @@
+number: "65"
+uuid: "2e0e45f5-a02b-45a3-b50c-fc1b748514de"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "Yogi Berra"
+    role: "Player"
+    team: "New York Yankees"
+card_name: "Yogi Berra - Base - Presidential Collection"
+description: "Presidential Collection parallel of Base card featuring Yogi Berra."
+series: "2026 Donruss"
+parallel: "Presidential Collection"
+print_run: 47
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: true
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/65-presidential-collection.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Donruss#Checklist"

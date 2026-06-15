@@ -1,0 +1,23 @@
+number: "17"
+uuid: "e391ec08-9b9b-42c8-825f-7cb79384ebbb"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "Prince Fielder"
+    role: "Player"
+    team: "Milwaukee Brewers"
+subset: "Bomb Squad"
+card_name: "Prince Fielder - Bomb Squad - Green Laser"
+description: "Green Laser parallel of Bomb Squad card featuring Prince Fielder."
+series: "2026 Donruss"
+parallel: "Green Laser"
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: false
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/bomb-squad-17-green-laser.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Donruss#Checklist"

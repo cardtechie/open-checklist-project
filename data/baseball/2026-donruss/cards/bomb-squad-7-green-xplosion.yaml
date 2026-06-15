@@ -1,0 +1,24 @@
+number: "7"
+uuid: "2eaf9787-7310-4d92-9f80-e5bdb0cd3608"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "Cam Smith"
+    role: "Player"
+    team: "Houston Astros"
+subset: "Bomb Squad"
+card_name: "Cam Smith - Bomb Squad - Green Xplosion"
+description: "Green Xplosion parallel of Bomb Squad card featuring Cam Smith."
+series: "2026 Donruss"
+parallel: "Green Xplosion"
+print_run: 25
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: true
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/bomb-squad-7-green-xplosion.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Donruss#Checklist"

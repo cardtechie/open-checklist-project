@@ -1,0 +1,24 @@
+number: "35"
+uuid: "69504370-f98a-40e3-9302-952473385c05"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "Darryl Strawberry"
+    role: "Player"
+    team: "New York Mets"
+subset: "Base - Optic"
+card_name: "Darryl Strawberry - Base - Optic - Blue Glitter"
+description: "Blue Glitter parallel of Base - Optic card featuring Darryl Strawberry."
+series: "2026 Donruss"
+parallel: "Blue Glitter"
+print_run: 6
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: true
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/base-optic-35-blue-glitter.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Donruss#Checklist"

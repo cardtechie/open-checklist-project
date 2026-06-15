@@ -1,0 +1,24 @@
+number: "12"
+uuid: "60491364-2cdb-48df-9963-e248ba0c7a56"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "Mike Piazza"
+    role: "Player"
+    team: "New York Mets"
+subset: "Elite Series"
+card_name: "Mike Piazza - Elite Series - Purple Ice"
+description: "Purple Ice parallel of Elite Series card featuring Mike Piazza."
+series: "2026 Donruss"
+parallel: "Purple Ice"
+print_run: 99
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: true
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/elite-series-12-purple-ice.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Donruss#Checklist"

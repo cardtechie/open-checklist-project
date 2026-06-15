@@ -1,0 +1,23 @@
+number: "42"
+uuid: "bfc1d981-c8ca-4ee6-8b3f-bfa6231fa6c7"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "Tatsuya Imai"
+    role: "Player"
+    team: "Houston Astros"
+card_name: "Tatsuya Imai - Base - Printing Plate Magenta"
+description: "Printing Plate Magenta parallel of Base card featuring Tatsuya Imai."
+series: "2026 Donruss"
+parallel: "Printing Plate Magenta"
+print_run: 1
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: true
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/42-printing-plate-magenta.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Donruss#Checklist"

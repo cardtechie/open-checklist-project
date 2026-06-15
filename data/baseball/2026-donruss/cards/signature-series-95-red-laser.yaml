@@ -1,0 +1,24 @@
+number: "95"
+uuid: "0881e475-5683-4933-a320-e200ac1d99e4"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "Hagen Smith"
+    role: "Player"
+    team: "Chicago White Sox"
+subset: "Signature Series"
+card_name: "Hagen Smith - Signature Series - Red Laser"
+description: "Red Laser parallel of Autographed Signature Series card featuring Hagen Smith."
+series: "2026 Donruss"
+parallel: "Red Laser"
+print_run: 30
+rookie_card: false
+autograph: true
+relic: false
+serial_numbered: true
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/signature-series-95-red-laser.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Donruss#Checklist"

@@ -1,0 +1,23 @@
+number: "80"
+uuid: "e37ea14b-8d44-4ec5-9859-c926d1893316"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "Mike Schmidt"
+    role: "Player"
+    team: "Philadelphia Phillies"
+card_name: "Mike Schmidt - Base - Gold"
+description: "Gold parallel of Base card featuring Mike Schmidt."
+series: "2026 Donruss"
+parallel: "Gold"
+print_run: 10
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: true
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/80-gold.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Donruss#Checklist"

@@ -1,0 +1,19 @@
+number: "80"
+uuid: "dbd809b5-80c1-4419-9d84-7a5d7c515aca"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "Nate Dohm"
+    role: "Player"
+    team: "St. Louis Cardinals"
+subset: "Signature Series"
+card_name: "Nate Dohm - Signature Series"
+description: "Autographed Signature Series card featuring Nate Dohm."
+series: "2026 Donruss"
+rookie_card: false
+autograph: true
+relic: false
+serial_numbered: false
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/signature-series-80.jpg"

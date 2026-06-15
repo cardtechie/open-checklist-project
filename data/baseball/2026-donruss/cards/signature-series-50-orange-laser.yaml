@@ -1,0 +1,24 @@
+number: "50"
+uuid: "d8075054-b978-4783-a64a-bcf53b5901c6"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "Cole Messina"
+    role: "Player"
+    team: "Colorado Rockies"
+subset: "Signature Series"
+card_name: "Cole Messina - Signature Series - Orange Laser"
+description: "Orange Laser parallel of Autographed Signature Series card featuring Cole Messina."
+series: "2026 Donruss"
+parallel: "Orange Laser"
+print_run: 25
+rookie_card: false
+autograph: true
+relic: false
+serial_numbered: true
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/signature-series-50-orange-laser.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Donruss#Checklist"

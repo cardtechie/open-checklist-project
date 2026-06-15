@@ -1,0 +1,24 @@
+number: "14"
+uuid: "10c2f3ce-0d7a-4625-a279-c6ebd8e4e6ff"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "Paul Skenes"
+    role: "Player"
+    team: "Pittsburgh Pirates"
+subset: "Unleashed"
+card_name: "Paul Skenes - Unleashed - Platinum Diamond"
+description: "Platinum Diamond parallel of Unleashed card featuring Paul Skenes."
+series: "2026 Donruss"
+parallel: "Platinum Diamond"
+print_run: 1
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: true
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/unleashed-14-platinum-diamond.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Donruss#Checklist"

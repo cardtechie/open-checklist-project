@@ -1,0 +1,23 @@
+number: "12"
+uuid: "17c67c1d-0ee7-4347-8325-361599c2327f"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "Miguel Cabrera"
+    role: "Player"
+    team: "Detroit Tigers"
+card_name: "Miguel Cabrera - Base - Silver Die Cut"
+description: "Silver Die Cut parallel of Base card featuring Miguel Cabrera."
+series: "2026 Donruss"
+parallel: "Silver Die Cut"
+print_run: 75
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: true
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/12-silver-die-cut.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Donruss#Checklist"

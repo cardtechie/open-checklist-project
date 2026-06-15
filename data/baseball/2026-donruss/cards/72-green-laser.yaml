@@ -1,0 +1,22 @@
+number: "72"
+uuid: "bae40c99-fd64-488a-a926-8db4cd4116d3"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "Michael Young"
+    role: "Player"
+    team: "Texas Rangers"
+card_name: "Michael Young - Base - Green Laser"
+description: "Green Laser parallel of Base card featuring Michael Young."
+series: "2026 Donruss"
+parallel: "Green Laser"
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: false
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/72-green-laser.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Donruss#Checklist"

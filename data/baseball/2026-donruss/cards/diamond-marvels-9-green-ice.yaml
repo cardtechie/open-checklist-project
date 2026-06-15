@@ -1,0 +1,24 @@
+number: "9"
+uuid: "71ed852a-e5ad-47f2-9ec9-f0cb2bda3500"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "Bobby Witt Jr."
+    role: "Player"
+    team: "Kansas City Royals"
+subset: "Diamond Marvels"
+card_name: "Bobby Witt Jr. - Diamond Marvels - Green Ice"
+description: "Green Ice parallel of Diamond Marvels card featuring Bobby Witt Jr.."
+series: "2026 Donruss"
+parallel: "Green Ice"
+print_run: 15
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: true
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/diamond-marvels-9-green-ice.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Donruss#Checklist"

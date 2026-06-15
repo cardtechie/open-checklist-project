@@ -1,0 +1,23 @@
+number: "79"
+uuid: "abb5611b-03db-4dbc-9f02-cd62f2662eb8"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "Carlton Fisk"
+    role: "Player"
+    team: "Boston Red Sox"
+card_name: "Carlton Fisk - Base - Green"
+description: "Green parallel of Base card featuring Carlton Fisk."
+series: "2026 Donruss"
+parallel: "Green"
+print_run: 199
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: true
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/79-green.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Donruss#Checklist"

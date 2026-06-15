@@ -1,0 +1,22 @@
+number: "64"
+uuid: "394ae9e9-b588-464e-8f13-4dbc35c88ae5"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "Ivan Rodriguez"
+    role: "Player"
+    team: "Texas Rangers"
+card_name: "Ivan Rodriguez - Base - Red and Blue Laser"
+description: "Red and Blue Laser parallel of Base card featuring Ivan Rodriguez."
+series: "2026 Donruss"
+parallel: "Red and Blue Laser"
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: false
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/64-red-and-blue-laser.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Donruss#Checklist"

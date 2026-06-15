@@ -1,0 +1,24 @@
+number: "1"
+uuid: "24df450e-ea52-4297-97a0-c35fd98d171c"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "Braden Montgomery"
+    role: "Player"
+    team: "Chicago White Sox"
+subset: "Prospect Jersey Kings"
+card_name: "Braden Montgomery - Prospect Jersey Kings - Platinum"
+description: "Platinum parallel of Prospect Jersey Kings memorabilia card featuring Braden Montgomery."
+series: "2026 Donruss"
+parallel: "Platinum"
+print_run: 1
+rookie_card: false
+autograph: false
+relic: true
+serial_numbered: true
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/prospect-jersey-kings-1-platinum.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Donruss#Checklist"

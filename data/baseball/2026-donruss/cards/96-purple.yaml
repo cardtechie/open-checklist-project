@@ -1,0 +1,22 @@
+number: "96"
+uuid: "156a9b34-4009-45fe-9179-87eaf07e2988"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "Marcelo Mayer"
+    role: "Player"
+    team: "Boston Red Sox"
+card_name: "Marcelo Mayer - Base - Purple"
+description: "Purple parallel of Base card featuring Marcelo Mayer."
+series: "2026 Donruss"
+parallel: "Purple"
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: false
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/96-purple.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Donruss#Checklist"

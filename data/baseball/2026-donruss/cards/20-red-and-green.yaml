@@ -1,0 +1,22 @@
+number: "20"
+uuid: "0469f5d7-93b3-4448-b280-f8cf8fa1cfd0"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "David Wright"
+    role: "Player"
+    team: "New York Mets"
+card_name: "David Wright - Base - Red and Green"
+description: "Red and Green parallel of Base card featuring David Wright."
+series: "2026 Donruss"
+parallel: "Red and Green"
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: false
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/20-red-and-green.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Donruss#Checklist"

@@ -1,0 +1,24 @@
+number: "13"
+uuid: "c2b41b49-da7a-4755-93dc-843e0e549a37"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "Jacob Wilson"
+    role: "Player"
+    team: "Oakland A's"
+subset: "Diamond Marvels"
+card_name: "Jacob Wilson - Diamond Marvels - Blue Xplosion"
+description: "Blue Xplosion parallel of Diamond Marvels card featuring Jacob Wilson."
+series: "2026 Donruss"
+parallel: "Blue Xplosion"
+print_run: 49
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: true
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/diamond-marvels-13-blue-xplosion.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Donruss#Checklist"

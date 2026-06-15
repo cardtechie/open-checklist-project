@@ -1,0 +1,23 @@
+number: "50"
+uuid: "0e9962b8-a9c2-4102-a54d-13c8a8011eaf"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "Rickey Henderson"
+    role: "Player"
+    team: "Oakland A's"
+card_name: "Rickey Henderson - Base - Gold"
+description: "Gold parallel of Base card featuring Rickey Henderson."
+series: "2026 Donruss"
+parallel: "Gold"
+print_run: 10
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: true
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/50-gold.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Donruss#Checklist"

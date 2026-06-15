@@ -1,0 +1,23 @@
+number: "6"
+uuid: "d459b4ee-43c2-4697-b5ff-3084d3423eaa"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "Jason Varitek"
+    role: "Player"
+    team: "Boston Red Sox"
+card_name: "Jason Varitek - Base - Pink Ice"
+description: "Pink Ice parallel of Base card featuring Jason Varitek."
+series: "2026 Donruss"
+parallel: "Pink Ice"
+print_run: 99
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: true
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/6-pink-ice.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Donruss#Checklist"

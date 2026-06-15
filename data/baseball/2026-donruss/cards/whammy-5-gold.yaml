@@ -1,0 +1,24 @@
+number: "5"
+uuid: "e5927828-7e6d-4895-9d33-ffa2a8ffdef4"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "Ethan Holliday"
+    role: "Player"
+    team: "Colorado Rockies"
+subset: "Whammy!"
+card_name: "Ethan Holliday - Whammy! - Gold"
+description: "Gold parallel of Whammy! card featuring Ethan Holliday."
+series: "2026 Donruss"
+parallel: "Gold"
+print_run: 10
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: true
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/whammy-5-gold.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Donruss#Checklist"

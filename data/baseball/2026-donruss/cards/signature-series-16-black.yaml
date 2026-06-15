@@ -1,0 +1,24 @@
+number: "16"
+uuid: "5ca2d643-d993-4eb8-8b7d-538f7c52b879"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "Heston Kjerstad"
+    role: "Player"
+    team: "Baltimore Orioles"
+subset: "Signature Series"
+card_name: "Heston Kjerstad - Signature Series - Black"
+description: "Black parallel of Autographed Signature Series card featuring Heston Kjerstad."
+series: "2026 Donruss"
+parallel: "Black"
+print_run: 1
+rookie_card: false
+autograph: true
+relic: false
+serial_numbered: true
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/signature-series-16-black.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Donruss#Checklist"

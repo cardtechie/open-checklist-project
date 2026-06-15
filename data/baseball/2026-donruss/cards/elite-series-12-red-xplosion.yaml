@@ -1,0 +1,24 @@
+number: "12"
+uuid: "1caee47a-1468-4864-8d02-74f613b49372"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "Mike Piazza"
+    role: "Player"
+    team: "New York Mets"
+subset: "Elite Series"
+card_name: "Mike Piazza - Elite Series - Red Xplosion"
+description: "Red Xplosion parallel of Elite Series card featuring Mike Piazza."
+series: "2026 Donruss"
+parallel: "Red Xplosion"
+print_run: 99
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: true
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/elite-series-12-red-xplosion.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Donruss#Checklist"

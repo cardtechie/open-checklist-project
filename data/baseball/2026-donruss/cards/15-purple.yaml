@@ -1,0 +1,22 @@
+number: "15"
+uuid: "0c6273fe-8ad3-4e1f-adb1-adf2dba8e7c7"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "Sung-Mun Song"
+    role: "Player"
+    team: "San Diego Padres"
+card_name: "Sung-Mun Song - Base - Purple"
+description: "Purple parallel of Base card featuring Sung-Mun Song."
+series: "2026 Donruss"
+parallel: "Purple"
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: false
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/15-purple.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Donruss#Checklist"

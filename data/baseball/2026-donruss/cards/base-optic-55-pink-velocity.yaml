@@ -1,0 +1,24 @@
+number: "55"
+uuid: "917872c9-a5c8-40e1-a466-787794c3b2cc"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "Frank Chance"
+    role: "Player"
+    team: "Chicago Cubs"
+subset: "Base - Optic"
+card_name: "Frank Chance - Base - Optic - Pink Velocity"
+description: "Pink Velocity parallel of Base - Optic card featuring Frank Chance."
+series: "2026 Donruss"
+parallel: "Pink Velocity"
+print_run: 79
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: true
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/base-optic-55-pink-velocity.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Donruss#Checklist"

@@ -1,0 +1,23 @@
+number: "3"
+uuid: "7f95e79b-4bb3-4521-9162-2ceec0413b0f"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "Chase DeLauter"
+    role: "Player"
+    team: "Cleveland Guardians"
+card_name: "Chase DeLauter - Base - Printing Plate Black"
+description: "Printing Plate Black parallel of Base card featuring Chase DeLauter."
+series: "2026 Donruss"
+parallel: "Printing Plate Black"
+print_run: 1
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: true
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/3-printing-plate-black.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Donruss#Checklist"

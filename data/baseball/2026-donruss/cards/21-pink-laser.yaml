@@ -1,0 +1,23 @@
+number: "21"
+uuid: "7052fbdd-5e93-4df7-957a-7da0c3d22447"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "Pat Murphy"
+    role: "Player"
+    team: "Milwaukee Brewers"
+card_name: "Pat Murphy - Base - Pink Laser"
+description: "Pink Laser parallel of Base card featuring Pat Murphy."
+series: "2026 Donruss"
+parallel: "Pink Laser"
+print_run: 50
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: true
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/21-pink-laser.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Donruss#Checklist"

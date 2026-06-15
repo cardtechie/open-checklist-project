@@ -1,0 +1,23 @@
+number: "63"
+uuid: "65f641dd-e12c-4ba1-ad2a-c08da402358f"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "Pie Traynor"
+    role: "Player"
+    team: "Pittsburgh Pirates"
+card_name: "Pie Traynor - Base - Silver Die Cut"
+description: "Silver Die Cut parallel of Base card featuring Pie Traynor."
+series: "2026 Donruss"
+parallel: "Silver Die Cut"
+print_run: 75
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: true
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/63-silver-die-cut.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Donruss#Checklist"

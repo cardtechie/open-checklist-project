@@ -1,0 +1,23 @@
+number: "100"
+uuid: "8483ef7a-50be-47d4-a225-f0d55a325d51"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "James Wood"
+    role: "Player"
+    team: "Washington Nationals"
+card_name: "James Wood - Base - Printing Plate Magenta"
+description: "Printing Plate Magenta parallel of Base card featuring James Wood."
+series: "2026 Donruss"
+parallel: "Printing Plate Magenta"
+print_run: 1
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: true
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/100-printing-plate-magenta.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Donruss#Checklist"

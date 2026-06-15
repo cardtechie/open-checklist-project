@@ -1,0 +1,23 @@
+number: "26"
+uuid: "640ee3a0-217f-4fa7-b7af-ebffa10bd1b8"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "Gil Hodges"
+    role: "Player"
+    team: "Brooklyn Dodgers"
+card_name: "Gil Hodges - Base - Artist Proof Black"
+description: "Artist Proof Black parallel of Base card featuring Gil Hodges."
+series: "2026 Donruss"
+parallel: "Artist Proof Black"
+print_run: 1
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: true
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/26-artist-proof-black.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Donruss#Checklist"

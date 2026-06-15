@@ -1,0 +1,23 @@
+number: "23"
+uuid: "bc3d9167-e7b6-42d0-a166-0752a38e7053"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "Randy Johnson"
+    role: "Player"
+    team: "Seattle Mariners"
+card_name: "Randy Johnson - Base - Holo Purple"
+description: "Holo Purple parallel of Base card featuring Randy Johnson."
+series: "2026 Donruss"
+parallel: "Holo Purple"
+print_run: 99
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: true
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/23-holo-purple.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Donruss#Checklist"

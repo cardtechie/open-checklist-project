@@ -1,0 +1,23 @@
+number: "3"
+uuid: "3897dcb0-2972-49a9-8627-f036af88f2d1"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "Bret Saberhagen"
+    role: "Player"
+    team: "Kansas City Royals"
+subset: "Signature Series"
+card_name: "Bret Saberhagen - Signature Series - Green Laser"
+description: "Green Laser parallel of Autographed Signature Series card featuring Bret Saberhagen."
+series: "2026 Donruss"
+parallel: "Green Laser"
+rookie_card: false
+autograph: true
+relic: false
+serial_numbered: false
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/signature-series-3-green-laser.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Donruss#Checklist"

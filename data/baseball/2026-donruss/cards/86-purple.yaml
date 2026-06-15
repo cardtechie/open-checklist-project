@@ -1,0 +1,22 @@
+number: "86"
+uuid: "049a5365-9e96-4414-8d2e-8d85923e9de7"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "Dwight Gooden"
+    role: "Player"
+    team: "New York Mets"
+card_name: "Dwight Gooden - Base - Purple"
+description: "Purple parallel of Base card featuring Dwight Gooden."
+series: "2026 Donruss"
+parallel: "Purple"
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: false
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/86-purple.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Donruss#Checklist"

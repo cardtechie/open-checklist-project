@@ -1,0 +1,22 @@
+number: "61"
+uuid: "8955d4bb-b907-4443-80fb-400a442a89b7"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "Roman Anthony"
+    role: "Player"
+    team: "Boston Red Sox"
+card_name: "Roman Anthony - Base - Red and Blue"
+description: "Red and Blue parallel of Base card featuring Roman Anthony."
+series: "2026 Donruss"
+parallel: "Red and Blue"
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: false
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/61-red-and-blue.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Donruss#Checklist"

@@ -1,0 +1,22 @@
+number: "20"
+uuid: "d686e5f1-9fcb-4911-a275-7e3044a14061"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "David Wright"
+    role: "Player"
+    team: "New York Mets"
+card_name: "David Wright - Base - Green Laser"
+description: "Green Laser parallel of Base card featuring David Wright."
+series: "2026 Donruss"
+parallel: "Green Laser"
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: false
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/20-green-laser.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Donruss#Checklist"

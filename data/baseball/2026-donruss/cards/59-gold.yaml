@@ -1,0 +1,23 @@
+number: "59"
+uuid: "12ade24b-b32f-4940-adb2-d2c157562805"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "Alex Rodriguez"
+    role: "Player"
+    team: "Texas Rangers"
+card_name: "Alex Rodriguez - Base - Gold"
+description: "Gold parallel of Base card featuring Alex Rodriguez."
+series: "2026 Donruss"
+parallel: "Gold"
+print_run: 10
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: true
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/59-gold.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Donruss#Checklist"

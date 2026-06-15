@@ -1,0 +1,24 @@
+number: "3"
+uuid: "6fa2c55c-b4a3-40c7-bab8-1b0cf7248737"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "Hye-Seong Kim"
+    role: "Player"
+    team: "Los Angeles Dodgers"
+subset: "Jersey Kings"
+card_name: "Hye-Seong Kim - Jersey Kings - Blue"
+description: "Blue parallel of Jersey Kings memorabilia card featuring Hye-Seong Kim."
+series: "2026 Donruss"
+parallel: "Blue"
+print_run: 25
+rookie_card: false
+autograph: false
+relic: true
+serial_numbered: true
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/jersey-kings-3-blue.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Donruss#Checklist"

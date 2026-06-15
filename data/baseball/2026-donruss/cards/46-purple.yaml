@@ -1,0 +1,22 @@
+number: "46"
+uuid: "1d892671-87dd-43a6-bf14-5be398f0dd79"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "Bryce Eldridge"
+    role: "Player"
+    team: "San Francisco Giants"
+card_name: "Bryce Eldridge - Base - Purple"
+description: "Purple parallel of Base card featuring Bryce Eldridge."
+series: "2026 Donruss"
+parallel: "Purple"
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: false
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/46-purple.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Donruss#Checklist"

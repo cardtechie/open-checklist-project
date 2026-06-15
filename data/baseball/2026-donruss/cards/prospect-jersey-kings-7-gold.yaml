@@ -1,0 +1,24 @@
+number: "7"
+uuid: "3c8583c4-9b29-4550-9ca4-af797018d0ab"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "Hagen Smith"
+    role: "Player"
+    team: "Chicago White Sox"
+subset: "Prospect Jersey Kings"
+card_name: "Hagen Smith - Prospect Jersey Kings - Gold"
+description: "Gold parallel of Prospect Jersey Kings memorabilia card featuring Hagen Smith."
+series: "2026 Donruss"
+parallel: "Gold"
+print_run: 10
+rookie_card: false
+autograph: false
+relic: true
+serial_numbered: true
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/prospect-jersey-kings-7-gold.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Donruss#Checklist"

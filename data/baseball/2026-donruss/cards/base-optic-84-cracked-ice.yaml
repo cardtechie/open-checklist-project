@@ -1,0 +1,24 @@
+number: "84"
+uuid: "d3beafa1-b264-4c45-8333-b7dd7f82e6e1"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "Jonah Tong"
+    role: "Player"
+    team: "New York Mets"
+subset: "Base - Optic"
+card_name: "Jonah Tong - Base - Optic - Cracked Ice"
+description: "Cracked Ice parallel of Base - Optic card featuring Jonah Tong."
+series: "2026 Donruss"
+parallel: "Cracked Ice"
+print_run: 25
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: true
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/base-optic-84-cracked-ice.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Donruss#Checklist"

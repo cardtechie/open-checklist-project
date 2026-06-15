@@ -1,0 +1,23 @@
+number: "98"
+uuid: "e8726515-e1a2-4f65-bb2a-b58bef5f7230"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "Trevor Hoffman"
+    role: "Player"
+    team: "San Diego Padres"
+card_name: "Trevor Hoffman - Base - Orange Laser"
+description: "Orange Laser parallel of Base card featuring Trevor Hoffman."
+series: "2026 Donruss"
+parallel: "Orange Laser"
+print_run: 299
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: true
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/98-orange-laser.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Donruss#Checklist"

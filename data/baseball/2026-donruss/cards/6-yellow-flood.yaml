@@ -1,0 +1,22 @@
+number: "6"
+uuid: "0ffcbcc3-ed34-4df8-9689-0024c34aa541"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "Jason Varitek"
+    role: "Player"
+    team: "Boston Red Sox"
+card_name: "Jason Varitek - Base - Yellow Flood"
+description: "Yellow Flood parallel of Base card featuring Jason Varitek."
+series: "2026 Donruss"
+parallel: "Yellow Flood"
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: false
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/6-yellow-flood.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Donruss#Checklist"

@@ -1,0 +1,24 @@
+number: "6"
+uuid: "b7348c6b-5ebf-43c2-ba9f-b15d40b3a121"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "Aaron Judge"
+    role: "Player"
+    team: "New York Yankees"
+subset: "Crunch Time"
+card_name: "Aaron Judge - Crunch Time - Blue Xplosion"
+description: "Blue Xplosion parallel of Crunch Time card featuring Aaron Judge."
+series: "2026 Donruss"
+parallel: "Blue Xplosion"
+print_run: 49
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: true
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/crunch-time-6-blue-xplosion.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Donruss#Checklist"

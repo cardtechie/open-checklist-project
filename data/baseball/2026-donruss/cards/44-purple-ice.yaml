@@ -1,0 +1,23 @@
+number: "44"
+uuid: "2c41824f-ed4f-419d-a69f-13d4db68910c"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "Vladimir Guerrero"
+    role: "Player"
+    team: "Anaheim Angels"
+card_name: "Vladimir Guerrero - Base - Purple Ice"
+description: "Purple Ice parallel of Base card featuring Vladimir Guerrero."
+series: "2026 Donruss"
+parallel: "Purple Ice"
+print_run: 99
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: true
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/44-purple-ice.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Donruss#Checklist"

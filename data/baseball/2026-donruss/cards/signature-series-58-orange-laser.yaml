@@ -1,0 +1,24 @@
+number: "58"
+uuid: "69f8c6f0-4fc6-4ee3-bd2b-858cb057fe1c"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "Daniel Eagen"
+    role: "Player"
+    team: "Arizona Diamondbacks"
+subset: "Signature Series"
+card_name: "Daniel Eagen - Signature Series - Orange Laser"
+description: "Orange Laser parallel of Autographed Signature Series card featuring Daniel Eagen."
+series: "2026 Donruss"
+parallel: "Orange Laser"
+print_run: 25
+rookie_card: false
+autograph: true
+relic: false
+serial_numbered: true
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/signature-series-58-orange-laser.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Donruss#Checklist"

@@ -1,0 +1,23 @@
+number: "1"
+uuid: "a70e86c0-4630-46f8-8e3c-eed3b7335881"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "Ken Griffey Jr."
+    role: "Player"
+    team: "Seattle Mariners"
+subset: "Base - Optic"
+card_name: "Ken Griffey Jr. - Base - Optic - Shock"
+description: "Shock parallel of Base - Optic card featuring Ken Griffey Jr.."
+series: "2026 Donruss"
+parallel: "Shock"
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: false
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/base-optic-1-shock.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Donruss#Checklist"

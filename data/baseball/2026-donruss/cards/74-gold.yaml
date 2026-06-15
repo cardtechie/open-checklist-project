@@ -1,0 +1,23 @@
+number: "74"
+uuid: "a326857f-4f75-46aa-ac23-bf7aa45cb2c7"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "Will Clark"
+    role: "Player"
+    team: "San Francisco Giants"
+card_name: "Will Clark - Base - Gold"
+description: "Gold parallel of Base card featuring Will Clark."
+series: "2026 Donruss"
+parallel: "Gold"
+print_run: 10
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: true
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/74-gold.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Donruss#Checklist"

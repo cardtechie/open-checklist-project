@@ -1,0 +1,19 @@
+number: "9"
+uuid: "0be20934-a2fb-4bd6-9ba9-dacfbc723497"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "Cade Horton"
+    role: "Player"
+    team: "Chicago Cubs"
+subset: "Jersey Kings"
+card_name: "Cade Horton - Jersey Kings"
+description: "Jersey Kings memorabilia card featuring Cade Horton."
+series: "2026 Donruss"
+rookie_card: false
+autograph: false
+relic: true
+serial_numbered: false
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/jersey-kings-9.jpg"

@@ -1,0 +1,24 @@
+number: "34"
+uuid: "22a6b0a8-54cd-4be2-80b4-e2a363a1f894"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "Dave Winfield"
+    role: "Player"
+    team: "San Diego Padres"
+subset: "Base - Optic"
+card_name: "Dave Winfield - Base - Optic - Pink Velocity"
+description: "Pink Velocity parallel of Base - Optic card featuring Dave Winfield."
+series: "2026 Donruss"
+parallel: "Pink Velocity"
+print_run: 79
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: true
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/base-optic-34-pink-velocity.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Donruss#Checklist"

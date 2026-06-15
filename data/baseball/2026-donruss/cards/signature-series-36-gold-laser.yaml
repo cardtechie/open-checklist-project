@@ -1,0 +1,24 @@
+number: "36"
+uuid: "052c601a-7836-41fa-8033-6f5cbb4399df"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "Tyson Lewis"
+    role: "Player"
+    team: "Cincinnati Reds"
+subset: "Signature Series"
+card_name: "Tyson Lewis - Signature Series - Gold Laser"
+description: "Gold Laser parallel of Autographed Signature Series card featuring Tyson Lewis."
+series: "2026 Donruss"
+parallel: "Gold Laser"
+print_run: 10
+rookie_card: false
+autograph: true
+relic: false
+serial_numbered: true
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/signature-series-36-gold-laser.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Donruss#Checklist"

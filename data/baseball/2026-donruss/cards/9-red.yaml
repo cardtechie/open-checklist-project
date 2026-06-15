@@ -1,0 +1,23 @@
+number: "9"
+uuid: "1ee0c4d9-6649-4bf6-862f-c63572cc67b6"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "Leo Durocher"
+    role: "Player"
+    team: "Chicago Cubs"
+card_name: "Leo Durocher - Base - Red"
+description: "Red parallel of Base card featuring Leo Durocher."
+series: "2026 Donruss"
+parallel: "Red"
+print_run: 250
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: true
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/9-red.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Donruss#Checklist"

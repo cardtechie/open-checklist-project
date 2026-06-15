@@ -1,0 +1,23 @@
+number: "54"
+uuid: "24ef4fe1-aa83-4532-b14f-7efe962de593"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "Josh Hamilton"
+    role: "Player"
+    team: "Texas Rangers"
+card_name: "Josh Hamilton - Base - On Fire"
+description: "On Fire parallel of Base card featuring Josh Hamilton."
+series: "2026 Donruss"
+parallel: "On Fire"
+print_run: 75
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: true
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/54-on-fire.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Donruss#Checklist"

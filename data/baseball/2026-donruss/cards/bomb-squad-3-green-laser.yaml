@@ -1,0 +1,23 @@
+number: "3"
+uuid: "7d47fe1f-add2-47bb-bc99-369168a398d0"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "Roman Anthony"
+    role: "Player"
+    team: "Boston Red Sox"
+subset: "Bomb Squad"
+card_name: "Roman Anthony - Bomb Squad - Green Laser"
+description: "Green Laser parallel of Bomb Squad card featuring Roman Anthony."
+series: "2026 Donruss"
+parallel: "Green Laser"
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: false
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/bomb-squad-3-green-laser.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Donruss#Checklist"

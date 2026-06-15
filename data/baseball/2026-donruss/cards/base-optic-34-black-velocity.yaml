@@ -1,0 +1,24 @@
+number: "34"
+uuid: "da74cb31-f793-4dce-8b03-633a7833450c"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "Dave Winfield"
+    role: "Player"
+    team: "San Diego Padres"
+subset: "Base - Optic"
+card_name: "Dave Winfield - Base - Optic - Black Velocity"
+description: "Black Velocity parallel of Base - Optic card featuring Dave Winfield."
+series: "2026 Donruss"
+parallel: "Black Velocity"
+print_run: 39
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: true
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/base-optic-34-black-velocity.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Donruss#Checklist"

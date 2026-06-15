@@ -1,0 +1,23 @@
+number: "36"
+uuid: "8480eb95-98a5-4708-85f9-72b02886e9e8"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "Jim Thome"
+    role: "Player"
+    team: "Cleveland Indians"
+card_name: "Jim Thome - Base - Purple Ice"
+description: "Purple Ice parallel of Base card featuring Jim Thome."
+series: "2026 Donruss"
+parallel: "Purple Ice"
+print_run: 99
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: true
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/36-purple-ice.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Donruss#Checklist"

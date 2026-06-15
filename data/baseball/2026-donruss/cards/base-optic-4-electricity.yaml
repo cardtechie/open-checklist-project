@@ -1,0 +1,24 @@
+number: "4"
+uuid: "6d96e6e6-ca9d-45bf-ba14-e19f3122c546"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "Byung-Hyun Kim"
+    role: "Player"
+    team: "Arizona Diamondbacks"
+subset: "Base - Optic"
+card_name: "Byung-Hyun Kim - Base - Optic - Electricity"
+description: "Electricity parallel of Base - Optic card featuring Byung-Hyun Kim."
+series: "2026 Donruss"
+parallel: "Electricity"
+print_run: 69
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: true
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/base-optic-4-electricity.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Donruss#Checklist"

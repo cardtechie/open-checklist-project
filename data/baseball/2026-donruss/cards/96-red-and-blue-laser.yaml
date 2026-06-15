@@ -1,0 +1,22 @@
+number: "96"
+uuid: "b97f558c-852a-4f57-9893-e31620c02950"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "Marcelo Mayer"
+    role: "Player"
+    team: "Boston Red Sox"
+card_name: "Marcelo Mayer - Base - Red and Blue Laser"
+description: "Red and Blue Laser parallel of Base card featuring Marcelo Mayer."
+series: "2026 Donruss"
+parallel: "Red and Blue Laser"
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: false
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/96-red-and-blue-laser.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Donruss#Checklist"

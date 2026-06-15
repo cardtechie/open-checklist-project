@@ -1,0 +1,23 @@
+number: "95"
+uuid: "2ffbb726-f628-40a6-a5c6-91d9f3113bb5"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "Tony Lazzeri"
+    role: "Player"
+    team: "New York Yankees"
+card_name: "Tony Lazzeri - Base - Orange Laser"
+description: "Orange Laser parallel of Base card featuring Tony Lazzeri."
+series: "2026 Donruss"
+parallel: "Orange Laser"
+print_run: 299
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: true
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/95-orange-laser.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Donruss#Checklist"

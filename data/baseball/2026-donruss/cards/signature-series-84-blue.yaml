@@ -1,0 +1,24 @@
+number: "84"
+uuid: "f6c05467-c5cb-47b4-a90b-2b3d5f15c082"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "Gino Groover"
+    role: "Player"
+    team: "Arizona Diamondbacks"
+subset: "Signature Series"
+card_name: "Gino Groover - Signature Series - Blue"
+description: "Blue parallel of Autographed Signature Series card featuring Gino Groover."
+series: "2026 Donruss"
+parallel: "Blue"
+print_run: 75
+rookie_card: false
+autograph: true
+relic: false
+serial_numbered: true
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/signature-series-84-blue.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Donruss#Checklist"

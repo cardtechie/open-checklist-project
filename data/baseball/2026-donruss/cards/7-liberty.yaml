@@ -1,0 +1,22 @@
+number: "7"
+uuid: "1163d28d-6b23-454b-99d1-73146e6ddf7b"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "Rhett Lowder"
+    role: "Player"
+    team: "Cincinnati Reds"
+card_name: "Rhett Lowder - Base - Liberty"
+description: "Liberty parallel of Base card featuring Rhett Lowder."
+series: "2026 Donruss"
+parallel: "Liberty"
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: false
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/7-liberty.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Donruss#Checklist"

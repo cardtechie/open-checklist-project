@@ -1,0 +1,23 @@
+number: "42"
+uuid: "2b3d92fc-940e-40c2-96c7-8dc37d5433c0"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "Tatsuya Imai"
+    role: "Player"
+    team: "Houston Astros"
+card_name: "Tatsuya Imai - Base - Pink Laser"
+description: "Pink Laser parallel of Base card featuring Tatsuya Imai."
+series: "2026 Donruss"
+parallel: "Pink Laser"
+print_run: 50
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: true
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/42-pink-laser.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Donruss#Checklist"

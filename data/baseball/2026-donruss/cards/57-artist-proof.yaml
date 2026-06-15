@@ -1,0 +1,23 @@
+number: "57"
+uuid: "653b9f80-4834-4f72-a08f-0e8dd43a9dd9"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "Roger Clemens"
+    role: "Player"
+    team: "Boston Red Sox"
+card_name: "Roger Clemens - Base - Artist Proof"
+description: "Artist Proof parallel of Base card featuring Roger Clemens."
+series: "2026 Donruss"
+parallel: "Artist Proof"
+print_run: 25
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: true
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/57-artist-proof.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Donruss#Checklist"

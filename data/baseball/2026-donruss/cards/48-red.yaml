@@ -1,0 +1,23 @@
+number: "48"
+uuid: "6f03dede-b3d9-4d2b-9c97-6ade8bdd7488"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "Barry Larkin"
+    role: "Player"
+    team: "Cincinnati Reds"
+card_name: "Barry Larkin - Base - Red"
+description: "Red parallel of Base card featuring Barry Larkin."
+series: "2026 Donruss"
+parallel: "Red"
+print_run: 250
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: true
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/48-red.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Donruss#Checklist"

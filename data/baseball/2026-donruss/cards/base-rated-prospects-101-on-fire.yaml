@@ -1,0 +1,24 @@
+number: "101"
+uuid: "2b02e062-527f-4f8e-9a76-e518e875580e"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "Konnor Griffin"
+    role: "Player"
+    team: "Pittsburgh Pirates"
+subset: "Base - Rated Prospects"
+card_name: "Konnor Griffin - Base - Rated Prospects - On Fire"
+description: "On Fire parallel of Base - Rated Prospects card featuring Konnor Griffin."
+series: "2026 Donruss"
+parallel: "On Fire"
+print_run: 75
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: true
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/base-rated-prospects-101-on-fire.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Donruss#Checklist"

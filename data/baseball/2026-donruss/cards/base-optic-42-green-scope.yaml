@@ -1,0 +1,24 @@
+number: "42"
+uuid: "5b90b4a9-70e5-4d69-82f2-f2359e33c891"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "Tatsuya Imai"
+    role: "Player"
+    team: "Houston Astros"
+subset: "Base - Optic"
+card_name: "Tatsuya Imai - Base - Optic - Green Scope"
+description: "Green Scope parallel of Base - Optic card featuring Tatsuya Imai."
+series: "2026 Donruss"
+parallel: "Green Scope"
+print_run: 65
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: true
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/base-optic-42-green-scope.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Donruss#Checklist"

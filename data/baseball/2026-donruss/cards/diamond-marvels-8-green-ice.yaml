@@ -1,0 +1,24 @@
+number: "8"
+uuid: "48885226-4fe4-4f6d-a9ab-64c4172e35c0"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "Jackson Chourio"
+    role: "Player"
+    team: "Milwaukee Brewers"
+subset: "Diamond Marvels"
+card_name: "Jackson Chourio - Diamond Marvels - Green Ice"
+description: "Green Ice parallel of Diamond Marvels card featuring Jackson Chourio."
+series: "2026 Donruss"
+parallel: "Green Ice"
+print_run: 15
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: true
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/diamond-marvels-8-green-ice.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Donruss#Checklist"

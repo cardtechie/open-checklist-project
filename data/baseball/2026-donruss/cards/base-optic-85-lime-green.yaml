@@ -1,0 +1,24 @@
+number: "85"
+uuid: "070c4b38-ad0e-4b8f-80d4-7d05638518b4"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "Chipper Jones"
+    role: "Player"
+    team: "Atlanta Braves"
+subset: "Base - Optic"
+card_name: "Chipper Jones - Base - Optic - Lime Green"
+description: "Lime Green parallel of Base - Optic card featuring Chipper Jones."
+series: "2026 Donruss"
+parallel: "Lime Green"
+print_run: 149
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: true
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/base-optic-85-lime-green.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Donruss#Checklist"

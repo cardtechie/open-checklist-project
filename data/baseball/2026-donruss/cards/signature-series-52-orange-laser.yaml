@@ -1,0 +1,24 @@
+number: "52"
+uuid: "f94b0aad-836b-4168-88bc-f77d112dcb5d"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "Ryan Howard"
+    role: "Player"
+    team: "Philadelphia Phillies"
+subset: "Signature Series"
+card_name: "Ryan Howard - Signature Series - Orange Laser"
+description: "Orange Laser parallel of Autographed Signature Series card featuring Ryan Howard."
+series: "2026 Donruss"
+parallel: "Orange Laser"
+print_run: 25
+rookie_card: false
+autograph: true
+relic: false
+serial_numbered: true
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/signature-series-52-orange-laser.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Donruss#Checklist"

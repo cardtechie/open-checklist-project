@@ -1,0 +1,22 @@
+number: "17"
+uuid: "88bd1356-0fa0-49e9-bd3f-353296160c82"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "Reggie Jackson"
+    role: "Player"
+    team: "New York Yankees"
+card_name: "Reggie Jackson - Base - Yellow Flood"
+description: "Yellow Flood parallel of Base card featuring Reggie Jackson."
+series: "2026 Donruss"
+parallel: "Yellow Flood"
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: false
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/17-yellow-flood.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Donruss#Checklist"

@@ -1,0 +1,24 @@
+number: "79"
+uuid: "1743b581-ef8a-4e5f-9ac2-fec3ca1e3b7b"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "Carlton Fisk"
+    role: "Player"
+    team: "Boston Red Sox"
+subset: "Base - Optic"
+card_name: "Carlton Fisk - Base - Optic - Pink Velocity"
+description: "Pink Velocity parallel of Base - Optic card featuring Carlton Fisk."
+series: "2026 Donruss"
+parallel: "Pink Velocity"
+print_run: 79
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: true
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/base-optic-79-pink-velocity.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Donruss#Checklist"

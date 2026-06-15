@@ -1,0 +1,24 @@
+number: "47"
+uuid: "3fad1153-9d9f-477c-b63a-a64a4e9a612f"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "Yadier Molina"
+    role: "Player"
+    team: "St. Louis Cardinals"
+subset: "Base - Optic"
+card_name: "Yadier Molina - Base - Optic - Orange"
+description: "Orange parallel of Base - Optic card featuring Yadier Molina."
+series: "2026 Donruss"
+parallel: "Orange"
+print_run: 199
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: true
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/base-optic-47-orange.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Donruss#Checklist"

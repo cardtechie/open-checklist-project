@@ -1,0 +1,23 @@
+number: "34"
+uuid: "23317c66-d256-41dc-9d30-8879166067a9"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "Dave Winfield"
+    role: "Player"
+    team: "San Diego Padres"
+card_name: "Dave Winfield - Base - Pink Laser"
+description: "Pink Laser parallel of Base card featuring Dave Winfield."
+series: "2026 Donruss"
+parallel: "Pink Laser"
+print_run: 50
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: true
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/34-pink-laser.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Donruss#Checklist"

@@ -1,0 +1,22 @@
+number: "17"
+uuid: "edaf373f-37a1-42f0-8d0c-90889c38c94e"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "Reggie Jackson"
+    role: "Player"
+    team: "New York Yankees"
+card_name: "Reggie Jackson - Base - Red and Blue"
+description: "Red and Blue parallel of Base card featuring Reggie Jackson."
+series: "2026 Donruss"
+parallel: "Red and Blue"
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: false
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/17-red-and-blue.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Donruss#Checklist"

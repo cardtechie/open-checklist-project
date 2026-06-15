@@ -1,0 +1,24 @@
+number: "2"
+uuid: "6b862bd8-8089-4be0-8bbf-849d3ca3c940"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "Chase DeLauter"
+    role: "Player"
+    team: "Cleveland Guardians"
+subset: "Crunch Time"
+card_name: "Chase DeLauter - Crunch Time - Gold Ice"
+description: "Gold Ice parallel of Crunch Time card featuring Chase DeLauter."
+series: "2026 Donruss"
+parallel: "Gold Ice"
+print_run: 10
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: true
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/crunch-time-2-gold-ice.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Donruss#Checklist"

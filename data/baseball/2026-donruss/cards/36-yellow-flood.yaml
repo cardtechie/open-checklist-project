@@ -1,0 +1,22 @@
+number: "36"
+uuid: "a2ccf418-de33-4ff0-a34d-e950f78f141e"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "Jim Thome"
+    role: "Player"
+    team: "Cleveland Indians"
+card_name: "Jim Thome - Base - Yellow Flood"
+description: "Yellow Flood parallel of Base card featuring Jim Thome."
+series: "2026 Donruss"
+parallel: "Yellow Flood"
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: false
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/36-yellow-flood.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Donruss#Checklist"

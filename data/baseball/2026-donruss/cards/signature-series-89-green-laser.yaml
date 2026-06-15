@@ -1,0 +1,23 @@
+number: "89"
+uuid: "d577202b-678e-4fdd-bd91-4ec64b9952bb"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "Josh Knoth"
+    role: "Player"
+    team: "Milwaukee Brewers"
+subset: "Signature Series"
+card_name: "Josh Knoth - Signature Series - Green Laser"
+description: "Green Laser parallel of Autographed Signature Series card featuring Josh Knoth."
+series: "2026 Donruss"
+parallel: "Green Laser"
+rookie_card: false
+autograph: true
+relic: false
+serial_numbered: false
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/signature-series-89-green-laser.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Donruss#Checklist"

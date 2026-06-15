@@ -1,0 +1,24 @@
+number: "92"
+uuid: "73fe6925-fd29-4b4f-8c3a-65567381de2e"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "Colt Keith"
+    role: "Player"
+    team: "Detroit Tigers"
+subset: "Base - Optic"
+card_name: "Colt Keith - Base - Optic - Green"
+description: "Green parallel of Base - Optic card featuring Colt Keith."
+series: "2026 Donruss"
+parallel: "Green"
+print_run: 5
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: true
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/base-optic-92-green.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Donruss#Checklist"

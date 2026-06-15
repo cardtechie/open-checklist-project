@@ -1,0 +1,24 @@
+number: "18"
+uuid: "360a29e1-3894-4b48-85a9-2ff8c7d8a738"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "Aaron Judge"
+    role: "Player"
+    team: "New York Yankees"
+subset: "Diamond Marvels"
+card_name: "Aaron Judge - Diamond Marvels - Gold Ice"
+description: "Gold Ice parallel of Diamond Marvels card featuring Aaron Judge."
+series: "2026 Donruss"
+parallel: "Gold Ice"
+print_run: 10
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: true
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/diamond-marvels-18-gold-ice.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Donruss#Checklist"

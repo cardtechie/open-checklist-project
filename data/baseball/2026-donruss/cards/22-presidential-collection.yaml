@@ -1,0 +1,23 @@
+number: "22"
+uuid: "9ae3e681-b0a2-4889-b4b3-999291c15b05"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "Tony Perez"
+    role: "Player"
+    team: "Cincinnati Reds"
+card_name: "Tony Perez - Base - Presidential Collection"
+description: "Presidential Collection parallel of Base card featuring Tony Perez."
+series: "2026 Donruss"
+parallel: "Presidential Collection"
+print_run: 47
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: true
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/22-presidential-collection.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Donruss#Checklist"

@@ -1,0 +1,23 @@
+number: "87"
+uuid: "1f0163b5-7b62-4203-868d-01a0ce43bea7"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "Colson Montgomery"
+    role: "Player"
+    team: "Chicago White Sox"
+card_name: "Colson Montgomery - Base - Green"
+description: "Green parallel of Base card featuring Colson Montgomery."
+series: "2026 Donruss"
+parallel: "Green"
+print_run: 199
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: true
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/87-green.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Donruss#Checklist"

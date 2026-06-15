@@ -1,0 +1,24 @@
+number: "99"
+uuid: "32720909-17f6-4069-b1c6-bdc7e5a8e43b"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "Bronson Arroyo"
+    role: "Player"
+    team: "Boston Red Sox"
+subset: "Signature Series"
+card_name: "Bronson Arroyo - Signature Series - Blue Laser"
+description: "Blue Laser parallel of Autographed Signature Series card featuring Bronson Arroyo."
+series: "2026 Donruss"
+parallel: "Blue Laser"
+print_run: 25
+rookie_card: false
+autograph: true
+relic: false
+serial_numbered: true
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/signature-series-99-blue-laser.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Donruss#Checklist"

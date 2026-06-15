@@ -1,0 +1,23 @@
+number: "45"
+uuid: "49f4a7f8-b294-4b1e-9247-6b4ea5db3a53"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "Jose Canseco"
+    role: "Player"
+    team: "Oakland A's"
+card_name: "Jose Canseco - Base - Purple Ice"
+description: "Purple Ice parallel of Base card featuring Jose Canseco."
+series: "2026 Donruss"
+parallel: "Purple Ice"
+print_run: 99
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: true
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/45-purple-ice.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Donruss#Checklist"

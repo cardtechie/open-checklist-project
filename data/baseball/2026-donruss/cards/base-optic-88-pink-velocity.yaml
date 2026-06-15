@@ -1,0 +1,24 @@
+number: "88"
+uuid: "7bd4ace2-028c-464e-9781-b5fdfa70e65c"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "Mariano Rivera"
+    role: "Player"
+    team: "New York Yankees"
+subset: "Base - Optic"
+card_name: "Mariano Rivera - Base - Optic - Pink Velocity"
+description: "Pink Velocity parallel of Base - Optic card featuring Mariano Rivera."
+series: "2026 Donruss"
+parallel: "Pink Velocity"
+print_run: 79
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: true
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/base-optic-88-pink-velocity.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Donruss#Checklist"

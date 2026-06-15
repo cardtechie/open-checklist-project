@@ -1,0 +1,22 @@
+number: "32"
+uuid: "0708fb68-8c94-4df5-9b93-8b0d6613dd2b"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "Nolan Ryan"
+    role: "Player"
+    team: "Texas Rangers"
+card_name: "Nolan Ryan - Base - Rockets"
+description: "Rockets parallel of Base card featuring Nolan Ryan."
+series: "2026 Donruss"
+parallel: "Rockets"
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: false
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/32-rockets.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Donruss#Checklist"

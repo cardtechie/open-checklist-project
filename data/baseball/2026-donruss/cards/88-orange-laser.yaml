@@ -1,0 +1,23 @@
+number: "88"
+uuid: "ffaa6b16-7431-4402-b3e4-78b717964d2d"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "Mariano Rivera"
+    role: "Player"
+    team: "New York Yankees"
+card_name: "Mariano Rivera - Base - Orange Laser"
+description: "Orange Laser parallel of Base card featuring Mariano Rivera."
+series: "2026 Donruss"
+parallel: "Orange Laser"
+print_run: 299
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: true
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/88-orange-laser.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Donruss#Checklist"

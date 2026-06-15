@@ -1,0 +1,23 @@
+number: "39"
+uuid: "b57966cd-def8-4e32-a9c8-4dfb1d61152f"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "Chase Burns"
+    role: "Player"
+    team: "Cincinnati Reds"
+card_name: "Chase Burns - Base - On Fire"
+description: "On Fire parallel of Base card featuring Chase Burns."
+series: "2026 Donruss"
+parallel: "On Fire"
+print_run: 75
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: true
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/39-on-fire.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Donruss#Checklist"

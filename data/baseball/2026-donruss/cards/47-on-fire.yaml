@@ -1,0 +1,23 @@
+number: "47"
+uuid: "8b45a321-db8b-458e-b38d-83893a1cda79"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "Yadier Molina"
+    role: "Player"
+    team: "St. Louis Cardinals"
+card_name: "Yadier Molina - Base - On Fire"
+description: "On Fire parallel of Base card featuring Yadier Molina."
+series: "2026 Donruss"
+parallel: "On Fire"
+print_run: 75
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: true
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/47-on-fire.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Donruss#Checklist"

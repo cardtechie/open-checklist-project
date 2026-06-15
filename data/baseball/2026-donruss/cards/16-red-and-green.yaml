@@ -1,0 +1,22 @@
+number: "16"
+uuid: "5bf30bf7-9b37-48c9-8364-7e80f3507c3f"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "Ozzie Smith"
+    role: "Player"
+    team: "St. Louis Cardinals"
+card_name: "Ozzie Smith - Base - Red and Green"
+description: "Red and Green parallel of Base card featuring Ozzie Smith."
+series: "2026 Donruss"
+parallel: "Red and Green"
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: false
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/16-red-and-green.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Donruss#Checklist"

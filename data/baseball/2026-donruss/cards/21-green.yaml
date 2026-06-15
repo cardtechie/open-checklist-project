@@ -1,0 +1,23 @@
+number: "21"
+uuid: "4acb687a-1eb0-43a8-ba4b-61df819d7737"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "Pat Murphy"
+    role: "Player"
+    team: "Milwaukee Brewers"
+card_name: "Pat Murphy - Base - Green"
+description: "Green parallel of Base card featuring Pat Murphy."
+series: "2026 Donruss"
+parallel: "Green"
+print_run: 199
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: true
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/21-green.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Donruss#Checklist"

@@ -1,0 +1,24 @@
+number: "200"
+uuid: "43740f61-a9eb-4a86-ae1e-38e2b3e34bd3"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "Luis Hernandez"
+    role: "Player"
+    team: "San Francisco Giants"
+subset: "Base - Rated Prospects - Optic"
+card_name: "Luis Hernandez - Base - Rated Prospects - Optic - Black Velocity"
+description: "Black Velocity parallel of Base - Rated Prospects - Optic card featuring Luis Hernandez."
+series: "2026 Donruss"
+parallel: "Black Velocity"
+print_run: 39
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: true
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/base-rated-prospects-optic-200-black-velocity.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Donruss#Checklist"

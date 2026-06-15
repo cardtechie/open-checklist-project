@@ -1,0 +1,24 @@
+number: "2"
+uuid: "96e8277b-410f-4c9b-a210-6c7121735dfc"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "Nolan Ryan"
+    role: "Player"
+    team: "Texas Rangers"
+subset: "Diamond Marvels"
+card_name: "Nolan Ryan - Diamond Marvels - Purple Ice"
+description: "Purple Ice parallel of Diamond Marvels card featuring Nolan Ryan."
+series: "2026 Donruss"
+parallel: "Purple Ice"
+print_run: 99
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: true
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/diamond-marvels-2-purple-ice.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Donruss#Checklist"

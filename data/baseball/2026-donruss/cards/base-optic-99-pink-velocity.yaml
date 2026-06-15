@@ -1,0 +1,24 @@
+number: "99"
+uuid: "78685cb2-9350-47c5-8661-e7935c53c559"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "Aaron Judge"
+    role: "Player"
+    team: "New York Yankees"
+subset: "Base - Optic"
+card_name: "Aaron Judge - Base - Optic - Pink Velocity"
+description: "Pink Velocity parallel of Base - Optic card featuring Aaron Judge."
+series: "2026 Donruss"
+parallel: "Pink Velocity"
+print_run: 79
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: true
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/base-optic-99-pink-velocity.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Donruss#Checklist"

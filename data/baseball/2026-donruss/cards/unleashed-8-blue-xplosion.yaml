@@ -1,0 +1,24 @@
+number: "8"
+uuid: "a071ecde-48b9-4288-afc5-55477d885fec"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "Bryce Eldridge"
+    role: "Player"
+    team: "San Francisco Giants"
+subset: "Unleashed"
+card_name: "Bryce Eldridge - Unleashed - Blue Xplosion"
+description: "Blue Xplosion parallel of Unleashed card featuring Bryce Eldridge."
+series: "2026 Donruss"
+parallel: "Blue Xplosion"
+print_run: 49
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: true
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/unleashed-8-blue-xplosion.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Donruss#Checklist"

@@ -1,0 +1,23 @@
+number: "80"
+uuid: "ab8edb15-baef-443d-a99d-670555571b03"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "Mike Schmidt"
+    role: "Player"
+    team: "Philadelphia Phillies"
+card_name: "Mike Schmidt - Base - Artist Proof"
+description: "Artist Proof parallel of Base card featuring Mike Schmidt."
+series: "2026 Donruss"
+parallel: "Artist Proof"
+print_run: 25
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: true
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/80-artist-proof.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Donruss#Checklist"

@@ -1,0 +1,22 @@
+number: "77"
+uuid: "c06bea2d-70fa-4748-bcc1-28e1d9644e00"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "Nick Kurtz"
+    role: "Player"
+    team: "Oakland A's"
+card_name: "Nick Kurtz - Base - Red and Green"
+description: "Red and Green parallel of Base card featuring Nick Kurtz."
+series: "2026 Donruss"
+parallel: "Red and Green"
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: false
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/77-red-and-green.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Donruss#Checklist"

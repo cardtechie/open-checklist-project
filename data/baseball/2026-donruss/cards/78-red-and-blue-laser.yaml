@@ -1,0 +1,22 @@
+number: "78"
+uuid: "ac259b35-0f8c-4fff-a52c-5d2e5596250d"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "Jimmy Crooks"
+    role: "Player"
+    team: "St. Louis Cardinals"
+card_name: "Jimmy Crooks - Base - Red and Blue Laser"
+description: "Red and Blue Laser parallel of Base card featuring Jimmy Crooks."
+series: "2026 Donruss"
+parallel: "Red and Blue Laser"
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: false
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/78-red-and-blue-laser.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Donruss#Checklist"

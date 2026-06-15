@@ -1,0 +1,24 @@
+number: "16"
+uuid: "048e2163-f540-41ce-8a01-a831ecf1b222"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "Dylan Crews"
+    role: "Player"
+    team: "Washington Nationals"
+subset: "Diamond Marvels"
+card_name: "Dylan Crews - Diamond Marvels - Orange Ice"
+description: "Orange Ice parallel of Diamond Marvels card featuring Dylan Crews."
+series: "2026 Donruss"
+parallel: "Orange Ice"
+print_run: 75
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: true
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/diamond-marvels-16-orange-ice.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Donruss#Checklist"

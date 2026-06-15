@@ -1,0 +1,24 @@
+number: "63"
+uuid: "c6a48edd-8034-48f5-87e8-1f9111bc01c3"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "Grant Shepardson"
+    role: "Player"
+    team: "Miami Marlins"
+subset: "Signature Series"
+card_name: "Grant Shepardson - Signature Series - Black"
+description: "Black parallel of Autographed Signature Series card featuring Grant Shepardson."
+series: "2026 Donruss"
+parallel: "Black"
+print_run: 1
+rookie_card: false
+autograph: true
+relic: false
+serial_numbered: true
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/signature-series-63-black.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Donruss#Checklist"

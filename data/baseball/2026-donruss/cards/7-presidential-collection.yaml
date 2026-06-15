@@ -1,0 +1,23 @@
+number: "7"
+uuid: "5d29d8ff-8bf0-4eef-a28e-be7b2c9c1c31"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "Rhett Lowder"
+    role: "Player"
+    team: "Cincinnati Reds"
+card_name: "Rhett Lowder - Base - Presidential Collection"
+description: "Presidential Collection parallel of Base card featuring Rhett Lowder."
+series: "2026 Donruss"
+parallel: "Presidential Collection"
+print_run: 47
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: true
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/7-presidential-collection.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Donruss#Checklist"

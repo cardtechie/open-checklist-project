@@ -1,0 +1,24 @@
+number: "17"
+uuid: "80cbc5c3-bea3-42a4-b432-7420fdd2f106"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "Reggie Jackson"
+    role: "Player"
+    team: "New York Yankees"
+subset: "Base - Optic"
+card_name: "Reggie Jackson - Base - Optic - Pink Velocity"
+description: "Pink Velocity parallel of Base - Optic card featuring Reggie Jackson."
+series: "2026 Donruss"
+parallel: "Pink Velocity"
+print_run: 79
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: true
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/base-optic-17-pink-velocity.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Donruss#Checklist"

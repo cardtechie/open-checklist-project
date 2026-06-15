@@ -1,0 +1,24 @@
+number: "4"
+uuid: "7aadad56-eaed-4908-b0cc-2c53407ea56d"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "Ethan Holliday"
+    role: "Player"
+    team: "Colorado Rockies"
+subset: "Diamond Marvels"
+card_name: "Ethan Holliday - Diamond Marvels - Platinum Diamond"
+description: "Platinum Diamond parallel of Diamond Marvels card featuring Ethan Holliday."
+series: "2026 Donruss"
+parallel: "Platinum Diamond"
+print_run: 1
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: true
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/diamond-marvels-4-platinum-diamond.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Donruss#Checklist"

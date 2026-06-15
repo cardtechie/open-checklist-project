@@ -1,0 +1,24 @@
+number: "51"
+uuid: "0773b9dc-03f7-47b7-9d03-f98cecb6b435"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "Madison Bumgarner"
+    role: "Player"
+    team: "San Francisco Giants"
+subset: "Base - Optic"
+card_name: "Madison Bumgarner - Base - Optic - Flex"
+description: "Flex parallel of Base - Optic card featuring Madison Bumgarner."
+series: "2026 Donruss"
+parallel: "Flex"
+print_run: 149
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: true
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/base-optic-51-flex.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Donruss#Checklist"

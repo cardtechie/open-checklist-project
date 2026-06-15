@@ -1,0 +1,24 @@
+number: "91"
+uuid: "4fbc75a1-c4e5-4232-8332-468b00d7789b"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "Griffin Burkholder"
+    role: "Player"
+    team: "Philadelphia Phillies"
+subset: "Signature Series"
+card_name: "Griffin Burkholder - Signature Series - Black"
+description: "Black parallel of Autographed Signature Series card featuring Griffin Burkholder."
+series: "2026 Donruss"
+parallel: "Black"
+print_run: 1
+rookie_card: false
+autograph: true
+relic: false
+serial_numbered: true
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/signature-series-91-black.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Donruss#Checklist"

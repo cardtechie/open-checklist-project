@@ -1,0 +1,19 @@
+number: "7"
+uuid: "289d77f1-4d76-4e5f-919b-5925cf691ed1"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "Brock Porter"
+    role: "Player"
+    team: "Texas Rangers"
+subset: "Signature Series"
+card_name: "Brock Porter - Signature Series"
+description: "Autographed Signature Series card featuring Brock Porter."
+series: "2026 Donruss"
+rookie_card: false
+autograph: true
+relic: false
+serial_numbered: false
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/signature-series-7.jpg"

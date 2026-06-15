@@ -1,0 +1,24 @@
+number: "96"
+uuid: "ec2b9d0c-66ed-49a3-9c89-6b7fda0b1e6e"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "Marcelo Mayer"
+    role: "Player"
+    team: "Boston Red Sox"
+subset: "Base - Optic"
+card_name: "Marcelo Mayer - Base - Optic - Orange Scope"
+description: "Orange Scope parallel of Base - Optic card featuring Marcelo Mayer."
+series: "2026 Donruss"
+parallel: "Orange Scope"
+print_run: 79
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: true
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/base-optic-96-orange-scope.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Donruss#Checklist"

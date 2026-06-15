@@ -1,0 +1,24 @@
+number: "14"
+uuid: "891353af-7af8-4ed8-965c-b1af4e4ffaac"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "Johnny Bench"
+    role: "Player"
+    team: "Cincinnati Reds"
+subset: "Elite Series"
+card_name: "Johnny Bench - Elite Series - Red Ice"
+description: "Red Ice parallel of Elite Series card featuring Johnny Bench."
+series: "2026 Donruss"
+parallel: "Red Ice"
+print_run: 149
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: true
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/elite-series-14-red-ice.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Donruss#Checklist"

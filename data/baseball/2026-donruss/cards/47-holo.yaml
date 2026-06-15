@@ -1,0 +1,22 @@
+number: "47"
+uuid: "ad5d03cd-db54-4def-b2fd-ebaa9d01a9be"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "Yadier Molina"
+    role: "Player"
+    team: "St. Louis Cardinals"
+card_name: "Yadier Molina - Base - Holo"
+description: "Holo parallel of Base card featuring Yadier Molina."
+series: "2026 Donruss"
+parallel: "Holo"
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: false
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/47-holo.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Donruss#Checklist"

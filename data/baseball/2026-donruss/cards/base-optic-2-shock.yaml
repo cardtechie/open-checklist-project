@@ -1,0 +1,23 @@
+number: "2"
+uuid: "c5b56232-4d27-4713-955d-551c96924821"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "Johnny Bench"
+    role: "Player"
+    team: "Cincinnati Reds"
+subset: "Base - Optic"
+card_name: "Johnny Bench - Base - Optic - Shock"
+description: "Shock parallel of Base - Optic card featuring Johnny Bench."
+series: "2026 Donruss"
+parallel: "Shock"
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: false
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/base-optic-2-shock.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Donruss#Checklist"

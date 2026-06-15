@@ -1,0 +1,22 @@
+number: "50"
+uuid: "e0d95cfb-48c6-4c77-b239-35d6456c1847"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "Rickey Henderson"
+    role: "Player"
+    team: "Oakland A's"
+card_name: "Rickey Henderson - Base - Rockets"
+description: "Rockets parallel of Base card featuring Rickey Henderson."
+series: "2026 Donruss"
+parallel: "Rockets"
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: false
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/50-rockets.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Donruss#Checklist"

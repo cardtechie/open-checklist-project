@@ -1,0 +1,23 @@
+number: "97"
+uuid: "ea93fb51-9c6a-4821-99d5-bc422d22a904"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "Cameron Schlittler"
+    role: "Player"
+    team: "New York Yankees"
+card_name: "Cameron Schlittler - Base - Red"
+description: "Red parallel of Base card featuring Cameron Schlittler."
+series: "2026 Donruss"
+parallel: "Red"
+print_run: 250
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: true
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/97-red.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Donruss#Checklist"

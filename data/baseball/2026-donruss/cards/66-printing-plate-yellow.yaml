@@ -1,0 +1,23 @@
+number: "66"
+uuid: "659c9295-aca8-4a4a-874b-17044a133a2b"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "Hideki Matsui"
+    role: "Player"
+    team: "New York Yankees"
+card_name: "Hideki Matsui - Base - Printing Plate Yellow"
+description: "Printing Plate Yellow parallel of Base card featuring Hideki Matsui."
+series: "2026 Donruss"
+parallel: "Printing Plate Yellow"
+print_run: 1
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: true
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/66-printing-plate-yellow.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Donruss#Checklist"

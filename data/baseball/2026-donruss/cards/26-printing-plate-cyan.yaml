@@ -1,0 +1,23 @@
+number: "26"
+uuid: "7fa57f40-1c0a-4dd3-83be-9c2b3c34e168"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "Gil Hodges"
+    role: "Player"
+    team: "Brooklyn Dodgers"
+card_name: "Gil Hodges - Base - Printing Plate Cyan"
+description: "Printing Plate Cyan parallel of Base card featuring Gil Hodges."
+series: "2026 Donruss"
+parallel: "Printing Plate Cyan"
+print_run: 1
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: true
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/26-printing-plate-cyan.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Donruss#Checklist"

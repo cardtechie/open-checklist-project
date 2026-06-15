@@ -1,0 +1,23 @@
+number: "85"
+uuid: "58ec0c72-ca80-4d4b-843d-6788c673b69a"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "Chipper Jones"
+    role: "Player"
+    team: "Atlanta Braves"
+card_name: "Chipper Jones - Base - Holo Purple"
+description: "Holo Purple parallel of Base card featuring Chipper Jones."
+series: "2026 Donruss"
+parallel: "Holo Purple"
+print_run: 99
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: true
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/85-holo-purple.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Donruss#Checklist"

@@ -1,0 +1,23 @@
+number: "65"
+uuid: "4fc20d44-91dd-4a90-87ba-7f157091ee56"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "Yogi Berra"
+    role: "Player"
+    team: "New York Yankees"
+card_name: "Yogi Berra - Base - Carolina Blue Laser"
+description: "Carolina Blue Laser parallel of Base card featuring Yogi Berra."
+series: "2026 Donruss"
+parallel: "Carolina Blue Laser"
+print_run: 249
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: true
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/65-carolina-blue-laser.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Donruss#Checklist"

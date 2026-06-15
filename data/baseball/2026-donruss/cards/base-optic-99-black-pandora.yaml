@@ -1,0 +1,23 @@
+number: "99"
+uuid: "d2e58f29-729c-4516-a221-469ea10cecd2"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "Aaron Judge"
+    role: "Player"
+    team: "New York Yankees"
+subset: "Base - Optic"
+card_name: "Aaron Judge - Base - Optic - Black Pandora"
+description: "Black Pandora parallel of Base - Optic card featuring Aaron Judge."
+series: "2026 Donruss"
+parallel: "Black Pandora"
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: false
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/base-optic-99-black-pandora.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Donruss#Checklist"

@@ -1,0 +1,23 @@
+number: "65"
+uuid: "98108e88-b2b7-4620-b225-9a984b9476fe"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "Yogi Berra"
+    role: "Player"
+    team: "New York Yankees"
+card_name: "Yogi Berra - Base - Pink Laser"
+description: "Pink Laser parallel of Base card featuring Yogi Berra."
+series: "2026 Donruss"
+parallel: "Pink Laser"
+print_run: 50
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: true
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/65-pink-laser.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Donruss#Checklist"

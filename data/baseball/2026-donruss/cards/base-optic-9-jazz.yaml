@@ -1,0 +1,23 @@
+number: "9"
+uuid: "e4200a5b-e6e2-413e-83f5-70a96d69a0ac"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "Leo Durocher"
+    role: "Player"
+    team: "Chicago Cubs"
+subset: "Base - Optic"
+card_name: "Leo Durocher - Base - Optic - Jazz"
+description: "Jazz parallel of Base - Optic card featuring Leo Durocher."
+series: "2026 Donruss"
+parallel: "Jazz"
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: false
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/base-optic-9-jazz.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Donruss#Checklist"

@@ -1,0 +1,24 @@
+number: "29"
+uuid: "c438f913-105e-4647-be8c-88ae2036d5ce"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "Kristian Campbell"
+    role: "Player"
+    team: "Boston Red Sox"
+subset: "Jersey Kings"
+card_name: "Kristian Campbell - Jersey Kings - Gold"
+description: "Gold parallel of Jersey Kings memorabilia card featuring Kristian Campbell."
+series: "2026 Donruss"
+parallel: "Gold"
+print_run: 10
+rookie_card: false
+autograph: false
+relic: true
+serial_numbered: true
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/jersey-kings-29-gold.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Donruss#Checklist"

@@ -1,0 +1,24 @@
+number: "3"
+uuid: "b4910b77-250d-49cf-83ea-49fd8aa7e2dc"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "Nick Kurtz"
+    role: "Player"
+    team: "Oakland A's"
+subset: "Elite Series"
+card_name: "Nick Kurtz - Elite Series - Gold Ice"
+description: "Gold Ice parallel of Elite Series card featuring Nick Kurtz."
+series: "2026 Donruss"
+parallel: "Gold Ice"
+print_run: 10
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: true
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/elite-series-3-gold-ice.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Donruss#Checklist"

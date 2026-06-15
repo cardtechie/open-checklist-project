@@ -1,0 +1,24 @@
+number: "48"
+uuid: "62fe62d3-1a06-46f0-887f-59e3a915d611"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "Barry Larkin"
+    role: "Player"
+    team: "Cincinnati Reds"
+subset: "Base - Optic"
+card_name: "Barry Larkin - Base - Optic - Blue Cracked Ice"
+description: "Blue Cracked Ice parallel of Base - Optic card featuring Barry Larkin."
+series: "2026 Donruss"
+parallel: "Blue Cracked Ice"
+print_run: 15
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: true
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/base-optic-48-blue-cracked-ice.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Donruss#Checklist"

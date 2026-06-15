@@ -1,0 +1,24 @@
+number: "7"
+uuid: "15af473a-8b9f-438a-9cf9-ac5e068c80f6"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "Hagen Smith"
+    role: "Player"
+    team: "Chicago White Sox"
+subset: "Prospect Jersey Kings"
+card_name: "Hagen Smith - Prospect Jersey Kings - Blue"
+description: "Blue parallel of Prospect Jersey Kings memorabilia card featuring Hagen Smith."
+series: "2026 Donruss"
+parallel: "Blue"
+print_run: 25
+rookie_card: false
+autograph: false
+relic: true
+serial_numbered: true
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/prospect-jersey-kings-7-blue.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Donruss#Checklist"

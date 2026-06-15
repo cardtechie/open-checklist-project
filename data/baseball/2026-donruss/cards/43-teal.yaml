@@ -1,0 +1,23 @@
+number: "43"
+uuid: "ad62fab9-f0af-4c00-9698-7fd60bc349fe"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "Jimmie Foxx"
+    role: "Player"
+    team: "Philadelphia Athletics"
+card_name: "Jimmie Foxx - Base - Teal"
+description: "Teal parallel of Base card featuring Jimmie Foxx."
+series: "2026 Donruss"
+parallel: "Teal"
+print_run: 25
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: true
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/43-teal.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Donruss#Checklist"

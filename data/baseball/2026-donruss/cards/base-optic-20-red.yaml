@@ -1,0 +1,24 @@
+number: "20"
+uuid: "ca82b2a3-77bd-49ad-acc2-a58250fac622"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "David Wright"
+    role: "Player"
+    team: "New York Mets"
+subset: "Base - Optic"
+card_name: "David Wright - Base - Optic - Red"
+description: "Red parallel of Base - Optic card featuring David Wright."
+series: "2026 Donruss"
+parallel: "Red"
+print_run: 99
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: true
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/base-optic-20-red.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Donruss#Checklist"

@@ -1,0 +1,24 @@
+number: "20"
+uuid: "2e87a8f0-7033-4df9-856d-785ef8e4db7a"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "Drue Hackenberg"
+    role: "Player"
+    team: "Atlanta Braves"
+subset: "Signature Series"
+card_name: "Drue Hackenberg - Signature Series - Red and Green Laser"
+description: "Red and Green Laser parallel of Autographed Signature Series card featuring Drue Hackenberg."
+series: "2026 Donruss"
+parallel: "Red and Green Laser"
+print_run: 99
+rookie_card: false
+autograph: true
+relic: false
+serial_numbered: true
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/signature-series-20-red-and-green-laser.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Donruss#Checklist"

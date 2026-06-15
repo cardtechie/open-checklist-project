@@ -1,0 +1,23 @@
+number: "22"
+uuid: "e7d6f428-4fae-488b-9189-95151f832b79"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "Tony Perez"
+    role: "Player"
+    team: "Cincinnati Reds"
+card_name: "Tony Perez - Base - Silver Die Cut"
+description: "Silver Die Cut parallel of Base card featuring Tony Perez."
+series: "2026 Donruss"
+parallel: "Silver Die Cut"
+print_run: 75
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: true
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/22-silver-die-cut.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Donruss#Checklist"

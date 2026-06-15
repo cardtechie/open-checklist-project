@@ -1,0 +1,23 @@
+number: "71"
+uuid: "e78def63-4a30-46bd-8415-5e3d73292130"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "Elston Howard"
+    role: "Player"
+    team: "New York Yankees"
+card_name: "Elston Howard - Base - Artist Proof"
+description: "Artist Proof parallel of Base card featuring Elston Howard."
+series: "2026 Donruss"
+parallel: "Artist Proof"
+print_run: 25
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: true
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/71-artist-proof.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Donruss#Checklist"

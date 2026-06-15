@@ -1,0 +1,23 @@
+number: "75"
+uuid: "658f2069-027f-46ff-a7c8-5735eaff43fe"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "Don Mattingly"
+    role: "Player"
+    team: "New York Yankees"
+card_name: "Don Mattingly - Base - Printing Plate Cyan"
+description: "Printing Plate Cyan parallel of Base card featuring Don Mattingly."
+series: "2026 Donruss"
+parallel: "Printing Plate Cyan"
+print_run: 1
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: true
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/75-printing-plate-cyan.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Donruss#Checklist"

@@ -1,0 +1,24 @@
+number: "11"
+uuid: "ebee9a05-228d-4403-b8c1-eee2cf8dbede"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "Seth Hernandez"
+    role: "Player"
+    team: "Pittsburgh Pirates"
+subset: "Prospect Jersey Kings"
+card_name: "Seth Hernandez - Prospect Jersey Kings - Gold"
+description: "Gold parallel of Prospect Jersey Kings memorabilia card featuring Seth Hernandez."
+series: "2026 Donruss"
+parallel: "Gold"
+print_run: 10
+rookie_card: false
+autograph: false
+relic: true
+serial_numbered: true
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/prospect-jersey-kings-11-gold.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Donruss#Checklist"

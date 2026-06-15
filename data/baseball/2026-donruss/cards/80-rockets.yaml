@@ -1,0 +1,22 @@
+number: "80"
+uuid: "d6bc8cd4-b659-4cd6-a042-82389a9f26a8"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "Mike Schmidt"
+    role: "Player"
+    team: "Philadelphia Phillies"
+card_name: "Mike Schmidt - Base - Rockets"
+description: "Rockets parallel of Base card featuring Mike Schmidt."
+series: "2026 Donruss"
+parallel: "Rockets"
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: false
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/80-rockets.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Donruss#Checklist"

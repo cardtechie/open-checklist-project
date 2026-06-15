@@ -1,0 +1,24 @@
+number: "13"
+uuid: "a81fa2db-c0b4-4036-b8f2-623041df8a35"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "Payton Tolle"
+    role: "Player"
+    team: "Boston Red Sox"
+subset: "Elite Series"
+card_name: "Payton Tolle - Elite Series - Purple Ice"
+description: "Purple Ice parallel of Elite Series card featuring Payton Tolle."
+series: "2026 Donruss"
+parallel: "Purple Ice"
+print_run: 99
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: true
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/elite-series-13-purple-ice.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Donruss#Checklist"

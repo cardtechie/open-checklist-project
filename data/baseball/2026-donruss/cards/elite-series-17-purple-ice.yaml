@@ -1,0 +1,24 @@
+number: "17"
+uuid: "edd2e991-cb40-4e43-9272-4d37ab1d6612"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "Kazuma Okamoto"
+    role: "Player"
+    team: "Toronto Blue Jays"
+subset: "Elite Series"
+card_name: "Kazuma Okamoto - Elite Series - Purple Ice"
+description: "Purple Ice parallel of Elite Series card featuring Kazuma Okamoto."
+series: "2026 Donruss"
+parallel: "Purple Ice"
+print_run: 99
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: true
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/elite-series-17-purple-ice.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Donruss#Checklist"

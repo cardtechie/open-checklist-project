@@ -1,0 +1,24 @@
+number: "19"
+uuid: "c8264bae-e9b6-4697-8718-6c1072905959"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "Will Clark"
+    role: "Player"
+    team: "San Francisco Giants"
+subset: "Retro 1986 Materials"
+card_name: "Will Clark - Retro 1986 Materials - Blue"
+description: "Blue parallel of Retro 1986 Materials memorabilia card featuring Will Clark."
+series: "2026 Donruss"
+parallel: "Blue"
+print_run: 25
+rookie_card: false
+autograph: false
+relic: true
+serial_numbered: true
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/retro-1986-materials-19-blue.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Donruss#Checklist"

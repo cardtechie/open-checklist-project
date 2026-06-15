@@ -1,0 +1,22 @@
+number: "41"
+uuid: "3df54631-71ee-471b-9065-73ab302d19f3"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "Felix Hernandez"
+    role: "Player"
+    team: "Seattle Mariners"
+card_name: "Felix Hernandez - Base - Liberty"
+description: "Liberty parallel of Base card featuring Felix Hernandez."
+series: "2026 Donruss"
+parallel: "Liberty"
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: false
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/41-liberty.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Donruss#Checklist"

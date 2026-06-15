@@ -1,0 +1,24 @@
+number: "17"
+uuid: "baea51f9-14a6-4089-b6e0-bd08fd3d9d61"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "Kazuma Okamoto"
+    role: "Player"
+    team: "Toronto Blue Jays"
+subset: "Elite Series"
+card_name: "Kazuma Okamoto - Elite Series - Purple Laser"
+description: "Purple Laser parallel of Elite Series card featuring Kazuma Okamoto."
+series: "2026 Donruss"
+parallel: "Purple Laser"
+print_run: 15
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: true
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/elite-series-17-purple-laser.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Donruss#Checklist"

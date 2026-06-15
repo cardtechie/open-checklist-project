@@ -1,0 +1,24 @@
+number: "56"
+uuid: "e8db8999-88fe-4c0e-b618-21ec9d68f47d"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "Michael Young"
+    role: "Player"
+    team: "Texas Rangers"
+subset: "Signature Series"
+card_name: "Michael Young - Signature Series - Teal"
+description: "Teal parallel of Autographed Signature Series card featuring Michael Young."
+series: "2026 Donruss"
+parallel: "Teal"
+print_run: 25
+rookie_card: false
+autograph: true
+relic: false
+serial_numbered: true
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/signature-series-56-teal.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Donruss#Checklist"

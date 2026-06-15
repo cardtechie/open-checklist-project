@@ -1,0 +1,23 @@
+number: "44"
+uuid: "aeb4aead-ec57-44b2-ab6d-a53351dc9b61"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "Vladimir Guerrero"
+    role: "Player"
+    team: "Anaheim Angels"
+card_name: "Vladimir Guerrero - Base - Stars"
+description: "Stars parallel of Base card featuring Vladimir Guerrero."
+series: "2026 Donruss"
+parallel: "Stars"
+print_run: 250
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: true
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/44-stars.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Donruss#Checklist"

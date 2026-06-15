@@ -1,0 +1,23 @@
+number: "54"
+uuid: "65b664e2-4043-46b5-82a0-9fcfa6e0c164"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "Josh Hamilton"
+    role: "Player"
+    team: "Texas Rangers"
+card_name: "Josh Hamilton - Base - Orange Laser"
+description: "Orange Laser parallel of Base card featuring Josh Hamilton."
+series: "2026 Donruss"
+parallel: "Orange Laser"
+print_run: 299
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: true
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/54-orange-laser.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Donruss#Checklist"

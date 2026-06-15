@@ -1,0 +1,23 @@
+number: "19"
+uuid: "a06aac0f-f786-4ca2-8f40-70bd8bbf60f5"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "Dick Allen"
+    role: "Player"
+    team: "Chicago White Sox"
+card_name: "Dick Allen - Base - Pink Laser"
+description: "Pink Laser parallel of Base card featuring Dick Allen."
+series: "2026 Donruss"
+parallel: "Pink Laser"
+print_run: 50
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: true
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/19-pink-laser.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Donruss#Checklist"

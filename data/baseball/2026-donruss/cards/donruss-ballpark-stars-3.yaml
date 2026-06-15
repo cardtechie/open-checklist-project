@@ -1,0 +1,19 @@
+number: "3"
+uuid: "96535865-d385-4e11-b9c6-fa41343533fb"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "Angel Reese"
+    role: "Player"
+    team: "Chicago Cubs"
+subset: "Donruss Ballpark Stars"
+card_name: "Angel Reese - Donruss Ballpark Stars"
+description: "Donruss Ballpark Stars card featuring Angel Reese."
+series: "2026 Donruss"
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: false
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/donruss-ballpark-stars-3.jpg"

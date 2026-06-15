@@ -1,0 +1,24 @@
+number: "11"
+uuid: "80a9e039-1662-418a-b948-12583ebd3fe2"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "Brooks Lee"
+    role: "Player"
+    team: "Minnesota Twins"
+subset: "Signature Series"
+card_name: "Brooks Lee - Signature Series - Blue"
+description: "Blue parallel of Autographed Signature Series card featuring Brooks Lee."
+series: "2026 Donruss"
+parallel: "Blue"
+print_run: 75
+rookie_card: false
+autograph: true
+relic: false
+serial_numbered: true
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/signature-series-11-blue.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Donruss#Checklist"

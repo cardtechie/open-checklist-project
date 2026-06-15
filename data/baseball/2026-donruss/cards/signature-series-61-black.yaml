@@ -1,0 +1,24 @@
+number: "61"
+uuid: "2cb52f66-9aba-4375-87bd-f49f19c3a074"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "Ralphy Velazquez"
+    role: "Player"
+    team: "Cleveland Guardians"
+subset: "Signature Series"
+card_name: "Ralphy Velazquez - Signature Series - Black"
+description: "Black parallel of Autographed Signature Series card featuring Ralphy Velazquez."
+series: "2026 Donruss"
+parallel: "Black"
+print_run: 1
+rookie_card: false
+autograph: true
+relic: false
+serial_numbered: true
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/signature-series-61-black.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Donruss#Checklist"

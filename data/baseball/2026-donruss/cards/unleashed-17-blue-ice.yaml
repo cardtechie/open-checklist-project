@@ -1,0 +1,24 @@
+number: "17"
+uuid: "afca49a6-7d83-41c2-b880-7200ed5885e6"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "Trey Yesavage"
+    role: "Player"
+    team: "Toronto Blue Jays"
+subset: "Unleashed"
+card_name: "Trey Yesavage - Unleashed - Blue Ice"
+description: "Blue Ice parallel of Unleashed card featuring Trey Yesavage."
+series: "2026 Donruss"
+parallel: "Blue Ice"
+print_run: 35
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: true
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/unleashed-17-blue-ice.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Donruss#Checklist"

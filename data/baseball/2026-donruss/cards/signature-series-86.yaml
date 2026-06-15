@@ -1,0 +1,19 @@
+number: "86"
+uuid: "8a9bba31-a0c2-4c9f-a784-977cc1abea3c"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "Reggie Jackson"
+    role: "Player"
+    team: "Oakland A's"
+subset: "Signature Series"
+card_name: "Reggie Jackson - Signature Series"
+description: "Autographed Signature Series card featuring Reggie Jackson."
+series: "2026 Donruss"
+rookie_card: false
+autograph: true
+relic: false
+serial_numbered: false
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/signature-series-86.jpg"

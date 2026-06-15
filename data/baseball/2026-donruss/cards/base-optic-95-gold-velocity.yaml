@@ -1,0 +1,24 @@
+number: "95"
+uuid: "8ad403d3-a1d9-462e-9ad8-a530dcd37cd1"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "Tony Lazzeri"
+    role: "Player"
+    team: "New York Yankees"
+subset: "Base - Optic"
+card_name: "Tony Lazzeri - Base - Optic - Gold Velocity"
+description: "Gold Velocity parallel of Base - Optic card featuring Tony Lazzeri."
+series: "2026 Donruss"
+parallel: "Gold Velocity"
+print_run: 10
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: true
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/base-optic-95-gold-velocity.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Donruss#Checklist"

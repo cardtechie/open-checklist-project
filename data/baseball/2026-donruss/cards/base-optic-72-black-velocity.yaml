@@ -1,0 +1,24 @@
+number: "72"
+uuid: "40026b76-2ae4-4ae0-80c4-bcd43ce55189"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "Michael Young"
+    role: "Player"
+    team: "Texas Rangers"
+subset: "Base - Optic"
+card_name: "Michael Young - Base - Optic - Black Velocity"
+description: "Black Velocity parallel of Base - Optic card featuring Michael Young."
+series: "2026 Donruss"
+parallel: "Black Velocity"
+print_run: 39
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: true
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/base-optic-72-black-velocity.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Donruss#Checklist"

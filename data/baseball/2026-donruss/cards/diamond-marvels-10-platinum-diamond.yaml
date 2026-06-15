@@ -1,0 +1,24 @@
+number: "10"
+uuid: "71f70806-a737-4599-81ab-22390655a9d7"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "Cade Horton"
+    role: "Player"
+    team: "Chicago Cubs"
+subset: "Diamond Marvels"
+card_name: "Cade Horton - Diamond Marvels - Platinum Diamond"
+description: "Platinum Diamond parallel of Diamond Marvels card featuring Cade Horton."
+series: "2026 Donruss"
+parallel: "Platinum Diamond"
+print_run: 1
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: true
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/diamond-marvels-10-platinum-diamond.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Donruss#Checklist"

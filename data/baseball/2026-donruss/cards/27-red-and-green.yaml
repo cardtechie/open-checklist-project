@@ -1,0 +1,22 @@
+number: "27"
+uuid: "3dbb9e17-6d91-42b3-b182-eccbfa99c0b5"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "Deion Sanders"
+    role: "Player"
+    team: "Cincinnati Reds"
+card_name: "Deion Sanders - Base - Red and Green"
+description: "Red and Green parallel of Base card featuring Deion Sanders."
+series: "2026 Donruss"
+parallel: "Red and Green"
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: false
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/27-red-and-green.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Donruss#Checklist"

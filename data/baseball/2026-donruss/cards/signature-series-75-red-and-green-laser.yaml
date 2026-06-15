@@ -1,0 +1,24 @@
+number: "75"
+uuid: "9807ea00-b0a6-48a1-b4fc-b8ff8a7926df"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "Adam Dunn"
+    role: "Player"
+    team: "Cincinnati Reds"
+subset: "Signature Series"
+card_name: "Adam Dunn - Signature Series - Red and Green Laser"
+description: "Red and Green Laser parallel of Autographed Signature Series card featuring Adam Dunn."
+series: "2026 Donruss"
+parallel: "Red and Green Laser"
+print_run: 99
+rookie_card: false
+autograph: true
+relic: false
+serial_numbered: true
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/signature-series-75-red-and-green-laser.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Donruss#Checklist"

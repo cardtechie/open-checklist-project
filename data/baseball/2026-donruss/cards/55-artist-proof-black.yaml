@@ -1,0 +1,23 @@
+number: "55"
+uuid: "1a8b547d-6226-4924-bf6d-e8bc0d6efc5d"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "Frank Chance"
+    role: "Player"
+    team: "Chicago Cubs"
+card_name: "Frank Chance - Base - Artist Proof Black"
+description: "Artist Proof Black parallel of Base card featuring Frank Chance."
+series: "2026 Donruss"
+parallel: "Artist Proof Black"
+print_run: 1
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: true
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/55-artist-proof-black.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Donruss#Checklist"

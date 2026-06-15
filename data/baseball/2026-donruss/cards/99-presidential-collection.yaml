@@ -1,0 +1,23 @@
+number: "99"
+uuid: "a12b5f28-3b6f-4273-84fb-6f398217d12f"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "Aaron Judge"
+    role: "Player"
+    team: "New York Yankees"
+card_name: "Aaron Judge - Base - Presidential Collection"
+description: "Presidential Collection parallel of Base card featuring Aaron Judge."
+series: "2026 Donruss"
+parallel: "Presidential Collection"
+print_run: 47
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: true
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/99-presidential-collection.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Donruss#Checklist"

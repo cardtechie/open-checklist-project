@@ -1,0 +1,23 @@
+number: "56"
+uuid: "01b2d98e-a4fd-4d53-96b9-eed13267e66f"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "Tomoyuki Sugano"
+    role: "Player"
+    team: "Baltimore Orioles"
+subset: "Base - Optic"
+card_name: "Tomoyuki Sugano - Base - Optic - Holo"
+description: "Holo parallel of Base - Optic card featuring Tomoyuki Sugano."
+series: "2026 Donruss"
+parallel: "Holo"
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: false
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/base-optic-56-holo.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Donruss#Checklist"

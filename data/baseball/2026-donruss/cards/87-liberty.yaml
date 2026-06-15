@@ -1,0 +1,22 @@
+number: "87"
+uuid: "3ed8be20-28e1-49eb-af5e-1df94d961a2e"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "Colson Montgomery"
+    role: "Player"
+    team: "Chicago White Sox"
+card_name: "Colson Montgomery - Base - Liberty"
+description: "Liberty parallel of Base card featuring Colson Montgomery."
+series: "2026 Donruss"
+parallel: "Liberty"
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: false
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/87-liberty.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Donruss#Checklist"

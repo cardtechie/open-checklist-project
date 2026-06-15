@@ -1,0 +1,23 @@
+number: "85"
+uuid: "3eca5883-6eab-44e7-a4d1-62a5a4c5d46f"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "Chipper Jones"
+    role: "Player"
+    team: "Atlanta Braves"
+card_name: "Chipper Jones - Base - Printing Plate Black"
+description: "Printing Plate Black parallel of Base card featuring Chipper Jones."
+series: "2026 Donruss"
+parallel: "Printing Plate Black"
+print_run: 1
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: true
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/85-printing-plate-black.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Donruss#Checklist"

@@ -1,0 +1,24 @@
+number: "51"
+uuid: "229708df-4c3c-481b-a33d-b4b0a3e2db62"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "Madison Bumgarner"
+    role: "Player"
+    team: "San Francisco Giants"
+subset: "Base - Optic"
+card_name: "Madison Bumgarner - Base - Optic - Gold"
+description: "Gold parallel of Base - Optic card featuring Madison Bumgarner."
+series: "2026 Donruss"
+parallel: "Gold"
+print_run: 10
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: true
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/base-optic-51-gold.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Donruss#Checklist"

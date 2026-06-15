@@ -1,0 +1,24 @@
+number: "1"
+uuid: "345996ce-60cb-4b52-a8ef-e25efd6d1049"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "Darryl Strawberry"
+    role: "Player"
+    team: "New York Mets"
+subset: "Elite Series"
+card_name: "Darryl Strawberry - Elite Series - Blue Ice"
+description: "Blue Ice parallel of Elite Series card featuring Darryl Strawberry."
+series: "2026 Donruss"
+parallel: "Blue Ice"
+print_run: 35
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: true
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/elite-series-1-blue-ice.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Donruss#Checklist"

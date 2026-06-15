@@ -1,0 +1,23 @@
+number: "8"
+uuid: "4dc4cfb2-e183-4724-9e97-e18ed9556b88"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "Luisangel Acuna"
+    role: "Player"
+    team: "Chicago White Sox"
+card_name: "Luisangel Acuna - Base - Pink Ice"
+description: "Pink Ice parallel of Base card featuring Luisangel Acuna."
+series: "2026 Donruss"
+parallel: "Pink Ice"
+print_run: 99
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: true
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/8-pink-ice.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Donruss#Checklist"

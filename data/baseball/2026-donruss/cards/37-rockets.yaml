@@ -1,0 +1,22 @@
+number: "37"
+uuid: "80fa75ca-873d-40b7-8977-17119b67fbab"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "Trey Yesavage"
+    role: "Player"
+    team: "Toronto Blue Jays"
+card_name: "Trey Yesavage - Base - Rockets"
+description: "Rockets parallel of Base card featuring Trey Yesavage."
+series: "2026 Donruss"
+parallel: "Rockets"
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: false
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/37-rockets.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Donruss#Checklist"

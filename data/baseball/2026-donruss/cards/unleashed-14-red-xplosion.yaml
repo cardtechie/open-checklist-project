@@ -1,0 +1,24 @@
+number: "14"
+uuid: "9e7b8fc0-9da0-417d-b35e-d01249692f4f"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "Paul Skenes"
+    role: "Player"
+    team: "Pittsburgh Pirates"
+subset: "Unleashed"
+card_name: "Paul Skenes - Unleashed - Red Xplosion"
+description: "Red Xplosion parallel of Unleashed card featuring Paul Skenes."
+series: "2026 Donruss"
+parallel: "Red Xplosion"
+print_run: 99
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: true
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/unleashed-14-red-xplosion.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Donruss#Checklist"

@@ -1,0 +1,23 @@
+number: "23"
+uuid: "fe410bb9-2771-4ae4-853b-73a4043c6309"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "Randy Johnson"
+    role: "Player"
+    team: "Seattle Mariners"
+card_name: "Randy Johnson - Base - Printing Plate Cyan"
+description: "Printing Plate Cyan parallel of Base card featuring Randy Johnson."
+series: "2026 Donruss"
+parallel: "Printing Plate Cyan"
+print_run: 1
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: true
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/23-printing-plate-cyan.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Donruss#Checklist"

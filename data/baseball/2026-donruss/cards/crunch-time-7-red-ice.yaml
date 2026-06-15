@@ -1,0 +1,24 @@
+number: "7"
+uuid: "7c32ad02-c954-4816-a8e7-e4e5b481f129"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "Cade Horton"
+    role: "Player"
+    team: "Chicago Cubs"
+subset: "Crunch Time"
+card_name: "Cade Horton - Crunch Time - Red Ice"
+description: "Red Ice parallel of Crunch Time card featuring Cade Horton."
+series: "2026 Donruss"
+parallel: "Red Ice"
+print_run: 149
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: true
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/crunch-time-7-red-ice.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Donruss#Checklist"

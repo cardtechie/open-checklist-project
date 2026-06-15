@@ -1,0 +1,23 @@
+number: "2"
+uuid: "f3bf7517-c627-41bc-940c-8df1048178d7"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "Nolan Ryan"
+    role: "Player"
+    team: "Texas Rangers"
+subset: "Diamond Marvels"
+card_name: "Nolan Ryan - Diamond Marvels - Green Laser"
+description: "Green Laser parallel of Diamond Marvels card featuring Nolan Ryan."
+series: "2026 Donruss"
+parallel: "Green Laser"
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: false
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/diamond-marvels-2-green-laser.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Donruss#Checklist"

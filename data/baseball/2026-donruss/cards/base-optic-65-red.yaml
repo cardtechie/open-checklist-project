@@ -1,0 +1,24 @@
+number: "65"
+uuid: "bc18fa5b-b322-4443-a6b6-da2a0f44f319"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "Yogi Berra"
+    role: "Player"
+    team: "New York Yankees"
+subset: "Base - Optic"
+card_name: "Yogi Berra - Base - Optic - Red"
+description: "Red parallel of Base - Optic card featuring Yogi Berra."
+series: "2026 Donruss"
+parallel: "Red"
+print_run: 99
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: true
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/base-optic-65-red.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Donruss#Checklist"

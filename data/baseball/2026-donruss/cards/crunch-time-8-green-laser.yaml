@@ -1,0 +1,23 @@
+number: "8"
+uuid: "f471567d-e4e8-422e-ad7d-8a0ac76813a9"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "Cameron Schlittler"
+    role: "Player"
+    team: "New York Yankees"
+subset: "Crunch Time"
+card_name: "Cameron Schlittler - Crunch Time - Green Laser"
+description: "Green Laser parallel of Crunch Time card featuring Cameron Schlittler."
+series: "2026 Donruss"
+parallel: "Green Laser"
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: false
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/crunch-time-8-green-laser.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Donruss#Checklist"

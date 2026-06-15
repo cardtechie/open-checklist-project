@@ -1,0 +1,24 @@
+number: "23"
+uuid: "50164881-4da7-4130-9a50-7ff340fec180"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "Tai Peete"
+    role: "Player"
+    team: "Seattle Mariners"
+subset: "Signature Series"
+card_name: "Tai Peete - Signature Series - Black"
+description: "Black parallel of Autographed Signature Series card featuring Tai Peete."
+series: "2026 Donruss"
+parallel: "Black"
+print_run: 1
+rookie_card: false
+autograph: true
+relic: false
+serial_numbered: true
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/signature-series-23-black.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Donruss#Checklist"

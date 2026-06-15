@@ -1,0 +1,22 @@
+number: "90"
+uuid: "832c8dfa-29b9-457d-84e5-69cb088c4a1e"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "Josh Gibson"
+    role: "Player"
+    team: "Homestead Grays"
+card_name: "Josh Gibson - Base - Holo"
+description: "Holo parallel of Base card featuring Josh Gibson."
+series: "2026 Donruss"
+parallel: "Holo"
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: false
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/90-holo.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Donruss#Checklist"

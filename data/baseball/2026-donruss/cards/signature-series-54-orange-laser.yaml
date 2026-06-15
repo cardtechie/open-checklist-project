@@ -1,0 +1,24 @@
+number: "54"
+uuid: "f4b049c0-4983-4b44-b263-5bde77e3b844"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "Jaron DeBerry"
+    role: "Player"
+    team: "Milwaukee Brewers"
+subset: "Signature Series"
+card_name: "Jaron DeBerry - Signature Series - Orange Laser"
+description: "Orange Laser parallel of Autographed Signature Series card featuring Jaron DeBerry."
+series: "2026 Donruss"
+parallel: "Orange Laser"
+print_run: 25
+rookie_card: false
+autograph: true
+relic: false
+serial_numbered: true
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/signature-series-54-orange-laser.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Donruss#Checklist"

@@ -1,0 +1,23 @@
+number: "13"
+uuid: "e6be8092-10fd-4e1e-864b-c3f67137c712"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "Jacob Wilson"
+    role: "Player"
+    team: "Oakland A's"
+card_name: "Jacob Wilson - Base - Orange Laser"
+description: "Orange Laser parallel of Base card featuring Jacob Wilson."
+series: "2026 Donruss"
+parallel: "Orange Laser"
+print_run: 299
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: true
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/13-orange-laser.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Donruss#Checklist"

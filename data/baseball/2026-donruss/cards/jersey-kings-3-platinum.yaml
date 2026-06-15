@@ -1,0 +1,24 @@
+number: "3"
+uuid: "5edb755e-619b-4d3e-a593-61edaad6e7ff"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "Hye-Seong Kim"
+    role: "Player"
+    team: "Los Angeles Dodgers"
+subset: "Jersey Kings"
+card_name: "Hye-Seong Kim - Jersey Kings - Platinum"
+description: "Platinum parallel of Jersey Kings memorabilia card featuring Hye-Seong Kim."
+series: "2026 Donruss"
+parallel: "Platinum"
+print_run: 1
+rookie_card: false
+autograph: false
+relic: true
+serial_numbered: true
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/jersey-kings-3-platinum.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Donruss#Checklist"

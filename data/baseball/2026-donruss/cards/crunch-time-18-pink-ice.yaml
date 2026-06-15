@@ -1,0 +1,24 @@
+number: "18"
+uuid: "bad3a993-a2e2-44dd-8a09-876da915958f"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "Trey Yesavage"
+    role: "Player"
+    team: "Toronto Blue Jays"
+subset: "Crunch Time"
+card_name: "Trey Yesavage - Crunch Time - Pink Ice"
+description: "Pink Ice parallel of Crunch Time card featuring Trey Yesavage."
+series: "2026 Donruss"
+parallel: "Pink Ice"
+print_run: 99
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: true
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/crunch-time-18-pink-ice.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Donruss#Checklist"

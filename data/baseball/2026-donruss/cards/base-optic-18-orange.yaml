@@ -1,0 +1,24 @@
+number: "18"
+uuid: "e539bd17-dca4-493f-beb3-d8951d621827"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "Kazuma Okamoto"
+    role: "Player"
+    team: "Toronto Blue Jays"
+subset: "Base - Optic"
+card_name: "Kazuma Okamoto - Base - Optic - Orange"
+description: "Orange parallel of Base - Optic card featuring Kazuma Okamoto."
+series: "2026 Donruss"
+parallel: "Orange"
+print_run: 199
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: true
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/base-optic-18-orange.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Donruss#Checklist"

@@ -1,0 +1,23 @@
+number: "41"
+uuid: "65ee3eef-dcc1-45c8-9f41-35ff206e898c"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "Felix Hernandez"
+    role: "Player"
+    team: "Seattle Mariners"
+card_name: "Felix Hernandez - Base - Carolina Blue Laser"
+description: "Carolina Blue Laser parallel of Base card featuring Felix Hernandez."
+series: "2026 Donruss"
+parallel: "Carolina Blue Laser"
+print_run: 249
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: true
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/41-carolina-blue-laser.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Donruss#Checklist"

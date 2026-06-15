@@ -1,0 +1,19 @@
+number: "34"
+uuid: "2a7fd774-c985-4998-8daf-f1d4607b474a"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "Frank Thomas"
+    role: "Player"
+    team: "Chicago White Sox"
+subset: "Signature Series"
+card_name: "Frank Thomas - Signature Series"
+description: "Autographed Signature Series card featuring Frank Thomas."
+series: "2026 Donruss"
+rookie_card: false
+autograph: true
+relic: false
+serial_numbered: false
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/signature-series-34.jpg"

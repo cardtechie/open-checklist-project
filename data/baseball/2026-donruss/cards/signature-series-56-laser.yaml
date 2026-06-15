@@ -1,0 +1,23 @@
+number: "56"
+uuid: "42cab54b-51c4-4cb7-a7f4-c554e3ef2cda"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "Michael Young"
+    role: "Player"
+    team: "Texas Rangers"
+subset: "Signature Series"
+card_name: "Michael Young - Signature Series - Laser"
+description: "Laser parallel of Autographed Signature Series card featuring Michael Young."
+series: "2026 Donruss"
+parallel: "Laser"
+rookie_card: false
+autograph: true
+relic: false
+serial_numbered: false
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/signature-series-56-laser.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Donruss#Checklist"

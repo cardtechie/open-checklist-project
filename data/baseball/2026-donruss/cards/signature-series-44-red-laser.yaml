@@ -1,0 +1,24 @@
+number: "44"
+uuid: "5b4f1d5e-13d6-4fa6-a9b9-82ee3827cc4a"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "Chase Burns"
+    role: "Player"
+    team: "Cincinnati Reds"
+subset: "Signature Series"
+card_name: "Chase Burns - Signature Series - Red Laser"
+description: "Red Laser parallel of Autographed Signature Series card featuring Chase Burns."
+series: "2026 Donruss"
+parallel: "Red Laser"
+print_run: 30
+rookie_card: false
+autograph: true
+relic: false
+serial_numbered: true
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/signature-series-44-red-laser.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Donruss#Checklist"

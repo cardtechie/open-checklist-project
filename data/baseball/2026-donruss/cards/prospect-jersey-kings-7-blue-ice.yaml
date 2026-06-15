@@ -1,0 +1,23 @@
+number: "7"
+uuid: "55bee6cd-b52f-48e4-8963-058dcc4c2c9b"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "Hagen Smith"
+    role: "Player"
+    team: "Chicago White Sox"
+subset: "Prospect Jersey Kings"
+card_name: "Hagen Smith - Prospect Jersey Kings - Blue Ice"
+description: "Blue Ice parallel of Prospect Jersey Kings memorabilia card featuring Hagen Smith."
+series: "2026 Donruss"
+parallel: "Blue Ice"
+rookie_card: false
+autograph: false
+relic: true
+serial_numbered: false
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/prospect-jersey-kings-7-blue-ice.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Donruss#Checklist"

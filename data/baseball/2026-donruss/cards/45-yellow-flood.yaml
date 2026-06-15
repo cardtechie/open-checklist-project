@@ -1,0 +1,22 @@
+number: "45"
+uuid: "a0bd8200-8fed-4d56-96ed-c50f13aec230"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "Jose Canseco"
+    role: "Player"
+    team: "Oakland A's"
+card_name: "Jose Canseco - Base - Yellow Flood"
+description: "Yellow Flood parallel of Base card featuring Jose Canseco."
+series: "2026 Donruss"
+parallel: "Yellow Flood"
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: false
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/45-yellow-flood.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Donruss#Checklist"

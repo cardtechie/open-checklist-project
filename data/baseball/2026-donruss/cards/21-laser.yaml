@@ -1,0 +1,22 @@
+number: "21"
+uuid: "db54a077-5523-42ac-9d74-f57963e65ed5"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "Pat Murphy"
+    role: "Player"
+    team: "Milwaukee Brewers"
+card_name: "Pat Murphy - Base - Laser"
+description: "Laser parallel of Base card featuring Pat Murphy."
+series: "2026 Donruss"
+parallel: "Laser"
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: false
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/21-laser.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Donruss#Checklist"

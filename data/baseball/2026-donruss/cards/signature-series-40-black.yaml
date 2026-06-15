@@ -1,0 +1,24 @@
+number: "40"
+uuid: "9c2c460e-fd43-469b-8450-ae39e4495e7d"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "Aiden May"
+    role: "Player"
+    team: "Miami Marlins"
+subset: "Signature Series"
+card_name: "Aiden May - Signature Series - Black"
+description: "Black parallel of Autographed Signature Series card featuring Aiden May."
+series: "2026 Donruss"
+parallel: "Black"
+print_run: 1
+rookie_card: false
+autograph: true
+relic: false
+serial_numbered: true
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/signature-series-40-black.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Donruss#Checklist"

@@ -1,0 +1,24 @@
+number: "1"
+uuid: "3b8e1f43-1115-4135-9347-62f690fbc250"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "Christian Moore"
+    role: "Player"
+    team: "Los Angeles Angels"
+subset: "Jersey Kings"
+card_name: "Christian Moore - Jersey Kings - Gold"
+description: "Gold parallel of Jersey Kings memorabilia card featuring Christian Moore."
+series: "2026 Donruss"
+parallel: "Gold"
+print_run: 10
+rookie_card: false
+autograph: false
+relic: true
+serial_numbered: true
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/jersey-kings-1-gold.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Donruss#Checklist"

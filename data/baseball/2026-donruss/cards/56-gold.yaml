@@ -1,0 +1,23 @@
+number: "56"
+uuid: "3adcee35-a3fd-4046-b426-37d2b0aa7134"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "Tomoyuki Sugano"
+    role: "Player"
+    team: "Baltimore Orioles"
+card_name: "Tomoyuki Sugano - Base - Gold"
+description: "Gold parallel of Base card featuring Tomoyuki Sugano."
+series: "2026 Donruss"
+parallel: "Gold"
+print_run: 10
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: true
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/56-gold.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Donruss#Checklist"

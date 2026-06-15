@@ -1,0 +1,23 @@
+number: "49"
+uuid: "d1e19f98-0883-47b8-870b-32fdbe76c829"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "Payton Tolle"
+    role: "Player"
+    team: "Boston Red Sox"
+subset: "Signature Series"
+card_name: "Payton Tolle - Signature Series - Green Laser"
+description: "Green Laser parallel of Autographed Signature Series card featuring Payton Tolle."
+series: "2026 Donruss"
+parallel: "Green Laser"
+rookie_card: false
+autograph: true
+relic: false
+serial_numbered: false
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/signature-series-49-green-laser.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Donruss#Checklist"

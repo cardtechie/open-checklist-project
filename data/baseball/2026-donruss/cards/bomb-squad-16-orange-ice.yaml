@@ -1,0 +1,24 @@
+number: "16"
+uuid: "fce0be42-face-4d05-ab0f-04039fbf2c1f"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "Albert Pujols"
+    role: "Player"
+    team: "St. Louis Cardinals"
+subset: "Bomb Squad"
+card_name: "Albert Pujols - Bomb Squad - Orange Ice"
+description: "Orange Ice parallel of Bomb Squad card featuring Albert Pujols."
+series: "2026 Donruss"
+parallel: "Orange Ice"
+print_run: 75
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: true
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/bomb-squad-16-orange-ice.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Donruss#Checklist"

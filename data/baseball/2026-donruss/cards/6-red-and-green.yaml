@@ -1,0 +1,22 @@
+number: "6"
+uuid: "d4e0b531-6395-4d9c-b9bb-eff21eff1a8b"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "Jason Varitek"
+    role: "Player"
+    team: "Boston Red Sox"
+card_name: "Jason Varitek - Base - Red and Green"
+description: "Red and Green parallel of Base card featuring Jason Varitek."
+series: "2026 Donruss"
+parallel: "Red and Green"
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: false
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/6-red-and-green.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Donruss#Checklist"

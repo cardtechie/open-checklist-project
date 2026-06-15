@@ -1,0 +1,24 @@
+number: "13"
+uuid: "82b94234-9ae4-4288-9c29-88a6959bc6ea"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "Sammy Sosa"
+    role: "Player"
+    team: "Chicago Cubs"
+subset: "Bomb Squad"
+card_name: "Sammy Sosa - Bomb Squad - Platinum Diamond"
+description: "Platinum Diamond parallel of Bomb Squad card featuring Sammy Sosa."
+series: "2026 Donruss"
+parallel: "Platinum Diamond"
+print_run: 1
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: true
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/bomb-squad-13-platinum-diamond.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Donruss#Checklist"

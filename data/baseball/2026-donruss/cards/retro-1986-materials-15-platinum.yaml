@@ -1,0 +1,24 @@
+number: "15"
+uuid: "dc57eee0-fdac-4f4c-ba31-92a0777c843b"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "Scott Rolen"
+    role: "Player"
+    team: "St. Louis Cardinals"
+subset: "Retro 1986 Materials"
+card_name: "Scott Rolen - Retro 1986 Materials - Platinum"
+description: "Platinum parallel of Retro 1986 Materials memorabilia card featuring Scott Rolen."
+series: "2026 Donruss"
+parallel: "Platinum"
+print_run: 1
+rookie_card: false
+autograph: false
+relic: true
+serial_numbered: true
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/retro-1986-materials-15-platinum.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Donruss#Checklist"

@@ -1,0 +1,23 @@
+number: "40"
+uuid: "112248ed-805a-4d26-9545-9f0967f588d4"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "Jace Jung"
+    role: "Player"
+    team: "Detroit Tigers"
+card_name: "Jace Jung - Base - Pink Ice"
+description: "Pink Ice parallel of Base card featuring Jace Jung."
+series: "2026 Donruss"
+parallel: "Pink Ice"
+print_run: 99
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: true
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/40-pink-ice.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Donruss#Checklist"

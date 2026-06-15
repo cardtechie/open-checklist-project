@@ -1,0 +1,23 @@
+number: "65"
+uuid: "57a30f9c-4d6e-4f1e-9c48-c93a1f81e74c"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "Yogi Berra"
+    role: "Player"
+    team: "New York Yankees"
+card_name: "Yogi Berra - Base - Holo Purple"
+description: "Holo Purple parallel of Base card featuring Yogi Berra."
+series: "2026 Donruss"
+parallel: "Holo Purple"
+print_run: 99
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: true
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/65-holo-purple.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Donruss#Checklist"

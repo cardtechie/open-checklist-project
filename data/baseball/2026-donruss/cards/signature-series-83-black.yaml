@@ -1,0 +1,24 @@
+number: "83"
+uuid: "0b83fe1a-c334-4d53-af68-c2862c8da5c2"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "Caleb Bonemer"
+    role: "Player"
+    team: "Chicago White Sox"
+subset: "Signature Series"
+card_name: "Caleb Bonemer - Signature Series - Black"
+description: "Black parallel of Autographed Signature Series card featuring Caleb Bonemer."
+series: "2026 Donruss"
+parallel: "Black"
+print_run: 1
+rookie_card: false
+autograph: true
+relic: false
+serial_numbered: true
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/signature-series-83-black.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Donruss#Checklist"

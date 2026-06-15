@@ -1,0 +1,24 @@
+number: "54"
+uuid: "4c649408-1cb1-4337-9792-ea9f9d35c84f"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "Jaron DeBerry"
+    role: "Player"
+    team: "Milwaukee Brewers"
+subset: "Signature Series"
+card_name: "Jaron DeBerry - Signature Series - Gold Laser"
+description: "Gold Laser parallel of Autographed Signature Series card featuring Jaron DeBerry."
+series: "2026 Donruss"
+parallel: "Gold Laser"
+print_run: 10
+rookie_card: false
+autograph: true
+relic: false
+serial_numbered: true
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/signature-series-54-gold-laser.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Donruss#Checklist"

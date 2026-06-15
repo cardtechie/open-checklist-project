@@ -1,0 +1,23 @@
+number: "7"
+uuid: "f96ae466-b451-4485-874b-a4407758cc06"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "Jacob Misiorowski"
+    role: "Player"
+    team: "Milwaukee Brewers"
+subset: "Diamond Marvels"
+card_name: "Jacob Misiorowski - Diamond Marvels - Green Laser"
+description: "Green Laser parallel of Diamond Marvels card featuring Jacob Misiorowski."
+series: "2026 Donruss"
+parallel: "Green Laser"
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: false
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/diamond-marvels-7-green-laser.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Donruss#Checklist"

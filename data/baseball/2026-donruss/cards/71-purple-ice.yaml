@@ -1,0 +1,23 @@
+number: "71"
+uuid: "36234989-0267-43a4-ab04-18057d85cd87"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "Elston Howard"
+    role: "Player"
+    team: "New York Yankees"
+card_name: "Elston Howard - Base - Purple Ice"
+description: "Purple Ice parallel of Base card featuring Elston Howard."
+series: "2026 Donruss"
+parallel: "Purple Ice"
+print_run: 99
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: true
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/71-purple-ice.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Donruss#Checklist"

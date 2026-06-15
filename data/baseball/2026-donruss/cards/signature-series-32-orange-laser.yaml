@@ -1,0 +1,24 @@
+number: "32"
+uuid: "a64b749c-3128-419c-9600-a9190334fec4"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "Cole Mathis"
+    role: "Player"
+    team: "Chicago Cubs"
+subset: "Signature Series"
+card_name: "Cole Mathis - Signature Series - Orange Laser"
+description: "Orange Laser parallel of Autographed Signature Series card featuring Cole Mathis."
+series: "2026 Donruss"
+parallel: "Orange Laser"
+print_run: 25
+rookie_card: false
+autograph: true
+relic: false
+serial_numbered: true
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/signature-series-32-orange-laser.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Donruss#Checklist"

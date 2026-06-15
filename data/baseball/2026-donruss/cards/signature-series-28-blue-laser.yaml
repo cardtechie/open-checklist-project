@@ -1,0 +1,24 @@
+number: "28"
+uuid: "6d958836-0691-4faf-b31f-a07f48bf8d2e"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "Stephen Vogt"
+    role: "Player"
+    team: "Cleveland Guardians"
+subset: "Signature Series"
+card_name: "Stephen Vogt - Signature Series - Blue Laser"
+description: "Blue Laser parallel of Autographed Signature Series card featuring Stephen Vogt."
+series: "2026 Donruss"
+parallel: "Blue Laser"
+print_run: 25
+rookie_card: false
+autograph: true
+relic: false
+serial_numbered: true
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/signature-series-28-blue-laser.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Donruss#Checklist"

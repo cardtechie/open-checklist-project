@@ -1,0 +1,24 @@
+number: "68"
+uuid: "4cac032a-9e5e-4a9b-a2a0-a7f6f08bf401"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "Albert Pujols"
+    role: "Player"
+    team: "St. Louis Cardinals"
+subset: "Base - Optic"
+card_name: "Albert Pujols - Base - Optic - Gold"
+description: "Gold parallel of Base - Optic card featuring Albert Pujols."
+series: "2026 Donruss"
+parallel: "Gold"
+print_run: 10
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: true
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/base-optic-68-gold.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Donruss#Checklist"

@@ -1,0 +1,23 @@
+number: "55"
+uuid: "1377d1d3-4262-4e16-81ec-1dae007d5b42"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "Frank Chance"
+    role: "Player"
+    team: "Chicago Cubs"
+card_name: "Frank Chance - Base - Pink Ice"
+description: "Pink Ice parallel of Base card featuring Frank Chance."
+series: "2026 Donruss"
+parallel: "Pink Ice"
+print_run: 99
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: true
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/55-pink-ice.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Donruss#Checklist"

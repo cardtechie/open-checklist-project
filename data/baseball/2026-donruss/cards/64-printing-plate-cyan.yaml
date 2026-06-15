@@ -1,0 +1,23 @@
+number: "64"
+uuid: "88fbc503-0125-4752-a699-ba563f1b9c79"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "Ivan Rodriguez"
+    role: "Player"
+    team: "Texas Rangers"
+card_name: "Ivan Rodriguez - Base - Printing Plate Cyan"
+description: "Printing Plate Cyan parallel of Base card featuring Ivan Rodriguez."
+series: "2026 Donruss"
+parallel: "Printing Plate Cyan"
+print_run: 1
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: true
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/64-printing-plate-cyan.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Donruss#Checklist"

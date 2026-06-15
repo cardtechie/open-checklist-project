@@ -1,0 +1,24 @@
+number: "6"
+uuid: "1be991ed-793a-4a95-bdcf-61d3c6bda625"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "Ethan Holliday"
+    role: "Player"
+    team: "Colorado Rockies"
+subset: "Bomb Squad"
+card_name: "Ethan Holliday - Bomb Squad - Red Ice"
+description: "Red Ice parallel of Bomb Squad card featuring Ethan Holliday."
+series: "2026 Donruss"
+parallel: "Red Ice"
+print_run: 149
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: true
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/bomb-squad-6-red-ice.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Donruss#Checklist"

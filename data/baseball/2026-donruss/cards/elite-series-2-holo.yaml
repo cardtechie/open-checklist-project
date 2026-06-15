@@ -1,0 +1,24 @@
+number: "2"
+uuid: "626e9aa8-f0e5-44ed-b346-0d5f7fd56ef8"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "Jacob Misiorowski"
+    role: "Player"
+    team: "Milwaukee Brewers"
+subset: "Elite Series"
+card_name: "Jacob Misiorowski - Elite Series - Holo"
+description: "Holo parallel of Elite Series card featuring Jacob Misiorowski."
+series: "2026 Donruss"
+parallel: "Holo"
+print_run: 199
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: true
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/elite-series-2-holo.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Donruss#Checklist"

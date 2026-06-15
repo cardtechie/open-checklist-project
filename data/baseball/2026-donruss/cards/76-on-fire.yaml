@@ -1,0 +1,23 @@
+number: "76"
+uuid: "59a6d7df-7c40-4fd4-9519-5bd0a5266284"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "Heston Kjerstad"
+    role: "Player"
+    team: "Baltimore Orioles"
+card_name: "Heston Kjerstad - Base - On Fire"
+description: "On Fire parallel of Base card featuring Heston Kjerstad."
+series: "2026 Donruss"
+parallel: "On Fire"
+print_run: 75
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: true
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/76-on-fire.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Donruss#Checklist"

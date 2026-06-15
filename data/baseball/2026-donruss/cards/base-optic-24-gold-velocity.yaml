@@ -1,0 +1,24 @@
+number: "24"
+uuid: "bc66f763-89d3-4413-9d78-c1a5f77eb606"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "Dylan Crews"
+    role: "Player"
+    team: "Washington Nationals"
+subset: "Base - Optic"
+card_name: "Dylan Crews - Base - Optic - Gold Velocity"
+description: "Gold Velocity parallel of Base - Optic card featuring Dylan Crews."
+series: "2026 Donruss"
+parallel: "Gold Velocity"
+print_run: 10
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: true
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/base-optic-24-gold-velocity.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Donruss#Checklist"

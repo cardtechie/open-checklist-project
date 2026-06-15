@@ -1,0 +1,24 @@
+number: "5"
+uuid: "9061f2bd-c671-4143-b6d8-9e727b9fe2b4"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "Bubba Chandler"
+    role: "Player"
+    team: "Pittsburgh Pirates"
+subset: "Jersey Kings"
+card_name: "Bubba Chandler - Jersey Kings - Purple"
+description: "Purple parallel of Jersey Kings memorabilia card featuring Bubba Chandler."
+series: "2026 Donruss"
+parallel: "Purple"
+print_run: 49
+rookie_card: false
+autograph: false
+relic: true
+serial_numbered: true
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/jersey-kings-5-purple.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Donruss#Checklist"

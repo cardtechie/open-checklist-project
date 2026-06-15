@@ -1,0 +1,24 @@
+number: "20"
+uuid: "aca3309f-50c0-4391-8f7f-b1a143e13cca"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "Drue Hackenberg"
+    role: "Player"
+    team: "Atlanta Braves"
+subset: "Signature Series"
+card_name: "Drue Hackenberg - Signature Series - Gold Laser"
+description: "Gold Laser parallel of Autographed Signature Series card featuring Drue Hackenberg."
+series: "2026 Donruss"
+parallel: "Gold Laser"
+print_run: 10
+rookie_card: false
+autograph: true
+relic: false
+serial_numbered: true
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/signature-series-20-gold-laser.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Donruss#Checklist"

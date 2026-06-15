@@ -1,0 +1,23 @@
+number: "32"
+uuid: "2af96888-6ee5-44dd-9e46-a746a23e3bda"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "Nolan Ryan"
+    role: "Player"
+    team: "Texas Rangers"
+subset: "Base - Optic"
+card_name: "Nolan Ryan - Base - Optic - Jazz"
+description: "Jazz parallel of Base - Optic card featuring Nolan Ryan."
+series: "2026 Donruss"
+parallel: "Jazz"
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: false
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/base-optic-32-jazz.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Donruss#Checklist"

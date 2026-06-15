@@ -1,0 +1,24 @@
+number: "14"
+uuid: "ada6afcf-a4bf-4405-ae0c-0bce70e134a5"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "Marcelo Mayer"
+    role: "Player"
+    team: "Boston Red Sox"
+subset: "Crunch Time"
+card_name: "Marcelo Mayer - Crunch Time - Green Xplosion"
+description: "Green Xplosion parallel of Crunch Time card featuring Marcelo Mayer."
+series: "2026 Donruss"
+parallel: "Green Xplosion"
+print_run: 25
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: true
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/crunch-time-14-green-xplosion.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Donruss#Checklist"

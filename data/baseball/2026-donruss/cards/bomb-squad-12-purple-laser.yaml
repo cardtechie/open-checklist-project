@@ -1,0 +1,24 @@
+number: "12"
+uuid: "5718ed23-8f89-425d-b7bb-e9d39c37cd51"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "Darryl Strawberry"
+    role: "Player"
+    team: "New York Mets"
+subset: "Bomb Squad"
+card_name: "Darryl Strawberry - Bomb Squad - Purple Laser"
+description: "Purple Laser parallel of Bomb Squad card featuring Darryl Strawberry."
+series: "2026 Donruss"
+parallel: "Purple Laser"
+print_run: 15
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: true
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/bomb-squad-12-purple-laser.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Donruss#Checklist"

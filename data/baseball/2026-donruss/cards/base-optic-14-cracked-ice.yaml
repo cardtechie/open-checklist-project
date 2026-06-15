@@ -1,0 +1,24 @@
+number: "14"
+uuid: "d5258dfa-9faa-4dd4-8fb5-8c33810f5d63"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "Cal Ripken"
+    role: "Player"
+    team: "Baltimore Orioles"
+subset: "Base - Optic"
+card_name: "Cal Ripken - Base - Optic - Cracked Ice"
+description: "Cracked Ice parallel of Base - Optic card featuring Cal Ripken."
+series: "2026 Donruss"
+parallel: "Cracked Ice"
+print_run: 25
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: true
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/base-optic-14-cracked-ice.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Donruss#Checklist"

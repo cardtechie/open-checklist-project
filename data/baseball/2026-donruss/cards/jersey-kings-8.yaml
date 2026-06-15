@@ -1,0 +1,19 @@
+number: "8"
+uuid: "ff80541b-7f31-4097-97df-9ace6e35fc83"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "Aaron Judge"
+    role: "Player"
+    team: "New York Yankees"
+subset: "Jersey Kings"
+card_name: "Aaron Judge - Jersey Kings"
+description: "Jersey Kings memorabilia card featuring Aaron Judge."
+series: "2026 Donruss"
+rookie_card: false
+autograph: false
+relic: true
+serial_numbered: false
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/jersey-kings-8.jpg"

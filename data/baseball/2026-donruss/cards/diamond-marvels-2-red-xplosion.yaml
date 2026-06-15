@@ -1,0 +1,24 @@
+number: "2"
+uuid: "b6805869-55e2-41db-826f-c011c3646b5f"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "Nolan Ryan"
+    role: "Player"
+    team: "Texas Rangers"
+subset: "Diamond Marvels"
+card_name: "Nolan Ryan - Diamond Marvels - Red Xplosion"
+description: "Red Xplosion parallel of Diamond Marvels card featuring Nolan Ryan."
+series: "2026 Donruss"
+parallel: "Red Xplosion"
+print_run: 99
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: true
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/diamond-marvels-2-red-xplosion.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Donruss#Checklist"

@@ -1,0 +1,23 @@
+number: "13"
+uuid: "6331d149-7c6e-42df-a309-3d3b09a4cc35"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "Charlie Condon"
+    role: "Player"
+    team: "Colorado Rockies"
+subset: "Unleashed"
+card_name: "Charlie Condon - Unleashed - Green Laser"
+description: "Green Laser parallel of Unleashed card featuring Charlie Condon."
+series: "2026 Donruss"
+parallel: "Green Laser"
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: false
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/unleashed-13-green-laser.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Donruss#Checklist"

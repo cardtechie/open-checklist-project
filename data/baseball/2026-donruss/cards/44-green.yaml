@@ -1,0 +1,23 @@
+number: "44"
+uuid: "9f12cf2b-f820-4ea7-b7a9-8c61d3100bc4"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "Vladimir Guerrero"
+    role: "Player"
+    team: "Anaheim Angels"
+card_name: "Vladimir Guerrero - Base - Green"
+description: "Green parallel of Base card featuring Vladimir Guerrero."
+series: "2026 Donruss"
+parallel: "Green"
+print_run: 199
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: true
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/44-green.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Donruss#Checklist"

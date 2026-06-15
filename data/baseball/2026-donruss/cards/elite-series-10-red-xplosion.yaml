@@ -1,0 +1,24 @@
+number: "10"
+uuid: "be5fb2d1-cf2c-4e75-9ed9-3a30b03bdc43"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "Byung-Hyun Kim"
+    role: "Player"
+    team: "Arizona Diamondbacks"
+subset: "Elite Series"
+card_name: "Byung-Hyun Kim - Elite Series - Red Xplosion"
+description: "Red Xplosion parallel of Elite Series card featuring Byung-Hyun Kim."
+series: "2026 Donruss"
+parallel: "Red Xplosion"
+print_run: 99
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: true
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/elite-series-10-red-xplosion.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Donruss#Checklist"

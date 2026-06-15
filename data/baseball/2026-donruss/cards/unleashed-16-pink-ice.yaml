@@ -1,0 +1,24 @@
+number: "16"
+uuid: "402df90d-2925-4ef7-bcb4-356bda9779a3"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "Colt Emerson"
+    role: "Player"
+    team: "Seattle Mariners"
+subset: "Unleashed"
+card_name: "Colt Emerson - Unleashed - Pink Ice"
+description: "Pink Ice parallel of Unleashed card featuring Colt Emerson."
+series: "2026 Donruss"
+parallel: "Pink Ice"
+print_run: 99
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: true
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/unleashed-16-pink-ice.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Donruss#Checklist"

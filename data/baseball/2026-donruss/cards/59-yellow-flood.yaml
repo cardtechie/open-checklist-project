@@ -1,0 +1,22 @@
+number: "59"
+uuid: "fa98bff7-a40d-4296-8c9e-b64b88e8e935"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "Alex Rodriguez"
+    role: "Player"
+    team: "Texas Rangers"
+card_name: "Alex Rodriguez - Base - Yellow Flood"
+description: "Yellow Flood parallel of Base card featuring Alex Rodriguez."
+series: "2026 Donruss"
+parallel: "Yellow Flood"
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: false
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/59-yellow-flood.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Donruss#Checklist"

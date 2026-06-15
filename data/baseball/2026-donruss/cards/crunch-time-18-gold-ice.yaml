@@ -1,0 +1,24 @@
+number: "18"
+uuid: "4137f2c8-ce7e-462d-b49a-a2d83582eaf3"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "Trey Yesavage"
+    role: "Player"
+    team: "Toronto Blue Jays"
+subset: "Crunch Time"
+card_name: "Trey Yesavage - Crunch Time - Gold Ice"
+description: "Gold Ice parallel of Crunch Time card featuring Trey Yesavage."
+series: "2026 Donruss"
+parallel: "Gold Ice"
+print_run: 10
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: true
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/crunch-time-18-gold-ice.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Donruss#Checklist"

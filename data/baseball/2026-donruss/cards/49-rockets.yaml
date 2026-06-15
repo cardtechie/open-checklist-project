@@ -1,0 +1,22 @@
+number: "49"
+uuid: "c2f8c87c-1bf8-4d89-9042-e9a73071d110"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "Ken Griffey Sr."
+    role: "Player"
+    team: "Cincinnati Reds"
+card_name: "Ken Griffey Sr. - Base - Rockets"
+description: "Rockets parallel of Base card featuring Ken Griffey Sr.."
+series: "2026 Donruss"
+parallel: "Rockets"
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: false
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/49-rockets.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Donruss#Checklist"

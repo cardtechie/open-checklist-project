@@ -1,0 +1,23 @@
+number: "10"
+uuid: "bbc1002b-0d1a-460a-b11c-03abf144f5f0"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "Spencer Jones"
+    role: "Player"
+    team: "New York Yankees"
+subset: "Bomb Squad"
+card_name: "Spencer Jones - Bomb Squad - Green Laser"
+description: "Green Laser parallel of Bomb Squad card featuring Spencer Jones."
+series: "2026 Donruss"
+parallel: "Green Laser"
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: false
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/bomb-squad-10-green-laser.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Donruss#Checklist"

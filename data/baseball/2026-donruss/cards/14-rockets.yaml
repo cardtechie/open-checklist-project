@@ -1,0 +1,22 @@
+number: "14"
+uuid: "9dfce3cb-4867-416b-b07c-33f2a4d03a53"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "Cal Ripken"
+    role: "Player"
+    team: "Baltimore Orioles"
+card_name: "Cal Ripken - Base - Rockets"
+description: "Rockets parallel of Base card featuring Cal Ripken."
+series: "2026 Donruss"
+parallel: "Rockets"
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: false
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/14-rockets.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Donruss#Checklist"

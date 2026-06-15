@@ -1,0 +1,24 @@
+number: "82"
+uuid: "55ceb8c0-4817-45eb-a21f-7e3718e0c003"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "Bo Jackson"
+    role: "Player"
+    team: "Kansas City Royals"
+subset: "Base - Optic"
+card_name: "Bo Jackson - Base - Optic - Green Scope"
+description: "Green Scope parallel of Base - Optic card featuring Bo Jackson."
+series: "2026 Donruss"
+parallel: "Green Scope"
+print_run: 65
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: true
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/base-optic-82-green-scope.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Donruss#Checklist"

@@ -1,0 +1,23 @@
+number: "31"
+uuid: "e96a4169-fd48-4420-8dc9-f5626c488716"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "Roberto Alomar"
+    role: "Player"
+    team: "Toronto Blue Jays"
+card_name: "Roberto Alomar - Base - Green"
+description: "Green parallel of Base card featuring Roberto Alomar."
+series: "2026 Donruss"
+parallel: "Green"
+print_run: 199
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: true
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/31-green.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Donruss#Checklist"

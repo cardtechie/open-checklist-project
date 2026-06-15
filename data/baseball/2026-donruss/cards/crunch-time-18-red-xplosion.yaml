@@ -1,0 +1,24 @@
+number: "18"
+uuid: "fbc1e7d5-e7a4-4371-b441-e11448f8cf15"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "Trey Yesavage"
+    role: "Player"
+    team: "Toronto Blue Jays"
+subset: "Crunch Time"
+card_name: "Trey Yesavage - Crunch Time - Red Xplosion"
+description: "Red Xplosion parallel of Crunch Time card featuring Trey Yesavage."
+series: "2026 Donruss"
+parallel: "Red Xplosion"
+print_run: 99
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: true
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/crunch-time-18-red-xplosion.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Donruss#Checklist"

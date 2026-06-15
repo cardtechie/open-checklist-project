@@ -1,0 +1,23 @@
+number: "60"
+uuid: "e8bf0459-b03c-437f-a1b9-954076d61fd8"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "Sammy Sosa"
+    role: "Player"
+    team: "Chicago Cubs"
+card_name: "Sammy Sosa - Base - Printing Plate Magenta"
+description: "Printing Plate Magenta parallel of Base card featuring Sammy Sosa."
+series: "2026 Donruss"
+parallel: "Printing Plate Magenta"
+print_run: 1
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: true
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/60-printing-plate-magenta.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Donruss#Checklist"

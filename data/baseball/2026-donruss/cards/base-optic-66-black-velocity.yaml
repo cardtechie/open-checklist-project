@@ -1,0 +1,24 @@
+number: "66"
+uuid: "7accc887-0a47-4e67-ab54-8aabf1d47567"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "Hideki Matsui"
+    role: "Player"
+    team: "New York Yankees"
+subset: "Base - Optic"
+card_name: "Hideki Matsui - Base - Optic - Black Velocity"
+description: "Black Velocity parallel of Base - Optic card featuring Hideki Matsui."
+series: "2026 Donruss"
+parallel: "Black Velocity"
+print_run: 39
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: true
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/base-optic-66-black-velocity.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Donruss#Checklist"

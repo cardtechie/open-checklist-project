@@ -1,0 +1,24 @@
+number: "10"
+uuid: "5d551f78-5a00-4d78-b9f8-58f96b20d4ca"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "Cade Horton"
+    role: "Player"
+    team: "Chicago Cubs"
+subset: "Diamond Marvels"
+card_name: "Cade Horton - Diamond Marvels - Blue Ice"
+description: "Blue Ice parallel of Diamond Marvels card featuring Cade Horton."
+series: "2026 Donruss"
+parallel: "Blue Ice"
+print_run: 35
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: true
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/diamond-marvels-10-blue-ice.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Donruss#Checklist"

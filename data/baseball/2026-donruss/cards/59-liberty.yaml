@@ -1,0 +1,22 @@
+number: "59"
+uuid: "60dc9a25-e871-4cbe-bdb3-f073898da540"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "Alex Rodriguez"
+    role: "Player"
+    team: "Texas Rangers"
+card_name: "Alex Rodriguez - Base - Liberty"
+description: "Liberty parallel of Base card featuring Alex Rodriguez."
+series: "2026 Donruss"
+parallel: "Liberty"
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: false
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/59-liberty.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Donruss#Checklist"

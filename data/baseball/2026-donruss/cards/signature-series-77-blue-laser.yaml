@@ -1,0 +1,24 @@
+number: "77"
+uuid: "7346ab91-1df3-4e31-bb5d-117ade7954e9"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "Seaver King"
+    role: "Player"
+    team: "Washington Nationals"
+subset: "Signature Series"
+card_name: "Seaver King - Signature Series - Blue Laser"
+description: "Blue Laser parallel of Autographed Signature Series card featuring Seaver King."
+series: "2026 Donruss"
+parallel: "Blue Laser"
+print_run: 25
+rookie_card: false
+autograph: true
+relic: false
+serial_numbered: true
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/signature-series-77-blue-laser.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Donruss#Checklist"

@@ -1,0 +1,24 @@
+number: "59"
+uuid: "792d385a-dba9-42e7-b5f8-f6e42544789d"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "Alex Rodriguez"
+    role: "Player"
+    team: "Texas Rangers"
+subset: "Base - Optic"
+card_name: "Alex Rodriguez - Base - Optic - Black Finite"
+description: "Black Finite parallel of Base - Optic card featuring Alex Rodriguez."
+series: "2026 Donruss"
+parallel: "Black Finite"
+print_run: 1
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: true
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/base-optic-59-black-finite.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Donruss#Checklist"

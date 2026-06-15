@@ -1,0 +1,24 @@
+number: "16"
+uuid: "05b43ea2-3d1c-4b89-a99e-c8898b7285b5"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "Heston Kjerstad"
+    role: "Player"
+    team: "Baltimore Orioles"
+subset: "Signature Series"
+card_name: "Heston Kjerstad - Signature Series - Purple Laser"
+description: "Purple Laser parallel of Autographed Signature Series card featuring Heston Kjerstad."
+series: "2026 Donruss"
+parallel: "Purple Laser"
+print_run: 49
+rookie_card: false
+autograph: true
+relic: false
+serial_numbered: true
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/signature-series-16-purple-laser.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Donruss#Checklist"

@@ -1,0 +1,23 @@
+number: "2"
+uuid: "7c761eaa-01fb-4fe2-b8e3-e02fbf47e0d8"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "Jamie Arnold"
+    role: "Player"
+    team: "Oakland A's"
+subset: "Prospect Jersey Kings"
+card_name: "Jamie Arnold - Prospect Jersey Kings - Blue Ice"
+description: "Blue Ice parallel of Prospect Jersey Kings memorabilia card featuring Jamie Arnold."
+series: "2026 Donruss"
+parallel: "Blue Ice"
+rookie_card: false
+autograph: false
+relic: true
+serial_numbered: false
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/prospect-jersey-kings-2-blue-ice.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Donruss#Checklist"

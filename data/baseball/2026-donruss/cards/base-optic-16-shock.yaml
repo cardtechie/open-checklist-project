@@ -1,0 +1,23 @@
+number: "16"
+uuid: "680b8e2f-747b-4fef-8bd4-1ab1f0d1688b"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "Ozzie Smith"
+    role: "Player"
+    team: "St. Louis Cardinals"
+subset: "Base - Optic"
+card_name: "Ozzie Smith - Base - Optic - Shock"
+description: "Shock parallel of Base - Optic card featuring Ozzie Smith."
+series: "2026 Donruss"
+parallel: "Shock"
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: false
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/base-optic-16-shock.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Donruss#Checklist"

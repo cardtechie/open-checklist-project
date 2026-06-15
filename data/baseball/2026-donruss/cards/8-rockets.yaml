@@ -1,0 +1,22 @@
+number: "8"
+uuid: "5a23559c-fec8-4193-bbe3-19b398a6c6da"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "Luisangel Acuna"
+    role: "Player"
+    team: "Chicago White Sox"
+card_name: "Luisangel Acuna - Base - Rockets"
+description: "Rockets parallel of Base card featuring Luisangel Acuna."
+series: "2026 Donruss"
+parallel: "Rockets"
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: false
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/8-rockets.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Donruss#Checklist"

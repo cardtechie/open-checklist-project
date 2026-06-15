@@ -1,0 +1,23 @@
+number: "52"
+uuid: "5da06983-acf3-4513-95bf-a85764fcbaf7"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "Kevin Youkilis"
+    role: "Player"
+    team: "Boston Red Sox"
+card_name: "Kevin Youkilis - Base - Purple Ice"
+description: "Purple Ice parallel of Base card featuring Kevin Youkilis."
+series: "2026 Donruss"
+parallel: "Purple Ice"
+print_run: 99
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: true
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/52-purple-ice.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Donruss#Checklist"

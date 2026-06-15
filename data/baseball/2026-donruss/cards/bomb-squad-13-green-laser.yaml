@@ -1,0 +1,23 @@
+number: "13"
+uuid: "3cf808b1-71c7-4abd-835c-dd2ea252e733"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "Sammy Sosa"
+    role: "Player"
+    team: "Chicago Cubs"
+subset: "Bomb Squad"
+card_name: "Sammy Sosa - Bomb Squad - Green Laser"
+description: "Green Laser parallel of Bomb Squad card featuring Sammy Sosa."
+series: "2026 Donruss"
+parallel: "Green Laser"
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: false
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/bomb-squad-13-green-laser.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Donruss#Checklist"

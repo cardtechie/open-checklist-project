@@ -1,0 +1,19 @@
+number: "24"
+uuid: "5acaea83-c7f3-4cac-9024-2374398616d6"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "Nolan Schanuel"
+    role: "Player"
+    team: "Los Angeles Angels"
+subset: "Signature Series"
+card_name: "Nolan Schanuel - Signature Series"
+description: "Autographed Signature Series card featuring Nolan Schanuel."
+series: "2026 Donruss"
+rookie_card: false
+autograph: true
+relic: false
+serial_numbered: false
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/signature-series-24.jpg"

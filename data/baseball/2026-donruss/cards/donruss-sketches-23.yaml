@@ -1,0 +1,20 @@
+number: "23"
+uuid: "9171490e-f1cd-4c3f-8dbe-520b2af1e4f5"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "Hagen Smith"
+    role: "Player"
+    team: "Chicago White Sox"
+subset: "Donruss Sketches"
+card_name: "Hagen Smith - Donruss Sketches"
+description: "Donruss Sketches card featuring Hagen Smith."
+series: "2026 Donruss"
+print_run: 1
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: true
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/donruss-sketches-23.jpg"

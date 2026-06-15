@@ -1,0 +1,24 @@
+number: "3"
+uuid: "fef7b8de-d5f7-4f55-af12-e1a9e410f161"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "Bobby Witt Jr."
+    role: "Player"
+    team: "Kansas City Royals"
+subset: "Crunch Time"
+card_name: "Bobby Witt Jr. - Crunch Time - Platinum Diamond"
+description: "Platinum Diamond parallel of Crunch Time card featuring Bobby Witt Jr.."
+series: "2026 Donruss"
+parallel: "Platinum Diamond"
+print_run: 1
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: true
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/crunch-time-3-platinum-diamond.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Donruss#Checklist"

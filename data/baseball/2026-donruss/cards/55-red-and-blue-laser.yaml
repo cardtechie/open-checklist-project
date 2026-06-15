@@ -1,0 +1,22 @@
+number: "55"
+uuid: "241188fe-8632-41ec-8683-dabc717db977"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "Frank Chance"
+    role: "Player"
+    team: "Chicago Cubs"
+card_name: "Frank Chance - Base - Red and Blue Laser"
+description: "Red and Blue Laser parallel of Base card featuring Frank Chance."
+series: "2026 Donruss"
+parallel: "Red and Blue Laser"
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: false
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/55-red-and-blue-laser.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Donruss#Checklist"

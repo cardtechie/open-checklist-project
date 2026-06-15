@@ -1,0 +1,24 @@
+number: "8"
+uuid: "d8bca533-df50-464b-8592-436f5572c879"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "Josh Hamilton"
+    role: "Player"
+    team: "Texas Rangers"
+subset: "Bomb Squad"
+card_name: "Josh Hamilton - Bomb Squad - Red Xplosion"
+description: "Red Xplosion parallel of Bomb Squad card featuring Josh Hamilton."
+series: "2026 Donruss"
+parallel: "Red Xplosion"
+print_run: 99
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: true
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/bomb-squad-8-red-xplosion.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Donruss#Checklist"

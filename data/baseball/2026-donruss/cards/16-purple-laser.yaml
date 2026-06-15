@@ -1,0 +1,23 @@
+number: "16"
+uuid: "b76aeda9-b0b3-4a93-8252-2fe4b5bbac37"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "Ozzie Smith"
+    role: "Player"
+    team: "St. Louis Cardinals"
+card_name: "Ozzie Smith - Base - Purple Laser"
+description: "Purple Laser parallel of Base card featuring Ozzie Smith."
+series: "2026 Donruss"
+parallel: "Purple Laser"
+print_run: 49
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: true
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/16-purple-laser.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Donruss#Checklist"

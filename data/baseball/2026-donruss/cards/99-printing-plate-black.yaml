@@ -1,0 +1,23 @@
+number: "99"
+uuid: "3b791db4-236f-4769-92ab-e1e4f8b9c238"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "Aaron Judge"
+    role: "Player"
+    team: "New York Yankees"
+card_name: "Aaron Judge - Base - Printing Plate Black"
+description: "Printing Plate Black parallel of Base card featuring Aaron Judge."
+series: "2026 Donruss"
+parallel: "Printing Plate Black"
+print_run: 1
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: true
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/99-printing-plate-black.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Donruss#Checklist"

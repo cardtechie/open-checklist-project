@@ -1,0 +1,24 @@
+number: "58"
+uuid: "4afcc062-1493-432c-bac9-e6d2eb1a1df4"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "Daniel Eagen"
+    role: "Player"
+    team: "Arizona Diamondbacks"
+subset: "Signature Series"
+card_name: "Daniel Eagen - Signature Series - Purple Laser"
+description: "Purple Laser parallel of Autographed Signature Series card featuring Daniel Eagen."
+series: "2026 Donruss"
+parallel: "Purple Laser"
+print_run: 49
+rookie_card: false
+autograph: true
+relic: false
+serial_numbered: true
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/signature-series-58-purple-laser.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Donruss#Checklist"

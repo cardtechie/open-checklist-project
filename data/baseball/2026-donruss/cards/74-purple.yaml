@@ -1,0 +1,22 @@
+number: "74"
+uuid: "9a72dc39-64ee-479b-9ca4-19250b69814e"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "Will Clark"
+    role: "Player"
+    team: "San Francisco Giants"
+card_name: "Will Clark - Base - Purple"
+description: "Purple parallel of Base card featuring Will Clark."
+series: "2026 Donruss"
+parallel: "Purple"
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: false
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/74-purple.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Donruss#Checklist"

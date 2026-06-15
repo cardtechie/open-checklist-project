@@ -1,0 +1,24 @@
+number: "76"
+uuid: "57ad1411-cf57-4483-9906-b6a373f87932"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "Joey Oakie"
+    role: "Player"
+    team: "Cleveland Guardians"
+subset: "Signature Series"
+card_name: "Joey Oakie - Signature Series - Red and Green Laser"
+description: "Red and Green Laser parallel of Autographed Signature Series card featuring Joey Oakie."
+series: "2026 Donruss"
+parallel: "Red and Green Laser"
+print_run: 99
+rookie_card: false
+autograph: true
+relic: false
+serial_numbered: true
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/signature-series-76-red-and-green-laser.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Donruss#Checklist"

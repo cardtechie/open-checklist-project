@@ -1,0 +1,23 @@
+number: "69"
+uuid: "7fa90410-c461-4798-89a7-f33693c0f358"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "Robin Yount"
+    role: "Player"
+    team: "Milwaukee Brewers"
+card_name: "Robin Yount - Base - Red"
+description: "Red parallel of Base card featuring Robin Yount."
+series: "2026 Donruss"
+parallel: "Red"
+print_run: 250
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: true
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/69-red.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Donruss#Checklist"

@@ -1,0 +1,24 @@
+number: "19"
+uuid: "b0111480-9bf1-4239-a0d8-21c8ecab2eae"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "Matt Shaw"
+    role: "Player"
+    team: "Chicago Cubs"
+subset: "Unleashed"
+card_name: "Matt Shaw - Unleashed - Orange Ice"
+description: "Orange Ice parallel of Unleashed card featuring Matt Shaw."
+series: "2026 Donruss"
+parallel: "Orange Ice"
+print_run: 75
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: true
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/unleashed-19-orange-ice.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Donruss#Checklist"

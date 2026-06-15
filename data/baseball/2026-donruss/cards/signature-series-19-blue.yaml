@@ -1,0 +1,24 @@
+number: "19"
+uuid: "fdfd3811-76cf-448e-9c3c-9cc345dd1a6f"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "Tomoyuki Sugano"
+    role: "Player"
+    team: "Baltimore Orioles"
+subset: "Signature Series"
+card_name: "Tomoyuki Sugano - Signature Series - Blue"
+description: "Blue parallel of Autographed Signature Series card featuring Tomoyuki Sugano."
+series: "2026 Donruss"
+parallel: "Blue"
+print_run: 75
+rookie_card: false
+autograph: true
+relic: false
+serial_numbered: true
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/signature-series-19-blue.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Donruss#Checklist"

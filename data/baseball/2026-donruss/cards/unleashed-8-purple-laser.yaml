@@ -1,0 +1,24 @@
+number: "8"
+uuid: "a15192ab-6b38-436e-bd34-b8f067800866"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "Bryce Eldridge"
+    role: "Player"
+    team: "San Francisco Giants"
+subset: "Unleashed"
+card_name: "Bryce Eldridge - Unleashed - Purple Laser"
+description: "Purple Laser parallel of Unleashed card featuring Bryce Eldridge."
+series: "2026 Donruss"
+parallel: "Purple Laser"
+print_run: 15
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: true
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/unleashed-8-purple-laser.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Donruss#Checklist"

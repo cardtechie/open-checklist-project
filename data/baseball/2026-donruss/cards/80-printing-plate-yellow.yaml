@@ -1,0 +1,23 @@
+number: "80"
+uuid: "b4dd9eb1-5464-4c9f-b8dc-abf17111360c"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "Mike Schmidt"
+    role: "Player"
+    team: "Philadelphia Phillies"
+card_name: "Mike Schmidt - Base - Printing Plate Yellow"
+description: "Printing Plate Yellow parallel of Base card featuring Mike Schmidt."
+series: "2026 Donruss"
+parallel: "Printing Plate Yellow"
+print_run: 1
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: true
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/80-printing-plate-yellow.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Donruss#Checklist"

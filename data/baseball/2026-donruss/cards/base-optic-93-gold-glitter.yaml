@@ -1,0 +1,24 @@
+number: "93"
+uuid: "c96f9469-ef11-4a23-8989-e60c6d7df49d"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "Mike Piazza"
+    role: "Player"
+    team: "New York Mets"
+subset: "Base - Optic"
+card_name: "Mike Piazza - Base - Optic - Gold Glitter"
+description: "Gold Glitter parallel of Base - Optic card featuring Mike Piazza."
+series: "2026 Donruss"
+parallel: "Gold Glitter"
+print_run: 4
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: true
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/base-optic-93-gold-glitter.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Donruss#Checklist"

@@ -1,0 +1,24 @@
+number: "88"
+uuid: "56be5a61-db35-429b-8512-6c6c98f2959e"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "Jimmy Crooks"
+    role: "Player"
+    team: "St. Louis Cardinals"
+subset: "Signature Series"
+card_name: "Jimmy Crooks - Signature Series - Red and Green Laser"
+description: "Red and Green Laser parallel of Autographed Signature Series card featuring Jimmy Crooks."
+series: "2026 Donruss"
+parallel: "Red and Green Laser"
+print_run: 99
+rookie_card: false
+autograph: true
+relic: false
+serial_numbered: true
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/signature-series-88-red-and-green-laser.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Donruss#Checklist"

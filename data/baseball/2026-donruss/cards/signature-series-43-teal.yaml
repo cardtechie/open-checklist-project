@@ -1,0 +1,24 @@
+number: "43"
+uuid: "e0eb3aeb-2be4-4fe2-8049-c0a9fad75e35"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "Enrique Bradfield Jr."
+    role: "Player"
+    team: "Baltimore Orioles"
+subset: "Signature Series"
+card_name: "Enrique Bradfield Jr. - Signature Series - Teal"
+description: "Teal parallel of Autographed Signature Series card featuring Enrique Bradfield Jr.."
+series: "2026 Donruss"
+parallel: "Teal"
+print_run: 25
+rookie_card: false
+autograph: true
+relic: false
+serial_numbered: true
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/signature-series-43-teal.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Donruss#Checklist"

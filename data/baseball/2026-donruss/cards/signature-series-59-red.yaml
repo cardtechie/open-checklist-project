@@ -1,0 +1,24 @@
+number: "59"
+uuid: "b33c5656-cde2-4766-880f-33c24a024cd2"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "Cole Miller"
+    role: "Player"
+    team: "Oakland A's"
+subset: "Signature Series"
+card_name: "Cole Miller - Signature Series - Red"
+description: "Red parallel of Autographed Signature Series card featuring Cole Miller."
+series: "2026 Donruss"
+parallel: "Red"
+print_run: 99
+rookie_card: false
+autograph: true
+relic: false
+serial_numbered: true
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/signature-series-59-red.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Donruss#Checklist"

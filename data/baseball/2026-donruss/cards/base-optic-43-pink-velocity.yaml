@@ -1,0 +1,24 @@
+number: "43"
+uuid: "ebe26614-e42c-4367-ba21-3231084b81a5"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "Jimmie Foxx"
+    role: "Player"
+    team: "Philadelphia Athletics"
+subset: "Base - Optic"
+card_name: "Jimmie Foxx - Base - Optic - Pink Velocity"
+description: "Pink Velocity parallel of Base - Optic card featuring Jimmie Foxx."
+series: "2026 Donruss"
+parallel: "Pink Velocity"
+print_run: 79
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: true
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/base-optic-43-pink-velocity.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Donruss#Checklist"

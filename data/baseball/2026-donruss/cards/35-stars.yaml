@@ -1,0 +1,23 @@
+number: "35"
+uuid: "7baa4a99-9c14-477a-aec0-8331ea341cb1"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "Darryl Strawberry"
+    role: "Player"
+    team: "New York Mets"
+card_name: "Darryl Strawberry - Base - Stars"
+description: "Stars parallel of Base card featuring Darryl Strawberry."
+series: "2026 Donruss"
+parallel: "Stars"
+print_run: 250
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: true
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/35-stars.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Donruss#Checklist"

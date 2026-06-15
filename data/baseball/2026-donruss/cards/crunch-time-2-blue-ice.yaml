@@ -1,0 +1,24 @@
+number: "2"
+uuid: "874c242e-7309-47e3-8148-acb8208fefb9"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "Chase DeLauter"
+    role: "Player"
+    team: "Cleveland Guardians"
+subset: "Crunch Time"
+card_name: "Chase DeLauter - Crunch Time - Blue Ice"
+description: "Blue Ice parallel of Crunch Time card featuring Chase DeLauter."
+series: "2026 Donruss"
+parallel: "Blue Ice"
+print_run: 35
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: true
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/crunch-time-2-blue-ice.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Donruss#Checklist"

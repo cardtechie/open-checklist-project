@@ -1,0 +1,23 @@
+number: "30"
+uuid: "1c142007-fa79-4476-8cfa-45ceb4bac3ac"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "Konnor Griffin"
+    role: "Player"
+    team: "Pittsburgh Pirates"
+subset: "Prospect Jersey Kings"
+card_name: "Konnor Griffin - Prospect Jersey Kings - Blue Ice"
+description: "Blue Ice parallel of Prospect Jersey Kings memorabilia card featuring Konnor Griffin."
+series: "2026 Donruss"
+parallel: "Blue Ice"
+rookie_card: false
+autograph: false
+relic: true
+serial_numbered: false
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/prospect-jersey-kings-30-blue-ice.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Donruss#Checklist"

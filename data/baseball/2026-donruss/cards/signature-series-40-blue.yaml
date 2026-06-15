@@ -1,0 +1,24 @@
+number: "40"
+uuid: "67d5307f-697b-444a-8b03-41b5ff880229"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "Aiden May"
+    role: "Player"
+    team: "Miami Marlins"
+subset: "Signature Series"
+card_name: "Aiden May - Signature Series - Blue"
+description: "Blue parallel of Autographed Signature Series card featuring Aiden May."
+series: "2026 Donruss"
+parallel: "Blue"
+print_run: 75
+rookie_card: false
+autograph: true
+relic: false
+serial_numbered: true
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/signature-series-40-blue.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Donruss#Checklist"

@@ -1,0 +1,23 @@
+number: "19"
+uuid: "bef091fe-8109-4587-920c-07abb974a656"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "Ken Griffey Jr."
+    role: "Player"
+    team: "Cincinnati Reds"
+subset: "Diamond Marvels"
+card_name: "Ken Griffey Jr. - Diamond Marvels - Green Laser"
+description: "Green Laser parallel of Diamond Marvels card featuring Ken Griffey Jr.."
+series: "2026 Donruss"
+parallel: "Green Laser"
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: false
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/diamond-marvels-19-green-laser.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Donruss#Checklist"

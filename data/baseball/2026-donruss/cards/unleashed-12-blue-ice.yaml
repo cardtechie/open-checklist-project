@@ -1,0 +1,24 @@
+number: "12"
+uuid: "461a949c-3b5b-4022-b4eb-afea2369dc3c"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "Jacob Wilson"
+    role: "Player"
+    team: "Oakland A's"
+subset: "Unleashed"
+card_name: "Jacob Wilson - Unleashed - Blue Ice"
+description: "Blue Ice parallel of Unleashed card featuring Jacob Wilson."
+series: "2026 Donruss"
+parallel: "Blue Ice"
+print_run: 35
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: true
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/unleashed-12-blue-ice.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Donruss#Checklist"

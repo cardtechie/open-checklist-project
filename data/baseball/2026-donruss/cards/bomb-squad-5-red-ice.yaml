@@ -1,0 +1,24 @@
+number: "5"
+uuid: "00c376eb-b45c-44e0-bfb0-e26e397c8f61"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "Miguel Cabrera"
+    role: "Player"
+    team: "Detroit Tigers"
+subset: "Bomb Squad"
+card_name: "Miguel Cabrera - Bomb Squad - Red Ice"
+description: "Red Ice parallel of Bomb Squad card featuring Miguel Cabrera."
+series: "2026 Donruss"
+parallel: "Red Ice"
+print_run: 149
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: true
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/bomb-squad-5-red-ice.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Donruss#Checklist"

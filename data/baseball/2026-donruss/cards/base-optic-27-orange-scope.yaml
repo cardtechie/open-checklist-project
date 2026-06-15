@@ -1,0 +1,24 @@
+number: "27"
+uuid: "351fe5cb-49dc-4fcf-b6e4-1cfa29c45aa0"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "Deion Sanders"
+    role: "Player"
+    team: "Cincinnati Reds"
+subset: "Base - Optic"
+card_name: "Deion Sanders - Base - Optic - Orange Scope"
+description: "Orange Scope parallel of Base - Optic card featuring Deion Sanders."
+series: "2026 Donruss"
+parallel: "Orange Scope"
+print_run: 79
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: true
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/base-optic-27-orange-scope.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Donruss#Checklist"

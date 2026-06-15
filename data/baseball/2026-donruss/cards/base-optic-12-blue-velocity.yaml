@@ -1,0 +1,23 @@
+number: "12"
+uuid: "27698e07-57fe-4e69-a746-3626c43d9523"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "Miguel Cabrera"
+    role: "Player"
+    team: "Detroit Tigers"
+subset: "Base - Optic"
+card_name: "Miguel Cabrera - Base - Optic - Blue Velocity"
+description: "Blue Velocity parallel of Base - Optic card featuring Miguel Cabrera."
+series: "2026 Donruss"
+parallel: "Blue Velocity"
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: false
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/base-optic-12-blue-velocity.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Donruss#Checklist"

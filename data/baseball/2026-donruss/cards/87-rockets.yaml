@@ -1,0 +1,22 @@
+number: "87"
+uuid: "34f1ea3f-ba5e-4811-baca-d783ca7132ef"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "Colson Montgomery"
+    role: "Player"
+    team: "Chicago White Sox"
+card_name: "Colson Montgomery - Base - Rockets"
+description: "Rockets parallel of Base card featuring Colson Montgomery."
+series: "2026 Donruss"
+parallel: "Rockets"
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: false
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/87-rockets.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Donruss#Checklist"

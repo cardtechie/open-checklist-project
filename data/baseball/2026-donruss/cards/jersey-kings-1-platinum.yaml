@@ -1,0 +1,24 @@
+number: "1"
+uuid: "2f0c2648-d116-417b-99e2-6807b4c3b9b3"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "Christian Moore"
+    role: "Player"
+    team: "Los Angeles Angels"
+subset: "Jersey Kings"
+card_name: "Christian Moore - Jersey Kings - Platinum"
+description: "Platinum parallel of Jersey Kings memorabilia card featuring Christian Moore."
+series: "2026 Donruss"
+parallel: "Platinum"
+print_run: 1
+rookie_card: false
+autograph: false
+relic: true
+serial_numbered: true
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/jersey-kings-1-platinum.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Donruss#Checklist"

@@ -1,0 +1,23 @@
+number: "63"
+uuid: "3e1dcc36-feac-4220-90d0-488daf9ddc6b"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "Pie Traynor"
+    role: "Player"
+    team: "Pittsburgh Pirates"
+card_name: "Pie Traynor - Base - Printing Plate Yellow"
+description: "Printing Plate Yellow parallel of Base card featuring Pie Traynor."
+series: "2026 Donruss"
+parallel: "Printing Plate Yellow"
+print_run: 1
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: true
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/63-printing-plate-yellow.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Donruss#Checklist"

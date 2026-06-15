@@ -1,0 +1,23 @@
+number: "20"
+uuid: "594b1769-48e0-4ade-a160-b0a4a3091325"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "David Wright"
+    role: "Player"
+    team: "New York Mets"
+card_name: "David Wright - Base - Printing Plate Black"
+description: "Printing Plate Black parallel of Base card featuring David Wright."
+series: "2026 Donruss"
+parallel: "Printing Plate Black"
+print_run: 1
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: true
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/20-printing-plate-black.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Donruss#Checklist"

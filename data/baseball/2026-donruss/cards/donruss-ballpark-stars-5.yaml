@@ -1,0 +1,19 @@
+number: "5"
+uuid: "1a78556a-81db-4930-81e9-fad042ba0bd6"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "Azzi Fudd"
+    role: "Player"
+    team: "Washington Nationals"
+subset: "Donruss Ballpark Stars"
+card_name: "Azzi Fudd - Donruss Ballpark Stars"
+description: "Donruss Ballpark Stars card featuring Azzi Fudd."
+series: "2026 Donruss"
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: false
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/donruss-ballpark-stars-5.jpg"

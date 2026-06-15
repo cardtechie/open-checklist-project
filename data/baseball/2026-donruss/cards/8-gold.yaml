@@ -1,0 +1,23 @@
+number: "8"
+uuid: "2fa0ec0d-5758-4b80-8d9a-bf9a88f6fb04"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "Luisangel Acuna"
+    role: "Player"
+    team: "Chicago White Sox"
+card_name: "Luisangel Acuna - Base - Gold"
+description: "Gold parallel of Base card featuring Luisangel Acuna."
+series: "2026 Donruss"
+parallel: "Gold"
+print_run: 10
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: true
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/8-gold.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Donruss#Checklist"

@@ -1,0 +1,22 @@
+number: "76"
+uuid: "2fb54e2a-3cc9-4a72-9054-65e1a1246e1f"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "Heston Kjerstad"
+    role: "Player"
+    team: "Baltimore Orioles"
+card_name: "Heston Kjerstad - Base - Rockets"
+description: "Rockets parallel of Base card featuring Heston Kjerstad."
+series: "2026 Donruss"
+parallel: "Rockets"
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: false
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/76-rockets.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Donruss#Checklist"

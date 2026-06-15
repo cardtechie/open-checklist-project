@@ -1,0 +1,22 @@
+number: "74"
+uuid: "c59255bf-e6f1-4573-a594-70605d34a22f"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "Will Clark"
+    role: "Player"
+    team: "San Francisco Giants"
+card_name: "Will Clark - Base - Yellow Flood"
+description: "Yellow Flood parallel of Base card featuring Will Clark."
+series: "2026 Donruss"
+parallel: "Yellow Flood"
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: false
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/74-yellow-flood.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Donruss#Checklist"

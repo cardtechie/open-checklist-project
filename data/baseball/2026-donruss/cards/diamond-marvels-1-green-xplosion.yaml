@@ -1,0 +1,24 @@
+number: "1"
+uuid: "716b13e3-62a9-43d7-bc0c-730177d551ca"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "Deion Sanders"
+    role: "Player"
+    team: "Cincinnati Reds"
+subset: "Diamond Marvels"
+card_name: "Deion Sanders - Diamond Marvels - Green Xplosion"
+description: "Green Xplosion parallel of Diamond Marvels card featuring Deion Sanders."
+series: "2026 Donruss"
+parallel: "Green Xplosion"
+print_run: 25
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: true
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/diamond-marvels-1-green-xplosion.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Donruss#Checklist"

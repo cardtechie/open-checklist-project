@@ -1,0 +1,22 @@
+number: "26"
+uuid: "7c65b15a-1a7a-4d8d-ad9a-ae4a11b84420"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "Gil Hodges"
+    role: "Player"
+    team: "Brooklyn Dodgers"
+card_name: "Gil Hodges - Base - Liberty"
+description: "Liberty parallel of Base card featuring Gil Hodges."
+series: "2026 Donruss"
+parallel: "Liberty"
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: false
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/26-liberty.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Donruss#Checklist"

@@ -1,0 +1,22 @@
+number: "68"
+uuid: "51f5a428-7000-4853-88a8-d74f59fe251b"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "Albert Pujols"
+    role: "Player"
+    team: "St. Louis Cardinals"
+card_name: "Albert Pujols - Base - Liberty"
+description: "Liberty parallel of Base card featuring Albert Pujols."
+series: "2026 Donruss"
+parallel: "Liberty"
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: false
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/68-liberty.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Donruss#Checklist"

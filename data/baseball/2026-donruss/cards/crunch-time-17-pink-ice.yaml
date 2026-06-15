@@ -1,0 +1,24 @@
+number: "17"
+uuid: "4e8e0bd2-cde7-4099-b5a8-523c5b9e6051"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "Jacob Wilson"
+    role: "Player"
+    team: "Oakland A's"
+subset: "Crunch Time"
+card_name: "Jacob Wilson - Crunch Time - Pink Ice"
+description: "Pink Ice parallel of Crunch Time card featuring Jacob Wilson."
+series: "2026 Donruss"
+parallel: "Pink Ice"
+print_run: 99
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: true
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/crunch-time-17-pink-ice.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Donruss#Checklist"

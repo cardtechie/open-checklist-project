@@ -1,0 +1,24 @@
+number: "7"
+uuid: "5078f363-a96c-4697-9be2-fb0191ebbc45"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "Cade Horton"
+    role: "Player"
+    team: "Chicago Cubs"
+subset: "Crunch Time"
+card_name: "Cade Horton - Crunch Time - Orange Ice"
+description: "Orange Ice parallel of Crunch Time card featuring Cade Horton."
+series: "2026 Donruss"
+parallel: "Orange Ice"
+print_run: 75
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: true
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/crunch-time-7-orange-ice.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Donruss#Checklist"

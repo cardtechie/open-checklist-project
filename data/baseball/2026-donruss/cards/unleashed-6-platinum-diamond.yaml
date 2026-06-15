@@ -1,0 +1,24 @@
+number: "6"
+uuid: "fa6ddaf8-cc43-40e3-a0df-a5bc37c133e7"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "Luke Keaschall"
+    role: "Player"
+    team: "Minnesota Twins"
+subset: "Unleashed"
+card_name: "Luke Keaschall - Unleashed - Platinum Diamond"
+description: "Platinum Diamond parallel of Unleashed card featuring Luke Keaschall."
+series: "2026 Donruss"
+parallel: "Platinum Diamond"
+print_run: 1
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: true
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/unleashed-6-platinum-diamond.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Donruss#Checklist"

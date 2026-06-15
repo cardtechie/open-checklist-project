@@ -1,0 +1,23 @@
+number: "68"
+uuid: "deca4111-ec8b-4a7d-918c-d2ff49bad7ba"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "Albert Pujols"
+    role: "Player"
+    team: "St. Louis Cardinals"
+card_name: "Albert Pujols - Base - Holo Purple"
+description: "Holo Purple parallel of Base card featuring Albert Pujols."
+series: "2026 Donruss"
+parallel: "Holo Purple"
+print_run: 99
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: true
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/68-holo-purple.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Donruss#Checklist"

@@ -1,0 +1,24 @@
+number: "29"
+uuid: "5d3d5dcb-5ca3-46b3-ba56-895f17082591"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "Chandler Simpson"
+    role: "Player"
+    team: "Tampa Bay Rays"
+subset: "Base - Optic"
+card_name: "Chandler Simpson - Base - Optic - Green Scope"
+description: "Green Scope parallel of Base - Optic card featuring Chandler Simpson."
+series: "2026 Donruss"
+parallel: "Green Scope"
+print_run: 65
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: true
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/base-optic-29-green-scope.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Donruss#Checklist"

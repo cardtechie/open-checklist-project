@@ -1,0 +1,24 @@
+number: "38"
+uuid: "2461a503-1a5c-4784-ac26-2a9be797b22d"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "Brice Matthews"
+    role: "Player"
+    team: "Houston Astros"
+subset: "Base - Optic"
+card_name: "Brice Matthews - Base - Optic - Green"
+description: "Green parallel of Base - Optic card featuring Brice Matthews."
+series: "2026 Donruss"
+parallel: "Green"
+print_run: 5
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: true
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/base-optic-38-green.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Donruss#Checklist"

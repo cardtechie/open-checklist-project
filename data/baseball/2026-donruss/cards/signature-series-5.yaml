@@ -1,0 +1,19 @@
+number: "5"
+uuid: "2a5d24d8-db0a-42ee-b879-40eef8b1becd"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "Brody Brecht"
+    role: "Player"
+    team: "Colorado Rockies"
+subset: "Signature Series"
+card_name: "Brody Brecht - Signature Series"
+description: "Autographed Signature Series card featuring Brody Brecht."
+series: "2026 Donruss"
+rookie_card: false
+autograph: true
+relic: false
+serial_numbered: false
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/signature-series-5.jpg"

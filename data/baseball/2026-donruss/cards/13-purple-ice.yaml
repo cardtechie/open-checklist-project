@@ -1,0 +1,23 @@
+number: "13"
+uuid: "e40b87c9-a2a4-4805-bdf3-3fe97c0a9357"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "Jacob Wilson"
+    role: "Player"
+    team: "Oakland A's"
+card_name: "Jacob Wilson - Base - Purple Ice"
+description: "Purple Ice parallel of Base card featuring Jacob Wilson."
+series: "2026 Donruss"
+parallel: "Purple Ice"
+print_run: 99
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: true
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/13-purple-ice.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Donruss#Checklist"

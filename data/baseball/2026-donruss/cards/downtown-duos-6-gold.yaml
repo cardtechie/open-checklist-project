@@ -1,0 +1,27 @@
+number: "6"
+uuid: "f779dcf3-b3e2-4da9-9a7c-c1c4f899efcd"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "Dylan Crews"
+    role: "Player"
+    team: "Washington Nationals"
+  - name: "James Wood"
+    role: "Player"
+    team: "Washington Nationals"
+subset: "Downtown Duos"
+card_name: "Dylan Crews / James Wood - Downtown Duos - Gold"
+description: "Gold parallel of Downtown Duos card featuring Dylan Crews / James Wood."
+series: "2026 Donruss"
+parallel: "Gold"
+print_run: 10
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: true
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/downtown-duos-6-gold.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Donruss#Checklist"

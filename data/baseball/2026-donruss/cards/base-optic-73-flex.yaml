@@ -1,0 +1,24 @@
+number: "73"
+uuid: "bcb5849e-766d-4970-b50e-2c17e537bae3"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "Satchel Paige"
+    role: "Player"
+    team: "St. Louis Browns"
+subset: "Base - Optic"
+card_name: "Satchel Paige - Base - Optic - Flex"
+description: "Flex parallel of Base - Optic card featuring Satchel Paige."
+series: "2026 Donruss"
+parallel: "Flex"
+print_run: 149
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: true
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/base-optic-73-flex.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Donruss#Checklist"

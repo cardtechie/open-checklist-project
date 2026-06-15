@@ -1,0 +1,24 @@
+number: "12"
+uuid: "1d55a986-cc19-48e1-b9a7-1bdb35bc9b7d"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "Juan Gonzalez"
+    role: "Player"
+    team: "Texas Rangers"
+subset: "Retro 1986 Materials"
+card_name: "Juan Gonzalez - Retro 1986 Materials - Purple"
+description: "Purple parallel of Retro 1986 Materials memorabilia card featuring Juan Gonzalez."
+series: "2026 Donruss"
+parallel: "Purple"
+print_run: 49
+rookie_card: false
+autograph: false
+relic: true
+serial_numbered: true
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/retro-1986-materials-12-purple.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Donruss#Checklist"

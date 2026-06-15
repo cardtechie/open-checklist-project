@@ -1,0 +1,24 @@
+number: "23"
+uuid: "c7801ca7-2ea1-4d3b-9d2d-6ff7c5ba95e5"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "Luke Keaschall"
+    role: "Player"
+    team: "Minnesota Twins"
+subset: "Jersey Kings"
+card_name: "Luke Keaschall - Jersey Kings - Purple"
+description: "Purple parallel of Jersey Kings memorabilia card featuring Luke Keaschall."
+series: "2026 Donruss"
+parallel: "Purple"
+print_run: 49
+rookie_card: false
+autograph: false
+relic: true
+serial_numbered: true
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/jersey-kings-23-purple.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Donruss#Checklist"

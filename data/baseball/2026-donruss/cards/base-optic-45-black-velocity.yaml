@@ -1,0 +1,24 @@
+number: "45"
+uuid: "b40de4fb-d64b-4d02-ab06-00dbed225813"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "Jose Canseco"
+    role: "Player"
+    team: "Oakland A's"
+subset: "Base - Optic"
+card_name: "Jose Canseco - Base - Optic - Black Velocity"
+description: "Black Velocity parallel of Base - Optic card featuring Jose Canseco."
+series: "2026 Donruss"
+parallel: "Black Velocity"
+print_run: 39
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: true
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/base-optic-45-black-velocity.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Donruss#Checklist"

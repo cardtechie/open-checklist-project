@@ -1,0 +1,22 @@
+number: "35"
+uuid: "99103e74-f7d5-4db9-af4d-6f8b94f84bc7"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "Darryl Strawberry"
+    role: "Player"
+    team: "New York Mets"
+card_name: "Darryl Strawberry - Base - Rockets"
+description: "Rockets parallel of Base card featuring Darryl Strawberry."
+series: "2026 Donruss"
+parallel: "Rockets"
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: false
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/35-rockets.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Donruss#Checklist"

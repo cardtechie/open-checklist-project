@@ -1,0 +1,24 @@
+number: "74"
+uuid: "e81816c0-6926-4377-9bc5-84db1e6de90f"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "Will Clark"
+    role: "Player"
+    team: "San Francisco Giants"
+subset: "Base - Optic"
+card_name: "Will Clark - Base - Optic - Gold Velocity"
+description: "Gold Velocity parallel of Base - Optic card featuring Will Clark."
+series: "2026 Donruss"
+parallel: "Gold Velocity"
+print_run: 10
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: true
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/base-optic-74-gold-velocity.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Donruss#Checklist"

@@ -1,0 +1,23 @@
+number: "1"
+uuid: "bfaf2bd6-b49d-488b-b07a-a5764e4df367"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "Ken Griffey Jr."
+    role: "Player"
+    team: "Seattle Mariners"
+subset: "Base - Optic"
+card_name: "Ken Griffey Jr. - Base - Optic - Orange Velocity"
+description: "Orange Velocity parallel of Base - Optic card featuring Ken Griffey Jr.."
+series: "2026 Donruss"
+parallel: "Orange Velocity"
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: false
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/base-optic-1-orange-velocity.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Donruss#Checklist"

@@ -1,0 +1,24 @@
+number: "21"
+uuid: "05836e96-9fcd-4b3e-9ab9-7adcc91ebd7e"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "Pat Murphy"
+    role: "Player"
+    team: "Milwaukee Brewers"
+subset: "Base - Optic"
+card_name: "Pat Murphy - Base - Optic - Cracked Ice"
+description: "Cracked Ice parallel of Base - Optic card featuring Pat Murphy."
+series: "2026 Donruss"
+parallel: "Cracked Ice"
+print_run: 25
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: true
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/base-optic-21-cracked-ice.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Donruss#Checklist"

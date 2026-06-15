@@ -1,0 +1,24 @@
+number: "10"
+uuid: "2fc8ab34-3de1-45f1-b568-56fa6deec3c9"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "Travis Bazzana"
+    role: "Player"
+    team: "Cleveland Guardians"
+subset: "Unleashed"
+card_name: "Travis Bazzana - Unleashed - Red Ice"
+description: "Red Ice parallel of Unleashed card featuring Travis Bazzana."
+series: "2026 Donruss"
+parallel: "Red Ice"
+print_run: 149
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: true
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/unleashed-10-red-ice.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Donruss#Checklist"

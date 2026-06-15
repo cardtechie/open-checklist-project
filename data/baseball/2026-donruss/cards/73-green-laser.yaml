@@ -1,0 +1,22 @@
+number: "73"
+uuid: "3096d495-1bfe-4c41-8ef4-e5e320da0e29"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "Satchel Paige"
+    role: "Player"
+    team: "St. Louis Browns"
+card_name: "Satchel Paige - Base - Green Laser"
+description: "Green Laser parallel of Base card featuring Satchel Paige."
+series: "2026 Donruss"
+parallel: "Green Laser"
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: false
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/73-green-laser.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Donruss#Checklist"

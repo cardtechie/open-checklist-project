@@ -1,0 +1,24 @@
+number: "200"
+uuid: "7312b212-2e3b-44f6-ab5e-3be92df2bc66"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "Luis Hernandez"
+    role: "Player"
+    team: "San Francisco Giants"
+subset: "Clearly - Rated Prospects"
+card_name: "Luis Hernandez - Clearly - Rated Prospects - Techno"
+description: "Techno parallel of Clearly - Rated Prospects card featuring Luis Hernandez."
+series: "2026 Donruss"
+parallel: "Techno"
+print_run: 5
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: true
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/clearly-rated-prospects-200-techno.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Donruss#Checklist"

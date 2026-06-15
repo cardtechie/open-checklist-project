@@ -1,0 +1,22 @@
+number: "8"
+uuid: "5246ede3-0c3e-4fa8-8cc9-b7b985f06cb3"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "Luisangel Acuna"
+    role: "Player"
+    team: "Chicago White Sox"
+card_name: "Luisangel Acuna - Base - Yellow Flood"
+description: "Yellow Flood parallel of Base card featuring Luisangel Acuna."
+series: "2026 Donruss"
+parallel: "Yellow Flood"
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: false
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/8-yellow-flood.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Donruss#Checklist"

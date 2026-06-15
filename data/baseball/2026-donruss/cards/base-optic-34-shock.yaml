@@ -1,0 +1,23 @@
+number: "34"
+uuid: "701f240b-7fdb-4c90-a63b-cdcee1199863"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "Dave Winfield"
+    role: "Player"
+    team: "San Diego Padres"
+subset: "Base - Optic"
+card_name: "Dave Winfield - Base - Optic - Shock"
+description: "Shock parallel of Base - Optic card featuring Dave Winfield."
+series: "2026 Donruss"
+parallel: "Shock"
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: false
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/base-optic-34-shock.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Donruss#Checklist"

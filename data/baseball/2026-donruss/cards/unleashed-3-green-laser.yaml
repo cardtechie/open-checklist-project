@@ -1,0 +1,23 @@
+number: "3"
+uuid: "dcb18ac4-b072-4303-ad0b-7edbe3944ad4"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "Bubba Chandler"
+    role: "Player"
+    team: "Pittsburgh Pirates"
+subset: "Unleashed"
+card_name: "Bubba Chandler - Unleashed - Green Laser"
+description: "Green Laser parallel of Unleashed card featuring Bubba Chandler."
+series: "2026 Donruss"
+parallel: "Green Laser"
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: false
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/unleashed-3-green-laser.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Donruss#Checklist"

@@ -1,0 +1,24 @@
+number: "65"
+uuid: "18ef6e49-cd6f-439b-8e57-e6b5851768db"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "Trey Yesavage"
+    role: "Player"
+    team: "Toronto Blue Jays"
+subset: "Signature Series"
+card_name: "Trey Yesavage - Signature Series - Gold"
+description: "Gold parallel of Autographed Signature Series card featuring Trey Yesavage."
+series: "2026 Donruss"
+parallel: "Gold"
+print_run: 10
+rookie_card: false
+autograph: true
+relic: false
+serial_numbered: true
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/signature-series-65-gold.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Donruss#Checklist"

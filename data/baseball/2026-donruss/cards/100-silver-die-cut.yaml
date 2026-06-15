@@ -1,0 +1,23 @@
+number: "100"
+uuid: "664a0780-fadf-4910-b556-146897449caa"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "James Wood"
+    role: "Player"
+    team: "Washington Nationals"
+card_name: "James Wood - Base - Silver Die Cut"
+description: "Silver Die Cut parallel of Base card featuring James Wood."
+series: "2026 Donruss"
+parallel: "Silver Die Cut"
+print_run: 75
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: true
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/100-silver-die-cut.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Donruss#Checklist"

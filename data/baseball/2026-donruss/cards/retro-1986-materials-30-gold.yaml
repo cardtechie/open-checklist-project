@@ -1,0 +1,24 @@
+number: "30"
+uuid: "6be7ba18-b38c-469c-beb5-c5e8b48a44b3"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "Roberto Alomar"
+    role: "Player"
+    team: "Toronto Blue Jays"
+subset: "Retro 1986 Materials"
+card_name: "Roberto Alomar - Retro 1986 Materials - Gold"
+description: "Gold parallel of Retro 1986 Materials memorabilia card featuring Roberto Alomar."
+series: "2026 Donruss"
+parallel: "Gold"
+print_run: 10
+rookie_card: false
+autograph: false
+relic: true
+serial_numbered: true
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/retro-1986-materials-30-gold.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Donruss#Checklist"

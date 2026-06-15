@@ -1,0 +1,24 @@
+number: "5"
+uuid: "f3fbd25e-791a-43db-90dc-cf01b51ccdb6"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "James Wood"
+    role: "Player"
+    team: "Washington Nationals"
+subset: "Crunch Time"
+card_name: "James Wood - Crunch Time - Blue Ice"
+description: "Blue Ice parallel of Crunch Time card featuring James Wood."
+series: "2026 Donruss"
+parallel: "Blue Ice"
+print_run: 35
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: true
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/crunch-time-5-blue-ice.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Donruss#Checklist"

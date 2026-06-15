@@ -1,0 +1,24 @@
+number: "2"
+uuid: "95369061-7269-4e90-80d0-45b6bc6f9034"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "Andrew Painter"
+    role: "Player"
+    team: "Philadelphia Phillies"
+subset: "Unleashed"
+card_name: "Andrew Painter - Unleashed - Orange Ice"
+description: "Orange Ice parallel of Unleashed card featuring Andrew Painter."
+series: "2026 Donruss"
+parallel: "Orange Ice"
+print_run: 75
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: true
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/unleashed-2-orange-ice.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Donruss#Checklist"

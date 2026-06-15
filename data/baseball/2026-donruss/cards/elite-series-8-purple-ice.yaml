@@ -1,0 +1,24 @@
+number: "8"
+uuid: "1080bbbd-1b62-4d06-b773-f2517de5bda9"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "Paul Skenes"
+    role: "Player"
+    team: "Pittsburgh Pirates"
+subset: "Elite Series"
+card_name: "Paul Skenes - Elite Series - Purple Ice"
+description: "Purple Ice parallel of Elite Series card featuring Paul Skenes."
+series: "2026 Donruss"
+parallel: "Purple Ice"
+print_run: 99
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: true
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/elite-series-8-purple-ice.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Donruss#Checklist"

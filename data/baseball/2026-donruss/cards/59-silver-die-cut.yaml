@@ -1,0 +1,23 @@
+number: "59"
+uuid: "3b30cabf-d461-46d4-8169-a0fe34ce23dd"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "Alex Rodriguez"
+    role: "Player"
+    team: "Texas Rangers"
+card_name: "Alex Rodriguez - Base - Silver Die Cut"
+description: "Silver Die Cut parallel of Base card featuring Alex Rodriguez."
+series: "2026 Donruss"
+parallel: "Silver Die Cut"
+print_run: 75
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: true
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/59-silver-die-cut.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Donruss#Checklist"

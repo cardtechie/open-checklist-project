@@ -1,0 +1,24 @@
+number: "5"
+uuid: "5332e833-0292-4823-bffb-361cbcef5435"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "Eli Willits"
+    role: "Player"
+    team: "Washington Nationals"
+subset: "Unleashed"
+card_name: "Eli Willits - Unleashed - Blue Xplosion"
+description: "Blue Xplosion parallel of Unleashed card featuring Eli Willits."
+series: "2026 Donruss"
+parallel: "Blue Xplosion"
+print_run: 49
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: true
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/unleashed-5-blue-xplosion.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Donruss#Checklist"

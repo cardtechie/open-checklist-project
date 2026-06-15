@@ -1,0 +1,19 @@
+number: "49"
+uuid: "46a0d0d9-c0d9-43f0-9e55-ffca2c4010d5"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "Payton Tolle"
+    role: "Player"
+    team: "Boston Red Sox"
+subset: "Signature Series"
+card_name: "Payton Tolle - Signature Series"
+description: "Autographed Signature Series card featuring Payton Tolle."
+series: "2026 Donruss"
+rookie_card: false
+autograph: true
+relic: false
+serial_numbered: false
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/signature-series-49.jpg"

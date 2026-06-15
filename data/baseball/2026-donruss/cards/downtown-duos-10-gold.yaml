@@ -1,0 +1,27 @@
+number: "10"
+uuid: "71f93b5c-72fe-4dc2-bba1-f175b8e1b9ee"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "Nolan Ryan"
+    role: "Player"
+    team: "New York Mets"
+  - name: "Tom Seaver"
+    role: "Player"
+    team: "New York Mets"
+subset: "Downtown Duos"
+card_name: "Nolan Ryan / Tom Seaver - Downtown Duos - Gold"
+description: "Gold parallel of Downtown Duos card featuring Nolan Ryan / Tom Seaver."
+series: "2026 Donruss"
+parallel: "Gold"
+print_run: 10
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: true
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/downtown-duos-10-gold.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Donruss#Checklist"

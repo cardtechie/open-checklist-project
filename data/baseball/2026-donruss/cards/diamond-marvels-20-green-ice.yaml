@@ -1,0 +1,24 @@
+number: "20"
+uuid: "5501822c-caec-4078-9f0d-04a901d8b604"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "Marcelo Mayer"
+    role: "Player"
+    team: "Boston Red Sox"
+subset: "Diamond Marvels"
+card_name: "Marcelo Mayer - Diamond Marvels - Green Ice"
+description: "Green Ice parallel of Diamond Marvels card featuring Marcelo Mayer."
+series: "2026 Donruss"
+parallel: "Green Ice"
+print_run: 15
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: true
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/diamond-marvels-20-green-ice.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Donruss#Checklist"

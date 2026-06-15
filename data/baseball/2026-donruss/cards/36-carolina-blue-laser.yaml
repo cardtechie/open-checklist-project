@@ -1,0 +1,23 @@
+number: "36"
+uuid: "15fedb60-7028-403d-9028-29dc21c9b589"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "Jim Thome"
+    role: "Player"
+    team: "Cleveland Indians"
+card_name: "Jim Thome - Base - Carolina Blue Laser"
+description: "Carolina Blue Laser parallel of Base card featuring Jim Thome."
+series: "2026 Donruss"
+parallel: "Carolina Blue Laser"
+print_run: 249
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: true
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/36-carolina-blue-laser.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Donruss#Checklist"

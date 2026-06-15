@@ -1,0 +1,19 @@
+number: "9"
+uuid: "26e8158d-d888-43f6-85ff-102f165bb7b7"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "Aaron Judge"
+    role: "Player"
+    team: "New York Yankees"
+subset: "Unleashed"
+card_name: "Aaron Judge - Unleashed"
+description: "Unleashed card featuring Aaron Judge."
+series: "2026 Donruss"
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: false
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/unleashed-9.jpg"

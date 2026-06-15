@@ -1,0 +1,22 @@
+number: "2"
+uuid: "482cf7a3-1cf6-4fbe-bc06-37bbd7c7e694"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "Johnny Bench"
+    role: "Player"
+    team: "Cincinnati Reds"
+card_name: "Johnny Bench - Base - Yellow Flood"
+description: "Yellow Flood parallel of Base card featuring Johnny Bench."
+series: "2026 Donruss"
+parallel: "Yellow Flood"
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: false
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/2-yellow-flood.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Donruss#Checklist"

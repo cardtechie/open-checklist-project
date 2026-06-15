@@ -1,0 +1,23 @@
+number: "1"
+uuid: "924b5273-f828-44d6-a1b6-3e5b7a6813b9"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "Ken Griffey Jr."
+    role: "Player"
+    team: "Seattle Mariners"
+card_name: "Ken Griffey Jr. - Base - Orange Laser"
+description: "Orange Laser parallel of Base card featuring Ken Griffey Jr.."
+series: "2026 Donruss"
+parallel: "Orange Laser"
+print_run: 299
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: true
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/1-orange-laser.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Donruss#Checklist"

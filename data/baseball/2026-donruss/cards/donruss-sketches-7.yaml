@@ -1,0 +1,20 @@
+number: "7"
+uuid: "25cc60ea-28f4-4741-9e9a-a7d0533e9f64"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "Cade Horton"
+    role: "Player"
+    team: "Chicago Cubs"
+subset: "Donruss Sketches"
+card_name: "Cade Horton - Donruss Sketches"
+description: "Donruss Sketches card featuring Cade Horton."
+series: "2026 Donruss"
+print_run: 1
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: true
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/donruss-sketches-7.jpg"

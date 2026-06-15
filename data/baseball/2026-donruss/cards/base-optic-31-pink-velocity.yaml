@@ -1,0 +1,24 @@
+number: "31"
+uuid: "a3735ac8-0a8e-443a-bfe2-695be59fc960"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "Roberto Alomar"
+    role: "Player"
+    team: "Toronto Blue Jays"
+subset: "Base - Optic"
+card_name: "Roberto Alomar - Base - Optic - Pink Velocity"
+description: "Pink Velocity parallel of Base - Optic card featuring Roberto Alomar."
+series: "2026 Donruss"
+parallel: "Pink Velocity"
+print_run: 79
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: true
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/base-optic-31-pink-velocity.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Donruss#Checklist"

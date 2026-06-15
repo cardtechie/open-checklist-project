@@ -1,0 +1,24 @@
+number: "13"
+uuid: "a944cb3f-ad70-4500-b84c-33fdc9b421c1"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "Sammy Sosa"
+    role: "Player"
+    team: "Chicago Cubs"
+subset: "Bomb Squad"
+card_name: "Sammy Sosa - Bomb Squad - Red Ice"
+description: "Red Ice parallel of Bomb Squad card featuring Sammy Sosa."
+series: "2026 Donruss"
+parallel: "Red Ice"
+print_run: 149
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: true
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/bomb-squad-13-red-ice.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Donruss#Checklist"

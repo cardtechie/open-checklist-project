@@ -1,0 +1,24 @@
+number: "24"
+uuid: "2a33d9b2-d44f-4634-b408-26dc9b44bb05"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "Cam Smith"
+    role: "Player"
+    team: "Houston Astros"
+subset: "Jersey Kings"
+card_name: "Cam Smith - Jersey Kings - Red"
+description: "Red parallel of Jersey Kings memorabilia card featuring Cam Smith."
+series: "2026 Donruss"
+parallel: "Red"
+print_run: 99
+rookie_card: false
+autograph: false
+relic: true
+serial_numbered: true
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/jersey-kings-24-red.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Donruss#Checklist"

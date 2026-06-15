@@ -1,0 +1,23 @@
+number: "10"
+uuid: "5f94b26e-c5a3-4796-8285-b2901ed717ee"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "Cade Horton"
+    role: "Player"
+    team: "Chicago Cubs"
+subset: "Diamond Marvels"
+card_name: "Cade Horton - Diamond Marvels - Green Laser"
+description: "Green Laser parallel of Diamond Marvels card featuring Cade Horton."
+series: "2026 Donruss"
+parallel: "Green Laser"
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: false
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/diamond-marvels-10-green-laser.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Donruss#Checklist"

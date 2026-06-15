@@ -1,0 +1,23 @@
+number: "42"
+uuid: "479875e7-e214-40f0-a181-00869fa69689"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "Tatsuya Imai"
+    role: "Player"
+    team: "Houston Astros"
+subset: "Base - Optic"
+card_name: "Tatsuya Imai - Base - Optic - Orange Velocity"
+description: "Orange Velocity parallel of Base - Optic card featuring Tatsuya Imai."
+series: "2026 Donruss"
+parallel: "Orange Velocity"
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: false
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/base-optic-42-orange-velocity.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Donruss#Checklist"

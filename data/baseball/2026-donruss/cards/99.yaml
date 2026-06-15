@@ -1,0 +1,18 @@
+number: "99"
+uuid: "23e29935-deba-48e2-96b0-a4dae1e18f2c"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "Aaron Judge"
+    role: "Player"
+    team: "New York Yankees"
+card_name: "Aaron Judge - Base"
+description: "Base card featuring Aaron Judge."
+series: "2026 Donruss"
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: false
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/99.jpg"

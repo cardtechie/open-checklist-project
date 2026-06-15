@@ -1,0 +1,24 @@
+number: "32"
+uuid: "615cb941-a1ee-4acf-885a-30054ac74fc7"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "Nolan Ryan"
+    role: "Player"
+    team: "Texas Rangers"
+subset: "Base - Optic"
+card_name: "Nolan Ryan - Base - Optic - Blue Glitter"
+description: "Blue Glitter parallel of Base - Optic card featuring Nolan Ryan."
+series: "2026 Donruss"
+parallel: "Blue Glitter"
+print_run: 6
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: true
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/base-optic-32-blue-glitter.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Donruss#Checklist"

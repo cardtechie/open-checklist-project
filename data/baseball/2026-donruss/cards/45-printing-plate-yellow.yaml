@@ -1,0 +1,23 @@
+number: "45"
+uuid: "7e16fda9-494d-485b-bb2f-ba2c3a441997"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "Jose Canseco"
+    role: "Player"
+    team: "Oakland A's"
+card_name: "Jose Canseco - Base - Printing Plate Yellow"
+description: "Printing Plate Yellow parallel of Base card featuring Jose Canseco."
+series: "2026 Donruss"
+parallel: "Printing Plate Yellow"
+print_run: 1
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: true
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/45-printing-plate-yellow.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Donruss#Checklist"

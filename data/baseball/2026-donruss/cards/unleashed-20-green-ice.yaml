@@ -1,0 +1,24 @@
+number: "20"
+uuid: "a92751d0-3108-4e72-bd78-14310b25ae40"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "Nick Kurtz"
+    role: "Player"
+    team: "Oakland A's"
+subset: "Unleashed"
+card_name: "Nick Kurtz - Unleashed - Green Ice"
+description: "Green Ice parallel of Unleashed card featuring Nick Kurtz."
+series: "2026 Donruss"
+parallel: "Green Ice"
+print_run: 15
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: true
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/unleashed-20-green-ice.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Donruss#Checklist"

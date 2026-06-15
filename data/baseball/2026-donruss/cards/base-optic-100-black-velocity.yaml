@@ -1,0 +1,24 @@
+number: "100"
+uuid: "328297c8-06b0-49f2-8d43-b100ee6b44c0"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "James Wood"
+    role: "Player"
+    team: "Washington Nationals"
+subset: "Base - Optic"
+card_name: "James Wood - Base - Optic - Black Velocity"
+description: "Black Velocity parallel of Base - Optic card featuring James Wood."
+series: "2026 Donruss"
+parallel: "Black Velocity"
+print_run: 39
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: true
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/base-optic-100-black-velocity.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Donruss#Checklist"

@@ -1,0 +1,24 @@
+number: "14"
+uuid: "2131b912-6f6c-4b77-854f-86091a46b5b5"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "Paul Skenes"
+    role: "Player"
+    team: "Pittsburgh Pirates"
+subset: "Unleashed"
+card_name: "Paul Skenes - Unleashed - Pink Ice"
+description: "Pink Ice parallel of Unleashed card featuring Paul Skenes."
+series: "2026 Donruss"
+parallel: "Pink Ice"
+print_run: 99
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: true
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/unleashed-14-pink-ice.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Donruss#Checklist"

@@ -1,0 +1,23 @@
+number: "32"
+uuid: "de9e7a27-7b40-4109-9b4a-0381851e8d0e"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "Billy Carlson"
+    role: "Player"
+    team: "Chicago White Sox"
+subset: "Prospect Jersey Kings"
+card_name: "Billy Carlson - Prospect Jersey Kings - Orange Ice"
+description: "Orange Ice parallel of Prospect Jersey Kings memorabilia card featuring Billy Carlson."
+series: "2026 Donruss"
+parallel: "Orange Ice"
+rookie_card: false
+autograph: false
+relic: true
+serial_numbered: false
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/prospect-jersey-kings-32-orange-ice.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Donruss#Checklist"

@@ -1,0 +1,24 @@
+number: "16"
+uuid: "9971790d-0037-4101-9dd3-ea4c7cf118ab"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "Albert Pujols"
+    role: "Player"
+    team: "St. Louis Cardinals"
+subset: "Bomb Squad"
+card_name: "Albert Pujols - Bomb Squad - Blue Xplosion"
+description: "Blue Xplosion parallel of Bomb Squad card featuring Albert Pujols."
+series: "2026 Donruss"
+parallel: "Blue Xplosion"
+print_run: 49
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: true
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/bomb-squad-16-blue-xplosion.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Donruss#Checklist"

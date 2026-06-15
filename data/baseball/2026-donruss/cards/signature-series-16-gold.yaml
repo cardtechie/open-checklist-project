@@ -1,0 +1,24 @@
+number: "16"
+uuid: "f213de59-58eb-4a30-b84d-11859e94fe56"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "Heston Kjerstad"
+    role: "Player"
+    team: "Baltimore Orioles"
+subset: "Signature Series"
+card_name: "Heston Kjerstad - Signature Series - Gold"
+description: "Gold parallel of Autographed Signature Series card featuring Heston Kjerstad."
+series: "2026 Donruss"
+parallel: "Gold"
+print_run: 10
+rookie_card: false
+autograph: true
+relic: false
+serial_numbered: true
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/signature-series-16-gold.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Donruss#Checklist"

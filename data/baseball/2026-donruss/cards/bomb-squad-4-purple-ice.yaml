@@ -1,0 +1,24 @@
+number: "4"
+uuid: "c12eaf69-0778-4767-8793-df2cb2b2a982"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "Jackson Chourio"
+    role: "Player"
+    team: "Milwaukee Brewers"
+subset: "Bomb Squad"
+card_name: "Jackson Chourio - Bomb Squad - Purple Ice"
+description: "Purple Ice parallel of Bomb Squad card featuring Jackson Chourio."
+series: "2026 Donruss"
+parallel: "Purple Ice"
+print_run: 99
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: true
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/bomb-squad-4-purple-ice.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Donruss#Checklist"

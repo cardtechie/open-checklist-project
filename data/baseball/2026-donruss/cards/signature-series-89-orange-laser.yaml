@@ -1,0 +1,24 @@
+number: "89"
+uuid: "892c033c-2bcd-4be1-b850-1a662439759c"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "Josh Knoth"
+    role: "Player"
+    team: "Milwaukee Brewers"
+subset: "Signature Series"
+card_name: "Josh Knoth - Signature Series - Orange Laser"
+description: "Orange Laser parallel of Autographed Signature Series card featuring Josh Knoth."
+series: "2026 Donruss"
+parallel: "Orange Laser"
+print_run: 25
+rookie_card: false
+autograph: true
+relic: false
+serial_numbered: true
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/signature-series-89-orange-laser.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Donruss#Checklist"

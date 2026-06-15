@@ -1,0 +1,24 @@
+number: "12"
+uuid: "e184b2d8-a5d1-4df4-aabe-862fe33dc64e"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "Jacob Wilson"
+    role: "Player"
+    team: "Oakland A's"
+subset: "Unleashed"
+card_name: "Jacob Wilson - Unleashed - Red Xplosion"
+description: "Red Xplosion parallel of Unleashed card featuring Jacob Wilson."
+series: "2026 Donruss"
+parallel: "Red Xplosion"
+print_run: 99
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: true
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/unleashed-12-red-xplosion.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Donruss#Checklist"

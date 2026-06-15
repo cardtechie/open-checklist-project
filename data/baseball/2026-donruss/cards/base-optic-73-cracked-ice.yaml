@@ -1,0 +1,24 @@
+number: "73"
+uuid: "61144242-acbc-440f-af2c-6d5c8ff78b03"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "Satchel Paige"
+    role: "Player"
+    team: "St. Louis Browns"
+subset: "Base - Optic"
+card_name: "Satchel Paige - Base - Optic - Cracked Ice"
+description: "Cracked Ice parallel of Base - Optic card featuring Satchel Paige."
+series: "2026 Donruss"
+parallel: "Cracked Ice"
+print_run: 25
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: true
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/base-optic-73-cracked-ice.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Donruss#Checklist"

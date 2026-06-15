@@ -1,0 +1,24 @@
+number: "6"
+uuid: "387f2eca-336b-412a-ad2f-9d6ca2f6cdbd"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "George Brett"
+    role: "Player"
+    team: "Kansas City Royals"
+subset: "Elite Series"
+card_name: "George Brett - Elite Series - Green Ice"
+description: "Green Ice parallel of Elite Series card featuring George Brett."
+series: "2026 Donruss"
+parallel: "Green Ice"
+print_run: 15
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: true
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/elite-series-6-green-ice.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Donruss#Checklist"

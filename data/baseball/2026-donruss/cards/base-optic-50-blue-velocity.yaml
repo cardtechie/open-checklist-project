@@ -1,0 +1,23 @@
+number: "50"
+uuid: "ed4f2d6c-d520-4a1f-8281-3fb0a67cfd1a"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "Rickey Henderson"
+    role: "Player"
+    team: "Oakland A's"
+subset: "Base - Optic"
+card_name: "Rickey Henderson - Base - Optic - Blue Velocity"
+description: "Blue Velocity parallel of Base - Optic card featuring Rickey Henderson."
+series: "2026 Donruss"
+parallel: "Blue Velocity"
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: false
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/base-optic-50-blue-velocity.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Donruss#Checklist"

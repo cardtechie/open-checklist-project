@@ -1,0 +1,22 @@
+number: "6"
+uuid: "2516b819-255a-4824-9c0d-3e196689c590"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "Jason Varitek"
+    role: "Player"
+    team: "Boston Red Sox"
+card_name: "Jason Varitek - Base - Purple"
+description: "Purple parallel of Base card featuring Jason Varitek."
+series: "2026 Donruss"
+parallel: "Purple"
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: false
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/6-purple.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Donruss#Checklist"

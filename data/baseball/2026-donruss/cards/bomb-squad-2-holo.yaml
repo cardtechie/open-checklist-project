@@ -1,0 +1,24 @@
+number: "2"
+uuid: "c890a98f-70a6-440a-9b73-9b3b61993e3d"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "Ken Griffey Jr."
+    role: "Player"
+    team: "Seattle Mariners"
+subset: "Bomb Squad"
+card_name: "Ken Griffey Jr. - Bomb Squad - Holo"
+description: "Holo parallel of Bomb Squad card featuring Ken Griffey Jr.."
+series: "2026 Donruss"
+parallel: "Holo"
+print_run: 199
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: true
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/bomb-squad-2-holo.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Donruss#Checklist"

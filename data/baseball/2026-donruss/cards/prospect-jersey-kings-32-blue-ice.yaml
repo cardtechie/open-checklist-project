@@ -1,0 +1,23 @@
+number: "32"
+uuid: "07ab0b9f-23e9-48f5-ba7e-d869ff0afdc7"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "Billy Carlson"
+    role: "Player"
+    team: "Chicago White Sox"
+subset: "Prospect Jersey Kings"
+card_name: "Billy Carlson - Prospect Jersey Kings - Blue Ice"
+description: "Blue Ice parallel of Prospect Jersey Kings memorabilia card featuring Billy Carlson."
+series: "2026 Donruss"
+parallel: "Blue Ice"
+rookie_card: false
+autograph: false
+relic: true
+serial_numbered: false
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/prospect-jersey-kings-32-blue-ice.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Donruss#Checklist"

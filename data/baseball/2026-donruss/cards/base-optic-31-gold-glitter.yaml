@@ -1,0 +1,24 @@
+number: "31"
+uuid: "50319cfd-cfcc-4604-9b75-6ae0c4f4d9ad"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "Roberto Alomar"
+    role: "Player"
+    team: "Toronto Blue Jays"
+subset: "Base - Optic"
+card_name: "Roberto Alomar - Base - Optic - Gold Glitter"
+description: "Gold Glitter parallel of Base - Optic card featuring Roberto Alomar."
+series: "2026 Donruss"
+parallel: "Gold Glitter"
+print_run: 4
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: true
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/base-optic-31-gold-glitter.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Donruss#Checklist"

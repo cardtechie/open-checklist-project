@@ -1,0 +1,22 @@
+number: "4"
+uuid: "3ed6c8f1-5503-4255-8ded-2562725b5b87"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "Byung-Hyun Kim"
+    role: "Player"
+    team: "Arizona Diamondbacks"
+card_name: "Byung-Hyun Kim - Base - Purple"
+description: "Purple parallel of Base card featuring Byung-Hyun Kim."
+series: "2026 Donruss"
+parallel: "Purple"
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: false
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/4-purple.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Donruss#Checklist"

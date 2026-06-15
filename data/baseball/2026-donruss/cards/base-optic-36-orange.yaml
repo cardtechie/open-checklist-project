@@ -1,0 +1,24 @@
+number: "36"
+uuid: "6bcd00ed-fbb6-468a-8329-ce0c6e4578e4"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "Jim Thome"
+    role: "Player"
+    team: "Cleveland Indians"
+subset: "Base - Optic"
+card_name: "Jim Thome - Base - Optic - Orange"
+description: "Orange parallel of Base - Optic card featuring Jim Thome."
+series: "2026 Donruss"
+parallel: "Orange"
+print_run: 199
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: true
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/base-optic-36-orange.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Donruss#Checklist"

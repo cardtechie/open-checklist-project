@@ -1,0 +1,23 @@
+number: "4"
+uuid: "ea65375d-2011-4ec6-ab1e-33b5adb1e591"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "Ethan Holliday"
+    role: "Player"
+    team: "Colorado Rockies"
+subset: "Diamond Marvels"
+card_name: "Ethan Holliday - Diamond Marvels - Green Laser"
+description: "Green Laser parallel of Diamond Marvels card featuring Ethan Holliday."
+series: "2026 Donruss"
+parallel: "Green Laser"
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: false
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/diamond-marvels-4-green-laser.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Donruss#Checklist"

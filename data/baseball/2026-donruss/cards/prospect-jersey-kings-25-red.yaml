@@ -1,0 +1,24 @@
+number: "25"
+uuid: "8456695d-05e8-43b4-9db9-92df4512fc0f"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "Ethan Holliday"
+    role: "Player"
+    team: "Colorado Rockies"
+subset: "Prospect Jersey Kings"
+card_name: "Ethan Holliday - Prospect Jersey Kings - Red"
+description: "Red parallel of Prospect Jersey Kings memorabilia card featuring Ethan Holliday."
+series: "2026 Donruss"
+parallel: "Red"
+print_run: 99
+rookie_card: false
+autograph: false
+relic: true
+serial_numbered: true
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/prospect-jersey-kings-25-red.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Donruss#Checklist"

@@ -1,0 +1,23 @@
+number: "90"
+uuid: "14c9535c-9200-4224-8dd1-1a48cb2e80ac"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "Josh Gibson"
+    role: "Player"
+    team: "Homestead Grays"
+card_name: "Josh Gibson - Base - Black"
+description: "Black parallel of Base card featuring Josh Gibson."
+series: "2026 Donruss"
+parallel: "Black"
+print_run: 1
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: true
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/90-black.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Donruss#Checklist"

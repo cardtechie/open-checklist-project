@@ -1,0 +1,23 @@
+number: "18"
+uuid: "fc37018b-fca3-4554-8ff9-5f987bf4b486"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "Bryce Eldridge"
+    role: "Player"
+    team: "San Francisco Giants"
+subset: "Signature Series"
+card_name: "Bryce Eldridge - Signature Series - Laser"
+description: "Laser parallel of Autographed Signature Series card featuring Bryce Eldridge."
+series: "2026 Donruss"
+parallel: "Laser"
+rookie_card: false
+autograph: true
+relic: false
+serial_numbered: false
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/signature-series-18-laser.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Donruss#Checklist"

@@ -1,0 +1,24 @@
+number: "45"
+uuid: "c71dd551-456a-4886-84e6-9e3dcb9295e9"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "Blake Larson"
+    role: "Player"
+    team: "Chicago White Sox"
+subset: "Signature Series"
+card_name: "Blake Larson - Signature Series - Red Laser"
+description: "Red Laser parallel of Autographed Signature Series card featuring Blake Larson."
+series: "2026 Donruss"
+parallel: "Red Laser"
+print_run: 30
+rookie_card: false
+autograph: true
+relic: false
+serial_numbered: true
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/signature-series-45-red-laser.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Donruss#Checklist"

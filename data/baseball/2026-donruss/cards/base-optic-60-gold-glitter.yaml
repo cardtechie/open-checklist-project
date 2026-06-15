@@ -1,0 +1,24 @@
+number: "60"
+uuid: "8a413bf1-1fe5-4011-921c-65b0d5ea6539"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "Sammy Sosa"
+    role: "Player"
+    team: "Chicago Cubs"
+subset: "Base - Optic"
+card_name: "Sammy Sosa - Base - Optic - Gold Glitter"
+description: "Gold Glitter parallel of Base - Optic card featuring Sammy Sosa."
+series: "2026 Donruss"
+parallel: "Gold Glitter"
+print_run: 4
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: true
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/base-optic-60-gold-glitter.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Donruss#Checklist"

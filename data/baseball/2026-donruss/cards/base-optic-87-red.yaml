@@ -1,0 +1,24 @@
+number: "87"
+uuid: "dc8f1eca-aeb6-4397-8aff-f31034e1ad76"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "Colson Montgomery"
+    role: "Player"
+    team: "Chicago White Sox"
+subset: "Base - Optic"
+card_name: "Colson Montgomery - Base - Optic - Red"
+description: "Red parallel of Base - Optic card featuring Colson Montgomery."
+series: "2026 Donruss"
+parallel: "Red"
+print_run: 99
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: true
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/base-optic-87-red.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Donruss#Checklist"

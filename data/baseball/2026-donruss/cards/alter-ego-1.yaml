@@ -1,0 +1,19 @@
+number: "1"
+uuid: "1ce36bcc-cfe0-4731-9124-c88a14af0bc9"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "Reggie Jackson"
+    role: "Player"
+    team: "New York Yankees"
+subset: "Alter Ego"
+card_name: "Reggie Jackson - Alter Ego"
+description: "Alter Ego card featuring Reggie Jackson."
+series: "2026 Donruss"
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: false
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/alter-ego-1.jpg"

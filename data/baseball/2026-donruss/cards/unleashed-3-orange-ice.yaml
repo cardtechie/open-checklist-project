@@ -1,0 +1,24 @@
+number: "3"
+uuid: "68a4ed41-514c-49a2-a8b8-a3f114e2f637"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "Bubba Chandler"
+    role: "Player"
+    team: "Pittsburgh Pirates"
+subset: "Unleashed"
+card_name: "Bubba Chandler - Unleashed - Orange Ice"
+description: "Orange Ice parallel of Unleashed card featuring Bubba Chandler."
+series: "2026 Donruss"
+parallel: "Orange Ice"
+print_run: 75
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: true
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/unleashed-3-orange-ice.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Donruss#Checklist"

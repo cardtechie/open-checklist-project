@@ -1,0 +1,23 @@
+number: "34"
+uuid: "1fa8c5ba-a10f-4114-be9f-00a551d3ad86"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "Dave Winfield"
+    role: "Player"
+    team: "San Diego Padres"
+card_name: "Dave Winfield - Base - Carolina Blue Laser"
+description: "Carolina Blue Laser parallel of Base card featuring Dave Winfield."
+series: "2026 Donruss"
+parallel: "Carolina Blue Laser"
+print_run: 249
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: true
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/34-carolina-blue-laser.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Donruss#Checklist"

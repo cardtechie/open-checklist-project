@@ -1,0 +1,24 @@
+number: "1"
+uuid: "0776fb09-70fd-4179-a40c-9fc723732f41"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "Bobby Witt Jr."
+    role: "Player"
+    team: "Kansas City Royals"
+subset: "Unleashed"
+card_name: "Bobby Witt Jr. - Unleashed - Green Ice"
+description: "Green Ice parallel of Unleashed card featuring Bobby Witt Jr.."
+series: "2026 Donruss"
+parallel: "Green Ice"
+print_run: 15
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: true
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/unleashed-1-green-ice.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Donruss#Checklist"

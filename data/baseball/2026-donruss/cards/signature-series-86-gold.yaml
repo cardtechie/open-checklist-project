@@ -1,0 +1,24 @@
+number: "86"
+uuid: "1742ecc5-1807-49cd-9da0-a6730a07326d"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "Reggie Jackson"
+    role: "Player"
+    team: "Oakland A's"
+subset: "Signature Series"
+card_name: "Reggie Jackson - Signature Series - Gold"
+description: "Gold parallel of Autographed Signature Series card featuring Reggie Jackson."
+series: "2026 Donruss"
+parallel: "Gold"
+print_run: 10
+rookie_card: false
+autograph: true
+relic: false
+serial_numbered: true
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/signature-series-86-gold.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Donruss#Checklist"

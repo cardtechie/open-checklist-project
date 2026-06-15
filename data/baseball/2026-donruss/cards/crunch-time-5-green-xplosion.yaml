@@ -1,0 +1,24 @@
+number: "5"
+uuid: "005c7050-ceec-4424-9400-4bbb569028f8"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "James Wood"
+    role: "Player"
+    team: "Washington Nationals"
+subset: "Crunch Time"
+card_name: "James Wood - Crunch Time - Green Xplosion"
+description: "Green Xplosion parallel of Crunch Time card featuring James Wood."
+series: "2026 Donruss"
+parallel: "Green Xplosion"
+print_run: 25
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: true
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/crunch-time-5-green-xplosion.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Donruss#Checklist"

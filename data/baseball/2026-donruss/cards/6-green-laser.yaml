@@ -1,0 +1,22 @@
+number: "6"
+uuid: "83a87f3b-7f2e-4332-b4a8-a004ded081c3"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "Jason Varitek"
+    role: "Player"
+    team: "Boston Red Sox"
+card_name: "Jason Varitek - Base - Green Laser"
+description: "Green Laser parallel of Base card featuring Jason Varitek."
+series: "2026 Donruss"
+parallel: "Green Laser"
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: false
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/6-green-laser.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Donruss#Checklist"

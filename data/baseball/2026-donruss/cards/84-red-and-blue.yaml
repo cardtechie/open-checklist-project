@@ -1,0 +1,22 @@
+number: "84"
+uuid: "42dc1507-e570-4f7c-9e5a-9c237842abda"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "Jonah Tong"
+    role: "Player"
+    team: "New York Mets"
+card_name: "Jonah Tong - Base - Red and Blue"
+description: "Red and Blue parallel of Base card featuring Jonah Tong."
+series: "2026 Donruss"
+parallel: "Red and Blue"
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: false
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/84-red-and-blue.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Donruss#Checklist"

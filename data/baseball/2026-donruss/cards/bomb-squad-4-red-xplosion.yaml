@@ -1,0 +1,24 @@
+number: "4"
+uuid: "8c3c5520-a5f0-4104-8150-ce4a4da461dc"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "Jackson Chourio"
+    role: "Player"
+    team: "Milwaukee Brewers"
+subset: "Bomb Squad"
+card_name: "Jackson Chourio - Bomb Squad - Red Xplosion"
+description: "Red Xplosion parallel of Bomb Squad card featuring Jackson Chourio."
+series: "2026 Donruss"
+parallel: "Red Xplosion"
+print_run: 99
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: true
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/bomb-squad-4-red-xplosion.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Donruss#Checklist"

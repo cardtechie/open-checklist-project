@@ -1,0 +1,27 @@
+number: "1"
+uuid: "eff67ad3-0882-4d19-ada1-18e237dda939"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "Konnor Griffin"
+    role: "Player"
+    team: "Pittsburgh Pirates"
+  - name: "Paul Skenes"
+    role: "Player"
+    team: "Pittsburgh Pirates"
+subset: "Downtown Duos"
+card_name: "Konnor Griffin / Paul Skenes - Downtown Duos - Gold"
+description: "Gold parallel of Downtown Duos card featuring Konnor Griffin / Paul Skenes."
+series: "2026 Donruss"
+parallel: "Gold"
+print_run: 10
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: true
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/downtown-duos-1-gold.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Donruss#Checklist"

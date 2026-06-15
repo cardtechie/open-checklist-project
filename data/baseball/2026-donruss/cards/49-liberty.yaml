@@ -1,0 +1,22 @@
+number: "49"
+uuid: "ba4b3052-01f7-483f-aae6-9b3e76a1e8c1"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "Ken Griffey Sr."
+    role: "Player"
+    team: "Cincinnati Reds"
+card_name: "Ken Griffey Sr. - Base - Liberty"
+description: "Liberty parallel of Base card featuring Ken Griffey Sr.."
+series: "2026 Donruss"
+parallel: "Liberty"
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: false
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/49-liberty.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Donruss#Checklist"

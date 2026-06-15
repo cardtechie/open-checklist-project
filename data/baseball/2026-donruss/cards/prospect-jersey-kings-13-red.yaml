@@ -1,0 +1,24 @@
+number: "13"
+uuid: "c19283fb-9cd0-4e49-b7b8-0dad250cea14"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "Gage Jump"
+    role: "Player"
+    team: "Oakland A's"
+subset: "Prospect Jersey Kings"
+card_name: "Gage Jump - Prospect Jersey Kings - Red"
+description: "Red parallel of Prospect Jersey Kings memorabilia card featuring Gage Jump."
+series: "2026 Donruss"
+parallel: "Red"
+print_run: 99
+rookie_card: false
+autograph: false
+relic: true
+serial_numbered: true
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/prospect-jersey-kings-13-red.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Donruss#Checklist"

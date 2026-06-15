@@ -1,0 +1,22 @@
+number: "51"
+uuid: "8503a87c-8c09-4c45-aee8-f773853ea5eb"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "Madison Bumgarner"
+    role: "Player"
+    team: "San Francisco Giants"
+card_name: "Madison Bumgarner - Base - Red and Blue Laser"
+description: "Red and Blue Laser parallel of Base card featuring Madison Bumgarner."
+series: "2026 Donruss"
+parallel: "Red and Blue Laser"
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: false
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/51-red-and-blue-laser.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Donruss#Checklist"

@@ -1,0 +1,23 @@
+number: "26"
+uuid: "696cc474-88f8-426a-ae97-623e8ab24760"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "Gil Hodges"
+    role: "Player"
+    team: "Brooklyn Dodgers"
+subset: "Base - Optic"
+card_name: "Gil Hodges - Base - Optic - Holo"
+description: "Holo parallel of Base - Optic card featuring Gil Hodges."
+series: "2026 Donruss"
+parallel: "Holo"
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: false
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/base-optic-26-holo.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Donruss#Checklist"

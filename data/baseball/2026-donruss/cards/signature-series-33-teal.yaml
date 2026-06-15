@@ -1,0 +1,24 @@
+number: "33"
+uuid: "edc2f555-8998-4262-bcc3-abe8cf65a1af"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "Rintaro Sasaki"
+    role: "Player"
+    team: "Stanford Cardinal"
+subset: "Signature Series"
+card_name: "Rintaro Sasaki - Signature Series - Teal"
+description: "Teal parallel of Autographed Signature Series card featuring Rintaro Sasaki."
+series: "2026 Donruss"
+parallel: "Teal"
+print_run: 25
+rookie_card: false
+autograph: true
+relic: false
+serial_numbered: true
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/signature-series-33-teal.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Donruss#Checklist"

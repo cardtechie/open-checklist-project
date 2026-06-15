@@ -1,0 +1,23 @@
+number: "11"
+uuid: "1dc93e3d-2c9b-45e2-9cf2-828f670d8d2d"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "Jacob Misiorowski"
+    role: "Player"
+    team: "Milwaukee Brewers"
+subset: "Unleashed"
+card_name: "Jacob Misiorowski - Unleashed - Green Laser"
+description: "Green Laser parallel of Unleashed card featuring Jacob Misiorowski."
+series: "2026 Donruss"
+parallel: "Green Laser"
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: false
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/unleashed-11-green-laser.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Donruss#Checklist"

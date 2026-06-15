@@ -1,0 +1,24 @@
+number: "2"
+uuid: "f7a8f25b-8de7-4dca-8cea-38c8bea95209"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "Ken Griffey Jr."
+    role: "Player"
+    team: "Seattle Mariners"
+subset: "Bomb Squad"
+card_name: "Ken Griffey Jr. - Bomb Squad - Pink Ice"
+description: "Pink Ice parallel of Bomb Squad card featuring Ken Griffey Jr.."
+series: "2026 Donruss"
+parallel: "Pink Ice"
+print_run: 99
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: true
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/bomb-squad-2-pink-ice.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Donruss#Checklist"

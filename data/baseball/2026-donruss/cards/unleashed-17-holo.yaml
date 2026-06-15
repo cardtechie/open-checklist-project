@@ -1,0 +1,24 @@
+number: "17"
+uuid: "f3841a76-5f54-466b-bc64-417ebc4a4658"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "Trey Yesavage"
+    role: "Player"
+    team: "Toronto Blue Jays"
+subset: "Unleashed"
+card_name: "Trey Yesavage - Unleashed - Holo"
+description: "Holo parallel of Unleashed card featuring Trey Yesavage."
+series: "2026 Donruss"
+parallel: "Holo"
+print_run: 199
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: true
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/unleashed-17-holo.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Donruss#Checklist"

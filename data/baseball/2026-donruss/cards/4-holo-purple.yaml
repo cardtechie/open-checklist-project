@@ -1,0 +1,23 @@
+number: "4"
+uuid: "7d8baa60-72a2-43de-b650-c3ea5fc319f3"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "Byung-Hyun Kim"
+    role: "Player"
+    team: "Arizona Diamondbacks"
+card_name: "Byung-Hyun Kim - Base - Holo Purple"
+description: "Holo Purple parallel of Base card featuring Byung-Hyun Kim."
+series: "2026 Donruss"
+parallel: "Holo Purple"
+print_run: 99
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: true
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/4-holo-purple.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Donruss#Checklist"

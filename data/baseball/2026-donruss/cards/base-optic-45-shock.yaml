@@ -1,0 +1,23 @@
+number: "45"
+uuid: "f055785a-c175-481a-835d-df860768bb8c"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "Jose Canseco"
+    role: "Player"
+    team: "Oakland A's"
+subset: "Base - Optic"
+card_name: "Jose Canseco - Base - Optic - Shock"
+description: "Shock parallel of Base - Optic card featuring Jose Canseco."
+series: "2026 Donruss"
+parallel: "Shock"
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: false
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/base-optic-45-shock.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Donruss#Checklist"

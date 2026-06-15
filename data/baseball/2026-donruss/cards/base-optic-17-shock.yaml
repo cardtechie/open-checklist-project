@@ -1,0 +1,23 @@
+number: "17"
+uuid: "e2f2e14c-1744-4122-9a4b-28de33dd07e1"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "Reggie Jackson"
+    role: "Player"
+    team: "New York Yankees"
+subset: "Base - Optic"
+card_name: "Reggie Jackson - Base - Optic - Shock"
+description: "Shock parallel of Base - Optic card featuring Reggie Jackson."
+series: "2026 Donruss"
+parallel: "Shock"
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: false
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/base-optic-17-shock.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Donruss#Checklist"

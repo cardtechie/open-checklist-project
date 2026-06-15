@@ -1,0 +1,24 @@
+number: "52"
+uuid: "4baa112c-dd4c-4d04-9164-48b2aa2cb334"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "Kevin Youkilis"
+    role: "Player"
+    team: "Boston Red Sox"
+subset: "Base - Optic"
+card_name: "Kevin Youkilis - Base - Optic - Gold Glitter"
+description: "Gold Glitter parallel of Base - Optic card featuring Kevin Youkilis."
+series: "2026 Donruss"
+parallel: "Gold Glitter"
+print_run: 4
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: true
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/base-optic-52-gold-glitter.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Donruss#Checklist"

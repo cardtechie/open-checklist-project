@@ -1,0 +1,24 @@
+number: "5"
+uuid: "3355e005-88b6-47da-9eda-3c8adb1093c4"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "Miguel Cabrera"
+    role: "Player"
+    team: "Detroit Tigers"
+subset: "Bomb Squad"
+card_name: "Miguel Cabrera - Bomb Squad - Gold Ice"
+description: "Gold Ice parallel of Bomb Squad card featuring Miguel Cabrera."
+series: "2026 Donruss"
+parallel: "Gold Ice"
+print_run: 10
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: true
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/bomb-squad-5-gold-ice.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Donruss#Checklist"

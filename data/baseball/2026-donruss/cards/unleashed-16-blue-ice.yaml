@@ -1,0 +1,24 @@
+number: "16"
+uuid: "420caa6e-fb1b-4064-81f6-9ba470cef54a"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "Colt Emerson"
+    role: "Player"
+    team: "Seattle Mariners"
+subset: "Unleashed"
+card_name: "Colt Emerson - Unleashed - Blue Ice"
+description: "Blue Ice parallel of Unleashed card featuring Colt Emerson."
+series: "2026 Donruss"
+parallel: "Blue Ice"
+print_run: 35
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: true
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/unleashed-16-blue-ice.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Donruss#Checklist"

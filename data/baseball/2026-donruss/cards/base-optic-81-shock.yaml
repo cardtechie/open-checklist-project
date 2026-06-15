@@ -1,0 +1,23 @@
+number: "81"
+uuid: "20a8c201-b8f5-4566-959b-21d33045a0f0"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "Cam Smith"
+    role: "Player"
+    team: "Houston Astros"
+subset: "Base - Optic"
+card_name: "Cam Smith - Base - Optic - Shock"
+description: "Shock parallel of Base - Optic card featuring Cam Smith."
+series: "2026 Donruss"
+parallel: "Shock"
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: false
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/base-optic-81-shock.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Donruss#Checklist"

@@ -1,0 +1,24 @@
+number: "43"
+uuid: "544a7d7a-7032-4b48-8bee-2de6cf63f5ff"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "Jimmie Foxx"
+    role: "Player"
+    team: "Philadelphia Athletics"
+subset: "Base - Optic"
+card_name: "Jimmie Foxx - Base - Optic - Blue Cracked Ice"
+description: "Blue Cracked Ice parallel of Base - Optic card featuring Jimmie Foxx."
+series: "2026 Donruss"
+parallel: "Blue Cracked Ice"
+print_run: 15
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: true
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/base-optic-43-blue-cracked-ice.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Donruss#Checklist"

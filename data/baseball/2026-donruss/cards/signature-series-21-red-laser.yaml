@@ -1,0 +1,24 @@
+number: "21"
+uuid: "54a16b14-9611-4904-b767-acd9570d6fc8"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "Alex Gordon"
+    role: "Player"
+    team: "Kansas City Royals"
+subset: "Signature Series"
+card_name: "Alex Gordon - Signature Series - Red Laser"
+description: "Red Laser parallel of Autographed Signature Series card featuring Alex Gordon."
+series: "2026 Donruss"
+parallel: "Red Laser"
+print_run: 30
+rookie_card: false
+autograph: true
+relic: false
+serial_numbered: true
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/signature-series-21-red-laser.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Donruss#Checklist"

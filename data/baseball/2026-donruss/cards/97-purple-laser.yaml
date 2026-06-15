@@ -1,0 +1,23 @@
+number: "97"
+uuid: "e1c2f10e-1cde-4f9e-8505-51d7ebf658c6"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "Cameron Schlittler"
+    role: "Player"
+    team: "New York Yankees"
+card_name: "Cameron Schlittler - Base - Purple Laser"
+description: "Purple Laser parallel of Base card featuring Cameron Schlittler."
+series: "2026 Donruss"
+parallel: "Purple Laser"
+print_run: 49
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: true
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/97-purple-laser.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Donruss#Checklist"

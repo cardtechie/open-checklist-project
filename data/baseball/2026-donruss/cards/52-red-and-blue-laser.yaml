@@ -1,0 +1,22 @@
+number: "52"
+uuid: "0e709de8-fc83-4d2e-823f-f3639f23170e"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "Kevin Youkilis"
+    role: "Player"
+    team: "Boston Red Sox"
+card_name: "Kevin Youkilis - Base - Red and Blue Laser"
+description: "Red and Blue Laser parallel of Base card featuring Kevin Youkilis."
+series: "2026 Donruss"
+parallel: "Red and Blue Laser"
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: false
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/52-red-and-blue-laser.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Donruss#Checklist"

@@ -1,0 +1,24 @@
+number: "15"
+uuid: "00866bec-718d-4e46-98a9-e477a632f88e"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "Jackson Chourio"
+    role: "Player"
+    team: "Milwaukee Brewers"
+subset: "Unleashed"
+card_name: "Jackson Chourio - Unleashed - Red Ice"
+description: "Red Ice parallel of Unleashed card featuring Jackson Chourio."
+series: "2026 Donruss"
+parallel: "Red Ice"
+print_run: 149
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: true
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/unleashed-15-red-ice.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Donruss#Checklist"

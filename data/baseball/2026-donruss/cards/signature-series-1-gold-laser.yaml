@@ -1,0 +1,24 @@
+number: "1"
+uuid: "a0761759-2eb7-4c5e-87f9-d0b7de4e785a"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "Noble Meyer"
+    role: "Player"
+    team: "Miami Marlins"
+subset: "Signature Series"
+card_name: "Noble Meyer - Signature Series - Gold Laser"
+description: "Gold Laser parallel of Autographed Signature Series card featuring Noble Meyer."
+series: "2026 Donruss"
+parallel: "Gold Laser"
+print_run: 10
+rookie_card: false
+autograph: true
+relic: false
+serial_numbered: true
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/signature-series-1-gold-laser.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Donruss#Checklist"

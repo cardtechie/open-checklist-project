@@ -1,0 +1,24 @@
+number: "16"
+uuid: "d35bf05d-687b-4157-8717-2a113e71727e"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "Deion Sanders"
+    role: "Player"
+    team: "Cincinnati Reds"
+subset: "Elite Series"
+card_name: "Deion Sanders - Elite Series - Orange Ice"
+description: "Orange Ice parallel of Elite Series card featuring Deion Sanders."
+series: "2026 Donruss"
+parallel: "Orange Ice"
+print_run: 75
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: true
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/elite-series-16-orange-ice.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Donruss#Checklist"

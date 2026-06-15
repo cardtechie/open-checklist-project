@@ -1,0 +1,22 @@
+number: "13"
+uuid: "7054c0f6-8252-4c1c-aceb-f41b7ac0eba7"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "Jacob Wilson"
+    role: "Player"
+    team: "Oakland A's"
+card_name: "Jacob Wilson - Base - Red and Blue Laser"
+description: "Red and Blue Laser parallel of Base card featuring Jacob Wilson."
+series: "2026 Donruss"
+parallel: "Red and Blue Laser"
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: false
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/13-red-and-blue-laser.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Donruss#Checklist"

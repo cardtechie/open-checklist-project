@@ -1,0 +1,24 @@
+number: "1"
+uuid: "0572d8fa-13ea-48fe-bdab-7cf528964418"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "Bobby Witt Jr."
+    role: "Player"
+    team: "Kansas City Royals"
+subset: "Unleashed"
+card_name: "Bobby Witt Jr. - Unleashed - Orange Ice"
+description: "Orange Ice parallel of Unleashed card featuring Bobby Witt Jr.."
+series: "2026 Donruss"
+parallel: "Orange Ice"
+print_run: 75
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: true
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/unleashed-1-orange-ice.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Donruss#Checklist"

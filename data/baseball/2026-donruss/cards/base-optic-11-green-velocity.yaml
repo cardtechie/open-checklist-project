@@ -1,0 +1,24 @@
+number: "11"
+uuid: "cd94d580-6466-4ea5-b282-035a9a0b29cd"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "David Ortiz"
+    role: "Player"
+    team: "Boston Red Sox"
+subset: "Base - Optic"
+card_name: "David Ortiz - Base - Optic - Green Velocity"
+description: "Green Velocity parallel of Base - Optic card featuring David Ortiz."
+series: "2026 Donruss"
+parallel: "Green Velocity"
+print_run: 149
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: true
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/base-optic-11-green-velocity.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Donruss#Checklist"

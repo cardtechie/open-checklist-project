@@ -1,0 +1,24 @@
+number: "89"
+uuid: "323bd1e7-675c-435e-a2dc-ebb6725e9e0b"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "Kristian Campbell"
+    role: "Player"
+    team: "Boston Red Sox"
+subset: "Base - Optic"
+card_name: "Kristian Campbell - Base - Optic - Orange Scope"
+description: "Orange Scope parallel of Base - Optic card featuring Kristian Campbell."
+series: "2026 Donruss"
+parallel: "Orange Scope"
+print_run: 79
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: true
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/base-optic-89-orange-scope.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Donruss#Checklist"

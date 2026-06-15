@@ -1,0 +1,23 @@
+number: "86"
+uuid: "ec2405ab-e41d-401e-8bd0-0d880626fdc7"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "Reggie Jackson"
+    role: "Player"
+    team: "Oakland A's"
+subset: "Signature Series"
+card_name: "Reggie Jackson - Signature Series - Green Laser"
+description: "Green Laser parallel of Autographed Signature Series card featuring Reggie Jackson."
+series: "2026 Donruss"
+parallel: "Green Laser"
+rookie_card: false
+autograph: true
+relic: false
+serial_numbered: false
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/signature-series-86-green-laser.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Donruss#Checklist"

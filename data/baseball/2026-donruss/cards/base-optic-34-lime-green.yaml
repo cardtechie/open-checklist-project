@@ -1,0 +1,24 @@
+number: "34"
+uuid: "60972988-94e4-426b-8d8f-584e1566a254"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "Dave Winfield"
+    role: "Player"
+    team: "San Diego Padres"
+subset: "Base - Optic"
+card_name: "Dave Winfield - Base - Optic - Lime Green"
+description: "Lime Green parallel of Base - Optic card featuring Dave Winfield."
+series: "2026 Donruss"
+parallel: "Lime Green"
+print_run: 149
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: true
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/base-optic-34-lime-green.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Donruss#Checklist"

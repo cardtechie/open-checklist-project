@@ -1,0 +1,24 @@
+number: "10"
+uuid: "ad1c7176-265e-4f4d-afc9-a36e552bab99"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "Ryan Zimmerman"
+    role: "Player"
+    team: "Washington Nationals"
+subset: "Signature Series"
+card_name: "Ryan Zimmerman - Signature Series - Orange Laser"
+description: "Orange Laser parallel of Autographed Signature Series card featuring Ryan Zimmerman."
+series: "2026 Donruss"
+parallel: "Orange Laser"
+print_run: 25
+rookie_card: false
+autograph: true
+relic: false
+serial_numbered: true
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/signature-series-10-orange-laser.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Donruss#Checklist"

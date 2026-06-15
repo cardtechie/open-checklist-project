@@ -1,0 +1,23 @@
+number: "15"
+uuid: "405718d3-ef42-417d-bf1b-97112880567a"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "Jackson Chourio"
+    role: "Player"
+    team: "Milwaukee Brewers"
+subset: "Unleashed"
+card_name: "Jackson Chourio - Unleashed - Green Laser"
+description: "Green Laser parallel of Unleashed card featuring Jackson Chourio."
+series: "2026 Donruss"
+parallel: "Green Laser"
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: false
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/unleashed-15-green-laser.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Donruss#Checklist"

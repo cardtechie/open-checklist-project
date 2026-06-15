@@ -1,0 +1,24 @@
+number: "86"
+uuid: "a0c342cd-601e-4d27-ac8c-9237c40c730a"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "Dwight Gooden"
+    role: "Player"
+    team: "New York Mets"
+subset: "Base - Optic"
+card_name: "Dwight Gooden - Base - Optic - Black Velocity"
+description: "Black Velocity parallel of Base - Optic card featuring Dwight Gooden."
+series: "2026 Donruss"
+parallel: "Black Velocity"
+print_run: 39
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: true
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/base-optic-86-black-velocity.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Donruss#Checklist"

@@ -1,0 +1,23 @@
+number: "56"
+uuid: "1aa2ff86-ab75-4d85-914d-0a0f4bb06e8a"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "Tomoyuki Sugano"
+    role: "Player"
+    team: "Baltimore Orioles"
+card_name: "Tomoyuki Sugano - Base - Orange Laser"
+description: "Orange Laser parallel of Base card featuring Tomoyuki Sugano."
+series: "2026 Donruss"
+parallel: "Orange Laser"
+print_run: 299
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: true
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/56-orange-laser.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Donruss#Checklist"

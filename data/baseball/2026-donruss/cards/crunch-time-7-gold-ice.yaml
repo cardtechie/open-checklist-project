@@ -1,0 +1,24 @@
+number: "7"
+uuid: "73a5a8d1-8717-4df5-9907-1b6dc98211e5"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "Cade Horton"
+    role: "Player"
+    team: "Chicago Cubs"
+subset: "Crunch Time"
+card_name: "Cade Horton - Crunch Time - Gold Ice"
+description: "Gold Ice parallel of Crunch Time card featuring Cade Horton."
+series: "2026 Donruss"
+parallel: "Gold Ice"
+print_run: 10
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: true
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/crunch-time-7-gold-ice.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Donruss#Checklist"

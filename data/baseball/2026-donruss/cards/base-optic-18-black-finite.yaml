@@ -1,0 +1,24 @@
+number: "18"
+uuid: "afbedfff-d5bd-4191-97d0-c4721dda107a"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "Kazuma Okamoto"
+    role: "Player"
+    team: "Toronto Blue Jays"
+subset: "Base - Optic"
+card_name: "Kazuma Okamoto - Base - Optic - Black Finite"
+description: "Black Finite parallel of Base - Optic card featuring Kazuma Okamoto."
+series: "2026 Donruss"
+parallel: "Black Finite"
+print_run: 1
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: true
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/base-optic-18-black-finite.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Donruss#Checklist"

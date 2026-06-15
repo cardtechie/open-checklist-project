@@ -1,0 +1,24 @@
+number: "25"
+uuid: "03e58812-1215-4a8d-8b45-82b52de2e724"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "Joe Torre"
+    role: "Player"
+    team: "Atlanta Braves"
+subset: "Retro 1986 Materials"
+card_name: "Joe Torre - Retro 1986 Materials - Red"
+description: "Red parallel of Retro 1986 Materials memorabilia card featuring Joe Torre."
+series: "2026 Donruss"
+parallel: "Red"
+print_run: 99
+rookie_card: false
+autograph: false
+relic: true
+serial_numbered: true
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/retro-1986-materials-25-red.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Donruss#Checklist"

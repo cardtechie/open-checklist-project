@@ -1,0 +1,24 @@
+number: "30"
+uuid: "ed2d373c-40c7-4f3d-a371-7c1c1a94dec7"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "Jacob Wilson"
+    role: "Player"
+    team: "Oakland A's"
+subset: "Jersey Kings"
+card_name: "Jacob Wilson - Jersey Kings - Platinum"
+description: "Platinum parallel of Jersey Kings memorabilia card featuring Jacob Wilson."
+series: "2026 Donruss"
+parallel: "Platinum"
+print_run: 1
+rookie_card: false
+autograph: false
+relic: true
+serial_numbered: true
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/jersey-kings-30-platinum.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Donruss#Checklist"

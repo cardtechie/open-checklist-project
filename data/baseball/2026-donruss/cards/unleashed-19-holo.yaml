@@ -1,0 +1,24 @@
+number: "19"
+uuid: "7663d8e6-9ea4-42b9-b737-a65b0d9108b6"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "Matt Shaw"
+    role: "Player"
+    team: "Chicago Cubs"
+subset: "Unleashed"
+card_name: "Matt Shaw - Unleashed - Holo"
+description: "Holo parallel of Unleashed card featuring Matt Shaw."
+series: "2026 Donruss"
+parallel: "Holo"
+print_run: 199
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: true
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/unleashed-19-holo.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Donruss#Checklist"

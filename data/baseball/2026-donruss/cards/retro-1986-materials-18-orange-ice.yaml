@@ -1,0 +1,23 @@
+number: "18"
+uuid: "0bdaf847-8467-4a4a-b472-3a8369afb7b1"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "Lee Smith"
+    role: "Player"
+    team: "St. Louis Cardinals"
+subset: "Retro 1986 Materials"
+card_name: "Lee Smith - Retro 1986 Materials - Orange Ice"
+description: "Orange Ice parallel of Retro 1986 Materials memorabilia card featuring Lee Smith."
+series: "2026 Donruss"
+parallel: "Orange Ice"
+rookie_card: false
+autograph: false
+relic: true
+serial_numbered: false
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/retro-1986-materials-18-orange-ice.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Donruss#Checklist"

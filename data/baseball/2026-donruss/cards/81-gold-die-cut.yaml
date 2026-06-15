@@ -1,0 +1,23 @@
+number: "81"
+uuid: "fc385dda-c0bd-46c9-bb16-6b694ab4c2c9"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "Cam Smith"
+    role: "Player"
+    team: "Houston Astros"
+card_name: "Cam Smith - Base - Gold Die Cut"
+description: "Gold Die Cut parallel of Base card featuring Cam Smith."
+series: "2026 Donruss"
+parallel: "Gold Die Cut"
+print_run: 25
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: true
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/81-gold-die-cut.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Donruss#Checklist"

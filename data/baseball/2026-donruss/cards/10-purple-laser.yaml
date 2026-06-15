@@ -1,0 +1,23 @@
+number: "10"
+uuid: "7c428b2f-f49d-4da3-a8a6-bbd9c78d3b95"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "Brandon Sproat"
+    role: "Player"
+    team: "Milwaukee Brewers"
+card_name: "Brandon Sproat - Base - Purple Laser"
+description: "Purple Laser parallel of Base card featuring Brandon Sproat."
+series: "2026 Donruss"
+parallel: "Purple Laser"
+print_run: 49
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: true
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/10-purple-laser.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Donruss#Checklist"

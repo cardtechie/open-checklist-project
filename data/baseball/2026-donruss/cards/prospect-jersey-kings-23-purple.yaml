@@ -1,0 +1,24 @@
+number: "23"
+uuid: "c265610c-33a8-411e-b0fd-4e29c5205baf"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "Luis Pena"
+    role: "Player"
+    team: "Milwaukee Brewers"
+subset: "Prospect Jersey Kings"
+card_name: "Luis Pena - Prospect Jersey Kings - Purple"
+description: "Purple parallel of Prospect Jersey Kings memorabilia card featuring Luis Pena."
+series: "2026 Donruss"
+parallel: "Purple"
+print_run: 49
+rookie_card: false
+autograph: false
+relic: true
+serial_numbered: true
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/prospect-jersey-kings-23-purple.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Donruss#Checklist"

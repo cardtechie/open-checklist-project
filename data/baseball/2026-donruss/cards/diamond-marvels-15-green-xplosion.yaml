@@ -1,0 +1,24 @@
+number: "15"
+uuid: "fb3dce0c-897a-436b-8cd4-9ef86ed42807"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "Trey Yesavage"
+    role: "Player"
+    team: "Toronto Blue Jays"
+subset: "Diamond Marvels"
+card_name: "Trey Yesavage - Diamond Marvels - Green Xplosion"
+description: "Green Xplosion parallel of Diamond Marvels card featuring Trey Yesavage."
+series: "2026 Donruss"
+parallel: "Green Xplosion"
+print_run: 25
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: true
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/diamond-marvels-15-green-xplosion.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Donruss#Checklist"

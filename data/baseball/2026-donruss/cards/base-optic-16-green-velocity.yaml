@@ -1,0 +1,24 @@
+number: "16"
+uuid: "1d82116b-7d7e-4e42-966d-14a46659efa5"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "Ozzie Smith"
+    role: "Player"
+    team: "St. Louis Cardinals"
+subset: "Base - Optic"
+card_name: "Ozzie Smith - Base - Optic - Green Velocity"
+description: "Green Velocity parallel of Base - Optic card featuring Ozzie Smith."
+series: "2026 Donruss"
+parallel: "Green Velocity"
+print_run: 149
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: true
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/base-optic-16-green-velocity.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Donruss#Checklist"

@@ -1,0 +1,24 @@
+number: "37"
+uuid: "ba233708-ee4e-4074-a7b1-6dd17314e21d"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "Aidan Miller"
+    role: "Player"
+    team: "Philadelphia Phillies"
+subset: "Prospect Jersey Kings"
+card_name: "Aidan Miller - Prospect Jersey Kings - Red"
+description: "Red parallel of Prospect Jersey Kings memorabilia card featuring Aidan Miller."
+series: "2026 Donruss"
+parallel: "Red"
+print_run: 99
+rookie_card: false
+autograph: false
+relic: true
+serial_numbered: true
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/prospect-jersey-kings-37-red.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Donruss#Checklist"

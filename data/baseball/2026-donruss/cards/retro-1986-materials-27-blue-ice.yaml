@@ -1,0 +1,23 @@
+number: "27"
+uuid: "651a9c84-d84b-4a9d-b122-e75ae8b215d6"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "Andruw Jones"
+    role: "Player"
+    team: "Atlanta Braves"
+subset: "Retro 1986 Materials"
+card_name: "Andruw Jones - Retro 1986 Materials - Blue Ice"
+description: "Blue Ice parallel of Retro 1986 Materials memorabilia card featuring Andruw Jones."
+series: "2026 Donruss"
+parallel: "Blue Ice"
+rookie_card: false
+autograph: false
+relic: true
+serial_numbered: false
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/retro-1986-materials-27-blue-ice.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Donruss#Checklist"

@@ -1,0 +1,24 @@
+number: "5"
+uuid: "361ab0dd-ac50-45f2-beb5-b9846bd1c484"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "Josh Hamilton"
+    role: "Player"
+    team: "Texas Rangers"
+subset: "Elite Series"
+card_name: "Josh Hamilton - Elite Series - Green Xplosion"
+description: "Green Xplosion parallel of Elite Series card featuring Josh Hamilton."
+series: "2026 Donruss"
+parallel: "Green Xplosion"
+print_run: 25
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: true
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/elite-series-5-green-xplosion.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Donruss#Checklist"

@@ -1,0 +1,24 @@
+number: "17"
+uuid: "b5d2f684-4b5d-47e2-85c2-0ecdd6af425f"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-donruss"
+subjects:
+  - name: "Prince Fielder"
+    role: "Player"
+    team: "Milwaukee Brewers"
+subset: "Bomb Squad"
+card_name: "Prince Fielder - Bomb Squad - Gold Ice"
+description: "Gold Ice parallel of Bomb Squad card featuring Prince Fielder."
+series: "2026 Donruss"
+parallel: "Gold Ice"
+print_run: 10
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: true
+release_date: "2026-05-27"
+image_url: "https://example.com/cards/2026-donruss/bomb-squad-17-gold-ice.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Donruss#Checklist"
