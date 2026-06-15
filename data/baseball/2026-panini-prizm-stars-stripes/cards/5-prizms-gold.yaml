@@ -1,0 +1,23 @@
+number: "5"
+uuid: "d864f622-e5b2-4e19-b293-231587e7e708"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-panini-prizm-stars-stripes"
+subjects:
+  - name: "Nathan Malone"
+    role: "Player"
+    team: "USA Baseball"
+card_name: "Nathan Malone - Base - Prizms Gold"
+description: "Prizms Gold parallel of Base card featuring Nathan Malone."
+series: "2026 Panini Stars & Stripes Prizm"
+parallel: "Prizms Gold"
+print_run: 10
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: true
+release_date: "2026-04-03"
+image_url: "https://example.com/cards/2026-panini-prizm-stars-stripes/5-prizms-gold.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Panini_Stars_%26_Stripes_Prizm#Checklist"

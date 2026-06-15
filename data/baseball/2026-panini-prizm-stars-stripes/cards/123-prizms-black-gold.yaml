@@ -1,0 +1,23 @@
+number: "123"
+uuid: "afa9cfc1-d577-4657-b205-503b0305fe7e"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-panini-prizm-stars-stripes"
+subjects:
+  - name: "Tyler Smith"
+    role: "Player"
+    team: "USA Baseball"
+card_name: "Tyler Smith - Base - Prizms Black Gold"
+description: "Prizms Black Gold parallel of Base card featuring Tyler Smith."
+series: "2026 Panini Stars & Stripes Prizm"
+parallel: "Prizms Black Gold"
+print_run: 5
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: true
+release_date: "2026-04-03"
+image_url: "https://example.com/cards/2026-panini-prizm-stars-stripes/123-prizms-black-gold.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Panini_Stars_%26_Stripes_Prizm#Checklist"
