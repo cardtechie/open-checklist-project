@@ -14,3 +14,30 @@ Thank you for helping improve the open trading card data ecosystem!
 - Follow the existing folder structure
 - Validate your YAML before submitting
 - Use pull requests — all changes are reviewed
+
+## Pull request scope
+
+To keep PRs reviewable and CI fast, scope each PR to a single concern:
+
+- **One set per PR.** Add or update exactly one set (`data/<genre>/<set-id>/`) per
+  pull request. Do not bundle multiple sets together — a single PR spanning many
+  sets and tens of thousands of files cannot be meaningfully reviewed.
+- **Keep tooling separate from data.** Changes to `/tools` or `/schemas` go in
+  their own PR, not mixed with data additions. Open an issue first for new tooling.
+- **Rebase, don't merge.** Keep your branch's history linear; avoid merge commits
+  from `main`.
+
+## Bulk and generated imports
+
+Large, machine-generated checklists are welcome, with a few expectations:
+
+- Submit them **one set at a time** (see above).
+- Record provenance in the data itself: a `metadata.source_name` / `source_url`
+  on the set, and per-card `external_links` pointing to the source. Raw source
+  files (e.g. spreadsheets) should **not** be committed — keep them out via
+  `.gitignore`.
+- Generated parallels and variations are accepted on a best-effort basis. As an
+  open-data project, accuracy is refined over time through follow-up corrections,
+  so initial imports do not need every record independently verified.
+- Use real `image_url`s where available; omit the field rather than committing
+  placeholder URLs.
