@@ -1,0 +1,23 @@
+number: "SWS-10"
+uuid: "682a8b81-a38f-4bbd-a05f-3406374d3fae"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-topps-series-2"
+subjects:
+  - name: "Bryce Harper"
+    role: "Player"
+    team: "Philadelphia Phillies"
+subset: "Swinging With The Stars"
+card_name: "Bryce Harper - Swinging With The Stars - Chrome"
+description: "Chrome parallel of Swinging With The Stars card featuring Bryce Harper."
+series: "2026 Topps Baseball"
+parallel: "Chrome"
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: false
+release_date: "2026-06-11"
+image_url: "https://example.com/cards/2026-topps-series-2/swinging-with-the-stars-SWS-10-chrome.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Topps#Insertion_Ratios"

@@ -1,0 +1,23 @@
+number: "400"
+uuid: "7837ab17-95af-459b-af6c-e0e847b0038d"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-topps-series-2"
+subjects:
+  - name: "Pete Alonso"
+    role: "Player"
+    team: "Baltimore Orioles"
+card_name: "Pete Alonso - Base - All-Star Game Green"
+description: "All-Star Game Green parallel of Base card featuring Pete Alonso."
+series: "2026 Topps Baseball"
+parallel: "All-Star Game Green"
+print_run: 99
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: true
+release_date: "2026-06-11"
+image_url: "https://example.com/cards/2026-topps-series-2/400-all-star-game-green.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Topps#Insertion_Ratios"

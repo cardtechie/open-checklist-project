@@ -1,0 +1,24 @@
+number: "AK-18"
+uuid: "9047e660-b9a0-4852-80e4-3f598fcda817"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-topps-series-2"
+subjects:
+  - name: "Jackie Robinson"
+    role: "Player"
+    team: "Brooklyn Dodgers"
+subset: "All Kings"
+card_name: "Jackie Robinson - All Kings - Gold"
+description: "Gold parallel of All Kings card featuring Jackie Robinson."
+series: "2026 Topps Baseball"
+parallel: "Gold"
+print_run: 1
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: true
+release_date: "2026-06-11"
+image_url: "https://example.com/cards/2026-topps-series-2/all-kings-AK-18-gold.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Topps#Insertion_Ratios"

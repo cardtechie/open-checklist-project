@@ -1,0 +1,24 @@
+number: "MLM2-YA"
+uuid: "e069e9d2-72e9-4df1-bf54-b96c33327105"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-topps-series-2"
+subjects:
+  - name: "Yordan Alvarez"
+    role: "Player"
+    team: "Houston Astros"
+subset: "Major League Material"
+card_name: "Yordan Alvarez - Major League Material - Blue"
+description: "Blue parallel of Major League Material memorabilia card featuring Yordan Alvarez."
+series: "2026 Topps Baseball"
+parallel: "Blue"
+print_run: 150
+rookie_card: false
+autograph: false
+relic: true
+serial_numbered: true
+release_date: "2026-06-11"
+image_url: "https://example.com/cards/2026-topps-series-2/major-league-material-MLM2-YA-blue.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Topps#Insertion_Ratios"

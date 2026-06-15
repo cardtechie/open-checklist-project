@@ -1,0 +1,24 @@
+number: "CN-12"
+uuid: "49c3a16f-1a00-47d9-a3cf-fc9fa73a1970"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-topps-series-2"
+subjects:
+  - name: "Ronald Acuña Jr."
+    role: "Player"
+    team: "Atlanta Braves"
+subset: "Crooked Numbers"
+card_name: "Ronald Acuña Jr. - Crooked Numbers - Red Foil"
+description: "Red Foil parallel of Crooked Numbers card featuring Ronald Acuña Jr.."
+series: "2026 Topps Baseball"
+parallel: "Red Foil"
+print_run: 5
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: true
+release_date: "2026-06-11"
+image_url: "https://example.com/cards/2026-topps-series-2/crooked-numbers-CN-12-red-foil.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Topps#Insertion_Ratios"

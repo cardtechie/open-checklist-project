@@ -1,0 +1,24 @@
+number: "CN-18"
+uuid: "be5cef78-f4a8-411d-97c3-ee6a0f637960"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-topps-series-2"
+subjects:
+  - name: "Mickey Mantle"
+    role: "Player"
+    team: "New York Yankees"
+subset: "Crooked Numbers"
+card_name: "Mickey Mantle - Crooked Numbers - Black Foil"
+description: "Black Foil parallel of Crooked Numbers card featuring Mickey Mantle."
+series: "2026 Topps Baseball"
+parallel: "Black Foil"
+print_run: 10
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: true
+release_date: "2026-06-11"
+image_url: "https://example.com/cards/2026-topps-series-2/crooked-numbers-CN-18-black-foil.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Topps#Insertion_Ratios"

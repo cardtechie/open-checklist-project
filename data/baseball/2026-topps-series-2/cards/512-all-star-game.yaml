@@ -1,0 +1,22 @@
+number: "512"
+uuid: "858f777b-474b-44bb-a909-d03a3d1b6c02"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-topps-series-2"
+subjects:
+  - name: "Simeon Woods Richardson"
+    role: "Player"
+    team: "Minnesota Twins"
+card_name: "Simeon Woods Richardson - Base - All-Star Game"
+description: "All-Star Game parallel of Base card featuring Simeon Woods Richardson."
+series: "2026 Topps Baseball"
+parallel: "All-Star Game"
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: false
+release_date: "2026-06-11"
+image_url: "https://example.com/cards/2026-topps-series-2/512-all-star-game.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Topps#Insertion_Ratios"

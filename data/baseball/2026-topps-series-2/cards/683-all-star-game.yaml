@@ -1,0 +1,22 @@
+number: "683"
+uuid: "418efb33-6ea9-4584-9d6b-cc9272f10cbe"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-topps-series-2"
+subjects:
+  - name: "Dugan Darnell"
+    role: "Player"
+    team: "Detroit Tigers"
+card_name: "Dugan Darnell - Base - All-Star Game"
+description: "All-Star Game parallel of Base card featuring Dugan Darnell."
+series: "2026 Topps Baseball"
+parallel: "All-Star Game"
+rookie_card: true
+autograph: false
+relic: false
+serial_numbered: false
+release_date: "2026-06-11"
+image_url: "https://example.com/cards/2026-topps-series-2/683-all-star-game.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Topps#Insertion_Ratios"

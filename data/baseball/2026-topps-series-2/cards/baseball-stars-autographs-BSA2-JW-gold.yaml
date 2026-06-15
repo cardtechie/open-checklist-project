@@ -1,0 +1,24 @@
+number: "BSA2-JW"
+uuid: "64bf1cfd-7f44-47d2-9a7d-292524c58114"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-topps-series-2"
+subjects:
+  - name: "Jack Winkler"
+    role: "Player"
+    team: "Houston Astros"
+subset: "Baseball Stars Autographs"
+card_name: "Jack Winkler - Baseball Stars Autographs - Gold"
+description: "Gold parallel of Autographed Baseball Stars Autographs card featuring Jack Winkler."
+series: "2026 Topps Baseball"
+parallel: "Gold"
+print_run: 50
+rookie_card: false
+autograph: true
+relic: false
+serial_numbered: true
+release_date: "2026-06-11"
+image_url: "https://example.com/cards/2026-topps-series-2/baseball-stars-autographs-BSA2-JW-gold.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Topps#Insertion_Ratios"

@@ -1,0 +1,24 @@
+number: "BSA2-HF"
+uuid: "2fbb75b7-40ac-4e34-85d1-2f518ea51b42"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-topps-series-2"
+subjects:
+  - name: "Harry Ford"
+    role: "Player"
+    team: "Washington Nationals"
+subset: "Baseball Stars Autographs"
+card_name: "Harry Ford - Baseball Stars Autographs - Red"
+description: "Red parallel of Autographed Baseball Stars Autographs card featuring Harry Ford."
+series: "2026 Topps Baseball"
+parallel: "Red"
+print_run: 5
+rookie_card: false
+autograph: true
+relic: false
+serial_numbered: true
+release_date: "2026-06-11"
+image_url: "https://example.com/cards/2026-topps-series-2/baseball-stars-autographs-BSA2-HF-red.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Topps#Insertion_Ratios"

@@ -1,0 +1,23 @@
+number: "520"
+uuid: "520a4254-1855-43d6-83cb-b593405e217d"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-topps-series-2"
+subjects:
+  - name: "Andrew Alvarez"
+    role: "Player"
+    team: "Washington Nationals"
+card_name: "Andrew Alvarez - Base - Wood"
+description: "Wood parallel of Base card featuring Andrew Alvarez."
+series: "2026 Topps Baseball"
+parallel: "Wood"
+print_run: 25
+rookie_card: true
+autograph: false
+relic: false
+serial_numbered: true
+release_date: "2026-06-11"
+image_url: "https://example.com/cards/2026-topps-series-2/520-wood.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Topps#Insertion_Ratios"

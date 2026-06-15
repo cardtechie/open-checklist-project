@@ -1,0 +1,23 @@
+number: "570"
+uuid: "d4d7b17c-bc24-4839-9bb5-1e5f0cb8a7cf"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-topps-series-2"
+subjects:
+  - name: "Rolddy Muñoz"
+    role: "Player"
+    team: "Atlanta Braves"
+card_name: "Rolddy Muñoz - Base - Black"
+description: "Black parallel of Base card featuring Rolddy Muñoz."
+series: "2026 Topps Baseball"
+parallel: "Black"
+print_run: 75
+rookie_card: true
+autograph: false
+relic: false
+serial_numbered: true
+release_date: "2026-06-11"
+image_url: "https://example.com/cards/2026-topps-series-2/570-black.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Topps#Insertion_Ratios"

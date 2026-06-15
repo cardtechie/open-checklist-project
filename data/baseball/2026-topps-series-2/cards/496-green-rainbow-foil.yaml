@@ -1,0 +1,23 @@
+number: "496"
+uuid: "14b89bc8-6a8b-476f-8e11-166eefd0c3bc"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-topps-series-2"
+subjects:
+  - name: "San Francisco Giants"
+    role: "Team"
+    team: "San Francisco Giants"
+card_name: "San Francisco Giants - Base - Green Rainbow Foil"
+description: "Green Rainbow Foil parallel of Base card featuring San Francisco Giants."
+series: "2026 Topps Baseball"
+parallel: "Green Rainbow Foil"
+print_run: 99
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: true
+release_date: "2026-06-11"
+image_url: "https://example.com/cards/2026-topps-series-2/496-green-rainbow-foil.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Topps#Insertion_Ratios"

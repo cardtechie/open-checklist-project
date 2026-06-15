@@ -1,0 +1,23 @@
+number: "666"
+uuid: "fe23f619-3f00-4c17-bd63-2a94aeca397c"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-topps-series-2"
+subjects:
+  - name: "Nolan Hoffman"
+    role: "Player"
+    team: "Philadelphia Phillies"
+card_name: "Nolan Hoffman - Base - Independence Day"
+description: "Independence Day parallel of Base card featuring Nolan Hoffman."
+series: "2026 Topps Baseball"
+parallel: "Independence Day"
+print_run: 76
+rookie_card: true
+autograph: false
+relic: false
+serial_numbered: true
+release_date: "2026-06-11"
+image_url: "https://example.com/cards/2026-topps-series-2/666-independence-day.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Topps#Insertion_Ratios"

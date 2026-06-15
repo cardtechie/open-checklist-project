@@ -1,0 +1,23 @@
+number: "375"
+uuid: "526c8bb3-c7fc-411c-91d3-727a101b0fe4"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-topps-series-2"
+subjects:
+  - name: "Denzel Clarke"
+    role: "Player"
+    team: "Athletics"
+card_name: "Denzel Clarke - Base - Independence Day"
+description: "Independence Day parallel of Base card featuring Denzel Clarke."
+series: "2026 Topps Baseball"
+parallel: "Independence Day"
+print_run: 76
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: true
+release_date: "2026-06-11"
+image_url: "https://example.com/cards/2026-topps-series-2/375-independence-day.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Topps#Insertion_Ratios"

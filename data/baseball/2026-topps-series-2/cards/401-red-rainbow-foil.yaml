@@ -1,0 +1,23 @@
+number: "401"
+uuid: "dcda8f02-3c01-4e79-ad9a-8bcb08d1228b"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-topps-series-2"
+subjects:
+  - name: "Eduarniel Núñez"
+    role: "Player"
+    team: "Athletics"
+card_name: "Eduarniel Núñez - Base - Red Rainbow Foil"
+description: "Red Rainbow Foil parallel of Base card featuring Eduarniel Núñez."
+series: "2026 Topps Baseball"
+parallel: "Red Rainbow Foil"
+print_run: 5
+rookie_card: true
+autograph: false
+relic: false
+serial_numbered: true
+release_date: "2026-06-11"
+image_url: "https://example.com/cards/2026-topps-series-2/401-red-rainbow-foil.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Topps#Insertion_Ratios"

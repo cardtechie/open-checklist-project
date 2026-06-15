@@ -1,0 +1,24 @@
+number: "MLM2-CA"
+uuid: "d814598b-c624-48a5-9556-3b2683741baf"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-topps-series-2"
+subjects:
+  - name: "CJ Abrams"
+    role: "Player"
+    team: "Washington Nationals"
+subset: "Major League Material"
+card_name: "CJ Abrams - Major League Material - Platinum"
+description: "Platinum parallel of Major League Material memorabilia card featuring CJ Abrams."
+series: "2026 Topps Baseball"
+parallel: "Platinum"
+print_run: 1
+rookie_card: false
+autograph: false
+relic: true
+serial_numbered: true
+release_date: "2026-06-11"
+image_url: "https://example.com/cards/2026-topps-series-2/major-league-material-MLM2-CA-platinum.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Topps#Insertion_Ratios"

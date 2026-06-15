@@ -1,0 +1,23 @@
+number: "572"
+uuid: "efb223c7-a753-4e06-8ada-4ac8e4cb8890"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-topps-series-2"
+subjects:
+  - name: "Alan Rangel"
+    role: "Player"
+    team: "Philadelphia Phillies"
+card_name: "Alan Rangel - Base - Cherry Blossom"
+description: "Cherry Blossom parallel of Base card featuring Alan Rangel."
+series: "2026 Topps Baseball"
+parallel: "Cherry Blossom"
+print_run: 99
+rookie_card: true
+autograph: false
+relic: false
+serial_numbered: true
+release_date: "2026-06-11"
+image_url: "https://example.com/cards/2026-topps-series-2/572-cherry-blossom.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Topps#Insertion_Ratios"

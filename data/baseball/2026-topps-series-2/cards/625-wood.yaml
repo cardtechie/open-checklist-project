@@ -1,0 +1,23 @@
+number: "625"
+uuid: "1c7f32a2-533e-4e7f-9e0d-30fbac3e92be"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-topps-series-2"
+subjects:
+  - name: "Yoán Moncada"
+    role: "Player"
+    team: "Los Angeles Angels"
+card_name: "Yoán Moncada - Base - Wood"
+description: "Wood parallel of Base card featuring Yoán Moncada."
+series: "2026 Topps Baseball"
+parallel: "Wood"
+print_run: 25
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: true
+release_date: "2026-06-11"
+image_url: "https://example.com/cards/2026-topps-series-2/625-wood.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Topps#Insertion_Ratios"

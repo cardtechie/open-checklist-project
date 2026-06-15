@@ -1,0 +1,23 @@
+number: "585"
+uuid: "98192b67-e1ee-4ab8-8756-09ab913b4773"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-topps-series-2"
+subjects:
+  - name: "Ian Happ"
+    role: "Player"
+    team: "Chicago Cubs"
+card_name: "Ian Happ - Base - 75 Years Of Topps"
+description: "75 Years Of Topps parallel of Base card featuring Ian Happ."
+series: "2026 Topps Baseball"
+parallel: "75 Years Of Topps"
+print_run: 75
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: true
+release_date: "2026-06-11"
+image_url: "https://example.com/cards/2026-topps-series-2/585-75-years-of-topps.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Topps#Insertion_Ratios"

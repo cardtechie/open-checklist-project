@@ -1,0 +1,23 @@
+number: "521"
+uuid: "f687e9ad-125e-4050-acb3-c5945fca482c"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-topps-series-2"
+subjects:
+  - name: "Henry Davis"
+    role: "Player"
+    team: "Pittsburgh Pirates"
+card_name: "Henry Davis - Base - All-Star Game Green"
+description: "All-Star Game Green parallel of Base card featuring Henry Davis."
+series: "2026 Topps Baseball"
+parallel: "All-Star Game Green"
+print_run: 99
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: true
+release_date: "2026-06-11"
+image_url: "https://example.com/cards/2026-topps-series-2/521-all-star-game-green.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Topps#Insertion_Ratios"

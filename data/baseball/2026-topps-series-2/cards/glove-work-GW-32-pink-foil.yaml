@@ -1,0 +1,23 @@
+number: "GW-32"
+uuid: "3a5897b9-95ed-4ee8-bca4-0f553124c5bb"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-topps-series-2"
+subjects:
+  - name: "Aaron Judge"
+    role: "Player"
+    team: "New York Yankees"
+subset: "Glove Work"
+card_name: "Aaron Judge - Glove Work - Pink Foil"
+description: "Pink Foil parallel of Glove Work card featuring Aaron Judge."
+series: "2026 Topps Baseball"
+parallel: "Pink Foil"
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: false
+release_date: "2026-06-11"
+image_url: "https://example.com/cards/2026-topps-series-2/glove-work-GW-32-pink-foil.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Topps#Insertion_Ratios"

@@ -1,0 +1,24 @@
+number: "MLM2-JM"
+uuid: "e8ea7671-5a99-41ed-bc32-b26389c3ab99"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-topps-series-2"
+subjects:
+  - name: "Jakob Marsee"
+    role: "Player"
+    team: "Miami Marlins"
+subset: "Major League Material"
+card_name: "Jakob Marsee - Major League Material - Blue"
+description: "Blue parallel of Major League Material memorabilia card featuring Jakob Marsee."
+series: "2026 Topps Baseball"
+parallel: "Blue"
+print_run: 150
+rookie_card: false
+autograph: false
+relic: true
+serial_numbered: true
+release_date: "2026-06-11"
+image_url: "https://example.com/cards/2026-topps-series-2/major-league-material-MLM2-JM-blue.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Topps#Insertion_Ratios"

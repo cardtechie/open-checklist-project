@@ -1,0 +1,23 @@
+number: "666"
+uuid: "e7c62b40-a52b-4441-8654-f38aabd44c62"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-topps-series-2"
+subjects:
+  - name: "Nolan Hoffman"
+    role: "Player"
+    team: "Philadelphia Phillies"
+card_name: "Nolan Hoffman - Base - Yellow Rainbow Foil"
+description: "Yellow Rainbow Foil parallel of Base card featuring Nolan Hoffman."
+series: "2026 Topps Baseball"
+parallel: "Yellow Rainbow Foil"
+print_run: 399
+rookie_card: true
+autograph: false
+relic: false
+serial_numbered: true
+release_date: "2026-06-11"
+image_url: "https://example.com/cards/2026-topps-series-2/666-yellow-rainbow-foil.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Topps#Insertion_Ratios"

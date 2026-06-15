@@ -1,0 +1,24 @@
+number: "BSA2-MB"
+uuid: "4d94bca7-e281-477a-ab42-0f5cede3a7f8"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-topps-series-2"
+subjects:
+  - name: "Michael Busch"
+    role: "Player"
+    team: "Chicago Cubs"
+subset: "Baseball Stars Autographs"
+card_name: "Michael Busch - Baseball Stars Autographs - Orange"
+description: "Orange parallel of Autographed Baseball Stars Autographs card featuring Michael Busch."
+series: "2026 Topps Baseball"
+parallel: "Orange"
+print_run: 25
+rookie_card: false
+autograph: true
+relic: false
+serial_numbered: true
+release_date: "2026-06-11"
+image_url: "https://example.com/cards/2026-topps-series-2/baseball-stars-autographs-BSA2-MB-orange.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Topps#Insertion_Ratios"

@@ -1,0 +1,23 @@
+number: "569"
+uuid: "2e716486-dfa7-4923-b3cc-75a6df2967ee"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-topps-series-2"
+subjects:
+  - name: "Max Scherzer"
+    role: "Player"
+    team: "Toronto Blue Jays"
+card_name: "Max Scherzer - Base - Canvas"
+description: "Canvas parallel of Base card featuring Max Scherzer."
+series: "2026 Topps Baseball"
+parallel: "Canvas"
+print_run: 50
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: true
+release_date: "2026-06-11"
+image_url: "https://example.com/cards/2026-topps-series-2/569-canvas.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Topps#Insertion_Ratios"

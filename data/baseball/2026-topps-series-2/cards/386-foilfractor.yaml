@@ -1,0 +1,23 @@
+number: "386"
+uuid: "49f78291-83e6-46f1-ba3d-59198aa3b644"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-topps-series-2"
+subjects:
+  - name: "Luis Curvelo"
+    role: "Player"
+    team: "Texas Rangers"
+card_name: "Luis Curvelo - Base - FoilFractor"
+description: "FoilFractor parallel of Base card featuring Luis Curvelo."
+series: "2026 Topps Baseball"
+parallel: "FoilFractor"
+print_run: 1
+rookie_card: true
+autograph: false
+relic: false
+serial_numbered: true
+release_date: "2026-06-11"
+image_url: "https://example.com/cards/2026-topps-series-2/386-foilfractor.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Topps#Insertion_Ratios"

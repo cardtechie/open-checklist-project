@@ -1,0 +1,24 @@
+number: "GW-23"
+uuid: "ae4bdd4b-e13e-4e65-9d71-b7d19908904f"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-topps-series-2"
+subjects:
+  - name: "Dansby Swanson"
+    role: "Player"
+    team: "Chicago Cubs"
+subset: "Glove Work"
+card_name: "Dansby Swanson - Glove Work - Red Foil"
+description: "Red Foil parallel of Glove Work card featuring Dansby Swanson."
+series: "2026 Topps Baseball"
+parallel: "Red Foil"
+print_run: 5
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: true
+release_date: "2026-06-11"
+image_url: "https://example.com/cards/2026-topps-series-2/glove-work-GW-23-red-foil.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Topps#Insertion_Ratios"

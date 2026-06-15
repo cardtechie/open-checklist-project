@@ -1,0 +1,23 @@
+number: "501"
+uuid: "d4227e94-d519-40db-8dd5-498e3c60521d"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-topps-series-2"
+subjects:
+  - name: "Connelly Early"
+    role: "Player"
+    team: "Boston Red Sox"
+card_name: "Connelly Early - Base - Gold"
+description: "Gold parallel of Base card featuring Connelly Early."
+series: "2026 Topps Baseball"
+parallel: "Gold"
+print_run: 2026
+rookie_card: true
+autograph: false
+relic: false
+serial_numbered: true
+release_date: "2026-06-11"
+image_url: "https://example.com/cards/2026-topps-series-2/501-gold.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Topps#Insertion_Ratios"

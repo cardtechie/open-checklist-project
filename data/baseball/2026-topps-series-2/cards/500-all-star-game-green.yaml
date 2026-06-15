@@ -1,0 +1,23 @@
+number: "500"
+uuid: "48e1a0aa-e6c8-4d32-a468-4e7b1ec043c0"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-topps-series-2"
+subjects:
+  - name: "Shohei Ohtani"
+    role: "Player"
+    team: "Los Angeles Dodgers"
+card_name: "Shohei Ohtani - Base - All-Star Game Green"
+description: "All-Star Game Green parallel of Base card featuring Shohei Ohtani."
+series: "2026 Topps Baseball"
+parallel: "All-Star Game Green"
+print_run: 99
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: true
+release_date: "2026-06-11"
+image_url: "https://example.com/cards/2026-topps-series-2/500-all-star-game-green.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Topps#Insertion_Ratios"

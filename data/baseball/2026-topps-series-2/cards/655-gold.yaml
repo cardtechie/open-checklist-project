@@ -1,0 +1,23 @@
+number: "655"
+uuid: "839c95a1-d4a5-4d29-8d88-763fef3da9e3"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-topps-series-2"
+subjects:
+  - name: "Jack Suwinski"
+    role: "Player"
+    team: "Pittsburgh Pirates"
+card_name: "Jack Suwinski - Base - Gold"
+description: "Gold parallel of Base card featuring Jack Suwinski."
+series: "2026 Topps Baseball"
+parallel: "Gold"
+print_run: 2026
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: true
+release_date: "2026-06-11"
+image_url: "https://example.com/cards/2026-topps-series-2/655-gold.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Topps#Insertion_Ratios"

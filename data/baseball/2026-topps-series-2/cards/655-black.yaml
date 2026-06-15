@@ -1,0 +1,23 @@
+number: "655"
+uuid: "b1bb639f-fc47-46aa-b648-1f732b3cf479"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-topps-series-2"
+subjects:
+  - name: "Jack Suwinski"
+    role: "Player"
+    team: "Pittsburgh Pirates"
+card_name: "Jack Suwinski - Base - Black"
+description: "Black parallel of Base card featuring Jack Suwinski."
+series: "2026 Topps Baseball"
+parallel: "Black"
+print_run: 75
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: true
+release_date: "2026-06-11"
+image_url: "https://example.com/cards/2026-topps-series-2/655-black.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Topps#Insertion_Ratios"

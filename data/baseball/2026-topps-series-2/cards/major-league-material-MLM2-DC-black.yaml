@@ -1,0 +1,24 @@
+number: "MLM2-DC"
+uuid: "b4f04deb-aa9a-4d93-b280-6c86d70d6c91"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-topps-series-2"
+subjects:
+  - name: "Dylan Crews"
+    role: "Player"
+    team: "Washington Nationals"
+subset: "Major League Material"
+card_name: "Dylan Crews - Major League Material - Black"
+description: "Black parallel of Major League Material memorabilia card featuring Dylan Crews."
+series: "2026 Topps Baseball"
+parallel: "Black"
+print_run: 10
+rookie_card: false
+autograph: false
+relic: true
+serial_numbered: true
+release_date: "2026-06-11"
+image_url: "https://example.com/cards/2026-topps-series-2/major-league-material-MLM2-DC-black.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Topps#Insertion_Ratios"

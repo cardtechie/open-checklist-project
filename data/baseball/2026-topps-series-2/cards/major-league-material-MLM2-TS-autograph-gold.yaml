@@ -1,0 +1,24 @@
+number: "MLM2-TS"
+uuid: "04238d19-c0ca-4842-8bf6-b84feba35c37"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-topps-series-2"
+subjects:
+  - name: "Tarik Skubal"
+    role: "Player"
+    team: "Detroit Tigers"
+subset: "Major League Material"
+card_name: "Tarik Skubal - Major League Material - Autograph Gold"
+description: "Autograph Gold parallel of Major League Material memorabilia card featuring Tarik Skubal."
+series: "2026 Topps Baseball"
+parallel: "Autograph Gold"
+print_run: 50
+rookie_card: false
+autograph: false
+relic: true
+serial_numbered: true
+release_date: "2026-06-11"
+image_url: "https://example.com/cards/2026-topps-series-2/major-league-material-MLM2-TS-autograph-gold.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Topps#Insertion_Ratios"

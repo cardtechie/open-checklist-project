@@ -1,0 +1,24 @@
+number: "CN-3"
+uuid: "f37a19c5-1060-4023-8e35-3fdd901ad4d4"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-topps-series-2"
+subjects:
+  - name: "Juan Soto"
+    role: "Player"
+    team: "New York Mets"
+subset: "Crooked Numbers"
+card_name: "Juan Soto - Crooked Numbers - Gold Foil"
+description: "Gold Foil parallel of Crooked Numbers card featuring Juan Soto."
+series: "2026 Topps Baseball"
+parallel: "Gold Foil"
+print_run: 50
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: true
+release_date: "2026-06-11"
+image_url: "https://example.com/cards/2026-topps-series-2/crooked-numbers-CN-3-gold-foil.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Topps#Insertion_Ratios"

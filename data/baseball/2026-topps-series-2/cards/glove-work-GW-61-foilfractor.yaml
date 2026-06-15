@@ -1,0 +1,24 @@
+number: "GW-61"
+uuid: "a48b16bb-3886-4510-835f-67c65dc5e126"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-topps-series-2"
+subjects:
+  - name: "Jackie Robinson"
+    role: "Player"
+    team: "Brooklyn Dodgers"
+subset: "Glove Work"
+card_name: "Jackie Robinson - Glove Work - FoilFractor"
+description: "FoilFractor parallel of Glove Work card featuring Jackie Robinson."
+series: "2026 Topps Baseball"
+parallel: "FoilFractor"
+print_run: 1
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: true
+release_date: "2026-06-11"
+image_url: "https://example.com/cards/2026-topps-series-2/glove-work-GW-61-foilfractor.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Topps#Insertion_Ratios"

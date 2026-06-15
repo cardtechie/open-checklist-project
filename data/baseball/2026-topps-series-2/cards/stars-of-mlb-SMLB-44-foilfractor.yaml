@@ -1,0 +1,24 @@
+number: "SMLB-44"
+uuid: "5b5da31b-a010-4633-9f96-03c0e96f4f90"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-topps-series-2"
+subjects:
+  - name: "Alex Freeland"
+    role: "Player"
+    team: "Los Angeles Dodgers"
+subset: "Stars Of MLB"
+card_name: "Alex Freeland - Stars Of MLB - FoilFractor"
+description: "FoilFractor parallel of Stars Of MLB card featuring Alex Freeland."
+series: "2026 Topps Baseball"
+parallel: "FoilFractor"
+print_run: 1
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: true
+release_date: "2026-06-11"
+image_url: "https://example.com/cards/2026-topps-series-2/stars-of-mlb-SMLB-44-foilfractor.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Topps#Insertion_Ratios"

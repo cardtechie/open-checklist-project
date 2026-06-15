@@ -1,0 +1,23 @@
+number: "421"
+uuid: "6bd4f3ee-633f-4dfb-8899-607f0ebbc245"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-topps-series-2"
+subjects:
+  - name: "Taylor Walls"
+    role: "Player"
+    team: "Tampa Bay Rays"
+card_name: "Taylor Walls - Base - Cherry Blossom"
+description: "Cherry Blossom parallel of Base card featuring Taylor Walls."
+series: "2026 Topps Baseball"
+parallel: "Cherry Blossom"
+print_run: 99
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: true
+release_date: "2026-06-11"
+image_url: "https://example.com/cards/2026-topps-series-2/421-cherry-blossom.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Topps#Insertion_Ratios"

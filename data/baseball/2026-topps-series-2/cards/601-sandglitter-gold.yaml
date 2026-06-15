@@ -1,0 +1,23 @@
+number: "601"
+uuid: "b5fedcf1-b1ec-4694-8c17-0f6764feae66"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-topps-series-2"
+subjects:
+  - name: "Zach Cole"
+    role: "Player"
+    team: "Houston Astros"
+card_name: "Zach Cole - Base - Sandglitter Gold"
+description: "Sandglitter Gold parallel of Base card featuring Zach Cole."
+series: "2026 Topps Baseball"
+parallel: "Sandglitter Gold"
+print_run: 50
+rookie_card: true
+autograph: false
+relic: false
+serial_numbered: true
+release_date: "2026-06-11"
+image_url: "https://example.com/cards/2026-topps-series-2/601-sandglitter-gold.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Topps#Insertion_Ratios"

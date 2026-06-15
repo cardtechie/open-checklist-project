@@ -1,0 +1,24 @@
+number: "CN-22"
+uuid: "7c060b7b-45f4-4bca-ac3a-a443d81b72c3"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-topps-series-2"
+subjects:
+  - name: "Babe Ruth"
+    role: "Player"
+    team: "New York Yankees"
+subset: "Crooked Numbers"
+card_name: "Babe Ruth - Crooked Numbers - Orange Foil"
+description: "Orange Foil parallel of Crooked Numbers card featuring Babe Ruth."
+series: "2026 Topps Baseball"
+parallel: "Orange Foil"
+print_run: 25
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: true
+release_date: "2026-06-11"
+image_url: "https://example.com/cards/2026-topps-series-2/crooked-numbers-CN-22-orange-foil.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Topps#Insertion_Ratios"

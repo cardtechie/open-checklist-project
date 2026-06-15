@@ -1,0 +1,23 @@
+number: "486"
+uuid: "a195d17d-e09e-4e41-90e3-401ca925a478"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-topps-series-2"
+subjects:
+  - name: "Justin Steele"
+    role: "Player"
+    team: "Chicago Cubs"
+card_name: "Justin Steele - Base - Black"
+description: "Black parallel of Base card featuring Justin Steele."
+series: "2026 Topps Baseball"
+parallel: "Black"
+print_run: 75
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: true
+release_date: "2026-06-11"
+image_url: "https://example.com/cards/2026-topps-series-2/486-black.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Topps#Insertion_Ratios"

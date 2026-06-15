@@ -1,0 +1,23 @@
+number: "424"
+uuid: "7789af04-4456-409c-be02-9d76a88a14c5"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-topps-series-2"
+subjects:
+  - name: "Zack Gelof"
+    role: "Player"
+    team: "Athletics"
+card_name: "Zack Gelof - Base - All-Star Game Gold"
+description: "All-Star Game Gold parallel of Base card featuring Zack Gelof."
+series: "2026 Topps Baseball"
+parallel: "All-Star Game Gold"
+print_run: 50
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: true
+release_date: "2026-06-11"
+image_url: "https://example.com/cards/2026-topps-series-2/424-all-star-game-gold.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Topps#Insertion_Ratios"

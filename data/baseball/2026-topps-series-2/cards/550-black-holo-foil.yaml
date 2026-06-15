@@ -1,0 +1,23 @@
+number: "550"
+uuid: "69ee40e3-9434-488b-99bd-740808525e36"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-topps-series-2"
+subjects:
+  - name: "Dansby Swanson"
+    role: "Player"
+    team: "Chicago Cubs"
+card_name: "Dansby Swanson - Base - Black Holo Foil"
+description: "Black Holo Foil parallel of Base card featuring Dansby Swanson."
+series: "2026 Topps Baseball"
+parallel: "Black Holo Foil"
+print_run: 10
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: true
+release_date: "2026-06-11"
+image_url: "https://example.com/cards/2026-topps-series-2/550-black-holo-foil.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Topps#Insertion_Ratios"

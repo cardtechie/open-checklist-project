@@ -1,0 +1,23 @@
+number: "614"
+uuid: "96b23d27-85b4-49df-b0d1-d5294e7dbef0"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-topps-series-2"
+subjects:
+  - name: "Manny Machado"
+    role: "Player"
+    team: "San Diego Padres"
+card_name: "Manny Machado - Base - Gold"
+description: "Gold parallel of Base card featuring Manny Machado."
+series: "2026 Topps Baseball"
+parallel: "Gold"
+print_run: 2026
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: true
+release_date: "2026-06-11"
+image_url: "https://example.com/cards/2026-topps-series-2/614-gold.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Topps#Insertion_Ratios"

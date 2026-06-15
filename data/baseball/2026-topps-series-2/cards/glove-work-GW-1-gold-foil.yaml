@@ -1,0 +1,24 @@
+number: "GW-1"
+uuid: "f028f616-419d-4686-868c-e5be1cfce468"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-topps-series-2"
+subjects:
+  - name: "Ozzie Smith"
+    role: "Player"
+    team: "St. Louis Cardinals"
+subset: "Glove Work"
+card_name: "Ozzie Smith - Glove Work - Gold Foil"
+description: "Gold Foil parallel of Glove Work card featuring Ozzie Smith."
+series: "2026 Topps Baseball"
+parallel: "Gold Foil"
+print_run: 50
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: true
+release_date: "2026-06-11"
+image_url: "https://example.com/cards/2026-topps-series-2/glove-work-GW-1-gold-foil.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Topps#Insertion_Ratios"

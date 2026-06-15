@@ -1,0 +1,24 @@
+number: "BSA2-BG"
+uuid: "05c4ef6c-6643-4609-801a-28f0baa7df5a"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-topps-series-2"
+subjects:
+  - name: "Brett Gardner"
+    role: "Player"
+    team: "New York Yankees"
+subset: "Baseball Stars Autographs"
+card_name: "Brett Gardner - Baseball Stars Autographs - Platinum"
+description: "Platinum parallel of Autographed Baseball Stars Autographs card featuring Brett Gardner."
+series: "2026 Topps Baseball"
+parallel: "Platinum"
+print_run: 1
+rookie_card: false
+autograph: true
+relic: false
+serial_numbered: true
+release_date: "2026-06-11"
+image_url: "https://example.com/cards/2026-topps-series-2/baseball-stars-autographs-BSA2-BG-platinum.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Topps#Insertion_Ratios"

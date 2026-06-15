@@ -1,0 +1,24 @@
+number: "CN-9"
+uuid: "29fac3d4-d412-4809-b30a-10d94aa9651c"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-topps-series-2"
+subjects:
+  - name: "Shohei Ohtani"
+    role: "Player"
+    team: "Los Angeles Dodgers"
+subset: "Crooked Numbers"
+card_name: "Shohei Ohtani - Crooked Numbers - Blue Foil"
+description: "Blue Foil parallel of Crooked Numbers card featuring Shohei Ohtani."
+series: "2026 Topps Baseball"
+parallel: "Blue Foil"
+print_run: 150
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: true
+release_date: "2026-06-11"
+image_url: "https://example.com/cards/2026-topps-series-2/crooked-numbers-CN-9-blue-foil.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Topps#Insertion_Ratios"

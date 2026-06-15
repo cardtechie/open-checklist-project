@@ -1,0 +1,24 @@
+number: "SMLB-54"
+uuid: "6cee0d92-fdc0-4787-87bd-f73785f335db"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-topps-series-2"
+subjects:
+  - name: "Cal Raleigh"
+    role: "Player"
+    team: "Seattle Mariners"
+subset: "Stars Of MLB"
+card_name: "Cal Raleigh - Stars Of MLB - FoilFractor"
+description: "FoilFractor parallel of Stars Of MLB card featuring Cal Raleigh."
+series: "2026 Topps Baseball"
+parallel: "FoilFractor"
+print_run: 1
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: true
+release_date: "2026-06-11"
+image_url: "https://example.com/cards/2026-topps-series-2/stars-of-mlb-SMLB-54-foilfractor.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Topps#Insertion_Ratios"

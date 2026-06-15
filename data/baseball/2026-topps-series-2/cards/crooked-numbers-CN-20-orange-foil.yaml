@@ -1,0 +1,24 @@
+number: "CN-20"
+uuid: "e857592e-bfae-4b10-93ef-97e975fcc503"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-topps-series-2"
+subjects:
+  - name: "Derek Jeter"
+    role: "Player"
+    team: "New York Yankees"
+subset: "Crooked Numbers"
+card_name: "Derek Jeter - Crooked Numbers - Orange Foil"
+description: "Orange Foil parallel of Crooked Numbers card featuring Derek Jeter."
+series: "2026 Topps Baseball"
+parallel: "Orange Foil"
+print_run: 25
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: true
+release_date: "2026-06-11"
+image_url: "https://example.com/cards/2026-topps-series-2/crooked-numbers-CN-20-orange-foil.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Topps#Insertion_Ratios"

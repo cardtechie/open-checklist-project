@@ -1,0 +1,24 @@
+number: "BSA2-CM"
+uuid: "35a47e0d-3813-4eb0-84df-9abaaa7a2d46"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-topps-series-2"
+subjects:
+  - name: "Christian Moore"
+    role: "Player"
+    team: "Los Angeles Angels"
+subset: "Baseball Stars Autographs"
+card_name: "Christian Moore - Baseball Stars Autographs - Red"
+description: "Red parallel of Autographed Baseball Stars Autographs card featuring Christian Moore."
+series: "2026 Topps Baseball"
+parallel: "Red"
+print_run: 5
+rookie_card: false
+autograph: true
+relic: false
+serial_numbered: true
+release_date: "2026-06-11"
+image_url: "https://example.com/cards/2026-topps-series-2/baseball-stars-autographs-BSA2-CM-red.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Topps#Insertion_Ratios"

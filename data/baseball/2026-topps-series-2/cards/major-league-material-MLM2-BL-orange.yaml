@@ -1,0 +1,24 @@
+number: "MLM2-BL"
+uuid: "45d50a03-c8b3-4c8e-aacb-bdf0a925af81"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-topps-series-2"
+subjects:
+  - name: "Barry Larkin"
+    role: "Player"
+    team: "Cincinnati Reds"
+subset: "Major League Material"
+card_name: "Barry Larkin - Major League Material - Orange"
+description: "Orange parallel of Major League Material memorabilia card featuring Barry Larkin."
+series: "2026 Topps Baseball"
+parallel: "Orange"
+print_run: 25
+rookie_card: false
+autograph: false
+relic: true
+serial_numbered: true
+release_date: "2026-06-11"
+image_url: "https://example.com/cards/2026-topps-series-2/major-league-material-MLM2-BL-orange.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Topps#Insertion_Ratios"

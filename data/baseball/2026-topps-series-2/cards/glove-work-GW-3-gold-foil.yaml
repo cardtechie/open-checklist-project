@@ -1,0 +1,24 @@
+number: "GW-3"
+uuid: "b6597792-eba1-4702-b0e1-4005be3539e9"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-topps-series-2"
+subjects:
+  - name: "Brooks Robinson"
+    role: "Player"
+    team: "Baltimore Orioles"
+subset: "Glove Work"
+card_name: "Brooks Robinson - Glove Work - Gold Foil"
+description: "Gold Foil parallel of Glove Work card featuring Brooks Robinson."
+series: "2026 Topps Baseball"
+parallel: "Gold Foil"
+print_run: 50
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: true
+release_date: "2026-06-11"
+image_url: "https://example.com/cards/2026-topps-series-2/glove-work-GW-3-gold-foil.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Topps#Insertion_Ratios"

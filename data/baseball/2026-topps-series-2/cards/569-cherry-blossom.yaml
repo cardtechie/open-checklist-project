@@ -1,0 +1,23 @@
+number: "569"
+uuid: "a436af93-f220-4d58-903b-be5da30b56ea"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-topps-series-2"
+subjects:
+  - name: "Max Scherzer"
+    role: "Player"
+    team: "Toronto Blue Jays"
+card_name: "Max Scherzer - Base - Cherry Blossom"
+description: "Cherry Blossom parallel of Base card featuring Max Scherzer."
+series: "2026 Topps Baseball"
+parallel: "Cherry Blossom"
+print_run: 99
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: true
+release_date: "2026-06-11"
+image_url: "https://example.com/cards/2026-topps-series-2/569-cherry-blossom.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Topps#Insertion_Ratios"

@@ -1,0 +1,24 @@
+number: "MLM2-CCA"
+uuid: "3d18ed1c-4748-46e1-a9e5-af29ad976518"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-topps-series-2"
+subjects:
+  - name: "Corbin Carroll"
+    role: "Player"
+    team: "Arizona Diamondbacks"
+subset: "Major League Material"
+card_name: "Corbin Carroll - Major League Material - Autograph Red"
+description: "Autograph Red parallel of Major League Material memorabilia card featuring Corbin Carroll."
+series: "2026 Topps Baseball"
+parallel: "Autograph Red"
+print_run: 5
+rookie_card: false
+autograph: false
+relic: true
+serial_numbered: true
+release_date: "2026-06-11"
+image_url: "https://example.com/cards/2026-topps-series-2/major-league-material-MLM2-CCA-autograph-red.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Topps#Insertion_Ratios"

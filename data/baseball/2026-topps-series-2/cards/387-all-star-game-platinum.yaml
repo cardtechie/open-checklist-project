@@ -1,0 +1,23 @@
+number: "387"
+uuid: "649b440f-dc2d-488e-9e0d-e4f2ee9671b8"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-topps-series-2"
+subjects:
+  - name: "Drew Sommers"
+    role: "Player"
+    team: "Detroit Tigers"
+card_name: "Drew Sommers - Base - All-Star Game Platinum"
+description: "All-Star Game Platinum parallel of Base card featuring Drew Sommers."
+series: "2026 Topps Baseball"
+parallel: "All-Star Game Platinum"
+print_run: 1
+rookie_card: true
+autograph: false
+relic: false
+serial_numbered: true
+release_date: "2026-06-11"
+image_url: "https://example.com/cards/2026-topps-series-2/387-all-star-game-platinum.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Topps#Insertion_Ratios"

@@ -1,0 +1,23 @@
+number: "400"
+uuid: "3e563ad7-4535-4b7e-9257-bc5d94b42725"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-topps-series-2"
+subjects:
+  - name: "Pete Alonso"
+    role: "Player"
+    team: "Baltimore Orioles"
+card_name: "Pete Alonso - Base - Green Diamante Foil"
+description: "Green Diamante Foil parallel of Base card featuring Pete Alonso."
+series: "2026 Topps Baseball"
+parallel: "Green Diamante Foil"
+print_run: 99
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: true
+release_date: "2026-06-11"
+image_url: "https://example.com/cards/2026-topps-series-2/400-green-diamante-foil.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Topps#Insertion_Ratios"

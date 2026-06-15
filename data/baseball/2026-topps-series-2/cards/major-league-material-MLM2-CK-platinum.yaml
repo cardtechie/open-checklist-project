@@ -1,0 +1,24 @@
+number: "MLM2-CK"
+uuid: "27b9b9a2-0ae0-4e73-9258-275ff351077f"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-topps-series-2"
+subjects:
+  - name: "C.J. Kayfus"
+    role: "Player"
+    team: "Cleveland Guardians"
+subset: "Major League Material"
+card_name: "C.J. Kayfus - Major League Material - Platinum"
+description: "Platinum parallel of Major League Material memorabilia card featuring C.J. Kayfus."
+series: "2026 Topps Baseball"
+parallel: "Platinum"
+print_run: 1
+rookie_card: false
+autograph: false
+relic: true
+serial_numbered: true
+release_date: "2026-06-11"
+image_url: "https://example.com/cards/2026-topps-series-2/major-league-material-MLM2-CK-platinum.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Topps#Insertion_Ratios"

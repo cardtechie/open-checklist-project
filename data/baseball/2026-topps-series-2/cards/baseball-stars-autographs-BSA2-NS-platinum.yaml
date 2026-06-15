@@ -1,0 +1,24 @@
+number: "BSA2-NS"
+uuid: "7c2d40c2-cbb4-430c-a68a-7ee19d606cc6"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-topps-series-2"
+subjects:
+  - name: "Nolan Schanuel"
+    role: "Player"
+    team: "Los Angeles Angels"
+subset: "Baseball Stars Autographs"
+card_name: "Nolan Schanuel - Baseball Stars Autographs - Platinum"
+description: "Platinum parallel of Autographed Baseball Stars Autographs card featuring Nolan Schanuel."
+series: "2026 Topps Baseball"
+parallel: "Platinum"
+print_run: 1
+rookie_card: false
+autograph: true
+relic: false
+serial_numbered: true
+release_date: "2026-06-11"
+image_url: "https://example.com/cards/2026-topps-series-2/baseball-stars-autographs-BSA2-NS-platinum.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Topps#Insertion_Ratios"

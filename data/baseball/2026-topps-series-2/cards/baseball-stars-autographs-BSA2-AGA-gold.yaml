@@ -1,0 +1,24 @@
+number: "BSA2-AGA"
+uuid: "0bc5015f-c20b-46ab-803f-7e2bdd121bbb"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-topps-series-2"
+subjects:
+  - name: "Adolis García"
+    role: "Player"
+    team: "Philadelphia Phillies"
+subset: "Baseball Stars Autographs"
+card_name: "Adolis García - Baseball Stars Autographs - Gold"
+description: "Gold parallel of Autographed Baseball Stars Autographs card featuring Adolis García."
+series: "2026 Topps Baseball"
+parallel: "Gold"
+print_run: 50
+rookie_card: false
+autograph: true
+relic: false
+serial_numbered: true
+release_date: "2026-06-11"
+image_url: "https://example.com/cards/2026-topps-series-2/baseball-stars-autographs-BSA2-AGA-gold.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Topps#Insertion_Ratios"

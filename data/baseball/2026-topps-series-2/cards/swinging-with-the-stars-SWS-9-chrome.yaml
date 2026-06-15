@@ -1,0 +1,23 @@
+number: "SWS-9"
+uuid: "d182af4d-12c3-46a3-9107-2349f139cc59"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-topps-series-2"
+subjects:
+  - name: "Mike Trout"
+    role: "Player"
+    team: "Los Angeles Angels"
+subset: "Swinging With The Stars"
+card_name: "Mike Trout - Swinging With The Stars - Chrome"
+description: "Chrome parallel of Swinging With The Stars card featuring Mike Trout."
+series: "2026 Topps Baseball"
+parallel: "Chrome"
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: false
+release_date: "2026-06-11"
+image_url: "https://example.com/cards/2026-topps-series-2/swinging-with-the-stars-SWS-9-chrome.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Topps#Insertion_Ratios"

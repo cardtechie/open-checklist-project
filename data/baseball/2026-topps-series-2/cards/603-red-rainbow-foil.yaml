@@ -1,0 +1,23 @@
+number: "603"
+uuid: "25d361a6-8f1d-4ebb-92a8-1455e861411d"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-topps-series-2"
+subjects:
+  - name: "George Valera"
+    role: "Player"
+    team: "Cleveland Guardians"
+card_name: "George Valera - Base - Red Rainbow Foil"
+description: "Red Rainbow Foil parallel of Base card featuring George Valera."
+series: "2026 Topps Baseball"
+parallel: "Red Rainbow Foil"
+print_run: 5
+rookie_card: true
+autograph: false
+relic: false
+serial_numbered: true
+release_date: "2026-06-11"
+image_url: "https://example.com/cards/2026-topps-series-2/603-red-rainbow-foil.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Topps#Insertion_Ratios"

@@ -1,0 +1,23 @@
+number: "485"
+uuid: "48c1e8be-7024-42bc-aa81-2d9b504af0f3"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-topps-series-2"
+subjects:
+  - name: "Jake Mangum"
+    role: "Player"
+    team: "Pittsburgh Pirates"
+card_name: "Jake Mangum - Base - All-Star Game Gold"
+description: "All-Star Game Gold parallel of Base card featuring Jake Mangum."
+series: "2026 Topps Baseball"
+parallel: "All-Star Game Gold"
+print_run: 50
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: true
+release_date: "2026-06-11"
+image_url: "https://example.com/cards/2026-topps-series-2/485-all-star-game-gold.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Topps#Insertion_Ratios"

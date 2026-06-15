@@ -1,0 +1,23 @@
+number: "511"
+uuid: "811c8046-06be-45dc-b069-2d261a6fd826"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-topps-series-2"
+subjects:
+  - name: "Jayvien Sandridge"
+    role: "Player"
+    team: "Los Angeles Angels"
+card_name: "Jayvien Sandridge - Base - Independence Day"
+description: "Independence Day parallel of Base card featuring Jayvien Sandridge."
+series: "2026 Topps Baseball"
+parallel: "Independence Day"
+print_run: 76
+rookie_card: true
+autograph: false
+relic: false
+serial_numbered: true
+release_date: "2026-06-11"
+image_url: "https://example.com/cards/2026-topps-series-2/511-independence-day.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Topps#Insertion_Ratios"

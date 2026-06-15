@@ -1,0 +1,24 @@
+number: "MLM2-FT"
+uuid: "14f6ddd0-8589-4e58-9c7c-e7d66e1dfe75"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-topps-series-2"
+subjects:
+  - name: "Frank Thomas"
+    role: "Player"
+    team: "Chicago White Sox"
+subset: "Major League Material"
+card_name: "Frank Thomas - Major League Material - Red"
+description: "Red parallel of Major League Material memorabilia card featuring Frank Thomas."
+series: "2026 Topps Baseball"
+parallel: "Red"
+print_run: 5
+rookie_card: false
+autograph: false
+relic: true
+serial_numbered: true
+release_date: "2026-06-11"
+image_url: "https://example.com/cards/2026-topps-series-2/major-league-material-MLM2-FT-red.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Topps#Insertion_Ratios"

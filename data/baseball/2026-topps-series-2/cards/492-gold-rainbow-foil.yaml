@@ -1,0 +1,23 @@
+number: "492"
+uuid: "f4b1b83a-b43f-43c1-96b3-43c551018a3c"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-topps-series-2"
+subjects:
+  - name: "Cleveland Guardians"
+    role: "Team"
+    team: "Cleveland Guardians"
+card_name: "Cleveland Guardians - Base - Gold Rainbow Foil"
+description: "Gold Rainbow Foil parallel of Base card featuring Cleveland Guardians."
+series: "2026 Topps Baseball"
+parallel: "Gold Rainbow Foil"
+print_run: 50
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: true
+release_date: "2026-06-11"
+image_url: "https://example.com/cards/2026-topps-series-2/492-gold-rainbow-foil.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Topps#Insertion_Ratios"

@@ -1,0 +1,23 @@
+number: "501"
+uuid: "607b9d31-a353-45f0-adc0-67fa656fb613"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-topps-series-2"
+subjects:
+  - name: "Connelly Early"
+    role: "Player"
+    team: "Boston Red Sox"
+card_name: "Connelly Early - Base - Memorial Day Camo"
+description: "Memorial Day Camo parallel of Base card featuring Connelly Early."
+series: "2026 Topps Baseball"
+parallel: "Memorial Day Camo"
+print_run: 25
+rookie_card: true
+autograph: false
+relic: false
+serial_numbered: true
+release_date: "2026-06-11"
+image_url: "https://example.com/cards/2026-topps-series-2/501-memorial-day-camo.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Topps#Insertion_Ratios"

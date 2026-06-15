@@ -1,0 +1,22 @@
+number: "437"
+uuid: "c6b940c6-719f-4f94-bea0-1801623175f3"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-topps-series-2"
+subjects:
+  - name: "Nick Castellanos"
+    role: "Player"
+    team: "San Diego Padres"
+card_name: "Nick Castellanos - Base - All-Star Game"
+description: "All-Star Game parallel of Base card featuring Nick Castellanos."
+series: "2026 Topps Baseball"
+parallel: "All-Star Game"
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: false
+release_date: "2026-06-11"
+image_url: "https://example.com/cards/2026-topps-series-2/437-all-star-game.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Topps#Insertion_Ratios"

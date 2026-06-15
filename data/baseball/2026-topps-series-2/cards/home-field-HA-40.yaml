@@ -1,0 +1,19 @@
+number: "HA-40"
+uuid: "a3e7bb6c-2816-4e2a-86ae-e44ce4fbd0ef"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-topps-series-2"
+subjects:
+  - name: "Mike Trout"
+    role: "Player"
+    team: "Los Angeles Angels"
+subset: "Home Field"
+card_name: "Mike Trout - Home Field"
+description: "Home Field card featuring Mike Trout."
+series: "2026 Topps Baseball"
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: false
+release_date: "2026-06-11"
+image_url: "https://example.com/cards/2026-topps-series-2/home-field-HA-40.jpg"

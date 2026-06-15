@@ -1,0 +1,23 @@
+number: "600"
+uuid: "45592ebb-2316-42b1-ba1c-ee58e9df9308"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-topps-series-2"
+subjects:
+  - name: "Juan Soto"
+    role: "Player"
+    team: "New York Mets"
+card_name: "Juan Soto - Base - Black"
+description: "Black parallel of Base card featuring Juan Soto."
+series: "2026 Topps Baseball"
+parallel: "Black"
+print_run: 75
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: true
+release_date: "2026-06-11"
+image_url: "https://example.com/cards/2026-topps-series-2/600-black.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Topps#Insertion_Ratios"

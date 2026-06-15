@@ -1,0 +1,22 @@
+number: "531"
+uuid: "c3ecf123-dc7d-4b37-b3ba-77efff8ac6d7"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-topps-series-2"
+subjects:
+  - name: "Alejandro Carrillo"
+    role: "Player"
+    team: "New York Mets"
+card_name: "Alejandro Carrillo - Base - All-Star Game"
+description: "All-Star Game parallel of Base card featuring Alejandro Carrillo."
+series: "2026 Topps Baseball"
+parallel: "All-Star Game"
+rookie_card: true
+autograph: false
+relic: false
+serial_numbered: false
+release_date: "2026-06-11"
+image_url: "https://example.com/cards/2026-topps-series-2/531-all-star-game.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Topps#Insertion_Ratios"

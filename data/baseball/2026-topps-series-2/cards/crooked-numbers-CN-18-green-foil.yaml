@@ -1,0 +1,24 @@
+number: "CN-18"
+uuid: "a6c51c76-dd6f-44a0-a9a4-e4539e3fe33f"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-topps-series-2"
+subjects:
+  - name: "Mickey Mantle"
+    role: "Player"
+    team: "New York Yankees"
+subset: "Crooked Numbers"
+card_name: "Mickey Mantle - Crooked Numbers - Green Foil"
+description: "Green Foil parallel of Crooked Numbers card featuring Mickey Mantle."
+series: "2026 Topps Baseball"
+parallel: "Green Foil"
+print_run: 99
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: true
+release_date: "2026-06-11"
+image_url: "https://example.com/cards/2026-topps-series-2/crooked-numbers-CN-18-green-foil.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Topps#Insertion_Ratios"

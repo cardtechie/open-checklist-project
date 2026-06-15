@@ -1,0 +1,23 @@
+number: "567"
+uuid: "9cb45944-f1e5-4247-bdbb-fc30055d4e81"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-topps-series-2"
+subjects:
+  - name: "Thomas Saggese"
+    role: "Player"
+    team: "St. Louis Cardinals"
+card_name: "Thomas Saggese - Base - Independence Day"
+description: "Independence Day parallel of Base card featuring Thomas Saggese."
+series: "2026 Topps Baseball"
+parallel: "Independence Day"
+print_run: 76
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: true
+release_date: "2026-06-11"
+image_url: "https://example.com/cards/2026-topps-series-2/567-independence-day.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Topps#Insertion_Ratios"

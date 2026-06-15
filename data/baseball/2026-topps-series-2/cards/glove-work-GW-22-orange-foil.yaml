@@ -1,0 +1,24 @@
+number: "GW-22"
+uuid: "f0138b78-3ab1-4f90-afbc-fff9314d7440"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-topps-series-2"
+subjects:
+  - name: "Javier Báez"
+    role: "Player"
+    team: "Detroit Tigers"
+subset: "Glove Work"
+card_name: "Javier Báez - Glove Work - Orange Foil"
+description: "Orange Foil parallel of Glove Work card featuring Javier Báez."
+series: "2026 Topps Baseball"
+parallel: "Orange Foil"
+print_run: 25
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: true
+release_date: "2026-06-11"
+image_url: "https://example.com/cards/2026-topps-series-2/glove-work-GW-22-orange-foil.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Topps#Insertion_Ratios"

@@ -1,0 +1,22 @@
+number: "405"
+uuid: "69baaf6b-9557-45da-a19f-81cbd3b6aa7c"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-topps-series-2"
+subjects:
+  - name: "PJ Poulin"
+    role: "Player"
+    team: "Washington Nationals"
+card_name: "PJ Poulin - Base - Sandglitter"
+description: "Sandglitter parallel of Base card featuring PJ Poulin."
+series: "2026 Topps Baseball"
+parallel: "Sandglitter"
+rookie_card: true
+autograph: false
+relic: false
+serial_numbered: false
+release_date: "2026-06-11"
+image_url: "https://example.com/cards/2026-topps-series-2/405-sandglitter.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Topps#Insertion_Ratios"

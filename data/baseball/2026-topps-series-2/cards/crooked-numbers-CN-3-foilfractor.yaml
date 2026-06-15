@@ -1,0 +1,24 @@
+number: "CN-3"
+uuid: "295f6565-8e12-4e33-9fc4-45ba780c9717"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-topps-series-2"
+subjects:
+  - name: "Juan Soto"
+    role: "Player"
+    team: "New York Mets"
+subset: "Crooked Numbers"
+card_name: "Juan Soto - Crooked Numbers - FoilFractor"
+description: "FoilFractor parallel of Crooked Numbers card featuring Juan Soto."
+series: "2026 Topps Baseball"
+parallel: "FoilFractor"
+print_run: 1
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: true
+release_date: "2026-06-11"
+image_url: "https://example.com/cards/2026-topps-series-2/crooked-numbers-CN-3-foilfractor.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Topps#Insertion_Ratios"

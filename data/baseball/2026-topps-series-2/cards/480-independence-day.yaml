@@ -1,0 +1,23 @@
+number: "480"
+uuid: "d7f1e2e2-e10e-41bf-9534-d70e757488bc"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-topps-series-2"
+subjects:
+  - name: "Luis Torrens"
+    role: "Player"
+    team: "New York Mets"
+card_name: "Luis Torrens - Base - Independence Day"
+description: "Independence Day parallel of Base card featuring Luis Torrens."
+series: "2026 Topps Baseball"
+parallel: "Independence Day"
+print_run: 76
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: true
+release_date: "2026-06-11"
+image_url: "https://example.com/cards/2026-topps-series-2/480-independence-day.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Topps#Insertion_Ratios"

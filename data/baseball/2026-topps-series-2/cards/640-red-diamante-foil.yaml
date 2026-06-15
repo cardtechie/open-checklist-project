@@ -1,0 +1,23 @@
+number: "640"
+uuid: "cc167165-af5c-492c-a956-ba66180d0943"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-topps-series-2"
+subjects:
+  - name: "Atlanta Braves"
+    role: "Team"
+    team: "Atlanta Braves"
+card_name: "Atlanta Braves - Base - Red Diamante Foil"
+description: "Red Diamante Foil parallel of Base card featuring Atlanta Braves."
+series: "2026 Topps Baseball"
+parallel: "Red Diamante Foil"
+print_run: 5
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: true
+release_date: "2026-06-11"
+image_url: "https://example.com/cards/2026-topps-series-2/640-red-diamante-foil.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Topps#Insertion_Ratios"

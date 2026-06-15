@@ -1,0 +1,23 @@
+number: "513"
+uuid: "aa820e7a-f4a4-45b0-995b-d43ad86e390f"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-topps-series-2"
+subjects:
+  - name: "Tatsuya Imai"
+    role: "Player"
+    team: "Houston Astros"
+card_name: "Tatsuya Imai - Base - Sandglitter Red"
+description: "Sandglitter Red parallel of Base card featuring Tatsuya Imai."
+series: "2026 Topps Baseball"
+parallel: "Sandglitter Red"
+print_run: 5
+rookie_card: true
+autograph: false
+relic: false
+serial_numbered: true
+release_date: "2026-06-11"
+image_url: "https://example.com/cards/2026-topps-series-2/513-sandglitter-red.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Topps#Insertion_Ratios"

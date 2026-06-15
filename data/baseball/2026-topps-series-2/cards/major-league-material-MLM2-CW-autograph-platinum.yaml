@@ -1,0 +1,24 @@
+number: "MLM2-CW"
+uuid: "65b3014c-4d74-4e25-a857-b941504896ec"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-topps-series-2"
+subjects:
+  - name: "Carson Williams"
+    role: "Player"
+    team: "Tampa Bay Rays"
+subset: "Major League Material"
+card_name: "Carson Williams - Major League Material - Autograph Platinum"
+description: "Autograph Platinum parallel of Major League Material memorabilia card featuring Carson Williams."
+series: "2026 Topps Baseball"
+parallel: "Autograph Platinum"
+print_run: 1
+rookie_card: false
+autograph: false
+relic: true
+serial_numbered: true
+release_date: "2026-06-11"
+image_url: "https://example.com/cards/2026-topps-series-2/major-league-material-MLM2-CW-autograph-platinum.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Topps#Insertion_Ratios"

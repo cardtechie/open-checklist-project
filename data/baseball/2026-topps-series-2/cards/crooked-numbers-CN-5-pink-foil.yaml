@@ -1,0 +1,23 @@
+number: "CN-5"
+uuid: "18df3d00-ce9a-4fd5-9543-c92eada8f605"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-topps-series-2"
+subjects:
+  - name: "Cal Raleigh"
+    role: "Player"
+    team: "Seattle Mariners"
+subset: "Crooked Numbers"
+card_name: "Cal Raleigh - Crooked Numbers - Pink Foil"
+description: "Pink Foil parallel of Crooked Numbers card featuring Cal Raleigh."
+series: "2026 Topps Baseball"
+parallel: "Pink Foil"
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: false
+release_date: "2026-06-11"
+image_url: "https://example.com/cards/2026-topps-series-2/crooked-numbers-CN-5-pink-foil.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Topps#Insertion_Ratios"

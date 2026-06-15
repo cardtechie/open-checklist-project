@@ -1,0 +1,23 @@
+number: "606"
+uuid: "3a27015c-3932-444a-9e28-7b4b3d78687e"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-topps-series-2"
+subjects:
+  - name: "Zebby Matthews"
+    role: "Player"
+    team: "Minnesota Twins"
+card_name: "Zebby Matthews - Base - Black"
+description: "Black parallel of Base card featuring Zebby Matthews."
+series: "2026 Topps Baseball"
+parallel: "Black"
+print_run: 75
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: true
+release_date: "2026-06-11"
+image_url: "https://example.com/cards/2026-topps-series-2/606-black.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Topps#Insertion_Ratios"

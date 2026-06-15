@@ -1,0 +1,23 @@
+number: "440"
+uuid: "4c93ec8a-d79f-4efc-9dbe-d37400710f77"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-topps-series-2"
+subjects:
+  - name: "Ranger Suárez"
+    role: "Player"
+    team: "Boston Red Sox"
+card_name: "Ranger Suárez - Base - Gold"
+description: "Gold parallel of Base card featuring Ranger Suárez."
+series: "2026 Topps Baseball"
+parallel: "Gold"
+print_run: 2026
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: true
+release_date: "2026-06-11"
+image_url: "https://example.com/cards/2026-topps-series-2/440-gold.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Topps#Insertion_Ratios"

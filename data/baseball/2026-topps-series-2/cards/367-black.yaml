@@ -1,0 +1,23 @@
+number: "367"
+uuid: "d53045c0-32e6-4941-aa16-a78f61bd25cf"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-topps-series-2"
+subjects:
+  - name: "Robbie Ray"
+    role: "Player"
+    team: "San Francisco Giants"
+card_name: "Robbie Ray - Base - Black"
+description: "Black parallel of Base card featuring Robbie Ray."
+series: "2026 Topps Baseball"
+parallel: "Black"
+print_run: 75
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: true
+release_date: "2026-06-11"
+image_url: "https://example.com/cards/2026-topps-series-2/367-black.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Topps#Insertion_Ratios"

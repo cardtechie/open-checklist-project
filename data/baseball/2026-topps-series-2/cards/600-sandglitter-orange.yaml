@@ -1,0 +1,23 @@
+number: "600"
+uuid: "a9e4f880-f926-40a4-9bf7-0e704b78b455"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-topps-series-2"
+subjects:
+  - name: "Juan Soto"
+    role: "Player"
+    team: "New York Mets"
+card_name: "Juan Soto - Base - Sandglitter Orange"
+description: "Sandglitter Orange parallel of Base card featuring Juan Soto."
+series: "2026 Topps Baseball"
+parallel: "Sandglitter Orange"
+print_run: 25
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: true
+release_date: "2026-06-11"
+image_url: "https://example.com/cards/2026-topps-series-2/600-sandglitter-orange.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Topps#Insertion_Ratios"

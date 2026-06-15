@@ -1,0 +1,22 @@
+number: "578"
+uuid: "4bd1bff1-acd2-466b-ad09-933802fd649b"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-topps-series-2"
+subjects:
+  - name: "Heriberto Hernández"
+    role: "Player"
+    team: "Miami Marlins"
+card_name: "Heriberto Hernández - Base - All-Star Game"
+description: "All-Star Game parallel of Base card featuring Heriberto Hernández."
+series: "2026 Topps Baseball"
+parallel: "All-Star Game"
+rookie_card: true
+autograph: false
+relic: false
+serial_numbered: false
+release_date: "2026-06-11"
+image_url: "https://example.com/cards/2026-topps-series-2/578-all-star-game.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Topps#Insertion_Ratios"

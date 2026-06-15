@@ -1,0 +1,23 @@
+number: "511"
+uuid: "c909bc43-5977-4b96-9c58-9e6a58f3c1b3"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-topps-series-2"
+subjects:
+  - name: "Jayvien Sandridge"
+    role: "Player"
+    team: "Los Angeles Angels"
+card_name: "Jayvien Sandridge - Base - FoilFractor"
+description: "FoilFractor parallel of Base card featuring Jayvien Sandridge."
+series: "2026 Topps Baseball"
+parallel: "FoilFractor"
+print_run: 1
+rookie_card: true
+autograph: false
+relic: false
+serial_numbered: true
+release_date: "2026-06-11"
+image_url: "https://example.com/cards/2026-topps-series-2/511-foilfractor.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Topps#Insertion_Ratios"

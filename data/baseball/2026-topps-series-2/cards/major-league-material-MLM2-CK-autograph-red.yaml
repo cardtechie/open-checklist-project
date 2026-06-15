@@ -1,0 +1,24 @@
+number: "MLM2-CK"
+uuid: "09b40d15-f2aa-4ab7-bc43-5304eb2d863b"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-topps-series-2"
+subjects:
+  - name: "C.J. Kayfus"
+    role: "Player"
+    team: "Cleveland Guardians"
+subset: "Major League Material"
+card_name: "C.J. Kayfus - Major League Material - Autograph Red"
+description: "Autograph Red parallel of Major League Material memorabilia card featuring C.J. Kayfus."
+series: "2026 Topps Baseball"
+parallel: "Autograph Red"
+print_run: 5
+rookie_card: false
+autograph: false
+relic: true
+serial_numbered: true
+release_date: "2026-06-11"
+image_url: "https://example.com/cards/2026-topps-series-2/major-league-material-MLM2-CK-autograph-red.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Topps#Insertion_Ratios"

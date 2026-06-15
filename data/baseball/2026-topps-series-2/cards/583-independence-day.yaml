@@ -1,0 +1,23 @@
+number: "583"
+uuid: "a8af6547-2e64-4bbe-92bf-f42e8d5a9c87"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-topps-series-2"
+subjects:
+  - name: "Josh Simpson"
+    role: "Player"
+    team: "Miami Marlins"
+card_name: "Josh Simpson - Base - Independence Day"
+description: "Independence Day parallel of Base card featuring Josh Simpson."
+series: "2026 Topps Baseball"
+parallel: "Independence Day"
+print_run: 76
+rookie_card: true
+autograph: false
+relic: false
+serial_numbered: true
+release_date: "2026-06-11"
+image_url: "https://example.com/cards/2026-topps-series-2/583-independence-day.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Topps#Insertion_Ratios"

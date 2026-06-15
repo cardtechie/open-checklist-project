@@ -1,0 +1,24 @@
+number: "MLM2-JMI"
+uuid: "5bb42e92-b520-4cd1-9269-85800d3cdbb3"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-topps-series-2"
+subjects:
+  - name: "Jacob Misiorowski"
+    role: "Player"
+    team: "Milwaukee Brewers"
+subset: "Major League Material"
+card_name: "Jacob Misiorowski - Major League Material - Gold"
+description: "Gold parallel of Major League Material memorabilia card featuring Jacob Misiorowski."
+series: "2026 Topps Baseball"
+parallel: "Gold"
+print_run: 50
+rookie_card: false
+autograph: false
+relic: true
+serial_numbered: true
+release_date: "2026-06-11"
+image_url: "https://example.com/cards/2026-topps-series-2/major-league-material-MLM2-JMI-gold.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Topps#Insertion_Ratios"

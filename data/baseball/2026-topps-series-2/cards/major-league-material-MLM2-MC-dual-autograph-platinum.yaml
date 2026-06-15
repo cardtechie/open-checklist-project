@@ -1,0 +1,24 @@
+number: "MLM2-MC"
+uuid: "fb97c716-ec7a-4608-9dbf-4c0a326e04ec"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-topps-series-2"
+subjects:
+  - name: "Matt Chapman"
+    role: "Player"
+    team: "San Francisco Giants"
+subset: "Major League Material"
+card_name: "Matt Chapman - Major League Material - Dual Autograph Platinum"
+description: "Dual Autograph Platinum parallel of Major League Material memorabilia card featuring Matt Chapman."
+series: "2026 Topps Baseball"
+parallel: "Dual Autograph Platinum"
+print_run: 1
+rookie_card: false
+autograph: false
+relic: true
+serial_numbered: true
+release_date: "2026-06-11"
+image_url: "https://example.com/cards/2026-topps-series-2/major-league-material-MLM2-MC-dual-autograph-platinum.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Topps#Insertion_Ratios"

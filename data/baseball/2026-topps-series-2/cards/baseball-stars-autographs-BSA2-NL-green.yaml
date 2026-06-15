@@ -1,0 +1,24 @@
+number: "BSA2-NL"
+uuid: "b5e50ddd-f47f-4b0e-999f-59a0d8d95c7b"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-topps-series-2"
+subjects:
+  - name: "Nick Lodolo"
+    role: "Player"
+    team: "Cincinnati Reds"
+subset: "Baseball Stars Autographs"
+card_name: "Nick Lodolo - Baseball Stars Autographs - Green"
+description: "Green parallel of Autographed Baseball Stars Autographs card featuring Nick Lodolo."
+series: "2026 Topps Baseball"
+parallel: "Green"
+print_run: 99
+rookie_card: false
+autograph: true
+relic: false
+serial_numbered: true
+release_date: "2026-06-11"
+image_url: "https://example.com/cards/2026-topps-series-2/baseball-stars-autographs-BSA2-NL-green.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Topps#Insertion_Ratios"

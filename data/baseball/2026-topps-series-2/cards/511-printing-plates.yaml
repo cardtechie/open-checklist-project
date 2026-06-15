@@ -1,0 +1,23 @@
+number: "511"
+uuid: "1a8ca694-3e7f-4aa2-8dfa-20685c70880e"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-topps-series-2"
+subjects:
+  - name: "Jayvien Sandridge"
+    role: "Player"
+    team: "Los Angeles Angels"
+card_name: "Jayvien Sandridge - Base - Printing Plates"
+description: "Printing Plates parallel of Base card featuring Jayvien Sandridge."
+series: "2026 Topps Baseball"
+parallel: "Printing Plates"
+print_run: 4
+rookie_card: true
+autograph: false
+relic: false
+serial_numbered: true
+release_date: "2026-06-11"
+image_url: "https://example.com/cards/2026-topps-series-2/511-printing-plates.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Topps#Insertion_Ratios"

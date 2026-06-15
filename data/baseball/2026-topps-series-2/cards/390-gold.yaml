@@ -1,0 +1,23 @@
+number: "390"
+uuid: "1b0e65ab-d856-4ecd-a22c-0dc72b9561e7"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-topps-series-2"
+subjects:
+  - name: "Jack Dreyer"
+    role: "Player"
+    team: "Los Angeles Dodgers"
+card_name: "Jack Dreyer - Base - Gold"
+description: "Gold parallel of Base card featuring Jack Dreyer."
+series: "2026 Topps Baseball"
+parallel: "Gold"
+print_run: 2026
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: true
+release_date: "2026-06-11"
+image_url: "https://example.com/cards/2026-topps-series-2/390-gold.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Topps#Insertion_Ratios"

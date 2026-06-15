@@ -1,0 +1,24 @@
+number: "BSA-BB"
+uuid: "bd6d2f73-2a44-4e9a-9d8a-f3c7b68e2f74"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-topps-series-2"
+subjects:
+  - name: "Barry Bonds"
+    role: "Player"
+    team: "Pittsburgh Pirates"
+subset: "Baseball Stars Autographs"
+card_name: "Barry Bonds - Baseball Stars Autographs - Gold"
+description: "Gold parallel of Autographed Baseball Stars Autographs card featuring Barry Bonds."
+series: "2026 Topps Baseball"
+parallel: "Gold"
+print_run: 50
+rookie_card: false
+autograph: true
+relic: false
+serial_numbered: true
+release_date: "2026-06-11"
+image_url: "https://example.com/cards/2026-topps-series-2/baseball-stars-autographs-BSA-BB-gold.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Topps#Insertion_Ratios"

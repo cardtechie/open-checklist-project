@@ -1,0 +1,24 @@
+number: "CN-10"
+uuid: "259169e1-2de3-4ef4-b5ad-6f767ea3297f"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-topps-series-2"
+subjects:
+  - name: "Aaron Judge"
+    role: "Player"
+    team: "New York Yankees"
+subset: "Crooked Numbers"
+card_name: "Aaron Judge - Crooked Numbers - Black Foil"
+description: "Black Foil parallel of Crooked Numbers card featuring Aaron Judge."
+series: "2026 Topps Baseball"
+parallel: "Black Foil"
+print_run: 10
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: true
+release_date: "2026-06-11"
+image_url: "https://example.com/cards/2026-topps-series-2/crooked-numbers-CN-10-black-foil.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Topps#Insertion_Ratios"

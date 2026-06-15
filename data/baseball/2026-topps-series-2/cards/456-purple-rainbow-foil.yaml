@@ -1,0 +1,23 @@
+number: "456"
+uuid: "ffdb53d9-f43c-479f-bb1b-d4d1d36e2b57"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-topps-series-2"
+subjects:
+  - name: "Justin Dean"
+    role: "Player"
+    team: "Chicago Cubs"
+card_name: "Justin Dean - Base - Purple Rainbow Foil"
+description: "Purple Rainbow Foil parallel of Base card featuring Justin Dean."
+series: "2026 Topps Baseball"
+parallel: "Purple Rainbow Foil"
+print_run: 250
+rookie_card: true
+autograph: false
+relic: false
+serial_numbered: true
+release_date: "2026-06-11"
+image_url: "https://example.com/cards/2026-topps-series-2/456-purple-rainbow-foil.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Topps#Insertion_Ratios"

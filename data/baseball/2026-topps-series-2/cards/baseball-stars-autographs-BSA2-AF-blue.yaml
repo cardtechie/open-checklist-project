@@ -1,0 +1,24 @@
+number: "BSA2-AF"
+uuid: "1ebbdf9f-6a0d-47a1-a121-aeee3c745494"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-topps-series-2"
+subjects:
+  - name: "Alex Freeland"
+    role: "Player"
+    team: "Los Angeles Dodgers"
+subset: "Baseball Stars Autographs"
+card_name: "Alex Freeland - Baseball Stars Autographs - Blue"
+description: "Blue parallel of Autographed Baseball Stars Autographs card featuring Alex Freeland."
+series: "2026 Topps Baseball"
+parallel: "Blue"
+print_run: 150
+rookie_card: false
+autograph: true
+relic: false
+serial_numbered: true
+release_date: "2026-06-11"
+image_url: "https://example.com/cards/2026-topps-series-2/baseball-stars-autographs-BSA2-AF-blue.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Topps#Insertion_Ratios"

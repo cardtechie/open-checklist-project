@@ -1,0 +1,24 @@
+number: "MLM2-RAJ"
+uuid: "f1465f02-4cff-4a53-8a4f-ac7876ab7d05"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-topps-series-2"
+subjects:
+  - name: "Ronald Acuña Jr."
+    role: "Player"
+    team: "Atlanta Braves"
+subset: "Major League Material"
+card_name: "Ronald Acuña Jr. - Major League Material - Gold"
+description: "Gold parallel of Major League Material memorabilia card featuring Ronald Acuña Jr.."
+series: "2026 Topps Baseball"
+parallel: "Gold"
+print_run: 50
+rookie_card: false
+autograph: false
+relic: true
+serial_numbered: true
+release_date: "2026-06-11"
+image_url: "https://example.com/cards/2026-topps-series-2/major-league-material-MLM2-RAJ-gold.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Topps#Insertion_Ratios"

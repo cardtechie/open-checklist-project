@@ -1,0 +1,24 @@
+number: "MLM2-AJ"
+uuid: "83a7205e-6cee-4b5c-aef5-637be057e34f"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-topps-series-2"
+subjects:
+  - name: "Aaron Judge"
+    role: "Player"
+    team: "New York Yankees"
+subset: "Major League Material"
+card_name: "Aaron Judge - Major League Material - Dual Autograph Platinum"
+description: "Dual Autograph Platinum parallel of Major League Material memorabilia card featuring Aaron Judge."
+series: "2026 Topps Baseball"
+parallel: "Dual Autograph Platinum"
+print_run: 1
+rookie_card: false
+autograph: false
+relic: true
+serial_numbered: true
+release_date: "2026-06-11"
+image_url: "https://example.com/cards/2026-topps-series-2/major-league-material-MLM2-AJ-dual-autograph-platinum.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Topps#Insertion_Ratios"

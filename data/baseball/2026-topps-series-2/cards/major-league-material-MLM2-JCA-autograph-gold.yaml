@@ -1,0 +1,24 @@
+number: "MLM2-JCA"
+uuid: "3f05bd07-7837-448c-8101-7888cc2e77fb"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-topps-series-2"
+subjects:
+  - name: "Jac Caglianone"
+    role: "Player"
+    team: "Kansas City Royals"
+subset: "Major League Material"
+card_name: "Jac Caglianone - Major League Material - Autograph Gold"
+description: "Autograph Gold parallel of Major League Material memorabilia card featuring Jac Caglianone."
+series: "2026 Topps Baseball"
+parallel: "Autograph Gold"
+print_run: 50
+rookie_card: false
+autograph: false
+relic: true
+serial_numbered: true
+release_date: "2026-06-11"
+image_url: "https://example.com/cards/2026-topps-series-2/major-league-material-MLM2-JCA-autograph-gold.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Topps#Insertion_Ratios"

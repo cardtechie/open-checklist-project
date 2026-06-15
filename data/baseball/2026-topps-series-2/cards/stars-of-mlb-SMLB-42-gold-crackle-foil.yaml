@@ -1,0 +1,24 @@
+number: "SMLB-42"
+uuid: "af862d0f-7fe6-48ed-b600-9763c6046f5e"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-topps-series-2"
+subjects:
+  - name: "Freddie Freeman"
+    role: "Player"
+    team: "Los Angeles Dodgers"
+subset: "Stars Of MLB"
+card_name: "Freddie Freeman - Stars Of MLB - Gold Crackle Foil"
+description: "Gold Crackle Foil parallel of Stars Of MLB card featuring Freddie Freeman."
+series: "2026 Topps Baseball"
+parallel: "Gold Crackle Foil"
+print_run: 50
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: true
+release_date: "2026-06-11"
+image_url: "https://example.com/cards/2026-topps-series-2/stars-of-mlb-SMLB-42-gold-crackle-foil.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Topps#Insertion_Ratios"

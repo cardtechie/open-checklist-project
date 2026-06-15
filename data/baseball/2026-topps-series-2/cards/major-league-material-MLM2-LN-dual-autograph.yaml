@@ -1,0 +1,23 @@
+number: "MLM2-LN"
+uuid: "cd6d9cb2-c993-47b0-9eca-fe1f125fbcbe"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-topps-series-2"
+subjects:
+  - name: "Lars Nootbaar"
+    role: "Player"
+    team: "St. Louis Cardinals"
+subset: "Major League Material"
+card_name: "Lars Nootbaar - Major League Material - Dual Autograph"
+description: "Dual Autograph parallel of Major League Material memorabilia card featuring Lars Nootbaar."
+series: "2026 Topps Baseball"
+parallel: "Dual Autograph"
+rookie_card: false
+autograph: false
+relic: true
+serial_numbered: false
+release_date: "2026-06-11"
+image_url: "https://example.com/cards/2026-topps-series-2/major-league-material-MLM2-LN-dual-autograph.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Topps#Insertion_Ratios"

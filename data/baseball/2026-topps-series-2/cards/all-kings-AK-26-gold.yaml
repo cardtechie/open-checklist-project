@@ -1,0 +1,24 @@
+number: "AK-26"
+uuid: "e3bf2282-8ad8-4217-a6cb-ad97f6ddad54"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-topps-series-2"
+subjects:
+  - name: "Bryce Eldridge"
+    role: "Player"
+    team: "San Francisco Giants"
+subset: "All Kings"
+card_name: "Bryce Eldridge - All Kings - Gold"
+description: "Gold parallel of All Kings card featuring Bryce Eldridge."
+series: "2026 Topps Baseball"
+parallel: "Gold"
+print_run: 1
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: true
+release_date: "2026-06-11"
+image_url: "https://example.com/cards/2026-topps-series-2/all-kings-AK-26-gold.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Topps#Insertion_Ratios"

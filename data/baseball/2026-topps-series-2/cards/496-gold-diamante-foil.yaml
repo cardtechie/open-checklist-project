@@ -1,0 +1,23 @@
+number: "496"
+uuid: "9d24e9d6-eac2-4fb1-b987-41f06dbec3c1"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-topps-series-2"
+subjects:
+  - name: "San Francisco Giants"
+    role: "Team"
+    team: "San Francisco Giants"
+card_name: "San Francisco Giants - Base - Gold Diamante Foil"
+description: "Gold Diamante Foil parallel of Base card featuring San Francisco Giants."
+series: "2026 Topps Baseball"
+parallel: "Gold Diamante Foil"
+print_run: 50
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: true
+release_date: "2026-06-11"
+image_url: "https://example.com/cards/2026-topps-series-2/496-gold-diamante-foil.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Topps#Insertion_Ratios"

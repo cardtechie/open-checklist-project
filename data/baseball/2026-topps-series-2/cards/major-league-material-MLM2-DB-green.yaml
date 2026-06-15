@@ -1,0 +1,24 @@
+number: "MLM2-DB"
+uuid: "74b6fcd7-f1df-4a02-8f0a-b8269ff7c45c"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-topps-series-2"
+subjects:
+  - name: "Drake Baldwin"
+    role: "Player"
+    team: "Atlanta Braves"
+subset: "Major League Material"
+card_name: "Drake Baldwin - Major League Material - Green"
+description: "Green parallel of Major League Material memorabilia card featuring Drake Baldwin."
+series: "2026 Topps Baseball"
+parallel: "Green"
+print_run: 99
+rookie_card: false
+autograph: false
+relic: true
+serial_numbered: true
+release_date: "2026-06-11"
+image_url: "https://example.com/cards/2026-topps-series-2/major-league-material-MLM2-DB-green.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Topps#Insertion_Ratios"

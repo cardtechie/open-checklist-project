@@ -1,0 +1,24 @@
+number: "TOG-32"
+uuid: "984d3389-0ab0-4353-ac30-f4a6a5d257ab"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-topps-series-2"
+subjects:
+  - name: "Francisco Lindor"
+    role: "Player"
+    team: "New York Mets"
+subset: "Titans Of The Game"
+card_name: "Francisco Lindor - Titans Of The Game - Orange Foil"
+description: "Orange Foil parallel of Titans Of The Game card featuring Francisco Lindor."
+series: "2026 Topps Baseball"
+parallel: "Orange Foil"
+print_run: 25
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: true
+release_date: "2026-06-11"
+image_url: "https://example.com/cards/2026-topps-series-2/titans-of-the-game-TOG-32-orange-foil.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Topps#Insertion_Ratios"

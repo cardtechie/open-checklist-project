@@ -1,0 +1,23 @@
+number: "387"
+uuid: "9d2cff3c-590d-4357-bf70-5d677f9582f2"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-topps-series-2"
+subjects:
+  - name: "Drew Sommers"
+    role: "Player"
+    team: "Detroit Tigers"
+card_name: "Drew Sommers - Base - Gold"
+description: "Gold parallel of Base card featuring Drew Sommers."
+series: "2026 Topps Baseball"
+parallel: "Gold"
+print_run: 2026
+rookie_card: true
+autograph: false
+relic: false
+serial_numbered: true
+release_date: "2026-06-11"
+image_url: "https://example.com/cards/2026-topps-series-2/387-gold.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Topps#Insertion_Ratios"

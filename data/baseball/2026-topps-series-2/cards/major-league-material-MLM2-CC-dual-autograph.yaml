@@ -1,0 +1,23 @@
+number: "MLM2-CC"
+uuid: "4af9e68f-2571-42ae-b413-d2ce3f0f7709"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-topps-series-2"
+subjects:
+  - name: "Carlos Correa"
+    role: "Player"
+    team: "Houston Astros"
+subset: "Major League Material"
+card_name: "Carlos Correa - Major League Material - Dual Autograph"
+description: "Dual Autograph parallel of Major League Material memorabilia card featuring Carlos Correa."
+series: "2026 Topps Baseball"
+parallel: "Dual Autograph"
+rookie_card: false
+autograph: false
+relic: true
+serial_numbered: false
+release_date: "2026-06-11"
+image_url: "https://example.com/cards/2026-topps-series-2/major-league-material-MLM2-CC-dual-autograph.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Topps#Insertion_Ratios"

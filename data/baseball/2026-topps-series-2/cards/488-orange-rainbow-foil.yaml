@@ -1,0 +1,23 @@
+number: "488"
+uuid: "0e9ed415-9262-49b3-a5a4-bd8d232ca5f3"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-topps-series-2"
+subjects:
+  - name: "Cincinnati Reds"
+    role: "Team"
+    team: "Cincinnati Reds"
+card_name: "Cincinnati Reds - Base - Orange Rainbow Foil"
+description: "Orange Rainbow Foil parallel of Base card featuring Cincinnati Reds."
+series: "2026 Topps Baseball"
+parallel: "Orange Rainbow Foil"
+print_run: 25
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: true
+release_date: "2026-06-11"
+image_url: "https://example.com/cards/2026-topps-series-2/488-orange-rainbow-foil.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Topps#Insertion_Ratios"

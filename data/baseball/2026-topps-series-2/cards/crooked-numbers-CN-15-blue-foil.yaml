@@ -1,0 +1,24 @@
+number: "CN-15"
+uuid: "5c117cf8-0535-43b6-8aa3-ad8ccaecd67c"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-topps-series-2"
+subjects:
+  - name: "Sandy Koufax"
+    role: "Player"
+    team: "Los Angeles Dodgers"
+subset: "Crooked Numbers"
+card_name: "Sandy Koufax - Crooked Numbers - Blue Foil"
+description: "Blue Foil parallel of Crooked Numbers card featuring Sandy Koufax."
+series: "2026 Topps Baseball"
+parallel: "Blue Foil"
+print_run: 150
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: true
+release_date: "2026-06-11"
+image_url: "https://example.com/cards/2026-topps-series-2/crooked-numbers-CN-15-blue-foil.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Topps#Insertion_Ratios"

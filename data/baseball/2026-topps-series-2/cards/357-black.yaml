@@ -1,0 +1,23 @@
+number: "357"
+uuid: "42012813-e663-4935-930e-e95dcf2e3272"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-topps-series-2"
+subjects:
+  - name: "Gavin Lux"
+    role: "Player"
+    team: "Tampa Bay Rays"
+card_name: "Gavin Lux - Base - Black"
+description: "Black parallel of Base card featuring Gavin Lux."
+series: "2026 Topps Baseball"
+parallel: "Black"
+print_run: 75
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: true
+release_date: "2026-06-11"
+image_url: "https://example.com/cards/2026-topps-series-2/357-black.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Topps#Insertion_Ratios"

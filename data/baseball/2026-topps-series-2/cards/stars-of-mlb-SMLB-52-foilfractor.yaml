@@ -1,0 +1,24 @@
+number: "SMLB-52"
+uuid: "83533c17-3193-41a7-955d-3c0383c8cb07"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-topps-series-2"
+subjects:
+  - name: "Bryce Eldridge"
+    role: "Player"
+    team: "San Francisco Giants"
+subset: "Stars Of MLB"
+card_name: "Bryce Eldridge - Stars Of MLB - FoilFractor"
+description: "FoilFractor parallel of Stars Of MLB card featuring Bryce Eldridge."
+series: "2026 Topps Baseball"
+parallel: "FoilFractor"
+print_run: 1
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: true
+release_date: "2026-06-11"
+image_url: "https://example.com/cards/2026-topps-series-2/stars-of-mlb-SMLB-52-foilfractor.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Topps#Insertion_Ratios"

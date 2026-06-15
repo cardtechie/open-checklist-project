@@ -1,0 +1,24 @@
+number: "560"
+uuid: "34aeaff8-5a9f-4f58-a45d-ebdb9cce822d"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-topps-series-2"
+subjects:
+  - name: "Jarren Duran"
+    role: "Player"
+    team: "Boston Red Sox"
+subset: "Real One Relics"
+card_name: "Jarren Duran - Real One Relics - Gold Foil"
+description: "Gold Foil parallel of Real One Relics memorabilia card featuring Jarren Duran."
+series: "2026 Topps Baseball"
+parallel: "Gold Foil"
+print_run: 50
+rookie_card: false
+autograph: false
+relic: true
+serial_numbered: true
+release_date: "2026-06-11"
+image_url: "https://example.com/cards/2026-topps-series-2/real-one-relics-560-gold-foil.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Topps#Insertion_Ratios"

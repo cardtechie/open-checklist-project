@@ -1,0 +1,23 @@
+number: "665"
+uuid: "0d2525fd-a301-4f9d-9d58-00c20c7074d4"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-topps-series-2"
+subjects:
+  - name: "Jose Corniell"
+    role: "Player"
+    team: "Texas Rangers"
+card_name: "Jose Corniell - Base - Sandglitter Red"
+description: "Sandglitter Red parallel of Base card featuring Jose Corniell."
+series: "2026 Topps Baseball"
+parallel: "Sandglitter Red"
+print_run: 5
+rookie_card: true
+autograph: false
+relic: false
+serial_numbered: true
+release_date: "2026-06-11"
+image_url: "https://example.com/cards/2026-topps-series-2/665-sandglitter-red.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Topps#Insertion_Ratios"

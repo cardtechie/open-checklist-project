@@ -1,0 +1,23 @@
+number: "488"
+uuid: "75d6ec26-063d-48f4-88e0-d1c87b4c4b8e"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-topps-series-2"
+subjects:
+  - name: "Cincinnati Reds"
+    role: "Team"
+    team: "Cincinnati Reds"
+card_name: "Cincinnati Reds - Base - Gold Holo Foil"
+description: "Gold Holo Foil parallel of Base card featuring Cincinnati Reds."
+series: "2026 Topps Baseball"
+parallel: "Gold Holo Foil"
+print_run: 50
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: true
+release_date: "2026-06-11"
+image_url: "https://example.com/cards/2026-topps-series-2/488-gold-holo-foil.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Topps#Insertion_Ratios"

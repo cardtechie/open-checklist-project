@@ -1,0 +1,23 @@
+number: "538"
+uuid: "1a280a53-b5d2-430d-a149-ffb153603f4d"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-topps-series-2"
+subjects:
+  - name: "Tommy Nance"
+    role: "Player"
+    team: "Toronto Blue Jays"
+card_name: "Tommy Nance - Base - Gold"
+description: "Gold parallel of Base card featuring Tommy Nance."
+series: "2026 Topps Baseball"
+parallel: "Gold"
+print_run: 2026
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: true
+release_date: "2026-06-11"
+image_url: "https://example.com/cards/2026-topps-series-2/538-gold.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Topps#Insertion_Ratios"

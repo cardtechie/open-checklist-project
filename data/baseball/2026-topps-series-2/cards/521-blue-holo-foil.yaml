@@ -1,0 +1,23 @@
+number: "521"
+uuid: "e0b5aac6-fe8a-46ba-863a-b0c078882d61"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-topps-series-2"
+subjects:
+  - name: "Henry Davis"
+    role: "Player"
+    team: "Pittsburgh Pirates"
+card_name: "Henry Davis - Base - Blue Holo Foil"
+description: "Blue Holo Foil parallel of Base card featuring Henry Davis."
+series: "2026 Topps Baseball"
+parallel: "Blue Holo Foil"
+print_run: 150
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: true
+release_date: "2026-06-11"
+image_url: "https://example.com/cards/2026-topps-series-2/521-blue-holo-foil.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Topps#Insertion_Ratios"

@@ -1,0 +1,19 @@
+number: "DD-3"
+uuid: "c4421857-7e23-482a-ab8b-90c9fa73e154"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-topps-series-2"
+subjects:
+  - name: "Juan Soto"
+    role: "Player"
+    team: "New York Mets"
+subset: "Diamond Dust"
+card_name: "Juan Soto - Diamond Dust"
+description: "Diamond Dust card featuring Juan Soto."
+series: "2026 Topps Baseball"
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: false
+release_date: "2026-06-11"
+image_url: "https://example.com/cards/2026-topps-series-2/diamond-dust-DD-3.jpg"

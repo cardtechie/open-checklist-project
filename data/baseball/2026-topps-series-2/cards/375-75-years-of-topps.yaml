@@ -1,0 +1,23 @@
+number: "375"
+uuid: "b68d4d38-408c-446b-a1bf-1f0df1f0e6df"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-topps-series-2"
+subjects:
+  - name: "Denzel Clarke"
+    role: "Player"
+    team: "Athletics"
+card_name: "Denzel Clarke - Base - 75 Years Of Topps"
+description: "75 Years Of Topps parallel of Base card featuring Denzel Clarke."
+series: "2026 Topps Baseball"
+parallel: "75 Years Of Topps"
+print_run: 75
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: true
+release_date: "2026-06-11"
+image_url: "https://example.com/cards/2026-topps-series-2/375-75-years-of-topps.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Topps#Insertion_Ratios"

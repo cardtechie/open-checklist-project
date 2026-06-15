@@ -1,0 +1,22 @@
+number: "700"
+uuid: "5012c88d-5c62-4af9-a31f-4194d642fdce"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-topps-series-2"
+subjects:
+  - name: "Freddie Freeman"
+    role: "Player"
+    team: "Los Angeles Dodgers"
+card_name: "Freddie Freeman - Base - Aqua Holo"
+description: "Aqua Holo parallel of Base card featuring Freddie Freeman."
+series: "2026 Topps Baseball"
+parallel: "Aqua Holo"
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: false
+release_date: "2026-06-11"
+image_url: "https://example.com/cards/2026-topps-series-2/700-aqua-holo.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Topps#Insertion_Ratios"

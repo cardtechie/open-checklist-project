@@ -1,0 +1,23 @@
+number: "502"
+uuid: "b8551041-e6ff-4a9b-85f7-0772809a5e0e"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-topps-series-2"
+subjects:
+  - name: "Miguel Rojas"
+    role: "Player"
+    team: "Los Angeles Dodgers"
+card_name: "Miguel Rojas - Base - Black"
+description: "Black parallel of Base card featuring Miguel Rojas."
+series: "2026 Topps Baseball"
+parallel: "Black"
+print_run: 75
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: true
+release_date: "2026-06-11"
+image_url: "https://example.com/cards/2026-topps-series-2/502-black.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Topps#Insertion_Ratios"

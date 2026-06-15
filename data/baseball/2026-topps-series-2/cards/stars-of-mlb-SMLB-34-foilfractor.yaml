@@ -1,0 +1,24 @@
+number: "SMLB-34"
+uuid: "ba6f6ad4-fc0f-4659-b2a4-95a07b0bba03"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-topps-series-2"
+subjects:
+  - name: "Payton Tolle"
+    role: "Player"
+    team: "Boston Red Sox"
+subset: "Stars Of MLB"
+card_name: "Payton Tolle - Stars Of MLB - FoilFractor"
+description: "FoilFractor parallel of Stars Of MLB card featuring Payton Tolle."
+series: "2026 Topps Baseball"
+parallel: "FoilFractor"
+print_run: 1
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: true
+release_date: "2026-06-11"
+image_url: "https://example.com/cards/2026-topps-series-2/stars-of-mlb-SMLB-34-foilfractor.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Topps#Insertion_Ratios"

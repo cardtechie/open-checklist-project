@@ -1,0 +1,23 @@
+number: "MLM2-SB"
+uuid: "7dc4f24e-628a-4e13-a263-0c552f79ccb2"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-topps-series-2"
+subjects:
+  - name: "Samuel Basallo"
+    role: "Player"
+    team: "Baltimore Orioles"
+subset: "Major League Material"
+card_name: "Samuel Basallo - Major League Material - Dual Autograph"
+description: "Dual Autograph parallel of Major League Material memorabilia card featuring Samuel Basallo."
+series: "2026 Topps Baseball"
+parallel: "Dual Autograph"
+rookie_card: false
+autograph: false
+relic: true
+serial_numbered: false
+release_date: "2026-06-11"
+image_url: "https://example.com/cards/2026-topps-series-2/major-league-material-MLM2-SB-dual-autograph.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Topps#Insertion_Ratios"

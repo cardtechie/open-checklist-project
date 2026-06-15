@@ -1,0 +1,23 @@
+number: "612"
+uuid: "e1785a40-5a8d-4b0c-a090-32cde99100a1"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-topps-series-2"
+subjects:
+  - name: "José Fermín"
+    role: "Player"
+    team: "St. Louis Cardinals"
+card_name: "José Fermín - Base - All-Star Game Green"
+description: "All-Star Game Green parallel of Base card featuring José Fermín."
+series: "2026 Topps Baseball"
+parallel: "All-Star Game Green"
+print_run: 99
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: true
+release_date: "2026-06-11"
+image_url: "https://example.com/cards/2026-topps-series-2/612-all-star-game-green.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Topps#Insertion_Ratios"

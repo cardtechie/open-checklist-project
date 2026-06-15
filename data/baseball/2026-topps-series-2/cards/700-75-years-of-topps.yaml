@@ -1,0 +1,23 @@
+number: "700"
+uuid: "357d4e4d-86cd-4a5a-aa33-d449965ec041"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-topps-series-2"
+subjects:
+  - name: "Freddie Freeman"
+    role: "Player"
+    team: "Los Angeles Dodgers"
+card_name: "Freddie Freeman - Base - 75 Years Of Topps"
+description: "75 Years Of Topps parallel of Base card featuring Freddie Freeman."
+series: "2026 Topps Baseball"
+parallel: "75 Years Of Topps"
+print_run: 75
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: true
+release_date: "2026-06-11"
+image_url: "https://example.com/cards/2026-topps-series-2/700-75-years-of-topps.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Topps#Insertion_Ratios"

@@ -1,0 +1,23 @@
+number: "353"
+uuid: "37a4d850-9391-412d-a1f5-f443a1b12b15"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-topps-series-2"
+subjects:
+  - name: "St. Louis Cardinals"
+    role: "Team"
+    team: "St. Louis Cardinals"
+card_name: "St. Louis Cardinals - Base - Gold Holo Foil"
+description: "Gold Holo Foil parallel of Base card featuring St. Louis Cardinals."
+series: "2026 Topps Baseball"
+parallel: "Gold Holo Foil"
+print_run: 50
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: true
+release_date: "2026-06-11"
+image_url: "https://example.com/cards/2026-topps-series-2/353-gold-holo-foil.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Topps#Insertion_Ratios"

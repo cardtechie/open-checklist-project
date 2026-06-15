@@ -1,0 +1,23 @@
+number: "353"
+uuid: "0422b15a-c1a4-4c1a-b50f-131f6c6d4ca6"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-topps-series-2"
+subjects:
+  - name: "St. Louis Cardinals"
+    role: "Team"
+    team: "St. Louis Cardinals"
+card_name: "St. Louis Cardinals - Base - 75 Years Of Topps"
+description: "75 Years Of Topps parallel of Base card featuring St. Louis Cardinals."
+series: "2026 Topps Baseball"
+parallel: "75 Years Of Topps"
+print_run: 75
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: true
+release_date: "2026-06-11"
+image_url: "https://example.com/cards/2026-topps-series-2/353-75-years-of-topps.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Topps#Insertion_Ratios"

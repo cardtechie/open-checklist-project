@@ -1,0 +1,23 @@
+number: "523"
+uuid: "43f8a2b3-8711-4c46-a2c2-fcaf9c1d091f"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-topps-series-2"
+subjects:
+  - name: "Heston Kjerstad"
+    role: "Player"
+    team: "Baltimore Orioles"
+card_name: "Heston Kjerstad - Base - Blue Holo Foil"
+description: "Blue Holo Foil parallel of Base card featuring Heston Kjerstad."
+series: "2026 Topps Baseball"
+parallel: "Blue Holo Foil"
+print_run: 150
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: true
+release_date: "2026-06-11"
+image_url: "https://example.com/cards/2026-topps-series-2/523-blue-holo-foil.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Topps#Insertion_Ratios"

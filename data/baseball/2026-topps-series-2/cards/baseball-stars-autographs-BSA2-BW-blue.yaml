@@ -1,0 +1,24 @@
+number: "BSA2-BW"
+uuid: "0f69c644-d2c2-4b29-b1a7-9ecaff1f8a3d"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-topps-series-2"
+subjects:
+  - name: "Bryan Woo"
+    role: "Player"
+    team: "Seattle Mariners"
+subset: "Baseball Stars Autographs"
+card_name: "Bryan Woo - Baseball Stars Autographs - Blue"
+description: "Blue parallel of Autographed Baseball Stars Autographs card featuring Bryan Woo."
+series: "2026 Topps Baseball"
+parallel: "Blue"
+print_run: 150
+rookie_card: false
+autograph: true
+relic: false
+serial_numbered: true
+release_date: "2026-06-11"
+image_url: "https://example.com/cards/2026-topps-series-2/baseball-stars-autographs-BSA2-BW-blue.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Topps#Insertion_Ratios"

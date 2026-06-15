@@ -1,0 +1,24 @@
+number: "SWS-25"
+uuid: "d1ff6c0d-5a2c-44d9-b83e-c91983c88184"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-topps-series-2"
+subjects:
+  - name: "Jackie Robinson"
+    role: "Player"
+    team: "Brooklyn Dodgers"
+subset: "Swinging With The Stars"
+card_name: "Jackie Robinson - Swinging With The Stars - Chrome SuperFractor"
+description: "Chrome SuperFractor parallel of Swinging With The Stars card featuring Jackie Robinson."
+series: "2026 Topps Baseball"
+parallel: "Chrome SuperFractor"
+print_run: 1
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: true
+release_date: "2026-06-11"
+image_url: "https://example.com/cards/2026-topps-series-2/swinging-with-the-stars-SWS-25-chrome-superfractor.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Topps#Insertion_Ratios"

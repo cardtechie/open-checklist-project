@@ -1,0 +1,24 @@
+number: "BSA2-TH"
+uuid: "a5fd8849-325d-4c49-a7e3-1b31c9f31b2b"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-topps-series-2"
+subjects:
+  - name: "Tim Hudson"
+    role: "Player"
+    team: "Atlanta Braves"
+subset: "Baseball Stars Autographs"
+card_name: "Tim Hudson - Baseball Stars Autographs - Red"
+description: "Red parallel of Autographed Baseball Stars Autographs card featuring Tim Hudson."
+series: "2026 Topps Baseball"
+parallel: "Red"
+print_run: 5
+rookie_card: false
+autograph: true
+relic: false
+serial_numbered: true
+release_date: "2026-06-11"
+image_url: "https://example.com/cards/2026-topps-series-2/baseball-stars-autographs-BSA2-TH-red.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Topps#Insertion_Ratios"

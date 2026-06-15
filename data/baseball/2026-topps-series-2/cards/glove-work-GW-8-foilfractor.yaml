@@ -1,0 +1,24 @@
+number: "GW-8"
+uuid: "410fdf00-2e9d-410a-86b1-f574d20c50c6"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-topps-series-2"
+subjects:
+  - name: "Andruw Jones"
+    role: "Player"
+    team: "Atlanta Braves"
+subset: "Glove Work"
+card_name: "Andruw Jones - Glove Work - FoilFractor"
+description: "FoilFractor parallel of Glove Work card featuring Andruw Jones."
+series: "2026 Topps Baseball"
+parallel: "FoilFractor"
+print_run: 1
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: true
+release_date: "2026-06-11"
+image_url: "https://example.com/cards/2026-topps-series-2/glove-work-GW-8-foilfractor.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Topps#Insertion_Ratios"

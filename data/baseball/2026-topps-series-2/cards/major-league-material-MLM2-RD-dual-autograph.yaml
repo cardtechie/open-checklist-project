@@ -1,0 +1,23 @@
+number: "MLM2-RD"
+uuid: "9cb48e4c-a92f-4679-bc53-aaead4346d62"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-topps-series-2"
+subjects:
+  - name: "Rafael Devers"
+    role: "Player"
+    team: "San Francisco Giants"
+subset: "Major League Material"
+card_name: "Rafael Devers - Major League Material - Dual Autograph"
+description: "Dual Autograph parallel of Major League Material memorabilia card featuring Rafael Devers."
+series: "2026 Topps Baseball"
+parallel: "Dual Autograph"
+rookie_card: false
+autograph: false
+relic: true
+serial_numbered: false
+release_date: "2026-06-11"
+image_url: "https://example.com/cards/2026-topps-series-2/major-league-material-MLM2-RD-dual-autograph.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Topps#Insertion_Ratios"

@@ -1,0 +1,23 @@
+number: "545"
+uuid: "7a6b4b9d-75a0-444f-87e3-307881e12476"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-topps-series-2"
+subjects:
+  - name: "Austin Hedges"
+    role: "Player"
+    team: "Cleveland Guardians"
+card_name: "Austin Hedges - Base - All-Star Game Red"
+description: "All-Star Game Red parallel of Base card featuring Austin Hedges."
+series: "2026 Topps Baseball"
+parallel: "All-Star Game Red"
+print_run: 5
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: true
+release_date: "2026-06-11"
+image_url: "https://example.com/cards/2026-topps-series-2/545-all-star-game-red.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Topps#Insertion_Ratios"

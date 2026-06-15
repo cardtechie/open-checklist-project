@@ -1,0 +1,23 @@
+number: "598"
+uuid: "952f0f87-bf15-480f-b9de-b23a1e977a07"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-topps-series-2"
+subjects:
+  - name: "Jack Winkler"
+    role: "Player"
+    team: "Houston Astros"
+card_name: "Jack Winkler - Base - Gold"
+description: "Gold parallel of Base card featuring Jack Winkler."
+series: "2026 Topps Baseball"
+parallel: "Gold"
+print_run: 2026
+rookie_card: true
+autograph: false
+relic: false
+serial_numbered: true
+release_date: "2026-06-11"
+image_url: "https://example.com/cards/2026-topps-series-2/598-gold.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Topps#Insertion_Ratios"

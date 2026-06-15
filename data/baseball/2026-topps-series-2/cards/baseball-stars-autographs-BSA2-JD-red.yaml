@@ -1,0 +1,24 @@
+number: "BSA2-JD"
+uuid: "5ec47de8-7309-481f-b4a7-79be0b5f2109"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-topps-series-2"
+subjects:
+  - name: "Jhoan Duran"
+    role: "Player"
+    team: "Philadelphia Phillies"
+subset: "Baseball Stars Autographs"
+card_name: "Jhoan Duran - Baseball Stars Autographs - Red"
+description: "Red parallel of Autographed Baseball Stars Autographs card featuring Jhoan Duran."
+series: "2026 Topps Baseball"
+parallel: "Red"
+print_run: 5
+rookie_card: false
+autograph: true
+relic: false
+serial_numbered: true
+release_date: "2026-06-11"
+image_url: "https://example.com/cards/2026-topps-series-2/baseball-stars-autographs-BSA2-JD-red.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Topps#Insertion_Ratios"

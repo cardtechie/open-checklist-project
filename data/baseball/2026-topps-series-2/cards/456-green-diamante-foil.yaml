@@ -1,0 +1,23 @@
+number: "456"
+uuid: "51f72fe9-7d7e-4efe-859c-61590766362b"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-topps-series-2"
+subjects:
+  - name: "Justin Dean"
+    role: "Player"
+    team: "Chicago Cubs"
+card_name: "Justin Dean - Base - Green Diamante Foil"
+description: "Green Diamante Foil parallel of Base card featuring Justin Dean."
+series: "2026 Topps Baseball"
+parallel: "Green Diamante Foil"
+print_run: 99
+rookie_card: true
+autograph: false
+relic: false
+serial_numbered: true
+release_date: "2026-06-11"
+image_url: "https://example.com/cards/2026-topps-series-2/456-green-diamante-foil.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Topps#Insertion_Ratios"

@@ -1,0 +1,19 @@
+number: "FP-12"
+uuid: "d2144b73-8b1a-4fb9-b8bc-2f9256b6b0f3"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-topps-series-2"
+subjects:
+  - name: "Yandel"
+    role: "Player"
+    team: "Tampa Bay Rays"
+subset: "First Pitch"
+card_name: "Yandel - First Pitch"
+description: "First Pitch card featuring Yandel."
+series: "2026 Topps Baseball"
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: false
+release_date: "2026-06-11"
+image_url: "https://example.com/cards/2026-topps-series-2/first-pitch-FP-12.jpg"

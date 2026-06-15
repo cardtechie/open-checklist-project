@@ -1,0 +1,22 @@
+number: "500"
+uuid: "e1f13f10-844b-4c7a-9813-ca3d855953f7"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-topps-series-2"
+subjects:
+  - name: "Shohei Ohtani"
+    role: "Player"
+    team: "Los Angeles Dodgers"
+card_name: "Shohei Ohtani - Base - Pink Diamante Foil"
+description: "Pink Diamante Foil parallel of Base card featuring Shohei Ohtani."
+series: "2026 Topps Baseball"
+parallel: "Pink Diamante Foil"
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: false
+release_date: "2026-06-11"
+image_url: "https://example.com/cards/2026-topps-series-2/500-pink-diamante-foil.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Topps#Insertion_Ratios"

@@ -1,0 +1,24 @@
+number: "BSA2-CJ"
+uuid: "6e8a3b9a-8511-4588-b2f1-fef60e84f123"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-topps-series-2"
+subjects:
+  - name: "Carter Jensen"
+    role: "Player"
+    team: "Kansas City Royals"
+subset: "Baseball Stars Autographs"
+card_name: "Carter Jensen - Baseball Stars Autographs - Black"
+description: "Black parallel of Autographed Baseball Stars Autographs card featuring Carter Jensen."
+series: "2026 Topps Baseball"
+parallel: "Black"
+print_run: 10
+rookie_card: false
+autograph: true
+relic: false
+serial_numbered: true
+release_date: "2026-06-11"
+image_url: "https://example.com/cards/2026-topps-series-2/baseball-stars-autographs-BSA2-CJ-black.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Topps#Insertion_Ratios"

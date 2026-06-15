@@ -1,0 +1,22 @@
+number: "561"
+uuid: "7db51bad-1a60-4ebf-9867-3127d2bad136"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-topps-series-2"
+subjects:
+  - name: "Matt Chapman"
+    role: "Player"
+    team: "San Francisco Giants"
+card_name: "Matt Chapman - Base - All-Star Game"
+description: "All-Star Game parallel of Base card featuring Matt Chapman."
+series: "2026 Topps Baseball"
+parallel: "All-Star Game"
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: false
+release_date: "2026-06-11"
+image_url: "https://example.com/cards/2026-topps-series-2/561-all-star-game.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Topps#Insertion_Ratios"

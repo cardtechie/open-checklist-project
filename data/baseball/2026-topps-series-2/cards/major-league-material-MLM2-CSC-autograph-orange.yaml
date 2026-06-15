@@ -1,0 +1,24 @@
+number: "MLM2-CSC"
+uuid: "c0b71ce0-d0a5-4560-a313-d3dde1d89f7d"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-topps-series-2"
+subjects:
+  - name: "Cam Schlittler"
+    role: "Player"
+    team: "New York Yankees"
+subset: "Major League Material"
+card_name: "Cam Schlittler - Major League Material - Autograph Orange"
+description: "Autograph Orange parallel of Major League Material memorabilia card featuring Cam Schlittler."
+series: "2026 Topps Baseball"
+parallel: "Autograph Orange"
+print_run: 25
+rookie_card: false
+autograph: false
+relic: true
+serial_numbered: true
+release_date: "2026-06-11"
+image_url: "https://example.com/cards/2026-topps-series-2/major-league-material-MLM2-CSC-autograph-orange.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Topps#Insertion_Ratios"

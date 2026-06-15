@@ -1,0 +1,24 @@
+number: "MLM2-WL"
+uuid: "a46f603a-da42-4a92-8c96-709129dfb7ce"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-topps-series-2"
+subjects:
+  - name: "Wyatt Langford"
+    role: "Player"
+    team: "Texas Rangers"
+subset: "Major League Material"
+card_name: "Wyatt Langford - Major League Material - Autograph Red"
+description: "Autograph Red parallel of Major League Material memorabilia card featuring Wyatt Langford."
+series: "2026 Topps Baseball"
+parallel: "Autograph Red"
+print_run: 5
+rookie_card: false
+autograph: false
+relic: true
+serial_numbered: true
+release_date: "2026-06-11"
+image_url: "https://example.com/cards/2026-topps-series-2/major-league-material-MLM2-WL-autograph-red.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Topps#Insertion_Ratios"

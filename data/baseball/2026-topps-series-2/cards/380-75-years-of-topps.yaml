@@ -1,0 +1,23 @@
+number: "380"
+uuid: "5d47ff4a-2ede-4264-82b5-abfdfb78cbb7"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-topps-series-2"
+subjects:
+  - name: "Framber Valdez"
+    role: "Player"
+    team: "Detroit Tigers"
+card_name: "Framber Valdez - Base - 75 Years Of Topps"
+description: "75 Years Of Topps parallel of Base card featuring Framber Valdez."
+series: "2026 Topps Baseball"
+parallel: "75 Years Of Topps"
+print_run: 75
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: true
+release_date: "2026-06-11"
+image_url: "https://example.com/cards/2026-topps-series-2/380-75-years-of-topps.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Topps#Insertion_Ratios"

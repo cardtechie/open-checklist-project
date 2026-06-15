@@ -1,0 +1,23 @@
+number: "568"
+uuid: "11ea7050-bdcf-4def-b230-7da7be900bca"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-topps-series-2"
+subjects:
+  - name: "Ozzie Albies"
+    role: "Player"
+    team: "Atlanta Braves"
+card_name: "Ozzie Albies - Base - Independence Day"
+description: "Independence Day parallel of Base card featuring Ozzie Albies."
+series: "2026 Topps Baseball"
+parallel: "Independence Day"
+print_run: 76
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: true
+release_date: "2026-06-11"
+image_url: "https://example.com/cards/2026-topps-series-2/568-independence-day.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Topps#Insertion_Ratios"

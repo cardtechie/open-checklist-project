@@ -1,0 +1,23 @@
+number: "353"
+uuid: "0c48d49e-e1e6-4a3c-95b3-1c94ca6873fe"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-topps-series-2"
+subjects:
+  - name: "St. Louis Cardinals"
+    role: "Team"
+    team: "St. Louis Cardinals"
+card_name: "St. Louis Cardinals - Base - All-Star Game Orange"
+description: "All-Star Game Orange parallel of Base card featuring St. Louis Cardinals."
+series: "2026 Topps Baseball"
+parallel: "All-Star Game Orange"
+print_run: 25
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: true
+release_date: "2026-06-11"
+image_url: "https://example.com/cards/2026-topps-series-2/353-all-star-game-orange.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Topps#Insertion_Ratios"

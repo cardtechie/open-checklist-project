@@ -1,0 +1,24 @@
+number: "MLM2-RG"
+uuid: "0d6e7441-fd02-4b86-b9de-61b81dc3d89b"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-topps-series-2"
+subjects:
+  - name: "Riley Greene"
+    role: "Player"
+    team: "Detroit Tigers"
+subset: "Major League Material"
+card_name: "Riley Greene - Major League Material - Black"
+description: "Black parallel of Major League Material memorabilia card featuring Riley Greene."
+series: "2026 Topps Baseball"
+parallel: "Black"
+print_run: 10
+rookie_card: false
+autograph: false
+relic: true
+serial_numbered: true
+release_date: "2026-06-11"
+image_url: "https://example.com/cards/2026-topps-series-2/major-league-material-MLM2-RG-black.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Topps#Insertion_Ratios"

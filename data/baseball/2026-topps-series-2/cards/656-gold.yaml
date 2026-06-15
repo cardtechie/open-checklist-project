@@ -1,0 +1,23 @@
+number: "656"
+uuid: "48cc84df-4cd0-45c9-ab4e-5ba0644cdbc8"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-topps-series-2"
+subjects:
+  - name: "Aroldis Chapman"
+    role: "Player"
+    team: "Boston Red Sox"
+card_name: "Aroldis Chapman - Base - Gold"
+description: "Gold parallel of Base card featuring Aroldis Chapman."
+series: "2026 Topps Baseball"
+parallel: "Gold"
+print_run: 2026
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: true
+release_date: "2026-06-11"
+image_url: "https://example.com/cards/2026-topps-series-2/656-gold.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Topps#Insertion_Ratios"

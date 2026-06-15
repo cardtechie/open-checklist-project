@@ -1,0 +1,23 @@
+number: "500"
+uuid: "e171d818-66d4-46c1-84de-9efb0c3feec1"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-topps-series-2"
+subjects:
+  - name: "Shohei Ohtani"
+    role: "Player"
+    team: "Los Angeles Dodgers"
+card_name: "Shohei Ohtani - Base - Sandglitter Gold"
+description: "Sandglitter Gold parallel of Base card featuring Shohei Ohtani."
+series: "2026 Topps Baseball"
+parallel: "Sandglitter Gold"
+print_run: 50
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: true
+release_date: "2026-06-11"
+image_url: "https://example.com/cards/2026-topps-series-2/500-sandglitter-gold.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Topps#Insertion_Ratios"

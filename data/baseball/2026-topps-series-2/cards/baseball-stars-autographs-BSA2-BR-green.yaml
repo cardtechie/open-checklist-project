@@ -1,0 +1,24 @@
+number: "BSA2-BR"
+uuid: "eae44cce-44b1-4ba0-bc84-7ba50479623c"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-topps-series-2"
+subjects:
+  - name: "Billy Ripken"
+    role: "Player"
+    team: "Baltimore Orioles"
+subset: "Baseball Stars Autographs"
+card_name: "Billy Ripken - Baseball Stars Autographs - Green"
+description: "Green parallel of Autographed Baseball Stars Autographs card featuring Billy Ripken."
+series: "2026 Topps Baseball"
+parallel: "Green"
+print_run: 99
+rookie_card: false
+autograph: true
+relic: false
+serial_numbered: true
+release_date: "2026-06-11"
+image_url: "https://example.com/cards/2026-topps-series-2/baseball-stars-autographs-BSA2-BR-green.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Topps#Insertion_Ratios"

@@ -1,0 +1,24 @@
+number: "MLM2-NH"
+uuid: "51250587-5ac3-4871-8429-b2cf7c7d6b71"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-topps-series-2"
+subjects:
+  - name: "Nico Hoerner"
+    role: "Player"
+    team: "Chicago Cubs"
+subset: "Major League Material"
+card_name: "Nico Hoerner - Major League Material - Autograph Gold"
+description: "Autograph Gold parallel of Major League Material memorabilia card featuring Nico Hoerner."
+series: "2026 Topps Baseball"
+parallel: "Autograph Gold"
+print_run: 50
+rookie_card: false
+autograph: false
+relic: true
+serial_numbered: true
+release_date: "2026-06-11"
+image_url: "https://example.com/cards/2026-topps-series-2/major-league-material-MLM2-NH-autograph-gold.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Topps#Insertion_Ratios"

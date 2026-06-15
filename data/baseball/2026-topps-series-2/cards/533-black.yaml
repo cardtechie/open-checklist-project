@@ -1,0 +1,23 @@
+number: "533"
+uuid: "7d8c54a6-6fcd-430a-90d0-8d32e6c357f3"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-topps-series-2"
+subjects:
+  - name: "Jasson Domínguez"
+    role: "Player"
+    team: "New York Yankees"
+card_name: "Jasson Domínguez - Base - Black"
+description: "Black parallel of Base card featuring Jasson Domínguez."
+series: "2026 Topps Baseball"
+parallel: "Black"
+print_run: 75
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: true
+release_date: "2026-06-11"
+image_url: "https://example.com/cards/2026-topps-series-2/533-black.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Topps#Insertion_Ratios"

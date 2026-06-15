@@ -1,0 +1,23 @@
+number: "543"
+uuid: "6ef2cb0b-b495-40c3-9418-06dd9fd4aa83"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-topps-series-2"
+subjects:
+  - name: "Jonny DeLuca"
+    role: "Player"
+    team: "Tampa Bay Rays"
+card_name: "Jonny DeLuca - Base - Green Diamante Foil"
+description: "Green Diamante Foil parallel of Base card featuring Jonny DeLuca."
+series: "2026 Topps Baseball"
+parallel: "Green Diamante Foil"
+print_run: 99
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: true
+release_date: "2026-06-11"
+image_url: "https://example.com/cards/2026-topps-series-2/543-green-diamante-foil.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Topps#Insertion_Ratios"

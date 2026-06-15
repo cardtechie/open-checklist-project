@@ -1,0 +1,23 @@
+number: "531"
+uuid: "d7f78f5f-aa01-4d4f-afd8-8545c8cc9cdd"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-topps-series-2"
+subjects:
+  - name: "Alejandro Carrillo"
+    role: "Player"
+    team: "New York Mets"
+card_name: "Alejandro Carrillo - Base - FoilFractor"
+description: "FoilFractor parallel of Base card featuring Alejandro Carrillo."
+series: "2026 Topps Baseball"
+parallel: "FoilFractor"
+print_run: 1
+rookie_card: true
+autograph: false
+relic: false
+serial_numbered: true
+release_date: "2026-06-11"
+image_url: "https://example.com/cards/2026-topps-series-2/531-foilfractor.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Topps#Insertion_Ratios"

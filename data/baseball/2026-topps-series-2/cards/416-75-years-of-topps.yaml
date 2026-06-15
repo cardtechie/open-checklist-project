@@ -1,0 +1,23 @@
+number: "416"
+uuid: "b4e88825-d072-4937-9a0f-1e9bfd6f1eed"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-topps-series-2"
+subjects:
+  - name: "Austin Martin"
+    role: "Player"
+    team: "Minnesota Twins"
+card_name: "Austin Martin - Base - 75 Years Of Topps"
+description: "75 Years Of Topps parallel of Base card featuring Austin Martin."
+series: "2026 Topps Baseball"
+parallel: "75 Years Of Topps"
+print_run: 75
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: true
+release_date: "2026-06-11"
+image_url: "https://example.com/cards/2026-topps-series-2/416-75-years-of-topps.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Topps#Insertion_Ratios"

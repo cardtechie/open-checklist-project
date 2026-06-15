@@ -1,0 +1,24 @@
+number: "BSA2-DBR"
+uuid: "df1dce53-3f77-46f1-bd8e-19acec92a38b"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-topps-series-2"
+subjects:
+  - name: "David Bednar"
+    role: "Player"
+    team: "New York Yankees"
+subset: "Baseball Stars Autographs"
+card_name: "David Bednar - Baseball Stars Autographs - Red"
+description: "Red parallel of Autographed Baseball Stars Autographs card featuring David Bednar."
+series: "2026 Topps Baseball"
+parallel: "Red"
+print_run: 5
+rookie_card: false
+autograph: true
+relic: false
+serial_numbered: true
+release_date: "2026-06-11"
+image_url: "https://example.com/cards/2026-topps-series-2/baseball-stars-autographs-BSA2-DBR-red.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Topps#Insertion_Ratios"

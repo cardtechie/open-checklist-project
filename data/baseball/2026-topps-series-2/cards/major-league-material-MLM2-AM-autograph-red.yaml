@@ -1,0 +1,24 @@
+number: "MLM2-AM"
+uuid: "8e0b1aa9-9ca1-4f32-a9e7-a44ddb9f2047"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-topps-series-2"
+subjects:
+  - name: "Andrew McCutchen"
+    role: "Player"
+    team: "Pittsburgh Pirates"
+subset: "Major League Material"
+card_name: "Andrew McCutchen - Major League Material - Autograph Red"
+description: "Autograph Red parallel of Major League Material memorabilia card featuring Andrew McCutchen."
+series: "2026 Topps Baseball"
+parallel: "Autograph Red"
+print_run: 5
+rookie_card: false
+autograph: false
+relic: true
+serial_numbered: true
+release_date: "2026-06-11"
+image_url: "https://example.com/cards/2026-topps-series-2/major-league-material-MLM2-AM-autograph-red.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Topps#Insertion_Ratios"

@@ -1,0 +1,23 @@
+number: "683"
+uuid: "ccbc2529-9e00-4f4d-942a-8f821192bbb7"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-topps-series-2"
+subjects:
+  - name: "Dugan Darnell"
+    role: "Player"
+    team: "Detroit Tigers"
+card_name: "Dugan Darnell - Base - 75 Years Of Topps"
+description: "75 Years Of Topps parallel of Base card featuring Dugan Darnell."
+series: "2026 Topps Baseball"
+parallel: "75 Years Of Topps"
+print_run: 75
+rookie_card: true
+autograph: false
+relic: false
+serial_numbered: true
+release_date: "2026-06-11"
+image_url: "https://example.com/cards/2026-topps-series-2/683-75-years-of-topps.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Topps#Insertion_Ratios"

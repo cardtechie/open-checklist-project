@@ -1,0 +1,23 @@
+number: "406"
+uuid: "7221db6a-d68b-4241-947b-60f8ba10cbd4"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-topps-series-2"
+subjects:
+  - name: "Bryce Eldridge"
+    role: "Player"
+    team: "San Francisco Giants"
+card_name: "Bryce Eldridge - Base - Sandglitter Black"
+description: "Sandglitter Black parallel of Base card featuring Bryce Eldridge."
+series: "2026 Topps Baseball"
+parallel: "Sandglitter Black"
+print_run: 10
+rookie_card: true
+autograph: false
+relic: false
+serial_numbered: true
+release_date: "2026-06-11"
+image_url: "https://example.com/cards/2026-topps-series-2/406-sandglitter-black.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Topps#Insertion_Ratios"

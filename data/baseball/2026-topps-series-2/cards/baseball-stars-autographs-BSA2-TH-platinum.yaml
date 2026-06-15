@@ -1,0 +1,24 @@
+number: "BSA2-TH"
+uuid: "e4b45080-6d4b-4233-9db0-85faa3a52460"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-topps-series-2"
+subjects:
+  - name: "Tim Hudson"
+    role: "Player"
+    team: "Atlanta Braves"
+subset: "Baseball Stars Autographs"
+card_name: "Tim Hudson - Baseball Stars Autographs - Platinum"
+description: "Platinum parallel of Autographed Baseball Stars Autographs card featuring Tim Hudson."
+series: "2026 Topps Baseball"
+parallel: "Platinum"
+print_run: 1
+rookie_card: false
+autograph: true
+relic: false
+serial_numbered: true
+release_date: "2026-06-11"
+image_url: "https://example.com/cards/2026-topps-series-2/baseball-stars-autographs-BSA2-TH-platinum.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Topps#Insertion_Ratios"

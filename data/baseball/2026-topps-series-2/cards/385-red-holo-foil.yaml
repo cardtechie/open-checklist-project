@@ -1,0 +1,23 @@
+number: "385"
+uuid: "99996798-a603-4e16-b92d-70a65b83486f"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-topps-series-2"
+subjects:
+  - name: "Nick Raquet"
+    role: "Player"
+    team: "St. Louis Cardinals"
+card_name: "Nick Raquet - Base - Red Holo Foil"
+description: "Red Holo Foil parallel of Base card featuring Nick Raquet."
+series: "2026 Topps Baseball"
+parallel: "Red Holo Foil"
+print_run: 5
+rookie_card: true
+autograph: false
+relic: false
+serial_numbered: true
+release_date: "2026-06-11"
+image_url: "https://example.com/cards/2026-topps-series-2/385-red-holo-foil.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Topps#Insertion_Ratios"

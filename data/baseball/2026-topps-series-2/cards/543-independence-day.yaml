@@ -1,0 +1,23 @@
+number: "543"
+uuid: "9b01316a-4290-46c8-aca2-e2a172e1ef11"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-topps-series-2"
+subjects:
+  - name: "Jonny DeLuca"
+    role: "Player"
+    team: "Tampa Bay Rays"
+card_name: "Jonny DeLuca - Base - Independence Day"
+description: "Independence Day parallel of Base card featuring Jonny DeLuca."
+series: "2026 Topps Baseball"
+parallel: "Independence Day"
+print_run: 76
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: true
+release_date: "2026-06-11"
+image_url: "https://example.com/cards/2026-topps-series-2/543-independence-day.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Topps#Insertion_Ratios"

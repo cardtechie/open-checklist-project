@@ -1,0 +1,24 @@
+number: "GW-11"
+uuid: "f640a0c3-005e-4d5e-a6f3-25486c6eb674"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-topps-series-2"
+subjects:
+  - name: "Nolan Arenado"
+    role: "Player"
+    team: "Arizona Diamondbacks"
+subset: "Glove Work"
+card_name: "Nolan Arenado - Glove Work - Green Foil"
+description: "Green Foil parallel of Glove Work card featuring Nolan Arenado."
+series: "2026 Topps Baseball"
+parallel: "Green Foil"
+print_run: 99
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: true
+release_date: "2026-06-11"
+image_url: "https://example.com/cards/2026-topps-series-2/glove-work-GW-11-green-foil.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Topps#Insertion_Ratios"

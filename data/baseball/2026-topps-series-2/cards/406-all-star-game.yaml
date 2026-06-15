@@ -1,0 +1,22 @@
+number: "406"
+uuid: "07678d66-1037-4ff0-a0b4-93e55ca2e171"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-topps-series-2"
+subjects:
+  - name: "Bryce Eldridge"
+    role: "Player"
+    team: "San Francisco Giants"
+card_name: "Bryce Eldridge - Base - All-Star Game"
+description: "All-Star Game parallel of Base card featuring Bryce Eldridge."
+series: "2026 Topps Baseball"
+parallel: "All-Star Game"
+rookie_card: true
+autograph: false
+relic: false
+serial_numbered: false
+release_date: "2026-06-11"
+image_url: "https://example.com/cards/2026-topps-series-2/406-all-star-game.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Topps#Insertion_Ratios"

@@ -1,0 +1,24 @@
+number: "CN-16"
+uuid: "664ea213-38aa-4252-9747-5109b0987d30"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-topps-series-2"
+subjects:
+  - name: "Randy Johnson"
+    role: "Player"
+    team: "Arizona Diamondbacks"
+subset: "Crooked Numbers"
+card_name: "Randy Johnson - Crooked Numbers - Black Foil"
+description: "Black Foil parallel of Crooked Numbers card featuring Randy Johnson."
+series: "2026 Topps Baseball"
+parallel: "Black Foil"
+print_run: 10
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: true
+release_date: "2026-06-11"
+image_url: "https://example.com/cards/2026-topps-series-2/crooked-numbers-CN-16-black-foil.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Topps#Insertion_Ratios"

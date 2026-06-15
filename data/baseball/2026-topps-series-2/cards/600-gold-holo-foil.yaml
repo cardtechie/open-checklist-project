@@ -1,0 +1,23 @@
+number: "600"
+uuid: "5f88c1ee-1e0a-4e59-ba22-c71aad016a0d"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-topps-series-2"
+subjects:
+  - name: "Juan Soto"
+    role: "Player"
+    team: "New York Mets"
+card_name: "Juan Soto - Base - Gold Holo Foil"
+description: "Gold Holo Foil parallel of Base card featuring Juan Soto."
+series: "2026 Topps Baseball"
+parallel: "Gold Holo Foil"
+print_run: 50
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: true
+release_date: "2026-06-11"
+image_url: "https://example.com/cards/2026-topps-series-2/600-gold-holo-foil.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Topps#Insertion_Ratios"

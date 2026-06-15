@@ -1,0 +1,23 @@
+number: "517"
+uuid: "ae971c82-6012-4eb0-b96c-98ec2e9a84bb"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-topps-series-2"
+subjects:
+  - name: "Mike Trout"
+    role: "Player"
+    team: "Los Angeles Angels"
+card_name: "Mike Trout - Base - Cherry Blossom"
+description: "Cherry Blossom parallel of Base card featuring Mike Trout."
+series: "2026 Topps Baseball"
+parallel: "Cherry Blossom"
+print_run: 99
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: true
+release_date: "2026-06-11"
+image_url: "https://example.com/cards/2026-topps-series-2/517-cherry-blossom.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Topps#Insertion_Ratios"

@@ -1,0 +1,20 @@
+number: "ITN-WS"
+uuid: "ab4d5ee0-fcf0-4d32-a862-70ba121835fa"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-topps-series-2"
+subjects:
+  - name: "Will Smith"
+    role: "Player"
+    team: "Los Angeles Dodgers"
+subset: "In The Name Relics"
+card_name: "Will Smith - In The Name Relics"
+description: "In The Name Relics memorabilia card featuring Will Smith."
+series: "2026 Topps Baseball"
+print_run: 1
+rookie_card: false
+autograph: false
+relic: true
+serial_numbered: true
+release_date: "2026-06-11"
+image_url: "https://example.com/cards/2026-topps-series-2/in-the-name-relics-ITN-WS.jpg"

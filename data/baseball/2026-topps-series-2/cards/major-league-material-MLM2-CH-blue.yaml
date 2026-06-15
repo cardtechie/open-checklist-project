@@ -1,0 +1,24 @@
+number: "MLM2-CH"
+uuid: "a5ddeae1-e61d-4ee9-a528-01d2b3c2f2ab"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-topps-series-2"
+subjects:
+  - name: "Cade Horton"
+    role: "Player"
+    team: "Chicago Cubs"
+subset: "Major League Material"
+card_name: "Cade Horton - Major League Material - Blue"
+description: "Blue parallel of Major League Material memorabilia card featuring Cade Horton."
+series: "2026 Topps Baseball"
+parallel: "Blue"
+print_run: 150
+rookie_card: false
+autograph: false
+relic: true
+serial_numbered: true
+release_date: "2026-06-11"
+image_url: "https://example.com/cards/2026-topps-series-2/major-league-material-MLM2-CH-blue.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Topps#Insertion_Ratios"

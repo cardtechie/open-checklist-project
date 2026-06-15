@@ -1,0 +1,24 @@
+number: "MLM2-RD"
+uuid: "0a25f1f2-eb1c-4801-819f-c5e4da48bd58"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-topps-series-2"
+subjects:
+  - name: "Rafael Devers"
+    role: "Player"
+    team: "San Francisco Giants"
+subset: "Major League Material"
+card_name: "Rafael Devers - Major League Material - Green"
+description: "Green parallel of Major League Material memorabilia card featuring Rafael Devers."
+series: "2026 Topps Baseball"
+parallel: "Green"
+print_run: 99
+rookie_card: false
+autograph: false
+relic: true
+serial_numbered: true
+release_date: "2026-06-11"
+image_url: "https://example.com/cards/2026-topps-series-2/major-league-material-MLM2-RD-green.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Topps#Insertion_Ratios"

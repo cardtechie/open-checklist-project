@@ -1,0 +1,19 @@
+number: "CN-18"
+uuid: "ff6d5e73-86f1-4c26-aee8-0811a71e6197"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-topps-series-2"
+subjects:
+  - name: "Mickey Mantle"
+    role: "Player"
+    team: "New York Yankees"
+subset: "Crooked Numbers"
+card_name: "Mickey Mantle - Crooked Numbers"
+description: "Crooked Numbers card featuring Mickey Mantle."
+series: "2026 Topps Baseball"
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: false
+release_date: "2026-06-11"
+image_url: "https://example.com/cards/2026-topps-series-2/crooked-numbers-CN-18.jpg"

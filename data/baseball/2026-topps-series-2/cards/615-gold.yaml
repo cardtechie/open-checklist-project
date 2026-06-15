@@ -1,0 +1,23 @@
+number: "615"
+uuid: "1ceaa653-aa17-48ee-ba26-7af559f03a94"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-topps-series-2"
+subjects:
+  - name: "Taylor Rashi"
+    role: "Player"
+    team: "Arizona Diamondbacks"
+card_name: "Taylor Rashi - Base - Gold"
+description: "Gold parallel of Base card featuring Taylor Rashi."
+series: "2026 Topps Baseball"
+parallel: "Gold"
+print_run: 2026
+rookie_card: true
+autograph: false
+relic: false
+serial_numbered: true
+release_date: "2026-06-11"
+image_url: "https://example.com/cards/2026-topps-series-2/615-gold.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Topps#Insertion_Ratios"

@@ -1,0 +1,24 @@
+number: "450"
+uuid: "0504cade-256f-4991-9bd4-0fbb8cc00a30"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-topps-series-2"
+subjects:
+  - name: "Gerrit Cole"
+    role: "Player"
+    team: "New York Yankees"
+subset: "Real One Relics"
+card_name: "Gerrit Cole - Real One Relics - Red Foil"
+description: "Red Foil parallel of Real One Relics memorabilia card featuring Gerrit Cole."
+series: "2026 Topps Baseball"
+parallel: "Red Foil"
+print_run: 5
+rookie_card: false
+autograph: false
+relic: true
+serial_numbered: true
+release_date: "2026-06-11"
+image_url: "https://example.com/cards/2026-topps-series-2/real-one-relics-450-red-foil.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Topps#Insertion_Ratios"

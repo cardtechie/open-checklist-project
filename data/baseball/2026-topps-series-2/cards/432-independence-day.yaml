@@ -1,0 +1,23 @@
+number: "432"
+uuid: "9cf1b51e-4d6d-4c12-b053-68bd3f7bae36"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-topps-series-2"
+subjects:
+  - name: "Ryan Feltner"
+    role: "Player"
+    team: "Colorado Rockies"
+card_name: "Ryan Feltner - Base - Independence Day"
+description: "Independence Day parallel of Base card featuring Ryan Feltner."
+series: "2026 Topps Baseball"
+parallel: "Independence Day"
+print_run: 76
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: true
+release_date: "2026-06-11"
+image_url: "https://example.com/cards/2026-topps-series-2/432-independence-day.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Topps#Insertion_Ratios"

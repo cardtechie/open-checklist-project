@@ -1,0 +1,23 @@
+number: "403"
+uuid: "73fdf69b-6e84-41be-a324-d443dd6d9829"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-topps-series-2"
+subjects:
+  - name: "Bryce Johnson"
+    role: "Player"
+    team: "San Diego Padres"
+card_name: "Bryce Johnson - Base - FoilFractor"
+description: "FoilFractor parallel of Base card featuring Bryce Johnson."
+series: "2026 Topps Baseball"
+parallel: "FoilFractor"
+print_run: 1
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: true
+release_date: "2026-06-11"
+image_url: "https://example.com/cards/2026-topps-series-2/403-foilfractor.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Topps#Insertion_Ratios"

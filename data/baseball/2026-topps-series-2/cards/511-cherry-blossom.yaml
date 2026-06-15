@@ -1,0 +1,23 @@
+number: "511"
+uuid: "4e206092-7690-46e2-93a6-af0d99d4ba25"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-topps-series-2"
+subjects:
+  - name: "Jayvien Sandridge"
+    role: "Player"
+    team: "Los Angeles Angels"
+card_name: "Jayvien Sandridge - Base - Cherry Blossom"
+description: "Cherry Blossom parallel of Base card featuring Jayvien Sandridge."
+series: "2026 Topps Baseball"
+parallel: "Cherry Blossom"
+print_run: 99
+rookie_card: true
+autograph: false
+relic: false
+serial_numbered: true
+release_date: "2026-06-11"
+image_url: "https://example.com/cards/2026-topps-series-2/511-cherry-blossom.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Topps#Insertion_Ratios"

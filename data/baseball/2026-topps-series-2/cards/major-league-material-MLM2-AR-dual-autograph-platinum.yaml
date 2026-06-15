@@ -1,0 +1,24 @@
+number: "MLM2-AR"
+uuid: "cb1e1698-e924-4969-90c7-4596a3b94077"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-topps-series-2"
+subjects:
+  - name: "Austin Riley"
+    role: "Player"
+    team: "Atlanta Braves"
+subset: "Major League Material"
+card_name: "Austin Riley - Major League Material - Dual Autograph Platinum"
+description: "Dual Autograph Platinum parallel of Major League Material memorabilia card featuring Austin Riley."
+series: "2026 Topps Baseball"
+parallel: "Dual Autograph Platinum"
+print_run: 1
+rookie_card: false
+autograph: false
+relic: true
+serial_numbered: true
+release_date: "2026-06-11"
+image_url: "https://example.com/cards/2026-topps-series-2/major-league-material-MLM2-AR-dual-autograph-platinum.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Topps#Insertion_Ratios"

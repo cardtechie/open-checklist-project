@@ -1,0 +1,23 @@
+number: "678"
+uuid: "62fc9beb-f830-450d-bb61-c504efe1bd38"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-topps-series-2"
+subjects:
+  - name: "Darell Hernaiz"
+    role: "Player"
+    team: "Athletics"
+card_name: "Darell Hernaiz - Base - Cherry Blossom"
+description: "Cherry Blossom parallel of Base card featuring Darell Hernaiz."
+series: "2026 Topps Baseball"
+parallel: "Cherry Blossom"
+print_run: 99
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: true
+release_date: "2026-06-11"
+image_url: "https://example.com/cards/2026-topps-series-2/678-cherry-blossom.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Topps#Insertion_Ratios"

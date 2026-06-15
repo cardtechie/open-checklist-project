@@ -1,0 +1,24 @@
+number: "MLM2-JCA"
+uuid: "1197c28b-4326-47dc-ba31-b413989c32dd"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-topps-series-2"
+subjects:
+  - name: "Jac Caglianone"
+    role: "Player"
+    team: "Kansas City Royals"
+subset: "Major League Material"
+card_name: "Jac Caglianone - Major League Material - Blue"
+description: "Blue parallel of Major League Material memorabilia card featuring Jac Caglianone."
+series: "2026 Topps Baseball"
+parallel: "Blue"
+print_run: 150
+rookie_card: false
+autograph: false
+relic: true
+serial_numbered: true
+release_date: "2026-06-11"
+image_url: "https://example.com/cards/2026-topps-series-2/major-league-material-MLM2-JCA-blue.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Topps#Insertion_Ratios"

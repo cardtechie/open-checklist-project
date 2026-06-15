@@ -1,0 +1,24 @@
+number: "BSA2-SR"
+uuid: "f5d5c622-086e-44fd-b51d-2ce9db42d7ac"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-topps-series-2"
+subjects:
+  - name: "Scott Rolen"
+    role: "Player"
+    team: "St. Louis Cardinals"
+subset: "Baseball Stars Autographs"
+card_name: "Scott Rolen - Baseball Stars Autographs - Platinum"
+description: "Platinum parallel of Autographed Baseball Stars Autographs card featuring Scott Rolen."
+series: "2026 Topps Baseball"
+parallel: "Platinum"
+print_run: 1
+rookie_card: false
+autograph: true
+relic: false
+serial_numbered: true
+release_date: "2026-06-11"
+image_url: "https://example.com/cards/2026-topps-series-2/baseball-stars-autographs-BSA2-SR-platinum.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Topps#Insertion_Ratios"

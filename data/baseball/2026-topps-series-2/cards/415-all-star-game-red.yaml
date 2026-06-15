@@ -1,0 +1,23 @@
+number: "415"
+uuid: "af26b5bd-5397-4859-a34a-695d85485e30"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-topps-series-2"
+subjects:
+  - name: "Justin Verlander"
+    role: "Player"
+    team: "Detroit Tigers"
+card_name: "Justin Verlander - Base - All-Star Game Red"
+description: "All-Star Game Red parallel of Base card featuring Justin Verlander."
+series: "2026 Topps Baseball"
+parallel: "All-Star Game Red"
+print_run: 5
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: true
+release_date: "2026-06-11"
+image_url: "https://example.com/cards/2026-topps-series-2/415-all-star-game-red.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Topps#Insertion_Ratios"

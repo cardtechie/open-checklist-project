@@ -1,0 +1,24 @@
+number: "CN-11"
+uuid: "0310d429-891c-4591-8e43-b7b8c2534515"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-topps-series-2"
+subjects:
+  - name: "Elly De La Cruz"
+    role: "Player"
+    team: "Cincinnati Reds"
+subset: "Crooked Numbers"
+card_name: "Elly De La Cruz - Crooked Numbers - FoilFractor"
+description: "FoilFractor parallel of Crooked Numbers card featuring Elly De La Cruz."
+series: "2026 Topps Baseball"
+parallel: "FoilFractor"
+print_run: 1
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: true
+release_date: "2026-06-11"
+image_url: "https://example.com/cards/2026-topps-series-2/crooked-numbers-CN-11-foilfractor.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Topps#Insertion_Ratios"

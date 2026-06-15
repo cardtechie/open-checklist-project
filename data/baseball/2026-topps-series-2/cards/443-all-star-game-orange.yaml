@@ -1,0 +1,23 @@
+number: "443"
+uuid: "6f47348c-f64a-47db-a63b-40c0b9ed26d5"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-topps-series-2"
+subjects:
+  - name: "Kazuma Okamoto"
+    role: "Player"
+    team: "Toronto Blue Jays"
+card_name: "Kazuma Okamoto - Base - All-Star Game Orange"
+description: "All-Star Game Orange parallel of Base card featuring Kazuma Okamoto."
+series: "2026 Topps Baseball"
+parallel: "All-Star Game Orange"
+print_run: 25
+rookie_card: true
+autograph: false
+relic: false
+serial_numbered: true
+release_date: "2026-06-11"
+image_url: "https://example.com/cards/2026-topps-series-2/443-all-star-game-orange.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Topps#Insertion_Ratios"

@@ -1,0 +1,24 @@
+number: "MLM2-CCS"
+uuid: "e635bc2b-9320-46b2-9a05-e1fe626ac2d9"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-topps-series-2"
+subjects:
+  - name: "CC Sabathia"
+    role: "Player"
+    team: "New York Yankees"
+subset: "Major League Material"
+card_name: "CC Sabathia - Major League Material - Orange"
+description: "Orange parallel of Major League Material memorabilia card featuring CC Sabathia."
+series: "2026 Topps Baseball"
+parallel: "Orange"
+print_run: 25
+rookie_card: false
+autograph: false
+relic: true
+serial_numbered: true
+release_date: "2026-06-11"
+image_url: "https://example.com/cards/2026-topps-series-2/major-league-material-MLM2-CCS-orange.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Topps#Insertion_Ratios"

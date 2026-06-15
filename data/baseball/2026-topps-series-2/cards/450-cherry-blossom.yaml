@@ -1,0 +1,23 @@
+number: "450"
+uuid: "a9966af4-3a83-4bbf-a3f3-22cb64a1347b"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-topps-series-2"
+subjects:
+  - name: "Gerrit Cole"
+    role: "Player"
+    team: "New York Yankees"
+card_name: "Gerrit Cole - Base - Cherry Blossom"
+description: "Cherry Blossom parallel of Base card featuring Gerrit Cole."
+series: "2026 Topps Baseball"
+parallel: "Cherry Blossom"
+print_run: 99
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: true
+release_date: "2026-06-11"
+image_url: "https://example.com/cards/2026-topps-series-2/450-cherry-blossom.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Topps#Insertion_Ratios"

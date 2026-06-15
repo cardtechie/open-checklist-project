@@ -1,0 +1,22 @@
+number: "405"
+uuid: "7e0d8bae-b2b8-4dc9-b858-d3988c586aa1"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-topps-series-2"
+subjects:
+  - name: "PJ Poulin"
+    role: "Player"
+    team: "Washington Nationals"
+card_name: "PJ Poulin - Base - All-Star Game"
+description: "All-Star Game parallel of Base card featuring PJ Poulin."
+series: "2026 Topps Baseball"
+parallel: "All-Star Game"
+rookie_card: true
+autograph: false
+relic: false
+serial_numbered: false
+release_date: "2026-06-11"
+image_url: "https://example.com/cards/2026-topps-series-2/405-all-star-game.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Topps#Insertion_Ratios"

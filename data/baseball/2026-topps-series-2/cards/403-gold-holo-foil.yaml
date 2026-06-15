@@ -1,0 +1,23 @@
+number: "403"
+uuid: "46bb83d8-3391-43ed-bb00-520622ca0a2b"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-topps-series-2"
+subjects:
+  - name: "Bryce Johnson"
+    role: "Player"
+    team: "San Diego Padres"
+card_name: "Bryce Johnson - Base - Gold Holo Foil"
+description: "Gold Holo Foil parallel of Base card featuring Bryce Johnson."
+series: "2026 Topps Baseball"
+parallel: "Gold Holo Foil"
+print_run: 50
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: true
+release_date: "2026-06-11"
+image_url: "https://example.com/cards/2026-topps-series-2/403-gold-holo-foil.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Topps#Insertion_Ratios"

@@ -1,0 +1,24 @@
+number: "468"
+uuid: "2b1b5338-8920-4e09-bd02-c7e9ffa05348"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-topps-series-2"
+subjects:
+  - name: "Yordan Alvarez"
+    role: "Player"
+    team: "Houston Astros"
+subset: "Real One Relics"
+card_name: "Yordan Alvarez - Real One Relics - Gold Foil"
+description: "Gold Foil parallel of Real One Relics memorabilia card featuring Yordan Alvarez."
+series: "2026 Topps Baseball"
+parallel: "Gold Foil"
+print_run: 50
+rookie_card: false
+autograph: false
+relic: true
+serial_numbered: true
+release_date: "2026-06-11"
+image_url: "https://example.com/cards/2026-topps-series-2/real-one-relics-468-gold-foil.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Topps#Insertion_Ratios"

@@ -1,0 +1,23 @@
+number: "473"
+uuid: "5ee6e949-8bd6-4c47-82a1-3328a567fa5c"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-topps-series-2"
+subjects:
+  - name: "Bo Bichette"
+    role: "Player"
+    team: "New York Mets"
+card_name: "Bo Bichette - Base - Canvas"
+description: "Canvas parallel of Base card featuring Bo Bichette."
+series: "2026 Topps Baseball"
+parallel: "Canvas"
+print_run: 50
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: true
+release_date: "2026-06-11"
+image_url: "https://example.com/cards/2026-topps-series-2/473-canvas.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Topps#Insertion_Ratios"

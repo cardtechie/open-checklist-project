@@ -1,0 +1,22 @@
+number: "492"
+uuid: "36ad535c-4366-4d72-8e9d-72e2156bed34"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-topps-series-2"
+subjects:
+  - name: "Cleveland Guardians"
+    role: "Team"
+    team: "Cleveland Guardians"
+card_name: "Cleveland Guardians - Base - All-Star Game"
+description: "All-Star Game parallel of Base card featuring Cleveland Guardians."
+series: "2026 Topps Baseball"
+parallel: "All-Star Game"
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: false
+release_date: "2026-06-11"
+image_url: "https://example.com/cards/2026-topps-series-2/492-all-star-game.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Topps#Insertion_Ratios"

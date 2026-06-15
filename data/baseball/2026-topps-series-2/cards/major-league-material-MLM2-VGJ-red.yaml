@@ -1,0 +1,24 @@
+number: "MLM2-VGJ"
+uuid: "2a40ebc5-3fbb-428b-ad57-6ef96723eca2"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-topps-series-2"
+subjects:
+  - name: "Vladimir Guerrero Jr."
+    role: "Player"
+    team: "Toronto Blue Jays"
+subset: "Major League Material"
+card_name: "Vladimir Guerrero Jr. - Major League Material - Red"
+description: "Red parallel of Major League Material memorabilia card featuring Vladimir Guerrero Jr.."
+series: "2026 Topps Baseball"
+parallel: "Red"
+print_run: 5
+rookie_card: false
+autograph: false
+relic: true
+serial_numbered: true
+release_date: "2026-06-11"
+image_url: "https://example.com/cards/2026-topps-series-2/major-league-material-MLM2-VGJ-red.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Topps#Insertion_Ratios"

@@ -1,0 +1,24 @@
+number: "CN-13"
+uuid: "24261156-6481-4355-b0f3-6bd2c0da71f3"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-topps-series-2"
+subjects:
+  - name: "Kyle Schwarber"
+    role: "Player"
+    team: "Philadelphia Phillies"
+subset: "Crooked Numbers"
+card_name: "Kyle Schwarber - Crooked Numbers - Green Foil"
+description: "Green Foil parallel of Crooked Numbers card featuring Kyle Schwarber."
+series: "2026 Topps Baseball"
+parallel: "Green Foil"
+print_run: 99
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: true
+release_date: "2026-06-11"
+image_url: "https://example.com/cards/2026-topps-series-2/crooked-numbers-CN-13-green-foil.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Topps#Insertion_Ratios"

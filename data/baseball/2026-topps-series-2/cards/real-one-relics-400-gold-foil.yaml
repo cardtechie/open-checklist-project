@@ -1,0 +1,24 @@
+number: "400"
+uuid: "18ebec11-8591-44cb-90ee-c4d5240799e8"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-topps-series-2"
+subjects:
+  - name: "Pete Alonso"
+    role: "Player"
+    team: "Baltimore Orioles"
+subset: "Real One Relics"
+card_name: "Pete Alonso - Real One Relics - Gold Foil"
+description: "Gold Foil parallel of Real One Relics memorabilia card featuring Pete Alonso."
+series: "2026 Topps Baseball"
+parallel: "Gold Foil"
+print_run: 50
+rookie_card: false
+autograph: false
+relic: true
+serial_numbered: true
+release_date: "2026-06-11"
+image_url: "https://example.com/cards/2026-topps-series-2/real-one-relics-400-gold-foil.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Topps#Insertion_Ratios"

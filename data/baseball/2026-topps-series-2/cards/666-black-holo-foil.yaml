@@ -1,0 +1,23 @@
+number: "666"
+uuid: "1284e975-d62a-43ce-829d-e0e707ce7fe4"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-topps-series-2"
+subjects:
+  - name: "Nolan Hoffman"
+    role: "Player"
+    team: "Philadelphia Phillies"
+card_name: "Nolan Hoffman - Base - Black Holo Foil"
+description: "Black Holo Foil parallel of Base card featuring Nolan Hoffman."
+series: "2026 Topps Baseball"
+parallel: "Black Holo Foil"
+print_run: 10
+rookie_card: true
+autograph: false
+relic: false
+serial_numbered: true
+release_date: "2026-06-11"
+image_url: "https://example.com/cards/2026-topps-series-2/666-black-holo-foil.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Topps#Insertion_Ratios"

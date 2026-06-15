@@ -1,0 +1,23 @@
+number: "386"
+uuid: "df5ef5aa-3089-4f78-9c88-e3bed3fb81b1"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-topps-series-2"
+subjects:
+  - name: "Luis Curvelo"
+    role: "Player"
+    team: "Texas Rangers"
+card_name: "Luis Curvelo - Base - Red Rainbow Foil"
+description: "Red Rainbow Foil parallel of Base card featuring Luis Curvelo."
+series: "2026 Topps Baseball"
+parallel: "Red Rainbow Foil"
+print_run: 5
+rookie_card: true
+autograph: false
+relic: false
+serial_numbered: true
+release_date: "2026-06-11"
+image_url: "https://example.com/cards/2026-topps-series-2/386-red-rainbow-foil.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Topps#Insertion_Ratios"

@@ -1,0 +1,23 @@
+number: "SWS-1"
+uuid: "761a3bfc-9aef-49c2-b119-faafce409dfb"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-topps-series-2"
+subjects:
+  - name: "Shohei Ohtani"
+    role: "Player"
+    team: "Los Angeles Dodgers"
+subset: "Swinging With The Stars"
+card_name: "Shohei Ohtani - Swinging With The Stars - Chrome"
+description: "Chrome parallel of Swinging With The Stars card featuring Shohei Ohtani."
+series: "2026 Topps Baseball"
+parallel: "Chrome"
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: false
+release_date: "2026-06-11"
+image_url: "https://example.com/cards/2026-topps-series-2/swinging-with-the-stars-SWS-1-chrome.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Topps#Insertion_Ratios"

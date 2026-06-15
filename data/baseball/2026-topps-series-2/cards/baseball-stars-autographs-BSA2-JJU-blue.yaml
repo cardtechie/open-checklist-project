@@ -1,0 +1,24 @@
+number: "BSA2-JJU"
+uuid: "1a723ff3-2698-4b9b-a3ef-52da1fa19a75"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-topps-series-2"
+subjects:
+  - name: "Josh Jung"
+    role: "Player"
+    team: "Texas Rangers"
+subset: "Baseball Stars Autographs"
+card_name: "Josh Jung - Baseball Stars Autographs - Blue"
+description: "Blue parallel of Autographed Baseball Stars Autographs card featuring Josh Jung."
+series: "2026 Topps Baseball"
+parallel: "Blue"
+print_run: 150
+rookie_card: false
+autograph: true
+relic: false
+serial_numbered: true
+release_date: "2026-06-11"
+image_url: "https://example.com/cards/2026-topps-series-2/baseball-stars-autographs-BSA2-JJU-blue.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Topps#Insertion_Ratios"

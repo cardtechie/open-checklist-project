@@ -1,0 +1,24 @@
+number: "MLM2-TSO"
+uuid: "d9385274-9515-4283-a9db-f67f68c4c0ea"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-topps-series-2"
+subjects:
+  - name: "Tyler Soderstrom"
+    role: "Player"
+    team: "Athletics"
+subset: "Major League Material"
+card_name: "Tyler Soderstrom - Major League Material - Black"
+description: "Black parallel of Major League Material memorabilia card featuring Tyler Soderstrom."
+series: "2026 Topps Baseball"
+parallel: "Black"
+print_run: 10
+rookie_card: false
+autograph: false
+relic: true
+serial_numbered: true
+release_date: "2026-06-11"
+image_url: "https://example.com/cards/2026-topps-series-2/major-league-material-MLM2-TSO-black.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Topps#Insertion_Ratios"

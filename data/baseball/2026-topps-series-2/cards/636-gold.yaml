@@ -1,0 +1,23 @@
+number: "636"
+uuid: "d549c5f0-85d1-4eb8-9325-67dfe5399f21"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-topps-series-2"
+subjects:
+  - name: "Joe Musgrove"
+    role: "Player"
+    team: "San Diego Padres"
+card_name: "Joe Musgrove - Base - Gold"
+description: "Gold parallel of Base card featuring Joe Musgrove."
+series: "2026 Topps Baseball"
+parallel: "Gold"
+print_run: 2026
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: true
+release_date: "2026-06-11"
+image_url: "https://example.com/cards/2026-topps-series-2/636-gold.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Topps#Insertion_Ratios"

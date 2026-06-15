@@ -1,0 +1,23 @@
+number: "400"
+uuid: "65e51582-a861-4f0d-b279-12b731152d84"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-topps-series-2"
+subjects:
+  - name: "Pete Alonso"
+    role: "Player"
+    team: "Baltimore Orioles"
+card_name: "Pete Alonso - Base - Orange Rainbow Foil"
+description: "Orange Rainbow Foil parallel of Base card featuring Pete Alonso."
+series: "2026 Topps Baseball"
+parallel: "Orange Rainbow Foil"
+print_run: 25
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: true
+release_date: "2026-06-11"
+image_url: "https://example.com/cards/2026-topps-series-2/400-orange-rainbow-foil.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Topps#Insertion_Ratios"

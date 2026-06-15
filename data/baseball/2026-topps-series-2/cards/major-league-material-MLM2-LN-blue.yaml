@@ -1,0 +1,24 @@
+number: "MLM2-LN"
+uuid: "45b8e635-3250-4d07-9710-bdfb717acd7c"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-topps-series-2"
+subjects:
+  - name: "Lars Nootbaar"
+    role: "Player"
+    team: "St. Louis Cardinals"
+subset: "Major League Material"
+card_name: "Lars Nootbaar - Major League Material - Blue"
+description: "Blue parallel of Major League Material memorabilia card featuring Lars Nootbaar."
+series: "2026 Topps Baseball"
+parallel: "Blue"
+print_run: 150
+rookie_card: false
+autograph: false
+relic: true
+serial_numbered: true
+release_date: "2026-06-11"
+image_url: "https://example.com/cards/2026-topps-series-2/major-league-material-MLM2-LN-blue.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Topps#Insertion_Ratios"

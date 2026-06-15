@@ -1,0 +1,24 @@
+number: "MLM2-JA"
+uuid: "348aab06-c647-4bf9-953b-62582d2172ce"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-topps-series-2"
+subjects:
+  - name: "Jose Altuve"
+    role: "Player"
+    team: "Houston Astros"
+subset: "Major League Material"
+card_name: "Jose Altuve - Major League Material - Green"
+description: "Green parallel of Major League Material memorabilia card featuring Jose Altuve."
+series: "2026 Topps Baseball"
+parallel: "Green"
+print_run: 99
+rookie_card: false
+autograph: false
+relic: true
+serial_numbered: true
+release_date: "2026-06-11"
+image_url: "https://example.com/cards/2026-topps-series-2/major-league-material-MLM2-JA-green.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Topps#Insertion_Ratios"

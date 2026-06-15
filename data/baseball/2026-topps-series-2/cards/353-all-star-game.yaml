@@ -1,0 +1,22 @@
+number: "353"
+uuid: "52cec03d-7829-42a9-b61f-e9b22481cce5"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-topps-series-2"
+subjects:
+  - name: "St. Louis Cardinals"
+    role: "Team"
+    team: "St. Louis Cardinals"
+card_name: "St. Louis Cardinals - Base - All-Star Game"
+description: "All-Star Game parallel of Base card featuring St. Louis Cardinals."
+series: "2026 Topps Baseball"
+parallel: "All-Star Game"
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: false
+release_date: "2026-06-11"
+image_url: "https://example.com/cards/2026-topps-series-2/353-all-star-game.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Topps#Insertion_Ratios"

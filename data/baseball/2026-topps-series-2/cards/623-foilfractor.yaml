@@ -1,0 +1,23 @@
+number: "623"
+uuid: "ec34de04-8faf-4353-8d21-961a8ef640a1"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-topps-series-2"
+subjects:
+  - name: "Rafael Flores"
+    role: "Player"
+    team: "Pittsburgh Pirates"
+card_name: "Rafael Flores - Base - FoilFractor"
+description: "FoilFractor parallel of Base card featuring Rafael Flores."
+series: "2026 Topps Baseball"
+parallel: "FoilFractor"
+print_run: 1
+rookie_card: true
+autograph: false
+relic: false
+serial_numbered: true
+release_date: "2026-06-11"
+image_url: "https://example.com/cards/2026-topps-series-2/623-foilfractor.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Topps#Insertion_Ratios"

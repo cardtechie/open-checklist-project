@@ -1,0 +1,23 @@
+number: "456"
+uuid: "3769d3ad-ee84-459e-8f53-ba4c2268237d"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-topps-series-2"
+subjects:
+  - name: "Justin Dean"
+    role: "Player"
+    team: "Chicago Cubs"
+card_name: "Justin Dean - Base - Rose Gold Holo Foil"
+description: "Rose Gold Holo Foil parallel of Base card featuring Justin Dean."
+series: "2026 Topps Baseball"
+parallel: "Rose Gold Holo Foil"
+print_run: 1
+rookie_card: true
+autograph: false
+relic: false
+serial_numbered: true
+release_date: "2026-06-11"
+image_url: "https://example.com/cards/2026-topps-series-2/456-rose-gold-holo-foil.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Topps#Insertion_Ratios"

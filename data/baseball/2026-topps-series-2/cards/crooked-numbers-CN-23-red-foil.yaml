@@ -1,0 +1,24 @@
+number: "CN-23"
+uuid: "27d14a14-cdd5-4fe5-90b9-babaa31834cb"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-topps-series-2"
+subjects:
+  - name: "Clayton Kershaw"
+    role: "Player"
+    team: "Los Angeles Dodgers"
+subset: "Crooked Numbers"
+card_name: "Clayton Kershaw - Crooked Numbers - Red Foil"
+description: "Red Foil parallel of Crooked Numbers card featuring Clayton Kershaw."
+series: "2026 Topps Baseball"
+parallel: "Red Foil"
+print_run: 5
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: true
+release_date: "2026-06-11"
+image_url: "https://example.com/cards/2026-topps-series-2/crooked-numbers-CN-23-red-foil.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Topps#Insertion_Ratios"

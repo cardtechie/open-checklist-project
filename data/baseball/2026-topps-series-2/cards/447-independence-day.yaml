@@ -1,0 +1,23 @@
+number: "447"
+uuid: "d146f3e1-1cb6-4df1-a3fa-eaefb075bcdd"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-topps-series-2"
+subjects:
+  - name: "Joe Boyle"
+    role: "Player"
+    team: "Tampa Bay Rays"
+card_name: "Joe Boyle - Base - Independence Day"
+description: "Independence Day parallel of Base card featuring Joe Boyle."
+series: "2026 Topps Baseball"
+parallel: "Independence Day"
+print_run: 76
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: true
+release_date: "2026-06-11"
+image_url: "https://example.com/cards/2026-topps-series-2/447-independence-day.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Topps#Insertion_Ratios"

@@ -1,0 +1,23 @@
+number: "609"
+uuid: "1e100de0-839c-40d5-ad64-75275d266990"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-topps-series-2"
+subjects:
+  - name: "Mitch Farris"
+    role: "Player"
+    team: "Los Angeles Angels"
+card_name: "Mitch Farris - Base - Memorial Day Camo"
+description: "Memorial Day Camo parallel of Base card featuring Mitch Farris."
+series: "2026 Topps Baseball"
+parallel: "Memorial Day Camo"
+print_run: 25
+rookie_card: true
+autograph: false
+relic: false
+serial_numbered: true
+release_date: "2026-06-11"
+image_url: "https://example.com/cards/2026-topps-series-2/609-memorial-day-camo.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Topps#Insertion_Ratios"

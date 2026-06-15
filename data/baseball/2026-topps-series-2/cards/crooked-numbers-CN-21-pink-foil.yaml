@@ -1,0 +1,23 @@
+number: "CN-21"
+uuid: "18be8129-907a-48bd-b824-4701455b0404"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-topps-series-2"
+subjects:
+  - name: "Tony Gwynn"
+    role: "Player"
+    team: "San Diego Padres"
+subset: "Crooked Numbers"
+card_name: "Tony Gwynn - Crooked Numbers - Pink Foil"
+description: "Pink Foil parallel of Crooked Numbers card featuring Tony Gwynn."
+series: "2026 Topps Baseball"
+parallel: "Pink Foil"
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: false
+release_date: "2026-06-11"
+image_url: "https://example.com/cards/2026-topps-series-2/crooked-numbers-CN-21-pink-foil.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Topps#Insertion_Ratios"

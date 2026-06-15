@@ -1,0 +1,23 @@
+number: "680"
+uuid: "ced6d6ff-30ac-4865-8229-1d53c716ec74"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-topps-series-2"
+subjects:
+  - name: "Carlos Correa"
+    role: "Player"
+    team: "Houston Astros"
+card_name: "Carlos Correa - Base - Black"
+description: "Black parallel of Base card featuring Carlos Correa."
+series: "2026 Topps Baseball"
+parallel: "Black"
+print_run: 75
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: true
+release_date: "2026-06-11"
+image_url: "https://example.com/cards/2026-topps-series-2/680-black.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Topps#Insertion_Ratios"

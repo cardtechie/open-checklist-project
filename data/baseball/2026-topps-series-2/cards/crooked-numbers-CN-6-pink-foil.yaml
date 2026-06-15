@@ -1,0 +1,23 @@
+number: "CN-6"
+uuid: "0997da1a-c689-43d3-82e8-3c3320bf8881"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-topps-series-2"
+subjects:
+  - name: "Mark McGwire"
+    role: "Player"
+    team: "St. Louis Cardinals"
+subset: "Crooked Numbers"
+card_name: "Mark McGwire - Crooked Numbers - Pink Foil"
+description: "Pink Foil parallel of Crooked Numbers card featuring Mark McGwire."
+series: "2026 Topps Baseball"
+parallel: "Pink Foil"
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: false
+release_date: "2026-06-11"
+image_url: "https://example.com/cards/2026-topps-series-2/crooked-numbers-CN-6-pink-foil.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Topps#Insertion_Ratios"

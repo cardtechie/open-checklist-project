@@ -1,0 +1,24 @@
+number: "GW-31"
+uuid: "174b8eac-b43d-4ac5-8312-def631cbb660"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-topps-series-2"
+subjects:
+  - name: "Julio Rodríguez"
+    role: "Player"
+    team: "Seattle Mariners"
+subset: "Glove Work"
+card_name: "Julio Rodríguez - Glove Work - FoilFractor"
+description: "FoilFractor parallel of Glove Work card featuring Julio Rodríguez."
+series: "2026 Topps Baseball"
+parallel: "FoilFractor"
+print_run: 1
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: true
+release_date: "2026-06-11"
+image_url: "https://example.com/cards/2026-topps-series-2/glove-work-GW-31-foilfractor.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Topps#Insertion_Ratios"

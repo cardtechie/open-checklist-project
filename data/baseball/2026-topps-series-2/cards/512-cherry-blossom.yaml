@@ -1,0 +1,23 @@
+number: "512"
+uuid: "29039909-d0b3-42c7-bdf9-e01569223926"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-topps-series-2"
+subjects:
+  - name: "Simeon Woods Richardson"
+    role: "Player"
+    team: "Minnesota Twins"
+card_name: "Simeon Woods Richardson - Base - Cherry Blossom"
+description: "Cherry Blossom parallel of Base card featuring Simeon Woods Richardson."
+series: "2026 Topps Baseball"
+parallel: "Cherry Blossom"
+print_run: 99
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: true
+release_date: "2026-06-11"
+image_url: "https://example.com/cards/2026-topps-series-2/512-cherry-blossom.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Topps#Insertion_Ratios"

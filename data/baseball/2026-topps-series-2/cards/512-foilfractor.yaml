@@ -1,0 +1,23 @@
+number: "512"
+uuid: "45ff541f-ca06-475e-9af8-8a1fe81216fd"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-topps-series-2"
+subjects:
+  - name: "Simeon Woods Richardson"
+    role: "Player"
+    team: "Minnesota Twins"
+card_name: "Simeon Woods Richardson - Base - FoilFractor"
+description: "FoilFractor parallel of Base card featuring Simeon Woods Richardson."
+series: "2026 Topps Baseball"
+parallel: "FoilFractor"
+print_run: 1
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: true
+release_date: "2026-06-11"
+image_url: "https://example.com/cards/2026-topps-series-2/512-foilfractor.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Topps#Insertion_Ratios"

@@ -1,0 +1,23 @@
+number: "510"
+uuid: "78d75b7c-c284-4bb5-ad89-5e337abf7a8a"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-topps-series-2"
+subjects:
+  - name: "Philip Abner"
+    role: "Player"
+    team: "Arizona Diamondbacks"
+card_name: "Philip Abner - Base - Gold"
+description: "Gold parallel of Base card featuring Philip Abner."
+series: "2026 Topps Baseball"
+parallel: "Gold"
+print_run: 2026
+rookie_card: true
+autograph: false
+relic: false
+serial_numbered: true
+release_date: "2026-06-11"
+image_url: "https://example.com/cards/2026-topps-series-2/510-gold.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Topps#Insertion_Ratios"
