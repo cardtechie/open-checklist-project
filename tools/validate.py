@@ -10,6 +10,7 @@ SCHEMA_DIR = Path("schemas")
 DATA_DIR = Path("data")
 
 def load_schema(schema_file):
+    schema_file = Path(schema_file)
     with open(schema_file, "r") as f:
         schema = yaml.safe_load(f)
 
