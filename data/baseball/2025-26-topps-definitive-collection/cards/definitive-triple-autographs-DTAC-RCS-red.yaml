@@ -1,0 +1,30 @@
+number: "DTAC-RCS"
+uuid: "22bb4f8f-9f3b-4642-9976-34136ef11db5"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2025-26-topps-definitive-collection"
+subjects:
+  - name: "Paul Skenes"
+    role: "Player"
+    team: "Pittsburgh Pirates"
+  - name: "Roger Clemens"
+    role: "Player"
+    team: "Boston Red Sox"
+  - name: "Nolan Ryan"
+    role: "Player"
+    team: "Texas Rangers"
+subset: "Definitive Triple Autographs"
+card_name: "Paul Skenes / Roger Clemens / Nolan Ryan - Definitive Triple Autographs - Red"
+description: "Red parallel of Autographed Definitive Triple Autographs card featuring Paul Skenes / Roger Clemens / Nolan Ryan."
+series: "Topps Definitive Collection"
+parallel: "Red"
+print_run: 5
+rookie_card: false
+autograph: true
+relic: false
+serial_numbered: true
+release_date: "2026-04-29"
+image_url: "https://example.com/cards/2025-26-topps-definitive-collection/definitive-triple-autographs-DTAC-RCS-red.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2025-26_Topps_Definitive_Collection#Checklist"

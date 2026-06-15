@@ -1,0 +1,27 @@
+number: "DAC-CS"
+uuid: "e3948d3a-07fb-4363-b3f8-cf693557c69e"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2025-26-topps-definitive-collection"
+subjects:
+  - name: "Roger Clemens"
+    role: "Player"
+    team: "New York Yankees"
+  - name: "CC Sabathia"
+    role: "Player"
+    team: "New York Yankees"
+subset: "Dual Autographs"
+card_name: "Roger Clemens / CC Sabathia - Dual Autographs - Gold"
+description: "Gold parallel of Autographed Dual Autographs card featuring Roger Clemens / CC Sabathia."
+series: "Topps Definitive Collection"
+parallel: "Gold"
+print_run: 1
+rookie_card: false
+autograph: true
+relic: false
+serial_numbered: true
+release_date: "2026-04-29"
+image_url: "https://example.com/cards/2025-26-topps-definitive-collection/dual-autographs-DAC-CS-gold.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2025-26_Topps_Definitive_Collection#Checklist"

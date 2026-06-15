@@ -1,0 +1,27 @@
+number: "DWSA-AT"
+uuid: "75688fae-ad2d-47a2-bbf4-fe6ea1f7a95d"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2025-26-topps-definitive-collection"
+subjects:
+  - name: "Jose Altuve"
+    role: "Player"
+    team: "Houston Astros"
+  - name: "Kyle Tucker"
+    role: "Player"
+    team: "Houston Astros"
+subset: "Dual World Series Autograph Collection"
+card_name: "Jose Altuve / Kyle Tucker - Dual World Series Autograph Collection - Red"
+description: "Red parallel of Autographed Dual World Series Autograph Collection card featuring Jose Altuve / Kyle Tucker."
+series: "Topps Definitive Collection"
+parallel: "Red"
+print_run: 5
+rookie_card: false
+autograph: true
+relic: false
+serial_numbered: true
+release_date: "2026-04-29"
+image_url: "https://example.com/cards/2025-26-topps-definitive-collection/dual-world-series-autograph-collection-DWSA-AT-red.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2025-26_Topps_Definitive_Collection#Checklist"

@@ -1,0 +1,27 @@
+number: "DAC-SB"
+uuid: "9df3eba3-be03-432c-b1a9-e877981284d9"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2025-26-topps-definitive-collection"
+subjects:
+  - name: "Mike Schmidt"
+    role: "Player"
+    team: "Philadelphia Phillies"
+  - name: "Adrian Beltré"
+    role: "Player"
+    team: "Texas Rangers"
+subset: "Dual Autographs"
+card_name: "Mike Schmidt / Adrian Beltré - Dual Autographs - Red"
+description: "Red parallel of Autographed Dual Autographs card featuring Mike Schmidt / Adrian Beltré."
+series: "Topps Definitive Collection"
+parallel: "Red"
+print_run: 5
+rookie_card: false
+autograph: true
+relic: false
+serial_numbered: true
+release_date: "2026-04-29"
+image_url: "https://example.com/cards/2025-26-topps-definitive-collection/dual-autographs-DAC-SB-red.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2025-26_Topps_Definitive_Collection#Checklist"

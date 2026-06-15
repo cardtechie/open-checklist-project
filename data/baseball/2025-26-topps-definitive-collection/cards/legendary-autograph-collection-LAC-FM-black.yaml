@@ -1,0 +1,24 @@
+number: "LAC-FM"
+uuid: "db35f5df-768f-41e6-8581-105b7b69f279"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2025-26-topps-definitive-collection"
+subjects:
+  - name: "Fred McGriff"
+    role: "Player"
+    team: "Tampa Bay Devil Rays"
+subset: "Legendary Autograph Collection"
+card_name: "Fred McGriff - Legendary Autograph Collection - Black"
+description: "Black parallel of Autographed Legendary Autograph Collection card featuring Fred McGriff."
+series: "Topps Definitive Collection"
+parallel: "Black"
+print_run: 10
+rookie_card: false
+autograph: true
+relic: false
+serial_numbered: true
+release_date: "2026-04-29"
+image_url: "https://example.com/cards/2025-26-topps-definitive-collection/legendary-autograph-collection-LAC-FM-black.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2025-26_Topps_Definitive_Collection#Checklist"

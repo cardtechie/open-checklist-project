@@ -1,0 +1,24 @@
+number: "DAR-MM"
+uuid: "1408ffaf-288b-46cb-acdb-86bdf6f991ba"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2025-26-topps-definitive-collection"
+subjects:
+  - name: "Manny Machado"
+    role: "Player"
+    team: "San Diego Padres"
+subset: "Definitive Autographed Relics"
+card_name: "Manny Machado - Definitive Autographed Relics - Purple"
+description: "Purple parallel of Autographed Definitive Autographed Relics card featuring Manny Machado."
+series: "Topps Definitive Collection"
+parallel: "Purple"
+print_run: 5
+rookie_card: false
+autograph: true
+relic: true
+serial_numbered: true
+release_date: "2026-04-29"
+image_url: "https://example.com/cards/2025-26-topps-definitive-collection/definitive-autographed-relics-DAR-MM-purple.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2025-26_Topps_Definitive_Collection#Checklist"

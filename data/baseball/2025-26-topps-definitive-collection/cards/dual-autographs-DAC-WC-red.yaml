@@ -1,0 +1,27 @@
+number: "DAC-WC"
+uuid: "3d81a636-2170-400f-89d4-0e109f887542"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2025-26-topps-definitive-collection"
+subjects:
+  - name: "Dylan Crews"
+    role: "Player"
+    team: "Washington Nationals"
+  - name: "James Wood"
+    role: "Player"
+    team: "Washington Nationals"
+subset: "Dual Autographs"
+card_name: "Dylan Crews / James Wood - Dual Autographs - Red"
+description: "Red parallel of Autographed Dual Autographs card featuring Dylan Crews / James Wood."
+series: "Topps Definitive Collection"
+parallel: "Red"
+print_run: 5
+rookie_card: false
+autograph: true
+relic: false
+serial_numbered: true
+release_date: "2026-04-29"
+image_url: "https://example.com/cards/2025-26-topps-definitive-collection/dual-autographs-DAC-WC-red.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2025-26_Topps_Definitive_Collection#Checklist"

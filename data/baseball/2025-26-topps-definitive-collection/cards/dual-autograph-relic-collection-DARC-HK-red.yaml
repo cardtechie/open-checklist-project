@@ -1,0 +1,27 @@
+number: "DARC-HK"
+uuid: "519301ba-b8a3-4061-b22f-7ac9e7707a0c"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2025-26-topps-definitive-collection"
+subjects:
+  - name: "Clayton Kershaw"
+    role: "Player"
+    team: "Los Angeles Dodgers"
+  - name: "Orel Hershiser"
+    role: "Player"
+    team: "Los Angeles Dodgers"
+subset: "Dual Autograph Relic Collection"
+card_name: "Clayton Kershaw / Orel Hershiser - Dual Autograph Relic Collection - Red"
+description: "Red parallel of Autographed Dual Autograph Relic Collection card featuring Clayton Kershaw / Orel Hershiser."
+series: "Topps Definitive Collection"
+parallel: "Red"
+print_run: 5
+rookie_card: false
+autograph: true
+relic: true
+serial_numbered: true
+release_date: "2026-04-29"
+image_url: "https://example.com/cards/2025-26-topps-definitive-collection/dual-autograph-relic-collection-DARC-HK-red.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2025-26_Topps_Definitive_Collection#Checklist"

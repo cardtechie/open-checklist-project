@@ -1,0 +1,30 @@
+number: "DTAC-GIR"
+uuid: "12d50de1-94ce-4333-b453-0103142f6074"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2025-26-topps-definitive-collection"
+subjects:
+  - name: "Ichiro"
+    role: "Player"
+    team: "Seattle Mariners"
+  - name: "Julio Rodríguez"
+    role: "Player"
+    team: "Seattle Mariners"
+  - name: "Ken Griffey Jr."
+    role: "Player"
+    team: "Seattle Mariners"
+subset: "Definitive Triple Autographs"
+card_name: "Ichiro / Julio Rodríguez / Ken Griffey Jr. - Definitive Triple Autographs - Gold"
+description: "Gold parallel of Autographed Definitive Triple Autographs card featuring Ichiro / Julio Rodríguez / Ken Griffey Jr.."
+series: "Topps Definitive Collection"
+parallel: "Gold"
+print_run: 1
+rookie_card: false
+autograph: true
+relic: false
+serial_numbered: true
+release_date: "2026-04-29"
+image_url: "https://example.com/cards/2025-26-topps-definitive-collection/definitive-triple-autographs-DTAC-GIR-gold.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2025-26_Topps_Definitive_Collection#Checklist"

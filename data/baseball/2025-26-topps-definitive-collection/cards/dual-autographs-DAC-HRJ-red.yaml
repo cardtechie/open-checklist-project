@@ -1,0 +1,27 @@
+number: "DAC-HRJ"
+uuid: "6f40c9c8-92c8-4780-b846-ddbd08b0e142"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2025-26-topps-definitive-collection"
+subjects:
+  - name: "Cal Ripken Jr."
+    role: "Player"
+    team: "Baltimore Orioles"
+  - name: "Gunnar Henderson"
+    role: "Player"
+    team: "Baltimore Orioles"
+subset: "Dual Autographs"
+card_name: "Cal Ripken Jr. / Gunnar Henderson - Dual Autographs - Red"
+description: "Red parallel of Autographed Dual Autographs card featuring Cal Ripken Jr. / Gunnar Henderson."
+series: "Topps Definitive Collection"
+parallel: "Red"
+print_run: 5
+rookie_card: false
+autograph: true
+relic: false
+serial_numbered: true
+release_date: "2026-04-29"
+image_url: "https://example.com/cards/2025-26-topps-definitive-collection/dual-autographs-DAC-HRJ-red.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2025-26_Topps_Definitive_Collection#Checklist"

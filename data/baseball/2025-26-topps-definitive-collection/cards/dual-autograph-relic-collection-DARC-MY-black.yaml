@@ -1,0 +1,27 @@
+number: "DARC-MY"
+uuid: "8eb9ed2c-3153-453c-865e-c1014c3ff08f"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2025-26-topps-definitive-collection"
+subjects:
+  - name: "Masataka Yoshida"
+    role: "Player"
+    team: "Boston Red Sox"
+  - name: "Hideki Matsui"
+    role: "Player"
+    team: "New York Yankees"
+subset: "Dual Autograph Relic Collection"
+card_name: "Masataka Yoshida / Hideki Matsui - Dual Autograph Relic Collection - Black"
+description: "Black parallel of Autographed Dual Autograph Relic Collection card featuring Masataka Yoshida / Hideki Matsui."
+series: "Topps Definitive Collection"
+parallel: "Black"
+print_run: 10
+rookie_card: false
+autograph: true
+relic: true
+serial_numbered: true
+release_date: "2026-04-29"
+image_url: "https://example.com/cards/2025-26-topps-definitive-collection/dual-autograph-relic-collection-DARC-MY-black.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2025-26_Topps_Definitive_Collection#Checklist"

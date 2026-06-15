@@ -1,0 +1,23 @@
+number: "DAC-SR"
+uuid: "feb62ed2-f0fe-4788-8e53-6f84824e4bcf"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2025-26-topps-definitive-collection"
+subjects:
+  - name: "CC Sabathia"
+    role: "Player"
+    team: "New York Yankees"
+  - name: "Alex Rodriguez"
+    role: "Player"
+    team: "New York Yankees"
+subset: "Dual Autographs"
+card_name: "CC Sabathia / Alex Rodriguez - Dual Autographs"
+description: "Autographed Dual Autographs card featuring CC Sabathia / Alex Rodriguez."
+series: "Topps Definitive Collection"
+print_run: 50
+rookie_card: false
+autograph: true
+relic: false
+serial_numbered: true
+release_date: "2026-04-29"
+image_url: "https://example.com/cards/2025-26-topps-definitive-collection/dual-autographs-DAC-SR.jpg"

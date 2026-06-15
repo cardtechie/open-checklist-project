@@ -1,0 +1,24 @@
+number: "DAR-DO"
+uuid: "db010080-71d4-446d-9b46-89d1173e191d"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2025-26-topps-definitive-collection"
+subjects:
+  - name: "David Ortiz"
+    role: "Player"
+    team: "Boston Red Sox"
+subset: "Definitive Autographed Relics"
+card_name: "David Ortiz - Definitive Autographed Relics - Red"
+description: "Red parallel of Autographed Definitive Autographed Relics card featuring David Ortiz."
+series: "Topps Definitive Collection"
+parallel: "Red"
+print_run: 1
+rookie_card: false
+autograph: true
+relic: true
+serial_numbered: true
+release_date: "2026-04-29"
+image_url: "https://example.com/cards/2025-26-topps-definitive-collection/definitive-autographed-relics-DAR-DO-red.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2025-26_Topps_Definitive_Collection#Checklist"

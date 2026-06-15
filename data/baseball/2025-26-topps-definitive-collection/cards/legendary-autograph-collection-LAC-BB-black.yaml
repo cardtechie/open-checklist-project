@@ -1,0 +1,24 @@
+number: "LAC-BB"
+uuid: "67ca9c9c-bf94-4054-b30b-bd8f3b1b748e"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2025-26-topps-definitive-collection"
+subjects:
+  - name: "Barry Bonds"
+    role: "Player"
+    team: "San Francisco Giants"
+subset: "Legendary Autograph Collection"
+card_name: "Barry Bonds - Legendary Autograph Collection - Black"
+description: "Black parallel of Autographed Legendary Autograph Collection card featuring Barry Bonds."
+series: "Topps Definitive Collection"
+parallel: "Black"
+print_run: 10
+rookie_card: false
+autograph: true
+relic: false
+serial_numbered: true
+release_date: "2026-04-29"
+image_url: "https://example.com/cards/2025-26-topps-definitive-collection/legendary-autograph-collection-LAC-BB-black.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2025-26_Topps_Definitive_Collection#Checklist"

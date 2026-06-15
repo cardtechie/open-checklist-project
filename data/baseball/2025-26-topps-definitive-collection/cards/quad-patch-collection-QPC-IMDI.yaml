@@ -1,0 +1,29 @@
+number: "QPC-IMDI"
+uuid: "d7b3a0f3-71ff-4df4-b59a-c292174520a4"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2025-26-topps-definitive-collection"
+subjects:
+  - name: "Yu Darvish"
+    role: "Player"
+    team: "San Diego Padres"
+  - name: "Ichiro"
+    role: "Player"
+    team: "New York Yankees"
+  - name: "Hideki Matsui"
+    role: "Player"
+    team: "Oakland Athletics"
+  - name: "Shota Imanaga"
+    role: "Player"
+    team: "Chicago Cubs"
+subset: "Quad Patch Collection"
+card_name: "Yu Darvish / Ichiro / Hideki Matsui / Shota Imanaga - Quad Patch Collection"
+description: "Quad Patch Collection memorabilia card featuring Yu Darvish / Ichiro / Hideki Matsui / Shota Imanaga."
+series: "Topps Definitive Collection"
+print_run: 50
+rookie_card: false
+autograph: false
+relic: true
+serial_numbered: true
+release_date: "2026-04-29"
+image_url: "https://example.com/cards/2025-26-topps-definitive-collection/quad-patch-collection-QPC-IMDI.jpg"

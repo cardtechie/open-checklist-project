@@ -1,0 +1,27 @@
+number: "DAC-LV"
+uuid: "44f5d57b-2de5-481b-90eb-f2ebfd749e3f"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2025-26-topps-definitive-collection"
+subjects:
+  - name: "Joey Votto"
+    role: "Player"
+    team: "Cincinnati Reds"
+  - name: "Barry Larkin"
+    role: "Player"
+    team: "Cincinnati Reds"
+subset: "Dual Autographs"
+card_name: "Joey Votto / Barry Larkin - Dual Autographs - Black"
+description: "Black parallel of Autographed Dual Autographs card featuring Joey Votto / Barry Larkin."
+series: "Topps Definitive Collection"
+parallel: "Black"
+print_run: 10
+rookie_card: false
+autograph: true
+relic: false
+serial_numbered: true
+release_date: "2026-04-29"
+image_url: "https://example.com/cards/2025-26-topps-definitive-collection/dual-autographs-DAC-LV-black.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2025-26_Topps_Definitive_Collection#Checklist"

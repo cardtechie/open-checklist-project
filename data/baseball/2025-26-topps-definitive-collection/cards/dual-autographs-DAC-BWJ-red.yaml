@@ -1,0 +1,27 @@
+number: "DAC-BWJ"
+uuid: "9161dcd7-c94a-42b1-9fb9-73f9955fcc2b"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2025-26-topps-definitive-collection"
+subjects:
+  - name: "George Brett"
+    role: "Player"
+    team: "Kansas City Royals"
+  - name: "Bobby Witt Jr."
+    role: "Player"
+    team: "Kansas City Royals"
+subset: "Dual Autographs"
+card_name: "George Brett / Bobby Witt Jr. - Dual Autographs - Red"
+description: "Red parallel of Autographed Dual Autographs card featuring George Brett / Bobby Witt Jr.."
+series: "Topps Definitive Collection"
+parallel: "Red"
+print_run: 5
+rookie_card: false
+autograph: true
+relic: false
+serial_numbered: true
+release_date: "2026-04-29"
+image_url: "https://example.com/cards/2025-26-topps-definitive-collection/dual-autographs-DAC-BWJ-red.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2025-26_Topps_Definitive_Collection#Checklist"

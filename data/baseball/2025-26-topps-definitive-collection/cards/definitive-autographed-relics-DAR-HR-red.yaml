@@ -1,0 +1,24 @@
+number: "DAR-HR"
+uuid: "c20cc99b-b1ed-4968-b27e-b91bb56ce426"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2025-26-topps-definitive-collection"
+subjects:
+  - name: "Hanley Ramirez"
+    role: "Player"
+    team: "Florida Marlins"
+subset: "Definitive Autographed Relics"
+card_name: "Hanley Ramirez - Definitive Autographed Relics - Red"
+description: "Red parallel of Autographed Definitive Autographed Relics card featuring Hanley Ramirez."
+series: "Topps Definitive Collection"
+parallel: "Red"
+print_run: 1
+rookie_card: false
+autograph: true
+relic: true
+serial_numbered: true
+release_date: "2026-04-29"
+image_url: "https://example.com/cards/2025-26-topps-definitive-collection/definitive-autographed-relics-DAR-HR-red.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2025-26_Topps_Definitive_Collection#Checklist"

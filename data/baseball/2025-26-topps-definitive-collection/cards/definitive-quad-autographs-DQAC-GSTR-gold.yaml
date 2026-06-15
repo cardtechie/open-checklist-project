@@ -1,0 +1,33 @@
+number: "DQAC-GSTR"
+uuid: "4453aa27-d268-40bd-9d3d-f27875198a39"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2025-26-topps-definitive-collection"
+subjects:
+  - name: "Vladimir Guerrero Jr."
+    role: "Player"
+    team: "Toronto Blue Jays"
+  - name: "Juan Soto"
+    role: "Player"
+    team: "New York Mets"
+  - name: "Fernando Tatis Jr."
+    role: "Player"
+    team: "San Diego Padres"
+  - name: "José Ramírez"
+    role: "Player"
+    team: "Cleveland Guardians"
+subset: "Definitive Quad Autographs"
+card_name: "Vladimir Guerrero Jr. / Juan Soto / Fernando Tatis Jr. / José Ramírez - Definitive Quad Autographs - Gold"
+description: "Gold parallel of Autographed Definitive Quad Autographs card featuring Vladimir Guerrero Jr. / Juan Soto / Fernando Tatis Jr. / José Ramírez."
+series: "Topps Definitive Collection"
+parallel: "Gold"
+print_run: 1
+rookie_card: false
+autograph: true
+relic: false
+serial_numbered: true
+release_date: "2026-04-29"
+image_url: "https://example.com/cards/2025-26-topps-definitive-collection/definitive-quad-autographs-DQAC-GSTR-gold.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2025-26_Topps_Definitive_Collection#Checklist"

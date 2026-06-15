@@ -1,0 +1,27 @@
+number: "DAC-SF"
+uuid: "588e2dbb-81d5-41d1-be0d-19b715ec0ff7"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2025-26-topps-definitive-collection"
+subjects:
+  - name: "CC Sabathia"
+    role: "Player"
+    team: "Milwaukee Brewers"
+  - name: "Prince Fielder"
+    role: "Player"
+    team: "Milwaukee Brewers"
+subset: "Dual Autographs"
+card_name: "CC Sabathia / Prince Fielder - Dual Autographs - Black"
+description: "Black parallel of Autographed Dual Autographs card featuring CC Sabathia / Prince Fielder."
+series: "Topps Definitive Collection"
+parallel: "Black"
+print_run: 10
+rookie_card: false
+autograph: true
+relic: false
+serial_numbered: true
+release_date: "2026-04-29"
+image_url: "https://example.com/cards/2025-26-topps-definitive-collection/dual-autographs-DAC-SF-black.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2025-26_Topps_Definitive_Collection#Checklist"

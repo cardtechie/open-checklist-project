@@ -1,0 +1,24 @@
+number: "DRA-CME"
+uuid: "60b39e4e-7cfa-42a0-9d26-dd6c2b4b5267"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2025-26-topps-definitive-collection"
+subjects:
+  - name: "Chase Meidroth"
+    role: "Player"
+    team: "Chicago White Sox"
+subset: "Definitive Rookie Autographs"
+card_name: "Chase Meidroth - Definitive Rookie Autographs - Red"
+description: "Red parallel of Autographed Definitive Rookie Autographs card featuring Chase Meidroth."
+series: "Topps Definitive Collection"
+parallel: "Red"
+print_run: 5
+rookie_card: false
+autograph: true
+relic: false
+serial_numbered: true
+release_date: "2026-04-29"
+image_url: "https://example.com/cards/2025-26-topps-definitive-collection/definitive-rookie-autographs-DRA-CME-red.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2025-26_Topps_Definitive_Collection#Checklist"

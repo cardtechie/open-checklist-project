@@ -1,0 +1,27 @@
+number: "DAC-MI"
+uuid: "a67288af-a65a-4b9d-bc31-8162177ef4fd"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2025-26-topps-definitive-collection"
+subjects:
+  - name: "Shota Imanaga"
+    role: "Player"
+    team: "Chicago Cubs"
+  - name: "Greg Maddux"
+    role: "Player"
+    team: "Chicago Cubs"
+subset: "Dual Autographs"
+card_name: "Shota Imanaga / Greg Maddux - Dual Autographs - Gold"
+description: "Gold parallel of Autographed Dual Autographs card featuring Shota Imanaga / Greg Maddux."
+series: "Topps Definitive Collection"
+parallel: "Gold"
+print_run: 1
+rookie_card: false
+autograph: true
+relic: false
+serial_numbered: true
+release_date: "2026-04-29"
+image_url: "https://example.com/cards/2025-26-topps-definitive-collection/dual-autographs-DAC-MI-gold.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2025-26_Topps_Definitive_Collection#Checklist"

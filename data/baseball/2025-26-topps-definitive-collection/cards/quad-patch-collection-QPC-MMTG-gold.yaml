@@ -1,0 +1,33 @@
+number: "QPC-MMTG"
+uuid: "ac5209c7-0478-44fd-8330-ee79ce493a41"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2025-26-topps-definitive-collection"
+subjects:
+  - name: "Tony Gwynn"
+    role: "Player"
+    team: "San Diego Padres"
+  - name: "Fernando Tatis Jr."
+    role: "Player"
+    team: "San Diego Padres"
+  - name: "Manny Machado"
+    role: "Player"
+    team: "San Diego Padres"
+  - name: "Jackson Merrill"
+    role: "Player"
+    team: "San Diego Padres"
+subset: "Quad Patch Collection"
+card_name: "Tony Gwynn / Fernando Tatis Jr. / Manny Machado / Jackson Merrill - Quad Patch Collection - Gold"
+description: "Gold parallel of Quad Patch Collection memorabilia card featuring Tony Gwynn / Fernando Tatis Jr. / Manny Machado / Jackson Merrill."
+series: "Topps Definitive Collection"
+parallel: "Gold"
+print_run: 1
+rookie_card: false
+autograph: false
+relic: true
+serial_numbered: true
+release_date: "2026-04-29"
+image_url: "https://example.com/cards/2025-26-topps-definitive-collection/quad-patch-collection-QPC-MMTG-gold.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2025-26_Topps_Definitive_Collection#Checklist"

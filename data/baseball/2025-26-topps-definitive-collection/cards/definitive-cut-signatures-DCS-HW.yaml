@@ -1,0 +1,20 @@
+number: "DCS-HW"
+uuid: "ec78be63-e72e-40a6-bbba-b80d38d64e24"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2025-26-topps-definitive-collection"
+subjects:
+  - name: "Honus Wagner"
+    role: "Player"
+    team: "Pittsburgh Pirates"
+subset: "Definitive Cut Signatures"
+card_name: "Honus Wagner - Definitive Cut Signatures"
+description: "Autographed Definitive Cut Signatures card featuring Honus Wagner."
+series: "Topps Definitive Collection"
+print_run: 50
+rookie_card: false
+autograph: true
+relic: false
+serial_numbered: true
+release_date: "2026-04-29"
+image_url: "https://example.com/cards/2025-26-topps-definitive-collection/definitive-cut-signatures-DCS-HW.jpg"

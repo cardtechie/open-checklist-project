@@ -1,0 +1,24 @@
+number: "DJRC-JS"
+uuid: "d3c2151b-63d6-4a61-b20b-45f97f95e3b1"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2025-26-topps-definitive-collection"
+subjects:
+  - name: "Juan Soto"
+    role: "Player"
+    team: "New York Mets"
+subset: "Jumbo Relic Collection"
+card_name: "Juan Soto - Jumbo Relic Collection - Black"
+description: "Black parallel of Jumbo Relic Collection memorabilia card featuring Juan Soto."
+series: "Topps Definitive Collection"
+parallel: "Black"
+print_run: 10
+rookie_card: false
+autograph: false
+relic: true
+serial_numbered: true
+release_date: "2026-04-29"
+image_url: "https://example.com/cards/2025-26-topps-definitive-collection/jumbo-relic-collection-DJRC-JS-black.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2025-26_Topps_Definitive_Collection#Checklist"

@@ -1,0 +1,27 @@
+number: "DARC-JR"
+uuid: "bbcfc11f-c494-4d09-9dc3-5776344f49e7"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2025-26-topps-definitive-collection"
+subjects:
+  - name: "Chipper Jones"
+    role: "Player"
+    team: "Atlanta Braves"
+  - name: "Austin Riley"
+    role: "Player"
+    team: "Atlanta Braves"
+subset: "Dual Autograph Relic Collection"
+card_name: "Chipper Jones / Austin Riley - Dual Autograph Relic Collection - Red"
+description: "Red parallel of Autographed Dual Autograph Relic Collection card featuring Chipper Jones / Austin Riley."
+series: "Topps Definitive Collection"
+parallel: "Red"
+print_run: 5
+rookie_card: false
+autograph: true
+relic: true
+serial_numbered: true
+release_date: "2026-04-29"
+image_url: "https://example.com/cards/2025-26-topps-definitive-collection/dual-autograph-relic-collection-DARC-JR-red.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2025-26_Topps_Definitive_Collection#Checklist"

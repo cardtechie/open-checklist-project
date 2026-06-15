@@ -1,0 +1,33 @@
+number: "QPC-JSCC"
+uuid: "af2afd0b-d296-443f-bb9c-3d3b561a1b02"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2025-26-topps-definitive-collection"
+subjects:
+  - name: "Aaron Judge"
+    role: "Player"
+    team: "New York Yankees"
+  - name: "Jazz Chisholm Jr."
+    role: "Player"
+    team: "New York Yankees"
+  - name: "Gerrit Cole"
+    role: "Player"
+    team: "New York Yankees"
+  - name: "Giancarlo Stanton"
+    role: "Player"
+    team: "New York Yankees"
+subset: "Quad Patch Collection"
+card_name: "Aaron Judge / Jazz Chisholm Jr. / Gerrit Cole / Giancarlo Stanton - Quad Patch Collection - Gold"
+description: "Gold parallel of Quad Patch Collection memorabilia card featuring Aaron Judge / Jazz Chisholm Jr. / Gerrit Cole / Giancarlo Stanton."
+series: "Topps Definitive Collection"
+parallel: "Gold"
+print_run: 1
+rookie_card: false
+autograph: false
+relic: true
+serial_numbered: true
+release_date: "2026-04-29"
+image_url: "https://example.com/cards/2025-26-topps-definitive-collection/quad-patch-collection-QPC-JSCC-gold.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2025-26_Topps_Definitive_Collection#Checklist"

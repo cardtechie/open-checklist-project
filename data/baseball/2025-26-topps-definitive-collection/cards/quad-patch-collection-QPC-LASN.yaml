@@ -1,0 +1,29 @@
+number: "QPC-LASN"
+uuid: "88f40473-f513-48f3-9826-8a19a29424de"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2025-26-topps-definitive-collection"
+subjects:
+  - name: "Pete Alonso"
+    role: "Player"
+    team: "New York Mets"
+  - name: "Juan Soto"
+    role: "Player"
+    team: "New York Mets"
+  - name: "Francisco Lindor"
+    role: "Player"
+    team: "New York Mets"
+  - name: "Brandon Nimmo"
+    role: "Player"
+    team: "New York Mets"
+subset: "Quad Patch Collection"
+card_name: "Pete Alonso / Juan Soto / Francisco Lindor / Brandon Nimmo - Quad Patch Collection"
+description: "Quad Patch Collection memorabilia card featuring Pete Alonso / Juan Soto / Francisco Lindor / Brandon Nimmo."
+series: "Topps Definitive Collection"
+print_run: 50
+rookie_card: false
+autograph: false
+relic: true
+serial_numbered: true
+release_date: "2026-04-29"
+image_url: "https://example.com/cards/2025-26-topps-definitive-collection/quad-patch-collection-QPC-LASN.jpg"

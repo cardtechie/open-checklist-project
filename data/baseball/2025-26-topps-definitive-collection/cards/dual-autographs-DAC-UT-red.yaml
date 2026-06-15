@@ -1,0 +1,27 @@
+number: "DAC-UT"
+uuid: "b7de7801-8e86-4bd3-b810-5e99cad8deed"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2025-26-topps-definitive-collection"
+subjects:
+  - name: "Chase Utley"
+    role: "Player"
+    team: "Philadelphia Phillies"
+  - name: "Trea Turner"
+    role: "Player"
+    team: "Philadelphia Phillies"
+subset: "Dual Autographs"
+card_name: "Chase Utley / Trea Turner - Dual Autographs - Red"
+description: "Red parallel of Autographed Dual Autographs card featuring Chase Utley / Trea Turner."
+series: "Topps Definitive Collection"
+parallel: "Red"
+print_run: 5
+rookie_card: false
+autograph: true
+relic: false
+serial_numbered: true
+release_date: "2026-04-29"
+image_url: "https://example.com/cards/2025-26-topps-definitive-collection/dual-autographs-DAC-UT-red.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2025-26_Topps_Definitive_Collection#Checklist"

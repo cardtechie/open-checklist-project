@@ -1,0 +1,23 @@
+number: "DAC-BP"
+uuid: "371d22cb-f53a-4a2d-8606-b86e7d40de8c"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2025-26-topps-definitive-collection"
+subjects:
+  - name: "Buster Posey"
+    role: "Player"
+    team: "San Francisco Giants"
+  - name: "Barry Bonds"
+    role: "Player"
+    team: "San Francisco Giants"
+subset: "Dual Autographs"
+card_name: "Buster Posey / Barry Bonds - Dual Autographs"
+description: "Autographed Dual Autographs card featuring Buster Posey / Barry Bonds."
+series: "Topps Definitive Collection"
+print_run: 50
+rookie_card: false
+autograph: true
+relic: false
+serial_numbered: true
+release_date: "2026-04-29"
+image_url: "https://example.com/cards/2025-26-topps-definitive-collection/dual-autographs-DAC-BP.jpg"

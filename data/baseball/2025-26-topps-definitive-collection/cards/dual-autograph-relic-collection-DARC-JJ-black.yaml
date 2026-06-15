@@ -1,0 +1,27 @@
+number: "DARC-JJ"
+uuid: "9ca4f7e6-70b1-4578-8e8b-eaf08eeebd34"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2025-26-topps-definitive-collection"
+subjects:
+  - name: "Aaron Judge"
+    role: "Player"
+    team: "New York Yankees"
+  - name: "Derek Jeter"
+    role: "Player"
+    team: "New York Yankees"
+subset: "Dual Autograph Relic Collection"
+card_name: "Aaron Judge / Derek Jeter - Dual Autograph Relic Collection - Black"
+description: "Black parallel of Autographed Dual Autograph Relic Collection card featuring Aaron Judge / Derek Jeter."
+series: "Topps Definitive Collection"
+parallel: "Black"
+print_run: 10
+rookie_card: false
+autograph: true
+relic: true
+serial_numbered: true
+release_date: "2026-04-29"
+image_url: "https://example.com/cards/2025-26-topps-definitive-collection/dual-autograph-relic-collection-DARC-JJ-black.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2025-26_Topps_Definitive_Collection#Checklist"

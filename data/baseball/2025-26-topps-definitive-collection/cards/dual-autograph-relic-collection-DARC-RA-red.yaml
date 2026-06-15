@@ -1,0 +1,27 @@
+number: "DARC-RA"
+uuid: "f54a5009-bd59-4205-ba74-df72018f7b6e"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2025-26-topps-definitive-collection"
+subjects:
+  - name: "Ozzie Albies"
+    role: "Player"
+    team: "Atlanta Braves"
+  - name: "Austin Riley"
+    role: "Player"
+    team: "Atlanta Braves"
+subset: "Dual Autograph Relic Collection"
+card_name: "Ozzie Albies / Austin Riley - Dual Autograph Relic Collection - Red"
+description: "Red parallel of Autographed Dual Autograph Relic Collection card featuring Ozzie Albies / Austin Riley."
+series: "Topps Definitive Collection"
+parallel: "Red"
+print_run: 5
+rookie_card: false
+autograph: true
+relic: true
+serial_numbered: true
+release_date: "2026-04-29"
+image_url: "https://example.com/cards/2025-26-topps-definitive-collection/dual-autograph-relic-collection-DARC-RA-red.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2025-26_Topps_Definitive_Collection#Checklist"

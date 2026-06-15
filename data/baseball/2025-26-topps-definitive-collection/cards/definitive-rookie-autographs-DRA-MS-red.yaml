@@ -1,0 +1,24 @@
+number: "DRA-MS"
+uuid: "cd64fc68-ed5d-4201-9d49-84c73847a11c"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2025-26-topps-definitive-collection"
+subjects:
+  - name: "Matt Shaw"
+    role: "Player"
+    team: "Chicago Cubs"
+subset: "Definitive Rookie Autographs"
+card_name: "Matt Shaw - Definitive Rookie Autographs - Red"
+description: "Red parallel of Autographed Definitive Rookie Autographs card featuring Matt Shaw."
+series: "Topps Definitive Collection"
+parallel: "Red"
+print_run: 5
+rookie_card: false
+autograph: true
+relic: false
+serial_numbered: true
+release_date: "2026-04-29"
+image_url: "https://example.com/cards/2025-26-topps-definitive-collection/definitive-rookie-autographs-DRA-MS-red.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2025-26_Topps_Definitive_Collection#Checklist"

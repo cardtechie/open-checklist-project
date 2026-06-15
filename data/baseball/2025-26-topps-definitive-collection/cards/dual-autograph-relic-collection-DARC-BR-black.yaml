@@ -1,0 +1,27 @@
+number: "DARC-BR"
+uuid: "da43f821-8ec6-4d20-bb6c-0e4ec87dd2b9"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2025-26-topps-definitive-collection"
+subjects:
+  - name: "José Ramírez"
+    role: "Player"
+    team: "Cleveland Guardians"
+  - name: "Adrian Beltré"
+    role: "Player"
+    team: "Texas Rangers"
+subset: "Dual Autograph Relic Collection"
+card_name: "José Ramírez / Adrian Beltré - Dual Autograph Relic Collection - Black"
+description: "Black parallel of Autographed Dual Autograph Relic Collection card featuring José Ramírez / Adrian Beltré."
+series: "Topps Definitive Collection"
+parallel: "Black"
+print_run: 10
+rookie_card: false
+autograph: true
+relic: true
+serial_numbered: true
+release_date: "2026-04-29"
+image_url: "https://example.com/cards/2025-26-topps-definitive-collection/dual-autograph-relic-collection-DARC-BR-black.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2025-26_Topps_Definitive_Collection#Checklist"

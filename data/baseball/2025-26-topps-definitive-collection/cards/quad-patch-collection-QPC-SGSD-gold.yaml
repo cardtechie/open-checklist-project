@@ -1,0 +1,33 @@
+number: "QPC-SGSD"
+uuid: "844af0ae-a888-4e5e-882a-9805a47e1378"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2025-26-topps-definitive-collection"
+subjects:
+  - name: "Adolis García"
+    role: "Player"
+    team: "Texas Rangers"
+  - name: "Marcus Semien"
+    role: "Player"
+    team: "Texas Rangers"
+  - name: "Jacob deGrom"
+    role: "Player"
+    team: "Texas Rangers"
+  - name: "Corey Seager"
+    role: "Player"
+    team: "Texas Rangers"
+subset: "Quad Patch Collection"
+card_name: "Adolis García / Marcus Semien / Jacob deGrom / Corey Seager - Quad Patch Collection - Gold"
+description: "Gold parallel of Quad Patch Collection memorabilia card featuring Adolis García / Marcus Semien / Jacob deGrom / Corey Seager."
+series: "Topps Definitive Collection"
+parallel: "Gold"
+print_run: 1
+rookie_card: false
+autograph: false
+relic: true
+serial_numbered: true
+release_date: "2026-04-29"
+image_url: "https://example.com/cards/2025-26-topps-definitive-collection/quad-patch-collection-QPC-SGSD-gold.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2025-26_Topps_Definitive_Collection#Checklist"

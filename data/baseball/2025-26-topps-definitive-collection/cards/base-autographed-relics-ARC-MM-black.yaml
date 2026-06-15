@@ -1,0 +1,24 @@
+number: "ARC-MM"
+uuid: "b459ee31-bfc1-4213-8c8b-2e3f1c886bc6"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2025-26-topps-definitive-collection"
+subjects:
+  - name: "Manny Machado"
+    role: "Player"
+    team: "San Diego Padres"
+subset: "Base Autographed Relics"
+card_name: "Manny Machado - Base Autographed Relics - Black"
+description: "Black parallel of Autographed Base Autographed Relics card featuring Manny Machado."
+series: "Topps Definitive Collection"
+parallel: "Black"
+print_run: 10
+rookie_card: false
+autograph: true
+relic: true
+serial_numbered: true
+release_date: "2026-04-29"
+image_url: "https://example.com/cards/2025-26-topps-definitive-collection/base-autographed-relics-ARC-MM-black.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2025-26_Topps_Definitive_Collection#Checklist"

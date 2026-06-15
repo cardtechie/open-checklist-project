@@ -1,0 +1,27 @@
+number: "DWSA-SCA"
+uuid: "685be0e0-bd9f-4265-aa42-439684019911"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2025-26-topps-definitive-collection"
+subjects:
+  - name: "Mike Schmidt"
+    role: "Player"
+    team: "Philadelphia Phillies"
+  - name: "Steve Carlton"
+    role: "Player"
+    team: "Philadelphia Phillies"
+subset: "Dual World Series Autograph Collection"
+card_name: "Mike Schmidt / Steve Carlton - Dual World Series Autograph Collection - Gold"
+description: "Gold parallel of Autographed Dual World Series Autograph Collection card featuring Mike Schmidt / Steve Carlton."
+series: "Topps Definitive Collection"
+parallel: "Gold"
+print_run: 1
+rookie_card: false
+autograph: true
+relic: false
+serial_numbered: true
+release_date: "2026-04-29"
+image_url: "https://example.com/cards/2025-26-topps-definitive-collection/dual-world-series-autograph-collection-DWSA-SCA-gold.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2025-26_Topps_Definitive_Collection#Checklist"

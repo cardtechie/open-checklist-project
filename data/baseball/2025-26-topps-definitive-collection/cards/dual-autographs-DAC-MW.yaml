@@ -1,0 +1,23 @@
+number: "DAC-MW"
+uuid: "14a00f09-d924-4f15-aa93-ffc9e4dc1a3c"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2025-26-topps-definitive-collection"
+subjects:
+  - name: "Don Mattingly"
+    role: "Player"
+    team: "New York Yankees"
+  - name: "Dave Winfield"
+    role: "Player"
+    team: "New York Yankees"
+subset: "Dual Autographs"
+card_name: "Don Mattingly / Dave Winfield - Dual Autographs"
+description: "Autographed Dual Autographs card featuring Don Mattingly / Dave Winfield."
+series: "Topps Definitive Collection"
+print_run: 50
+rookie_card: false
+autograph: true
+relic: false
+serial_numbered: true
+release_date: "2026-04-29"
+image_url: "https://example.com/cards/2025-26-topps-definitive-collection/dual-autographs-DAC-MW.jpg"

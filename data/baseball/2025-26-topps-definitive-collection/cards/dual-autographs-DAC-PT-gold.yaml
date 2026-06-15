@@ -1,0 +1,27 @@
+number: "DAC-PT"
+uuid: "0b4cdcd5-21d0-435d-9f9b-e8c7ad68991b"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2025-26-topps-definitive-collection"
+subjects:
+  - name: "Albert Pujols"
+    role: "Player"
+    team: "Los Angeles Angels"
+  - name: "Mike Trout"
+    role: "Player"
+    team: "Los Angeles Angels"
+subset: "Dual Autographs"
+card_name: "Albert Pujols / Mike Trout - Dual Autographs - Gold"
+description: "Gold parallel of Autographed Dual Autographs card featuring Albert Pujols / Mike Trout."
+series: "Topps Definitive Collection"
+parallel: "Gold"
+print_run: 1
+rookie_card: false
+autograph: true
+relic: false
+serial_numbered: true
+release_date: "2026-04-29"
+image_url: "https://example.com/cards/2025-26-topps-definitive-collection/dual-autographs-DAC-PT-gold.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2025-26_Topps_Definitive_Collection#Checklist"

@@ -1,0 +1,27 @@
+number: "DARC-PS"
+uuid: "0826dfa9-ca3a-4e12-b6d7-6c12a7c1f8f3"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2025-26-topps-definitive-collection"
+subjects:
+  - name: "Mike Piazza"
+    role: "Player"
+    team: "Los Angeles Dodgers"
+  - name: "Will Smith"
+    role: "Player"
+    team: "Los Angeles Dodgers"
+subset: "Dual Autograph Relic Collection"
+card_name: "Mike Piazza / Will Smith - Dual Autograph Relic Collection - Red"
+description: "Red parallel of Autographed Dual Autograph Relic Collection card featuring Mike Piazza / Will Smith."
+series: "Topps Definitive Collection"
+parallel: "Red"
+print_run: 5
+rookie_card: false
+autograph: true
+relic: true
+serial_numbered: true
+release_date: "2026-04-29"
+image_url: "https://example.com/cards/2025-26-topps-definitive-collection/dual-autograph-relic-collection-DARC-PS-red.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2025-26_Topps_Definitive_Collection#Checklist"

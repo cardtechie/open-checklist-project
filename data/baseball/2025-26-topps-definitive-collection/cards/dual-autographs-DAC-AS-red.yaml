@@ -1,0 +1,27 @@
+number: "DAC-AS"
+uuid: "8225aa00-f105-4bbc-9730-0df385c909fa"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2025-26-topps-definitive-collection"
+subjects:
+  - name: "Cam Smith"
+    role: "Player"
+    team: "Houston Astros"
+  - name: "Jose Altuve"
+    role: "Player"
+    team: "Houston Astros"
+subset: "Dual Autographs"
+card_name: "Cam Smith / Jose Altuve - Dual Autographs - Red"
+description: "Red parallel of Autographed Dual Autographs card featuring Cam Smith / Jose Altuve."
+series: "Topps Definitive Collection"
+parallel: "Red"
+print_run: 5
+rookie_card: false
+autograph: true
+relic: false
+serial_numbered: true
+release_date: "2026-04-29"
+image_url: "https://example.com/cards/2025-26-topps-definitive-collection/dual-autographs-DAC-AS-red.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2025-26_Topps_Definitive_Collection#Checklist"

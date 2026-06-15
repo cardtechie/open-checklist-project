@@ -1,0 +1,24 @@
+number: "DRA-ARA"
+uuid: "adac5a55-7d30-487f-b1b7-ff8df409b8d6"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2025-26-topps-definitive-collection"
+subjects:
+  - name: "Agustín Ramírez"
+    role: "Player"
+    team: "Miami Marlins"
+subset: "Definitive Rookie Autographs"
+card_name: "Agustín Ramírez - Definitive Rookie Autographs - Gold"
+description: "Gold parallel of Autographed Definitive Rookie Autographs card featuring Agustín Ramírez."
+series: "Topps Definitive Collection"
+parallel: "Gold"
+print_run: 1
+rookie_card: false
+autograph: true
+relic: false
+serial_numbered: true
+release_date: "2026-04-29"
+image_url: "https://example.com/cards/2025-26-topps-definitive-collection/definitive-rookie-autographs-DRA-ARA-gold.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2025-26_Topps_Definitive_Collection#Checklist"

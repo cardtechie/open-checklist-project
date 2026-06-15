@@ -1,0 +1,20 @@
+number: "DPC-I"
+uuid: "77befd47-ec0a-4da7-9d48-a1ee4918e3ff"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2025-26-topps-definitive-collection"
+subjects:
+  - name: "Ichiro"
+    role: "Player"
+    team: "Miami Marlins"
+subset: "Definitive Patch Collection"
+card_name: "Ichiro - Definitive Patch Collection"
+description: "Definitive Patch Collection memorabilia card featuring Ichiro."
+series: "Topps Definitive Collection"
+print_run: 50
+rookie_card: false
+autograph: false
+relic: true
+serial_numbered: true
+release_date: "2026-04-29"
+image_url: "https://example.com/cards/2025-26-topps-definitive-collection/definitive-patch-collection-DPC-I.jpg"

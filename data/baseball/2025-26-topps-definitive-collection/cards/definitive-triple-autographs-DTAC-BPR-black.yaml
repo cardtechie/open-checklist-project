@@ -1,0 +1,30 @@
+number: "DTAC-BPR"
+uuid: "1b60c024-88ac-4ce6-ba7e-07027dd34d39"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2025-26-topps-definitive-collection"
+subjects:
+  - name: "Albert Pujols"
+    role: "Player"
+    team: "St. Louis Cardinals"
+  - name: "Barry Bonds"
+    role: "Player"
+    team: "San Francisco Giants"
+  - name: "Alex Rodriguez"
+    role: "Player"
+    team: "New York Yankees"
+subset: "Definitive Triple Autographs"
+card_name: "Albert Pujols / Barry Bonds / Alex Rodriguez - Definitive Triple Autographs - Black"
+description: "Black parallel of Autographed Definitive Triple Autographs card featuring Albert Pujols / Barry Bonds / Alex Rodriguez."
+series: "Topps Definitive Collection"
+parallel: "Black"
+print_run: 10
+rookie_card: false
+autograph: true
+relic: false
+serial_numbered: true
+release_date: "2026-04-29"
+image_url: "https://example.com/cards/2025-26-topps-definitive-collection/definitive-triple-autographs-DTAC-BPR-black.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2025-26_Topps_Definitive_Collection#Checklist"

@@ -1,0 +1,24 @@
+number: "ARC-AP"
+uuid: "d7b5241a-a9bc-4f53-b844-3a0c63ccc692"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2025-26-topps-definitive-collection"
+subjects:
+  - name: "Andy Pettitte"
+    role: "Player"
+    team: "Houston Astros"
+subset: "Base Autographed Relics"
+card_name: "Andy Pettitte - Base Autographed Relics - Black"
+description: "Black parallel of Autographed Base Autographed Relics card featuring Andy Pettitte."
+series: "Topps Definitive Collection"
+parallel: "Black"
+print_run: 10
+rookie_card: false
+autograph: true
+relic: true
+serial_numbered: true
+release_date: "2026-04-29"
+image_url: "https://example.com/cards/2025-26-topps-definitive-collection/base-autographed-relics-ARC-AP-black.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2025-26_Topps_Definitive_Collection#Checklist"

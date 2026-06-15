@@ -1,0 +1,29 @@
+number: "QPC-JTSG"
+uuid: "5b8f151a-40d7-4673-a2d9-64a94bff03c2"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2025-26-topps-definitive-collection"
+subjects:
+  - name: "Juan Soto"
+    role: "Player"
+    team: "New York Mets"
+  - name: "Mike Trout"
+    role: "Player"
+    team: "Los Angeles Angels"
+  - name: "Aaron Judge"
+    role: "Player"
+    team: "New York Yankees"
+  - name: "Tony Gwynn"
+    role: "Player"
+    team: "San Diego Padres"
+subset: "Quad Patch Collection"
+card_name: "Juan Soto / Mike Trout / Aaron Judge / Tony Gwynn - Quad Patch Collection"
+description: "Quad Patch Collection memorabilia card featuring Juan Soto / Mike Trout / Aaron Judge / Tony Gwynn."
+series: "Topps Definitive Collection"
+print_run: 50
+rookie_card: false
+autograph: false
+relic: true
+serial_numbered: true
+release_date: "2026-04-29"
+image_url: "https://example.com/cards/2025-26-topps-definitive-collection/quad-patch-collection-QPC-JTSG.jpg"

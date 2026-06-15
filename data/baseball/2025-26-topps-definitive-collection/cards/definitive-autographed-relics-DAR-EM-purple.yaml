@@ -1,0 +1,24 @@
+number: "DAR-EM"
+uuid: "e8ccc47e-adcd-4ce2-a770-d9dc525c7411"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2025-26-topps-definitive-collection"
+subjects:
+  - name: "Edgar Martinez"
+    role: "Player"
+    team: "Seattle Mariners"
+subset: "Definitive Autographed Relics"
+card_name: "Edgar Martinez - Definitive Autographed Relics - Purple"
+description: "Purple parallel of Autographed Definitive Autographed Relics card featuring Edgar Martinez."
+series: "Topps Definitive Collection"
+parallel: "Purple"
+print_run: 5
+rookie_card: false
+autograph: true
+relic: true
+serial_numbered: true
+release_date: "2026-04-29"
+image_url: "https://example.com/cards/2025-26-topps-definitive-collection/definitive-autographed-relics-DAR-EM-purple.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2025-26_Topps_Definitive_Collection#Checklist"

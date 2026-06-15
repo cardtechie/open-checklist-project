@@ -1,0 +1,27 @@
+number: "DARC-DV"
+uuid: "176e24e8-9f02-46fd-a411-7a6772c819b3"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2025-26-topps-definitive-collection"
+subjects:
+  - name: "Jasson Domínguez"
+    role: "Player"
+    team: "New York Yankees"
+  - name: "Anthony Volpe"
+    role: "Player"
+    team: "New York Yankees"
+subset: "Dual Autograph Relic Collection"
+card_name: "Jasson Domínguez / Anthony Volpe - Dual Autograph Relic Collection - Red"
+description: "Red parallel of Autographed Dual Autograph Relic Collection card featuring Jasson Domínguez / Anthony Volpe."
+series: "Topps Definitive Collection"
+parallel: "Red"
+print_run: 5
+rookie_card: false
+autograph: true
+relic: true
+serial_numbered: true
+release_date: "2026-04-29"
+image_url: "https://example.com/cards/2025-26-topps-definitive-collection/dual-autograph-relic-collection-DARC-DV-red.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2025-26_Topps_Definitive_Collection#Checklist"

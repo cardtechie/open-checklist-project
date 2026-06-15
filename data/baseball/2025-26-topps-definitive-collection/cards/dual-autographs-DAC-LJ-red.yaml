@@ -1,0 +1,27 @@
+number: "DAC-LJ"
+uuid: "c36eeb0c-e8ba-4128-9abd-3089c590d54d"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2025-26-topps-definitive-collection"
+subjects:
+  - name: "Jackson Jobe"
+    role: "Player"
+    team: "Detroit Tigers"
+  - name: "Rhett Lowder"
+    role: "Player"
+    team: "Cincinnati Reds"
+subset: "Dual Autographs"
+card_name: "Jackson Jobe / Rhett Lowder - Dual Autographs - Red"
+description: "Red parallel of Autographed Dual Autographs card featuring Jackson Jobe / Rhett Lowder."
+series: "Topps Definitive Collection"
+parallel: "Red"
+print_run: 5
+rookie_card: false
+autograph: true
+relic: false
+serial_numbered: true
+release_date: "2026-04-29"
+image_url: "https://example.com/cards/2025-26-topps-definitive-collection/dual-autographs-DAC-LJ-red.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2025-26_Topps_Definitive_Collection#Checklist"

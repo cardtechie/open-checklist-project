@@ -1,0 +1,27 @@
+number: "DARC-BA"
+uuid: "dda33623-e98a-4bb4-958d-24a139f29587"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2025-26-topps-definitive-collection"
+subjects:
+  - name: "Craig Biggio"
+    role: "Player"
+    team: "Houston Astros"
+  - name: "Jose Altuve"
+    role: "Player"
+    team: "Houston Astros"
+subset: "Dual Autograph Relic Collection"
+card_name: "Craig Biggio / Jose Altuve - Dual Autograph Relic Collection - Red"
+description: "Red parallel of Autographed Dual Autograph Relic Collection card featuring Craig Biggio / Jose Altuve."
+series: "Topps Definitive Collection"
+parallel: "Red"
+print_run: 5
+rookie_card: false
+autograph: true
+relic: true
+serial_numbered: true
+release_date: "2026-04-29"
+image_url: "https://example.com/cards/2025-26-topps-definitive-collection/dual-autograph-relic-collection-DARC-BA-red.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2025-26_Topps_Definitive_Collection#Checklist"

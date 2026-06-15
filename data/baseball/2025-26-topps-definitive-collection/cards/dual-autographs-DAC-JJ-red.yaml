@@ -1,0 +1,27 @@
+number: "DAC-JJ"
+uuid: "ab87d630-84ec-484c-b0b8-7b64c647f3e0"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2025-26-topps-definitive-collection"
+subjects:
+  - name: "Derek Jeter"
+    role: "Player"
+    team: "New York Yankees"
+  - name: "Aaron Judge"
+    role: "Player"
+    team: "New York Yankees"
+subset: "Dual Autographs"
+card_name: "Derek Jeter / Aaron Judge - Dual Autographs - Red"
+description: "Red parallel of Autographed Dual Autographs card featuring Derek Jeter / Aaron Judge."
+series: "Topps Definitive Collection"
+parallel: "Red"
+print_run: 5
+rookie_card: false
+autograph: true
+relic: false
+serial_numbered: true
+release_date: "2026-04-29"
+image_url: "https://example.com/cards/2025-26-topps-definitive-collection/dual-autographs-DAC-JJ-red.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2025-26_Topps_Definitive_Collection#Checklist"

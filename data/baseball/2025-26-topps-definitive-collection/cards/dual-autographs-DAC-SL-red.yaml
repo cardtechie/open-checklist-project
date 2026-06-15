@@ -1,0 +1,27 @@
+number: "DAC-SL"
+uuid: "16f19ec7-dda8-4fb2-8883-6340b5b97c99"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2025-26-topps-definitive-collection"
+subjects:
+  - name: "Francisco Lindor"
+    role: "Player"
+    team: "New York Mets"
+  - name: "Juan Soto"
+    role: "Player"
+    team: "New York Mets"
+subset: "Dual Autographs"
+card_name: "Francisco Lindor / Juan Soto - Dual Autographs - Red"
+description: "Red parallel of Autographed Dual Autographs card featuring Francisco Lindor / Juan Soto."
+series: "Topps Definitive Collection"
+parallel: "Red"
+print_run: 5
+rookie_card: false
+autograph: true
+relic: false
+serial_numbered: true
+release_date: "2026-04-29"
+image_url: "https://example.com/cards/2025-26-topps-definitive-collection/dual-autographs-DAC-SL-red.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2025-26_Topps_Definitive_Collection#Checklist"

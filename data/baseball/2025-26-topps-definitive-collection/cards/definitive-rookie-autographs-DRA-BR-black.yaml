@@ -1,0 +1,24 @@
+number: "DRA-BR"
+uuid: "1c8e52d9-c164-47a2-97c5-e4b7cd714629"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2025-26-topps-definitive-collection"
+subjects:
+  - name: "Ben Rice"
+    role: "Player"
+    team: "New York Yankees"
+subset: "Definitive Rookie Autographs"
+card_name: "Ben Rice - Definitive Rookie Autographs - Black"
+description: "Black parallel of Autographed Definitive Rookie Autographs card featuring Ben Rice."
+series: "Topps Definitive Collection"
+parallel: "Black"
+print_run: 10
+rookie_card: false
+autograph: true
+relic: false
+serial_numbered: true
+release_date: "2026-04-29"
+image_url: "https://example.com/cards/2025-26-topps-definitive-collection/definitive-rookie-autographs-DRA-BR-black.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2025-26_Topps_Definitive_Collection#Checklist"
