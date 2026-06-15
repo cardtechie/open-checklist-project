@@ -27,6 +27,20 @@ To keep PRs reviewable and CI fast, scope each PR to a single concern:
 - **Rebase, don't merge.** Keep your branch's history linear; avoid merge commits
   from `main`.
 
+## Tooling contributions
+
+Tools in `/tools` are welcome, but they must be **generic and reusable** by
+others — not one-off scripts tailored to a single import:
+
+- Drive behavior through **arguments, config files, or input data**, not
+  hardcoded constants for specific sets, URLs, or filenames.
+- A new set must be addable **without editing the script**.
+- Avoid dependencies on local files that aren't in the repo (e.g. a private
+  spreadsheet on your machine).
+- Prefer tools that **validate, transform, or consume** the published data over
+  one-off generators used to produce a single contribution. Keep that kind of
+  personal scaffolding in your own fork.
+
 ## Bulk and generated imports
 
 Large, machine-generated checklists are welcome, with a few expectations:
