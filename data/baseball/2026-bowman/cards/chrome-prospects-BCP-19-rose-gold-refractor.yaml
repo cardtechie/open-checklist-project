@@ -1,0 +1,23 @@
+number: "BCP-19"
+uuid: "f1f88754-1cd4-42d5-9264-eba1d5849bd3"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-bowman"
+subjects:
+  - name: "Kade Anderson"
+    role: "Player"
+    team: "Seattle Mariners"
+subset: "Chrome Prospects"
+card_name: "Kade Anderson - Chrome Prospects - Rose Gold Refractor"
+description: "Rose Gold Refractor parallel of Chrome Prospects card featuring Kade Anderson."
+series: "2026 Bowman"
+parallel: "Rose Gold Refractor"
+print_run: 15
+rookie_card: false
+autograph: false
+serial_numbered: true
+release_date: "2026-05-13"
+image_url: "https://example.com/cards/2026-bowman/chrome-prospects-BCP-19-rose-gold-refractor.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Bowman#Insertion_Ratios"

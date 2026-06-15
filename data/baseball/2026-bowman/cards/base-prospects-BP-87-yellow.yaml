@@ -1,0 +1,23 @@
+number: "BP-87"
+uuid: "1da5b01f-4772-4816-a2cb-0f566e672765"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-bowman"
+subjects:
+  - name: "Jean Carlos Sio"
+    role: "Player"
+    team: "San Francisco Giants"
+subset: "Base Prospects"
+card_name: "Jean Carlos Sio - Base Prospects - Yellow"
+description: "Yellow parallel of Base Prospects card featuring Jean Carlos Sio."
+series: "2026 Bowman"
+parallel: "Yellow"
+print_run: 75
+rookie_card: false
+autograph: false
+serial_numbered: true
+release_date: "2026-05-13"
+image_url: "https://example.com/cards/2026-bowman/base-prospects-BP-87-yellow.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Bowman#Insertion_Ratios"

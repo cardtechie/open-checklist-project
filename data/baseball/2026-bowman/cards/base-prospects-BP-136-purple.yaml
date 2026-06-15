@@ -1,0 +1,23 @@
+number: "BP-136"
+uuid: "cf34539b-9919-4a1a-8e76-0fd42acc6a4e"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-bowman"
+subjects:
+  - name: "Gavin Kilen"
+    role: "Player"
+    team: "San Francisco Giants"
+subset: "Base Prospects"
+card_name: "Gavin Kilen - Base Prospects - Purple"
+description: "Purple parallel of Base Prospects card featuring Gavin Kilen."
+series: "2026 Bowman"
+parallel: "Purple"
+print_run: 250
+rookie_card: false
+autograph: false
+serial_numbered: true
+release_date: "2026-05-13"
+image_url: "https://example.com/cards/2026-bowman/base-prospects-BP-136-purple.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Bowman#Insertion_Ratios"

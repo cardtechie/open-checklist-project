@@ -1,0 +1,23 @@
+number: "BCP-5"
+uuid: "27c7c8a0-4dd6-42b1-a761-4ca66b820f48"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-bowman"
+subjects:
+  - name: "Tyson Lewis"
+    role: "Player"
+    team: "Cincinnati Reds"
+subset: "Chrome Prospects"
+card_name: "Tyson Lewis - Chrome Prospects - Rose Gold X-Fractor"
+description: "Rose Gold X-Fractor parallel of Chrome Prospects card featuring Tyson Lewis."
+series: "2026 Bowman"
+parallel: "Rose Gold X-Fractor"
+print_run: 15
+rookie_card: false
+autograph: false
+serial_numbered: true
+release_date: "2026-05-13"
+image_url: "https://example.com/cards/2026-bowman/chrome-prospects-BCP-5-rose-gold-x-fractor.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Bowman#Insertion_Ratios"

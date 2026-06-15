@@ -1,0 +1,23 @@
+number: "BCP-25"
+uuid: "9ed98f58-c7a3-4413-8c0a-9bbfffddc1df"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-bowman"
+subjects:
+  - name: "Juan Sanchez"
+    role: "Player"
+    team: "Toronto Blue Jays"
+subset: "Chrome Prospects"
+card_name: "Juan Sanchez - Chrome Prospects - PackFractor"
+description: "PackFractor parallel of Chrome Prospects card featuring Juan Sanchez."
+series: "2026 Bowman"
+parallel: "PackFractor"
+print_run: 89
+rookie_card: false
+autograph: false
+serial_numbered: true
+release_date: "2026-05-13"
+image_url: "https://example.com/cards/2026-bowman/chrome-prospects-BCP-25-packfractor.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Bowman#Insertion_Ratios"

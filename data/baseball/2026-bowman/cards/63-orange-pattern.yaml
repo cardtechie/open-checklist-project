@@ -1,0 +1,22 @@
+number: "63"
+uuid: "076e2388-a16d-4a95-9932-5c1a7d2014e5"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-bowman"
+subjects:
+  - name: "Roki Sasaki"
+    role: "Player"
+    team: "Los Angeles Dodgers"
+card_name: "Roki Sasaki - Base - Orange Pattern"
+description: "Orange Pattern parallel of Base card featuring Roki Sasaki."
+series: "2026 Bowman"
+parallel: "Orange Pattern"
+print_run: 25
+rookie_card: false
+autograph: false
+serial_numbered: true
+release_date: "2026-05-13"
+image_url: "https://example.com/cards/2026-bowman/63-orange-pattern.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Bowman#Insertion_Ratios"

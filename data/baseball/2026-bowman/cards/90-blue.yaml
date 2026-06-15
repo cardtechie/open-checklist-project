@@ -1,0 +1,22 @@
+number: "90"
+uuid: "bdeb1a1e-f325-412c-b42e-0a8ea977bc84"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-bowman"
+subjects:
+  - name: "Marcelo Mayer"
+    role: "Player"
+    team: "Boston Red Sox"
+card_name: "Marcelo Mayer - Base - Blue"
+description: "Blue parallel of Base card featuring Marcelo Mayer."
+series: "2026 Bowman"
+parallel: "Blue"
+print_run: 150
+rookie_card: false
+autograph: false
+serial_numbered: true
+release_date: "2026-05-13"
+image_url: "https://example.com/cards/2026-bowman/90-blue.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Bowman#Insertion_Ratios"

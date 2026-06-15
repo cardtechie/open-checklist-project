@@ -1,0 +1,22 @@
+number: "57"
+uuid: "79f92095-1c63-4cf6-b5ab-9912a81425c7"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-bowman"
+subjects:
+  - name: "Luke Keaschall"
+    role: "Player"
+    team: "Minnesota Twins"
+card_name: "Luke Keaschall - Base - Gold Pattern"
+description: "Gold Pattern parallel of Base card featuring Luke Keaschall."
+series: "2026 Bowman"
+parallel: "Gold Pattern"
+print_run: 50
+rookie_card: false
+autograph: false
+serial_numbered: true
+release_date: "2026-05-13"
+image_url: "https://example.com/cards/2026-bowman/57-gold-pattern.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Bowman#Insertion_Ratios"

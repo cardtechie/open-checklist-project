@@ -1,0 +1,23 @@
+number: "BCP-6"
+uuid: "91131131-acdd-4c99-aa13-ee9b3a1b4d12"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-bowman"
+subjects:
+  - name: "Jared Jones"
+    role: "Player"
+    team: "Pittsburgh Pirates"
+subset: "Chrome Prospects"
+card_name: "Jared Jones - Chrome Prospects - Reptilian Fuschia Refractor"
+description: "Reptilian Fuschia Refractor parallel of Chrome Prospects card featuring Jared Jones."
+series: "2026 Bowman"
+parallel: "Reptilian Fuschia Refractor"
+print_run: 199
+rookie_card: false
+autograph: false
+serial_numbered: true
+release_date: "2026-05-13"
+image_url: "https://example.com/cards/2026-bowman/chrome-prospects-BCP-6-reptilian-fuschia-refractor.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Bowman#Insertion_Ratios"

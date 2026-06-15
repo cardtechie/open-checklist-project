@@ -1,0 +1,22 @@
+number: "81"
+uuid: "f2244fbe-ec7f-4815-8ba4-d8c00e5e552b"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-bowman"
+subjects:
+  - name: "Mookie Betts"
+    role: "Player"
+    team: "Los Angeles Dodgers"
+card_name: "Mookie Betts - Base - Black"
+description: "Black parallel of Base card featuring Mookie Betts."
+series: "2026 Bowman"
+parallel: "Black"
+print_run: 10
+rookie_card: false
+autograph: false
+serial_numbered: true
+release_date: "2026-05-13"
+image_url: "https://example.com/cards/2026-bowman/81-black.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Bowman#Insertion_Ratios"

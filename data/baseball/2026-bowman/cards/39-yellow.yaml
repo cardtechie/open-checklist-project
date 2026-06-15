@@ -1,0 +1,22 @@
+number: "39"
+uuid: "abfde858-6278-4333-b13e-3d0b9ada6156"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-bowman"
+subjects:
+  - name: "Carson Williams"
+    role: "Player"
+    team: "Tampa Bay Rays"
+card_name: "Carson Williams - Base - Yellow"
+description: "Yellow parallel of Base card featuring Carson Williams."
+series: "2026 Bowman"
+parallel: "Yellow"
+print_run: 75
+rookie_card: true
+autograph: false
+serial_numbered: true
+release_date: "2026-05-13"
+image_url: "https://example.com/cards/2026-bowman/39-yellow.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Bowman#Insertion_Ratios"

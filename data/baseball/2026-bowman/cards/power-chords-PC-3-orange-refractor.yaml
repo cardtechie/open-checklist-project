@@ -1,0 +1,23 @@
+number: "PC-3"
+uuid: "1037c7c3-66ad-40ab-9ba2-a7c95b6c3f9f"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-bowman"
+subjects:
+  - name: "Ronald Acuña Jr."
+    role: "Player"
+    team: "Atlanta Braves"
+subset: "Power Chords"
+card_name: "Ronald Acuña Jr. - Power Chords - Orange Refractor"
+description: "Orange Refractor parallel of Power Chords card featuring Ronald Acuña Jr.."
+series: "2026 Bowman"
+parallel: "Orange Refractor"
+print_run: 25
+rookie_card: false
+autograph: false
+serial_numbered: true
+release_date: "2026-05-13"
+image_url: "https://example.com/cards/2026-bowman/power-chords-PC-3-orange-refractor.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Bowman#Insertion_Ratios"

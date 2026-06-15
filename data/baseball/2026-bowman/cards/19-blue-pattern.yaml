@@ -1,0 +1,22 @@
+number: "19"
+uuid: "962e5b53-5d87-4850-9621-624b538bf1ec"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-bowman"
+subjects:
+  - name: "Kyle Teel"
+    role: "Player"
+    team: "Chicago White Sox"
+card_name: "Kyle Teel - Base - Blue Pattern"
+description: "Blue Pattern parallel of Base card featuring Kyle Teel."
+series: "2026 Bowman"
+parallel: "Blue Pattern"
+print_run: 150
+rookie_card: true
+autograph: false
+serial_numbered: true
+release_date: "2026-05-13"
+image_url: "https://example.com/cards/2026-bowman/19-blue-pattern.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Bowman#Insertion_Ratios"

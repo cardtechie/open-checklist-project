@@ -1,0 +1,23 @@
+number: "BCP-31"
+uuid: "cf9421c2-0ddb-4f5f-b51b-1e1dfc7c6cac"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-bowman"
+subjects:
+  - name: "Brent Iredale"
+    role: "Player"
+    team: "Pittsburgh Pirates"
+subset: "Chrome Prospects"
+card_name: "Brent Iredale - Chrome Prospects - Green Grass Refractor"
+description: "Green Grass Refractor parallel of Chrome Prospects card featuring Brent Iredale."
+series: "2026 Bowman"
+parallel: "Green Grass Refractor"
+print_run: 99
+rookie_card: false
+autograph: false
+serial_numbered: true
+release_date: "2026-05-13"
+image_url: "https://example.com/cards/2026-bowman/chrome-prospects-BCP-31-green-grass-refractor.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Bowman#Insertion_Ratios"

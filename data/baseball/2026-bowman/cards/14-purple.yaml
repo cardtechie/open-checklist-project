@@ -1,0 +1,22 @@
+number: "14"
+uuid: "ef71c1e1-a748-4dcf-9fc5-505985931d24"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-bowman"
+subjects:
+  - name: "Drake Baldwin"
+    role: "Player"
+    team: "Atlanta Braves"
+card_name: "Drake Baldwin - Base - Purple"
+description: "Purple parallel of Base card featuring Drake Baldwin."
+series: "2026 Bowman"
+parallel: "Purple"
+print_run: 250
+rookie_card: false
+autograph: false
+serial_numbered: true
+release_date: "2026-05-13"
+image_url: "https://example.com/cards/2026-bowman/14-purple.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Bowman#Insertion_Ratios"

@@ -1,0 +1,22 @@
+number: "56"
+uuid: "0fb01987-74c9-4091-a4c6-a07e35bb04d2"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-bowman"
+subjects:
+  - name: "Brice Matthews"
+    role: "Player"
+    team: "Houston Astros"
+card_name: "Brice Matthews - Base - Blue"
+description: "Blue parallel of Base card featuring Brice Matthews."
+series: "2026 Bowman"
+parallel: "Blue"
+print_run: 150
+rookie_card: true
+autograph: false
+serial_numbered: true
+release_date: "2026-05-13"
+image_url: "https://example.com/cards/2026-bowman/56-blue.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Bowman#Insertion_Ratios"

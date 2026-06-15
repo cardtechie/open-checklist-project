@@ -1,0 +1,22 @@
+number: "BST-5"
+uuid: "04573b1f-8ed9-4c74-afef-e89b135cb91f"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-bowman"
+subjects:
+  - name: "Max Clark"
+    role: "Player"
+    team: "Detroit Tigers"
+subset: "Bowman Sterling"
+card_name: "Max Clark - Bowman Sterling - Mega Chrome"
+description: "Mega Chrome parallel of Bowman Sterling card featuring Max Clark."
+series: "2026 Bowman"
+parallel: "Mega Chrome"
+rookie_card: false
+autograph: false
+serial_numbered: false
+release_date: "2026-05-13"
+image_url: "https://example.com/cards/2026-bowman/bowman-sterling-BST-5-mega-chrome.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Bowman#Insertion_Ratios"

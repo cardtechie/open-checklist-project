@@ -1,0 +1,23 @@
+number: "BCP-70"
+uuid: "bebae3d7-efd4-41db-ab53-69dcfdda1ea2"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-bowman"
+subjects:
+  - name: "Kash Mayfield"
+    role: "Player"
+    team: "San Diego Padres"
+subset: "Chrome Prospects"
+card_name: "Kash Mayfield - Chrome Prospects - Reptilian Fuschia Refractor"
+description: "Reptilian Fuschia Refractor parallel of Chrome Prospects card featuring Kash Mayfield."
+series: "2026 Bowman"
+parallel: "Reptilian Fuschia Refractor"
+print_run: 199
+rookie_card: false
+autograph: false
+serial_numbered: true
+release_date: "2026-05-13"
+image_url: "https://example.com/cards/2026-bowman/chrome-prospects-BCP-70-reptilian-fuschia-refractor.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Bowman#Insertion_Ratios"

@@ -1,0 +1,23 @@
+number: "BP-68"
+uuid: "a06ca889-cb86-4a47-8893-a2d09b66385f"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-bowman"
+subjects:
+  - name: "Ike Irish"
+    role: "Player"
+    team: "Baltimore Orioles"
+subset: "Base Prospects"
+card_name: "Ike Irish - Base Prospects - Red"
+description: "Red parallel of Base Prospects card featuring Ike Irish."
+series: "2026 Bowman"
+parallel: "Red"
+print_run: 5
+rookie_card: false
+autograph: false
+serial_numbered: true
+release_date: "2026-05-13"
+image_url: "https://example.com/cards/2026-bowman/base-prospects-BP-68-red.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Bowman#Insertion_Ratios"

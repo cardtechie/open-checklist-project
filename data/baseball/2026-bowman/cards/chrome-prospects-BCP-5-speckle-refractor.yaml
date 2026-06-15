@@ -1,0 +1,23 @@
+number: "BCP-5"
+uuid: "a42a13e7-5ca3-496e-976f-3a9bda0210b3"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-bowman"
+subjects:
+  - name: "Tyson Lewis"
+    role: "Player"
+    team: "Cincinnati Reds"
+subset: "Chrome Prospects"
+card_name: "Tyson Lewis - Chrome Prospects - Speckle Refractor"
+description: "Speckle Refractor parallel of Chrome Prospects card featuring Tyson Lewis."
+series: "2026 Bowman"
+parallel: "Speckle Refractor"
+print_run: 299
+rookie_card: false
+autograph: false
+serial_numbered: true
+release_date: "2026-05-13"
+image_url: "https://example.com/cards/2026-bowman/chrome-prospects-BCP-5-speckle-refractor.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Bowman#Insertion_Ratios"

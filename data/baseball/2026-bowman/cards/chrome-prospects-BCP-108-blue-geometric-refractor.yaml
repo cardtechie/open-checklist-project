@@ -1,0 +1,23 @@
+number: "BCP-108"
+uuid: "0083745f-5017-494c-ab1c-d4da2f59695d"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-bowman"
+subjects:
+  - name: "Colt Emerson"
+    role: "Player"
+    team: "Seattle Mariners"
+subset: "Chrome Prospects"
+card_name: "Colt Emerson - Chrome Prospects - Blue Geometric Refractor"
+description: "Blue Geometric Refractor parallel of Chrome Prospects card featuring Colt Emerson."
+series: "2026 Bowman"
+parallel: "Blue Geometric Refractor"
+print_run: 150
+rookie_card: false
+autograph: false
+serial_numbered: true
+release_date: "2026-05-13"
+image_url: "https://example.com/cards/2026-bowman/chrome-prospects-BCP-108-blue-geometric-refractor.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Bowman#Insertion_Ratios"

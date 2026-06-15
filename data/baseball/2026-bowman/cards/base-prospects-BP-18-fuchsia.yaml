@@ -1,0 +1,23 @@
+number: "BP-18"
+uuid: "f213839e-e8fa-4173-8bc1-64ec75967f18"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-bowman"
+subjects:
+  - name: "Blaine Bullard"
+    role: "Player"
+    team: "Toronto Blue Jays"
+subset: "Base Prospects"
+card_name: "Blaine Bullard - Base Prospects - Fuchsia"
+description: "Fuchsia parallel of Base Prospects card featuring Blaine Bullard."
+series: "2026 Bowman"
+parallel: "Fuchsia"
+print_run: 250
+rookie_card: false
+autograph: false
+serial_numbered: true
+release_date: "2026-05-13"
+image_url: "https://example.com/cards/2026-bowman/base-prospects-BP-18-fuchsia.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Bowman#Insertion_Ratios"

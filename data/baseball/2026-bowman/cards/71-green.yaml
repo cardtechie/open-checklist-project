@@ -1,0 +1,22 @@
+number: "71"
+uuid: "a347ca6b-72e5-4277-95de-f2bab8c7a474"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-bowman"
+subjects:
+  - name: "Trea Turner"
+    role: "Player"
+    team: "Philadelphia Phillies"
+card_name: "Trea Turner - Base - Green"
+description: "Green parallel of Base card featuring Trea Turner."
+series: "2026 Bowman"
+parallel: "Green"
+print_run: 99
+rookie_card: false
+autograph: false
+serial_numbered: true
+release_date: "2026-05-13"
+image_url: "https://example.com/cards/2026-bowman/71-green.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Bowman#Insertion_Ratios"

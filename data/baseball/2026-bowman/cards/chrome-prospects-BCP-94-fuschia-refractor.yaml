@@ -1,0 +1,23 @@
+number: "BCP-94"
+uuid: "cacf8fb1-db8e-4e08-bdd9-1df0ab171288"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-bowman"
+subjects:
+  - name: "Ricardo Cova"
+    role: "Player"
+    team: "Seattle Mariners"
+subset: "Chrome Prospects"
+card_name: "Ricardo Cova - Chrome Prospects - Fuschia Refractor"
+description: "Fuschia Refractor parallel of Chrome Prospects card featuring Ricardo Cova."
+series: "2026 Bowman"
+parallel: "Fuschia Refractor"
+print_run: 199
+rookie_card: false
+autograph: false
+serial_numbered: true
+release_date: "2026-05-13"
+image_url: "https://example.com/cards/2026-bowman/chrome-prospects-BCP-94-fuschia-refractor.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Bowman#Insertion_Ratios"

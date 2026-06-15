@@ -1,0 +1,22 @@
+number: "59"
+uuid: "473d9445-1a69-4f78-b2d9-87c7be7cfbd2"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-bowman"
+subjects:
+  - name: "Junior Caminero"
+    role: "Player"
+    team: "Tampa Bay Rays"
+card_name: "Junior Caminero - Base - Red"
+description: "Red parallel of Base card featuring Junior Caminero."
+series: "2026 Bowman"
+parallel: "Red"
+print_run: 5
+rookie_card: false
+autograph: false
+serial_numbered: true
+release_date: "2026-05-13"
+image_url: "https://example.com/cards/2026-bowman/59-red.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Bowman#Insertion_Ratios"

@@ -1,0 +1,23 @@
+number: "BP-78"
+uuid: "eb3c437a-48bb-4709-bfbb-c8ec105e58eb"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-bowman"
+subjects:
+  - name: "Dax Kilby"
+    role: "Player"
+    team: "New York Yankees"
+subset: "Base Prospects"
+card_name: "Dax Kilby - Base Prospects - Neon Green"
+description: "Neon Green parallel of Base Prospects card featuring Dax Kilby."
+series: "2026 Bowman"
+parallel: "Neon Green"
+print_run: 299
+rookie_card: false
+autograph: false
+serial_numbered: true
+release_date: "2026-05-13"
+image_url: "https://example.com/cards/2026-bowman/base-prospects-BP-78-neon-green.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Bowman#Insertion_Ratios"

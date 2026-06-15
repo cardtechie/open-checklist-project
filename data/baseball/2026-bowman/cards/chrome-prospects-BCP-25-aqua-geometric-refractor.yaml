@@ -1,0 +1,23 @@
+number: "BCP-25"
+uuid: "f8f8334f-bd8c-4f3e-87b9-d4b251ac6bff"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-bowman"
+subjects:
+  - name: "Juan Sanchez"
+    role: "Player"
+    team: "Toronto Blue Jays"
+subset: "Chrome Prospects"
+card_name: "Juan Sanchez - Chrome Prospects - Aqua Geometric Refractor"
+description: "Aqua Geometric Refractor parallel of Chrome Prospects card featuring Juan Sanchez."
+series: "2026 Bowman"
+parallel: "Aqua Geometric Refractor"
+print_run: 125
+rookie_card: false
+autograph: false
+serial_numbered: true
+release_date: "2026-05-13"
+image_url: "https://example.com/cards/2026-bowman/chrome-prospects-BCP-25-aqua-geometric-refractor.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Bowman#Insertion_Ratios"

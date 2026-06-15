@@ -1,0 +1,22 @@
+number: "32"
+uuid: "c80fe426-ada1-4414-9fc7-bc625f4e2c76"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-bowman"
+subjects:
+  - name: "Ketel Marte"
+    role: "Player"
+    team: "Arizona Diamondbacks"
+card_name: "Ketel Marte - Base - Platinum"
+description: "Platinum parallel of Base card featuring Ketel Marte."
+series: "2026 Bowman"
+parallel: "Platinum"
+print_run: 1
+rookie_card: false
+autograph: false
+serial_numbered: true
+release_date: "2026-05-13"
+image_url: "https://example.com/cards/2026-bowman/32-platinum.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Bowman#Insertion_Ratios"

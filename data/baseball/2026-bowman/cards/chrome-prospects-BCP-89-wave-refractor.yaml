@@ -1,0 +1,23 @@
+number: "BCP-89"
+uuid: "c19201de-84ab-4abe-8504-515663ab43f2"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-bowman"
+subjects:
+  - name: "Kendry Martinez"
+    role: "Player"
+    team: "Seattle Mariners"
+subset: "Chrome Prospects"
+card_name: "Kendry Martinez - Chrome Prospects - Wave Refractor"
+description: "Wave Refractor parallel of Chrome Prospects card featuring Kendry Martinez."
+series: "2026 Bowman"
+parallel: "Wave Refractor"
+print_run: 350
+rookie_card: false
+autograph: false
+serial_numbered: true
+release_date: "2026-05-13"
+image_url: "https://example.com/cards/2026-bowman/chrome-prospects-BCP-89-wave-refractor.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Bowman#Insertion_Ratios"

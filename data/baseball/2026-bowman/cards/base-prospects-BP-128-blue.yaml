@@ -1,0 +1,23 @@
+number: "BP-128"
+uuid: "6062eb2a-3721-4d54-89de-c56638c7defc"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-bowman"
+subjects:
+  - name: "Hector Ramos"
+    role: "Player"
+    team: "Boston Red Sox"
+subset: "Base Prospects"
+card_name: "Hector Ramos - Base Prospects - Blue"
+description: "Blue parallel of Base Prospects card featuring Hector Ramos."
+series: "2026 Bowman"
+parallel: "Blue"
+print_run: 150
+rookie_card: false
+autograph: false
+serial_numbered: true
+release_date: "2026-05-13"
+image_url: "https://example.com/cards/2026-bowman/base-prospects-BP-128-blue.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Bowman#Insertion_Ratios"

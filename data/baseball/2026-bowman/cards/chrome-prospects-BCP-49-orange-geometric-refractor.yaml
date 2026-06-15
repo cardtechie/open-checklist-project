@@ -1,0 +1,23 @@
+number: "BCP-49"
+uuid: "b6d18b22-9b37-4a75-9e74-4de1bccaec64"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-bowman"
+subjects:
+  - name: "Aidan Miller"
+    role: "Player"
+    team: "Philadelphia Phillies"
+subset: "Chrome Prospects"
+card_name: "Aidan Miller - Chrome Prospects - Orange Geometric Refractor"
+description: "Orange Geometric Refractor parallel of Chrome Prospects card featuring Aidan Miller."
+series: "2026 Bowman"
+parallel: "Orange Geometric Refractor"
+print_run: 25
+rookie_card: false
+autograph: false
+serial_numbered: true
+release_date: "2026-05-13"
+image_url: "https://example.com/cards/2026-bowman/chrome-prospects-BCP-49-orange-geometric-refractor.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Bowman#Insertion_Ratios"

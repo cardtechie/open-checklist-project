@@ -1,0 +1,23 @@
+number: "BCP-90"
+uuid: "2633b08a-9baf-4f6a-af23-a346d53bacb1"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-bowman"
+subjects:
+  - name: "Andrew Tess"
+    role: "Player"
+    team: "Baltimore Orioles"
+subset: "Chrome Prospects"
+card_name: "Andrew Tess - Chrome Prospects - Refractor"
+description: "Refractor parallel of Chrome Prospects card featuring Andrew Tess."
+series: "2026 Bowman"
+parallel: "Refractor"
+print_run: 499
+rookie_card: false
+autograph: false
+serial_numbered: true
+release_date: "2026-05-13"
+image_url: "https://example.com/cards/2026-bowman/chrome-prospects-BCP-90-refractor.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Bowman#Insertion_Ratios"

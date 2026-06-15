@@ -1,0 +1,23 @@
+number: "BCP-74"
+uuid: "13bfc2f0-de48-41e5-8374-03f1f55b7618"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-bowman"
+subjects:
+  - name: "Jack Wheeler"
+    role: "Player"
+    team: "Texas Rangers"
+subset: "Chrome Prospects"
+card_name: "Jack Wheeler - Chrome Prospects - Reptilian Fuschia Refractor"
+description: "Reptilian Fuschia Refractor parallel of Chrome Prospects card featuring Jack Wheeler."
+series: "2026 Bowman"
+parallel: "Reptilian Fuschia Refractor"
+print_run: 199
+rookie_card: false
+autograph: false
+serial_numbered: true
+release_date: "2026-05-13"
+image_url: "https://example.com/cards/2026-bowman/chrome-prospects-BCP-74-reptilian-fuschia-refractor.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Bowman#Insertion_Ratios"

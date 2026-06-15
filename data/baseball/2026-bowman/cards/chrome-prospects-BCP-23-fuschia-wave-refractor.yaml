@@ -1,0 +1,23 @@
+number: "BCP-23"
+uuid: "18d5d244-7428-4a97-b164-f31ae6c0f353"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-bowman"
+subjects:
+  - name: "Enddy Azocar"
+    role: "Player"
+    team: "Boston Red Sox"
+subset: "Chrome Prospects"
+card_name: "Enddy Azocar - Chrome Prospects - Fuschia Wave Refractor"
+description: "Fuschia Wave Refractor parallel of Chrome Prospects card featuring Enddy Azocar."
+series: "2026 Bowman"
+parallel: "Fuschia Wave Refractor"
+print_run: 199
+rookie_card: false
+autograph: false
+serial_numbered: true
+release_date: "2026-05-13"
+image_url: "https://example.com/cards/2026-bowman/chrome-prospects-BCP-23-fuschia-wave-refractor.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Bowman#Insertion_Ratios"

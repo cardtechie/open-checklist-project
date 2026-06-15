@@ -1,0 +1,23 @@
+number: "BCP-50"
+uuid: "e69b0557-71fb-491d-bd6a-7beb46836121"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-bowman"
+subjects:
+  - name: "Daniel Dickinson"
+    role: "Player"
+    team: "Milwaukee Brewers"
+subset: "Chrome Prospects"
+card_name: "Daniel Dickinson - Chrome Prospects - Green Grass Refractor"
+description: "Green Grass Refractor parallel of Chrome Prospects card featuring Daniel Dickinson."
+series: "2026 Bowman"
+parallel: "Green Grass Refractor"
+print_run: 99
+rookie_card: false
+autograph: false
+serial_numbered: true
+release_date: "2026-05-13"
+image_url: "https://example.com/cards/2026-bowman/chrome-prospects-BCP-50-green-grass-refractor.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Bowman#Insertion_Ratios"

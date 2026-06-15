@@ -1,0 +1,23 @@
+number: "BP-44"
+uuid: "03082548-2d2a-485b-b837-87dfbb9ca161"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-bowman"
+subjects:
+  - name: "Billy Carlson"
+    role: "Player"
+    team: "Chicago White Sox"
+subset: "Base Prospects"
+card_name: "Billy Carlson - Base Prospects - Fuchsia"
+description: "Fuchsia parallel of Base Prospects card featuring Billy Carlson."
+series: "2026 Bowman"
+parallel: "Fuchsia"
+print_run: 250
+rookie_card: false
+autograph: false
+serial_numbered: true
+release_date: "2026-05-13"
+image_url: "https://example.com/cards/2026-bowman/base-prospects-BP-44-fuchsia.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Bowman#Insertion_Ratios"

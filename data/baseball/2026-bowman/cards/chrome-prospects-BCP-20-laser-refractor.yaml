@@ -1,0 +1,22 @@
+number: "BCP-20"
+uuid: "310791ec-42ff-4c7f-8b33-7423117ea63d"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-bowman"
+subjects:
+  - name: "Theo Gillen"
+    role: "Player"
+    team: "Tampa Bay Rays"
+subset: "Chrome Prospects"
+card_name: "Theo Gillen - Chrome Prospects - Laser Refractor"
+description: "Laser Refractor parallel of Chrome Prospects card featuring Theo Gillen."
+series: "2026 Bowman"
+parallel: "Laser Refractor"
+rookie_card: false
+autograph: false
+serial_numbered: false
+release_date: "2026-05-13"
+image_url: "https://example.com/cards/2026-bowman/chrome-prospects-BCP-20-laser-refractor.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Bowman#Insertion_Ratios"

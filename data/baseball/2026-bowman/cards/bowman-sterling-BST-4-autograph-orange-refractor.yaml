@@ -1,0 +1,23 @@
+number: "BST-4"
+uuid: "a3aea35e-e5ee-4ffa-988c-797fe65ec23c"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-bowman"
+subjects:
+  - name: "Aaron Judge"
+    role: "Player"
+    team: "New York Yankees"
+subset: "Bowman Sterling"
+card_name: "Aaron Judge - Bowman Sterling - Autograph Orange Refractor"
+description: "Autograph Orange Refractor parallel of Bowman Sterling card featuring Aaron Judge."
+series: "2026 Bowman"
+parallel: "Autograph Orange Refractor"
+print_run: 25
+rookie_card: false
+autograph: false
+serial_numbered: true
+release_date: "2026-05-13"
+image_url: "https://example.com/cards/2026-bowman/bowman-sterling-BST-4-autograph-orange-refractor.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Bowman#Insertion_Ratios"

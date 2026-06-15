@@ -1,0 +1,23 @@
+number: "ES-9"
+uuid: "8f5be900-14d5-4dd1-915e-9a74075c28e8"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-bowman"
+subjects:
+  - name: "Elly De La Cruz"
+    role: "Player"
+    team: "Cincinnati Reds"
+subset: "Electric Sluggers"
+card_name: "Elly De La Cruz - Electric Sluggers - Orange Refractor"
+description: "Orange Refractor parallel of Electric Sluggers card featuring Elly De La Cruz."
+series: "2026 Bowman"
+parallel: "Orange Refractor"
+print_run: 25
+rookie_card: false
+autograph: false
+serial_numbered: true
+release_date: "2026-05-13"
+image_url: "https://example.com/cards/2026-bowman/electric-sluggers-ES-9-orange-refractor.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Bowman#Insertion_Ratios"

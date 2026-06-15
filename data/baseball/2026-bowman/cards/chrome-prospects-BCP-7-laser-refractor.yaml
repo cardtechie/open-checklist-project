@@ -1,0 +1,22 @@
+number: "BCP-7"
+uuid: "8902c300-6a51-4e7a-8a34-c1021d3e25d6"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-bowman"
+subjects:
+  - name: "Kendry Chourio"
+    role: "Player"
+    team: "Kansas City Royals"
+subset: "Chrome Prospects"
+card_name: "Kendry Chourio - Chrome Prospects - Laser Refractor"
+description: "Laser Refractor parallel of Chrome Prospects card featuring Kendry Chourio."
+series: "2026 Bowman"
+parallel: "Laser Refractor"
+rookie_card: false
+autograph: false
+serial_numbered: false
+release_date: "2026-05-13"
+image_url: "https://example.com/cards/2026-bowman/chrome-prospects-BCP-7-laser-refractor.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Bowman#Insertion_Ratios"

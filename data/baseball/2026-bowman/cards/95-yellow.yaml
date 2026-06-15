@@ -1,0 +1,22 @@
+number: "95"
+uuid: "5e3d8999-80b9-41d2-bcdf-6450c0de07db"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-bowman"
+subjects:
+  - name: "George Springer"
+    role: "Player"
+    team: "Toronto Blue Jays"
+card_name: "George Springer - Base - Yellow"
+description: "Yellow parallel of Base card featuring George Springer."
+series: "2026 Bowman"
+parallel: "Yellow"
+print_run: 75
+rookie_card: false
+autograph: false
+serial_numbered: true
+release_date: "2026-05-13"
+image_url: "https://example.com/cards/2026-bowman/95-yellow.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Bowman#Insertion_Ratios"

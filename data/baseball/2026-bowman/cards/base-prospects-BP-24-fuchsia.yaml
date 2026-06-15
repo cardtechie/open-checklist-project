@@ -1,0 +1,23 @@
+number: "BP-24"
+uuid: "0141827d-238b-4cb6-b2fe-32f8c530f142"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-bowman"
+subjects:
+  - name: "Edward Duran"
+    role: "Player"
+    team: "Toronto Blue Jays"
+subset: "Base Prospects"
+card_name: "Edward Duran - Base Prospects - Fuchsia"
+description: "Fuchsia parallel of Base Prospects card featuring Edward Duran."
+series: "2026 Bowman"
+parallel: "Fuchsia"
+print_run: 250
+rookie_card: false
+autograph: false
+serial_numbered: true
+release_date: "2026-05-13"
+image_url: "https://example.com/cards/2026-bowman/base-prospects-BP-24-fuchsia.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Bowman#Insertion_Ratios"

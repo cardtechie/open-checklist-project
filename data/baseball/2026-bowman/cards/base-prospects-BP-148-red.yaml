@@ -1,0 +1,23 @@
+number: "BP-148"
+uuid: "01448b93-1fd3-4cb9-8224-eb9432cf9f7d"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-bowman"
+subjects:
+  - name: "Dillon Lewis"
+    role: "Player"
+    team: "New York Yankees"
+subset: "Base Prospects"
+card_name: "Dillon Lewis - Base Prospects - Red"
+description: "Red parallel of Base Prospects card featuring Dillon Lewis."
+series: "2026 Bowman"
+parallel: "Red"
+print_run: 5
+rookie_card: false
+autograph: false
+serial_numbered: true
+release_date: "2026-05-13"
+image_url: "https://example.com/cards/2026-bowman/base-prospects-BP-148-red.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Bowman#Insertion_Ratios"

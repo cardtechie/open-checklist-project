@@ -1,0 +1,22 @@
+number: "BCP-102"
+uuid: "fffaf7e7-029b-4b0d-b1e3-6d68223b3f59"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-bowman"
+subjects:
+  - name: "Eric Hartman"
+    role: "Player"
+    team: "Atlanta Braves"
+subset: "Chrome Prospects"
+card_name: "Eric Hartman - Chrome Prospects - X-Fractor"
+description: "X-Fractor parallel of Chrome Prospects card featuring Eric Hartman."
+series: "2026 Bowman"
+parallel: "X-Fractor"
+rookie_card: false
+autograph: false
+serial_numbered: false
+release_date: "2026-05-13"
+image_url: "https://example.com/cards/2026-bowman/chrome-prospects-BCP-102-x-fractor.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Bowman#Insertion_Ratios"

@@ -1,0 +1,22 @@
+number: "BCP-2"
+uuid: "1ef2088b-3e13-4b08-8746-52d12c7c2b51"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-bowman"
+subjects:
+  - name: "Max Clark"
+    role: "Player"
+    team: "Detroit Tigers"
+subset: "Chrome Prospects"
+card_name: "Max Clark - Chrome Prospects - Pop Corn Refractor"
+description: "Pop Corn Refractor parallel of Chrome Prospects card featuring Max Clark."
+series: "2026 Bowman"
+parallel: "Pop Corn Refractor"
+rookie_card: false
+autograph: false
+serial_numbered: false
+release_date: "2026-05-13"
+image_url: "https://example.com/cards/2026-bowman/chrome-prospects-BCP-2-pop-corn-refractor.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Bowman#Insertion_Ratios"

@@ -1,0 +1,23 @@
+number: "BP-103"
+uuid: "2add1f97-7a7a-4c50-8d92-8eb5cebb904b"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-bowman"
+subjects:
+  - name: "Nick Monistere"
+    role: "Player"
+    team: "Houston Astros"
+subset: "Base Prospects"
+card_name: "Nick Monistere - Base Prospects - Green"
+description: "Green parallel of Base Prospects card featuring Nick Monistere."
+series: "2026 Bowman"
+parallel: "Green"
+print_run: 99
+rookie_card: false
+autograph: false
+serial_numbered: true
+release_date: "2026-05-13"
+image_url: "https://example.com/cards/2026-bowman/base-prospects-BP-103-green.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Bowman#Insertion_Ratios"

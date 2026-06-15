@@ -1,0 +1,23 @@
+number: "BCP-36"
+uuid: "020ef67b-2dd2-4e5e-992c-a6413f5d8e7c"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-bowman"
+subjects:
+  - name: "Moisés Chace"
+    role: "Player"
+    team: "Philadelphia Phillies"
+subset: "Chrome Prospects"
+card_name: "Moisés Chace - Chrome Prospects - Purple RayWave Refractor"
+description: "Purple RayWave Refractor parallel of Chrome Prospects card featuring Moisés Chace."
+series: "2026 Bowman"
+parallel: "Purple RayWave Refractor"
+print_run: 250
+rookie_card: false
+autograph: false
+serial_numbered: true
+release_date: "2026-05-13"
+image_url: "https://example.com/cards/2026-bowman/chrome-prospects-BCP-36-purple-raywave-refractor.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Bowman#Insertion_Ratios"

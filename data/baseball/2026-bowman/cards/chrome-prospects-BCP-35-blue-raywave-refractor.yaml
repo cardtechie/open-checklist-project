@@ -1,0 +1,23 @@
+number: "BCP-35"
+uuid: "3e42b730-35dd-47d3-95ad-0d85ae1390a4"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-bowman"
+subjects:
+  - name: "Travis Bazzana"
+    role: "Player"
+    team: "Cleveland Guardians"
+subset: "Chrome Prospects"
+card_name: "Travis Bazzana - Chrome Prospects - Blue RayWave Refractor"
+description: "Blue RayWave Refractor parallel of Chrome Prospects card featuring Travis Bazzana."
+series: "2026 Bowman"
+parallel: "Blue RayWave Refractor"
+print_run: 150
+rookie_card: false
+autograph: false
+serial_numbered: true
+release_date: "2026-05-13"
+image_url: "https://example.com/cards/2026-bowman/chrome-prospects-BCP-35-blue-raywave-refractor.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Bowman#Insertion_Ratios"

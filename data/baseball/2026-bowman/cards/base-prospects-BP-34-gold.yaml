@@ -1,0 +1,23 @@
+number: "BP-34"
+uuid: "8de2f58b-c9c2-4d25-bce1-291e8c8c29c5"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-bowman"
+subjects:
+  - name: "Cristopher Polanco"
+    role: "Player"
+    team: "Toronto Blue Jays"
+subset: "Base Prospects"
+card_name: "Cristopher Polanco - Base Prospects - Gold"
+description: "Gold parallel of Base Prospects card featuring Cristopher Polanco."
+series: "2026 Bowman"
+parallel: "Gold"
+print_run: 50
+rookie_card: false
+autograph: false
+serial_numbered: true
+release_date: "2026-05-13"
+image_url: "https://example.com/cards/2026-bowman/base-prospects-BP-34-gold.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Bowman#Insertion_Ratios"

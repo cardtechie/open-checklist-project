@@ -1,0 +1,23 @@
+number: "BP-126"
+uuid: "4b1e7e72-03b1-40f1-9ec3-1b4dfbe58f60"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-bowman"
+subjects:
+  - name: "Gavin Fien"
+    role: "Player"
+    team: "Texas Rangers"
+subset: "Base Prospects"
+card_name: "Gavin Fien - Base Prospects - Platinum"
+description: "Platinum parallel of Base Prospects card featuring Gavin Fien."
+series: "2026 Bowman"
+parallel: "Platinum"
+print_run: 1
+rookie_card: false
+autograph: false
+serial_numbered: true
+release_date: "2026-05-13"
+image_url: "https://example.com/cards/2026-bowman/base-prospects-BP-126-platinum.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Bowman#Insertion_Ratios"

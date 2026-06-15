@@ -1,0 +1,23 @@
+number: "BCP-139"
+uuid: "fd314eba-df42-406a-b0bc-5393ccf8946b"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-bowman"
+subjects:
+  - name: "Edgar Montero"
+    role: "Player"
+    team: "Athletics"
+subset: "Chrome Prospects"
+card_name: "Edgar Montero - Chrome Prospects - Aqua X-Fractor"
+description: "Aqua X-Fractor parallel of Chrome Prospects card featuring Edgar Montero."
+series: "2026 Bowman"
+parallel: "Aqua X-Fractor"
+print_run: 125
+rookie_card: false
+autograph: false
+serial_numbered: true
+release_date: "2026-05-13"
+image_url: "https://example.com/cards/2026-bowman/chrome-prospects-BCP-139-aqua-x-fractor.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Bowman#Insertion_Ratios"

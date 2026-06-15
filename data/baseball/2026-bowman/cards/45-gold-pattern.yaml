@@ -1,0 +1,22 @@
+number: "45"
+uuid: "d4d30890-e506-4748-8d8c-53d921ab3cdb"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-bowman"
+subjects:
+  - name: "Connelly Early"
+    role: "Player"
+    team: "Boston Red Sox"
+card_name: "Connelly Early - Base - Gold Pattern"
+description: "Gold Pattern parallel of Base card featuring Connelly Early."
+series: "2026 Bowman"
+parallel: "Gold Pattern"
+print_run: 50
+rookie_card: true
+autograph: false
+serial_numbered: true
+release_date: "2026-05-13"
+image_url: "https://example.com/cards/2026-bowman/45-gold-pattern.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Bowman#Insertion_Ratios"

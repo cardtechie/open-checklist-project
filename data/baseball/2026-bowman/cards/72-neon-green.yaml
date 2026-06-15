@@ -1,0 +1,22 @@
+number: "72"
+uuid: "c95e9b73-eb56-4564-8c94-83c7afee0410"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-bowman"
+subjects:
+  - name: "Masyn Winn"
+    role: "Player"
+    team: "St. Louis Cardinals"
+card_name: "Masyn Winn - Base - Neon Green"
+description: "Neon Green parallel of Base card featuring Masyn Winn."
+series: "2026 Bowman"
+parallel: "Neon Green"
+print_run: 399
+rookie_card: false
+autograph: false
+serial_numbered: true
+release_date: "2026-05-13"
+image_url: "https://example.com/cards/2026-bowman/72-neon-green.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Bowman#Insertion_Ratios"

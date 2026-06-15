@@ -1,0 +1,22 @@
+number: "90"
+uuid: "38d387b5-ffac-4a63-bd2a-d15825f52a3d"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-bowman"
+subjects:
+  - name: "Marcelo Mayer"
+    role: "Player"
+    team: "Boston Red Sox"
+card_name: "Marcelo Mayer - Base - Bowman Scouts' Top 100 Red Refractor"
+description: "Bowman Scouts' Top 100 Red Refractor parallel of Base card featuring Marcelo Mayer."
+series: "2026 Bowman"
+parallel: "Bowman Scouts' Top 100 Red Refractor"
+print_run: 5
+rookie_card: false
+autograph: false
+serial_numbered: true
+release_date: "2026-05-13"
+image_url: "https://example.com/cards/2026-bowman/90-bowman-scouts-top-100-red-refractor.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Bowman#Insertion_Ratios"

@@ -1,0 +1,23 @@
+number: "BP-95"
+uuid: "5d4e6c81-1d73-4bbe-abcb-f1d8fd7d8cb8"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-bowman"
+subjects:
+  - name: "Eli Willits"
+    role: "Player"
+    team: "Washington Nationals"
+subset: "Base Prospects"
+card_name: "Eli Willits - Base Prospects - Blue"
+description: "Blue parallel of Base Prospects card featuring Eli Willits."
+series: "2026 Bowman"
+parallel: "Blue"
+print_run: 150
+rookie_card: false
+autograph: false
+serial_numbered: true
+release_date: "2026-05-13"
+image_url: "https://example.com/cards/2026-bowman/base-prospects-BP-95-blue.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Bowman#Insertion_Ratios"

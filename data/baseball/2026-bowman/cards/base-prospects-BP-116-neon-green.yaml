@@ -1,0 +1,23 @@
+number: "BP-116"
+uuid: "1b2be29d-9183-4c9e-a811-47c266706c51"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-bowman"
+subjects:
+  - name: "Dauri Fernandez"
+    role: "Player"
+    team: "Cleveland Guardians"
+subset: "Base Prospects"
+card_name: "Dauri Fernandez - Base Prospects - Neon Green"
+description: "Neon Green parallel of Base Prospects card featuring Dauri Fernandez."
+series: "2026 Bowman"
+parallel: "Neon Green"
+print_run: 299
+rookie_card: false
+autograph: false
+serial_numbered: true
+release_date: "2026-05-13"
+image_url: "https://example.com/cards/2026-bowman/base-prospects-BP-116-neon-green.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Bowman#Insertion_Ratios"

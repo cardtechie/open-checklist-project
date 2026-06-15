@@ -1,0 +1,22 @@
+number: "85"
+uuid: "e8b6f00b-04e6-4fe2-b743-85fc4586e15e"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-bowman"
+subjects:
+  - name: "Nolan McLean"
+    role: "Player"
+    team: "New York Mets"
+card_name: "Nolan McLean - Base - Blue Pattern"
+description: "Blue Pattern parallel of Base card featuring Nolan McLean."
+series: "2026 Bowman"
+parallel: "Blue Pattern"
+print_run: 150
+rookie_card: true
+autograph: false
+serial_numbered: true
+release_date: "2026-05-13"
+image_url: "https://example.com/cards/2026-bowman/85-blue-pattern.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Bowman#Insertion_Ratios"

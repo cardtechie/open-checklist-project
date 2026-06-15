@@ -1,0 +1,23 @@
+number: "BCP-24"
+uuid: "8a2e89c9-b15d-45b0-a0bf-7991e939f6db"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-bowman"
+subjects:
+  - name: "Edward Duran"
+    role: "Player"
+    team: "Toronto Blue Jays"
+subset: "Chrome Prospects"
+card_name: "Edward Duran - Chrome Prospects - Reptilian Gold Refractor"
+description: "Reptilian Gold Refractor parallel of Chrome Prospects card featuring Edward Duran."
+series: "2026 Bowman"
+parallel: "Reptilian Gold Refractor"
+print_run: 50
+rookie_card: false
+autograph: false
+serial_numbered: true
+release_date: "2026-05-13"
+image_url: "https://example.com/cards/2026-bowman/chrome-prospects-BCP-24-reptilian-gold-refractor.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Bowman#Insertion_Ratios"

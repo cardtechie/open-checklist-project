@@ -1,0 +1,23 @@
+number: "BCP-40"
+uuid: "fa506844-cb6d-4cb2-9638-6b992e432662"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-bowman"
+subjects:
+  - name: "Aiva Arquette"
+    role: "Player"
+    team: "Miami Marlins"
+subset: "Chrome Prospects"
+card_name: "Aiva Arquette - Chrome Prospects - Aqua X-Fractor"
+description: "Aqua X-Fractor parallel of Chrome Prospects card featuring Aiva Arquette."
+series: "2026 Bowman"
+parallel: "Aqua X-Fractor"
+print_run: 125
+rookie_card: false
+autograph: false
+serial_numbered: true
+release_date: "2026-05-13"
+image_url: "https://example.com/cards/2026-bowman/chrome-prospects-BCP-40-aqua-x-fractor.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Bowman#Insertion_Ratios"

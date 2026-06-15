@@ -1,0 +1,22 @@
+number: "BCP-143"
+uuid: "5bc37542-5033-4cd8-858c-b84fc2ae6dbe"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-bowman"
+subjects:
+  - name: "Kaelen Culpepper"
+    role: "Player"
+    team: "Minnesota Twins"
+subset: "Chrome Prospects"
+card_name: "Kaelen Culpepper - Chrome Prospects - Reptilian Refractor"
+description: "Reptilian Refractor parallel of Chrome Prospects card featuring Kaelen Culpepper."
+series: "2026 Bowman"
+parallel: "Reptilian Refractor"
+rookie_card: false
+autograph: false
+serial_numbered: false
+release_date: "2026-05-13"
+image_url: "https://example.com/cards/2026-bowman/chrome-prospects-BCP-143-reptilian-refractor.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Bowman#Insertion_Ratios"

@@ -1,0 +1,18 @@
+number: "BS-7"
+uuid: "fc85cfd6-cc79-45d9-99aa-fbd135eee87d"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-bowman"
+subjects:
+  - name: "Bryce Eldridge"
+    role: "Player"
+    team: "San Francisco Giants"
+subset: "Bowman Spotlights"
+card_name: "Bryce Eldridge - Bowman Spotlights"
+description: "Bowman Spotlights card featuring Bryce Eldridge."
+series: "2026 Bowman"
+rookie_card: false
+autograph: false
+serial_numbered: false
+release_date: "2026-05-13"
+image_url: "https://example.com/cards/2026-bowman/bowman-spotlights-BS-7.jpg"

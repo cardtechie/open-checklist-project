@@ -1,0 +1,23 @@
+number: "BCP-20"
+uuid: "3bb4ab57-9f8f-415e-a1c6-6ef09711f01c"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-bowman"
+subjects:
+  - name: "Theo Gillen"
+    role: "Player"
+    team: "Tampa Bay Rays"
+subset: "Chrome Prospects"
+card_name: "Theo Gillen - Chrome Prospects - Bowman LogoFractor"
+description: "Bowman LogoFractor parallel of Chrome Prospects card featuring Theo Gillen."
+series: "2026 Bowman"
+parallel: "Bowman LogoFractor"
+print_run: 35
+rookie_card: false
+autograph: false
+serial_numbered: true
+release_date: "2026-05-13"
+image_url: "https://example.com/cards/2026-bowman/chrome-prospects-BCP-20-bowman-logofractor.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Bowman#Insertion_Ratios"

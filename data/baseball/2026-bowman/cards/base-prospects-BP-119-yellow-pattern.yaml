@@ -1,0 +1,23 @@
+number: "BP-119"
+uuid: "5af020a1-1ae3-4690-b43d-fcf6f58f4d94"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-bowman"
+subjects:
+  - name: "Mathias Lacombe"
+    role: "Player"
+    team: "Chicago White Sox"
+subset: "Base Prospects"
+card_name: "Mathias Lacombe - Base Prospects - Yellow Pattern"
+description: "Yellow Pattern parallel of Base Prospects card featuring Mathias Lacombe."
+series: "2026 Bowman"
+parallel: "Yellow Pattern"
+print_run: 75
+rookie_card: false
+autograph: false
+serial_numbered: true
+release_date: "2026-05-13"
+image_url: "https://example.com/cards/2026-bowman/base-prospects-BP-119-yellow-pattern.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Bowman#Insertion_Ratios"

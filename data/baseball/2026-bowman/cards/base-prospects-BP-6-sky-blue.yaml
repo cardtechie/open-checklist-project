@@ -1,0 +1,23 @@
+number: "BP-6"
+uuid: "6074c039-2273-4f7b-9962-62c08d153766"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-bowman"
+subjects:
+  - name: "Jared Jones"
+    role: "Player"
+    team: "Pittsburgh Pirates"
+subset: "Base Prospects"
+card_name: "Jared Jones - Base Prospects - Sky Blue"
+description: "Sky Blue parallel of Base Prospects card featuring Jared Jones."
+series: "2026 Bowman"
+parallel: "Sky Blue"
+print_run: 399
+rookie_card: false
+autograph: false
+serial_numbered: true
+release_date: "2026-05-13"
+image_url: "https://example.com/cards/2026-bowman/base-prospects-BP-6-sky-blue.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Bowman#Insertion_Ratios"

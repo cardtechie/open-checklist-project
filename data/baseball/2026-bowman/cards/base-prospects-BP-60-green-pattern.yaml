@@ -1,0 +1,23 @@
+number: "BP-60"
+uuid: "5c87e6e7-29a0-4f53-9367-9cb470361c2e"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-bowman"
+subjects:
+  - name: "Isaiah Jackson"
+    role: "Player"
+    team: "Los Angeles Angels"
+subset: "Base Prospects"
+card_name: "Isaiah Jackson - Base Prospects - Green Pattern"
+description: "Green Pattern parallel of Base Prospects card featuring Isaiah Jackson."
+series: "2026 Bowman"
+parallel: "Green Pattern"
+print_run: 75
+rookie_card: false
+autograph: false
+serial_numbered: true
+release_date: "2026-05-13"
+image_url: "https://example.com/cards/2026-bowman/base-prospects-BP-60-green-pattern.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Bowman#Insertion_Ratios"

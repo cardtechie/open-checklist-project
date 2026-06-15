@@ -1,0 +1,22 @@
+number: "24"
+uuid: "f1b645a5-6a03-4583-b4b4-3c3ba1b6d739"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-bowman"
+subjects:
+  - name: "Will Smith"
+    role: "Player"
+    team: "Los Angeles Dodgers"
+card_name: "Will Smith - Base - Purple"
+description: "Purple parallel of Base card featuring Will Smith."
+series: "2026 Bowman"
+parallel: "Purple"
+print_run: 250
+rookie_card: false
+autograph: false
+serial_numbered: true
+release_date: "2026-05-13"
+image_url: "https://example.com/cards/2026-bowman/24-purple.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Bowman#Insertion_Ratios"

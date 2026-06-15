@@ -1,0 +1,22 @@
+number: "5"
+uuid: "1d3b7cc0-5098-4885-9586-06700dd1f2b3"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-bowman"
+subjects:
+  - name: "Julio Rodríguez"
+    role: "Player"
+    team: "Seattle Mariners"
+card_name: "Julio Rodríguez - Base - Green"
+description: "Green parallel of Base card featuring Julio Rodríguez."
+series: "2026 Bowman"
+parallel: "Green"
+print_run: 99
+rookie_card: false
+autograph: false
+serial_numbered: true
+release_date: "2026-05-13"
+image_url: "https://example.com/cards/2026-bowman/5-green.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Bowman#Insertion_Ratios"

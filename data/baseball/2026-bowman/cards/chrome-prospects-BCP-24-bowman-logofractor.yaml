@@ -1,0 +1,23 @@
+number: "BCP-24"
+uuid: "b631de87-3958-4812-b4b0-fe0ddec2b0b2"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-bowman"
+subjects:
+  - name: "Edward Duran"
+    role: "Player"
+    team: "Toronto Blue Jays"
+subset: "Chrome Prospects"
+card_name: "Edward Duran - Chrome Prospects - Bowman LogoFractor"
+description: "Bowman LogoFractor parallel of Chrome Prospects card featuring Edward Duran."
+series: "2026 Bowman"
+parallel: "Bowman LogoFractor"
+print_run: 35
+rookie_card: false
+autograph: false
+serial_numbered: true
+release_date: "2026-05-13"
+image_url: "https://example.com/cards/2026-bowman/chrome-prospects-BCP-24-bowman-logofractor.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Bowman#Insertion_Ratios"

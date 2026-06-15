@@ -1,0 +1,23 @@
+number: "BP-49"
+uuid: "525e7038-bd4f-4bf1-9b4c-54179399c442"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-bowman"
+subjects:
+  - name: "Aidan Miller"
+    role: "Player"
+    team: "Philadelphia Phillies"
+subset: "Base Prospects"
+card_name: "Aidan Miller - Base Prospects - Blue Pattern"
+description: "Blue Pattern parallel of Base Prospects card featuring Aidan Miller."
+series: "2026 Bowman"
+parallel: "Blue Pattern"
+print_run: 99
+rookie_card: false
+autograph: false
+serial_numbered: true
+release_date: "2026-05-13"
+image_url: "https://example.com/cards/2026-bowman/base-prospects-BP-49-blue-pattern.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Bowman#Insertion_Ratios"

@@ -1,0 +1,22 @@
+number: "BCP-10"
+uuid: "97fa8876-435b-478a-a9bf-f33068f8d328"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-bowman"
+subjects:
+  - name: "Liam Doyle"
+    role: "Player"
+    team: "St. Louis Cardinals"
+subset: "Chrome Prospects"
+card_name: "Liam Doyle - Chrome Prospects - Sunflower Seeds Refractor"
+description: "Sunflower Seeds Refractor parallel of Chrome Prospects card featuring Liam Doyle."
+series: "2026 Bowman"
+parallel: "Sunflower Seeds Refractor"
+rookie_card: false
+autograph: false
+serial_numbered: false
+release_date: "2026-05-13"
+image_url: "https://example.com/cards/2026-bowman/chrome-prospects-BCP-10-sunflower-seeds-refractor.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Bowman#Insertion_Ratios"

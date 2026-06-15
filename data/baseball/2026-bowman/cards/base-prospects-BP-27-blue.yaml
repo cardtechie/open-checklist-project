@@ -1,0 +1,23 @@
+number: "BP-27"
+uuid: "8183075e-744c-4834-968b-5ed1fc78cf14"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-bowman"
+subjects:
+  - name: "Franklin Arias"
+    role: "Player"
+    team: "Boston Red Sox"
+subset: "Base Prospects"
+card_name: "Franklin Arias - Base Prospects - Blue"
+description: "Blue parallel of Base Prospects card featuring Franklin Arias."
+series: "2026 Bowman"
+parallel: "Blue"
+print_run: 150
+rookie_card: false
+autograph: false
+serial_numbered: true
+release_date: "2026-05-13"
+image_url: "https://example.com/cards/2026-bowman/base-prospects-BP-27-blue.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Bowman#Insertion_Ratios"

@@ -1,0 +1,23 @@
+number: "BCP-105"
+uuid: "9a8f9fb6-12a3-4cc0-8379-b36165c03b53"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-bowman"
+subjects:
+  - name: "Kade Snell"
+    role: "Player"
+    team: "Chicago Cubs"
+subset: "Chrome Prospects"
+card_name: "Kade Snell - Chrome Prospects - Wave Refractor"
+description: "Wave Refractor parallel of Chrome Prospects card featuring Kade Snell."
+series: "2026 Bowman"
+parallel: "Wave Refractor"
+print_run: 350
+rookie_card: false
+autograph: false
+serial_numbered: true
+release_date: "2026-05-13"
+image_url: "https://example.com/cards/2026-bowman/chrome-prospects-BCP-105-wave-refractor.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Bowman#Insertion_Ratios"

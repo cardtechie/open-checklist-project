@@ -1,0 +1,23 @@
+number: "BCP-144"
+uuid: "77f06a07-b837-4de7-819c-f6efcefaadfe"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-bowman"
+subjects:
+  - name: "Colby Shelton"
+    role: "Player"
+    team: "Chicago White Sox"
+subset: "Chrome Prospects"
+card_name: "Colby Shelton - Chrome Prospects - Yellow Wave Refractor"
+description: "Yellow Wave Refractor parallel of Chrome Prospects card featuring Colby Shelton."
+series: "2026 Bowman"
+parallel: "Yellow Wave Refractor"
+print_run: 75
+rookie_card: false
+autograph: false
+serial_numbered: true
+release_date: "2026-05-13"
+image_url: "https://example.com/cards/2026-bowman/chrome-prospects-BCP-144-yellow-wave-refractor.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Bowman#Insertion_Ratios"

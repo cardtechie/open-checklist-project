@@ -1,0 +1,23 @@
+number: "BP-83"
+uuid: "eb59db31-a953-42d1-bc88-67720a1ccee0"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-bowman"
+subjects:
+  - name: "Josue De Paula"
+    role: "Player"
+    team: "Los Angeles Dodgers"
+subset: "Base Prospects"
+card_name: "Josue De Paula - Base Prospects - Purple"
+description: "Purple parallel of Base Prospects card featuring Josue De Paula."
+series: "2026 Bowman"
+parallel: "Purple"
+print_run: 250
+rookie_card: false
+autograph: false
+serial_numbered: true
+release_date: "2026-05-13"
+image_url: "https://example.com/cards/2026-bowman/base-prospects-BP-83-purple.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Bowman#Insertion_Ratios"

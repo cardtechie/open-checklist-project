@@ -1,0 +1,17 @@
+number: "49"
+uuid: "448302db-8d5f-46e8-bd74-840bc96cd0c4"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-bowman"
+subjects:
+  - name: "Luis Morales"
+    role: "Player"
+    team: "Athletics"
+card_name: "Luis Morales - Base"
+description: "Base card featuring Luis Morales."
+series: "2026 Bowman"
+rookie_card: true
+autograph: false
+serial_numbered: false
+release_date: "2026-05-13"
+image_url: "https://example.com/cards/2026-bowman/49.jpg"

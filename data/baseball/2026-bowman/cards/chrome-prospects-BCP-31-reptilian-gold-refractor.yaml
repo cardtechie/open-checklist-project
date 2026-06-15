@@ -1,0 +1,23 @@
+number: "BCP-31"
+uuid: "9dcfac30-5f4c-49e9-b646-6de54597b5a5"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-bowman"
+subjects:
+  - name: "Brent Iredale"
+    role: "Player"
+    team: "Pittsburgh Pirates"
+subset: "Chrome Prospects"
+card_name: "Brent Iredale - Chrome Prospects - Reptilian Gold Refractor"
+description: "Reptilian Gold Refractor parallel of Chrome Prospects card featuring Brent Iredale."
+series: "2026 Bowman"
+parallel: "Reptilian Gold Refractor"
+print_run: 50
+rookie_card: false
+autograph: false
+serial_numbered: true
+release_date: "2026-05-13"
+image_url: "https://example.com/cards/2026-bowman/chrome-prospects-BCP-31-reptilian-gold-refractor.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Bowman#Insertion_Ratios"

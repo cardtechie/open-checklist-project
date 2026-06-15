@@ -1,0 +1,22 @@
+number: "BCP-140"
+uuid: "5f0c1f6e-e079-46dd-b6bd-c09ce4621e1d"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-bowman"
+subjects:
+  - name: "Pedro Ibarguen"
+    role: "Player"
+    team: "Milwaukee Brewers"
+subset: "Chrome Prospects"
+card_name: "Pedro Ibarguen - Chrome Prospects - Gum Ball Refractor"
+description: "Gum Ball Refractor parallel of Chrome Prospects card featuring Pedro Ibarguen."
+series: "2026 Bowman"
+parallel: "Gum Ball Refractor"
+rookie_card: false
+autograph: false
+serial_numbered: false
+release_date: "2026-05-13"
+image_url: "https://example.com/cards/2026-bowman/chrome-prospects-BCP-140-gum-ball-refractor.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Bowman#Insertion_Ratios"

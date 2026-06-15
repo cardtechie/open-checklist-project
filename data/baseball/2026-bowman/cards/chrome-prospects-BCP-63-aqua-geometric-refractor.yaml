@@ -1,0 +1,23 @@
+number: "BCP-63"
+uuid: "06063249-5b84-477a-ae0f-93fdd5a9edcb"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-bowman"
+subjects:
+  - name: "Leo De Vries"
+    role: "Player"
+    team: "Athletics"
+subset: "Chrome Prospects"
+card_name: "Leo De Vries - Chrome Prospects - Aqua Geometric Refractor"
+description: "Aqua Geometric Refractor parallel of Chrome Prospects card featuring Leo De Vries."
+series: "2026 Bowman"
+parallel: "Aqua Geometric Refractor"
+print_run: 125
+rookie_card: false
+autograph: false
+serial_numbered: true
+release_date: "2026-05-13"
+image_url: "https://example.com/cards/2026-bowman/chrome-prospects-BCP-63-aqua-geometric-refractor.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Bowman#Insertion_Ratios"

@@ -1,0 +1,23 @@
+number: "ES-24"
+uuid: "cb165752-d07a-41ea-8d01-55483798c0bf"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-bowman"
+subjects:
+  - name: "Pete Crow-Armstrong"
+    role: "Player"
+    team: "Chicago Cubs"
+subset: "Electric Sluggers"
+card_name: "Pete Crow-Armstrong - Electric Sluggers - SuperFractor"
+description: "SuperFractor parallel of Electric Sluggers card featuring Pete Crow-Armstrong."
+series: "2026 Bowman"
+parallel: "SuperFractor"
+print_run: 1
+rookie_card: false
+autograph: false
+serial_numbered: true
+release_date: "2026-05-13"
+image_url: "https://example.com/cards/2026-bowman/electric-sluggers-ES-24-superfractor.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Bowman#Insertion_Ratios"

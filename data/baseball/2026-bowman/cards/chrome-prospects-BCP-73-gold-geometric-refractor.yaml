@@ -1,0 +1,23 @@
+number: "BCP-73"
+uuid: "74aa9f15-cba1-4231-9bfb-3d6bdd41b9b4"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-bowman"
+subjects:
+  - name: "Charles Davalan"
+    role: "Player"
+    team: "Los Angeles Dodgers"
+subset: "Chrome Prospects"
+card_name: "Charles Davalan - Chrome Prospects - Gold Geometric Refractor"
+description: "Gold Geometric Refractor parallel of Chrome Prospects card featuring Charles Davalan."
+series: "2026 Bowman"
+parallel: "Gold Geometric Refractor"
+print_run: 50
+rookie_card: false
+autograph: false
+serial_numbered: true
+release_date: "2026-05-13"
+image_url: "https://example.com/cards/2026-bowman/chrome-prospects-BCP-73-gold-geometric-refractor.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Bowman#Insertion_Ratios"

@@ -1,0 +1,22 @@
+number: "BCP-110"
+uuid: "db58b1ec-6e60-4b4e-94f9-db1410eb60bb"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-bowman"
+subjects:
+  - name: "Matthew Ferrara"
+    role: "Player"
+    team: "Philadelphia Phillies"
+subset: "Chrome Prospects"
+card_name: "Matthew Ferrara - Chrome Prospects - Reptilian Refractor"
+description: "Reptilian Refractor parallel of Chrome Prospects card featuring Matthew Ferrara."
+series: "2026 Bowman"
+parallel: "Reptilian Refractor"
+rookie_card: false
+autograph: false
+serial_numbered: false
+release_date: "2026-05-13"
+image_url: "https://example.com/cards/2026-bowman/chrome-prospects-BCP-110-reptilian-refractor.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Bowman#Insertion_Ratios"

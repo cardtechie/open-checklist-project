@@ -1,0 +1,23 @@
+number: "BCP-109"
+uuid: "c4ddd364-dc1b-401b-bea2-f04e0f652e89"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-bowman"
+subjects:
+  - name: "Truitt Madonna"
+    role: "Player"
+    team: "San Diego Padres"
+subset: "Chrome Prospects"
+card_name: "Truitt Madonna - Chrome Prospects - Orange Refractor"
+description: "Orange Refractor parallel of Chrome Prospects card featuring Truitt Madonna."
+series: "2026 Bowman"
+parallel: "Orange Refractor"
+print_run: 25
+rookie_card: false
+autograph: false
+serial_numbered: true
+release_date: "2026-05-13"
+image_url: "https://example.com/cards/2026-bowman/chrome-prospects-BCP-109-orange-refractor.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Bowman#Insertion_Ratios"

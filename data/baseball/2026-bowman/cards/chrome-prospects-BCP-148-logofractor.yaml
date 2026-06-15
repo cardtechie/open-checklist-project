@@ -1,0 +1,22 @@
+number: "BCP-148"
+uuid: "4de453c1-4fe3-4250-bddb-c1a33e68fa8c"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-bowman"
+subjects:
+  - name: "Dillon Lewis"
+    role: "Player"
+    team: "New York Yankees"
+subset: "Chrome Prospects"
+card_name: "Dillon Lewis - Chrome Prospects - LogoFractor"
+description: "LogoFractor parallel of Chrome Prospects card featuring Dillon Lewis."
+series: "2026 Bowman"
+parallel: "LogoFractor"
+rookie_card: false
+autograph: false
+serial_numbered: false
+release_date: "2026-05-13"
+image_url: "https://example.com/cards/2026-bowman/chrome-prospects-BCP-148-logofractor.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Bowman#Insertion_Ratios"

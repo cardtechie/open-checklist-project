@@ -1,0 +1,22 @@
+number: "84"
+uuid: "e5f6631b-e2fa-4595-97c0-3d924d0c69ae"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-bowman"
+subjects:
+  - name: "Harry Ford"
+    role: "Player"
+    team: "Washington Nationals"
+card_name: "Harry Ford - Base - Orange Pattern"
+description: "Orange Pattern parallel of Base card featuring Harry Ford."
+series: "2026 Bowman"
+parallel: "Orange Pattern"
+print_run: 25
+rookie_card: true
+autograph: false
+serial_numbered: true
+release_date: "2026-05-13"
+image_url: "https://example.com/cards/2026-bowman/84-orange-pattern.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Bowman#Insertion_Ratios"

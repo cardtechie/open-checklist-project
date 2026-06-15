@@ -1,0 +1,22 @@
+number: "BCP-13"
+uuid: "892b1380-db54-4b71-9e07-b9942cdb8510"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-bowman"
+subjects:
+  - name: "Blake Mitchell"
+    role: "Player"
+    team: "Kansas City Royals"
+subset: "Chrome Prospects"
+card_name: "Blake Mitchell - Chrome Prospects - X-Fractor"
+description: "X-Fractor parallel of Chrome Prospects card featuring Blake Mitchell."
+series: "2026 Bowman"
+parallel: "X-Fractor"
+rookie_card: false
+autograph: false
+serial_numbered: false
+release_date: "2026-05-13"
+image_url: "https://example.com/cards/2026-bowman/chrome-prospects-BCP-13-x-fractor.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Bowman#Insertion_Ratios"

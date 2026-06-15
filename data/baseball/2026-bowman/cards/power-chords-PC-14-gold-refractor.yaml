@@ -1,0 +1,23 @@
+number: "PC-14"
+uuid: "8f15a478-a477-4c3d-aa74-40118a8b395a"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-bowman"
+subjects:
+  - name: "Roman Anthony"
+    role: "Player"
+    team: "Boston Red Sox"
+subset: "Power Chords"
+card_name: "Roman Anthony - Power Chords - Gold Refractor"
+description: "Gold Refractor parallel of Power Chords card featuring Roman Anthony."
+series: "2026 Bowman"
+parallel: "Gold Refractor"
+print_run: 50
+rookie_card: false
+autograph: false
+serial_numbered: true
+release_date: "2026-05-13"
+image_url: "https://example.com/cards/2026-bowman/power-chords-PC-14-gold-refractor.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Bowman#Insertion_Ratios"

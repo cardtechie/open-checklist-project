@@ -1,0 +1,22 @@
+number: "63"
+uuid: "bed7e0a1-e5b8-4bb0-846d-2fe9910e602c"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-bowman"
+subjects:
+  - name: "Roki Sasaki"
+    role: "Player"
+    team: "Los Angeles Dodgers"
+card_name: "Roki Sasaki - Base - Black"
+description: "Black parallel of Base card featuring Roki Sasaki."
+series: "2026 Bowman"
+parallel: "Black"
+print_run: 10
+rookie_card: false
+autograph: false
+serial_numbered: true
+release_date: "2026-05-13"
+image_url: "https://example.com/cards/2026-bowman/63-black.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Bowman#Insertion_Ratios"

@@ -1,0 +1,22 @@
+number: "55"
+uuid: "d56f6f1c-9af3-4a06-a746-1f4b7c4baadf"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-bowman"
+subjects:
+  - name: "Cristopher Sánchez"
+    role: "Player"
+    team: "Philadelphia Phillies"
+card_name: "Cristopher Sánchez - Base - Sky Blue"
+description: "Sky Blue parallel of Base card featuring Cristopher Sánchez."
+series: "2026 Bowman"
+parallel: "Sky Blue"
+print_run: 499
+rookie_card: false
+autograph: false
+serial_numbered: true
+release_date: "2026-05-13"
+image_url: "https://example.com/cards/2026-bowman/55-sky-blue.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Bowman#Insertion_Ratios"

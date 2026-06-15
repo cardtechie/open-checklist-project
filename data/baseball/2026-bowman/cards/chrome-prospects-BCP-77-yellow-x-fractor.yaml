@@ -1,0 +1,23 @@
+number: "BCP-77"
+uuid: "d7502e4c-eb18-4c95-b216-b15c38922a3b"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-bowman"
+subjects:
+  - name: "Daniel Pierce"
+    role: "Player"
+    team: "Tampa Bay Rays"
+subset: "Chrome Prospects"
+card_name: "Daniel Pierce - Chrome Prospects - Yellow X-Fractor"
+description: "Yellow X-Fractor parallel of Chrome Prospects card featuring Daniel Pierce."
+series: "2026 Bowman"
+parallel: "Yellow X-Fractor"
+print_run: 75
+rookie_card: false
+autograph: false
+serial_numbered: true
+release_date: "2026-05-13"
+image_url: "https://example.com/cards/2026-bowman/chrome-prospects-BCP-77-yellow-x-fractor.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Bowman#Insertion_Ratios"

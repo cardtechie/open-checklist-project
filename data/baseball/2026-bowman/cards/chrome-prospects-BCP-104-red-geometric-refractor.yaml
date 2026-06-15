@@ -1,0 +1,23 @@
+number: "BCP-104"
+uuid: "3d692fcf-57c7-4d54-a82b-d3a91720b545"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-bowman"
+subjects:
+  - name: "Henry Lalane"
+    role: "Player"
+    team: "New York Yankees"
+subset: "Chrome Prospects"
+card_name: "Henry Lalane - Chrome Prospects - Red Geometric Refractor"
+description: "Red Geometric Refractor parallel of Chrome Prospects card featuring Henry Lalane."
+series: "2026 Bowman"
+parallel: "Red Geometric Refractor"
+print_run: 5
+rookie_card: false
+autograph: false
+serial_numbered: true
+release_date: "2026-05-13"
+image_url: "https://example.com/cards/2026-bowman/chrome-prospects-BCP-104-red-geometric-refractor.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Bowman#Insertion_Ratios"

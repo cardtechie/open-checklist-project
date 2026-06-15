@@ -1,0 +1,23 @@
+number: "BCP-29"
+uuid: "ce9e5dd6-d0fb-4c29-b728-6feabc381745"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-bowman"
+subjects:
+  - name: "Victor Arias"
+    role: "Player"
+    team: "Toronto Blue Jays"
+subset: "Chrome Prospects"
+card_name: "Victor Arias - Chrome Prospects - Gold Shimmer Refractor"
+description: "Gold Shimmer Refractor parallel of Chrome Prospects card featuring Victor Arias."
+series: "2026 Bowman"
+parallel: "Gold Shimmer Refractor"
+print_run: 50
+rookie_card: false
+autograph: false
+serial_numbered: true
+release_date: "2026-05-13"
+image_url: "https://example.com/cards/2026-bowman/chrome-prospects-BCP-29-gold-shimmer-refractor.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Bowman#Insertion_Ratios"

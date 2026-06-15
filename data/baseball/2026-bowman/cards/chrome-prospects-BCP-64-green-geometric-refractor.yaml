@@ -1,0 +1,23 @@
+number: "BCP-64"
+uuid: "18a87f08-e34e-495e-9fd6-ff256b1dae84"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-bowman"
+subjects:
+  - name: "George Lombard Jr."
+    role: "Player"
+    team: "New York Yankees"
+subset: "Chrome Prospects"
+card_name: "George Lombard Jr. - Chrome Prospects - Green Geometric Refractor"
+description: "Green Geometric Refractor parallel of Chrome Prospects card featuring George Lombard Jr.."
+series: "2026 Bowman"
+parallel: "Green Geometric Refractor"
+print_run: 99
+rookie_card: false
+autograph: false
+serial_numbered: true
+release_date: "2026-05-13"
+image_url: "https://example.com/cards/2026-bowman/chrome-prospects-BCP-64-green-geometric-refractor.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Bowman#Insertion_Ratios"

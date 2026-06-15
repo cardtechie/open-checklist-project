@@ -1,0 +1,23 @@
+number: "BCP-13"
+uuid: "47b1e2d3-a1aa-446b-b7f3-05a9ed258cd4"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-bowman"
+subjects:
+  - name: "Blake Mitchell"
+    role: "Player"
+    team: "Kansas City Royals"
+subset: "Chrome Prospects"
+card_name: "Blake Mitchell - Chrome Prospects - Green Grass Refractor"
+description: "Green Grass Refractor parallel of Chrome Prospects card featuring Blake Mitchell."
+series: "2026 Bowman"
+parallel: "Green Grass Refractor"
+print_run: 99
+rookie_card: false
+autograph: false
+serial_numbered: true
+release_date: "2026-05-13"
+image_url: "https://example.com/cards/2026-bowman/chrome-prospects-BCP-13-green-grass-refractor.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Bowman#Insertion_Ratios"

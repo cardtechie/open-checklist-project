@@ -1,0 +1,23 @@
+number: "BCP-148"
+uuid: "2adc5610-cf6f-43ca-83ad-447104513168"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-bowman"
+subjects:
+  - name: "Dillon Lewis"
+    role: "Player"
+    team: "New York Yankees"
+subset: "Chrome Prospects"
+card_name: "Dillon Lewis - Chrome Prospects - Purple RayWave Refractor"
+description: "Purple RayWave Refractor parallel of Chrome Prospects card featuring Dillon Lewis."
+series: "2026 Bowman"
+parallel: "Purple RayWave Refractor"
+print_run: 250
+rookie_card: false
+autograph: false
+serial_numbered: true
+release_date: "2026-05-13"
+image_url: "https://example.com/cards/2026-bowman/chrome-prospects-BCP-148-purple-raywave-refractor.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Bowman#Insertion_Ratios"

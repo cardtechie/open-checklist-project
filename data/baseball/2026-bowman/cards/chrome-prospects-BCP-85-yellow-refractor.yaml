@@ -1,0 +1,23 @@
+number: "BCP-85"
+uuid: "4d683bbe-9f31-46e7-93f7-42cbb37bfb0b"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-bowman"
+subjects:
+  - name: "Anthony Frobose"
+    role: "Player"
+    team: "New York Mets"
+subset: "Chrome Prospects"
+card_name: "Anthony Frobose - Chrome Prospects - Yellow Refractor"
+description: "Yellow Refractor parallel of Chrome Prospects card featuring Anthony Frobose."
+series: "2026 Bowman"
+parallel: "Yellow Refractor"
+print_run: 75
+rookie_card: false
+autograph: false
+serial_numbered: true
+release_date: "2026-05-13"
+image_url: "https://example.com/cards/2026-bowman/chrome-prospects-BCP-85-yellow-refractor.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Bowman#Insertion_Ratios"

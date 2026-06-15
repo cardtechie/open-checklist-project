@@ -1,0 +1,18 @@
+number: "BA-23"
+uuid: "d25277d6-0ced-41a9-8fb9-0531c4392645"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-bowman"
+subjects:
+  - name: "Mike Trout"
+    role: "Player"
+    team: "Los Angeles Angels"
+subset: "Anime"
+card_name: "Mike Trout - Anime"
+description: "Anime card featuring Mike Trout."
+series: "2026 Bowman"
+rookie_card: false
+autograph: false
+serial_numbered: false
+release_date: "2026-05-13"
+image_url: "https://example.com/cards/2026-bowman/anime-BA-23.jpg"

@@ -1,0 +1,22 @@
+number: "BCP-6"
+uuid: "e8082265-5c9c-4373-8dcb-7b395216dc7e"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-bowman"
+subjects:
+  - name: "Jared Jones"
+    role: "Player"
+    team: "Pittsburgh Pirates"
+subset: "Chrome Prospects"
+card_name: "Jared Jones - Chrome Prospects - Gum Ball Refractor"
+description: "Gum Ball Refractor parallel of Chrome Prospects card featuring Jared Jones."
+series: "2026 Bowman"
+parallel: "Gum Ball Refractor"
+rookie_card: false
+autograph: false
+serial_numbered: false
+release_date: "2026-05-13"
+image_url: "https://example.com/cards/2026-bowman/chrome-prospects-BCP-6-gum-ball-refractor.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Bowman#Insertion_Ratios"

@@ -1,0 +1,23 @@
+number: "BCP-23"
+uuid: "64d7de5f-3d67-4ebc-b54f-09d39bc3c5ba"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-bowman"
+subjects:
+  - name: "Enddy Azocar"
+    role: "Player"
+    team: "Boston Red Sox"
+subset: "Chrome Prospects"
+card_name: "Enddy Azocar - Chrome Prospects - Bowman LogoFractor"
+description: "Bowman LogoFractor parallel of Chrome Prospects card featuring Enddy Azocar."
+series: "2026 Bowman"
+parallel: "Bowman LogoFractor"
+print_run: 35
+rookie_card: false
+autograph: false
+serial_numbered: true
+release_date: "2026-05-13"
+image_url: "https://example.com/cards/2026-bowman/chrome-prospects-BCP-23-bowman-logofractor.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Bowman#Insertion_Ratios"

@@ -1,0 +1,23 @@
+number: "BP-34"
+uuid: "30da2199-b1f6-445e-8bfc-63d825751510"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-bowman"
+subjects:
+  - name: "Cristopher Polanco"
+    role: "Player"
+    team: "Toronto Blue Jays"
+subset: "Base Prospects"
+card_name: "Cristopher Polanco - Base Prospects - Orange"
+description: "Orange parallel of Base Prospects card featuring Cristopher Polanco."
+series: "2026 Bowman"
+parallel: "Orange"
+print_run: 25
+rookie_card: false
+autograph: false
+serial_numbered: true
+release_date: "2026-05-13"
+image_url: "https://example.com/cards/2026-bowman/base-prospects-BP-34-orange.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Bowman#Insertion_Ratios"

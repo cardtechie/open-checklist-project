@@ -1,0 +1,23 @@
+number: "BCP-111"
+uuid: "54491f03-7037-4f42-a0d0-70ce3a71da12"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-bowman"
+subjects:
+  - name: "Carson Benge"
+    role: "Player"
+    team: "New York Mets"
+subset: "Chrome Prospects"
+card_name: "Carson Benge - Chrome Prospects - PackFractor"
+description: "PackFractor parallel of Chrome Prospects card featuring Carson Benge."
+series: "2026 Bowman"
+parallel: "PackFractor"
+print_run: 89
+rookie_card: false
+autograph: false
+serial_numbered: true
+release_date: "2026-05-13"
+image_url: "https://example.com/cards/2026-bowman/chrome-prospects-BCP-111-packfractor.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Bowman#Insertion_Ratios"

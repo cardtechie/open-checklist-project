@@ -1,0 +1,23 @@
+number: "BP-16"
+uuid: "5b114ad6-76d1-4796-b6cc-6fcc5ac2b460"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-bowman"
+subjects:
+  - name: "Marek Houston"
+    role: "Player"
+    team: "Minnesota Twins"
+subset: "Base Prospects"
+card_name: "Marek Houston - Base Prospects - Black Pattern"
+description: "Black Pattern parallel of Base Prospects card featuring Marek Houston."
+series: "2026 Bowman"
+parallel: "Black Pattern"
+print_run: 10
+rookie_card: false
+autograph: false
+serial_numbered: true
+release_date: "2026-05-13"
+image_url: "https://example.com/cards/2026-bowman/base-prospects-BP-16-black-pattern.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Bowman#Insertion_Ratios"

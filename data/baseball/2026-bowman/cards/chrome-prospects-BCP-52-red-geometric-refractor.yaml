@@ -1,0 +1,23 @@
+number: "BCP-52"
+uuid: "8b2ef75f-c5c1-4f6c-a4ff-2de00acbe1f4"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-bowman"
+subjects:
+  - name: "Ethan Dorchies"
+    role: "Player"
+    team: "Milwaukee Brewers"
+subset: "Chrome Prospects"
+card_name: "Ethan Dorchies - Chrome Prospects - Red Geometric Refractor"
+description: "Red Geometric Refractor parallel of Chrome Prospects card featuring Ethan Dorchies."
+series: "2026 Bowman"
+parallel: "Red Geometric Refractor"
+print_run: 5
+rookie_card: false
+autograph: false
+serial_numbered: true
+release_date: "2026-05-13"
+image_url: "https://example.com/cards/2026-bowman/chrome-prospects-BCP-52-red-geometric-refractor.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Bowman#Insertion_Ratios"

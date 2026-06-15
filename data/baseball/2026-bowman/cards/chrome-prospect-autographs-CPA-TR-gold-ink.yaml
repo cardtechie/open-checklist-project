@@ -1,0 +1,23 @@
+number: "CPA-TR"
+uuid: "cd3d8f64-7d96-41a2-b88b-4e6ddd3e0251"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-bowman"
+subjects:
+  - name: "T.J. Rumfield"
+    role: "Player"
+    team: "New York Yankees"
+subset: "Chrome Prospect Autographs"
+card_name: "T.J. Rumfield - Chrome Prospect Autographs - Gold Ink"
+description: "Gold Ink parallel of Autographed Chrome Prospect Autographs card featuring T.J. Rumfield."
+series: "2026 Bowman"
+parallel: "Gold Ink"
+print_run: 15
+rookie_card: false
+autograph: true
+serial_numbered: true
+release_date: "2026-05-13"
+image_url: "https://example.com/cards/2026-bowman/chrome-prospect-autographs-CPA-TR-gold-ink.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Bowman#Insertion_Ratios"

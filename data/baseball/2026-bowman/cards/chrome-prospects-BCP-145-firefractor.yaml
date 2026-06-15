@@ -1,0 +1,23 @@
+number: "BCP-145"
+uuid: "d766244b-3f1e-49c8-a035-8e000e61d099"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-bowman"
+subjects:
+  - name: "Kevin McGonigle"
+    role: "Player"
+    team: "Detroit Tigers"
+subset: "Chrome Prospects"
+card_name: "Kevin McGonigle - Chrome Prospects - FireFractor"
+description: "FireFractor parallel of Chrome Prospects card featuring Kevin McGonigle."
+series: "2026 Bowman"
+parallel: "FireFractor"
+print_run: 3
+rookie_card: false
+autograph: false
+serial_numbered: true
+release_date: "2026-05-13"
+image_url: "https://example.com/cards/2026-bowman/chrome-prospects-BCP-145-firefractor.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Bowman#Insertion_Ratios"

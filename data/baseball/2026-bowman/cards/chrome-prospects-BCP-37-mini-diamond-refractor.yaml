@@ -1,0 +1,22 @@
+number: "BCP-37"
+uuid: "77eae0a0-2268-46af-a6fd-855023a09000"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-bowman"
+subjects:
+  - name: "Gage Stanifer"
+    role: "Player"
+    team: "Toronto Blue Jays"
+subset: "Chrome Prospects"
+card_name: "Gage Stanifer - Chrome Prospects - Mini-Diamond Refractor"
+description: "Mini-Diamond Refractor parallel of Chrome Prospects card featuring Gage Stanifer."
+series: "2026 Bowman"
+parallel: "Mini-Diamond Refractor"
+rookie_card: false
+autograph: false
+serial_numbered: false
+release_date: "2026-05-13"
+image_url: "https://example.com/cards/2026-bowman/chrome-prospects-BCP-37-mini-diamond-refractor.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Bowman#Insertion_Ratios"

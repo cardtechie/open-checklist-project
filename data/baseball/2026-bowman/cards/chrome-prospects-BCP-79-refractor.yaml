@@ -1,0 +1,23 @@
+number: "BCP-79"
+uuid: "4f04c594-9393-46e3-a5e8-bce26976b847"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-bowman"
+subjects:
+  - name: "Esteban Mejia"
+    role: "Player"
+    team: "Baltimore Orioles"
+subset: "Chrome Prospects"
+card_name: "Esteban Mejia - Chrome Prospects - Refractor"
+description: "Refractor parallel of Chrome Prospects card featuring Esteban Mejia."
+series: "2026 Bowman"
+parallel: "Refractor"
+print_run: 499
+rookie_card: false
+autograph: false
+serial_numbered: true
+release_date: "2026-05-13"
+image_url: "https://example.com/cards/2026-bowman/chrome-prospects-BCP-79-refractor.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Bowman#Insertion_Ratios"

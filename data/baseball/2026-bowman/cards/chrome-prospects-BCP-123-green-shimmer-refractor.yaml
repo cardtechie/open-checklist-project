@@ -1,0 +1,23 @@
+number: "BCP-123"
+uuid: "970645d1-d931-43b0-ba18-e65ad08bfc16"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-bowman"
+subjects:
+  - name: "JR Ritchie"
+    role: "Player"
+    team: "Atlanta Braves"
+subset: "Chrome Prospects"
+card_name: "JR Ritchie - Chrome Prospects - Green Shimmer Refractor"
+description: "Green Shimmer Refractor parallel of Chrome Prospects card featuring JR Ritchie."
+series: "2026 Bowman"
+parallel: "Green Shimmer Refractor"
+print_run: 99
+rookie_card: false
+autograph: false
+serial_numbered: true
+release_date: "2026-05-13"
+image_url: "https://example.com/cards/2026-bowman/chrome-prospects-BCP-123-green-shimmer-refractor.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Bowman#Insertion_Ratios"

@@ -1,0 +1,23 @@
+number: "BP-132"
+uuid: "632f2c22-4252-4d0d-8fae-da2a340f1ce1"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-bowman"
+subjects:
+  - name: "Keyner Martinez"
+    role: "Player"
+    team: "San Francisco Giants"
+subset: "Base Prospects"
+card_name: "Keyner Martinez - Base Prospects - Fuchsia"
+description: "Fuchsia parallel of Base Prospects card featuring Keyner Martinez."
+series: "2026 Bowman"
+parallel: "Fuchsia"
+print_run: 250
+rookie_card: false
+autograph: false
+serial_numbered: true
+release_date: "2026-05-13"
+image_url: "https://example.com/cards/2026-bowman/base-prospects-BP-132-fuchsia.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Bowman#Insertion_Ratios"

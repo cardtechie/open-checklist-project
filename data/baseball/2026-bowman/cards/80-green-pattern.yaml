@@ -1,0 +1,22 @@
+number: "80"
+uuid: "5e31e28f-72b4-4a50-8c0e-7c8c4433e82b"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-bowman"
+subjects:
+  - name: "Corbin Carroll"
+    role: "Player"
+    team: "Arizona Diamondbacks"
+card_name: "Corbin Carroll - Base - Green Pattern"
+description: "Green Pattern parallel of Base card featuring Corbin Carroll."
+series: "2026 Bowman"
+parallel: "Green Pattern"
+print_run: 99
+rookie_card: false
+autograph: false
+serial_numbered: true
+release_date: "2026-05-13"
+image_url: "https://example.com/cards/2026-bowman/80-green-pattern.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Bowman#Insertion_Ratios"

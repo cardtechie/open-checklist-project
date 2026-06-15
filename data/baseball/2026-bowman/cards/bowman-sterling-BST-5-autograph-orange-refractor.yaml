@@ -1,0 +1,23 @@
+number: "BST-5"
+uuid: "7d38e644-da33-483e-8b38-0f429ef00e68"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-bowman"
+subjects:
+  - name: "Max Clark"
+    role: "Player"
+    team: "Detroit Tigers"
+subset: "Bowman Sterling"
+card_name: "Max Clark - Bowman Sterling - Autograph Orange Refractor"
+description: "Autograph Orange Refractor parallel of Bowman Sterling card featuring Max Clark."
+series: "2026 Bowman"
+parallel: "Autograph Orange Refractor"
+print_run: 25
+rookie_card: false
+autograph: false
+serial_numbered: true
+release_date: "2026-05-13"
+image_url: "https://example.com/cards/2026-bowman/bowman-sterling-BST-5-autograph-orange-refractor.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Bowman#Insertion_Ratios"

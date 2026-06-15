@@ -1,0 +1,23 @@
+number: "ES-13"
+uuid: "36de4dad-67c9-41c6-be60-3013344e26bb"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-bowman"
+subjects:
+  - name: "Ethan Holliday"
+    role: "Player"
+    team: "Colorado Rockies"
+subset: "Electric Sluggers"
+card_name: "Ethan Holliday - Electric Sluggers - Mega Chrome Rose Gold Refractor"
+description: "Mega Chrome Rose Gold Refractor parallel of Electric Sluggers card featuring Ethan Holliday."
+series: "2026 Bowman"
+parallel: "Mega Chrome Rose Gold Refractor"
+print_run: 1
+rookie_card: false
+autograph: false
+serial_numbered: true
+release_date: "2026-05-13"
+image_url: "https://example.com/cards/2026-bowman/electric-sluggers-ES-13-mega-chrome-rose-gold-refractor.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Bowman#Insertion_Ratios"

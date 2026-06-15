@@ -1,0 +1,23 @@
+number: "BCP-78"
+uuid: "fef8e1b0-4383-4c3a-9618-8b3bb15cbcd7"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-bowman"
+subjects:
+  - name: "Dax Kilby"
+    role: "Player"
+    team: "New York Yankees"
+subset: "Chrome Prospects"
+card_name: "Dax Kilby - Chrome Prospects - Green Refractor"
+description: "Green Refractor parallel of Chrome Prospects card featuring Dax Kilby."
+series: "2026 Bowman"
+parallel: "Green Refractor"
+print_run: 99
+rookie_card: false
+autograph: false
+serial_numbered: true
+release_date: "2026-05-13"
+image_url: "https://example.com/cards/2026-bowman/chrome-prospects-BCP-78-green-refractor.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Bowman#Insertion_Ratios"

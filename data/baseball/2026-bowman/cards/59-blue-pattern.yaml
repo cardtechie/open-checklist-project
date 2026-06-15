@@ -1,0 +1,22 @@
+number: "59"
+uuid: "e2731333-5ee7-4d3e-a209-574868bb2f9e"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-bowman"
+subjects:
+  - name: "Junior Caminero"
+    role: "Player"
+    team: "Tampa Bay Rays"
+card_name: "Junior Caminero - Base - Blue Pattern"
+description: "Blue Pattern parallel of Base card featuring Junior Caminero."
+series: "2026 Bowman"
+parallel: "Blue Pattern"
+print_run: 150
+rookie_card: false
+autograph: false
+serial_numbered: true
+release_date: "2026-05-13"
+image_url: "https://example.com/cards/2026-bowman/59-blue-pattern.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Bowman#Insertion_Ratios"

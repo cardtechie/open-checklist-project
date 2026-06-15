@@ -1,0 +1,23 @@
+number: "CPA-HR"
+uuid: "00c53df1-21bb-4b41-94d3-53cb73491d99"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-bowman"
+subjects:
+  - name: "Hector Ramos"
+    role: "Player"
+    team: "Boston Red Sox"
+subset: "Chrome Prospect Autographs"
+card_name: "Hector Ramos - Chrome Prospect Autographs - Speckle Refractor"
+description: "Speckle Refractor parallel of Autographed Chrome Prospect Autographs card featuring Hector Ramos."
+series: "2026 Bowman"
+parallel: "Speckle Refractor"
+print_run: 299
+rookie_card: false
+autograph: true
+serial_numbered: true
+release_date: "2026-05-13"
+image_url: "https://example.com/cards/2026-bowman/chrome-prospect-autographs-CPA-HR-speckle-refractor.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Bowman#Insertion_Ratios"

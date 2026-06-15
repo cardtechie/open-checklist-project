@@ -1,0 +1,23 @@
+number: "CRA-BH"
+uuid: "80e146eb-7147-45b8-8b03-32246cb2d6db"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-bowman"
+subjects:
+  - name: "Brady House"
+    role: "Player"
+    team: "Washington Nationals"
+subset: "Chrome Rookie Autographs"
+card_name: "Brady House - Chrome Rookie Autographs - SuperFractor"
+description: "SuperFractor parallel of Autographed Chrome Rookie Autographs card featuring Brady House."
+series: "2026 Bowman"
+parallel: "SuperFractor"
+print_run: 1
+rookie_card: false
+autograph: true
+serial_numbered: true
+release_date: "2026-05-13"
+image_url: "https://example.com/cards/2026-bowman/chrome-rookie-autographs-CRA-BH-superfractor.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Bowman#Insertion_Ratios"

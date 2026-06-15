@@ -1,0 +1,23 @@
+number: "CPA-DP"
+uuid: "a2d58251-f8bc-46c0-b571-d061dea1712e"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-bowman"
+subjects:
+  - name: "Daniel Pierce"
+    role: "Player"
+    team: "Tampa Bay Rays"
+subset: "Chrome Prospect Autographs"
+card_name: "Daniel Pierce - Chrome Prospect Autographs - Gold Ink"
+description: "Gold Ink parallel of Autographed Chrome Prospect Autographs card featuring Daniel Pierce."
+series: "2026 Bowman"
+parallel: "Gold Ink"
+print_run: 15
+rookie_card: false
+autograph: true
+serial_numbered: true
+release_date: "2026-05-13"
+image_url: "https://example.com/cards/2026-bowman/chrome-prospect-autographs-CPA-DP-gold-ink.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Bowman#Insertion_Ratios"

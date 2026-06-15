@@ -1,0 +1,21 @@
+number: "80"
+uuid: "61fd9b71-3b25-4485-b668-56490ecaf896"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-bowman"
+subjects:
+  - name: "Corbin Carroll"
+    role: "Player"
+    team: "Arizona Diamondbacks"
+card_name: "Corbin Carroll - Base - Bowman Logo"
+description: "Bowman Logo parallel of Base card featuring Corbin Carroll."
+series: "2026 Bowman"
+parallel: "Bowman Logo"
+rookie_card: false
+autograph: false
+serial_numbered: false
+release_date: "2026-05-13"
+image_url: "https://example.com/cards/2026-bowman/80-bowman-logo.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Bowman#Insertion_Ratios"

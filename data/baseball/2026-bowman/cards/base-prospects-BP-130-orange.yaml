@@ -1,0 +1,23 @@
+number: "BP-130"
+uuid: "654d9bf0-3400-4840-b4c9-8191a2f82606"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-bowman"
+subjects:
+  - name: "Kenly Hunter"
+    role: "Player"
+    team: "St. Louis Cardinals"
+subset: "Base Prospects"
+card_name: "Kenly Hunter - Base Prospects - Orange"
+description: "Orange parallel of Base Prospects card featuring Kenly Hunter."
+series: "2026 Bowman"
+parallel: "Orange"
+print_run: 25
+rookie_card: false
+autograph: false
+serial_numbered: true
+release_date: "2026-05-13"
+image_url: "https://example.com/cards/2026-bowman/base-prospects-BP-130-orange.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Bowman#Insertion_Ratios"

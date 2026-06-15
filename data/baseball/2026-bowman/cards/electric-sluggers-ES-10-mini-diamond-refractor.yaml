@@ -1,0 +1,23 @@
+number: "ES-10"
+uuid: "29a59ccb-09b7-48c8-9897-c24a60fba019"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-bowman"
+subjects:
+  - name: "Samuel Basallo"
+    role: "Player"
+    team: "Baltimore Orioles"
+subset: "Electric Sluggers"
+card_name: "Samuel Basallo - Electric Sluggers - Mini-Diamond Refractor"
+description: "Mini-Diamond Refractor parallel of Electric Sluggers card featuring Samuel Basallo."
+series: "2026 Bowman"
+parallel: "Mini-Diamond Refractor"
+print_run: 150
+rookie_card: false
+autograph: false
+serial_numbered: true
+release_date: "2026-05-13"
+image_url: "https://example.com/cards/2026-bowman/electric-sluggers-ES-10-mini-diamond-refractor.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Bowman#Insertion_Ratios"

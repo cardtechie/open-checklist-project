@@ -1,0 +1,22 @@
+number: "BCP-23"
+uuid: "2850e4a5-8d07-46f1-8077-1eb35da6caf4"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-bowman"
+subjects:
+  - name: "Enddy Azocar"
+    role: "Player"
+    team: "Boston Red Sox"
+subset: "Chrome Prospects"
+card_name: "Enddy Azocar - Chrome Prospects - Mini-Diamond Refractor"
+description: "Mini-Diamond Refractor parallel of Chrome Prospects card featuring Enddy Azocar."
+series: "2026 Bowman"
+parallel: "Mini-Diamond Refractor"
+rookie_card: false
+autograph: false
+serial_numbered: false
+release_date: "2026-05-13"
+image_url: "https://example.com/cards/2026-bowman/chrome-prospects-BCP-23-mini-diamond-refractor.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Bowman#Insertion_Ratios"

@@ -1,0 +1,23 @@
+number: "BP-59"
+uuid: "1f538c0b-6040-417d-8bfd-1085db10f3fc"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-bowman"
+subjects:
+  - name: "Brendan Tunink"
+    role: "Player"
+    team: "Los Angeles Dodgers"
+subset: "Base Prospects"
+card_name: "Brendan Tunink - Base Prospects - Orange"
+description: "Orange parallel of Base Prospects card featuring Brendan Tunink."
+series: "2026 Bowman"
+parallel: "Orange"
+print_run: 25
+rookie_card: false
+autograph: false
+serial_numbered: true
+release_date: "2026-05-13"
+image_url: "https://example.com/cards/2026-bowman/base-prospects-BP-59-orange.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Bowman#Insertion_Ratios"

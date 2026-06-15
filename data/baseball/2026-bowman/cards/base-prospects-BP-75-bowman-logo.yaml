@@ -1,0 +1,22 @@
+number: "BP-75"
+uuid: "78a5ac55-ecf0-4af5-96af-15197253288f"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-bowman"
+subjects:
+  - name: "Juan Torres"
+    role: "Player"
+    team: "New York Yankees"
+subset: "Base Prospects"
+card_name: "Juan Torres - Base Prospects - Bowman Logo"
+description: "Bowman Logo parallel of Base Prospects card featuring Juan Torres."
+series: "2026 Bowman"
+parallel: "Bowman Logo"
+rookie_card: false
+autograph: false
+serial_numbered: false
+release_date: "2026-05-13"
+image_url: "https://example.com/cards/2026-bowman/base-prospects-BP-75-bowman-logo.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Bowman#Insertion_Ratios"

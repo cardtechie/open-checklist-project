@@ -1,0 +1,22 @@
+number: "BCP-77"
+uuid: "c4b5646e-4af0-4236-9155-37e038c54414"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-bowman"
+subjects:
+  - name: "Daniel Pierce"
+    role: "Player"
+    team: "Tampa Bay Rays"
+subset: "Chrome Prospects"
+card_name: "Daniel Pierce - Chrome Prospects - LogoFractor"
+description: "LogoFractor parallel of Chrome Prospects card featuring Daniel Pierce."
+series: "2026 Bowman"
+parallel: "LogoFractor"
+rookie_card: false
+autograph: false
+serial_numbered: false
+release_date: "2026-05-13"
+image_url: "https://example.com/cards/2026-bowman/chrome-prospects-BCP-77-logofractor.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Bowman#Insertion_Ratios"

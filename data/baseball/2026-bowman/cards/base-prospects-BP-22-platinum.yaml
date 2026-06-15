@@ -1,0 +1,23 @@
+number: "BP-22"
+uuid: "6baef232-9088-4070-a5af-a2f8670f5c0e"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-bowman"
+subjects:
+  - name: "Deniel Ortiz"
+    role: "Player"
+    team: "St. Louis Cardinals"
+subset: "Base Prospects"
+card_name: "Deniel Ortiz - Base Prospects - Platinum"
+description: "Platinum parallel of Base Prospects card featuring Deniel Ortiz."
+series: "2026 Bowman"
+parallel: "Platinum"
+print_run: 1
+rookie_card: false
+autograph: false
+serial_numbered: true
+release_date: "2026-05-13"
+image_url: "https://example.com/cards/2026-bowman/base-prospects-BP-22-platinum.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Bowman#Insertion_Ratios"

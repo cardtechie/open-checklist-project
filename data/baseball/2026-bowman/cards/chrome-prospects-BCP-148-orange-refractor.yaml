@@ -1,0 +1,23 @@
+number: "BCP-148"
+uuid: "a8351ef2-64bd-4666-bb66-874bf6bab711"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-bowman"
+subjects:
+  - name: "Dillon Lewis"
+    role: "Player"
+    team: "New York Yankees"
+subset: "Chrome Prospects"
+card_name: "Dillon Lewis - Chrome Prospects - Orange Refractor"
+description: "Orange Refractor parallel of Chrome Prospects card featuring Dillon Lewis."
+series: "2026 Bowman"
+parallel: "Orange Refractor"
+print_run: 25
+rookie_card: false
+autograph: false
+serial_numbered: true
+release_date: "2026-05-13"
+image_url: "https://example.com/cards/2026-bowman/chrome-prospects-BCP-148-orange-refractor.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Bowman#Insertion_Ratios"

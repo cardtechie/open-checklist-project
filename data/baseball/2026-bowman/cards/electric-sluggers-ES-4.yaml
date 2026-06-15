@@ -1,0 +1,19 @@
+number: "ES-4"
+uuid: "a58b00a0-4573-4dcc-b8a7-226850e1da32"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-bowman"
+subjects:
+  - name: "Junior Caminero"
+    role: "Player"
+    team: "Tampa Bay Rays"
+subset: "Electric Sluggers"
+card_name: "Junior Caminero - Electric Sluggers"
+description: "Electric Sluggers card featuring Junior Caminero."
+series: "2026 Bowman"
+print_run: 69625
+rookie_card: false
+autograph: false
+serial_numbered: false
+release_date: "2026-05-13"
+image_url: "https://example.com/cards/2026-bowman/electric-sluggers-ES-4.jpg"

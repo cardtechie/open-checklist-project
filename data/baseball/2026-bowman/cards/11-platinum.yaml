@@ -1,0 +1,22 @@
+number: "11"
+uuid: "c2539063-596f-46b0-8a5c-21773caa0b64"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-bowman"
+subjects:
+  - name: "Corey Seager"
+    role: "Player"
+    team: "Texas Rangers"
+card_name: "Corey Seager - Base - Platinum"
+description: "Platinum parallel of Base card featuring Corey Seager."
+series: "2026 Bowman"
+parallel: "Platinum"
+print_run: 1
+rookie_card: false
+autograph: false
+serial_numbered: true
+release_date: "2026-05-13"
+image_url: "https://example.com/cards/2026-bowman/11-platinum.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Bowman#Insertion_Ratios"

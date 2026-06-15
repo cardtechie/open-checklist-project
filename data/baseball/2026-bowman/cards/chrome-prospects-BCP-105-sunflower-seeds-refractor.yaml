@@ -1,0 +1,22 @@
+number: "BCP-105"
+uuid: "21d2bcc9-f322-43f1-a947-c2afddb7ca12"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-bowman"
+subjects:
+  - name: "Kade Snell"
+    role: "Player"
+    team: "Chicago Cubs"
+subset: "Chrome Prospects"
+card_name: "Kade Snell - Chrome Prospects - Sunflower Seeds Refractor"
+description: "Sunflower Seeds Refractor parallel of Chrome Prospects card featuring Kade Snell."
+series: "2026 Bowman"
+parallel: "Sunflower Seeds Refractor"
+rookie_card: false
+autograph: false
+serial_numbered: false
+release_date: "2026-05-13"
+image_url: "https://example.com/cards/2026-bowman/chrome-prospects-BCP-105-sunflower-seeds-refractor.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Bowman#Insertion_Ratios"

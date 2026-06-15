@@ -1,0 +1,23 @@
+number: "BP-131"
+uuid: "d91b4063-9e65-4943-aec3-0b7f5ac6a7ec"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-bowman"
+subjects:
+  - name: "Walker Janek"
+    role: "Player"
+    team: "Houston Astros"
+subset: "Base Prospects"
+card_name: "Walker Janek - Base Prospects - Yellow"
+description: "Yellow parallel of Base Prospects card featuring Walker Janek."
+series: "2026 Bowman"
+parallel: "Yellow"
+print_run: 75
+rookie_card: false
+autograph: false
+serial_numbered: true
+release_date: "2026-05-13"
+image_url: "https://example.com/cards/2026-bowman/base-prospects-BP-131-yellow.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Bowman#Insertion_Ratios"

@@ -1,0 +1,22 @@
+number: "66"
+uuid: "b483d529-d056-4926-b3ce-a86ef8e5cef4"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-bowman"
+subjects:
+  - name: "Carter Jensen"
+    role: "Player"
+    team: "Kansas City Royals"
+card_name: "Carter Jensen - Base - Pink"
+description: "Pink parallel of Base card featuring Carter Jensen."
+series: "2026 Bowman"
+parallel: "Pink"
+print_run: 175
+rookie_card: true
+autograph: false
+serial_numbered: true
+release_date: "2026-05-13"
+image_url: "https://example.com/cards/2026-bowman/66-pink.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Bowman#Insertion_Ratios"

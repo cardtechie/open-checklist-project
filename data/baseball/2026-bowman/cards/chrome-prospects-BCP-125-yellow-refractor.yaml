@@ -1,0 +1,23 @@
+number: "BCP-125"
+uuid: "d1a9727e-ffd1-4436-86e6-585a922a6e5d"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-bowman"
+subjects:
+  - name: "Wei-En Lin"
+    role: "Player"
+    team: "Athletics"
+subset: "Chrome Prospects"
+card_name: "Wei-En Lin - Chrome Prospects - Yellow Refractor"
+description: "Yellow Refractor parallel of Chrome Prospects card featuring Wei-En Lin."
+series: "2026 Bowman"
+parallel: "Yellow Refractor"
+print_run: 75
+rookie_card: false
+autograph: false
+serial_numbered: true
+release_date: "2026-05-13"
+image_url: "https://example.com/cards/2026-bowman/chrome-prospects-BCP-125-yellow-refractor.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Bowman#Insertion_Ratios"

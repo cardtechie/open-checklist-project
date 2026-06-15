@@ -1,0 +1,23 @@
+number: "BCP-12"
+uuid: "beae1ed1-070e-4110-a0a8-a91ded0dec6a"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-bowman"
+subjects:
+  - name: "Jase Mitchell"
+    role: "Player"
+    team: "Houston Astros"
+subset: "Chrome Prospects"
+card_name: "Jase Mitchell - Chrome Prospects - Rose Gold X-Fractor"
+description: "Rose Gold X-Fractor parallel of Chrome Prospects card featuring Jase Mitchell."
+series: "2026 Bowman"
+parallel: "Rose Gold X-Fractor"
+print_run: 15
+rookie_card: false
+autograph: false
+serial_numbered: true
+release_date: "2026-05-13"
+image_url: "https://example.com/cards/2026-bowman/chrome-prospects-BCP-12-rose-gold-x-fractor.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Bowman#Insertion_Ratios"

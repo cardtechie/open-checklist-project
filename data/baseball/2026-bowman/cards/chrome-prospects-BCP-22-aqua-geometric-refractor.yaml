@@ -1,0 +1,23 @@
+number: "BCP-22"
+uuid: "48587d26-2512-4dd5-9719-525d3d9b2860"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-bowman"
+subjects:
+  - name: "Deniel Ortiz"
+    role: "Player"
+    team: "St. Louis Cardinals"
+subset: "Chrome Prospects"
+card_name: "Deniel Ortiz - Chrome Prospects - Aqua Geometric Refractor"
+description: "Aqua Geometric Refractor parallel of Chrome Prospects card featuring Deniel Ortiz."
+series: "2026 Bowman"
+parallel: "Aqua Geometric Refractor"
+print_run: 125
+rookie_card: false
+autograph: false
+serial_numbered: true
+release_date: "2026-05-13"
+image_url: "https://example.com/cards/2026-bowman/chrome-prospects-BCP-22-aqua-geometric-refractor.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Bowman#Insertion_Ratios"

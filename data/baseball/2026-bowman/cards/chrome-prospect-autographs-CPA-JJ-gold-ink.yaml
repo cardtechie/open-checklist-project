@@ -1,0 +1,23 @@
+number: "CPA-JJ"
+uuid: "b271a1c7-5217-4a94-a6cd-0012f066ae98"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-bowman"
+subjects:
+  - name: "Jared Jones"
+    role: "Player"
+    team: "Pittsburgh Pirates"
+subset: "Chrome Prospect Autographs"
+card_name: "Jared Jones - Chrome Prospect Autographs - Gold Ink"
+description: "Gold Ink parallel of Autographed Chrome Prospect Autographs card featuring Jared Jones."
+series: "2026 Bowman"
+parallel: "Gold Ink"
+print_run: 15
+rookie_card: false
+autograph: true
+serial_numbered: true
+release_date: "2026-05-13"
+image_url: "https://example.com/cards/2026-bowman/chrome-prospect-autographs-CPA-JJ-gold-ink.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Bowman#Insertion_Ratios"

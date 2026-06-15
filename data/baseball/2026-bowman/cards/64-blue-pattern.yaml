@@ -1,0 +1,22 @@
+number: "64"
+uuid: "dde13e9b-97c3-48a1-a821-67b2e19e415d"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-bowman"
+subjects:
+  - name: "Jacob deGrom"
+    role: "Player"
+    team: "Texas Rangers"
+card_name: "Jacob deGrom - Base - Blue Pattern"
+description: "Blue Pattern parallel of Base card featuring Jacob deGrom."
+series: "2026 Bowman"
+parallel: "Blue Pattern"
+print_run: 150
+rookie_card: false
+autograph: false
+serial_numbered: true
+release_date: "2026-05-13"
+image_url: "https://example.com/cards/2026-bowman/64-blue-pattern.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Bowman#Insertion_Ratios"

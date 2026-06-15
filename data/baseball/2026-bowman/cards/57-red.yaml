@@ -1,0 +1,22 @@
+number: "57"
+uuid: "b8b20762-1b6a-4cbd-97e6-3bc61f1f1327"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-bowman"
+subjects:
+  - name: "Luke Keaschall"
+    role: "Player"
+    team: "Minnesota Twins"
+card_name: "Luke Keaschall - Base - Red"
+description: "Red parallel of Base card featuring Luke Keaschall."
+series: "2026 Bowman"
+parallel: "Red"
+print_run: 5
+rookie_card: false
+autograph: false
+serial_numbered: true
+release_date: "2026-05-13"
+image_url: "https://example.com/cards/2026-bowman/57-red.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Bowman#Insertion_Ratios"

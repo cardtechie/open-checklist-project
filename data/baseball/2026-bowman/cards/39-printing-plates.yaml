@@ -1,0 +1,22 @@
+number: "39"
+uuid: "ad779c4d-2f6f-4e06-9150-b8a953ddb498"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-bowman"
+subjects:
+  - name: "Carson Williams"
+    role: "Player"
+    team: "Tampa Bay Rays"
+card_name: "Carson Williams - Base - Printing Plates"
+description: "Printing Plates parallel of Base card featuring Carson Williams."
+series: "2026 Bowman"
+parallel: "Printing Plates"
+print_run: 4
+rookie_card: true
+autograph: false
+serial_numbered: true
+release_date: "2026-05-13"
+image_url: "https://example.com/cards/2026-bowman/39-printing-plates.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Bowman#Insertion_Ratios"

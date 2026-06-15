@@ -1,0 +1,23 @@
+number: "BCP-147"
+uuid: "322fa0c3-b400-4c7d-b678-508a13720780"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-bowman"
+subjects:
+  - name: "JoJo Parker"
+    role: "Player"
+    team: "Toronto Blue Jays"
+subset: "Chrome Prospects"
+card_name: "JoJo Parker - Chrome Prospects - Orange Shimmer Refractor"
+description: "Orange Shimmer Refractor parallel of Chrome Prospects card featuring JoJo Parker."
+series: "2026 Bowman"
+parallel: "Orange Shimmer Refractor"
+print_run: 25
+rookie_card: false
+autograph: false
+serial_numbered: true
+release_date: "2026-05-13"
+image_url: "https://example.com/cards/2026-bowman/chrome-prospects-BCP-147-orange-shimmer-refractor.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Bowman#Insertion_Ratios"

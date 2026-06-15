@@ -1,0 +1,23 @@
+number: "BP-118"
+uuid: "e23b05b3-04e8-4ef2-9a40-c4310a9bf7ec"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-bowman"
+subjects:
+  - name: "Gabriel Rodriguez"
+    role: "Player"
+    team: "Cleveland Guardians"
+subset: "Base Prospects"
+card_name: "Gabriel Rodriguez - Base Prospects - Green Pattern"
+description: "Green Pattern parallel of Base Prospects card featuring Gabriel Rodriguez."
+series: "2026 Bowman"
+parallel: "Green Pattern"
+print_run: 75
+rookie_card: false
+autograph: false
+serial_numbered: true
+release_date: "2026-05-13"
+image_url: "https://example.com/cards/2026-bowman/base-prospects-BP-118-green-pattern.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Bowman#Insertion_Ratios"

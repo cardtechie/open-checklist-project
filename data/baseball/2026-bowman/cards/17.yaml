@@ -1,0 +1,17 @@
+number: "17"
+uuid: "db9773da-7ef3-4e92-b703-851e70284fbb"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-bowman"
+subjects:
+  - name: "Francisco Lindor"
+    role: "Player"
+    team: "New York Mets"
+card_name: "Francisco Lindor - Base"
+description: "Base card featuring Francisco Lindor."
+series: "2026 Bowman"
+rookie_card: false
+autograph: false
+serial_numbered: false
+release_date: "2026-05-13"
+image_url: "https://example.com/cards/2026-bowman/17.jpg"

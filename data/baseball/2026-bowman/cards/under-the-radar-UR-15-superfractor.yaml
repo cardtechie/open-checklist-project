@@ -1,0 +1,23 @@
+number: "UR-15"
+uuid: "e1c4267f-0dfc-4ae6-8217-d82aaa033ea2"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-bowman"
+subjects:
+  - name: "Trey Yesavage"
+    role: "Player"
+    team: "Toronto Blue Jays"
+subset: "Under The Radar"
+card_name: "Trey Yesavage - Under The Radar - SuperFractor"
+description: "SuperFractor parallel of Under The Radar card featuring Trey Yesavage."
+series: "2026 Bowman"
+parallel: "SuperFractor"
+print_run: 1
+rookie_card: false
+autograph: false
+serial_numbered: true
+release_date: "2026-05-13"
+image_url: "https://example.com/cards/2026-bowman/under-the-radar-UR-15-superfractor.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Bowman#Insertion_Ratios"

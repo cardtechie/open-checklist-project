@@ -1,0 +1,23 @@
+number: "BP-36"
+uuid: "ae9add37-0bce-4f21-b1da-fc0882b209f1"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-bowman"
+subjects:
+  - name: "Moisés Chace"
+    role: "Player"
+    team: "Philadelphia Phillies"
+subset: "Base Prospects"
+card_name: "Moisés Chace - Base Prospects - Purple"
+description: "Purple parallel of Base Prospects card featuring Moisés Chace."
+series: "2026 Bowman"
+parallel: "Purple"
+print_run: 250
+rookie_card: false
+autograph: false
+serial_numbered: true
+release_date: "2026-05-13"
+image_url: "https://example.com/cards/2026-bowman/base-prospects-BP-36-purple.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Bowman#Insertion_Ratios"

@@ -1,0 +1,23 @@
+number: "BP-35"
+uuid: "4b2310c6-b513-4dde-afb2-eaab07bed672"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-bowman"
+subjects:
+  - name: "Travis Bazzana"
+    role: "Player"
+    team: "Cleveland Guardians"
+subset: "Base Prospects"
+card_name: "Travis Bazzana - Base Prospects - Orange Pattern"
+description: "Orange Pattern parallel of Base Prospects card featuring Travis Bazzana."
+series: "2026 Bowman"
+parallel: "Orange Pattern"
+print_run: 25
+rookie_card: false
+autograph: false
+serial_numbered: true
+release_date: "2026-05-13"
+image_url: "https://example.com/cards/2026-bowman/base-prospects-BP-35-orange-pattern.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Bowman#Insertion_Ratios"

@@ -1,0 +1,23 @@
+number: "BCP-119"
+uuid: "0a16e553-5837-44ac-9499-8847e7dc6bf6"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-bowman"
+subjects:
+  - name: "Mathias Lacombe"
+    role: "Player"
+    team: "Chicago White Sox"
+subset: "Chrome Prospects"
+card_name: "Mathias Lacombe - Chrome Prospects - Printing Plates"
+description: "Printing Plates parallel of Chrome Prospects card featuring Mathias Lacombe."
+series: "2026 Bowman"
+parallel: "Printing Plates"
+print_run: 4
+rookie_card: false
+autograph: false
+serial_numbered: true
+release_date: "2026-05-13"
+image_url: "https://example.com/cards/2026-bowman/chrome-prospects-BCP-119-printing-plates.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Bowman#Insertion_Ratios"

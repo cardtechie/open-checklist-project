@@ -1,0 +1,23 @@
+number: "PC-15"
+uuid: "519b3a17-9672-476a-8a1e-d0a1cc3e27ce"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-bowman"
+subjects:
+  - name: "Kevin McGonigle"
+    role: "Player"
+    team: "Detroit Tigers"
+subset: "Power Chords"
+card_name: "Kevin McGonigle - Power Chords - Autograph Gold Refractor"
+description: "Autograph Gold Refractor parallel of Power Chords card featuring Kevin McGonigle."
+series: "2026 Bowman"
+parallel: "Autograph Gold Refractor"
+print_run: 50
+rookie_card: false
+autograph: false
+serial_numbered: true
+release_date: "2026-05-13"
+image_url: "https://example.com/cards/2026-bowman/power-chords-PC-15-autograph-gold-refractor.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Bowman#Insertion_Ratios"

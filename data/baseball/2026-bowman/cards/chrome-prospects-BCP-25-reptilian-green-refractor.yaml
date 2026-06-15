@@ -1,0 +1,23 @@
+number: "BCP-25"
+uuid: "41d20612-4b33-42a2-9b0a-22aa89dca291"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-bowman"
+subjects:
+  - name: "Juan Sanchez"
+    role: "Player"
+    team: "Toronto Blue Jays"
+subset: "Chrome Prospects"
+card_name: "Juan Sanchez - Chrome Prospects - Reptilian Green Refractor"
+description: "Reptilian Green Refractor parallel of Chrome Prospects card featuring Juan Sanchez."
+series: "2026 Bowman"
+parallel: "Reptilian Green Refractor"
+print_run: 99
+rookie_card: false
+autograph: false
+serial_numbered: true
+release_date: "2026-05-13"
+image_url: "https://example.com/cards/2026-bowman/chrome-prospects-BCP-25-reptilian-green-refractor.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Bowman#Insertion_Ratios"

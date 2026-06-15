@@ -1,0 +1,23 @@
+number: "UR-9"
+uuid: "64d4fa7c-89c0-41db-98db-7634b1badbe4"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-bowman"
+subjects:
+  - name: "Edward Florentino"
+    role: "Player"
+    team: "Pittsburgh Pirates"
+subset: "Under The Radar"
+card_name: "Edward Florentino - Under The Radar - Aqua Refractor"
+description: "Aqua Refractor parallel of Under The Radar card featuring Edward Florentino."
+series: "2026 Bowman"
+parallel: "Aqua Refractor"
+print_run: 125
+rookie_card: false
+autograph: false
+serial_numbered: true
+release_date: "2026-05-13"
+image_url: "https://example.com/cards/2026-bowman/under-the-radar-UR-9-aqua-refractor.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Bowman#Insertion_Ratios"

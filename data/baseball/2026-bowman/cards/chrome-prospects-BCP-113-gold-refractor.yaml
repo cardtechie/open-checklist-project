@@ -1,0 +1,23 @@
+number: "BCP-113"
+uuid: "d9b62574-27c9-48f8-a0ae-0254ad991dc6"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-bowman"
+subjects:
+  - name: "Josh Knoth"
+    role: "Player"
+    team: "Milwaukee Brewers"
+subset: "Chrome Prospects"
+card_name: "Josh Knoth - Chrome Prospects - Gold Refractor"
+description: "Gold Refractor parallel of Chrome Prospects card featuring Josh Knoth."
+series: "2026 Bowman"
+parallel: "Gold Refractor"
+print_run: 50
+rookie_card: false
+autograph: false
+serial_numbered: true
+release_date: "2026-05-13"
+image_url: "https://example.com/cards/2026-bowman/chrome-prospects-BCP-113-gold-refractor.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Bowman#Insertion_Ratios"

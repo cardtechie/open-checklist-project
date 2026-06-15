@@ -1,0 +1,23 @@
+number: "BP-60"
+uuid: "00a1f9c6-c693-495e-b6a2-03a2ba716e0a"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-bowman"
+subjects:
+  - name: "Isaiah Jackson"
+    role: "Player"
+    team: "Los Angeles Angels"
+subset: "Base Prospects"
+card_name: "Isaiah Jackson - Base Prospects - Yellow Pattern"
+description: "Yellow Pattern parallel of Base Prospects card featuring Isaiah Jackson."
+series: "2026 Bowman"
+parallel: "Yellow Pattern"
+print_run: 75
+rookie_card: false
+autograph: false
+serial_numbered: true
+release_date: "2026-05-13"
+image_url: "https://example.com/cards/2026-bowman/base-prospects-BP-60-yellow-pattern.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Bowman#Insertion_Ratios"

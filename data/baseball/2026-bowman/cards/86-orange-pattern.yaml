@@ -1,0 +1,22 @@
+number: "86"
+uuid: "9f1bfb39-6d95-4078-a33e-ff09c5a4b6da"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-bowman"
+subjects:
+  - name: "Jakob Marsee"
+    role: "Player"
+    team: "Miami Marlins"
+card_name: "Jakob Marsee - Base - Orange Pattern"
+description: "Orange Pattern parallel of Base card featuring Jakob Marsee."
+series: "2026 Bowman"
+parallel: "Orange Pattern"
+print_run: 25
+rookie_card: true
+autograph: false
+serial_numbered: true
+release_date: "2026-05-13"
+image_url: "https://example.com/cards/2026-bowman/86-orange-pattern.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Bowman#Insertion_Ratios"

@@ -1,0 +1,22 @@
+number: "21"
+uuid: "cfc4acc9-5ee9-4c2e-a90e-3f9f1189b78b"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-bowman"
+subjects:
+  - name: "Michael Harris II"
+    role: "Player"
+    team: "Atlanta Braves"
+card_name: "Michael Harris II - Base - Gold"
+description: "Gold parallel of Base card featuring Michael Harris II."
+series: "2026 Bowman"
+parallel: "Gold"
+print_run: 50
+rookie_card: false
+autograph: false
+serial_numbered: true
+release_date: "2026-05-13"
+image_url: "https://example.com/cards/2026-bowman/21-gold.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Bowman#Insertion_Ratios"

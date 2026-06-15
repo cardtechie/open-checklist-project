@@ -1,0 +1,22 @@
+number: "90"
+uuid: "d8337ed1-ee13-42ac-a25a-eaa536fb19af"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-bowman"
+subjects:
+  - name: "Marcelo Mayer"
+    role: "Player"
+    team: "Boston Red Sox"
+card_name: "Marcelo Mayer - Base - Fuchsia"
+description: "Fuchsia parallel of Base card featuring Marcelo Mayer."
+series: "2026 Bowman"
+parallel: "Fuchsia"
+print_run: 299
+rookie_card: false
+autograph: false
+serial_numbered: true
+release_date: "2026-05-13"
+image_url: "https://example.com/cards/2026-bowman/90-fuchsia.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Bowman#Insertion_Ratios"

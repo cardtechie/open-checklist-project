@@ -1,0 +1,22 @@
+number: "BCP-93"
+uuid: "d7272953-1dcd-465a-a1da-5b0c9fc7a5e2"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-bowman"
+subjects:
+  - name: "Jorge Quintana"
+    role: "Player"
+    team: "San Diego Padres"
+subset: "Chrome Prospects"
+card_name: "Jorge Quintana - Chrome Prospects - Laser Refractor"
+description: "Laser Refractor parallel of Chrome Prospects card featuring Jorge Quintana."
+series: "2026 Bowman"
+parallel: "Laser Refractor"
+rookie_card: false
+autograph: false
+serial_numbered: false
+release_date: "2026-05-13"
+image_url: "https://example.com/cards/2026-bowman/chrome-prospects-BCP-93-laser-refractor.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Bowman#Insertion_Ratios"

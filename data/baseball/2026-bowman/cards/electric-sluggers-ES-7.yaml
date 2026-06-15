@@ -1,0 +1,19 @@
+number: "ES-7"
+uuid: "3be84a88-42a0-41d9-9542-346aa6189f67"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-bowman"
+subjects:
+  - name: "Juan Soto"
+    role: "Player"
+    team: "New York Mets"
+subset: "Electric Sluggers"
+card_name: "Juan Soto - Electric Sluggers"
+description: "Electric Sluggers card featuring Juan Soto."
+series: "2026 Bowman"
+print_run: 69625
+rookie_card: false
+autograph: false
+serial_numbered: false
+release_date: "2026-05-13"
+image_url: "https://example.com/cards/2026-bowman/electric-sluggers-ES-7.jpg"

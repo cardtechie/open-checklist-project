@@ -1,0 +1,22 @@
+number: "BCP-105"
+uuid: "f0ee2292-de57-4348-90d0-cb84ae840f3c"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-bowman"
+subjects:
+  - name: "Kade Snell"
+    role: "Player"
+    team: "Chicago Cubs"
+subset: "Chrome Prospects"
+card_name: "Kade Snell - Chrome Prospects - LogoFractor"
+description: "LogoFractor parallel of Chrome Prospects card featuring Kade Snell."
+series: "2026 Bowman"
+parallel: "LogoFractor"
+rookie_card: false
+autograph: false
+serial_numbered: false
+release_date: "2026-05-13"
+image_url: "https://example.com/cards/2026-bowman/chrome-prospects-BCP-105-logofractor.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Bowman#Insertion_Ratios"

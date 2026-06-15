@@ -1,0 +1,23 @@
+number: "BCP-65"
+uuid: "755381f1-d878-4d26-9a88-9c493e2ea90a"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-bowman"
+subjects:
+  - name: "Nelly Taylor"
+    role: "Player"
+    team: "Boston Red Sox"
+subset: "Chrome Prospects"
+card_name: "Nelly Taylor - Chrome Prospects - FireFractor"
+description: "FireFractor parallel of Chrome Prospects card featuring Nelly Taylor."
+series: "2026 Bowman"
+parallel: "FireFractor"
+print_run: 3
+rookie_card: false
+autograph: false
+serial_numbered: true
+release_date: "2026-05-13"
+image_url: "https://example.com/cards/2026-bowman/chrome-prospects-BCP-65-firefractor.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Bowman#Insertion_Ratios"

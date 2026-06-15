@@ -1,0 +1,19 @@
+number: "ES-24"
+uuid: "f67660d7-20e3-4d64-8a21-5936db27dba0"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-bowman"
+subjects:
+  - name: "Pete Crow-Armstrong"
+    role: "Player"
+    team: "Chicago Cubs"
+subset: "Electric Sluggers"
+card_name: "Pete Crow-Armstrong - Electric Sluggers"
+description: "Electric Sluggers card featuring Pete Crow-Armstrong."
+series: "2026 Bowman"
+print_run: 69625
+rookie_card: false
+autograph: false
+serial_numbered: false
+release_date: "2026-05-13"
+image_url: "https://example.com/cards/2026-bowman/electric-sluggers-ES-24.jpg"

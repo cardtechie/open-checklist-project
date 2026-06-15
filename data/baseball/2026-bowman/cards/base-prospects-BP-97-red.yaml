@@ -1,0 +1,23 @@
+number: "BP-97"
+uuid: "620de873-4ff0-4b31-bda6-32ccb5f18dcd"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-bowman"
+subjects:
+  - name: "Daniel Hernandez"
+    role: "Player"
+    team: "Washington Nationals"
+subset: "Base Prospects"
+card_name: "Daniel Hernandez - Base Prospects - Red"
+description: "Red parallel of Base Prospects card featuring Daniel Hernandez."
+series: "2026 Bowman"
+parallel: "Red"
+print_run: 5
+rookie_card: false
+autograph: false
+serial_numbered: true
+release_date: "2026-05-13"
+image_url: "https://example.com/cards/2026-bowman/base-prospects-BP-97-red.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Bowman#Insertion_Ratios"

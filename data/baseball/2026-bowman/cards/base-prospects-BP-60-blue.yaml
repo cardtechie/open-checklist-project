@@ -1,0 +1,23 @@
+number: "BP-60"
+uuid: "d9542109-b6a3-4642-adc6-236e46bb0810"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-bowman"
+subjects:
+  - name: "Isaiah Jackson"
+    role: "Player"
+    team: "Los Angeles Angels"
+subset: "Base Prospects"
+card_name: "Isaiah Jackson - Base Prospects - Blue"
+description: "Blue parallel of Base Prospects card featuring Isaiah Jackson."
+series: "2026 Bowman"
+parallel: "Blue"
+print_run: 150
+rookie_card: false
+autograph: false
+serial_numbered: true
+release_date: "2026-05-13"
+image_url: "https://example.com/cards/2026-bowman/base-prospects-BP-60-blue.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Bowman#Insertion_Ratios"

@@ -1,0 +1,23 @@
+number: "BCP-73"
+uuid: "ea3b6d8b-673e-4c12-ba2d-05d2e9a52eb0"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-bowman"
+subjects:
+  - name: "Charles Davalan"
+    role: "Player"
+    team: "Los Angeles Dodgers"
+subset: "Chrome Prospects"
+card_name: "Charles Davalan - Chrome Prospects - Red Lava Refractor"
+description: "Red Lava Refractor parallel of Chrome Prospects card featuring Charles Davalan."
+series: "2026 Bowman"
+parallel: "Red Lava Refractor"
+print_run: 5
+rookie_card: false
+autograph: false
+serial_numbered: true
+release_date: "2026-05-13"
+image_url: "https://example.com/cards/2026-bowman/chrome-prospects-BCP-73-red-lava-refractor.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Bowman#Insertion_Ratios"

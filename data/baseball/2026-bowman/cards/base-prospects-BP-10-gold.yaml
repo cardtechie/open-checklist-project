@@ -1,0 +1,23 @@
+number: "BP-10"
+uuid: "0f70f302-f3d8-46e3-b0b1-74588d686218"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-bowman"
+subjects:
+  - name: "Liam Doyle"
+    role: "Player"
+    team: "St. Louis Cardinals"
+subset: "Base Prospects"
+card_name: "Liam Doyle - Base Prospects - Gold"
+description: "Gold parallel of Base Prospects card featuring Liam Doyle."
+series: "2026 Bowman"
+parallel: "Gold"
+print_run: 50
+rookie_card: false
+autograph: false
+serial_numbered: true
+release_date: "2026-05-13"
+image_url: "https://example.com/cards/2026-bowman/base-prospects-BP-10-gold.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Bowman#Insertion_Ratios"

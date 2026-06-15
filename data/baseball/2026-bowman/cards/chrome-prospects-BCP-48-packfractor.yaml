@@ -1,0 +1,23 @@
+number: "BCP-48"
+uuid: "68aac0f3-0b03-44fe-841e-fb1c4e143bd7"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-bowman"
+subjects:
+  - name: "Shotaro Morii"
+    role: "Player"
+    team: "Athletics"
+subset: "Chrome Prospects"
+card_name: "Shotaro Morii - Chrome Prospects - PackFractor"
+description: "PackFractor parallel of Chrome Prospects card featuring Shotaro Morii."
+series: "2026 Bowman"
+parallel: "PackFractor"
+print_run: 89
+rookie_card: false
+autograph: false
+serial_numbered: true
+release_date: "2026-05-13"
+image_url: "https://example.com/cards/2026-bowman/chrome-prospects-BCP-48-packfractor.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Bowman#Insertion_Ratios"

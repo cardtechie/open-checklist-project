@@ -1,0 +1,22 @@
+number: "88"
+uuid: "1ac586f7-43f4-40c9-9630-fb9672d12e85"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-bowman"
+subjects:
+  - name: "Wyatt Langford"
+    role: "Player"
+    team: "Texas Rangers"
+card_name: "Wyatt Langford - Base - Sky Blue"
+description: "Sky Blue parallel of Base card featuring Wyatt Langford."
+series: "2026 Bowman"
+parallel: "Sky Blue"
+print_run: 499
+rookie_card: false
+autograph: false
+serial_numbered: true
+release_date: "2026-05-13"
+image_url: "https://example.com/cards/2026-bowman/88-sky-blue.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Bowman#Insertion_Ratios"

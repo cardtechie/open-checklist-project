@@ -1,0 +1,21 @@
+number: "8"
+uuid: "83838d1f-683e-49b3-9632-1cbc867f4720"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-bowman"
+subjects:
+  - name: "Ernie Clement"
+    role: "Player"
+    team: "Toronto Blue Jays"
+card_name: "Ernie Clement - Base - Bowman Logo"
+description: "Bowman Logo parallel of Base card featuring Ernie Clement."
+series: "2026 Bowman"
+parallel: "Bowman Logo"
+rookie_card: false
+autograph: false
+serial_numbered: false
+release_date: "2026-05-13"
+image_url: "https://example.com/cards/2026-bowman/8-bowman-logo.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Bowman#Insertion_Ratios"

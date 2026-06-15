@@ -1,0 +1,23 @@
+number: "BST-7"
+uuid: "54315028-8137-4836-b4ee-a7066e1d8536"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-bowman"
+subjects:
+  - name: "Konnor Griffin"
+    role: "Player"
+    team: "Pittsburgh Pirates"
+subset: "Bowman Sterling"
+card_name: "Konnor Griffin - Bowman Sterling - SuperFractor"
+description: "SuperFractor parallel of Bowman Sterling card featuring Konnor Griffin."
+series: "2026 Bowman"
+parallel: "SuperFractor"
+print_run: 1
+rookie_card: false
+autograph: false
+serial_numbered: true
+release_date: "2026-05-13"
+image_url: "https://example.com/cards/2026-bowman/bowman-sterling-BST-7-superfractor.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Bowman#Insertion_Ratios"

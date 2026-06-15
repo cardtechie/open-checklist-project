@@ -1,0 +1,23 @@
+number: "UR-18"
+uuid: "94507eed-48f2-44fc-bffb-932b6dbba36a"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-bowman"
+subjects:
+  - name: "Caleb Bonemer"
+    role: "Player"
+    team: "Chicago White Sox"
+subset: "Under The Radar"
+card_name: "Caleb Bonemer - Under The Radar - Aqua Refractor"
+description: "Aqua Refractor parallel of Under The Radar card featuring Caleb Bonemer."
+series: "2026 Bowman"
+parallel: "Aqua Refractor"
+print_run: 125
+rookie_card: false
+autograph: false
+serial_numbered: true
+release_date: "2026-05-13"
+image_url: "https://example.com/cards/2026-bowman/under-the-radar-UR-18-aqua-refractor.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Bowman#Insertion_Ratios"

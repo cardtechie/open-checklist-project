@@ -1,0 +1,21 @@
+number: "81"
+uuid: "cfe7d52b-e963-4bb4-997c-bd013507eb65"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-bowman"
+subjects:
+  - name: "Mookie Betts"
+    role: "Player"
+    team: "Los Angeles Dodgers"
+card_name: "Mookie Betts - Base - Bowman Scouts' Top 100"
+description: "Bowman Scouts' Top 100 parallel of Base card featuring Mookie Betts."
+series: "2026 Bowman"
+parallel: "Bowman Scouts' Top 100"
+rookie_card: false
+autograph: false
+serial_numbered: false
+release_date: "2026-05-13"
+image_url: "https://example.com/cards/2026-bowman/81-bowman-scouts-top-100.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Bowman#Insertion_Ratios"

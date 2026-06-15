@@ -1,0 +1,23 @@
+number: "BCP-2"
+uuid: "c9b2ccf8-1bae-4f82-ab26-000d1a4ccd73"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-bowman"
+subjects:
+  - name: "Max Clark"
+    role: "Player"
+    team: "Detroit Tigers"
+subset: "Chrome Prospects"
+card_name: "Max Clark - Chrome Prospects - SuperFractor"
+description: "SuperFractor parallel of Chrome Prospects card featuring Max Clark."
+series: "2026 Bowman"
+parallel: "SuperFractor"
+print_run: 1
+rookie_card: false
+autograph: false
+serial_numbered: true
+release_date: "2026-05-13"
+image_url: "https://example.com/cards/2026-bowman/chrome-prospects-BCP-2-superfractor.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Bowman#Insertion_Ratios"

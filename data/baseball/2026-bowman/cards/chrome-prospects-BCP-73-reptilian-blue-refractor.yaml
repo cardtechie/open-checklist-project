@@ -1,0 +1,23 @@
+number: "BCP-73"
+uuid: "b6ad5aa3-43f7-44d1-bc3f-e86c996b9a87"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-bowman"
+subjects:
+  - name: "Charles Davalan"
+    role: "Player"
+    team: "Los Angeles Dodgers"
+subset: "Chrome Prospects"
+card_name: "Charles Davalan - Chrome Prospects - Reptilian Blue Refractor"
+description: "Reptilian Blue Refractor parallel of Chrome Prospects card featuring Charles Davalan."
+series: "2026 Bowman"
+parallel: "Reptilian Blue Refractor"
+print_run: 150
+rookie_card: false
+autograph: false
+serial_numbered: true
+release_date: "2026-05-13"
+image_url: "https://example.com/cards/2026-bowman/chrome-prospects-BCP-73-reptilian-blue-refractor.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Bowman#Insertion_Ratios"

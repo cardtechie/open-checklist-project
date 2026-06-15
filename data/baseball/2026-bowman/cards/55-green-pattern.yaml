@@ -1,0 +1,22 @@
+number: "55"
+uuid: "5a69c247-2005-473a-bd12-866f35f267f9"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-bowman"
+subjects:
+  - name: "Cristopher Sánchez"
+    role: "Player"
+    team: "Philadelphia Phillies"
+card_name: "Cristopher Sánchez - Base - Green Pattern"
+description: "Green Pattern parallel of Base card featuring Cristopher Sánchez."
+series: "2026 Bowman"
+parallel: "Green Pattern"
+print_run: 99
+rookie_card: false
+autograph: false
+serial_numbered: true
+release_date: "2026-05-13"
+image_url: "https://example.com/cards/2026-bowman/55-green-pattern.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Bowman#Insertion_Ratios"

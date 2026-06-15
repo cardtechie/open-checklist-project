@@ -1,0 +1,23 @@
+number: "BP-67"
+uuid: "aea77e4c-7df6-4c7e-b627-16026ce9a6db"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-bowman"
+subjects:
+  - name: "Arjun Nimmala"
+    role: "Player"
+    team: "Toronto Blue Jays"
+subset: "Base Prospects"
+card_name: "Arjun Nimmala - Base Prospects - Pink"
+description: "Pink parallel of Base Prospects card featuring Arjun Nimmala."
+series: "2026 Bowman"
+parallel: "Pink"
+print_run: 150
+rookie_card: false
+autograph: false
+serial_numbered: true
+release_date: "2026-05-13"
+image_url: "https://example.com/cards/2026-bowman/base-prospects-BP-67-pink.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Bowman#Insertion_Ratios"

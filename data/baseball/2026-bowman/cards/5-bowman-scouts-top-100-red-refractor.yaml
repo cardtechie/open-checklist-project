@@ -1,0 +1,22 @@
+number: "5"
+uuid: "18c48014-92f5-47a4-b6ce-7d11b90470d5"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-bowman"
+subjects:
+  - name: "Julio Rodríguez"
+    role: "Player"
+    team: "Seattle Mariners"
+card_name: "Julio Rodríguez - Base - Bowman Scouts' Top 100 Red Refractor"
+description: "Bowman Scouts' Top 100 Red Refractor parallel of Base card featuring Julio Rodríguez."
+series: "2026 Bowman"
+parallel: "Bowman Scouts' Top 100 Red Refractor"
+print_run: 5
+rookie_card: false
+autograph: false
+serial_numbered: true
+release_date: "2026-05-13"
+image_url: "https://example.com/cards/2026-bowman/5-bowman-scouts-top-100-red-refractor.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Bowman#Insertion_Ratios"

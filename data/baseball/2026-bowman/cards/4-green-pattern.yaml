@@ -1,0 +1,22 @@
+number: "4"
+uuid: "4f09eed6-63a5-47ac-9628-a16edbe95099"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-bowman"
+subjects:
+  - name: "Jackson Chourio"
+    role: "Player"
+    team: "Milwaukee Brewers"
+card_name: "Jackson Chourio - Base - Green Pattern"
+description: "Green Pattern parallel of Base card featuring Jackson Chourio."
+series: "2026 Bowman"
+parallel: "Green Pattern"
+print_run: 99
+rookie_card: false
+autograph: false
+serial_numbered: true
+release_date: "2026-05-13"
+image_url: "https://example.com/cards/2026-bowman/4-green-pattern.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Bowman#Insertion_Ratios"

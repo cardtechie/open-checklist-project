@@ -1,0 +1,22 @@
+number: "BCP-80"
+uuid: "e4cb60f5-3fe5-4e47-a77c-1f43750475ad"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-bowman"
+subjects:
+  - name: "Thomas White"
+    role: "Player"
+    team: "Miami Marlins"
+subset: "Chrome Prospects"
+card_name: "Thomas White - Chrome Prospects - X-Fractor"
+description: "X-Fractor parallel of Chrome Prospects card featuring Thomas White."
+series: "2026 Bowman"
+parallel: "X-Fractor"
+rookie_card: false
+autograph: false
+serial_numbered: false
+release_date: "2026-05-13"
+image_url: "https://example.com/cards/2026-bowman/chrome-prospects-BCP-80-x-fractor.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Bowman#Insertion_Ratios"

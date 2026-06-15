@@ -1,0 +1,22 @@
+number: "15"
+uuid: "f0b8e6f5-8583-4208-81c8-7aa57361b626"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-bowman"
+subjects:
+  - name: "Max Fried"
+    role: "Player"
+    team: "New York Yankees"
+card_name: "Max Fried - Base - Purple"
+description: "Purple parallel of Base card featuring Max Fried."
+series: "2026 Bowman"
+parallel: "Purple"
+print_run: 250
+rookie_card: false
+autograph: false
+serial_numbered: true
+release_date: "2026-05-13"
+image_url: "https://example.com/cards/2026-bowman/15-purple.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Bowman#Insertion_Ratios"

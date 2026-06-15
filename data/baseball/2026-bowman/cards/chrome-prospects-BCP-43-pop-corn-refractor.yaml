@@ -1,0 +1,22 @@
+number: "BCP-43"
+uuid: "5256c860-7871-4e51-85fc-0f41513993ba"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-bowman"
+subjects:
+  - name: "Parks Harber"
+    role: "Player"
+    team: "San Francisco Giants"
+subset: "Chrome Prospects"
+card_name: "Parks Harber - Chrome Prospects - Pop Corn Refractor"
+description: "Pop Corn Refractor parallel of Chrome Prospects card featuring Parks Harber."
+series: "2026 Bowman"
+parallel: "Pop Corn Refractor"
+rookie_card: false
+autograph: false
+serial_numbered: false
+release_date: "2026-05-13"
+image_url: "https://example.com/cards/2026-bowman/chrome-prospects-BCP-43-pop-corn-refractor.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Bowman#Insertion_Ratios"

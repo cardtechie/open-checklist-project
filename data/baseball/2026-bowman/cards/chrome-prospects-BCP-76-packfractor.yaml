@@ -1,0 +1,23 @@
+number: "BCP-76"
+uuid: "adcf38af-163d-4f13-9236-5e306b6c20fd"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-bowman"
+subjects:
+  - name: "Esmerlyn Valdez"
+    role: "Player"
+    team: "Pittsburgh Pirates"
+subset: "Chrome Prospects"
+card_name: "Esmerlyn Valdez - Chrome Prospects - PackFractor"
+description: "PackFractor parallel of Chrome Prospects card featuring Esmerlyn Valdez."
+series: "2026 Bowman"
+parallel: "PackFractor"
+print_run: 89
+rookie_card: false
+autograph: false
+serial_numbered: true
+release_date: "2026-05-13"
+image_url: "https://example.com/cards/2026-bowman/chrome-prospects-BCP-76-packfractor.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Bowman#Insertion_Ratios"

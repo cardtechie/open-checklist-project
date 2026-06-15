@@ -1,0 +1,23 @@
+number: "BCP-22"
+uuid: "160c117f-171e-4021-b46d-840c523afed6"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-bowman"
+subjects:
+  - name: "Deniel Ortiz"
+    role: "Player"
+    team: "St. Louis Cardinals"
+subset: "Chrome Prospects"
+card_name: "Deniel Ortiz - Chrome Prospects - Refractor"
+description: "Refractor parallel of Chrome Prospects card featuring Deniel Ortiz."
+series: "2026 Bowman"
+parallel: "Refractor"
+print_run: 499
+rookie_card: false
+autograph: false
+serial_numbered: true
+release_date: "2026-05-13"
+image_url: "https://example.com/cards/2026-bowman/chrome-prospects-BCP-22-refractor.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Bowman#Insertion_Ratios"

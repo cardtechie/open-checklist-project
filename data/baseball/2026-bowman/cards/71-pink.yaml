@@ -1,0 +1,22 @@
+number: "71"
+uuid: "85b9f38c-d584-49a3-a32e-27f00c76ba11"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-bowman"
+subjects:
+  - name: "Trea Turner"
+    role: "Player"
+    team: "Philadelphia Phillies"
+card_name: "Trea Turner - Base - Pink"
+description: "Pink parallel of Base card featuring Trea Turner."
+series: "2026 Bowman"
+parallel: "Pink"
+print_run: 175
+rookie_card: false
+autograph: false
+serial_numbered: true
+release_date: "2026-05-13"
+image_url: "https://example.com/cards/2026-bowman/71-pink.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Bowman#Insertion_Ratios"

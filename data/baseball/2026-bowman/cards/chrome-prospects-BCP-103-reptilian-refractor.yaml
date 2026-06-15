@@ -1,0 +1,22 @@
+number: "BCP-103"
+uuid: "7050f6a0-ff21-47e9-8faa-4c28e06b4c4e"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-bowman"
+subjects:
+  - name: "Nick Monistere"
+    role: "Player"
+    team: "Houston Astros"
+subset: "Chrome Prospects"
+card_name: "Nick Monistere - Chrome Prospects - Reptilian Refractor"
+description: "Reptilian Refractor parallel of Chrome Prospects card featuring Nick Monistere."
+series: "2026 Bowman"
+parallel: "Reptilian Refractor"
+rookie_card: false
+autograph: false
+serial_numbered: false
+release_date: "2026-05-13"
+image_url: "https://example.com/cards/2026-bowman/chrome-prospects-BCP-103-reptilian-refractor.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Bowman#Insertion_Ratios"

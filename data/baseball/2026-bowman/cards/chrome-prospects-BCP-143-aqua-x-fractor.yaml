@@ -1,0 +1,23 @@
+number: "BCP-143"
+uuid: "09bd9121-e5f5-4079-94f5-49f99101e64b"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-bowman"
+subjects:
+  - name: "Kaelen Culpepper"
+    role: "Player"
+    team: "Minnesota Twins"
+subset: "Chrome Prospects"
+card_name: "Kaelen Culpepper - Chrome Prospects - Aqua X-Fractor"
+description: "Aqua X-Fractor parallel of Chrome Prospects card featuring Kaelen Culpepper."
+series: "2026 Bowman"
+parallel: "Aqua X-Fractor"
+print_run: 125
+rookie_card: false
+autograph: false
+serial_numbered: true
+release_date: "2026-05-13"
+image_url: "https://example.com/cards/2026-bowman/chrome-prospects-BCP-143-aqua-x-fractor.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Bowman#Insertion_Ratios"

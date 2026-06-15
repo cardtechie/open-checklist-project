@@ -1,0 +1,22 @@
+number: "70"
+uuid: "d65da84d-a28f-4baf-8ab6-50c1c692c73c"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-bowman"
+subjects:
+  - name: "Alex Freeland"
+    role: "Player"
+    team: "Los Angeles Dodgers"
+card_name: "Alex Freeland - Base - Black Pattern"
+description: "Black Pattern parallel of Base card featuring Alex Freeland."
+series: "2026 Bowman"
+parallel: "Black Pattern"
+print_run: 10
+rookie_card: true
+autograph: false
+serial_numbered: true
+release_date: "2026-05-13"
+image_url: "https://example.com/cards/2026-bowman/70-black-pattern.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Bowman#Insertion_Ratios"

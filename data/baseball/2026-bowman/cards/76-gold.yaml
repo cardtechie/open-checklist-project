@@ -1,0 +1,22 @@
+number: "76"
+uuid: "5a71451c-7f78-45d3-9510-5480e39d0d67"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-bowman"
+subjects:
+  - name: "Tarik Skubal"
+    role: "Player"
+    team: "Detroit Tigers"
+card_name: "Tarik Skubal - Base - Gold"
+description: "Gold parallel of Base card featuring Tarik Skubal."
+series: "2026 Bowman"
+parallel: "Gold"
+print_run: 50
+rookie_card: false
+autograph: false
+serial_numbered: true
+release_date: "2026-05-13"
+image_url: "https://example.com/cards/2026-bowman/76-gold.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Bowman#Insertion_Ratios"

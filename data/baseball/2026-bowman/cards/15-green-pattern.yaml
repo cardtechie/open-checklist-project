@@ -1,0 +1,22 @@
+number: "15"
+uuid: "29bb34b3-91b3-47d5-9d07-276186d3e9b7"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-bowman"
+subjects:
+  - name: "Max Fried"
+    role: "Player"
+    team: "New York Yankees"
+card_name: "Max Fried - Base - Green Pattern"
+description: "Green Pattern parallel of Base card featuring Max Fried."
+series: "2026 Bowman"
+parallel: "Green Pattern"
+print_run: 99
+rookie_card: false
+autograph: false
+serial_numbered: true
+release_date: "2026-05-13"
+image_url: "https://example.com/cards/2026-bowman/15-green-pattern.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Bowman#Insertion_Ratios"

@@ -1,0 +1,23 @@
+number: "BCP-67"
+uuid: "4361a278-91f4-403c-b578-8f2970bfd566"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-bowman"
+subjects:
+  - name: "Arjun Nimmala"
+    role: "Player"
+    team: "Toronto Blue Jays"
+subset: "Chrome Prospects"
+card_name: "Arjun Nimmala - Chrome Prospects - Black X-Fractor"
+description: "Black X-Fractor parallel of Chrome Prospects card featuring Arjun Nimmala."
+series: "2026 Bowman"
+parallel: "Black X-Fractor"
+print_run: 10
+rookie_card: false
+autograph: false
+serial_numbered: true
+release_date: "2026-05-13"
+image_url: "https://example.com/cards/2026-bowman/chrome-prospects-BCP-67-black-x-fractor.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Bowman#Insertion_Ratios"

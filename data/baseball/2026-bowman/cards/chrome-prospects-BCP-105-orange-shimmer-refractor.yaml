@@ -1,0 +1,23 @@
+number: "BCP-105"
+uuid: "d51e0e61-7ca7-4616-9b01-0f00c40ff573"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-bowman"
+subjects:
+  - name: "Kade Snell"
+    role: "Player"
+    team: "Chicago Cubs"
+subset: "Chrome Prospects"
+card_name: "Kade Snell - Chrome Prospects - Orange Shimmer Refractor"
+description: "Orange Shimmer Refractor parallel of Chrome Prospects card featuring Kade Snell."
+series: "2026 Bowman"
+parallel: "Orange Shimmer Refractor"
+print_run: 25
+rookie_card: false
+autograph: false
+serial_numbered: true
+release_date: "2026-05-13"
+image_url: "https://example.com/cards/2026-bowman/chrome-prospects-BCP-105-orange-shimmer-refractor.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Bowman#Insertion_Ratios"

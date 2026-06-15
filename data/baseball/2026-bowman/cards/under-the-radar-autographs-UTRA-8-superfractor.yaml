@@ -1,0 +1,23 @@
+number: "UTRA-8"
+uuid: "ec8c35d8-b896-424c-a66b-6d6f4ec2dcc0"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-bowman"
+subjects:
+  - name: "Franklin Arias"
+    role: "Player"
+    team: "Boston Red Sox"
+subset: "Under The Radar Autographs"
+card_name: "Franklin Arias - Under The Radar Autographs - SuperFractor"
+description: "SuperFractor parallel of Autographed Under The Radar Autographs card featuring Franklin Arias."
+series: "2026 Bowman"
+parallel: "SuperFractor"
+print_run: 1
+rookie_card: false
+autograph: true
+serial_numbered: true
+release_date: "2026-05-13"
+image_url: "https://example.com/cards/2026-bowman/under-the-radar-autographs-UTRA-8-superfractor.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Bowman#Insertion_Ratios"

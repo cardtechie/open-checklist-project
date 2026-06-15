@@ -1,0 +1,23 @@
+number: "BCP-67"
+uuid: "df51573b-ebee-41b8-a129-98f6909e4182"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-bowman"
+subjects:
+  - name: "Arjun Nimmala"
+    role: "Player"
+    team: "Toronto Blue Jays"
+subset: "Chrome Prospects"
+card_name: "Arjun Nimmala - Chrome Prospects - Green Refractor"
+description: "Green Refractor parallel of Chrome Prospects card featuring Arjun Nimmala."
+series: "2026 Bowman"
+parallel: "Green Refractor"
+print_run: 99
+rookie_card: false
+autograph: false
+serial_numbered: true
+release_date: "2026-05-13"
+image_url: "https://example.com/cards/2026-bowman/chrome-prospects-BCP-67-green-refractor.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Bowman#Insertion_Ratios"

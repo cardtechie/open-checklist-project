@@ -1,0 +1,23 @@
+number: "PC-18"
+uuid: "3a57d671-a323-468e-86d6-e13c13d4ba91"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-bowman"
+subjects:
+  - name: "Aiva Arquette"
+    role: "Player"
+    team: "Miami Marlins"
+subset: "Power Chords"
+card_name: "Aiva Arquette - Power Chords - Orange Refractor"
+description: "Orange Refractor parallel of Power Chords card featuring Aiva Arquette."
+series: "2026 Bowman"
+parallel: "Orange Refractor"
+print_run: 25
+rookie_card: false
+autograph: false
+serial_numbered: true
+release_date: "2026-05-13"
+image_url: "https://example.com/cards/2026-bowman/power-chords-PC-18-orange-refractor.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Bowman#Insertion_Ratios"

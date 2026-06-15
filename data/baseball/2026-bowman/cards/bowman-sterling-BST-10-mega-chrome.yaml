@@ -1,0 +1,22 @@
+number: "BST-10"
+uuid: "0ddb7c80-6a74-41d2-bb15-a81f72a52199"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-bowman"
+subjects:
+  - name: "Chase Burns"
+    role: "Player"
+    team: "Cincinnati Reds"
+subset: "Bowman Sterling"
+card_name: "Chase Burns - Bowman Sterling - Mega Chrome"
+description: "Mega Chrome parallel of Bowman Sterling card featuring Chase Burns."
+series: "2026 Bowman"
+parallel: "Mega Chrome"
+rookie_card: false
+autograph: false
+serial_numbered: false
+release_date: "2026-05-13"
+image_url: "https://example.com/cards/2026-bowman/bowman-sterling-BST-10-mega-chrome.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Bowman#Insertion_Ratios"

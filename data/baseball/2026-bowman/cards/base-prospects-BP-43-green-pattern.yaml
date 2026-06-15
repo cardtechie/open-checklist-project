@@ -1,0 +1,23 @@
+number: "BP-43"
+uuid: "ef5e6c5d-3996-4897-bdcc-04a4ffb5f137"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-bowman"
+subjects:
+  - name: "Parks Harber"
+    role: "Player"
+    team: "San Francisco Giants"
+subset: "Base Prospects"
+card_name: "Parks Harber - Base Prospects - Green Pattern"
+description: "Green Pattern parallel of Base Prospects card featuring Parks Harber."
+series: "2026 Bowman"
+parallel: "Green Pattern"
+print_run: 75
+rookie_card: false
+autograph: false
+serial_numbered: true
+release_date: "2026-05-13"
+image_url: "https://example.com/cards/2026-bowman/base-prospects-BP-43-green-pattern.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Bowman#Insertion_Ratios"

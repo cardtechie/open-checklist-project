@@ -1,0 +1,23 @@
+number: "BCP-77"
+uuid: "0d21a9e7-0479-4a57-b8b2-3855c9a3b8c7"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-bowman"
+subjects:
+  - name: "Daniel Pierce"
+    role: "Player"
+    team: "Tampa Bay Rays"
+subset: "Chrome Prospects"
+card_name: "Daniel Pierce - Chrome Prospects - Purple RayWave Refractor"
+description: "Purple RayWave Refractor parallel of Chrome Prospects card featuring Daniel Pierce."
+series: "2026 Bowman"
+parallel: "Purple RayWave Refractor"
+print_run: 250
+rookie_card: false
+autograph: false
+serial_numbered: true
+release_date: "2026-05-13"
+image_url: "https://example.com/cards/2026-bowman/chrome-prospects-BCP-77-purple-raywave-refractor.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Bowman#Insertion_Ratios"

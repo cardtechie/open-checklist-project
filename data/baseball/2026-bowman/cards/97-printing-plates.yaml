@@ -1,0 +1,22 @@
+number: "97"
+uuid: "d58e5e80-3378-49dd-b804-ce676c0257c7"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-bowman"
+subjects:
+  - name: "Juan Soto"
+    role: "Player"
+    team: "New York Mets"
+card_name: "Juan Soto - Base - Printing Plates"
+description: "Printing Plates parallel of Base card featuring Juan Soto."
+series: "2026 Bowman"
+parallel: "Printing Plates"
+print_run: 4
+rookie_card: false
+autograph: false
+serial_numbered: true
+release_date: "2026-05-13"
+image_url: "https://example.com/cards/2026-bowman/97-printing-plates.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Bowman#Insertion_Ratios"

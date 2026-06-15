@@ -1,0 +1,22 @@
+number: "25"
+uuid: "5c954522-a509-42c2-84e6-f97591053048"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-bowman"
+subjects:
+  - name: "Bobby Witt Jr."
+    role: "Player"
+    team: "Kansas City Royals"
+card_name: "Bobby Witt Jr. - Base - Printing Plates"
+description: "Printing Plates parallel of Base card featuring Bobby Witt Jr.."
+series: "2026 Bowman"
+parallel: "Printing Plates"
+print_run: 4
+rookie_card: false
+autograph: false
+serial_numbered: true
+release_date: "2026-05-13"
+image_url: "https://example.com/cards/2026-bowman/25-printing-plates.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Bowman#Insertion_Ratios"

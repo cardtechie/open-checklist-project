@@ -1,0 +1,23 @@
+number: "BCP-99"
+uuid: "f4f56c1d-c798-42b4-9f7b-d22691482c6a"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-bowman"
+subjects:
+  - name: "Bryce Rainer"
+    role: "Player"
+    team: "Detroit Tigers"
+subset: "Chrome Prospects"
+card_name: "Bryce Rainer - Chrome Prospects - Reptilian Orange Refractor"
+description: "Reptilian Orange Refractor parallel of Chrome Prospects card featuring Bryce Rainer."
+series: "2026 Bowman"
+parallel: "Reptilian Orange Refractor"
+print_run: 25
+rookie_card: false
+autograph: false
+serial_numbered: true
+release_date: "2026-05-13"
+image_url: "https://example.com/cards/2026-bowman/chrome-prospects-BCP-99-reptilian-orange-refractor.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Bowman#Insertion_Ratios"

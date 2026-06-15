@@ -1,0 +1,23 @@
+number: "BCP-94"
+uuid: "1916c338-cc43-4013-9d9e-3aadebfde3cb"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-bowman"
+subjects:
+  - name: "Ricardo Cova"
+    role: "Player"
+    team: "Seattle Mariners"
+subset: "Chrome Prospects"
+card_name: "Ricardo Cova - Chrome Prospects - Printing Plates"
+description: "Printing Plates parallel of Chrome Prospects card featuring Ricardo Cova."
+series: "2026 Bowman"
+parallel: "Printing Plates"
+print_run: 4
+rookie_card: false
+autograph: false
+serial_numbered: true
+release_date: "2026-05-13"
+image_url: "https://example.com/cards/2026-bowman/chrome-prospects-BCP-94-printing-plates.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Bowman#Insertion_Ratios"

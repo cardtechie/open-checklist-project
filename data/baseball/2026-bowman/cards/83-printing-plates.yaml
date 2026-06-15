@@ -1,0 +1,22 @@
+number: "83"
+uuid: "cfeec511-ff13-47fc-8b1c-2ff8c5b85e7f"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-bowman"
+subjects:
+  - name: "Bubba Chandler"
+    role: "Player"
+    team: "Pittsburgh Pirates"
+card_name: "Bubba Chandler - Base - Printing Plates"
+description: "Printing Plates parallel of Base card featuring Bubba Chandler."
+series: "2026 Bowman"
+parallel: "Printing Plates"
+print_run: 4
+rookie_card: true
+autograph: false
+serial_numbered: true
+release_date: "2026-05-13"
+image_url: "https://example.com/cards/2026-bowman/83-printing-plates.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Bowman#Insertion_Ratios"

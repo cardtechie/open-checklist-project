@@ -1,0 +1,22 @@
+number: "42"
+uuid: "413b4e88-b12e-4c29-9918-441b46cc32d0"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-bowman"
+subjects:
+  - name: "Zach Neto"
+    role: "Player"
+    team: "Los Angeles Angels"
+card_name: "Zach Neto - Base - Blue Pattern"
+description: "Blue Pattern parallel of Base card featuring Zach Neto."
+series: "2026 Bowman"
+parallel: "Blue Pattern"
+print_run: 150
+rookie_card: false
+autograph: false
+serial_numbered: true
+release_date: "2026-05-13"
+image_url: "https://example.com/cards/2026-bowman/42-blue-pattern.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Bowman#Insertion_Ratios"

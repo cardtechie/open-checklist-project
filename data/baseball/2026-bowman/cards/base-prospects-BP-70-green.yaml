@@ -1,0 +1,23 @@
+number: "BP-70"
+uuid: "3b9ff356-ad3b-4ee7-a724-3bc767d96c4f"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-bowman"
+subjects:
+  - name: "Kash Mayfield"
+    role: "Player"
+    team: "San Diego Padres"
+subset: "Base Prospects"
+card_name: "Kash Mayfield - Base Prospects - Green"
+description: "Green parallel of Base Prospects card featuring Kash Mayfield."
+series: "2026 Bowman"
+parallel: "Green"
+print_run: 99
+rookie_card: false
+autograph: false
+serial_numbered: true
+release_date: "2026-05-13"
+image_url: "https://example.com/cards/2026-bowman/base-prospects-BP-70-green.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Bowman#Insertion_Ratios"

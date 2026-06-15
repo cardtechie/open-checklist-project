@@ -1,0 +1,23 @@
+number: "PC-19"
+uuid: "75694d55-1c3e-43a9-8f99-883f055587fb"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-bowman"
+subjects:
+  - name: "Christian Moore"
+    role: "Player"
+    team: "Los Angeles Angels"
+subset: "Power Chords"
+card_name: "Christian Moore - Power Chords - Autograph Gold Refractor"
+description: "Autograph Gold Refractor parallel of Power Chords card featuring Christian Moore."
+series: "2026 Bowman"
+parallel: "Autograph Gold Refractor"
+print_run: 50
+rookie_card: false
+autograph: false
+serial_numbered: true
+release_date: "2026-05-13"
+image_url: "https://example.com/cards/2026-bowman/power-chords-PC-19-autograph-gold-refractor.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Bowman#Insertion_Ratios"

@@ -1,0 +1,23 @@
+number: "BST-15"
+uuid: "a9f438c6-0e33-454a-8fdc-493cf2e3cab0"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-bowman"
+subjects:
+  - name: "Carson Williams"
+    role: "Player"
+    team: "Tampa Bay Rays"
+subset: "Bowman Sterling"
+card_name: "Carson Williams - Bowman Sterling - Mini-Diamond Refractor"
+description: "Mini-Diamond Refractor parallel of Bowman Sterling card featuring Carson Williams."
+series: "2026 Bowman"
+parallel: "Mini-Diamond Refractor"
+print_run: 150
+rookie_card: false
+autograph: false
+serial_numbered: true
+release_date: "2026-05-13"
+image_url: "https://example.com/cards/2026-bowman/bowman-sterling-BST-15-mini-diamond-refractor.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Bowman#Insertion_Ratios"

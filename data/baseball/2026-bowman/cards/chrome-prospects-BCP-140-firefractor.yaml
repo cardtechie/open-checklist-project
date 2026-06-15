@@ -1,0 +1,23 @@
+number: "BCP-140"
+uuid: "f00a742b-a98e-4151-8a52-208fe3c6782f"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-bowman"
+subjects:
+  - name: "Pedro Ibarguen"
+    role: "Player"
+    team: "Milwaukee Brewers"
+subset: "Chrome Prospects"
+card_name: "Pedro Ibarguen - Chrome Prospects - FireFractor"
+description: "FireFractor parallel of Chrome Prospects card featuring Pedro Ibarguen."
+series: "2026 Bowman"
+parallel: "FireFractor"
+print_run: 3
+rookie_card: false
+autograph: false
+serial_numbered: true
+release_date: "2026-05-13"
+image_url: "https://example.com/cards/2026-bowman/chrome-prospects-BCP-140-firefractor.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Bowman#Insertion_Ratios"

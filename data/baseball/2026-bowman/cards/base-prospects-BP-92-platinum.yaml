@@ -1,0 +1,23 @@
+number: "BP-92"
+uuid: "0c4dbd84-3a4e-4dad-9c4c-8efb6c32bfab"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-bowman"
+subjects:
+  - name: "Konnor Griffin"
+    role: "Player"
+    team: "Pittsburgh Pirates"
+subset: "Base Prospects"
+card_name: "Konnor Griffin - Base Prospects - Platinum"
+description: "Platinum parallel of Base Prospects card featuring Konnor Griffin."
+series: "2026 Bowman"
+parallel: "Platinum"
+print_run: 1
+rookie_card: false
+autograph: false
+serial_numbered: true
+release_date: "2026-05-13"
+image_url: "https://example.com/cards/2026-bowman/base-prospects-BP-92-platinum.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Bowman#Insertion_Ratios"

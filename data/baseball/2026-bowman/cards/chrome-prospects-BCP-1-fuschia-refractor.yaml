@@ -1,0 +1,23 @@
+number: "BCP-1"
+uuid: "1e5c3c23-e13e-4a96-9a59-fb9f080d030d"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-bowman"
+subjects:
+  - name: "Ethan Holliday"
+    role: "Player"
+    team: "Colorado Rockies"
+subset: "Chrome Prospects"
+card_name: "Ethan Holliday - Chrome Prospects - Fuschia Refractor"
+description: "Fuschia Refractor parallel of Chrome Prospects card featuring Ethan Holliday."
+series: "2026 Bowman"
+parallel: "Fuschia Refractor"
+print_run: 199
+rookie_card: false
+autograph: false
+serial_numbered: true
+release_date: "2026-05-13"
+image_url: "https://example.com/cards/2026-bowman/chrome-prospects-BCP-1-fuschia-refractor.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Bowman#Insertion_Ratios"

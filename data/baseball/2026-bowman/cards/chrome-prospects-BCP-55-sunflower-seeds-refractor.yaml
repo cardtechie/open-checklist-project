@@ -1,0 +1,22 @@
+number: "BCP-55"
+uuid: "28a8c38a-7631-43b0-8cce-a435a14aac5f"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-bowman"
+subjects:
+  - name: "Andrew Salas"
+    role: "Player"
+    team: "Miami Marlins"
+subset: "Chrome Prospects"
+card_name: "Andrew Salas - Chrome Prospects - Sunflower Seeds Refractor"
+description: "Sunflower Seeds Refractor parallel of Chrome Prospects card featuring Andrew Salas."
+series: "2026 Bowman"
+parallel: "Sunflower Seeds Refractor"
+rookie_card: false
+autograph: false
+serial_numbered: false
+release_date: "2026-05-13"
+image_url: "https://example.com/cards/2026-bowman/chrome-prospects-BCP-55-sunflower-seeds-refractor.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Bowman#Insertion_Ratios"

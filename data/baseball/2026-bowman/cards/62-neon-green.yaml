@@ -1,0 +1,22 @@
+number: "62"
+uuid: "6c8e89c1-89f7-4794-b72c-7f21b9d4ca82"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-bowman"
+subjects:
+  - name: "Owen Caissie"
+    role: "Player"
+    team: "Chicago Cubs"
+card_name: "Owen Caissie - Base - Neon Green"
+description: "Neon Green parallel of Base card featuring Owen Caissie."
+series: "2026 Bowman"
+parallel: "Neon Green"
+print_run: 399
+rookie_card: true
+autograph: false
+serial_numbered: true
+release_date: "2026-05-13"
+image_url: "https://example.com/cards/2026-bowman/62-neon-green.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Bowman#Insertion_Ratios"

@@ -1,0 +1,22 @@
+number: "22"
+uuid: "fa7c3c93-ff6c-4f4b-a07f-cf11f7d432d8"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-bowman"
+subjects:
+  - name: "Andrew McCutchen"
+    role: "Player"
+    team: "Pittsburgh Pirates"
+card_name: "Andrew McCutchen - Base - Fuchsia"
+description: "Fuchsia parallel of Base card featuring Andrew McCutchen."
+series: "2026 Bowman"
+parallel: "Fuchsia"
+print_run: 299
+rookie_card: false
+autograph: false
+serial_numbered: true
+release_date: "2026-05-13"
+image_url: "https://example.com/cards/2026-bowman/22-fuchsia.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Bowman#Insertion_Ratios"

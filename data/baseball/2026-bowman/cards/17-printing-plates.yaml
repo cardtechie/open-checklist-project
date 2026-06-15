@@ -1,0 +1,22 @@
+number: "17"
+uuid: "7f0f6586-2b85-4439-8c21-ead33f32fe67"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-bowman"
+subjects:
+  - name: "Francisco Lindor"
+    role: "Player"
+    team: "New York Mets"
+card_name: "Francisco Lindor - Base - Printing Plates"
+description: "Printing Plates parallel of Base card featuring Francisco Lindor."
+series: "2026 Bowman"
+parallel: "Printing Plates"
+print_run: 4
+rookie_card: false
+autograph: false
+serial_numbered: true
+release_date: "2026-05-13"
+image_url: "https://example.com/cards/2026-bowman/17-printing-plates.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Bowman#Insertion_Ratios"

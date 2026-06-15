@@ -1,0 +1,22 @@
+number: "52"
+uuid: "6980b2b8-b2d6-4535-8865-57447f09d22b"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-bowman"
+subjects:
+  - name: "Shohei Ohtani"
+    role: "Player"
+    team: "Los Angeles Dodgers"
+card_name: "Shohei Ohtani - Base - Printing Plates"
+description: "Printing Plates parallel of Base card featuring Shohei Ohtani."
+series: "2026 Bowman"
+parallel: "Printing Plates"
+print_run: 4
+rookie_card: false
+autograph: false
+serial_numbered: true
+release_date: "2026-05-13"
+image_url: "https://example.com/cards/2026-bowman/52-printing-plates.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Bowman#Insertion_Ratios"

@@ -1,0 +1,22 @@
+number: "55"
+uuid: "702aa57b-868f-439d-8e6e-a03d62473eb3"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-bowman"
+subjects:
+  - name: "Cristopher Sánchez"
+    role: "Player"
+    team: "Philadelphia Phillies"
+card_name: "Cristopher Sánchez - Base - Pink"
+description: "Pink parallel of Base card featuring Cristopher Sánchez."
+series: "2026 Bowman"
+parallel: "Pink"
+print_run: 175
+rookie_card: false
+autograph: false
+serial_numbered: true
+release_date: "2026-05-13"
+image_url: "https://example.com/cards/2026-bowman/55-pink.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Bowman#Insertion_Ratios"

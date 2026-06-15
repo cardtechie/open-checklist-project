@@ -1,0 +1,23 @@
+number: "UR-13"
+uuid: "cf6c4814-7d0b-4b5f-8e4d-986a849b3790"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-bowman"
+subjects:
+  - name: "Daniel Pierce"
+    role: "Player"
+    team: "Tampa Bay Rays"
+subset: "Under The Radar"
+card_name: "Daniel Pierce - Under The Radar - Autograph Orange Refractor"
+description: "Autograph Orange Refractor parallel of Under The Radar card featuring Daniel Pierce."
+series: "2026 Bowman"
+parallel: "Autograph Orange Refractor"
+print_run: 25
+rookie_card: false
+autograph: false
+serial_numbered: true
+release_date: "2026-05-13"
+image_url: "https://example.com/cards/2026-bowman/under-the-radar-UR-13-autograph-orange-refractor.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Bowman#Insertion_Ratios"

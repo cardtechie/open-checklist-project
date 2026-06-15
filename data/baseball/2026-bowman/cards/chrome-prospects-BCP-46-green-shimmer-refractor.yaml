@@ -1,0 +1,23 @@
+number: "BCP-46"
+uuid: "22a878cc-3314-4d45-b96f-44f08c31fa53"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-bowman"
+subjects:
+  - name: "Charlie Condon"
+    role: "Player"
+    team: "Colorado Rockies"
+subset: "Chrome Prospects"
+card_name: "Charlie Condon - Chrome Prospects - Green Shimmer Refractor"
+description: "Green Shimmer Refractor parallel of Chrome Prospects card featuring Charlie Condon."
+series: "2026 Bowman"
+parallel: "Green Shimmer Refractor"
+print_run: 99
+rookie_card: false
+autograph: false
+serial_numbered: true
+release_date: "2026-05-13"
+image_url: "https://example.com/cards/2026-bowman/chrome-prospects-BCP-46-green-shimmer-refractor.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Bowman#Insertion_Ratios"

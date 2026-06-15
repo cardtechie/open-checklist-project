@@ -1,0 +1,22 @@
+number: "BCP-56"
+uuid: "ab760a23-d58d-460d-adef-012f6fff66d0"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-bowman"
+subjects:
+  - name: "Josuar Gonzalez"
+    role: "Player"
+    team: "San Francisco Giants"
+subset: "Chrome Prospects"
+card_name: "Josuar Gonzalez - Chrome Prospects - Gum Ball Refractor"
+description: "Gum Ball Refractor parallel of Chrome Prospects card featuring Josuar Gonzalez."
+series: "2026 Bowman"
+parallel: "Gum Ball Refractor"
+rookie_card: false
+autograph: false
+serial_numbered: false
+release_date: "2026-05-13"
+image_url: "https://example.com/cards/2026-bowman/chrome-prospects-BCP-56-gum-ball-refractor.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Bowman#Insertion_Ratios"

@@ -1,0 +1,22 @@
+number: "56"
+uuid: "b80a7a45-8471-40e2-9c4f-8095c44e50fc"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-bowman"
+subjects:
+  - name: "Brice Matthews"
+    role: "Player"
+    team: "Houston Astros"
+card_name: "Brice Matthews - Base - Purple Pattern"
+description: "Purple Pattern parallel of Base card featuring Brice Matthews."
+series: "2026 Bowman"
+parallel: "Purple Pattern"
+print_run: 250
+rookie_card: true
+autograph: false
+serial_numbered: true
+release_date: "2026-05-13"
+image_url: "https://example.com/cards/2026-bowman/56-purple-pattern.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Bowman#Insertion_Ratios"

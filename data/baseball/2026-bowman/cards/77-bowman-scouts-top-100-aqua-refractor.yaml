@@ -1,0 +1,22 @@
+number: "77"
+uuid: "695f0e87-fb5e-44e4-921f-507899a823ab"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-bowman"
+subjects:
+  - name: "José Ramírez"
+    role: "Player"
+    team: "Cleveland Guardians"
+card_name: "José Ramírez - Base - Bowman Scouts' Top 100 Aqua Refractor"
+description: "Bowman Scouts' Top 100 Aqua Refractor parallel of Base card featuring José Ramírez."
+series: "2026 Bowman"
+parallel: "Bowman Scouts' Top 100 Aqua Refractor"
+print_run: 125
+rookie_card: false
+autograph: false
+serial_numbered: true
+release_date: "2026-05-13"
+image_url: "https://example.com/cards/2026-bowman/77-bowman-scouts-top-100-aqua-refractor.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Bowman#Insertion_Ratios"

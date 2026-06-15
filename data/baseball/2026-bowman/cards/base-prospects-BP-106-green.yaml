@@ -1,0 +1,23 @@
+number: "BP-106"
+uuid: "26d91480-3f61-43a0-98d8-ed59542b5503"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-bowman"
+subjects:
+  - name: "Francisco Espinoza"
+    role: "Player"
+    team: "Los Angeles Dodgers"
+subset: "Base Prospects"
+card_name: "Francisco Espinoza - Base Prospects - Green"
+description: "Green parallel of Base Prospects card featuring Francisco Espinoza."
+series: "2026 Bowman"
+parallel: "Green"
+print_run: 99
+rookie_card: false
+autograph: false
+serial_numbered: true
+release_date: "2026-05-13"
+image_url: "https://example.com/cards/2026-bowman/base-prospects-BP-106-green.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Bowman#Insertion_Ratios"

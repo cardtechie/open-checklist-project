@@ -1,0 +1,23 @@
+number: "BP-40"
+uuid: "aabe4eb4-173e-4a13-97a6-be4f2a1ced59"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-bowman"
+subjects:
+  - name: "Aiva Arquette"
+    role: "Player"
+    team: "Miami Marlins"
+subset: "Base Prospects"
+card_name: "Aiva Arquette - Base Prospects - Pink"
+description: "Pink parallel of Base Prospects card featuring Aiva Arquette."
+series: "2026 Bowman"
+parallel: "Pink"
+print_run: 150
+rookie_card: false
+autograph: false
+serial_numbered: true
+release_date: "2026-05-13"
+image_url: "https://example.com/cards/2026-bowman/base-prospects-BP-40-pink.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Bowman#Insertion_Ratios"

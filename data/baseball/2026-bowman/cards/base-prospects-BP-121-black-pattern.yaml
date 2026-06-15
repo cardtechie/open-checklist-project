@@ -1,0 +1,23 @@
+number: "BP-121"
+uuid: "7354dbdc-2c11-4e67-a478-1f33a76c083d"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-bowman"
+subjects:
+  - name: "Keaton Anthony"
+    role: "Player"
+    team: "Philadelphia Phillies"
+subset: "Base Prospects"
+card_name: "Keaton Anthony - Base Prospects - Black Pattern"
+description: "Black Pattern parallel of Base Prospects card featuring Keaton Anthony."
+series: "2026 Bowman"
+parallel: "Black Pattern"
+print_run: 10
+rookie_card: false
+autograph: false
+serial_numbered: true
+release_date: "2026-05-13"
+image_url: "https://example.com/cards/2026-bowman/base-prospects-BP-121-black-pattern.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Bowman#Insertion_Ratios"

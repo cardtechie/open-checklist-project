@@ -1,0 +1,23 @@
+number: "BP-95"
+uuid: "67e8b3e4-9cdf-4428-b7e3-6a148ca953ef"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-bowman"
+subjects:
+  - name: "Eli Willits"
+    role: "Player"
+    team: "Washington Nationals"
+subset: "Base Prospects"
+card_name: "Eli Willits - Base Prospects - Yellow Pattern"
+description: "Yellow Pattern parallel of Base Prospects card featuring Eli Willits."
+series: "2026 Bowman"
+parallel: "Yellow Pattern"
+print_run: 75
+rookie_card: false
+autograph: false
+serial_numbered: true
+release_date: "2026-05-13"
+image_url: "https://example.com/cards/2026-bowman/base-prospects-BP-95-yellow-pattern.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Bowman#Insertion_Ratios"

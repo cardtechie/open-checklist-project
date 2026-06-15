@@ -1,0 +1,22 @@
+number: "23"
+uuid: "b3cecfed-19c5-4aad-85a6-c63ac1c31350"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-bowman"
+subjects:
+  - name: "Ronald Acuña Jr."
+    role: "Player"
+    team: "Atlanta Braves"
+card_name: "Ronald Acuña Jr. - Base - Gold"
+description: "Gold parallel of Base card featuring Ronald Acuña Jr.."
+series: "2026 Bowman"
+parallel: "Gold"
+print_run: 50
+rookie_card: false
+autograph: false
+serial_numbered: true
+release_date: "2026-05-13"
+image_url: "https://example.com/cards/2026-bowman/23-gold.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Bowman#Insertion_Ratios"

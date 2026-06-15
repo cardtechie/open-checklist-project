@@ -1,0 +1,23 @@
+number: "BP-72"
+uuid: "e61d528d-3745-4d77-ad0e-429ef2abea4b"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-bowman"
+subjects:
+  - name: "Luis Arana"
+    role: "Player"
+    team: "Miami Marlins"
+subset: "Base Prospects"
+card_name: "Luis Arana - Base Prospects - Black"
+description: "Black parallel of Base Prospects card featuring Luis Arana."
+series: "2026 Bowman"
+parallel: "Black"
+print_run: 10
+rookie_card: false
+autograph: false
+serial_numbered: true
+release_date: "2026-05-13"
+image_url: "https://example.com/cards/2026-bowman/base-prospects-BP-72-black.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Bowman#Insertion_Ratios"

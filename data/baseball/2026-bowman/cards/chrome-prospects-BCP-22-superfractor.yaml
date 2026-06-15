@@ -1,0 +1,23 @@
+number: "BCP-22"
+uuid: "8d04cba6-9aa5-474f-b9ef-ec3e28c632f0"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-bowman"
+subjects:
+  - name: "Deniel Ortiz"
+    role: "Player"
+    team: "St. Louis Cardinals"
+subset: "Chrome Prospects"
+card_name: "Deniel Ortiz - Chrome Prospects - SuperFractor"
+description: "SuperFractor parallel of Chrome Prospects card featuring Deniel Ortiz."
+series: "2026 Bowman"
+parallel: "SuperFractor"
+print_run: 1
+rookie_card: false
+autograph: false
+serial_numbered: true
+release_date: "2026-05-13"
+image_url: "https://example.com/cards/2026-bowman/chrome-prospects-BCP-22-superfractor.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Bowman#Insertion_Ratios"

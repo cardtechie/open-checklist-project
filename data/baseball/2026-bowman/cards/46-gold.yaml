@@ -1,0 +1,22 @@
+number: "46"
+uuid: "3d0068b0-6d94-45e5-9e36-f34edfcdc46c"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-bowman"
+subjects:
+  - name: "Freddie Freeman"
+    role: "Player"
+    team: "Los Angeles Dodgers"
+card_name: "Freddie Freeman - Base - Gold"
+description: "Gold parallel of Base card featuring Freddie Freeman."
+series: "2026 Bowman"
+parallel: "Gold"
+print_run: 50
+rookie_card: false
+autograph: false
+serial_numbered: true
+release_date: "2026-05-13"
+image_url: "https://example.com/cards/2026-bowman/46-gold.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Bowman#Insertion_Ratios"

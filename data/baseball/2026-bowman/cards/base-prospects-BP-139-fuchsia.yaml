@@ -1,0 +1,23 @@
+number: "BP-139"
+uuid: "48652d13-6414-4f8c-942a-ebcbf5ea4a14"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-bowman"
+subjects:
+  - name: "Edgar Montero"
+    role: "Player"
+    team: "Athletics"
+subset: "Base Prospects"
+card_name: "Edgar Montero - Base Prospects - Fuchsia"
+description: "Fuchsia parallel of Base Prospects card featuring Edgar Montero."
+series: "2026 Bowman"
+parallel: "Fuchsia"
+print_run: 250
+rookie_card: false
+autograph: false
+serial_numbered: true
+release_date: "2026-05-13"
+image_url: "https://example.com/cards/2026-bowman/base-prospects-BP-139-fuchsia.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Bowman#Insertion_Ratios"

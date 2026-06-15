@@ -1,0 +1,22 @@
+number: "14"
+uuid: "2f87f4f6-f59d-4b97-9384-1de7157c7004"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-bowman"
+subjects:
+  - name: "Drake Baldwin"
+    role: "Player"
+    team: "Atlanta Braves"
+card_name: "Drake Baldwin - Base - Fuchsia"
+description: "Fuchsia parallel of Base card featuring Drake Baldwin."
+series: "2026 Bowman"
+parallel: "Fuchsia"
+print_run: 299
+rookie_card: false
+autograph: false
+serial_numbered: true
+release_date: "2026-05-13"
+image_url: "https://example.com/cards/2026-bowman/14-fuchsia.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Bowman#Insertion_Ratios"

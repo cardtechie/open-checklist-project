@@ -1,0 +1,23 @@
+number: "UR-15"
+uuid: "3b43a065-ce4f-4089-b95c-94554e8a50c6"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-bowman"
+subjects:
+  - name: "Trey Yesavage"
+    role: "Player"
+    team: "Toronto Blue Jays"
+subset: "Under The Radar"
+card_name: "Trey Yesavage - Under The Radar - Gold Refractor"
+description: "Gold Refractor parallel of Under The Radar card featuring Trey Yesavage."
+series: "2026 Bowman"
+parallel: "Gold Refractor"
+print_run: 50
+rookie_card: false
+autograph: false
+serial_numbered: true
+release_date: "2026-05-13"
+image_url: "https://example.com/cards/2026-bowman/under-the-radar-UR-15-gold-refractor.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Bowman#Insertion_Ratios"

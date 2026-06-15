@@ -1,0 +1,23 @@
+number: "BP-74"
+uuid: "03268bed-8d67-4a7a-99f4-7f668b37fea7"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-bowman"
+subjects:
+  - name: "Jack Wheeler"
+    role: "Player"
+    team: "Texas Rangers"
+subset: "Base Prospects"
+card_name: "Jack Wheeler - Base Prospects - Red"
+description: "Red parallel of Base Prospects card featuring Jack Wheeler."
+series: "2026 Bowman"
+parallel: "Red"
+print_run: 5
+rookie_card: false
+autograph: false
+serial_numbered: true
+release_date: "2026-05-13"
+image_url: "https://example.com/cards/2026-bowman/base-prospects-BP-74-red.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Bowman#Insertion_Ratios"

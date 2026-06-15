@@ -1,0 +1,23 @@
+number: "ES-6"
+uuid: "421720c7-122a-4b32-b33e-49a26f00bf62"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-bowman"
+subjects:
+  - name: "Bryce Harper"
+    role: "Player"
+    team: "Philadelphia Phillies"
+subset: "Electric Sluggers"
+card_name: "Bryce Harper - Electric Sluggers - Orange Refractor"
+description: "Orange Refractor parallel of Electric Sluggers card featuring Bryce Harper."
+series: "2026 Bowman"
+parallel: "Orange Refractor"
+print_run: 25
+rookie_card: false
+autograph: false
+serial_numbered: true
+release_date: "2026-05-13"
+image_url: "https://example.com/cards/2026-bowman/electric-sluggers-ES-6-orange-refractor.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Bowman#Insertion_Ratios"

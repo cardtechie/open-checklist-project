@@ -1,0 +1,23 @@
+number: "BCP-17"
+uuid: "318cd166-f6f5-4fc3-ac4e-068a8422b20c"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-bowman"
+subjects:
+  - name: "Caden Scarborough"
+    role: "Player"
+    team: "Texas Rangers"
+subset: "Chrome Prospects"
+card_name: "Caden Scarborough - Chrome Prospects - Black Geometric Refractor"
+description: "Black Geometric Refractor parallel of Chrome Prospects card featuring Caden Scarborough."
+series: "2026 Bowman"
+parallel: "Black Geometric Refractor"
+print_run: 10
+rookie_card: false
+autograph: false
+serial_numbered: true
+release_date: "2026-05-13"
+image_url: "https://example.com/cards/2026-bowman/chrome-prospects-BCP-17-black-geometric-refractor.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Bowman#Insertion_Ratios"

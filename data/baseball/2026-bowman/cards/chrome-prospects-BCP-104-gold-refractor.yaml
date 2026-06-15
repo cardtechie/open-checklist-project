@@ -1,0 +1,23 @@
+number: "BCP-104"
+uuid: "1feb1302-6a43-4657-882f-d5c99672e6a3"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-bowman"
+subjects:
+  - name: "Henry Lalane"
+    role: "Player"
+    team: "New York Yankees"
+subset: "Chrome Prospects"
+card_name: "Henry Lalane - Chrome Prospects - Gold Refractor"
+description: "Gold Refractor parallel of Chrome Prospects card featuring Henry Lalane."
+series: "2026 Bowman"
+parallel: "Gold Refractor"
+print_run: 50
+rookie_card: false
+autograph: false
+serial_numbered: true
+release_date: "2026-05-13"
+image_url: "https://example.com/cards/2026-bowman/chrome-prospects-BCP-104-gold-refractor.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Bowman#Insertion_Ratios"

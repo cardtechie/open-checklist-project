@@ -1,0 +1,23 @@
+number: "BCP-15"
+uuid: "f017ed5c-ee1c-4494-a0d0-43ef1608ef51"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-bowman"
+subjects:
+  - name: "Gage Jump"
+    role: "Player"
+    team: "Athletics"
+subset: "Chrome Prospects"
+card_name: "Gage Jump - Chrome Prospects - Green Shimmer Refractor"
+description: "Green Shimmer Refractor parallel of Chrome Prospects card featuring Gage Jump."
+series: "2026 Bowman"
+parallel: "Green Shimmer Refractor"
+print_run: 99
+rookie_card: false
+autograph: false
+serial_numbered: true
+release_date: "2026-05-13"
+image_url: "https://example.com/cards/2026-bowman/chrome-prospects-BCP-15-green-shimmer-refractor.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Bowman#Insertion_Ratios"

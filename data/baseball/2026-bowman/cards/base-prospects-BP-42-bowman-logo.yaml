@@ -1,0 +1,22 @@
+number: "BP-42"
+uuid: "5a4a4638-e234-4d92-b543-446b1a6b74cb"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-bowman"
+subjects:
+  - name: "David Davalillo"
+    role: "Player"
+    team: "Texas Rangers"
+subset: "Base Prospects"
+card_name: "David Davalillo - Base Prospects - Bowman Logo"
+description: "Bowman Logo parallel of Base Prospects card featuring David Davalillo."
+series: "2026 Bowman"
+parallel: "Bowman Logo"
+rookie_card: false
+autograph: false
+serial_numbered: false
+release_date: "2026-05-13"
+image_url: "https://example.com/cards/2026-bowman/base-prospects-BP-42-bowman-logo.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Bowman#Insertion_Ratios"

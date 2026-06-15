@@ -1,0 +1,23 @@
+number: "BP-30"
+uuid: "9e1b0c9f-b0f0-46dd-903f-89081d424def"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-bowman"
+subjects:
+  - name: "Alimber Santa"
+    role: "Player"
+    team: "Houston Astros"
+subset: "Base Prospects"
+card_name: "Alimber Santa - Base Prospects - Yellow Pattern"
+description: "Yellow Pattern parallel of Base Prospects card featuring Alimber Santa."
+series: "2026 Bowman"
+parallel: "Yellow Pattern"
+print_run: 75
+rookie_card: false
+autograph: false
+serial_numbered: true
+release_date: "2026-05-13"
+image_url: "https://example.com/cards/2026-bowman/base-prospects-BP-30-yellow-pattern.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Bowman#Insertion_Ratios"

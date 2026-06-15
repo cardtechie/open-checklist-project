@@ -1,0 +1,23 @@
+number: "BP-77"
+uuid: "1f5fa101-15d8-4809-9713-3d821b1c82c8"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-bowman"
+subjects:
+  - name: "Daniel Pierce"
+    role: "Player"
+    team: "Tampa Bay Rays"
+subset: "Base Prospects"
+card_name: "Daniel Pierce - Base Prospects - Orange"
+description: "Orange parallel of Base Prospects card featuring Daniel Pierce."
+series: "2026 Bowman"
+parallel: "Orange"
+print_run: 25
+rookie_card: false
+autograph: false
+serial_numbered: true
+release_date: "2026-05-13"
+image_url: "https://example.com/cards/2026-bowman/base-prospects-BP-77-orange.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Bowman#Insertion_Ratios"

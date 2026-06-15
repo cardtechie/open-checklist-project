@@ -1,0 +1,22 @@
+number: "BCP-102"
+uuid: "4b8693e6-1502-426c-bb55-c73e1ab75ac7"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-bowman"
+subjects:
+  - name: "Eric Hartman"
+    role: "Player"
+    team: "Atlanta Braves"
+subset: "Chrome Prospects"
+card_name: "Eric Hartman - Chrome Prospects - Pop Corn Refractor"
+description: "Pop Corn Refractor parallel of Chrome Prospects card featuring Eric Hartman."
+series: "2026 Bowman"
+parallel: "Pop Corn Refractor"
+rookie_card: false
+autograph: false
+serial_numbered: false
+release_date: "2026-05-13"
+image_url: "https://example.com/cards/2026-bowman/chrome-prospects-BCP-102-pop-corn-refractor.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Bowman#Insertion_Ratios"

@@ -1,0 +1,22 @@
+number: "67"
+uuid: "a36847b1-9c07-466f-ba26-ad34d8472105"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-bowman"
+subjects:
+  - name: "Yordan Alvarez"
+    role: "Player"
+    team: "Houston Astros"
+card_name: "Yordan Alvarez - Base - Gold Pattern"
+description: "Gold Pattern parallel of Base card featuring Yordan Alvarez."
+series: "2026 Bowman"
+parallel: "Gold Pattern"
+print_run: 50
+rookie_card: false
+autograph: false
+serial_numbered: true
+release_date: "2026-05-13"
+image_url: "https://example.com/cards/2026-bowman/67-gold-pattern.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Bowman#Insertion_Ratios"

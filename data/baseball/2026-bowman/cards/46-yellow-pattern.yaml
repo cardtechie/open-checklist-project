@@ -1,0 +1,22 @@
+number: "46"
+uuid: "2c871a97-3d10-4300-8698-20c4e464ab3b"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-bowman"
+subjects:
+  - name: "Freddie Freeman"
+    role: "Player"
+    team: "Los Angeles Dodgers"
+card_name: "Freddie Freeman - Base - Yellow Pattern"
+description: "Yellow Pattern parallel of Base card featuring Freddie Freeman."
+series: "2026 Bowman"
+parallel: "Yellow Pattern"
+print_run: 75
+rookie_card: false
+autograph: false
+serial_numbered: true
+release_date: "2026-05-13"
+image_url: "https://example.com/cards/2026-bowman/46-yellow-pattern.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Bowman#Insertion_Ratios"

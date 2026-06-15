@@ -1,0 +1,23 @@
+number: "PC-25"
+uuid: "cfb99881-4ddc-44f6-9bf2-5b543acdd670"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-bowman"
+subjects:
+  - name: "Samuel Basallo"
+    role: "Player"
+    team: "Baltimore Orioles"
+subset: "Power Chords"
+card_name: "Samuel Basallo - Power Chords - Orange Refractor"
+description: "Orange Refractor parallel of Power Chords card featuring Samuel Basallo."
+series: "2026 Bowman"
+parallel: "Orange Refractor"
+print_run: 25
+rookie_card: false
+autograph: false
+serial_numbered: true
+release_date: "2026-05-13"
+image_url: "https://example.com/cards/2026-bowman/power-chords-PC-25-orange-refractor.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Bowman#Insertion_Ratios"

@@ -1,0 +1,23 @@
+number: "BP-91"
+uuid: "ecb3853f-72a9-49e5-8a5f-5b4396926eb8"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-bowman"
+subjects:
+  - name: "Elian Peña"
+    role: "Player"
+    team: "New York Mets"
+subset: "Base Prospects"
+card_name: "Elian Peña - Base Prospects - Blue Pattern"
+description: "Blue Pattern parallel of Base Prospects card featuring Elian Peña."
+series: "2026 Bowman"
+parallel: "Blue Pattern"
+print_run: 99
+rookie_card: false
+autograph: false
+serial_numbered: true
+release_date: "2026-05-13"
+image_url: "https://example.com/cards/2026-bowman/base-prospects-BP-91-blue-pattern.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Bowman#Insertion_Ratios"

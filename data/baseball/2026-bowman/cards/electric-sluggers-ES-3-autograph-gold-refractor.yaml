@@ -1,0 +1,23 @@
+number: "ES-3"
+uuid: "f20ad854-7576-4e28-8b87-c3e6f50121de"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-bowman"
+subjects:
+  - name: "Fernando Tatis Jr."
+    role: "Player"
+    team: "San Diego Padres"
+subset: "Electric Sluggers"
+card_name: "Fernando Tatis Jr. - Electric Sluggers - Autograph Gold Refractor"
+description: "Autograph Gold Refractor parallel of Electric Sluggers card featuring Fernando Tatis Jr.."
+series: "2026 Bowman"
+parallel: "Autograph Gold Refractor"
+print_run: 50
+rookie_card: false
+autograph: false
+serial_numbered: true
+release_date: "2026-05-13"
+image_url: "https://example.com/cards/2026-bowman/electric-sluggers-ES-3-autograph-gold-refractor.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Bowman#Insertion_Ratios"

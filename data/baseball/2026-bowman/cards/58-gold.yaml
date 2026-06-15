@@ -1,0 +1,22 @@
+number: "58"
+uuid: "7b60b0c2-dda1-45d4-9d73-5f73ad0bca14"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-bowman"
+subjects:
+  - name: "Bryce Eldridge"
+    role: "Player"
+    team: "San Francisco Giants"
+card_name: "Bryce Eldridge - Base - Gold"
+description: "Gold parallel of Base card featuring Bryce Eldridge."
+series: "2026 Bowman"
+parallel: "Gold"
+print_run: 50
+rookie_card: true
+autograph: false
+serial_numbered: true
+release_date: "2026-05-13"
+image_url: "https://example.com/cards/2026-bowman/58-gold.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Bowman#Insertion_Ratios"

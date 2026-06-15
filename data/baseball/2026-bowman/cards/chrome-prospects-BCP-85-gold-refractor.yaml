@@ -1,0 +1,23 @@
+number: "BCP-85"
+uuid: "25d2f05c-02ca-4cb0-aa8a-1f18f37d19ad"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-bowman"
+subjects:
+  - name: "Anthony Frobose"
+    role: "Player"
+    team: "New York Mets"
+subset: "Chrome Prospects"
+card_name: "Anthony Frobose - Chrome Prospects - Gold Refractor"
+description: "Gold Refractor parallel of Chrome Prospects card featuring Anthony Frobose."
+series: "2026 Bowman"
+parallel: "Gold Refractor"
+print_run: 50
+rookie_card: false
+autograph: false
+serial_numbered: true
+release_date: "2026-05-13"
+image_url: "https://example.com/cards/2026-bowman/chrome-prospects-BCP-85-gold-refractor.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Bowman#Insertion_Ratios"

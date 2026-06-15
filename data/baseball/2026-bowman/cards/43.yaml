@@ -1,0 +1,17 @@
+number: "43"
+uuid: "e01475cb-7d15-4c06-89f0-2a1f81954ed1"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-bowman"
+subjects:
+  - name: "Jackson Holliday"
+    role: "Player"
+    team: "Baltimore Orioles"
+card_name: "Jackson Holliday - Base"
+description: "Base card featuring Jackson Holliday."
+series: "2026 Bowman"
+rookie_card: false
+autograph: false
+serial_numbered: false
+release_date: "2026-05-13"
+image_url: "https://example.com/cards/2026-bowman/43.jpg"

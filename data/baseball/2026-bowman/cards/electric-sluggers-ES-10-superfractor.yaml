@@ -1,0 +1,23 @@
+number: "ES-10"
+uuid: "c07c5722-a85c-4c66-b0e4-21f6d340d4d8"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-bowman"
+subjects:
+  - name: "Samuel Basallo"
+    role: "Player"
+    team: "Baltimore Orioles"
+subset: "Electric Sluggers"
+card_name: "Samuel Basallo - Electric Sluggers - SuperFractor"
+description: "SuperFractor parallel of Electric Sluggers card featuring Samuel Basallo."
+series: "2026 Bowman"
+parallel: "SuperFractor"
+print_run: 1
+rookie_card: false
+autograph: false
+serial_numbered: true
+release_date: "2026-05-13"
+image_url: "https://example.com/cards/2026-bowman/electric-sluggers-ES-10-superfractor.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Bowman#Insertion_Ratios"

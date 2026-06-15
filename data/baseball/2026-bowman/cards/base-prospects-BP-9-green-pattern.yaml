@@ -1,0 +1,23 @@
+number: "BP-9"
+uuid: "0b513d92-8a44-4290-9a3b-ef98ee33329b"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-bowman"
+subjects:
+  - name: "Tyler Bremner"
+    role: "Player"
+    team: "Los Angeles Angels"
+subset: "Base Prospects"
+card_name: "Tyler Bremner - Base Prospects - Green Pattern"
+description: "Green Pattern parallel of Base Prospects card featuring Tyler Bremner."
+series: "2026 Bowman"
+parallel: "Green Pattern"
+print_run: 75
+rookie_card: false
+autograph: false
+serial_numbered: true
+release_date: "2026-05-13"
+image_url: "https://example.com/cards/2026-bowman/base-prospects-BP-9-green-pattern.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Bowman#Insertion_Ratios"

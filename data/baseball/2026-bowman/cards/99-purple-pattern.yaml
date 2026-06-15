@@ -1,0 +1,22 @@
+number: "99"
+uuid: "bfe058b5-1b9c-44ef-8ff4-8c045d886be8"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-bowman"
+subjects:
+  - name: "Christian Moore"
+    role: "Player"
+    team: "Los Angeles Angels"
+card_name: "Christian Moore - Base - Purple Pattern"
+description: "Purple Pattern parallel of Base card featuring Christian Moore."
+series: "2026 Bowman"
+parallel: "Purple Pattern"
+print_run: 250
+rookie_card: true
+autograph: false
+serial_numbered: true
+release_date: "2026-05-13"
+image_url: "https://example.com/cards/2026-bowman/99-purple-pattern.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Bowman#Insertion_Ratios"

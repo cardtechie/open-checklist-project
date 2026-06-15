@@ -1,0 +1,23 @@
+number: "BCP-80"
+uuid: "3273095f-ca45-47fd-abb8-23c4ac087120"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-bowman"
+subjects:
+  - name: "Thomas White"
+    role: "Player"
+    team: "Miami Marlins"
+subset: "Chrome Prospects"
+card_name: "Thomas White - Chrome Prospects - Green Geometric Refractor"
+description: "Green Geometric Refractor parallel of Chrome Prospects card featuring Thomas White."
+series: "2026 Bowman"
+parallel: "Green Geometric Refractor"
+print_run: 99
+rookie_card: false
+autograph: false
+serial_numbered: true
+release_date: "2026-05-13"
+image_url: "https://example.com/cards/2026-bowman/chrome-prospects-BCP-80-green-geometric-refractor.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Bowman#Insertion_Ratios"

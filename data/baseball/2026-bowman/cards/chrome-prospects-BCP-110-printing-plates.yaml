@@ -1,0 +1,23 @@
+number: "BCP-110"
+uuid: "40fefb75-23b0-41fb-84f9-bdca92cb091b"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-bowman"
+subjects:
+  - name: "Matthew Ferrara"
+    role: "Player"
+    team: "Philadelphia Phillies"
+subset: "Chrome Prospects"
+card_name: "Matthew Ferrara - Chrome Prospects - Printing Plates"
+description: "Printing Plates parallel of Chrome Prospects card featuring Matthew Ferrara."
+series: "2026 Bowman"
+parallel: "Printing Plates"
+print_run: 4
+rookie_card: false
+autograph: false
+serial_numbered: true
+release_date: "2026-05-13"
+image_url: "https://example.com/cards/2026-bowman/chrome-prospects-BCP-110-printing-plates.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Bowman#Insertion_Ratios"

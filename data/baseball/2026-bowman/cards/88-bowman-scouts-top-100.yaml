@@ -1,0 +1,21 @@
+number: "88"
+uuid: "65aa7adf-e3ff-42c1-9493-dd951b4bcdaf"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-bowman"
+subjects:
+  - name: "Wyatt Langford"
+    role: "Player"
+    team: "Texas Rangers"
+card_name: "Wyatt Langford - Base - Bowman Scouts' Top 100"
+description: "Bowman Scouts' Top 100 parallel of Base card featuring Wyatt Langford."
+series: "2026 Bowman"
+parallel: "Bowman Scouts' Top 100"
+rookie_card: false
+autograph: false
+serial_numbered: false
+release_date: "2026-05-13"
+image_url: "https://example.com/cards/2026-bowman/88-bowman-scouts-top-100.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Bowman#Insertion_Ratios"

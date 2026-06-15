@@ -1,0 +1,23 @@
+number: "PC-16"
+uuid: "3d0a6b05-d3dd-4cc5-ac06-cd1d104f2409"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-bowman"
+subjects:
+  - name: "Bryce Eldridge"
+    role: "Player"
+    team: "San Francisco Giants"
+subset: "Power Chords"
+card_name: "Bryce Eldridge - Power Chords - Orange Refractor"
+description: "Orange Refractor parallel of Power Chords card featuring Bryce Eldridge."
+series: "2026 Bowman"
+parallel: "Orange Refractor"
+print_run: 25
+rookie_card: false
+autograph: false
+serial_numbered: true
+release_date: "2026-05-13"
+image_url: "https://example.com/cards/2026-bowman/power-chords-PC-16-orange-refractor.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Bowman#Insertion_Ratios"

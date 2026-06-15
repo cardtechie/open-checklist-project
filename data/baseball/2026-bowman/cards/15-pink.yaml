@@ -1,0 +1,22 @@
+number: "15"
+uuid: "9d331cea-82ae-45bc-9b3c-c9a56aabbcec"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-bowman"
+subjects:
+  - name: "Max Fried"
+    role: "Player"
+    team: "New York Yankees"
+card_name: "Max Fried - Base - Pink"
+description: "Pink parallel of Base card featuring Max Fried."
+series: "2026 Bowman"
+parallel: "Pink"
+print_run: 175
+rookie_card: false
+autograph: false
+serial_numbered: true
+release_date: "2026-05-13"
+image_url: "https://example.com/cards/2026-bowman/15-pink.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Bowman#Insertion_Ratios"

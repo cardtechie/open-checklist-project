@@ -1,0 +1,23 @@
+number: "BP-89"
+uuid: "a088475e-ae78-4c7f-913f-d2cc252ddd08"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-bowman"
+subjects:
+  - name: "Kendry Martinez"
+    role: "Player"
+    team: "Seattle Mariners"
+subset: "Base Prospects"
+card_name: "Kendry Martinez - Base Prospects - Green"
+description: "Green parallel of Base Prospects card featuring Kendry Martinez."
+series: "2026 Bowman"
+parallel: "Green"
+print_run: 99
+rookie_card: false
+autograph: false
+serial_numbered: true
+release_date: "2026-05-13"
+image_url: "https://example.com/cards/2026-bowman/base-prospects-BP-89-green.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Bowman#Insertion_Ratios"

@@ -1,0 +1,23 @@
+number: "CPA-IJ"
+uuid: "915d67dd-1d13-469e-a655-a509c1dfdde5"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-bowman"
+subjects:
+  - name: "Isaiah Jackson"
+    role: "Player"
+    team: "Los Angeles Angels"
+subset: "Chrome Prospect Autographs"
+card_name: "Isaiah Jackson - Chrome Prospect Autographs - Speckle Refractor"
+description: "Speckle Refractor parallel of Autographed Chrome Prospect Autographs card featuring Isaiah Jackson."
+series: "2026 Bowman"
+parallel: "Speckle Refractor"
+print_run: 299
+rookie_card: false
+autograph: true
+serial_numbered: true
+release_date: "2026-05-13"
+image_url: "https://example.com/cards/2026-bowman/chrome-prospect-autographs-CPA-IJ-speckle-refractor.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Bowman#Insertion_Ratios"

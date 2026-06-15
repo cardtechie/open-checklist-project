@@ -1,0 +1,23 @@
+number: "BCP-143"
+uuid: "9b199f70-5919-4a2f-a1b7-e2f76411fceb"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-bowman"
+subjects:
+  - name: "Kaelen Culpepper"
+    role: "Player"
+    team: "Minnesota Twins"
+subset: "Chrome Prospects"
+card_name: "Kaelen Culpepper - Chrome Prospects - Fuschia Refractor"
+description: "Fuschia Refractor parallel of Chrome Prospects card featuring Kaelen Culpepper."
+series: "2026 Bowman"
+parallel: "Fuschia Refractor"
+print_run: 199
+rookie_card: false
+autograph: false
+serial_numbered: true
+release_date: "2026-05-13"
+image_url: "https://example.com/cards/2026-bowman/chrome-prospects-BCP-143-fuschia-refractor.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Bowman#Insertion_Ratios"

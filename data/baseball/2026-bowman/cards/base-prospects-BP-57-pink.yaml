@@ -1,0 +1,23 @@
+number: "BP-57"
+uuid: "5b8a8d01-5bed-42bd-9095-a4d6a4517194"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-bowman"
+subjects:
+  - name: "Felnin Celesten"
+    role: "Player"
+    team: "Seattle Mariners"
+subset: "Base Prospects"
+card_name: "Felnin Celesten - Base Prospects - Pink"
+description: "Pink parallel of Base Prospects card featuring Felnin Celesten."
+series: "2026 Bowman"
+parallel: "Pink"
+print_run: 150
+rookie_card: false
+autograph: false
+serial_numbered: true
+release_date: "2026-05-13"
+image_url: "https://example.com/cards/2026-bowman/base-prospects-BP-57-pink.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Bowman#Insertion_Ratios"

@@ -1,0 +1,23 @@
+number: "BP-120"
+uuid: "972e8716-7af1-46e1-a1c8-1488fd340a18"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-bowman"
+subjects:
+  - name: "Luis Peña"
+    role: "Player"
+    team: "Milwaukee Brewers"
+subset: "Base Prospects"
+card_name: "Luis Peña - Base Prospects - Pink"
+description: "Pink parallel of Base Prospects card featuring Luis Peña."
+series: "2026 Bowman"
+parallel: "Pink"
+print_run: 150
+rookie_card: false
+autograph: false
+serial_numbered: true
+release_date: "2026-05-13"
+image_url: "https://example.com/cards/2026-bowman/base-prospects-BP-120-pink.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Bowman#Insertion_Ratios"

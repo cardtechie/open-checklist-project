@@ -1,0 +1,23 @@
+number: "BP-51"
+uuid: "c0df46b7-3088-4fa8-b73b-ed44cd5f9cfb"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-bowman"
+subjects:
+  - name: "Sebastian Walcott"
+    role: "Player"
+    team: "Texas Rangers"
+subset: "Base Prospects"
+card_name: "Sebastian Walcott - Base Prospects - Purple Pattern"
+description: "Purple Pattern parallel of Base Prospects card featuring Sebastian Walcott."
+series: "2026 Bowman"
+parallel: "Purple Pattern"
+print_run: 175
+rookie_card: false
+autograph: false
+serial_numbered: true
+release_date: "2026-05-13"
+image_url: "https://example.com/cards/2026-bowman/base-prospects-BP-51-purple-pattern.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Bowman#Insertion_Ratios"

@@ -1,0 +1,22 @@
+number: "31"
+uuid: "f94b2b60-7e88-44e8-a477-92638ed68d86"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-bowman"
+subjects:
+  - name: "Pete Crow-Armstrong"
+    role: "Player"
+    team: "Chicago Cubs"
+card_name: "Pete Crow-Armstrong - Base - Gold"
+description: "Gold parallel of Base card featuring Pete Crow-Armstrong."
+series: "2026 Bowman"
+parallel: "Gold"
+print_run: 50
+rookie_card: false
+autograph: false
+serial_numbered: true
+release_date: "2026-05-13"
+image_url: "https://example.com/cards/2026-bowman/31-gold.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Bowman#Insertion_Ratios"

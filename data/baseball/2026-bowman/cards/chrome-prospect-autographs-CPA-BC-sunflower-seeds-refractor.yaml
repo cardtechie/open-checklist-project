@@ -1,0 +1,23 @@
+number: "CPA-BC"
+uuid: "3b5012dd-fa56-4963-a601-6f77daf7732d"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-bowman"
+subjects:
+  - name: "Billy Carlson"
+    role: "Player"
+    team: "Chicago White Sox"
+subset: "Chrome Prospect Autographs"
+card_name: "Billy Carlson - Chrome Prospect Autographs - Sunflower Seeds Refractor"
+description: "Sunflower Seeds Refractor parallel of Autographed Chrome Prospect Autographs card featuring Billy Carlson."
+series: "2026 Bowman"
+parallel: "Sunflower Seeds Refractor"
+print_run: 5
+rookie_card: false
+autograph: true
+serial_numbered: true
+release_date: "2026-05-13"
+image_url: "https://example.com/cards/2026-bowman/chrome-prospect-autographs-CPA-BC-sunflower-seeds-refractor.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Bowman#Insertion_Ratios"

@@ -1,0 +1,23 @@
+number: "BP-81"
+uuid: "daa870a5-6cb3-4de6-a3cf-f0fdaea5981a"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-bowman"
+subjects:
+  - name: "Jose Urbina"
+    role: "Player"
+    team: "Tampa Bay Rays"
+subset: "Base Prospects"
+card_name: "Jose Urbina - Base Prospects - Black Pattern"
+description: "Black Pattern parallel of Base Prospects card featuring Jose Urbina."
+series: "2026 Bowman"
+parallel: "Black Pattern"
+print_run: 10
+rookie_card: false
+autograph: false
+serial_numbered: true
+release_date: "2026-05-13"
+image_url: "https://example.com/cards/2026-bowman/base-prospects-BP-81-black-pattern.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Bowman#Insertion_Ratios"

@@ -1,0 +1,22 @@
+number: "13"
+uuid: "75209e72-502b-45d3-b253-09aba157bf1b"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-bowman"
+subjects:
+  - name: "Cal Raleigh"
+    role: "Player"
+    team: "Seattle Mariners"
+card_name: "Cal Raleigh - Base - Fuchsia"
+description: "Fuchsia parallel of Base card featuring Cal Raleigh."
+series: "2026 Bowman"
+parallel: "Fuchsia"
+print_run: 299
+rookie_card: false
+autograph: false
+serial_numbered: true
+release_date: "2026-05-13"
+image_url: "https://example.com/cards/2026-bowman/13-fuchsia.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Bowman#Insertion_Ratios"

@@ -1,0 +1,22 @@
+number: "BCP-66"
+uuid: "5a5e575d-9c2f-4ba2-901f-f8b077cb2b66"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-bowman"
+subjects:
+  - name: "Wyatt Sanford"
+    role: "Player"
+    team: "Pittsburgh Pirates"
+subset: "Chrome Prospects"
+card_name: "Wyatt Sanford - Chrome Prospects - LogoFractor"
+description: "LogoFractor parallel of Chrome Prospects card featuring Wyatt Sanford."
+series: "2026 Bowman"
+parallel: "LogoFractor"
+rookie_card: false
+autograph: false
+serial_numbered: false
+release_date: "2026-05-13"
+image_url: "https://example.com/cards/2026-bowman/chrome-prospects-BCP-66-logofractor.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Bowman#Insertion_Ratios"

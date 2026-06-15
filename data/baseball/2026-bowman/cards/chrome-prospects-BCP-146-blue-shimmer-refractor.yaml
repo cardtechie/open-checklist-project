@@ -1,0 +1,23 @@
+number: "BCP-146"
+uuid: "eaaf556c-728c-40f0-9d14-8ac5dc165fac"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-bowman"
+subjects:
+  - name: "Matt Klein"
+    role: "Player"
+    team: "Colorado Rockies"
+subset: "Chrome Prospects"
+card_name: "Matt Klein - Chrome Prospects - Blue Shimmer Refractor"
+description: "Blue Shimmer Refractor parallel of Chrome Prospects card featuring Matt Klein."
+series: "2026 Bowman"
+parallel: "Blue Shimmer Refractor"
+print_run: 150
+rookie_card: false
+autograph: false
+serial_numbered: true
+release_date: "2026-05-13"
+image_url: "https://example.com/cards/2026-bowman/chrome-prospects-BCP-146-blue-shimmer-refractor.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Bowman#Insertion_Ratios"

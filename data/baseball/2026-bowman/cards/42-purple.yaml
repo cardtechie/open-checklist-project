@@ -1,0 +1,22 @@
+number: "42"
+uuid: "24d0a2cd-1fa6-4efc-8245-ce1b1ccba5e3"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-bowman"
+subjects:
+  - name: "Zach Neto"
+    role: "Player"
+    team: "Los Angeles Angels"
+card_name: "Zach Neto - Base - Purple"
+description: "Purple parallel of Base card featuring Zach Neto."
+series: "2026 Bowman"
+parallel: "Purple"
+print_run: 250
+rookie_card: false
+autograph: false
+serial_numbered: true
+release_date: "2026-05-13"
+image_url: "https://example.com/cards/2026-bowman/42-purple.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Bowman#Insertion_Ratios"

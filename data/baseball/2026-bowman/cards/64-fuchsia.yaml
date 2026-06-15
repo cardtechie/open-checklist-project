@@ -1,0 +1,22 @@
+number: "64"
+uuid: "92c0ccda-8649-4593-a366-9b910756411e"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-bowman"
+subjects:
+  - name: "Jacob deGrom"
+    role: "Player"
+    team: "Texas Rangers"
+card_name: "Jacob deGrom - Base - Fuchsia"
+description: "Fuchsia parallel of Base card featuring Jacob deGrom."
+series: "2026 Bowman"
+parallel: "Fuchsia"
+print_run: 299
+rookie_card: false
+autograph: false
+serial_numbered: true
+release_date: "2026-05-13"
+image_url: "https://example.com/cards/2026-bowman/64-fuchsia.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Bowman#Insertion_Ratios"

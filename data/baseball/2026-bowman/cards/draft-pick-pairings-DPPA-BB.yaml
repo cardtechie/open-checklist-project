@@ -1,0 +1,22 @@
+number: "DPPA-BB"
+uuid: "02f7856b-c3a1-4908-85e3-2e5b65eba066"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-bowman"
+subjects:
+  - name: "Byron Buxton"
+    role: "Player"
+    team: "Minnesota Twins"
+  - name: "Kris Bryant"
+    role: "Player"
+    team: "Chicago Cubs"
+subset: "Draft Pick Pairings"
+card_name: "Byron Buxton / Kris Bryant - Draft Pick Pairings"
+description: "Draft Pick Pairings card featuring Byron Buxton / Kris Bryant."
+series: "2026 Bowman"
+print_run: 25
+rookie_card: false
+autograph: false
+serial_numbered: true
+release_date: "2026-05-13"
+image_url: "https://example.com/cards/2026-bowman/draft-pick-pairings-DPPA-BB.jpg"

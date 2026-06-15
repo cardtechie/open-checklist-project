@@ -1,0 +1,23 @@
+number: "UR-8"
+uuid: "456eabca-83c4-4796-a784-7128b14edeea"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-bowman"
+subjects:
+  - name: "Thomas White"
+    role: "Player"
+    team: "Miami Marlins"
+subset: "Under The Radar"
+card_name: "Thomas White - Under The Radar - Red Refractor"
+description: "Red Refractor parallel of Under The Radar card featuring Thomas White."
+series: "2026 Bowman"
+parallel: "Red Refractor"
+print_run: 5
+rookie_card: false
+autograph: false
+serial_numbered: true
+release_date: "2026-05-13"
+image_url: "https://example.com/cards/2026-bowman/under-the-radar-UR-8-red-refractor.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Bowman#Insertion_Ratios"

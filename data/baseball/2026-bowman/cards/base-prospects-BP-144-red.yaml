@@ -1,0 +1,23 @@
+number: "BP-144"
+uuid: "2e8806e7-0b8c-4775-8d1e-2f4916883bd0"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-bowman"
+subjects:
+  - name: "Colby Shelton"
+    role: "Player"
+    team: "Chicago White Sox"
+subset: "Base Prospects"
+card_name: "Colby Shelton - Base Prospects - Red"
+description: "Red parallel of Base Prospects card featuring Colby Shelton."
+series: "2026 Bowman"
+parallel: "Red"
+print_run: 5
+rookie_card: false
+autograph: false
+serial_numbered: true
+release_date: "2026-05-13"
+image_url: "https://example.com/cards/2026-bowman/base-prospects-BP-144-red.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Bowman#Insertion_Ratios"

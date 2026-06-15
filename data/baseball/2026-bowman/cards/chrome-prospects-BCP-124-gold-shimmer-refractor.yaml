@@ -1,0 +1,23 @@
+number: "BCP-124"
+uuid: "c2b9886e-97ad-4abc-aaf7-9e9785794584"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-bowman"
+subjects:
+  - name: "Riley Nelson"
+    role: "Player"
+    team: "Cleveland Guardians"
+subset: "Chrome Prospects"
+card_name: "Riley Nelson - Chrome Prospects - Gold Shimmer Refractor"
+description: "Gold Shimmer Refractor parallel of Chrome Prospects card featuring Riley Nelson."
+series: "2026 Bowman"
+parallel: "Gold Shimmer Refractor"
+print_run: 50
+rookie_card: false
+autograph: false
+serial_numbered: true
+release_date: "2026-05-13"
+image_url: "https://example.com/cards/2026-bowman/chrome-prospects-BCP-124-gold-shimmer-refractor.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Bowman#Insertion_Ratios"

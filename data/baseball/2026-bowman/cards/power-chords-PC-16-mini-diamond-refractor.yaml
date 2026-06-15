@@ -1,0 +1,23 @@
+number: "PC-16"
+uuid: "1ee030a7-e106-4ecf-ad18-d9bde75a0cba"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-bowman"
+subjects:
+  - name: "Bryce Eldridge"
+    role: "Player"
+    team: "San Francisco Giants"
+subset: "Power Chords"
+card_name: "Bryce Eldridge - Power Chords - Mini-Diamond Refractor"
+description: "Mini-Diamond Refractor parallel of Power Chords card featuring Bryce Eldridge."
+series: "2026 Bowman"
+parallel: "Mini-Diamond Refractor"
+print_run: 150
+rookie_card: false
+autograph: false
+serial_numbered: true
+release_date: "2026-05-13"
+image_url: "https://example.com/cards/2026-bowman/power-chords-PC-16-mini-diamond-refractor.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Bowman#Insertion_Ratios"

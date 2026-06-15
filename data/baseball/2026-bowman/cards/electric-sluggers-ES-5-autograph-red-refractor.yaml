@@ -1,0 +1,23 @@
+number: "ES-5"
+uuid: "25b66ffa-7b3f-421b-adf0-40193ca1fcaf"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-bowman"
+subjects:
+  - name: "Mookie Betts"
+    role: "Player"
+    team: "Los Angeles Dodgers"
+subset: "Electric Sluggers"
+card_name: "Mookie Betts - Electric Sluggers - Autograph Red Refractor"
+description: "Autograph Red Refractor parallel of Electric Sluggers card featuring Mookie Betts."
+series: "2026 Bowman"
+parallel: "Autograph Red Refractor"
+print_run: 5
+rookie_card: false
+autograph: false
+serial_numbered: true
+release_date: "2026-05-13"
+image_url: "https://example.com/cards/2026-bowman/electric-sluggers-ES-5-autograph-red-refractor.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Bowman#Insertion_Ratios"

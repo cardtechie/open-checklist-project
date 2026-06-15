@@ -1,0 +1,23 @@
+number: "CPA-KG"
+uuid: "beba8e5c-acb6-49a3-83e9-33b98a205911"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-bowman"
+subjects:
+  - name: "Konnor Griffin"
+    role: "Player"
+    team: "Pittsburgh Pirates"
+subset: "Chrome Prospect Autographs"
+card_name: "Konnor Griffin - Chrome Prospect Autographs - SuperFractor"
+description: "SuperFractor parallel of Autographed Chrome Prospect Autographs card featuring Konnor Griffin."
+series: "2026 Bowman"
+parallel: "SuperFractor"
+print_run: 1
+rookie_card: false
+autograph: true
+serial_numbered: true
+release_date: "2026-05-13"
+image_url: "https://example.com/cards/2026-bowman/chrome-prospect-autographs-CPA-KG-superfractor.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Bowman#Insertion_Ratios"

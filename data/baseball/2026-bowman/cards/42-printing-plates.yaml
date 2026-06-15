@@ -1,0 +1,22 @@
+number: "42"
+uuid: "f68bb17e-9d91-41b0-954c-e9f2f71c5a20"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-bowman"
+subjects:
+  - name: "Zach Neto"
+    role: "Player"
+    team: "Los Angeles Angels"
+card_name: "Zach Neto - Base - Printing Plates"
+description: "Printing Plates parallel of Base card featuring Zach Neto."
+series: "2026 Bowman"
+parallel: "Printing Plates"
+print_run: 4
+rookie_card: false
+autograph: false
+serial_numbered: true
+release_date: "2026-05-13"
+image_url: "https://example.com/cards/2026-bowman/42-printing-plates.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Bowman#Insertion_Ratios"

@@ -1,0 +1,23 @@
+number: "ES-4"
+uuid: "b370572b-33da-4f95-9d88-5808ace0e5dd"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-bowman"
+subjects:
+  - name: "Junior Caminero"
+    role: "Player"
+    team: "Tampa Bay Rays"
+subset: "Electric Sluggers"
+card_name: "Junior Caminero - Electric Sluggers - Red Refractor"
+description: "Red Refractor parallel of Electric Sluggers card featuring Junior Caminero."
+series: "2026 Bowman"
+parallel: "Red Refractor"
+print_run: 5
+rookie_card: false
+autograph: false
+serial_numbered: true
+release_date: "2026-05-13"
+image_url: "https://example.com/cards/2026-bowman/electric-sluggers-ES-4-red-refractor.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Bowman#Insertion_Ratios"

@@ -1,0 +1,22 @@
+number: "94"
+uuid: "3d35f4d5-9a32-4793-94c2-145ff0a8e223"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-bowman"
+subjects:
+  - name: "Byron Buxton"
+    role: "Player"
+    team: "Minnesota Twins"
+card_name: "Byron Buxton - Base - Yellow"
+description: "Yellow parallel of Base card featuring Byron Buxton."
+series: "2026 Bowman"
+parallel: "Yellow"
+print_run: 75
+rookie_card: false
+autograph: false
+serial_numbered: true
+release_date: "2026-05-13"
+image_url: "https://example.com/cards/2026-bowman/94-yellow.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Bowman#Insertion_Ratios"

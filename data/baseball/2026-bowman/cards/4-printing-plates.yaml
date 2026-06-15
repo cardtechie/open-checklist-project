@@ -1,0 +1,22 @@
+number: "4"
+uuid: "d5c03665-a1c6-4f73-bdfe-b0146e397efe"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-bowman"
+subjects:
+  - name: "Jackson Chourio"
+    role: "Player"
+    team: "Milwaukee Brewers"
+card_name: "Jackson Chourio - Base - Printing Plates"
+description: "Printing Plates parallel of Base card featuring Jackson Chourio."
+series: "2026 Bowman"
+parallel: "Printing Plates"
+print_run: 4
+rookie_card: false
+autograph: false
+serial_numbered: true
+release_date: "2026-05-13"
+image_url: "https://example.com/cards/2026-bowman/4-printing-plates.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Bowman#Insertion_Ratios"

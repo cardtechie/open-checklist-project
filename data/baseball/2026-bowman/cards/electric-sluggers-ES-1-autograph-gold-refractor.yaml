@@ -1,0 +1,23 @@
+number: "ES-1"
+uuid: "19abf6f5-60c5-4231-a4d0-2a9f076fdd58"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-bowman"
+subjects:
+  - name: "Francisco Lindor"
+    role: "Player"
+    team: "New York Mets"
+subset: "Electric Sluggers"
+card_name: "Francisco Lindor - Electric Sluggers - Autograph Gold Refractor"
+description: "Autograph Gold Refractor parallel of Electric Sluggers card featuring Francisco Lindor."
+series: "2026 Bowman"
+parallel: "Autograph Gold Refractor"
+print_run: 50
+rookie_card: false
+autograph: false
+serial_numbered: true
+release_date: "2026-05-13"
+image_url: "https://example.com/cards/2026-bowman/electric-sluggers-ES-1-autograph-gold-refractor.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Bowman#Insertion_Ratios"

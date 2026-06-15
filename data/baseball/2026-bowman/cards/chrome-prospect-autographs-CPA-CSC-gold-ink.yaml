@@ -1,0 +1,23 @@
+number: "CPA-CSC"
+uuid: "a26805b6-3349-44a6-9b17-9c277d5fdf08"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-bowman"
+subjects:
+  - name: "Caden Scarborough"
+    role: "Player"
+    team: "Texas Rangers"
+subset: "Chrome Prospect Autographs"
+card_name: "Caden Scarborough - Chrome Prospect Autographs - Gold Ink"
+description: "Gold Ink parallel of Autographed Chrome Prospect Autographs card featuring Caden Scarborough."
+series: "2026 Bowman"
+parallel: "Gold Ink"
+print_run: 15
+rookie_card: false
+autograph: true
+serial_numbered: true
+release_date: "2026-05-13"
+image_url: "https://example.com/cards/2026-bowman/chrome-prospect-autographs-CPA-CSC-gold-ink.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Bowman#Insertion_Ratios"

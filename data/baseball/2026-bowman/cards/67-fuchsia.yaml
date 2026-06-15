@@ -1,0 +1,22 @@
+number: "67"
+uuid: "f47bbb12-d00f-4695-83c6-20271b7f9b5c"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-bowman"
+subjects:
+  - name: "Yordan Alvarez"
+    role: "Player"
+    team: "Houston Astros"
+card_name: "Yordan Alvarez - Base - Fuchsia"
+description: "Fuchsia parallel of Base card featuring Yordan Alvarez."
+series: "2026 Bowman"
+parallel: "Fuchsia"
+print_run: 299
+rookie_card: false
+autograph: false
+serial_numbered: true
+release_date: "2026-05-13"
+image_url: "https://example.com/cards/2026-bowman/67-fuchsia.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Bowman#Insertion_Ratios"

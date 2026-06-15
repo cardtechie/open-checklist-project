@@ -1,0 +1,23 @@
+number: "BCP-8"
+uuid: "850200ce-06fc-4acc-b848-2f977632d41a"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-bowman"
+subjects:
+  - name: "Anderson Araujo"
+    role: "Player"
+    team: "Philadelphia Phillies"
+subset: "Chrome Prospects"
+card_name: "Anderson Araujo - Chrome Prospects - Black Refractor"
+description: "Black Refractor parallel of Chrome Prospects card featuring Anderson Araujo."
+series: "2026 Bowman"
+parallel: "Black Refractor"
+print_run: 10
+rookie_card: false
+autograph: false
+serial_numbered: true
+release_date: "2026-05-13"
+image_url: "https://example.com/cards/2026-bowman/chrome-prospects-BCP-8-black-refractor.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Bowman#Insertion_Ratios"

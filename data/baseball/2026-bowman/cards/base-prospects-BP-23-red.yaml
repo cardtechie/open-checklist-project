@@ -1,0 +1,23 @@
+number: "BP-23"
+uuid: "ad76ee77-031e-4d7a-b66a-909bce64c51b"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-bowman"
+subjects:
+  - name: "Enddy Azocar"
+    role: "Player"
+    team: "Boston Red Sox"
+subset: "Base Prospects"
+card_name: "Enddy Azocar - Base Prospects - Red"
+description: "Red parallel of Base Prospects card featuring Enddy Azocar."
+series: "2026 Bowman"
+parallel: "Red"
+print_run: 5
+rookie_card: false
+autograph: false
+serial_numbered: true
+release_date: "2026-05-13"
+image_url: "https://example.com/cards/2026-bowman/base-prospects-BP-23-red.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Bowman#Insertion_Ratios"

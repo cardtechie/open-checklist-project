@@ -1,0 +1,23 @@
+number: "CPA-MC"
+uuid: "67b66a3e-dc1d-40d0-b92e-c6f00c181d52"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-bowman"
+subjects:
+  - name: "Max Clark"
+    role: "Player"
+    team: "Detroit Tigers"
+subset: "Chrome Prospect Autographs"
+card_name: "Max Clark - Chrome Prospect Autographs - Speckle Refractor"
+description: "Speckle Refractor parallel of Autographed Chrome Prospect Autographs card featuring Max Clark."
+series: "2026 Bowman"
+parallel: "Speckle Refractor"
+print_run: 299
+rookie_card: false
+autograph: true
+serial_numbered: true
+release_date: "2026-05-13"
+image_url: "https://example.com/cards/2026-bowman/chrome-prospect-autographs-CPA-MC-speckle-refractor.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Bowman#Insertion_Ratios"

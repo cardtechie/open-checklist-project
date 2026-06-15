@@ -1,0 +1,23 @@
+number: "BCP-116"
+uuid: "d4b746a9-4f7c-4bb2-9cdc-69e40b67041d"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-bowman"
+subjects:
+  - name: "Dauri Fernandez"
+    role: "Player"
+    team: "Cleveland Guardians"
+subset: "Chrome Prospects"
+card_name: "Dauri Fernandez - Chrome Prospects - Red Lava Refractor"
+description: "Red Lava Refractor parallel of Chrome Prospects card featuring Dauri Fernandez."
+series: "2026 Bowman"
+parallel: "Red Lava Refractor"
+print_run: 5
+rookie_card: false
+autograph: false
+serial_numbered: true
+release_date: "2026-05-13"
+image_url: "https://example.com/cards/2026-bowman/chrome-prospects-BCP-116-red-lava-refractor.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Bowman#Insertion_Ratios"

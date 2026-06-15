@@ -1,0 +1,23 @@
+number: "BCP-57"
+uuid: "e9e87cf0-26ee-4d94-99bd-e2be8e8d53c4"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-bowman"
+subjects:
+  - name: "Felnin Celesten"
+    role: "Player"
+    team: "Seattle Mariners"
+subset: "Chrome Prospects"
+card_name: "Felnin Celesten - Chrome Prospects - Gold Shimmer Refractor"
+description: "Gold Shimmer Refractor parallel of Chrome Prospects card featuring Felnin Celesten."
+series: "2026 Bowman"
+parallel: "Gold Shimmer Refractor"
+print_run: 50
+rookie_card: false
+autograph: false
+serial_numbered: true
+release_date: "2026-05-13"
+image_url: "https://example.com/cards/2026-bowman/chrome-prospects-BCP-57-gold-shimmer-refractor.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Bowman#Insertion_Ratios"

@@ -1,0 +1,22 @@
+number: "50"
+uuid: "eb7aff9d-e14d-4442-87da-8a503a7e75cc"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-bowman"
+subjects:
+  - name: "Jackson Merrill"
+    role: "Player"
+    team: "San Diego Padres"
+card_name: "Jackson Merrill - Base - Printing Plates"
+description: "Printing Plates parallel of Base card featuring Jackson Merrill."
+series: "2026 Bowman"
+parallel: "Printing Plates"
+print_run: 4
+rookie_card: false
+autograph: false
+serial_numbered: true
+release_date: "2026-05-13"
+image_url: "https://example.com/cards/2026-bowman/50-printing-plates.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Bowman#Insertion_Ratios"

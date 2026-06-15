@@ -1,0 +1,23 @@
+number: "BCP-53"
+uuid: "836cb8c9-1888-45ed-a053-53c11f33da1d"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-bowman"
+subjects:
+  - name: "Braden Montgomery"
+    role: "Player"
+    team: "Chicago White Sox"
+subset: "Chrome Prospects"
+card_name: "Braden Montgomery - Chrome Prospects - Reptilian Green Refractor"
+description: "Reptilian Green Refractor parallel of Chrome Prospects card featuring Braden Montgomery."
+series: "2026 Bowman"
+parallel: "Reptilian Green Refractor"
+print_run: 99
+rookie_card: false
+autograph: false
+serial_numbered: true
+release_date: "2026-05-13"
+image_url: "https://example.com/cards/2026-bowman/chrome-prospects-BCP-53-reptilian-green-refractor.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Bowman#Insertion_Ratios"

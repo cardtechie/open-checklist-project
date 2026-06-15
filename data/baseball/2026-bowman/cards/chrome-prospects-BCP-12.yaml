@@ -1,0 +1,18 @@
+number: "BCP-12"
+uuid: "c94dbc50-ad4d-4894-8c7f-cc6aa16992cc"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-bowman"
+subjects:
+  - name: "Jase Mitchell"
+    role: "Player"
+    team: "Houston Astros"
+subset: "Chrome Prospects"
+card_name: "Jase Mitchell - Chrome Prospects"
+description: "Chrome Prospects card featuring Jase Mitchell."
+series: "2026 Bowman"
+rookie_card: false
+autograph: false
+serial_numbered: false
+release_date: "2026-05-13"
+image_url: "https://example.com/cards/2026-bowman/chrome-prospects-BCP-12.jpg"

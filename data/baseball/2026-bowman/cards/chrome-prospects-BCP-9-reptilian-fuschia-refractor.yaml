@@ -1,0 +1,23 @@
+number: "BCP-9"
+uuid: "4fefa8eb-2d81-41ce-8370-f4c1cf9e7e97"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-bowman"
+subjects:
+  - name: "Tyler Bremner"
+    role: "Player"
+    team: "Los Angeles Angels"
+subset: "Chrome Prospects"
+card_name: "Tyler Bremner - Chrome Prospects - Reptilian Fuschia Refractor"
+description: "Reptilian Fuschia Refractor parallel of Chrome Prospects card featuring Tyler Bremner."
+series: "2026 Bowman"
+parallel: "Reptilian Fuschia Refractor"
+print_run: 199
+rookie_card: false
+autograph: false
+serial_numbered: true
+release_date: "2026-05-13"
+image_url: "https://example.com/cards/2026-bowman/chrome-prospects-BCP-9-reptilian-fuschia-refractor.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Bowman#Insertion_Ratios"

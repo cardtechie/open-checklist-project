@@ -1,0 +1,21 @@
+number: "31"
+uuid: "47f4bb7c-df0c-4f64-b7e5-a0ef1d784aee"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-bowman"
+subjects:
+  - name: "Pete Crow-Armstrong"
+    role: "Player"
+    team: "Chicago Cubs"
+card_name: "Pete Crow-Armstrong - Base - Bowman Logo"
+description: "Bowman Logo parallel of Base card featuring Pete Crow-Armstrong."
+series: "2026 Bowman"
+parallel: "Bowman Logo"
+rookie_card: false
+autograph: false
+serial_numbered: false
+release_date: "2026-05-13"
+image_url: "https://example.com/cards/2026-bowman/31-bowman-logo.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Bowman#Insertion_Ratios"

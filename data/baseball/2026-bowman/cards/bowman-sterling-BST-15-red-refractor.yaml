@@ -1,0 +1,23 @@
+number: "BST-15"
+uuid: "d521f1c0-60b6-4030-9b9f-94adad7c902f"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-bowman"
+subjects:
+  - name: "Carson Williams"
+    role: "Player"
+    team: "Tampa Bay Rays"
+subset: "Bowman Sterling"
+card_name: "Carson Williams - Bowman Sterling - Red Refractor"
+description: "Red Refractor parallel of Bowman Sterling card featuring Carson Williams."
+series: "2026 Bowman"
+parallel: "Red Refractor"
+print_run: 5
+rookie_card: false
+autograph: false
+serial_numbered: true
+release_date: "2026-05-13"
+image_url: "https://example.com/cards/2026-bowman/bowman-sterling-BST-15-red-refractor.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Bowman#Insertion_Ratios"

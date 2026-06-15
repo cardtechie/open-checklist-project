@@ -1,0 +1,23 @@
+number: "BCP-64"
+uuid: "b0afe4a2-ec46-461d-97c5-2d958853cf01"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-bowman"
+subjects:
+  - name: "George Lombard Jr."
+    role: "Player"
+    team: "New York Yankees"
+subset: "Chrome Prospects"
+card_name: "George Lombard Jr. - Chrome Prospects - Gold Shimmer Refractor"
+description: "Gold Shimmer Refractor parallel of Chrome Prospects card featuring George Lombard Jr.."
+series: "2026 Bowman"
+parallel: "Gold Shimmer Refractor"
+print_run: 50
+rookie_card: false
+autograph: false
+serial_numbered: true
+release_date: "2026-05-13"
+image_url: "https://example.com/cards/2026-bowman/chrome-prospects-BCP-64-gold-shimmer-refractor.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Bowman#Insertion_Ratios"

@@ -1,0 +1,17 @@
+number: "64"
+uuid: "1c0c7737-8dc6-4643-a5e9-6bc7c7cffe35"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-bowman"
+subjects:
+  - name: "Jacob deGrom"
+    role: "Player"
+    team: "Texas Rangers"
+card_name: "Jacob deGrom - Base"
+description: "Base card featuring Jacob deGrom."
+series: "2026 Bowman"
+rookie_card: false
+autograph: false
+serial_numbered: false
+release_date: "2026-05-13"
+image_url: "https://example.com/cards/2026-bowman/64.jpg"

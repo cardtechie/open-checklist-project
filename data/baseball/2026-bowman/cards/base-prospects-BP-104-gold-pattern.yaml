@@ -1,0 +1,23 @@
+number: "BP-104"
+uuid: "7a33a9d7-a085-43c5-831a-3965d1845a3c"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-bowman"
+subjects:
+  - name: "Henry Lalane"
+    role: "Player"
+    team: "New York Yankees"
+subset: "Base Prospects"
+card_name: "Henry Lalane - Base Prospects - Gold Pattern"
+description: "Gold Pattern parallel of Base Prospects card featuring Henry Lalane."
+series: "2026 Bowman"
+parallel: "Gold Pattern"
+print_run: 50
+rookie_card: false
+autograph: false
+serial_numbered: true
+release_date: "2026-05-13"
+image_url: "https://example.com/cards/2026-bowman/base-prospects-BP-104-gold-pattern.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Bowman#Insertion_Ratios"

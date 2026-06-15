@@ -1,0 +1,22 @@
+number: "50"
+uuid: "fe0caf44-9c2b-4239-9408-88262c161d3a"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-bowman"
+subjects:
+  - name: "Jackson Merrill"
+    role: "Player"
+    team: "San Diego Padres"
+card_name: "Jackson Merrill - Base - Orange Pattern"
+description: "Orange Pattern parallel of Base card featuring Jackson Merrill."
+series: "2026 Bowman"
+parallel: "Orange Pattern"
+print_run: 25
+rookie_card: false
+autograph: false
+serial_numbered: true
+release_date: "2026-05-13"
+image_url: "https://example.com/cards/2026-bowman/50-orange-pattern.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Bowman#Insertion_Ratios"

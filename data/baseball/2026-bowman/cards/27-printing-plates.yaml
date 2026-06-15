@@ -1,0 +1,22 @@
+number: "27"
+uuid: "fe555e56-d938-4749-b725-b15fa7073a7e"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-bowman"
+subjects:
+  - name: "Bo Bichette"
+    role: "Player"
+    team: "Toronto Blue Jays"
+card_name: "Bo Bichette - Base - Printing Plates"
+description: "Printing Plates parallel of Base card featuring Bo Bichette."
+series: "2026 Bowman"
+parallel: "Printing Plates"
+print_run: 4
+rookie_card: false
+autograph: false
+serial_numbered: true
+release_date: "2026-05-13"
+image_url: "https://example.com/cards/2026-bowman/27-printing-plates.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Bowman#Insertion_Ratios"

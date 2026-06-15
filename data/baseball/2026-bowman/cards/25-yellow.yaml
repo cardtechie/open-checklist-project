@@ -1,0 +1,22 @@
+number: "25"
+uuid: "8c45077e-18d8-43af-a54e-7269ee0259e8"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-bowman"
+subjects:
+  - name: "Bobby Witt Jr."
+    role: "Player"
+    team: "Kansas City Royals"
+card_name: "Bobby Witt Jr. - Base - Yellow"
+description: "Yellow parallel of Base card featuring Bobby Witt Jr.."
+series: "2026 Bowman"
+parallel: "Yellow"
+print_run: 75
+rookie_card: false
+autograph: false
+serial_numbered: true
+release_date: "2026-05-13"
+image_url: "https://example.com/cards/2026-bowman/25-yellow.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Bowman#Insertion_Ratios"

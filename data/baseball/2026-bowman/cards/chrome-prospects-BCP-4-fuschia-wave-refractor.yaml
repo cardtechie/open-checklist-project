@@ -1,0 +1,23 @@
+number: "BCP-4"
+uuid: "7d3d86a2-9026-466a-a3f8-e60010eb71f1"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-bowman"
+subjects:
+  - name: "James Quinn-Irons"
+    role: "Player"
+    team: "Tampa Bay Rays"
+subset: "Chrome Prospects"
+card_name: "James Quinn-Irons - Chrome Prospects - Fuschia Wave Refractor"
+description: "Fuschia Wave Refractor parallel of Chrome Prospects card featuring James Quinn-Irons."
+series: "2026 Bowman"
+parallel: "Fuschia Wave Refractor"
+print_run: 199
+rookie_card: false
+autograph: false
+serial_numbered: true
+release_date: "2026-05-13"
+image_url: "https://example.com/cards/2026-bowman/chrome-prospects-BCP-4-fuschia-wave-refractor.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Bowman#Insertion_Ratios"

@@ -1,0 +1,23 @@
+number: "BCP-69"
+uuid: "4074fef6-ed77-4cb6-afc9-bf6bb88a1204"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-bowman"
+subjects:
+  - name: "Owen Carey"
+    role: "Player"
+    team: "Atlanta Braves"
+subset: "Chrome Prospects"
+card_name: "Owen Carey - Chrome Prospects - Printing Plates"
+description: "Printing Plates parallel of Chrome Prospects card featuring Owen Carey."
+series: "2026 Bowman"
+parallel: "Printing Plates"
+print_run: 4
+rookie_card: false
+autograph: false
+serial_numbered: true
+release_date: "2026-05-13"
+image_url: "https://example.com/cards/2026-bowman/chrome-prospects-BCP-69-printing-plates.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Bowman#Insertion_Ratios"

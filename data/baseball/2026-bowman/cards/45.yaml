@@ -1,0 +1,17 @@
+number: "45"
+uuid: "47ecfd50-3681-4c4c-b634-890035f44d14"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-bowman"
+subjects:
+  - name: "Connelly Early"
+    role: "Player"
+    team: "Boston Red Sox"
+card_name: "Connelly Early - Base"
+description: "Base card featuring Connelly Early."
+series: "2026 Bowman"
+rookie_card: true
+autograph: false
+serial_numbered: false
+release_date: "2026-05-13"
+image_url: "https://example.com/cards/2026-bowman/45.jpg"

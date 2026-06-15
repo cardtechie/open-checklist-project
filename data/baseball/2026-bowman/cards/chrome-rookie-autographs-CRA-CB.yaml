@@ -1,0 +1,18 @@
+number: "CRA-CB"
+uuid: "f1c804eb-e47d-470e-ad1d-80106fb2c10e"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-bowman"
+subjects:
+  - name: "Chase Burns"
+    role: "Player"
+    team: "Cincinnati Reds"
+subset: "Chrome Rookie Autographs"
+card_name: "Chase Burns - Chrome Rookie Autographs"
+description: "Autographed Chrome Rookie Autographs card featuring Chase Burns."
+series: "2026 Bowman"
+rookie_card: false
+autograph: true
+serial_numbered: false
+release_date: "2026-05-13"
+image_url: "https://example.com/cards/2026-bowman/chrome-rookie-autographs-CRA-CB.jpg"

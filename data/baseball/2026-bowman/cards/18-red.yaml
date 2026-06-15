@@ -1,0 +1,22 @@
+number: "18"
+uuid: "a223c330-fc32-4c72-833a-77f9b8f2bed8"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-bowman"
+subjects:
+  - name: "Roman Anthony"
+    role: "Player"
+    team: "Boston Red Sox"
+card_name: "Roman Anthony - Base - Red"
+description: "Red parallel of Base card featuring Roman Anthony."
+series: "2026 Bowman"
+parallel: "Red"
+print_run: 5
+rookie_card: true
+autograph: false
+serial_numbered: true
+release_date: "2026-05-13"
+image_url: "https://example.com/cards/2026-bowman/18-red.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Bowman#Insertion_Ratios"

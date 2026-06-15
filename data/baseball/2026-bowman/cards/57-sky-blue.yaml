@@ -1,0 +1,22 @@
+number: "57"
+uuid: "778d0e4e-93c5-4f14-9980-4d996a338640"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-bowman"
+subjects:
+  - name: "Luke Keaschall"
+    role: "Player"
+    team: "Minnesota Twins"
+card_name: "Luke Keaschall - Base - Sky Blue"
+description: "Sky Blue parallel of Base card featuring Luke Keaschall."
+series: "2026 Bowman"
+parallel: "Sky Blue"
+print_run: 499
+rookie_card: false
+autograph: false
+serial_numbered: true
+release_date: "2026-05-13"
+image_url: "https://example.com/cards/2026-bowman/57-sky-blue.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Bowman#Insertion_Ratios"

@@ -1,0 +1,21 @@
+number: "48"
+uuid: "bdda59cb-c450-4871-b9f6-60c5b55a8421"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-bowman"
+subjects:
+  - name: "Riley Greene"
+    role: "Player"
+    team: "Detroit Tigers"
+card_name: "Riley Greene - Base - Bowman Logo"
+description: "Bowman Logo parallel of Base card featuring Riley Greene."
+series: "2026 Bowman"
+parallel: "Bowman Logo"
+rookie_card: false
+autograph: false
+serial_numbered: false
+release_date: "2026-05-13"
+image_url: "https://example.com/cards/2026-bowman/48-bowman-logo.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Bowman#Insertion_Ratios"

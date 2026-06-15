@@ -1,0 +1,23 @@
+number: "BP-15"
+uuid: "2233bf3f-fdf2-490d-8a9e-0e7e01f7516e"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-bowman"
+subjects:
+  - name: "Gage Jump"
+    role: "Player"
+    team: "Athletics"
+subset: "Base Prospects"
+card_name: "Gage Jump - Base Prospects - Red"
+description: "Red parallel of Base Prospects card featuring Gage Jump."
+series: "2026 Bowman"
+parallel: "Red"
+print_run: 5
+rookie_card: false
+autograph: false
+serial_numbered: true
+release_date: "2026-05-13"
+image_url: "https://example.com/cards/2026-bowman/base-prospects-BP-15-red.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Bowman#Insertion_Ratios"

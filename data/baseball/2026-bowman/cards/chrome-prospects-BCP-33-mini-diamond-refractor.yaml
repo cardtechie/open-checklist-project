@@ -1,0 +1,22 @@
+number: "BCP-33"
+uuid: "e3588381-ccf6-4dfe-9738-b6a5b7b93dfe"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-bowman"
+subjects:
+  - name: "Coy James"
+    role: "Player"
+    team: "Washington Nationals"
+subset: "Chrome Prospects"
+card_name: "Coy James - Chrome Prospects - Mini-Diamond Refractor"
+description: "Mini-Diamond Refractor parallel of Chrome Prospects card featuring Coy James."
+series: "2026 Bowman"
+parallel: "Mini-Diamond Refractor"
+rookie_card: false
+autograph: false
+serial_numbered: false
+release_date: "2026-05-13"
+image_url: "https://example.com/cards/2026-bowman/chrome-prospects-BCP-33-mini-diamond-refractor.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Bowman#Insertion_Ratios"

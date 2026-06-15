@@ -1,0 +1,22 @@
+number: "100"
+uuid: "2606c6ce-0a3f-427d-b010-48844e17e891"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-bowman"
+subjects:
+  - name: "Mike Trout"
+    role: "Player"
+    team: "Los Angeles Angels"
+card_name: "Mike Trout - Base - Blue"
+description: "Blue parallel of Base card featuring Mike Trout."
+series: "2026 Bowman"
+parallel: "Blue"
+print_run: 150
+rookie_card: false
+autograph: false
+serial_numbered: true
+release_date: "2026-05-13"
+image_url: "https://example.com/cards/2026-bowman/100-blue.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Bowman#Insertion_Ratios"

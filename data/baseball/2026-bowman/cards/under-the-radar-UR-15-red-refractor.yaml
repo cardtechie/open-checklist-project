@@ -1,0 +1,23 @@
+number: "UR-15"
+uuid: "d1ca8026-2517-423d-b2bc-19ea269d3938"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-bowman"
+subjects:
+  - name: "Trey Yesavage"
+    role: "Player"
+    team: "Toronto Blue Jays"
+subset: "Under The Radar"
+card_name: "Trey Yesavage - Under The Radar - Red Refractor"
+description: "Red Refractor parallel of Under The Radar card featuring Trey Yesavage."
+series: "2026 Bowman"
+parallel: "Red Refractor"
+print_run: 5
+rookie_card: false
+autograph: false
+serial_numbered: true
+release_date: "2026-05-13"
+image_url: "https://example.com/cards/2026-bowman/under-the-radar-UR-15-red-refractor.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Bowman#Insertion_Ratios"

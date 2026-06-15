@@ -1,0 +1,23 @@
+number: "BCP-11"
+uuid: "86cfc582-1456-4cda-902b-1b8874332339"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-bowman"
+subjects:
+  - name: "David Shields"
+    role: "Player"
+    team: "Kansas City Royals"
+subset: "Chrome Prospects"
+card_name: "David Shields - Chrome Prospects - Reptilian Gold Refractor"
+description: "Reptilian Gold Refractor parallel of Chrome Prospects card featuring David Shields."
+series: "2026 Bowman"
+parallel: "Reptilian Gold Refractor"
+print_run: 50
+rookie_card: false
+autograph: false
+serial_numbered: true
+release_date: "2026-05-13"
+image_url: "https://example.com/cards/2026-bowman/chrome-prospects-BCP-11-reptilian-gold-refractor.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Bowman#Insertion_Ratios"

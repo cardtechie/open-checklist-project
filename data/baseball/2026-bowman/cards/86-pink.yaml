@@ -1,0 +1,22 @@
+number: "86"
+uuid: "5eb7be2d-b797-41e3-95c8-d4f33e8e138a"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-bowman"
+subjects:
+  - name: "Jakob Marsee"
+    role: "Player"
+    team: "Miami Marlins"
+card_name: "Jakob Marsee - Base - Pink"
+description: "Pink parallel of Base card featuring Jakob Marsee."
+series: "2026 Bowman"
+parallel: "Pink"
+print_run: 175
+rookie_card: true
+autograph: false
+serial_numbered: true
+release_date: "2026-05-13"
+image_url: "https://example.com/cards/2026-bowman/86-pink.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Bowman#Insertion_Ratios"

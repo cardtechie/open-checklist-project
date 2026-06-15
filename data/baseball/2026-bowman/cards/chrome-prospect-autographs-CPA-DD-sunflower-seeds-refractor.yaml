@@ -1,0 +1,23 @@
+number: "CPA-DD"
+uuid: "0048ea40-d740-4896-baea-af0d42b3ed9c"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-bowman"
+subjects:
+  - name: "Daniel Dickinson"
+    role: "Player"
+    team: "Milwaukee Brewers"
+subset: "Chrome Prospect Autographs"
+card_name: "Daniel Dickinson - Chrome Prospect Autographs - Sunflower Seeds Refractor"
+description: "Sunflower Seeds Refractor parallel of Autographed Chrome Prospect Autographs card featuring Daniel Dickinson."
+series: "2026 Bowman"
+parallel: "Sunflower Seeds Refractor"
+print_run: 5
+rookie_card: false
+autograph: true
+serial_numbered: true
+release_date: "2026-05-13"
+image_url: "https://example.com/cards/2026-bowman/chrome-prospect-autographs-CPA-DD-sunflower-seeds-refractor.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Bowman#Insertion_Ratios"

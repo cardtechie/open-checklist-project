@@ -1,0 +1,23 @@
+number: "BCP-24"
+uuid: "cf8768c9-6a04-4734-8190-b509024b151e"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-bowman"
+subjects:
+  - name: "Edward Duran"
+    role: "Player"
+    team: "Toronto Blue Jays"
+subset: "Chrome Prospects"
+card_name: "Edward Duran - Chrome Prospects - Aqua Shimmer Refractor"
+description: "Aqua Shimmer Refractor parallel of Chrome Prospects card featuring Edward Duran."
+series: "2026 Bowman"
+parallel: "Aqua Shimmer Refractor"
+print_run: 125
+rookie_card: false
+autograph: false
+serial_numbered: true
+release_date: "2026-05-13"
+image_url: "https://example.com/cards/2026-bowman/chrome-prospects-BCP-24-aqua-shimmer-refractor.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Bowman#Insertion_Ratios"

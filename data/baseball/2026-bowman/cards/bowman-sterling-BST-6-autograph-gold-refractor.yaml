@@ -1,0 +1,23 @@
+number: "BST-6"
+uuid: "907ff966-2490-46ae-afbe-0d7b87d6c0c7"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-bowman"
+subjects:
+  - name: "Shohei Ohtani"
+    role: "Player"
+    team: "Los Angeles Dodgers"
+subset: "Bowman Sterling"
+card_name: "Shohei Ohtani - Bowman Sterling - Autograph Gold Refractor"
+description: "Autograph Gold Refractor parallel of Bowman Sterling card featuring Shohei Ohtani."
+series: "2026 Bowman"
+parallel: "Autograph Gold Refractor"
+print_run: 50
+rookie_card: false
+autograph: false
+serial_numbered: true
+release_date: "2026-05-13"
+image_url: "https://example.com/cards/2026-bowman/bowman-sterling-BST-6-autograph-gold-refractor.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Bowman#Insertion_Ratios"

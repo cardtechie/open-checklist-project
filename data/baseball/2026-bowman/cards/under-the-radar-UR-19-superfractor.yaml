@@ -1,0 +1,23 @@
+number: "UR-19"
+uuid: "dd537e2c-b59f-4669-a107-fd8a50730937"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-bowman"
+subjects:
+  - name: "Connelly Early"
+    role: "Player"
+    team: "Boston Red Sox"
+subset: "Under The Radar"
+card_name: "Connelly Early - Under The Radar - SuperFractor"
+description: "SuperFractor parallel of Under The Radar card featuring Connelly Early."
+series: "2026 Bowman"
+parallel: "SuperFractor"
+print_run: 1
+rookie_card: false
+autograph: false
+serial_numbered: true
+release_date: "2026-05-13"
+image_url: "https://example.com/cards/2026-bowman/under-the-radar-UR-19-superfractor.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Bowman#Insertion_Ratios"

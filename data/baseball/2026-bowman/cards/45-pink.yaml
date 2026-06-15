@@ -1,0 +1,22 @@
+number: "45"
+uuid: "917ce553-f8d5-4cdb-ad6b-327da80e806e"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-bowman"
+subjects:
+  - name: "Connelly Early"
+    role: "Player"
+    team: "Boston Red Sox"
+card_name: "Connelly Early - Base - Pink"
+description: "Pink parallel of Base card featuring Connelly Early."
+series: "2026 Bowman"
+parallel: "Pink"
+print_run: 175
+rookie_card: true
+autograph: false
+serial_numbered: true
+release_date: "2026-05-13"
+image_url: "https://example.com/cards/2026-bowman/45-pink.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Bowman#Insertion_Ratios"

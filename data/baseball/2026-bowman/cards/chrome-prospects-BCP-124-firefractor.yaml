@@ -1,0 +1,23 @@
+number: "BCP-124"
+uuid: "68f36fa8-0556-4c9a-b06e-621fb0102fea"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-bowman"
+subjects:
+  - name: "Riley Nelson"
+    role: "Player"
+    team: "Cleveland Guardians"
+subset: "Chrome Prospects"
+card_name: "Riley Nelson - Chrome Prospects - FireFractor"
+description: "FireFractor parallel of Chrome Prospects card featuring Riley Nelson."
+series: "2026 Bowman"
+parallel: "FireFractor"
+print_run: 3
+rookie_card: false
+autograph: false
+serial_numbered: true
+release_date: "2026-05-13"
+image_url: "https://example.com/cards/2026-bowman/chrome-prospects-BCP-124-firefractor.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Bowman#Insertion_Ratios"

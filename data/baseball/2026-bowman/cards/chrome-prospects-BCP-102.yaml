@@ -1,0 +1,18 @@
+number: "BCP-102"
+uuid: "3f930e4d-7585-4ffb-90a8-bef10b290b1a"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-bowman"
+subjects:
+  - name: "Eric Hartman"
+    role: "Player"
+    team: "Atlanta Braves"
+subset: "Chrome Prospects"
+card_name: "Eric Hartman - Chrome Prospects"
+description: "Chrome Prospects card featuring Eric Hartman."
+series: "2026 Bowman"
+rookie_card: false
+autograph: false
+serial_numbered: false
+release_date: "2026-05-13"
+image_url: "https://example.com/cards/2026-bowman/chrome-prospects-BCP-102.jpg"

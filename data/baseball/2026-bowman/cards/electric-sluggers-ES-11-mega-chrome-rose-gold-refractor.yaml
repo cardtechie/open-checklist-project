@@ -1,0 +1,23 @@
+number: "ES-11"
+uuid: "b74f6ca6-382e-48d1-ae53-c00c98b8f241"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-bowman"
+subjects:
+  - name: "Bryce Eldridge"
+    role: "Player"
+    team: "San Francisco Giants"
+subset: "Electric Sluggers"
+card_name: "Bryce Eldridge - Electric Sluggers - Mega Chrome Rose Gold Refractor"
+description: "Mega Chrome Rose Gold Refractor parallel of Electric Sluggers card featuring Bryce Eldridge."
+series: "2026 Bowman"
+parallel: "Mega Chrome Rose Gold Refractor"
+print_run: 1
+rookie_card: false
+autograph: false
+serial_numbered: true
+release_date: "2026-05-13"
+image_url: "https://example.com/cards/2026-bowman/electric-sluggers-ES-11-mega-chrome-rose-gold-refractor.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Bowman#Insertion_Ratios"

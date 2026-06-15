@@ -1,0 +1,22 @@
+number: "BCP-5"
+uuid: "9730afb6-e08c-4195-9777-e692bd47f8b0"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-bowman"
+subjects:
+  - name: "Tyson Lewis"
+    role: "Player"
+    team: "Cincinnati Reds"
+subset: "Chrome Prospects"
+card_name: "Tyson Lewis - Chrome Prospects - Gum Ball Refractor"
+description: "Gum Ball Refractor parallel of Chrome Prospects card featuring Tyson Lewis."
+series: "2026 Bowman"
+parallel: "Gum Ball Refractor"
+rookie_card: false
+autograph: false
+serial_numbered: false
+release_date: "2026-05-13"
+image_url: "https://example.com/cards/2026-bowman/chrome-prospects-BCP-5-gum-ball-refractor.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Bowman#Insertion_Ratios"

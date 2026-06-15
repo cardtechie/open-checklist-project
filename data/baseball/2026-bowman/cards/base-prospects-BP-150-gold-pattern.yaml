@@ -1,0 +1,23 @@
+number: "BP-150"
+uuid: "28ecafe0-e2d3-4f43-a2a1-02af0c306c48"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-bowman"
+subjects:
+  - name: "Wilder Dalis"
+    role: "Player"
+    team: "Colorado Rockies"
+subset: "Base Prospects"
+card_name: "Wilder Dalis - Base Prospects - Gold Pattern"
+description: "Gold Pattern parallel of Base Prospects card featuring Wilder Dalis."
+series: "2026 Bowman"
+parallel: "Gold Pattern"
+print_run: 50
+rookie_card: false
+autograph: false
+serial_numbered: true
+release_date: "2026-05-13"
+image_url: "https://example.com/cards/2026-bowman/base-prospects-BP-150-gold-pattern.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Bowman#Insertion_Ratios"

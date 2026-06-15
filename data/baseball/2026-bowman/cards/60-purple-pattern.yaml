@@ -1,0 +1,22 @@
+number: "60"
+uuid: "a9d10fa5-ab2f-4df6-9c33-83d3e6082ec6"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-bowman"
+subjects:
+  - name: "Manny Machado"
+    role: "Player"
+    team: "San Diego Padres"
+card_name: "Manny Machado - Base - Purple Pattern"
+description: "Purple Pattern parallel of Base card featuring Manny Machado."
+series: "2026 Bowman"
+parallel: "Purple Pattern"
+print_run: 250
+rookie_card: false
+autograph: false
+serial_numbered: true
+release_date: "2026-05-13"
+image_url: "https://example.com/cards/2026-bowman/60-purple-pattern.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Bowman#Insertion_Ratios"

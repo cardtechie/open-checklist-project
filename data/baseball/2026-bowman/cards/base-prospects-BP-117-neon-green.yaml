@@ -1,0 +1,23 @@
+number: "BP-117"
+uuid: "b17f8cd4-2f56-4a4d-ad04-6da0334bb9de"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-bowman"
+subjects:
+  - name: "Victor Figueroa"
+    role: "Player"
+    team: "Baltimore Orioles"
+subset: "Base Prospects"
+card_name: "Victor Figueroa - Base Prospects - Neon Green"
+description: "Neon Green parallel of Base Prospects card featuring Victor Figueroa."
+series: "2026 Bowman"
+parallel: "Neon Green"
+print_run: 299
+rookie_card: false
+autograph: false
+serial_numbered: true
+release_date: "2026-05-13"
+image_url: "https://example.com/cards/2026-bowman/base-prospects-BP-117-neon-green.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Bowman#Insertion_Ratios"

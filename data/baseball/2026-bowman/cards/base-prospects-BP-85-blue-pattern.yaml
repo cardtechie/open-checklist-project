@@ -1,0 +1,23 @@
+number: "BP-85"
+uuid: "228f5927-53c7-48e1-b54a-d13520b39ea1"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-bowman"
+subjects:
+  - name: "Anthony Frobose"
+    role: "Player"
+    team: "New York Mets"
+subset: "Base Prospects"
+card_name: "Anthony Frobose - Base Prospects - Blue Pattern"
+description: "Blue Pattern parallel of Base Prospects card featuring Anthony Frobose."
+series: "2026 Bowman"
+parallel: "Blue Pattern"
+print_run: 99
+rookie_card: false
+autograph: false
+serial_numbered: true
+release_date: "2026-05-13"
+image_url: "https://example.com/cards/2026-bowman/base-prospects-BP-85-blue-pattern.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Bowman#Insertion_Ratios"

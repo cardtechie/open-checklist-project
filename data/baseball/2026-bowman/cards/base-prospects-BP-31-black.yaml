@@ -1,0 +1,23 @@
+number: "BP-31"
+uuid: "dad3a1d7-0cab-422b-9d9f-40fc02edbe4c"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-bowman"
+subjects:
+  - name: "Brent Iredale"
+    role: "Player"
+    team: "Pittsburgh Pirates"
+subset: "Base Prospects"
+card_name: "Brent Iredale - Base Prospects - Black"
+description: "Black parallel of Base Prospects card featuring Brent Iredale."
+series: "2026 Bowman"
+parallel: "Black"
+print_run: 10
+rookie_card: false
+autograph: false
+serial_numbered: true
+release_date: "2026-05-13"
+image_url: "https://example.com/cards/2026-bowman/base-prospects-BP-31-black.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Bowman#Insertion_Ratios"

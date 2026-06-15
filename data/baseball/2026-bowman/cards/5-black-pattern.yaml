@@ -1,0 +1,22 @@
+number: "5"
+uuid: "8c9bfed4-1986-4fbe-a445-612e978c98c7"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-bowman"
+subjects:
+  - name: "Julio Rodríguez"
+    role: "Player"
+    team: "Seattle Mariners"
+card_name: "Julio Rodríguez - Base - Black Pattern"
+description: "Black Pattern parallel of Base card featuring Julio Rodríguez."
+series: "2026 Bowman"
+parallel: "Black Pattern"
+print_run: 10
+rookie_card: false
+autograph: false
+serial_numbered: true
+release_date: "2026-05-13"
+image_url: "https://example.com/cards/2026-bowman/5-black-pattern.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Bowman#Insertion_Ratios"

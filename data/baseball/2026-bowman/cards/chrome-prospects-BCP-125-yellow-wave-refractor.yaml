@@ -1,0 +1,23 @@
+number: "BCP-125"
+uuid: "f74465e0-89dd-4929-b5ad-6e4ee9004b43"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-bowman"
+subjects:
+  - name: "Wei-En Lin"
+    role: "Player"
+    team: "Athletics"
+subset: "Chrome Prospects"
+card_name: "Wei-En Lin - Chrome Prospects - Yellow Wave Refractor"
+description: "Yellow Wave Refractor parallel of Chrome Prospects card featuring Wei-En Lin."
+series: "2026 Bowman"
+parallel: "Yellow Wave Refractor"
+print_run: 75
+rookie_card: false
+autograph: false
+serial_numbered: true
+release_date: "2026-05-13"
+image_url: "https://example.com/cards/2026-bowman/chrome-prospects-BCP-125-yellow-wave-refractor.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Bowman#Insertion_Ratios"

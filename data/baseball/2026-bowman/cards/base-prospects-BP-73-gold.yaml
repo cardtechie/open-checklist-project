@@ -1,0 +1,23 @@
+number: "BP-73"
+uuid: "753f2b9b-bee9-40ac-8829-4590e2e4313d"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-bowman"
+subjects:
+  - name: "Charles Davalan"
+    role: "Player"
+    team: "Los Angeles Dodgers"
+subset: "Base Prospects"
+card_name: "Charles Davalan - Base Prospects - Gold"
+description: "Gold parallel of Base Prospects card featuring Charles Davalan."
+series: "2026 Bowman"
+parallel: "Gold"
+print_run: 50
+rookie_card: false
+autograph: false
+serial_numbered: true
+release_date: "2026-05-13"
+image_url: "https://example.com/cards/2026-bowman/base-prospects-BP-73-gold.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Bowman#Insertion_Ratios"

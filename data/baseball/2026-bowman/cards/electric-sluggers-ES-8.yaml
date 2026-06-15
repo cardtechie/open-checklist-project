@@ -1,0 +1,19 @@
+number: "ES-8"
+uuid: "8075aa0c-9db7-4a26-a8c5-4fb50d1c330b"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-bowman"
+subjects:
+  - name: "Ronald Acuña Jr."
+    role: "Player"
+    team: "Atlanta Braves"
+subset: "Electric Sluggers"
+card_name: "Ronald Acuña Jr. - Electric Sluggers"
+description: "Electric Sluggers card featuring Ronald Acuña Jr.."
+series: "2026 Bowman"
+print_run: 69625
+rookie_card: false
+autograph: false
+serial_numbered: false
+release_date: "2026-05-13"
+image_url: "https://example.com/cards/2026-bowman/electric-sluggers-ES-8.jpg"

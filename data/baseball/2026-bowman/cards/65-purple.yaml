@@ -1,0 +1,22 @@
+number: "65"
+uuid: "827cb75f-019c-4f4f-800e-080cd5c724b4"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-bowman"
+subjects:
+  - name: "Jonah Tong"
+    role: "Player"
+    team: "New York Mets"
+card_name: "Jonah Tong - Base - Purple"
+description: "Purple parallel of Base card featuring Jonah Tong."
+series: "2026 Bowman"
+parallel: "Purple"
+print_run: 250
+rookie_card: true
+autograph: false
+serial_numbered: true
+release_date: "2026-05-13"
+image_url: "https://example.com/cards/2026-bowman/65-purple.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Bowman#Insertion_Ratios"

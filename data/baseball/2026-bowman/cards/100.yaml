@@ -1,0 +1,17 @@
+number: "100"
+uuid: "4bd8e93b-bddb-4b1e-ac28-59361049a575"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-bowman"
+subjects:
+  - name: "Mike Trout"
+    role: "Player"
+    team: "Los Angeles Angels"
+card_name: "Mike Trout - Base"
+description: "Base card featuring Mike Trout."
+series: "2026 Bowman"
+rookie_card: false
+autograph: false
+serial_numbered: false
+release_date: "2026-05-13"
+image_url: "https://example.com/cards/2026-bowman/100.jpg"

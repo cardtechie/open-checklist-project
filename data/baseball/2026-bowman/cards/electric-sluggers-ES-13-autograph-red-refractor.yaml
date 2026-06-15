@@ -1,0 +1,23 @@
+number: "ES-13"
+uuid: "288ce029-9302-44e8-9b82-a32a8468ffd6"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-bowman"
+subjects:
+  - name: "Ethan Holliday"
+    role: "Player"
+    team: "Colorado Rockies"
+subset: "Electric Sluggers"
+card_name: "Ethan Holliday - Electric Sluggers - Autograph Red Refractor"
+description: "Autograph Red Refractor parallel of Electric Sluggers card featuring Ethan Holliday."
+series: "2026 Bowman"
+parallel: "Autograph Red Refractor"
+print_run: 5
+rookie_card: false
+autograph: false
+serial_numbered: true
+release_date: "2026-05-13"
+image_url: "https://example.com/cards/2026-bowman/electric-sluggers-ES-13-autograph-red-refractor.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Bowman#Insertion_Ratios"

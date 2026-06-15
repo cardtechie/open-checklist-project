@@ -1,0 +1,23 @@
+number: "UR-12"
+uuid: "1d1e9d8d-9a20-4745-9be8-4932acd213d9"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-bowman"
+subjects:
+  - name: "Carson Benge"
+    role: "Player"
+    team: "New York Mets"
+subset: "Under The Radar"
+card_name: "Carson Benge - Under The Radar - Green Refractor"
+description: "Green Refractor parallel of Under The Radar card featuring Carson Benge."
+series: "2026 Bowman"
+parallel: "Green Refractor"
+print_run: 99
+rookie_card: false
+autograph: false
+serial_numbered: true
+release_date: "2026-05-13"
+image_url: "https://example.com/cards/2026-bowman/under-the-radar-UR-12-green-refractor.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Bowman#Insertion_Ratios"

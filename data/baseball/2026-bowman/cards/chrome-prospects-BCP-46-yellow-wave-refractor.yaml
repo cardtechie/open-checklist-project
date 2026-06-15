@@ -1,0 +1,23 @@
+number: "BCP-46"
+uuid: "9b2fe5d0-787c-42b6-891b-6ac5f2b89791"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-bowman"
+subjects:
+  - name: "Charlie Condon"
+    role: "Player"
+    team: "Colorado Rockies"
+subset: "Chrome Prospects"
+card_name: "Charlie Condon - Chrome Prospects - Yellow Wave Refractor"
+description: "Yellow Wave Refractor parallel of Chrome Prospects card featuring Charlie Condon."
+series: "2026 Bowman"
+parallel: "Yellow Wave Refractor"
+print_run: 75
+rookie_card: false
+autograph: false
+serial_numbered: true
+release_date: "2026-05-13"
+image_url: "https://example.com/cards/2026-bowman/chrome-prospects-BCP-46-yellow-wave-refractor.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Bowman#Insertion_Ratios"

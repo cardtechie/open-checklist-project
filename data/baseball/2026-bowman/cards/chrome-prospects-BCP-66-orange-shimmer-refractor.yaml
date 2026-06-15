@@ -1,0 +1,23 @@
+number: "BCP-66"
+uuid: "182ddce0-b0f2-4608-ab54-2dd8884e7d09"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-bowman"
+subjects:
+  - name: "Wyatt Sanford"
+    role: "Player"
+    team: "Pittsburgh Pirates"
+subset: "Chrome Prospects"
+card_name: "Wyatt Sanford - Chrome Prospects - Orange Shimmer Refractor"
+description: "Orange Shimmer Refractor parallel of Chrome Prospects card featuring Wyatt Sanford."
+series: "2026 Bowman"
+parallel: "Orange Shimmer Refractor"
+print_run: 25
+rookie_card: false
+autograph: false
+serial_numbered: true
+release_date: "2026-05-13"
+image_url: "https://example.com/cards/2026-bowman/chrome-prospects-BCP-66-orange-shimmer-refractor.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Bowman#Insertion_Ratios"

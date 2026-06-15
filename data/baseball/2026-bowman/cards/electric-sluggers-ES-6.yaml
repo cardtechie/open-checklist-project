@@ -1,0 +1,19 @@
+number: "ES-6"
+uuid: "16503891-fc9c-4e1f-904c-c605339ff147"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-bowman"
+subjects:
+  - name: "Bryce Harper"
+    role: "Player"
+    team: "Philadelphia Phillies"
+subset: "Electric Sluggers"
+card_name: "Bryce Harper - Electric Sluggers"
+description: "Electric Sluggers card featuring Bryce Harper."
+series: "2026 Bowman"
+print_run: 69625
+rookie_card: false
+autograph: false
+serial_numbered: false
+release_date: "2026-05-13"
+image_url: "https://example.com/cards/2026-bowman/electric-sluggers-ES-6.jpg"

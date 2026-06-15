@@ -1,0 +1,22 @@
+number: "97"
+uuid: "2ee58a94-3cb4-43ff-925a-504ee3224c85"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-bowman"
+subjects:
+  - name: "Juan Soto"
+    role: "Player"
+    team: "New York Mets"
+card_name: "Juan Soto - Base - Sky Blue"
+description: "Sky Blue parallel of Base card featuring Juan Soto."
+series: "2026 Bowman"
+parallel: "Sky Blue"
+print_run: 499
+rookie_card: false
+autograph: false
+serial_numbered: true
+release_date: "2026-05-13"
+image_url: "https://example.com/cards/2026-bowman/97-sky-blue.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Bowman#Insertion_Ratios"

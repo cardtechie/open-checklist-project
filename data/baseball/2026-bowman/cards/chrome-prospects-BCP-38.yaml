@@ -1,0 +1,18 @@
+number: "BCP-38"
+uuid: "2b9b78b7-612a-4c73-97d9-de8ca26e6382"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-bowman"
+subjects:
+  - name: "Luis Cova"
+    role: "Player"
+    team: "Miami Marlins"
+subset: "Chrome Prospects"
+card_name: "Luis Cova - Chrome Prospects"
+description: "Chrome Prospects card featuring Luis Cova."
+series: "2026 Bowman"
+rookie_card: false
+autograph: false
+serial_numbered: false
+release_date: "2026-05-13"
+image_url: "https://example.com/cards/2026-bowman/chrome-prospects-BCP-38.jpg"

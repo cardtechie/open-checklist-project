@@ -1,0 +1,22 @@
+number: "36"
+uuid: "b053ad1a-ad09-4fad-a6fd-03afef50e890"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-bowman"
+subjects:
+  - name: "Jimmy Crooks"
+    role: "Player"
+    team: "St. Louis Cardinals"
+card_name: "Jimmy Crooks - Base - Platinum"
+description: "Platinum parallel of Base card featuring Jimmy Crooks."
+series: "2026 Bowman"
+parallel: "Platinum"
+print_run: 1
+rookie_card: true
+autograph: false
+serial_numbered: true
+release_date: "2026-05-13"
+image_url: "https://example.com/cards/2026-bowman/36-platinum.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Bowman#Insertion_Ratios"

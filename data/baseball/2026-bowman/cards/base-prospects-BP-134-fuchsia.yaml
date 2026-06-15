@@ -1,0 +1,23 @@
+number: "BP-134"
+uuid: "97cfe2d3-a1fa-47cf-8762-ef62184f48bc"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-bowman"
+subjects:
+  - name: "T.J. Rumfield"
+    role: "Player"
+    team: "New York Yankees"
+subset: "Base Prospects"
+card_name: "T.J. Rumfield - Base Prospects - Fuchsia"
+description: "Fuchsia parallel of Base Prospects card featuring T.J. Rumfield."
+series: "2026 Bowman"
+parallel: "Fuchsia"
+print_run: 250
+rookie_card: false
+autograph: false
+serial_numbered: true
+release_date: "2026-05-13"
+image_url: "https://example.com/cards/2026-bowman/base-prospects-BP-134-fuchsia.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Bowman#Insertion_Ratios"

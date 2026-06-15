@@ -1,0 +1,22 @@
+number: "57"
+uuid: "8fd39eab-5b3c-4d0f-934e-da48fdac8c71"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-bowman"
+subjects:
+  - name: "Luke Keaschall"
+    role: "Player"
+    team: "Minnesota Twins"
+card_name: "Luke Keaschall - Base - Blue Pattern"
+description: "Blue Pattern parallel of Base card featuring Luke Keaschall."
+series: "2026 Bowman"
+parallel: "Blue Pattern"
+print_run: 150
+rookie_card: false
+autograph: false
+serial_numbered: true
+release_date: "2026-05-13"
+image_url: "https://example.com/cards/2026-bowman/57-blue-pattern.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Bowman#Insertion_Ratios"

@@ -1,0 +1,23 @@
+number: "BCP-17"
+uuid: "f88a3b63-ad09-41d3-b330-5d9d222f2302"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-bowman"
+subjects:
+  - name: "Caden Scarborough"
+    role: "Player"
+    team: "Texas Rangers"
+subset: "Chrome Prospects"
+card_name: "Caden Scarborough - Chrome Prospects - Green Shimmer Refractor"
+description: "Green Shimmer Refractor parallel of Chrome Prospects card featuring Caden Scarborough."
+series: "2026 Bowman"
+parallel: "Green Shimmer Refractor"
+print_run: 99
+rookie_card: false
+autograph: false
+serial_numbered: true
+release_date: "2026-05-13"
+image_url: "https://example.com/cards/2026-bowman/chrome-prospects-BCP-17-green-shimmer-refractor.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Bowman#Insertion_Ratios"

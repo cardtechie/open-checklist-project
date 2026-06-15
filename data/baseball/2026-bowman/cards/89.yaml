@@ -1,0 +1,17 @@
+number: "89"
+uuid: "2a9d331e-0eb8-4853-b41d-4482458afbb6"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-bowman"
+subjects:
+  - name: "Rafael Devers"
+    role: "Player"
+    team: "San Francisco Giants"
+card_name: "Rafael Devers - Base"
+description: "Base card featuring Rafael Devers."
+series: "2026 Bowman"
+rookie_card: false
+autograph: false
+serial_numbered: false
+release_date: "2026-05-13"
+image_url: "https://example.com/cards/2026-bowman/89.jpg"

@@ -1,0 +1,23 @@
+number: "BP-2"
+uuid: "5db5e43d-621d-4a8f-8283-54c1ac097493"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-bowman"
+subjects:
+  - name: "Max Clark"
+    role: "Player"
+    team: "Detroit Tigers"
+subset: "Base Prospects"
+card_name: "Max Clark - Base Prospects - Gold"
+description: "Gold parallel of Base Prospects card featuring Max Clark."
+series: "2026 Bowman"
+parallel: "Gold"
+print_run: 50
+rookie_card: false
+autograph: false
+serial_numbered: true
+release_date: "2026-05-13"
+image_url: "https://example.com/cards/2026-bowman/base-prospects-BP-2-gold.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Bowman#Insertion_Ratios"

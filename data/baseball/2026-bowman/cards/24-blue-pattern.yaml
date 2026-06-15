@@ -1,0 +1,22 @@
+number: "24"
+uuid: "e6f5eeb7-2c56-4b83-928c-0a1d91654cb1"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-bowman"
+subjects:
+  - name: "Will Smith"
+    role: "Player"
+    team: "Los Angeles Dodgers"
+card_name: "Will Smith - Base - Blue Pattern"
+description: "Blue Pattern parallel of Base card featuring Will Smith."
+series: "2026 Bowman"
+parallel: "Blue Pattern"
+print_run: 150
+rookie_card: false
+autograph: false
+serial_numbered: true
+release_date: "2026-05-13"
+image_url: "https://example.com/cards/2026-bowman/24-blue-pattern.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Bowman#Insertion_Ratios"

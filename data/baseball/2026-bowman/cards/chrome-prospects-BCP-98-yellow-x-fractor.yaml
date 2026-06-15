@@ -1,0 +1,23 @@
+number: "BCP-98"
+uuid: "a8ad6439-02ec-4e0a-84f8-2380985679b0"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-bowman"
+subjects:
+  - name: "Walker Jenkins"
+    role: "Player"
+    team: "Minnesota Twins"
+subset: "Chrome Prospects"
+card_name: "Walker Jenkins - Chrome Prospects - Yellow X-Fractor"
+description: "Yellow X-Fractor parallel of Chrome Prospects card featuring Walker Jenkins."
+series: "2026 Bowman"
+parallel: "Yellow X-Fractor"
+print_run: 75
+rookie_card: false
+autograph: false
+serial_numbered: true
+release_date: "2026-05-13"
+image_url: "https://example.com/cards/2026-bowman/chrome-prospects-BCP-98-yellow-x-fractor.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Bowman#Insertion_Ratios"

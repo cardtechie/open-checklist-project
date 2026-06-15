@@ -1,0 +1,23 @@
+number: "ES-10"
+uuid: "d8116abb-07c9-4af8-a2e4-2ddf3fa2c25b"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-bowman"
+subjects:
+  - name: "Samuel Basallo"
+    role: "Player"
+    team: "Baltimore Orioles"
+subset: "Electric Sluggers"
+card_name: "Samuel Basallo - Electric Sluggers - Autograph Red Refractor"
+description: "Autograph Red Refractor parallel of Electric Sluggers card featuring Samuel Basallo."
+series: "2026 Bowman"
+parallel: "Autograph Red Refractor"
+print_run: 5
+rookie_card: false
+autograph: false
+serial_numbered: true
+release_date: "2026-05-13"
+image_url: "https://example.com/cards/2026-bowman/electric-sluggers-ES-10-autograph-red-refractor.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Bowman#Insertion_Ratios"

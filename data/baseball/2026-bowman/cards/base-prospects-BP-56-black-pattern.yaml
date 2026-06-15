@@ -1,0 +1,23 @@
+number: "BP-56"
+uuid: "d642ff2b-f325-4919-af74-dbf251fffa24"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-bowman"
+subjects:
+  - name: "Josuar Gonzalez"
+    role: "Player"
+    team: "San Francisco Giants"
+subset: "Base Prospects"
+card_name: "Josuar Gonzalez - Base Prospects - Black Pattern"
+description: "Black Pattern parallel of Base Prospects card featuring Josuar Gonzalez."
+series: "2026 Bowman"
+parallel: "Black Pattern"
+print_run: 10
+rookie_card: false
+autograph: false
+serial_numbered: true
+release_date: "2026-05-13"
+image_url: "https://example.com/cards/2026-bowman/base-prospects-BP-56-black-pattern.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Bowman#Insertion_Ratios"

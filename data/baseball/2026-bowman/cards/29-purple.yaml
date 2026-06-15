@@ -1,0 +1,22 @@
+number: "29"
+uuid: "6f314d40-54ec-461f-85e6-3962133573ba"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-bowman"
+subjects:
+  - name: "Geraldo Perdomo"
+    role: "Player"
+    team: "Arizona Diamondbacks"
+card_name: "Geraldo Perdomo - Base - Purple"
+description: "Purple parallel of Base card featuring Geraldo Perdomo."
+series: "2026 Bowman"
+parallel: "Purple"
+print_run: 250
+rookie_card: false
+autograph: false
+serial_numbered: true
+release_date: "2026-05-13"
+image_url: "https://example.com/cards/2026-bowman/29-purple.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Bowman#Insertion_Ratios"

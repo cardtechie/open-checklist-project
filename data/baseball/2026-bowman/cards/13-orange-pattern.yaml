@@ -1,0 +1,22 @@
+number: "13"
+uuid: "bd1b425c-2a6d-4b48-afa8-4df2871631cf"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-bowman"
+subjects:
+  - name: "Cal Raleigh"
+    role: "Player"
+    team: "Seattle Mariners"
+card_name: "Cal Raleigh - Base - Orange Pattern"
+description: "Orange Pattern parallel of Base card featuring Cal Raleigh."
+series: "2026 Bowman"
+parallel: "Orange Pattern"
+print_run: 25
+rookie_card: false
+autograph: false
+serial_numbered: true
+release_date: "2026-05-13"
+image_url: "https://example.com/cards/2026-bowman/13-orange-pattern.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Bowman#Insertion_Ratios"

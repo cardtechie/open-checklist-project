@@ -1,0 +1,22 @@
+number: "93"
+uuid: "f21f9075-4e16-4c86-be5b-89bc3ef4cd6b"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-bowman"
+subjects:
+  - name: "Samuel Basallo"
+    role: "Player"
+    team: "Baltimore Orioles"
+card_name: "Samuel Basallo - Base - Orange"
+description: "Orange parallel of Base card featuring Samuel Basallo."
+series: "2026 Bowman"
+parallel: "Orange"
+print_run: 25
+rookie_card: true
+autograph: false
+serial_numbered: true
+release_date: "2026-05-13"
+image_url: "https://example.com/cards/2026-bowman/93-orange.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Bowman#Insertion_Ratios"

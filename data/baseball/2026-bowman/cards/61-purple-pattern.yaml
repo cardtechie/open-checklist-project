@@ -1,0 +1,22 @@
+number: "61"
+uuid: "f506f930-99a4-4b5b-abc8-7e7e13aed6b5"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-bowman"
+subjects:
+  - name: "Vladimir Guerrero Jr."
+    role: "Player"
+    team: "Toronto Blue Jays"
+card_name: "Vladimir Guerrero Jr. - Base - Purple Pattern"
+description: "Purple Pattern parallel of Base card featuring Vladimir Guerrero Jr.."
+series: "2026 Bowman"
+parallel: "Purple Pattern"
+print_run: 250
+rookie_card: false
+autograph: false
+serial_numbered: true
+release_date: "2026-05-13"
+image_url: "https://example.com/cards/2026-bowman/61-purple-pattern.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Bowman#Insertion_Ratios"

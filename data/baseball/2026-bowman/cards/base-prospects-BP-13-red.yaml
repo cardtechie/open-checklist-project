@@ -1,0 +1,23 @@
+number: "BP-13"
+uuid: "c3ecad4d-1bbd-4b85-8a72-50415cc40ea4"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-bowman"
+subjects:
+  - name: "Blake Mitchell"
+    role: "Player"
+    team: "Kansas City Royals"
+subset: "Base Prospects"
+card_name: "Blake Mitchell - Base Prospects - Red"
+description: "Red parallel of Base Prospects card featuring Blake Mitchell."
+series: "2026 Bowman"
+parallel: "Red"
+print_run: 5
+rookie_card: false
+autograph: false
+serial_numbered: true
+release_date: "2026-05-13"
+image_url: "https://example.com/cards/2026-bowman/base-prospects-BP-13-red.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Bowman#Insertion_Ratios"

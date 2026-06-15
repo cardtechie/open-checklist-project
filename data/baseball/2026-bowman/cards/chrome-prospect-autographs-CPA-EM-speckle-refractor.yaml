@@ -1,0 +1,23 @@
+number: "CPA-EM"
+uuid: "211094a4-42b2-44b6-8583-3cb0c2ea4c71"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-bowman"
+subjects:
+  - name: "Edgar Montero"
+    role: "Player"
+    team: "Athletics"
+subset: "Chrome Prospect Autographs"
+card_name: "Edgar Montero - Chrome Prospect Autographs - Speckle Refractor"
+description: "Speckle Refractor parallel of Autographed Chrome Prospect Autographs card featuring Edgar Montero."
+series: "2026 Bowman"
+parallel: "Speckle Refractor"
+print_run: 299
+rookie_card: false
+autograph: true
+serial_numbered: true
+release_date: "2026-05-13"
+image_url: "https://example.com/cards/2026-bowman/chrome-prospect-autographs-CPA-EM-speckle-refractor.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Bowman#Insertion_Ratios"

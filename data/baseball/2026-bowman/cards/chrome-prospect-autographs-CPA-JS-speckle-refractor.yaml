@@ -1,0 +1,23 @@
+number: "CPA-JS"
+uuid: "a57fd4f8-a9e3-4a38-bc2c-ed40fff7b2f7"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-bowman"
+subjects:
+  - name: "Juan Sanchez"
+    role: "Player"
+    team: "Toronto Blue Jays"
+subset: "Chrome Prospect Autographs"
+card_name: "Juan Sanchez - Chrome Prospect Autographs - Speckle Refractor"
+description: "Speckle Refractor parallel of Autographed Chrome Prospect Autographs card featuring Juan Sanchez."
+series: "2026 Bowman"
+parallel: "Speckle Refractor"
+print_run: 299
+rookie_card: false
+autograph: true
+serial_numbered: true
+release_date: "2026-05-13"
+image_url: "https://example.com/cards/2026-bowman/chrome-prospect-autographs-CPA-JS-speckle-refractor.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Bowman#Insertion_Ratios"

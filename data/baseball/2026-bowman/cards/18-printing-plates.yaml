@@ -1,0 +1,22 @@
+number: "18"
+uuid: "e77aaaf8-ca64-4d2c-9632-5d2f14d70ad9"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-bowman"
+subjects:
+  - name: "Roman Anthony"
+    role: "Player"
+    team: "Boston Red Sox"
+card_name: "Roman Anthony - Base - Printing Plates"
+description: "Printing Plates parallel of Base card featuring Roman Anthony."
+series: "2026 Bowman"
+parallel: "Printing Plates"
+print_run: 4
+rookie_card: true
+autograph: false
+serial_numbered: true
+release_date: "2026-05-13"
+image_url: "https://example.com/cards/2026-bowman/18-printing-plates.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Bowman#Insertion_Ratios"

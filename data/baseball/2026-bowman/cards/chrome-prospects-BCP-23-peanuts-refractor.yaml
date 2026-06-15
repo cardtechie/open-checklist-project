@@ -1,0 +1,22 @@
+number: "BCP-23"
+uuid: "f52f9c5c-b432-44c7-b99e-fa4c41b6466b"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-bowman"
+subjects:
+  - name: "Enddy Azocar"
+    role: "Player"
+    team: "Boston Red Sox"
+subset: "Chrome Prospects"
+card_name: "Enddy Azocar - Chrome Prospects - Peanuts Refractor"
+description: "Peanuts Refractor parallel of Chrome Prospects card featuring Enddy Azocar."
+series: "2026 Bowman"
+parallel: "Peanuts Refractor"
+rookie_card: false
+autograph: false
+serial_numbered: false
+release_date: "2026-05-13"
+image_url: "https://example.com/cards/2026-bowman/chrome-prospects-BCP-23-peanuts-refractor.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Bowman#Insertion_Ratios"

@@ -1,0 +1,22 @@
+number: "10"
+uuid: "2514b9e0-a763-4a30-800a-19d2c02cff27"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-bowman"
+subjects:
+  - name: "Nick Kurtz"
+    role: "Player"
+    team: "Athletics"
+card_name: "Nick Kurtz - Base - Sky Blue"
+description: "Sky Blue parallel of Base card featuring Nick Kurtz."
+series: "2026 Bowman"
+parallel: "Sky Blue"
+print_run: 499
+rookie_card: false
+autograph: false
+serial_numbered: true
+release_date: "2026-05-13"
+image_url: "https://example.com/cards/2026-bowman/10-sky-blue.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Bowman#Insertion_Ratios"

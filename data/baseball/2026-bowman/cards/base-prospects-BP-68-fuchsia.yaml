@@ -1,0 +1,23 @@
+number: "BP-68"
+uuid: "d2aee3f0-7968-41db-b24b-85faa811a478"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-bowman"
+subjects:
+  - name: "Ike Irish"
+    role: "Player"
+    team: "Baltimore Orioles"
+subset: "Base Prospects"
+card_name: "Ike Irish - Base Prospects - Fuchsia"
+description: "Fuchsia parallel of Base Prospects card featuring Ike Irish."
+series: "2026 Bowman"
+parallel: "Fuchsia"
+print_run: 250
+rookie_card: false
+autograph: false
+serial_numbered: true
+release_date: "2026-05-13"
+image_url: "https://example.com/cards/2026-bowman/base-prospects-BP-68-fuchsia.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Bowman#Insertion_Ratios"

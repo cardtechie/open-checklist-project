@@ -1,0 +1,22 @@
+number: "64"
+uuid: "36ccb39e-30ac-4b3a-9bf8-d48cf30db27f"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-bowman"
+subjects:
+  - name: "Jacob deGrom"
+    role: "Player"
+    team: "Texas Rangers"
+card_name: "Jacob deGrom - Base - Purple Pattern"
+description: "Purple Pattern parallel of Base card featuring Jacob deGrom."
+series: "2026 Bowman"
+parallel: "Purple Pattern"
+print_run: 250
+rookie_card: false
+autograph: false
+serial_numbered: true
+release_date: "2026-05-13"
+image_url: "https://example.com/cards/2026-bowman/64-purple-pattern.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Bowman#Insertion_Ratios"

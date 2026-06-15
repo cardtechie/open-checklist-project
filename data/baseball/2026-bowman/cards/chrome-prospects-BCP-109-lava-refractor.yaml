@@ -1,0 +1,23 @@
+number: "BCP-109"
+uuid: "70b4f895-c69e-44a4-a5f9-45eafacbb2b6"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-bowman"
+subjects:
+  - name: "Truitt Madonna"
+    role: "Player"
+    team: "San Diego Padres"
+subset: "Chrome Prospects"
+card_name: "Truitt Madonna - Chrome Prospects - Lava Refractor"
+description: "Lava Refractor parallel of Chrome Prospects card featuring Truitt Madonna."
+series: "2026 Bowman"
+parallel: "Lava Refractor"
+print_run: 399
+rookie_card: false
+autograph: false
+serial_numbered: true
+release_date: "2026-05-13"
+image_url: "https://example.com/cards/2026-bowman/chrome-prospects-BCP-109-lava-refractor.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Bowman#Insertion_Ratios"

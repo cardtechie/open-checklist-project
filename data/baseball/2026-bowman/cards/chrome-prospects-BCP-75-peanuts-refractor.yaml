@@ -1,0 +1,22 @@
+number: "BCP-75"
+uuid: "36a0ca76-7dbd-4f03-80cd-bee539fd3b4e"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-bowman"
+subjects:
+  - name: "Juan Torres"
+    role: "Player"
+    team: "New York Yankees"
+subset: "Chrome Prospects"
+card_name: "Juan Torres - Chrome Prospects - Peanuts Refractor"
+description: "Peanuts Refractor parallel of Chrome Prospects card featuring Juan Torres."
+series: "2026 Bowman"
+parallel: "Peanuts Refractor"
+rookie_card: false
+autograph: false
+serial_numbered: false
+release_date: "2026-05-13"
+image_url: "https://example.com/cards/2026-bowman/chrome-prospects-BCP-75-peanuts-refractor.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Bowman#Insertion_Ratios"

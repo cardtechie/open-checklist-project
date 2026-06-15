@@ -1,0 +1,22 @@
+number: "27"
+uuid: "be03aff6-f536-4a52-a0af-d34e482896e4"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-bowman"
+subjects:
+  - name: "Bo Bichette"
+    role: "Player"
+    team: "Toronto Blue Jays"
+card_name: "Bo Bichette - Base - Green"
+description: "Green parallel of Base card featuring Bo Bichette."
+series: "2026 Bowman"
+parallel: "Green"
+print_run: 99
+rookie_card: false
+autograph: false
+serial_numbered: true
+release_date: "2026-05-13"
+image_url: "https://example.com/cards/2026-bowman/27-green.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Bowman#Insertion_Ratios"

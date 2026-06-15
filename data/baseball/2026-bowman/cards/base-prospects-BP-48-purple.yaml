@@ -1,0 +1,23 @@
+number: "BP-48"
+uuid: "273d6eb6-6696-4b3f-936b-f911dbdcae8f"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-bowman"
+subjects:
+  - name: "Shotaro Morii"
+    role: "Player"
+    team: "Athletics"
+subset: "Base Prospects"
+card_name: "Shotaro Morii - Base Prospects - Purple"
+description: "Purple parallel of Base Prospects card featuring Shotaro Morii."
+series: "2026 Bowman"
+parallel: "Purple"
+print_run: 250
+rookie_card: false
+autograph: false
+serial_numbered: true
+release_date: "2026-05-13"
+image_url: "https://example.com/cards/2026-bowman/base-prospects-BP-48-purple.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Bowman#Insertion_Ratios"

@@ -1,0 +1,23 @@
+number: "BP-25"
+uuid: "18dafee5-0661-4204-bc76-8f2e6b860c0b"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-bowman"
+subjects:
+  - name: "Juan Sanchez"
+    role: "Player"
+    team: "Toronto Blue Jays"
+subset: "Base Prospects"
+card_name: "Juan Sanchez - Base Prospects - Purple Pattern"
+description: "Purple Pattern parallel of Base Prospects card featuring Juan Sanchez."
+series: "2026 Bowman"
+parallel: "Purple Pattern"
+print_run: 175
+rookie_card: false
+autograph: false
+serial_numbered: true
+release_date: "2026-05-13"
+image_url: "https://example.com/cards/2026-bowman/base-prospects-BP-25-purple-pattern.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Bowman#Insertion_Ratios"

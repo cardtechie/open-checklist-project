@@ -1,0 +1,23 @@
+number: "ES-16"
+uuid: "d84b97cc-2f4c-4637-8696-6f8986c1a9bb"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-bowman"
+subjects:
+  - name: "Roman Anthony"
+    role: "Player"
+    team: "Boston Red Sox"
+subset: "Electric Sluggers"
+card_name: "Roman Anthony - Electric Sluggers - Orange Refractor"
+description: "Orange Refractor parallel of Electric Sluggers card featuring Roman Anthony."
+series: "2026 Bowman"
+parallel: "Orange Refractor"
+print_run: 25
+rookie_card: false
+autograph: false
+serial_numbered: true
+release_date: "2026-05-13"
+image_url: "https://example.com/cards/2026-bowman/electric-sluggers-ES-16-orange-refractor.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Bowman#Insertion_Ratios"

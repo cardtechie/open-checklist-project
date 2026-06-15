@@ -1,0 +1,22 @@
+number: "72"
+uuid: "3ffcd398-c5bf-4577-813c-f3dbd29c4b34"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-bowman"
+subjects:
+  - name: "Masyn Winn"
+    role: "Player"
+    team: "St. Louis Cardinals"
+card_name: "Masyn Winn - Base - Blue"
+description: "Blue parallel of Base card featuring Masyn Winn."
+series: "2026 Bowman"
+parallel: "Blue"
+print_run: 150
+rookie_card: false
+autograph: false
+serial_numbered: true
+release_date: "2026-05-13"
+image_url: "https://example.com/cards/2026-bowman/72-blue.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Bowman#Insertion_Ratios"

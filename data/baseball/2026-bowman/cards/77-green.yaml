@@ -1,0 +1,22 @@
+number: "77"
+uuid: "0857737b-1614-4b7f-9a85-c37b2d3b9ea1"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-bowman"
+subjects:
+  - name: "José Ramírez"
+    role: "Player"
+    team: "Cleveland Guardians"
+card_name: "José Ramírez - Base - Green"
+description: "Green parallel of Base card featuring José Ramírez."
+series: "2026 Bowman"
+parallel: "Green"
+print_run: 99
+rookie_card: false
+autograph: false
+serial_numbered: true
+release_date: "2026-05-13"
+image_url: "https://example.com/cards/2026-bowman/77-green.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Bowman#Insertion_Ratios"

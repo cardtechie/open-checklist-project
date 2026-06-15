@@ -1,0 +1,23 @@
+number: "BCP-62"
+uuid: "235d9ad2-117d-4602-8ea2-2207a32fc9fe"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-bowman"
+subjects:
+  - name: "Josh Owens"
+    role: "Player"
+    team: "Texas Rangers"
+subset: "Chrome Prospects"
+card_name: "Josh Owens - Chrome Prospects - Red Lava Refractor"
+description: "Red Lava Refractor parallel of Chrome Prospects card featuring Josh Owens."
+series: "2026 Bowman"
+parallel: "Red Lava Refractor"
+print_run: 5
+rookie_card: false
+autograph: false
+serial_numbered: true
+release_date: "2026-05-13"
+image_url: "https://example.com/cards/2026-bowman/chrome-prospects-BCP-62-red-lava-refractor.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Bowman#Insertion_Ratios"

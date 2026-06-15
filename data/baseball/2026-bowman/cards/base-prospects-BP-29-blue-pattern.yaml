@@ -1,0 +1,23 @@
+number: "BP-29"
+uuid: "8fc99e73-938c-400e-b7da-0ea3d3f0994e"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-bowman"
+subjects:
+  - name: "Victor Arias"
+    role: "Player"
+    team: "Toronto Blue Jays"
+subset: "Base Prospects"
+card_name: "Victor Arias - Base Prospects - Blue Pattern"
+description: "Blue Pattern parallel of Base Prospects card featuring Victor Arias."
+series: "2026 Bowman"
+parallel: "Blue Pattern"
+print_run: 99
+rookie_card: false
+autograph: false
+serial_numbered: true
+release_date: "2026-05-13"
+image_url: "https://example.com/cards/2026-bowman/base-prospects-BP-29-blue-pattern.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Bowman#Insertion_Ratios"

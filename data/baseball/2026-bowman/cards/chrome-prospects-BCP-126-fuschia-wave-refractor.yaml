@@ -1,0 +1,23 @@
+number: "BCP-126"
+uuid: "f3cb9935-e015-457b-b967-42e5aa4eda1e"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-bowman"
+subjects:
+  - name: "Gavin Fien"
+    role: "Player"
+    team: "Texas Rangers"
+subset: "Chrome Prospects"
+card_name: "Gavin Fien - Chrome Prospects - Fuschia Wave Refractor"
+description: "Fuschia Wave Refractor parallel of Chrome Prospects card featuring Gavin Fien."
+series: "2026 Bowman"
+parallel: "Fuschia Wave Refractor"
+print_run: 199
+rookie_card: false
+autograph: false
+serial_numbered: true
+release_date: "2026-05-13"
+image_url: "https://example.com/cards/2026-bowman/chrome-prospects-BCP-126-fuschia-wave-refractor.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Bowman#Insertion_Ratios"

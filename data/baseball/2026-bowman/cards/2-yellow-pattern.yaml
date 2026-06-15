@@ -1,0 +1,22 @@
+number: "2"
+uuid: "6722cf13-87eb-4340-b674-d6eb86e8c42b"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-bowman"
+subjects:
+  - name: "Yoshinobu Yamamoto"
+    role: "Player"
+    team: "Los Angeles Dodgers"
+card_name: "Yoshinobu Yamamoto - Base - Yellow Pattern"
+description: "Yellow Pattern parallel of Base card featuring Yoshinobu Yamamoto."
+series: "2026 Bowman"
+parallel: "Yellow Pattern"
+print_run: 75
+rookie_card: false
+autograph: false
+serial_numbered: true
+release_date: "2026-05-13"
+image_url: "https://example.com/cards/2026-bowman/2-yellow-pattern.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Bowman#Insertion_Ratios"

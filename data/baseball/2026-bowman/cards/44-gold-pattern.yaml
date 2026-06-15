@@ -1,0 +1,22 @@
+number: "44"
+uuid: "242f3b93-f536-47d6-8347-57786025dfcb"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-bowman"
+subjects:
+  - name: "Elly De La Cruz"
+    role: "Player"
+    team: "Cincinnati Reds"
+card_name: "Elly De La Cruz - Base - Gold Pattern"
+description: "Gold Pattern parallel of Base card featuring Elly De La Cruz."
+series: "2026 Bowman"
+parallel: "Gold Pattern"
+print_run: 50
+rookie_card: false
+autograph: false
+serial_numbered: true
+release_date: "2026-05-13"
+image_url: "https://example.com/cards/2026-bowman/44-gold-pattern.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Bowman#Insertion_Ratios"

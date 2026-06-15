@@ -1,0 +1,22 @@
+number: "55"
+uuid: "ba70c5ea-37fe-4278-b38a-823894229f4c"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-bowman"
+subjects:
+  - name: "Cristopher Sánchez"
+    role: "Player"
+    team: "Philadelphia Phillies"
+card_name: "Cristopher Sánchez - Base - Gold Pattern"
+description: "Gold Pattern parallel of Base card featuring Cristopher Sánchez."
+series: "2026 Bowman"
+parallel: "Gold Pattern"
+print_run: 50
+rookie_card: false
+autograph: false
+serial_numbered: true
+release_date: "2026-05-13"
+image_url: "https://example.com/cards/2026-bowman/55-gold-pattern.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Bowman#Insertion_Ratios"

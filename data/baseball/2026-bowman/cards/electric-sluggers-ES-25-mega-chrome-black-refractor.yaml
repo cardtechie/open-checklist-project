@@ -1,0 +1,23 @@
+number: "ES-25"
+uuid: "6a1100ee-3d9b-49c2-9474-4c49e50d7b48"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-bowman"
+subjects:
+  - name: "Mike Trout"
+    role: "Player"
+    team: "Los Angeles Angels"
+subset: "Electric Sluggers"
+card_name: "Mike Trout - Electric Sluggers - Mega Chrome Black Refractor"
+description: "Mega Chrome Black Refractor parallel of Electric Sluggers card featuring Mike Trout."
+series: "2026 Bowman"
+parallel: "Mega Chrome Black Refractor"
+print_run: 10
+rookie_card: false
+autograph: false
+serial_numbered: true
+release_date: "2026-05-13"
+image_url: "https://example.com/cards/2026-bowman/electric-sluggers-ES-25-mega-chrome-black-refractor.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Bowman#Insertion_Ratios"

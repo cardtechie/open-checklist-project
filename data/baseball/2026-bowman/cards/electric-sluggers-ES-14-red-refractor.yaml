@@ -1,0 +1,23 @@
+number: "ES-14"
+uuid: "08c39e0b-9356-45c9-b3de-8a730c2acd77"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-bowman"
+subjects:
+  - name: "Cal Raleigh"
+    role: "Player"
+    team: "Seattle Mariners"
+subset: "Electric Sluggers"
+card_name: "Cal Raleigh - Electric Sluggers - Red Refractor"
+description: "Red Refractor parallel of Electric Sluggers card featuring Cal Raleigh."
+series: "2026 Bowman"
+parallel: "Red Refractor"
+print_run: 5
+rookie_card: false
+autograph: false
+serial_numbered: true
+release_date: "2026-05-13"
+image_url: "https://example.com/cards/2026-bowman/electric-sluggers-ES-14-red-refractor.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Bowman#Insertion_Ratios"

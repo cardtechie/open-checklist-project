@@ -1,0 +1,23 @@
+number: "BCP-139"
+uuid: "f1eb2483-a37b-491d-ad07-6c7e740f2db4"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-bowman"
+subjects:
+  - name: "Edgar Montero"
+    role: "Player"
+    team: "Athletics"
+subset: "Chrome Prospects"
+card_name: "Edgar Montero - Chrome Prospects - Yellow X-Fractor"
+description: "Yellow X-Fractor parallel of Chrome Prospects card featuring Edgar Montero."
+series: "2026 Bowman"
+parallel: "Yellow X-Fractor"
+print_run: 75
+rookie_card: false
+autograph: false
+serial_numbered: true
+release_date: "2026-05-13"
+image_url: "https://example.com/cards/2026-bowman/chrome-prospects-BCP-139-yellow-x-fractor.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Bowman#Insertion_Ratios"

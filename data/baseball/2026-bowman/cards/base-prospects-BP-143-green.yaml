@@ -1,0 +1,23 @@
+number: "BP-143"
+uuid: "980db3cb-6ca2-4c7d-a067-e7de5aaf3760"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-bowman"
+subjects:
+  - name: "Kaelen Culpepper"
+    role: "Player"
+    team: "Minnesota Twins"
+subset: "Base Prospects"
+card_name: "Kaelen Culpepper - Base Prospects - Green"
+description: "Green parallel of Base Prospects card featuring Kaelen Culpepper."
+series: "2026 Bowman"
+parallel: "Green"
+print_run: 99
+rookie_card: false
+autograph: false
+serial_numbered: true
+release_date: "2026-05-13"
+image_url: "https://example.com/cards/2026-bowman/base-prospects-BP-143-green.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Bowman#Insertion_Ratios"

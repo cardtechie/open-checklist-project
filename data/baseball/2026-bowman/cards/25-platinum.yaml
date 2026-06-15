@@ -1,0 +1,22 @@
+number: "25"
+uuid: "14ed0cda-f443-4fe6-8fd4-44f7019c3ac7"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-bowman"
+subjects:
+  - name: "Bobby Witt Jr."
+    role: "Player"
+    team: "Kansas City Royals"
+card_name: "Bobby Witt Jr. - Base - Platinum"
+description: "Platinum parallel of Base card featuring Bobby Witt Jr.."
+series: "2026 Bowman"
+parallel: "Platinum"
+print_run: 1
+rookie_card: false
+autograph: false
+serial_numbered: true
+release_date: "2026-05-13"
+image_url: "https://example.com/cards/2026-bowman/25-platinum.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Bowman#Insertion_Ratios"

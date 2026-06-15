@@ -1,0 +1,23 @@
+number: "BCP-142"
+uuid: "3d4ef000-83b3-4e6c-9d10-39ab66c2cf5b"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-bowman"
+subjects:
+  - name: "Brady Ebel"
+    role: "Player"
+    team: "Milwaukee Brewers"
+subset: "Chrome Prospects"
+card_name: "Brady Ebel - Chrome Prospects - Blue Shimmer Refractor"
+description: "Blue Shimmer Refractor parallel of Chrome Prospects card featuring Brady Ebel."
+series: "2026 Bowman"
+parallel: "Blue Shimmer Refractor"
+print_run: 150
+rookie_card: false
+autograph: false
+serial_numbered: true
+release_date: "2026-05-13"
+image_url: "https://example.com/cards/2026-bowman/chrome-prospects-BCP-142-blue-shimmer-refractor.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Bowman#Insertion_Ratios"

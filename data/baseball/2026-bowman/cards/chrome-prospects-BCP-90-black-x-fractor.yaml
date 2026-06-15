@@ -1,0 +1,23 @@
+number: "BCP-90"
+uuid: "3e961490-2743-412a-98da-e09714e4ab79"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-bowman"
+subjects:
+  - name: "Andrew Tess"
+    role: "Player"
+    team: "Baltimore Orioles"
+subset: "Chrome Prospects"
+card_name: "Andrew Tess - Chrome Prospects - Black X-Fractor"
+description: "Black X-Fractor parallel of Chrome Prospects card featuring Andrew Tess."
+series: "2026 Bowman"
+parallel: "Black X-Fractor"
+print_run: 10
+rookie_card: false
+autograph: false
+serial_numbered: true
+release_date: "2026-05-13"
+image_url: "https://example.com/cards/2026-bowman/chrome-prospects-BCP-90-black-x-fractor.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Bowman#Insertion_Ratios"

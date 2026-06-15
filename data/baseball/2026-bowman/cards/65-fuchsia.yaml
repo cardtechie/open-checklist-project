@@ -1,0 +1,22 @@
+number: "65"
+uuid: "a47b4bdd-545e-4b1b-b252-55be66e62862"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-bowman"
+subjects:
+  - name: "Jonah Tong"
+    role: "Player"
+    team: "New York Mets"
+card_name: "Jonah Tong - Base - Fuchsia"
+description: "Fuchsia parallel of Base card featuring Jonah Tong."
+series: "2026 Bowman"
+parallel: "Fuchsia"
+print_run: 299
+rookie_card: true
+autograph: false
+serial_numbered: true
+release_date: "2026-05-13"
+image_url: "https://example.com/cards/2026-bowman/65-fuchsia.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Bowman#Insertion_Ratios"

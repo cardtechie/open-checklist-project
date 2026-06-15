@@ -1,0 +1,22 @@
+number: "71"
+uuid: "f6727757-9436-401e-a938-acc244e27f18"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-bowman"
+subjects:
+  - name: "Trea Turner"
+    role: "Player"
+    team: "Philadelphia Phillies"
+card_name: "Trea Turner - Base - Orange"
+description: "Orange parallel of Base card featuring Trea Turner."
+series: "2026 Bowman"
+parallel: "Orange"
+print_run: 25
+rookie_card: false
+autograph: false
+serial_numbered: true
+release_date: "2026-05-13"
+image_url: "https://example.com/cards/2026-bowman/71-orange.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Bowman#Insertion_Ratios"

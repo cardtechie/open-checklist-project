@@ -1,0 +1,23 @@
+number: "BCP-129"
+uuid: "6cc71518-175e-41db-90ca-ecbbb94ca29c"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-bowman"
+subjects:
+  - name: "Seaver King"
+    role: "Player"
+    team: "Washington Nationals"
+subset: "Chrome Prospects"
+card_name: "Seaver King - Chrome Prospects - Yellow X-Fractor"
+description: "Yellow X-Fractor parallel of Chrome Prospects card featuring Seaver King."
+series: "2026 Bowman"
+parallel: "Yellow X-Fractor"
+print_run: 75
+rookie_card: false
+autograph: false
+serial_numbered: true
+release_date: "2026-05-13"
+image_url: "https://example.com/cards/2026-bowman/chrome-prospects-BCP-129-yellow-x-fractor.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Bowman#Insertion_Ratios"

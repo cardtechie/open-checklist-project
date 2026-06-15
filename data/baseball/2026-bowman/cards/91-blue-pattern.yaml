@@ -1,0 +1,22 @@
+number: "91"
+uuid: "730627d9-4e41-4ef1-a5c3-842e9b9e2d4c"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-bowman"
+subjects:
+  - name: "Yanquiel Fernández"
+    role: "Player"
+    team: "Colorado Rockies"
+card_name: "Yanquiel Fernández - Base - Blue Pattern"
+description: "Blue Pattern parallel of Base card featuring Yanquiel Fernández."
+series: "2026 Bowman"
+parallel: "Blue Pattern"
+print_run: 150
+rookie_card: true
+autograph: false
+serial_numbered: true
+release_date: "2026-05-13"
+image_url: "https://example.com/cards/2026-bowman/91-blue-pattern.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Bowman#Insertion_Ratios"

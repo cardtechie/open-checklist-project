@@ -1,0 +1,23 @@
+number: "BP-6"
+uuid: "1cd119b4-ffca-4d54-b4b5-15a76bca74ed"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-bowman"
+subjects:
+  - name: "Jared Jones"
+    role: "Player"
+    team: "Pittsburgh Pirates"
+subset: "Base Prospects"
+card_name: "Jared Jones - Base Prospects - Gold Pattern"
+description: "Gold Pattern parallel of Base Prospects card featuring Jared Jones."
+series: "2026 Bowman"
+parallel: "Gold Pattern"
+print_run: 50
+rookie_card: false
+autograph: false
+serial_numbered: true
+release_date: "2026-05-13"
+image_url: "https://example.com/cards/2026-bowman/base-prospects-BP-6-gold-pattern.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Bowman#Insertion_Ratios"

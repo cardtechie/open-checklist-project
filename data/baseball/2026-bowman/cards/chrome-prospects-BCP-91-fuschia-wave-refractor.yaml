@@ -1,0 +1,23 @@
+number: "BCP-91"
+uuid: "30a49e70-47d7-40f7-a75e-e378ca1528f6"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-bowman"
+subjects:
+  - name: "Elian Peña"
+    role: "Player"
+    team: "New York Mets"
+subset: "Chrome Prospects"
+card_name: "Elian Peña - Chrome Prospects - Fuschia Wave Refractor"
+description: "Fuschia Wave Refractor parallel of Chrome Prospects card featuring Elian Peña."
+series: "2026 Bowman"
+parallel: "Fuschia Wave Refractor"
+print_run: 199
+rookie_card: false
+autograph: false
+serial_numbered: true
+release_date: "2026-05-13"
+image_url: "https://example.com/cards/2026-bowman/chrome-prospects-BCP-91-fuschia-wave-refractor.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Bowman#Insertion_Ratios"

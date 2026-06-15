@@ -1,0 +1,23 @@
+number: "UTRA-3"
+uuid: "3552b7b6-42f0-448c-aaed-c7d58056c9c6"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-bowman"
+subjects:
+  - name: "Cam Schlittler"
+    role: "Player"
+    team: "New York Yankees"
+subset: "Under The Radar Autographs"
+card_name: "Cam Schlittler - Under The Radar Autographs - SuperFractor"
+description: "SuperFractor parallel of Autographed Under The Radar Autographs card featuring Cam Schlittler."
+series: "2026 Bowman"
+parallel: "SuperFractor"
+print_run: 1
+rookie_card: false
+autograph: true
+serial_numbered: true
+release_date: "2026-05-13"
+image_url: "https://example.com/cards/2026-bowman/under-the-radar-autographs-UTRA-3-superfractor.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Bowman#Insertion_Ratios"

@@ -1,0 +1,22 @@
+number: "20"
+uuid: "85d4ed50-d774-43f6-a2e5-7e063a1953b5"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-bowman"
+subjects:
+  - name: "Kyle Schwarber"
+    role: "Player"
+    team: "Philadelphia Phillies"
+card_name: "Kyle Schwarber - Base - Purple Pattern"
+description: "Purple Pattern parallel of Base card featuring Kyle Schwarber."
+series: "2026 Bowman"
+parallel: "Purple Pattern"
+print_run: 250
+rookie_card: false
+autograph: false
+serial_numbered: true
+release_date: "2026-05-13"
+image_url: "https://example.com/cards/2026-bowman/20-purple-pattern.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Bowman#Insertion_Ratios"

@@ -1,0 +1,23 @@
+number: "ES-20"
+uuid: "18b2c6c7-03da-46ed-a491-73a2f96b72f7"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-bowman"
+subjects:
+  - name: "Jesús Made"
+    role: "Player"
+    team: "Milwaukee Brewers"
+subset: "Electric Sluggers"
+card_name: "Jesús Made - Electric Sluggers - SuperFractor"
+description: "SuperFractor parallel of Electric Sluggers card featuring Jesús Made."
+series: "2026 Bowman"
+parallel: "SuperFractor"
+print_run: 1
+rookie_card: false
+autograph: false
+serial_numbered: true
+release_date: "2026-05-13"
+image_url: "https://example.com/cards/2026-bowman/electric-sluggers-ES-20-superfractor.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Bowman#Insertion_Ratios"

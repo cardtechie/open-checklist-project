@@ -1,0 +1,22 @@
+number: "3"
+uuid: "e21681b3-57d9-4f72-8b28-515656e15142"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-bowman"
+subjects:
+  - name: "Chase Burns"
+    role: "Player"
+    team: "Cincinnati Reds"
+card_name: "Chase Burns - Base - Orange"
+description: "Orange parallel of Base card featuring Chase Burns."
+series: "2026 Bowman"
+parallel: "Orange"
+print_run: 25
+rookie_card: true
+autograph: false
+serial_numbered: true
+release_date: "2026-05-13"
+image_url: "https://example.com/cards/2026-bowman/3-orange.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Bowman#Insertion_Ratios"

@@ -1,0 +1,23 @@
+number: "BCP-5"
+uuid: "2933ec74-9810-4753-8bcb-6079f8d29f48"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-bowman"
+subjects:
+  - name: "Tyson Lewis"
+    role: "Player"
+    team: "Cincinnati Reds"
+subset: "Chrome Prospects"
+card_name: "Tyson Lewis - Chrome Prospects - Lava Refractor"
+description: "Lava Refractor parallel of Chrome Prospects card featuring Tyson Lewis."
+series: "2026 Bowman"
+parallel: "Lava Refractor"
+print_run: 399
+rookie_card: false
+autograph: false
+serial_numbered: true
+release_date: "2026-05-13"
+image_url: "https://example.com/cards/2026-bowman/chrome-prospects-BCP-5-lava-refractor.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Bowman#Insertion_Ratios"

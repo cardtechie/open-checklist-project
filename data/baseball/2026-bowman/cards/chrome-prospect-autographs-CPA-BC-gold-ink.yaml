@@ -1,0 +1,23 @@
+number: "CPA-BC"
+uuid: "c4a01029-bea8-4f55-b543-f9192fa43e5d"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-bowman"
+subjects:
+  - name: "Billy Carlson"
+    role: "Player"
+    team: "Chicago White Sox"
+subset: "Chrome Prospect Autographs"
+card_name: "Billy Carlson - Chrome Prospect Autographs - Gold Ink"
+description: "Gold Ink parallel of Autographed Chrome Prospect Autographs card featuring Billy Carlson."
+series: "2026 Bowman"
+parallel: "Gold Ink"
+print_run: 15
+rookie_card: false
+autograph: true
+serial_numbered: true
+release_date: "2026-05-13"
+image_url: "https://example.com/cards/2026-bowman/chrome-prospect-autographs-CPA-BC-gold-ink.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Bowman#Insertion_Ratios"

@@ -1,0 +1,23 @@
+number: "BP-99"
+uuid: "ed499337-b5f5-4389-8852-417e8265b241"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-bowman"
+subjects:
+  - name: "Bryce Rainer"
+    role: "Player"
+    team: "Detroit Tigers"
+subset: "Base Prospects"
+card_name: "Bryce Rainer - Base Prospects - Green Pattern"
+description: "Green Pattern parallel of Base Prospects card featuring Bryce Rainer."
+series: "2026 Bowman"
+parallel: "Green Pattern"
+print_run: 75
+rookie_card: false
+autograph: false
+serial_numbered: true
+release_date: "2026-05-13"
+image_url: "https://example.com/cards/2026-bowman/base-prospects-BP-99-green-pattern.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Bowman#Insertion_Ratios"

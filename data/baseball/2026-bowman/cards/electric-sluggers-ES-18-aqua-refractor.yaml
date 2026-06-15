@@ -1,0 +1,23 @@
+number: "ES-18"
+uuid: "5e922587-7a7e-44c5-b783-8e470e0eb7cd"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-bowman"
+subjects:
+  - name: "Shohei Ohtani"
+    role: "Player"
+    team: "Los Angeles Dodgers"
+subset: "Electric Sluggers"
+card_name: "Shohei Ohtani - Electric Sluggers - Aqua Refractor"
+description: "Aqua Refractor parallel of Electric Sluggers card featuring Shohei Ohtani."
+series: "2026 Bowman"
+parallel: "Aqua Refractor"
+print_run: 125
+rookie_card: false
+autograph: false
+serial_numbered: true
+release_date: "2026-05-13"
+image_url: "https://example.com/cards/2026-bowman/electric-sluggers-ES-18-aqua-refractor.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Bowman#Insertion_Ratios"

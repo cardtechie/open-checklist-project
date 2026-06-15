@@ -1,0 +1,23 @@
+number: "BST-8"
+uuid: "977acc99-b279-455e-ac0a-6550d47f53b5"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-bowman"
+subjects:
+  - name: "Nolan McLean"
+    role: "Player"
+    team: "New York Mets"
+subset: "Bowman Sterling"
+card_name: "Nolan McLean - Bowman Sterling - Mini-Diamond Refractor"
+description: "Mini-Diamond Refractor parallel of Bowman Sterling card featuring Nolan McLean."
+series: "2026 Bowman"
+parallel: "Mini-Diamond Refractor"
+print_run: 150
+rookie_card: false
+autograph: false
+serial_numbered: true
+release_date: "2026-05-13"
+image_url: "https://example.com/cards/2026-bowman/bowman-sterling-BST-8-mini-diamond-refractor.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Bowman#Insertion_Ratios"

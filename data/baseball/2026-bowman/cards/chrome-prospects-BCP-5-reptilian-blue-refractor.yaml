@@ -1,0 +1,23 @@
+number: "BCP-5"
+uuid: "4893027a-622a-4765-98a9-0f79102f26a7"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-bowman"
+subjects:
+  - name: "Tyson Lewis"
+    role: "Player"
+    team: "Cincinnati Reds"
+subset: "Chrome Prospects"
+card_name: "Tyson Lewis - Chrome Prospects - Reptilian Blue Refractor"
+description: "Reptilian Blue Refractor parallel of Chrome Prospects card featuring Tyson Lewis."
+series: "2026 Bowman"
+parallel: "Reptilian Blue Refractor"
+print_run: 150
+rookie_card: false
+autograph: false
+serial_numbered: true
+release_date: "2026-05-13"
+image_url: "https://example.com/cards/2026-bowman/chrome-prospects-BCP-5-reptilian-blue-refractor.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Bowman#Insertion_Ratios"

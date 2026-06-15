@@ -1,0 +1,23 @@
+number: "BP-87"
+uuid: "095e63e1-eb6f-4a3f-95a2-924bbc36eb1f"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-bowman"
+subjects:
+  - name: "Jean Carlos Sio"
+    role: "Player"
+    team: "San Francisco Giants"
+subset: "Base Prospects"
+card_name: "Jean Carlos Sio - Base Prospects - Red"
+description: "Red parallel of Base Prospects card featuring Jean Carlos Sio."
+series: "2026 Bowman"
+parallel: "Red"
+print_run: 5
+rookie_card: false
+autograph: false
+serial_numbered: true
+release_date: "2026-05-13"
+image_url: "https://example.com/cards/2026-bowman/base-prospects-BP-87-red.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Bowman#Insertion_Ratios"

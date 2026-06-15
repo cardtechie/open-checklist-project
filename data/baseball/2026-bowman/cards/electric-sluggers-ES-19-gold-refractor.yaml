@@ -1,0 +1,23 @@
+number: "ES-19"
+uuid: "6062eaf2-f167-4c95-81c3-92811f0df875"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-bowman"
+subjects:
+  - name: "Bobby Witt Jr."
+    role: "Player"
+    team: "Kansas City Royals"
+subset: "Electric Sluggers"
+card_name: "Bobby Witt Jr. - Electric Sluggers - Gold Refractor"
+description: "Gold Refractor parallel of Electric Sluggers card featuring Bobby Witt Jr.."
+series: "2026 Bowman"
+parallel: "Gold Refractor"
+print_run: 50
+rookie_card: false
+autograph: false
+serial_numbered: true
+release_date: "2026-05-13"
+image_url: "https://example.com/cards/2026-bowman/electric-sluggers-ES-19-gold-refractor.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Bowman#Insertion_Ratios"

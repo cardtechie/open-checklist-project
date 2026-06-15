@@ -1,0 +1,23 @@
+number: "ES-7"
+uuid: "8b7ac4fd-45e7-4333-ab17-cec9b0495430"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-bowman"
+subjects:
+  - name: "Juan Soto"
+    role: "Player"
+    team: "New York Mets"
+subset: "Electric Sluggers"
+card_name: "Juan Soto - Electric Sluggers - Mega Chrome Orange Refractor"
+description: "Mega Chrome Orange Refractor parallel of Electric Sluggers card featuring Juan Soto."
+series: "2026 Bowman"
+parallel: "Mega Chrome Orange Refractor"
+print_run: 25
+rookie_card: false
+autograph: false
+serial_numbered: true
+release_date: "2026-05-13"
+image_url: "https://example.com/cards/2026-bowman/electric-sluggers-ES-7-mega-chrome-orange-refractor.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Bowman#Insertion_Ratios"

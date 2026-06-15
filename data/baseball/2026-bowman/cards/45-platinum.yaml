@@ -1,0 +1,22 @@
+number: "45"
+uuid: "381cd515-bd6a-41b3-8ad6-5584d7e1a223"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-bowman"
+subjects:
+  - name: "Connelly Early"
+    role: "Player"
+    team: "Boston Red Sox"
+card_name: "Connelly Early - Base - Platinum"
+description: "Platinum parallel of Base card featuring Connelly Early."
+series: "2026 Bowman"
+parallel: "Platinum"
+print_run: 1
+rookie_card: true
+autograph: false
+serial_numbered: true
+release_date: "2026-05-13"
+image_url: "https://example.com/cards/2026-bowman/45-platinum.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Bowman#Insertion_Ratios"

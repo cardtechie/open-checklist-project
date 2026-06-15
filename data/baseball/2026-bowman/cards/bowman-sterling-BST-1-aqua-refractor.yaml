@@ -1,0 +1,23 @@
+number: "BST-1"
+uuid: "bc6669e2-e4f4-402f-afc4-c78e633a84ed"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-bowman"
+subjects:
+  - name: "Jackson Chourio"
+    role: "Player"
+    team: "Milwaukee Brewers"
+subset: "Bowman Sterling"
+card_name: "Jackson Chourio - Bowman Sterling - Aqua Refractor"
+description: "Aqua Refractor parallel of Bowman Sterling card featuring Jackson Chourio."
+series: "2026 Bowman"
+parallel: "Aqua Refractor"
+print_run: 125
+rookie_card: false
+autograph: false
+serial_numbered: true
+release_date: "2026-05-13"
+image_url: "https://example.com/cards/2026-bowman/bowman-sterling-BST-1-aqua-refractor.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Bowman#Insertion_Ratios"

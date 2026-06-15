@@ -1,0 +1,23 @@
+number: "BCP-64"
+uuid: "f0217d0f-ce13-4d5b-a0c3-4bf3be4148b6"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-bowman"
+subjects:
+  - name: "George Lombard Jr."
+    role: "Player"
+    team: "New York Yankees"
+subset: "Chrome Prospects"
+card_name: "George Lombard Jr. - Chrome Prospects - SuperFractor"
+description: "SuperFractor parallel of Chrome Prospects card featuring George Lombard Jr.."
+series: "2026 Bowman"
+parallel: "SuperFractor"
+print_run: 1
+rookie_card: false
+autograph: false
+serial_numbered: true
+release_date: "2026-05-13"
+image_url: "https://example.com/cards/2026-bowman/chrome-prospects-BCP-64-superfractor.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Bowman#Insertion_Ratios"

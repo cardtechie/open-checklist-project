@@ -1,0 +1,17 @@
+number: "26"
+uuid: "cab54eb5-b705-4074-811e-ed11a93a3b2f"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-bowman"
+subjects:
+  - name: "Payton Tolle"
+    role: "Player"
+    team: "Boston Red Sox"
+card_name: "Payton Tolle - Base"
+description: "Base card featuring Payton Tolle."
+series: "2026 Bowman"
+rookie_card: true
+autograph: false
+serial_numbered: false
+release_date: "2026-05-13"
+image_url: "https://example.com/cards/2026-bowman/26.jpg"

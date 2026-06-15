@@ -1,0 +1,22 @@
+number: "96"
+uuid: "d968e0b6-62d4-434e-8796-d4ba647d19c0"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-bowman"
+subjects:
+  - name: "Jacob Wilson"
+    role: "Player"
+    team: "Athletics"
+card_name: "Jacob Wilson - Base - Black Pattern"
+description: "Black Pattern parallel of Base card featuring Jacob Wilson."
+series: "2026 Bowman"
+parallel: "Black Pattern"
+print_run: 10
+rookie_card: false
+autograph: false
+serial_numbered: true
+release_date: "2026-05-13"
+image_url: "https://example.com/cards/2026-bowman/96-black-pattern.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Bowman#Insertion_Ratios"

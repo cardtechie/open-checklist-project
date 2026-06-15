@@ -1,0 +1,23 @@
+number: "PC-15"
+uuid: "f1d5609f-2137-4a43-8c50-1fb7b621b320"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-bowman"
+subjects:
+  - name: "Kevin McGonigle"
+    role: "Player"
+    team: "Detroit Tigers"
+subset: "Power Chords"
+card_name: "Kevin McGonigle - Power Chords - SuperFractor"
+description: "SuperFractor parallel of Power Chords card featuring Kevin McGonigle."
+series: "2026 Bowman"
+parallel: "SuperFractor"
+print_run: 1
+rookie_card: false
+autograph: false
+serial_numbered: true
+release_date: "2026-05-13"
+image_url: "https://example.com/cards/2026-bowman/power-chords-PC-15-superfractor.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Bowman#Insertion_Ratios"

@@ -1,0 +1,22 @@
+number: "BCP-15"
+uuid: "46d33fc9-7e49-4c76-b137-a036b3a2ae12"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-bowman"
+subjects:
+  - name: "Gage Jump"
+    role: "Player"
+    team: "Athletics"
+subset: "Chrome Prospects"
+card_name: "Gage Jump - Chrome Prospects - Sunflower Seeds Refractor"
+description: "Sunflower Seeds Refractor parallel of Chrome Prospects card featuring Gage Jump."
+series: "2026 Bowman"
+parallel: "Sunflower Seeds Refractor"
+rookie_card: false
+autograph: false
+serial_numbered: false
+release_date: "2026-05-13"
+image_url: "https://example.com/cards/2026-bowman/chrome-prospects-BCP-15-sunflower-seeds-refractor.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Bowman#Insertion_Ratios"

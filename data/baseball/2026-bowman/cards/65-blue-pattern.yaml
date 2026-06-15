@@ -1,0 +1,22 @@
+number: "65"
+uuid: "d4f82092-b1c8-4ac5-a48a-6e48718c7abe"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-bowman"
+subjects:
+  - name: "Jonah Tong"
+    role: "Player"
+    team: "New York Mets"
+card_name: "Jonah Tong - Base - Blue Pattern"
+description: "Blue Pattern parallel of Base card featuring Jonah Tong."
+series: "2026 Bowman"
+parallel: "Blue Pattern"
+print_run: 150
+rookie_card: true
+autograph: false
+serial_numbered: true
+release_date: "2026-05-13"
+image_url: "https://example.com/cards/2026-bowman/65-blue-pattern.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Bowman#Insertion_Ratios"

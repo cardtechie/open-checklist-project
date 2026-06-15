@@ -1,0 +1,22 @@
+number: "6"
+uuid: "eda1cb3b-b17f-4bc1-b3da-800e8709246b"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-bowman"
+subjects:
+  - name: "Sal Stewart"
+    role: "Player"
+    team: "Cincinnati Reds"
+card_name: "Sal Stewart - Base - Neon Green"
+description: "Neon Green parallel of Base card featuring Sal Stewart."
+series: "2026 Bowman"
+parallel: "Neon Green"
+print_run: 399
+rookie_card: true
+autograph: false
+serial_numbered: true
+release_date: "2026-05-13"
+image_url: "https://example.com/cards/2026-bowman/6-neon-green.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Bowman#Insertion_Ratios"

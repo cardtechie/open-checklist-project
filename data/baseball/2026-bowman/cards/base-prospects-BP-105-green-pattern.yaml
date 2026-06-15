@@ -1,0 +1,23 @@
+number: "BP-105"
+uuid: "2dd6bad1-3bac-4a27-85b2-b93d07ad0043"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-bowman"
+subjects:
+  - name: "Kade Snell"
+    role: "Player"
+    team: "Chicago Cubs"
+subset: "Base Prospects"
+card_name: "Kade Snell - Base Prospects - Green Pattern"
+description: "Green Pattern parallel of Base Prospects card featuring Kade Snell."
+series: "2026 Bowman"
+parallel: "Green Pattern"
+print_run: 75
+rookie_card: false
+autograph: false
+serial_numbered: true
+release_date: "2026-05-13"
+image_url: "https://example.com/cards/2026-bowman/base-prospects-BP-105-green-pattern.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Bowman#Insertion_Ratios"

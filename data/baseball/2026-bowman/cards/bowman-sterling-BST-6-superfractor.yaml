@@ -1,0 +1,23 @@
+number: "BST-6"
+uuid: "baa62f82-1147-4398-a653-ee2241989e7b"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-bowman"
+subjects:
+  - name: "Shohei Ohtani"
+    role: "Player"
+    team: "Los Angeles Dodgers"
+subset: "Bowman Sterling"
+card_name: "Shohei Ohtani - Bowman Sterling - SuperFractor"
+description: "SuperFractor parallel of Bowman Sterling card featuring Shohei Ohtani."
+series: "2026 Bowman"
+parallel: "SuperFractor"
+print_run: 1
+rookie_card: false
+autograph: false
+serial_numbered: true
+release_date: "2026-05-13"
+image_url: "https://example.com/cards/2026-bowman/bowman-sterling-BST-6-superfractor.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Bowman#Insertion_Ratios"

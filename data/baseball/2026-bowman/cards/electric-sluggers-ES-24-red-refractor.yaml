@@ -1,0 +1,23 @@
+number: "ES-24"
+uuid: "99004366-db75-4c72-8472-ba4d3465735c"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-bowman"
+subjects:
+  - name: "Pete Crow-Armstrong"
+    role: "Player"
+    team: "Chicago Cubs"
+subset: "Electric Sluggers"
+card_name: "Pete Crow-Armstrong - Electric Sluggers - Red Refractor"
+description: "Red Refractor parallel of Electric Sluggers card featuring Pete Crow-Armstrong."
+series: "2026 Bowman"
+parallel: "Red Refractor"
+print_run: 5
+rookie_card: false
+autograph: false
+serial_numbered: true
+release_date: "2026-05-13"
+image_url: "https://example.com/cards/2026-bowman/electric-sluggers-ES-24-red-refractor.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Bowman#Insertion_Ratios"

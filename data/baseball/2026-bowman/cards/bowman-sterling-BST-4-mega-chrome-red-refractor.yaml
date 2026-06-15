@@ -1,0 +1,23 @@
+number: "BST-4"
+uuid: "f6b57507-77b6-4587-9801-583c601cf721"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-bowman"
+subjects:
+  - name: "Aaron Judge"
+    role: "Player"
+    team: "New York Yankees"
+subset: "Bowman Sterling"
+card_name: "Aaron Judge - Bowman Sterling - Mega Chrome Red Refractor"
+description: "Mega Chrome Red Refractor parallel of Bowman Sterling card featuring Aaron Judge."
+series: "2026 Bowman"
+parallel: "Mega Chrome Red Refractor"
+print_run: 5
+rookie_card: false
+autograph: false
+serial_numbered: true
+release_date: "2026-05-13"
+image_url: "https://example.com/cards/2026-bowman/bowman-sterling-BST-4-mega-chrome-red-refractor.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Bowman#Insertion_Ratios"

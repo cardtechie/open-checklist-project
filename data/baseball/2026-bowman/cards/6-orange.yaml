@@ -1,0 +1,22 @@
+number: "6"
+uuid: "73d91d21-5765-48e9-ad82-f8f1b6bed579"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-bowman"
+subjects:
+  - name: "Sal Stewart"
+    role: "Player"
+    team: "Cincinnati Reds"
+card_name: "Sal Stewart - Base - Orange"
+description: "Orange parallel of Base card featuring Sal Stewart."
+series: "2026 Bowman"
+parallel: "Orange"
+print_run: 25
+rookie_card: true
+autograph: false
+serial_numbered: true
+release_date: "2026-05-13"
+image_url: "https://example.com/cards/2026-bowman/6-orange.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Bowman#Insertion_Ratios"

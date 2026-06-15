@@ -1,0 +1,23 @@
+number: "BST-2"
+uuid: "44f6b7e9-6059-4d75-b347-35a831e4c4ee"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-bowman"
+subjects:
+  - name: "Freddie Freeman"
+    role: "Player"
+    team: "Los Angeles Dodgers"
+subset: "Bowman Sterling"
+card_name: "Freddie Freeman - Bowman Sterling - Gold Refractor"
+description: "Gold Refractor parallel of Bowman Sterling card featuring Freddie Freeman."
+series: "2026 Bowman"
+parallel: "Gold Refractor"
+print_run: 50
+rookie_card: false
+autograph: false
+serial_numbered: true
+release_date: "2026-05-13"
+image_url: "https://example.com/cards/2026-bowman/bowman-sterling-BST-2-gold-refractor.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Bowman#Insertion_Ratios"

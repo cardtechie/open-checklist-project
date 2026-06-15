@@ -1,0 +1,23 @@
+number: "BCP-128"
+uuid: "79209dbc-0ae0-4da4-882e-6cc5e7836b58"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-bowman"
+subjects:
+  - name: "Hector Ramos"
+    role: "Player"
+    team: "Boston Red Sox"
+subset: "Chrome Prospects"
+card_name: "Hector Ramos - Chrome Prospects - Fuschia Wave Refractor"
+description: "Fuschia Wave Refractor parallel of Chrome Prospects card featuring Hector Ramos."
+series: "2026 Bowman"
+parallel: "Fuschia Wave Refractor"
+print_run: 199
+rookie_card: false
+autograph: false
+serial_numbered: true
+release_date: "2026-05-13"
+image_url: "https://example.com/cards/2026-bowman/chrome-prospects-BCP-128-fuschia-wave-refractor.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Bowman#Insertion_Ratios"

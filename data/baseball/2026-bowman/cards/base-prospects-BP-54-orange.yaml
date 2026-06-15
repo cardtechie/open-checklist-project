@@ -1,0 +1,23 @@
+number: "BP-54"
+uuid: "9d67b9ca-66d5-4528-8d54-a7b0707012ca"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-bowman"
+subjects:
+  - name: "Rainiel Rodriguez"
+    role: "Player"
+    team: "St. Louis Cardinals"
+subset: "Base Prospects"
+card_name: "Rainiel Rodriguez - Base Prospects - Orange"
+description: "Orange parallel of Base Prospects card featuring Rainiel Rodriguez."
+series: "2026 Bowman"
+parallel: "Orange"
+print_run: 25
+rookie_card: false
+autograph: false
+serial_numbered: true
+release_date: "2026-05-13"
+image_url: "https://example.com/cards/2026-bowman/base-prospects-BP-54-orange.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Bowman#Insertion_Ratios"

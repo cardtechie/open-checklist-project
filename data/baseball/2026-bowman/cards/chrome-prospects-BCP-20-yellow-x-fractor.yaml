@@ -1,0 +1,23 @@
+number: "BCP-20"
+uuid: "08c4c6a5-8df8-4455-9efb-d1a09f5143a7"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-bowman"
+subjects:
+  - name: "Theo Gillen"
+    role: "Player"
+    team: "Tampa Bay Rays"
+subset: "Chrome Prospects"
+card_name: "Theo Gillen - Chrome Prospects - Yellow X-Fractor"
+description: "Yellow X-Fractor parallel of Chrome Prospects card featuring Theo Gillen."
+series: "2026 Bowman"
+parallel: "Yellow X-Fractor"
+print_run: 75
+rookie_card: false
+autograph: false
+serial_numbered: true
+release_date: "2026-05-13"
+image_url: "https://example.com/cards/2026-bowman/chrome-prospects-BCP-20-yellow-x-fractor.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Bowman#Insertion_Ratios"

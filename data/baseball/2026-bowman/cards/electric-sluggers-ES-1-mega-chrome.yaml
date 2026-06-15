@@ -1,0 +1,22 @@
+number: "ES-1"
+uuid: "8664b1c7-c2cc-48ab-bffc-7808dc65e6d9"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-bowman"
+subjects:
+  - name: "Francisco Lindor"
+    role: "Player"
+    team: "New York Mets"
+subset: "Electric Sluggers"
+card_name: "Francisco Lindor - Electric Sluggers - Mega Chrome"
+description: "Mega Chrome parallel of Electric Sluggers card featuring Francisco Lindor."
+series: "2026 Bowman"
+parallel: "Mega Chrome"
+rookie_card: false
+autograph: false
+serial_numbered: false
+release_date: "2026-05-13"
+image_url: "https://example.com/cards/2026-bowman/electric-sluggers-ES-1-mega-chrome.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Bowman#Insertion_Ratios"

@@ -1,0 +1,22 @@
+number: "9"
+uuid: "018cf27a-ec2b-4c2e-b452-31121adfcd00"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-bowman"
+subjects:
+  - name: "Munetaka Murakami"
+    role: "Player"
+    team: "Chicago White Sox"
+card_name: "Munetaka Murakami - Base - Green"
+description: "Green parallel of Base card featuring Munetaka Murakami."
+series: "2026 Bowman"
+parallel: "Green"
+print_run: 99
+rookie_card: true
+autograph: false
+serial_numbered: true
+release_date: "2026-05-13"
+image_url: "https://example.com/cards/2026-bowman/9-green.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Bowman#Insertion_Ratios"

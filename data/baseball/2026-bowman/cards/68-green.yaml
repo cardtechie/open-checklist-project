@@ -1,0 +1,22 @@
+number: "68"
+uuid: "85e9662d-bdb0-427d-a0e8-1cc2f16ebf69"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-bowman"
+subjects:
+  - name: "Colson Montgomery"
+    role: "Player"
+    team: "Chicago White Sox"
+card_name: "Colson Montgomery - Base - Green"
+description: "Green parallel of Base card featuring Colson Montgomery."
+series: "2026 Bowman"
+parallel: "Green"
+print_run: 99
+rookie_card: true
+autograph: false
+serial_numbered: true
+release_date: "2026-05-13"
+image_url: "https://example.com/cards/2026-bowman/68-green.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Bowman#Insertion_Ratios"

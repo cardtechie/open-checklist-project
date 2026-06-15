@@ -1,0 +1,22 @@
+number: "43"
+uuid: "10052c67-3765-426f-bce3-cc0acf6e70b5"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-bowman"
+subjects:
+  - name: "Jackson Holliday"
+    role: "Player"
+    team: "Baltimore Orioles"
+card_name: "Jackson Holliday - Base - Gold"
+description: "Gold parallel of Base card featuring Jackson Holliday."
+series: "2026 Bowman"
+parallel: "Gold"
+print_run: 50
+rookie_card: false
+autograph: false
+serial_numbered: true
+release_date: "2026-05-13"
+image_url: "https://example.com/cards/2026-bowman/43-gold.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Bowman#Insertion_Ratios"

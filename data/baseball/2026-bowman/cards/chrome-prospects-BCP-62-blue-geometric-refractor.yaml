@@ -1,0 +1,23 @@
+number: "BCP-62"
+uuid: "1f008f82-bcd4-4067-910d-7b85609effe3"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-bowman"
+subjects:
+  - name: "Josh Owens"
+    role: "Player"
+    team: "Texas Rangers"
+subset: "Chrome Prospects"
+card_name: "Josh Owens - Chrome Prospects - Blue Geometric Refractor"
+description: "Blue Geometric Refractor parallel of Chrome Prospects card featuring Josh Owens."
+series: "2026 Bowman"
+parallel: "Blue Geometric Refractor"
+print_run: 150
+rookie_card: false
+autograph: false
+serial_numbered: true
+release_date: "2026-05-13"
+image_url: "https://example.com/cards/2026-bowman/chrome-prospects-BCP-62-blue-geometric-refractor.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Bowman#Insertion_Ratios"

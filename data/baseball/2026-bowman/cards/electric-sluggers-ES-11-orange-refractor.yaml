@@ -1,0 +1,23 @@
+number: "ES-11"
+uuid: "f3316128-4f32-4cfe-a3ad-1b6b17343ae2"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-bowman"
+subjects:
+  - name: "Bryce Eldridge"
+    role: "Player"
+    team: "San Francisco Giants"
+subset: "Electric Sluggers"
+card_name: "Bryce Eldridge - Electric Sluggers - Orange Refractor"
+description: "Orange Refractor parallel of Electric Sluggers card featuring Bryce Eldridge."
+series: "2026 Bowman"
+parallel: "Orange Refractor"
+print_run: 25
+rookie_card: false
+autograph: false
+serial_numbered: true
+release_date: "2026-05-13"
+image_url: "https://example.com/cards/2026-bowman/electric-sluggers-ES-11-orange-refractor.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Bowman#Insertion_Ratios"

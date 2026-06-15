@@ -1,0 +1,22 @@
+number: "5"
+uuid: "6d02ee09-a93f-42c1-a95c-dd6d5f68c414"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-bowman"
+subjects:
+  - name: "Julio Rodríguez"
+    role: "Player"
+    team: "Seattle Mariners"
+card_name: "Julio Rodríguez - Base - Neon Green"
+description: "Neon Green parallel of Base card featuring Julio Rodríguez."
+series: "2026 Bowman"
+parallel: "Neon Green"
+print_run: 399
+rookie_card: false
+autograph: false
+serial_numbered: true
+release_date: "2026-05-13"
+image_url: "https://example.com/cards/2026-bowman/5-neon-green.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Bowman#Insertion_Ratios"

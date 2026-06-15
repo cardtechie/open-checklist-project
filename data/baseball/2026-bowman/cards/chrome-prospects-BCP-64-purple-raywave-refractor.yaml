@@ -1,0 +1,23 @@
+number: "BCP-64"
+uuid: "5ddd7c67-b612-45a7-ab47-f378a1c74438"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-bowman"
+subjects:
+  - name: "George Lombard Jr."
+    role: "Player"
+    team: "New York Yankees"
+subset: "Chrome Prospects"
+card_name: "George Lombard Jr. - Chrome Prospects - Purple RayWave Refractor"
+description: "Purple RayWave Refractor parallel of Chrome Prospects card featuring George Lombard Jr.."
+series: "2026 Bowman"
+parallel: "Purple RayWave Refractor"
+print_run: 250
+rookie_card: false
+autograph: false
+serial_numbered: true
+release_date: "2026-05-13"
+image_url: "https://example.com/cards/2026-bowman/chrome-prospects-BCP-64-purple-raywave-refractor.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Bowman#Insertion_Ratios"

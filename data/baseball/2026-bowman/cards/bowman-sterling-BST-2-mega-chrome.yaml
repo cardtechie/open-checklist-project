@@ -1,0 +1,22 @@
+number: "BST-2"
+uuid: "44bb04b9-15b0-4584-910b-e5f9f3dd14ab"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-bowman"
+subjects:
+  - name: "Freddie Freeman"
+    role: "Player"
+    team: "Los Angeles Dodgers"
+subset: "Bowman Sterling"
+card_name: "Freddie Freeman - Bowman Sterling - Mega Chrome"
+description: "Mega Chrome parallel of Bowman Sterling card featuring Freddie Freeman."
+series: "2026 Bowman"
+parallel: "Mega Chrome"
+rookie_card: false
+autograph: false
+serial_numbered: false
+release_date: "2026-05-13"
+image_url: "https://example.com/cards/2026-bowman/bowman-sterling-BST-2-mega-chrome.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Bowman#Insertion_Ratios"

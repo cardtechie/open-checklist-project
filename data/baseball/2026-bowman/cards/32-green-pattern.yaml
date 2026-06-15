@@ -1,0 +1,22 @@
+number: "32"
+uuid: "6faf2fe9-ce06-40ae-8ae0-f56f0fb5d6a7"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-bowman"
+subjects:
+  - name: "Ketel Marte"
+    role: "Player"
+    team: "Arizona Diamondbacks"
+card_name: "Ketel Marte - Base - Green Pattern"
+description: "Green Pattern parallel of Base card featuring Ketel Marte."
+series: "2026 Bowman"
+parallel: "Green Pattern"
+print_run: 99
+rookie_card: false
+autograph: false
+serial_numbered: true
+release_date: "2026-05-13"
+image_url: "https://example.com/cards/2026-bowman/32-green-pattern.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Bowman#Insertion_Ratios"

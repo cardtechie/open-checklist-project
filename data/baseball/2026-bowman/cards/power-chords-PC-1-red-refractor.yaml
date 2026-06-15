@@ -1,0 +1,23 @@
+number: "PC-1"
+uuid: "c101a1b6-ab2e-4ffc-8c99-d21a0f7eb78b"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-bowman"
+subjects:
+  - name: "Aaron Judge"
+    role: "Player"
+    team: "New York Yankees"
+subset: "Power Chords"
+card_name: "Aaron Judge - Power Chords - Red Refractor"
+description: "Red Refractor parallel of Power Chords card featuring Aaron Judge."
+series: "2026 Bowman"
+parallel: "Red Refractor"
+print_run: 5
+rookie_card: false
+autograph: false
+serial_numbered: true
+release_date: "2026-05-13"
+image_url: "https://example.com/cards/2026-bowman/power-chords-PC-1-red-refractor.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Bowman#Insertion_Ratios"

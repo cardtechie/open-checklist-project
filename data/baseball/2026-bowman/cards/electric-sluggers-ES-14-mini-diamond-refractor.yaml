@@ -1,0 +1,23 @@
+number: "ES-14"
+uuid: "0daa78dc-0c99-43d2-91e5-e79e6c0ed9e7"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-bowman"
+subjects:
+  - name: "Cal Raleigh"
+    role: "Player"
+    team: "Seattle Mariners"
+subset: "Electric Sluggers"
+card_name: "Cal Raleigh - Electric Sluggers - Mini-Diamond Refractor"
+description: "Mini-Diamond Refractor parallel of Electric Sluggers card featuring Cal Raleigh."
+series: "2026 Bowman"
+parallel: "Mini-Diamond Refractor"
+print_run: 150
+rookie_card: false
+autograph: false
+serial_numbered: true
+release_date: "2026-05-13"
+image_url: "https://example.com/cards/2026-bowman/electric-sluggers-ES-14-mini-diamond-refractor.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Bowman#Insertion_Ratios"

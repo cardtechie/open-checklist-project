@@ -1,0 +1,23 @@
+number: "BCP-86"
+uuid: "7e2f6e71-52e5-44e0-91ef-634367a96602"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-bowman"
+subjects:
+  - name: "Zyhir Hope"
+    role: "Player"
+    team: "Los Angeles Dodgers"
+subset: "Chrome Prospects"
+card_name: "Zyhir Hope - Chrome Prospects - Steel Metal Refractor"
+description: "Steel Metal Refractor parallel of Chrome Prospects card featuring Zyhir Hope."
+series: "2026 Bowman"
+parallel: "Steel Metal Refractor"
+print_run: 100
+rookie_card: false
+autograph: false
+serial_numbered: true
+release_date: "2026-05-13"
+image_url: "https://example.com/cards/2026-bowman/chrome-prospects-BCP-86-steel-metal-refractor.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Bowman#Insertion_Ratios"

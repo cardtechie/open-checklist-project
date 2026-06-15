@@ -1,0 +1,22 @@
+number: "87"
+uuid: "e2921583-21e8-4ea0-b16e-d170b159d923"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-bowman"
+subjects:
+  - name: "Jacob Melton"
+    role: "Player"
+    team: "Tampa Bay Rays"
+card_name: "Jacob Melton - Base - Yellow Pattern"
+description: "Yellow Pattern parallel of Base card featuring Jacob Melton."
+series: "2026 Bowman"
+parallel: "Yellow Pattern"
+print_run: 75
+rookie_card: true
+autograph: false
+serial_numbered: true
+release_date: "2026-05-13"
+image_url: "https://example.com/cards/2026-bowman/87-yellow-pattern.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Bowman#Insertion_Ratios"

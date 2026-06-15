@@ -1,0 +1,22 @@
+number: "54"
+uuid: "03ce9e43-a4c9-4c82-b1de-a07051c9f6a8"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-bowman"
+subjects:
+  - name: "Dylan Crews"
+    role: "Player"
+    team: "Washington Nationals"
+card_name: "Dylan Crews - Base - Fuchsia"
+description: "Fuchsia parallel of Base card featuring Dylan Crews."
+series: "2026 Bowman"
+parallel: "Fuchsia"
+print_run: 299
+rookie_card: false
+autograph: false
+serial_numbered: true
+release_date: "2026-05-13"
+image_url: "https://example.com/cards/2026-bowman/54-fuchsia.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Bowman#Insertion_Ratios"

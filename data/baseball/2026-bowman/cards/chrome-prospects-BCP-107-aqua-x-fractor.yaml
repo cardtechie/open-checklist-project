@@ -1,0 +1,23 @@
+number: "BCP-107"
+uuid: "0266f4b0-bbc2-4990-95bf-72d77be2f86e"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-bowman"
+subjects:
+  - name: "Miguel Mendez"
+    role: "Player"
+    team: "San Diego Padres"
+subset: "Chrome Prospects"
+card_name: "Miguel Mendez - Chrome Prospects - Aqua X-Fractor"
+description: "Aqua X-Fractor parallel of Chrome Prospects card featuring Miguel Mendez."
+series: "2026 Bowman"
+parallel: "Aqua X-Fractor"
+print_run: 125
+rookie_card: false
+autograph: false
+serial_numbered: true
+release_date: "2026-05-13"
+image_url: "https://example.com/cards/2026-bowman/chrome-prospects-BCP-107-aqua-x-fractor.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Bowman#Insertion_Ratios"

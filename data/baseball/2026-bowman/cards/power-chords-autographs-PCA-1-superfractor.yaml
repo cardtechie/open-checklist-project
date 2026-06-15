@@ -1,0 +1,23 @@
+number: "PCA-1"
+uuid: "916862d6-27ec-48e0-a55a-b83267b148db"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-bowman"
+subjects:
+  - name: "Mike Trout"
+    role: "Player"
+    team: "Los Angeles Angels"
+subset: "Power Chords Autographs"
+card_name: "Mike Trout - Power Chords Autographs - SuperFractor"
+description: "SuperFractor parallel of Autographed Power Chords Autographs card featuring Mike Trout."
+series: "2026 Bowman"
+parallel: "SuperFractor"
+print_run: 1
+rookie_card: false
+autograph: true
+serial_numbered: true
+release_date: "2026-05-13"
+image_url: "https://example.com/cards/2026-bowman/power-chords-autographs-PCA-1-superfractor.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Bowman#Insertion_Ratios"

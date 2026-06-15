@@ -1,0 +1,23 @@
+number: "BST-6"
+uuid: "45ed48f1-7cf7-45df-9edf-983b16e2d3a0"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-bowman"
+subjects:
+  - name: "Shohei Ohtani"
+    role: "Player"
+    team: "Los Angeles Dodgers"
+subset: "Bowman Sterling"
+card_name: "Shohei Ohtani - Bowman Sterling - Orange Refractor"
+description: "Orange Refractor parallel of Bowman Sterling card featuring Shohei Ohtani."
+series: "2026 Bowman"
+parallel: "Orange Refractor"
+print_run: 25
+rookie_card: false
+autograph: false
+serial_numbered: true
+release_date: "2026-05-13"
+image_url: "https://example.com/cards/2026-bowman/bowman-sterling-BST-6-orange-refractor.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Bowman#Insertion_Ratios"

@@ -1,0 +1,22 @@
+number: "62"
+uuid: "415ab9ed-db7c-41dd-8a02-ebb0e9a06a24"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-bowman"
+subjects:
+  - name: "Owen Caissie"
+    role: "Player"
+    team: "Chicago Cubs"
+card_name: "Owen Caissie - Base - Orange"
+description: "Orange parallel of Base card featuring Owen Caissie."
+series: "2026 Bowman"
+parallel: "Orange"
+print_run: 25
+rookie_card: true
+autograph: false
+serial_numbered: true
+release_date: "2026-05-13"
+image_url: "https://example.com/cards/2026-bowman/62-orange.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Bowman#Insertion_Ratios"

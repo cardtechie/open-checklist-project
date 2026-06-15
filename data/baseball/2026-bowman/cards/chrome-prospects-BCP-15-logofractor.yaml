@@ -1,0 +1,22 @@
+number: "BCP-15"
+uuid: "4d5cc153-d1dc-44c4-9b2f-c8cc371293f0"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-bowman"
+subjects:
+  - name: "Gage Jump"
+    role: "Player"
+    team: "Athletics"
+subset: "Chrome Prospects"
+card_name: "Gage Jump - Chrome Prospects - LogoFractor"
+description: "LogoFractor parallel of Chrome Prospects card featuring Gage Jump."
+series: "2026 Bowman"
+parallel: "LogoFractor"
+rookie_card: false
+autograph: false
+serial_numbered: false
+release_date: "2026-05-13"
+image_url: "https://example.com/cards/2026-bowman/chrome-prospects-BCP-15-logofractor.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Bowman#Insertion_Ratios"

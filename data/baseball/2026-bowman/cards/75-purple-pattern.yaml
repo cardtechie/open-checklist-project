@@ -1,0 +1,22 @@
+number: "75"
+uuid: "547a0d0c-c46b-4e3b-b51d-8b9f505dd265"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-bowman"
+subjects:
+  - name: "Jac Caglianone"
+    role: "Player"
+    team: "Kansas City Royals"
+card_name: "Jac Caglianone - Base - Purple Pattern"
+description: "Purple Pattern parallel of Base card featuring Jac Caglianone."
+series: "2026 Bowman"
+parallel: "Purple Pattern"
+print_run: 250
+rookie_card: true
+autograph: false
+serial_numbered: true
+release_date: "2026-05-13"
+image_url: "https://example.com/cards/2026-bowman/75-purple-pattern.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Bowman#Insertion_Ratios"

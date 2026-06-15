@@ -1,0 +1,23 @@
+number: "BP-9"
+uuid: "a45bd15f-cab9-44a2-85ea-c2d0c305f340"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-bowman"
+subjects:
+  - name: "Tyler Bremner"
+    role: "Player"
+    team: "Los Angeles Angels"
+subset: "Base Prospects"
+card_name: "Tyler Bremner - Base Prospects - Orange"
+description: "Orange parallel of Base Prospects card featuring Tyler Bremner."
+series: "2026 Bowman"
+parallel: "Orange"
+print_run: 25
+rookie_card: false
+autograph: false
+serial_numbered: true
+release_date: "2026-05-13"
+image_url: "https://example.com/cards/2026-bowman/base-prospects-BP-9-orange.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Bowman#Insertion_Ratios"

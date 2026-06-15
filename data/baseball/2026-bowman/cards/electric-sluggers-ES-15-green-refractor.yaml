@@ -1,0 +1,23 @@
+number: "ES-15"
+uuid: "4a2af9b5-6b35-419d-aae0-c7b0be61384a"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-bowman"
+subjects:
+  - name: "Aaron Judge"
+    role: "Player"
+    team: "New York Yankees"
+subset: "Electric Sluggers"
+card_name: "Aaron Judge - Electric Sluggers - Green Refractor"
+description: "Green Refractor parallel of Electric Sluggers card featuring Aaron Judge."
+series: "2026 Bowman"
+parallel: "Green Refractor"
+print_run: 99
+rookie_card: false
+autograph: false
+serial_numbered: true
+release_date: "2026-05-13"
+image_url: "https://example.com/cards/2026-bowman/electric-sluggers-ES-15-green-refractor.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Bowman#Insertion_Ratios"

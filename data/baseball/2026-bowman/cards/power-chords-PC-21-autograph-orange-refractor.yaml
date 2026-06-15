@@ -1,0 +1,23 @@
+number: "PC-21"
+uuid: "76659a6f-9b68-4966-b9fa-300bfdbd4f35"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-bowman"
+subjects:
+  - name: "Cal Raleigh"
+    role: "Player"
+    team: "Seattle Mariners"
+subset: "Power Chords"
+card_name: "Cal Raleigh - Power Chords - Autograph Orange Refractor"
+description: "Autograph Orange Refractor parallel of Power Chords card featuring Cal Raleigh."
+series: "2026 Bowman"
+parallel: "Autograph Orange Refractor"
+print_run: 25
+rookie_card: false
+autograph: false
+serial_numbered: true
+release_date: "2026-05-13"
+image_url: "https://example.com/cards/2026-bowman/power-chords-PC-21-autograph-orange-refractor.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Bowman#Insertion_Ratios"

@@ -1,0 +1,23 @@
+number: "BP-88"
+uuid: "127cbbe6-ded9-4af7-9acb-c87917fee187"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-bowman"
+subjects:
+  - name: "Dasan Hill"
+    role: "Player"
+    team: "Minnesota Twins"
+subset: "Base Prospects"
+card_name: "Dasan Hill - Base Prospects - Gold"
+description: "Gold parallel of Base Prospects card featuring Dasan Hill."
+series: "2026 Bowman"
+parallel: "Gold"
+print_run: 50
+rookie_card: false
+autograph: false
+serial_numbered: true
+release_date: "2026-05-13"
+image_url: "https://example.com/cards/2026-bowman/base-prospects-BP-88-gold.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Bowman#Insertion_Ratios"

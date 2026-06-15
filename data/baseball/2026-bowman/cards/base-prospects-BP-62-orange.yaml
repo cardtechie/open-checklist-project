@@ -1,0 +1,23 @@
+number: "BP-62"
+uuid: "1d7218aa-8a34-48d0-b88a-7ea5722a96d2"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-bowman"
+subjects:
+  - name: "Josh Owens"
+    role: "Player"
+    team: "Texas Rangers"
+subset: "Base Prospects"
+card_name: "Josh Owens - Base Prospects - Orange"
+description: "Orange parallel of Base Prospects card featuring Josh Owens."
+series: "2026 Bowman"
+parallel: "Orange"
+print_run: 25
+rookie_card: false
+autograph: false
+serial_numbered: true
+release_date: "2026-05-13"
+image_url: "https://example.com/cards/2026-bowman/base-prospects-BP-62-orange.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Bowman#Insertion_Ratios"

@@ -1,0 +1,22 @@
+number: "14"
+uuid: "9219b09b-a1fd-4dd8-b0f3-a253aa44398a"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-bowman"
+subjects:
+  - name: "Drake Baldwin"
+    role: "Player"
+    team: "Atlanta Braves"
+card_name: "Drake Baldwin - Base - Black"
+description: "Black parallel of Base card featuring Drake Baldwin."
+series: "2026 Bowman"
+parallel: "Black"
+print_run: 10
+rookie_card: false
+autograph: false
+serial_numbered: true
+release_date: "2026-05-13"
+image_url: "https://example.com/cards/2026-bowman/14-black.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Bowman#Insertion_Ratios"

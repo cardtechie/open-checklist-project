@@ -1,0 +1,23 @@
+number: "BCP-57"
+uuid: "2703eabe-49ef-43e4-890b-3b806803be7e"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-bowman"
+subjects:
+  - name: "Felnin Celesten"
+    role: "Player"
+    team: "Seattle Mariners"
+subset: "Chrome Prospects"
+card_name: "Felnin Celesten - Chrome Prospects - FireFractor"
+description: "FireFractor parallel of Chrome Prospects card featuring Felnin Celesten."
+series: "2026 Bowman"
+parallel: "FireFractor"
+print_run: 3
+rookie_card: false
+autograph: false
+serial_numbered: true
+release_date: "2026-05-13"
+image_url: "https://example.com/cards/2026-bowman/chrome-prospects-BCP-57-firefractor.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Bowman#Insertion_Ratios"

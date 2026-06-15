@@ -1,0 +1,23 @@
+number: "BCP-58"
+uuid: "5320141e-10bb-45d4-bb7c-f0bb4d7b0081"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-bowman"
+subjects:
+  - name: "Jude Warwick"
+    role: "Player"
+    team: "Detroit Tigers"
+subset: "Chrome Prospects"
+card_name: "Jude Warwick - Chrome Prospects - Refractor"
+description: "Refractor parallel of Chrome Prospects card featuring Jude Warwick."
+series: "2026 Bowman"
+parallel: "Refractor"
+print_run: 499
+rookie_card: false
+autograph: false
+serial_numbered: true
+release_date: "2026-05-13"
+image_url: "https://example.com/cards/2026-bowman/chrome-prospects-BCP-58-refractor.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Bowman#Insertion_Ratios"

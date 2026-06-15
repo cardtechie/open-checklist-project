@@ -1,0 +1,22 @@
+number: "21"
+uuid: "851c08ca-3c78-42c0-bf7d-d27ebfa8f2a6"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-bowman"
+subjects:
+  - name: "Michael Harris II"
+    role: "Player"
+    team: "Atlanta Braves"
+card_name: "Michael Harris II - Base - Green Pattern"
+description: "Green Pattern parallel of Base card featuring Michael Harris II."
+series: "2026 Bowman"
+parallel: "Green Pattern"
+print_run: 99
+rookie_card: false
+autograph: false
+serial_numbered: true
+release_date: "2026-05-13"
+image_url: "https://example.com/cards/2026-bowman/21-green-pattern.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Bowman#Insertion_Ratios"

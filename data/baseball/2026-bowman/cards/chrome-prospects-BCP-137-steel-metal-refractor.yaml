@@ -1,0 +1,23 @@
+number: "BCP-137"
+uuid: "89b4fc6d-82d3-4b51-97a5-fe7cf758ffd9"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-bowman"
+subjects:
+  - name: "Braden Nett"
+    role: "Player"
+    team: "Athletics"
+subset: "Chrome Prospects"
+card_name: "Braden Nett - Chrome Prospects - Steel Metal Refractor"
+description: "Steel Metal Refractor parallel of Chrome Prospects card featuring Braden Nett."
+series: "2026 Bowman"
+parallel: "Steel Metal Refractor"
+print_run: 100
+rookie_card: false
+autograph: false
+serial_numbered: true
+release_date: "2026-05-13"
+image_url: "https://example.com/cards/2026-bowman/chrome-prospects-BCP-137-steel-metal-refractor.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Bowman#Insertion_Ratios"

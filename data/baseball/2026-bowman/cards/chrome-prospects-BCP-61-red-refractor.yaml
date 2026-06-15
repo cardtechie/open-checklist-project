@@ -1,0 +1,23 @@
+number: "BCP-61"
+uuid: "24955efc-754f-48c5-b40b-73c252bf0605"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-bowman"
+subjects:
+  - name: "Chris Arroyo"
+    role: "Player"
+    team: "Miami Marlins"
+subset: "Chrome Prospects"
+card_name: "Chris Arroyo - Chrome Prospects - Red Refractor"
+description: "Red Refractor parallel of Chrome Prospects card featuring Chris Arroyo."
+series: "2026 Bowman"
+parallel: "Red Refractor"
+print_run: 5
+rookie_card: false
+autograph: false
+serial_numbered: true
+release_date: "2026-05-13"
+image_url: "https://example.com/cards/2026-bowman/chrome-prospects-BCP-61-red-refractor.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Bowman#Insertion_Ratios"

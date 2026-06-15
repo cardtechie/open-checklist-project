@@ -1,0 +1,19 @@
+number: "UTRA-2"
+uuid: "15efab3e-5516-453f-9e93-f75feb1e837a"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-bowman"
+subjects:
+  - name: "Samuel Basallo"
+    role: "Player"
+    team: "Baltimore Orioles"
+subset: "Under The Radar Autographs"
+card_name: "Samuel Basallo - Under The Radar Autographs"
+description: "Autographed Under The Radar Autographs card featuring Samuel Basallo."
+series: "2026 Bowman"
+print_run: 99
+rookie_card: false
+autograph: true
+serial_numbered: true
+release_date: "2026-05-13"
+image_url: "https://example.com/cards/2026-bowman/under-the-radar-autographs-UTRA-2.jpg"

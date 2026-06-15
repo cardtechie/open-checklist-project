@@ -1,0 +1,23 @@
+number: "CPA-CSC"
+uuid: "7eab52d5-9afc-4326-835f-5e32fa9e25bd"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-bowman"
+subjects:
+  - name: "Caden Scarborough"
+    role: "Player"
+    team: "Texas Rangers"
+subset: "Chrome Prospect Autographs"
+card_name: "Caden Scarborough - Chrome Prospect Autographs - SuperFractor"
+description: "SuperFractor parallel of Autographed Chrome Prospect Autographs card featuring Caden Scarborough."
+series: "2026 Bowman"
+parallel: "SuperFractor"
+print_run: 1
+rookie_card: false
+autograph: true
+serial_numbered: true
+release_date: "2026-05-13"
+image_url: "https://example.com/cards/2026-bowman/chrome-prospect-autographs-CPA-CSC-superfractor.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Bowman#Insertion_Ratios"

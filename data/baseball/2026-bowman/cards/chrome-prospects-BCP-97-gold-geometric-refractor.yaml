@@ -1,0 +1,23 @@
+number: "BCP-97"
+uuid: "4105f5fe-7f9f-4c75-b34d-4c60e7ab09da"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-bowman"
+subjects:
+  - name: "Daniel Hernandez"
+    role: "Player"
+    team: "Washington Nationals"
+subset: "Chrome Prospects"
+card_name: "Daniel Hernandez - Chrome Prospects - Gold Geometric Refractor"
+description: "Gold Geometric Refractor parallel of Chrome Prospects card featuring Daniel Hernandez."
+series: "2026 Bowman"
+parallel: "Gold Geometric Refractor"
+print_run: 50
+rookie_card: false
+autograph: false
+serial_numbered: true
+release_date: "2026-05-13"
+image_url: "https://example.com/cards/2026-bowman/chrome-prospects-BCP-97-gold-geometric-refractor.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Bowman#Insertion_Ratios"

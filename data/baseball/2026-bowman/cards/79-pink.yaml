@@ -1,0 +1,22 @@
+number: "79"
+uuid: "8c7a9ead-77d3-4e77-95ee-a140dc9d7e8e"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-bowman"
+subjects:
+  - name: "James Wood"
+    role: "Player"
+    team: "Washington Nationals"
+card_name: "James Wood - Base - Pink"
+description: "Pink parallel of Base card featuring James Wood."
+series: "2026 Bowman"
+parallel: "Pink"
+print_run: 175
+rookie_card: false
+autograph: false
+serial_numbered: true
+release_date: "2026-05-13"
+image_url: "https://example.com/cards/2026-bowman/79-pink.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Bowman#Insertion_Ratios"

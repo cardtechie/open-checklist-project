@@ -1,0 +1,23 @@
+number: "BCP-8"
+uuid: "b5678458-1cd8-4236-94d7-47a207e1f9e8"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-bowman"
+subjects:
+  - name: "Anderson Araujo"
+    role: "Player"
+    team: "Philadelphia Phillies"
+subset: "Chrome Prospects"
+card_name: "Anderson Araujo - Chrome Prospects - PackFractor"
+description: "PackFractor parallel of Chrome Prospects card featuring Anderson Araujo."
+series: "2026 Bowman"
+parallel: "PackFractor"
+print_run: 89
+rookie_card: false
+autograph: false
+serial_numbered: true
+release_date: "2026-05-13"
+image_url: "https://example.com/cards/2026-bowman/chrome-prospects-BCP-8-packfractor.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Bowman#Insertion_Ratios"

@@ -1,0 +1,23 @@
+number: "BP-140"
+uuid: "cf2f8f40-767b-4602-b400-2f9cb43ac665"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-bowman"
+subjects:
+  - name: "Pedro Ibarguen"
+    role: "Player"
+    team: "Milwaukee Brewers"
+subset: "Base Prospects"
+card_name: "Pedro Ibarguen - Base Prospects - Blue Pattern"
+description: "Blue Pattern parallel of Base Prospects card featuring Pedro Ibarguen."
+series: "2026 Bowman"
+parallel: "Blue Pattern"
+print_run: 99
+rookie_card: false
+autograph: false
+serial_numbered: true
+release_date: "2026-05-13"
+image_url: "https://example.com/cards/2026-bowman/base-prospects-BP-140-blue-pattern.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Bowman#Insertion_Ratios"

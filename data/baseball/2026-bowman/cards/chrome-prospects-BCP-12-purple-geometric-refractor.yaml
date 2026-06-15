@@ -1,0 +1,23 @@
+number: "BCP-12"
+uuid: "8a6d919d-3e00-4542-9a66-b65fbc18e93e"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-bowman"
+subjects:
+  - name: "Jase Mitchell"
+    role: "Player"
+    team: "Houston Astros"
+subset: "Chrome Prospects"
+card_name: "Jase Mitchell - Chrome Prospects - Purple Geometric Refractor"
+description: "Purple Geometric Refractor parallel of Chrome Prospects card featuring Jase Mitchell."
+series: "2026 Bowman"
+parallel: "Purple Geometric Refractor"
+print_run: 250
+rookie_card: false
+autograph: false
+serial_numbered: true
+release_date: "2026-05-13"
+image_url: "https://example.com/cards/2026-bowman/chrome-prospects-BCP-12-purple-geometric-refractor.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Bowman#Insertion_Ratios"

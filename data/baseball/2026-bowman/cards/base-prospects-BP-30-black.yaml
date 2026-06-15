@@ -1,0 +1,23 @@
+number: "BP-30"
+uuid: "53ce20e7-86dd-4405-b400-2fd5ee078af3"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-bowman"
+subjects:
+  - name: "Alimber Santa"
+    role: "Player"
+    team: "Houston Astros"
+subset: "Base Prospects"
+card_name: "Alimber Santa - Base Prospects - Black"
+description: "Black parallel of Base Prospects card featuring Alimber Santa."
+series: "2026 Bowman"
+parallel: "Black"
+print_run: 10
+rookie_card: false
+autograph: false
+serial_numbered: true
+release_date: "2026-05-13"
+image_url: "https://example.com/cards/2026-bowman/base-prospects-BP-30-black.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Bowman#Insertion_Ratios"

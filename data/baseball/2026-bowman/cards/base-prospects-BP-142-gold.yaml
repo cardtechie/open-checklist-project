@@ -1,0 +1,23 @@
+number: "BP-142"
+uuid: "5d2628c3-e8f8-4161-99d2-c1011796266d"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-bowman"
+subjects:
+  - name: "Brady Ebel"
+    role: "Player"
+    team: "Milwaukee Brewers"
+subset: "Base Prospects"
+card_name: "Brady Ebel - Base Prospects - Gold"
+description: "Gold parallel of Base Prospects card featuring Brady Ebel."
+series: "2026 Bowman"
+parallel: "Gold"
+print_run: 50
+rookie_card: false
+autograph: false
+serial_numbered: true
+release_date: "2026-05-13"
+image_url: "https://example.com/cards/2026-bowman/base-prospects-BP-142-gold.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Bowman#Insertion_Ratios"

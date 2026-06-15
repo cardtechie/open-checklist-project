@@ -1,0 +1,22 @@
+number: "36"
+uuid: "74077f47-37de-4bcd-80ac-f2f8c7633b7a"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-bowman"
+subjects:
+  - name: "Jimmy Crooks"
+    role: "Player"
+    team: "St. Louis Cardinals"
+card_name: "Jimmy Crooks - Base - Orange Pattern"
+description: "Orange Pattern parallel of Base card featuring Jimmy Crooks."
+series: "2026 Bowman"
+parallel: "Orange Pattern"
+print_run: 25
+rookie_card: true
+autograph: false
+serial_numbered: true
+release_date: "2026-05-13"
+image_url: "https://example.com/cards/2026-bowman/36-orange-pattern.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Bowman#Insertion_Ratios"

@@ -1,0 +1,23 @@
+number: "BCP-66"
+uuid: "54f039d8-dca5-4bd8-ae40-a31e74f0ad31"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-bowman"
+subjects:
+  - name: "Wyatt Sanford"
+    role: "Player"
+    team: "Pittsburgh Pirates"
+subset: "Chrome Prospects"
+card_name: "Wyatt Sanford - Chrome Prospects - Gold Refractor"
+description: "Gold Refractor parallel of Chrome Prospects card featuring Wyatt Sanford."
+series: "2026 Bowman"
+parallel: "Gold Refractor"
+print_run: 50
+rookie_card: false
+autograph: false
+serial_numbered: true
+release_date: "2026-05-13"
+image_url: "https://example.com/cards/2026-bowman/chrome-prospects-BCP-66-gold-refractor.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Bowman#Insertion_Ratios"

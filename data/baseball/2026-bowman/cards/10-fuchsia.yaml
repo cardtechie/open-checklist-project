@@ -1,0 +1,22 @@
+number: "10"
+uuid: "79aa9172-f867-4a8d-b196-4f42410d4344"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-bowman"
+subjects:
+  - name: "Nick Kurtz"
+    role: "Player"
+    team: "Athletics"
+card_name: "Nick Kurtz - Base - Fuchsia"
+description: "Fuchsia parallel of Base card featuring Nick Kurtz."
+series: "2026 Bowman"
+parallel: "Fuchsia"
+print_run: 299
+rookie_card: false
+autograph: false
+serial_numbered: true
+release_date: "2026-05-13"
+image_url: "https://example.com/cards/2026-bowman/10-fuchsia.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Bowman#Insertion_Ratios"

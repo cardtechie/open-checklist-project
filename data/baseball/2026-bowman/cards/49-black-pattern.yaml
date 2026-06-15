@@ -1,0 +1,22 @@
+number: "49"
+uuid: "3e810c55-d9d4-43e1-9974-c191d1d803cc"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-bowman"
+subjects:
+  - name: "Luis Morales"
+    role: "Player"
+    team: "Athletics"
+card_name: "Luis Morales - Base - Black Pattern"
+description: "Black Pattern parallel of Base card featuring Luis Morales."
+series: "2026 Bowman"
+parallel: "Black Pattern"
+print_run: 10
+rookie_card: true
+autograph: false
+serial_numbered: true
+release_date: "2026-05-13"
+image_url: "https://example.com/cards/2026-bowman/49-black-pattern.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Bowman#Insertion_Ratios"

@@ -1,0 +1,22 @@
+number: "65"
+uuid: "37b46dd4-8512-4ff2-b83f-778ab8538bfa"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-bowman"
+subjects:
+  - name: "Jonah Tong"
+    role: "Player"
+    team: "New York Mets"
+card_name: "Jonah Tong - Base - Red"
+description: "Red parallel of Base card featuring Jonah Tong."
+series: "2026 Bowman"
+parallel: "Red"
+print_run: 5
+rookie_card: true
+autograph: false
+serial_numbered: true
+release_date: "2026-05-13"
+image_url: "https://example.com/cards/2026-bowman/65-red.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Bowman#Insertion_Ratios"

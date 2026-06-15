@@ -1,0 +1,23 @@
+number: "BP-1"
+uuid: "e7d055d0-fdb3-48fb-91e9-96bc8442d071"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-bowman"
+subjects:
+  - name: "Ethan Holliday"
+    role: "Player"
+    team: "Colorado Rockies"
+subset: "Base Prospects"
+card_name: "Ethan Holliday - Base Prospects - Orange Pattern"
+description: "Orange Pattern parallel of Base Prospects card featuring Ethan Holliday."
+series: "2026 Bowman"
+parallel: "Orange Pattern"
+print_run: 25
+rookie_card: false
+autograph: false
+serial_numbered: true
+release_date: "2026-05-13"
+image_url: "https://example.com/cards/2026-bowman/base-prospects-BP-1-orange-pattern.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Bowman#Insertion_Ratios"

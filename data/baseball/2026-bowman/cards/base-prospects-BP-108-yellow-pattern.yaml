@@ -1,0 +1,23 @@
+number: "BP-108"
+uuid: "2fb64f3f-036a-4f38-8dba-09fcb1388c98"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-bowman"
+subjects:
+  - name: "Colt Emerson"
+    role: "Player"
+    team: "Seattle Mariners"
+subset: "Base Prospects"
+card_name: "Colt Emerson - Base Prospects - Yellow Pattern"
+description: "Yellow Pattern parallel of Base Prospects card featuring Colt Emerson."
+series: "2026 Bowman"
+parallel: "Yellow Pattern"
+print_run: 75
+rookie_card: false
+autograph: false
+serial_numbered: true
+release_date: "2026-05-13"
+image_url: "https://example.com/cards/2026-bowman/base-prospects-BP-108-yellow-pattern.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Bowman#Insertion_Ratios"

@@ -1,0 +1,23 @@
+number: "BCP-146"
+uuid: "3538d344-cb81-43d9-8c19-913c5b511a44"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-bowman"
+subjects:
+  - name: "Matt Klein"
+    role: "Player"
+    team: "Colorado Rockies"
+subset: "Chrome Prospects"
+card_name: "Matt Klein - Chrome Prospects - Reptilian Red Refractor"
+description: "Reptilian Red Refractor parallel of Chrome Prospects card featuring Matt Klein."
+series: "2026 Bowman"
+parallel: "Reptilian Red Refractor"
+print_run: 5
+rookie_card: false
+autograph: false
+serial_numbered: true
+release_date: "2026-05-13"
+image_url: "https://example.com/cards/2026-bowman/chrome-prospects-BCP-146-reptilian-red-refractor.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Bowman#Insertion_Ratios"

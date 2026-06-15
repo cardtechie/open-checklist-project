@@ -1,0 +1,23 @@
+number: "BP-15"
+uuid: "c0fcf091-2d7a-4302-82db-03bb1240bb25"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-bowman"
+subjects:
+  - name: "Gage Jump"
+    role: "Player"
+    team: "Athletics"
+subset: "Base Prospects"
+card_name: "Gage Jump - Base Prospects - Fuchsia"
+description: "Fuchsia parallel of Base Prospects card featuring Gage Jump."
+series: "2026 Bowman"
+parallel: "Fuchsia"
+print_run: 250
+rookie_card: false
+autograph: false
+serial_numbered: true
+release_date: "2026-05-13"
+image_url: "https://example.com/cards/2026-bowman/base-prospects-BP-15-fuchsia.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Bowman#Insertion_Ratios"

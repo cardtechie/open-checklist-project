@@ -1,0 +1,22 @@
+number: "83"
+uuid: "83d1ac0d-a1e7-4883-af90-21c0d89e5805"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-bowman"
+subjects:
+  - name: "Bubba Chandler"
+    role: "Player"
+    team: "Pittsburgh Pirates"
+card_name: "Bubba Chandler - Base - Green"
+description: "Green parallel of Base card featuring Bubba Chandler."
+series: "2026 Bowman"
+parallel: "Green"
+print_run: 99
+rookie_card: true
+autograph: false
+serial_numbered: true
+release_date: "2026-05-13"
+image_url: "https://example.com/cards/2026-bowman/83-green.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Bowman#Insertion_Ratios"

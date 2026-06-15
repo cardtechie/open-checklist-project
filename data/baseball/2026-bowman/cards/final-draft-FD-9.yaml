@@ -1,0 +1,18 @@
+number: "FD-9"
+uuid: "388d34f8-4c22-478a-95a5-cf5e51d99cf1"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-bowman"
+subjects:
+  - name: "Juan Soto"
+    role: "Player"
+    team: "New York Mets"
+subset: "Final Draft"
+card_name: "Juan Soto - Final Draft"
+description: "Final Draft card featuring Juan Soto."
+series: "2026 Bowman"
+rookie_card: false
+autograph: false
+serial_numbered: false
+release_date: "2026-05-13"
+image_url: "https://example.com/cards/2026-bowman/final-draft-FD-9.jpg"

@@ -1,0 +1,22 @@
+number: "83"
+uuid: "7231290b-ee0d-48ae-a28d-24275aaa6d97"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-bowman"
+subjects:
+  - name: "Bubba Chandler"
+    role: "Player"
+    team: "Pittsburgh Pirates"
+card_name: "Bubba Chandler - Base - Blue Pattern"
+description: "Blue Pattern parallel of Base card featuring Bubba Chandler."
+series: "2026 Bowman"
+parallel: "Blue Pattern"
+print_run: 150
+rookie_card: true
+autograph: false
+serial_numbered: true
+release_date: "2026-05-13"
+image_url: "https://example.com/cards/2026-bowman/83-blue-pattern.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Bowman#Insertion_Ratios"

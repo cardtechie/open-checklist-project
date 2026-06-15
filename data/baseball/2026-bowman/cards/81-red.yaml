@@ -1,0 +1,22 @@
+number: "81"
+uuid: "0764f248-eef4-4e28-b981-351c62ddf12d"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-bowman"
+subjects:
+  - name: "Mookie Betts"
+    role: "Player"
+    team: "Los Angeles Dodgers"
+card_name: "Mookie Betts - Base - Red"
+description: "Red parallel of Base card featuring Mookie Betts."
+series: "2026 Bowman"
+parallel: "Red"
+print_run: 5
+rookie_card: false
+autograph: false
+serial_numbered: true
+release_date: "2026-05-13"
+image_url: "https://example.com/cards/2026-bowman/81-red.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Bowman#Insertion_Ratios"

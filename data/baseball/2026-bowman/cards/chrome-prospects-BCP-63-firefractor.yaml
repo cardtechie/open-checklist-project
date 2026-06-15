@@ -1,0 +1,23 @@
+number: "BCP-63"
+uuid: "a1657df3-4c7f-4884-906a-8d98064f2c02"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-bowman"
+subjects:
+  - name: "Leo De Vries"
+    role: "Player"
+    team: "Athletics"
+subset: "Chrome Prospects"
+card_name: "Leo De Vries - Chrome Prospects - FireFractor"
+description: "FireFractor parallel of Chrome Prospects card featuring Leo De Vries."
+series: "2026 Bowman"
+parallel: "FireFractor"
+print_run: 3
+rookie_card: false
+autograph: false
+serial_numbered: true
+release_date: "2026-05-13"
+image_url: "https://example.com/cards/2026-bowman/chrome-prospects-BCP-63-firefractor.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Bowman#Insertion_Ratios"

@@ -1,0 +1,22 @@
+number: "23"
+uuid: "5b6e7de0-9a78-4e23-ad5b-d897eb08c29f"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-bowman"
+subjects:
+  - name: "Ronald Acuña Jr."
+    role: "Player"
+    team: "Atlanta Braves"
+card_name: "Ronald Acuña Jr. - Base - Blue"
+description: "Blue parallel of Base card featuring Ronald Acuña Jr.."
+series: "2026 Bowman"
+parallel: "Blue"
+print_run: 150
+rookie_card: false
+autograph: false
+serial_numbered: true
+release_date: "2026-05-13"
+image_url: "https://example.com/cards/2026-bowman/23-blue.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Bowman#Insertion_Ratios"

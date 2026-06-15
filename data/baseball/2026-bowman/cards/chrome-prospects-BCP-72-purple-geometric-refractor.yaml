@@ -1,0 +1,23 @@
+number: "BCP-72"
+uuid: "65cfebac-e6c4-4033-a086-cf1da528f738"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-bowman"
+subjects:
+  - name: "Luis Arana"
+    role: "Player"
+    team: "Miami Marlins"
+subset: "Chrome Prospects"
+card_name: "Luis Arana - Chrome Prospects - Purple Geometric Refractor"
+description: "Purple Geometric Refractor parallel of Chrome Prospects card featuring Luis Arana."
+series: "2026 Bowman"
+parallel: "Purple Geometric Refractor"
+print_run: 250
+rookie_card: false
+autograph: false
+serial_numbered: true
+release_date: "2026-05-13"
+image_url: "https://example.com/cards/2026-bowman/chrome-prospects-BCP-72-purple-geometric-refractor.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Bowman#Insertion_Ratios"

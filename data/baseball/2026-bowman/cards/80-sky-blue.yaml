@@ -1,0 +1,22 @@
+number: "80"
+uuid: "673eb2d2-cd18-42e1-9f9a-bc12556fe541"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-bowman"
+subjects:
+  - name: "Corbin Carroll"
+    role: "Player"
+    team: "Arizona Diamondbacks"
+card_name: "Corbin Carroll - Base - Sky Blue"
+description: "Sky Blue parallel of Base card featuring Corbin Carroll."
+series: "2026 Bowman"
+parallel: "Sky Blue"
+print_run: 499
+rookie_card: false
+autograph: false
+serial_numbered: true
+release_date: "2026-05-13"
+image_url: "https://example.com/cards/2026-bowman/80-sky-blue.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Bowman#Insertion_Ratios"

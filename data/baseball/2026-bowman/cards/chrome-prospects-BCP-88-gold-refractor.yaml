@@ -1,0 +1,23 @@
+number: "BCP-88"
+uuid: "43259101-b2da-4e78-b93f-2fec7ac9ba16"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-bowman"
+subjects:
+  - name: "Dasan Hill"
+    role: "Player"
+    team: "Minnesota Twins"
+subset: "Chrome Prospects"
+card_name: "Dasan Hill - Chrome Prospects - Gold Refractor"
+description: "Gold Refractor parallel of Chrome Prospects card featuring Dasan Hill."
+series: "2026 Bowman"
+parallel: "Gold Refractor"
+print_run: 50
+rookie_card: false
+autograph: false
+serial_numbered: true
+release_date: "2026-05-13"
+image_url: "https://example.com/cards/2026-bowman/chrome-prospects-BCP-88-gold-refractor.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Bowman#Insertion_Ratios"

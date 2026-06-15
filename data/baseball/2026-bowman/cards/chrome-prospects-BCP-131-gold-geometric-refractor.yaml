@@ -1,0 +1,23 @@
+number: "BCP-131"
+uuid: "2005c3b0-5c87-4b14-b486-888f0d2227f3"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-bowman"
+subjects:
+  - name: "Walker Janek"
+    role: "Player"
+    team: "Houston Astros"
+subset: "Chrome Prospects"
+card_name: "Walker Janek - Chrome Prospects - Gold Geometric Refractor"
+description: "Gold Geometric Refractor parallel of Chrome Prospects card featuring Walker Janek."
+series: "2026 Bowman"
+parallel: "Gold Geometric Refractor"
+print_run: 50
+rookie_card: false
+autograph: false
+serial_numbered: true
+release_date: "2026-05-13"
+image_url: "https://example.com/cards/2026-bowman/chrome-prospects-BCP-131-gold-geometric-refractor.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Bowman#Insertion_Ratios"

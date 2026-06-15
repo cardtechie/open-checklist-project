@@ -1,0 +1,23 @@
+number: "CPA-MCH"
+uuid: "0fb41210-37ad-4a6c-a9e2-3991dcae5e4b"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-bowman"
+subjects:
+  - name: "Moisés Chace"
+    role: "Player"
+    team: "Philadelphia Phillies"
+subset: "Chrome Prospect Autographs"
+card_name: "Moisés Chace - Chrome Prospect Autographs - SuperFractor"
+description: "SuperFractor parallel of Autographed Chrome Prospect Autographs card featuring Moisés Chace."
+series: "2026 Bowman"
+parallel: "SuperFractor"
+print_run: 1
+rookie_card: false
+autograph: true
+serial_numbered: true
+release_date: "2026-05-13"
+image_url: "https://example.com/cards/2026-bowman/chrome-prospect-autographs-CPA-MCH-superfractor.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Bowman#Insertion_Ratios"

@@ -1,0 +1,22 @@
+number: "28"
+uuid: "82d11607-b9f7-4830-a974-0c1a50e4d2f3"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-bowman"
+subjects:
+  - name: "Kazuma Okamoto"
+    role: "Player"
+    team: "Toronto Blue Jays"
+card_name: "Kazuma Okamoto - Base - Black"
+description: "Black parallel of Base card featuring Kazuma Okamoto."
+series: "2026 Bowman"
+parallel: "Black"
+print_run: 10
+rookie_card: true
+autograph: false
+serial_numbered: true
+release_date: "2026-05-13"
+image_url: "https://example.com/cards/2026-bowman/28-black.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Bowman#Insertion_Ratios"

@@ -1,0 +1,22 @@
+number: "95"
+uuid: "80c59557-8a3f-4466-b318-a2b80de527e5"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-bowman"
+subjects:
+  - name: "George Springer"
+    role: "Player"
+    team: "Toronto Blue Jays"
+card_name: "George Springer - Base - Fuchsia"
+description: "Fuchsia parallel of Base card featuring George Springer."
+series: "2026 Bowman"
+parallel: "Fuchsia"
+print_run: 299
+rookie_card: false
+autograph: false
+serial_numbered: true
+release_date: "2026-05-13"
+image_url: "https://example.com/cards/2026-bowman/95-fuchsia.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Bowman#Insertion_Ratios"

@@ -1,0 +1,23 @@
+number: "BCP-91"
+uuid: "5216572c-4e55-41c1-b9ba-0929d322fe6d"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-bowman"
+subjects:
+  - name: "Elian Peña"
+    role: "Player"
+    team: "New York Mets"
+subset: "Chrome Prospects"
+card_name: "Elian Peña - Chrome Prospects - Orange Shimmer Refractor"
+description: "Orange Shimmer Refractor parallel of Chrome Prospects card featuring Elian Peña."
+series: "2026 Bowman"
+parallel: "Orange Shimmer Refractor"
+print_run: 25
+rookie_card: false
+autograph: false
+serial_numbered: true
+release_date: "2026-05-13"
+image_url: "https://example.com/cards/2026-bowman/chrome-prospects-BCP-91-orange-shimmer-refractor.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Bowman#Insertion_Ratios"

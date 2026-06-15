@@ -1,0 +1,23 @@
+number: "UR-6"
+uuid: "e9157c05-e672-4f0c-84a3-53e674dd7e3f"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-bowman"
+subjects:
+  - name: "Kyle Teel"
+    role: "Player"
+    team: "Chicago White Sox"
+subset: "Under The Radar"
+card_name: "Kyle Teel - Under The Radar - Red Refractor"
+description: "Red Refractor parallel of Under The Radar card featuring Kyle Teel."
+series: "2026 Bowman"
+parallel: "Red Refractor"
+print_run: 5
+rookie_card: false
+autograph: false
+serial_numbered: true
+release_date: "2026-05-13"
+image_url: "https://example.com/cards/2026-bowman/under-the-radar-UR-6-red-refractor.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Bowman#Insertion_Ratios"

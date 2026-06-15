@@ -1,0 +1,22 @@
+number: "44"
+uuid: "8aba36ef-a8d4-49c6-a4d7-cb6c8587bb1a"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-bowman"
+subjects:
+  - name: "Elly De La Cruz"
+    role: "Player"
+    team: "Cincinnati Reds"
+card_name: "Elly De La Cruz - Base - Blue Pattern"
+description: "Blue Pattern parallel of Base card featuring Elly De La Cruz."
+series: "2026 Bowman"
+parallel: "Blue Pattern"
+print_run: 150
+rookie_card: false
+autograph: false
+serial_numbered: true
+release_date: "2026-05-13"
+image_url: "https://example.com/cards/2026-bowman/44-blue-pattern.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Bowman#Insertion_Ratios"

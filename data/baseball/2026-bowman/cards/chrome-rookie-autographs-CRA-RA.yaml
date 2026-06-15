@@ -1,0 +1,18 @@
+number: "CRA-RA"
+uuid: "6fdf66da-e658-446a-8f88-3ad896be320e"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-bowman"
+subjects:
+  - name: "Roman Anthony"
+    role: "Player"
+    team: "Boston Red Sox"
+subset: "Chrome Rookie Autographs"
+card_name: "Roman Anthony - Chrome Rookie Autographs"
+description: "Autographed Chrome Rookie Autographs card featuring Roman Anthony."
+series: "2026 Bowman"
+rookie_card: false
+autograph: true
+serial_numbered: false
+release_date: "2026-05-13"
+image_url: "https://example.com/cards/2026-bowman/chrome-rookie-autographs-CRA-RA.jpg"

@@ -1,0 +1,22 @@
+number: "79"
+uuid: "4af88fc6-18fe-4171-9386-b3ae3b5d08b1"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-bowman"
+subjects:
+  - name: "James Wood"
+    role: "Player"
+    team: "Washington Nationals"
+card_name: "James Wood - Base - Gold"
+description: "Gold parallel of Base card featuring James Wood."
+series: "2026 Bowman"
+parallel: "Gold"
+print_run: 50
+rookie_card: false
+autograph: false
+serial_numbered: true
+release_date: "2026-05-13"
+image_url: "https://example.com/cards/2026-bowman/79-gold.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Bowman#Insertion_Ratios"

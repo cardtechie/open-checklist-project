@@ -1,0 +1,22 @@
+number: "15"
+uuid: "f8540fe7-6051-47bd-9825-cf4c2b6823d1"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-bowman"
+subjects:
+  - name: "Max Fried"
+    role: "Player"
+    team: "New York Yankees"
+card_name: "Max Fried - Base - Gold"
+description: "Gold parallel of Base card featuring Max Fried."
+series: "2026 Bowman"
+parallel: "Gold"
+print_run: 50
+rookie_card: false
+autograph: false
+serial_numbered: true
+release_date: "2026-05-13"
+image_url: "https://example.com/cards/2026-bowman/15-gold.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Bowman#Insertion_Ratios"

@@ -1,0 +1,22 @@
+number: "93"
+uuid: "051d74e4-f960-4aad-b8c5-710687d129c5"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-bowman"
+subjects:
+  - name: "Samuel Basallo"
+    role: "Player"
+    team: "Baltimore Orioles"
+card_name: "Samuel Basallo - Base - Gold"
+description: "Gold parallel of Base card featuring Samuel Basallo."
+series: "2026 Bowman"
+parallel: "Gold"
+print_run: 50
+rookie_card: true
+autograph: false
+serial_numbered: true
+release_date: "2026-05-13"
+image_url: "https://example.com/cards/2026-bowman/93-gold.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Bowman#Insertion_Ratios"

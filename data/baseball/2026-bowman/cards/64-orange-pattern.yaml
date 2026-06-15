@@ -1,0 +1,22 @@
+number: "64"
+uuid: "6433f629-ea79-43f4-83c8-474c06bae4d8"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-bowman"
+subjects:
+  - name: "Jacob deGrom"
+    role: "Player"
+    team: "Texas Rangers"
+card_name: "Jacob deGrom - Base - Orange Pattern"
+description: "Orange Pattern parallel of Base card featuring Jacob deGrom."
+series: "2026 Bowman"
+parallel: "Orange Pattern"
+print_run: 25
+rookie_card: false
+autograph: false
+serial_numbered: true
+release_date: "2026-05-13"
+image_url: "https://example.com/cards/2026-bowman/64-orange-pattern.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Bowman#Insertion_Ratios"

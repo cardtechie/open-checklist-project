@@ -1,0 +1,22 @@
+number: "41"
+uuid: "d93cc960-705f-44e0-8bf6-d9e1d9a91267"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-bowman"
+subjects:
+  - name: "Trey Yesavage"
+    role: "Player"
+    team: "Toronto Blue Jays"
+card_name: "Trey Yesavage - Base - Red"
+description: "Red parallel of Base card featuring Trey Yesavage."
+series: "2026 Bowman"
+parallel: "Red"
+print_run: 5
+rookie_card: true
+autograph: false
+serial_numbered: true
+release_date: "2026-05-13"
+image_url: "https://example.com/cards/2026-bowman/41-red.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Bowman#Insertion_Ratios"

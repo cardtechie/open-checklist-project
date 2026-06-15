@@ -1,0 +1,23 @@
+number: "BP-98"
+uuid: "b2259c2d-aeda-465f-b29b-a8d95e4f245d"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-bowman"
+subjects:
+  - name: "Walker Jenkins"
+    role: "Player"
+    team: "Minnesota Twins"
+subset: "Base Prospects"
+card_name: "Walker Jenkins - Base Prospects - Green Pattern"
+description: "Green Pattern parallel of Base Prospects card featuring Walker Jenkins."
+series: "2026 Bowman"
+parallel: "Green Pattern"
+print_run: 75
+rookie_card: false
+autograph: false
+serial_numbered: true
+release_date: "2026-05-13"
+image_url: "https://example.com/cards/2026-bowman/base-prospects-BP-98-green-pattern.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Bowman#Insertion_Ratios"

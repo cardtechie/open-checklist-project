@@ -1,0 +1,22 @@
+number: "67"
+uuid: "ff8d814f-1870-4d8a-b6f3-4eba39925ec5"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-bowman"
+subjects:
+  - name: "Yordan Alvarez"
+    role: "Player"
+    team: "Houston Astros"
+card_name: "Yordan Alvarez - Base - Purple Pattern"
+description: "Purple Pattern parallel of Base card featuring Yordan Alvarez."
+series: "2026 Bowman"
+parallel: "Purple Pattern"
+print_run: 250
+rookie_card: false
+autograph: false
+serial_numbered: true
+release_date: "2026-05-13"
+image_url: "https://example.com/cards/2026-bowman/67-purple-pattern.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Bowman#Insertion_Ratios"

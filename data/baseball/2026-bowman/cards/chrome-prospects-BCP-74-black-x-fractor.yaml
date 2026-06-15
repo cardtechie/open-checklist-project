@@ -1,0 +1,23 @@
+number: "BCP-74"
+uuid: "fe21f334-3b66-496e-971d-796768681d70"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-bowman"
+subjects:
+  - name: "Jack Wheeler"
+    role: "Player"
+    team: "Texas Rangers"
+subset: "Chrome Prospects"
+card_name: "Jack Wheeler - Chrome Prospects - Black X-Fractor"
+description: "Black X-Fractor parallel of Chrome Prospects card featuring Jack Wheeler."
+series: "2026 Bowman"
+parallel: "Black X-Fractor"
+print_run: 10
+rookie_card: false
+autograph: false
+serial_numbered: true
+release_date: "2026-05-13"
+image_url: "https://example.com/cards/2026-bowman/chrome-prospects-BCP-74-black-x-fractor.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Bowman#Insertion_Ratios"

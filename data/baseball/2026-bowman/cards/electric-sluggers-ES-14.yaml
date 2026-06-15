@@ -1,0 +1,19 @@
+number: "ES-14"
+uuid: "3d4c7c1e-acb8-449e-9ef3-f150858deec3"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-bowman"
+subjects:
+  - name: "Cal Raleigh"
+    role: "Player"
+    team: "Seattle Mariners"
+subset: "Electric Sluggers"
+card_name: "Cal Raleigh - Electric Sluggers"
+description: "Electric Sluggers card featuring Cal Raleigh."
+series: "2026 Bowman"
+print_run: 69625
+rookie_card: false
+autograph: false
+serial_numbered: false
+release_date: "2026-05-13"
+image_url: "https://example.com/cards/2026-bowman/electric-sluggers-ES-14.jpg"

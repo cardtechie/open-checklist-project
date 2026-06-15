@@ -1,0 +1,23 @@
+number: "ES-1"
+uuid: "c545ef3d-0183-4661-8a52-cdee20fd3449"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-bowman"
+subjects:
+  - name: "Francisco Lindor"
+    role: "Player"
+    team: "New York Mets"
+subset: "Electric Sluggers"
+card_name: "Francisco Lindor - Electric Sluggers - Mini-Diamond Refractor"
+description: "Mini-Diamond Refractor parallel of Electric Sluggers card featuring Francisco Lindor."
+series: "2026 Bowman"
+parallel: "Mini-Diamond Refractor"
+print_run: 150
+rookie_card: false
+autograph: false
+serial_numbered: true
+release_date: "2026-05-13"
+image_url: "https://example.com/cards/2026-bowman/electric-sluggers-ES-1-mini-diamond-refractor.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Bowman#Insertion_Ratios"

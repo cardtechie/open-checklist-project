@@ -1,0 +1,23 @@
+number: "BP-35"
+uuid: "559ddad3-0804-43b3-b01a-2b0cb9a223e0"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-bowman"
+subjects:
+  - name: "Travis Bazzana"
+    role: "Player"
+    team: "Cleveland Guardians"
+subset: "Base Prospects"
+card_name: "Travis Bazzana - Base Prospects - Purple"
+description: "Purple parallel of Base Prospects card featuring Travis Bazzana."
+series: "2026 Bowman"
+parallel: "Purple"
+print_run: 250
+rookie_card: false
+autograph: false
+serial_numbered: true
+release_date: "2026-05-13"
+image_url: "https://example.com/cards/2026-bowman/base-prospects-BP-35-purple.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Bowman#Insertion_Ratios"

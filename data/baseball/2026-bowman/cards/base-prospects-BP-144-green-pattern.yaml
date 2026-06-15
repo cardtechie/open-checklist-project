@@ -1,0 +1,23 @@
+number: "BP-144"
+uuid: "1a28ea20-e00e-4490-97e9-a39ee3c70fe7"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-bowman"
+subjects:
+  - name: "Colby Shelton"
+    role: "Player"
+    team: "Chicago White Sox"
+subset: "Base Prospects"
+card_name: "Colby Shelton - Base Prospects - Green Pattern"
+description: "Green Pattern parallel of Base Prospects card featuring Colby Shelton."
+series: "2026 Bowman"
+parallel: "Green Pattern"
+print_run: 75
+rookie_card: false
+autograph: false
+serial_numbered: true
+release_date: "2026-05-13"
+image_url: "https://example.com/cards/2026-bowman/base-prospects-BP-144-green-pattern.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Bowman#Insertion_Ratios"

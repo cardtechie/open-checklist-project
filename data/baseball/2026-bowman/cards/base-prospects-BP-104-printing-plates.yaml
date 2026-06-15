@@ -1,0 +1,23 @@
+number: "BP-104"
+uuid: "bc9490b8-09e0-4946-9cfd-6cd9e5cb026e"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-bowman"
+subjects:
+  - name: "Henry Lalane"
+    role: "Player"
+    team: "New York Yankees"
+subset: "Base Prospects"
+card_name: "Henry Lalane - Base Prospects - Printing Plates"
+description: "Printing Plates parallel of Base Prospects card featuring Henry Lalane."
+series: "2026 Bowman"
+parallel: "Printing Plates"
+print_run: 4
+rookie_card: false
+autograph: false
+serial_numbered: true
+release_date: "2026-05-13"
+image_url: "https://example.com/cards/2026-bowman/base-prospects-BP-104-printing-plates.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Bowman#Insertion_Ratios"

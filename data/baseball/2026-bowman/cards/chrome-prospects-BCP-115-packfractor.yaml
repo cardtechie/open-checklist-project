@@ -1,0 +1,23 @@
+number: "BCP-115"
+uuid: "34fb953e-24b6-409c-94cb-79c5a3b95922"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-bowman"
+subjects:
+  - name: "JJ Wetherholt"
+    role: "Player"
+    team: "St. Louis Cardinals"
+subset: "Chrome Prospects"
+card_name: "JJ Wetherholt - Chrome Prospects - PackFractor"
+description: "PackFractor parallel of Chrome Prospects card featuring JJ Wetherholt."
+series: "2026 Bowman"
+parallel: "PackFractor"
+print_run: 89
+rookie_card: false
+autograph: false
+serial_numbered: true
+release_date: "2026-05-13"
+image_url: "https://example.com/cards/2026-bowman/chrome-prospects-BCP-115-packfractor.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Bowman#Insertion_Ratios"

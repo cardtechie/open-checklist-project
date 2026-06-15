@@ -1,0 +1,23 @@
+number: "BCP-79"
+uuid: "d9c55969-e3e1-4f14-aa0d-0400de6493aa"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-bowman"
+subjects:
+  - name: "Esteban Mejia"
+    role: "Player"
+    team: "Baltimore Orioles"
+subset: "Chrome Prospects"
+card_name: "Esteban Mejia - Chrome Prospects - Black X-Fractor"
+description: "Black X-Fractor parallel of Chrome Prospects card featuring Esteban Mejia."
+series: "2026 Bowman"
+parallel: "Black X-Fractor"
+print_run: 10
+rookie_card: false
+autograph: false
+serial_numbered: true
+release_date: "2026-05-13"
+image_url: "https://example.com/cards/2026-bowman/chrome-prospects-BCP-79-black-x-fractor.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Bowman#Insertion_Ratios"

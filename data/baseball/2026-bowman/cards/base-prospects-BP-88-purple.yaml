@@ -1,0 +1,23 @@
+number: "BP-88"
+uuid: "c0f6860c-51e6-4dbb-aab7-34fad6d2c8d4"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-bowman"
+subjects:
+  - name: "Dasan Hill"
+    role: "Player"
+    team: "Minnesota Twins"
+subset: "Base Prospects"
+card_name: "Dasan Hill - Base Prospects - Purple"
+description: "Purple parallel of Base Prospects card featuring Dasan Hill."
+series: "2026 Bowman"
+parallel: "Purple"
+print_run: 250
+rookie_card: false
+autograph: false
+serial_numbered: true
+release_date: "2026-05-13"
+image_url: "https://example.com/cards/2026-bowman/base-prospects-BP-88-purple.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Bowman#Insertion_Ratios"

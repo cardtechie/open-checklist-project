@@ -1,0 +1,23 @@
+number: "BCP-47"
+uuid: "789ad0df-0795-47ad-a70e-2bf3600f7898"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-bowman"
+subjects:
+  - name: "Handelfry Encarnacion"
+    role: "Player"
+    team: "Milwaukee Brewers"
+subset: "Chrome Prospects"
+card_name: "Handelfry Encarnacion - Chrome Prospects - SuperFractor"
+description: "SuperFractor parallel of Chrome Prospects card featuring Handelfry Encarnacion."
+series: "2026 Bowman"
+parallel: "SuperFractor"
+print_run: 1
+rookie_card: false
+autograph: false
+serial_numbered: true
+release_date: "2026-05-13"
+image_url: "https://example.com/cards/2026-bowman/chrome-prospects-BCP-47-superfractor.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Bowman#Insertion_Ratios"

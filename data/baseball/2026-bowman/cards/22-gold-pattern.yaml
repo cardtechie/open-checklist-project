@@ -1,0 +1,22 @@
+number: "22"
+uuid: "8f513f5e-8e9f-4b19-a456-0cf207a0e70f"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-bowman"
+subjects:
+  - name: "Andrew McCutchen"
+    role: "Player"
+    team: "Pittsburgh Pirates"
+card_name: "Andrew McCutchen - Base - Gold Pattern"
+description: "Gold Pattern parallel of Base card featuring Andrew McCutchen."
+series: "2026 Bowman"
+parallel: "Gold Pattern"
+print_run: 50
+rookie_card: false
+autograph: false
+serial_numbered: true
+release_date: "2026-05-13"
+image_url: "https://example.com/cards/2026-bowman/22-gold-pattern.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Bowman#Insertion_Ratios"

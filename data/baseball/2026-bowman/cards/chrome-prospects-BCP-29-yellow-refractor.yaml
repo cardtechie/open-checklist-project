@@ -1,0 +1,23 @@
+number: "BCP-29"
+uuid: "6b03764b-b986-46fc-be6d-0f3b3ad6075c"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-bowman"
+subjects:
+  - name: "Victor Arias"
+    role: "Player"
+    team: "Toronto Blue Jays"
+subset: "Chrome Prospects"
+card_name: "Victor Arias - Chrome Prospects - Yellow Refractor"
+description: "Yellow Refractor parallel of Chrome Prospects card featuring Victor Arias."
+series: "2026 Bowman"
+parallel: "Yellow Refractor"
+print_run: 75
+rookie_card: false
+autograph: false
+serial_numbered: true
+release_date: "2026-05-13"
+image_url: "https://example.com/cards/2026-bowman/chrome-prospects-BCP-29-yellow-refractor.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Bowman#Insertion_Ratios"

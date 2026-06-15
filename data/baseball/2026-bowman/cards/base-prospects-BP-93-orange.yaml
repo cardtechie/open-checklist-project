@@ -1,0 +1,23 @@
+number: "BP-93"
+uuid: "343db839-ec87-4a99-bbfa-5dc685fc79f6"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-bowman"
+subjects:
+  - name: "Jorge Quintana"
+    role: "Player"
+    team: "San Diego Padres"
+subset: "Base Prospects"
+card_name: "Jorge Quintana - Base Prospects - Orange"
+description: "Orange parallel of Base Prospects card featuring Jorge Quintana."
+series: "2026 Bowman"
+parallel: "Orange"
+print_run: 25
+rookie_card: false
+autograph: false
+serial_numbered: true
+release_date: "2026-05-13"
+image_url: "https://example.com/cards/2026-bowman/base-prospects-BP-93-orange.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Bowman#Insertion_Ratios"

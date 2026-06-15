@@ -1,0 +1,23 @@
+number: "BCP-137"
+uuid: "46afb284-abd8-4164-8a73-3240ce8f56ef"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-bowman"
+subjects:
+  - name: "Braden Nett"
+    role: "Player"
+    team: "Athletics"
+subset: "Chrome Prospects"
+card_name: "Braden Nett - Chrome Prospects - Reptilian Gold Refractor"
+description: "Reptilian Gold Refractor parallel of Chrome Prospects card featuring Braden Nett."
+series: "2026 Bowman"
+parallel: "Reptilian Gold Refractor"
+print_run: 50
+rookie_card: false
+autograph: false
+serial_numbered: true
+release_date: "2026-05-13"
+image_url: "https://example.com/cards/2026-bowman/chrome-prospects-BCP-137-reptilian-gold-refractor.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Bowman#Insertion_Ratios"

@@ -1,0 +1,23 @@
+number: "BP-8"
+uuid: "238a1adc-a2a8-4bae-b9e7-e4d33a3c2e4e"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-bowman"
+subjects:
+  - name: "Anderson Araujo"
+    role: "Player"
+    team: "Philadelphia Phillies"
+subset: "Base Prospects"
+card_name: "Anderson Araujo - Base Prospects - Purple"
+description: "Purple parallel of Base Prospects card featuring Anderson Araujo."
+series: "2026 Bowman"
+parallel: "Purple"
+print_run: 250
+rookie_card: false
+autograph: false
+serial_numbered: true
+release_date: "2026-05-13"
+image_url: "https://example.com/cards/2026-bowman/base-prospects-BP-8-purple.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Bowman#Insertion_Ratios"

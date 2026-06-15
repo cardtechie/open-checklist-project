@@ -1,0 +1,22 @@
+number: "27"
+uuid: "089c320e-f2c9-4e27-936b-f97954880855"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-bowman"
+subjects:
+  - name: "Bo Bichette"
+    role: "Player"
+    team: "Toronto Blue Jays"
+card_name: "Bo Bichette - Base - Sky Blue"
+description: "Sky Blue parallel of Base card featuring Bo Bichette."
+series: "2026 Bowman"
+parallel: "Sky Blue"
+print_run: 499
+rookie_card: false
+autograph: false
+serial_numbered: true
+release_date: "2026-05-13"
+image_url: "https://example.com/cards/2026-bowman/27-sky-blue.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Bowman#Insertion_Ratios"

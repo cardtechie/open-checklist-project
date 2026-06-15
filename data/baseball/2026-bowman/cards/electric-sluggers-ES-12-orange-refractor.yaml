@@ -1,0 +1,23 @@
+number: "ES-12"
+uuid: "e82db501-c530-43c7-a61d-03cf99638c8d"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-bowman"
+subjects:
+  - name: "JJ Wetherholt"
+    role: "Player"
+    team: "St. Louis Cardinals"
+subset: "Electric Sluggers"
+card_name: "JJ Wetherholt - Electric Sluggers - Orange Refractor"
+description: "Orange Refractor parallel of Electric Sluggers card featuring JJ Wetherholt."
+series: "2026 Bowman"
+parallel: "Orange Refractor"
+print_run: 25
+rookie_card: false
+autograph: false
+serial_numbered: true
+release_date: "2026-05-13"
+image_url: "https://example.com/cards/2026-bowman/electric-sluggers-ES-12-orange-refractor.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Bowman#Insertion_Ratios"

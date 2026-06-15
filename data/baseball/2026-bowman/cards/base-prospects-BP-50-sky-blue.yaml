@@ -1,0 +1,23 @@
+number: "BP-50"
+uuid: "e0e7b352-062b-455e-be6b-f3d443545eb6"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-bowman"
+subjects:
+  - name: "Daniel Dickinson"
+    role: "Player"
+    team: "Milwaukee Brewers"
+subset: "Base Prospects"
+card_name: "Daniel Dickinson - Base Prospects - Sky Blue"
+description: "Sky Blue parallel of Base Prospects card featuring Daniel Dickinson."
+series: "2026 Bowman"
+parallel: "Sky Blue"
+print_run: 399
+rookie_card: false
+autograph: false
+serial_numbered: true
+release_date: "2026-05-13"
+image_url: "https://example.com/cards/2026-bowman/base-prospects-BP-50-sky-blue.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Bowman#Insertion_Ratios"

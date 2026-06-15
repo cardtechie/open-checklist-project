@@ -1,0 +1,22 @@
+number: "21"
+uuid: "f11a9877-7354-4df6-a695-5196525ae324"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-bowman"
+subjects:
+  - name: "Michael Harris II"
+    role: "Player"
+    team: "Atlanta Braves"
+card_name: "Michael Harris II - Base - Blue Pattern"
+description: "Blue Pattern parallel of Base card featuring Michael Harris II."
+series: "2026 Bowman"
+parallel: "Blue Pattern"
+print_run: 150
+rookie_card: false
+autograph: false
+serial_numbered: true
+release_date: "2026-05-13"
+image_url: "https://example.com/cards/2026-bowman/21-blue-pattern.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Bowman#Insertion_Ratios"

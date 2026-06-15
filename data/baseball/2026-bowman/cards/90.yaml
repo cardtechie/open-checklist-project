@@ -1,0 +1,17 @@
+number: "90"
+uuid: "ccaadcb9-617c-4d5a-a934-429e1b05d53d"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-bowman"
+subjects:
+  - name: "Marcelo Mayer"
+    role: "Player"
+    team: "Boston Red Sox"
+card_name: "Marcelo Mayer - Base"
+description: "Base card featuring Marcelo Mayer."
+series: "2026 Bowman"
+rookie_card: false
+autograph: false
+serial_numbered: false
+release_date: "2026-05-13"
+image_url: "https://example.com/cards/2026-bowman/90.jpg"

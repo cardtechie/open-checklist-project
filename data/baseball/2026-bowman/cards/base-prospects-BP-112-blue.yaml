@@ -1,0 +1,23 @@
+number: "BP-112"
+uuid: "0cca2893-ef0f-4611-a640-251e52a12163"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-bowman"
+subjects:
+  - name: "Jamie Arnold"
+    role: "Player"
+    team: "Athletics"
+subset: "Base Prospects"
+card_name: "Jamie Arnold - Base Prospects - Blue"
+description: "Blue parallel of Base Prospects card featuring Jamie Arnold."
+series: "2026 Bowman"
+parallel: "Blue"
+print_run: 150
+rookie_card: false
+autograph: false
+serial_numbered: true
+release_date: "2026-05-13"
+image_url: "https://example.com/cards/2026-bowman/base-prospects-BP-112-blue.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Bowman#Insertion_Ratios"

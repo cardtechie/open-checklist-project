@@ -1,0 +1,22 @@
+number: "42"
+uuid: "dc55a3cc-2863-419e-9532-593cfe0fc556"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-bowman"
+subjects:
+  - name: "Zach Neto"
+    role: "Player"
+    team: "Los Angeles Angels"
+card_name: "Zach Neto - Base - Bowman Scouts' Top 100 Aqua Refractor"
+description: "Bowman Scouts' Top 100 Aqua Refractor parallel of Base card featuring Zach Neto."
+series: "2026 Bowman"
+parallel: "Bowman Scouts' Top 100 Aqua Refractor"
+print_run: 125
+rookie_card: false
+autograph: false
+serial_numbered: true
+release_date: "2026-05-13"
+image_url: "https://example.com/cards/2026-bowman/42-bowman-scouts-top-100-aqua-refractor.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Bowman#Insertion_Ratios"

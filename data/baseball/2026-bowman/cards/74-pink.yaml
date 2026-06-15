@@ -1,0 +1,22 @@
+number: "74"
+uuid: "a9d0bb54-f9d6-4b14-9202-cb7e6e067a09"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-bowman"
+subjects:
+  - name: "Tatsuya Imai"
+    role: "Player"
+    team: "Houston Astros"
+card_name: "Tatsuya Imai - Base - Pink"
+description: "Pink parallel of Base card featuring Tatsuya Imai."
+series: "2026 Bowman"
+parallel: "Pink"
+print_run: 175
+rookie_card: true
+autograph: false
+serial_numbered: true
+release_date: "2026-05-13"
+image_url: "https://example.com/cards/2026-bowman/74-pink.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Bowman#Insertion_Ratios"

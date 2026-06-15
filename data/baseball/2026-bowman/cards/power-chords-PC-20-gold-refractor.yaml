@@ -1,0 +1,23 @@
+number: "PC-20"
+uuid: "8f0dc3fa-1961-49c5-a3a4-3a179ff687f2"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-bowman"
+subjects:
+  - name: "Ethan Holliday"
+    role: "Player"
+    team: "Colorado Rockies"
+subset: "Power Chords"
+card_name: "Ethan Holliday - Power Chords - Gold Refractor"
+description: "Gold Refractor parallel of Power Chords card featuring Ethan Holliday."
+series: "2026 Bowman"
+parallel: "Gold Refractor"
+print_run: 50
+rookie_card: false
+autograph: false
+serial_numbered: true
+release_date: "2026-05-13"
+image_url: "https://example.com/cards/2026-bowman/power-chords-PC-20-gold-refractor.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Bowman#Insertion_Ratios"

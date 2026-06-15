@@ -1,0 +1,23 @@
+number: "BCP-38"
+uuid: "024bbd82-6ff0-41b1-850e-1042186f8924"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-bowman"
+subjects:
+  - name: "Luis Cova"
+    role: "Player"
+    team: "Miami Marlins"
+subset: "Chrome Prospects"
+card_name: "Luis Cova - Chrome Prospects - Reptilian Orange Refractor"
+description: "Reptilian Orange Refractor parallel of Chrome Prospects card featuring Luis Cova."
+series: "2026 Bowman"
+parallel: "Reptilian Orange Refractor"
+print_run: 25
+rookie_card: false
+autograph: false
+serial_numbered: true
+release_date: "2026-05-13"
+image_url: "https://example.com/cards/2026-bowman/chrome-prospects-BCP-38-reptilian-orange-refractor.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Bowman#Insertion_Ratios"

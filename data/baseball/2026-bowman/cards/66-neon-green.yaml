@@ -1,0 +1,22 @@
+number: "66"
+uuid: "5fa04344-8393-4767-b136-e485b8c4138c"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-bowman"
+subjects:
+  - name: "Carter Jensen"
+    role: "Player"
+    team: "Kansas City Royals"
+card_name: "Carter Jensen - Base - Neon Green"
+description: "Neon Green parallel of Base card featuring Carter Jensen."
+series: "2026 Bowman"
+parallel: "Neon Green"
+print_run: 399
+rookie_card: true
+autograph: false
+serial_numbered: true
+release_date: "2026-05-13"
+image_url: "https://example.com/cards/2026-bowman/66-neon-green.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Bowman#Insertion_Ratios"

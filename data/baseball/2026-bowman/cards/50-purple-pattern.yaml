@@ -1,0 +1,22 @@
+number: "50"
+uuid: "461c726e-f84e-4b8e-9d40-ec1b27af798b"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-bowman"
+subjects:
+  - name: "Jackson Merrill"
+    role: "Player"
+    team: "San Diego Padres"
+card_name: "Jackson Merrill - Base - Purple Pattern"
+description: "Purple Pattern parallel of Base card featuring Jackson Merrill."
+series: "2026 Bowman"
+parallel: "Purple Pattern"
+print_run: 250
+rookie_card: false
+autograph: false
+serial_numbered: true
+release_date: "2026-05-13"
+image_url: "https://example.com/cards/2026-bowman/50-purple-pattern.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Bowman#Insertion_Ratios"

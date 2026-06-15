@@ -1,0 +1,23 @@
+number: "BP-102"
+uuid: "a167953f-ed2d-480b-866c-aa3cd7c093e8"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-bowman"
+subjects:
+  - name: "Eric Hartman"
+    role: "Player"
+    team: "Atlanta Braves"
+subset: "Base Prospects"
+card_name: "Eric Hartman - Base Prospects - Sky Blue"
+description: "Sky Blue parallel of Base Prospects card featuring Eric Hartman."
+series: "2026 Bowman"
+parallel: "Sky Blue"
+print_run: 399
+rookie_card: false
+autograph: false
+serial_numbered: true
+release_date: "2026-05-13"
+image_url: "https://example.com/cards/2026-bowman/base-prospects-BP-102-sky-blue.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Bowman#Insertion_Ratios"

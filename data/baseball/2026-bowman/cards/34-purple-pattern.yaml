@@ -1,0 +1,22 @@
+number: "34"
+uuid: "e2a14845-92ac-4ac3-a73f-2bfad5e88b7e"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-bowman"
+subjects:
+  - name: "Kyle Stowers"
+    role: "Player"
+    team: "Miami Marlins"
+card_name: "Kyle Stowers - Base - Purple Pattern"
+description: "Purple Pattern parallel of Base card featuring Kyle Stowers."
+series: "2026 Bowman"
+parallel: "Purple Pattern"
+print_run: 250
+rookie_card: false
+autograph: false
+serial_numbered: true
+release_date: "2026-05-13"
+image_url: "https://example.com/cards/2026-bowman/34-purple-pattern.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Bowman#Insertion_Ratios"

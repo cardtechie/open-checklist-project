@@ -1,0 +1,22 @@
+number: "67"
+uuid: "c4b905d5-503e-4a58-a2df-92f84ca1e551"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-bowman"
+subjects:
+  - name: "Yordan Alvarez"
+    role: "Player"
+    team: "Houston Astros"
+card_name: "Yordan Alvarez - Base - Red"
+description: "Red parallel of Base card featuring Yordan Alvarez."
+series: "2026 Bowman"
+parallel: "Red"
+print_run: 5
+rookie_card: false
+autograph: false
+serial_numbered: true
+release_date: "2026-05-13"
+image_url: "https://example.com/cards/2026-bowman/67-red.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Bowman#Insertion_Ratios"

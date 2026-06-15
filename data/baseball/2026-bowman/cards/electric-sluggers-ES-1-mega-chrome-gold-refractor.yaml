@@ -1,0 +1,23 @@
+number: "ES-1"
+uuid: "abd73be1-1172-4f79-859f-9af08ff1c955"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-bowman"
+subjects:
+  - name: "Francisco Lindor"
+    role: "Player"
+    team: "New York Mets"
+subset: "Electric Sluggers"
+card_name: "Francisco Lindor - Electric Sluggers - Mega Chrome Gold Refractor"
+description: "Mega Chrome Gold Refractor parallel of Electric Sluggers card featuring Francisco Lindor."
+series: "2026 Bowman"
+parallel: "Mega Chrome Gold Refractor"
+print_run: 50
+rookie_card: false
+autograph: false
+serial_numbered: true
+release_date: "2026-05-13"
+image_url: "https://example.com/cards/2026-bowman/electric-sluggers-ES-1-mega-chrome-gold-refractor.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Bowman#Insertion_Ratios"

@@ -1,0 +1,22 @@
+number: "20"
+uuid: "1b0494d9-b7ed-4973-9929-27223e6fb309"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-bowman"
+subjects:
+  - name: "Kyle Schwarber"
+    role: "Player"
+    team: "Philadelphia Phillies"
+card_name: "Kyle Schwarber - Base - Sky Blue"
+description: "Sky Blue parallel of Base card featuring Kyle Schwarber."
+series: "2026 Bowman"
+parallel: "Sky Blue"
+print_run: 499
+rookie_card: false
+autograph: false
+serial_numbered: true
+release_date: "2026-05-13"
+image_url: "https://example.com/cards/2026-bowman/20-sky-blue.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Bowman#Insertion_Ratios"

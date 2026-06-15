@@ -1,0 +1,23 @@
+number: "CPA-WS"
+uuid: "44fbaba8-eedf-4692-abc7-b929a8d34954"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-bowman"
+subjects:
+  - name: "Wyatt Sanford"
+    role: "Player"
+    team: "Pittsburgh Pirates"
+subset: "Chrome Prospect Autographs"
+card_name: "Wyatt Sanford - Chrome Prospect Autographs - SuperFractor"
+description: "SuperFractor parallel of Autographed Chrome Prospect Autographs card featuring Wyatt Sanford."
+series: "2026 Bowman"
+parallel: "SuperFractor"
+print_run: 1
+rookie_card: false
+autograph: true
+serial_numbered: true
+release_date: "2026-05-13"
+image_url: "https://example.com/cards/2026-bowman/chrome-prospect-autographs-CPA-WS-superfractor.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Bowman#Insertion_Ratios"

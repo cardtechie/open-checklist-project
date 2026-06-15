@@ -1,0 +1,22 @@
+number: "32"
+uuid: "5a953c97-69b5-4e8b-815e-f8f8e1797493"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-bowman"
+subjects:
+  - name: "Ketel Marte"
+    role: "Player"
+    team: "Arizona Diamondbacks"
+card_name: "Ketel Marte - Base - Purple"
+description: "Purple parallel of Base card featuring Ketel Marte."
+series: "2026 Bowman"
+parallel: "Purple"
+print_run: 250
+rookie_card: false
+autograph: false
+serial_numbered: true
+release_date: "2026-05-13"
+image_url: "https://example.com/cards/2026-bowman/32-purple.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Bowman#Insertion_Ratios"

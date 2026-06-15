@@ -1,0 +1,23 @@
+number: "BP-48"
+uuid: "fac53acf-40ca-46e3-8f3b-2cd5f8177d20"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-bowman"
+subjects:
+  - name: "Shotaro Morii"
+    role: "Player"
+    team: "Athletics"
+subset: "Base Prospects"
+card_name: "Shotaro Morii - Base Prospects - Yellow Pattern"
+description: "Yellow Pattern parallel of Base Prospects card featuring Shotaro Morii."
+series: "2026 Bowman"
+parallel: "Yellow Pattern"
+print_run: 75
+rookie_card: false
+autograph: false
+serial_numbered: true
+release_date: "2026-05-13"
+image_url: "https://example.com/cards/2026-bowman/base-prospects-BP-48-yellow-pattern.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Bowman#Insertion_Ratios"

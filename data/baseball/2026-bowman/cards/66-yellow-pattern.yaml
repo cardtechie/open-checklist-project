@@ -1,0 +1,22 @@
+number: "66"
+uuid: "a1c4c4eb-4e11-439b-a356-0eb75230ccb0"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-bowman"
+subjects:
+  - name: "Carter Jensen"
+    role: "Player"
+    team: "Kansas City Royals"
+card_name: "Carter Jensen - Base - Yellow Pattern"
+description: "Yellow Pattern parallel of Base card featuring Carter Jensen."
+series: "2026 Bowman"
+parallel: "Yellow Pattern"
+print_run: 75
+rookie_card: true
+autograph: false
+serial_numbered: true
+release_date: "2026-05-13"
+image_url: "https://example.com/cards/2026-bowman/66-yellow-pattern.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Bowman#Insertion_Ratios"

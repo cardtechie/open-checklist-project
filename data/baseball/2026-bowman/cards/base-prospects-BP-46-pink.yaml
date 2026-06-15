@@ -1,0 +1,23 @@
+number: "BP-46"
+uuid: "eac69592-9c67-4083-ac16-7cc522437917"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-bowman"
+subjects:
+  - name: "Charlie Condon"
+    role: "Player"
+    team: "Colorado Rockies"
+subset: "Base Prospects"
+card_name: "Charlie Condon - Base Prospects - Pink"
+description: "Pink parallel of Base Prospects card featuring Charlie Condon."
+series: "2026 Bowman"
+parallel: "Pink"
+print_run: 150
+rookie_card: false
+autograph: false
+serial_numbered: true
+release_date: "2026-05-13"
+image_url: "https://example.com/cards/2026-bowman/base-prospects-BP-46-pink.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Bowman#Insertion_Ratios"

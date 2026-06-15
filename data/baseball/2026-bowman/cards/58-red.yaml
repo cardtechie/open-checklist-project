@@ -1,0 +1,22 @@
+number: "58"
+uuid: "ebd058d9-651c-449b-bf59-6fca25f4c142"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-bowman"
+subjects:
+  - name: "Bryce Eldridge"
+    role: "Player"
+    team: "San Francisco Giants"
+card_name: "Bryce Eldridge - Base - Red"
+description: "Red parallel of Base card featuring Bryce Eldridge."
+series: "2026 Bowman"
+parallel: "Red"
+print_run: 5
+rookie_card: true
+autograph: false
+serial_numbered: true
+release_date: "2026-05-13"
+image_url: "https://example.com/cards/2026-bowman/58-red.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Bowman#Insertion_Ratios"

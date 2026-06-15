@@ -1,0 +1,21 @@
+number: "16"
+uuid: "7d1eb376-f158-44e6-8d29-5bf66d3c3b45"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-bowman"
+subjects:
+  - name: "Carson Whisenhunt"
+    role: "Player"
+    team: "San Francisco Giants"
+card_name: "Carson Whisenhunt - Base - Bowman Logo"
+description: "Bowman Logo parallel of Base card featuring Carson Whisenhunt."
+series: "2026 Bowman"
+parallel: "Bowman Logo"
+rookie_card: true
+autograph: false
+serial_numbered: false
+release_date: "2026-05-13"
+image_url: "https://example.com/cards/2026-bowman/16-bowman-logo.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Bowman#Insertion_Ratios"

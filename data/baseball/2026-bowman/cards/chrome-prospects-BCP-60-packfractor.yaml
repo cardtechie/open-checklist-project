@@ -1,0 +1,23 @@
+number: "BCP-60"
+uuid: "361204dc-f577-44a6-a25e-d285e11e93c6"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-bowman"
+subjects:
+  - name: "Isaiah Jackson"
+    role: "Player"
+    team: "Los Angeles Angels"
+subset: "Chrome Prospects"
+card_name: "Isaiah Jackson - Chrome Prospects - PackFractor"
+description: "PackFractor parallel of Chrome Prospects card featuring Isaiah Jackson."
+series: "2026 Bowman"
+parallel: "PackFractor"
+print_run: 89
+rookie_card: false
+autograph: false
+serial_numbered: true
+release_date: "2026-05-13"
+image_url: "https://example.com/cards/2026-bowman/chrome-prospects-BCP-60-packfractor.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Bowman#Insertion_Ratios"

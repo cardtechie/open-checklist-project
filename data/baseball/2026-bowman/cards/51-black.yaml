@@ -1,0 +1,22 @@
+number: "51"
+uuid: "94e26a38-f85f-4de5-8e5b-6925ce20fa63"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-bowman"
+subjects:
+  - name: "Garrett Crochet"
+    role: "Player"
+    team: "Boston Red Sox"
+card_name: "Garrett Crochet - Base - Black"
+description: "Black parallel of Base card featuring Garrett Crochet."
+series: "2026 Bowman"
+parallel: "Black"
+print_run: 10
+rookie_card: false
+autograph: false
+serial_numbered: true
+release_date: "2026-05-13"
+image_url: "https://example.com/cards/2026-bowman/51-black.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Bowman#Insertion_Ratios"

@@ -1,0 +1,22 @@
+number: "43"
+uuid: "5fa41b75-4dca-4c49-8958-af6c88b29437"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-bowman"
+subjects:
+  - name: "Jackson Holliday"
+    role: "Player"
+    team: "Baltimore Orioles"
+card_name: "Jackson Holliday - Base - Blue"
+description: "Blue parallel of Base card featuring Jackson Holliday."
+series: "2026 Bowman"
+parallel: "Blue"
+print_run: 150
+rookie_card: false
+autograph: false
+serial_numbered: true
+release_date: "2026-05-13"
+image_url: "https://example.com/cards/2026-bowman/43-blue.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Bowman#Insertion_Ratios"

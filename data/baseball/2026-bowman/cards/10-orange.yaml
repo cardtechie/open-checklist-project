@@ -1,0 +1,22 @@
+number: "10"
+uuid: "6f037511-3599-4ad1-99e2-1c4e91965d8e"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-bowman"
+subjects:
+  - name: "Nick Kurtz"
+    role: "Player"
+    team: "Athletics"
+card_name: "Nick Kurtz - Base - Orange"
+description: "Orange parallel of Base card featuring Nick Kurtz."
+series: "2026 Bowman"
+parallel: "Orange"
+print_run: 25
+rookie_card: false
+autograph: false
+serial_numbered: true
+release_date: "2026-05-13"
+image_url: "https://example.com/cards/2026-bowman/10-orange.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Bowman#Insertion_Ratios"

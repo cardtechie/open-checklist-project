@@ -1,0 +1,22 @@
+number: "69"
+uuid: "96d2f194-8ba1-4733-9097-25bdcccfa153"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-bowman"
+subjects:
+  - name: "Dylan Beavers"
+    role: "Player"
+    team: "Baltimore Orioles"
+card_name: "Dylan Beavers - Base - Black"
+description: "Black parallel of Base card featuring Dylan Beavers."
+series: "2026 Bowman"
+parallel: "Black"
+print_run: 10
+rookie_card: true
+autograph: false
+serial_numbered: true
+release_date: "2026-05-13"
+image_url: "https://example.com/cards/2026-bowman/69-black.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Bowman#Insertion_Ratios"

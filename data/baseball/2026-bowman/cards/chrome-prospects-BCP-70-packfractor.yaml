@@ -1,0 +1,23 @@
+number: "BCP-70"
+uuid: "014b8fec-063b-4d64-86e8-fa5a1c598c6d"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-bowman"
+subjects:
+  - name: "Kash Mayfield"
+    role: "Player"
+    team: "San Diego Padres"
+subset: "Chrome Prospects"
+card_name: "Kash Mayfield - Chrome Prospects - PackFractor"
+description: "PackFractor parallel of Chrome Prospects card featuring Kash Mayfield."
+series: "2026 Bowman"
+parallel: "PackFractor"
+print_run: 89
+rookie_card: false
+autograph: false
+serial_numbered: true
+release_date: "2026-05-13"
+image_url: "https://example.com/cards/2026-bowman/chrome-prospects-BCP-70-packfractor.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Bowman#Insertion_Ratios"

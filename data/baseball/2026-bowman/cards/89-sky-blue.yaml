@@ -1,0 +1,22 @@
+number: "89"
+uuid: "ae28c06b-a649-40f6-8052-b4c54807633f"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-bowman"
+subjects:
+  - name: "Rafael Devers"
+    role: "Player"
+    team: "San Francisco Giants"
+card_name: "Rafael Devers - Base - Sky Blue"
+description: "Sky Blue parallel of Base card featuring Rafael Devers."
+series: "2026 Bowman"
+parallel: "Sky Blue"
+print_run: 499
+rookie_card: false
+autograph: false
+serial_numbered: true
+release_date: "2026-05-13"
+image_url: "https://example.com/cards/2026-bowman/89-sky-blue.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Bowman#Insertion_Ratios"

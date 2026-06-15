@@ -1,0 +1,22 @@
+number: "24"
+uuid: "16db8379-25fc-4a5e-8f84-ecf6499bd5c6"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-bowman"
+subjects:
+  - name: "Will Smith"
+    role: "Player"
+    team: "Los Angeles Dodgers"
+card_name: "Will Smith - Base - Printing Plates"
+description: "Printing Plates parallel of Base card featuring Will Smith."
+series: "2026 Bowman"
+parallel: "Printing Plates"
+print_run: 4
+rookie_card: false
+autograph: false
+serial_numbered: true
+release_date: "2026-05-13"
+image_url: "https://example.com/cards/2026-bowman/24-printing-plates.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Bowman#Insertion_Ratios"

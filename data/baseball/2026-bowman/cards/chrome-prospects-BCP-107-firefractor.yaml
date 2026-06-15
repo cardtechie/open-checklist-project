@@ -1,0 +1,23 @@
+number: "BCP-107"
+uuid: "818bbd2c-a5a5-46ed-b8e2-baa77c1de0e7"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-bowman"
+subjects:
+  - name: "Miguel Mendez"
+    role: "Player"
+    team: "San Diego Padres"
+subset: "Chrome Prospects"
+card_name: "Miguel Mendez - Chrome Prospects - FireFractor"
+description: "FireFractor parallel of Chrome Prospects card featuring Miguel Mendez."
+series: "2026 Bowman"
+parallel: "FireFractor"
+print_run: 3
+rookie_card: false
+autograph: false
+serial_numbered: true
+release_date: "2026-05-13"
+image_url: "https://example.com/cards/2026-bowman/chrome-prospects-BCP-107-firefractor.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Bowman#Insertion_Ratios"

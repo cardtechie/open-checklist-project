@@ -1,0 +1,23 @@
+number: "BP-39"
+uuid: "06da2237-68f8-4b48-8e6f-a2e37b1dbbb1"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-bowman"
+subjects:
+  - name: "Ryan Waldschmidt"
+    role: "Player"
+    team: "Arizona Diamondbacks"
+subset: "Base Prospects"
+card_name: "Ryan Waldschmidt - Base Prospects - Orange"
+description: "Orange parallel of Base Prospects card featuring Ryan Waldschmidt."
+series: "2026 Bowman"
+parallel: "Orange"
+print_run: 25
+rookie_card: false
+autograph: false
+serial_numbered: true
+release_date: "2026-05-13"
+image_url: "https://example.com/cards/2026-bowman/base-prospects-BP-39-orange.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Bowman#Insertion_Ratios"

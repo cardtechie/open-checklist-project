@@ -1,0 +1,23 @@
+number: "UR-4"
+uuid: "a00b99fc-75b7-47c2-959b-5682a0386270"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-bowman"
+subjects:
+  - name: "Colt Emerson"
+    role: "Player"
+    team: "Seattle Mariners"
+subset: "Under The Radar"
+card_name: "Colt Emerson - Under The Radar - Autograph Red Refractor"
+description: "Autograph Red Refractor parallel of Under The Radar card featuring Colt Emerson."
+series: "2026 Bowman"
+parallel: "Autograph Red Refractor"
+print_run: 5
+rookie_card: false
+autograph: false
+serial_numbered: true
+release_date: "2026-05-13"
+image_url: "https://example.com/cards/2026-bowman/under-the-radar-UR-4-autograph-red-refractor.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Bowman#Insertion_Ratios"

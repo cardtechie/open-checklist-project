@@ -1,0 +1,23 @@
+number: "ES-18"
+uuid: "47d4f26f-6d1c-4acf-8f9f-7d86b4402948"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-bowman"
+subjects:
+  - name: "Shohei Ohtani"
+    role: "Player"
+    team: "Los Angeles Dodgers"
+subset: "Electric Sluggers"
+card_name: "Shohei Ohtani - Electric Sluggers - Mega Chrome Burgundy Refractor"
+description: "Mega Chrome Burgundy Refractor parallel of Electric Sluggers card featuring Shohei Ohtani."
+series: "2026 Bowman"
+parallel: "Mega Chrome Burgundy Refractor"
+print_run: 299
+rookie_card: false
+autograph: false
+serial_numbered: true
+release_date: "2026-05-13"
+image_url: "https://example.com/cards/2026-bowman/electric-sluggers-ES-18-mega-chrome-burgundy-refractor.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Bowman#Insertion_Ratios"

@@ -1,0 +1,22 @@
+number: "23"
+uuid: "167b029d-85d9-4d78-94f0-248748dab406"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-bowman"
+subjects:
+  - name: "Ronald Acuña Jr."
+    role: "Player"
+    team: "Atlanta Braves"
+card_name: "Ronald Acuña Jr. - Base - Sky Blue"
+description: "Sky Blue parallel of Base card featuring Ronald Acuña Jr.."
+series: "2026 Bowman"
+parallel: "Sky Blue"
+print_run: 499
+rookie_card: false
+autograph: false
+serial_numbered: true
+release_date: "2026-05-13"
+image_url: "https://example.com/cards/2026-bowman/23-sky-blue.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Bowman#Insertion_Ratios"

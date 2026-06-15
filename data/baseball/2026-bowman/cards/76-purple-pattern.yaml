@@ -1,0 +1,22 @@
+number: "76"
+uuid: "c4cdec12-b84f-474b-93c5-2eecb6e41b43"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-bowman"
+subjects:
+  - name: "Tarik Skubal"
+    role: "Player"
+    team: "Detroit Tigers"
+card_name: "Tarik Skubal - Base - Purple Pattern"
+description: "Purple Pattern parallel of Base card featuring Tarik Skubal."
+series: "2026 Bowman"
+parallel: "Purple Pattern"
+print_run: 250
+rookie_card: false
+autograph: false
+serial_numbered: true
+release_date: "2026-05-13"
+image_url: "https://example.com/cards/2026-bowman/76-purple-pattern.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Bowman#Insertion_Ratios"

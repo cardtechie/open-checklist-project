@@ -1,0 +1,23 @@
+number: "CPA-TB"
+uuid: "8b1bf6c6-e9f2-4cc9-91cb-70bbeff18237"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-bowman"
+subjects:
+  - name: "Travis Bazzana"
+    role: "Player"
+    team: "Cleveland Guardians"
+subset: "Chrome Prospect Autographs"
+card_name: "Travis Bazzana - Chrome Prospect Autographs - Sunflower Seeds Refractor"
+description: "Sunflower Seeds Refractor parallel of Autographed Chrome Prospect Autographs card featuring Travis Bazzana."
+series: "2026 Bowman"
+parallel: "Sunflower Seeds Refractor"
+print_run: 5
+rookie_card: false
+autograph: true
+serial_numbered: true
+release_date: "2026-05-13"
+image_url: "https://example.com/cards/2026-bowman/chrome-prospect-autographs-CPA-TB-sunflower-seeds-refractor.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Bowman#Insertion_Ratios"

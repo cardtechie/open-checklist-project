@@ -1,0 +1,22 @@
+number: "97"
+uuid: "4f98f883-127d-4baa-9dde-d5ff1bb8cf58"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-bowman"
+subjects:
+  - name: "Juan Soto"
+    role: "Player"
+    team: "New York Mets"
+card_name: "Juan Soto - Base - Neon Green"
+description: "Neon Green parallel of Base card featuring Juan Soto."
+series: "2026 Bowman"
+parallel: "Neon Green"
+print_run: 399
+rookie_card: false
+autograph: false
+serial_numbered: true
+release_date: "2026-05-13"
+image_url: "https://example.com/cards/2026-bowman/97-neon-green.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Bowman#Insertion_Ratios"

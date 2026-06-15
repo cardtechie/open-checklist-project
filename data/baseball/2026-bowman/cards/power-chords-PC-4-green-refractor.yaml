@@ -1,0 +1,23 @@
+number: "PC-4"
+uuid: "53d08263-1d53-49d7-bbcf-d86dd53091c5"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-bowman"
+subjects:
+  - name: "Jackson Chourio"
+    role: "Player"
+    team: "Milwaukee Brewers"
+subset: "Power Chords"
+card_name: "Jackson Chourio - Power Chords - Green Refractor"
+description: "Green Refractor parallel of Power Chords card featuring Jackson Chourio."
+series: "2026 Bowman"
+parallel: "Green Refractor"
+print_run: 99
+rookie_card: false
+autograph: false
+serial_numbered: true
+release_date: "2026-05-13"
+image_url: "https://example.com/cards/2026-bowman/power-chords-PC-4-green-refractor.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Bowman#Insertion_Ratios"

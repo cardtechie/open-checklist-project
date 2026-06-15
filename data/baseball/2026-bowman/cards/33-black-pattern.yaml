@@ -1,0 +1,22 @@
+number: "33"
+uuid: "09227c19-f9f9-428f-8203-b5382b72a56e"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-bowman"
+subjects:
+  - name: "Brandon Sproat"
+    role: "Player"
+    team: "New York Mets"
+card_name: "Brandon Sproat - Base - Black Pattern"
+description: "Black Pattern parallel of Base card featuring Brandon Sproat."
+series: "2026 Bowman"
+parallel: "Black Pattern"
+print_run: 10
+rookie_card: true
+autograph: false
+serial_numbered: true
+release_date: "2026-05-13"
+image_url: "https://example.com/cards/2026-bowman/33-black-pattern.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Bowman#Insertion_Ratios"

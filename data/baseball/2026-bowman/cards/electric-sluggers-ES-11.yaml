@@ -1,0 +1,19 @@
+number: "ES-11"
+uuid: "f0eff619-cb12-442d-ad28-7f96c7fcf296"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-bowman"
+subjects:
+  - name: "Bryce Eldridge"
+    role: "Player"
+    team: "San Francisco Giants"
+subset: "Electric Sluggers"
+card_name: "Bryce Eldridge - Electric Sluggers"
+description: "Electric Sluggers card featuring Bryce Eldridge."
+series: "2026 Bowman"
+print_run: 69625
+rookie_card: false
+autograph: false
+serial_numbered: false
+release_date: "2026-05-13"
+image_url: "https://example.com/cards/2026-bowman/electric-sluggers-ES-11.jpg"

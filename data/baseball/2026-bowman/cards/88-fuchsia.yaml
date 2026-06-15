@@ -1,0 +1,22 @@
+number: "88"
+uuid: "7450e957-3aeb-43d5-8fec-a19bd5ecf195"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-bowman"
+subjects:
+  - name: "Wyatt Langford"
+    role: "Player"
+    team: "Texas Rangers"
+card_name: "Wyatt Langford - Base - Fuchsia"
+description: "Fuchsia parallel of Base card featuring Wyatt Langford."
+series: "2026 Bowman"
+parallel: "Fuchsia"
+print_run: 299
+rookie_card: false
+autograph: false
+serial_numbered: true
+release_date: "2026-05-13"
+image_url: "https://example.com/cards/2026-bowman/88-fuchsia.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Bowman#Insertion_Ratios"

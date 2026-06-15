@@ -1,0 +1,23 @@
+number: "UR-10"
+uuid: "2adb41cd-da09-420e-b3f6-876862445b0d"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-bowman"
+subjects:
+  - name: "Ryan Waldschmidt"
+    role: "Player"
+    team: "Arizona Diamondbacks"
+subset: "Under The Radar"
+card_name: "Ryan Waldschmidt - Under The Radar - Mini-Diamond Refractor"
+description: "Mini-Diamond Refractor parallel of Under The Radar card featuring Ryan Waldschmidt."
+series: "2026 Bowman"
+parallel: "Mini-Diamond Refractor"
+print_run: 150
+rookie_card: false
+autograph: false
+serial_numbered: true
+release_date: "2026-05-13"
+image_url: "https://example.com/cards/2026-bowman/under-the-radar-UR-10-mini-diamond-refractor.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Bowman#Insertion_Ratios"

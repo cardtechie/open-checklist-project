@@ -1,0 +1,23 @@
+number: "BP-31"
+uuid: "0cbce6be-cbdf-4557-be44-6bfa1c035115"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-bowman"
+subjects:
+  - name: "Brent Iredale"
+    role: "Player"
+    team: "Pittsburgh Pirates"
+subset: "Base Prospects"
+card_name: "Brent Iredale - Base Prospects - Gold Pattern"
+description: "Gold Pattern parallel of Base Prospects card featuring Brent Iredale."
+series: "2026 Bowman"
+parallel: "Gold Pattern"
+print_run: 50
+rookie_card: false
+autograph: false
+serial_numbered: true
+release_date: "2026-05-13"
+image_url: "https://example.com/cards/2026-bowman/base-prospects-BP-31-gold-pattern.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Bowman#Insertion_Ratios"

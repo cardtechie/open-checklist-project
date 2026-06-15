@@ -1,0 +1,23 @@
+number: "CPA-GR"
+uuid: "ac7a38ae-74f6-46c8-945a-7573e8a23c09"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-bowman"
+subjects:
+  - name: "Gabriel Rodriguez"
+    role: "Player"
+    team: "Cleveland Guardians"
+subset: "Chrome Prospect Autographs"
+card_name: "Gabriel Rodriguez - Chrome Prospect Autographs - Speckle Refractor"
+description: "Speckle Refractor parallel of Autographed Chrome Prospect Autographs card featuring Gabriel Rodriguez."
+series: "2026 Bowman"
+parallel: "Speckle Refractor"
+print_run: 299
+rookie_card: false
+autograph: true
+serial_numbered: true
+release_date: "2026-05-13"
+image_url: "https://example.com/cards/2026-bowman/chrome-prospect-autographs-CPA-GR-speckle-refractor.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Bowman#Insertion_Ratios"

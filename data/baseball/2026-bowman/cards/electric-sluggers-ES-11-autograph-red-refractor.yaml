@@ -1,0 +1,23 @@
+number: "ES-11"
+uuid: "dae074b3-fcb2-444d-810c-098feb805f27"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-bowman"
+subjects:
+  - name: "Bryce Eldridge"
+    role: "Player"
+    team: "San Francisco Giants"
+subset: "Electric Sluggers"
+card_name: "Bryce Eldridge - Electric Sluggers - Autograph Red Refractor"
+description: "Autograph Red Refractor parallel of Electric Sluggers card featuring Bryce Eldridge."
+series: "2026 Bowman"
+parallel: "Autograph Red Refractor"
+print_run: 5
+rookie_card: false
+autograph: false
+serial_numbered: true
+release_date: "2026-05-13"
+image_url: "https://example.com/cards/2026-bowman/electric-sluggers-ES-11-autograph-red-refractor.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Bowman#Insertion_Ratios"

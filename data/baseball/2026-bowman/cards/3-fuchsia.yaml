@@ -1,0 +1,22 @@
+number: "3"
+uuid: "40fc5a20-ddce-4a06-9e98-a9be18e25185"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-bowman"
+subjects:
+  - name: "Chase Burns"
+    role: "Player"
+    team: "Cincinnati Reds"
+card_name: "Chase Burns - Base - Fuchsia"
+description: "Fuchsia parallel of Base card featuring Chase Burns."
+series: "2026 Bowman"
+parallel: "Fuchsia"
+print_run: 299
+rookie_card: true
+autograph: false
+serial_numbered: true
+release_date: "2026-05-13"
+image_url: "https://example.com/cards/2026-bowman/3-fuchsia.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Bowman#Insertion_Ratios"

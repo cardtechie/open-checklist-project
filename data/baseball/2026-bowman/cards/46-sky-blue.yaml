@@ -1,0 +1,22 @@
+number: "46"
+uuid: "34e6a3a7-74ae-490e-a937-b073155efecc"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-bowman"
+subjects:
+  - name: "Freddie Freeman"
+    role: "Player"
+    team: "Los Angeles Dodgers"
+card_name: "Freddie Freeman - Base - Sky Blue"
+description: "Sky Blue parallel of Base card featuring Freddie Freeman."
+series: "2026 Bowman"
+parallel: "Sky Blue"
+print_run: 499
+rookie_card: false
+autograph: false
+serial_numbered: true
+release_date: "2026-05-13"
+image_url: "https://example.com/cards/2026-bowman/46-sky-blue.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Bowman#Insertion_Ratios"

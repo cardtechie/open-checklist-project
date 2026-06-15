@@ -1,0 +1,23 @@
+number: "CPA-BT"
+uuid: "0878d5f6-3ab8-4b6b-9ba5-03b3f6841d60"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-bowman"
+subjects:
+  - name: "Brendan Tunink"
+    role: "Player"
+    team: "Los Angeles Dodgers"
+subset: "Chrome Prospect Autographs"
+card_name: "Brendan Tunink - Chrome Prospect Autographs - Sunflower Seeds Refractor"
+description: "Sunflower Seeds Refractor parallel of Autographed Chrome Prospect Autographs card featuring Brendan Tunink."
+series: "2026 Bowman"
+parallel: "Sunflower Seeds Refractor"
+print_run: 5
+rookie_card: false
+autograph: true
+serial_numbered: true
+release_date: "2026-05-13"
+image_url: "https://example.com/cards/2026-bowman/chrome-prospect-autographs-CPA-BT-sunflower-seeds-refractor.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Bowman#Insertion_Ratios"

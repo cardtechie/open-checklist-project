@@ -1,0 +1,22 @@
+number: "DPPA-SS"
+uuid: "863b4af0-3668-43e6-994b-193fa8d0b39f"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-bowman"
+subjects:
+  - name: "Stephen Strasburg"
+    role: "Player"
+    team: "Washington Nationals"
+  - name: "Paul Skenes"
+    role: "Player"
+    team: "Pittsburgh Pirates"
+subset: "Draft Pick Pairings"
+card_name: "Stephen Strasburg / Paul Skenes - Draft Pick Pairings"
+description: "Draft Pick Pairings card featuring Stephen Strasburg / Paul Skenes."
+series: "2026 Bowman"
+print_run: 25
+rookie_card: false
+autograph: false
+serial_numbered: true
+release_date: "2026-05-13"
+image_url: "https://example.com/cards/2026-bowman/draft-pick-pairings-DPPA-SS.jpg"

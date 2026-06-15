@@ -1,0 +1,23 @@
+number: "BP-78"
+uuid: "55c43580-40d3-4371-a4ae-101de96a8728"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-bowman"
+subjects:
+  - name: "Dax Kilby"
+    role: "Player"
+    team: "New York Yankees"
+subset: "Base Prospects"
+card_name: "Dax Kilby - Base Prospects - Orange"
+description: "Orange parallel of Base Prospects card featuring Dax Kilby."
+series: "2026 Bowman"
+parallel: "Orange"
+print_run: 25
+rookie_card: false
+autograph: false
+serial_numbered: true
+release_date: "2026-05-13"
+image_url: "https://example.com/cards/2026-bowman/base-prospects-BP-78-orange.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Bowman#Insertion_Ratios"

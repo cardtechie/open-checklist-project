@@ -1,0 +1,23 @@
+number: "ES-6"
+uuid: "843d77a2-a2ea-4118-80d9-7ac7882cf2ba"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-bowman"
+subjects:
+  - name: "Bryce Harper"
+    role: "Player"
+    team: "Philadelphia Phillies"
+subset: "Electric Sluggers"
+card_name: "Bryce Harper - Electric Sluggers - Mini-Diamond Refractor"
+description: "Mini-Diamond Refractor parallel of Electric Sluggers card featuring Bryce Harper."
+series: "2026 Bowman"
+parallel: "Mini-Diamond Refractor"
+print_run: 150
+rookie_card: false
+autograph: false
+serial_numbered: true
+release_date: "2026-05-13"
+image_url: "https://example.com/cards/2026-bowman/electric-sluggers-ES-6-mini-diamond-refractor.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Bowman#Insertion_Ratios"

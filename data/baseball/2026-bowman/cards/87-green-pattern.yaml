@@ -1,0 +1,22 @@
+number: "87"
+uuid: "f382b32a-3a4f-41ad-b648-8cacb7d315ef"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-bowman"
+subjects:
+  - name: "Jacob Melton"
+    role: "Player"
+    team: "Tampa Bay Rays"
+card_name: "Jacob Melton - Base - Green Pattern"
+description: "Green Pattern parallel of Base card featuring Jacob Melton."
+series: "2026 Bowman"
+parallel: "Green Pattern"
+print_run: 99
+rookie_card: true
+autograph: false
+serial_numbered: true
+release_date: "2026-05-13"
+image_url: "https://example.com/cards/2026-bowman/87-green-pattern.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Bowman#Insertion_Ratios"

@@ -1,0 +1,23 @@
+number: "BP-123"
+uuid: "94358c5c-aacc-4fb2-8dc6-15afc638ced6"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-bowman"
+subjects:
+  - name: "JR Ritchie"
+    role: "Player"
+    team: "Atlanta Braves"
+subset: "Base Prospects"
+card_name: "JR Ritchie - Base Prospects - Red"
+description: "Red parallel of Base Prospects card featuring JR Ritchie."
+series: "2026 Bowman"
+parallel: "Red"
+print_run: 5
+rookie_card: false
+autograph: false
+serial_numbered: true
+release_date: "2026-05-13"
+image_url: "https://example.com/cards/2026-bowman/base-prospects-BP-123-red.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Bowman#Insertion_Ratios"

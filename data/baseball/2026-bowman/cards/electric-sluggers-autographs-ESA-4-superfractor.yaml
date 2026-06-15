@@ -1,0 +1,23 @@
+number: "ESA-4"
+uuid: "9ff34e29-0567-48c8-8fc1-f75b02823b2e"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-bowman"
+subjects:
+  - name: "Konnor Griffin"
+    role: "Player"
+    team: "Pittsburgh Pirates"
+subset: "Electric Sluggers Autographs"
+card_name: "Konnor Griffin - Electric Sluggers Autographs - SuperFractor"
+description: "SuperFractor parallel of Autographed Electric Sluggers Autographs card featuring Konnor Griffin."
+series: "2026 Bowman"
+parallel: "SuperFractor"
+print_run: 1
+rookie_card: false
+autograph: true
+serial_numbered: true
+release_date: "2026-05-13"
+image_url: "https://example.com/cards/2026-bowman/electric-sluggers-autographs-ESA-4-superfractor.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Bowman#Insertion_Ratios"

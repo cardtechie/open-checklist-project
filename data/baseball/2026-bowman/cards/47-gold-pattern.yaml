@@ -1,0 +1,22 @@
+number: "47"
+uuid: "06f18e94-4f5e-4b7d-b956-c0a838dfbd09"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-bowman"
+subjects:
+  - name: "Fernando Tatis Jr."
+    role: "Player"
+    team: "San Diego Padres"
+card_name: "Fernando Tatis Jr. - Base - Gold Pattern"
+description: "Gold Pattern parallel of Base card featuring Fernando Tatis Jr.."
+series: "2026 Bowman"
+parallel: "Gold Pattern"
+print_run: 50
+rookie_card: false
+autograph: false
+serial_numbered: true
+release_date: "2026-05-13"
+image_url: "https://example.com/cards/2026-bowman/47-gold-pattern.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Bowman#Insertion_Ratios"

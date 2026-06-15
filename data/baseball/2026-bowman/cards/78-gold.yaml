@@ -1,0 +1,22 @@
+number: "78"
+uuid: "9ad77d4e-8897-4a27-acdd-55e81d457da1"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-bowman"
+subjects:
+  - name: "Cole Young"
+    role: "Player"
+    team: "Seattle Mariners"
+card_name: "Cole Young - Base - Gold"
+description: "Gold parallel of Base card featuring Cole Young."
+series: "2026 Bowman"
+parallel: "Gold"
+print_run: 50
+rookie_card: true
+autograph: false
+serial_numbered: true
+release_date: "2026-05-13"
+image_url: "https://example.com/cards/2026-bowman/78-gold.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Bowman#Insertion_Ratios"

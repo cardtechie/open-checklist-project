@@ -1,0 +1,22 @@
+number: "1"
+uuid: "d88263fd-4ec2-45e1-9ca6-e9680b7e4935"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-bowman"
+subjects:
+  - name: "Aaron Judge"
+    role: "Player"
+    team: "New York Yankees"
+card_name: "Aaron Judge - Base - Bowman Scouts' Top 100 SuperFractor"
+description: "Bowman Scouts' Top 100 SuperFractor parallel of Base card featuring Aaron Judge."
+series: "2026 Bowman"
+parallel: "Bowman Scouts' Top 100 SuperFractor"
+print_run: 1
+rookie_card: false
+autograph: false
+serial_numbered: true
+release_date: "2026-05-13"
+image_url: "https://example.com/cards/2026-bowman/1-bowman-scouts-top-100-superfractor.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Bowman#Insertion_Ratios"

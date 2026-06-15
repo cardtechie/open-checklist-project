@@ -1,0 +1,22 @@
+number: "31"
+uuid: "730e03ce-ce6d-4d86-9168-c5d24bfd4cd1"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-bowman"
+subjects:
+  - name: "Pete Crow-Armstrong"
+    role: "Player"
+    team: "Chicago Cubs"
+card_name: "Pete Crow-Armstrong - Base - Orange"
+description: "Orange parallel of Base card featuring Pete Crow-Armstrong."
+series: "2026 Bowman"
+parallel: "Orange"
+print_run: 25
+rookie_card: false
+autograph: false
+serial_numbered: true
+release_date: "2026-05-13"
+image_url: "https://example.com/cards/2026-bowman/31-orange.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Bowman#Insertion_Ratios"

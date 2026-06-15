@@ -1,0 +1,22 @@
+number: "98"
+uuid: "5df4be5e-f4e1-461f-933b-59868421a0bf"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-bowman"
+subjects:
+  - name: "C.J. Kayfus"
+    role: "Player"
+    team: "Cleveland Guardians"
+card_name: "C.J. Kayfus - Base - Neon Green"
+description: "Neon Green parallel of Base card featuring C.J. Kayfus."
+series: "2026 Bowman"
+parallel: "Neon Green"
+print_run: 399
+rookie_card: true
+autograph: false
+serial_numbered: true
+release_date: "2026-05-13"
+image_url: "https://example.com/cards/2026-bowman/98-neon-green.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Bowman#Insertion_Ratios"

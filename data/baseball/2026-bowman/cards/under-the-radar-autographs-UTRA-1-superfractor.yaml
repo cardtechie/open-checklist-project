@@ -1,0 +1,23 @@
+number: "UTRA-1"
+uuid: "d5cb382c-feb8-4e25-a1b7-4f8af5f5f7ed"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-bowman"
+subjects:
+  - name: "Connelly Early"
+    role: "Player"
+    team: "Boston Red Sox"
+subset: "Under The Radar Autographs"
+card_name: "Connelly Early - Under The Radar Autographs - SuperFractor"
+description: "SuperFractor parallel of Autographed Under The Radar Autographs card featuring Connelly Early."
+series: "2026 Bowman"
+parallel: "SuperFractor"
+print_run: 1
+rookie_card: false
+autograph: true
+serial_numbered: true
+release_date: "2026-05-13"
+image_url: "https://example.com/cards/2026-bowman/under-the-radar-autographs-UTRA-1-superfractor.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Bowman#Insertion_Ratios"

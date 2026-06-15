@@ -1,0 +1,23 @@
+number: "BCP-18"
+uuid: "680fc651-e75e-4466-87ab-cd947ea9388e"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-bowman"
+subjects:
+  - name: "Blaine Bullard"
+    role: "Player"
+    team: "Toronto Blue Jays"
+subset: "Chrome Prospects"
+card_name: "Blaine Bullard - Chrome Prospects - Reptilian Blue Refractor"
+description: "Reptilian Blue Refractor parallel of Chrome Prospects card featuring Blaine Bullard."
+series: "2026 Bowman"
+parallel: "Reptilian Blue Refractor"
+print_run: 150
+rookie_card: false
+autograph: false
+serial_numbered: true
+release_date: "2026-05-13"
+image_url: "https://example.com/cards/2026-bowman/chrome-prospects-BCP-18-reptilian-blue-refractor.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Bowman#Insertion_Ratios"

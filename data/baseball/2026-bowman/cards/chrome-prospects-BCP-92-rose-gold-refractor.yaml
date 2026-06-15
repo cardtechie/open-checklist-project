@@ -1,0 +1,23 @@
+number: "BCP-92"
+uuid: "de88861b-be9a-4776-a86b-d1ba214c25f3"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-bowman"
+subjects:
+  - name: "Konnor Griffin"
+    role: "Player"
+    team: "Pittsburgh Pirates"
+subset: "Chrome Prospects"
+card_name: "Konnor Griffin - Chrome Prospects - Rose Gold Refractor"
+description: "Rose Gold Refractor parallel of Chrome Prospects card featuring Konnor Griffin."
+series: "2026 Bowman"
+parallel: "Rose Gold Refractor"
+print_run: 15
+rookie_card: false
+autograph: false
+serial_numbered: true
+release_date: "2026-05-13"
+image_url: "https://example.com/cards/2026-bowman/chrome-prospects-BCP-92-rose-gold-refractor.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Bowman#Insertion_Ratios"

@@ -1,0 +1,22 @@
+number: "48"
+uuid: "800f06be-700f-4f0b-b9a2-325d09d5a95e"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-bowman"
+subjects:
+  - name: "Riley Greene"
+    role: "Player"
+    team: "Detroit Tigers"
+card_name: "Riley Greene - Base - Pink"
+description: "Pink parallel of Base card featuring Riley Greene."
+series: "2026 Bowman"
+parallel: "Pink"
+print_run: 175
+rookie_card: false
+autograph: false
+serial_numbered: true
+release_date: "2026-05-13"
+image_url: "https://example.com/cards/2026-bowman/48-pink.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Bowman#Insertion_Ratios"

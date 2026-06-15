@@ -1,0 +1,22 @@
+number: "99"
+uuid: "17f2e9f8-bb34-49d5-bfad-0b8a1ca22e33"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-bowman"
+subjects:
+  - name: "Christian Moore"
+    role: "Player"
+    team: "Los Angeles Angels"
+card_name: "Christian Moore - Base - Pink"
+description: "Pink parallel of Base card featuring Christian Moore."
+series: "2026 Bowman"
+parallel: "Pink"
+print_run: 175
+rookie_card: true
+autograph: false
+serial_numbered: true
+release_date: "2026-05-13"
+image_url: "https://example.com/cards/2026-bowman/99-pink.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Bowman#Insertion_Ratios"

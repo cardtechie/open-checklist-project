@@ -1,0 +1,22 @@
+number: "68"
+uuid: "c3963bd0-5b92-4d56-afaf-758d27afbdbd"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-bowman"
+subjects:
+  - name: "Colson Montgomery"
+    role: "Player"
+    team: "Chicago White Sox"
+card_name: "Colson Montgomery - Base - Purple"
+description: "Purple parallel of Base card featuring Colson Montgomery."
+series: "2026 Bowman"
+parallel: "Purple"
+print_run: 250
+rookie_card: true
+autograph: false
+serial_numbered: true
+release_date: "2026-05-13"
+image_url: "https://example.com/cards/2026-bowman/68-purple.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Bowman#Insertion_Ratios"

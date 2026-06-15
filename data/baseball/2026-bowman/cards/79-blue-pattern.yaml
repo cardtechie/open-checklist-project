@@ -1,0 +1,22 @@
+number: "79"
+uuid: "e957d663-5af0-4de1-8b1f-9b034abd272c"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-bowman"
+subjects:
+  - name: "James Wood"
+    role: "Player"
+    team: "Washington Nationals"
+card_name: "James Wood - Base - Blue Pattern"
+description: "Blue Pattern parallel of Base card featuring James Wood."
+series: "2026 Bowman"
+parallel: "Blue Pattern"
+print_run: 150
+rookie_card: false
+autograph: false
+serial_numbered: true
+release_date: "2026-05-13"
+image_url: "https://example.com/cards/2026-bowman/79-blue-pattern.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Bowman#Insertion_Ratios"

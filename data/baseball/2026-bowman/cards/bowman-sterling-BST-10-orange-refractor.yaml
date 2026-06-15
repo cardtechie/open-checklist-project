@@ -1,0 +1,23 @@
+number: "BST-10"
+uuid: "5f7525d1-8f7c-42d8-a98e-c9930ba3f3e9"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-bowman"
+subjects:
+  - name: "Chase Burns"
+    role: "Player"
+    team: "Cincinnati Reds"
+subset: "Bowman Sterling"
+card_name: "Chase Burns - Bowman Sterling - Orange Refractor"
+description: "Orange Refractor parallel of Bowman Sterling card featuring Chase Burns."
+series: "2026 Bowman"
+parallel: "Orange Refractor"
+print_run: 25
+rookie_card: false
+autograph: false
+serial_numbered: true
+release_date: "2026-05-13"
+image_url: "https://example.com/cards/2026-bowman/bowman-sterling-BST-10-orange-refractor.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Bowman#Insertion_Ratios"

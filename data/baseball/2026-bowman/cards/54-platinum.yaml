@@ -1,0 +1,22 @@
+number: "54"
+uuid: "dc46c097-11ee-4001-8f80-bd8a0a86aaac"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-bowman"
+subjects:
+  - name: "Dylan Crews"
+    role: "Player"
+    team: "Washington Nationals"
+card_name: "Dylan Crews - Base - Platinum"
+description: "Platinum parallel of Base card featuring Dylan Crews."
+series: "2026 Bowman"
+parallel: "Platinum"
+print_run: 1
+rookie_card: false
+autograph: false
+serial_numbered: true
+release_date: "2026-05-13"
+image_url: "https://example.com/cards/2026-bowman/54-platinum.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Bowman#Insertion_Ratios"

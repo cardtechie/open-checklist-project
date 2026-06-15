@@ -1,0 +1,22 @@
+number: "15"
+uuid: "8df3fa62-7130-45af-ac4d-849c53b7ac7c"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-bowman"
+subjects:
+  - name: "Max Fried"
+    role: "Player"
+    team: "New York Yankees"
+card_name: "Max Fried - Base - Yellow Pattern"
+description: "Yellow Pattern parallel of Base card featuring Max Fried."
+series: "2026 Bowman"
+parallel: "Yellow Pattern"
+print_run: 75
+rookie_card: false
+autograph: false
+serial_numbered: true
+release_date: "2026-05-13"
+image_url: "https://example.com/cards/2026-bowman/15-yellow-pattern.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Bowman#Insertion_Ratios"

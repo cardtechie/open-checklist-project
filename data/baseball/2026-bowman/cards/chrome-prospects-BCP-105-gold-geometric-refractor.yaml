@@ -1,0 +1,23 @@
+number: "BCP-105"
+uuid: "eb10bb98-c573-47e8-b4b2-03b173b75cb3"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-bowman"
+subjects:
+  - name: "Kade Snell"
+    role: "Player"
+    team: "Chicago Cubs"
+subset: "Chrome Prospects"
+card_name: "Kade Snell - Chrome Prospects - Gold Geometric Refractor"
+description: "Gold Geometric Refractor parallel of Chrome Prospects card featuring Kade Snell."
+series: "2026 Bowman"
+parallel: "Gold Geometric Refractor"
+print_run: 50
+rookie_card: false
+autograph: false
+serial_numbered: true
+release_date: "2026-05-13"
+image_url: "https://example.com/cards/2026-bowman/chrome-prospects-BCP-105-gold-geometric-refractor.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Bowman#Insertion_Ratios"

@@ -1,0 +1,23 @@
+number: "BP-94"
+uuid: "75ae6918-2683-4a43-a29a-4a0bd3e39baa"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-bowman"
+subjects:
+  - name: "Ricardo Cova"
+    role: "Player"
+    team: "Seattle Mariners"
+subset: "Base Prospects"
+card_name: "Ricardo Cova - Base Prospects - Black Pattern"
+description: "Black Pattern parallel of Base Prospects card featuring Ricardo Cova."
+series: "2026 Bowman"
+parallel: "Black Pattern"
+print_run: 10
+rookie_card: false
+autograph: false
+serial_numbered: true
+release_date: "2026-05-13"
+image_url: "https://example.com/cards/2026-bowman/base-prospects-BP-94-black-pattern.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Bowman#Insertion_Ratios"

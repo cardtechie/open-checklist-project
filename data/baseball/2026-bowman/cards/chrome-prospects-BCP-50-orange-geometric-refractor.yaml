@@ -1,0 +1,23 @@
+number: "BCP-50"
+uuid: "1f0ae6ae-c17b-47b7-af34-644e465df8ca"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-bowman"
+subjects:
+  - name: "Daniel Dickinson"
+    role: "Player"
+    team: "Milwaukee Brewers"
+subset: "Chrome Prospects"
+card_name: "Daniel Dickinson - Chrome Prospects - Orange Geometric Refractor"
+description: "Orange Geometric Refractor parallel of Chrome Prospects card featuring Daniel Dickinson."
+series: "2026 Bowman"
+parallel: "Orange Geometric Refractor"
+print_run: 25
+rookie_card: false
+autograph: false
+serial_numbered: true
+release_date: "2026-05-13"
+image_url: "https://example.com/cards/2026-bowman/chrome-prospects-BCP-50-orange-geometric-refractor.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Bowman#Insertion_Ratios"

@@ -1,0 +1,22 @@
+number: "60"
+uuid: "a81cd266-142d-4662-82db-867c0d3a9714"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-bowman"
+subjects:
+  - name: "Manny Machado"
+    role: "Player"
+    team: "San Diego Padres"
+card_name: "Manny Machado - Base - Neon Green"
+description: "Neon Green parallel of Base card featuring Manny Machado."
+series: "2026 Bowman"
+parallel: "Neon Green"
+print_run: 399
+rookie_card: false
+autograph: false
+serial_numbered: true
+release_date: "2026-05-13"
+image_url: "https://example.com/cards/2026-bowman/60-neon-green.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Bowman#Insertion_Ratios"

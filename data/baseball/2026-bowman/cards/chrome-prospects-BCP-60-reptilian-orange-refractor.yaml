@@ -1,0 +1,23 @@
+number: "BCP-60"
+uuid: "75a8a1c4-2c0c-4d66-95ef-6f4455ad92ea"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-bowman"
+subjects:
+  - name: "Isaiah Jackson"
+    role: "Player"
+    team: "Los Angeles Angels"
+subset: "Chrome Prospects"
+card_name: "Isaiah Jackson - Chrome Prospects - Reptilian Orange Refractor"
+description: "Reptilian Orange Refractor parallel of Chrome Prospects card featuring Isaiah Jackson."
+series: "2026 Bowman"
+parallel: "Reptilian Orange Refractor"
+print_run: 25
+rookie_card: false
+autograph: false
+serial_numbered: true
+release_date: "2026-05-13"
+image_url: "https://example.com/cards/2026-bowman/chrome-prospects-BCP-60-reptilian-orange-refractor.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Bowman#Insertion_Ratios"

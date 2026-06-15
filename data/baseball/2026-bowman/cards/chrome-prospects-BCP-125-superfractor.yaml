@@ -1,0 +1,23 @@
+number: "BCP-125"
+uuid: "c919c2e4-a94e-4e28-902b-a37cb36ecd51"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-bowman"
+subjects:
+  - name: "Wei-En Lin"
+    role: "Player"
+    team: "Athletics"
+subset: "Chrome Prospects"
+card_name: "Wei-En Lin - Chrome Prospects - SuperFractor"
+description: "SuperFractor parallel of Chrome Prospects card featuring Wei-En Lin."
+series: "2026 Bowman"
+parallel: "SuperFractor"
+print_run: 1
+rookie_card: false
+autograph: false
+serial_numbered: true
+release_date: "2026-05-13"
+image_url: "https://example.com/cards/2026-bowman/chrome-prospects-BCP-125-superfractor.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Bowman#Insertion_Ratios"

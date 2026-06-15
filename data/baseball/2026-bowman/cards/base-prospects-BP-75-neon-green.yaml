@@ -1,0 +1,23 @@
+number: "BP-75"
+uuid: "8e976a2e-f1b9-439b-a4d5-03629c889f9e"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2026-bowman"
+subjects:
+  - name: "Juan Torres"
+    role: "Player"
+    team: "New York Yankees"
+subset: "Base Prospects"
+card_name: "Juan Torres - Base Prospects - Neon Green"
+description: "Neon Green parallel of Base Prospects card featuring Juan Torres."
+series: "2026 Bowman"
+parallel: "Neon Green"
+print_run: 299
+rookie_card: false
+autograph: false
+serial_numbered: true
+release_date: "2026-05-13"
+image_url: "https://example.com/cards/2026-bowman/base-prospects-BP-75-neon-green.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2026_Bowman#Insertion_Ratios"
