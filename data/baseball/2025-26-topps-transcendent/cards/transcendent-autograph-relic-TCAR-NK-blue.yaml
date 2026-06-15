@@ -1,0 +1,24 @@
+number: "TCAR-NK"
+uuid: "49cde8f5-9253-43a2-8016-86418b81781c"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2025-26-topps-transcendent"
+subjects:
+  - name: "Nick Kurtz"
+    role: "Player"
+    team: "Athletics"
+subset: "Transcendent Autograph Relic"
+card_name: "Nick Kurtz - Transcendent Autograph Relic - Blue"
+description: "Blue parallel of Autographed Transcendent Autograph Relic card featuring Nick Kurtz."
+series: "Topps Transcendent"
+parallel: "Blue"
+print_run: 10
+rookie_card: false
+autograph: true
+relic: true
+serial_numbered: true
+release_date: "2026-04-01"
+image_url: "https://example.com/cards/2025-26-topps-transcendent/transcendent-autograph-relic-TCAR-NK-blue.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2025-26_Topps_Transcendent#Checklist"

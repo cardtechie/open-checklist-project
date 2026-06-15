@@ -1,0 +1,20 @@
+number: "TCAR-BB"
+uuid: "514d8dda-4098-40a6-ab0a-ca6ad32ac295"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2025-26-topps-transcendent"
+subjects:
+  - name: "Barry Bonds"
+    role: "Player"
+    team: "San Francisco Giants"
+subset: "Transcendent Autograph Relic"
+card_name: "Barry Bonds - Transcendent Autograph Relic"
+description: "Autographed Transcendent Autograph Relic card featuring Barry Bonds."
+series: "Topps Transcendent"
+print_run: 25
+rookie_card: false
+autograph: true
+relic: true
+serial_numbered: true
+release_date: "2026-04-01"
+image_url: "https://example.com/cards/2025-26-topps-transcendent/transcendent-autograph-relic-TCAR-BB.jpg"

@@ -1,0 +1,18 @@
+number: "42"
+uuid: "95b4e9c0-fc6f-4b2c-b083-89c4bcbcacba"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2025-26-topps-transcendent"
+subjects:
+  - name: "Mariano Rivera"
+    role: "Player"
+    team: "New York Yankees"
+card_name: "Mariano Rivera - Base"
+description: "Base card featuring Mariano Rivera."
+series: "Topps Transcendent"
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: false
+release_date: "2026-04-01"
+image_url: "https://example.com/cards/2025-26-topps-transcendent/42.jpg"

@@ -1,0 +1,25 @@
+number: "TCTP-ODB"
+uuid: "5f9e79d8-2ba0-4d9d-98d2-cc4aa736d63a"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2025-26-topps-transcendent"
+subjects:
+  - name: "Alex Bregman"
+    role: "Player"
+    team: "Boston Red Sox"
+  - name: "David Ortiz"
+    role: "Player"
+    team: "Boston Red Sox"
+  - name: "Rafael Devers"
+    role: "Player"
+    team: "Boston Red Sox"
+subset: "Transcendent Collection Triple Patches"
+card_name: "Alex Bregman / David Ortiz / Rafael Devers - Transcendent Collection Triple Patches"
+description: "Transcendent Collection Triple Patches memorabilia card featuring Alex Bregman / David Ortiz / Rafael Devers."
+series: "Topps Transcendent"
+rookie_card: false
+autograph: false
+relic: true
+serial_numbered: false
+release_date: "2026-04-01"
+image_url: "https://example.com/cards/2025-26-topps-transcendent/transcendent-collection-triple-patches-TCTP-ODB.jpg"

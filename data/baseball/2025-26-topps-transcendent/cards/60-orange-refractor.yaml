@@ -1,0 +1,23 @@
+number: "60"
+uuid: "b7a48c3e-96c1-4f27-8294-77e915151839"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2025-26-topps-transcendent"
+subjects:
+  - name: "Jackson Jobe"
+    role: "Player"
+    team: "Detroit Tigers"
+card_name: "Jackson Jobe - Base - Orange Refractor"
+description: "Orange Refractor parallel of Base card featuring Jackson Jobe."
+series: "Topps Transcendent"
+parallel: "Orange Refractor"
+print_run: 25
+rookie_card: true
+autograph: false
+relic: false
+serial_numbered: true
+release_date: "2026-04-01"
+image_url: "https://example.com/cards/2025-26-topps-transcendent/60-orange-refractor.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2025-26_Topps_Transcendent#Checklist"

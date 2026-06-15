@@ -1,0 +1,23 @@
+number: "32"
+uuid: "6a7e175f-ba3c-4793-9dbd-f5dd3c47a62b"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2025-26-topps-transcendent"
+subjects:
+  - name: "Mike Piazza"
+    role: "Player"
+    team: "New York Mets"
+card_name: "Mike Piazza - Base - Orange Refractor"
+description: "Orange Refractor parallel of Base card featuring Mike Piazza."
+series: "Topps Transcendent"
+parallel: "Orange Refractor"
+print_run: 25
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: true
+release_date: "2026-04-01"
+image_url: "https://example.com/cards/2025-26-topps-transcendent/32-orange-refractor.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2025-26_Topps_Transcendent#Checklist"

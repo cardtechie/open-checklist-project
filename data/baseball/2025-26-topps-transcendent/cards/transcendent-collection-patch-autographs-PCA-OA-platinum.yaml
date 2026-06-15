@@ -1,0 +1,24 @@
+number: "PCA-OA"
+uuid: "57ba54c3-490f-4cc5-af9b-4d8b4bf17b2a"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2025-26-topps-transcendent"
+subjects:
+  - name: "Ozzie Albies"
+    role: "Player"
+    team: "Atlanta Braves"
+subset: "Transcendent Collection Patch Autographs"
+card_name: "Ozzie Albies - Transcendent Collection Patch Autographs - Platinum"
+description: "Platinum parallel of Autographed Transcendent Collection Patch Autographs card featuring Ozzie Albies."
+series: "Topps Transcendent"
+parallel: "Platinum"
+print_run: 1
+rookie_card: false
+autograph: true
+relic: true
+serial_numbered: true
+release_date: "2026-04-01"
+image_url: "https://example.com/cards/2025-26-topps-transcendent/transcendent-collection-patch-autographs-PCA-OA-platinum.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2025-26_Topps_Transcendent#Checklist"

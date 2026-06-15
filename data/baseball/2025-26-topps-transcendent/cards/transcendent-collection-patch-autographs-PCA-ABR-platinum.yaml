@@ -1,0 +1,24 @@
+number: "PCA-ABR"
+uuid: "854df5bc-78c5-45c1-9c04-410aee984b8d"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2025-26-topps-transcendent"
+subjects:
+  - name: "Alex Bregman"
+    role: "Player"
+    team: "Boston Red Sox"
+subset: "Transcendent Collection Patch Autographs"
+card_name: "Alex Bregman - Transcendent Collection Patch Autographs - Platinum"
+description: "Platinum parallel of Autographed Transcendent Collection Patch Autographs card featuring Alex Bregman."
+series: "Topps Transcendent"
+parallel: "Platinum"
+print_run: 1
+rookie_card: false
+autograph: true
+relic: true
+serial_numbered: true
+release_date: "2026-04-01"
+image_url: "https://example.com/cards/2025-26-topps-transcendent/transcendent-collection-patch-autographs-PCA-ABR-platinum.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2025-26_Topps_Transcendent#Checklist"

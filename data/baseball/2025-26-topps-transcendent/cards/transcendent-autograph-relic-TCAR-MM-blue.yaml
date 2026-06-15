@@ -1,0 +1,24 @@
+number: "TCAR-MM"
+uuid: "8fa3e4bb-3dc0-47ea-8ea2-033637e3e58e"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2025-26-topps-transcendent"
+subjects:
+  - name: "Marcelo Mayer"
+    role: "Player"
+    team: "Boston Red Sox"
+subset: "Transcendent Autograph Relic"
+card_name: "Marcelo Mayer - Transcendent Autograph Relic - Blue"
+description: "Blue parallel of Autographed Transcendent Autograph Relic card featuring Marcelo Mayer."
+series: "Topps Transcendent"
+parallel: "Blue"
+print_run: 10
+rookie_card: false
+autograph: true
+relic: true
+serial_numbered: true
+release_date: "2026-04-01"
+image_url: "https://example.com/cards/2025-26-topps-transcendent/transcendent-autograph-relic-TCAR-MM-blue.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2025-26_Topps_Transcendent#Checklist"

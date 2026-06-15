@@ -1,0 +1,26 @@
+number: "DCSB-PGY"
+uuid: "3e1481b4-b9d0-4f01-b768-400f3b95301e"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2025-26-topps-transcendent"
+subjects:
+  - name: "Lefty Grove"
+    role: "Player"
+    team: "Boston Red Sox"
+  - name: "Pedro Martínez"
+    role: "Player"
+    team: "Boston Red Sox"
+  - name: "Cy Young"
+    role: "Player"
+    team: "Boston Red Sox"
+subset: "Dual Cut Signature Booklets"
+card_name: "Lefty Grove / Pedro Martínez / Cy Young - Dual Cut Signature Booklets"
+description: "Autographed Dual Cut Signature Booklets card featuring Lefty Grove / Pedro Martínez / Cy Young."
+series: "Topps Transcendent"
+print_run: 1
+rookie_card: false
+autograph: true
+relic: false
+serial_numbered: true
+release_date: "2026-04-01"
+image_url: "https://example.com/cards/2025-26-topps-transcendent/dual-cut-signature-booklets-DCSB-PGY.jpg"

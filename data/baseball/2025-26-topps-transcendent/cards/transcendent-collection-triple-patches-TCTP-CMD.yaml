@@ -1,0 +1,25 @@
+number: "TCTP-CMD"
+uuid: "0d9259ab-e806-47c5-87ee-7680f9d4e102"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2025-26-topps-transcendent"
+subjects:
+  - name: "Rafael Devers"
+    role: "Player"
+    team: "Boston Red Sox"
+  - name: "Marcelo Mayer"
+    role: "Player"
+    team: "Boston Red Sox"
+  - name: "Kristian Campbell"
+    role: "Player"
+    team: "Boston Red Sox"
+subset: "Transcendent Collection Triple Patches"
+card_name: "Rafael Devers / Marcelo Mayer / Kristian Campbell - Transcendent Collection Triple Patches"
+description: "Transcendent Collection Triple Patches memorabilia card featuring Rafael Devers / Marcelo Mayer / Kristian Campbell."
+series: "Topps Transcendent"
+rookie_card: false
+autograph: false
+relic: true
+serial_numbered: false
+release_date: "2026-04-01"
+image_url: "https://example.com/cards/2025-26-topps-transcendent/transcendent-collection-triple-patches-TCTP-CMD.jpg"

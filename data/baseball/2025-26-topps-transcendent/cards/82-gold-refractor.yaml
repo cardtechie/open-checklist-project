@@ -1,0 +1,23 @@
+number: "82"
+uuid: "a5ff3ccd-21f2-417c-b69e-d91ba34f7f6e"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2025-26-topps-transcendent"
+subjects:
+  - name: "Edgar Quero"
+    role: "Player"
+    team: "Chicago White Sox"
+card_name: "Edgar Quero - Base - Gold Refractor"
+description: "Gold Refractor parallel of Base card featuring Edgar Quero."
+series: "Topps Transcendent"
+parallel: "Gold Refractor"
+print_run: 10
+rookie_card: true
+autograph: false
+relic: false
+serial_numbered: true
+release_date: "2026-04-01"
+image_url: "https://example.com/cards/2025-26-topps-transcendent/82-gold-refractor.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2025-26_Topps_Transcendent#Checklist"

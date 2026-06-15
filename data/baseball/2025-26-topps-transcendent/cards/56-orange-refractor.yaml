@@ -1,0 +1,23 @@
+number: "56"
+uuid: "47cb3d2f-29b5-44bf-bde0-6df0ceecb717"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2025-26-topps-transcendent"
+subjects:
+  - name: "José Ramírez"
+    role: "Player"
+    team: "Cleveland Guardians"
+card_name: "José Ramírez - Base - Orange Refractor"
+description: "Orange Refractor parallel of Base card featuring José Ramírez."
+series: "Topps Transcendent"
+parallel: "Orange Refractor"
+print_run: 25
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: true
+release_date: "2026-04-01"
+image_url: "https://example.com/cards/2025-26-topps-transcendent/56-orange-refractor.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2025-26_Topps_Transcendent#Checklist"

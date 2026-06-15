@@ -1,0 +1,24 @@
+number: "TCAR-RJ"
+uuid: "f33aeea2-1c52-4f96-97fe-2cc49f7f5a1d"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2025-26-topps-transcendent"
+subjects:
+  - name: "Randy Johnson"
+    role: "Player"
+    team: "New York Yankees"
+subset: "Transcendent Autograph Relic"
+card_name: "Randy Johnson - Transcendent Autograph Relic - Emerald"
+description: "Emerald parallel of Autographed Transcendent Autograph Relic card featuring Randy Johnson."
+series: "Topps Transcendent"
+parallel: "Emerald"
+print_run: 5
+rookie_card: false
+autograph: true
+relic: true
+serial_numbered: true
+release_date: "2026-04-01"
+image_url: "https://example.com/cards/2025-26-topps-transcendent/transcendent-autograph-relic-TCAR-RJ-emerald.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2025-26_Topps_Transcendent#Checklist"

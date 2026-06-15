@@ -1,0 +1,23 @@
+number: "80"
+uuid: "bc2a32a7-c01a-47f8-921a-1874738e0d77"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2025-26-topps-transcendent"
+subjects:
+  - name: "Luke Keaschall"
+    role: "Player"
+    team: "Minnesota Twins"
+card_name: "Luke Keaschall - Base - Red Refractor"
+description: "Red Refractor parallel of Base card featuring Luke Keaschall."
+series: "Topps Transcendent"
+parallel: "Red Refractor"
+print_run: 5
+rookie_card: true
+autograph: false
+relic: false
+serial_numbered: true
+release_date: "2026-04-01"
+image_url: "https://example.com/cards/2025-26-topps-transcendent/80-red-refractor.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2025-26_Topps_Transcendent#Checklist"

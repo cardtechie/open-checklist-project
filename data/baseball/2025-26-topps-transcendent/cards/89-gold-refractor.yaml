@@ -1,0 +1,23 @@
+number: "89"
+uuid: "16dccc84-de4f-4cc1-9f30-b0452d62a020"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2025-26-topps-transcendent"
+subjects:
+  - name: "Ichiro"
+    role: "Player"
+    team: "Miami Marlins"
+card_name: "Ichiro - Base - Gold Refractor"
+description: "Gold Refractor parallel of Base card featuring Ichiro."
+series: "Topps Transcendent"
+parallel: "Gold Refractor"
+print_run: 10
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: true
+release_date: "2026-04-01"
+image_url: "https://example.com/cards/2025-26-topps-transcendent/89-gold-refractor.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2025-26_Topps_Transcendent#Checklist"

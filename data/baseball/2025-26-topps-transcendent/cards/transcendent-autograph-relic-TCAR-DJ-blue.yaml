@@ -1,0 +1,24 @@
+number: "TCAR-DJ"
+uuid: "a2c5e5b4-c181-4cfc-b617-0fd5f6b101ba"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2025-26-topps-transcendent"
+subjects:
+  - name: "Derek Jeter"
+    role: "Player"
+    team: "New York Yankees"
+subset: "Transcendent Autograph Relic"
+card_name: "Derek Jeter - Transcendent Autograph Relic - Blue"
+description: "Blue parallel of Autographed Transcendent Autograph Relic card featuring Derek Jeter."
+series: "Topps Transcendent"
+parallel: "Blue"
+print_run: 10
+rookie_card: false
+autograph: true
+relic: true
+serial_numbered: true
+release_date: "2026-04-01"
+image_url: "https://example.com/cards/2025-26-topps-transcendent/transcendent-autograph-relic-TCAR-DJ-blue.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2025-26_Topps_Transcendent#Checklist"

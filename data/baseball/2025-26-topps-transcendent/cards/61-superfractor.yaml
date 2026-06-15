@@ -1,0 +1,23 @@
+number: "61"
+uuid: "c4f6d47c-0114-430c-8347-91a09ecad90b"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2025-26-topps-transcendent"
+subjects:
+  - name: "Sammy Sosa"
+    role: "Player"
+    team: "Chicago Cubs"
+card_name: "Sammy Sosa - Base - SuperFractor"
+description: "SuperFractor parallel of Base card featuring Sammy Sosa."
+series: "Topps Transcendent"
+parallel: "SuperFractor"
+print_run: 1
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: true
+release_date: "2026-04-01"
+image_url: "https://example.com/cards/2025-26-topps-transcendent/61-superfractor.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2025-26_Topps_Transcendent#Checklist"

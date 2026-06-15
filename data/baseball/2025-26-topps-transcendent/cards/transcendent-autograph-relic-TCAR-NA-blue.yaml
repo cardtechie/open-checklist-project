@@ -1,0 +1,24 @@
+number: "TCAR-NA"
+uuid: "186b6c2b-0e92-40f4-b437-8b7b18118440"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2025-26-topps-transcendent"
+subjects:
+  - name: "Nolan Arenado"
+    role: "Player"
+    team: "St. Louis Cardinals"
+subset: "Transcendent Autograph Relic"
+card_name: "Nolan Arenado - Transcendent Autograph Relic - Blue"
+description: "Blue parallel of Autographed Transcendent Autograph Relic card featuring Nolan Arenado."
+series: "Topps Transcendent"
+parallel: "Blue"
+print_run: 10
+rookie_card: false
+autograph: true
+relic: true
+serial_numbered: true
+release_date: "2026-04-01"
+image_url: "https://example.com/cards/2025-26-topps-transcendent/transcendent-autograph-relic-TCAR-NA-blue.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2025-26_Topps_Transcendent#Checklist"

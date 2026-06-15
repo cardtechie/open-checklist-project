@@ -1,0 +1,23 @@
+number: "74"
+uuid: "8a0082f5-3d33-4541-8bdf-e71dcd4c82c2"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2025-26-topps-transcendent"
+subjects:
+  - name: "Cade Horton"
+    role: "Player"
+    team: "Chicago Cubs"
+card_name: "Cade Horton - Base - SuperFractor"
+description: "SuperFractor parallel of Base card featuring Cade Horton."
+series: "Topps Transcendent"
+parallel: "SuperFractor"
+print_run: 1
+rookie_card: true
+autograph: false
+relic: false
+serial_numbered: true
+release_date: "2026-04-01"
+image_url: "https://example.com/cards/2025-26-topps-transcendent/74-superfractor.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2025-26_Topps_Transcendent#Checklist"

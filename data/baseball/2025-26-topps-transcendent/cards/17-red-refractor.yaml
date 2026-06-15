@@ -1,0 +1,23 @@
+number: "17"
+uuid: "7505ad27-c007-44b6-8f2b-504ce814f210"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2025-26-topps-transcendent"
+subjects:
+  - name: "Javier Báez"
+    role: "Player"
+    team: "Detroit Tigers"
+card_name: "Javier Báez - Base - Red Refractor"
+description: "Red Refractor parallel of Base card featuring Javier Báez."
+series: "Topps Transcendent"
+parallel: "Red Refractor"
+print_run: 5
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: true
+release_date: "2026-04-01"
+image_url: "https://example.com/cards/2025-26-topps-transcendent/17-red-refractor.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2025-26_Topps_Transcendent#Checklist"

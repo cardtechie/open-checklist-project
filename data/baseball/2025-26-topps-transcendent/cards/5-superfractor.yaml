@@ -1,0 +1,23 @@
+number: "5"
+uuid: "ea6ed713-010a-41ae-a47b-29399d50995d"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2025-26-topps-transcendent"
+subjects:
+  - name: "Paul Skenes"
+    role: "Player"
+    team: "Pittsburgh Pirates"
+card_name: "Paul Skenes - Base - SuperFractor"
+description: "SuperFractor parallel of Base card featuring Paul Skenes."
+series: "Topps Transcendent"
+parallel: "SuperFractor"
+print_run: 1
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: true
+release_date: "2026-04-01"
+image_url: "https://example.com/cards/2025-26-topps-transcendent/5-superfractor.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2025-26_Topps_Transcendent#Checklist"

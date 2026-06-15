@@ -1,0 +1,23 @@
+number: "42"
+uuid: "4f0b8655-5707-4428-9317-92182dd7cc01"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2025-26-topps-transcendent"
+subjects:
+  - name: "Mariano Rivera"
+    role: "Player"
+    team: "New York Yankees"
+card_name: "Mariano Rivera - Base - SuperFractor"
+description: "SuperFractor parallel of Base card featuring Mariano Rivera."
+series: "Topps Transcendent"
+parallel: "SuperFractor"
+print_run: 1
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: true
+release_date: "2026-04-01"
+image_url: "https://example.com/cards/2025-26-topps-transcendent/42-superfractor.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2025-26_Topps_Transcendent#Checklist"

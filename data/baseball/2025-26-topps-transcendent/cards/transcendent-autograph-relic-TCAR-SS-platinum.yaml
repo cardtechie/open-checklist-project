@@ -1,0 +1,24 @@
+number: "TCAR-SS"
+uuid: "635184c8-64dd-4740-a149-276eec751ae2"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2025-26-topps-transcendent"
+subjects:
+  - name: "Sammy Sosa"
+    role: "Player"
+    team: "Chicago Cubs"
+subset: "Transcendent Autograph Relic"
+card_name: "Sammy Sosa - Transcendent Autograph Relic - Platinum"
+description: "Platinum parallel of Autographed Transcendent Autograph Relic card featuring Sammy Sosa."
+series: "Topps Transcendent"
+parallel: "Platinum"
+print_run: 1
+rookie_card: false
+autograph: true
+relic: true
+serial_numbered: true
+release_date: "2026-04-01"
+image_url: "https://example.com/cards/2025-26-topps-transcendent/transcendent-autograph-relic-TCAR-SS-platinum.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2025-26_Topps_Transcendent#Checklist"

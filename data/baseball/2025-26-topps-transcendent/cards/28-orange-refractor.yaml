@@ -1,0 +1,23 @@
+number: "28"
+uuid: "b78abc14-d4a1-42e9-bf56-b812519e06d6"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2025-26-topps-transcendent"
+subjects:
+  - name: "Alex Bregman"
+    role: "Player"
+    team: "Boston Red Sox"
+card_name: "Alex Bregman - Base - Orange Refractor"
+description: "Orange Refractor parallel of Base card featuring Alex Bregman."
+series: "Topps Transcendent"
+parallel: "Orange Refractor"
+print_run: 25
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: true
+release_date: "2026-04-01"
+image_url: "https://example.com/cards/2025-26-topps-transcendent/28-orange-refractor.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2025-26_Topps_Transcendent#Checklist"

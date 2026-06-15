@@ -1,0 +1,23 @@
+number: "12"
+uuid: "a5349654-7f47-4c05-baea-8da7654b643d"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2025-26-topps-transcendent"
+subjects:
+  - name: "Matt Shaw"
+    role: "Player"
+    team: "Chicago Cubs"
+card_name: "Matt Shaw - Base - Gold Refractor"
+description: "Gold Refractor parallel of Base card featuring Matt Shaw."
+series: "Topps Transcendent"
+parallel: "Gold Refractor"
+print_run: 10
+rookie_card: true
+autograph: false
+relic: false
+serial_numbered: true
+release_date: "2026-04-01"
+image_url: "https://example.com/cards/2025-26-topps-transcendent/12-gold-refractor.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2025-26_Topps_Transcendent#Checklist"

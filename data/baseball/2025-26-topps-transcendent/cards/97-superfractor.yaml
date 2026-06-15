@@ -1,0 +1,23 @@
+number: "97"
+uuid: "9a69d7ab-c708-49e5-be3a-0c34c5cb8dc7"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2025-26-topps-transcendent"
+subjects:
+  - name: "Reggie Jackson"
+    role: "Player"
+    team: "Oakland Athletics"
+card_name: "Reggie Jackson - Base - SuperFractor"
+description: "SuperFractor parallel of Base card featuring Reggie Jackson."
+series: "Topps Transcendent"
+parallel: "SuperFractor"
+print_run: 1
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: true
+release_date: "2026-04-01"
+image_url: "https://example.com/cards/2025-26-topps-transcendent/97-superfractor.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2025-26_Topps_Transcendent#Checklist"

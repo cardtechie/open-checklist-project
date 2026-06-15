@@ -1,0 +1,23 @@
+number: "28"
+uuid: "66d58f3f-82b6-4857-8660-478fdf6dc460"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2025-26-topps-transcendent"
+subjects:
+  - name: "Alex Bregman"
+    role: "Player"
+    team: "Boston Red Sox"
+card_name: "Alex Bregman - Base - SuperFractor"
+description: "SuperFractor parallel of Base card featuring Alex Bregman."
+series: "Topps Transcendent"
+parallel: "SuperFractor"
+print_run: 1
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: true
+release_date: "2026-04-01"
+image_url: "https://example.com/cards/2025-26-topps-transcendent/28-superfractor.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2025-26_Topps_Transcendent#Checklist"

@@ -1,0 +1,20 @@
+number: "CS-WM"
+uuid: "3e937db2-d498-42e9-bb73-50d713d7e68e"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2025-26-topps-transcendent"
+subjects:
+  - name: "Willie Mays"
+    role: "Player"
+    team: "San Francisco Giants"
+subset: "Cut Signatures"
+card_name: "Willie Mays - Cut Signatures"
+description: "Autographed Cut Signatures card featuring Willie Mays."
+series: "Topps Transcendent"
+print_run: 1
+rookie_card: false
+autograph: true
+relic: false
+serial_numbered: true
+release_date: "2026-04-01"
+image_url: "https://example.com/cards/2025-26-topps-transcendent/cut-signatures-CS-WM.jpg"

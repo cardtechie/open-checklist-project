@@ -1,0 +1,24 @@
+number: "PCA-MTX"
+uuid: "70c6ba8b-6a04-4f1a-96bb-fd12e80d0685"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2025-26-topps-transcendent"
+subjects:
+  - name: "Mark Teixeira"
+    role: "Player"
+    team: "New York Yankees"
+subset: "Transcendent Collection Patch Autographs"
+card_name: "Mark Teixeira - Transcendent Collection Patch Autographs - Emerald"
+description: "Emerald parallel of Autographed Transcendent Collection Patch Autographs card featuring Mark Teixeira."
+series: "Topps Transcendent"
+parallel: "Emerald"
+print_run: 5
+rookie_card: false
+autograph: true
+relic: true
+serial_numbered: true
+release_date: "2026-04-01"
+image_url: "https://example.com/cards/2025-26-topps-transcendent/transcendent-collection-patch-autographs-PCA-MTX-emerald.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2025-26_Topps_Transcendent#Checklist"

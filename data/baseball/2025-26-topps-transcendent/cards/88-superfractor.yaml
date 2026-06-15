@@ -1,0 +1,23 @@
+number: "88"
+uuid: "c29117f9-9d21-48b0-aeb8-f2aa886c39b2"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2025-26-topps-transcendent"
+subjects:
+  - name: "Rhett Lowder"
+    role: "Player"
+    team: "Cincinnati Reds"
+card_name: "Rhett Lowder - Base - SuperFractor"
+description: "SuperFractor parallel of Base card featuring Rhett Lowder."
+series: "Topps Transcendent"
+parallel: "SuperFractor"
+print_run: 1
+rookie_card: true
+autograph: false
+relic: false
+serial_numbered: true
+release_date: "2026-04-01"
+image_url: "https://example.com/cards/2025-26-topps-transcendent/88-superfractor.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2025-26_Topps_Transcendent#Checklist"

@@ -1,0 +1,23 @@
+number: "55"
+uuid: "8f9ee4c4-1534-4e40-8a5e-ae566cbbaffa"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2025-26-topps-transcendent"
+subjects:
+  - name: "Carlos Correa"
+    role: "Player"
+    team: "Minnesota Twins"
+card_name: "Carlos Correa - Base - SuperFractor"
+description: "SuperFractor parallel of Base card featuring Carlos Correa."
+series: "Topps Transcendent"
+parallel: "SuperFractor"
+print_run: 1
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: true
+release_date: "2026-04-01"
+image_url: "https://example.com/cards/2025-26-topps-transcendent/55-superfractor.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2025-26_Topps_Transcendent#Checklist"

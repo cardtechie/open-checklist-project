@@ -1,0 +1,24 @@
+number: "TCAR-SO"
+uuid: "93b287f2-2c3a-451d-ba65-07a6bec3e037"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2025-26-topps-transcendent"
+subjects:
+  - name: "Shohei Ohtani"
+    role: "Player"
+    team: "Los Angeles Dodgers"
+subset: "Transcendent Autograph Relic"
+card_name: "Shohei Ohtani - Transcendent Autograph Relic - Blue"
+description: "Blue parallel of Autographed Transcendent Autograph Relic card featuring Shohei Ohtani."
+series: "Topps Transcendent"
+parallel: "Blue"
+print_run: 10
+rookie_card: false
+autograph: true
+relic: true
+serial_numbered: true
+release_date: "2026-04-01"
+image_url: "https://example.com/cards/2025-26-topps-transcendent/transcendent-autograph-relic-TCAR-SO-blue.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2025-26_Topps_Transcendent#Checklist"

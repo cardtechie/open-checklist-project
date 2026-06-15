@@ -1,0 +1,23 @@
+number: "29"
+uuid: "75d76691-3537-41fb-8e5d-d2a47040aedc"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2025-26-topps-transcendent"
+subjects:
+  - name: "Dalton Rushing"
+    role: "Player"
+    team: "Los Angeles Dodgers"
+card_name: "Dalton Rushing - Base - SuperFractor"
+description: "SuperFractor parallel of Base card featuring Dalton Rushing."
+series: "Topps Transcendent"
+parallel: "SuperFractor"
+print_run: 1
+rookie_card: true
+autograph: false
+relic: false
+serial_numbered: true
+release_date: "2026-04-01"
+image_url: "https://example.com/cards/2025-26-topps-transcendent/29-superfractor.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2025-26_Topps_Transcendent#Checklist"

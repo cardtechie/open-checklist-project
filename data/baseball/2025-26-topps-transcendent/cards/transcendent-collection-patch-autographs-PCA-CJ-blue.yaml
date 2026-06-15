@@ -1,0 +1,24 @@
+number: "PCA-CJ"
+uuid: "9f32da92-5f85-48bb-b5bb-7655d524de1f"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2025-26-topps-transcendent"
+subjects:
+  - name: "Chipper Jones"
+    role: "Player"
+    team: "Atlanta Braves"
+subset: "Transcendent Collection Patch Autographs"
+card_name: "Chipper Jones - Transcendent Collection Patch Autographs - Blue"
+description: "Blue parallel of Autographed Transcendent Collection Patch Autographs card featuring Chipper Jones."
+series: "Topps Transcendent"
+parallel: "Blue"
+print_run: 10
+rookie_card: false
+autograph: true
+relic: true
+serial_numbered: true
+release_date: "2026-04-01"
+image_url: "https://example.com/cards/2025-26-topps-transcendent/transcendent-collection-patch-autographs-PCA-CJ-blue.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2025-26_Topps_Transcendent#Checklist"

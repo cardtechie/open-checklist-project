@@ -1,0 +1,23 @@
+number: "30"
+uuid: "01f5d44c-efb1-425b-b3b6-695fd80c4cd8"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2025-26-topps-transcendent"
+subjects:
+  - name: "Vladimir Guerrero Jr."
+    role: "Player"
+    team: "Toronto Blue Jays"
+card_name: "Vladimir Guerrero Jr. - Base - Gold Refractor"
+description: "Gold Refractor parallel of Base card featuring Vladimir Guerrero Jr.."
+series: "Topps Transcendent"
+parallel: "Gold Refractor"
+print_run: 10
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: true
+release_date: "2026-04-01"
+image_url: "https://example.com/cards/2025-26-topps-transcendent/30-gold-refractor.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2025-26_Topps_Transcendent#Checklist"

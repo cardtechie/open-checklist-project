@@ -1,0 +1,23 @@
+number: "70"
+uuid: "82a86092-6079-4692-8c43-a3fa10c8b260"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2025-26-topps-transcendent"
+subjects:
+  - name: "Cam Smith"
+    role: "Player"
+    team: "Houston Astros"
+card_name: "Cam Smith - Base - Red Refractor"
+description: "Red Refractor parallel of Base card featuring Cam Smith."
+series: "Topps Transcendent"
+parallel: "Red Refractor"
+print_run: 5
+rookie_card: true
+autograph: false
+relic: false
+serial_numbered: true
+release_date: "2026-04-01"
+image_url: "https://example.com/cards/2025-26-topps-transcendent/70-red-refractor.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2025-26_Topps_Transcendent#Checklist"

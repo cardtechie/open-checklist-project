@@ -1,0 +1,23 @@
+number: "87"
+uuid: "3b70e4d3-30e9-412f-8339-e88cae15fc28"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2025-26-topps-transcendent"
+subjects:
+  - name: "Connor Norby"
+    role: "Player"
+    team: "Miami Marlins"
+card_name: "Connor Norby - Base - Red Refractor"
+description: "Red Refractor parallel of Base card featuring Connor Norby."
+series: "Topps Transcendent"
+parallel: "Red Refractor"
+print_run: 5
+rookie_card: true
+autograph: false
+relic: false
+serial_numbered: true
+release_date: "2026-04-01"
+image_url: "https://example.com/cards/2025-26-topps-transcendent/87-red-refractor.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2025-26_Topps_Transcendent#Checklist"

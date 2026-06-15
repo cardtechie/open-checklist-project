@@ -1,0 +1,20 @@
+number: "CS-CH2"
+uuid: "0ad38d4b-e9b5-404d-8ca2-d2f2cd605cd1"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2025-26-topps-transcendent"
+subjects:
+  - name: "Catfish Hunter"
+    role: "Player"
+    team: "New York Yankees"
+subset: "Cut Signatures"
+card_name: "Catfish Hunter - Cut Signatures"
+description: "Autographed Cut Signatures card featuring Catfish Hunter."
+series: "Topps Transcendent"
+print_run: 1
+rookie_card: false
+autograph: true
+relic: false
+serial_numbered: true
+release_date: "2026-04-01"
+image_url: "https://example.com/cards/2025-26-topps-transcendent/cut-signatures-CS-CH2.jpg"

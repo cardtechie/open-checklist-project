@@ -1,0 +1,23 @@
+number: "97"
+uuid: "26e98dbd-efcf-47d6-b507-62362c98328e"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2025-26-topps-transcendent"
+subjects:
+  - name: "Reggie Jackson"
+    role: "Player"
+    team: "Oakland Athletics"
+card_name: "Reggie Jackson - Base - Orange Refractor"
+description: "Orange Refractor parallel of Base card featuring Reggie Jackson."
+series: "Topps Transcendent"
+parallel: "Orange Refractor"
+print_run: 25
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: true
+release_date: "2026-04-01"
+image_url: "https://example.com/cards/2025-26-topps-transcendent/97-orange-refractor.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2025-26_Topps_Transcendent#Checklist"

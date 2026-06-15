@@ -1,0 +1,23 @@
+number: "15"
+uuid: "32422859-829a-4fa2-b53b-17ea838dd42c"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2025-26-topps-transcendent"
+subjects:
+  - name: "Juan Soto"
+    role: "Player"
+    team: "New York Mets"
+card_name: "Juan Soto - Base - SuperFractor"
+description: "SuperFractor parallel of Base card featuring Juan Soto."
+series: "Topps Transcendent"
+parallel: "SuperFractor"
+print_run: 1
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: true
+release_date: "2026-04-01"
+image_url: "https://example.com/cards/2025-26-topps-transcendent/15-superfractor.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2025-26_Topps_Transcendent#Checklist"

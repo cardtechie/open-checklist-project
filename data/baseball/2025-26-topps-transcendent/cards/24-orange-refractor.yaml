@@ -1,0 +1,23 @@
+number: "24"
+uuid: "fa8a27b5-cc13-442b-9b45-9da890e4f713"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2025-26-topps-transcendent"
+subjects:
+  - name: "Marcelo Mayer"
+    role: "Player"
+    team: "Boston Red Sox"
+card_name: "Marcelo Mayer - Base - Orange Refractor"
+description: "Orange Refractor parallel of Base card featuring Marcelo Mayer."
+series: "Topps Transcendent"
+parallel: "Orange Refractor"
+print_run: 25
+rookie_card: true
+autograph: false
+relic: false
+serial_numbered: true
+release_date: "2026-04-01"
+image_url: "https://example.com/cards/2025-26-topps-transcendent/24-orange-refractor.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2025-26_Topps_Transcendent#Checklist"

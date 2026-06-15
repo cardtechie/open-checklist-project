@@ -1,0 +1,24 @@
+number: "PCA-PA"
+uuid: "2c1967a2-6fea-49a9-b8a0-4e06d0ea9473"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2025-26-topps-transcendent"
+subjects:
+  - name: "Pete Alonso"
+    role: "Player"
+    team: "New York Mets"
+subset: "Transcendent Collection Patch Autographs"
+card_name: "Pete Alonso - Transcendent Collection Patch Autographs - Emerald"
+description: "Emerald parallel of Autographed Transcendent Collection Patch Autographs card featuring Pete Alonso."
+series: "Topps Transcendent"
+parallel: "Emerald"
+print_run: 5
+rookie_card: false
+autograph: true
+relic: true
+serial_numbered: true
+release_date: "2026-04-01"
+image_url: "https://example.com/cards/2025-26-topps-transcendent/transcendent-collection-patch-autographs-PCA-PA-emerald.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2025-26_Topps_Transcendent#Checklist"

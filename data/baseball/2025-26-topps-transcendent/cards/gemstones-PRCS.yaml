@@ -1,0 +1,22 @@
+number: "PRCS"
+uuid: "3e19b508-6a38-426b-9688-b95617ec1498"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2025-26-topps-transcendent"
+subjects:
+  - name: "Ty Cobb"
+    role: "Player"
+    team: "Detroit Tigers"
+  - name: "Pete Rose"
+    role: "Player"
+    team: "Cincinnati Reds"
+subset: "Gemstones"
+card_name: "Ty Cobb / Pete Rose - Gemstones"
+description: "Gemstones card featuring Ty Cobb / Pete Rose."
+series: "Topps Transcendent"
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: false
+release_date: "2026-04-01"
+image_url: "https://example.com/cards/2025-26-topps-transcendent/gemstones-PRCS.jpg"

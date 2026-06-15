@@ -1,0 +1,23 @@
+number: "12"
+uuid: "3ed4b0ba-8cfe-4e71-9e1f-eac6160eb93a"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2025-26-topps-transcendent"
+subjects:
+  - name: "Matt Shaw"
+    role: "Player"
+    team: "Chicago Cubs"
+card_name: "Matt Shaw - Base - SuperFractor"
+description: "SuperFractor parallel of Base card featuring Matt Shaw."
+series: "Topps Transcendent"
+parallel: "SuperFractor"
+print_run: 1
+rookie_card: true
+autograph: false
+relic: false
+serial_numbered: true
+release_date: "2026-04-01"
+image_url: "https://example.com/cards/2025-26-topps-transcendent/12-superfractor.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2025-26_Topps_Transcendent#Checklist"

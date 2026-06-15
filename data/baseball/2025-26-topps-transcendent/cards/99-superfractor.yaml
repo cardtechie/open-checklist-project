@@ -1,0 +1,23 @@
+number: "99"
+uuid: "9bc42cee-d618-4f5c-96d1-43f5ab2065d0"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2025-26-topps-transcendent"
+subjects:
+  - name: "Aaron Judge"
+    role: "Player"
+    team: "New York Yankees"
+card_name: "Aaron Judge - Base - SuperFractor"
+description: "SuperFractor parallel of Base card featuring Aaron Judge."
+series: "Topps Transcendent"
+parallel: "SuperFractor"
+print_run: 1
+rookie_card: false
+autograph: false
+relic: false
+serial_numbered: true
+release_date: "2026-04-01"
+image_url: "https://example.com/cards/2025-26-topps-transcendent/99-superfractor.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2025-26_Topps_Transcendent#Checklist"

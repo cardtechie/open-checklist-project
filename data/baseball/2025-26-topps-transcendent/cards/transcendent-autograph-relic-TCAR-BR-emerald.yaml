@@ -1,0 +1,24 @@
+number: "TCAR-BR"
+uuid: "e74d58a8-a952-4b0c-9b91-4881152ceda1"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2025-26-topps-transcendent"
+subjects:
+  - name: "Ben Rice"
+    role: "Player"
+    team: "New York Yankees"
+subset: "Transcendent Autograph Relic"
+card_name: "Ben Rice - Transcendent Autograph Relic - Emerald"
+description: "Emerald parallel of Autographed Transcendent Autograph Relic card featuring Ben Rice."
+series: "Topps Transcendent"
+parallel: "Emerald"
+print_run: 5
+rookie_card: false
+autograph: true
+relic: true
+serial_numbered: true
+release_date: "2026-04-01"
+image_url: "https://example.com/cards/2025-26-topps-transcendent/transcendent-autograph-relic-TCAR-BR-emerald.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2025-26_Topps_Transcendent#Checklist"

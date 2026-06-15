@@ -1,0 +1,23 @@
+number: "98"
+uuid: "6c5150ce-536a-4ec1-8e1f-93683dbc2598"
+genre: "Sports"
+sport: "Baseball"
+set_id: "2025-26-topps-transcendent"
+subjects:
+  - name: "Zac Veen"
+    role: "Player"
+    team: "Colorado Rockies"
+card_name: "Zac Veen - Base - Orange Refractor"
+description: "Orange Refractor parallel of Base card featuring Zac Veen."
+series: "Topps Transcendent"
+parallel: "Orange Refractor"
+print_run: 25
+rookie_card: true
+autograph: false
+relic: false
+serial_numbered: true
+release_date: "2026-04-01"
+image_url: "https://example.com/cards/2025-26-topps-transcendent/98-orange-refractor.jpg"
+external_links:
+  - name: "BaseballCardpedia"
+    url: "https://baseballcardpedia.com/index.php/2025-26_Topps_Transcendent#Checklist"
