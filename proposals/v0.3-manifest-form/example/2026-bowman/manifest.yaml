@@ -1,0 +1,41 @@
+# The generating structure. ABBREVIATED — showing 3 of ~30 real subsets and a
+# representative slice of parallels. In PR #19 each of these parallels was a
+# separate file PER CARD (100 base cards x ~76 parallels = the explosion).
+set_id: "2026-bowman"
+subsets:
+
+  - id: base
+    name: "Base"
+    kind: base
+    declared_card_count: 100          # checked against len(checklists/base.yaml)
+    parallels:
+      - { name: "Sky Blue",     print_run: 499, serial_numbered: true }
+      - { name: "Blue",         print_run: 150, serial_numbered: true }
+      - { name: "Gold Pattern", print_run: 50,  serial_numbered: true }
+      - { name: "Fuchsia",      print_run: 250, serial_numbered: true }
+      - { name: "Black",        print_run: 10,  serial_numbered: true }
+      - { name: "Superfractor", print_run: 1,   serial_numbered: true }
+      # ...remaining base parallels
+
+  # NOTE: PR #19 mis-modeled this as a *base parallel* (files like
+  # 1-bowman-scouts-top-100.yaml under card #1). It is really its own INSERT with
+  # its own checklist and its own parallels. v0.3 models it correctly:
+  - id: bowman-scouts-top-100
+    name: "Bowman Scouts Top 100"
+    kind: insert
+    declared_card_count: 100          # its OWN checklist -> checklists/bowman-scouts-top-100.yaml
+    parallels:
+      - { name: "Aqua Refractor",   print_run: 125, serial_numbered: true }
+      - { name: "Gold Refractor",   print_run: 50,  serial_numbered: true }
+      - { name: "Orange Refractor", print_run: 25,  serial_numbered: true }
+      - { name: "Red Refractor",    print_run: 5,   serial_numbered: true }
+      - { name: "SuperFractor",     print_run: 1,   serial_numbered: true }
+
+  - id: chrome-prospect-autographs
+    name: "Chrome Prospect Autographs"
+    kind: autograph                   # every row is an auto — no per-card flag needed
+    declared_card_count: 87
+    parallels:
+      - { name: "Gold Refractor", print_run: 50, serial_numbered: true }
+      - { name: "Red Refractor",  print_run: 5,  serial_numbered: true }
+      - { name: "Superfractor",   print_run: 1,  serial_numbered: true }

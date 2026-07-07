@@ -1,0 +1,20 @@
+# Folded from PR #19 (2026 Bowman) — 17,928 card files collapse to this dir.
+# set.yaml is now purely descriptive: no parallels, no exploded card_count.
+uuid: "edb5a80d-2881-4ebb-9a64-67f594eb8c67"    # real set uuid from PR #19
+set_id: "2026-bowman"
+name: "2026 Bowman"
+genre: "Sports"
+category: ["MLB"]
+sports: ["Baseball"]
+season: "2026"
+years: [2026]
+series: "2026 Bowman"
+manufacturer: "Topps"
+release_date: "2026-05-13"
+description: >
+  2026 Bowman — 100-card base set plus a 150-card Prospects set. Hobby boxes yield
+  one autograph and 18 inserts.
+source:
+  name: "BaseballCardpedia"
+  url: "https://baseballcardpedia.com/index.php/2026_Bowman#Checklist"
+  file: "import/2026-Bowman-Baseball-Checklist.xlsx"

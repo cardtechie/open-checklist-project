@@ -1,0 +1,81 @@
+$schema_version: "0.1"
+description: "Manifest schema for the Open Checklist Project — the compact generating structure: subsets and their parallels. The per-card explosion is derived from this + checklists/, never committed."
+title: Manifest
+type: object
+required:
+  - set_id
+  - subsets
+additionalProperties: false
+properties:
+  set_id:
+    type: string
+    pattern: "^[a-z0-9]+(-[a-z0-9]+)*$"
+    description: Must match set.yaml set_id.
+  subsets:
+    type: array
+    minItems: 1
+    items:
+      type: object
+      required: [id, name, kind]
+      additionalProperties: false
+      properties:
+        id:
+          type: string
+          pattern: "^[a-z0-9]+(-[a-z0-9]+)*$"
+          description: 'Subset slug. The row identities live in checklists/<id>.yaml.'
+        name:
+          type: string
+          description: 'Human name of the subset (e.g. "Base", "Bowman Scouts Top 100").'
+        kind:
+          type: string
+          enum: [base, insert, autograph, relic, variation]
+          description: >
+            Subset kind. Absorbs the old per-card flags: an `autograph` subset means
+            every row is an auto, etc. A set has exactly one `base` subset.
+        base_ref:
+          type: string
+          format: uuid
+          description: Optional — the base subset/set uuid this subset derives from, when applicable.
+        declared_card_count:
+          type: integer
+          minimum: 1
+          description: >
+            Producer-declared size of THIS subset's base checklist (rows only, not
+            parallels). A review-report check against the actual checklist length.
+        parallels:
+          type: array
+          description: Parallel definitions for this subset. Each expands the subset's checklist by (rows that match applies_to).
+          items:
+            type: object
+            required: [name]
+            additionalProperties: false
+            properties:
+              name:
+                type: string
+                description: >
+                  Canonical parallel name (e.g. "Black", "Gold Pattern", "Superfractor").
+                  UNIQUE within a subset. Used verbatim as the UUID-derivation input
+                  (see IDENTITY.md) — renaming is a breaking identity change.
+              print_run:
+                type: integer
+                minimum: 0
+                description: Serial-numbering print run, when known (e.g. 10, 50, 1). Per-parallel constant.
+              serial_numbered:
+                type: boolean
+                default: false
+              applies_to:
+                description: >
+                  Which base rows this parallel covers. Default "all". Use an explicit
+                  number list for partial parallels (e.g. rookies-only). Ranges are
+                  intentionally omitted (card numbers are strings, e.g. "US1").
+                oneOf:
+                  - { type: string, enum: [all] }
+                  - type: object
+                    required: [numbers]
+                    additionalProperties: false
+                    properties:
+                      numbers:
+                        type: array
+                        minItems: 1
+                        items: { type: string }
+                default: all
