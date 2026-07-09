@@ -2,30 +2,34 @@
 # Filename matches the node id (base_sets[].id = "bowman" -> checklists/bowman.yaml).
 # Each row is committed ONCE. Its base parallels (see manifest.yaml) are DERIVED:
 #   Aaron Judge "Black"  uuid = uuidv5("11111111-1111-4111-8111-111111111111", "Black")
-# ...so this one row + the manifest replaces the 7 files card #1 needed in PR #19.
+# The card NAME is DERIVED from subjects (see README "Card name derivation"), e.g.
+#   #2 -> "2 Shohei Ohtani - Los Angeles Dodgers". A subject is a combination of
+#   `entities` (here: a player + a team). Nothing about the name is committed.
 # (uuids below are illustrative committed anchors; tcapi mints the real ones.)
 
 - number: "1"
   uuid: "11111111-1111-4111-8111-111111111111"
   subjects:
-    - name: "Aaron Judge"
-      ref: null                 # populated by resolution (tcapi entity uuid)
-      role: "Player"
-      team: { name: "New York Yankees", ref: null }
+    - entities:
+        - { role: player, name: "Aaron Judge",      ref: null }   # ref populated by resolution (tcapi)
+        - { role: team,   name: "New York Yankees", ref: null }
 
 - number: "2"
   uuid: "22222222-2222-4222-8222-222222222222"
   subjects:
-    - name: "Shohei Ohtani"
-      ref: null
-      role: "Player"
-      team: { name: "Los Angeles Dodgers", ref: null }
+    - entities:
+        - { role: player, name: "Shohei Ohtani",       ref: null }
+        - { role: team,   name: "Los Angeles Dodgers", ref: null }
 
 - number: "3"
   uuid: "33333333-3333-4333-8333-333333333333"
   rookie_card: true
   subjects:
-    - name: "Example Prospect"     # a genuinely-new prospect -> resolution registers it in tcapi
-      ref: null
-      role: "Player"
-      team: { name: "Example Team", ref: null }
+    - entities:
+        - { role: player, name: "Example Prospect", ref: null }   # a genuinely-new prospect -> resolution registers it
+        - { role: team,   name: "Example Team",     ref: null }
+
+# Other shapes this schema supports (illustrative — not rows of this set):
+#   Team card:      subjects: [ { entities: [ { role: team, name: "Los Angeles Dodgers" } ] } ]  -> "N Los Angeles Dodgers"
+#   Dual card:      subjects: [ {entities:[player,team]}, {entities:[player,team]} ]              -> "N A - TeamA / B - TeamB"
+#   Checklist card: title: "Checklist", subjects: []                                              -> "N Checklist"

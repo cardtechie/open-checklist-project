@@ -1,16 +1,16 @@
 $schema_version: "0.1"
-description: "Checklist schema for the Open Checklist Project — the committed row identities for one subset. File is an array of rows; filename matches the subset id (checklists/<subset-id>.yaml)."
+description: "Checklist schema for the Open Checklist Project — the committed row identities for one node (base set or subset). File is an array of rows; filename matches the node id (checklists/<node-id>.yaml)."
 title: Checklist
 type: array
 minItems: 1
 items:
   type: object
-  required: [number, uuid, subjects]
+  required: [number, uuid]
   additionalProperties: false
   properties:
     number:
       type: string
-      description: 'Printed card number/identifier (string — may be non-numeric, e.g. "US1", "BS-1").'
+      description: 'Printed card number/identifier (string — may be non-numeric, e.g. "US1", "BS-1"). Unique within this node.'
     uuid:
       type: string
       format: uuid
@@ -18,36 +18,56 @@ items:
         Canonical card identity (UUIDv4), minted by tcapi and committed here. Stable
         forever — including under renumbering (correct `number`, keep `uuid`). Parallels
         of this row derive their UUIDs from this value (see IDENTITY.md).
+    title:
+      type: ["string", "null"]
+      description: >
+        Optional EXPLICIT card name. Set only when the name is not derivable from
+        `subjects` (e.g. "Checklist", "Home Run Leaders") or the printed name differs from
+        the derived one. When present it wins; otherwise the card name is DERIVED from
+        subjects (see README "Card name derivation"). Ordinary cards omit it and derive.
+    description:
+      type: ["string", "null"]
+      description: Optional card blurb / flavor text (e.g. insert copy, commemorative text). Most cards omit it.
     subjects:
       type: array
-      minItems: 1
+      description: >
+        Who/what the card is about — zero or more subjects. (A card may have none, e.g. a
+        Checklist card named by `title`.) EACH subject is a combination of one or more
+        `entities` — the combination IS the subject (e.g. a player + their team). Multiple
+        subjects = a multi-subject card (dual / triple / leaders).
       items:
         type: object
-        required: [name]
+        required: [entities]
         additionalProperties: false
         properties:
-          name:
-            type: string
-            description: Display name as submitted. Human-reviewable; the authoritative entity is `ref`.
-          ref:
-            type: string
-            format: uuid
+          entities:
+            type: array
+            minItems: 1
             description: >
-              Canonical entity (player/subject) UUID, owned by tcapi. Populated by the
-              resolution step (separate workstream). Absent = unresolved; the validation
-              gate flags it.
-          role:
-            type: string
-            description: 'e.g. "Player", "Coach", "Team", "Mascot".'
-          team:
-            type: object
-            additionalProperties: false
-            properties:
-              name: { type: string, description: Display team name. }
-              ref:  { type: string, format: uuid, description: Canonical team UUID (tcapi), populated by resolution. }
-    # Genuine per-card intrinsics (NOT derivable). Everything else — card_name,
-    # description, image, autograph/serial flags, print_run — is derived or lives on
-    # the subset/parallel, not here.
+              The entities that make up this subject, each a reference to a tcapi entity in
+              a role. The entity's TYPE lives in tcapi; `role` is this entity's part within
+              the subject — an OPEN vocabulary (player, team, coach, creature, type,
+              character, …), deliberately not an enum so new genres add roles without a
+              schema change.
+            items:
+              type: object
+              required: [role, name]
+              additionalProperties: false
+              properties:
+                role:
+                  type: string
+                  description: 'This entity''s part in the subject (open vocabulary): e.g. "player", "team", "coach", "creature", "character".'
+                name:
+                  type: string
+                  description: Display name as submitted. Human-reviewable; the authoritative entity is `ref`.
+                ref:
+                  type: ["string", "null"]
+                  format: uuid
+                  description: >
+                    Canonical entity UUID, owned by tcapi. Populated by the resolution step
+                    (separate workstream). Null/absent = unresolved; the validation gate flags it.
+    # Genuine per-card intrinsics (NOT derivable). These are candidate ATTRIBUTES — a
+    # separate (tcapi-side) workstream — modeled inline for now; may migrate there later.
     rookie_card:
       type: boolean
     variation:

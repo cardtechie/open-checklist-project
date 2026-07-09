@@ -48,9 +48,10 @@ data/<genre>/<set-id>/
 | product `uuid` (set.yaml) | ✅ committed | the umbrella; minted by tcapi (identity authority) |
 | base set / subset `uuid` (each node) | ✅ committed | each node is its own anchor — minted by tcapi |
 | checklist row `uuid` | ✅ committed | the canonical card identity — stable forever |
-| entity `ref` (player/team UUID) | ✅ referenced | owned by tcapi; resolution populates it |
+| entity `ref` (in a subject) | ✅ referenced | owned by tcapi; resolution populates it |
 | **parallel card `uuid`** | ❌ **derived** | `uuidv5(row.uuid, parallel.name)` — see IDENTITY.md |
-| `card_name` / `description` | ❌ derived | composed at display time from subject + subset + parallel |
+| card `name` | ❌ derived / ✅ `title` | derived from `subjects` (see below); the optional row `title` overrides |
+| card `description` | ✅ committed (optional) | explicit blurb on the row, when a card has one |
 | `image_url` | ❌ enrichment | keyed by card uuid, added later — never fabricated |
 | total `card_count` | ❌ derived | expansion count; the review report checks it |
 
@@ -93,6 +94,28 @@ re-sync stays idempotent.
 `emit_card` maps OCP fields → tcapi's card schema and upserts by `uuid` (idempotent
 re-sync). Because every uuid is deterministic, re-running produces byte-identical
 identities — an update is an update, never a duplicate.
+
+## Card name derivation
+
+A card's display name is **derived** from its row, never committed — unless the row
+carries an explicit `title`, which wins. The rule composes the parts that exist:
+
+- prefix the row `number`;
+- render each **subject** by joining its `entities`' names (sports: a `player` + a
+  `team` → "Name - Team");
+- join multiple subjects with " / ".
+
+| Row | Derived name |
+|---|---|
+| #2 · subject [player "Shohei Ohtani", team "Los Angeles Dodgers"] | `2 Shohei Ohtani - Los Angeles Dodgers` |
+| #10 · subject [player "Shohei Ohtani"] | `10 Shohei Ohtani` |
+| #5 · subject [team "Los Angeles Dodgers"] | `5 Los Angeles Dodgers` |
+| #50 · two subjects | `50 A - TeamA / B - TeamB` |
+| #300 · no subjects, `title: "Checklist"` | `300 Checklist` |
+
+The separator/format ("player - team") is **genre-specific display logic**, not schema:
+the row just stores `entities` + their `role`s. Adding TCG/non-sport adds new `role`
+values (creature, character, …), not new fields — the card schema stays stable.
 
 ## Review report (separate artifact, not built here)
 
