@@ -1,6 +1,6 @@
 # OCP v0.3 — the manifest (compact generating form)
 
-**Status:** draft for review (2026-07-06). Supersedes the exploded one-file-per-card layout.
+**Status:** draft for review (updated 2026-07-09). Supersedes the exploded one-file-per-card layout.
 
 ## Why
 
@@ -11,40 +11,45 @@ templated `card_name`/`description`/`image_url` (17,928 *fabricated* placeholder
 image URLs). No human can review that.
 
 v0.3 commits the **compact generating form** and derives the explosion at consume
-time. 2026 Bowman collapses from **17,928 files → ~4 readable ones**.
+time. 2026 Bowman collapses from **17,928 files → a handful of readable ones** (a
+`set.yaml`, a `manifest.yaml`, and one checklist per base set / subset).
 
 ## Layout
 
 ```
 data/<genre>/<set-id>/
-  set.yaml                 # set-level metadata + source attribution (what it IS)
-  manifest.yaml            # subsets + parallels (the generating STRUCTURE)
+  set.yaml                 # PRODUCT metadata + source attribution (what it IS)
+  manifest.yaml            # base_sets + subsets + parallels (the generating STRUCTURE)
   checklists/
-    base.yaml              # committed row identities for subset `base`
+    bowman.yaml            # committed row identities for base set `bowman`
     bowman-scouts-top-100.yaml
+    bowman-chrome-prospects.yaml
     chrome-prospect-autographs.yaml
-    ...                    # one file per subset id
+    ...                    # one file per node id (base set OR subset)
 ```
 
-- **set.yaml** — descriptive metadata. No parallels, no card counts (derived).
-- **manifest.yaml** — the list of subsets; each subset declares its `kind`, its
-  declared base-checklist size (a review check), its `parallels`, and optionally
-  `sections` — a singular editorial partition of its checklist (e.g. Veterans /
-  Rookies) that a parallel can target via `applies_to.sections`. Sections are
-  membership declarations (a `range` or explicit `numbers`), derived onto rows at
-  consume time — not committed on the rows.
-- **checklists/&lt;subset-id&gt;.yaml** — an array of rows (`number → subjects`), each
-  with a **committed `uuid`** (the canonical, shared card identity). One file per
-  subset; the filename matches the subset `id`.
+- **set.yaml** — descriptive **product / umbrella** metadata. No parallels, no card
+  counts (derived). Its `uuid` is the product's; each base set has its own.
+- **manifest.yaml** — `base_sets[]` (**one or more** roots) plus, under each, recursive
+  `subsets[]`. A base set and a subset are the **same node shape** — own checklist,
+  `parallels`, optional `sections`, and child `subsets` — differing only in that a base
+  set has no `type` and a subset carries one (`insert`/`autograph`/…). `sections` is a
+  singular editorial partition of a node's checklist (e.g. Veterans / Rookies), declared
+  as a `range` or explicit `numbers` and derived onto rows at consume time; a parallel
+  can target one via `applies_to.sections`.
+- **checklists/&lt;node-id&gt;.yaml** — an array of rows (`number → subjects`), each with a
+  **committed `uuid`** (the canonical, shared card identity). One file per node; the
+  filename matches the node `id` (base set or subset — they share one id-space).
 
 ## What is committed vs. derived
 
 | Thing | Committed? | How |
 |---|---|---|
-| set `uuid` | ✅ committed | minted by tcapi (identity authority), published here |
-| base checklist row `uuid` | ✅ committed | the canonical card identity — stable forever |
+| product `uuid` (set.yaml) | ✅ committed | the umbrella; minted by tcapi (identity authority) |
+| base set / subset `uuid` (each node) | ✅ committed | each node is its own anchor — minted by tcapi |
+| checklist row `uuid` | ✅ committed | the canonical card identity — stable forever |
 | entity `ref` (player/team UUID) | ✅ referenced | owned by tcapi; resolution populates it |
-| **parallel card `uuid`** | ❌ **derived** | `uuidv5(base_row.uuid, parallel.name)` — see IDENTITY.md |
+| **parallel card `uuid`** | ❌ **derived** | `uuidv5(row.uuid, parallel.name)` — see IDENTITY.md |
 | `card_name` / `description` | ❌ derived | composed at display time from subject + subset + parallel |
 | `image_url` | ❌ enrichment | keyed by card uuid, added later — never fabricated |
 | total `card_count` | ❌ derived | expansion count; the review report checks it |
@@ -53,19 +58,25 @@ data/<genre>/<set-id>/
 
 ```python
 # pseudocode — runs in the consumer/CI, output goes to tcapi. Nothing persisted in OCP.
-for subset in manifest.subsets:
-    rows = load(f"checklists/{subset.id}.yaml")
-    sections = section_of(subset, rows)                                    # {row.number: section_id}, derived
+# One recursive walk handles base sets, subsets, and any nesting — a node is a node.
+for base_set in manifest.base_sets:
+    expand(base_set)
+
+def expand(node):
+    rows = load(f"checklists/{node.id}.yaml")
+    sections = section_of(node, rows)                                      # {row.number: section_id}, derived
     for row in rows:
-        emit_card(uuid=row.uuid, subset=subset, parallel=None, row=row,
+        emit_card(uuid=row.uuid, node=node, parallel=None, row=row,
                   section=sections.get(row.number))                       # section is DERIVED, not committed
-        for p in subset.parallels:
+        for p in node.get("parallels", []):
             if applies(p, row, sections):                                 # membership filter, below
                 emit_card(
                     uuid = uuidv5(row.uuid, p.name),                      # DERIVED, reproducible everywhere
-                    subset = subset, parallel = p, row = row,
+                    node = node, parallel = p, row = row,
                     print_run = p.print_run, serial_numbered = p.serial_numbered,
                 )
+    for child in node.get("subsets", []):                                 # recurse — same rule at every depth
+        expand(child)
 
 def applies(p, row, sections):
     a = p.get("applies_to", "all")

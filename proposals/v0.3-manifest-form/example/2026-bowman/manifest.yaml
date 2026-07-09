@@ -1,15 +1,20 @@
-# The generating structure. ABBREVIATED — showing 3 of ~30 real subsets and a
-# representative slice of parallels. In PR #19 each of these parallels was a
-# separate file PER CARD (100 base cards x ~76 parallels = the explosion).
-set_id: "2026-bowman"
-subsets:
+# The generating structure for the "2026 Bowman" PRODUCT. ABBREVIATED.
+# 2026 Bowman ships TWO base sets in one product — the 100-card paper Bowman base and
+# the 150-card Bowman Chrome Prospects — so `base_sets` is a list. Each base set and
+# each subset is the same recursive node (own checklist + parallels + sections +
+# child subsets); base sets are the roots (no `type`), subsets carry a `type`.
+# In PR #19 every parallel of every card was a separate file (the 17,928-file explosion).
+# (uuids are illustrative committed anchors; tcapi mints the real ones.)
+set_id: "2026-bowman"                    # matches set.yaml — the product / umbrella
+base_sets:
 
-  - id: base
-    name: "Base"
-    kind: base
-    declared_card_count: 100          # checked against len(checklists/base.yaml)
-    sections:                         # OPTIONAL editorial partition; every row lands in exactly one
-      - { id: veterans, name: "Veterans", range: { from: "1", to: "50" },  declared_card_count: 50 }
+  # ── BASE SET 1: paper Bowman ────────────────────────────────────────────────────
+  - id: bowman
+    name: "Bowman"
+    uuid: "aaaaaaaa-0000-4000-8000-000000000001"
+    declared_card_count: 100             # checked against len(checklists/bowman.yaml)
+    sections:                            # OPTIONAL partition; every row lands in exactly one
+      - { id: veterans, name: "Veterans", range: { from: "1",  to: "50"  }, declared_card_count: 50 }
       - { id: rookies,  name: "Rookies",  range: { from: "51", to: "100" }, declared_card_count: 50 }
       # Non-sequential numbering would use `numbers` instead of `range`, e.g.:
       #   - { id: legends, name: "Legends", numbers: ["7", "23", "US1"] }
@@ -18,39 +23,54 @@ subsets:
       - { name: "Blue",         print_run: 150, serial_numbered: true }
       - { name: "Gold Pattern", print_run: 50,  serial_numbered: true }
       - { name: "Fuchsia",      print_run: 250, serial_numbered: true }
-      # EXCEPTION: this parallel skips one base card the others carry (e.g. the card
-      # was pulled or never produced in Black). `except` stays correct as the base
-      # grows; the referenced number MUST exist in checklists/base.yaml (validated).
-      # Result: Black derives 99 cards, not 100 — #2 gets no Black uuid.
+      # EXCEPTION: Black skips one base card the others carry. `except` stays correct as
+      # the base grows; the referenced number MUST exist in the checklist (validated).
       - { name: "Black",        print_run: 10,  serial_numbered: true, applies_to: { except: ["2"] } }
       - { name: "Superfractor", print_run: 1,   serial_numbered: true }
       # A parallel scoped to a SECTION — rookies-only, drift-free as the base grows:
-      - { name: "Rookie Foil", print_run: 25, serial_numbered: true, applies_to: { sections: ["rookies"] } }
-      # ...remaining base parallels
-      #
+      - { name: "Rookie Foil",  print_run: 25,  serial_numbered: true, applies_to: { sections: ["rookies"] } }
       # applies_to forms (mutually exclusive; omit for "all"):
-      #   numbers  — only these rows          except — all rows but these
-      #   sections — all rows in these sections (preferred over numbers when a section fits)
+      #   numbers — only these rows   except — all but these   sections — rows in these sections
+    subsets:
+      # An INSERT is a subset of the paper base set. Its own checklist + own parallels.
+      - id: bowman-scouts-top-100
+        name: "Bowman Scouts Top 100"
+        type: insert
+        uuid: "bbbbbbbb-0000-4000-8000-000000000001"
+        declared_card_count: 100         # own checklist -> checklists/bowman-scouts-top-100.yaml
+        parallels:
+          - { name: "Aqua Refractor",   print_run: 125, serial_numbered: true }
+          - { name: "Gold Refractor",   print_run: 50,  serial_numbered: true }
+          - { name: "Red Refractor",    print_run: 5,   serial_numbered: true }
+          - { name: "SuperFractor",     print_run: 1,   serial_numbered: true }
 
-  # NOTE: PR #19 mis-modeled this as a *base parallel* (files like
-  # 1-bowman-scouts-top-100.yaml under card #1). It is really its own INSERT with
-  # its own checklist and its own parallels. v0.3 models it correctly:
-  - id: bowman-scouts-top-100
-    name: "Bowman Scouts Top 100"
-    kind: insert
-    declared_card_count: 100          # its OWN checklist -> checklists/bowman-scouts-top-100.yaml
+  # ── BASE SET 2: Bowman Chrome Prospects ─────────────────────────────────────────
+  - id: bowman-chrome-prospects
+    name: "Bowman Chrome Prospects"
+    uuid: "aaaaaaaa-0000-4000-8000-000000000002"
+    declared_card_count: 150             # -> checklists/bowman-chrome-prospects.yaml (omitted here)
     parallels:
-      - { name: "Aqua Refractor",   print_run: 125, serial_numbered: true }
+      - { name: "Refractor",        print_run: 0,   serial_numbered: false }
       - { name: "Gold Refractor",   print_run: 50,  serial_numbered: true }
-      - { name: "Orange Refractor", print_run: 25,  serial_numbered: true }
-      - { name: "Red Refractor",    print_run: 5,   serial_numbered: true }
-      - { name: "SuperFractor",     print_run: 1,   serial_numbered: true }
-
-  - id: chrome-prospect-autographs
-    name: "Chrome Prospect Autographs"
-    kind: autograph                   # every row is an auto — no per-card flag needed
-    declared_card_count: 87
-    parallels:
-      - { name: "Gold Refractor", print_run: 50, serial_numbered: true }
-      - { name: "Red Refractor",  print_run: 5,  serial_numbered: true }
-      - { name: "Superfractor",   print_run: 1,  serial_numbered: true }
+      - { name: "Superfractor",     print_run: 1,   serial_numbered: true }
+    subsets:
+      # The autograph subset of the Chrome prospects. `type: autograph` = every row an auto.
+      - id: chrome-prospect-autographs
+        name: "Chrome Prospect Autographs"
+        type: autograph
+        uuid: "bbbbbbbb-0000-4000-8000-000000000002"
+        declared_card_count: 87
+        parallels:
+          - { name: "Gold Refractor", print_run: 50, serial_numbered: true }
+          - { name: "Red Refractor",  print_run: 5,  serial_numbered: true }
+          - { name: "Superfractor",   print_run: 1,  serial_numbered: true }
+        # NESTING: a subset can itself contain subsets. Illustrative — checklist omitted.
+        subsets:
+          - id: chrome-prospect-autographs-dual
+            name: "Chrome Prospect Dual Autographs"
+            type: autograph
+            uuid: "cccccccc-0000-4000-8000-000000000002"
+            declared_card_count: 15
+            parallels:
+              - { name: "Gold Refractor", print_run: 25, serial_numbered: true }
+              - { name: "Superfractor",   print_run: 1,  serial_numbered: true }

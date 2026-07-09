@@ -9,16 +9,23 @@ the same UUID for every consumer. Three ways a UUID comes to exist:
 ## 1. Minted (committed)
 
 Assigned once by the identity authority (**tcapi**) and committed verbatim in OCP.
-Applies to:
+The product is a hierarchy — one **product/umbrella** containing one or more **base
+sets**, each containing recursive **subsets**, each holding **rows** — and every node
+in it carries a committed anchor uuid:
 
-- **set** `uuid` (in `set.yaml`)
-- **base checklist row** `uuid` (each row in `checklists/<subset>.yaml`)
+- **product** `uuid` (in `set.yaml`) — the umbrella above the base sets.
+- **base set** `uuid` (each entry in `manifest.base_sets[]`) — a base set is its own
+  identity anchor, distinct from the product. One product may have several.
+- **subset** `uuid` (each `subsets[]` node, at any nesting depth) — an insert /
+  autograph / relic / variation is its own anchor.
+- **checklist row** `uuid` (each row in `checklists/<node-id>.yaml`).
 - **entities** — player/team/attribute UUIDs, referenced via `subject.ref` /
   `team.ref`. Owned entirely by tcapi (see the identity/resolution workstream).
 
 Minted UUIDs are UUIDv4 (random). They never change. In particular a row's `uuid` is
 **stable under renumbering**: if a card's `number` is later corrected, keep the
-`uuid` and change only `number` — identity does not move.
+`uuid` and change only `number` — identity does not move. The same holds for a node's
+`uuid` under renaming or re-parenting: the anchor is stable, the label is not.
 
 ## 2. Derived (never committed)
 
@@ -60,31 +67,40 @@ def parallel_uuid(base_row_uuid: str, parallel_name: str) -> str:
     return str(uuid.uuid5(uuid.UUID(base_row_uuid), parallel_name))
 ```
 
-## 3. Nested parallels
+## 3. Uniform across the hierarchy
 
-A subset that is itself an insert (`kind: insert`, etc.) has its **own** committed
-checklist rows with their own minted `uuid`s. Its parallels derive off *those* row
-uuids by the exact same rule — the derivation is uniform across all subset kinds.
+Derivation is **identical at every node and every depth**. A base set, an insert
+subset, an autograph subset nested inside it — each has its **own** committed
+checklist rows with their own minted `uuid`s, and each node's parallels derive off
+*those* row uuids by the exact same `uuidv5(row.uuid, parallel.name)` rule. There is
+no special case for base vs. subset, or for nesting level: a node is a node. Because
+each row uuid is globally unique, parallels never collide across nodes even when two
+nodes reuse the same card `number`.
 
 ## Invariants (enforced by the validation gate)
 
-1. `parallels[].name` MUST be unique within a subset (else two parallels collide to
-   one UUID).
+1. `parallels[].name` MUST be unique within a node (else two parallels collide to one
+   UUID).
 2. A checklist row `uuid` MUST be present and a valid UUID before expansion.
-3. Row `uuid` MUST NOT be reused across rows or across sets.
-4. Changing `number`, `subjects`, or any field on a row MUST NOT change its `uuid`.
+3. Every anchor `uuid` — product, base set, subset (any depth), and row — MUST be
+   unique across the whole product; none reused across nodes or across sets.
+4. Changing `number`, `subjects`, or any field on a row MUST NOT change its `uuid`;
+   likewise renaming or re-parenting a node MUST NOT change the node's `uuid`.
 5. Renaming a `parallels[].name` DOES change that parallel's derived UUIDs — treat a
    rename as a breaking identity change, not a typo fix.
 6. Every card number listed in a parallel's `applies_to.numbers` or `applies_to.except`
-   MUST exist in that subset's base checklist. A reference to a nonexistent number is
-   a hard error — it catches typos and silent no-ops (an `except` that excludes
-   nothing, a `numbers` that includes nothing).
-7. **Sections partition the checklist.** `sections` is OPTIONAL; a subset with none is
+   MUST exist in that node's checklist. A reference to a nonexistent number is a hard
+   error — it catches typos and silent no-ops (an `except` that excludes nothing, a
+   `numbers` that includes nothing).
+7. **Sections partition the checklist.** `sections` is OPTIONAL; a node with none is
    one implicit section. When declared, every committed row MUST match EXACTLY ONE
    section — a row matching zero (uncovered) or more than one (overlap) is a hard
-   error. Section `id`s MUST be unique within the subset.
+   error. Section `id`s MUST be unique within the node.
 8. Every section id in a parallel's `applies_to.sections` MUST be a declared section
-   of that subset. (Undeclared id = hard error.)
+   of that node. (Undeclared id = hard error.)
+9. Node `id`s MUST be unique across the whole manifest (base sets and subsets share
+   one id-space — each maps to `checklists/<id>.yaml`). A base set carries no `type`;
+   a subset MUST carry one.
 
 ## Namespace constant
 

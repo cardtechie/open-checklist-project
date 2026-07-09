@@ -1,6 +1,8 @@
 # Folded from PR #19 (2026 Bowman) — 17,928 card files collapse to this dir.
-# set.yaml is now purely descriptive: no parallels, no exploded card_count.
-uuid: "edb5a80d-2881-4ebb-9a64-67f594eb8c67"    # real set uuid from PR #19
+# set.yaml is the PRODUCT / umbrella: purely descriptive, no parallels, no card_count.
+# The product's two base sets (paper Bowman, Chrome Prospects) carry their own uuids
+# in manifest.yaml (base_sets[].uuid); this uuid sits above them.
+uuid: "edb5a80d-2881-4ebb-9a64-67f594eb8c67"    # real product uuid from PR #19
 set_id: "2026-bowman"
 name: "2026 Bowman"
 genre: "Sports"
