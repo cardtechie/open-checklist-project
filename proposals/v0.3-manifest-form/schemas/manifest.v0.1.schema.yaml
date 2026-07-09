@@ -42,6 +42,60 @@ properties:
           description: >
             Producer-declared size of THIS subset's base checklist (rows only, not
             parallels). A review-report check against the actual checklist length.
+        sections:
+          type: array
+          minItems: 1
+          description: >
+            Optional editorial partition of THIS subset's checklist into named blocks
+            (e.g. "Veterans", "Rookies"). A section is SINGULAR: every checklist row
+            belongs to exactly one declared section. Membership is declared here and
+            DERIVED onto rows at consume time — rows carry no section field. If a
+            subset declares sections, the declared sections MUST partition the
+            checklist exactly: every committed row matches exactly one section (a row
+            matching zero, or more than one, is a hard validation error — see
+            IDENTITY.md). A subset with no `sections` is one implicit section (today's
+            behavior). NOTE: a section is a structural block, distinct from a per-card
+            ATTRIBUTE (rookie, team-leader, short-print), which is multi-valued and a
+            separate (tcapi-side) feature — not modeled here.
+          items:
+            type: object
+            required: [id, name]
+            additionalProperties: false
+            properties:
+              id:
+                type: string
+                pattern: "^[a-z0-9]+(-[a-z0-9]+)*$"
+                description: Section slug. UNIQUE within the subset. Referenced by parallels' applies_to.sections.
+              name:
+                type: string
+                description: 'Human name of the section (e.g. "Veterans", "Rookies").'
+              declared_card_count:
+                type: integer
+                minimum: 1
+                description: Producer-declared size of this section — a review-report check against matched rows.
+              range:
+                type: object
+                required: [from, to]
+                additionalProperties: false
+                description: >
+                  Contiguous membership for sequential numbering. A row matches iff its
+                  `number` shares this range's literal non-digit prefix and its trailing
+                  integer is within [from, to] inclusive. Handles "1"–"100" and
+                  "US1"–"US25"; NOT mixed-prefix or arbitrary numbering (use `numbers`).
+                  Gaps are fine — the range matches whichever rows exist.
+                properties:
+                  from: { type: string }
+                  to:   { type: string }
+              numbers:
+                type: array
+                minItems: 1
+                items: { type: string }
+                description: >
+                  Explicit membership for non-sequential / interleaved / mixed-prefix
+                  numbering. Lists the exact card numbers in this section.
+            oneOf:
+              - { required: [range] }
+              - { required: [numbers] }
         parallels:
           type: array
           description: Parallel definitions for this subset. Each expands the subset's checklist by (rows that match applies_to).
@@ -65,17 +119,19 @@ properties:
                 default: false
               applies_to:
                 description: >
-                  Which base rows this parallel covers. Default "all". Two partial
-                  forms, mutually exclusive: `numbers` (ONLY these rows — e.g.
-                  rookies-only) and `except` (all base rows EXCEPT these — e.g. a
-                  parallel that skips one card the others carry). Prefer `except` when
-                  the parallel is base-minus-a-few: it stays correct as the base
-                  checklist grows, whereas a `numbers` list is a snapshot. Every
-                  referenced number MUST exist in the subset's base checklist (a hard
-                  validation error — see IDENTITY.md). Ranges are intentionally
-                  omitted (card numbers are strings, e.g. "US1"). This filter selects
-                  which rows produce a derived parallel card; it never affects the
-                  derived UUID.
+                  Which base rows this parallel covers. Default "all". Three partial
+                  forms, mutually exclusive: `numbers` (ONLY these rows), `except` (all
+                  base rows EXCEPT these — e.g. a parallel that skips one card the
+                  others carry), and `sections` (all rows in the named declared
+                  section(s) — e.g. a rookies-only parallel). Prefer `sections` or
+                  `except` over `numbers` when applicable: they stay correct as the
+                  base checklist grows, whereas a `numbers` list is a snapshot. Every
+                  referenced number MUST exist in the subset's base checklist, and every
+                  referenced section MUST be a declared section id (hard validation
+                  errors — see IDENTITY.md). Ranges are intentionally omitted here
+                  (card numbers are strings, e.g. "US1"; use a section for a range).
+                  This filter selects which rows produce a derived parallel card; it
+                  never affects the derived UUID.
                 oneOf:
                   - { type: string, enum: [all] }
                   - type: object
@@ -91,6 +147,14 @@ properties:
                     additionalProperties: false
                     properties:
                       except:
+                        type: array
+                        minItems: 1
+                        items: { type: string }
+                  - type: object
+                    required: [sections]
+                    additionalProperties: false
+                    properties:
+                      sections:
                         type: array
                         minItems: 1
                         items: { type: string }

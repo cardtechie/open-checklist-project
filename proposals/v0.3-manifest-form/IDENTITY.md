@@ -41,8 +41,11 @@ parallel_card.uuid = uuidv5(namespace = r.uuid, name = p.name)
 
 - **`applies_to` is a membership filter, not an identity input.** It selects *which*
   rows produce a derived card; adding or removing a row from a parallel's coverage
-  (e.g. correcting an `except`) makes a card appear/disappear but never changes any
-  other card's UUID. Re-sync stays idempotent.
+  (e.g. correcting an `except`, or a row moving between `sections`) makes a card
+  appear/disappear but never changes any other card's UUID. Re-sync stays idempotent.
+- **`sections` are derived membership, not identity.** A row's section is computed at
+  consume time from the manifest's section declarations; it is not committed on the
+  row and is not a `uuidv5` input. Re-sectioning a checklist never moves a UUID.
 - **Reserved seam for exceptions.** A card present in a parallel with a *different*
   attribute (e.g. a one-off print run) can be expressed by a future additive
   `overrides` field WITHOUT an identity migration — because the override changes an
@@ -76,6 +79,12 @@ uuids by the exact same rule — the derivation is uniform across all subset kin
    MUST exist in that subset's base checklist. A reference to a nonexistent number is
    a hard error — it catches typos and silent no-ops (an `except` that excludes
    nothing, a `numbers` that includes nothing).
+7. **Sections partition the checklist.** `sections` is OPTIONAL; a subset with none is
+   one implicit section. When declared, every committed row MUST match EXACTLY ONE
+   section — a row matching zero (uncovered) or more than one (overlap) is a hard
+   error. Section `id`s MUST be unique within the subset.
+8. Every section id in a parallel's `applies_to.sections` MUST be a declared section
+   of that subset. (Undeclared id = hard error.)
 
 ## Namespace constant
 

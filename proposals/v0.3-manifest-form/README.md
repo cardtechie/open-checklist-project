@@ -28,7 +28,11 @@ data/<genre>/<set-id>/
 
 - **set.yaml** — descriptive metadata. No parallels, no card counts (derived).
 - **manifest.yaml** — the list of subsets; each subset declares its `kind`, its
-  declared base-checklist size (a review check), and its `parallels`.
+  declared base-checklist size (a review check), its `parallels`, and optionally
+  `sections` — a singular editorial partition of its checklist (e.g. Veterans /
+  Rookies) that a parallel can target via `applies_to.sections`. Sections are
+  membership declarations (a `range` or explicit `numbers`), derived onto rows at
+  consume time — not committed on the rows.
 - **checklists/&lt;subset-id&gt;.yaml** — an array of rows (`number → subjects`), each
   with a **committed `uuid`** (the canonical, shared card identity). One file per
   subset; the filename matches the subset `id`.
@@ -51,21 +55,24 @@ data/<genre>/<set-id>/
 # pseudocode — runs in the consumer/CI, output goes to tcapi. Nothing persisted in OCP.
 for subset in manifest.subsets:
     rows = load(f"checklists/{subset.id}.yaml")
+    sections = section_of(subset, rows)                                    # {row.number: section_id}, derived
     for row in rows:
-        emit_card(uuid=row.uuid, subset=subset, parallel=None, row=row)   # the base card (committed uuid)
+        emit_card(uuid=row.uuid, subset=subset, parallel=None, row=row,
+                  section=sections.get(row.number))                       # section is DERIVED, not committed
         for p in subset.parallels:
-            if applies(p, row):                                           # membership filter, below
+            if applies(p, row, sections):                                 # membership filter, below
                 emit_card(
                     uuid = uuidv5(row.uuid, p.name),                      # DERIVED, reproducible everywhere
                     subset = subset, parallel = p, row = row,
                     print_run = p.print_run, serial_numbered = p.serial_numbered,
                 )
 
-def applies(p, row):
+def applies(p, row, sections):
     a = p.get("applies_to", "all")
-    if a == "all":       return True
-    if "numbers" in a:   return row.number in a["numbers"]   # ONLY these rows
-    if "except"  in a:   return row.number not in a["except"] # all rows EXCEPT these
+    if a == "all":        return True
+    if "numbers"  in a:   return row.number in a["numbers"]          # ONLY these rows
+    if "except"   in a:   return row.number not in a["except"]       # all rows EXCEPT these
+    if "sections" in a:   return sections.get(row.number) in a["sections"]  # rows in these sections
 ```
 
 `applies_to` only gates *whether* a row emits a parallel card — it is never an input

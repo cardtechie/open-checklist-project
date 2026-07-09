@@ -8,6 +8,11 @@ subsets:
     name: "Base"
     kind: base
     declared_card_count: 100          # checked against len(checklists/base.yaml)
+    sections:                         # OPTIONAL editorial partition; every row lands in exactly one
+      - { id: veterans, name: "Veterans", range: { from: "1", to: "50" },  declared_card_count: 50 }
+      - { id: rookies,  name: "Rookies",  range: { from: "51", to: "100" }, declared_card_count: 50 }
+      # Non-sequential numbering would use `numbers` instead of `range`, e.g.:
+      #   - { id: legends, name: "Legends", numbers: ["7", "23", "US1"] }
     parallels:
       - { name: "Sky Blue",     print_run: 499, serial_numbered: true }
       - { name: "Blue",         print_run: 150, serial_numbered: true }
@@ -19,11 +24,13 @@ subsets:
       # Result: Black derives 99 cards, not 100 — #2 gets no Black uuid.
       - { name: "Black",        print_run: 10,  serial_numbered: true, applies_to: { except: ["2"] } }
       - { name: "Superfractor", print_run: 1,   serial_numbered: true }
+      # A parallel scoped to a SECTION — rookies-only, drift-free as the base grows:
+      - { name: "Rookie Foil", print_run: 25, serial_numbered: true, applies_to: { sections: ["rookies"] } }
       # ...remaining base parallels
       #
-      # Contrast — a *partial* parallel that covers ONLY listed rows (rookies-only):
-      #   - { name: "Rookie Foil", print_run: 25, serial_numbered: true, applies_to: { numbers: ["1", "2"] } }
-      # `numbers` = only these; `except` = all but these. Mutually exclusive; omit for "all".
+      # applies_to forms (mutually exclusive; omit for "all"):
+      #   numbers  — only these rows          except — all rows but these
+      #   sections — all rows in these sections (preferred over numbers when a section fits)
 
   # NOTE: PR #19 mis-modeled this as a *base parallel* (files like
   # 1-bowman-scouts-top-100.yaml under card #1). It is really its own INSERT with
