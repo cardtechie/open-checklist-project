@@ -35,6 +35,20 @@ parallel_card.uuid = uuidv5(namespace = r.uuid, name = p.name)
   string clean; consumers must not transform it. Both inputs are OCP-published
   canonical values, so every consumer computes the identical UUID.
 
+**Identity depends on `(r.uuid, p.name)` and nothing else.** `print_run`,
+`serial_numbered`, `applies_to`, and any future per-card attribute override are
+**not** derivation inputs. Two consequences the spec commits to:
+
+- **`applies_to` is a membership filter, not an identity input.** It selects *which*
+  rows produce a derived card; adding or removing a row from a parallel's coverage
+  (e.g. correcting an `except`) makes a card appear/disappear but never changes any
+  other card's UUID. Re-sync stays idempotent.
+- **Reserved seam for exceptions.** A card present in a parallel with a *different*
+  attribute (e.g. a one-off print run) can be expressed by a future additive
+  `overrides` field WITHOUT an identity migration — because the override changes an
+  attribute, not `(r.uuid, p.name)`. This is deliberately not built in v0.3, but the
+  invariant above is what keeps it a non-breaking change when it is.
+
 Reference implementation:
 
 ```python
@@ -58,6 +72,10 @@ uuids by the exact same rule — the derivation is uniform across all subset kin
 4. Changing `number`, `subjects`, or any field on a row MUST NOT change its `uuid`.
 5. Renaming a `parallels[].name` DOES change that parallel's derived UUIDs — treat a
    rename as a breaking identity change, not a typo fix.
+6. Every card number listed in a parallel's `applies_to.numbers` or `applies_to.except`
+   MUST exist in that subset's base checklist. A reference to a nonexistent number is
+   a hard error — it catches typos and silent no-ops (an `except` that excludes
+   nothing, a `numbers` that includes nothing).
 
 ## Namespace constant
 

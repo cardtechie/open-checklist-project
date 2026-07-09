@@ -65,9 +65,17 @@ properties:
                 default: false
               applies_to:
                 description: >
-                  Which base rows this parallel covers. Default "all". Use an explicit
-                  number list for partial parallels (e.g. rookies-only). Ranges are
-                  intentionally omitted (card numbers are strings, e.g. "US1").
+                  Which base rows this parallel covers. Default "all". Two partial
+                  forms, mutually exclusive: `numbers` (ONLY these rows — e.g.
+                  rookies-only) and `except` (all base rows EXCEPT these — e.g. a
+                  parallel that skips one card the others carry). Prefer `except` when
+                  the parallel is base-minus-a-few: it stays correct as the base
+                  checklist grows, whereas a `numbers` list is a snapshot. Every
+                  referenced number MUST exist in the subset's base checklist (a hard
+                  validation error — see IDENTITY.md). Ranges are intentionally
+                  omitted (card numbers are strings, e.g. "US1"). This filter selects
+                  which rows produce a derived parallel card; it never affects the
+                  derived UUID.
                 oneOf:
                   - { type: string, enum: [all] }
                   - type: object
@@ -75,6 +83,14 @@ properties:
                     additionalProperties: false
                     properties:
                       numbers:
+                        type: array
+                        minItems: 1
+                        items: { type: string }
+                  - type: object
+                    required: [except]
+                    additionalProperties: false
+                    properties:
+                      except:
                         type: array
                         minItems: 1
                         items: { type: string }

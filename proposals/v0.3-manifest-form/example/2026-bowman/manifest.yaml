@@ -13,9 +13,17 @@ subsets:
       - { name: "Blue",         print_run: 150, serial_numbered: true }
       - { name: "Gold Pattern", print_run: 50,  serial_numbered: true }
       - { name: "Fuchsia",      print_run: 250, serial_numbered: true }
-      - { name: "Black",        print_run: 10,  serial_numbered: true }
+      # EXCEPTION: this parallel skips one base card the others carry (e.g. the card
+      # was pulled or never produced in Black). `except` stays correct as the base
+      # grows; the referenced number MUST exist in checklists/base.yaml (validated).
+      # Result: Black derives 99 cards, not 100 — #2 gets no Black uuid.
+      - { name: "Black",        print_run: 10,  serial_numbered: true, applies_to: { except: ["2"] } }
       - { name: "Superfractor", print_run: 1,   serial_numbered: true }
       # ...remaining base parallels
+      #
+      # Contrast — a *partial* parallel that covers ONLY listed rows (rookies-only):
+      #   - { name: "Rookie Foil", print_run: 25, serial_numbered: true, applies_to: { numbers: ["1", "2"] } }
+      # `numbers` = only these; `except` = all but these. Mutually exclusive; omit for "all".
 
   # NOTE: PR #19 mis-modeled this as a *base parallel* (files like
   # 1-bowman-scouts-top-100.yaml under card #1). It is really its own INSERT with

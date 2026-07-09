@@ -54,13 +54,23 @@ for subset in manifest.subsets:
     for row in rows:
         emit_card(uuid=row.uuid, subset=subset, parallel=None, row=row)   # the base card (committed uuid)
         for p in subset.parallels:
-            if applies(p, row):                                           # applies_to: all | numbers[...]
+            if applies(p, row):                                           # membership filter, below
                 emit_card(
                     uuid = uuidv5(row.uuid, p.name),                      # DERIVED, reproducible everywhere
                     subset = subset, parallel = p, row = row,
                     print_run = p.print_run, serial_numbered = p.serial_numbered,
                 )
+
+def applies(p, row):
+    a = p.get("applies_to", "all")
+    if a == "all":       return True
+    if "numbers" in a:   return row.number in a["numbers"]   # ONLY these rows
+    if "except"  in a:   return row.number not in a["except"] # all rows EXCEPT these
 ```
+
+`applies_to` only gates *whether* a row emits a parallel card — it is never an input
+to `uuidv5`. So an exception adds/removes a card without moving any other uuid, and
+re-sync stays idempotent.
 
 `emit_card` maps OCP fields → tcapi's card schema and upserts by `uuid` (idempotent
 re-sync). Because every uuid is deterministic, re-running produces byte-identical
