@@ -1,0 +1,200 @@
+- number: '1'
+  uuid: ff2c0556-4f2a-4223-8509-52ef8f07858e
+  subjects:
+  - entities:
+    - role: player
+      name: Bobby Witt Jr.
+      ref: 
+    - role: team
+      name: Kansas City Royals
+      ref: 
+- number: '2'
+  uuid: a52db558-0e5d-4243-a7e5-5511f4296666
+  subjects:
+  - entities:
+    - role: player
+      name: Andrew Painter
+      ref: 
+    - role: team
+      name: Philadelphia Phillies
+      ref: 
+- number: '3'
+  uuid: 8820c10e-2287-47f1-9fa9-ba371c80db9b
+  subjects:
+  - entities:
+    - role: player
+      name: Bubba Chandler
+      ref: 
+    - role: team
+      name: Pittsburgh Pirates
+      ref: 
+- number: '4'
+  uuid: 7f749d7d-9e25-46d5-93d0-76b81133d258
+  subjects:
+  - entities:
+    - role: player
+      name: Dylan Crews
+      ref: 
+    - role: team
+      name: Washington Nationals
+      ref: 
+- number: '5'
+  uuid: 57fd42c4-1ca9-4733-a834-5f7fadb6db55
+  subjects:
+  - entities:
+    - role: player
+      name: Eli Willits
+      ref: 
+    - role: team
+      name: Washington Nationals
+      ref: 
+- number: '6'
+  uuid: 90b6b28f-4e02-438f-a0d4-03bfc3bd1884
+  subjects:
+  - entities:
+    - role: player
+      name: Luke Keaschall
+      ref: 
+    - role: team
+      name: Minnesota Twins
+      ref: 
+- number: '7'
+  uuid: 27f525e6-f821-433f-a2a4-3bf2ec885d66
+  subjects:
+  - entities:
+    - role: player
+      name: Spencer Jones
+      ref: 
+    - role: team
+      name: New York Yankees
+      ref: 
+- number: '8'
+  uuid: f5f3df37-00a2-44b0-8463-4b5942a6d5da
+  subjects:
+  - entities:
+    - role: player
+      name: Bryce Eldridge
+      ref: 
+    - role: team
+      name: San Francisco Giants
+      ref: 
+- number: '9'
+  uuid: 26e8158d-d888-43f6-85ff-102f165bb7b7
+  subjects:
+  - entities:
+    - role: player
+      name: Aaron Judge
+      ref: 
+    - role: team
+      name: New York Yankees
+      ref: 
+- number: '10'
+  uuid: 047e2200-c82b-410a-aaf1-efb2b0d63b8f
+  subjects:
+  - entities:
+    - role: player
+      name: Travis Bazzana
+      ref: 
+    - role: team
+      name: Cleveland Guardians
+      ref: 
+- number: '11'
+  uuid: b8083919-a912-477b-8891-883ca5526c1d
+  subjects:
+  - entities:
+    - role: player
+      name: Jacob Misiorowski
+      ref: 
+    - role: team
+      name: Milwaukee Brewers
+      ref: 
+- number: '12'
+  uuid: 8dc02a1a-7699-43c2-bcf4-6c4453817ca2
+  subjects:
+  - entities:
+    - role: player
+      name: Jacob Wilson
+      ref: 
+    - role: team
+      name: Oakland A's
+      ref: 
+- number: '13'
+  uuid: b218a35d-c368-45de-bf67-9b763db9caec
+  subjects:
+  - entities:
+    - role: player
+      name: Charlie Condon
+      ref: 
+    - role: team
+      name: Colorado Rockies
+      ref: 
+- number: '14'
+  uuid: a99a51b6-0ae5-4c35-9224-2c684b78a887
+  subjects:
+  - entities:
+    - role: player
+      name: Paul Skenes
+      ref: 
+    - role: team
+      name: Pittsburgh Pirates
+      ref: 
+- number: '15'
+  uuid: 6340cde3-4242-4474-9336-4c6ead6e95bc
+  subjects:
+  - entities:
+    - role: player
+      name: Jackson Chourio
+      ref: 
+    - role: team
+      name: Milwaukee Brewers
+      ref: 
+- number: '16'
+  uuid: abae9cfa-4564-4b10-8cb2-4b2adb14489b
+  subjects:
+  - entities:
+    - role: player
+      name: Colt Emerson
+      ref: 
+    - role: team
+      name: Seattle Mariners
+      ref: 
+- number: '17'
+  uuid: 110af79f-28eb-4c68-952d-102e4270e02b
+  subjects:
+  - entities:
+    - role: player
+      name: Trey Yesavage
+      ref: 
+    - role: team
+      name: Toronto Blue Jays
+      ref: 
+- number: '18'
+  uuid: 3074f776-725a-4ba8-8350-626962d67405
+  subjects:
+  - entities:
+    - role: player
+      name: Chase DeLauter
+      ref: 
+    - role: team
+      name: Cleveland Guardians
+      ref: 
+- number: '19'
+  uuid: a98c248a-503c-4cfa-a9d9-53f1552fd66f
+  subjects:
+  - entities:
+    - role: player
+      name: Matt Shaw
+      ref: 
+    - role: team
+      name: Chicago Cubs
+      ref: 
+- number: '20'
+  uuid: 79fae9ce-6cf4-4665-b764-33d5cc7e8fbb
+  subjects:
+  - entities:
+    - role: player
+      name: Nick Kurtz
+      ref: 
+    - role: team
+      name: Oakland A's
+      ref: 

@@ -1,0 +1,100 @@
+- number: '1'
+  uuid: 5098a788-94ad-42d0-9d27-4ecb4116846e
+  subjects:
+  - entities:
+    - role: player
+      name: Roman Anthony
+      ref: 
+    - role: team
+      name: Boston Red Sox
+      ref: 
+- number: '2'
+  uuid: cd43fd0a-25dd-484f-a379-db4b2c3a9118
+  subjects:
+  - entities:
+    - role: player
+      name: Ethan Holliday
+      ref: 
+    - role: team
+      name: Colorado Rockies
+      ref: 
+- number: '3'
+  uuid: 5b2e91bb-527f-4a44-8a2d-4dee36045ad2
+  subjects:
+  - entities:
+    - role: player
+      name: Paul Skenes
+      ref: 
+    - role: team
+      name: Pittsburgh Pirates
+      ref: 
+- number: '4'
+  uuid: 332623e9-b92a-4544-950e-40fbcfa35e8d
+  subjects:
+  - entities:
+    - role: player
+      name: Jacob Misiorowski
+      ref: 
+    - role: team
+      name: Milwaukee Brewers
+      ref: 
+- number: '5'
+  uuid: e1ac0538-3f4c-4e3e-8019-365fbf57b0d0
+  subjects:
+  - entities:
+    - role: player
+      name: Nick Kurtz
+      ref: 
+    - role: team
+      name: Oakland A's
+      ref: 
+- number: '6'
+  uuid: '0916f867-110e-4ddd-9a06-462ca84ab94f'
+  subjects:
+  - entities:
+    - role: player
+      name: Ken Griffey Jr.
+      ref: 
+    - role: team
+      name: Seattle Mariners
+      ref: 
+- number: '7'
+  uuid: 709fcca2-efe2-4931-9738-4ed9473944b7
+  subjects:
+  - entities:
+    - role: player
+      name: Konnor Griffin
+      ref: 
+    - role: team
+      name: Pittsburgh Pirates
+      ref: 
+- number: '8'
+  uuid: fec6376b-b1f0-4f8c-82ea-3fdae86bc7a5
+  subjects:
+  - entities:
+    - role: player
+      name: Bobby Witt Jr.
+      ref: 
+    - role: team
+      name: Kansas City Royals
+      ref: 
+- number: '9'
+  uuid: 0d1c7313-8f7b-4685-bf80-519434140e25
+  subjects:
+  - entities:
+    - role: player
+      name: Aaron Judge
+      ref: 
+    - role: team
+      name: New York Yankees
+      ref: 
+- number: '10'
+  uuid: 22956fdf-ef35-458d-a121-0c7ba101256a
+  subjects:
+  - entities:
+    - role: player
+      name: Cade Horton
+      ref: 
+    - role: team
+      name: Chicago Cubs
+      ref: 

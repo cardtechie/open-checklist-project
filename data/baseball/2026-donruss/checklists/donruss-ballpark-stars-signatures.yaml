@@ -1,0 +1,50 @@
+- number: '1'
+  uuid: fb4dac19-8e7c-48c1-9b00-abe4d2b89c8e
+  subjects:
+  - entities:
+    - role: player
+      name: Paige Bueckers
+      ref: 
+    - role: team
+      name: Texas Rangers
+      ref: 
+- number: '2'
+  uuid: de1aa593-c778-4284-8b86-e2216a23147c
+  subjects:
+  - entities:
+    - role: player
+      name: VJ Edgecombe
+      ref: 
+    - role: team
+      name: Philadelphia Phillies
+      ref: 
+- number: '3'
+  uuid: ed00144c-3c2b-4b7e-8e5b-04c1ad47317c
+  subjects:
+  - entities:
+    - role: player
+      name: Angel Reese
+      ref: 
+    - role: team
+      name: Chicago Cubs
+      ref: 
+- number: '4'
+  uuid: 21f1bf1c-5ee4-487c-9916-3931b1e41160
+  subjects:
+  - entities:
+    - role: player
+      name: Caitlin Clark
+      ref: 
+    - role: team
+      name: Chicago Cubs
+      ref: 
+- number: '5'
+  uuid: ca043a57-02bc-4ad9-9a23-3a9bb1e94393
+  subjects:
+  - entities:
+    - role: player
+      name: Azzi Fudd
+      ref: 
+    - role: team
+      name: Washington Nationals
+      ref: 

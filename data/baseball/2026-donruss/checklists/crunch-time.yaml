@@ -1,0 +1,200 @@
+- number: '1'
+  uuid: 538a7fe7-7ea7-47a0-ad3d-b770d1a55a58
+  subjects:
+  - entities:
+    - role: player
+      name: Jesus Made
+      ref: 
+    - role: team
+      name: Milwaukee Brewers
+      ref: 
+- number: '2'
+  uuid: d2c586c4-dd55-4ec2-a825-65b199be4665
+  subjects:
+  - entities:
+    - role: player
+      name: Chase DeLauter
+      ref: 
+    - role: team
+      name: Cleveland Guardians
+      ref: 
+- number: '3'
+  uuid: e41cb939-24c9-4e58-9eca-907794dc9deb
+  subjects:
+  - entities:
+    - role: player
+      name: Bobby Witt Jr.
+      ref: 
+    - role: team
+      name: Kansas City Royals
+      ref: 
+- number: '4'
+  uuid: 517cba2a-e66b-4f06-a36e-1148da31eb51
+  subjects:
+  - entities:
+    - role: player
+      name: Bubba Chandler
+      ref: 
+    - role: team
+      name: Pittsburgh Pirates
+      ref: 
+- number: '5'
+  uuid: e058d766-d7ff-434d-99c3-be17e73c5a5f
+  subjects:
+  - entities:
+    - role: player
+      name: James Wood
+      ref: 
+    - role: team
+      name: Washington Nationals
+      ref: 
+- number: '6'
+  uuid: f3280705-c249-446b-a1d1-18c67c9fe816
+  subjects:
+  - entities:
+    - role: player
+      name: Aaron Judge
+      ref: 
+    - role: team
+      name: New York Yankees
+      ref: 
+- number: '7'
+  uuid: 546f8aba-bfcd-446c-b752-bdc46cc9352d
+  subjects:
+  - entities:
+    - role: player
+      name: Cade Horton
+      ref: 
+    - role: team
+      name: Chicago Cubs
+      ref: 
+- number: '8'
+  uuid: 65a0e2d9-923e-49bc-b370-ad520e04666a
+  subjects:
+  - entities:
+    - role: player
+      name: Cameron Schlittler
+      ref: 
+    - role: team
+      name: New York Yankees
+      ref: 
+- number: '9'
+  uuid: 73ad4bfa-7f6f-4a74-b4e8-594ec261d5c5
+  subjects:
+  - entities:
+    - role: player
+      name: Roman Anthony
+      ref: 
+    - role: team
+      name: Boston Red Sox
+      ref: 
+- number: '10'
+  uuid: 8eeee33a-d389-447f-b84d-6d798143cf99
+  subjects:
+  - entities:
+    - role: player
+      name: Nick Kurtz
+      ref: 
+    - role: team
+      name: Oakland A's
+      ref: 
+- number: '11'
+  uuid: 2962feab-1619-4135-996d-37788180e3a8
+  subjects:
+  - entities:
+    - role: player
+      name: Paul Skenes
+      ref: 
+    - role: team
+      name: Pittsburgh Pirates
+      ref: 
+- number: '12'
+  uuid: 74e4481a-dc81-4052-8a16-391765a16bb3
+  subjects:
+  - entities:
+    - role: player
+      name: Jonah Tong
+      ref: 
+    - role: team
+      name: New York Mets
+      ref: 
+- number: '13'
+  uuid: a17a2054-1d92-4e22-ae41-1c5f176c630b
+  subjects:
+  - entities:
+    - role: player
+      name: Jacob Misiorowski
+      ref: 
+    - role: team
+      name: Milwaukee Brewers
+      ref: 
+- number: '14'
+  uuid: a8a6680a-631c-4a95-95fc-e3efae845273
+  subjects:
+  - entities:
+    - role: player
+      name: Marcelo Mayer
+      ref: 
+    - role: team
+      name: Boston Red Sox
+      ref: 
+- number: '15'
+  uuid: 2c7db252-4335-4a76-a5dd-89b1cbf9f5e1
+  subjects:
+  - entities:
+    - role: player
+      name: Dylan Crews
+      ref: 
+    - role: team
+      name: Washington Nationals
+      ref: 
+- number: '16'
+  uuid: 5f3105ab-18ae-43af-aa9c-f65435f89fcf
+  subjects:
+  - entities:
+    - role: player
+      name: Brandon Sproat
+      ref: 
+    - role: team
+      name: Milwaukee Brewers
+      ref: 
+- number: '17'
+  uuid: ec58b7a7-5f75-477f-999e-8141bafa1bad
+  subjects:
+  - entities:
+    - role: player
+      name: Jacob Wilson
+      ref: 
+    - role: team
+      name: Oakland A's
+      ref: 
+- number: '18'
+  uuid: f5f1b6f5-6e99-44df-a023-fdfaf310d339
+  subjects:
+  - entities:
+    - role: player
+      name: Trey Yesavage
+      ref: 
+    - role: team
+      name: Toronto Blue Jays
+      ref: 
+- number: '19'
+  uuid: 67810d2b-4b87-41fa-8568-2b7f7fed27bb
+  subjects:
+  - entities:
+    - role: player
+      name: Konnor Griffin
+      ref: 
+    - role: team
+      name: Pittsburgh Pirates
+      ref: 
+- number: '20'
+  uuid: 5f225881-b5f2-42d1-847c-957b71bf8d58
+  subjects:
+  - entities:
+    - role: player
+      name: Bryce Eldridge
+      ref: 
+    - role: team
+      name: San Francisco Giants
+      ref: 

@@ -1,0 +1,18 @@
+uuid: ba33d9cc-5c7f-4ef3-b0ee-325e2fb8c19a
+set_id: 2026-donruss
+name: 2026 Donruss
+genre: Sports
+category:
+- Baseball
+sports:
+- Baseball
+season: '2026'
+years:
+- 2026
+manufacturer: Panini
+release_date: '2026-05-27'
+description: 2026 Donruss is a 200 card set released May 27th.
+source:
+  name: BaseballCardpedia
+  url: https://baseballcardpedia.com/index.php/2026_Donruss#Checklist
+  file: import/2026-Donruss-Baseball-Checklist.xlsx

@@ -1,0 +1,100 @@
+- number: '1'
+  uuid: eca16c2e-c744-47ad-af2a-479de6774047
+  subjects:
+  - entities:
+    - role: player
+      name: Nick Kurtz
+      ref: 
+    - role: team
+      name: Oakland A's
+      ref: 
+- number: '2'
+  uuid: abd41fb7-b4dc-4833-9a3d-1efcf6931280
+  subjects:
+  - entities:
+    - role: player
+      name: Cal Ripken
+      ref: 
+    - role: team
+      name: Baltimore Orioles
+      ref: 
+- number: '3'
+  uuid: 9d53c9a6-8283-40a8-9e02-78063346fea5
+  subjects:
+  - entities:
+    - role: player
+      name: Roman Anthony
+      ref: 
+    - role: team
+      name: Boston Red Sox
+      ref: 
+- number: '4'
+  uuid: a30f85ca-2169-41e0-9db6-bb9bb7b1577c
+  subjects:
+  - entities:
+    - role: player
+      name: Eli Willits
+      ref: 
+    - role: team
+      name: Washington Nationals
+      ref: 
+- number: '5'
+  uuid: 358d18ae-a41d-4238-8351-e4518875fa03
+  subjects:
+  - entities:
+    - role: player
+      name: Ethan Holliday
+      ref: 
+    - role: team
+      name: Colorado Rockies
+      ref: 
+- number: '6'
+  uuid: 13fca8df-380c-46f6-bcbb-9f2fd941d33f
+  subjects:
+  - entities:
+    - role: player
+      name: Jacob Misiorowski
+      ref: 
+    - role: team
+      name: Milwaukee Brewers
+      ref: 
+- number: '7'
+  uuid: fb95b8b8-9b9f-4f23-b712-9011af464017
+  subjects:
+  - entities:
+    - role: player
+      name: Konnor Griffin
+      ref: 
+    - role: team
+      name: Pittsburgh Pirates
+      ref: 
+- number: '8'
+  uuid: 67caa6a4-b5ba-4823-96a2-33648ce0340c
+  subjects:
+  - entities:
+    - role: player
+      name: Paul Skenes
+      ref: 
+    - role: team
+      name: Pittsburgh Pirates
+      ref: 
+- number: '9'
+  uuid: 0d02e30e-fc40-42ae-9227-20c19ea4ddc1
+  subjects:
+  - entities:
+    - role: player
+      name: Bobby Witt Jr.
+      ref: 
+    - role: team
+      name: Kansas City Royals
+      ref: 
+- number: '10'
+  uuid: d7c17fd6-749d-461d-b816-dbbef953f912
+  subjects:
+  - entities:
+    - role: player
+      name: Aaron Judge
+      ref: 
+    - role: team
+      name: New York Yankees
+      ref: 

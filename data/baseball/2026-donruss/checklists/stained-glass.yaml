@@ -1,0 +1,200 @@
+- number: '1'
+  uuid: 63c3e9dc-34fb-4755-aa43-06b38f2027a9
+  subjects:
+  - entities:
+    - role: player
+      name: Aaron Judge
+      ref: 
+    - role: team
+      name: New York Yankees
+      ref: 
+- number: '2'
+  uuid: 9a8f0fbc-5820-4945-a6a7-c9d13743492d
+  subjects:
+  - entities:
+    - role: player
+      name: Nolan Ryan
+      ref: 
+    - role: team
+      name: Texas Rangers
+      ref: 
+- number: '3'
+  uuid: 5f3341d1-6814-43ba-a865-29da95560e27
+  subjects:
+  - entities:
+    - role: player
+      name: Kevin McGonigle
+      ref: 
+    - role: team
+      name: Detroit Tigers
+      ref: 
+- number: '4'
+  uuid: e2be8edc-dd58-4443-9f39-3426aa5405d8
+  subjects:
+  - entities:
+    - role: player
+      name: Travis Bazzana
+      ref: 
+    - role: team
+      name: Cleveland Guardians
+      ref: 
+- number: '5'
+  uuid: 6a12cc25-c05e-445f-8491-143fe2dfdc41
+  subjects:
+  - entities:
+    - role: player
+      name: Eli Willits
+      ref: 
+    - role: team
+      name: Washington Nationals
+      ref: 
+- number: '6'
+  uuid: 9f1e1f33-b6b7-40e7-baa0-8b7131fdce01
+  subjects:
+  - entities:
+    - role: player
+      name: Paul Skenes
+      ref: 
+    - role: team
+      name: Pittsburgh Pirates
+      ref: 
+- number: '7'
+  uuid: '02880817-82fa-489c-a801-b12f8c3d2ab3'
+  subjects:
+  - entities:
+    - role: player
+      name: Bobby Witt Jr.
+      ref: 
+    - role: team
+      name: Kansas City Royals
+      ref: 
+- number: '8'
+  uuid: cec278a7-a744-4e06-b2ed-149373202ebf
+  subjects:
+  - entities:
+    - role: player
+      name: Trey Yesavage
+      ref: 
+    - role: team
+      name: Toronto Blue Jays
+      ref: 
+- number: '9'
+  uuid: 73904ba8-340d-4d23-948a-80bcd56310e5
+  subjects:
+  - entities:
+    - role: player
+      name: Cade Horton
+      ref: 
+    - role: team
+      name: Chicago Cubs
+      ref: 
+- number: '10'
+  uuid: 62ae509d-e266-4ba7-a52c-5baa58c91c69
+  subjects:
+  - entities:
+    - role: player
+      name: Roman Anthony
+      ref: 
+    - role: team
+      name: Boston Red Sox
+      ref: 
+- number: '11'
+  uuid: 168a238d-0513-4501-9908-960fc2cdca5d
+  subjects:
+  - entities:
+    - role: player
+      name: Konnor Griffin
+      ref: 
+    - role: team
+      name: Pittsburgh Pirates
+      ref: 
+- number: '12'
+  uuid: 20143ae9-fe3e-46f0-b037-3d64ef83a0d0
+  subjects:
+  - entities:
+    - role: player
+      name: Jacob Wilson
+      ref: 
+    - role: team
+      name: Oakland A's
+      ref: 
+- number: '13'
+  uuid: cddbd0cf-6db2-4c6f-b6a8-6bba5da1cdd6
+  subjects:
+  - entities:
+    - role: player
+      name: Nick Kurtz
+      ref: 
+    - role: team
+      name: Oakland A's
+      ref: 
+- number: '14'
+  uuid: 2c591ad7-5e12-4367-a070-fc0b3fb10aa4
+  subjects:
+  - entities:
+    - role: player
+      name: Albert Pujols
+      ref: 
+    - role: team
+      name: St. Louis Cardinals
+      ref: 
+- number: '15'
+  uuid: efdb7cbc-4571-4f80-b7bd-6cf713b900d0
+  subjects:
+  - entities:
+    - role: player
+      name: James Wood
+      ref: 
+    - role: team
+      name: Washington Nationals
+      ref: 
+- number: '16'
+  uuid: 2228986c-f47a-4745-a360-5ec7d7833f4c
+  subjects:
+  - entities:
+    - role: player
+      name: Jacob Misiorowski
+      ref: 
+    - role: team
+      name: Milwaukee Brewers
+      ref: 
+- number: '17'
+  uuid: 301476e0-7e18-4e6d-aebd-1d161140249c
+  subjects:
+  - entities:
+    - role: player
+      name: Bubba Chandler
+      ref: 
+    - role: team
+      name: Pittsburgh Pirates
+      ref: 
+- number: '18'
+  uuid: fd5d2f1e-a5ff-404c-a1f1-5ba0610c28dc
+  subjects:
+  - entities:
+    - role: player
+      name: Ethan Holliday
+      ref: 
+    - role: team
+      name: Colorado Rockies
+      ref: 
+- number: '19'
+  uuid: d5f1b3fb-7396-439e-8088-18cfa887fbd1
+  subjects:
+  - entities:
+    - role: player
+      name: Alex Rodriguez
+      ref: 
+    - role: team
+      name: New York Yankees
+      ref: 
+- number: '20'
+  uuid: a71faa2d-9659-42b6-b411-05a2a8eb4996
+  subjects:
+  - entities:
+    - role: player
+      name: Ken Griffey Jr.
+      ref: 
+    - role: team
+      name: Seattle Mariners
+      ref: 

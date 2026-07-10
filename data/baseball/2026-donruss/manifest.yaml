@@ -1,0 +1,837 @@
+set_id: 2026-donruss
+base_sets:
+- id: base-set
+  name: Base Set
+  uuid: ca3b20a9-e66e-5011-a151-b3b7ff977479
+  declared_card_count: 100
+  parallels:
+  - name: Artist Proof
+    print_run: 25
+    serial_numbered: true
+  - name: Artist Proof Black
+    print_run: 1
+    serial_numbered: true
+  - name: Black
+    print_run: 1
+    serial_numbered: true
+  - name: Blue
+    print_run: 149
+    serial_numbered: true
+  - name: Carolina Blue Laser
+    print_run: 249
+    serial_numbered: true
+  - name: Gold
+    print_run: 10
+    serial_numbered: true
+  - name: Gold Die Cut
+    print_run: 25
+    serial_numbered: true
+  - name: Green
+    print_run: 199
+    serial_numbered: true
+  - name: Green Laser
+  - name: Holo
+  - name: Holo Purple
+    print_run: 99
+    serial_numbered: true
+  - name: Laser
+  - name: Liberty
+  - name: On Fire
+    print_run: 75
+    serial_numbered: true
+  - name: Orange Laser
+    print_run: 299
+    serial_numbered: true
+  - name: Pink Ice
+    print_run: 99
+    serial_numbered: true
+  - name: Pink Laser
+    print_run: 50
+    serial_numbered: true
+  - name: Presidential Collection
+    print_run: 47
+    serial_numbered: true
+  - name: Printing Plate Black
+    print_run: 1
+    serial_numbered: true
+  - name: Printing Plate Cyan
+    print_run: 1
+    serial_numbered: true
+  - name: Printing Plate Magenta
+    print_run: 1
+    serial_numbered: true
+  - name: Printing Plate Yellow
+    print_run: 1
+    serial_numbered: true
+  - name: Purple
+  - name: Purple Ice
+    print_run: 99
+    serial_numbered: true
+  - name: Purple Laser
+    print_run: 49
+    serial_numbered: true
+  - name: Red
+    print_run: 250
+    serial_numbered: true
+  - name: Red and Blue
+  - name: Red and Blue Laser
+  - name: Red and Green
+  - name: Rockets
+  - name: Silver Die Cut
+    print_run: 75
+    serial_numbered: true
+  - name: Stars
+    print_run: 250
+    serial_numbered: true
+  - name: Teal
+    print_run: 25
+    serial_numbered: true
+  - name: Yellow Flood
+  subsets:
+  - id: base-optic
+    name: Base - Optic
+    uuid: d34e49ec-b153-5d6c-bbf1-868aa4d76567
+    type:
+    - insert
+    declared_card_count: 100
+    parallels:
+    - name: Black Finite
+      print_run: 1
+      serial_numbered: true
+    - name: Black Pandora
+    - name: Black Velocity
+      print_run: 39
+      serial_numbered: true
+    - name: Blue Cracked Ice
+      print_run: 15
+      serial_numbered: true
+    - name: Blue Glitter
+      print_run: 6
+      serial_numbered: true
+    - name: Blue Velocity
+    - name: Circles
+    - name: Cracked Ice
+      print_run: 25
+      serial_numbered: true
+    - name: Electricity
+      print_run: 69
+      serial_numbered: true
+    - name: Flex
+      print_run: 149
+      serial_numbered: true
+    - name: Gold
+      print_run: 10
+      serial_numbered: true
+    - name: Gold Glitter
+      print_run: 4
+      serial_numbered: true
+    - name: Gold Velocity
+      print_run: 10
+      serial_numbered: true
+    - name: Gold Vinyl
+      print_run: 1
+      serial_numbered: true
+    - name: Green
+      print_run: 5
+      serial_numbered: true
+    - name: Green Scope
+      print_run: 65
+      serial_numbered: true
+    - name: Green Velocity
+      print_run: 149
+      serial_numbered: true
+    - name: Holo
+    - name: Jazz
+    - name: Lime Green
+      print_run: 149
+      serial_numbered: true
+    - name: Orange
+      print_run: 199
+      serial_numbered: true
+    - name: Orange Scope
+      print_run: 79
+      serial_numbered: true
+    - name: Orange Velocity
+    - name: Pink Velocity
+      print_run: 79
+      serial_numbered: true
+    - name: Purple
+      print_run: 49
+      serial_numbered: true
+    - name: Red
+      print_run: 99
+      serial_numbered: true
+    - name: Shock
+  - id: base-rated-prospects
+    name: Base - Rated Prospects
+    uuid: e39faa24-ed0b-5758-9ede-3f8550ee79c5
+    type:
+    - insert
+    declared_card_count: 100
+    parallels:
+    - name: Artist Proof
+      print_run: 25
+      serial_numbered: true
+    - name: Artist Proof Black
+      print_run: 1
+      serial_numbered: true
+    - name: Black
+      print_run: 1
+      serial_numbered: true
+    - name: Blue
+      print_run: 149
+      serial_numbered: true
+    - name: Carolina Blue Laser
+      print_run: 249
+      serial_numbered: true
+    - name: Gold
+      print_run: 10
+      serial_numbered: true
+    - name: Gold Die Cut
+      print_run: 25
+      serial_numbered: true
+    - name: Green
+      print_run: 199
+      serial_numbered: true
+    - name: Green Laser
+    - name: Holo
+    - name: Holo Purple
+      print_run: 99
+      serial_numbered: true
+    - name: Laser
+    - name: Liberty
+    - name: On Fire
+      print_run: 75
+      serial_numbered: true
+    - name: Orange Laser
+      print_run: 299
+      serial_numbered: true
+    - name: Pink Ice
+      print_run: 99
+      serial_numbered: true
+    - name: Pink Laser
+      print_run: 50
+      serial_numbered: true
+    - name: Presidential Collection
+      print_run: 47
+      serial_numbered: true
+    - name: Printing Plate Black
+      print_run: 1
+      serial_numbered: true
+    - name: Printing Plate Cyan
+      print_run: 1
+      serial_numbered: true
+    - name: Printing Plate Magenta
+      print_run: 1
+      serial_numbered: true
+    - name: Printing Plate Yellow
+      print_run: 1
+      serial_numbered: true
+    - name: Purple
+    - name: Purple Ice
+      print_run: 99
+      serial_numbered: true
+    - name: Purple Laser
+      print_run: 49
+      serial_numbered: true
+    - name: Red
+      print_run: 250
+      serial_numbered: true
+    - name: Red and Blue
+    - name: Red and Blue Laser
+    - name: Red and Green
+    - name: Rockets
+    - name: Silver Die Cut
+      print_run: 75
+      serial_numbered: true
+    - name: Stars
+      print_run: 250
+      serial_numbered: true
+    - name: Teal
+      print_run: 25
+      serial_numbered: true
+    - name: Yellow Flood
+  - id: base-rated-prospects-optic
+    name: Base - Rated Prospects - Optic
+    uuid: 57f93625-377f-58ce-b400-7794b742fec7
+    type:
+    - insert
+    declared_card_count: 100
+    parallels:
+    - name: Black Finite
+      print_run: 1
+      serial_numbered: true
+    - name: Black Pandora
+    - name: Black Velocity
+      print_run: 39
+      serial_numbered: true
+    - name: Blue Cracked Ice
+      print_run: 15
+      serial_numbered: true
+    - name: Blue Glitter
+      print_run: 6
+      serial_numbered: true
+    - name: Blue Velocity
+    - name: Circles
+    - name: Cracked Ice
+      print_run: 25
+      serial_numbered: true
+    - name: Electricity
+      print_run: 69
+      serial_numbered: true
+    - name: Flex
+      print_run: 149
+      serial_numbered: true
+    - name: Gold
+      print_run: 10
+      serial_numbered: true
+    - name: Gold Glitter
+      print_run: 4
+      serial_numbered: true
+    - name: Gold Velocity
+      print_run: 10
+      serial_numbered: true
+    - name: Gold Vinyl
+      print_run: 1
+      serial_numbered: true
+    - name: Green
+      print_run: 5
+      serial_numbered: true
+    - name: Green Scope
+      print_run: 65
+      serial_numbered: true
+    - name: Green Velocity
+      print_run: 149
+      serial_numbered: true
+    - name: Holo
+    - name: Jazz
+    - name: Lime Green
+      print_run: 149
+      serial_numbered: true
+    - name: Orange
+      print_run: 199
+      serial_numbered: true
+    - name: Orange Scope
+      print_run: 79
+      serial_numbered: true
+    - name: Orange Velocity
+    - name: Pink Velocity
+      print_run: 79
+      serial_numbered: true
+    - name: Purple
+      print_run: 49
+      serial_numbered: true
+    - name: Red
+      print_run: 99
+      serial_numbered: true
+    - name: Shock
+  - id: base-rated-prospects-optic-signatures
+    name: Base Rated Prospects Optic Signatures
+    uuid: e7382386-2caf-5c41-b8d8-91937aa41691
+    type:
+    - autograph
+    declared_card_count: 100
+    parallels:
+    - name: Black Finite
+      print_run: 1
+      serial_numbered: true
+    - name: Blue Glitter
+      print_run: 2
+      serial_numbered: true
+    - name: Carolina Blue
+      print_run: 49
+      serial_numbered: true
+    - name: Copper Glitter
+      print_run: 5
+      serial_numbered: true
+    - name: Gold
+      print_run: 10
+      serial_numbered: true
+    - name: Gold Velocity
+      print_run: 10
+      serial_numbered: true
+    - name: Gold Vinyl
+      print_run: 1
+      serial_numbered: true
+    - name: Pandora
+      print_run: 25
+      serial_numbered: true
+    - name: Purple
+      print_run: 99
+      serial_numbered: true
+subsets:
+- id: 1986-donruss-recollection-collection
+  name: 1986 Donruss Recollection Collection
+  uuid: 752ba940-f386-5d21-be25-1121adfdfc9c
+  type:
+  - insert
+  declared_card_count: 22
+- id: alter-ego
+  name: Alter Ego
+  uuid: 20b429a6-8d56-5a31-ac56-bc47f7b0ad3f
+  type:
+  - insert
+  declared_card_count: 10
+- id: animations
+  name: Animations
+  uuid: 3f90784a-32f0-5bb3-800d-06c6f1dc7e0d
+  type:
+  - insert
+  declared_card_count: 10
+- id: bomb-squad
+  name: Bomb Squad
+  uuid: 62c813be-36ee-599d-9c2e-71ec25ae7148
+  type:
+  - insert
+  declared_card_count: 20
+  parallels:
+  - name: Blue Ice
+    print_run: 35
+    serial_numbered: true
+  - name: Blue Xplosion
+    print_run: 49
+    serial_numbered: true
+  - name: Gold Ice
+    print_run: 10
+    serial_numbered: true
+  - name: Green Ice
+    print_run: 15
+    serial_numbered: true
+  - name: Green Laser
+  - name: Green Xplosion
+    print_run: 25
+    serial_numbered: true
+  - name: Holo
+    print_run: 199
+    serial_numbered: true
+  - name: Orange Ice
+    print_run: 75
+    serial_numbered: true
+  - name: Pink Ice
+    print_run: 99
+    serial_numbered: true
+  - name: Platinum Diamond
+    print_run: 1
+    serial_numbered: true
+  - name: Purple Ice
+    print_run: 99
+    serial_numbered: true
+  - name: Purple Laser
+    print_run: 15
+    serial_numbered: true
+  - name: Red Ice
+    print_run: 149
+    serial_numbered: true
+  - name: Red Xplosion
+    print_run: 99
+    serial_numbered: true
+- id: clearly-rated-prospects
+  name: Clearly - Rated Prospects
+  uuid: b416a756-7791-58aa-85bb-39e1ad76b6d2
+  type:
+  - insert
+  declared_card_count: 100
+  parallels:
+  - name: Black
+    print_run: 10
+    serial_numbered: true
+  - name: Gold
+    print_run: 10
+    serial_numbered: true
+  - name: Platinum
+    print_run: 1
+    serial_numbered: true
+  - name: Techno
+    print_run: 5
+    serial_numbered: true
+- id: coming-attractions
+  name: Coming Attractions
+  uuid: 932530ed-4b6b-5bfd-b8de-53b2a70fd5e4
+  type:
+  - insert
+  declared_card_count: 25
+- id: crunch-time
+  name: Crunch Time
+  uuid: 23256e46-70a2-552a-8051-61c1ac7455e2
+  type:
+  - insert
+  declared_card_count: 20
+  parallels:
+  - name: Blue Ice
+    print_run: 35
+    serial_numbered: true
+  - name: Blue Xplosion
+    print_run: 49
+    serial_numbered: true
+  - name: Gold Ice
+    print_run: 10
+    serial_numbered: true
+  - name: Green Ice
+    print_run: 15
+    serial_numbered: true
+  - name: Green Laser
+  - name: Green Xplosion
+    print_run: 25
+    serial_numbered: true
+  - name: Holo
+    print_run: 199
+    serial_numbered: true
+  - name: Orange Ice
+    print_run: 75
+    serial_numbered: true
+  - name: Pink Ice
+    print_run: 99
+    serial_numbered: true
+  - name: Platinum Diamond
+    print_run: 1
+    serial_numbered: true
+  - name: Purple Ice
+    print_run: 99
+    serial_numbered: true
+  - name: Purple Laser
+    print_run: 15
+    serial_numbered: true
+  - name: Red Ice
+    print_run: 149
+    serial_numbered: true
+  - name: Red Xplosion
+    print_run: 99
+    serial_numbered: true
+- id: diamond-kings
+  name: Diamond Kings
+  uuid: 89b26983-6d0b-5070-8f0f-ad584ee05f29
+  type:
+  - insert
+  declared_card_count: 30
+- id: diamond-marvels
+  name: Diamond Marvels
+  uuid: 587f0369-dabc-5315-9b4b-22e9709d9a31
+  type:
+  - insert
+  declared_card_count: 20
+  parallels:
+  - name: Blue Ice
+    print_run: 35
+    serial_numbered: true
+  - name: Blue Xplosion
+    print_run: 49
+    serial_numbered: true
+  - name: Gold Ice
+    print_run: 10
+    serial_numbered: true
+  - name: Green Ice
+    print_run: 15
+    serial_numbered: true
+  - name: Green Laser
+  - name: Green Xplosion
+    print_run: 25
+    serial_numbered: true
+  - name: Holo
+    print_run: 199
+    serial_numbered: true
+  - name: Orange Ice
+    print_run: 75
+    serial_numbered: true
+  - name: Pink Ice
+    print_run: 99
+    serial_numbered: true
+  - name: Platinum Diamond
+    print_run: 1
+    serial_numbered: true
+  - name: Purple Ice
+    print_run: 99
+    serial_numbered: true
+  - name: Purple Laser
+    print_run: 15
+    serial_numbered: true
+  - name: Red Ice
+    print_run: 149
+    serial_numbered: true
+  - name: Red Xplosion
+    print_run: 99
+    serial_numbered: true
+- id: donruss-ballpark-stars
+  name: Donruss Ballpark Stars
+  uuid: '0390d8f6-92c2-58e4-86a1-255207fd6fb8'
+  type:
+  - insert
+  declared_card_count: 5
+- id: donruss-ballpark-stars-signatures
+  name: Donruss Ballpark Stars Signatures
+  uuid: d2ca563e-5274-5925-8c25-83b7632d732a
+  type:
+  - autograph
+  declared_card_count: 5
+- id: donruss-sketches
+  name: Donruss Sketches
+  uuid: a52dca13-d22c-5693-8f63-e956de8c1496
+  type:
+  - insert
+  declared_card_count: 55
+- id: downtown-duos
+  name: Downtown Duos
+  uuid: 241a9296-c429-5233-9e31-48ea51db17a1
+  type:
+  - insert
+  declared_card_count: 10
+  parallels:
+  - name: Gold
+    print_run: 10
+    serial_numbered: true
+- id: elite-series
+  name: Elite Series
+  uuid: 5c505587-9c52-56fa-ac1f-34168b8f329a
+  type:
+  - insert
+  declared_card_count: 20
+  parallels:
+  - name: Blue Ice
+    print_run: 35
+    serial_numbered: true
+  - name: Blue Xplosion
+    print_run: 49
+    serial_numbered: true
+  - name: Gold Ice
+    print_run: 10
+    serial_numbered: true
+  - name: Green Ice
+    print_run: 15
+    serial_numbered: true
+  - name: Green Laser
+  - name: Green Xplosion
+    print_run: 25
+    serial_numbered: true
+  - name: Holo
+    print_run: 199
+    serial_numbered: true
+  - name: Orange Ice
+    print_run: 75
+    serial_numbered: true
+  - name: Pink Ice
+    print_run: 99
+    serial_numbered: true
+  - name: Platinum Diamond
+    print_run: 1
+    serial_numbered: true
+  - name: Purple Ice
+    print_run: 99
+    serial_numbered: true
+  - name: Purple Laser
+    print_run: 15
+    serial_numbered: true
+  - name: Red Ice
+    print_run: 149
+    serial_numbered: true
+  - name: Red Xplosion
+    print_run: 99
+    serial_numbered: true
+- id: get-to-know
+  name: Get To Know
+  uuid: 82adfcf5-91a4-51f4-ae8e-ff465d6a3a13
+  type:
+  - insert
+  declared_card_count: 18
+- id: greetings-from
+  name: Greetings From
+  uuid: 9f06ca7a-6b7d-59f5-88b5-c0c6ab6e63ee
+  type:
+  - insert
+  declared_card_count: 20
+- id: jersey-kings
+  name: Jersey Kings
+  uuid: 1bedd1dc-87b3-59bf-b98b-731c8598da67
+  type:
+  - relic
+  declared_card_count: 30
+  parallels:
+  - name: Blue
+    print_run: 25
+    serial_numbered: true
+  - name: Blue Ice
+  - name: Gold
+    print_run: 10
+    serial_numbered: true
+  - name: Orange Ice
+  - name: Platinum
+    print_run: 1
+    serial_numbered: true
+  - name: Purple
+    print_run: 49
+    serial_numbered: true
+  - name: Red
+    print_run: 99
+    serial_numbered: true
+- id: next-day-autographs
+  name: Next Day Autographs
+  uuid: 70991f19-fb6e-5ecb-af05-705491ae06e9
+  type:
+  - autograph
+  declared_card_count: 36
+- id: night-moves
+  name: Night Moves
+  uuid: 1b9cf3f1-fb1f-50e7-b45b-546032d0befd
+  type:
+  - insert
+  declared_card_count: 10
+- id: prospect-jersey-kings
+  name: Prospect Jersey Kings
+  uuid: 5a7227d1-5305-5f3e-bf34-3c65a6838470
+  type:
+  - relic
+  declared_card_count: 40
+  parallels:
+  - name: Blue
+    print_run: 25
+    serial_numbered: true
+  - name: Blue Ice
+  - name: Gold
+    print_run: 10
+    serial_numbered: true
+  - name: Orange Ice
+  - name: Platinum
+    print_run: 1
+    serial_numbered: true
+  - name: Purple
+    print_run: 49
+    serial_numbered: true
+  - name: Red
+    print_run: 99
+    serial_numbered: true
+- id: retro-1986-materials
+  name: Retro 1986 Materials
+  uuid: 95fbcebc-412e-5f64-b625-8287c456b989
+  type:
+  - relic
+  declared_card_count: 29
+  parallels:
+  - name: Blue
+    print_run: 25
+    serial_numbered: true
+  - name: Blue Ice
+  - name: Gold
+    print_run: 10
+    serial_numbered: true
+  - name: Orange Ice
+  - name: Platinum
+    print_run: 1
+    serial_numbered: true
+  - name: Purple
+    print_run: 49
+    serial_numbered: true
+  - name: Red
+    print_run: 99
+    serial_numbered: true
+- id: retro-1997-donruss-signature-series-autographs
+  name: Retro 1997 Donruss Signature Series Autographs
+  uuid: d193a767-5303-5303-9049-d943f1856e6b
+  type:
+  - autograph
+  declared_card_count: 14
+- id: signature-series
+  name: Signature Series
+  uuid: d84d7410-9f3e-52c7-9308-8a9233a0a986
+  type:
+  - autograph
+  declared_card_count: 100
+  parallels:
+  - name: Black
+    print_run: 1
+    serial_numbered: true
+  - name: Blue
+    print_run: 75
+    serial_numbered: true
+  - name: Blue Laser
+    print_run: 25
+    serial_numbered: true
+  - name: Gold
+    print_run: 10
+    serial_numbered: true
+  - name: Gold Laser
+    print_run: 10
+    serial_numbered: true
+  - name: Green Laser
+  - name: Laser
+  - name: Orange Laser
+    print_run: 25
+    serial_numbered: true
+  - name: Purple
+    print_run: 49
+    serial_numbered: true
+  - name: Purple Laser
+    print_run: 49
+    serial_numbered: true
+  - name: Red
+    print_run: 99
+    serial_numbered: true
+  - name: Red Laser
+    print_run: 30
+    serial_numbered: true
+  - name: Red and Green Laser
+    print_run: 99
+    serial_numbered: true
+  - name: Teal
+    print_run: 25
+    serial_numbered: true
+- id: stained-glass
+  name: Stained Glass
+  uuid: 03bf9cbe-f197-552d-a89e-88ecd91a35b0
+  type:
+  - insert
+  declared_card_count: 20
+- id: unleashed
+  name: Unleashed
+  uuid: 4abe660f-4bc2-5e55-b8e2-bb261b062834
+  type:
+  - insert
+  declared_card_count: 20
+  parallels:
+  - name: Blue Ice
+    print_run: 35
+    serial_numbered: true
+  - name: Blue Xplosion
+    print_run: 49
+    serial_numbered: true
+  - name: Gold Ice
+    print_run: 10
+    serial_numbered: true
+  - name: Green Ice
+    print_run: 15
+    serial_numbered: true
+  - name: Green Laser
+  - name: Green Xplosion
+    print_run: 25
+    serial_numbered: true
+  - name: Holo
+    print_run: 199
+    serial_numbered: true
+  - name: Orange Ice
+    print_run: 75
+    serial_numbered: true
+  - name: Pink Ice
+    print_run: 99
+    serial_numbered: true
+  - name: Platinum Diamond
+    print_run: 1
+    serial_numbered: true
+  - name: Purple Ice
+    print_run: 99
+    serial_numbered: true
+  - name: Purple Laser
+    print_run: 15
+    serial_numbered: true
+  - name: Red Ice
+    print_run: 149
+    serial_numbered: true
+  - name: Red Xplosion
+    print_run: 99
+    serial_numbered: true
+- id: whammy
+  name: Whammy!
+  uuid: 45cc6fa4-51b1-58c1-b5bf-3b9749b6a899
+  type:
+  - insert
+  declared_card_count: 10
+  parallels:
+  - name: Gold
+    print_run: 10
+    serial_numbered: true
