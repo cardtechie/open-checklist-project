@@ -1,0 +1,83 @@
+$schema_version: "0.3"
+description: "Set object schema for the Open Checklist Project (manifest form). Descriptive metadata only — subsets/parallels live in manifest.yaml, identities in checklists/."
+title: Set
+type: object
+required:
+  - uuid
+  - set_id
+  - name
+  - genre
+  - category
+  - source
+additionalProperties: false
+properties:
+  uuid:
+    type: string
+    format: uuid
+    description: >
+      Canonical identity (UUIDv4) of the PRODUCT / umbrella, committed here.
+      Stable forever. A product holds one or more base sets; each base set carries
+      its OWN uuid in manifest.yaml (see baseSet.uuid) — this is the umbrella above them.
+  set_id:
+    type: string
+    pattern: "^[a-z0-9]+(-[a-z0-9]+)*$"
+    description: 'Stable slug for the set (e.g. "2026-bowman"). Matches the data directory name.'
+  name:
+    type: string
+    description: Official name of the set.
+  genre:
+    type: string
+    enum: [Sports, TCG, Non-Sport]
+  category:
+    type: array
+    items: { type: string }
+    minItems: 1
+    description: 'Subject/franchise/league (e.g. ["MLB"], ["Pokemon"]).'
+  sports:
+    type: array
+    items:
+      type: string
+      enum: [Baseball, Basketball, Football, Hockey, Soccer, Golf, Boxing, Wrestling,
+             Tennis, Racing, MMA, Olympics, Cricket, Lacrosse, Pickleball, Bowling]
+    description: Specific sports (when genre is Sports).
+  season:
+    type: string
+    description: 'Official season designation (e.g. "2021-22", "2026").'
+  years:
+    type: array
+    items: { type: integer, minimum: 1800, maximum: 2100 }
+  series:
+    type: string
+    description: 'Umbrella grouping (e.g. "2026 Bowman Baseball").'
+  series_number:
+    type: integer
+    minimum: 1
+  manufacturer:
+    type: string
+  release_date:
+    type: string
+    format: date
+  description:
+    type: string
+  image_url:
+    type: string
+    format: uri
+    description: Optional set logo / representative image (real URL only — never a fabricated placeholder).
+  source:
+    type: object
+    description: Source attribution — where this checklist came from. Required.
+    required: [name, url]
+    additionalProperties: false
+    properties:
+      name: { type: string }
+      url: { type: string, format: uri }
+      file: { type: string, description: Optional original import filename. }
+  metadata:
+    type: object
+    additionalProperties: true
+    description: Optional freeform metadata. NOTE — subset declarations no longer live here; they are first-class in manifest.yaml.
+
+# Removed vs v0.2 (now expressed elsewhere or derived):
+#   parallel / insert / autograph / relic / base_set / subset  -> manifest.yaml subsets[].type + parallels[]
+#   card_count                                                  -> derived at expansion; checked by the review report
+#   print_run (set-level)                                       -> per-parallel in manifest.yaml
