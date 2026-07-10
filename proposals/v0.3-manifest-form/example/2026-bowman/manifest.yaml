@@ -4,7 +4,7 @@
 # each subset is the same recursive node (own checklist + parallels + sections +
 # child subsets); base sets are the roots (no `type`), subsets carry a `type`.
 # In PR #19 every parallel of every card was a separate file (the 17,928-file explosion).
-# (uuids are illustrative committed anchors; tcapi mints the real ones.)
+# (uuids are illustrative committed anchors; the real ones are assigned upstream.)
 set_id: "2026-bowman"                    # matches set.yaml — the product / umbrella
 base_sets:
 

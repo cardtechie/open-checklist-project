@@ -15,7 +15,7 @@ items:
       type: string
       format: uuid
       description: >
-        Canonical card identity (UUIDv4), minted by tcapi and committed here. Stable
+        Canonical card identity (UUIDv4), committed here. Stable
         forever — including under renumbering (correct `number`, keep `uuid`). Parallels
         of this row derive their UUIDs from this value (see IDENTITY.md).
     title:
@@ -44,8 +44,8 @@ items:
             type: array
             minItems: 1
             description: >
-              The entities that make up this subject, each a reference to a tcapi entity in
-              a role. The entity's TYPE lives in tcapi; `role` is this entity's part within
+              The entities that make up this subject, each a reference to a canonical entity in
+              a role. The entity's TYPE lives in the entity registry; `role` is this entity's part within
               the subject — an OPEN vocabulary (player, team, coach, creature, type,
               character, …), deliberately not an enum so new genres add roles without a
               schema change.
@@ -64,10 +64,10 @@ items:
                   type: ["string", "null"]
                   format: uuid
                   description: >
-                    Canonical entity UUID, owned by tcapi. Populated by the resolution step
+                    Canonical entity UUID. Populated by the resolution step
                     (separate workstream). Null/absent = unresolved; the validation gate flags it.
     # Genuine per-card intrinsics (NOT derivable). These are candidate ATTRIBUTES — a
-    # separate (tcapi-side) workstream — modeled inline for now; may migrate there later.
+    # separate workstream — modeled inline for now; may migrate there later.
     rookie_card:
       type: boolean
     variation:

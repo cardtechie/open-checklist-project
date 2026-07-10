@@ -8,7 +8,7 @@ the same UUID for every consumer. Three ways a UUID comes to exist:
 
 ## 1. Minted (committed)
 
-Assigned once by the identity authority (**tcapi**) and committed verbatim in OCP.
+Assigned once and committed verbatim in OCP (anchors, as opposed to derived ids).
 The product is a hierarchy — one **product/umbrella** containing one or more **base
 sets**, each containing recursive **subsets**, each holding **rows** — and every node
 in it carries a committed anchor uuid:
@@ -20,7 +20,7 @@ in it carries a committed anchor uuid:
   autograph / relic / variation is its own anchor.
 - **checklist row** `uuid` (each row in `checklists/<node-id>.yaml`).
 - **entities** — player/team/attribute UUIDs, referenced via `subject.ref` /
-  `team.ref`. Owned entirely by tcapi (see the identity/resolution workstream).
+  `team.ref`. Resolved via a separate identity/resolution workstream.
 
 Minted UUIDs are UUIDv4 (random). They never change. In particular a row's `uuid` is
 **stable under renumbering**: if a card's `number` is later corrected, keep the

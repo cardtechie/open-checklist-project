@@ -51,7 +51,7 @@ $defs:
         type: string
         format: uuid
         description: >
-          Committed identity anchor for this base set, minted by tcapi. set.yaml carries
+          Committed identity anchor for this base set. set.yaml carries
           the PRODUCT (umbrella) uuid; each base set carries its own. Stable forever.
       declared_card_count:
         type: integer
@@ -90,7 +90,7 @@ $defs:
       uuid:
         type: string
         format: uuid
-        description: Committed identity anchor for this subset, minted by tcapi. Stable forever.
+        description: Committed identity anchor for this subset. Stable forever.
       type:
         type: array
         minItems: 1
@@ -135,7 +135,7 @@ $defs:
       (zero or 2+ = hard error, see IDENTITY.md). A node with no `sections` is one
       implicit section. NOTE: a section is a structural block, distinct from a per-card
       ATTRIBUTE (rookie, team-leader, short-print), which is multi-valued and a separate
-      (tcapi-side) feature — not modeled here.
+      feature — not modeled here.
     properties:
       id:
         type: string

@@ -48,10 +48,10 @@ data/<genre>/<set-id>/
 
 | Thing | Committed? | How |
 |---|---|---|
-| product `uuid` (set.yaml) | ✅ committed | the umbrella; minted by tcapi (identity authority) |
-| base set / subset `uuid` (each node) | ✅ committed | each node is its own anchor — minted by tcapi |
+| product `uuid` (set.yaml) | ✅ committed | the umbrella; a committed canonical id |
+| base set / subset `uuid` (each node) | ✅ committed | each node is its own committed anchor |
 | checklist row `uuid` | ✅ committed | the canonical card identity — stable forever |
-| entity `ref` (in a subject) | ✅ referenced | owned by tcapi; resolution populates it |
+| entity `ref` (in a subject) | ✅ referenced | a canonical entity id; resolution populates it |
 | **parallel card `uuid`** | ❌ **derived** | `uuidv5(row.uuid, parallel.name)` — see IDENTITY.md |
 | card `name` | ❌ derived / ✅ `title` | derived from `subjects` (see below); the optional row `title` overrides |
 | card `description` | ✅ committed (optional) | explicit blurb on the row, when a card has one |
@@ -61,7 +61,7 @@ data/<genre>/<set-id>/
 ## Consume-time expansion (deterministic)
 
 ```python
-# pseudocode — runs in the consumer/CI, output goes to tcapi. Nothing persisted in OCP.
+# pseudocode — runs in the consumer/CI, output goes to the consumer. Nothing persisted in OCP.
 # One recursive walk handles base sets, subsets, and any nesting — a node is a node.
 for base_set in manifest.base_sets:
     expand(base_set)
@@ -94,7 +94,7 @@ def applies(p, row, sections):
 to `uuidv5`. So an exception adds/removes a card without moving any other uuid, and
 re-sync stays idempotent.
 
-`emit_card` maps OCP fields → tcapi's card schema and upserts by `uuid` (idempotent
+`emit_card` maps OCP fields → the consumer's card schema and upserts by `uuid` (idempotent
 re-sync). Because every uuid is deterministic, re-running produces byte-identical
 identities — an update is an update, never a duplicate.
 
