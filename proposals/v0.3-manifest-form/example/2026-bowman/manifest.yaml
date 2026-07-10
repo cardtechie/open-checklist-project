@@ -35,7 +35,7 @@ base_sets:
       # An INSERT is a subset of the paper base set. Its own checklist + own parallels.
       - id: bowman-scouts-top-100
         name: "Bowman Scouts Top 100"
-        type: insert
+        type: [insert]
         uuid: "bbbbbbbb-0000-4000-8000-000000000001"
         declared_card_count: 100         # own checklist -> checklists/bowman-scouts-top-100.yaml
         parallels:
@@ -57,7 +57,7 @@ base_sets:
       # The autograph subset of the Chrome prospects. `type: autograph` = every row an auto.
       - id: chrome-prospect-autographs
         name: "Chrome Prospect Autographs"
-        type: autograph
+        type: [autograph]
         uuid: "bbbbbbbb-0000-4000-8000-000000000002"
         declared_card_count: 87
         parallels:
@@ -68,7 +68,7 @@ base_sets:
         subsets:
           - id: chrome-prospect-autographs-dual
             name: "Chrome Prospect Dual Autographs"
-            type: autograph
+            type: [autograph]
             uuid: "cccccccc-0000-4000-8000-000000000002"
             declared_card_count: 15
             parallels:

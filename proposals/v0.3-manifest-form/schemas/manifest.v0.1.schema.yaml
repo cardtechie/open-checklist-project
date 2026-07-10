@@ -92,11 +92,20 @@ $defs:
         format: uuid
         description: Committed identity anchor for this subset, minted by tcapi. Stable forever.
       type:
-        type: string
-        enum: [insert, autograph, relic, variation]
+        type: array
+        minItems: 1
+        uniqueItems: true
+        items:
+          type: string
+          enum: [insert, autograph, relic, variation]
         description: >
-          Subset type. Absorbs the old per-card flags: an `autograph` subset means every
-          row is an auto, etc. (A base set has no `type`; it lives in base_sets[].)
+          One or more type tags. Usually one (`[insert]`, `[variation]`), but material
+          subsets combine orthogonal properties: an autograph relic / autograph patch is
+          `[autograph, relic]`, a variation-autograph is `[autograph, variation]`.
+          Absorbs the old per-card flags (an `autograph` subset means every row is an
+          auto; a `relic` subset means every row carries a relic/patch/swatch). `insert`
+          and `variation` are structural; `autograph` and `relic` are material properties
+          that can co-occur. (A base set has no `type`; it lives in base_sets[].)
       declared_card_count:
         type: integer
         minimum: 1

@@ -100,7 +100,7 @@ nodes reuse the same card `number`.
    of that node. (Undeclared id = hard error.)
 9. Node `id`s MUST be unique across the whole manifest (base sets and subsets share
    one id-space — each maps to `checklists/<id>.yaml`). A base set carries no `type`;
-   a subset MUST carry one.
+   a subset MUST carry at least one type (a list; e.g. [autograph, relic] for an auto-relic).
 
 ## Namespace constant
 
