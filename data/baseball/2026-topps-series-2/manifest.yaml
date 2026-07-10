@@ -828,7 +828,7 @@ subsets:
   name: Signature Tunes Dual Aurographs
   uuid: d80a0790-bb78-51d2-b00d-2513a3ff87e4
   type:
-  - insert
+  - autograph
   declared_card_count: 2
 - id: stars-of-mlb
   name: Stars Of MLB
