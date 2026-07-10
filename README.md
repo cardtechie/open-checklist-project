@@ -12,19 +12,25 @@ The **Open Checklist Project** is an open-data initiative to standardize and sha
 
 ## Contents
 
-- ✅ JSON/YAML schemas for cards and sets
+- ✅ Open YAML schemas — sets, manifests, and checklists (the v0.3 manifest form; a legacy card schema is retained)
 - 📦 Curated and contributed checklist data (organized by genre, sport, and set)
 - 🛠 Tools for validating, transforming, and consuming data
 - 🤝 GitHub workflows for contributor validation
 
 ## Schemas
 
-The project includes standardized schemas for consistent data structure:
+The project uses standardized, independently-versioned schemas. As of **v0.3**, a set is
+stored in the **manifest form** — a compact `set.yaml` + `manifest.yaml` + `checklists/`
+from which the full per-card explosion is *derived* — replacing the older
+one-file-per-card layout.
 
-- **Card Schema v0.1**: [`schemas/card/schema.yaml`](schemas/card/schema.yaml) ([Latest Documentation](schemas/card/README.md))
-- **Set Schema v0.2**: [`schemas/set/schema.yaml`](schemas/set/schema.yaml) ([Latest Documentation](schemas/set/README.md))
+- **Set v0.3** (manifest form): [`schemas/set/schema.yaml`](schemas/set/schema.yaml) ([docs](schemas/set/README.md))
+- **Manifest v0.1**: [`schemas/manifest/schema.yaml`](schemas/manifest/schema.yaml) ([docs](schemas/manifest/README.md))
+- **Checklist v0.1**: [`schemas/checklist/schema.yaml`](schemas/checklist/schema.yaml) ([docs](schemas/checklist/README.md))
+- **Card v0.1** (legacy, exploded format): [`schemas/card/schema.yaml`](schemas/card/schema.yaml) ([docs](schemas/card/README.md))
 
-For detailed schema documentation, version history, and examples, see the [schemas directory](schemas/README.md).
+For the manifest form, the identity/UUID contract, versioning, validation, and examples,
+see the [schemas directory](schemas/README.md).
 
 ## Validation
 
