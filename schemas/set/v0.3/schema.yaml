@@ -15,8 +15,8 @@ properties:
     type: string
     format: uuid
     description: >
-      Canonical identity (UUIDv4) of the PRODUCT / umbrella, committed here
-      here. Stable forever. A product holds one or more base sets; each base set carries
+      Canonical identity (UUIDv4) of the PRODUCT / umbrella, committed here.
+      Stable forever. A product holds one or more base sets; each base set carries
       its OWN uuid in manifest.yaml (see baseSet.uuid) — this is the umbrella above them.
   set_id:
     type: string
@@ -78,6 +78,6 @@ properties:
     description: Optional freeform metadata. NOTE — subset declarations no longer live here; they are first-class in manifest.yaml.
 
 # Removed vs v0.2 (now expressed elsewhere or derived):
-#   parallel / insert / autograph / relic / base_set / subset  -> manifest.yaml subsets[].kind + parallels[]
+#   parallel / insert / autograph / relic / base_set / subset  -> manifest.yaml subsets[].type + parallels[]
 #   card_count                                                  -> derived at expansion; checked by the review report
 #   print_run (set-level)                                       -> per-parallel in manifest.yaml

@@ -7,7 +7,9 @@ Per set directory (data/<genre>/<set-id>/):
     (unique ids/uuids, sections partition, applies_to references, etc.).
   * v0.2 (legacy exploded): validates set.yaml + cards/*.yaml against the old schemas.
 
-Exit 0 if everything validates, 1 otherwise.
+This is a CI gate, so it is defensive: malformed YAML, unreadable files, and
+schema-invalid shapes are recorded as errors and reported at the end rather than
+crashing the run. Exit 0 if everything validates, 1 otherwise.
 """
 import re
 import sys
@@ -19,18 +21,27 @@ import jsonschema
 SCHEMA_DIR = Path("schemas")
 DATA_DIR = Path("data")
 
-
-def load_yaml(path):
-    with open(path) as f:
-        return yaml.safe_load(f)
+# Enforce format constraints (uuid / date / uri) in addition to structure. Formats
+# whose optional backing library isn't installed are silently skipped by jsonschema.
+FORMAT_CHECKER = jsonschema.FormatChecker()
 
 
 def load_schema(path):
-    schema = load_yaml(path)
+    """Load a schema file (following the pointer-symlink-as-text fallback). Schema
+    files are part of the repo, not user data, so a bad schema is a setup error and
+    is allowed to raise."""
+    with open(path) as f:
+        schema = yaml.safe_load(f)
     # Windows checkouts can read a symlink as a plain file containing its target.
     if isinstance(schema, str) and schema.endswith((".yaml", ".yml")):
-        return load_yaml(Path(path).parent / schema)
+        with open(Path(path).parent / schema) as f:
+            schema = yaml.safe_load(f)
     return schema
+
+
+def _path_key(err):
+    """A sortable key for a jsonschema error path (a deque of mixed str/int)."""
+    return [str(p) for p in err.path]
 
 
 class Report:
@@ -40,9 +51,28 @@ class Report:
     def err(self, where, msg):
         self.errors.append(f"{where}: {msg}")
 
+    def load_yaml(self, path, where):
+        """Load YAML, recording parse/read errors instead of raising. Returns the
+        parsed data, or None on failure."""
+        try:
+            with open(path) as f:
+                return yaml.safe_load(f)
+        except FileNotFoundError:
+            self.err(where, f"file not found: {path}")
+        except yaml.YAMLError as e:
+            self.err(where, f"invalid YAML: {str(e).splitlines()[0] if str(e) else e}")
+        except OSError as e:
+            self.err(where, f"cannot read file: {e}")
+        return None
+
     def schema_check(self, where, data, schema):
-        v = jsonschema.Draft202012Validator(schema)
-        for e in sorted(v.iter_errors(data), key=lambda e: e.path):
+        try:
+            validator = jsonschema.Draft202012Validator(schema, format_checker=FORMAT_CHECKER)
+            errors = sorted(validator.iter_errors(data), key=_path_key)
+        except Exception as e:  # pragma: no cover - defensive
+            self.err(where, f"could not run schema validation: {e}")
+            return
+        for e in errors:
             loc = "/".join(str(p) for p in e.path)
             self.err(where, f"schema: {loc or '<root>'} — {e.message}")
 
@@ -58,30 +88,47 @@ def _split(n):
 
 
 def in_range(number, rng):
+    if not isinstance(rng, dict):
+        return False
     pfx, val = _split(number)
-    lo_p, lo_v = _split(rng["from"])
-    hi_p, hi_v = _split(rng["to"])
+    lo_p, lo_v = _split(rng.get("from"))
+    hi_p, hi_v = _split(rng.get("to"))
     if None in (val, lo_v, hi_v) or not (pfx == lo_p == hi_p):
         return False
     return lo_v <= val <= hi_v
 
 
 def section_of(number, sections):
-    """Return the list of section ids a row number falls into (should be exactly one)."""
+    """Return the list of section ids a row number falls into (should be exactly one).
+    Tolerates malformed section entries (schema validation reports those separately)."""
     hits = []
     for s in sections:
-        if "numbers" in s and str(number) in [str(x) for x in s["numbers"]]:
-            hits.append(s["id"])
-        elif "range" in s and in_range(number, s["range"]):
-            hits.append(s["id"])
+        if not isinstance(s, dict):
+            continue
+        sid = s.get("id")
+        if "numbers" in s and str(number) in [str(x) for x in (s.get("numbers") or [])]:
+            hits.append(sid)
+        elif "range" in s and in_range(number, s.get("range")):
+            hits.append(sid)
     return hits
+
+
+def find_dupes(items):
+    """Linear-time duplicate finder."""
+    seen, dupes = set(), set()
+    for x in items:
+        (dupes if x in seen else seen).add(x)
+    return dupes
 
 
 # ---- v0.3 validation -----------------------------------------------------------
 
 def iter_nodes(manifest):
-    """Yield (node, is_base) for every base set and subset, recursively."""
+    """Yield (node, is_base) for every base set and subset, recursively. Skips
+    non-dict entries (schema validation reports those)."""
     def walk(node, is_base):
+        if not isinstance(node, dict):
+            return
         yield node, is_base
         for child in node.get("subsets", []) or []:
             yield from walk(child, False)
@@ -93,11 +140,19 @@ def iter_nodes(manifest):
 
 def validate_v03(set_dir, schemas, rep):
     where = str(set_dir)
-    set_yaml = load_yaml(set_dir / "set.yaml")
-    manifest = load_yaml(set_dir / "manifest.yaml")
+    set_yaml = rep.load_yaml(set_dir / "set.yaml", f"{where}/set.yaml")
+    manifest = rep.load_yaml(set_dir / "manifest.yaml", f"{where}/manifest.yaml")
 
     rep.schema_check(f"{where}/set.yaml", set_yaml, schemas["set"])
     rep.schema_check(f"{where}/manifest.yaml", manifest, schemas["manifest"])
+
+    # Invariant checks below assume mappings; if the top-level shape is wrong, the
+    # schema_check above already reported it — stop here rather than crash.
+    if not isinstance(set_yaml, dict):
+        set_yaml = {}
+    if not isinstance(manifest, dict):
+        rep.err(where, "manifest.yaml is not a mapping; skipping invariant checks")
+        return
 
     # set_id agreement (set.yaml <-> manifest <-> directory name)
     if set_yaml.get("set_id") != manifest.get("set_id"):
@@ -105,8 +160,13 @@ def validate_v03(set_dir, schemas, rep):
     if manifest.get("set_id") != set_dir.name:
         rep.err(where, f"set_id {manifest.get('set_id')} != directory {set_dir.name}")
 
-    anchor_uuids = {}  # uuid -> "where" (product/base/subset/row), for global uniqueness
+    anchor_uuids = {}  # uuid -> "label", for global uniqueness
+
     def claim(uuid, label):
+        # Missing / non-string uuids are reported by schema validation; skip them here
+        # so we don't emit noisy "duplicate uuid None" errors.
+        if not isinstance(uuid, str) or not uuid:
+            return
         if uuid in anchor_uuids:
             rep.err(where, f"duplicate uuid {uuid}: {label} and {anchor_uuids[uuid]}")
         else:
@@ -132,25 +192,30 @@ def validate_v03(set_dir, schemas, rep):
         if not is_base and not node.get("type"):
             rep.err(where, f"subset {nid} must have a non-empty type list")
 
+        parallels = [p for p in (node.get("parallels") or []) if isinstance(p, dict)]
+
         # parallel names unique within node
-        pnames = [p["name"] for p in node.get("parallels", []) or []]
-        dupes = {n for n in pnames if pnames.count(n) > 1}
-        if dupes:
-            rep.err(where, f"{nid}: duplicate parallel names {sorted(dupes)}")
+        pnames = [p.get("name") for p in parallels if p.get("name") is not None]
+        pdupes = find_dupes(pnames)
+        if pdupes:
+            rep.err(where, f"{nid}: duplicate parallel names {sorted(pdupes)}")
 
         # checklist file
+        if not isinstance(nid, str) or not nid:
+            continue  # schema reports the missing/invalid id
         cl_path = checklist_dir / f"{nid}.yaml"
         if not cl_path.exists():
             rep.err(where, f"{nid}: missing checklist file checklists/{nid}.yaml")
             continue
         referenced_files.add(cl_path.name)
-        rows = load_yaml(cl_path)
+        rows = rep.load_yaml(cl_path, f"{where}/checklists/{nid}.yaml")
         rep.schema_check(f"{where}/checklists/{nid}.yaml", rows, schemas["checklist"])
         if not isinstance(rows, list):
             continue
+        rows = [r for r in rows if isinstance(r, dict)]
 
         numbers = [str(r.get("number")) for r in rows]
-        ndupes = {n for n in numbers if numbers.count(n) > 1}
+        ndupes = find_dupes(numbers)
         if ndupes:
             rep.err(where, f"{nid}: duplicate card numbers within node {sorted(ndupes)[:5]}")
         for r in rows:
@@ -158,16 +223,17 @@ def validate_v03(set_dir, schemas, rep):
 
         # declared_card_count sanity
         dcc = node.get("declared_card_count")
-        if dcc is not None and dcc != len(rows):
+        if isinstance(dcc, int) and dcc != len(rows):
             rep.err(where, f"{nid}: declared_card_count {dcc} != {len(rows)} rows")
 
         # sections partition
         sections = node.get("sections")
-        if sections:
-            sids = [s["id"] for s in sections]
-            if len(sids) != len(set(sids)):
+        section_ids = []
+        if isinstance(sections, list) and sections:
+            section_ids = [s.get("id") for s in sections if isinstance(s, dict)]
+            if find_dupes(section_ids):
                 rep.err(where, f"{nid}: duplicate section ids")
-            covered = {sid: 0 for sid in sids}
+            covered = {sid: 0 for sid in section_ids}
             for n in numbers:
                 hits = section_of(n, sections)
                 if len(hits) == 0:
@@ -175,23 +241,24 @@ def validate_v03(set_dir, schemas, rep):
                 elif len(hits) > 1:
                     rep.err(where, f"{nid}: card {n} in multiple sections {hits}")
                 for h in hits:
-                    covered[h] += 1
+                    covered[h] = covered.get(h, 0) + 1
             for sid, c in covered.items():
                 if c == 0:
                     rep.err(where, f"{nid}: section {sid} matches no rows")
 
         # applies_to references
         numset = set(numbers)
-        for p in node.get("parallels", []) or []:
+        for p in parallels:
+            pname = p.get("name", "<unnamed>")
             a = p.get("applies_to", "all")
             if isinstance(a, dict):
                 for key in ("numbers", "except"):
-                    for n in a.get(key, []):
+                    for n in a.get(key, []) or []:
                         if str(n) not in numset:
-                            rep.err(where, f"{nid}: parallel {p['name']} applies_to.{key} references missing number {n}")
-                for sid in a.get("sections", []):
-                    if not sections or sid not in [s["id"] for s in sections]:
-                        rep.err(where, f"{nid}: parallel {p['name']} applies_to.sections references undeclared section {sid}")
+                            rep.err(where, f"{nid}: parallel {pname} applies_to.{key} references missing number {n}")
+                for sid in a.get("sections", []) or []:
+                    if sid not in section_ids:
+                        rep.err(where, f"{nid}: parallel {pname} applies_to.sections references undeclared section {sid}")
 
     # orphan checklist files (present but not referenced by any node)
     if checklist_dir.exists():
@@ -204,9 +271,11 @@ def validate_v03(set_dir, schemas, rep):
 
 def validate_v02(set_dir, schemas, rep):
     where = str(set_dir)
-    rep.schema_check(f"{where}/set.yaml", load_yaml(set_dir / "set.yaml"), schemas["v2set"])
-    for card in (set_dir / "cards").glob("*.yaml"):
-        rep.schema_check(str(card), load_yaml(card), schemas["v2card"])
+    set_yaml = rep.load_yaml(set_dir / "set.yaml", f"{where}/set.yaml")
+    rep.schema_check(f"{where}/set.yaml", set_yaml, schemas["v2set"])
+    for card in sorted((set_dir / "cards").glob("*.yaml")):
+        data = rep.load_yaml(card, str(card))
+        rep.schema_check(str(card), data, schemas["v2card"])
 
 
 # ---- main ----------------------------------------------------------------------
@@ -222,9 +291,9 @@ def main(argv):
         "manifest": load_schema(schema_dir / "manifest" / "schema.yaml"),
         "checklist": load_schema(schema_dir / "checklist" / "schema.yaml"),
     }
-    # Legacy v0.2 (exploded) schemas, loaded from their explicit version dir so the
-    # `set` pointer moving to v0.3 doesn't change how legacy sets are validated.
-    for legacy, fname in (("v2set", "set/v0.2/schema.yaml"), ("v2card", "card/schema.yaml")):
+    # Legacy schemas pinned to explicit version dirs so a moving pointer never changes
+    # how already-committed exploded sets are validated.
+    for legacy, fname in (("v2set", "set/v0.2/schema.yaml"), ("v2card", "card/v0.1/schema.yaml")):
         p = schema_dir / fname
         if p.exists():
             schemas[legacy] = load_schema(p)
@@ -236,15 +305,19 @@ def main(argv):
         return 0
 
     for sd in set_dirs:
-        if (sd / "manifest.yaml").exists():
-            fmt = "v0.3"
-            validate_v03(sd, schemas, rep)
-        elif (sd / "cards").is_dir():
-            fmt = "v0.2"
-            validate_v02(sd, schemas, rep)
-        else:
-            fmt = "?"
-            rep.err(str(sd), "no manifest.yaml (v0.3) or cards/ (v0.2)")
+        try:
+            if (sd / "manifest.yaml").exists():
+                fmt = "v0.3"
+                validate_v03(sd, schemas, rep)
+            elif (sd / "cards").is_dir():
+                fmt = "v0.2"
+                validate_v02(sd, schemas, rep)
+            else:
+                fmt = "?"
+                rep.err(str(sd), "no manifest.yaml (v0.3) or cards/ (v0.2)")
+        except Exception as e:  # pragma: no cover - a bad set must not abort the run
+            fmt = "!"
+            rep.err(str(sd), f"unexpected error during validation: {e}")
         print(f"  [{fmt}] {sd}")
 
     if rep.errors:

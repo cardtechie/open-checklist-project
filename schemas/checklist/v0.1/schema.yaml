@@ -65,7 +65,7 @@ items:
                   format: uuid
                   description: >
                     Canonical entity UUID. Populated by the resolution step
-                    (separate workstream). Null/absent = unresolved; the validation gate flags it.
+                    (separate workstream). Null/absent = unresolved; populated later by resolution.
     # Genuine per-card intrinsics (NOT derivable). These are candidate ATTRIBUTES — a
     # separate workstream — modeled inline for now; may migrate there later.
     rookie_card:
