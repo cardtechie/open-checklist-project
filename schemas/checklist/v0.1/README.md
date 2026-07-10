@@ -11,8 +11,8 @@ Each row is committed once. Its parallels are **not** stored here — they are d
 
 - **`number`** (required) — printed card number/identifier, a string (may be
   non-numeric, e.g. `"US1"`, `"BCP-1"`). Unique within the node.
-- **`uuid`** (required) — canonical card identity (UUID v4), minted by tcapi and
-  committed here. Stable forever, including under renumbering.
+- **`uuid`** (required) — canonical card identity (UUID v4), committed here. Stable
+  forever, including under renumbering.
 - **`subjects`** (optional) — who/what the card is about. Zero or more subjects; each
   subject is a **combination of `entities`** (the combination *is* the subject):
 
@@ -24,9 +24,9 @@ Each row is committed once. Its parallels are **not** stored here — they are d
   ```
 
   `role` is an **open vocabulary** (player, team, coach, creature, character, …) — the
-  entity's *type* lives in tcapi, and `ref` references the canonical entity UUID
-  (populated by resolution; `null` = unresolved). New genres add roles without a schema
-  change.
+  entity's *type* lives in the entity registry, and `ref` references the canonical
+  entity UUID (populated by resolution; `null` = unresolved). New genres add roles
+  without a schema change.
 
 - **`title`** (optional) — explicit card name, only when it can't be derived from
   subjects (e.g. `"Checklist"`, `"Home Run Leaders"`). Otherwise the card name is

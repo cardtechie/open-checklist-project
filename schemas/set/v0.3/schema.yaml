@@ -15,7 +15,7 @@ properties:
     type: string
     format: uuid
     description: >
-      Canonical identity (UUIDv4) of the PRODUCT / umbrella, minted by tcapi and published
+      Canonical identity (UUIDv4) of the PRODUCT / umbrella, committed here
       here. Stable forever. A product holds one or more base sets; each base set carries
       its OWN uuid in manifest.yaml (see baseSet.uuid) — this is the umbrella above them.
   set_id:
