@@ -53,19 +53,28 @@ class Report:
 
     def load_yaml(self, path, where):
         """Load YAML, recording parse/read errors instead of raising. Returns the
-        parsed data, or None on failure."""
+        parsed data, or None on failure (or on an empty/null document)."""
         try:
             with open(path) as f:
-                return yaml.safe_load(f)
+                data = yaml.safe_load(f)
         except FileNotFoundError:
             self.err(where, f"file not found: {path}")
+            return None
         except yaml.YAMLError as e:
             self.err(where, f"invalid YAML: {str(e).splitlines()[0] if str(e) else e}")
+            return None
         except OSError as e:
             self.err(where, f"cannot read file: {e}")
-        return None
+            return None
+        if data is None:
+            self.err(where, "empty or null document")
+        return data
 
     def schema_check(self, where, data, schema):
+        # None means the file failed to load or was empty — already reported by
+        # load_yaml; skip so we don't pile on a noisy "None is not of type ..." error.
+        if data is None:
+            return
         try:
             validator = jsonschema.Draft202012Validator(schema, format_checker=FORMAT_CHECKER)
             errors = sorted(validator.iter_errors(data), key=_path_key)
@@ -181,9 +190,10 @@ def validate_v03(set_dir, schemas, rep):
     for node, is_base in iter_nodes(manifest):
         nid = node.get("id")
         label = f"node {nid}"
-        if nid in node_ids:
-            rep.err(where, f"duplicate node id: {nid}")
-        node_ids[nid] = node
+        if isinstance(nid, str) and nid:  # guard before using as a dict key (unhashable ids)
+            if nid in node_ids:
+                rep.err(where, f"duplicate node id: {nid}")
+            node_ids[nid] = node
         claim(node.get("uuid"), label)
 
         # base-vs-subset type rule (schema also checks, but be explicit)
@@ -194,8 +204,8 @@ def validate_v03(set_dir, schemas, rep):
 
         parallels = [p for p in (node.get("parallels") or []) if isinstance(p, dict)]
 
-        # parallel names unique within node
-        pnames = [p.get("name") for p in parallels if p.get("name") is not None]
+        # parallel names unique within node (filter to hashable string names)
+        pnames = [p.get("name") for p in parallels if isinstance(p.get("name"), str)]
         pdupes = find_dupes(pnames)
         if pdupes:
             rep.err(where, f"{nid}: duplicate parallel names {sorted(pdupes)}")
@@ -230,7 +240,7 @@ def validate_v03(set_dir, schemas, rep):
         sections = node.get("sections")
         section_ids = []
         if isinstance(sections, list) and sections:
-            section_ids = [s.get("id") for s in sections if isinstance(s, dict)]
+            section_ids = [s.get("id") for s in sections if isinstance(s, dict) and isinstance(s.get("id"), str)]
             if find_dupes(section_ids):
                 rep.err(where, f"{nid}: duplicate section ids")
             covered = {sid: 0 for sid in section_ids}
@@ -271,6 +281,9 @@ def validate_v03(set_dir, schemas, rep):
 
 def validate_v02(set_dir, schemas, rep):
     where = str(set_dir)
+    if "v2set" not in schemas or "v2card" not in schemas:
+        rep.err(where, "legacy v0.2 schemas unavailable (schemas/set/v0.2 or schemas/card/v0.1 missing)")
+        return
     set_yaml = rep.load_yaml(set_dir / "set.yaml", f"{where}/set.yaml")
     rep.schema_check(f"{where}/set.yaml", set_yaml, schemas["v2set"])
     for card in sorted((set_dir / "cards").glob("*.yaml")):
