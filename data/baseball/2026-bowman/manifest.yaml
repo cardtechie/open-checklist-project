@@ -73,17 +73,20 @@ base_sets:
   - id: base-etched-in-glass-variations
     name: Base - Etched In Glass Variations
     uuid: b2fddb62-4145-5652-9273-1d352949b0b6
-    type: variation
+    type:
+    - variation
     declared_card_count: 12
   - id: base-red-rc-variations
     name: Base - Red RC Variations
     uuid: e780c379-6579-55a9-94c0-dc4e3bf10a4c
-    type: variation
+    type:
+    - variation
     declared_card_count: 40
   - id: base-rookie-and-veteran-retail-autographs
     name: Base Rookie and Veteran Retail Autographs
     uuid: 6a5477d8-69cd-5235-8cbe-27ac37b49d88
-    type: autograph
+    type:
+    - autograph
     declared_card_count: 35
 - id: base-prospects
   name: Base Prospects
@@ -158,7 +161,8 @@ base_sets:
   - id: base-prospect-retail-autographs
     name: Base Prospect Retail Autographs
     uuid: b1a94b14-4a0b-5d93-8b4e-f04e3effbcf8
-    type: autograph
+    type:
+    - autograph
     declared_card_count: 31
 - id: chrome-prospects
   name: Chrome Prospects
@@ -325,7 +329,8 @@ base_sets:
   - id: chrome-prospect-autographs
     name: Chrome Prospect Autographs
     uuid: 95d91fa8-4add-51a9-b5d3-3b8b820ea58c
-    type: autograph
+    type:
+    - autograph
     declared_card_count: 87
     parallels:
     - name: Gold Ink
@@ -343,27 +348,32 @@ base_sets:
   - id: chrome-prospect-gold-ink-autographs
     name: Chrome Prospect Gold Ink Autographs
     uuid: 5200e101-3a7c-587a-92ba-f2288073057d
-    type: autograph
+    type:
+    - autograph
     declared_card_count: 47
   - id: chrome-prospect-packfractor-autographs
     name: Chrome Prospect Packfractor Autographs
     uuid: '08a54c52-3d8a-5851-acea-0f7ef8283284'
-    type: autograph
+    type:
+    - autograph
     declared_card_count: 39
   - id: chrome-prospects-etched-in-glass-variations
     name: Chrome Prospects - Etched In Glass Variations
     uuid: 3fe34161-99d4-53a9-94e8-9c6745f5d9a6
-    type: variation
+    type:
+    - variation
     declared_card_count: 11
   - id: chrome-prospects-packfractor-variation
     name: Chrome Prospects Packfractor Variation
     uuid: 27caf6b1-932c-56d8-8a8b-509bfcbffd21
-    type: variation
+    type:
+    - variation
     declared_card_count: 150
   - id: chrome-rookie-autographs
     name: Chrome Rookie Autographs
     uuid: c7cd4971-70b2-5f34-8a73-849f11d7c234
-    type: autograph
+    type:
+    - autograph
     declared_card_count: 13
     parallels:
     - name: SuperFractor
@@ -373,18 +383,21 @@ subsets:
 - id: anime
   name: Anime
   uuid: c0b4f077-6cd2-5176-a51b-b17ca03ab49b
-  type: insert
+  type:
+  - insert
   declared_card_count: 29
   subsets:
   - id: anime-kanji-variations
     name: Anime - Kanji Variations
     uuid: 1a87fa38-33b6-5a29-a0c4-e5d8a2bc8f58
-    type: variation
+    type:
+    - variation
     declared_card_count: 7
 - id: bowman-scouts-top-100
   name: Bowman Scouts Top 100
   uuid: 311bec3c-6ff6-5a1b-9186-e30ac13fce15
-  type: insert
+  type:
+  - insert
   declared_card_count: 100
   parallels:
   - name: Aqua Refractor
@@ -411,12 +424,14 @@ subsets:
 - id: bowman-spotlights
   name: Bowman Spotlights
   uuid: 673f14fe-3301-563a-a1fa-9c2443a1fca8
-  type: insert
+  type:
+  - insert
   declared_card_count: 15
 - id: bowman-sterling
   name: Bowman Sterling
   uuid: ca741378-80ba-5346-b45b-2d5878d9dd67
-  type: insert
+  type:
+  - insert
   declared_card_count: 15
   parallels:
   - name: Aqua Refractor
@@ -481,7 +496,8 @@ subsets:
   - id: bowman-sterling-autographs
     name: Bowman Sterling Autographs
     uuid: cda9cf02-7b42-5289-92c4-21641713075c
-    type: autograph
+    type:
+    - autograph
     declared_card_count: 10
     parallels:
     - name: SuperFractor
@@ -490,17 +506,20 @@ subsets:
 - id: crystallized
   name: Crystallized
   uuid: 902e8c70-d8cc-5475-8182-f3f687bc2d37
-  type: insert
+  type:
+  - insert
   declared_card_count: 20
 - id: draft-pick-pairings
   name: Draft Pick Pairings
   uuid: ec46ca4e-2b68-5092-b52c-5f58c6ddfb69
-  type: insert
+  type:
+  - insert
   declared_card_count: 16
 - id: electric-sluggers
   name: Electric Sluggers
   uuid: c2753dd5-6fd9-5082-a15d-4de78dadbb9c
-  type: insert
+  type:
+  - insert
   declared_card_count: 25
   parallels:
   - name: Aqua Refractor
@@ -568,7 +587,8 @@ subsets:
   - id: electric-sluggers-autographs
     name: Electric Sluggers Autographs
     uuid: e6914bd3-9ae8-5656-9f6e-fbae45363c7f
-    type: autograph
+    type:
+    - autograph
     declared_card_count: 14
     parallels:
     - name: SuperFractor
@@ -577,17 +597,20 @@ subsets:
 - id: final-draft
   name: Final Draft
   uuid: 39342dd2-9dc7-5c2f-b47d-9cc841ba95e6
-  type: insert
+  type:
+  - insert
   declared_card_count: 20
 - id: patchwork
   name: Patchwork
   uuid: 78e7d64e-f65a-557d-a20a-3323a1a90634
-  type: relic
+  type:
+  - relic
   declared_card_count: 30
 - id: power-chords
   name: Power Chords
   uuid: beb3edd0-2459-5d8e-86ad-d4a483ae34ab
-  type: insert
+  type:
+  - insert
   declared_card_count: 25
   parallels:
   - name: Aqua Refractor
@@ -624,7 +647,8 @@ subsets:
   - id: power-chords-autographs
     name: Power Chords Autographs
     uuid: edc9165f-ab52-522e-8453-b6b2f378b9b9
-    type: autograph
+    type:
+    - autograph
     declared_card_count: 15
     parallels:
     - name: SuperFractor
@@ -633,12 +657,14 @@ subsets:
 - id: ultimate-autograph-booklet
   name: Ultimate Autograph Booklet
   uuid: b0cb348f-7aab-5553-acbf-f632e8ce86ce
-  type: autograph
+  type:
+  - autograph
   declared_card_count: 1
 - id: under-the-radar
   name: Under The Radar
   uuid: 15079f18-4d56-5b89-a419-cfbb3ee194d6
-  type: insert
+  type:
+  - insert
   declared_card_count: 20
   parallels:
   - name: Aqua Refractor
@@ -675,7 +701,8 @@ subsets:
   - id: under-the-radar-autographs
     name: Under The Radar Autographs
     uuid: a042e049-b38e-5c15-a005-5becb3288d27
-    type: autograph
+    type:
+    - autograph
     declared_card_count: 13
     parallels:
     - name: SuperFractor
