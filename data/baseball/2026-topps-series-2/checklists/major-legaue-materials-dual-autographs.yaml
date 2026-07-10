@@ -1,0 +1,68 @@
+- number: MLMDA-AJA
+  uuid: 7c726c03-22e0-4285-a034-b344cd38f915
+  subjects:
+  - entities:
+    - role: player
+      name: Ozzie Albies
+      ref: 
+    - role: team
+      name: Atlanta Braves
+      ref: 
+  - entities:
+    - role: player
+      name: Ronald Acuña Jr.
+      ref: 
+    - role: team
+      name: Atlanta Braves
+      ref: 
+- number: MLMDA-CW
+  uuid: fc5715cf-5232-46e2-a9b6-f3ab9ed7f969
+  subjects:
+  - entities:
+    - role: player
+      name: James Wood
+      ref: 
+    - role: team
+      name: Washington Nationals
+      ref: 
+  - entities:
+    - role: player
+      name: Dylan Crews
+      ref: 
+    - role: team
+      name: Washington Nationals
+      ref: 
+- number: MLMDA-HSW
+  uuid: e2117e54-20ba-4722-8d9b-92dfdcfa2a21
+  subjects:
+  - entities:
+    - role: player
+      name: Dansby Swanson
+      ref: 
+    - role: team
+      name: Chicago Cubs
+      ref: 
+  - entities:
+    - role: player
+      name: Nico Hoerner
+      ref: 
+    - role: team
+      name: Chicago Cubs
+      ref: 
+- number: MLMDA-OLH
+  uuid: 7cbd9f3e-3870-424b-8540-fd6ee33920a7
+  subjects:
+  - entities:
+    - role: player
+      name: Michael Harris II
+      ref: 
+    - role: team
+      name: Atlanta Braves
+      ref: 
+  - entities:
+    - role: player
+      name: Matt Olson
+      ref: 
+    - role: team
+      name: Atlanta Braves
+      ref: 

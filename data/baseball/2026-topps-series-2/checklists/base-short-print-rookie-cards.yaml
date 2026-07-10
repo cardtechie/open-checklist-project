@@ -1,0 +1,40 @@
+- number: '697'
+  uuid: 48f7637c-db5b-41a2-b176-0cc12d40df6c
+  subjects:
+  - entities:
+    - role: player
+      name: Kevin McGonigle
+      ref: 
+    - role: team
+      name: Detroit Tigers
+      ref: 
+- number: '698'
+  uuid: b02ed8e5-ba66-443f-9a84-6f9dd02e6ad3
+  subjects:
+  - entities:
+    - role: player
+      name: JJ Wetherholt
+      ref: 
+    - role: team
+      name: St. Louis Cardinals
+      ref: 
+- number: '699'
+  uuid: beb826ce-f8e8-4cf1-a2a7-012c9b8e404f
+  subjects:
+  - entities:
+    - role: player
+      name: Carson Benge
+      ref: 
+    - role: team
+      name: New York Mets
+      ref: 
+- number: '700'
+  uuid: c900a54b-e2ed-4517-9fab-6af40aa1e7e1
+  subjects:
+  - entities:
+    - role: player
+      name: Justin Crawford
+      ref: 
+    - role: team
+      name: Philadelphia Phillies
+      ref: 

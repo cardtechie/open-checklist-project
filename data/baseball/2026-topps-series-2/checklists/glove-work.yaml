@@ -1,0 +1,650 @@
+- number: GW-1
+  uuid: 7559c92b-d9e6-4a2d-8fc1-bad41131cf63
+  subjects:
+  - entities:
+    - role: player
+      name: Ozzie Smith
+      ref: 
+    - role: team
+      name: St. Louis Cardinals
+      ref: 
+- number: GW-2
+  uuid: 7e930d3a-ac7f-46eb-b2b4-a18010f83428
+  subjects:
+  - entities:
+    - role: player
+      name: George Brett
+      ref: 
+    - role: team
+      name: Kansas City Royals
+      ref: 
+- number: GW-3
+  uuid: 34ab2fc8-18eb-415e-869d-b2a66876fe9e
+  subjects:
+  - entities:
+    - role: player
+      name: Brooks Robinson
+      ref: 
+    - role: team
+      name: Baltimore Orioles
+      ref: 
+- number: GW-4
+  uuid: 3b2f7ab0-6e0e-46cf-86b6-c3c450861932
+  subjects:
+  - entities:
+    - role: player
+      name: Roberto Clemente
+      ref: 
+    - role: team
+      name: Pittsburgh Pirates
+      ref: 
+- number: GW-5
+  uuid: 01defe0c-30f8-4950-92d2-2d18220af1b6
+  subjects:
+  - entities:
+    - role: player
+      name: Jimmy Rollins
+      ref: 
+    - role: team
+      name: Philadelphia Phillies
+      ref: 
+- number: GW-6
+  uuid: 8004303f-c935-445e-af9e-cb7808627861
+  subjects:
+  - entities:
+    - role: player
+      name: Willie Mays
+      ref: 
+    - role: team
+      name: San Francisco Giants
+      ref: 
+- number: GW-7
+  uuid: 519b2201-7b0e-47ca-9226-fdfdd161154e
+  subjects:
+  - entities:
+    - role: player
+      name: Ivan Rodriguez
+      ref: 
+    - role: team
+      name: Texas Rangers
+      ref: 
+- number: GW-8
+  uuid: b7392072-d54d-49c7-908f-741fa05910aa
+  subjects:
+  - entities:
+    - role: player
+      name: Andruw Jones
+      ref: 
+    - role: team
+      name: Atlanta Braves
+      ref: 
+- number: GW-9
+  uuid: 168c1e4e-333c-47ce-b01c-efba9e509405
+  subjects:
+  - entities:
+    - role: player
+      name: Yadier Molina
+      ref: 
+    - role: team
+      name: St. Louis Cardinals
+      ref: 
+- number: GW-10
+  uuid: 840815cd-1764-4c42-99dc-cf6644b11a43
+  subjects:
+  - entities:
+    - role: player
+      name: Adrian Beltré
+      ref: 
+    - role: team
+      name: Texas Rangers
+      ref: 
+- number: GW-11
+  uuid: 61178390-e54f-47b1-b26b-599ef08afe8a
+  subjects:
+  - entities:
+    - role: player
+      name: Nolan Arenado
+      ref: 
+    - role: team
+      name: Arizona Diamondbacks
+      ref: 
+- number: GW-12
+  uuid: 4e09318a-68cd-40da-a9c1-d27faf7a4071
+  subjects:
+  - entities:
+    - role: player
+      name: Greg Maddux
+      ref: 
+    - role: team
+      name: Atlanta Braves
+      ref: 
+- number: GW-13
+  uuid: aa56f5bb-971f-47cf-9f16-76296bdc796b
+  subjects:
+  - entities:
+    - role: player
+      name: Johnny Bench
+      ref: 
+    - role: team
+      name: Cincinnati Reds
+      ref: 
+- number: GW-14
+  uuid: 7e1bc8f8-26d0-412b-9d7f-e64ec07551ef
+  subjects:
+  - entities:
+    - role: player
+      name: Cal Ripken Jr.
+      ref: 
+    - role: team
+      name: Baltimore Orioles
+      ref: 
+- number: GW-15
+  uuid: 55e9c49c-f11a-479e-8651-33d91660acd1
+  subjects:
+  - entities:
+    - role: player
+      name: Ken Griffey Jr.
+      ref: 
+    - role: team
+      name: Seattle Mariners
+      ref: 
+- number: GW-16
+  uuid: 76d10a86-f643-44dd-b01d-29b4de5475e1
+  subjects:
+  - entities:
+    - role: player
+      name: Ichiro
+      ref: 
+    - role: team
+      name: Seattle Mariners
+      ref: 
+- number: GW-17
+  uuid: 6317722f-0b7e-4b08-ac0b-69c5a1df4319
+  subjects:
+  - entities:
+    - role: player
+      name: Manny Machado
+      ref: 
+    - role: team
+      name: San Diego Padres
+      ref: 
+- number: GW-18
+  uuid: fd7a4625-a321-4283-ada8-08cffb06d861
+  subjects:
+  - entities:
+    - role: player
+      name: Pete Crow-Armstrong
+      ref: 
+    - role: team
+      name: Chicago Cubs
+      ref: 
+- number: GW-19
+  uuid: 3b753390-aa14-4eec-9f01-4778ee46afca
+  subjects:
+  - entities:
+    - role: player
+      name: Matt Chapman
+      ref: 
+    - role: team
+      name: San Francisco Giants
+      ref: 
+- number: GW-20
+  uuid: 40ac2ff1-6f62-4854-befb-061ae2af5a12
+  subjects:
+  - entities:
+    - role: player
+      name: Mookie Betts
+      ref: 
+    - role: team
+      name: Los Angeles Dodgers
+      ref: 
+- number: GW-21
+  uuid: 2fdf45f5-f67a-4b2e-8931-5f7f511e52a5
+  subjects:
+  - entities:
+    - role: player
+      name: Francisco Lindor
+      ref: 
+    - role: team
+      name: New York Mets
+      ref: 
+- number: GW-22
+  uuid: 5f85ad77-1271-4f1a-95d6-cfab868ae503
+  subjects:
+  - entities:
+    - role: player
+      name: Javier Báez
+      ref: 
+    - role: team
+      name: Detroit Tigers
+      ref: 
+- number: GW-23
+  uuid: 13da1bea-8718-42e8-b0dd-cf020cce04c0
+  subjects:
+  - entities:
+    - role: player
+      name: Dansby Swanson
+      ref: 
+    - role: team
+      name: Chicago Cubs
+      ref: 
+- number: GW-24
+  uuid: 525518cf-17b4-4b49-a58f-cf9d2fde276f
+  subjects:
+  - entities:
+    - role: player
+      name: Mike Trout
+      ref: 
+    - role: team
+      name: Los Angeles Angels
+      ref: 
+- number: GW-25
+  uuid: 3b7e6b7d-c774-482c-9ed4-b95810b1ff93
+  subjects:
+  - entities:
+    - role: player
+      name: Fernando Tatis Jr.
+      ref: 
+    - role: team
+      name: San Diego Padres
+      ref: 
+- number: GW-26
+  uuid: 5c527ff4-3e11-42be-aa99-5b47430a25cf
+  subjects:
+  - entities:
+    - role: player
+      name: Bobby Witt Jr.
+      ref: 
+    - role: team
+      name: Kansas City Royals
+      ref: 
+- number: GW-27
+  uuid: 7e325564-ad98-4c1c-9ddb-b07546787e37
+  subjects:
+  - entities:
+    - role: player
+      name: Steven Kwan
+      ref: 
+    - role: team
+      name: Cleveland Guardians
+      ref: 
+- number: GW-28
+  uuid: b666c447-60f4-4b04-a49a-ee70cb467439
+  subjects:
+  - entities:
+    - role: player
+      name: Byron Buxton
+      ref: 
+    - role: team
+      name: Minnesota Twins
+      ref: 
+- number: GW-29
+  uuid: ebc19aac-064d-4116-a161-c8b1a74d909d
+  subjects:
+  - entities:
+    - role: player
+      name: Freddie Freeman
+      ref: 
+    - role: team
+      name: Los Angeles Dodgers
+      ref: 
+- number: GW-30
+  uuid: 95b44bae-9fc6-4732-b69b-b3b7870d78eb
+  subjects:
+  - entities:
+    - role: player
+      name: Vladimir Guerrero Jr.
+      ref: 
+    - role: team
+      name: Toronto Blue Jays
+      ref: 
+- number: GW-31
+  uuid: '04885e03-3a4e-43a0-b383-3a5f9cd17fe2'
+  subjects:
+  - entities:
+    - role: player
+      name: Julio Rodríguez
+      ref: 
+    - role: team
+      name: Seattle Mariners
+      ref: 
+- number: GW-32
+  uuid: 674debfa-1408-4708-aead-18a5245dfcc0
+  subjects:
+  - entities:
+    - role: player
+      name: Aaron Judge
+      ref: 
+    - role: team
+      name: New York Yankees
+      ref: 
+- number: GW-33
+  uuid: 3648dc53-cf85-4997-8bf3-a7a47db74529
+  subjects:
+  - entities:
+    - role: player
+      name: Patrick Bailey
+      ref: 
+    - role: team
+      name: San Francisco Giants
+      ref: 
+- number: GW-34
+  uuid: 6f265333-117f-4d8f-9ee5-faad0aa9075d
+  subjects:
+  - entities:
+    - role: player
+      name: Matt Olson
+      ref: 
+    - role: team
+      name: Atlanta Braves
+      ref: 
+- number: GW-35
+  uuid: b03467ef-afd4-4fae-b313-dd64d0c8e2c1
+  subjects:
+  - entities:
+    - role: player
+      name: Nico Hoerner
+      ref: 
+    - role: team
+      name: Chicago Cubs
+      ref: 
+- number: GW-36
+  uuid: 3d8b5c94-4621-4a4e-99aa-8cb09e6f1fd5
+  subjects:
+  - entities:
+    - role: player
+      name: Andrés Giménez
+      ref: 
+    - role: team
+      name: Toronto Blue Jays
+      ref: 
+- number: GW-37
+  uuid: b196bad0-92ca-4565-b6db-93e53ff500c1
+  subjects:
+  - entities:
+    - role: player
+      name: Cal Raleigh
+      ref: 
+    - role: team
+      name: Seattle Mariners
+      ref: 
+- number: GW-38
+  uuid: a8211471-0e53-4623-900b-0b7abf78a23b
+  subjects:
+  - entities:
+    - role: player
+      name: Carl Yastrzemski
+      ref: 
+    - role: team
+      name: Boston Red Sox
+      ref: 
+- number: GW-39
+  uuid: ef06ff35-8fc7-4273-b90b-9f5b68bc6a57
+  subjects:
+  - entities:
+    - role: player
+      name: Mike Schmidt
+      ref: 
+    - role: team
+      name: Philadelphia Phillies
+      ref: 
+- number: GW-40
+  uuid: 84ff5919-7d2d-4ece-b18a-2717458ac84a
+  subjects:
+  - entities:
+    - role: player
+      name: Honus Wagner
+      ref: 
+    - role: team
+      name: Pittsburgh Pirates
+      ref: 
+- number: GW-41
+  uuid: ff582724-90d3-4157-b85b-16560649933c
+  subjects:
+  - entities:
+    - role: player
+      name: Scott Rolen
+      ref: 
+    - role: team
+      name: St. Louis Cardinals
+      ref: 
+- number: GW-42
+  uuid: ebae3793-6044-433a-b1a5-332d46e7cc89
+  subjects:
+  - entities:
+    - role: player
+      name: Ryne Sandberg
+      ref: 
+    - role: team
+      name: Chicago Cubs
+      ref: 
+- number: GW-43
+  uuid: 79c1835c-637d-4457-9f01-4313d22da70a
+  subjects:
+  - entities:
+    - role: player
+      name: Hank Aaron
+      ref: 
+    - role: team
+      name: Atlanta Braves
+      ref: 
+- number: GW-44
+  uuid: ff207c2f-7973-46fd-aa10-8e18a7569ed7
+  subjects:
+  - entities:
+    - role: player
+      name: Derek Jeter
+      ref: 
+    - role: team
+      name: New York Yankees
+      ref: 
+- number: GW-45
+  uuid: ecafdff0-8157-4a81-ae86-0f20c7dc91a1
+  subjects:
+  - entities:
+    - role: player
+      name: Don Mattingly
+      ref: 
+    - role: team
+      name: New York Yankees
+      ref: 
+- number: GW-46
+  uuid: 8de9d9ca-29f8-4980-b4dd-1477cf7cd500
+  subjects:
+  - entities:
+    - role: player
+      name: Chase Utley
+      ref: 
+    - role: team
+      name: Philadelphia Phillies
+      ref: 
+- number: GW-47
+  uuid: be0bcbf9-edca-4527-9b96-c38d44c92e94
+  subjects:
+  - entities:
+    - role: player
+      name: Dustin Pedroia
+      ref: 
+    - role: team
+      name: Boston Red Sox
+      ref: 
+- number: GW-48
+  uuid: 4e1f5718-90e8-4478-9d2f-721cd20377e0
+  subjects:
+  - entities:
+    - role: player
+      name: Alex Gordon
+      ref: 
+    - role: team
+      name: Kansas City Royals
+      ref: 
+- number: GW-49
+  uuid: 4b8cee00-731c-43f1-a795-5b8d5f90dbba
+  subjects:
+  - entities:
+    - role: player
+      name: Kirby Puckett
+      ref: 
+    - role: team
+      name: Minnesota Twins
+      ref: 
+- number: GW-50
+  uuid: 7545c874-6671-4d1b-b1e2-5e1cec4acde3
+  subjects:
+  - entities:
+    - role: player
+      name: Bill Mazeroski
+      ref: 
+    - role: team
+      name: Pittsburgh Pirates
+      ref: 
+- number: GW-51
+  uuid: 4cd31e93-c1c8-4de3-bdb7-3146879d7881
+  subjects:
+  - entities:
+    - role: player
+      name: Jim Edmonds
+      ref: 
+    - role: team
+      name: St. Louis Cardinals
+      ref: 
+- number: GW-52
+  uuid: d80e3653-59a8-4a78-b0a7-c18fd9a2a3ee
+  subjects:
+  - entities:
+    - role: player
+      name: Carlos Correa
+      ref: 
+    - role: team
+      name: Houston Astros
+      ref: 
+- number: GW-53
+  uuid: c1788046-786f-4cd0-b17b-020244438822
+  subjects:
+  - entities:
+    - role: player
+      name: Ke'Bryan Hayes
+      ref: 
+    - role: team
+      name: Cincinnati Reds
+      ref: 
+- number: GW-54
+  uuid: c3df38a0-7fe5-49dd-bbcf-17d10d0e3892
+  subjects:
+  - entities:
+    - role: player
+      name: Ceddanne Rafaela
+      ref: 
+    - role: team
+      name: Boston Red Sox
+      ref: 
+- number: GW-55
+  uuid: 4b1bfd24-db16-4326-9e4a-bdd20949c2a0
+  subjects:
+  - entities:
+    - role: player
+      name: Daulton Varsho
+      ref: 
+    - role: team
+      name: Toronto Blue Jays
+      ref: 
+- number: GW-56
+  uuid: 3b0639dc-631d-4ea1-a212-16c9a0edfc44
+  subjects:
+  - entities:
+    - role: player
+      name: Corbin Carroll
+      ref: 
+    - role: team
+      name: Arizona Diamondbacks
+      ref: 
+- number: GW-57
+  uuid: 60802d5a-858b-47f8-b479-f80c0bf893b7
+  subjects:
+  - entities:
+    - role: player
+      name: Zach Neto
+      ref: 
+    - role: team
+      name: Los Angeles Angels
+      ref: 
+- number: GW-58
+  uuid: 0dcad9f8-4354-4d72-b4b2-0845bf418628
+  subjects:
+  - entities:
+    - role: player
+      name: Brice Turang
+      ref: 
+    - role: team
+      name: Milwaukee Brewers
+      ref: 
+- number: GW-59
+  uuid: feed4e3f-5a04-4116-b216-6f7c2038b6e0
+  subjects:
+  - entities:
+    - role: player
+      name: Masyn Winn
+      ref: 
+    - role: team
+      name: St. Louis Cardinals
+      ref: 
+- number: GW-60
+  uuid: 14d352a6-8f32-4040-bf66-544e8fcc4ef9
+  subjects:
+  - entities:
+    - role: player
+      name: Max Fried
+      ref: 
+    - role: team
+      name: New York Yankees
+      ref: 
+- number: GW-61
+  uuid: ecf9e053-80f6-47cd-9a24-61128abcb4f9
+  subjects:
+  - entities:
+    - role: player
+      name: Jackie Robinson
+      ref: 
+    - role: team
+      name: Brooklyn Dodgers
+      ref: 
+- number: GW-62
+  uuid: 9a2c6d3f-f6fa-47dc-9c5c-94ef6c46e6e4
+  subjects:
+  - entities:
+    - role: player
+      name: Tom Glavine
+      ref: 
+    - role: team
+      name: Atlanta Braves
+      ref: 
+- number: GW-63
+  uuid: bea66a7c-95c2-4727-85b6-545e77acd1b8
+  subjects:
+  - entities:
+    - role: player
+      name: Mark Grace
+      ref: 
+    - role: team
+      name: Chicago Cubs
+      ref: 
+- number: GW-64
+  uuid: 3604c248-7ec7-41b9-afc8-de0164558a2e
+  subjects:
+  - entities:
+    - role: player
+      name: Wyatt Langford
+      ref: 
+    - role: team
+      name: Texas Rangers
+      ref: 
+- number: GW-65
+  uuid: 60bb29c2-a29c-45ab-b155-1de2a85b2059
+  subjects:
+  - entities:
+    - role: player
+      name: Elly De La Cruz
+      ref: 
+    - role: team
+      name: Cincinnati Reds
+      ref: 

@@ -1,0 +1,790 @@
+- number: RTB-AB
+  uuid: faf46e14-ec14-44d1-813f-f302a883aa11
+  subjects:
+  - entities:
+    - role: player
+      name: Alex Bregman
+      ref: 
+    - role: team
+      name: Boston Red Sox
+      ref: 
+- number: RTB-AJ
+  uuid: f1bae025-4793-44dc-92da-93feaf75f938
+  subjects:
+  - entities:
+    - role: player
+      name: Aaron Judge
+      ref: 
+    - role: team
+      name: New York Yankees
+      ref: 
+- number: RTB-AJU
+  uuid: 1a1805fb-29e0-4214-a6a8-a319cf2b54e2
+  subjects:
+  - entities:
+    - role: player
+      name: Aaron Judge
+      ref: 
+    - role: team
+      name: New York Yankees
+      ref: 
+- number: RTB-AM
+  uuid: 8e69e1a0-aa6b-49fb-8386-e4ab14b03b85
+  subjects:
+  - entities:
+    - role: player
+      name: Andrew McCutchen
+      ref: 
+    - role: team
+      name: Pittsburgh Pirates
+      ref: 
+- number: RTB-AV
+  uuid: '08ad87bf-5248-4e6e-adaa-9bc727eb90b5'
+  subjects:
+  - entities:
+    - role: player
+      name: Anthony Volpe
+      ref: 
+    - role: team
+      name: New York Yankees
+      ref: 
+- number: RTB-BB
+  uuid: f10172dd-32ad-4602-9480-be9414fc7a11
+  subjects:
+  - entities:
+    - role: player
+      name: Bo Bichette
+      ref: 
+    - role: team
+      name: Toronto Blue Jays
+      ref: 
+- number: RTB-BHA
+  uuid: 7a7aa248-07ea-4a31-8d80-ba96d31205ea
+  subjects:
+  - entities:
+    - role: player
+      name: Bryce Harper
+      ref: 
+    - role: team
+      name: Philadelphia Phillies
+      ref: 
+- number: RTB-BHR
+  uuid: 5dec117b-bd85-4dc8-8ab6-6b8a10fcda56
+  subjects:
+  - entities:
+    - role: player
+      name: Bryce Harper
+      ref: 
+    - role: team
+      name: Philadelphia Phillies
+      ref: 
+- number: RTB-BL
+  uuid: 95edb94a-91bc-4f88-9d20-164d2a274d4f
+  subjects:
+  - entities:
+    - role: player
+      name: Brooks Lee
+      ref: 
+    - role: team
+      name: Minnesota Twins
+      ref: 
+- number: RTB-BR
+  uuid: 633df84a-c41d-423f-8c2a-45244ee06d69
+  subjects:
+  - entities:
+    - role: player
+      name: Brent Rooker
+      ref: 
+    - role: team
+      name: Athletics
+      ref: 
+- number: RTB-BW
+  uuid: 46096d32-d214-435b-93de-bc7af6b13add
+  subjects:
+  - entities:
+    - role: player
+      name: Bobby Witt Jr.
+      ref: 
+    - role: team
+      name: Kansas City Royals
+      ref: 
+- number: RTB-BWJ
+  uuid: cacb94d3-299d-4aea-a091-83c4cb916b90
+  subjects:
+  - entities:
+    - role: player
+      name: Bobby Witt Jr.
+      ref: 
+    - role: team
+      name: Kansas City Royals
+      ref: 
+- number: RTB-CA
+  uuid: b3cdb990-f041-4712-b724-4ee290200c84
+  subjects:
+  - entities:
+    - role: player
+      name: CJ Abrams
+      ref: 
+    - role: team
+      name: Washington Nationals
+      ref: 
+- number: RTB-CB
+  uuid: 65090107-6064-46d1-b6c1-4af0a1b8af85
+  subjects:
+  - entities:
+    - role: player
+      name: Cody Bellinger
+      ref: 
+    - role: team
+      name: New York Yankees
+      ref: 
+- number: RTB-CC
+  uuid: 5ce43b6c-a008-4dc3-bc50-233bb10f8270
+  subjects:
+  - entities:
+    - role: player
+      name: Carlos Correa
+      ref: 
+    - role: team
+      name: Houston Astros
+      ref: 
+- number: RTB-CF
+  uuid: 606ca41b-7b28-4a2f-8ada-d1ec4eb866f4
+  subjects:
+  - entities:
+    - role: player
+      name: Cody Freeman
+      ref: 
+    - role: team
+      name: Texas Rangers
+      ref: 
+- number: RTB-CM
+  uuid: a5d51e2a-0c13-46db-9bf3-2e1341890be3
+  subjects:
+  - entities:
+    - role: player
+      name: Coby Mayo
+      ref: 
+    - role: team
+      name: Baltimore Orioles
+      ref: 
+- number: RTB-CN
+  uuid: 5ae24805-c662-449a-8f5e-7d7209c290d2
+  subjects:
+  - entities:
+    - role: player
+      name: Carlos Narváez
+      ref: 
+    - role: team
+      name: Boston Red Sox
+      ref: 
+- number: RTB-CR
+  uuid: bcbd990f-d104-44fe-94a5-1baabcffb260
+  subjects:
+  - entities:
+    - role: player
+      name: Cal Raleigh
+      ref: 
+    - role: team
+      name: Seattle Mariners
+      ref: 
+- number: RTB-CRA
+  uuid: 349d8a1e-9a45-4aa2-b8f5-ad49c6dc517b
+  subjects:
+  - entities:
+    - role: player
+      name: Cal Raleigh
+      ref: 
+    - role: team
+      name: Seattle Mariners
+      ref: 
+- number: RTB-CS
+  uuid: 3306c883-b83f-47cc-9958-48900b29f73d
+  subjects:
+  - entities:
+    - role: player
+      name: Corey Seager
+      ref: 
+    - role: team
+      name: Texas Rangers
+      ref: 
+- number: RTB-CY
+  uuid: bdd09fb1-cd41-4406-b8da-cccd00654ea5
+  subjects:
+  - entities:
+    - role: player
+      name: Christian Yelich
+      ref: 
+    - role: team
+      name: Milwaukee Brewers
+      ref: 
+- number: RTB-DC
+  uuid: eb4f546a-75fe-421f-a20e-8d8d1920f6cc
+  subjects:
+  - entities:
+    - role: player
+      name: Dylan Crews
+      ref: 
+    - role: team
+      name: Washington Nationals
+      ref: 
+- number: RTB-DS
+  uuid: 5b94a645-4b4f-403e-a63d-a438db5829c1
+  subjects:
+  - entities:
+    - role: player
+      name: Dansby Swanson
+      ref: 
+    - role: team
+      name: Chicago Cubs
+      ref: 
+- number: RTB-ED
+  uuid: bc9a0518-fc30-4105-920c-2516cba13ba3
+  subjects:
+  - entities:
+    - role: player
+      name: Elly De La Cruz
+      ref: 
+    - role: team
+      name: Cincinnati Reds
+      ref: 
+- number: RTB-FL
+  uuid: 8e3ac865-de9f-4b35-9219-62d3279138d0
+  subjects:
+  - entities:
+    - role: player
+      name: Francisco Lindor
+      ref: 
+    - role: team
+      name: New York Mets
+      ref: 
+- number: RTB-FT
+  uuid: fe07819f-2fa0-483b-8db8-d5c27d7a4149
+  subjects:
+  - entities:
+    - role: player
+      name: Fernando Tatis Jr.
+      ref: 
+    - role: team
+      name: San Diego Padres
+      ref: 
+- number: RTB-GH
+  uuid: b5873166-fa65-4998-8610-0dfdbadda38b
+  subjects:
+  - entities:
+    - role: player
+      name: Gunnar Henderson
+      ref: 
+    - role: team
+      name: Baltimore Orioles
+      ref: 
+- number: RTB-GS
+  uuid: 7a4a1adf-5e42-4f58-91de-78c70be1bbd0
+  subjects:
+  - entities:
+    - role: player
+      name: George Springer
+      ref: 
+    - role: team
+      name: Toronto Blue Jays
+      ref: 
+- number: RTB-GV
+  uuid: d652daa9-b0bc-4892-9151-8fe8509dc961
+  subjects:
+  - entities:
+    - role: player
+      name: George Valera
+      ref: 
+    - role: team
+      name: Cleveland Guardians
+      ref: 
+- number: RTB-IH
+  uuid: 8fd82299-73cf-40f3-82c1-818068e56b5b
+  subjects:
+  - entities:
+    - role: player
+      name: Ian Happ
+      ref: 
+    - role: team
+      name: Chicago Cubs
+      ref: 
+- number: RTB-JA
+  uuid: b6e032d3-315b-4a77-8c96-c3845c57d041
+  subjects:
+  - entities:
+    - role: player
+      name: Jonathan Aranda
+      ref: 
+    - role: team
+      name: Tampa Bay Rays
+      ref: 
+- number: RTB-JC
+  uuid: f80a7c7d-ff0b-48e0-836e-7e4adae68a81
+  subjects:
+  - entities:
+    - role: player
+      name: Jazz Chisholm Jr.
+      ref: 
+    - role: team
+      name: New York Yankees
+      ref: 
+- number: RTB-JCA
+  uuid: a4b54e7e-91b8-4236-8d67-b580d782009f
+  subjects:
+  - entities:
+    - role: player
+      name: Junior Caminero
+      ref: 
+    - role: team
+      name: Tampa Bay Rays
+      ref: 
+- number: RTB-JCH
+  uuid: 306d28c3-da15-4f61-ab83-ff86e201ce0e
+  subjects:
+  - entities:
+    - role: player
+      name: Jackson Chourio
+      ref: 
+    - role: team
+      name: Milwaukee Brewers
+      ref: 
+- number: RTB-JD
+  uuid: 10b981f1-c9c1-459b-bb6e-3729ad94df76
+  subjects:
+  - entities:
+    - role: player
+      name: Jarren Duran
+      ref: 
+    - role: team
+      name: Boston Red Sox
+      ref: 
+- number: RTB-JH
+  uuid: b2f35302-ddfc-4f97-8b89-c43055384f95
+  subjects:
+  - entities:
+    - role: player
+      name: Jung Hoo Lee
+      ref: 
+    - role: team
+      name: San Francisco Giants
+      ref: 
+- number: RTB-JJ
+  uuid: e4112f1e-e7f4-4896-b5b0-8a16540b8096
+  subjects:
+  - entities:
+    - role: player
+      name: Josh Jung
+      ref: 
+    - role: team
+      name: Texas Rangers
+      ref: 
+- number: RTB-JM
+  uuid: 27323783-4031-4a2d-97ec-c87233d9b970
+  subjects:
+  - entities:
+    - role: player
+      name: Jackson Merrill
+      ref: 
+    - role: team
+      name: San Diego Padres
+      ref: 
+- number: RTB-JP
+  uuid: 2ea9b761-ef4f-4942-81af-675d9fb62a16
+  subjects:
+  - entities:
+    - role: player
+      name: Jeremy Peña
+      ref: 
+    - role: team
+      name: Houston Astros
+      ref: 
+- number: RTB-JR
+  uuid: 9134ad1b-48ae-49e4-b4d0-fad8439f94e1
+  subjects:
+  - entities:
+    - role: player
+      name: J.T. Realmuto
+      ref: 
+    - role: team
+      name: Philadelphia Phillies
+      ref: 
+- number: RTB-JRA
+  uuid: 7ffb4b65-3046-4de5-a3dc-55287c517c3e
+  subjects:
+  - entities:
+    - role: player
+      name: José Ramírez
+      ref: 
+    - role: team
+      name: Cleveland Guardians
+      ref: 
+- number: RTB-JRO
+  uuid: 24f44a55-dd6c-439b-be4b-a89ea2b3ce12
+  subjects:
+  - entities:
+    - role: player
+      name: Julio Rodríguez
+      ref: 
+    - role: team
+      name: Seattle Mariners
+      ref: 
+- number: RTB-JRZ
+  uuid: 23a291f4-4a82-4a7f-a063-e83875f5d498
+  subjects:
+  - entities:
+    - role: player
+      name: José Ramírez
+      ref: 
+    - role: team
+      name: Cleveland Guardians
+      ref: 
+- number: RTB-JS
+  uuid: 7e396b7a-d266-4930-ad38-b7b4cb503cb7
+  subjects:
+  - entities:
+    - role: player
+      name: Juan Soto
+      ref: 
+    - role: team
+      name: New York Mets
+      ref: 
+- number: RTB-JSO
+  uuid: fc9524ce-a375-4489-8185-66bc2c0ddc1f
+  subjects:
+  - entities:
+    - role: player
+      name: Jorge Soler
+      ref: 
+    - role: team
+      name: Los Angeles Angels
+      ref: 
+- number: RTB-JW
+  uuid: de6ad1f9-96dc-49f5-9ab8-695c42ab751b
+  subjects:
+  - entities:
+    - role: player
+      name: Jordan Westburg
+      ref: 
+    - role: team
+      name: Baltimore Orioles
+      ref: 
+- number: RTB-JWI
+  uuid: fc85fc8b-f967-4cdf-825d-cae7b2a02a36
+  subjects:
+  - entities:
+    - role: player
+      name: Jacob Wilson
+      ref: 
+    - role: team
+      name: Athletics
+      ref: 
+- number: RTB-KC
+  uuid: 3b71b529-89e4-43e4-95bf-b65c40ec0b70
+  subjects:
+  - entities:
+    - role: player
+      name: Kerry Carpenter
+      ref: 
+    - role: team
+      name: Detroit Tigers
+      ref: 
+- number: RTB-KM
+  uuid: 72235abe-1116-44a6-94aa-cf15ec7b7d66
+  subjects:
+  - entities:
+    - role: player
+      name: Kyle Manzardo
+      ref: 
+    - role: team
+      name: Cleveland Guardians
+      ref: 
+- number: RTB-KS
+  uuid: b3d2be2a-1f43-41b5-bb89-abd3cb4602ba
+  subjects:
+  - entities:
+    - role: player
+      name: Kyle Schwarber
+      ref: 
+    - role: team
+      name: Philadelphia Phillies
+      ref: 
+- number: RTB-KSC
+  uuid: d9a936f5-d067-4bac-8db6-aac85ba884d8
+  subjects:
+  - entities:
+    - role: player
+      name: Kyle Schwarber
+      ref: 
+    - role: team
+      name: Philadelphia Phillies
+      ref: 
+- number: RTB-KT
+  uuid: 3c49f3cc-53bb-43f4-8087-a714edf6da6e
+  subjects:
+  - entities:
+    - role: player
+      name: Kyle Tucker
+      ref: 
+    - role: team
+      name: Chicago Cubs
+      ref: 
+- number: RTB-KTE
+  uuid: 5eca9e78-d4bd-413b-a721-01243ce8133b
+  subjects:
+  - entities:
+    - role: player
+      name: Kyle Teel
+      ref: 
+    - role: team
+      name: Chicago White Sox
+      ref: 
+- number: RTB-MO
+  uuid: 2610dff1-1810-4b3c-885f-b53aa98ebe6a
+  subjects:
+  - entities:
+    - role: player
+      name: Matt Olson
+      ref: 
+    - role: team
+      name: Atlanta Braves
+      ref: 
+- number: RTB-MS
+  uuid: 65ea48ff-b2e7-4606-81d8-55f84980e6d0
+  subjects:
+  - entities:
+    - role: player
+      name: Matt Shaw
+      ref: 
+    - role: team
+      name: Chicago Cubs
+      ref: 
+- number: RTB-MSE
+  uuid: 83812631-484f-492b-9edb-145d1e70728c
+  subjects:
+  - entities:
+    - role: player
+      name: Marcus Semien
+      ref: 
+    - role: team
+      name: Texas Rangers
+      ref: 
+- number: RTB-NA
+  uuid: 193611e3-9863-4ffb-b13a-4fee740ffbc9
+  subjects:
+  - entities:
+    - role: player
+      name: Nolan Arenado
+      ref: 
+    - role: team
+      name: St. Louis Cardinals
+      ref: 
+- number: RTB-NC
+  uuid: 74c1ebdc-5a6c-49fb-a920-bb9d4bc0db0a
+  subjects:
+  - entities:
+    - role: player
+      name: Nick Castellanos
+      ref: 
+    - role: team
+      name: Philadelphia Phillies
+      ref: 
+- number: RTB-NK
+  uuid: 29c4a014-28dd-4d6b-bed1-48da4f3398e9
+  subjects:
+  - entities:
+    - role: player
+      name: Nick Kurtz
+      ref: 
+    - role: team
+      name: Athletics
+      ref: 
+- number: RTB-OA
+  uuid: a3ee515c-120e-4ade-9c06-705a88882811
+  subjects:
+  - entities:
+    - role: player
+      name: Ozzie Albies
+      ref: 
+    - role: team
+      name: Atlanta Braves
+      ref: 
+- number: RTB-OC
+  uuid: a5b225d2-60ad-4750-bc3b-8614897be3f4
+  subjects:
+  - entities:
+    - role: player
+      name: Owen Caissie
+      ref: 
+    - role: team
+      name: Chicago Cubs
+      ref: 
+- number: RTB-PA
+  uuid: 13469a54-40c7-4120-a3af-0e428b7c1167
+  subjects:
+  - entities:
+    - role: player
+      name: Pete Alonso
+      ref: 
+    - role: team
+      name: New York Mets
+      ref: 
+- number: RTB-PC
+  uuid: fae55d8c-3e0e-4552-88cc-942959eacd20
+  subjects:
+  - entities:
+    - role: player
+      name: Pete Crow-Armstrong
+      ref: 
+    - role: team
+      name: Chicago Cubs
+      ref: 
+- number: RTB-PCA
+  uuid: 12cabfd7-b523-416d-b01a-91dc77549165
+  subjects:
+  - entities:
+    - role: player
+      name: Pete Crow-Armstrong
+      ref: 
+    - role: team
+      name: Chicago Cubs
+      ref: 
+- number: RTB-PG
+  uuid: afec85cc-5aed-4f20-9d5c-1225dcb6fd9c
+  subjects:
+  - entities:
+    - role: player
+      name: Paul Goldschmidt
+      ref: 
+    - role: team
+      name: New York Yankees
+      ref: 
+- number: RTB-RA
+  uuid: 17277cf2-07bc-4374-a516-252a3f90c00a
+  subjects:
+  - entities:
+    - role: player
+      name: Ronald Acuña Jr.
+      ref: 
+    - role: team
+      name: Atlanta Braves
+      ref: 
+- number: RTB-RG
+  uuid: 8a5d7d5d-0f49-4fa2-a5db-25f01cb527d7
+  subjects:
+  - entities:
+    - role: player
+      name: Riley Greene
+      ref: 
+    - role: team
+      name: Detroit Tigers
+      ref: 
+- number: RTB-SK
+  uuid: 392c9707-e255-4e36-ab85-f3cfb857d95f
+  subjects:
+  - entities:
+    - role: player
+      name: Steven Kwan
+      ref: 
+    - role: team
+      name: Cleveland Guardians
+      ref: 
+- number: RTB-SM
+  uuid: d56e8471-cd08-4b1d-b725-0a8a392dacad
+  subjects:
+  - entities:
+    - role: player
+      name: Starling Marte
+      ref: 
+    - role: team
+      name: New York Mets
+      ref: 
+- number: RTB-SO
+  uuid: 1ae5be07-a610-4541-bd60-41648981aca1
+  subjects:
+  - entities:
+    - role: player
+      name: Shohei Ohtani
+      ref: 
+    - role: team
+      name: Los Angeles Dodgers
+      ref: 
+- number: RTB-SOTO
+  uuid: 1d9ed7ff-8de1-4bf8-a033-8148bb178a9e
+  subjects:
+  - entities:
+    - role: player
+      name: Juan Soto
+      ref: 
+    - role: team
+      name: New York Mets
+      ref: 
+- number: RTB-SP
+  uuid: 00574c81-ee38-4349-b028-509e74a50b32
+  subjects:
+  - entities:
+    - role: player
+      name: Salvador Perez
+      ref: 
+    - role: team
+      name: Kansas City Royals
+      ref: 
+- number: RTB-SS
+  uuid: 4d6a145d-377b-4db2-9d34-25fe21e6d764
+  subjects:
+  - entities:
+    - role: player
+      name: Seiya Suzuki
+      ref: 
+    - role: team
+      name: Chicago Cubs
+      ref: 
+- number: RTB-TS
+  uuid: 17e541e8-cd70-4ebc-916e-d8585fa6e9b2
+  subjects:
+  - entities:
+    - role: player
+      name: Trevor Story
+      ref: 
+    - role: team
+      name: Boston Red Sox
+      ref: 
+- number: RTB-VG
+  uuid: 965725d9-9447-42eb-8bf1-750d2a06661f
+  subjects:
+  - entities:
+    - role: player
+      name: Vladimir Guerrero Jr.
+      ref: 
+    - role: team
+      name: Toronto Blue Jays
+      ref: 
+- number: RTB-WC
+  uuid: 6fed5912-2213-44f9-ba38-9860a593c7dc
+  subjects:
+  - entities:
+    - role: player
+      name: William Contreras
+      ref: 
+    - role: team
+      name: Milwaukee Brewers
+      ref: 
+- number: RTB-WF
+  uuid: 0eadc5ca-e91f-46a5-9e07-9e01e0d5b19e
+  subjects:
+  - entities:
+    - role: player
+      name: Wilmer Flores
+      ref: 
+    - role: team
+      name: San Francisco Giants
+      ref: 
+- number: RTB-ZV
+  uuid: d0ea4baa-d360-46f0-bed7-460ebd369163
+  subjects:
+  - entities:
+    - role: player
+      name: Zac Veen
+      ref: 
+    - role: team
+      name: Colorado Rockies
+      ref: 

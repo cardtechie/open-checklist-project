@@ -1,0 +1,250 @@
+- number: HL-21
+  uuid: 3f2941af-f536-4e0e-9f14-dba043c96d4a
+  subjects:
+  - entities:
+    - role: player
+      name: Juan Soto
+      ref: 
+    - role: team
+      name: New York Mets
+      ref: 
+- number: HL-22
+  uuid: 718c5e71-eddc-411c-9c82-e1259b3dff7b
+  subjects:
+  - entities:
+    - role: player
+      name: Julio Rodríguez
+      ref: 
+    - role: team
+      name: Seattle Mariners
+      ref: 
+- number: HL-23
+  uuid: 51cbe991-96d3-4f68-858f-56a31e9fb45d
+  subjects:
+  - entities:
+    - role: player
+      name: Corbin Carroll
+      ref: 
+    - role: team
+      name: Arizona Diamondbacks
+      ref: 
+- number: HL-24
+  uuid: b355110d-ddd0-4818-a8ba-b01287d65991
+  subjects:
+  - entities:
+    - role: player
+      name: Nick Kurtz
+      ref: 
+    - role: team
+      name: Athletics
+      ref: 
+- number: HL-25
+  uuid: 11d17f86-237d-4184-b335-332fb515630f
+  subjects:
+  - entities:
+    - role: player
+      name: Hank Aaron
+      ref: 
+    - role: team
+      name: Atlanta Braves
+      ref: 
+- number: HL-26
+  uuid: cdf7380e-a117-4b62-b95f-afdcaef309c8
+  subjects:
+  - entities:
+    - role: player
+      name: Gunnar Henderson
+      ref: 
+    - role: team
+      name: Baltimore Orioles
+      ref: 
+- number: HL-27
+  uuid: 057fa15b-6e6e-48a6-bf9a-44ae1c8f7c17
+  subjects:
+  - entities:
+    - role: player
+      name: Ted Williams
+      ref: 
+    - role: team
+      name: Boston Red Sox
+      ref: 
+- number: HL-28
+  uuid: d8cd99b5-b646-4de5-9b15-9f1232c451ab
+  subjects:
+  - entities:
+    - role: player
+      name: Jackie Robinson
+      ref: 
+    - role: team
+      name: Brooklyn Dodgers
+      ref: 
+- number: HL-29
+  uuid: bdf4ca59-32f1-41af-a00b-a61a156d1d10
+  subjects:
+  - entities:
+    - role: player
+      name: Seiya Suzuki
+      ref: 
+    - role: team
+      name: Chicago Cubs
+      ref: 
+- number: HL-30
+  uuid: 6a964398-9daa-42e0-a4ab-522478ef4b4b
+  subjects:
+  - entities:
+    - role: player
+      name: Colson Montgomery
+      ref: 
+    - role: team
+      name: Chicago White Sox
+      ref: 
+- number: HL-31
+  uuid: c3a33c6c-37ac-4a8e-93c0-db9030218160
+  subjects:
+  - entities:
+    - role: player
+      name: José Ramírez
+      ref: 
+    - role: team
+      name: Cleveland Guardians
+      ref: 
+- number: HL-32
+  uuid: 0e6d6d8c-a1a9-4d2a-8267-0f62f9cf29a7
+  subjects:
+  - entities:
+    - role: player
+      name: Yordan Alvarez
+      ref: 
+    - role: team
+      name: Houston Astros
+      ref: 
+- number: HL-33
+  uuid: ef6113c9-705a-4141-b249-d70c1c0c2689
+  subjects:
+  - entities:
+    - role: player
+      name: Freddie Freeman
+      ref: 
+    - role: team
+      name: Los Angeles Dodgers
+      ref: 
+- number: HL-34
+  uuid: fe447b3d-46af-4ce1-800c-9a9bd385a061
+  subjects:
+  - entities:
+    - role: player
+      name: Pete Alonso
+      ref: 
+    - role: team
+      name: Baltimore Orioles
+      ref: 
+- number: HL-35
+  uuid: fb958604-e979-4657-8840-45bcfee66358
+  subjects:
+  - entities:
+    - role: player
+      name: Mickey Mantle
+      ref: 
+    - role: team
+      name: New York Yankees
+      ref: 
+- number: HL-36
+  uuid: 5de78758-38af-4c6f-a333-87663b7ca1b0
+  subjects:
+  - entities:
+    - role: player
+      name: Derek Jeter
+      ref: 
+    - role: team
+      name: New York Yankees
+      ref: 
+- number: HL-37
+  uuid: 43e4b200-4fdd-4bd6-996f-db0ab7ba9d12
+  subjects:
+  - entities:
+    - role: player
+      name: Mark McGwire
+      ref: 
+    - role: team
+      name: Oakland Athletics
+      ref: 
+- number: HL-38
+  uuid: 7ae05d6b-b5af-43b0-99b2-7b1321fffc86
+  subjects:
+  - entities:
+    - role: player
+      name: Kyle Schwarber
+      ref: 
+    - role: team
+      name: Philadelphia Phillies
+      ref: 
+- number: HL-39
+  uuid: 127deb83-f89d-4d7b-9bcf-94a7cdbb9aeb
+  subjects:
+  - entities:
+    - role: player
+      name: Mike Schmidt
+      ref: 
+    - role: team
+      name: Philadelphia Phillies
+      ref: 
+- number: HL-40
+  uuid: 776c5a44-56fd-4c25-8405-b29c8875682d
+  subjects:
+  - entities:
+    - role: player
+      name: Willie Mays
+      ref: 
+    - role: team
+      name: San Francisco Giants
+      ref: 
+- number: HL-41
+  uuid: 3fe0441e-a1af-4a27-9792-71131c8e17a0
+  subjects:
+  - entities:
+    - role: player
+      name: Munetaka Murakami
+      ref: 
+    - role: team
+      name: Chicago White Sox
+      ref: 
+- number: HL-42
+  uuid: c97044a7-114b-42a9-b412-52abc67a3ee9
+  subjects:
+  - entities:
+    - role: player
+      name: Albert Pujols
+      ref: 
+    - role: team
+      name: St. Louis Cardinals
+      ref: 
+- number: HL-43
+  uuid: a8058ed2-1d08-489e-99ca-9bc54e745c7e
+  subjects:
+  - entities:
+    - role: player
+      name: Carson Williams
+      ref: 
+    - role: team
+      name: Tampa Bay Rays
+      ref: 
+- number: HL-44
+  uuid: 65e6d0e7-789e-4821-a668-84a33c5aaa18
+  subjects:
+  - entities:
+    - role: player
+      name: Vladimir Guerrero Jr.
+      ref: 
+    - role: team
+      name: Toronto Blue Jays
+      ref: 
+- number: HL-45
+  uuid: 2c73c92e-6837-4295-a55c-a809ad77c580
+  subjects:
+  - entities:
+    - role: player
+      name: Roberto Clemente
+      ref: 
+    - role: team
+      name: Pittsburgh Pirates
+      ref: 

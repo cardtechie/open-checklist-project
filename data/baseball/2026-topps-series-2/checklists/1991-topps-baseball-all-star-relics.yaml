@@ -1,0 +1,500 @@
+- number: 91ASR-AJ
+  uuid: f695b517-4eec-4149-80d3-4bc5d940d322
+  subjects:
+  - entities:
+    - role: player
+      name: Aaron Judge
+      ref: 
+    - role: team
+      name: New York Yankees
+      ref: 
+- number: 91ASR-AM
+  uuid: 98de2f49-782f-4702-9047-f05c313e4ee2
+  subjects:
+  - entities:
+    - role: player
+      name: Andrew McCutchen
+      ref: 
+    - role: team
+      name: Pittsburgh Pirates
+      ref: 
+- number: 91ASR-AP
+  uuid: c58acd13-7140-4143-97d9-b9c0a4439fa3
+  subjects:
+  - entities:
+    - role: player
+      name: Albert Pujols
+      ref: 
+    - role: team
+      name: St. Louis Cardinals
+      ref: 
+- number: 91ASR-AR
+  uuid: 5272c27b-0077-4099-af9b-3a9080d3dd86
+  subjects:
+  - entities:
+    - role: player
+      name: Alex Rodriguez
+      ref: 
+    - role: team
+      name: New York Yankees
+      ref: 
+- number: 91ASR-BBX
+  uuid: f8670a09-64af-44f6-9918-6a8ff621531d
+  subjects:
+  - entities:
+    - role: player
+      name: Byron Buxton
+      ref: 
+    - role: team
+      name: Minnesota Twins
+      ref: 
+- number: 91ASR-BH
+  uuid: fd43a7ea-8a8a-4a9b-b348-4b065f069eac
+  subjects:
+  - entities:
+    - role: player
+      name: Bryce Harper
+      ref: 
+    - role: team
+      name: Philadelphia Phillies
+      ref: 
+- number: 91ASR-BW
+  uuid: 748abfb1-8e43-4489-a7ce-508540075ba4
+  subjects:
+  - entities:
+    - role: player
+      name: Bobby Witt Jr.
+      ref: 
+    - role: team
+      name: Kansas City Royals
+      ref: 
+- number: 91ASR-CC
+  uuid: e9329fed-edcf-4b81-99d8-62104b06ae88
+  subjects:
+  - entities:
+    - role: player
+      name: Corbin Carroll
+      ref: 
+    - role: team
+      name: Arizona Diamondbacks
+      ref: 
+- number: 91ASR-CJ
+  uuid: fc45b7b6-e54b-41c2-a280-72e97552b94a
+  subjects:
+  - entities:
+    - role: player
+      name: Chipper Jones
+      ref: 
+    - role: team
+      name: Atlanta Braves
+      ref: 
+- number: 91ASR-CK
+  uuid: acc27190-2be9-4be2-a270-2329910a93c8
+  subjects:
+  - entities:
+    - role: player
+      name: Clayton Kershaw
+      ref: 
+    - role: team
+      name: Los Angeles Dodgers
+      ref: 
+- number: 91ASR-CR
+  uuid: 77b141f5-8132-4910-8f4e-52150a528002
+  subjects:
+  - entities:
+    - role: player
+      name: Cal Ripken Jr.
+      ref: 
+    - role: team
+      name: Baltimore Orioles
+      ref: 
+- number: 91ASR-CS
+  uuid: 131a3f51-887c-4136-94f2-c014f019a5d8
+  subjects:
+  - entities:
+    - role: player
+      name: Chris Sale
+      ref: 
+    - role: team
+      name: Atlanta Braves
+      ref: 
+- number: 91ASR-CY
+  uuid: b8fa7ee2-8190-4ab1-8d59-1bad7c79534b
+  subjects:
+  - entities:
+    - role: player
+      name: Christian Yelich
+      ref: 
+    - role: team
+      name: Milwaukee Brewers
+      ref: 
+- number: 91ASR-DJ
+  uuid: 41c40ced-9cb5-4820-91b0-04cb50bd532a
+  subjects:
+  - entities:
+    - role: player
+      name: Derek Jeter
+      ref: 
+    - role: team
+      name: New York Yankees
+      ref: 
+- number: 91ASR-DO
+  uuid: 8921abb2-3340-4528-b10b-c31210850ade
+  subjects:
+  - entities:
+    - role: player
+      name: David Ortiz
+      ref: 
+    - role: team
+      name: Boston Red Sox
+      ref: 
+- number: 91ASR-ED
+  uuid: e6d0be63-bbe2-43b1-a039-16947bee0975
+  subjects:
+  - entities:
+    - role: player
+      name: Elly De La Cruz
+      ref: 
+    - role: team
+      name: Cincinnati Reds
+      ref: 
+- number: 91ASR-FF
+  uuid: 5c3f655c-ebf8-4a28-b6ac-9ae6502b63b4
+  subjects:
+  - entities:
+    - role: player
+      name: Freddie Freeman
+      ref: 
+    - role: team
+      name: Los Angeles Dodgers
+      ref: 
+- number: 91ASR-FL
+  uuid: d83960f6-f69f-4843-8e4d-3a5dd540c0cb
+  subjects:
+  - entities:
+    - role: player
+      name: Francisco Lindor
+      ref: 
+    - role: team
+      name: New York Mets
+      ref: 
+- number: 91ASR-FT
+  uuid: 1cff2a10-f373-42e4-8000-f52d4ca9c7f2
+  subjects:
+  - entities:
+    - role: player
+      name: Fernando Tatis Jr.
+      ref: 
+    - role: team
+      name: San Diego Padres
+      ref: 
+- number: 91ASR-FTH
+  uuid: f11af176-dee5-45cf-b167-7480de617c26
+  subjects:
+  - entities:
+    - role: player
+      name: Frank Thomas
+      ref: 
+    - role: team
+      name: Chicago White Sox
+      ref: 
+- number: 91ASR-GH
+  uuid: 3aeecc6c-103c-4495-9683-312820df191f
+  subjects:
+  - entities:
+    - role: player
+      name: Gunnar Henderson
+      ref: 
+    - role: team
+      name: Baltimore Orioles
+      ref: 
+- number: 91ASR-I
+  uuid: 3580199f-64a0-41c6-ab71-cc3a32a562fa
+  subjects:
+  - entities:
+    - role: player
+      name: Ichiro
+      ref: 
+    - role: team
+      name: Seattle Mariners
+      ref: 
+- number: 91ASR-JA
+  uuid: b7697355-ebae-44b3-a6d2-2eb76cbdcff1
+  subjects:
+  - entities:
+    - role: player
+      name: Jose Altuve
+      ref: 
+    - role: team
+      name: Houston Astros
+      ref: 
+- number: 91ASR-JM
+  uuid: '0081ab76-9989-4ea1-aefc-aa86cc039160'
+  subjects:
+  - entities:
+    - role: player
+      name: Jackson Merrill
+      ref: 
+    - role: team
+      name: San Diego Padres
+      ref: 
+- number: 91ASR-JMI
+  uuid: a6662d34-0a20-4ab4-ab37-0e27ef228447
+  subjects:
+  - entities:
+    - role: player
+      name: Jacob Misiorowski
+      ref: 
+    - role: team
+      name: Milwaukee Brewers
+      ref: 
+- number: 91ASR-JR
+  uuid: a171a60f-fe94-4722-9731-fc3635d7300d
+  subjects:
+  - entities:
+    - role: player
+      name: Julio Rodríguez
+      ref: 
+    - role: team
+      name: Seattle Mariners
+      ref: 
+- number: 91ASR-JS
+  uuid: c199a92c-85a2-44a8-8dcb-379bd15c6efd
+  subjects:
+  - entities:
+    - role: player
+      name: Juan Soto
+      ref: 
+    - role: team
+      name: New York Mets
+      ref: 
+- number: 91ASR-JW
+  uuid: 37a06fd0-8ca1-4155-8307-5186f0f48531
+  subjects:
+  - entities:
+    - role: player
+      name: James Wood
+      ref: 
+    - role: team
+      name: Washington Nationals
+      ref: 
+- number: 91ASR-JWI
+  uuid: 7305557e-806b-4c62-a44e-7cf80b90feee
+  subjects:
+  - entities:
+    - role: player
+      name: Jacob Wilson
+      ref: 
+    - role: team
+      name: Athletics
+      ref: 
+- number: 91ASR-KG
+  uuid: 6878b61a-5200-457d-9451-cee65dd86551
+  subjects:
+  - entities:
+    - role: player
+      name: Ken Griffey Jr.
+      ref: 
+    - role: team
+      name: Seattle Mariners
+      ref: 
+- number: 91ASR-KP
+  uuid: 3dec483e-56a0-4ffe-861d-3f35560087af
+  subjects:
+  - entities:
+    - role: player
+      name: Kirby Puckett
+      ref: 
+    - role: team
+      name: Minnesota Twins
+      ref: 
+- number: 91ASR-KS
+  uuid: f26556ce-6e3e-4638-af3c-42b6aa288357
+  subjects:
+  - entities:
+    - role: player
+      name: Kyle Schwarber
+      ref: 
+    - role: team
+      name: Philadelphia Phillies
+      ref: 
+- number: 91ASR-MB
+  uuid: 61e95ee9-d23a-4447-89ae-1c38921c7d51
+  subjects:
+  - entities:
+    - role: player
+      name: Mookie Betts
+      ref: 
+    - role: team
+      name: Los Angeles Dodgers
+      ref: 
+- number: 91ASR-MC
+  uuid: 060a781c-0ae8-42bf-8d10-8115e1d56fb0
+  subjects:
+  - entities:
+    - role: player
+      name: Miguel Cabrera
+      ref: 
+    - role: team
+      name: Detroit Tigers
+      ref: 
+- number: 91ASR-MM
+  uuid: 46f916ea-6f86-494c-98a1-e05f81b79430
+  subjects:
+  - entities:
+    - role: player
+      name: Manny Machado
+      ref: 
+    - role: team
+      name: San Diego Padres
+      ref: 
+- number: 91ASR-MO
+  uuid: 57eabc69-2e1d-4158-82b1-ca7b1695952b
+  subjects:
+  - entities:
+    - role: player
+      name: Matt Olson
+      ref: 
+    - role: team
+      name: Atlanta Braves
+      ref: 
+- number: 91ASR-MP
+  uuid: dd035909-acc4-4cb0-b4c0-aa44a1736f05
+  subjects:
+  - entities:
+    - role: player
+      name: Mike Piazza
+      ref: 
+    - role: team
+      name: New York Mets
+      ref: 
+- number: 91ASR-MR
+  uuid: 1feeb07a-bc02-4cee-b57b-3f51a5bf1006
+  subjects:
+  - entities:
+    - role: player
+      name: Mariano Rivera
+      ref: 
+    - role: team
+      name: New York Yankees
+      ref: 
+- number: 91ASR-MS
+  uuid: 53a05b30-c966-4e50-ad05-42035c98908e
+  subjects:
+  - entities:
+    - role: player
+      name: Mike Schmidt
+      ref: 
+    - role: team
+      name: Philadelphia Phillies
+      ref: 
+- number: 91ASR-MT
+  uuid: 43286991-b490-4c43-80e5-25e56dae1bb2
+  subjects:
+  - entities:
+    - role: player
+      name: Mike Trout
+      ref: 
+    - role: team
+      name: Los Angeles Angels
+      ref: 
+- number: 91ASR-NA
+  uuid: fd853241-ecd3-4573-a62f-d343b65ba7e3
+  subjects:
+  - entities:
+    - role: player
+      name: Nolan Arenado
+      ref: 
+    - role: team
+      name: St. Louis Cardinals
+      ref: 
+- number: 91ASR-PC
+  uuid: 39e59e84-e247-4370-8b90-fbe96414155a
+  subjects:
+  - entities:
+    - role: player
+      name: Pete Crow-Armstrong
+      ref: 
+    - role: team
+      name: Chicago Cubs
+      ref: 
+- number: 91ASR-PS
+  uuid: 233773eb-99e7-4c11-be32-234e30ad0085
+  subjects:
+  - entities:
+    - role: player
+      name: Paul Skenes
+      ref: 
+    - role: team
+      name: Pittsburgh Pirates
+      ref: 
+- number: 91ASR-RA
+  uuid: 6f1d366d-751f-47c3-b636-9fa74a633728
+  subjects:
+  - entities:
+    - role: player
+      name: Ronald Acuña Jr.
+      ref: 
+    - role: team
+      name: Atlanta Braves
+      ref: 
+- number: 91ASR-SO
+  uuid: 1abe05c2-cb7a-4c51-b198-c8f1d3b25149
+  subjects:
+  - entities:
+    - role: player
+      name: Shohei Ohtani
+      ref: 
+    - role: team
+      name: Los Angeles Dodgers
+      ref: 
+- number: 91ASR-SS
+  uuid: 75e546de-f464-4935-b46b-89c36f5be007
+  subjects:
+  - entities:
+    - role: player
+      name: Sammy Sosa
+      ref: 
+    - role: team
+      name: Chicago Cubs
+      ref: 
+- number: 91ASR-TG
+  uuid: 8bc03f88-a96c-4b90-9ae5-a15bf06f926c
+  subjects:
+  - entities:
+    - role: player
+      name: Tony Gwynn
+      ref: 
+    - role: team
+      name: San Diego Padres
+      ref: 
+- number: 91ASR-TT
+  uuid: 8b043f28-c7a3-4540-b791-10d7682f2900
+  subjects:
+  - entities:
+    - role: player
+      name: Trea Turner
+      ref: 
+    - role: team
+      name: Philadelphia Phillies
+      ref: 
+- number: 91ASR-VG
+  uuid: 0a4b05a6-c97b-40fe-9632-b2f614545f3a
+  subjects:
+  - entities:
+    - role: player
+      name: Vladimir Guerrero Jr.
+      ref: 
+    - role: team
+      name: Toronto Blue Jays
+      ref: 
+- number: 91ASR-VGU
+  uuid: ef77c53d-83c2-4af2-b4c8-1432a8a62886
+  subjects:
+  - entities:
+    - role: player
+      name: Vladimir Guerrero
+      ref: 
+    - role: team
+      name: Montréal Expos
+      ref: 

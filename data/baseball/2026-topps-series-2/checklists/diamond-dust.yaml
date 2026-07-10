@@ -1,0 +1,100 @@
+- number: DD-1
+  uuid: 72519e0d-6aa7-4551-92d9-cb13d6ae59df
+  subjects:
+  - entities:
+    - role: player
+      name: Aaron Judge
+      ref: 
+    - role: team
+      name: New York Yankees
+      ref: 
+- number: DD-2
+  uuid: fa983d7e-b10b-4533-b2dd-249395ee93a9
+  subjects:
+  - entities:
+    - role: player
+      name: Shohei Ohtani
+      ref: 
+    - role: team
+      name: Los Angeles Dodgers
+      ref: 
+- number: DD-3
+  uuid: c4421857-7e23-482a-ab8b-90c9fa73e154
+  subjects:
+  - entities:
+    - role: player
+      name: Juan Soto
+      ref: 
+    - role: team
+      name: New York Mets
+      ref: 
+- number: DD-4
+  uuid: dd1e6bce-2489-43fc-b8b6-76dfed7efebc
+  subjects:
+  - entities:
+    - role: player
+      name: Bobby Witt Jr.
+      ref: 
+    - role: team
+      name: Kansas City Royals
+      ref: 
+- number: DD-5
+  uuid: eb9bab96-7569-4434-9948-4e50cdbcb54c
+  subjects:
+  - entities:
+    - role: player
+      name: Mike Trout
+      ref: 
+    - role: team
+      name: Los Angeles Angels
+      ref: 
+- number: DD-6
+  uuid: 0ffac4bc-04ff-4442-bb00-e68ca621f224
+  subjects:
+  - entities:
+    - role: player
+      name: Ronald Acuña Jr.
+      ref: 
+    - role: team
+      name: Atlanta Braves
+      ref: 
+- number: DD-7
+  uuid: ae545ea0-57fb-4357-b50d-a80974c7a4bd
+  subjects:
+  - entities:
+    - role: player
+      name: Ken Griffey Jr.
+      ref: 
+    - role: team
+      name: Seattle Mariners
+      ref: 
+- number: DD-8
+  uuid: 07de1620-b08b-4809-8381-6a325d50aff1
+  subjects:
+  - entities:
+    - role: player
+      name: Babe Ruth
+      ref: 
+    - role: team
+      name: New York Yankees
+      ref: 
+- number: DD-9
+  uuid: adbad802-502e-43ef-bcb8-3210b29bbee2
+  subjects:
+  - entities:
+    - role: player
+      name: Willie Mays
+      ref: 
+    - role: team
+      name: San Francisco Giants
+      ref: 
+- number: DD-10
+  uuid: 96a185a9-30fb-4bc7-a42b-f40895d0a651
+  subjects:
+  - entities:
+    - role: player
+      name: Ted Williams
+      ref: 
+    - role: team
+      name: Boston Red Sox
+      ref: 

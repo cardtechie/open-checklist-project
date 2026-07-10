@@ -1,0 +1,34 @@
+- number: ST-AS
+  uuid: 0a3d7b65-13d7-47e1-9b67-ff487d894d0e
+  subjects:
+  - entities:
+    - role: player
+      name: Skeme
+      ref: 
+    - role: team
+      name: Washington Nationals
+      ref: 
+  - entities:
+    - role: player
+      name: CJ Abrams
+      ref: 
+    - role: team
+      name: Washington Nationals
+      ref: 
+- number: ST-TY
+  uuid: 93156989-66da-4712-ac05-c9c0e1368030
+  subjects:
+  - entities:
+    - role: player
+      name: Yandel
+      ref: 
+    - role: team
+      name: San Diego Padres
+      ref: 
+  - entities:
+    - role: player
+      name: Fernando Tatis Jr.
+      ref: 
+    - role: team
+      name: San Diego Padres
+      ref: 
