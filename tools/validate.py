@@ -215,12 +215,16 @@ def main(argv):
     data_dir = Path(argv[1]) if len(argv) > 1 else DATA_DIR
     schema_dir = Path(argv[2]) if len(argv) > 2 else SCHEMA_DIR
 
+    # Current-version schemas via the `schema.yaml` pointer symlinks
+    # (set -> v0.3, manifest -> v0.1, checklist -> v0.1).
     schemas = {
-        "set": load_schema(schema_dir / "set" / "v0.3" / "schema.yaml"),
+        "set": load_schema(schema_dir / "set" / "schema.yaml"),
         "manifest": load_schema(schema_dir / "manifest" / "schema.yaml"),
         "checklist": load_schema(schema_dir / "checklist" / "schema.yaml"),
     }
-    for legacy, fname in (("v2set", "set/schema.yaml"), ("v2card", "card/schema.yaml")):
+    # Legacy v0.2 (exploded) schemas, loaded from their explicit version dir so the
+    # `set` pointer moving to v0.3 doesn't change how legacy sets are validated.
+    for legacy, fname in (("v2set", "set/v0.2/schema.yaml"), ("v2card", "card/schema.yaml")):
         p = schema_dir / fname
         if p.exists():
             schemas[legacy] = load_schema(p)
