@@ -1,0 +1,300 @@
+- number: P-1
+  uuid: 9daa894c-e4e8-4847-b0b8-72d867b5e8af
+  subjects:
+  - entities:
+    - role: player
+      name: Ceddanne Rafaela
+      ref: 
+    - role: team
+      name: Boston Red Sox
+      ref: 
+- number: P-2
+  uuid: 874db8da-5af4-469c-b4eb-490dd6bf9a52
+  subjects:
+  - entities:
+    - role: player
+      name: Josue De Paula
+      ref: 
+    - role: team
+      name: Los Angeles Dodgers
+      ref: 
+- number: P-3
+  uuid: 58c7365a-5855-4fa9-ad82-e834512c0691
+  subjects:
+  - entities:
+    - role: player
+      name: Jackson Chourio
+      ref: 
+    - role: team
+      name: Milwaukee Brewers
+      ref: 
+- number: P-4
+  uuid: 9ee799c2-bf39-4d3b-bd49-3b02bf23ecdc
+  subjects:
+  - entities:
+    - role: player
+      name: Colson Montgomery
+      ref: 
+    - role: team
+      name: Chicago White Sox
+      ref: 
+- number: P-5
+  uuid: b2b1c153-286c-45fe-882c-aa8b48f09606
+  subjects:
+  - entities:
+    - role: player
+      name: Konnor Griffin
+      ref: 
+    - role: team
+      name: Pittsburgh Pirates
+      ref: 
+- number: P-6
+  uuid: 0e35c6f4-d17d-4f52-8928-6bdb34dddaff
+  subjects:
+  - entities:
+    - role: player
+      name: Francisco Lindor
+      ref: 
+    - role: team
+      name: New York Mets
+      ref: 
+- number: P-7
+  uuid: 65542ace-bce5-4d72-86c5-11b3659be9ad
+  subjects:
+  - entities:
+    - role: player
+      name: Shohei Ohtani
+      ref: 
+    - role: team
+      name: Los Angeles Dodgers
+      ref: 
+- number: P-8
+  uuid: 610e8978-bc6e-4ff3-9984-6e38789cfa51
+  subjects:
+  - entities:
+    - role: player
+      name: Sebastian Walcott
+      ref: 
+    - role: team
+      name: Texas Rangers
+      ref: 
+- number: P-9
+  uuid: 29777457-e31d-4749-996d-9e2c31d6fb07
+  subjects:
+  - entities:
+    - role: player
+      name: Vladimir Guerrero Jr.
+      ref: 
+    - role: team
+      name: Toronto Blue Jays
+      ref: 
+- number: P-10
+  uuid: 6fd53a09-abb2-490e-83e8-6dbef2b8724c
+  subjects:
+  - entities:
+    - role: player
+      name: Yoshinobu Yamamoto
+      ref: 
+    - role: team
+      name: Los Angeles Dodgers
+      ref: 
+- number: P-11
+  uuid: e46132a3-d61e-43e4-8ec1-03d3b49113ba
+  subjects:
+  - entities:
+    - role: player
+      name: Bryce Eldridge
+      ref: 
+    - role: team
+      name: San Francisco Giants
+      ref: 
+- number: P-12
+  uuid: 5444ab11-edb4-45be-8f87-308522504fd6
+  subjects:
+  - entities:
+    - role: player
+      name: Ichiro
+      ref: 
+    - role: team
+      name: Seattle Mariners
+      ref: 
+- number: P-13
+  uuid: 8bd1ad67-bb4f-4768-93fe-849c70d6936b
+  subjects:
+  - entities:
+    - role: player
+      name: Cal Ripken Jr.
+      ref: 
+    - role: team
+      name: Baltimore Orioles
+      ref: 
+- number: P-14
+  uuid: 6bb18138-5adc-4334-8e78-45b455487490
+  subjects:
+  - entities:
+    - role: player
+      name: Andrew Mccutchen
+      ref: 
+    - role: team
+      name: Pittsburgh Pirates
+      ref: 
+- number: P-15
+  uuid: 9d8e16b1-e573-4dfa-ae2b-416cc9b9507d
+  subjects:
+  - entities:
+    - role: player
+      name: Juan Soto
+      ref: 
+    - role: team
+      name: New York Mets
+      ref: 
+- number: P-16
+  uuid: 2b12ab48-7c81-412b-aa73-76df7bba8544
+  subjects:
+  - entities:
+    - role: player
+      name: Manny Machado
+      ref: 
+    - role: team
+      name: San Diego Padres
+      ref: 
+- number: P-17
+  uuid: a38fd5b7-90e6-452e-8618-d1990452c68c
+  subjects:
+  - entities:
+    - role: player
+      name: Jesús Made
+      ref: 
+    - role: team
+      name: Milwaukee Brewers
+      ref: 
+- number: P-18
+  uuid: 1c6fb873-6122-4e10-9b18-9b863b760c37
+  subjects:
+  - entities:
+    - role: player
+      name: Bryce Harper
+      ref: 
+    - role: team
+      name: Philadelphia Phillies
+      ref: 
+- number: P-19
+  uuid: 5dc3d61c-de1d-44ef-b36d-76b31d6e18d7
+  subjects:
+  - entities:
+    - role: player
+      name: Roki Sasaki
+      ref: 
+    - role: team
+      name: Los Angeles Dodgers
+      ref: 
+- number: P-20
+  uuid: c52874f6-9636-4be7-be1b-e13de12aaef1
+  subjects:
+  - entities:
+    - role: player
+      name: George Lombard Jr.
+      ref: 
+    - role: team
+      name: New York Yankees
+      ref: 
+- number: P-21
+  uuid: 96406b58-8c72-4e23-8361-f516ce42bb4e
+  subjects:
+  - entities:
+    - role: player
+      name: Charlie Condon
+      ref: 
+    - role: team
+      name: Colorado Rockies
+      ref: 
+- number: P-22
+  uuid: 863e130c-0c6f-4871-9ff0-4aaf2f736e65
+  subjects:
+  - entities:
+    - role: player
+      name: Tony Gwynn
+      ref: 
+    - role: team
+      name: San Diego Padres
+      ref: 
+- number: P-23
+  uuid: c1262765-5479-411d-a35d-d8b381c6133b
+  subjects:
+  - entities:
+    - role: player
+      name: Jac Caglianone
+      ref: 
+    - role: team
+      name: Kansas City Royals
+      ref: 
+- number: P-24
+  uuid: f85cbe67-28ea-434d-af5b-7303a69310d5
+  subjects:
+  - entities:
+    - role: player
+      name: Fernando Tatis Jr.
+      ref: 
+    - role: team
+      name: San Diego Padres
+      ref: 
+- number: P-25
+  uuid: 261ca33e-b4cd-440d-9b93-cc953ff23dc3
+  subjects:
+  - entities:
+    - role: player
+      name: Max Clark
+      ref: 
+    - role: team
+      name: Detroit Tigers
+      ref: 
+- number: P-26
+  uuid: 0c7ed2d2-2f47-4e80-8cb2-eaa973c57626
+  subjects:
+  - entities:
+    - role: player
+      name: Junior Caminero
+      ref: 
+    - role: team
+      name: Tampa Bay Rays
+      ref: 
+- number: P-27
+  uuid: 94454a67-9a1c-44ef-b942-b1a3e0157414
+  subjects:
+  - entities:
+    - role: player
+      name: José Ramírez
+      ref: 
+    - role: team
+      name: Cleveland Guardians
+      ref: 
+- number: P-28
+  uuid: 3e69348f-0609-4532-8453-675e00608644
+  subjects:
+  - entities:
+    - role: player
+      name: Jim Thome
+      ref: 
+    - role: team
+      name: Philadelphia Phillies
+      ref: 
+- number: P-29
+  uuid: 2411b353-6606-46b5-80b2-4be398449df8
+  subjects:
+  - entities:
+    - role: player
+      name: JJ Wetherholt
+      ref: 
+    - role: team
+      name: St. Louis Cardinals
+      ref: 
+- number: P-30
+  uuid: d74f1a71-bace-4b44-863f-131f087263a9
+  subjects:
+  - entities:
+    - role: player
+      name: James Wood
+      ref: 
+    - role: team
+      name: Washington Nationals
+      ref: 

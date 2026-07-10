@@ -1,0 +1,350 @@
+- number: PRV-AF
+  uuid: 5156c1f3-82f2-4ab0-a7e3-f87639073cf1
+  subjects:
+  - entities:
+    - role: player
+      name: Alex Freeland
+      ref: 
+    - role: team
+      name: Los Angeles Dodgers
+      ref: 
+- number: PRV-AR
+  uuid: de29cac4-33c7-40a0-95b2-1ceffa168c4f
+  subjects:
+  - entities:
+    - role: player
+      name: Adley Rutschman
+      ref: 
+    - role: team
+      name: Baltimore Orioles
+      ref: 
+- number: PRV-AS
+  uuid: 464906b0-0e7b-456a-a3a5-3e5e366c917e
+  subjects:
+  - entities:
+    - role: player
+      name: AJ Smith-Shawver
+      ref: 
+    - role: team
+      name: Atlanta Braves
+      ref: 
+- number: PRV-BC
+  uuid: 377a6a17-d2ba-460e-87e9-0ea5c98cdb12
+  subjects:
+  - entities:
+    - role: player
+      name: Bubba Chandler
+      ref: 
+    - role: team
+      name: Pittsburgh Pirates
+      ref: 
+- number: PRV-BE
+  uuid: e00e4a30-1e5a-474d-a0d9-f46efa569d49
+  subjects:
+  - entities:
+    - role: player
+      name: Bryce Eldridge
+      ref: 
+    - role: team
+      name: San Francisco Giants
+      ref: 
+- number: PRV-CC
+  uuid: 5ed83a41-a6c7-4cb9-b9ef-38b526ba37ab
+  subjects:
+  - entities:
+    - role: player
+      name: Corbin Carroll
+      ref: 
+    - role: team
+      name: Arizona Diamondbacks
+      ref: 
+- number: PRV-CE
+  uuid: a51180b3-69ab-4922-bd9d-6306dd5c92c2
+  subjects:
+  - entities:
+    - role: player
+      name: Connelly Early
+      ref: 
+    - role: team
+      name: Boston Red Sox
+      ref: 
+- number: PRV-CF
+  uuid: c0ab4556-b85c-442c-8d69-7a358124bfa6
+  subjects:
+  - entities:
+    - role: player
+      name: Cody Freeman
+      ref: 
+    - role: team
+      name: Texas Rangers
+      ref: 
+- number: PRV-CM
+  uuid: 0cebee29-3d9b-42cb-997f-8fbf58ed38c0
+  subjects:
+  - entities:
+    - role: player
+      name: Colson Montgomery
+      ref: 
+    - role: team
+      name: Chicago White Sox
+      ref: 
+- number: PRV-CS
+  uuid: 6c552982-1771-4165-a687-4cf39091d02f
+  subjects:
+  - entities:
+    - role: player
+      name: Cam Schlittler
+      ref: 
+    - role: team
+      name: New York Yankees
+      ref: 
+- number: PRV-CW
+  uuid: 043ea130-4e93-49ad-a4af-2df14f9821b8
+  subjects:
+  - entities:
+    - role: player
+      name: Carson Williams
+      ref: 
+    - role: team
+      name: Tampa Bay Rays
+      ref: 
+- number: PRV-DBE
+  uuid: 7f644551-28cf-4ef7-8d70-2853364d04e8
+  subjects:
+  - entities:
+    - role: player
+      name: David Bednar
+      ref: 
+    - role: team
+      name: New York Yankees
+      ref: 
+- number: PRV-DF
+  uuid: b7d068c3-8677-4273-9375-ab3f770bdad6
+  subjects:
+  - entities:
+    - role: player
+      name: Didier Fuentes
+      ref: 
+    - role: team
+      name: Atlanta Braves
+      ref: 
+- number: PRV-FT
+  uuid: 16ca842d-fd82-4ae5-bbb9-caa6ba971641
+  subjects:
+  - entities:
+    - role: player
+      name: Fernando Tatis Jr.
+      ref: 
+    - role: team
+      name: San Diego Padres
+      ref: 
+- number: PRV-HF
+  uuid: 30e39084-b72c-4163-9a56-7c60cd27da96
+  subjects:
+  - entities:
+    - role: player
+      name: Harry Ford
+      ref: 
+    - role: team
+      name: Washington Nationals
+      ref: 
+- number: PRV-HG
+  uuid: 95e5a6f7-98ef-482a-9c1c-f90246dbc29e
+  subjects:
+  - entities:
+    - role: player
+      name: Hunter Goodman
+      ref: 
+    - role: team
+      name: Colorado Rockies
+      ref: 
+- number: PRV-JC
+  uuid: eca10cfe-e5da-498b-8cd3-4a0c0c127824
+  subjects:
+  - entities:
+    - role: player
+      name: Jac Caglianone
+      ref: 
+    - role: team
+      name: Kansas City Royals
+      ref: 
+- number: PRV-JD
+  uuid: c26f9e07-81cf-402f-b9a0-38fa31584965
+  subjects:
+  - entities:
+    - role: player
+      name: Justin Dean
+      ref: 
+    - role: team
+      name: Los Angeles Dodgers
+      ref: 
+- number: PRV-JM
+  uuid: d330a916-e371-41ec-b7c5-06634e9d50d3
+  subjects:
+  - entities:
+    - role: player
+      name: Jacob Misiorowski
+      ref: 
+    - role: team
+      name: Milwaukee Brewers
+      ref: 
+- number: PRV-JMA
+  uuid: 16dad648-46a1-408a-8805-8e80a3494635
+  subjects:
+  - entities:
+    - role: player
+      name: Jakob Marsee
+      ref: 
+    - role: team
+      name: Miami Marlins
+      ref: 
+- number: PRV-KB
+  uuid: 2873fdd1-d625-4326-9693-49c23a601196
+  subjects:
+  - entities:
+    - role: player
+      name: Kris Bryant
+      ref: 
+    - role: team
+      name: Colorado Rockies
+      ref: 
+- number: PRV-KK
+  uuid: 81f0039f-a301-484c-a817-a3876e1008b3
+  subjects:
+  - entities:
+    - role: player
+      name: Kyle Karros
+      ref: 
+    - role: team
+      name: Colorado Rockies
+      ref: 
+- number: PRV-KT
+  uuid: b8cf761c-a1fc-47a8-a5cc-5c4c2da0e107
+  subjects:
+  - entities:
+    - role: player
+      name: Kyle Teel
+      ref: 
+    - role: team
+      name: Chicago White Sox
+      ref: 
+- number: PRV-MT
+  uuid: 054b6c22-7a0d-4559-a79a-dd660ae1cce2
+  subjects:
+  - entities:
+    - role: player
+      name: Mike Trout
+      ref: 
+    - role: team
+      name: Los Angeles Angels
+      ref: 
+- number: PRV-NK
+  uuid: b0be5737-cdfc-4991-a655-183cc9de9dad
+  subjects:
+  - entities:
+    - role: player
+      name: Nick Kurtz
+      ref: 
+    - role: team
+      name: Athletics
+      ref: 
+- number: PRV-NL
+  uuid: 76a31961-63e3-4f77-82f8-6a01ec314889
+  subjects:
+  - entities:
+    - role: player
+      name: Nathan Lukes
+      ref: 
+    - role: team
+      name: Toronto Blue Jays
+      ref: 
+- number: PRV-NM
+  uuid: 8c6065b6-bf0b-480c-9d36-347869c932bd
+  subjects:
+  - entities:
+    - role: player
+      name: Nolan McLean
+      ref: 
+    - role: team
+      name: New York Mets
+      ref: 
+- number: PRV-PT
+  uuid: 61ea2fa3-955c-45b0-b8ad-8aaa057dde57
+  subjects:
+  - entities:
+    - role: player
+      name: Payton Tolle
+      ref: 
+    - role: team
+      name: Boston Red Sox
+      ref: 
+- number: PRV-RA
+  uuid: d9ee328c-0eee-4528-ade1-19e4e31aee6f
+  subjects:
+  - entities:
+    - role: player
+      name: Roman Anthony
+      ref: 
+    - role: team
+      name: Boston Red Sox
+      ref: 
+- number: PRV-RAC
+  uuid: 6f4678f7-bf9d-4392-a305-6259e0e93d92
+  subjects:
+  - entities:
+    - role: player
+      name: Ronald Acuña Jr.
+      ref: 
+    - role: team
+      name: Atlanta Braves
+      ref: 
+- number: PRV-SB
+  uuid: f9f12e2d-1ac7-42e3-a92b-3776a30a0b52
+  subjects:
+  - entities:
+    - role: player
+      name: Samuel Basallo
+      ref: 
+    - role: team
+      name: Baltimore Orioles
+      ref: 
+- number: PRV-TY
+  uuid: 2529b822-ced1-4533-9aa1-7ff0d00795ab
+  subjects:
+  - entities:
+    - role: player
+      name: Trey Yesavage
+      ref: 
+    - role: team
+      name: Toronto Blue Jays
+      ref: 
+- number: PRV-VG
+  uuid: ad1d176e-5fad-4256-8212-a4f75b0e6f8b
+  subjects:
+  - entities:
+    - role: player
+      name: Vladimir Guerrero Jr.
+      ref: 
+    - role: team
+      name: Toronto Blue Jays
+      ref: 
+- number: PRV-WB
+  uuid: 7cb38abe-42ef-456d-8d2a-2ae89e373bb5
+  subjects:
+  - entities:
+    - role: player
+      name: Walker Buehler
+      ref: 
+    - role: team
+      name: Philadelphia Phillies
+      ref: 
+- number: PRV-WK
+  uuid: 3a979056-6fed-4b27-88b3-5f3693acc734
+  subjects:
+  - entities:
+    - role: player
+      name: Will Klein
+      ref: 
+    - role: team
+      name: Los Angeles Dodgers
+      ref: 

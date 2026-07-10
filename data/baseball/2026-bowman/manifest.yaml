@@ -1,0 +1,660 @@
+set_id: 2026-bowman
+base_sets:
+- id: base-set
+  name: Base Set
+  uuid: 168d4ff6-9273-4035-b6ba-73c4387f8fba
+  declared_card_count: 100
+  parallels:
+  - name: Green Pattern
+    print_run: 99
+    serial_numbered: true
+  - name: Purple Pattern
+    print_run: 250
+    serial_numbered: true
+  - name: Bowman Logo
+  - name: Gold Pattern
+    print_run: 50
+    serial_numbered: true
+  - name: Purple
+    print_run: 250
+    serial_numbered: true
+  - name: Yellow
+    print_run: 75
+    serial_numbered: true
+  - name: Pink
+    print_run: 175
+    serial_numbered: true
+  - name: Blue
+    print_run: 150
+    serial_numbered: true
+  - name: Orange
+    print_run: 25
+    serial_numbered: true
+  - name: Blue Pattern
+    print_run: 150
+    serial_numbered: true
+  - name: Yellow Pattern
+    print_run: 75
+    serial_numbered: true
+  - name: Fuchsia
+    print_run: 299
+    serial_numbered: true
+  - name: Green
+    print_run: 99
+    serial_numbered: true
+  - name: Sky Blue
+    print_run: 499
+    serial_numbered: true
+  - name: Printing Plates
+    print_run: 4
+    serial_numbered: true
+  - name: Neon Green
+    print_run: 399
+    serial_numbered: true
+  - name: Black Pattern
+    print_run: 10
+    serial_numbered: true
+  - name: Black
+    print_run: 10
+    serial_numbered: true
+  - name: Red
+    print_run: 5
+    serial_numbered: true
+  - name: Platinum
+    print_run: 1
+    serial_numbered: true
+  - name: Orange Pattern
+    print_run: 25
+    serial_numbered: true
+  - name: Gold
+    print_run: 50
+    serial_numbered: true
+  subsets:
+  - id: anime
+    name: Anime
+    uuid: 9e59ac20-79fc-4f23-b8fb-f7a72778bf2c
+    type: insert
+    declared_card_count: 29
+    subsets:
+    - id: anime-kanji-variations
+      name: Anime - Kanji Variations
+      uuid: 2c02fa89-b805-4344-8a9b-77a92549693f
+      type: variation
+      declared_card_count: 7
+  - id: base-etched-in-glass-variations
+    name: Base - Etched In Glass Variations
+    uuid: d4434c54-bdd9-41f2-86fb-d9b717e5aa28
+    type: variation
+    declared_card_count: 12
+  - id: base-red-rc-variations
+    name: Base - Red RC Variations
+    uuid: dff7e2d9-07b2-4738-ad5f-6706e288e9f9
+    type: variation
+    declared_card_count: 40
+  - id: base-rookie-and-veteran-retail-autographs
+    name: Base Rookie and Veteran Retail Autographs
+    uuid: 6bed788b-2bec-40e3-a12f-65f2499bee7e
+    type: autograph
+    declared_card_count: 35
+  - id: bowman-scouts-top-100
+    name: Bowman Scouts Top 100
+    uuid: e571ff1d-33c3-437f-9465-ed6b4e4cf944
+    type: insert
+    declared_card_count: 100
+  - id: bowman-spotlights
+    name: Bowman Spotlights
+    uuid: c6f0e0b7-3be3-42c3-b76e-0e80cd2b57b8
+    type: insert
+    declared_card_count: 15
+  - id: bowman-sterling
+    name: Bowman Sterling
+    uuid: 338ec5f8-677f-4734-a223-69d1cc03ffe8
+    type: insert
+    declared_card_count: 15
+    parallels:
+    - name: Mega Chrome Rose Gold Refractor
+      print_run: 1
+      serial_numbered: true
+    - name: Mega Chrome Red Refractor
+      print_run: 5
+      serial_numbered: true
+    - name: Mega Chrome Blue Refractor
+      print_run: 150
+      serial_numbered: true
+    - name: Mega Chrome Pink Refractor
+      print_run: 199
+      serial_numbered: true
+    - name: SuperFractor
+      print_run: 1
+      serial_numbered: true
+    - name: Mega Chrome Black Refractor
+      print_run: 10
+      serial_numbered: true
+    - name: Green Refractor
+      print_run: 99
+      serial_numbered: true
+    - name: Autograph Gold Refractor
+      print_run: 50
+      serial_numbered: true
+    - name: Autograph Orange Refractor
+      print_run: 25
+      serial_numbered: true
+    - name: Mega Chrome
+    - name: Orange Refractor
+      print_run: 25
+      serial_numbered: true
+    - name: Mega Chrome Purple Refractor
+      print_run: 250
+      serial_numbered: true
+    - name: Red Refractor
+      print_run: 5
+      serial_numbered: true
+    - name: Mega Chrome Orange Refractor
+      print_run: 25
+      serial_numbered: true
+    - name: Mega Chrome Gold Refractor
+      print_run: 50
+      serial_numbered: true
+    - name: Mega Chrome Green Refractor
+      print_run: 99
+      serial_numbered: true
+    - name: Mini-Diamond Refractor
+      print_run: 150
+      serial_numbered: true
+    - name: Autograph Red Refractor
+      print_run: 5
+      serial_numbered: true
+    - name: Aqua Refractor
+      print_run: 125
+      serial_numbered: true
+    - name: Gold Refractor
+      print_run: 50
+      serial_numbered: true
+    subsets:
+    - id: bowman-sterling-autographs
+      name: Bowman Sterling Autographs
+      uuid: a305d487-4bf2-4c1a-ac92-3260514dd44e
+      type: autograph
+      declared_card_count: 10
+      parallels:
+      - name: SuperFractor
+        print_run: 1
+        serial_numbered: true
+  - id: crystallized
+    name: Crystallized
+    uuid: 32be62c5-f1c2-4a9c-a5e4-f1c0f9d72c11
+    type: insert
+    declared_card_count: 20
+  - id: draft-pick-pairings
+    name: Draft Pick Pairings
+    uuid: 95a7c168-1959-4844-a7b3-05f702728353
+    type: insert
+    declared_card_count: 16
+  - id: electric-sluggers
+    name: Electric Sluggers
+    uuid: 6659aa51-202e-4377-8f06-6c149d2ca62a
+    type: insert
+    declared_card_count: 25
+    parallels:
+    - name: Autograph Orange Refractor
+      print_run: 25
+      serial_numbered: true
+    - name: Gold Refractor
+      print_run: 50
+      serial_numbered: true
+    - name: SuperFractor
+      print_run: 1
+      serial_numbered: true
+    - name: Mega Chrome Gold Refractor
+      print_run: 50
+      serial_numbered: true
+    - name: Mega Chrome Pink Refractor
+      print_run: 199
+      serial_numbered: true
+    - name: Mega Chrome Red Refractor
+      print_run: 5
+      serial_numbered: true
+    - name: Mega Chrome
+    - name: Autograph Red Refractor
+      print_run: 5
+      serial_numbered: true
+    - name: Mini-Diamond Refractor
+      print_run: 150
+      serial_numbered: true
+    - name: Mega Chrome Black Refractor
+      print_run: 10
+      serial_numbered: true
+    - name: Mega Chrome Purple Refractor
+      print_run: 250
+      serial_numbered: true
+    - name: Mega Chrome Rose Gold Refractor
+      print_run: 1
+      serial_numbered: true
+    - name: Orange Refractor
+      print_run: 25
+      serial_numbered: true
+    - name: Mega Chrome Burgundy Refractor
+      print_run: 299
+      serial_numbered: true
+    - name: Mega Chrome Blue Refractor
+      print_run: 150
+      serial_numbered: true
+    - name: Mega Chrome Orange Refractor
+      print_run: 25
+      serial_numbered: true
+    - name: Autograph Gold Refractor
+      print_run: 50
+      serial_numbered: true
+    - name: Red Refractor
+      print_run: 5
+      serial_numbered: true
+    - name: Green Refractor
+      print_run: 99
+      serial_numbered: true
+    - name: Mega Chrome Green Refractor
+      print_run: 99
+      serial_numbered: true
+    - name: Aqua Refractor
+      print_run: 125
+      serial_numbered: true
+    subsets:
+    - id: electric-sluggers-autographs
+      name: Electric Sluggers Autographs
+      uuid: 37ba0ff1-5e16-4f32-b8fd-85250ef8fb06
+      type: autograph
+      declared_card_count: 14
+      parallels:
+      - name: SuperFractor
+        print_run: 1
+        serial_numbered: true
+  - id: final-draft
+    name: Final Draft
+    uuid: c049abb0-b631-4237-a6dd-8c54258ed067
+    type: insert
+    declared_card_count: 20
+  - id: patchwork
+    name: Patchwork
+    uuid: ef897d31-5856-4801-a942-d5d7e44594d2
+    type: relic
+    declared_card_count: 30
+  - id: power-chords
+    name: Power Chords
+    uuid: 5deb89a1-d269-4dc3-a773-0abc824da32b
+    type: insert
+    declared_card_count: 25
+    parallels:
+    - name: Green Refractor
+      print_run: 99
+      serial_numbered: true
+    - name: Aqua Refractor
+      print_run: 125
+      serial_numbered: true
+    - name: Orange Refractor
+      print_run: 25
+      serial_numbered: true
+    - name: Gold Refractor
+      print_run: 50
+      serial_numbered: true
+    - name: Autograph Red Refractor
+      print_run: 5
+      serial_numbered: true
+    - name: Red Refractor
+      print_run: 5
+      serial_numbered: true
+    - name: Autograph Gold Refractor
+      print_run: 50
+      serial_numbered: true
+    - name: Autograph Orange Refractor
+      print_run: 25
+      serial_numbered: true
+    - name: Mini-Diamond Refractor
+      print_run: 150
+      serial_numbered: true
+    - name: SuperFractor
+      print_run: 1
+      serial_numbered: true
+    subsets:
+    - id: power-chords-autographs
+      name: Power Chords Autographs
+      uuid: 57372ac6-8bfc-4679-bf2f-597bdddf6159
+      type: autograph
+      declared_card_count: 15
+      parallels:
+      - name: SuperFractor
+        print_run: 1
+        serial_numbered: true
+  - id: ultimate-autograph-booklet
+    name: Ultimate Autograph Booklet
+    uuid: ceea2c53-da1c-41f4-aa91-5d3648440ac0
+    type: autograph
+    declared_card_count: 1
+  - id: under-the-radar
+    name: Under The Radar
+    uuid: 76baedab-d921-467c-afb1-96bf1f9c1bdd
+    type: insert
+    declared_card_count: 20
+    parallels:
+    - name: Red Refractor
+      print_run: 5
+      serial_numbered: true
+    - name: Autograph Red Refractor
+      print_run: 5
+      serial_numbered: true
+    - name: Autograph Gold Refractor
+      print_run: 50
+      serial_numbered: true
+    - name: SuperFractor
+      print_run: 1
+      serial_numbered: true
+    - name: Mini-Diamond Refractor
+      print_run: 150
+      serial_numbered: true
+    - name: Green Refractor
+      print_run: 99
+      serial_numbered: true
+    - name: Gold Refractor
+      print_run: 50
+      serial_numbered: true
+    - name: Orange Refractor
+      print_run: 25
+      serial_numbered: true
+    - name: Autograph Orange Refractor
+      print_run: 25
+      serial_numbered: true
+    - name: Aqua Refractor
+      print_run: 125
+      serial_numbered: true
+    subsets:
+    - id: under-the-radar-autographs
+      name: Under The Radar Autographs
+      uuid: 31438de5-9725-4141-84fe-1cefa6e6fdf4
+      type: autograph
+      declared_card_count: 13
+      parallels:
+      - name: SuperFractor
+        print_run: 1
+        serial_numbered: true
+- id: base-prospects
+  name: Base Prospects
+  uuid: 9f84812d-a258-441e-860c-0ae8052eae8c
+  declared_card_count: 150
+  parallels:
+  - name: Neon Green
+    print_run: 299
+    serial_numbered: true
+  - name: Green Pattern
+    print_run: 75
+    serial_numbered: true
+  - name: Fuchsia
+    print_run: 250
+    serial_numbered: true
+  - name: Yellow
+    print_run: 75
+    serial_numbered: true
+  - name: Gold Pattern
+    print_run: 50
+    serial_numbered: true
+  - name: Yellow Pattern
+    print_run: 75
+    serial_numbered: true
+  - name: Platinum
+    print_run: 1
+    serial_numbered: true
+  - name: Black
+    print_run: 10
+    serial_numbered: true
+  - name: Black Pattern
+    print_run: 10
+    serial_numbered: true
+  - name: Orange
+    print_run: 25
+    serial_numbered: true
+  - name: Pink
+    print_run: 150
+    serial_numbered: true
+  - name: Blue
+    print_run: 150
+    serial_numbered: true
+  - name: Purple Pattern
+    print_run: 175
+    serial_numbered: true
+  - name: Printing Plates
+    print_run: 4
+    serial_numbered: true
+  - name: Blue Pattern
+    print_run: 99
+    serial_numbered: true
+  - name: Bowman Logo
+  - name: Sky Blue
+    print_run: 399
+    serial_numbered: true
+  - name: Green
+    print_run: 99
+    serial_numbered: true
+  - name: Orange Pattern
+    print_run: 25
+    serial_numbered: true
+  - name: Red
+    print_run: 5
+    serial_numbered: true
+  - name: Gold
+    print_run: 50
+    serial_numbered: true
+  - name: Purple
+    print_run: 250
+    serial_numbered: true
+  subsets:
+  - id: base-prospect-retail-autographs
+    name: Base Prospect Retail Autographs
+    uuid: fc4fa5fa-cf08-49c7-bad6-96348c4bd3de
+    type: autograph
+    declared_card_count: 31
+- id: chrome-prospects
+  name: Chrome Prospects
+  uuid: 8b1c2b09-2551-4496-9c2c-1d38ff731557
+  declared_card_count: 150
+  parallels:
+  - name: Speckle Refractor
+    print_run: 299
+    serial_numbered: true
+  - name: Reptilian Refractor
+  - name: FireFractor
+    print_run: 3
+    serial_numbered: true
+  - name: Peanuts Refractor
+  - name: Rose Gold X-Fractor
+    print_run: 15
+    serial_numbered: true
+  - name: Gold Shimmer Refractor
+    print_run: 50
+    serial_numbered: true
+  - name: Yellow Refractor
+    print_run: 75
+    serial_numbered: true
+  - name: Reptilian Orange Refractor
+    print_run: 25
+    serial_numbered: true
+  - name: Green Shimmer Refractor
+    print_run: 99
+    serial_numbered: true
+  - name: Orange Geometric Refractor
+    print_run: 25
+    serial_numbered: true
+  - name: Refractor
+    print_run: 499
+    serial_numbered: true
+  - name: Green Refractor
+    print_run: 99
+    serial_numbered: true
+  - name: Purple Geometric Refractor
+    print_run: 250
+    serial_numbered: true
+  - name: Gold Geometric Refractor
+    print_run: 50
+    serial_numbered: true
+  - name: Red Geometric Refractor
+    print_run: 5
+    serial_numbered: true
+  - name: Orange Shimmer Refractor
+    print_run: 25
+    serial_numbered: true
+  - name: Sunflower Seeds Refractor
+  - name: Blue Geometric Refractor
+    print_run: 150
+    serial_numbered: true
+  - name: X-Fractor
+  - name: Reptilian Fuschia Refractor
+    print_run: 199
+    serial_numbered: true
+  - name: Orange Refractor
+    print_run: 25
+    serial_numbered: true
+  - name: Mini-Diamond Refractor
+  - name: PackFractor
+    print_run: 89
+    serial_numbered: true
+  - name: Yellow Wave Refractor
+    print_run: 75
+    serial_numbered: true
+  - name: Laser Refractor
+  - name: Aqua Geometric Refractor
+    print_run: 125
+    serial_numbered: true
+  - name: Red Lava Refractor
+    print_run: 5
+    serial_numbered: true
+  - name: Green Geometric Refractor
+    print_run: 99
+    serial_numbered: true
+  - name: Bowman LogoFractor
+    print_run: 35
+    serial_numbered: true
+  - name: Black Geometric Refractor
+    print_run: 10
+    serial_numbered: true
+  - name: Reptilian Green Refractor
+    print_run: 99
+    serial_numbered: true
+  - name: Blue Refractor
+    print_run: 150
+    serial_numbered: true
+  - name: Fuschia Wave Refractor
+    print_run: 199
+    serial_numbered: true
+  - name: Yellow X-Fractor
+    print_run: 75
+    serial_numbered: true
+  - name: Gum Ball Refractor
+  - name: Fuschia Refractor
+    print_run: 199
+    serial_numbered: true
+  - name: Blue RayWave Refractor
+    print_run: 150
+    serial_numbered: true
+  - name: Black Refractor
+    print_run: 10
+    serial_numbered: true
+  - name: SuperFractor
+    print_run: 1
+    serial_numbered: true
+  - name: Pop Corn Refractor
+  - name: Purple Refractor
+    print_run: 250
+    serial_numbered: true
+  - name: Reptilian Gold Refractor
+    print_run: 50
+    serial_numbered: true
+  - name: Printing Plates
+    print_run: 4
+    serial_numbered: true
+  - name: Red Refractor
+    print_run: 5
+    serial_numbered: true
+  - name: Black X-Fractor
+    print_run: 10
+    serial_numbered: true
+  - name: Aqua X-Fractor
+    print_run: 125
+    serial_numbered: true
+  - name: Wave Refractor
+    print_run: 350
+    serial_numbered: true
+  - name: LogoFractor
+  - name: Reptilian Red Refractor
+    print_run: 5
+    serial_numbered: true
+  - name: Gold Refractor
+    print_run: 50
+    serial_numbered: true
+  - name: Blue Shimmer Refractor
+    print_run: 150
+    serial_numbered: true
+  - name: Lava Refractor
+    print_run: 399
+    serial_numbered: true
+  - name: Rose Gold Refractor
+    print_run: 15
+    serial_numbered: true
+  - name: Aqua Shimmer Refractor
+    print_run: 125
+    serial_numbered: true
+  - name: Reptilian Blue Refractor
+    print_run: 150
+    serial_numbered: true
+  - name: Purple RayWave Refractor
+    print_run: 250
+    serial_numbered: true
+  - name: Steel Metal Refractor
+    print_run: 100
+    serial_numbered: true
+  - name: Green Grass Refractor
+    print_run: 99
+    serial_numbered: true
+  subsets:
+  - id: chrome-prospect-autographs
+    name: Chrome Prospect Autographs
+    uuid: a1d9ce29-180b-49eb-aa29-364ba287fa16
+    type: autograph
+    declared_card_count: 87
+    parallels:
+    - name: Speckle Refractor
+      print_run: 299
+      serial_numbered: true
+    - name: Sunflower Seeds Refractor
+      print_run: 5
+      serial_numbered: true
+    - name: Gold Ink
+      print_run: 15
+      serial_numbered: true
+    - name: SuperFractor
+      print_run: 1
+      serial_numbered: true
+  - id: chrome-prospect-gold-ink-autographs
+    name: Chrome Prospect Gold Ink Autographs
+    uuid: e3562052-c34d-4e18-a224-343c5df62cbc
+    type: autograph
+    declared_card_count: 47
+  - id: chrome-prospect-packfractor-autographs
+    name: Chrome Prospect Packfractor Autographs
+    uuid: 989d3c5d-6e11-4181-a8bc-9d47b80afb05
+    type: autograph
+    declared_card_count: 39
+  - id: chrome-prospects-etched-in-glass-variations
+    name: Chrome Prospects - Etched In Glass Variations
+    uuid: 7d6ece78-81f3-4873-b309-e85fc9a4c353
+    type: variation
+    declared_card_count: 11
+  - id: chrome-prospects-packfractor-variation
+    name: Chrome Prospects Packfractor Variation
+    uuid: 4b6cb4ee-8333-45bd-b590-e6f4c86dc021
+    type: variation
+    declared_card_count: 150
+  - id: chrome-rookie-autographs
+    name: Chrome Rookie Autographs
+    uuid: e4ba7ada-b8b8-447c-aea6-8721b8315b65
+    type: autograph
+    declared_card_count: 13
+    parallels:
+    - name: SuperFractor
+      print_run: 1
+      serial_numbered: true

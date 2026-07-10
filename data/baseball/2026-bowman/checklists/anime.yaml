@@ -1,0 +1,290 @@
+- number: BA-1
+  uuid: 3457277b-12c8-4678-a2bb-8bcaaf2c0cae
+  subjects:
+  - entities:
+    - role: player
+      name: Sadaharu Oh
+      ref: 
+    - role: team
+      name: Yomiuri Giants
+      ref: 
+- number: BA-2
+  uuid: 55aacc11-baa8-4724-bbd3-627c6cc775f6
+  subjects:
+  - entities:
+    - role: player
+      name: Cal Raleigh
+      ref: 
+    - role: team
+      name: USA
+      ref: 
+- number: BA-3
+  uuid: f2217a1f-ac8d-4705-bf3c-4ecb20938cdf
+  subjects:
+  - entities:
+    - role: player
+      name: Munetaka Murakami
+      ref: 
+    - role: team
+      name: Chicago White Sox
+      ref: 
+- number: BA-4
+  uuid: 3f235c4e-7316-42f8-917b-cf429046f06b
+  subjects:
+  - entities:
+    - role: player
+      name: Aaron Judge
+      ref: 
+    - role: team
+      name: USA
+      ref: 
+- number: BA-5
+  uuid: 7e6a98e4-3a43-419f-ab3d-21936ba99a86
+  subjects:
+  - entities:
+    - role: player
+      name: Bobby Witt Jr.
+      ref: 
+    - role: team
+      name: USA
+      ref: 
+- number: BA-6
+  uuid: cfebc8ea-6222-47a1-a027-a6a67029cf37
+  subjects:
+  - entities:
+    - role: player
+      name: Nick Kurtz
+      ref: 
+    - role: team
+      name: Athletics
+      ref: 
+- number: BA-7
+  uuid: 7e9ce235-a577-4542-9695-4e881bf031e9
+  subjects:
+  - entities:
+    - role: player
+      name: Ethan Holliday
+      ref: 
+    - role: team
+      name: Colorado Rockies
+      ref: 
+- number: BA-8
+  uuid: 359d1b0d-17e6-401c-ba51-1c99387fe04b
+  subjects:
+  - entities:
+    - role: player
+      name: Tatsuya Imai
+      ref: 
+    - role: team
+      name: Houston Astros
+      ref: 
+- number: BA-9
+  uuid: 75f00869-c6ff-4721-b550-58471c57328d
+  subjects:
+  - entities:
+    - role: player
+      name: Shotaro Morii
+      ref: 
+    - role: team
+      name: Athletics
+      ref: 
+- number: BA-10
+  uuid: 3a247352-3bfc-41ac-bc34-1b5f06cba062
+  subjects:
+  - entities:
+    - role: player
+      name: Manny Ramirez
+      ref: 
+    - role: team
+      name: Boston Red Sox
+      ref: 
+- number: BA-11
+  uuid: c0db3024-851e-4c2c-b17b-2b2d13577ea2
+  subjects:
+  - entities:
+    - role: player
+      name: Sammy Sosa
+      ref: 
+    - role: team
+      name: Chicago Cubs
+      ref: 
+- number: BA-12
+  uuid: c34a9c16-4954-4114-be4b-9c157d92d20e
+  subjects:
+  - entities:
+    - role: player
+      name: Ken Griffey Jr.
+      ref: 
+    - role: team
+      name: Seattle Mariners
+      ref: 
+- number: BA-13
+  uuid: 188143f6-bc8e-45fb-9ae4-ba33663b6ece
+  subjects:
+  - entities:
+    - role: player
+      name: Roman Anthony
+      ref: 
+    - role: team
+      name: Boston Red Sox
+      ref: 
+- number: BA-14
+  uuid: eb22b610-2abc-41e5-9af6-f696f230e8ff
+  subjects:
+  - entities:
+    - role: player
+      name: Eli Willits
+      ref: 
+    - role: team
+      name: Washington Nationals
+      ref: 
+- number: BA-15
+  uuid: db60b354-ae84-42a4-97eb-bdcdbcc23602
+  subjects:
+  - entities:
+    - role: player
+      name: Jesus Made
+      ref: 
+    - role: team
+      name: Milwaukee Brewers
+      ref: 
+- number: BA-16
+  uuid: dc370016-d30e-42bf-aafd-d903dc55bf6b
+  subjects:
+  - entities:
+    - role: player
+      name: Hideo Nomo
+      ref: 
+    - role: team
+      name: Los Angeles Dodgers
+      ref: 
+- number: BA-17
+  uuid: 3546db89-a642-4878-bc23-3a45161c7155
+  subjects:
+  - entities:
+    - role: player
+      name: Kazuma Okamoto
+      ref: 
+    - role: team
+      name: Toronto Blue Jays
+      ref: 
+- number: BA-18
+  uuid: 3d060417-bd5d-473f-8591-1e7075b3d148
+  subjects:
+  - entities:
+    - role: player
+      name: Konnor Griffin
+      ref: 
+    - role: team
+      name: Pittsburgh Pirates
+      ref: 
+- number: BA-19
+  uuid: 7f04db9b-bc1b-4c99-908c-322498edaeb2
+  subjects:
+  - entities:
+    - role: player
+      name: Jackie Robinson
+      ref: 
+    - role: team
+      name: Brooklyn Dodgers
+      ref: 
+- number: BA-20
+  uuid: 83a628cf-b18d-413e-999e-a23ea173ccc6
+  subjects:
+  - entities:
+    - role: player
+      name: Jacob Misiorowski
+      ref: 
+    - role: team
+      name: Milwaukee Brewers
+      ref: 
+- number: BA-21
+  uuid: 918c3aa5-7571-43a9-99ba-8165ee0e7185
+  subjects:
+  - entities:
+    - role: player
+      name: Juan Soto
+      ref: 
+    - role: team
+      name: Dominican Republic
+      ref: 
+- number: BA-22
+  uuid: 8a7288ee-6181-4fb4-95af-534b64cdad63
+  subjects:
+  - entities:
+    - role: player
+      name: Bo Jackson
+      ref: 
+    - role: team
+      name: Kansas City Royals
+      ref: 
+- number: BA-23
+  uuid: d25277d6-0ced-41a9-8fb9-0531c4392645
+  subjects:
+  - entities:
+    - role: player
+      name: Mike Trout
+      ref: 
+    - role: team
+      name: Los Angeles Angels
+      ref: 
+- number: BA-24
+  uuid: 20e207ea-d93d-4b73-92a9-8b67c9e25b95
+  subjects:
+  - entities:
+    - role: player
+      name: Paul Skenes
+      ref: 
+    - role: team
+      name: USA
+      ref: 
+- number: BA-25
+  uuid: dbb887dd-29e8-4109-ad2b-648e71932565
+  subjects:
+  - entities:
+    - role: player
+      name: Samuel Basallo
+      ref: 
+    - role: team
+      name: Baltimore Orioles
+      ref: 
+- number: BA-26
+  uuid: a729df88-7704-4325-9580-c087e51eb917
+  subjects:
+  - entities:
+    - role: player
+      name: Shohei Ohtani
+      ref: 
+    - role: team
+      name: Japan
+      ref: 
+- number: BA-27
+  uuid: 525200a9-758f-4e7f-b66d-7ac210ecda38
+  subjects:
+  - entities:
+    - role: player
+      name: Jac Caglianone
+      ref: 
+    - role: team
+      name: Kansas City Royals
+      ref: 
+- number: BA-28
+  uuid: e1c5ce92-9983-45cf-a824-e5243437614b
+  subjects:
+  - entities:
+    - role: player
+      name: Joey Votto
+      ref: 
+    - role: team
+      name: Cincinnati Reds
+      ref: 
+- number: BA-29
+  uuid: 6536fd93-864d-48e4-bf99-462945a1d158
+  subjects:
+  - entities:
+    - role: player
+      name: Rickey Henderson
+      ref: 
+    - role: team
+      name: Oakland Athletics
+      ref: 

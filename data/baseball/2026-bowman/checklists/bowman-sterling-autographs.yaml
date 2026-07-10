@@ -1,0 +1,100 @@
+- number: BSA-1
+  uuid: 4802b6db-11f2-4d40-86d3-f56a113999f2
+  subjects:
+  - entities:
+    - role: player
+      name: Max Clark
+      ref: 
+    - role: team
+      name: Detroit Tigers
+      ref: 
+- number: BSA-2
+  uuid: a791102a-767b-49ae-99af-258df8a28f88
+  subjects:
+  - entities:
+    - role: player
+      name: Julio Rodríguez
+      ref: 
+    - role: team
+      name: Seattle Mariners
+      ref: 
+- number: BSA-3
+  uuid: b4b67b4c-26c1-4847-9077-159000f296a1
+  subjects:
+  - entities:
+    - role: player
+      name: Konnor Griffin
+      ref: 
+    - role: team
+      name: Pittsburgh Pirates
+      ref: 
+- number: BSA-4
+  uuid: e9e1e9df-171d-4db3-bca8-3d17852cc578
+  subjects:
+  - entities:
+    - role: player
+      name: Freddie Freeman
+      ref: 
+    - role: team
+      name: Los Angeles Dodgers
+      ref: 
+- number: BSA-5
+  uuid: 9de6dfa4-fd92-476c-a62a-7a48fb5cdec9
+  subjects:
+  - entities:
+    - role: player
+      name: Leo De Vries
+      ref: 
+    - role: team
+      name: Athletics
+      ref: 
+- number: BSA-6
+  uuid: 211bf2b0-c240-4589-9596-7a2a89988b97
+  subjects:
+  - entities:
+    - role: player
+      name: Ethan Holliday
+      ref: 
+    - role: team
+      name: Colorado Rockies
+      ref: 
+- number: BSA-7
+  uuid: 036fa729-3f72-486d-bec7-0718ae6f283f
+  subjects:
+  - entities:
+    - role: player
+      name: Chase Burns
+      ref: 
+    - role: team
+      name: Cincinnati Reds
+      ref: 
+- number: BSA-8
+  uuid: fbd763a0-ca69-4af6-8c2a-aac58be069f1
+  subjects:
+  - entities:
+    - role: player
+      name: Jac Caglianone
+      ref: 
+    - role: team
+      name: Kansas City Royals
+      ref: 
+- number: BSA-9
+  uuid: 49092cce-5441-4402-893a-867b7280511d
+  subjects:
+  - entities:
+    - role: player
+      name: Roman Anthony
+      ref: 
+    - role: team
+      name: Boston Red Sox
+      ref: 
+- number: BSA-10
+  uuid: 868a84f1-3d4c-415b-a0e4-9dd27f3d2c1a
+  subjects:
+  - entities:
+    - role: player
+      name: Jacob Misiorowski
+      ref: 
+    - role: team
+      name: Milwaukee Brewers
+      ref: 

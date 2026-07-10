@@ -1,0 +1,150 @@
+- number: BST-1
+  uuid: eecc0386-11e8-4ebb-a71b-0c14852a59c1
+  subjects:
+  - entities:
+    - role: player
+      name: Jackson Chourio
+      ref: 
+    - role: team
+      name: Milwaukee Brewers
+      ref: 
+- number: BST-2
+  uuid: b72acb27-5676-4519-b449-3a54cc7ccb06
+  subjects:
+  - entities:
+    - role: player
+      name: Freddie Freeman
+      ref: 
+    - role: team
+      name: Los Angeles Dodgers
+      ref: 
+- number: BST-3
+  uuid: 6e96702c-57c9-4caf-a5bf-370b9aa50bd7
+  subjects:
+  - entities:
+    - role: player
+      name: Julio Rodríguez
+      ref: 
+    - role: team
+      name: Seattle Mariners
+      ref: 
+- number: BST-4
+  uuid: 34e29fb8-1791-47b6-9e72-25a90d4a506e
+  subjects:
+  - entities:
+    - role: player
+      name: Aaron Judge
+      ref: 
+    - role: team
+      name: New York Yankees
+      ref: 
+- number: BST-5
+  uuid: 6096f9e8-9bb3-4a0b-911f-e6b03c5eaa33
+  subjects:
+  - entities:
+    - role: player
+      name: Max Clark
+      ref: 
+    - role: team
+      name: Detroit Tigers
+      ref: 
+- number: BST-6
+  uuid: 8e44f895-0fc7-4fb2-9dd8-9646ec753292
+  subjects:
+  - entities:
+    - role: player
+      name: Shohei Ohtani
+      ref: 
+    - role: team
+      name: Los Angeles Dodgers
+      ref: 
+- number: BST-7
+  uuid: b8420a4d-f878-452a-aaef-8d04e56f2952
+  subjects:
+  - entities:
+    - role: player
+      name: Konnor Griffin
+      ref: 
+    - role: team
+      name: Pittsburgh Pirates
+      ref: 
+- number: BST-8
+  uuid: 267c020d-7cff-40b1-b5a9-a27e1adf8543
+  subjects:
+  - entities:
+    - role: player
+      name: Nolan McLean
+      ref: 
+    - role: team
+      name: New York Mets
+      ref: 
+- number: BST-9
+  uuid: d15034fd-3614-4a64-b64b-7c8b7d706a47
+  subjects:
+  - entities:
+    - role: player
+      name: Leo De Vries
+      ref: 
+    - role: team
+      name: Athletics
+      ref: 
+- number: BST-10
+  uuid: 4de23ad8-1288-4f7d-8686-07250649a419
+  subjects:
+  - entities:
+    - role: player
+      name: Chase Burns
+      ref: 
+    - role: team
+      name: Cincinnati Reds
+      ref: 
+- number: BST-11
+  uuid: 04cfabcd-e0df-4a59-8712-65fad2116f1e
+  subjects:
+  - entities:
+    - role: player
+      name: Ethan Holliday
+      ref: 
+    - role: team
+      name: Colorado Rockies
+      ref: 
+- number: BST-12
+  uuid: dac5460e-19a1-4b6f-b2b0-2c316c52ae86
+  subjects:
+  - entities:
+    - role: player
+      name: Roman Anthony
+      ref: 
+    - role: team
+      name: Boston Red Sox
+      ref: 
+- number: BST-13
+  uuid: 2d7ade89-73a0-48e5-a494-ec242fc75605
+  subjects:
+  - entities:
+    - role: player
+      name: Jacob Misiorowski
+      ref: 
+    - role: team
+      name: Milwaukee Brewers
+      ref: 
+- number: BST-14
+  uuid: '068435f7-6ab7-4f2a-ac5c-8165aa52cc63'
+  subjects:
+  - entities:
+    - role: player
+      name: Jac Caglianone
+      ref: 
+    - role: team
+      name: Kansas City Royals
+      ref: 
+- number: BST-15
+  uuid: 620b8cbe-c104-40db-a5b0-ab59db0bced4
+  subjects:
+  - entities:
+    - role: player
+      name: Carson Williams
+      ref: 
+    - role: team
+      name: Tampa Bay Rays
+      ref: 
