@@ -1,5 +1,5 @@
 $schema_version: "0.1"
-description: "Manifest schema for the Open Checklist Project — the compact generating structure. A product (set.yaml) holds ONE OR MORE base sets; a base set and a subset are the same recursive node (own checklist + parallels + sections + child subsets), differing only in role: base sets are the roots and carry no `type`; subsets are nested and carry a `type`. The per-card explosion is derived from this + checklists/, never committed."
+description: "Manifest schema for the Open Checklist Project — the compact generating structure. A product (set.yaml) holds ONE OR MORE base sets, plus optional product-level subsets (inserts not tied to a base set). A base set and a subset are the same recursive node (own checklist + parallels + sections + child subsets), differing only in role: base sets are roots with no `type`; subsets carry a `type` and nest under a base set, another subset, or the product. The per-card explosion is derived from this + checklists/, never committed."
 title: Manifest
 type: object
 required:
@@ -19,6 +19,18 @@ properties:
       has no `type` and is never nested. Each is a recursive node (see $defs/baseSet).
     items:
       $ref: "#/$defs/baseSet"
+  subsets:
+    type: array
+    minItems: 1
+    description: >
+      Optional PRODUCT-LEVEL subsets — inserts (and their own nested subsets) that
+      belong to the product but not to any single base set (e.g. an insert set like
+      "Anime" or "Patchwork"). Same recursive node shape as a base-set's child subsets;
+      each carries a `type`. A subset that IS tied to one base set (a variation/auto of
+      it) nests under that base set instead; a subset tied to an insert nests under that
+      insert. Only genuinely product-wide inserts live here.
+    items:
+      $ref: "#/$defs/subset"
 
 $defs:
 

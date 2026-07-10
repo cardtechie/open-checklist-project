@@ -30,10 +30,13 @@ data/<genre>/<set-id>/
 
 - **set.yaml** — descriptive **product / umbrella** metadata. No parallels, no card
   counts (derived). Its `uuid` is the product's; each base set has its own.
-- **manifest.yaml** — `base_sets[]` (**one or more** roots) plus, under each, recursive
-  `subsets[]`. A base set and a subset are the **same node shape** — own checklist,
-  `parallels`, optional `sections`, and child `subsets` — differing only in that a base
-  set has no `type` and a subset carries one (`insert`/`autograph`/…). `sections` is a
+- **manifest.yaml** — `base_sets[]` (**one or more** roots) plus an optional
+  product-level `subsets[]` (inserts not tied to a base set, e.g. "Anime"), and under
+  each node a recursive `subsets[]`. A base set and a subset are the **same node shape**
+  — own checklist, `parallels`, optional `sections`, and child `subsets` — differing only
+  in that a base set has no `type` and a subset carries one (`insert`/`autograph`/…). A
+  subset nests wherever it belongs: under a base set (its variations/autos), under another
+  subset (an insert's autos), or at the product level (a standalone insert). `sections` is a
   singular editorial partition of a node's checklist (e.g. Veterans / Rookies), declared
   as a `range` or explicit `numbers` and derived onto rows at consume time; a parallel
   can target one via `applies_to.sections`.
