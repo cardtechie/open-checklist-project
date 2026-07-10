@@ -47,9 +47,21 @@ def _path_key(err):
 class Report:
     def __init__(self):
         self.errors = []
+        self.anchor_uuids = {}  # uuid -> label, unique across the WHOLE run (IDENTITY.md #3)
 
     def err(self, where, msg):
         self.errors.append(f"{where}: {msg}")
+
+    def claim_uuid(self, where, uuid, label):
+        """Record a committed anchor uuid, reporting a duplicate against any set seen
+        so far in this run (uniqueness is global, not per-set). Missing/non-string
+        uuids are reported by schema validation, so they're skipped here."""
+        if not isinstance(uuid, str) or not uuid:
+            return
+        if uuid in self.anchor_uuids:
+            self.err(where, f"duplicate uuid {uuid}: {label} and {self.anchor_uuids[uuid]}")
+        else:
+            self.anchor_uuids[uuid] = label
 
     def load_yaml(self, path, where):
         """Load YAML, recording parse/read errors instead of raising. Returns the
@@ -169,19 +181,8 @@ def validate_v03(set_dir, schemas, rep):
     if manifest.get("set_id") != set_dir.name:
         rep.err(where, f"set_id {manifest.get('set_id')} != directory {set_dir.name}")
 
-    anchor_uuids = {}  # uuid -> "label", for global uniqueness
-
-    def claim(uuid, label):
-        # Missing / non-string uuids are reported by schema validation; skip them here
-        # so we don't emit noisy "duplicate uuid None" errors.
-        if not isinstance(uuid, str) or not uuid:
-            return
-        if uuid in anchor_uuids:
-            rep.err(where, f"duplicate uuid {uuid}: {label} and {anchor_uuids[uuid]}")
-        else:
-            anchor_uuids[uuid] = label
-
-    claim(set_yaml.get("uuid"), "product")
+    sid = manifest.get("set_id") or set_dir.name  # for labelling cross-set duplicates
+    rep.claim_uuid(where, set_yaml.get("uuid"), f"{sid} product")
 
     node_ids = {}
     checklist_dir = set_dir / "checklists"
@@ -194,7 +195,7 @@ def validate_v03(set_dir, schemas, rep):
             if nid in node_ids:
                 rep.err(where, f"duplicate node id: {nid}")
             node_ids[nid] = node
-        claim(node.get("uuid"), label)
+        rep.claim_uuid(where, node.get("uuid"), f"{sid} {label}")
 
         # base-vs-subset type rule (schema also checks, but be explicit)
         if is_base and "type" in node:
@@ -224,12 +225,15 @@ def validate_v03(set_dir, schemas, rep):
             continue
         rows = [r for r in rows if isinstance(r, dict)]
 
-        numbers = [str(r.get("number")) for r in rows]
+        # Rows without a usable `number` are reported by schema validation; exclude
+        # them from invariant checks so a missing number doesn't become the string
+        # "None" and cascade into spurious dup/section errors.
+        numbers = [str(r.get("number")) for r in rows if r.get("number") is not None]
         ndupes = find_dupes(numbers)
         if ndupes:
             rep.err(where, f"{nid}: duplicate card numbers within node {sorted(ndupes)[:5]}")
         for r in rows:
-            claim(r.get("uuid"), f"{nid} row {r.get('number')}")
+            rep.claim_uuid(where, r.get("uuid"), f"{sid} {nid} row {r.get('number')}")
 
         # declared_card_count sanity
         dcc = node.get("declared_card_count")
