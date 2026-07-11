@@ -65,9 +65,10 @@ docker build -t open-checklist-validator .
 docker run open-checklist-validator
 ```
 
-`tools/validate.py` discovers every set under `data/` and validates each against the
-manifest-form schemas (via the `schema.yaml` pointer symlinks), then enforces the
-cross-file invariants from `IDENTITY.md` that JSON Schema alone can't express:
+`tools/validate.py` discovers every set under `data/`. A **manifest-form** set
+(has `manifest.yaml`) is validated against the manifest-form schemas (via the
+`schema.yaml` pointer symlinks) and then checked for the cross-file invariants from
+`IDENTITY.md` that JSON Schema alone can't express:
 
 1. `set.yaml`, `manifest.yaml`, and every `checklists/*.yaml` are schema-valid.
 2. Product / base-set / subset / row UUIDs are globally unique across the run; node ids
@@ -78,7 +79,10 @@ cross-file invariants from `IDENTITY.md` that JSON Schema alone can't express:
 6. `applies_to` (`numbers` / `except` / `sections`) references resolve to existing rows /
    sections; `set_id` agrees across `set.yaml`, `manifest.yaml`, and the directory name.
 
-A set directory without a `manifest.yaml` is an error — the manifest form is required.
+New data must use the manifest form. The validator still accepts the earlier exploded
+`cards/` format for not-yet-migrated sets, but that format is **deprecated** and being
+retired (the `card` schema and the validator's exploded path are slated for removal —
+see [#33](https://github.com/cardtechie/open-checklist-project/issues/33)).
 
 ## GitHub Integration
 
