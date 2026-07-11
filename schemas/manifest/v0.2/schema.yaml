@@ -83,7 +83,9 @@ $defs:
     additionalProperties: false
     description: >
       A non-base checklist unit — the same shape as a base set, PLUS `type`, nested under
-      a base set or another subset. A subset can itself contain subsets and/or parallels.
+      a base set, another subset, or the product directly (top-level `subsets[]`, e.g. a
+      product-level insert or a base-less product). A subset can itself contain subsets
+      and/or parallels.
     properties:
       id:
         type: string

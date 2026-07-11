@@ -65,9 +65,9 @@ schemas/
 │   ├── CHANGELOG.md
 │   └── v0.1/ · v0.2/ · v0.3/   # version-specific schema.yaml + README.md
 ├── manifest/
-│   ├── schema.yaml      # symlink -> v0.1/schema.yaml
+│   ├── schema.yaml      # symlink -> v0.2/schema.yaml (current)
 │   ├── README.md · CHANGELOG.md
-│   └── v0.1/
+│   └── v0.1/ · v0.2/
 ├── checklist/
 │   ├── schema.yaml      # symlink -> v0.1/schema.yaml
 │   ├── README.md · CHANGELOG.md
