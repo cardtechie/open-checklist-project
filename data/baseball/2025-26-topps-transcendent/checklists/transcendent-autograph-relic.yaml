@@ -1,0 +1,510 @@
+- number: TCAR-AJ
+  uuid: 411a82f8-51a4-440d-8cdd-fa2a515a4a8d
+  subjects:
+  - entities:
+    - role: player
+      name: Aaron Judge
+      ref: 
+    - role: team
+      name: New York Yankees
+      ref: 
+- number: TCAR-AP
+  uuid: f6ef815c-43ed-4691-9c9f-1dee0ab94a59
+  subjects:
+  - entities:
+    - role: player
+      name: Albert Pujols
+      ref: 
+    - role: team
+      name: Angels
+      ref: 
+- number: TCAR-BAG
+  uuid: 371a0449-4688-40fb-9c8f-47091f45e3c1
+  subjects:
+  - entities:
+    - role: player
+      name: Jeff Bagwell
+      ref: 
+    - role: team
+      name: Houston Astros
+      ref: 
+- number: TCAR-BB
+  uuid: 514d8dda-4098-40a6-ab0a-ca6ad32ac295
+  subjects:
+  - entities:
+    - role: player
+      name: Barry Bonds
+      ref: 
+    - role: team
+      name: San Francisco Giants
+      ref: 
+- number: TCAR-BJ
+  uuid: f71d7732-7358-4ce2-98a4-91e679e90d73
+  subjects:
+  - entities:
+    - role: player
+      name: Bo Jackson
+      ref: 
+    - role: team
+      name: Chicago White Sox
+      ref: 
+- number: TCAR-BL
+  uuid: bd16e0ca-fa67-46d5-a21b-95deb0d79b5f
+  subjects:
+  - entities:
+    - role: player
+      name: Brooks Lee
+      ref: 
+    - role: team
+      name: Minnesota Twins
+      ref: 
+- number: TCAR-BR
+  uuid: a95b809a-3387-415e-9da4-049301c5ea66
+  subjects:
+  - entities:
+    - role: player
+      name: Ben Rice
+      ref: 
+    - role: team
+      name: New York Yankees
+      ref: 
+- number: TCAR-CCS
+  uuid: a16ac637-d79a-4b43-9f80-a5934d9791b0
+  subjects:
+  - entities:
+    - role: player
+      name: CC Sabathia
+      ref: 
+    - role: team
+      name: New York Yankees
+      ref: 
+- number: TCAR-CK
+  uuid: 68d8a228-e1fc-4e0b-8d72-158c650b1dc6
+  subjects:
+  - entities:
+    - role: player
+      name: Clayton Kershaw
+      ref: 
+    - role: team
+      name: Los Angeles Dodgers
+      ref: 
+- number: TCAR-CM
+  uuid: b35266b4-b818-429b-a8e6-5059bfd32ab5
+  subjects:
+  - entities:
+    - role: player
+      name: Coby Mayo
+      ref: 
+    - role: team
+      name: Baltimore Orioles
+      ref: 
+- number: TCAR-CS
+  uuid: 75cdad69-6ba2-4fa0-9d8c-bc3778139e75
+  subjects:
+  - entities:
+    - role: player
+      name: Corey Seager
+      ref: 
+    - role: team
+      name: Texas Rangers
+      ref: 
+- number: TCAR-DC
+  uuid: d6967614-f6c4-41a1-ae44-02629f4adc35
+  subjects:
+  - entities:
+    - role: player
+      name: Dylan Crews
+      ref: 
+    - role: team
+      name: Washington Nationals
+      ref: 
+- number: TCAR-DJ
+  uuid: a0b9ef7f-57b1-4801-92fe-242e3e01a9ed
+  subjects:
+  - entities:
+    - role: player
+      name: Derek Jeter
+      ref: 
+    - role: team
+      name: New York Yankees
+      ref: 
+- number: TCAR-DO
+  uuid: 4aafe9d7-d4cc-4a0d-bdac-223007aa4856
+  subjects:
+  - entities:
+    - role: player
+      name: David Ortiz
+      ref: 
+    - role: team
+      name: Boston Red Sox
+      ref: 
+- number: TCAR-EM
+  uuid: 80a16d07-5c00-4662-8339-346dc202adab
+  subjects:
+  - entities:
+    - role: player
+      name: Eddie Murray
+      ref: 
+    - role: team
+      name: New York Mets
+      ref: 
+- number: TCAR-FL
+  uuid: 1e826de0-6f13-4e63-8db8-0ba487411402
+  subjects:
+  - entities:
+    - role: player
+      name: Francisco Lindor
+      ref: 
+    - role: team
+      name: New York Mets
+      ref: 
+- number: TCAR-FT
+  uuid: 4688ce7b-3645-44a8-8ada-6f4e56d321e3
+  subjects:
+  - entities:
+    - role: player
+      name: Frank Thomas
+      ref: 
+    - role: team
+      name: Chicago White Sox
+      ref: 
+- number: TCAR-FTJ
+  uuid: 205e1822-c93e-4fe1-991e-89f60b705ba6
+  subjects:
+  - entities:
+    - role: player
+      name: Fernando Tatis Jr.
+      ref: 
+    - role: team
+      name: San Diego Padres
+      ref: 
+- number: TCAR-GH
+  uuid: 5f60215c-3f0d-4fe4-9c9e-60a22da061d4
+  subjects:
+  - entities:
+    - role: player
+      name: Gunnar Henderson
+      ref: 
+    - role: team
+      name: Baltimore Orioles
+      ref: 
+- number: TCAR-IR
+  uuid: a325fb80-efaf-415b-8973-9df4e843bbe0
+  subjects:
+  - entities:
+    - role: player
+      name: Ivan Rodriguez
+      ref: 
+    - role: team
+      name: Detroit Tigers
+      ref: 
+- number: TCAR-JB
+  uuid: d08ba1f2-377e-4877-a9c3-fc41c992128b
+  subjects:
+  - entities:
+    - role: player
+      name: Johnny Bench
+      ref: 
+    - role: team
+      name: Cincinnati Reds
+      ref: 
+- number: TCAR-JH
+  uuid: a26150ac-0cde-46ec-81f6-a61f7263feda
+  subjects:
+  - entities:
+    - role: player
+      name: Jackson Holliday
+      ref: 
+    - role: team
+      name: Baltimore Orioles
+      ref: 
+- number: TCAR-JJ
+  uuid: 03ce7ca0-2120-4733-8c84-788a929686bc
+  subjects:
+  - entities:
+    - role: player
+      name: Jackson Jobe
+      ref: 
+    - role: team
+      name: Detroit Tigers
+      ref: 
+- number: TCAR-JRA
+  uuid: 8a049641-916a-4480-ad26-8a2f35a7a851
+  subjects:
+  - entities:
+    - role: player
+      name: José Ramírez
+      ref: 
+    - role: team
+      name: Cleveland Guardians
+      ref: 
+- number: TCAR-JS
+  uuid: 484f50db-a7ec-4e5d-8456-95725adc261e
+  subjects:
+  - entities:
+    - role: player
+      name: Juan Soto
+      ref: 
+    - role: team
+      name: New York Mets
+      ref: 
+- number: TCAR-JSA
+  uuid: b263ede9-d576-42ed-ab38-8cf2957e7493
+  subjects:
+  - entities:
+    - role: player
+      name: Johan Santana
+      ref: 
+    - role: team
+      name: Minnesota Twins
+      ref: 
+- number: TCAR-JV
+  uuid: 65dc912e-d2db-4442-a713-68c8140c9c44
+  subjects:
+  - entities:
+    - role: player
+      name: Joey Votto
+      ref: 
+    - role: team
+      name: Cincinnati Reds
+      ref: 
+- number: TCAR-JW
+  uuid: 78c0aea5-0546-430c-9659-677af24f55a1
+  subjects:
+  - entities:
+    - role: player
+      name: James Wood
+      ref: 
+    - role: team
+      name: Washington Nationals
+      ref: 
+- number: TCAR-JWI
+  uuid: dea84f89-1639-4df7-90cb-b25f76777bdb
+  subjects:
+  - entities:
+    - role: player
+      name: Jacob Wilson
+      ref: 
+    - role: team
+      name: Athletics
+      ref: 
+- number: TCAR-KA
+  uuid: 5b40ca66-945f-4fa4-99de-103091a78203
+  subjects:
+  - entities:
+    - role: player
+      name: Kevin Alcántara
+      ref: 
+    - role: team
+      name: Chicago Cubs
+      ref: 
+- number: TCAR-KC
+  uuid: 3e88855a-a73b-4925-9a70-b14828709baa
+  subjects:
+  - entities:
+    - role: player
+      name: Kristian Campbell
+      ref: 
+    - role: team
+      name: Boston Red Sox
+      ref: 
+- number: TCAR-KG
+  uuid: 33f6a42a-2209-469d-b287-62529c79951b
+  subjects:
+  - entities:
+    - role: player
+      name: Ken Griffey Jr.
+      ref: 
+    - role: team
+      name: Cincinnati Reds
+      ref: 
+- number: TCAR-KT
+  uuid: 000a3402-2759-446e-9f11-d7ab1f5a750d
+  subjects:
+  - entities:
+    - role: player
+      name: Kyle Tucker
+      ref: 
+    - role: team
+      name: Chicago Cubs
+      ref: 
+- number: TCAR-LAC
+  uuid: b023ab3c-57f0-4e11-9a24-2f27bc7af1ae
+  subjects:
+  - entities:
+    - role: player
+      name: Luisangel Acuña
+      ref: 
+    - role: team
+      name: New York Mets
+      ref: 
+- number: TCAR-MM
+  uuid: d372be26-76cb-41f5-8a54-a18e809bf45d
+  subjects:
+  - entities:
+    - role: player
+      name: Marcelo Mayer
+      ref: 
+    - role: team
+      name: Boston Red Sox
+      ref: 
+- number: TCAR-MP
+  uuid: d71470fb-cab8-4d66-86a2-b00b1545c855
+  subjects:
+  - entities:
+    - role: player
+      name: Mike Piazza
+      ref: 
+    - role: team
+      name: Los Angeles Dodgers
+      ref: 
+- number: TCAR-MR
+  uuid: e1354068-ebe0-4ea3-987c-13b95d85528c
+  subjects:
+  - entities:
+    - role: player
+      name: Mariano Rivera
+      ref: 
+    - role: team
+      name: New York Yankees
+      ref: 
+- number: TCAR-MT
+  uuid: b5245625-daee-4c49-b5d9-13460b6bc105
+  subjects:
+  - entities:
+    - role: player
+      name: Mike Trout
+      ref: 
+    - role: team
+      name: Angels
+      ref: 
+- number: TCAR-NA
+  uuid: b4cefe73-7510-498b-beb3-933b229673a6
+  subjects:
+  - entities:
+    - role: player
+      name: Nolan Arenado
+      ref: 
+    - role: team
+      name: St. Louis Cardinals
+      ref: 
+- number: TCAR-NK
+  uuid: 2c9bc182-7986-413b-a83f-d6aed1570ed3
+  subjects:
+  - entities:
+    - role: player
+      name: Nick Kurtz
+      ref: 
+    - role: team
+      name: Athletics
+      ref: 
+- number: TCAR-OH
+  uuid: 3b8c5bda-49e8-4398-bd33-b39b5ce9e274
+  subjects:
+  - entities:
+    - role: player
+      name: Orel Hershiser
+      ref: 
+    - role: team
+      name: Los Angeles Dodgers
+      ref: 
+- number: TCAR-PA
+  uuid: 5758a22c-4707-432e-befb-ca6d9ab1566e
+  subjects:
+  - entities:
+    - role: player
+      name: Pete Alonso
+      ref: 
+    - role: team
+      name: New York Mets
+      ref: 
+- number: TCAR-PS
+  uuid: 5759b39d-d077-4db9-a940-0446eca491d9
+  subjects:
+  - entities:
+    - role: player
+      name: Paul Skenes
+      ref: 
+    - role: team
+      name: Pittsburgh Pirates
+      ref: 
+- number: TCAR-RAJ
+  uuid: f8550c47-6716-49d7-9ee7-191f4b2b4145
+  subjects:
+  - entities:
+    - role: player
+      name: Ronald Acuña Jr.
+      ref: 
+    - role: team
+      name: Atlanta Braves
+      ref: 
+- number: TCAR-RC
+  uuid: c10136df-bdbd-4988-b598-80ce91175308
+  subjects:
+  - entities:
+    - role: player
+      name: Roger Clemens
+      ref: 
+    - role: team
+      name: New York Yankees
+      ref: 
+- number: TCAR-RJ
+  uuid: baa41998-f03b-4aff-a0fd-49d60bcf0e10
+  subjects:
+  - entities:
+    - role: player
+      name: Randy Johnson
+      ref: 
+    - role: team
+      name: New York Yankees
+      ref: 
+- number: TCAR-RS
+  uuid: 82cc0708-9029-4f4e-bb2d-855a5bd879dc
+  subjects:
+  - entities:
+    - role: player
+      name: Roki Sasaki
+      ref: 
+    - role: team
+      name: Los Angeles Dodgers
+      ref: 
+- number: TCAR-SO
+  uuid: 9894aa27-b53c-49a9-b28d-7b3c90d4c750
+  subjects:
+  - entities:
+    - role: player
+      name: Shohei Ohtani
+      ref: 
+    - role: team
+      name: Los Angeles Dodgers
+      ref: 
+- number: TCAR-SS
+  uuid: e3baf28a-76db-4267-bd5d-4c7a1122f04e
+  subjects:
+  - entities:
+    - role: player
+      name: Sammy Sosa
+      ref: 
+    - role: team
+      name: Chicago Cubs
+      ref: 
+- number: TCAR-TT
+  uuid: 3a7a2ba3-b2ae-4645-bb55-f7b7ca139a7c
+  subjects:
+  - entities:
+    - role: player
+      name: Trea Turner
+      ref: 
+    - role: team
+      name: Philadelphia Phillies
+      ref: 
+- number: TCAR-YY
+  uuid: 93401bd9-de89-4359-9d75-b0bc26cf7bbf
+  subjects:
+  - entities:
+    - role: player
+      name: Yoshinobu Yamamoto
+      ref: 
+    - role: team
+      name: Los Angeles Dodgers
+      ref: 

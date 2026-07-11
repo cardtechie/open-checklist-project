@@ -1,0 +1,780 @@
+- number: TCP-AJ
+  uuid: 03225f0e-15d7-445c-80a5-1a2073a6c1c8
+  subjects:
+  - entities:
+    - role: player
+      name: Aaron Judge
+      ref: 
+    - role: team
+      name: New York Yankees
+      ref: 
+- number: TCP-AM
+  uuid: b33fc061-1e1b-40cb-ba66-a87a527fc29f
+  subjects:
+  - entities:
+    - role: player
+      name: Andrew McCutchen
+      ref: 
+    - role: team
+      name: Pittsburgh Pirates
+      ref: 
+- number: TCP-AN
+  uuid: 3e067b56-0652-4320-b6ac-bce5ca93f159
+  subjects:
+  - entities:
+    - role: player
+      name: Aaron Nola
+      ref: 
+    - role: team
+      name: Philadelphia Phillies
+      ref: 
+- number: TCP-ARA
+  uuid: c1e36fe9-657b-4969-b5c7-6bf79627155f
+  subjects:
+  - entities:
+    - role: player
+      name: Agustín Ramírez
+      ref: 
+    - role: team
+      name: Miami Marlins
+      ref: 
+- number: TCP-ARI
+  uuid: 721cdccd-9f5a-4364-a85c-0215b20d2eb1
+  subjects:
+  - entities:
+    - role: player
+      name: Austin Riley
+      ref: 
+    - role: team
+      name: Atlanta Braves
+      ref: 
+- number: TCP-ARU
+  uuid: 6367f914-928a-4674-b1c2-8343776687de
+  subjects:
+  - entities:
+    - role: player
+      name: Adley Rutschman
+      ref: 
+    - role: team
+      name: Baltimore Orioles
+      ref: 
+- number: TCP-AV
+  uuid: 7479566b-9971-4650-ba41-16fcbe67b64f
+  subjects:
+  - entities:
+    - role: player
+      name: Anthony Volpe
+      ref: 
+    - role: team
+      name: New York Yankees
+      ref: 
+- number: TCP-BB
+  uuid: 90e044c2-d7d0-4cbc-918e-eaa7628353ab
+  subjects:
+  - entities:
+    - role: player
+      name: Bo Bichette
+      ref: 
+    - role: team
+      name: Toronto Blue Jays
+      ref: 
+- number: TCP-BBU
+  uuid: ea99cba4-6acf-44fc-a982-7bd5e774adfd
+  subjects:
+  - entities:
+    - role: player
+      name: Byron Buxton
+      ref: 
+    - role: team
+      name: Minnesota Twins
+      ref: 
+- number: TCP-BH
+  uuid: f7c4e281-517c-4dfc-b92d-3824863bb194
+  subjects:
+  - entities:
+    - role: player
+      name: Bryce Harper
+      ref: 
+    - role: team
+      name: Philadelphia Phillies
+      ref: 
+- number: TCP-BL
+  uuid: 3639186d-62f0-40a9-915c-8b503fa26690
+  subjects:
+  - entities:
+    - role: player
+      name: Brooks Lee
+      ref: 
+    - role: team
+      name: Minnesota Twins
+      ref: 
+- number: TCP-BRE
+  uuid: f7762a33-1f77-4679-a184-9225542becb1
+  subjects:
+  - entities:
+    - role: player
+      name: Ben Rice
+      ref: 
+    - role: team
+      name: New York Yankees
+      ref: 
+- number: TCP-BW
+  uuid: 84d1da92-929b-49ba-b4d6-38275d7c7dc3
+  subjects:
+  - entities:
+    - role: player
+      name: Bobby Witt Jr.
+      ref: 
+    - role: team
+      name: Kansas City Royals
+      ref: 
+- number: TCP-CA
+  uuid: 59c8b39b-ef74-476b-98cd-2bca8a5c8808
+  subjects:
+  - entities:
+    - role: player
+      name: CJ Abrams
+      ref: 
+    - role: team
+      name: Washington Nationals
+      ref: 
+- number: TCP-CC
+  uuid: 704c2c05-1fa2-4ff7-a755-9e85658b4958
+  subjects:
+  - entities:
+    - role: player
+      name: Corbin Carroll
+      ref: 
+    - role: team
+      name: Arizona Diamondbacks
+      ref: 
+- number: TCP-CCO
+  uuid: e302c36d-1ae3-4df7-bdd7-46c8784f9069
+  subjects:
+  - entities:
+    - role: player
+      name: Carlos Correa
+      ref: 
+    - role: team
+      name: Houston Astros
+      ref: 
+- number: TCP-CD
+  uuid: db29302f-73b7-4c7b-bec7-023192f5e621
+  subjects:
+  - entities:
+    - role: player
+      name: Chase Dollander
+      ref: 
+    - role: team
+      name: Colorado Rockies
+      ref: 
+- number: TCP-CM
+  uuid: 3a148fa5-673e-4961-b7f6-313aa24332fa
+  subjects:
+  - entities:
+    - role: player
+      name: Coby Mayo
+      ref: 
+    - role: team
+      name: Baltimore Orioles
+      ref: 
+- number: TCP-CR
+  uuid: df640436-33b1-4892-b7c0-4a8fddc913f5
+  subjects:
+  - entities:
+    - role: player
+      name: Cal Raleigh
+      ref: 
+    - role: team
+      name: Seattle Mariners
+      ref: 
+- number: TCP-CSA
+  uuid: 89580f8a-74dc-462b-a365-1aba55213105
+  subjects:
+  - entities:
+    - role: player
+      name: Chris Sale
+      ref: 
+    - role: team
+      name: Atlanta Braves
+      ref: 
+- number: TCP-CSI
+  uuid: 52db8ed0-98c9-40d0-aba6-d121603d48b0
+  subjects:
+  - entities:
+    - role: player
+      name: Chandler Simpson
+      ref: 
+    - role: team
+      name: Tampa Bay Rays
+      ref: 
+- number: TCP-CSM
+  uuid: cab1368d-d425-41d2-b254-072e162ff33c
+  subjects:
+  - entities:
+    - role: player
+      name: Cam Smith
+      ref: 
+    - role: team
+      name: Houston Astros
+      ref: 
+- number: TCP-CY
+  uuid: fbb84ad8-6d05-4d95-a45a-3ad9358b0eae
+  subjects:
+  - entities:
+    - role: player
+      name: Christian Yelich
+      ref: 
+    - role: team
+      name: Milwaukee Brewers
+      ref: 
+- number: TCP-DB
+  uuid: 2bc9b7e1-1725-45b0-a520-7dac89277296
+  subjects:
+  - entities:
+    - role: player
+      name: Drake Baldwin
+      ref: 
+    - role: team
+      name: Atlanta Braves
+      ref: 
+- number: TCP-DC
+  uuid: 1cfd02b9-93a6-46b3-b232-7a411d4c37ae
+  subjects:
+  - entities:
+    - role: player
+      name: Dylan Crews
+      ref: 
+    - role: team
+      name: Washington Nationals
+      ref: 
+- number: TCP-DS
+  uuid: 629e35fd-4b44-4e93-842d-9bade631a8fb
+  subjects:
+  - entities:
+    - role: player
+      name: Dansby Swanson
+      ref: 
+    - role: team
+      name: Chicago Cubs
+      ref: 
+- number: TCP-EQ
+  uuid: d15a91ab-15c3-423c-b1dc-f716d51f8785
+  subjects:
+  - entities:
+    - role: player
+      name: Edgar Quero
+      ref: 
+    - role: team
+      name: Chicago White Sox
+      ref: 
+- number: TCP-FL
+  uuid: bd8db6a5-5791-48d9-8bd8-e51495e317cd
+  subjects:
+  - entities:
+    - role: player
+      name: Francisco Lindor
+      ref: 
+    - role: team
+      name: New York Mets
+      ref: 
+- number: TCP-FT
+  uuid: 34ca1104-53e8-484c-b4f5-5580ca2f2266
+  subjects:
+  - entities:
+    - role: player
+      name: Fernando Tatis Jr.
+      ref: 
+    - role: team
+      name: San Diego Padres
+      ref: 
+- number: TCP-GC
+  uuid: 382181ae-fc49-434b-ae61-63ff01abacd5
+  subjects:
+  - entities:
+    - role: player
+      name: Gerrit Cole
+      ref: 
+    - role: team
+      name: New York Yankees
+      ref: 
+- number: TCP-GH
+  uuid: 0226061e-d093-487f-944d-ee473934dbbc
+  subjects:
+  - entities:
+    - role: player
+      name: Gunnar Henderson
+      ref: 
+    - role: team
+      name: Baltimore Orioles
+      ref: 
+- number: TCP-GS
+  uuid: 4ce8d1b9-5a71-4e2e-9457-eb5ea0195287
+  subjects:
+  - entities:
+    - role: player
+      name: Giancarlo Stanton
+      ref: 
+    - role: team
+      name: New York Yankees
+      ref: 
+- number: TCP-HG
+  uuid: 5a566d01-1857-41c9-8b68-bd90213924c4
+  subjects:
+  - entities:
+    - role: player
+      name: Hunter Greene
+      ref: 
+    - role: team
+      name: Cincinnati Reds
+      ref: 
+- number: TCP-I
+  uuid: 25d6cbc4-8614-4452-b2a5-1ffe240fd334
+  subjects:
+  - entities:
+    - role: player
+      name: Ichiro
+      ref: 
+    - role: team
+      name: Miami Marlins
+      ref: 
+- number: TCP-JAJ
+  uuid: a3285b56-a940-46fa-bc1f-8dba37826639
+  subjects:
+  - entities:
+    - role: player
+      name: Jace Jung
+      ref: 
+    - role: team
+      name: Detroit Tigers
+      ref: 
+- number: TCP-JB
+  uuid: abb55f70-aabf-43f4-801b-a929682b39cf
+  subjects:
+  - entities:
+    - role: player
+      name: Javier Báez
+      ref: 
+    - role: team
+      name: Detroit Tigers
+      ref: 
+- number: TCP-JCJ
+  uuid: ca0e08dd-07c9-407d-ad1f-38cd6c61c9e1
+  subjects:
+  - entities:
+    - role: player
+      name: Jazz Chisholm Jr.
+      ref: 
+    - role: team
+      name: New York Yankees
+      ref: 
+- number: TCP-JD
+  uuid: c732d217-fcc1-4a40-99cb-4e2725f354c3
+  subjects:
+  - entities:
+    - role: player
+      name: Jarren Duran
+      ref: 
+    - role: team
+      name: Boston Red Sox
+      ref: 
+- number: TCP-JH
+  uuid: bf40a277-68c9-487c-a0d5-81a8e6122533
+  subjects:
+  - entities:
+    - role: player
+      name: Jackson Holliday
+      ref: 
+    - role: team
+      name: Baltimore Orioles
+      ref: 
+- number: TCP-JJ
+  uuid: 3a75d99d-aea9-4473-b27f-e1bdb0c15828
+  subjects:
+  - entities:
+    - role: player
+      name: Josh Jung
+      ref: 
+    - role: team
+      name: Texas Rangers
+      ref: 
+- number: TCP-JM
+  uuid: 21eac6c3-9392-499d-ae05-77b2e7edbd7d
+  subjects:
+  - entities:
+    - role: player
+      name: Jackson Merrill
+      ref: 
+    - role: team
+      name: San Diego Padres
+      ref: 
+- number: TCP-JP
+  uuid: 80d11269-06bd-40bd-9d6e-8be4a20e003b
+  subjects:
+  - entities:
+    - role: player
+      name: Jeremy Peña
+      ref: 
+    - role: team
+      name: Houston Astros
+      ref: 
+- number: TCP-JR
+  uuid: 895def7c-29c5-4e0d-8a66-06dc810eee72
+  subjects:
+  - entities:
+    - role: player
+      name: José Ramírez
+      ref: 
+    - role: team
+      name: Cleveland Guardians
+      ref: 
+- number: TCP-JRE
+  uuid: 43d4fb97-d222-41d8-8836-107857f9dde0
+  subjects:
+  - entities:
+    - role: player
+      name: J.T. Realmuto
+      ref: 
+    - role: team
+      name: Philadelphia Phillies
+      ref: 
+- number: TCP-JRO
+  uuid: 9069a072-ba4a-49e2-a69e-3708cd35f227
+  subjects:
+  - entities:
+    - role: player
+      name: Julio Rodríguez
+      ref: 
+    - role: team
+      name: Seattle Mariners
+      ref: 
+- number: TCP-JS
+  uuid: ed234345-5ae2-4e7b-a22e-af1d5f39973f
+  subjects:
+  - entities:
+    - role: player
+      name: Juan Soto
+      ref: 
+    - role: team
+      name: New York Mets
+      ref: 
+- number: TCP-JW
+  uuid: 010ba7e8-6bec-444f-8bb7-a8a0cefac3d5
+  subjects:
+  - entities:
+    - role: player
+      name: James Wood
+      ref: 
+    - role: team
+      name: Washington Nationals
+      ref: 
+- number: TCP-JWI
+  uuid: 25faf32c-41af-4429-8f03-4247243c63d5
+  subjects:
+  - entities:
+    - role: player
+      name: Jacob Wilson
+      ref: 
+    - role: team
+      name: Athletics
+      ref: 
+- number: TCP-KB
+  uuid: 415c1a0c-5c38-46e0-9c3c-e018e5843c76
+  subjects:
+  - entities:
+    - role: player
+      name: Kris Bryant
+      ref: 
+    - role: team
+      name: Colorado Rockies
+      ref: 
+- number: TCP-KC
+  uuid: 845a01e1-50d3-4dcb-88f8-889db1978cd2
+  subjects:
+  - entities:
+    - role: player
+      name: Kristian Campbell
+      ref: 
+    - role: team
+      name: Boston Red Sox
+      ref: 
+- number: TCP-KM
+  uuid: 51031508-bde1-4aad-8422-2599f0a19a09
+  subjects:
+  - entities:
+    - role: player
+      name: Ketel Marte
+      ref: 
+    - role: team
+      name: Arizona Diamondbacks
+      ref: 
+- number: TCP-KR
+  uuid: f5ede386-a71c-4f7d-ba35-da12f9a1bd97
+  subjects:
+  - entities:
+    - role: player
+      name: Kumar Rocker
+      ref: 
+    - role: team
+      name: Texas Rangers
+      ref: 
+- number: TCP-LA
+  uuid: aca6238c-36f7-465a-b786-253199ad8ae2
+  subjects:
+  - entities:
+    - role: player
+      name: Luis Arraez
+      ref: 
+    - role: team
+      name: San Diego Padres
+      ref: 
+- number: TCP-LAC
+  uuid: 0ae98f2a-df85-4a0d-90d9-10b563faceb6
+  subjects:
+  - entities:
+    - role: player
+      name: Luisangel Acuña
+      ref: 
+    - role: team
+      name: New York Mets
+      ref: 
+- number: TCP-LB
+  uuid: c3c317c8-9ce7-4c96-adca-a93112b5af5e
+  subjects:
+  - entities:
+    - role: player
+      name: Lawrence Butler
+      ref: 
+    - role: team
+      name: Athletics
+      ref: 
+- number: TCP-LG
+  uuid: 0c0d0a86-65e6-4298-9298-78671810cedc
+  subjects:
+  - entities:
+    - role: player
+      name: Logan Gilbert
+      ref: 
+    - role: team
+      name: Seattle Mariners
+      ref: 
+- number: TCP-LR
+  uuid: d5d2ebc0-ea42-486d-b1e0-36d69dcd55bd
+  subjects:
+  - entities:
+    - role: player
+      name: Luis Robert Jr.
+      ref: 
+    - role: team
+      name: Chicago White Sox
+      ref: 
+- number: TCP-MM
+  uuid: 57bce032-503e-4fdb-80db-987a3cd6a94a
+  subjects:
+  - entities:
+    - role: player
+      name: Manny Machado
+      ref: 
+    - role: team
+      name: San Diego Padres
+      ref: 
+- number: TCP-MMA
+  uuid: 60060806-6980-45d2-b27e-477bbe0ca9b0
+  subjects:
+  - entities:
+    - role: player
+      name: Marcelo Mayer
+      ref: 
+    - role: team
+      name: Boston Red Sox
+      ref: 
+- number: TCP-MO
+  uuid: f2328bf9-b6aa-4fd0-a61b-1bc284a788ee
+  subjects:
+  - entities:
+    - role: player
+      name: Matt Olson
+      ref: 
+    - role: team
+      name: Atlanta Braves
+      ref: 
+- number: TCP-MT
+  uuid: cb99e09e-8c37-413e-b348-d3b8dce4ea6c
+  subjects:
+  - entities:
+    - role: player
+      name: Mike Trout
+      ref: 
+    - role: team
+      name: Angels
+      ref: 
+- number: TCP-MW
+  uuid: 2dbd62aa-8d1f-46fc-8434-ac634844aea3
+  subjects:
+  - entities:
+    - role: player
+      name: Masyn Winn
+      ref: 
+    - role: team
+      name: St. Louis Cardinals
+      ref: 
+- number: TCP-NA
+  uuid: 9ef457e1-7599-487b-b058-966a57ec135c
+  subjects:
+  - entities:
+    - role: player
+      name: Nolan Arenado
+      ref: 
+    - role: team
+      name: St. Louis Cardinals
+      ref: 
+- number: TCP-NK
+  uuid: 3737be07-dddc-47f2-892e-7856f1d9b488
+  subjects:
+  - entities:
+    - role: player
+      name: Nick Kurtz
+      ref: 
+    - role: team
+      name: Athletics
+      ref: 
+- number: TCP-OA
+  uuid: 8d1cff8d-14ea-4728-b8bd-96838e301a84
+  subjects:
+  - entities:
+    - role: player
+      name: Ozzie Albies
+      ref: 
+    - role: team
+      name: Atlanta Braves
+      ref: 
+- number: TCP-OC
+  uuid: 485d9473-b1fa-4f5f-988b-539f39fca8a3
+  subjects:
+  - entities:
+    - role: player
+      name: Oneil Cruz
+      ref: 
+    - role: team
+      name: Pittsburgh Pirates
+      ref: 
+- number: TCP-PA
+  uuid: fd88a93e-6ba6-49b1-be1f-f0efcc9f222f
+  subjects:
+  - entities:
+    - role: player
+      name: Pete Alonso
+      ref: 
+    - role: team
+      name: New York Mets
+      ref: 
+- number: TCP-PC
+  uuid: f9b72670-2fce-4f6b-8c1d-cfc88be4ff5f
+  subjects:
+  - entities:
+    - role: player
+      name: Pete Crow-Armstrong
+      ref: 
+    - role: team
+      name: Chicago Cubs
+      ref: 
+- number: TCP-PS
+  uuid: 5dd3029e-edeb-4dc0-aa12-29c8f3610bf2
+  subjects:
+  - entities:
+    - role: player
+      name: Paul Skenes
+      ref: 
+    - role: team
+      name: Pittsburgh Pirates
+      ref: 
+- number: TCP-RA
+  uuid: 7e8c1849-ba7e-4116-8eb7-9ecf8216e525
+  subjects:
+  - entities:
+    - role: player
+      name: Ronald Acuña Jr.
+      ref: 
+    - role: team
+      name: Atlanta Braves
+      ref: 
+- number: TCP-RL
+  uuid: 23610d87-cc26-45b0-8866-5422c5e018b3
+  subjects:
+  - entities:
+    - role: player
+      name: Rhett Lowder
+      ref: 
+    - role: team
+      name: Cincinnati Reds
+      ref: 
+- number: TCP-SS
+  uuid: e79c3f3f-9661-4413-8886-6a9f014c845a
+  subjects:
+  - entities:
+    - role: player
+      name: Seiya Suzuki
+      ref: 
+    - role: team
+      name: Chicago Cubs
+      ref: 
+- number: TCP-ST
+  uuid: 955e4d64-763c-4036-9e37-708642d8dbd2
+  subjects:
+  - entities:
+    - role: player
+      name: Spencer Torkelson
+      ref: 
+    - role: team
+      name: Detroit Tigers
+      ref: 
+- number: TCP-TG
+  uuid: aacc375a-27c9-4736-99d2-32c2952673df
+  subjects:
+  - entities:
+    - role: player
+      name: Tony Gwynn
+      ref: 
+    - role: team
+      name: San Diego Padres
+      ref: 
+- number: TCP-VG
+  uuid: 1aca14ef-4a30-42a4-a6e6-3b6959d54921
+  subjects:
+  - entities:
+    - role: player
+      name: Vladimir Guerrero Jr.
+      ref: 
+    - role: team
+      name: Toronto Blue Jays
+      ref: 
+- number: TCP-XB
+  uuid: df94a2db-09ad-4c05-bed1-6fc269c2b995
+  subjects:
+  - entities:
+    - role: player
+      name: Xander Bogaerts
+      ref: 
+    - role: team
+      name: San Diego Padres
+      ref: 
+- number: TCP-YA
+  uuid: ed418201-0873-41bf-b97b-6fa0e02260ad
+  subjects:
+  - entities:
+    - role: player
+      name: Yordan Alvarez
+      ref: 
+    - role: team
+      name: Houston Astros
+      ref: 
+- number: TCP-YD
+  uuid: 9e77261f-5265-4157-97cd-1d40cd5675ed
+  subjects:
+  - entities:
+    - role: player
+      name: Yu Darvish
+      ref: 
+    - role: team
+      name: San Diego Padres
+      ref: 

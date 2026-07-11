@@ -1,0 +1,410 @@
+- number: TCRSA-AR
+  uuid: 12badb9c-357f-4ea7-b5db-590b64b4a448
+  subjects:
+  - entities:
+    - role: player
+      name: Agustín Ramírez
+      ref: 
+    - role: team
+      name: Miami Marlins
+      ref: 
+- number: TCRSA-ARA
+  uuid: 23c16cd9-0ce0-4353-92b4-c8655b052d0f
+  subjects:
+  - entities:
+    - role: player
+      name: Agustín Ramírez
+      ref: 
+    - role: team
+      name: Miami Marlins
+      ref: 
+- number: TCRSA-BEN
+  uuid: da219356-83ac-441c-b265-e41beb18ca36
+  subjects:
+  - entities:
+    - role: player
+      name: Ben Rice
+      ref: 
+    - role: team
+      name: New York Yankees
+      ref: 
+- number: TCRSA-BL
+  uuid: 98d164b7-06f5-4363-b47c-d90871518317
+  subjects:
+  - entities:
+    - role: player
+      name: Brooks Lee
+      ref: 
+    - role: team
+      name: Minnesota Twins
+      ref: 
+- number: TCRSA-BR
+  uuid: f750fcef-e4d5-4df6-8a45-cde2f06a5dde
+  subjects:
+  - entities:
+    - role: player
+      name: Ben Rice
+      ref: 
+    - role: team
+      name: New York Yankees
+      ref: 
+- number: TCRSA-CA
+  uuid: 5dcd2d7f-31ee-44b1-a176-4392ac69c500
+  subjects:
+  - entities:
+    - role: player
+      name: Cam Smith
+      ref: 
+    - role: team
+      name: Houston Astros
+      ref: 
+- number: TCRSA-CH
+  uuid: 7a923b52-5ea7-421e-9e1e-b946ee29871d
+  subjects:
+  - entities:
+    - role: player
+      name: Cade Horton
+      ref: 
+    - role: team
+      name: Chicago Cubs
+      ref: 
+- number: TCRSA-CN
+  uuid: 2d412cca-536d-4536-92b0-307811fe8eb3
+  subjects:
+  - entities:
+    - role: player
+      name: Connor Norby
+      ref: 
+    - role: team
+      name: Miami Marlins
+      ref: 
+- number: TCRSA-CNO
+  uuid: 8f5f2abf-0df9-453e-a17c-f300826fb170
+  subjects:
+  - entities:
+    - role: player
+      name: Connor Norby
+      ref: 
+    - role: team
+      name: Miami Marlins
+      ref: 
+- number: TCRSA-CS
+  uuid: 86781408-ba4e-49b9-8056-19f9fd515640
+  subjects:
+  - entities:
+    - role: player
+      name: Cam Smith
+      ref: 
+    - role: team
+      name: Houston Astros
+      ref: 
+- number: TCRSA-CSI
+  uuid: 54e959a5-b5e9-4cf7-b3e7-f1f03ad9d105
+  subjects:
+  - entities:
+    - role: player
+      name: Chandler Simpson
+      ref: 
+    - role: team
+      name: Tampa Bay Rays
+      ref: 
+- number: TCRSA-DC
+  uuid: bb8422c5-459a-48e4-962e-4502203591e8
+  subjects:
+  - entities:
+    - role: player
+      name: Dylan Crews
+      ref: 
+    - role: team
+      name: Washington Nationals
+      ref: 
+- number: TCRSA-DCR
+  uuid: 6b3bf981-ec2c-42fc-9e9e-49fbea6aeffc
+  subjects:
+  - entities:
+    - role: player
+      name: Dylan Crews
+      ref: 
+    - role: team
+      name: Washington Nationals
+      ref: 
+- number: TCRSA-DR
+  uuid: f9d1d176-f2f4-48e2-ab73-6b94258057d5
+  subjects:
+  - entities:
+    - role: player
+      name: Dalton Rushing
+      ref: 
+    - role: team
+      name: Los Angeles Dodgers
+      ref: 
+- number: TCRSA-DRU
+  uuid: '0469782c-dc72-4287-894f-32110e6b4f9b'
+  subjects:
+  - entities:
+    - role: player
+      name: Dalton Rushing
+      ref: 
+    - role: team
+      name: Los Angeles Dodgers
+      ref: 
+- number: TCRSA-EQ
+  uuid: f262c3fe-c67f-4316-ae46-c77e41cca3e2
+  subjects:
+  - entities:
+    - role: player
+      name: Edgar Quero
+      ref: 
+    - role: team
+      name: Chicago White Sox
+      ref: 
+- number: TCRSA-HK
+  uuid: cad54e02-985f-4a80-a107-fb4d273c2450
+  subjects:
+  - entities:
+    - role: player
+      name: Hyeseong Kim
+      ref: 
+    - role: team
+      name: Los Angeles Dodgers
+      ref: 
+- number: TCRSA-JA
+  uuid: 64b8403e-6d5f-4578-aa78-0f1b9dfdc188
+  subjects:
+  - entities:
+    - role: player
+      name: Jace Jung
+      ref: 
+    - role: team
+      name: Detroit Tigers
+      ref: 
+- number: TCRSA-JJ
+  uuid: be59a7fe-6087-4c72-a056-31543dbe1579
+  subjects:
+  - entities:
+    - role: player
+      name: Jackson Jobe
+      ref: 
+    - role: team
+      name: Detroit Tigers
+      ref: 
+- number: TCRSA-JJO
+  uuid: d2b48f6f-ba59-4357-91da-0f1d2699b7fc
+  subjects:
+  - entities:
+    - role: player
+      name: Jackson Jobe
+      ref: 
+    - role: team
+      name: Detroit Tigers
+      ref: 
+- number: TCRSA-JJU
+  uuid: d18636cf-9b64-4bc4-a94e-e319bd15e4dd
+  subjects:
+  - entities:
+    - role: player
+      name: Jace Jung
+      ref: 
+    - role: team
+      name: Detroit Tigers
+      ref: 
+- number: TCRSA-JW
+  uuid: 82eca56e-1dad-47b1-ad04-d232d2f2542d
+  subjects:
+  - entities:
+    - role: player
+      name: James Wood
+      ref: 
+    - role: team
+      name: Washington Nationals
+      ref: 
+- number: TCRSA-JWI
+  uuid: 4094582f-7264-4631-9042-34421c58f0b7
+  subjects:
+  - entities:
+    - role: player
+      name: Jacob Wilson
+      ref: 
+    - role: team
+      name: Athletics
+      ref: 
+- number: TCRSA-JWO
+  uuid: b8839fc8-b61e-450e-9077-68371adfe5b4
+  subjects:
+  - entities:
+    - role: player
+      name: James Wood
+      ref: 
+    - role: team
+      name: Washington Nationals
+      ref: 
+- number: TCRSA-KC
+  uuid: dce62150-f94c-483a-9d69-e92505f5dc00
+  subjects:
+  - entities:
+    - role: player
+      name: Kristian Campbell
+      ref: 
+    - role: team
+      name: Boston Red Sox
+      ref: 
+- number: TCRSA-KCA
+  uuid: a752a66a-63ba-4f5d-bee2-8de5d5234828
+  subjects:
+  - entities:
+    - role: player
+      name: Kristian Campbell
+      ref: 
+    - role: team
+      name: Boston Red Sox
+      ref: 
+- number: TCRSA-KU
+  uuid: '0759b35b-101c-4752-ad62-f5444b9a2337'
+  subjects:
+  - entities:
+    - role: player
+      name: Nick Kurtz
+      ref: 
+    - role: team
+      name: Athletics
+      ref: 
+- number: TCRSA-LEE
+  uuid: 9b0ae24c-8d26-430e-a8c8-d4aebf08c9fe
+  subjects:
+  - entities:
+    - role: player
+      name: Brooks Lee
+      ref: 
+    - role: team
+      name: Minnesota Twins
+      ref: 
+- number: TCRSA-LK
+  uuid: bd87522c-5229-44b8-aa5c-381a18b821f7
+  subjects:
+  - entities:
+    - role: player
+      name: Luke Keaschall
+      ref: 
+    - role: team
+      name: Minnesota Twins
+      ref: 
+- number: TCRSA-MM
+  uuid: cb0b6a2a-a84b-4743-aea4-0cf7e584e14a
+  subjects:
+  - entities:
+    - role: player
+      name: Marcelo Mayer
+      ref: 
+    - role: team
+      name: Boston Red Sox
+      ref: 
+- number: TCRSA-MMY
+  uuid: ef8c0d1f-9558-46bd-b53a-e23ba9f024a4
+  subjects:
+  - entities:
+    - role: player
+      name: Marcelo Mayer
+      ref: 
+    - role: team
+      name: Boston Red Sox
+      ref: 
+- number: TCRSA-MS
+  uuid: 00773f25-63a2-4fb8-9e3d-72e8d75eef46
+  subjects:
+  - entities:
+    - role: player
+      name: Matt Shaw
+      ref: 
+    - role: team
+      name: Chicago Cubs
+      ref: 
+- number: TCRSA-MSH
+  uuid: e711626b-af1d-4a7d-b47d-29e319b4cf6c
+  subjects:
+  - entities:
+    - role: player
+      name: Matt Shaw
+      ref: 
+    - role: team
+      name: Chicago Cubs
+      ref: 
+- number: TCRSA-NK
+  uuid: 94faad89-a15b-4d8c-8507-6e1913cc5028
+  subjects:
+  - entities:
+    - role: player
+      name: Nick Kurtz
+      ref: 
+    - role: team
+      name: Athletics
+      ref: 
+- number: TCRSA-RL
+  uuid: 55d078ec-6006-42f7-9eb9-e7d859ec80c7
+  subjects:
+  - entities:
+    - role: player
+      name: Rhett Lowder
+      ref: 
+    - role: team
+      name: Cincinnati Reds
+      ref: 
+- number: TCRSA-RLO
+  uuid: 5a5784fa-c49d-4649-86de-49b444719d29
+  subjects:
+  - entities:
+    - role: player
+      name: Rhett Lowder
+      ref: 
+    - role: team
+      name: Cincinnati Reds
+      ref: 
+- number: TCRSA-RS
+  uuid: '08afe35b-50e0-4d0b-9397-56b3cc97c1e8'
+  subjects:
+  - entities:
+    - role: player
+      name: Roki Sasaki
+      ref: 
+    - role: team
+      name: Los Angeles Dodgers
+      ref: 
+- number: TCRSA-RSA
+  uuid: 5aa0c1a1-dec6-4f94-a447-b4680e3be39c
+  subjects:
+  - entities:
+    - role: player
+      name: Roki Sasaki
+      ref: 
+    - role: team
+      name: Los Angeles Dodgers
+      ref: 
+- number: TCRSA-TS
+  uuid: af35c5f9-bc88-42e0-ba57-44e9263e8711
+  subjects:
+  - entities:
+    - role: player
+      name: Thomas Saggese
+      ref: 
+    - role: team
+      name: St. Louis Cardinals
+      ref: 
+- number: TCRSA-TSA
+  uuid: 4b3e19e0-ce9a-4183-b6d1-cbe027527e96
+  subjects:
+  - entities:
+    - role: player
+      name: Thomas Saggese
+      ref: 
+    - role: team
+      name: St. Louis Cardinals
+      ref: 
+- number: TCRSA-WIL
+  uuid: 97f02f9f-4218-4fc5-9121-6c8cadd4a519
+  subjects:
+  - entities:
+    - role: player
+      name: Jacob Wilson
+      ref: 
+    - role: team
+      name: Athletics
+      ref: 

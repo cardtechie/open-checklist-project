@@ -1,0 +1,430 @@
+- number: CS-BD
+  uuid: ffc48977-2e29-490e-9f1d-60cf71004f52
+  subjects:
+  - entities:
+    - role: player
+      name: Bobby Doerr
+      ref: 
+    - role: team
+      name: Boston Red Sox
+      ref: 
+- number: CS-BG
+  uuid: 15898e71-a76e-454a-97ce-56a9d414f28a
+  subjects:
+  - entities:
+    - role: player
+      name: Bob Gibson
+      ref: 
+    - role: team
+      name: St. Louis Cardinals
+      ref: 
+- number: CS-BR2
+  uuid: f02e36e7-1984-433f-8bd7-b501287a3675
+  subjects:
+  - entities:
+    - role: player
+      name: Babe Ruth
+      ref: 
+    - role: team
+      name: Boston Red Sox
+      ref: 
+- number: CS-CH
+  uuid: f96982de-4e18-4df2-86df-cf8d190bcbf2
+  subjects:
+  - entities:
+    - role: player
+      name: Catfish Hunter
+      ref: 
+    - role: team
+      name: Oakland Athletics
+      ref: 
+- number: CS-CH2
+  uuid: 0ad38d4b-e9b5-404d-8ca2-d2f2cd605cd1
+  subjects:
+  - entities:
+    - role: player
+      name: Catfish Hunter
+      ref: 
+    - role: team
+      name: New York Yankees
+      ref: 
+- number: CS-CST
+  uuid: 7d866268-8480-47ef-97e3-c61e3de681da
+  subjects:
+  - entities:
+    - role: player
+      name: Casey Stengel
+      ref: 
+    - role: team
+      name: New York Yankees
+      ref: 
+- number: CS-CY
+  uuid: 8e02da83-e27a-484d-b3c1-1a36a633dc8b
+  subjects:
+  - entities:
+    - role: player
+      name: Cy Young
+      ref: 
+    - role: team
+      name: Boston Red Sox
+      ref: 
+- number: CS-DD
+  uuid: d7d048a3-f8ef-4073-acbc-283a1bf7cb25
+  subjects:
+  - entities:
+    - role: player
+      name: Dizzy Dean
+      ref: 
+    - role: team
+      name: St. Louis Cardinals
+      ref: 
+- number: CS-DL
+  uuid: 522da1d2-b3da-4d13-921a-604b2a7899c3
+  subjects:
+  - entities:
+    - role: player
+      name: Don Larsen
+      ref: 
+    - role: team
+      name: New York Yankees
+      ref: 
+- number: CS-DS
+  uuid: 6799dacf-a209-4769-9c56-37e653a55eeb
+  subjects:
+  - entities:
+    - role: player
+      name: Don Sutton
+      ref: 
+    - role: team
+      name: Los Angeles Dodgers
+      ref: 
+- number: CS-DSN
+  uuid: 84689c86-86b2-445c-a843-e0b116b69e9e
+  subjects:
+  - entities:
+    - role: player
+      name: Duke Snider
+      ref: 
+    - role: team
+      name: Brooklyn Dodgers
+      ref: 
+- number: CS-EB
+  uuid: 4c5f6e22-6300-4def-ae1d-143e33f740c1
+  subjects:
+  - entities:
+    - role: player
+      name: Ernie Banks
+      ref: 
+    - role: team
+      name: Chicago Cubs
+      ref: 
+- number: CS-ES
+  uuid: 2ef3d763-531c-401a-a94b-5bbe3740ff55
+  subjects:
+  - entities:
+    - role: player
+      name: Enos Slaughter
+      ref: 
+    - role: team
+      name: St. Louis Cardinals
+      ref: 
+- number: CS-EW
+  uuid: 6da774fd-e6b2-4ef2-812e-0e7b15d7464c
+  subjects:
+  - entities:
+    - role: player
+      name: Earl Weaver
+      ref: 
+    - role: team
+      name: Baltimore Orioles
+      ref: 
+- number: CS-GC
+  uuid: 5085f65a-b453-4af1-b793-d6d8791350ff
+  subjects:
+  - entities:
+    - role: player
+      name: Gary Carter
+      ref: 
+    - role: team
+      name: Montréal Expos
+      ref: 
+- number: CS-HA
+  uuid: cc7bcb85-94fb-498b-80ed-f8908827d505
+  subjects:
+  - entities:
+    - role: player
+      name: Hank Aaron
+      ref: 
+    - role: team
+      name: Atlanta Braves
+      ref: 
+- number: CS-HG
+  uuid: 3fe74771-ea13-426e-a1cc-5c355fd36be3
+  subjects:
+  - entities:
+    - role: player
+      name: Hank Greenberg
+      ref: 
+    - role: team
+      name: Detroit Tigers
+      ref: 
+- number: CS-HKI
+  uuid: 7d1f2c8d-dab8-4698-94c4-8cfb13023007
+  subjects:
+  - entities:
+    - role: player
+      name: Harmon Killebrew
+      ref: 
+    - role: team
+      name: Minnesota Twins
+      ref: 
+- number: CS-HN
+  uuid: cef845ab-bb0f-4c46-9ce9-1e091b1e5f47
+  subjects:
+  - entities:
+    - role: player
+      name: Hal Newhouser
+      ref: 
+    - role: team
+      name: Detroit Tigers
+      ref: 
+- number: CS-JB
+  uuid: 2424a4cc-f296-4e30-80e3-7665ab872356
+  subjects:
+  - entities:
+    - role: player
+      name: Jim Bunning
+      ref: 
+    - role: team
+      name: Philadelphia Phillies
+      ref: 
+- number: CS-JMI
+  uuid: 98bc6f57-c09b-4fcc-b0de-3a132a3f2055
+  subjects:
+  - entities:
+    - role: player
+      name: Johnny Mize
+      ref: 
+    - role: team
+      name: St. Louis Cardinals
+      ref: 
+- number: CS-JR
+  uuid: 6557214d-779e-401d-aa8f-b894b0b8b64d
+  subjects:
+  - entities:
+    - role: player
+      name: Jackie Robinson
+      ref: 
+    - role: team
+      name: Brooklyn Dodgers
+      ref: 
+- number: CS-KP
+  uuid: 45b3ff42-8cd6-4e14-939a-cfe28ac3cac3
+  subjects:
+  - entities:
+    - role: player
+      name: Kirby Puckett
+      ref: 
+    - role: team
+      name: Minnesota Twins
+      ref: 
+- number: CS-LB
+  uuid: b3e82225-97ab-48b4-85bb-21bc6a761532
+  subjects:
+  - entities:
+    - role: player
+      name: Lou Brock
+      ref: 
+    - role: team
+      name: St. Louis Cardinals
+      ref: 
+- number: CS-LT
+  uuid: a44d0195-be50-45c7-bc14-ae72033fb313
+  subjects:
+  - entities:
+    - role: player
+      name: Luis Tiant
+      ref: 
+    - role: team
+      name: Boston Red Sox
+      ref: 
+- number: CS-MI
+  uuid: 1b8a185f-39ab-45a2-b383-d71cbeda2ea7
+  subjects:
+  - entities:
+    - role: player
+      name: Monte Irvin
+      ref: 
+    - role: team
+      name: New York Giants
+      ref: 
+- number: CS-NF
+  uuid: 8b56371d-d0b4-40cd-9372-7cd3540bbc8e
+  subjects:
+  - entities:
+    - role: player
+      name: Nellie Fox
+      ref: 
+    - role: team
+      name: Chicago White Sox
+      ref: 
+- number: CS-OC
+  uuid: f08457e7-487a-4b14-9534-e4bb216e4897
+  subjects:
+  - entities:
+    - role: player
+      name: Orlando Cepeda
+      ref: 
+    - role: team
+      name: San Francisco Giants
+      ref: 
+- number: CS-PRI
+  uuid: 002464e6-7364-4fbd-83dd-3e74d6075dc1
+  subjects:
+  - entities:
+    - role: player
+      name: Phil Rizzuto
+      ref: 
+    - role: team
+      name: New York Yankees
+      ref: 
+- number: CS-RC
+  uuid: 46bf34f9-ec5b-4e45-af86-a51d7b747187
+  subjects:
+  - entities:
+    - role: player
+      name: Roy Campanella
+      ref: 
+    - role: team
+      name: Brooklyn Dodgers
+      ref: 
+- number: CS-RK
+  uuid: 8ca5cb42-307b-4e03-8e69-2b0ca2b05d12
+  subjects:
+  - entities:
+    - role: player
+      name: Ralph Kiner
+      ref: 
+    - role: team
+      name: Pittsburgh Pirates
+      ref: 
+- number: CS-RM
+  uuid: 1f344324-998d-42b0-9230-c61fbb5e3ae3
+  subjects:
+  - entities:
+    - role: player
+      name: Roger Maris
+      ref: 
+    - role: team
+      name: St. Louis Cardinals
+      ref: 
+- number: CS-RMA
+  uuid: b5eaa296-7c8a-4ead-b412-1287eba7dc56
+  subjects:
+  - entities:
+    - role: player
+      name: Roger Maris
+      ref: 
+    - role: team
+      name: New York Yankees
+      ref: 
+- number: CS-RS
+  uuid: 074f5184-b059-4fa2-afe2-d738d80017b7
+  subjects:
+  - entities:
+    - role: player
+      name: Red Schoendienst
+      ref: 
+    - role: team
+      name: St. Louis Cardinals
+      ref: 
+- number: CS-RSA
+  uuid: 7c9e9819-1902-4bd5-b177-fe029d6d040c
+  subjects:
+  - entities:
+    - role: player
+      name: Ron Santo
+      ref: 
+    - role: team
+      name: Chicago Cubs
+      ref: 
+- number: CS-SM
+  uuid: cd2e8689-86b9-4336-97a4-d0130eff5dd8
+  subjects:
+  - entities:
+    - role: player
+      name: Stan Musial
+      ref: 
+    - role: team
+      name: St. Louis Cardinals
+      ref: 
+- number: CS-TS
+  uuid: a307e254-643c-4717-9dea-1b835a570ebc
+  subjects:
+  - entities:
+    - role: player
+      name: Tom Seaver
+      ref: 
+    - role: team
+      name: New York Mets
+      ref: 
+- number: CS-TSP
+  uuid: d20785af-3c3e-49a7-9739-7ff9426edb50
+  subjects:
+  - entities:
+    - role: player
+      name: Tris Speaker
+      ref: 
+    - role: team
+      name: Boston Red Sox
+      ref: 
+- number: CS-TW
+  uuid: bbc99db7-99ac-4f98-badb-050514f1d6f4
+  subjects:
+  - entities:
+    - role: player
+      name: Ted Williams
+      ref: 
+    - role: team
+      name: Boston Red Sox
+      ref: 
+- number: CS-WF
+  uuid: e3b6437b-f2e8-4f51-8208-2240ddec36db
+  subjects:
+  - entities:
+    - role: player
+      name: Whitey Ford
+      ref: 
+    - role: team
+      name: New York Yankees
+      ref: 
+- number: CS-WM
+  uuid: 3e937db2-d498-42e9-bb73-50d713d7e68e
+  subjects:
+  - entities:
+    - role: player
+      name: Willie Mays
+      ref: 
+    - role: team
+      name: San Francisco Giants
+      ref: 
+- number: CS-WSP
+  uuid: bd127746-3a0b-41f9-a2ee-9b3d539ee276
+  subjects:
+  - entities:
+    - role: player
+      name: Warren Spahn
+      ref: 
+    - role: team
+      name: Milwaukee Braves
+      ref: 
+- number: CS-YB
+  uuid: de60260b-90a7-4905-aba6-5d452b99e5d4
+  subjects:
+  - entities:
+    - role: player
+      name: Yogi Berra
+      ref: 
+    - role: team
+      name: New York Yankees
+      ref: 

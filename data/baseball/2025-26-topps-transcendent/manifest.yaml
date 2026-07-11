@@ -1,0 +1,329 @@
+set_id: 2025-26-topps-transcendent
+base_sets:
+- id: base-set
+  name: Base Set
+  uuid: 0a66f1c5-0c82-50e7-b89c-edd19714d55a
+  declared_card_count: 100
+  parallels:
+  - name: Gold Refractor
+    print_run: 10
+    serial_numbered: true
+  - name: Orange Refractor
+    print_run: 25
+    serial_numbered: true
+  - name: Red Refractor
+    print_run: 5
+    serial_numbered: true
+  - name: SuperFractor
+    print_run: 1
+    serial_numbered: true
+  subsets:
+  - id: base-set-image-variations
+    name: Base Set - Image Variations
+    uuid: 7fa0df72-7ea4-5db9-80ac-1f72460aaed3
+    type:
+    - variation
+    declared_card_count: 99
+    parallels:
+    - name: Gold Refractor
+      print_run: 10
+      serial_numbered: true
+    - name: Orange Refractor
+      print_run: 25
+      serial_numbered: true
+    - name: Red Refractor
+      print_run: 5
+      serial_numbered: true
+    - name: SuperFractor
+      print_run: 1
+      serial_numbered: true
+subsets:
+- id: 1961-topps-all-star-superfractor-autographs
+  name: 1961 Topps All Star Superfractor Autographs
+  uuid: b84fafde-58fd-5a8b-a87a-43cf8d5f9cb2
+  type:
+  - autograph
+  declared_card_count: 27
+- id: 1961-topps-combos-superfractor-autographs
+  name: 1961 Topps Combos Superfractor Autographs
+  uuid: 2f998f46-baa7-50e7-afa0-5a77aa6374f1
+  type:
+  - autograph
+  declared_card_count: 7
+- id: 1961-topps-mvp-superfractor-autographs
+  name: 1961 Topps MVP Superfractor Autographs
+  uuid: fe150c55-601d-5d83-a7dc-e71e5a6654ac
+  type:
+  - autograph
+  declared_card_count: 40
+- id: 1961-topps-superfractor-autographs
+  name: 1961 Topps Superfractor Autographs
+  uuid: 2d56ec8f-87a0-5e0e-9d94-a3b633462932
+  type:
+  - autograph
+  declared_card_count: 77
+- id: 2025-rookies-through-the-years-autographs
+  name: 2025 Rookies Through the Years Autographs
+  uuid: 7f0333d0-1fbe-5120-b2d2-7665b44afa11
+  type:
+  - autograph
+  declared_card_count: 81
+- id: cut-signature-booklets
+  name: Cut Signature Booklets
+  uuid: f47b88e1-7d4c-568e-ab1a-ee54d4aad89b
+  type:
+  - autograph
+  declared_card_count: 15
+- id: cut-signatures
+  name: Cut Signatures
+  uuid: 49fab868-7f0b-52cd-80e0-1795a08c42c0
+  type:
+  - autograph
+  declared_card_count: 43
+- id: dual-cut-signature-booklets
+  name: Dual Cut Signature Booklets
+  uuid: b6764dbc-8bf6-57a5-bef3-bc48ed1ffa3f
+  type:
+  - autograph
+  declared_card_count: 5
+- id: gemstones
+  name: Gemstones
+  uuid: ade183a9-8fad-5c81-9d41-2bd8af04ab9c
+  type:
+  - insert
+  declared_card_count: 4
+- id: mlb-logo-autograph-patch-card
+  name: MLB Logo Autograph Patch Card
+  uuid: '0959b902-d58f-5ecd-a98a-f0d53447adf5'
+  type:
+  - autograph
+  - relic
+  declared_card_count: 32
+  parallels:
+  - name: Black Refractor
+    print_run: 10
+    serial_numbered: true
+  - name: Red Refractor
+    print_run: 5
+    serial_numbered: true
+  - name: SuperFractor
+    print_run: 1
+    serial_numbered: true
+- id: oversized-quad-cut-signatures
+  name: Oversized Quad Cut Signatures
+  uuid: 3ed3b636-af47-5358-ba6d-485a07820a5e
+  type:
+  - autograph
+  declared_card_count: 1
+- id: record-breaking-autograph-relic
+  name: Record Breaking Autograph Relic
+  uuid: 5fabd8bd-b21e-55ee-8334-937d5319b1b4
+  type:
+  - autograph
+  - relic
+  declared_card_count: 1
+  parallels:
+  - name: MLB Logo Patch
+    print_run: 1
+    serial_numbered: true
+- id: record-breaking-mlb-logo-patch-autographed-relic
+  name: Record Breaking MLB Logo Patch Autographed Relic
+  uuid: b60cf707-e62e-56a0-8261-0e6ea968639e
+  type:
+  - autograph
+  - relic
+  declared_card_count: 1
+- id: through-the-years-dual-autographs
+  name: Through the Years Dual Autographs
+  uuid: 5e5657d4-be4f-5c55-ba0c-c1f870016ad8
+  type:
+  - autograph
+  declared_card_count: 8
+- id: transcendent-autograph-relic
+  name: Transcendent Autograph Relic
+  uuid: e82a01c4-eeee-59bd-ba5c-377cb02bb85d
+  type:
+  - autograph
+  - relic
+  declared_card_count: 51
+  parallels:
+  - name: Blue
+    print_run: 10
+    serial_numbered: true
+  - name: Emerald
+    print_run: 5
+    serial_numbered: true
+  - name: Platinum
+    print_run: 1
+    serial_numbered: true
+- id: transcendent-collection-dual-patch-autograph-variation
+  name: Transcendent Collection Dual Patch Autograph Variation
+  uuid: 3fd3425d-d747-56ca-8b89-d84b84015308
+  type:
+  - autograph
+  - relic
+  - variation
+  declared_card_count: 10
+  parallels:
+  - name: Emerald
+    print_run: 5
+    serial_numbered: true
+  - name: Platinum
+    print_run: 1
+    serial_numbered: true
+- id: transcendent-collection-dual-patches
+  name: Transcendent Collection Dual Patches
+  uuid: 40b5b6bf-a046-5718-bd01-5227fc5bb8b5
+  type:
+  - relic
+  declared_card_count: 40
+- id: transcendent-collection-gold-framed-autographs
+  name: Transcendent Collection Gold Framed Autographs
+  uuid: d3fd2635-1233-5bd3-9516-7530c17d79a9
+  type:
+  - autograph
+  declared_card_count: 92
+- id: transcendent-collection-jumbo-patch-autographs
+  name: Transcendent Collection Jumbo Patch Autographs
+  uuid: 5dd47c67-9e5a-5aeb-a64e-b81c4ecddd8e
+  type:
+  - autograph
+  - relic
+  declared_card_count: 23
+  parallels:
+  - name: Platinum
+    print_run: 1
+    serial_numbered: true
+- id: transcendent-collection-legendary-relic-cards
+  name: Transcendent Collection Legendary Relic Cards
+  uuid: 9aff94d6-bdce-51ca-9c42-19352a1f07a1
+  type:
+  - relic
+  declared_card_count: 15
+  parallels:
+  - name: Platinum
+    print_run: 1
+    serial_numbered: true
+- id: transcendent-collection-mlb-logo-patches
+  name: Transcendent Collection MLB Logo Patches
+  uuid: c04e88c5-df7a-575d-811f-fd14d96c239b
+  type:
+  - relic
+  declared_card_count: 48
+- id: transcendent-collection-patch-autographs
+  name: Transcendent Collection Patch Autographs
+  uuid: 4d8e205e-38fa-5684-b5cf-732e6ea58c30
+  type:
+  - autograph
+  - relic
+  declared_card_count: 50
+  parallels:
+  - name: Blue
+    print_run: 10
+    serial_numbered: true
+  - name: Emerald
+    print_run: 5
+    serial_numbered: true
+  - name: Platinum
+    print_run: 1
+    serial_numbered: true
+- id: transcendent-collection-patches
+  name: Transcendent Collection Patches
+  uuid: caac377e-50e4-5dc0-97aa-c33ced96241f
+  type:
+  - relic
+  declared_card_count: 78
+- id: transcendent-collection-rookie-showcase-autographs
+  name: Transcendent Collection Rookie Showcase Autographs
+  uuid: 0ddc57c7-4150-5913-b954-8b6b15fcca09
+  type:
+  - autograph
+  declared_card_count: 41
+  parallels:
+  - name: Blue
+    print_run: 10
+    serial_numbered: true
+  - name: Emerald
+    print_run: 5
+    serial_numbered: true
+  - name: Platinum
+    print_run: 1
+    serial_numbered: true
+- id: transcendent-collection-rookie-showcase-patch-autographs
+  name: Transcendent Collection Rookie Showcase Patch Autographs
+  uuid: 42f20cbb-323d-58ac-b8d0-47f35738873b
+  type:
+  - autograph
+  - relic
+  declared_card_count: 33
+  parallels:
+  - name: Platinum
+    print_run: 1
+    serial_numbered: true
+- id: transcendent-collection-triple-patches
+  name: Transcendent Collection Triple Patches
+  uuid: 6742e64c-7d04-5369-95cc-e83b1402315e
+  type:
+  - relic
+  declared_card_count: 41
+- id: transcendent-collection-world-series-logo-patch-autograph
+  name: Transcendent Collection World Series Logo Patch Autograph
+  uuid: fe7de106-d77c-5ea9-a474-8646364bfabb
+  type:
+  - autograph
+  - relic
+  declared_card_count: 5
+  parallels:
+  - name: Platinum
+    print_run: 1
+    serial_numbered: true
+- id: transcendent-collection-world-series-patch-autograph
+  name: Transcendent Collection World Series Patch Autograph
+  uuid: ece6c2e5-1c0e-5c31-8483-f77c6b2bae08
+  type:
+  - autograph
+  - relic
+  declared_card_count: 5
+  parallels:
+  - name: Blue
+    print_run: 10
+    serial_numbered: true
+  - name: Emerald
+    print_run: 5
+    serial_numbered: true
+  - name: Platinum
+    print_run: 1
+    serial_numbered: true
+- id: transcendent-collection-world-series-relic-autograph
+  name: Transcendent Collection World Series Relic Autograph
+  uuid: 781e504f-3b3f-51eb-9672-ec0a6afe216d
+  type:
+  - autograph
+  - relic
+  declared_card_count: 6
+  parallels:
+  - name: Blue
+    print_run: 10
+    serial_numbered: true
+  - name: Emerald
+    print_run: 5
+    serial_numbered: true
+  - name: Platinum
+    print_run: 1
+    serial_numbered: true
+- id: transcendent-icons-chrome-autograph
+  name: Transcendent Icons Chrome Autograph
+  uuid: 3dad0d45-293f-5f1f-9941-9e91e408fff3
+  type:
+  - autograph
+  declared_card_count: 61
+  parallels:
+  - name: Blue
+    print_run: 10
+    serial_numbered: true
+  - name: Emerald
+    print_run: 5
+    serial_numbered: true
+  - name: Platinum
+    print_run: 1
+    serial_numbered: true

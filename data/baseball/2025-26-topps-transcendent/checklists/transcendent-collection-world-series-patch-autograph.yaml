@@ -1,0 +1,50 @@
+- number: WSPA-AV
+  uuid: 4e89c572-744d-4959-aee2-9acba5564fec
+  subjects:
+  - entities:
+    - role: player
+      name: Anthony Volpe
+      ref: 
+    - role: team
+      name: New York Yankees
+      ref: 
+- number: WSPA-AW
+  uuid: c5aee90e-c047-4df4-bfec-47a4fa2b3495
+  subjects:
+  - entities:
+    - role: player
+      name: Austin Wells
+      ref: 
+    - role: team
+      name: New York Yankees
+      ref: 
+- number: WSPA-JS
+  uuid: 264b8fd8-e27a-4125-b9ea-afed5620989c
+  subjects:
+  - entities:
+    - role: player
+      name: Juan Soto
+      ref: 
+    - role: team
+      name: New York Yankees
+      ref: 
+- number: WSPA-JT
+  uuid: 77adf76e-5c85-48d2-8d6f-9986141e1703
+  subjects:
+  - entities:
+    - role: player
+      name: Jose Trevino
+      ref: 
+    - role: team
+      name: New York Yankees
+      ref: 
+- number: WSPA-TI
+  uuid: de1ca472-a6a3-44eb-b274-d4a6316cc014
+  subjects:
+  - entities:
+    - role: player
+      name: Tim Hill
+      ref: 
+    - role: team
+      name: New York Yankees
+      ref: 

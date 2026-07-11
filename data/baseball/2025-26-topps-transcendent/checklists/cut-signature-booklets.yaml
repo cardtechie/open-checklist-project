@@ -1,0 +1,150 @@
+- number: CSRB-EM
+  uuid: d6ccd1bb-3e6e-471e-b51b-3e3ae53c41cf
+  subjects:
+  - entities:
+    - role: player
+      name: Eddie Mathews
+      ref: 
+    - role: team
+      name: Atlanta Braves
+      ref: 
+- number: CSRB-GP
+  uuid: a9963990-0c09-410e-90b4-833d35255880
+  subjects:
+  - entities:
+    - role: player
+      name: Gaylord Perry
+      ref: 
+    - role: team
+      name: San Francisco Giants
+      ref: 
+- number: CSRB-HA
+  uuid: da08b98e-c7f9-4ab7-9410-03b848a0010a
+  subjects:
+  - entities:
+    - role: player
+      name: Hank Aaron
+      ref: 
+    - role: team
+      name: Atlanta Braves
+      ref: 
+- number: CSRB-HK
+  uuid: 8ec20b3c-734b-4a10-aa91-0920bda65ffd
+  subjects:
+  - entities:
+    - role: player
+      name: Harmon Killebrew
+      ref: 
+    - role: team
+      name: Minnesota Twins
+      ref: 
+- number: CSRB-KP
+  uuid: f783f40e-bce1-459e-8378-e264dfc92a15
+  subjects:
+  - entities:
+    - role: player
+      name: Kirby Puckett
+      ref: 
+    - role: team
+      name: Minnesota Twins
+      ref: 
+- number: CSRB-LB
+  uuid: c8035ccf-3a84-4693-9eb0-fc26713da923
+  subjects:
+  - entities:
+    - role: player
+      name: Lou Brock
+      ref: 
+    - role: team
+      name: St. Louis Cardinals
+      ref: 
+- number: CSRB-MM
+  uuid: 2202c8ca-03cd-4b48-b6e2-41805cb5463a
+  subjects:
+  - entities:
+    - role: player
+      name: Mickey Mantle
+      ref: 
+    - role: team
+      name: New York Yankees
+      ref: 
+- number: CSRB-RC
+  uuid: 44f93b87-e84d-4d1c-a35f-d11fb594db76
+  subjects:
+  - entities:
+    - role: player
+      name: Roberto Clemente
+      ref: 
+    - role: team
+      name: Pittsburgh Pirates
+      ref: 
+- number: CSRB-RH
+  uuid: 740ace21-fa46-4a58-9412-6cc4c55afb3f
+  subjects:
+  - entities:
+    - role: player
+      name: Rogers Hornsby
+      ref: 
+    - role: team
+      name: St. Louis Cardinals
+      ref: 
+- number: CSRB-RS
+  uuid: 8de51f4a-134a-4f83-8fad-6942eafad148
+  subjects:
+  - entities:
+    - role: player
+      name: Ron Santo
+      ref: 
+    - role: team
+      name: Chicago Cubs
+      ref: 
+- number: CSRB-RU
+  uuid: f27b3c9e-fefd-4fcc-961b-af250857cf6e
+  subjects:
+  - entities:
+    - role: player
+      name: Babe Ruth
+      ref: 
+    - role: team
+      name: New York Yankees
+      ref: 
+- number: CSRB-SM
+  uuid: cc3d97f2-9bda-4196-a558-e3e7a8cef3da
+  subjects:
+  - entities:
+    - role: player
+      name: Stan Musial
+      ref: 
+    - role: team
+      name: St. Louis Cardinals
+      ref: 
+- number: CSRB-TM
+  uuid: 19102592-2ee3-4474-b31f-ab0811220046
+  subjects:
+  - entities:
+    - role: player
+      name: Thurman Munson
+      ref: 
+    - role: team
+      name: New York Yankees
+      ref: 
+- number: CSRB-WM
+  uuid: 8352debe-b36c-4875-b1c4-eeaa95a6dab1
+  subjects:
+  - entities:
+    - role: player
+      name: Willie Mays
+      ref: 
+    - role: team
+      name: San Francisco Giants
+      ref: 
+- number: CSRB-WS
+  uuid: a5acbb1b-9a23-4020-8542-0d5afa3f1611
+  subjects:
+  - entities:
+    - role: player
+      name: Willie Stargell
+      ref: 
+    - role: team
+      name: Pittsburgh Pirates
+      ref: 

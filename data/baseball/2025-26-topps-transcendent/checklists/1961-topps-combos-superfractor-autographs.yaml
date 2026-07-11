@@ -1,0 +1,119 @@
+- number: 61CA-IG
+  uuid: 5c3c066b-f1ed-44a3-9f5b-99f8de4fc1ca
+  subjects:
+  - entities:
+    - role: player
+      name: Ichiro
+      ref: 
+    - role: team
+      name: Seattle Mariners
+      ref: 
+  - entities:
+    - role: player
+      name: Ken Griffey Jr.
+      ref: 
+    - role: team
+      name: Seattle Mariners
+      ref: 
+- number: 61CA-JC
+  uuid: cb855788-c617-4d58-9cfe-5fb7b85cec47
+  subjects:
+  - entities:
+    - role: player
+      name: Reggie Jackson
+      ref: 
+    - role: team
+      name: California Angels
+      ref: 
+  - entities:
+    - role: player
+      name: Rod Carew
+      ref: 
+    - role: team
+      name: California Angels
+      ref: 
+- number: 61CA-JP
+  uuid: d19c935a-0a43-4fad-bc41-21d04ca9546e
+  subjects:
+  - entities:
+    - role: player
+      name: Jorge Posada
+      ref: 
+    - role: team
+      name: New York Yankees
+      ref: 
+  - entities:
+    - role: player
+      name: Derek Jeter
+      ref: 
+    - role: team
+      name: New York Yankees
+      ref: 
+- number: 61CA-MT
+  uuid: cda31dc4-76cc-4fb3-a16a-c1aec6e82d2c
+  subjects:
+  - entities:
+    - role: player
+      name: Fernando Tatis Jr.
+      ref: 
+    - role: team
+      name: San Diego Padres
+      ref: 
+  - entities:
+    - role: player
+      name: Manny Machado
+      ref: 
+    - role: team
+      name: San Diego Padres
+      ref: 
+- number: 61CA-SJ
+  uuid: 36b55532-31ca-43b9-9100-daa06a86dae0
+  subjects:
+  - entities:
+    - role: player
+      name: Derek Jeter
+      ref: 
+    - role: team
+      name: New York Yankees
+      ref: 
+  - entities:
+    - role: player
+      name: CC Sabathia
+      ref: 
+    - role: team
+      name: New York Yankees
+      ref: 
+- number: 61CA-WC
+  uuid: c638fe88-8f0d-4765-8f3d-103c0c224ca2
+  subjects:
+  - entities:
+    - role: player
+      name: James Wood
+      ref: 
+    - role: team
+      name: Washington Nationals
+      ref: 
+  - entities:
+    - role: player
+      name: Dylan Crews
+      ref: 
+    - role: team
+      name: Washington Nationals
+      ref: 
+- number: 61CA-YC
+  uuid: ed350b7d-8160-462c-9310-02fbb0efe0e3
+  subjects:
+  - entities:
+    - role: player
+      name: Christian Yelich
+      ref: 
+    - role: team
+      name: Milwaukee Brewers
+      ref: 
+  - entities:
+    - role: player
+      name: Jackson Chourio
+      ref: 
+    - role: team
+      name: Milwaukee Brewers
+      ref: 
