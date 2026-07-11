@@ -344,8 +344,8 @@ def main(argv):
         noun = "set uses" if n == 1 else "sets use"
         print(f"\n⚠️  {n} {noun} the DEPRECATED exploded (v0.2) format —"
               " migrate to the v0.3 manifest form (set.yaml + manifest.yaml + checklists/):")
-        for sd in deprecated:
-            print(f"  - {sd}")
+        for dep_dir in deprecated:
+            print(f"  - {dep_dir}")
 
     if rep.errors:
         print(f"\n❌ {len(rep.errors)} validation error(s):")
