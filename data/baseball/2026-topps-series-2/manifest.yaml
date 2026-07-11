@@ -145,6 +145,12 @@ base_sets:
     print_run: 399
     serial_numbered: true
   subsets:
+  - id: apple-foil-variations
+    name: Apple Foil Variations
+    uuid: 280ef4ca-a8fd-56f6-8f82-78b483a7af1b
+    type:
+    - variation
+    declared_card_count: 100
   - id: base-1952-variations
     name: Base - 1952 Variations
     uuid: 740eafbd-3f9c-544e-a08a-3e212a694896
@@ -163,6 +169,48 @@ base_sets:
     type:
     - insert
     declared_card_count: 4
+  - id: clear-variation
+    name: Clear Variation
+    uuid: d7802df4-19b0-5bfb-a368-000fa9190b8d
+    type:
+    - variation
+    declared_card_count: 100
+  - id: golden-mirror-variations
+    name: Golden Mirror Variations
+    uuid: d313671e-23a2-593b-a4ed-f2167ef2af42
+    type:
+    - variation
+    declared_card_count: 350
+  - id: holiday-variations
+    name: Holiday Variations
+    uuid: e1df895e-424c-5a2f-a985-7ac27e44f9a5
+    type:
+    - variation
+    declared_card_count: 100
+  - id: player-number-variations
+    name: Player Number Variations
+    uuid: cbca95ae-83c3-589f-adca-99306f28dc73
+    type:
+    - variation
+    declared_card_count: 25
+  - id: team-color-border-variations
+    name: Team Color Border Variations
+    uuid: 661bad15-cb1d-51cf-b64d-02a866a42e36
+    type:
+    - variation
+    declared_card_count: 100
+  - id: true-photo-variations
+    name: True Photo Variations
+    uuid: 43280dbd-dfb0-5732-8f27-43eb85a02b8b
+    type:
+    - variation
+    declared_card_count: 100
+  - id: vintage-stock-variations
+    name: Vintage Stock Variations
+    uuid: 9e0b1537-3238-513d-96b7-69114c555b2c
+    type:
+    - variation
+    declared_card_count: 100
 subsets:
 - id: 1952-rookie-variation-autographs
   name: 1952 Rookie Variation Autographs
@@ -344,13 +392,6 @@ subsets:
   - name: Relics Red
     print_run: 5
     serial_numbered: true
-  subsets:
-  - id: 1991-topps-baseball-autographs
-    name: 1991 Topps Baseball Autographs
-    uuid: c87032ed-4290-5f23-82f0-98c6873ec0ec
-    type:
-    - autograph
-    declared_card_count: 90
 - id: 1991-topps-baseball-all-star-autographs
   name: 1991 Topps Baseball All-Star Autographs
   uuid: '0518a403-f479-593a-91e8-1309bc1c872d'
@@ -363,32 +404,36 @@ subsets:
   type:
   - relic
   declared_card_count: 50
+- id: 1991-topps-baseball-autographs
+  name: 1991 Topps Baseball Autographs
+  uuid: c87032ed-4290-5f23-82f0-98c6873ec0ec
+  type:
+  - autograph
+  declared_card_count: 90
 - id: 1991-topps-baseball-chrome
   name: 1991 Topps Baseball Chrome
   uuid: e1c5517f-46f8-5e4f-8a82-6f19c0ccc133
   type:
   - insert
   declared_card_count: 50
-  subsets:
-  - id: 1991-topps-baseball-chrome-autographs
-    name: 1991 Topps Baseball Chrome Autographs
-    uuid: 4a5896fb-0cf7-5750-b1a0-f707005c34af
-    type:
-    - autograph
-    declared_card_count: 44
+- id: 1991-topps-baseball-chrome-all-star-autographs
+  name: 1991 Topps Baseball Chrome All-Star Autographs
+  uuid: 2d069dcd-9110-593e-9fb9-4e7ac2b758b9
+  type:
+  - autograph
+  declared_card_count: 43
 - id: 1991-topps-baseball-chrome-all-stars
   name: 1991 Topps Baseball Chrome All-Stars
   uuid: a2317b62-6861-59cf-a534-89f1eeed7c57
   type:
   - insert
   declared_card_count: 50
-  subsets:
-  - id: 1991-topps-baseball-chrome-all-star-autographs
-    name: 1991 Topps Baseball Chrome All-Star Autographs
-    uuid: 2d069dcd-9110-593e-9fb9-4e7ac2b758b9
-    type:
-    - autograph
-    declared_card_count: 43
+- id: 1991-topps-baseball-chrome-autographs
+  name: 1991 Topps Baseball Chrome Autographs
+  uuid: 4a5896fb-0cf7-5750-b1a0-f707005c34af
+  type:
+  - autograph
+  declared_card_count: 44
 - id: 1991-topps-baseball-relics
   name: 1991 Topps Baseball Relics
   uuid: f104cc8a-f979-500c-b952-04b0264b029e
@@ -421,12 +466,6 @@ subsets:
   - name: Gold
     print_run: 1
     serial_numbered: true
-- id: apple-foil-variations
-  name: Apple Foil Variations
-  uuid: 280ef4ca-a8fd-56f6-8f82-78b483a7af1b
-  type:
-  - variation
-  declared_card_count: 100
 - id: baseball-stars-autographs
   name: Baseball Stars Autographs
   uuid: 0f7ee745-4fdc-5b5a-b09e-8428814b044e
@@ -511,12 +550,6 @@ subsets:
   - autograph
   - relic
   declared_card_count: 56
-- id: clear-variation
-  name: Clear Variation
-  uuid: d7802df4-19b0-5bfb-a368-000fa9190b8d
-  type:
-  - variation
-  declared_card_count: 100
 - id: cover-athletes
   name: Cover Athletes
   uuid: 702c31f5-ad1d-50da-9436-13c4bf4036b7
@@ -631,12 +664,6 @@ subsets:
   type:
   - variation
   declared_card_count: 50
-- id: golden-mirror-variations
-  name: Golden Mirror Variations
-  uuid: d313671e-23a2-593b-a4ed-f2167ef2af42
-  type:
-  - variation
-  declared_card_count: 350
 - id: heavy-lumber
   name: Heavy Lumber
   uuid: be181310-ee5d-5bd8-bbac-f80236fafa03
@@ -666,12 +693,6 @@ subsets:
     type:
     - autograph
     declared_card_count: 5
-- id: holiday-variations
-  name: Holiday Variations
-  uuid: e1df895e-424c-5a2f-a985-7ac27e44f9a5
-  type:
-  - variation
-  declared_card_count: 100
 - id: home-field
   name: Home Field
   uuid: 3b38dfbf-d15c-5b02-abdd-31d3cc6d81be
@@ -778,12 +799,6 @@ subsets:
   type:
   - insert
   declared_card_count: 16
-- id: player-number-variations
-  name: Player Number Variations
-  uuid: cbca95ae-83c3-589f-adca-99306f28dc73
-  type:
-  - variation
-  declared_card_count: 25
 - id: postseason-performance-autographs
   name: Postseason Performance Autographs
   uuid: '00419d4f-9f52-5e7c-8675-22ab783af578'
@@ -888,12 +903,6 @@ subsets:
   - name: Chrome SuperFractor
     print_run: 1
     serial_numbered: true
-- id: team-color-border-variations
-  name: Team Color Border Variations
-  uuid: 661bad15-cb1d-51cf-b64d-02a866a42e36
-  type:
-  - variation
-  declared_card_count: 100
 - id: the-flagship-collection
   name: The Flagship Collection
   uuid: 5578b5fa-159f-5dba-9b23-35c7c0597641
@@ -964,18 +973,6 @@ subsets:
   - autograph
   - relic
   declared_card_count: 51
-- id: true-photo-variations
-  name: True Photo Variations
-  uuid: 43280dbd-dfb0-5732-8f27-43eb85a02b8b
-  type:
-  - variation
-  declared_card_count: 100
-- id: vintage-stock-variations
-  name: Vintage Stock Variations
-  uuid: 9e0b1537-3238-513d-96b7-69114c555b2c
-  type:
-  - variation
-  declared_card_count: 100
 - id: world-champion-autographs
   name: World Champion Autographs
   uuid: 745948b1-1b45-56e8-bb73-723541525e39
