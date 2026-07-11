@@ -98,92 +98,90 @@ base_sets:
     print_run: 25
     serial_numbered: true
   - name: Yellow Flood
+- id: base-optic
+  name: Base - Optic
+  uuid: d34e49ec-b153-5d6c-bbf1-868aa4d76567
+  declared_card_count: 200
+  sections:
+  - id: veterans-legends
+    name: Veterans/Legends
+    range:
+      from: '1'
+      to: '100'
+  - id: rated-prospects
+    name: Rated Prospects
+    range:
+      from: '101'
+      to: '200'
+  parallels:
+  - name: Black Finite
+    print_run: 1
+    serial_numbered: true
+  - name: Black Pandora
+  - name: Black Velocity
+    print_run: 39
+    serial_numbered: true
+  - name: Blue Cracked Ice
+    print_run: 15
+    serial_numbered: true
+  - name: Blue Glitter
+    print_run: 6
+    serial_numbered: true
+  - name: Blue Velocity
+  - name: Circles
+  - name: Cracked Ice
+    print_run: 25
+    serial_numbered: true
+  - name: Electricity
+    print_run: 69
+    serial_numbered: true
+  - name: Flex
+    print_run: 149
+    serial_numbered: true
+  - name: Gold
+    print_run: 10
+    serial_numbered: true
+  - name: Gold Glitter
+    print_run: 4
+    serial_numbered: true
+  - name: Gold Velocity
+    print_run: 10
+    serial_numbered: true
+  - name: Gold Vinyl
+    print_run: 1
+    serial_numbered: true
+  - name: Green
+    print_run: 5
+    serial_numbered: true
+  - name: Green Scope
+    print_run: 65
+    serial_numbered: true
+  - name: Green Velocity
+    print_run: 149
+    serial_numbered: true
+  - name: Holo
+  - name: Jazz
+  - name: Lime Green
+    print_run: 149
+    serial_numbered: true
+  - name: Orange
+    print_run: 199
+    serial_numbered: true
+  - name: Orange Scope
+    print_run: 79
+    serial_numbered: true
+  - name: Orange Velocity
+  - name: Pink Velocity
+    print_run: 79
+    serial_numbered: true
+  - name: Purple
+    print_run: 49
+    serial_numbered: true
+  - name: Red
+    print_run: 99
+    serial_numbered: true
+  - name: Shock
   subsets:
-  - id: base-optic
-    name: Base - Optic
-    uuid: d34e49ec-b153-5d6c-bbf1-868aa4d76567
-    type:
-    - insert
-    declared_card_count: 200
-    sections:
-    - id: veterans-legends
-      name: Veterans/Legends
-      range:
-        from: '1'
-        to: '100'
-    - id: rated-prospects
-      name: Rated Prospects
-      range:
-        from: '101'
-        to: '200'
-    parallels:
-    - name: Black Finite
-      print_run: 1
-      serial_numbered: true
-    - name: Black Pandora
-    - name: Black Velocity
-      print_run: 39
-      serial_numbered: true
-    - name: Blue Cracked Ice
-      print_run: 15
-      serial_numbered: true
-    - name: Blue Glitter
-      print_run: 6
-      serial_numbered: true
-    - name: Blue Velocity
-    - name: Circles
-    - name: Cracked Ice
-      print_run: 25
-      serial_numbered: true
-    - name: Electricity
-      print_run: 69
-      serial_numbered: true
-    - name: Flex
-      print_run: 149
-      serial_numbered: true
-    - name: Gold
-      print_run: 10
-      serial_numbered: true
-    - name: Gold Glitter
-      print_run: 4
-      serial_numbered: true
-    - name: Gold Velocity
-      print_run: 10
-      serial_numbered: true
-    - name: Gold Vinyl
-      print_run: 1
-      serial_numbered: true
-    - name: Green
-      print_run: 5
-      serial_numbered: true
-    - name: Green Scope
-      print_run: 65
-      serial_numbered: true
-    - name: Green Velocity
-      print_run: 149
-      serial_numbered: true
-    - name: Holo
-    - name: Jazz
-    - name: Lime Green
-      print_run: 149
-      serial_numbered: true
-    - name: Orange
-      print_run: 199
-      serial_numbered: true
-    - name: Orange Scope
-      print_run: 79
-      serial_numbered: true
-    - name: Orange Velocity
-    - name: Pink Velocity
-      print_run: 79
-      serial_numbered: true
-    - name: Purple
-      print_run: 49
-      serial_numbered: true
-    - name: Red
-      print_run: 99
-      serial_numbered: true
-    - name: Shock
   - id: base-rated-prospects-optic-signatures
     name: Base Rated Prospects Optic Signatures
     uuid: e7382386-2caf-5c41-b8d8-91937aa41691
