@@ -13,7 +13,7 @@ legacy data isn't broken during migration.
 | Schema | Version | Schema file | Docs |
 |---|---|---|---|
 | **Set** | v0.3 (manifest form) | [`set/schema.yaml`](set/schema.yaml) | [set/README.md](set/README.md) |
-| **Manifest** | v0.1 | [`manifest/schema.yaml`](manifest/schema.yaml) | [manifest/README.md](manifest/README.md) |
+| **Manifest** | v0.2 | [`manifest/schema.yaml`](manifest/schema.yaml) | [manifest/README.md](manifest/README.md) |
 | **Checklist** | v0.1 | [`checklist/schema.yaml`](checklist/schema.yaml) | [checklist/README.md](checklist/README.md) |
 | **Card** | v0.1 (legacy, exploded) | [`card/schema.yaml`](card/schema.yaml) | [card/README.md](card/README.md) |
 
@@ -84,11 +84,27 @@ and versioned `v0.X/` subdirs.
 
 ## Versioning
 
-Each schema versions independently:
+Each schema versions independently, following semantic versioning **keyed to what
+validates** — the only thing worth pinning a schema to is its validation behavior.
 
-- **Breaking changes** increment the major version (v0.x → v1.0).
-- **New optional fields** increment the minor version (v0.1 → v0.2).
-- **Documentation-only updates** don't change the schema version.
+| Level | Meaning | Examples | Old data still valid? |
+|---|---|---|---|
+| **major** (`v0.x → v1.0`) | **Breaking** — data valid under the old schema can become invalid, or a field's meaning changes | add a required field, remove/rename a field, tighten a constraint | ❌ needs migration |
+| **minor** (`v0.1 → v0.2`) | **Backward-compatible** schema change | new optional field, **relax a constraint**, new enum value, new allowed shape | ✅ |
+| **patch** | **No validation change** — text only | fix a description/comment/example, wording, typos | ✅ (nothing changed) |
+
+**Directory policy:**
+
+- **major and minor changes get a new version directory** (`v0.2/`), because a consumer
+  may pin to a specific validation contract. Repoint the `schema.yaml` (and `README.md`)
+  symlink to the new version; keep the old directory as history. `$schema_version` in the
+  schema is the `major.minor` (e.g. `"0.2"`).
+- **patch changes do NOT get a directory** — edit the current version's files in place and
+  record the change in that schema's `CHANGELOG.md` with a date. Nothing pins to a doc
+  fix, so a patch directory would be churn for a change that doesn't affect validation.
+
+Rule of thumb: **if a document's validity could change, it's at least a minor bump (new
+directory); if only the prose changed, it's a patch (in place).**
 
 ## Validation
 
@@ -123,6 +139,7 @@ schema = load_schema("schemas/set/v0.2/schema.yaml")
 - **v0.1** ([schema](set/v0.1/schema.yaml), [docs](set/v0.1/README.md)) — initial set structure.
 
 ### Manifest ([changelog](manifest/CHANGELOG.md))
+- **v0.2** ([schema](manifest/v0.2/schema.yaml), [docs](manifest/v0.2/README.md)) — `base_sets` optional (`anyOf(base_sets | subsets)`), for base-less products.
 - **v0.1** ([schema](manifest/v0.1/schema.yaml), [docs](manifest/v0.1/README.md)) — initial manifest schema: base_sets + product-level subsets, recursive nodes, parallels/`applies_to`, sections, list `type`.
 
 ### Checklist ([changelog](checklist/CHANGELOG.md))
