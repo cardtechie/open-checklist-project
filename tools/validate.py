@@ -340,7 +340,9 @@ def main(argv):
         print(f"  [{fmt}] {sd}")
 
     if deprecated:  # non-fatal: the exploded format is deprecated but still validated
-        print(f"\n⚠️  {len(deprecated)} set(s) use the DEPRECATED exploded (v0.2) format —"
+        n = len(deprecated)
+        noun = "set uses" if n == 1 else "sets use"
+        print(f"\n⚠️  {n} {noun} the DEPRECATED exploded (v0.2) format —"
               " migrate to the v0.3 manifest form (set.yaml + manifest.yaml + checklists/):")
         for sd in deprecated:
             print(f"  - {sd}")
