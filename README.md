@@ -12,7 +12,7 @@ The **Open Checklist Project** is an open-data initiative to standardize and sha
 
 ## Contents
 
-- ✅ Open YAML schemas — sets, manifests, and checklists (the v0.3 manifest form; a legacy card schema is retained)
+- ✅ Open YAML schemas — sets, manifests, and checklists (the v0.3 manifest form)
 - 📦 Curated and contributed checklist data (organized by genre, sport, and set)
 - 🛠 Tools for validating, transforming, and consuming data
 - 🤝 GitHub workflows for contributor validation
@@ -27,7 +27,6 @@ one-file-per-card layout.
 - **Set v0.3** (manifest form): [`schemas/set/schema.yaml`](schemas/set/schema.yaml) ([docs](schemas/set/README.md))
 - **Manifest v0.1**: [`schemas/manifest/schema.yaml`](schemas/manifest/schema.yaml) ([docs](schemas/manifest/README.md))
 - **Checklist v0.1**: [`schemas/checklist/schema.yaml`](schemas/checklist/schema.yaml) ([docs](schemas/checklist/README.md))
-- **Card v0.1** (legacy, exploded format): [`schemas/card/schema.yaml`](schemas/card/schema.yaml) ([docs](schemas/card/README.md))
 
 For the manifest form, the identity/UUID contract, versioning, validation, and examples,
 see the [schemas directory](schemas/README.md).
