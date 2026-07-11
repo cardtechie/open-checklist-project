@@ -1,0 +1,411 @@
+set_id: 2025-26-topps-definitive-collection
+subsets:
+- id: autographed-patch-booklets
+  name: Autographed Patch Booklets
+  uuid: ce37a35c-a43d-5a71-b3cd-55cd0752627e
+  type:
+  - autograph
+  - relic
+  declared_card_count: 40
+  parallels:
+  - name: Red
+    print_run: 1
+    serial_numbered: true
+- id: base-autographed-relics
+  name: Base Autographed Relics
+  uuid: 12909fdd-c4b2-5a0b-81d6-db2c2872d52e
+  type:
+  - autograph
+  - relic
+  declared_card_count: 49
+  parallels:
+  - name: Black
+    print_run: 10
+    serial_numbered: true
+  - name: Brand Logo Gold
+    print_run: 1
+    serial_numbered: true
+  - name: Jersey Button Gold
+    print_run: 1
+    serial_numbered: true
+  - name: Laundry Tag Gold
+    print_run: 1
+    serial_numbered: true
+  - name: MLB Logo Gold
+    print_run: 1
+    serial_numbered: true
+  - name: Orange
+    print_run: 25
+    serial_numbered: true
+  - name: Red
+    print_run: 5
+    serial_numbered: true
+- id: defining-images-autographs
+  name: Defining Images Autographs
+  uuid: 821db65e-4cbc-5a63-9a13-5fa1551048d1
+  type:
+  - autograph
+  declared_card_count: 43
+  parallels:
+  - name: Black
+    print_run: 10
+    serial_numbered: true
+  - name: Gold
+    print_run: 1
+    serial_numbered: true
+  - name: Red
+    print_run: 5
+    serial_numbered: true
+- id: definitive-autographed-first-batting-gloves
+  name: Definitive Autographed First Batting Gloves
+  uuid: dddb9226-0cdb-5348-ae9e-ece813da6807
+  type:
+  - autograph
+  declared_card_count: 49
+  parallels:
+  - name: Gold
+    print_run: 1
+    serial_numbered: true
+  - name: Red
+    print_run: 5
+    serial_numbered: true
+- id: definitive-autographed-relics
+  name: Definitive Autographed Relics
+  uuid: 49498d63-ec44-52f6-a1d2-bea2ec4722f9
+  type:
+  - autograph
+  - relic
+  declared_card_count: 86
+  parallels:
+  - name: Green
+    print_run: 10
+    serial_numbered: true
+  - name: Purple
+    print_run: 5
+    serial_numbered: true
+  - name: Red
+    print_run: 1
+    serial_numbered: true
+- id: definitive-autographed-ultra-patches
+  name: Definitive Autographed Ultra Patches
+  uuid: 38f75d9f-51a8-5504-9be5-3012336b09e9
+  type:
+  - autograph
+  - relic
+  declared_card_count: 40
+- id: definitive-city-connect-slogan-autographed-booklets
+  name: Definitive City Connect Slogan Autographed Booklets
+  uuid: 8d9e0d2b-42a5-501f-b044-ea218bd35836
+  type:
+  - autograph
+  declared_card_count: 32
+- id: definitive-cut-signatures
+  name: Definitive Cut Signatures
+  uuid: 9019ae63-c226-5f9a-b71a-3fec7fedba79
+  type:
+  - autograph
+  declared_card_count: 42
+- id: definitive-dual-mlb-logo-patch-booklets
+  name: Definitive Dual MLB Logo Patch Booklets
+  uuid: 30974ea0-0f20-5be6-90b2-36a3eb71947b
+  type:
+  - relic
+  declared_card_count: 22
+- id: definitive-helmet-collection
+  name: Definitive Helmet Collection
+  uuid: 39813a7d-9dbd-5119-a110-c87455b04d01
+  type:
+  - insert
+  declared_card_count: 43
+  parallels:
+  - name: MLB Logo Gold
+    print_run: 1
+    serial_numbered: true
+  - name: Player Number Gold
+    print_run: 1
+    serial_numbered: true
+  - name: Rawlings Authentic Tag Gold
+    print_run: 1
+    serial_numbered: true
+  - name: Rawlings Logo Gold
+    print_run: 1
+    serial_numbered: true
+  - name: Red
+    print_run: 5
+    serial_numbered: true
+  subsets:
+  - id: definitive-helmet-collection-autographs
+    name: Definitive Helmet Collection Autographs
+    uuid: ced91335-4c70-5c23-a546-d532f8fd28f5
+    type:
+    - autograph
+    declared_card_count: 21
+    parallels:
+    - name: Gold
+      print_run: 1
+      serial_numbered: true
+- id: definitive-mlb-logo-patches
+  name: Definitive MLB Logo Patches
+  uuid: df91a135-9e37-5d20-9370-c91ba440be55
+  type:
+  - relic
+  declared_card_count: 87
+- id: definitive-moments-autographs
+  name: Definitive Moments Autographs
+  uuid: e3ee3fe2-b371-5670-bbaf-5530871b5693
+  type:
+  - autograph
+  declared_card_count: 23
+- id: definitive-nameplate-collection
+  name: Definitive Nameplate Collection
+  uuid: 47cd3de2-9453-5d6c-a262-005f29d256b3
+  type:
+  - insert
+  declared_card_count: 80
+- id: definitive-patch-collection
+  name: Definitive Patch Collection
+  uuid: 05e24d20-342e-5c59-9caf-0b4e8953da19
+  type:
+  - relic
+  declared_card_count: 87
+- id: definitive-quad-autographs
+  name: Definitive Quad Autographs
+  uuid: b72a7e10-c163-5e67-81ff-10e7bdb8c974
+  type:
+  - autograph
+  declared_card_count: 7
+  parallels:
+  - name: Gold
+    print_run: 1
+    serial_numbered: true
+- id: definitive-rookie-autographs
+  name: Definitive Rookie Autographs
+  uuid: 9af2e3fb-de0c-5722-b8ec-377a019b1019
+  type:
+  - autograph
+  declared_card_count: 42
+  parallels:
+  - name: Black
+    print_run: 10
+    serial_numbered: true
+  - name: Gold
+    print_run: 1
+    serial_numbered: true
+  - name: Orange
+    print_run: 25
+    serial_numbered: true
+  - name: Red
+    print_run: 5
+    serial_numbered: true
+- id: definitive-rookie-patch-autographs
+  name: Definitive Rookie Patch Autographs
+  uuid: a6f34ca4-607e-5b8e-99d1-345a118b8d42
+  type:
+  - autograph
+  - relic
+  declared_card_count: 34
+  parallels:
+  - name: Black
+    print_run: 10
+    serial_numbered: true
+  - name: Gold
+    print_run: 1
+    serial_numbered: true
+  - name: Orange
+    print_run: 25
+    serial_numbered: true
+  - name: Red
+    print_run: 5
+    serial_numbered: true
+- id: definitive-triple-autographs
+  name: Definitive Triple Autographs
+  uuid: 56881e8f-705f-5eb2-9110-6938166bd3c5
+  type:
+  - autograph
+  declared_card_count: 8
+  parallels:
+  - name: Black
+    print_run: 10
+    serial_numbered: true
+  - name: Gold
+    print_run: 1
+    serial_numbered: true
+  - name: Red
+    print_run: 5
+    serial_numbered: true
+- id: definitive-triple-mlb-logo-patch-booklets
+  name: Definitive Triple MLB Logo Patch Booklets
+  uuid: 9fb84c93-abe1-50fe-8b43-9019b714cad5
+  type:
+  - relic
+  declared_card_count: 15
+- id: definitive-world-series-baseball-autographed-relics
+  name: Definitive World Series Baseball Autographed Relics
+  uuid: e4a4f4f8-fea0-55c1-8725-2dd3ae0b15b0
+  type:
+  - autograph
+  - relic
+  declared_card_count: 9
+- id: dual-autograph-relic-collection
+  name: Dual Autograph Relic Collection
+  uuid: e2ef1bb0-b0eb-534d-a0ea-dbefb9b0331a
+  type:
+  - autograph
+  - relic
+  declared_card_count: 29
+  parallels:
+  - name: Black
+    print_run: 10
+    serial_numbered: true
+  - name: Gold
+    print_run: 1
+    serial_numbered: true
+  - name: Red
+    print_run: 5
+    serial_numbered: true
+- id: dual-autographs
+  name: Dual Autographs
+  uuid: 587660a2-8e5e-587c-8f3c-aba537399dad
+  type:
+  - autograph
+  declared_card_count: 37
+  parallels:
+  - name: Black
+    print_run: 10
+    serial_numbered: true
+  - name: Gold
+    print_run: 1
+    serial_numbered: true
+  - name: Red
+    print_run: 5
+    serial_numbered: true
+- id: dual-world-series-autograph-collection
+  name: Dual World Series Autograph Collection
+  uuid: 3ab44979-48c3-5813-b733-d8f45849c8ff
+  type:
+  - autograph
+  declared_card_count: 13
+  parallels:
+  - name: Black
+    print_run: 10
+    serial_numbered: true
+  - name: Gold
+    print_run: 1
+    serial_numbered: true
+  - name: Red
+    print_run: 5
+    serial_numbered: true
+- id: framed-autograph-collection
+  name: Framed Autograph Collection
+  uuid: 50142017-be8a-536d-9e1f-1cb8f6b8d6de
+  type:
+  - autograph
+  declared_card_count: 45
+  parallels:
+  - name: Black
+    print_run: 10
+    serial_numbered: true
+  - name: Gold
+    print_run: 1
+    serial_numbered: true
+  - name: Red
+    print_run: 5
+    serial_numbered: true
+- id: framed-autograph-patches
+  name: Framed Autograph Patches
+  uuid: 60db8d93-81fa-5cdd-9a4c-48ccfac7437b
+  type:
+  - autograph
+  - relic
+  declared_card_count: 41
+  parallels:
+  - name: Black
+    print_run: 10
+    serial_numbered: true
+  - name: Gold
+    print_run: 1
+    serial_numbered: true
+  - name: Red
+    print_run: 5
+    serial_numbered: true
+- id: jumbo-relic-collection
+  name: Jumbo Relic Collection
+  uuid: ca0427fe-16ee-55c9-9e50-953780e14800
+  type:
+  - relic
+  declared_card_count: 91
+  parallels:
+  - name: Black
+    print_run: 10
+    serial_numbered: true
+  - name: Gold
+    print_run: 1
+    serial_numbered: true
+  - name: Orange
+    print_run: 25
+    serial_numbered: true
+  - name: Pink
+    print_run: 15
+    serial_numbered: true
+  - name: Red
+    print_run: 5
+    serial_numbered: true
+- id: legendary-autograph-collection
+  name: Legendary Autograph Collection
+  uuid: 6685c316-b445-53a6-ab3a-2c408705b72f
+  type:
+  - autograph
+  declared_card_count: 46
+  parallels:
+  - name: Black
+    print_run: 10
+    serial_numbered: true
+  - name: Gold
+    print_run: 1
+    serial_numbered: true
+  - name: Red
+    print_run: 5
+    serial_numbered: true
+- id: protector-at-the-plate
+  name: Protector At The Plate
+  uuid: f00779bb-347f-5a4e-9acf-7eb7d8620e6a
+  type:
+  - insert
+  declared_card_count: 10
+  parallels:
+  - name: Black
+    print_run: 10
+    serial_numbered: true
+  - name: Gold
+    print_run: 1
+    serial_numbered: true
+  - name: Red
+    print_run: 5
+    serial_numbered: true
+- id: protectors-at-the-plate-autographed-relics
+  name: Protectors At The Plate Autographed Relics
+  uuid: 15b91261-f3a3-5502-bd3c-848658e6c68e
+  type:
+  - autograph
+  - relic
+  declared_card_count: 10
+  parallels:
+  - name: Red
+    print_run: 1
+    serial_numbered: true
+- id: quad-patch-collection
+  name: Quad Patch Collection
+  uuid: da03c850-cb80-5442-b24b-9d2689048e84
+  type:
+  - relic
+  declared_card_count: 20
+  parallels:
+  - name: Gold
+    print_run: 1
+    serial_numbered: true
+- id: willie-mays-commemorative-patches
+  name: Willie Mays Commemorative Patches
+  uuid: f62d53c6-4688-5aee-9980-ebcbb79a2340
+  type:
+  - relic
+  declared_card_count: 28

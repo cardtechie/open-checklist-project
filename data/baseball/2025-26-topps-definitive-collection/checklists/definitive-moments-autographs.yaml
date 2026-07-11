@@ -1,0 +1,230 @@
+- number: DMA-BH
+  uuid: 6de84142-e508-46bc-9eb0-ab3880236535
+  subjects:
+  - entities:
+    - role: player
+      name: Bryce Harper
+      ref: 
+    - role: team
+      name: Philadelphia Phillies
+      ref: 
+- number: DMA-BW
+  uuid: c7f24bef-8a2e-43a2-a583-10b49dd7253e
+  subjects:
+  - entities:
+    - role: player
+      name: Bobby Witt Jr.
+      ref: 
+    - role: team
+      name: Kansas City Royals
+      ref: 
+- number: DMA-DC
+  uuid: 0dfa04ef-0aeb-4e61-8d96-9f31288e22e1
+  subjects:
+  - entities:
+    - role: player
+      name: Dylan Crews
+      ref: 
+    - role: team
+      name: Washington Nationals
+      ref: 
+- number: DMA-DJ
+  uuid: af9916f1-0e35-48ee-9c8a-7be5b5782981
+  subjects:
+  - entities:
+    - role: player
+      name: Derek Jeter
+      ref: 
+    - role: team
+      name: New York Yankees
+      ref: 
+- number: DMA-DO
+  uuid: 51b826ff-7325-4450-a32c-3ac5b829f41a
+  subjects:
+  - entities:
+    - role: player
+      name: David Ortiz
+      ref: 
+    - role: team
+      name: Boston Red Sox
+      ref: 
+- number: DMA-FF
+  uuid: cf16bc9a-e4de-47b9-a938-bb5892a72767
+  subjects:
+  - entities:
+    - role: player
+      name: Freddie Freeman
+      ref: 
+    - role: team
+      name: Los Angeles Dodgers
+      ref: 
+- number: DMA-GB
+  uuid: 5dde4d55-5136-463f-b0bd-f7a9633d56ef
+  subjects:
+  - entities:
+    - role: player
+      name: George Brett
+      ref: 
+    - role: team
+      name: Kansas City Royals
+      ref: 
+- number: DMA-GM
+  uuid: 07a50a57-e8bf-4bf5-806e-65bbe7e87192
+  subjects:
+  - entities:
+    - role: player
+      name: Greg Maddux
+      ref: 
+    - role: team
+      name: Chicago Cubs
+      ref: 
+- number: DMA-I
+  uuid: a4f0bc6d-ba18-4a21-b03b-fe79656e4ddf
+  subjects:
+  - entities:
+    - role: player
+      name: Ichiro
+      ref: 
+    - role: team
+      name: Seattle Mariners
+      ref: 
+- number: DMA-JH
+  uuid: a8535fe0-9c10-4cd9-82ce-05109ae6fe9f
+  subjects:
+  - entities:
+    - role: player
+      name: Jackson Holliday
+      ref: 
+    - role: team
+      name: Baltimore Orioles
+      ref: 
+- number: DMA-JW
+  uuid: f0d06c25-8ec6-4d13-9b6e-e26d63136223
+  subjects:
+  - entities:
+    - role: player
+      name: James Wood
+      ref: 
+    - role: team
+      name: Washington Nationals
+      ref: 
+- number: DMA-MP
+  uuid: b1c64a35-0db0-40d3-9076-b2f12b66286f
+  subjects:
+  - entities:
+    - role: player
+      name: Mike Piazza
+      ref: 
+    - role: team
+      name: New York Mets
+      ref: 
+- number: DMA-MS
+  uuid: 347af467-872a-4936-ae06-26efe3fb39f9
+  subjects:
+  - entities:
+    - role: player
+      name: Mike Schmidt
+      ref: 
+    - role: team
+      name: Philadelphia Phillies
+      ref: 
+- number: DMA-MT
+  uuid: 8de739db-1a8f-4561-a3df-7eae8c52bedd
+  subjects:
+  - entities:
+    - role: player
+      name: Mike Trout
+      ref: 
+    - role: team
+      name: Los Angeles Angels
+      ref: 
+- number: DMA-NR
+  uuid: 9b218b90-9d7e-4de1-88fc-76cef2cce592
+  subjects:
+  - entities:
+    - role: player
+      name: Nolan Ryan
+      ref: 
+    - role: team
+      name: Houston Astros
+      ref: 
+- number: DMA-OH
+  uuid: 79bbca15-3a6e-46c1-82a0-2b08c3ce1fd6
+  subjects:
+  - entities:
+    - role: player
+      name: Orel Hershiser
+      ref: 
+    - role: team
+      name: Los Angeles Dodgers
+      ref: 
+- number: DMA-RA
+  uuid: 587bac9f-f2b3-4a17-b5dc-36fe482edad7
+  subjects:
+  - entities:
+    - role: player
+      name: Ronald Acuña Jr.
+      ref: 
+    - role: team
+      name: Atlanta Braves
+      ref: 
+- number: DMA-RC
+  uuid: 125edd83-9f47-44e2-9ab6-81092ebc537b
+  subjects:
+  - entities:
+    - role: player
+      name: Roger Clemens
+      ref: 
+    - role: team
+      name: Houston Astros
+      ref: 
+- number: DMA-RJ
+  uuid: 5705e270-252b-4ab8-86cd-00712f2a71c0
+  subjects:
+  - entities:
+    - role: player
+      name: Randy Johnson
+      ref: 
+    - role: team
+      name: Arizona Diamondbacks
+      ref: 
+- number: DMA-RJA
+  uuid: 1108bb4b-f798-4e9e-9b6a-30c6a2823410
+  subjects:
+  - entities:
+    - role: player
+      name: Reggie Jackson
+      ref: 
+    - role: team
+      name: New York Yankees
+      ref: 
+- number: DMA-SS
+  uuid: a0c25285-f838-4315-959d-4ba091219b21
+  subjects:
+  - entities:
+    - role: player
+      name: Sammy Sosa
+      ref: 
+    - role: team
+      name: Chicago Cubs
+      ref: 
+- number: DMA-VG
+  uuid: e2667967-79e2-4228-a528-fa203e5c0892
+  subjects:
+  - entities:
+    - role: player
+      name: Vladimir Guerrero Jr.
+      ref: 
+    - role: team
+      name: Toronto Blue Jays
+      ref: 
+- number: DMA-YY
+  uuid: 243f2f43-da14-4967-b882-05d94af6faac
+  subjects:
+  - entities:
+    - role: player
+      name: Yoshinobu Yamamoto
+      ref: 
+    - role: team
+      name: Los Angeles Dodgers
+      ref: 

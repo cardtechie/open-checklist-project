@@ -1,0 +1,217 @@
+- number: DQAC-BGST
+  uuid: ec4e6626-53db-42a1-a1fb-1f97f036de9e
+  subjects:
+  - entities:
+    - role: player
+      name: Ken Griffey Jr.
+      ref: 
+    - role: team
+      name: Seattle Mariners
+      ref: 
+  - entities:
+    - role: player
+      name: Sammy Sosa
+      ref: 
+    - role: team
+      name: Chicago Cubs
+      ref: 
+  - entities:
+    - role: player
+      name: Barry Bonds
+      ref: 
+    - role: team
+      name: San Francisco Giants
+      ref: 
+  - entities:
+    - role: player
+      name: Mike Trout
+      ref: 
+    - role: team
+      name: Los Angeles Angels
+      ref: 
+- number: DQAC-GSTR
+  uuid: 6deee248-5064-4640-80c8-8e5d553ec745
+  subjects:
+  - entities:
+    - role: player
+      name: Vladimir Guerrero Jr.
+      ref: 
+    - role: team
+      name: Toronto Blue Jays
+      ref: 
+  - entities:
+    - role: player
+      name: Juan Soto
+      ref: 
+    - role: team
+      name: New York Mets
+      ref: 
+  - entities:
+    - role: player
+      name: Fernando Tatis Jr.
+      ref: 
+    - role: team
+      name: San Diego Padres
+      ref: 
+  - entities:
+    - role: player
+      name: José Ramírez
+      ref: 
+    - role: team
+      name: Cleveland Guardians
+      ref: 
+- number: DQAC-IMOY
+  uuid: d0742aef-a52e-49a6-b032-824ab719cdb5
+  subjects:
+  - entities:
+    - role: player
+      name: Hideki Matsui
+      ref: 
+    - role: team
+      name: New York Yankees
+      ref: 
+  - entities:
+    - role: player
+      name: Ichiro
+      ref: 
+    - role: team
+      name: Seattle Mariners
+      ref: 
+  - entities:
+    - role: player
+      name: Yoshinobu Yamamoto
+      ref: 
+    - role: team
+      name: Los Angeles Dodgers
+      ref: 
+  - entities:
+    - role: player
+      name: Shohei Ohtani
+      ref: 
+    - role: team
+      name: Los Angeles Dodgers
+      ref: 
+- number: DQAC-JMJJ
+  uuid: 82ce746f-7b16-40a5-a0e8-b71e000a745d
+  subjects:
+  - entities:
+    - role: player
+      name: Don Mattingly
+      ref: 
+    - role: team
+      name: New York Yankees
+      ref: 
+  - entities:
+    - role: player
+      name: Reggie Jackson
+      ref: 
+    - role: team
+      name: New York Yankees
+      ref: 
+  - entities:
+    - role: player
+      name: Aaron Judge
+      ref: 
+    - role: team
+      name: New York Yankees
+      ref: 
+  - entities:
+    - role: player
+      name: Derek Jeter
+      ref: 
+    - role: team
+      name: New York Yankees
+      ref: 
+- number: DQAC-ONYS
+  uuid: 8cec4eae-7677-4f84-8962-987f2081df3f
+  subjects:
+  - entities:
+    - role: player
+      name: Yoshinobu Yamamoto
+      ref: 
+    - role: team
+      name: Los Angeles Dodgers
+      ref: 
+  - entities:
+    - role: player
+      name: Shohei Ohtani
+      ref: 
+    - role: team
+      name: Los Angeles Dodgers
+      ref: 
+  - entities:
+    - role: player
+      name: Roki Sasaki
+      ref: 
+    - role: team
+      name: Los Angeles Dodgers
+      ref: 
+  - entities:
+    - role: player
+      name: Hideo Nomo
+      ref: 
+    - role: team
+      name: Los Angeles Dodgers
+      ref: 
+- number: DQAC-PWLS
+  uuid: 3ce4e125-8038-4fd2-a9b9-da11858068ba
+  subjects:
+  - entities:
+    - role: player
+      name: Mike Piazza
+      ref: 
+    - role: team
+      name: New York Mets
+      ref: 
+  - entities:
+    - role: player
+      name: David Wright
+      ref: 
+    - role: team
+      name: New York Mets
+      ref: 
+  - entities:
+    - role: player
+      name: Francisco Lindor
+      ref: 
+    - role: team
+      name: New York Mets
+      ref: 
+  - entities:
+    - role: player
+      name: Juan Soto
+      ref: 
+    - role: team
+      name: New York Mets
+      ref: 
+- number: DQAC-RMHH
+  uuid: 3634cea3-0a44-412e-9863-ffe3fd517b44
+  subjects:
+  - entities:
+    - role: player
+      name: Eddie Murray
+      ref: 
+    - role: team
+      name: Baltimore Orioles
+      ref: 
+  - entities:
+    - role: player
+      name: Cal Ripken Jr.
+      ref: 
+    - role: team
+      name: Baltimore Orioles
+      ref: 
+  - entities:
+    - role: player
+      name: Gunnar Henderson
+      ref: 
+    - role: team
+      name: Baltimore Orioles
+      ref: 
+  - entities:
+    - role: player
+      name: Jackson Holliday
+      ref: 
+    - role: team
+      name: Baltimore Orioles
+      ref: 

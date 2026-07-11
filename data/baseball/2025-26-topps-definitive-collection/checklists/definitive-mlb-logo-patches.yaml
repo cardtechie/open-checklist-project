@@ -1,0 +1,870 @@
+- number: DLP-AG
+  uuid: e9481548-e80d-467c-a86c-eeb0a741e04f
+  subjects:
+  - entities:
+    - role: player
+      name: Adolis García
+      ref: 
+    - role: team
+      name: Texas Rangers
+      ref: 
+- number: DLP-AJ
+  uuid: a9f89017-ad3c-45c4-ae14-92b657f1ae8e
+  subjects:
+  - entities:
+    - role: player
+      name: Aaron Judge
+      ref: 
+    - role: team
+      name: New York Yankees
+      ref: 
+- number: DLP-AM
+  uuid: 6ec0577d-8cbe-4b17-b7a8-2225f5c14bb3
+  subjects:
+  - entities:
+    - role: player
+      name: Andrew McCutchen
+      ref: 
+    - role: team
+      name: Pittsburgh Pirates
+      ref: 
+- number: DLP-AN
+  uuid: a345eff4-1115-4daa-ac93-3596d7c5784f
+  subjects:
+  - entities:
+    - role: player
+      name: Aaron Nola
+      ref: 
+    - role: team
+      name: Philadelphia Phillies
+      ref: 
+- number: DLP-AR
+  uuid: 8f66a3c0-8dca-4c61-8f10-2c5ad4f6aa8f
+  subjects:
+  - entities:
+    - role: player
+      name: Austin Riley
+      ref: 
+    - role: team
+      name: Atlanta Braves
+      ref: 
+- number: DLP-ARU
+  uuid: 1614632d-ec1c-476c-89d5-725a391b0571
+  subjects:
+  - entities:
+    - role: player
+      name: Adley Rutschman
+      ref: 
+    - role: team
+      name: Baltimore Orioles
+      ref: 
+- number: DLP-AV
+  uuid: bf200dda-21cc-46b3-afe9-cc7ddffc2cb7
+  subjects:
+  - entities:
+    - role: player
+      name: Anthony Volpe
+      ref: 
+    - role: team
+      name: New York Yankees
+      ref: 
+- number: DLP-BBX
+  uuid: dc8e61d6-82e5-48a8-be2d-5740f95b8da4
+  subjects:
+  - entities:
+    - role: player
+      name: Byron Buxton
+      ref: 
+    - role: team
+      name: Minnesota Twins
+      ref: 
+- number: DLP-BH
+  uuid: 2adfb1c8-c05f-4a92-b6b3-da95bfbb5c1d
+  subjects:
+  - entities:
+    - role: player
+      name: Bryce Harper
+      ref: 
+    - role: team
+      name: Philadelphia Phillies
+      ref: 
+- number: DLP-BL
+  uuid: dfca7bd8-4a81-4f94-876b-206d0eaba6ec
+  subjects:
+  - entities:
+    - role: player
+      name: Brooks Lee
+      ref: 
+    - role: team
+      name: Minnesota Twins
+      ref: 
+- number: DLP-BO
+  uuid: e447663e-523b-485b-bcfc-ebfdc275dae8
+  subjects:
+  - entities:
+    - role: player
+      name: Bo Bichette
+      ref: 
+    - role: team
+      name: Toronto Blue Jays
+      ref: 
+- number: DLP-BW
+  uuid: 905e5213-efe7-4232-9877-3cb87cefaf34
+  subjects:
+  - entities:
+    - role: player
+      name: Bobby Witt Jr.
+      ref: 
+    - role: team
+      name: Kansas City Royals
+      ref: 
+- number: DLP-CA
+  uuid: d1316d8e-718e-4628-9c2a-1fee2e96cc8c
+  subjects:
+  - entities:
+    - role: player
+      name: CJ Abrams
+      ref: 
+    - role: team
+      name: Washington Nationals
+      ref: 
+- number: DLP-CC
+  uuid: e667de84-c34d-414a-8957-2a67a749d830
+  subjects:
+  - entities:
+    - role: player
+      name: Carlos Correa
+      ref: 
+    - role: team
+      name: Houston Astros
+      ref: 
+- number: DLP-CCA
+  uuid: 67c2800a-cd75-4003-aa62-81d44bd2ef70
+  subjects:
+  - entities:
+    - role: player
+      name: Corbin Carroll
+      ref: 
+    - role: team
+      name: Arizona Diamondbacks
+      ref: 
+- number: DLP-CCS
+  uuid: 4123c966-77ee-48eb-ada5-489d61634d3e
+  subjects:
+  - entities:
+    - role: player
+      name: CC Sabathia
+      ref: 
+    - role: team
+      name: New York Yankees
+      ref: 
+- number: DLP-CK
+  uuid: 2a3358d8-c9da-4dd6-b882-b250360fe1f5
+  subjects:
+  - entities:
+    - role: player
+      name: Colt Keith
+      ref: 
+    - role: team
+      name: Detroit Tigers
+      ref: 
+- number: DLP-CY
+  uuid: 74afee6e-0e54-46a4-a273-2b05763db8cf
+  subjects:
+  - entities:
+    - role: player
+      name: Christian Yelich
+      ref: 
+    - role: team
+      name: Milwaukee Brewers
+      ref: 
+- number: DLP-DC
+  uuid: cf28ff2b-ac3f-4e48-98d5-a85cb7896199
+  subjects:
+  - entities:
+    - role: player
+      name: Dylan Crews
+      ref: 
+    - role: team
+      name: Washington Nationals
+      ref: 
+- number: DLP-DO
+  uuid: a2de10a0-e3c9-4a7c-b7e7-b8f7fec93e37
+  subjects:
+  - entities:
+    - role: player
+      name: David Ortiz
+      ref: 
+    - role: team
+      name: Boston Red Sox
+      ref: 
+- number: DLP-DP
+  uuid: de49c96c-91ea-4868-9827-b11a13eb7c5b
+  subjects:
+  - entities:
+    - role: player
+      name: Dustin Pedroia
+      ref: 
+    - role: team
+      name: Boston Red Sox
+      ref: 
+- number: DLP-DS
+  uuid: 5dfc60e5-db2f-455b-83f4-6bf262841460
+  subjects:
+  - entities:
+    - role: player
+      name: Dansby Swanson
+      ref: 
+    - role: team
+      name: Chicago Cubs
+      ref: 
+- number: DLP-DW
+  uuid: 1cb82850-d20b-4897-b8e6-2138083d5c58
+  subjects:
+  - entities:
+    - role: player
+      name: David Wright
+      ref: 
+    - role: team
+      name: New York Mets
+      ref: 
+- number: DLP-ET
+  uuid: 844d0aad-23d5-4340-9990-2e134cef1347
+  subjects:
+  - entities:
+    - role: player
+      name: Ezequiel Tovar
+      ref: 
+    - role: team
+      name: Colorado Rockies
+      ref: 
+- number: DLP-FA
+  uuid: 9f759567-531b-41e6-bce5-e59219c4ca58
+  subjects:
+  - entities:
+    - role: player
+      name: Francisco Alvarez
+      ref: 
+    - role: team
+      name: New York Mets
+      ref: 
+- number: DLP-FF
+  uuid: 94071f4b-8fde-4c47-a13e-e956fd6f68bd
+  subjects:
+  - entities:
+    - role: player
+      name: Freddie Freeman
+      ref: 
+    - role: team
+      name: Los Angeles Dodgers
+      ref: 
+- number: DLP-FH
+  uuid: bfafdc84-a38e-40b4-b026-2d16175a6e3e
+  subjects:
+  - entities:
+    - role: player
+      name: Félix Hernández
+      ref: 
+    - role: team
+      name: Seattle Mariners
+      ref: 
+- number: DLP-FL
+  uuid: 9de8c7a5-225f-446c-91ca-cf443d1c9487
+  subjects:
+  - entities:
+    - role: player
+      name: Francisco Lindor
+      ref: 
+    - role: team
+      name: New York Mets
+      ref: 
+- number: DLP-FRF
+  uuid: 78280cef-7802-4c4f-9a98-7bd58832e9f1
+  subjects:
+  - entities:
+    - role: player
+      name: Freddie Freeman
+      ref: 
+    - role: team
+      name: Atlanta Braves
+      ref: 
+- number: DLP-FT
+  uuid: ef45b161-4853-484c-9d37-2368a062a1c2
+  subjects:
+  - entities:
+    - role: player
+      name: Fernando Tatis Jr.
+      ref: 
+    - role: team
+      name: San Diego Padres
+      ref: 
+- number: DLP-GC
+  uuid: 8a1c5b92-1549-443e-a201-c0e9e1808b54
+  subjects:
+  - entities:
+    - role: player
+      name: Gerrit Cole
+      ref: 
+    - role: team
+      name: New York Yankees
+      ref: 
+- number: DLP-GH
+  uuid: 7e2f263b-c013-4e9a-b29d-1e8e3e364e41
+  subjects:
+  - entities:
+    - role: player
+      name: Gunnar Henderson
+      ref: 
+    - role: team
+      name: Baltimore Orioles
+      ref: 
+- number: DLP-GS
+  uuid: 6a02c81b-9663-4816-9b95-f818877b8c49
+  subjects:
+  - entities:
+    - role: player
+      name: Giancarlo Stanton
+      ref: 
+    - role: team
+      name: New York Yankees
+      ref: 
+- number: DLP-HG
+  uuid: 4530c139-4e4e-47a9-a153-c63392f86cfc
+  subjects:
+  - entities:
+    - role: player
+      name: Hunter Greene
+      ref: 
+    - role: team
+      name: Cincinnati Reds
+      ref: 
+- number: DLP-I
+  uuid: 553c65f7-ca4d-42f9-ae5c-44e466fcd88d
+  subjects:
+  - entities:
+    - role: player
+      name: Ichiro
+      ref: 
+    - role: team
+      name: Miami Marlins
+      ref: 
+- number: DLP-JA
+  uuid: b1320e25-e293-431e-88e5-aa36041ab886
+  subjects:
+  - entities:
+    - role: player
+      name: Jose Altuve
+      ref: 
+    - role: team
+      name: Houston Astros
+      ref: 
+- number: DLP-JC
+  uuid: fe5403f9-2c78-4589-a678-4886928e20ac
+  subjects:
+  - entities:
+    - role: player
+      name: Junior Caminero
+      ref: 
+    - role: team
+      name: Tampa Bay Rays
+      ref: 
+- number: DLP-JCH
+  uuid: 9e11092e-fd70-4bd3-8d36-89144487b023
+  subjects:
+  - entities:
+    - role: player
+      name: Jackson Chourio
+      ref: 
+    - role: team
+      name: Milwaukee Brewers
+      ref: 
+- number: DLP-JCJ
+  uuid: f489565b-bb28-4525-ae6f-811be18de5e3
+  subjects:
+  - entities:
+    - role: player
+      name: Jazz Chisholm Jr.
+      ref: 
+    - role: team
+      name: New York Yankees
+      ref: 
+- number: DLP-JH
+  uuid: 4ac6cbe8-d0ec-4e36-816b-357ac9d2c262
+  subjects:
+  - entities:
+    - role: player
+      name: Jackson Holliday
+      ref: 
+    - role: team
+      name: Baltimore Orioles
+      ref: 
+- number: DLP-JL
+  uuid: e7fd2a98-ed74-46d7-8f8a-93abe472b254
+  subjects:
+  - entities:
+    - role: player
+      name: Jung Hoo Lee
+      ref: 
+    - role: team
+      name: San Francisco Giants
+      ref: 
+- number: DLP-JM
+  uuid: 85f6e7ab-82ad-40e2-a570-71fdd3520de1
+  subjects:
+  - entities:
+    - role: player
+      name: Jackson Merrill
+      ref: 
+    - role: team
+      name: San Diego Padres
+      ref: 
+- number: DLP-JRO
+  uuid: 162860f3-3427-461c-9843-ad42fd2701a6
+  subjects:
+  - entities:
+    - role: player
+      name: Julio Rodríguez
+      ref: 
+    - role: team
+      name: Seattle Mariners
+      ref: 
+- number: DLP-JS
+  uuid: 952aa0fc-438d-45d9-b959-b4a25972c9a4
+  subjects:
+  - entities:
+    - role: player
+      name: Juan Soto
+      ref: 
+    - role: team
+      name: New York Mets
+      ref: 
+- number: DLP-JT
+  uuid: f3750206-6809-43b7-835b-373cce7da958
+  subjects:
+  - entities:
+    - role: player
+      name: J.T. Realmuto
+      ref: 
+    - role: team
+      name: Philadelphia Phillies
+      ref: 
+- number: DLP-JV
+  uuid: 778d9e57-01b0-4af9-ad9a-53247e974a05
+  subjects:
+  - entities:
+    - role: player
+      name: Joey Votto
+      ref: 
+    - role: team
+      name: Cincinnati Reds
+      ref: 
+- number: DLP-JW
+  uuid: 9ac2253a-fa48-42e3-8044-c7f64eb3e6d1
+  subjects:
+  - entities:
+    - role: player
+      name: James Wood
+      ref: 
+    - role: team
+      name: Washington Nationals
+      ref: 
+- number: DLP-KB
+  uuid: 956965e7-f915-4f16-9165-2f9b8c997e30
+  subjects:
+  - entities:
+    - role: player
+      name: Kris Bryant
+      ref: 
+    - role: team
+      name: Colorado Rockies
+      ref: 
+- number: DLP-KC
+  uuid: 317a7563-1ff0-41d1-a364-62ea640eef42
+  subjects:
+  - entities:
+    - role: player
+      name: Kristian Campbell
+      ref: 
+    - role: team
+      name: Boston Red Sox
+      ref: 
+- number: DLP-KM
+  uuid: f3afb789-5b34-47ac-846a-d5688a5ead33
+  subjects:
+  - entities:
+    - role: player
+      name: Ketel Marte
+      ref: 
+    - role: team
+      name: Arizona Diamondbacks
+      ref: 
+- number: DLP-KS
+  uuid: 21264ed2-3888-4cc2-87ca-8e8ef527f7d3
+  subjects:
+  - entities:
+    - role: player
+      name: Kyle Schwarber
+      ref: 
+    - role: team
+      name: Philadelphia Phillies
+      ref: 
+- number: DLP-LA
+  uuid: 8d9fadbe-a5c7-4075-8c0d-cdd8dcff3fe4
+  subjects:
+  - entities:
+    - role: player
+      name: Luis Arraez
+      ref: 
+    - role: team
+      name: San Diego Padres
+      ref: 
+- number: DLP-LB
+  uuid: 8f7d6969-07d6-4a79-be53-84c4f5c16b73
+  subjects:
+  - entities:
+    - role: player
+      name: Lawrence Butler
+      ref: 
+    - role: team
+      name: Athletics
+      ref: 
+- number: DLP-LC
+  uuid: 855b93df-29af-46dd-be21-01a976ef1b79
+  subjects:
+  - entities:
+    - role: player
+      name: Luis Castillo
+      ref: 
+    - role: team
+      name: Seattle Mariners
+      ref: 
+- number: DLP-LR
+  uuid: 71ce4a0f-1662-48af-b22b-cef56c8abcc9
+  subjects:
+  - entities:
+    - role: player
+      name: Luis Robert Jr.
+      ref: 
+    - role: team
+      name: Chicago White Sox
+      ref: 
+- number: DLP-LW
+  uuid: 647fd45f-ee3a-4591-8925-329a775a41b4
+  subjects:
+  - entities:
+    - role: player
+      name: Logan Webb
+      ref: 
+    - role: team
+      name: San Francisco Giants
+      ref: 
+- number: DLP-MB
+  uuid: f608fc30-f83a-4b06-9b08-7287dea9d9ea
+  subjects:
+  - entities:
+    - role: player
+      name: Mookie Betts
+      ref: 
+    - role: team
+      name: Los Angeles Dodgers
+      ref: 
+- number: DLP-MC
+  uuid: 638774ef-3114-4769-b205-cf9032ab9a9a
+  subjects:
+  - entities:
+    - role: player
+      name: Miguel Cabrera
+      ref: 
+    - role: team
+      name: Detroit Tigers
+      ref: 
+- number: DLP-MF
+  uuid: ecd9c12f-9954-4a06-935a-f3236469acd8
+  subjects:
+  - entities:
+    - role: player
+      name: Max Fried
+      ref: 
+    - role: team
+      name: New York Yankees
+      ref: 
+- number: DLP-MH
+  uuid: d7609750-18cc-4eb1-b13e-5ab4d06d178c
+  subjects:
+  - entities:
+    - role: player
+      name: Michael Harris II
+      ref: 
+    - role: team
+      name: Atlanta Braves
+      ref: 
+- number: DLP-MM
+  uuid: a14f5859-c1b3-41f5-91c7-3d456252caa3
+  subjects:
+  - entities:
+    - role: player
+      name: Manny Machado
+      ref: 
+    - role: team
+      name: San Diego Padres
+      ref: 
+- number: DLP-MM2
+  uuid: 2b01299e-7208-49aa-a0c9-fa4bfdf9262e
+  subjects:
+  - entities:
+    - role: player
+      name: Max Muncy
+      ref: 
+    - role: team
+      name: Los Angeles Dodgers
+      ref: 
+- number: DLP-MO
+  uuid: ddce0925-82e1-4857-9ab6-4db2b5ec33dd
+  subjects:
+  - entities:
+    - role: player
+      name: Matt Olson
+      ref: 
+    - role: team
+      name: Atlanta Braves
+      ref: 
+- number: DLP-MT
+  uuid: 61354264-57a7-4d59-9495-17cad8dcb284
+  subjects:
+  - entities:
+    - role: player
+      name: Mike Trout
+      ref: 
+    - role: team
+      name: Los Angeles Angels
+      ref: 
+- number: DLP-MTX
+  uuid: abc41ddd-2c1f-452a-b38b-352ec38e3e92
+  subjects:
+  - entities:
+    - role: player
+      name: Mark Teixeira
+      ref: 
+    - role: team
+      name: New York Yankees
+      ref: 
+- number: DLP-MW
+  uuid: f791dc76-b3a3-47b6-ba47-c5dd4a2bec55
+  subjects:
+  - entities:
+    - role: player
+      name: Masyn Winn
+      ref: 
+    - role: team
+      name: St. Louis Cardinals
+      ref: 
+- number: DLP-NA
+  uuid: 35310c71-de58-4a5e-9f60-ab1b619d6fa8
+  subjects:
+  - entities:
+    - role: player
+      name: Nolan Arenado
+      ref: 
+    - role: team
+      name: St. Louis Cardinals
+      ref: 
+- number: DLP-OA
+  uuid: a056d96d-9498-47c6-b094-1549738f8f70
+  subjects:
+  - entities:
+    - role: player
+      name: Ozzie Albies
+      ref: 
+    - role: team
+      name: Atlanta Braves
+      ref: 
+- number: DLP-OC
+  uuid: ea8aca22-f17c-4095-8bd1-b2a8a5649901
+  subjects:
+  - entities:
+    - role: player
+      name: Oneil Cruz
+      ref: 
+    - role: team
+      name: Pittsburgh Pirates
+      ref: 
+- number: DLP-PA
+  uuid: c4a2b560-eb5e-4f8d-a103-9398f33fb67e
+  subjects:
+  - entities:
+    - role: player
+      name: Pete Alonso
+      ref: 
+    - role: team
+      name: New York Mets
+      ref: 
+- number: DLP-RG
+  uuid: 9a980692-32fb-4c56-9bd1-6881bbea61d7
+  subjects:
+  - entities:
+    - role: player
+      name: Riley Greene
+      ref: 
+    - role: team
+      name: Detroit Tigers
+      ref: 
+- number: DLP-SA
+  uuid: 2d1ab798-1fdd-4ce2-96ef-9837e416caff
+  subjects:
+  - entities:
+    - role: player
+      name: Sandy Alcantara
+      ref: 
+    - role: team
+      name: Miami Marlins
+      ref: 
+- number: DLP-SI
+  uuid: 1dae769c-cb04-46bf-bb78-ce38d1ef32f9
+  subjects:
+  - entities:
+    - role: player
+      name: Shota Imanaga
+      ref: 
+    - role: team
+      name: Chicago Cubs
+      ref: 
+- number: DLP-SP
+  uuid: bbe3cf8d-fb64-4545-8208-1eb8487c3aeb
+  subjects:
+  - entities:
+    - role: player
+      name: Salvador Perez
+      ref: 
+    - role: team
+      name: Kansas City Royals
+      ref: 
+- number: DLP-SS
+  uuid: 9eb702dc-2681-400f-ace1-6b3ca9b34c61
+  subjects:
+  - entities:
+    - role: player
+      name: Spencer Strider
+      ref: 
+    - role: team
+      name: Atlanta Braves
+      ref: 
+- number: DLP-SSZ
+  uuid: 5237e4e2-1979-40a3-a402-0796645e6aef
+  subjects:
+  - entities:
+    - role: player
+      name: Seiya Suzuki
+      ref: 
+    - role: team
+      name: Chicago Cubs
+      ref: 
+- number: DLP-TS
+  uuid: 6ef735aa-1f7e-4962-ac55-ee7665d56eb2
+  subjects:
+  - entities:
+    - role: player
+      name: Tyler Soderstrom
+      ref: 
+    - role: team
+      name: Athletics
+      ref: 
+- number: DLP-TT
+  uuid: 44ff920b-b9a8-445a-abef-1500e9c88dfe
+  subjects:
+  - entities:
+    - role: player
+      name: Trea Turner
+      ref: 
+    - role: team
+      name: Philadelphia Phillies
+      ref: 
+- number: DLP-VG
+  uuid: dd0b9f4a-0339-4335-93b6-892a0a7403de
+  subjects:
+  - entities:
+    - role: player
+      name: Vladimir Guerrero Jr.
+      ref: 
+    - role: team
+      name: Toronto Blue Jays
+      ref: 
+- number: DLP-WC
+  uuid: fe1987a1-465e-49c9-882e-32cd19709769
+  subjects:
+  - entities:
+    - role: player
+      name: William Contreras
+      ref: 
+    - role: team
+      name: Milwaukee Brewers
+      ref: 
+- number: DLP-WS
+  uuid: 88b94e09-a71d-40cf-a973-d40cb68fcae9
+  subjects:
+  - entities:
+    - role: player
+      name: Will Smith
+      ref: 
+    - role: team
+      name: Los Angeles Dodgers
+      ref: 
+- number: DLP-XB
+  uuid: 57df6734-2fd6-473d-8e9c-b3081ed019b6
+  subjects:
+  - entities:
+    - role: player
+      name: Xander Bogaerts
+      ref: 
+    - role: team
+      name: San Diego Padres
+      ref: 
+- number: DLP-YA
+  uuid: d6681f62-2b4c-4a72-a1b1-68cb9b345a4c
+  subjects:
+  - entities:
+    - role: player
+      name: Yordan Alvarez
+      ref: 
+    - role: team
+      name: Houston Astros
+      ref: 
+- number: DLP-YD
+  uuid: 8cc835f7-fb27-4e38-a72b-f0a49034f0d1
+  subjects:
+  - entities:
+    - role: player
+      name: Yu Darvish
+      ref: 
+    - role: team
+      name: San Diego Padres
+      ref: 
+- number: DLP-YM
+  uuid: 86c0e56d-9635-4e58-9ab6-0b93200b9479
+  subjects:
+  - entities:
+    - role: player
+      name: Yadier Molina
+      ref: 
+    - role: team
+      name: St. Louis Cardinals
+      ref: 
+- number: DLP-ZV
+  uuid: d993f643-a4ac-4aca-af24-7e1b96825b5c
+  subjects:
+  - entities:
+    - role: player
+      name: Zac Veen
+      ref: 
+    - role: team
+      name: Colorado Rockies
+      ref: 
+- number: DLP-ZW
+  uuid: 4f1d74ca-5329-4192-99d9-4aab222aa32c
+  subjects:
+  - entities:
+    - role: player
+      name: Zack Wheeler
+      ref: 
+    - role: team
+      name: Philadelphia Phillies
+      ref: 

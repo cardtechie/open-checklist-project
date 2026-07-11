@@ -1,0 +1,620 @@
+- number: QPC-BFOY
+  uuid: 75750a0a-6cb4-40ec-bd86-c50f3c05a69c
+  subjects:
+  - entities:
+    - role: player
+      name: Mookie Betts
+      ref: 
+    - role: team
+      name: Los Angeles Dodgers
+      ref: 
+  - entities:
+    - role: player
+      name: Shohei Ohtani
+      ref: 
+    - role: team
+      name: Los Angeles Dodgers
+      ref: 
+  - entities:
+    - role: player
+      name: Freddie Freeman
+      ref: 
+    - role: team
+      name: Los Angeles Dodgers
+      ref: 
+  - entities:
+    - role: player
+      name: Yoshinobu Yamamoto
+      ref: 
+    - role: team
+      name: Los Angeles Dodgers
+      ref: 
+- number: QPC-CMGL
+  uuid: be5a7ef1-f840-4f11-a0a9-b608e2c892f3
+  subjects:
+  - entities:
+    - role: player
+      name: Corbin Carroll
+      ref: 
+    - role: team
+      name: Arizona Diamondbacks
+      ref: 
+  - entities:
+    - role: player
+      name: Jordan Lawlar
+      ref: 
+    - role: team
+      name: Arizona Diamondbacks
+      ref: 
+  - entities:
+    - role: player
+      name: Zac Gallen
+      ref: 
+    - role: team
+      name: Arizona Diamondbacks
+      ref: 
+  - entities:
+    - role: player
+      name: Ketel Marte
+      ref: 
+    - role: team
+      name: Arizona Diamondbacks
+      ref: 
+- number: QPC-CSGT
+  uuid: a5de8985-511c-4668-aad4-562be9e3eb59
+  subjects:
+  - entities:
+    - role: player
+      name: Miguel Cabrera
+      ref: 
+    - role: team
+      name: Detroit Tigers
+      ref: 
+  - entities:
+    - role: player
+      name: Riley Greene
+      ref: 
+    - role: team
+      name: Detroit Tigers
+      ref: 
+  - entities:
+    - role: player
+      name: Tarik Skubal
+      ref: 
+    - role: team
+      name: Detroit Tigers
+      ref: 
+  - entities:
+    - role: player
+      name: Spencer Torkelson
+      ref: 
+    - role: team
+      name: Detroit Tigers
+      ref: 
+- number: QPC-CYCF
+  uuid: 42dad48f-9b9a-4f80-b082-a273241e5ed0
+  subjects:
+  - entities:
+    - role: player
+      name: Jackson Chourio
+      ref: 
+    - role: team
+      name: Milwaukee Brewers
+      ref: 
+  - entities:
+    - role: player
+      name: Sal Frelick
+      ref: 
+    - role: team
+      name: Milwaukee Brewers
+      ref: 
+  - entities:
+    - role: player
+      name: William Contreras
+      ref: 
+    - role: team
+      name: Milwaukee Brewers
+      ref: 
+  - entities:
+    - role: player
+      name: Christian Yelich
+      ref: 
+    - role: team
+      name: Milwaukee Brewers
+      ref: 
+- number: QPC-HTWS
+  uuid: 5045161e-25cb-49aa-b0b8-e147d372efb0
+  subjects:
+  - entities:
+    - role: player
+      name: Trea Turner
+      ref: 
+    - role: team
+      name: Philadelphia Phillies
+      ref: 
+  - entities:
+    - role: player
+      name: Zack Wheeler
+      ref: 
+    - role: team
+      name: Philadelphia Phillies
+      ref: 
+  - entities:
+    - role: player
+      name: Kyle Schwarber
+      ref: 
+    - role: team
+      name: Philadelphia Phillies
+      ref: 
+  - entities:
+    - role: player
+      name: Bryce Harper
+      ref: 
+    - role: team
+      name: Philadelphia Phillies
+      ref: 
+- number: QPC-IMDI
+  uuid: d7b3a0f3-71ff-4df4-b59a-c292174520a4
+  subjects:
+  - entities:
+    - role: player
+      name: Yu Darvish
+      ref: 
+    - role: team
+      name: San Diego Padres
+      ref: 
+  - entities:
+    - role: player
+      name: Ichiro
+      ref: 
+    - role: team
+      name: New York Yankees
+      ref: 
+  - entities:
+    - role: player
+      name: Hideki Matsui
+      ref: 
+    - role: team
+      name: Oakland Athletics
+      ref: 
+  - entities:
+    - role: player
+      name: Shota Imanaga
+      ref: 
+    - role: team
+      name: Chicago Cubs
+      ref: 
+- number: QPC-JSCC
+  uuid: 50bfaa07-4f24-42ce-80b2-8f886694db1b
+  subjects:
+  - entities:
+    - role: player
+      name: Aaron Judge
+      ref: 
+    - role: team
+      name: New York Yankees
+      ref: 
+  - entities:
+    - role: player
+      name: Jazz Chisholm Jr.
+      ref: 
+    - role: team
+      name: New York Yankees
+      ref: 
+  - entities:
+    - role: player
+      name: Gerrit Cole
+      ref: 
+    - role: team
+      name: New York Yankees
+      ref: 
+  - entities:
+    - role: player
+      name: Giancarlo Stanton
+      ref: 
+    - role: team
+      name: New York Yankees
+      ref: 
+- number: QPC-JSRP
+  uuid: 73a63b64-f79d-48bb-84ed-71d69068a132
+  subjects:
+  - entities:
+    - role: player
+      name: Derek Jeter
+      ref: 
+    - role: team
+      name: New York Yankees
+      ref: 
+  - entities:
+    - role: player
+      name: Andy Pettitte
+      ref: 
+    - role: team
+      name: New York Yankees
+      ref: 
+  - entities:
+    - role: player
+      name: CC Sabathia
+      ref: 
+    - role: team
+      name: New York Yankees
+      ref: 
+  - entities:
+    - role: player
+      name: Alex Rodriguez
+      ref: 
+    - role: team
+      name: New York Yankees
+      ref: 
+- number: QPC-JTSG
+  uuid: 5b8f151a-40d7-4673-a2d9-64a94bff03c2
+  subjects:
+  - entities:
+    - role: player
+      name: Juan Soto
+      ref: 
+    - role: team
+      name: New York Mets
+      ref: 
+  - entities:
+    - role: player
+      name: Mike Trout
+      ref: 
+    - role: team
+      name: Los Angeles Angels
+      ref: 
+  - entities:
+    - role: player
+      name: Aaron Judge
+      ref: 
+    - role: team
+      name: New York Yankees
+      ref: 
+  - entities:
+    - role: player
+      name: Tony Gwynn
+      ref: 
+    - role: team
+      name: San Diego Padres
+      ref: 
+- number: QPC-LASN
+  uuid: 88f40473-f513-48f3-9826-8a19a29424de
+  subjects:
+  - entities:
+    - role: player
+      name: Pete Alonso
+      ref: 
+    - role: team
+      name: New York Mets
+      ref: 
+  - entities:
+    - role: player
+      name: Juan Soto
+      ref: 
+    - role: team
+      name: New York Mets
+      ref: 
+  - entities:
+    - role: player
+      name: Francisco Lindor
+      ref: 
+    - role: team
+      name: New York Mets
+      ref: 
+  - entities:
+    - role: player
+      name: Brandon Nimmo
+      ref: 
+    - role: team
+      name: New York Mets
+      ref: 
+- number: QPC-LBWH
+  uuid: 4fcf76c3-8a4e-4bc8-8d33-0f135ca61368
+  subjects:
+  - entities:
+    - role: player
+      name: Francisco Lindor
+      ref: 
+    - role: team
+      name: New York Mets
+      ref: 
+  - entities:
+    - role: player
+      name: Mookie Betts
+      ref: 
+    - role: team
+      name: Los Angeles Dodgers
+      ref: 
+  - entities:
+    - role: player
+      name: Gunnar Henderson
+      ref: 
+    - role: team
+      name: Baltimore Orioles
+      ref: 
+  - entities:
+    - role: player
+      name: Bobby Witt Jr.
+      ref: 
+    - role: team
+      name: Kansas City Royals
+      ref: 
+- number: QPC-MMTG
+  uuid: 01e11ead-8db4-42e2-b74f-0dee58f83170
+  subjects:
+  - entities:
+    - role: player
+      name: Tony Gwynn
+      ref: 
+    - role: team
+      name: San Diego Padres
+      ref: 
+  - entities:
+    - role: player
+      name: Fernando Tatis Jr.
+      ref: 
+    - role: team
+      name: San Diego Padres
+      ref: 
+  - entities:
+    - role: player
+      name: Manny Machado
+      ref: 
+    - role: team
+      name: San Diego Padres
+      ref: 
+  - entities:
+    - role: player
+      name: Jackson Merrill
+      ref: 
+    - role: team
+      name: San Diego Padres
+      ref: 
+- number: QPC-OPBC
+  uuid: aff7f445-a5fb-461d-8a0c-093190d247e6
+  subjects:
+  - entities:
+    - role: player
+      name: Alex Bregman
+      ref: 
+    - role: team
+      name: Boston Red Sox
+      ref: 
+  - entities:
+    - role: player
+      name: Dustin Pedroia
+      ref: 
+    - role: team
+      name: Boston Red Sox
+      ref: 
+  - entities:
+    - role: player
+      name: David Ortiz
+      ref: 
+    - role: team
+      name: Boston Red Sox
+      ref: 
+  - entities:
+    - role: player
+      name: Kristian Campbell
+      ref: 
+    - role: team
+      name: Boston Red Sox
+      ref: 
+- number: QPC-RCAT
+  uuid: 886ec573-9edb-4a00-974d-a619fb2ede0f
+  subjects:
+  - entities:
+    - role: player
+      name: Yordan Alvarez
+      ref: 
+    - role: team
+      name: Houston Astros
+      ref: 
+  - entities:
+    - role: player
+      name: Fernando Tatis Jr.
+      ref: 
+    - role: team
+      name: San Diego Padres
+      ref: 
+  - entities:
+    - role: player
+      name: Julio Rodríguez
+      ref: 
+    - role: team
+      name: Seattle Mariners
+      ref: 
+  - entities:
+    - role: player
+      name: Corbin Carroll
+      ref: 
+    - role: team
+      name: Arizona Diamondbacks
+      ref: 
+- number: QPC-RHHR
+  uuid: 1241fb1e-cc7d-414d-a43d-a2a1250e4ddb
+  subjects:
+  - entities:
+    - role: player
+      name: Jackson Holliday
+      ref: 
+    - role: team
+      name: Baltimore Orioles
+      ref: 
+  - entities:
+    - role: player
+      name: Gunnar Henderson
+      ref: 
+    - role: team
+      name: Baltimore Orioles
+      ref: 
+  - entities:
+    - role: player
+      name: Cal Ripken Jr.
+      ref: 
+    - role: team
+      name: Baltimore Orioles
+      ref: 
+  - entities:
+    - role: player
+      name: Adley Rutschman
+      ref: 
+    - role: team
+      name: Baltimore Orioles
+      ref: 
+- number: QPC-RRHG
+  uuid: e1152ed8-0c15-4231-8af8-442734d462f9
+  subjects:
+  - entities:
+    - role: player
+      name: Cal Raleigh
+      ref: 
+    - role: team
+      name: Seattle Mariners
+      ref: 
+  - entities:
+    - role: player
+      name: Félix Hernández
+      ref: 
+    - role: team
+      name: Seattle Mariners
+      ref: 
+  - entities:
+    - role: player
+      name: Julio Rodríguez
+      ref: 
+    - role: team
+      name: Seattle Mariners
+      ref: 
+  - entities:
+    - role: player
+      name: Alex Rodriguez
+      ref: 
+    - role: team
+      name: Seattle Mariners
+      ref: 
+- number: QPC-RTMS
+  uuid: 630ffb62-5789-4fbb-b712-43198cfb4002
+  subjects:
+  - entities:
+    - role: player
+      name: Eddie Murray
+      ref: 
+    - role: team
+      name: Cleveland
+      ref: 
+  - entities:
+    - role: player
+      name: José Ramírez
+      ref: 
+    - role: team
+      name: Cleveland Guardians
+      ref: 
+  - entities:
+    - role: player
+      name: CC Sabathia
+      ref: 
+    - role: team
+      name: Cleveland
+      ref: 
+  - entities:
+    - role: player
+      name: Jim Thome
+      ref: 
+    - role: team
+      name: Cleveland
+      ref: 
+- number: QPC-SCMS
+  uuid: e5d6a60b-4f02-48b2-ab20-6d861718befe
+  subjects:
+  - entities:
+    - role: player
+      name: Oneil Cruz
+      ref: 
+    - role: team
+      name: Pittsburgh Pirates
+      ref: 
+  - entities:
+    - role: player
+      name: Willie Stargell
+      ref: 
+    - role: team
+      name: Pittsburgh Pirates
+      ref: 
+  - entities:
+    - role: player
+      name: Paul Skenes
+      ref: 
+    - role: team
+      name: Pittsburgh Pirates
+      ref: 
+  - entities:
+    - role: player
+      name: Andrew McCutchen
+      ref: 
+    - role: team
+      name: Pittsburgh Pirates
+      ref: 
+- number: QPC-SGSD
+  uuid: a0d86722-d9ce-46bd-87e8-814ea11bb92a
+  subjects:
+  - entities:
+    - role: player
+      name: Adolis García
+      ref: 
+    - role: team
+      name: Texas Rangers
+      ref: 
+  - entities:
+    - role: player
+      name: Marcus Semien
+      ref: 
+    - role: team
+      name: Texas Rangers
+      ref: 
+  - entities:
+    - role: player
+      name: Jacob deGrom
+      ref: 
+    - role: team
+      name: Texas Rangers
+      ref: 
+  - entities:
+    - role: player
+      name: Corey Seager
+      ref: 
+    - role: team
+      name: Texas Rangers
+      ref: 
+- number: QPC-WBTD
+  uuid: c7256fea-148d-4154-b4c3-dd4cd6a15072
+  subjects:
+  - entities:
+    - role: player
+      name: Ezequiel Tovar
+      ref: 
+    - role: team
+      name: Colorado Rockies
+      ref: 
+  - entities:
+    - role: player
+      name: Larry Walker
+      ref: 
+    - role: team
+      name: Colorado Rockies
+      ref: 
+  - entities:
+    - role: player
+      name: Kris Bryant
+      ref: 
+    - role: team
+      name: Colorado Rockies
+      ref: 
+  - entities:
+    - role: player
+      name: Chase Dollander
+      ref: 
+    - role: team
+      name: Colorado Rockies
+      ref: 

@@ -1,0 +1,420 @@
+- number: DCS-AK
+  uuid: c30f2b59-8882-41eb-ab71-43575c4cddee
+  subjects:
+  - entities:
+    - role: player
+      name: Al Kaline
+      ref: 
+    - role: team
+      name: Detroit Tigers
+      ref: 
+- number: DCS-BG
+  uuid: 6ca44667-ff7d-40b1-a1a0-5db90abe58b7
+  subjects:
+  - entities:
+    - role: player
+      name: Bob Gibson
+      ref: 
+    - role: team
+      name: St. Louis Cardinals
+      ref: 
+- number: DCS-BR
+  uuid: 48eec31c-23a7-4cf5-b8c6-b22e99eef173
+  subjects:
+  - entities:
+    - role: player
+      name: Babe Ruth
+      ref: 
+    - role: team
+      name: New York Yankees
+      ref: 
+- number: DCS-CM
+  uuid: a9739fba-adde-4ae5-a077-96379270e1fe
+  subjects:
+  - entities:
+    - role: player
+      name: Connie Mack
+      ref: 
+    - role: team
+      name: Philadelphia Athletics
+      ref: 
+- number: DCS-DS
+  uuid: 191ef2bc-3008-497a-a140-9840a4ef3b04
+  subjects:
+  - entities:
+    - role: player
+      name: Don Sutton
+      ref: 
+    - role: team
+      name: Los Angeles Dodgers
+      ref: 
+- number: DCS-DSN
+  uuid: 2434ec6c-f0c2-4941-b0f2-72e30945a229
+  subjects:
+  - entities:
+    - role: player
+      name: Duke Snider
+      ref: 
+    - role: team
+      name: Brooklyn Dodgers
+      ref: 
+- number: DCS-EB
+  uuid: 6325b9a8-b8a6-4ee4-ac34-7a5c6df6a6a4
+  subjects:
+  - entities:
+    - role: player
+      name: Ernie Banks
+      ref: 
+    - role: team
+      name: Chicago Cubs
+      ref: 
+- number: DCS-EM
+  uuid: d33719e2-5df6-492a-ad3f-7097ca4f7897
+  subjects:
+  - entities:
+    - role: player
+      name: Eddie Mathews
+      ref: 
+    - role: team
+      name: Milwaukee Braves
+      ref: 
+- number: DCS-ES
+  uuid: 606a827a-0510-4fe8-b6d5-9792a1891a8c
+  subjects:
+  - entities:
+    - role: player
+      name: Enos Slaughter
+      ref: 
+    - role: team
+      name: St. Louis Cardinals
+      ref: 
+- number: DCS-EW
+  uuid: 90eb1302-1212-4f04-9828-a01af636115d
+  subjects:
+  - entities:
+    - role: player
+      name: Earl Weaver
+      ref: 
+    - role: team
+      name: Baltimore Orioles
+      ref: 
+- number: DCS-GC
+  uuid: da506131-e74a-4e03-9079-75dd90276c9c
+  subjects:
+  - entities:
+    - role: player
+      name: Gary Carter
+      ref: 
+    - role: team
+      name: New York Mets
+      ref: 
+- number: DCS-GH
+  uuid: 46d6e81c-4a54-471d-ad40-deee47a157db
+  subjects:
+  - entities:
+    - role: player
+      name: Gabby Hartnett
+      ref: 
+    - role: team
+      name: Chicago Cubs
+      ref: 
+- number: DCS-GS
+  uuid: 70a6cbdd-9705-4496-acce-7cba045d15a7
+  subjects:
+  - entities:
+    - role: player
+      name: George Sisler
+      ref: 
+    - role: team
+      name: St. Louis Browns
+      ref: 
+- number: DCS-HA
+  uuid: f8ca3328-d0da-4d41-a33a-aacedd5857fe
+  subjects:
+  - entities:
+    - role: player
+      name: Hank Aaron
+      ref: 
+    - role: team
+      name: Atlanta Braves
+      ref: 
+- number: DCS-HG
+  uuid: 2db8d656-585d-40a9-8ae8-a4ee3ece3f5f
+  subjects:
+  - entities:
+    - role: player
+      name: Hank Greenberg
+      ref: 
+    - role: team
+      name: Detroit Tigers
+      ref: 
+- number: DCS-HK
+  uuid: 21aa385a-e6ca-480c-8da4-2a4ba825f1f5
+  subjects:
+  - entities:
+    - role: player
+      name: Harmon Killebrew
+      ref: 
+    - role: team
+      name: Minnesota Twins
+      ref: 
+- number: DCS-HW
+  uuid: ec78be63-e72e-40a6-bbba-b80d38d64e24
+  subjects:
+  - entities:
+    - role: player
+      name: Honus Wagner
+      ref: 
+    - role: team
+      name: Pittsburgh Pirates
+      ref: 
+- number: DCS-JR
+  uuid: 6a722a92-43a7-40d0-97f5-e78ad55f4781
+  subjects:
+  - entities:
+    - role: player
+      name: Jackie Robinson
+      ref: 
+    - role: team
+      name: Brooklyn Dodgers
+      ref: 
+- number: DCS-KP
+  uuid: 79066651-4cbe-42bd-b6e7-7326da7c720c
+  subjects:
+  - entities:
+    - role: player
+      name: Kirby Puckett
+      ref: 
+    - role: team
+      name: Minnesota Twins
+      ref: 
+- number: DCS-LB
+  uuid: 4cec67bc-f0ab-4fc3-843a-26fc35334215
+  subjects:
+  - entities:
+    - role: player
+      name: Lou Brock
+      ref: 
+    - role: team
+      name: St. Louis Cardinals
+      ref: 
+- number: DCS-LD
+  uuid: '092cc6e7-31c1-41c2-a86f-2c065b41c6e3'
+  subjects:
+  - entities:
+    - role: player
+      name: Larry Doby
+      ref: 
+    - role: team
+      name: Cleveland
+      ref: 
+- number: DCS-MM
+  uuid: ab7cf108-4446-4269-9267-9d0899256f79
+  subjects:
+  - entities:
+    - role: player
+      name: Mickey Mantle
+      ref: 
+    - role: team
+      name: New York Yankees
+      ref: 
+- number: DCS-OC
+  uuid: 37cdcbab-f942-4704-872d-324b9227cb4c
+  subjects:
+  - entities:
+    - role: player
+      name: Orlando Cepeda
+      ref: 
+    - role: team
+      name: San Francisco Giants
+      ref: 
+- number: DCS-PN
+  uuid: 0b756cfe-0ede-439f-88a3-6527e293c8c0
+  subjects:
+  - entities:
+    - role: player
+      name: Phil Niekro
+      ref: 
+    - role: team
+      name: Atlanta Braves
+      ref: 
+- number: DCS-PR
+  uuid: f66a81d6-45c9-4aa2-8b2a-a0c73f88c5f8
+  subjects:
+  - entities:
+    - role: player
+      name: Pee Wee Reese
+      ref: 
+    - role: team
+      name: Brooklyn Dodgers
+      ref: 
+- number: DCS-RC
+  uuid: 33868f12-65b1-40dd-b447-d88b7bc2a87d
+  subjects:
+  - entities:
+    - role: player
+      name: Roberto Clemente
+      ref: 
+    - role: team
+      name: Pittsburgh Pirates
+      ref: 
+- number: DCS-RH
+  uuid: '0059f23f-8973-4688-b0aa-41e1e6e1fa0d'
+  subjects:
+  - entities:
+    - role: player
+      name: Rickey Henderson
+      ref: 
+    - role: team
+      name: Oakland Athletics
+      ref: 
+- number: DCS-RM
+  uuid: 00c81d02-85e0-424f-b9bb-72e6a263c078
+  subjects:
+  - entities:
+    - role: player
+      name: Roger Maris
+      ref: 
+    - role: team
+      name: New York Yankees
+      ref: 
+- number: DCS-ROY
+  uuid: 148aceff-9344-4ba6-a195-b893c8c58357
+  subjects:
+  - entities:
+    - role: player
+      name: Roy Campanella
+      ref: 
+    - role: team
+      name: Brooklyn Dodgers
+      ref: 
+- number: DCS-RS
+  uuid: aed49153-af49-4256-a814-a4cd594e33cc
+  subjects:
+  - entities:
+    - role: player
+      name: Ron Santo
+      ref: 
+    - role: team
+      name: Chicago Cubs
+      ref: 
+- number: DCS-SM
+  uuid: '038fd462-09cd-49f9-8674-bbe5c177ac5a'
+  subjects:
+  - entities:
+    - role: player
+      name: Stan Musial
+      ref: 
+    - role: team
+      name: St. Louis Cardinals
+      ref: 
+- number: DCS-SP
+  uuid: 050c680f-0999-4f80-92e4-078ad7d07930
+  subjects:
+  - entities:
+    - role: player
+      name: Satchel Paige
+      ref: 
+    - role: team
+      name: St. Louis Browns
+      ref: 
+- number: DCS-TC
+  uuid: 4500b7b9-0156-4a66-ad58-5d2ff58963bf
+  subjects:
+  - entities:
+    - role: player
+      name: Ty Cobb
+      ref: 
+    - role: team
+      name: Detroit Tigers
+      ref: 
+- number: DCS-TG
+  uuid: 5f8e05f5-13ac-4716-9ea5-d42fe650777f
+  subjects:
+  - entities:
+    - role: player
+      name: Tony Gwynn
+      ref: 
+    - role: team
+      name: San Diego Padres
+      ref: 
+- number: DCS-TL
+  uuid: d24d52d2-7de1-4b32-aee4-3dfcb18a706f
+  subjects:
+  - entities:
+    - role: player
+      name: Tommy Lasorda
+      ref: 
+    - role: team
+      name: Los Angeles Dodgers
+      ref: 
+- number: DCS-TS
+  uuid: fffc76d6-8851-4a1b-929b-41d2fd1b4525
+  subjects:
+  - entities:
+    - role: player
+      name: Tris Speaker
+      ref: 
+    - role: team
+      name: Cleveland
+      ref: 
+- number: DCS-VS
+  uuid: f03b9ed8-5182-4e16-a00f-8a6b7551da48
+  subjects:
+  - entities:
+    - role: player
+      name: Vin Scully
+      ref: 
+    - role: team
+      name: Los Angeles Dodgers
+      ref: 
+- number: DCS-WF
+  uuid: bcf081f0-2d1f-4d41-bc09-90112dd69e9d
+  subjects:
+  - entities:
+    - role: player
+      name: Whitey Ford
+      ref: 
+    - role: team
+      name: New York Yankees
+      ref: 
+- number: DCS-WM
+  uuid: a0201643-8597-42e5-ab47-7c3966f8a82c
+  subjects:
+  - entities:
+    - role: player
+      name: Willie Mays
+      ref: 
+    - role: team
+      name: San Francisco Giants
+      ref: 
+- number: DCS-WMC
+  uuid: 30044cd4-b779-4054-b957-683471d68abe
+  subjects:
+  - entities:
+    - role: player
+      name: Willie McCovey
+      ref: 
+    - role: team
+      name: San Francisco Giants
+      ref: 
+- number: DCS-WS
+  uuid: 53636e81-810b-45e4-bede-812131fb89eb
+  subjects:
+  - entities:
+    - role: player
+      name: Warren Spahn
+      ref: 
+    - role: team
+      name: Milwaukee Braves
+      ref: 
+- number: DCS-WST
+  uuid: 0046dca5-e938-4973-9faa-aabfea1e7f76
+  subjects:
+  - entities:
+    - role: player
+      name: Willie Stargell
+      ref: 
+    - role: team
+      name: Pittsburgh Pirates
+      ref: 

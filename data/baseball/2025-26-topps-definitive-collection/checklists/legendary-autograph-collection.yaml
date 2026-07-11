@@ -1,0 +1,460 @@
+- number: LAC-AB
+  uuid: a279ef66-66fc-4fd4-be2b-3ebe10502ab3
+  subjects:
+  - entities:
+    - role: player
+      name: Adrian Beltré
+      ref: 
+    - role: team
+      name: Texas Rangers
+      ref: 
+- number: LAC-AP
+  uuid: 6fb9153d-8fde-4a2e-9714-17ca6bd9c110
+  subjects:
+  - entities:
+    - role: player
+      name: Andy Pettitte
+      ref: 
+    - role: team
+      name: New York Yankees
+      ref: 
+- number: LAC-AR
+  uuid: 35b30aae-06ab-4850-baf1-f5f9c0386479
+  subjects:
+  - entities:
+    - role: player
+      name: Alex Rodriguez
+      ref: 
+    - role: team
+      name: New York Yankees
+      ref: 
+- number: LAC-BB
+  uuid: f6deb81f-e531-4b17-b585-78b9a37d7a55
+  subjects:
+  - entities:
+    - role: player
+      name: Barry Bonds
+      ref: 
+    - role: team
+      name: San Francisco Giants
+      ref: 
+- number: LAC-BJ
+  uuid: 61bb4217-6648-4e60-80f7-378f5c7b9aa5
+  subjects:
+  - entities:
+    - role: player
+      name: Bo Jackson
+      ref: 
+    - role: team
+      name: Kansas City Royals
+      ref: 
+- number: LAC-BP
+  uuid: 7dc68acf-f568-4261-9ba1-db322d4a16fe
+  subjects:
+  - entities:
+    - role: player
+      name: Buster Posey
+      ref: 
+    - role: team
+      name: San Francisco Giants
+      ref: 
+- number: LAC-CF
+  uuid: 3dc009d9-26ff-4598-857f-d209e3429478
+  subjects:
+  - entities:
+    - role: player
+      name: Carlton Fisk
+      ref: 
+    - role: team
+      name: Chicago White Sox
+      ref: 
+- number: LAC-CJ
+  uuid: f36b860d-0f17-4a13-a540-3648249611a9
+  subjects:
+  - entities:
+    - role: player
+      name: Chipper Jones
+      ref: 
+    - role: team
+      name: Atlanta Braves
+      ref: 
+- number: LAC-CR
+  uuid: 56222887-5d1a-40bd-a8f6-4b3b8423717f
+  subjects:
+  - entities:
+    - role: player
+      name: Cal Ripken Jr.
+      ref: 
+    - role: team
+      name: Baltimore Orioles
+      ref: 
+- number: LAC-DJ
+  uuid: 539004e0-11dd-4a8b-8ccd-655753ed8261
+  subjects:
+  - entities:
+    - role: player
+      name: Derek Jeter
+      ref: 
+    - role: team
+      name: New York Yankees
+      ref: 
+- number: LAC-DM
+  uuid: 64918446-30a1-4c01-8584-f5853b66fca4
+  subjects:
+  - entities:
+    - role: player
+      name: Don Mattingly
+      ref: 
+    - role: team
+      name: New York Yankees
+      ref: 
+- number: LAC-DMU
+  uuid: 880e3661-ea04-43c9-b261-26881cd80b01
+  subjects:
+  - entities:
+    - role: player
+      name: Dale Murphy
+      ref: 
+    - role: team
+      name: Atlanta Braves
+      ref: 
+- number: LAC-DO
+  uuid: 6250dfe9-d608-4515-9080-7f2c1cf9321f
+  subjects:
+  - entities:
+    - role: player
+      name: David Ortiz
+      ref: 
+    - role: team
+      name: Boston Red Sox
+      ref: 
+- number: LAC-DW
+  uuid: 077f7a31-85f9-44d2-a07e-c1a6f9e77795
+  subjects:
+  - entities:
+    - role: player
+      name: Dave Winfield
+      ref: 
+    - role: team
+      name: San Diego Padres
+      ref: 
+- number: LAC-EM
+  uuid: 53b8cea8-35e6-4207-9ba2-f02298f9a181
+  subjects:
+  - entities:
+    - role: player
+      name: Edgar Martinez
+      ref: 
+    - role: team
+      name: Seattle Mariners
+      ref: 
+- number: LAC-EMU
+  uuid: 8171b00c-7143-4b58-abfa-61e943441d17
+  subjects:
+  - entities:
+    - role: player
+      name: Eddie Murray
+      ref: 
+    - role: team
+      name: Baltimore Orioles
+      ref: 
+- number: LAC-FM
+  uuid: 1f3e9077-3d29-44bf-b397-be1abb05cfdd
+  subjects:
+  - entities:
+    - role: player
+      name: Fred McGriff
+      ref: 
+    - role: team
+      name: Tampa Bay Devil Rays
+      ref: 
+- number: LAC-FT
+  uuid: 22df21f1-0408-4021-9f03-82aeb215e3b1
+  subjects:
+  - entities:
+    - role: player
+      name: Frank Thomas
+      ref: 
+    - role: team
+      name: Chicago White Sox
+      ref: 
+- number: LAC-GB
+  uuid: 31563827-5741-4c1f-bddf-beb5448e155f
+  subjects:
+  - entities:
+    - role: player
+      name: George Brett
+      ref: 
+    - role: team
+      name: Kansas City Royals
+      ref: 
+- number: LAC-GM
+  uuid: 6319e600-99cb-4692-ab57-eb73128f2514
+  subjects:
+  - entities:
+    - role: player
+      name: Greg Maddux
+      ref: 
+    - role: team
+      name: Chicago Cubs
+      ref: 
+- number: LAC-HM
+  uuid: 3d974673-a34c-4dcb-baf1-476d91f385fe
+  subjects:
+  - entities:
+    - role: player
+      name: Hideki Matsui
+      ref: 
+    - role: team
+      name: New York Yankees
+      ref: 
+- number: LAC-HN
+  uuid: 3d0f43bf-dc51-4541-838f-42fba6f0d265
+  subjects:
+  - entities:
+    - role: player
+      name: Hideo Nomo
+      ref: 
+    - role: team
+      name: Los Angeles Dodgers
+      ref: 
+- number: LAC-I
+  uuid: 9a671b91-8e95-45d6-bf17-e85f5bc7f37c
+  subjects:
+  - entities:
+    - role: player
+      name: Ichiro
+      ref: 
+    - role: team
+      name: Seattle Mariners
+      ref: 
+- number: LAC-IR
+  uuid: 560d27f3-858f-4e5a-b3bc-642d3d905b63
+  subjects:
+  - entities:
+    - role: player
+      name: Ivan Rodriguez
+      ref: 
+    - role: team
+      name: Texas Rangers
+      ref: 
+- number: LAC-JB
+  uuid: 3b681802-4ea1-4c6d-9331-e926e410f2c7
+  subjects:
+  - entities:
+    - role: player
+      name: Johnny Bench
+      ref: 
+    - role: team
+      name: Cincinnati Reds
+      ref: 
+- number: LAC-JR
+  uuid: 4f4da643-9192-43a6-a959-61f04c77dd46
+  subjects:
+  - entities:
+    - role: player
+      name: Jimmy Rollins
+      ref: 
+    - role: team
+      name: Philadelphia Phillies
+      ref: 
+- number: LAC-JS
+  uuid: f7891ea3-015f-4dcd-ae24-ecdf520c0171
+  subjects:
+  - entities:
+    - role: player
+      name: John Smoltz
+      ref: 
+    - role: team
+      name: Atlanta Braves
+      ref: 
+- number: LAC-JSA
+  uuid: e1bdc76a-9076-41ad-9aba-23a15f9a2de9
+  subjects:
+  - entities:
+    - role: player
+      name: Johan Santana
+      ref: 
+    - role: team
+      name: New York Mets
+      ref: 
+- number: LAC-JV
+  uuid: 53a173aa-5cdd-40d9-85eb-9bb6b31983bb
+  subjects:
+  - entities:
+    - role: player
+      name: Joey Votto
+      ref: 
+    - role: team
+      name: Cincinnati Reds
+      ref: 
+- number: LAC-KG
+  uuid: bbbcafe9-dfd5-41aa-9106-86d4c8ec6091
+  subjects:
+  - entities:
+    - role: player
+      name: Ken Griffey Jr.
+      ref: 
+    - role: team
+      name: Seattle Mariners
+      ref: 
+- number: LAC-MC
+  uuid: 8a5fbb88-3b68-4f9e-aaf9-78221517f19e
+  subjects:
+  - entities:
+    - role: player
+      name: Miguel Cabrera
+      ref: 
+    - role: team
+      name: Detroit Tigers
+      ref: 
+- number: LAC-MM
+  uuid: 85bcc5fd-e679-47f3-985e-a4b70563986b
+  subjects:
+  - entities:
+    - role: player
+      name: Mark McGwire
+      ref: 
+    - role: team
+      name: St. Louis Cardinals
+      ref: 
+- number: LAC-MP
+  uuid: 9041e124-0a9b-48c7-af78-3223a92ac7da
+  subjects:
+  - entities:
+    - role: player
+      name: Mike Piazza
+      ref: 
+    - role: team
+      name: New York Mets
+      ref: 
+- number: LAC-MS
+  uuid: 2cd15776-b0f4-4521-97ed-5edc41af0a32
+  subjects:
+  - entities:
+    - role: player
+      name: Mike Schmidt
+      ref: 
+    - role: team
+      name: Philadelphia Phillies
+      ref: 
+- number: LAC-NR
+  uuid: d861362c-9239-42e5-9e57-769c3498bbc8
+  subjects:
+  - entities:
+    - role: player
+      name: Nolan Ryan
+      ref: 
+    - role: team
+      name: Texas Rangers
+      ref: 
+- number: LAC-OH
+  uuid: e7c0b399-a7f7-45fd-8351-8dd73829032c
+  subjects:
+  - entities:
+    - role: player
+      name: Orel Hershiser
+      ref: 
+    - role: team
+      name: Los Angeles Dodgers
+      ref: 
+- number: LAC-RC
+  uuid: e55864df-0728-4fe3-acd4-f415f670a2d5
+  subjects:
+  - entities:
+    - role: player
+      name: Roger Clemens
+      ref: 
+    - role: team
+      name: Toronto Blue Jays
+      ref: 
+- number: LAC-RJ
+  uuid: 3a3b75fd-2919-4864-a8db-c74adde81417
+  subjects:
+  - entities:
+    - role: player
+      name: Randy Johnson
+      ref: 
+    - role: team
+      name: Seattle Mariners
+      ref: 
+- number: LAC-RJA
+  uuid: de36e6dc-f04b-4d9f-b0c1-58be63b34b3e
+  subjects:
+  - entities:
+    - role: player
+      name: Reggie Jackson
+      ref: 
+    - role: team
+      name: New York Yankees
+      ref: 
+- number: LAC-RY
+  uuid: 137d8e2a-1c43-4a39-bee8-e61a2f4b8cc6
+  subjects:
+  - entities:
+    - role: player
+      name: Robin Yount
+      ref: 
+    - role: team
+      name: Milwaukee Brewers
+      ref: 
+- number: LAC-SK
+  uuid: 32b3d112-7875-48bf-aa0a-2728617219ec
+  subjects:
+  - entities:
+    - role: player
+      name: Sandy Koufax
+      ref: 
+    - role: team
+      name: Los Angeles Dodgers
+      ref: 
+- number: LAC-TG
+  uuid: cf496c78-18d4-485b-94a5-397738766046
+  subjects:
+  - entities:
+    - role: player
+      name: Tom Glavine
+      ref: 
+    - role: team
+      name: Atlanta Braves
+      ref: 
+- number: LAC-TH
+  uuid: da5a113e-0441-40ec-b8c4-f43748c85f9a
+  subjects:
+  - entities:
+    - role: player
+      name: Torii Hunter
+      ref: 
+    - role: team
+      name: Minnesota Twins
+      ref: 
+- number: LAC-TO
+  uuid: f01d07e0-e9f4-44ec-8107-85eb9735bcd5
+  subjects:
+  - entities:
+    - role: player
+      name: Tony Oliva
+      ref: 
+    - role: team
+      name: Minnesota Twins
+      ref: 
+- number: LAC-VG
+  uuid: a437e949-c5b9-4b12-8aa1-f0f7268f39a4
+  subjects:
+  - entities:
+    - role: player
+      name: Vladimir Guerrero
+      ref: 
+    - role: team
+      name: Montreál Expos
+      ref: 
+- number: LAC-WB
+  uuid: f353779c-d8cf-4dda-bf1f-c9821c509061
+  subjects:
+  - entities:
+    - role: player
+      name: Wade Boggs
+      ref: 
+    - role: team
+      name: Boston Red Sox
+      ref: 

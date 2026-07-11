@@ -1,0 +1,430 @@
+- number: DIAC-ABR
+  uuid: c5f63d7a-57cd-4850-864c-f0183bacbc3b
+  subjects:
+  - entities:
+    - role: player
+      name: Alex Bregman
+      ref: 
+    - role: team
+      name: Boston Red Sox
+      ref: 
+- number: DIAC-AR
+  uuid: f1968d13-38d1-4e5a-9810-2f32d132691b
+  subjects:
+  - entities:
+    - role: player
+      name: Adley Rutschman
+      ref: 
+    - role: team
+      name: Baltimore Orioles
+      ref: 
+- number: DIAC-BB
+  uuid: 530df3c6-5434-4e50-88df-d7bebefe76b0
+  subjects:
+  - entities:
+    - role: player
+      name: Byron Buxton
+      ref: 
+    - role: team
+      name: Minnesota Twins
+      ref: 
+- number: DIAC-CC
+  uuid: 618f0163-4b3c-45c0-bf17-6c687b48b591
+  subjects:
+  - entities:
+    - role: player
+      name: Corbin Carroll
+      ref: 
+    - role: team
+      name: Arizona Diamondbacks
+      ref: 
+- number: DIAC-CF
+  uuid: 7f84f77c-9f36-4409-9113-544bdb8bb5a7
+  subjects:
+  - entities:
+    - role: player
+      name: Carlton Fisk
+      ref: 
+    - role: team
+      name: Boston Red Sox
+      ref: 
+- number: DIAC-CJ
+  uuid: '0964732d-3871-4467-a7ae-9777efadc1ee'
+  subjects:
+  - entities:
+    - role: player
+      name: Chipper Jones
+      ref: 
+    - role: team
+      name: Atlanta Braves
+      ref: 
+- number: DIAC-CK
+  uuid: b456d0de-48c2-4c03-be78-a2c6c40f4848
+  subjects:
+  - entities:
+    - role: player
+      name: Clayton Kershaw
+      ref: 
+    - role: team
+      name: Los Angeles Dodgers
+      ref: 
+- number: DIAC-CM
+  uuid: d5759e64-e878-420a-a544-62c170dcae48
+  subjects:
+  - entities:
+    - role: player
+      name: Coby Mayo
+      ref: 
+    - role: team
+      name: Baltimore Orioles
+      ref: 
+- number: DIAC-CS
+  uuid: c81639ee-9923-4e52-8803-d0b8b6569ada
+  subjects:
+  - entities:
+    - role: player
+      name: Cam Smith
+      ref: 
+    - role: team
+      name: Houston Astros
+      ref: 
+- number: DIAC-DO
+  uuid: 2956ddeb-4c50-4f61-95d9-528294cd64e3
+  subjects:
+  - entities:
+    - role: player
+      name: David Ortiz
+      ref: 
+    - role: team
+      name: Boston Red Sox
+      ref: 
+- number: DIAC-FL
+  uuid: 03a1cd8d-78b0-4b91-a284-7aa07a852299
+  subjects:
+  - entities:
+    - role: player
+      name: Francisco Lindor
+      ref: 
+    - role: team
+      name: New York Mets
+      ref: 
+- number: DIAC-FT
+  uuid: 745556e2-c859-47df-9dc3-7aa5cda0f259
+  subjects:
+  - entities:
+    - role: player
+      name: Frank Thomas
+      ref: 
+    - role: team
+      name: Chicago White Sox
+      ref: 
+- number: DIAC-FTJ
+  uuid: 53887ef1-220d-4cdf-a92e-0d2c08d5035d
+  subjects:
+  - entities:
+    - role: player
+      name: Fernando Tatis Jr.
+      ref: 
+    - role: team
+      name: San Diego Padres
+      ref: 
+- number: DIAC-GB
+  uuid: 32075b4d-6f28-492e-86ea-1bd7f95ab255
+  subjects:
+  - entities:
+    - role: player
+      name: George Brett
+      ref: 
+    - role: team
+      name: Kansas City Royals
+      ref: 
+- number: DIAC-IR
+  uuid: 4ce3db3c-be3e-496f-8544-ece5a830bc68
+  subjects:
+  - entities:
+    - role: player
+      name: Ivan Rodriguez
+      ref: 
+    - role: team
+      name: Texas Rangers
+      ref: 
+- number: DIAC-JCJ
+  uuid: c539a28a-ad75-4eee-9f48-c850894fe56c
+  subjects:
+  - entities:
+    - role: player
+      name: Jazz Chisholm Jr.
+      ref: 
+    - role: team
+      name: New York Yankees
+      ref: 
+- number: DIAC-JD
+  uuid: 7d8165b2-e318-49f7-9207-17e2f18ea80f
+  subjects:
+  - entities:
+    - role: player
+      name: Jasson Domínguez
+      ref: 
+    - role: team
+      name: New York Yankees
+      ref: 
+- number: DIAC-JH
+  uuid: 8f0b7d16-f5dc-43c5-854d-d09db323e4f4
+  subjects:
+  - entities:
+    - role: player
+      name: Jackson Holliday
+      ref: 
+    - role: team
+      name: Baltimore Orioles
+      ref: 
+- number: DIAC-JL
+  uuid: 3ef3aaa3-8bdb-404f-8c02-8eca86960cf7
+  subjects:
+  - entities:
+    - role: player
+      name: Jung Hoo Lee
+      ref: 
+    - role: team
+      name: San Francisco Giants
+      ref: 
+- number: DIAC-JM
+  uuid: 62da8395-cb5d-4fbe-b8f8-695207c9788b
+  subjects:
+  - entities:
+    - role: player
+      name: Jackson Merrill
+      ref: 
+    - role: team
+      name: San Diego Padres
+      ref: 
+- number: DIAC-JR
+  uuid: b8c91b2d-5e39-4a07-b6e6-7230091bc95c
+  subjects:
+  - entities:
+    - role: player
+      name: José Ramírez
+      ref: 
+    - role: team
+      name: Cleveland Guardians
+      ref: 
+- number: DIAC-JS
+  uuid: a428a19a-759f-4a13-bd4d-547b56e7b42c
+  subjects:
+  - entities:
+    - role: player
+      name: Juan Soto
+      ref: 
+    - role: team
+      name: New York Mets
+      ref: 
+- number: DIAC-JV
+  uuid: f0c5a54d-4b7f-4244-a612-644e589e0b71
+  subjects:
+  - entities:
+    - role: player
+      name: Joey Votto
+      ref: 
+    - role: team
+      name: Cincinnati Reds
+      ref: 
+- number: DIAC-KC
+  uuid: e8bcdcfa-5618-4cdc-8c62-2b7d29cff2cc
+  subjects:
+  - entities:
+    - role: player
+      name: Kristian Campbell
+      ref: 
+    - role: team
+      name: Boston Red Sox
+      ref: 
+- number: DIAC-KTU
+  uuid: 3afec1bd-8615-49c3-9e4b-4818b9cbee70
+  subjects:
+  - entities:
+    - role: player
+      name: Kyle Tucker
+      ref: 
+    - role: team
+      name: Chicago Cubs
+      ref: 
+- number: DIAC-MC
+  uuid: 7946296d-3872-46e9-bfbb-b1922f5bee38
+  subjects:
+  - entities:
+    - role: player
+      name: Miguel Cabrera
+      ref: 
+    - role: team
+      name: Detroit Tigers
+      ref: 
+- number: DIAC-MO
+  uuid: 69d30625-d781-4c61-868a-74d6d874c76f
+  subjects:
+  - entities:
+    - role: player
+      name: Matt Olson
+      ref: 
+    - role: team
+      name: Atlanta Braves
+      ref: 
+- number: DIAC-MS
+  uuid: 88973de2-749c-4f3f-b4f1-723ffe15aa10
+  subjects:
+  - entities:
+    - role: player
+      name: Matt Shaw
+      ref: 
+    - role: team
+      name: Chicago Cubs
+      ref: 
+- number: DIAC-MT
+  uuid: 3d497b2d-b933-4a10-970b-2b93ef7ade84
+  subjects:
+  - entities:
+    - role: player
+      name: Mike Trout
+      ref: 
+    - role: team
+      name: Los Angeles Angels
+      ref: 
+- number: DIAC-PA
+  uuid: bcc7bd4d-caf1-4893-8679-b9c390540ce3
+  subjects:
+  - entities:
+    - role: player
+      name: Pete Alonso
+      ref: 
+    - role: team
+      name: New York Mets
+      ref: 
+- number: DIAC-PF
+  uuid: e0681a88-0133-42fd-a52c-3587ea318188
+  subjects:
+  - entities:
+    - role: player
+      name: Prince Fielder
+      ref: 
+    - role: team
+      name: Milwaukee Brewers
+      ref: 
+- number: DIAC-PM
+  uuid: 4ec20f27-5b57-4afd-8490-9ee7fe7cd234
+  subjects:
+  - entities:
+    - role: player
+      name: Paul Molitor
+      ref: 
+    - role: team
+      name: Milwaukee Brewers
+      ref: 
+- number: DIAC-RH
+  uuid: 740b9fe7-61f0-457e-b051-71e1578377dd
+  subjects:
+  - entities:
+    - role: player
+      name: Ryan Howard
+      ref: 
+    - role: team
+      name: Philadelphia Phillies
+      ref: 
+- number: DIAC-RJ
+  uuid: 4a9e4835-a316-4cf8-b449-62135edcbc72
+  subjects:
+  - entities:
+    - role: player
+      name: Randy Johnson
+      ref: 
+    - role: team
+      name: Arizona Diamondbacks
+      ref: 
+- number: DIAC-RJA
+  uuid: 67bfc5e1-70fb-46f5-a222-a89d6cd26181
+  subjects:
+  - entities:
+    - role: player
+      name: Reggie Jackson
+      ref: 
+    - role: team
+      name: New York Yankees
+      ref: 
+- number: DIAC-RS
+  uuid: 7d3e0de7-e9e0-4c5d-9d6d-5bde1b886d61
+  subjects:
+  - entities:
+    - role: player
+      name: Roki Sasaki
+      ref: 
+    - role: team
+      name: Los Angeles Dodgers
+      ref: 
+- number: DIAC-RY
+  uuid: 7d4f0459-3fac-4ffc-95e9-9c6f79fb3feb
+  subjects:
+  - entities:
+    - role: player
+      name: Robin Yount
+      ref: 
+    - role: team
+      name: Milwaukee Brewers
+      ref: 
+- number: DIAC-SI
+  uuid: 82eefd41-3868-4726-b07b-7b0d66caf4ba
+  subjects:
+  - entities:
+    - role: player
+      name: Shota Imanaga
+      ref: 
+    - role: team
+      name: Chicago Cubs
+      ref: 
+- number: DIAC-TT
+  uuid: 2118ea66-0045-46b1-8a99-8ca2944b76bf
+  subjects:
+  - entities:
+    - role: player
+      name: Trea Turner
+      ref: 
+    - role: team
+      name: Philadelphia Phillies
+      ref: 
+- number: DIAC-VG
+  uuid: 36a3664d-8163-4642-8376-701698db3972
+  subjects:
+  - entities:
+    - role: player
+      name: Vladimir Guerrero
+      ref: 
+    - role: team
+      name: Los Angeles Angels
+      ref: 
+- number: DIAC-VGJ
+  uuid: d4fde73d-7539-4264-a3db-43a3f390c781
+  subjects:
+  - entities:
+    - role: player
+      name: Vladimir Guerrero Jr.
+      ref: 
+    - role: team
+      name: Toronto Blue Jays
+      ref: 
+- number: DIAC-WB
+  uuid: 34da68da-e75f-454f-b81c-b1b042197753
+  subjects:
+  - entities:
+    - role: player
+      name: Wade Boggs
+      ref: 
+    - role: team
+      name: Boston Red Sox
+      ref: 
+- number: DIAC-WL
+  uuid: 47b249a2-ff4f-41fb-b19c-b0c3362dc226
+  subjects:
+  - entities:
+    - role: player
+      name: Wyatt Langford
+      ref: 
+    - role: team
+      name: Texas Rangers
+      ref: 
