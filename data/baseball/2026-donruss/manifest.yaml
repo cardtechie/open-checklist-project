@@ -3,7 +3,18 @@ base_sets:
 - id: base-set
   name: Base Set
   uuid: ca3b20a9-e66e-5011-a151-b3b7ff977479
-  declared_card_count: 100
+  declared_card_count: 200
+  sections:
+  - id: veterans-legends
+    name: Veterans/Legends
+    range:
+      from: '1'
+      to: '100'
+  - id: rated-prospects
+    name: Rated Prospects
+    range:
+      from: '101'
+      to: '200'
   parallels:
   - name: Artist Proof
     print_run: 25
@@ -93,170 +104,18 @@ base_sets:
     uuid: d34e49ec-b153-5d6c-bbf1-868aa4d76567
     type:
     - insert
-    declared_card_count: 100
-    parallels:
-    - name: Black Finite
-      print_run: 1
-      serial_numbered: true
-    - name: Black Pandora
-    - name: Black Velocity
-      print_run: 39
-      serial_numbered: true
-    - name: Blue Cracked Ice
-      print_run: 15
-      serial_numbered: true
-    - name: Blue Glitter
-      print_run: 6
-      serial_numbered: true
-    - name: Blue Velocity
-    - name: Circles
-    - name: Cracked Ice
-      print_run: 25
-      serial_numbered: true
-    - name: Electricity
-      print_run: 69
-      serial_numbered: true
-    - name: Flex
-      print_run: 149
-      serial_numbered: true
-    - name: Gold
-      print_run: 10
-      serial_numbered: true
-    - name: Gold Glitter
-      print_run: 4
-      serial_numbered: true
-    - name: Gold Velocity
-      print_run: 10
-      serial_numbered: true
-    - name: Gold Vinyl
-      print_run: 1
-      serial_numbered: true
-    - name: Green
-      print_run: 5
-      serial_numbered: true
-    - name: Green Scope
-      print_run: 65
-      serial_numbered: true
-    - name: Green Velocity
-      print_run: 149
-      serial_numbered: true
-    - name: Holo
-    - name: Jazz
-    - name: Lime Green
-      print_run: 149
-      serial_numbered: true
-    - name: Orange
-      print_run: 199
-      serial_numbered: true
-    - name: Orange Scope
-      print_run: 79
-      serial_numbered: true
-    - name: Orange Velocity
-    - name: Pink Velocity
-      print_run: 79
-      serial_numbered: true
-    - name: Purple
-      print_run: 49
-      serial_numbered: true
-    - name: Red
-      print_run: 99
-      serial_numbered: true
-    - name: Shock
-  - id: base-rated-prospects
-    name: Base - Rated Prospects
-    uuid: e39faa24-ed0b-5758-9ede-3f8550ee79c5
-    type:
-    - insert
-    declared_card_count: 100
-    parallels:
-    - name: Artist Proof
-      print_run: 25
-      serial_numbered: true
-    - name: Artist Proof Black
-      print_run: 1
-      serial_numbered: true
-    - name: Black
-      print_run: 1
-      serial_numbered: true
-    - name: Blue
-      print_run: 149
-      serial_numbered: true
-    - name: Carolina Blue Laser
-      print_run: 249
-      serial_numbered: true
-    - name: Gold
-      print_run: 10
-      serial_numbered: true
-    - name: Gold Die Cut
-      print_run: 25
-      serial_numbered: true
-    - name: Green
-      print_run: 199
-      serial_numbered: true
-    - name: Green Laser
-    - name: Holo
-    - name: Holo Purple
-      print_run: 99
-      serial_numbered: true
-    - name: Laser
-    - name: Liberty
-    - name: On Fire
-      print_run: 75
-      serial_numbered: true
-    - name: Orange Laser
-      print_run: 299
-      serial_numbered: true
-    - name: Pink Ice
-      print_run: 99
-      serial_numbered: true
-    - name: Pink Laser
-      print_run: 50
-      serial_numbered: true
-    - name: Presidential Collection
-      print_run: 47
-      serial_numbered: true
-    - name: Printing Plate Black
-      print_run: 1
-      serial_numbered: true
-    - name: Printing Plate Cyan
-      print_run: 1
-      serial_numbered: true
-    - name: Printing Plate Magenta
-      print_run: 1
-      serial_numbered: true
-    - name: Printing Plate Yellow
-      print_run: 1
-      serial_numbered: true
-    - name: Purple
-    - name: Purple Ice
-      print_run: 99
-      serial_numbered: true
-    - name: Purple Laser
-      print_run: 49
-      serial_numbered: true
-    - name: Red
-      print_run: 250
-      serial_numbered: true
-    - name: Red and Blue
-    - name: Red and Blue Laser
-    - name: Red and Green
-    - name: Rockets
-    - name: Silver Die Cut
-      print_run: 75
-      serial_numbered: true
-    - name: Stars
-      print_run: 250
-      serial_numbered: true
-    - name: Teal
-      print_run: 25
-      serial_numbered: true
-    - name: Yellow Flood
-  - id: base-rated-prospects-optic
-    name: Base - Rated Prospects - Optic
-    uuid: 57f93625-377f-58ce-b400-7794b742fec7
-    type:
-    - insert
-    declared_card_count: 100
+    declared_card_count: 200
+    sections:
+    - id: veterans-legends
+      name: Veterans/Legends
+      range:
+        from: '1'
+        to: '100'
+    - id: rated-prospects
+      name: Rated Prospects
+      range:
+        from: '101'
+        to: '200'
     parallels:
     - name: Black Finite
       print_run: 1
