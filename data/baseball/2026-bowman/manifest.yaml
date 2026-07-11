@@ -205,10 +205,10 @@ base_sets:
   - name: FireFractor
     print_run: 3
     serial_numbered: true
-  - name: Fuschia Refractor
+  - name: Fuchsia Refractor
     print_run: 199
     serial_numbered: true
-  - name: Fuschia Wave Refractor
+  - name: Fuchsia Wave Refractor
     print_run: 199
     serial_numbered: true
   - name: Gold Geometric Refractor
@@ -280,7 +280,7 @@ base_sets:
   - name: Reptilian Blue Refractor
     print_run: 150
     serial_numbered: true
-  - name: Reptilian Fuschia Refractor
+  - name: Reptilian Fuchsia Refractor
     print_run: 199
     serial_numbered: true
   - name: Reptilian Gold Refractor
@@ -352,7 +352,7 @@ base_sets:
     - autograph
     declared_card_count: 47
   - id: chrome-prospect-packfractor-autographs
-    name: Chrome Prospect Packfractor Autographs
+    name: Chrome Prospect PackFractor Autographs
     uuid: '08a54c52-3d8a-5851-acea-0f7ef8283284'
     type:
     - autograph
@@ -364,7 +364,7 @@ base_sets:
     - variation
     declared_card_count: 11
   - id: chrome-prospects-packfractor-variation
-    name: Chrome Prospects Packfractor Variation
+    name: Chrome Prospects PackFractor Variation
     uuid: 27caf6b1-932c-56d8-8a8b-509bfcbffd21
     type:
     - variation
