@@ -1,3 +1,9 @@
+## [v0.2] - 2026-07-10
+- `base_sets` is now optional (minor / backward-compatible): a product needs at least
+  one base set OR one product-level subset (`anyOf`), so base-less releases
+  (all-autograph/relic high-end products, e.g. Definitive Collection) are valid. Data
+  valid under v0.1 remains valid under v0.2.
+
 ## [v0.1] - 2026-07-09
 - Initial release of the manifest schema (v0.3 "manifest form").
 - `base_sets[]` (roots) plus optional product-level `subsets[]`; base sets and subsets

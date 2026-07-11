@@ -321,13 +321,15 @@ def main(argv):
         print(f"no sets found under {data_dir}")
         return 0
 
+    deprecated = []  # exploded v0.2 sets — still validated, but flagged for migration
     for sd in set_dirs:
         try:
             if (sd / "manifest.yaml").exists():
                 fmt = "v0.3"
                 validate_v03(sd, schemas, rep)
             elif (sd / "cards").is_dir():
-                fmt = "v0.2"
+                fmt = "v0.2 DEPRECATED"
+                deprecated.append(sd)
                 validate_v02(sd, schemas, rep)
             else:
                 fmt = "?"
@@ -336,6 +338,14 @@ def main(argv):
             fmt = "!"
             rep.err(str(sd), f"unexpected error during validation: {e}")
         print(f"  [{fmt}] {sd}")
+
+    if deprecated:  # non-fatal: the exploded format is deprecated but still validated
+        n = len(deprecated)
+        noun = "set uses" if n == 1 else "sets use"
+        print(f"\n⚠️  {n} {noun} the DEPRECATED exploded (v0.2) format —"
+              " migrate to the v0.3 manifest form (set.yaml + manifest.yaml + checklists/):")
+        for dep_dir in deprecated:
+            print(f"  - {dep_dir}")
 
     if rep.errors:
         print(f"\n❌ {len(rep.errors)} validation error(s):")
