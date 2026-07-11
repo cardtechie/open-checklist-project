@@ -1,0 +1,200 @@
+- number: 55NW-1
+  uuid: c97e26d2-4cb4-4635-abd3-1a39e749b155
+  subjects:
+  - entities:
+    - role: player
+      name: Stan Musial
+      ref: 
+    - role: team
+      name: St. Louis Cardinals
+      ref: 
+- number: 55NW-2
+  uuid: 5eb0bb9f-3f24-410a-97b5-da65ca24030d
+  subjects:
+  - entities:
+    - role: player
+      name: Whitey Ford
+      ref: 
+    - role: team
+      name: New York Yankees
+      ref: 
+- number: 55NW-3
+  uuid: 1a4eb594-2879-44c3-8956-43c50d83b073
+  subjects:
+  - entities:
+    - role: player
+      name: Bob Feller
+      ref: 
+    - role: team
+      name: Cleveland Indians
+      ref: 
+- number: 55NW-4
+  uuid: 3e2f10d7-d851-40e5-a38d-67a592a3bc4a
+  subjects:
+  - entities:
+    - role: player
+      name: Mickey Mantle
+      ref: 
+    - role: team
+      name: New York Yankees
+      ref: 
+- number: 55NW-5
+  uuid: 26b700d3-c330-4784-b242-4cf0ce2dded4
+  subjects:
+  - entities:
+    - role: player
+      name: Roy Campanella
+      ref: 
+    - role: team
+      name: Brooklyn Dodgers
+      ref: 
+- number: 55NW-6
+  uuid: ea2802bd-3977-4f95-b6a5-a824e50152b0
+  subjects:
+  - entities:
+    - role: player
+      name: Pee Wee Reese
+      ref: 
+    - role: team
+      name: Brooklyn Dodgers
+      ref: 
+- number: 55NW-7
+  uuid: d26b3946-5a60-4da2-8896-2668583fcea6
+  subjects:
+  - entities:
+    - role: player
+      name: Richie Ashburn
+      ref: 
+    - role: team
+      name: Philadelphia Phillies
+      ref: 
+- number: 55NW-8
+  uuid: 2a000b12-64ea-4dc0-aa27-6abd33728228
+  subjects:
+  - entities:
+    - role: player
+      name: Ralph Kiner
+      ref: 
+    - role: team
+      name: Cleveland Indians
+      ref: 
+- number: 55NW-9
+  uuid: 93628fcc-3cd0-4adf-9346-4897564b4e5b
+  subjects:
+  - entities:
+    - role: player
+      name: Brooks Robinson
+      ref: 
+    - role: team
+      name: Baltimore Orioles
+      ref: 
+- number: 55NW-10
+  uuid: baa319ac-d0e9-4936-9163-23105f29e397
+  subjects:
+  - entities:
+    - role: player
+      name: Jim Bunning
+      ref: 
+    - role: team
+      name: Detroit Tigers
+      ref: 
+- number: 55NW-11
+  uuid: daf5f0dd-a439-42c2-9387-e892a5e5a4e8
+  subjects:
+  - entities:
+    - role: player
+      name: Hoyt Wilhelm
+      ref: 
+    - role: team
+      name: New York Giants
+      ref: 
+- number: 55NW-12
+  uuid: 247f5181-f8d7-42f5-9fa2-bd8039544409
+  subjects:
+  - entities:
+    - role: player
+      name: Red Schoendienst
+      ref: 
+    - role: team
+      name: St. Louis Cardinals
+      ref: 
+- number: 55NW-13
+  uuid: '039ad9cd-8db4-4aa6-9971-94580c0bc90d'
+  subjects:
+  - entities:
+    - role: player
+      name: George Kell
+      ref: 
+    - role: team
+      name: Detroit Tigers
+      ref: 
+- number: 55NW-14
+  uuid: e7ca1485-92fb-427b-8081-207ba9001951
+  subjects:
+  - entities:
+    - role: player
+      name: Larry Doby
+      ref: 
+    - role: team
+      name: Cleveland Indians
+      ref: 
+- number: 55NW-15
+  uuid: e576a8e9-a046-4891-92d3-b52717478893
+  subjects:
+  - entities:
+    - role: player
+      name: Early Wynn
+      ref: 
+    - role: team
+      name: Cleveland Indians
+      ref: 
+- number: 55NW-16
+  uuid: d06f0109-cf7f-463b-884a-a8bc46b698b6
+  subjects:
+  - entities:
+    - role: player
+      name: Robin Roberts
+      ref: 
+    - role: team
+      name: Philadelphia Phillies
+      ref: 
+- number: 55NW-17
+  uuid: d2e7a297-02ac-436e-8ef1-6c7ed4cd0bf2
+  subjects:
+  - entities:
+    - role: player
+      name: Don Larsen
+      ref: 
+    - role: team
+      name: New York Yankees
+      ref: 
+- number: 55NW-18
+  uuid: 5d70535f-d5f8-44dd-904a-bbe837c66e19
+  subjects:
+  - entities:
+    - role: player
+      name: Al Lopez
+      ref: 
+    - role: team
+      name: Cleveland Indians
+      ref: 
+- number: 55NW-19
+  uuid: e4e22a75-8b8f-4349-977f-0c3eab781402
+  subjects:
+  - entities:
+    - role: player
+      name: Bob Lemon
+      ref: 
+    - role: team
+      name: Cleveland Indians
+      ref: 
+- number: 55NW-20
+  uuid: 519faffd-bf08-4acc-bd39-693c76088904
+  subjects:
+  - entities:
+    - role: player
+      name: Casey Stengel
+      ref: 
+    - role: team
+      name: New York Yankees
+      ref: 

@@ -1,0 +1,920 @@
+- number: 55CVA-AB
+  uuid: 898bef89-d5ff-4385-84f0-ac4500e1356a
+  subjects:
+  - entities:
+    - role: player
+      name: Adrian Beltré
+      ref: 
+    - role: team
+      name: Texas Rangers
+      ref: 
+- number: 55CVA-AD
+  uuid: 11c40eca-01c5-43b4-b13f-f158e20ffdd7
+  subjects:
+  - entities:
+    - role: player
+      name: Andre Dawson
+      ref: 
+    - role: team
+      name: Montréal Expos
+      ref: 
+- number: 55CVA-AJ
+  uuid: 291b2242-db00-48c4-861e-6a8fbafabe18
+  subjects:
+  - entities:
+    - role: player
+      name: Aaron Judge
+      ref: 
+    - role: team
+      name: New York Yankees
+      ref: 
+- number: 55CVA-AP
+  uuid: cd9d3acb-5584-46f9-8926-2a7a1de3c1bf
+  subjects:
+  - entities:
+    - role: player
+      name: Albert Pujols
+      ref: 
+    - role: team
+      name: St. Louis Cardinals
+      ref: 
+- number: 55CVA-AR
+  uuid: 7c8c06e0-f77a-47de-87cf-cc40965bc5d1
+  subjects:
+  - entities:
+    - role: player
+      name: Austin Riley
+      ref: 
+    - role: team
+      name: Atlanta Braves
+      ref: 
+- number: 55CVA-ARO
+  uuid: 82111100-85c5-4f0a-8625-a25c1d3c5ce3
+  subjects:
+  - entities:
+    - role: player
+      name: Alex Rodriguez
+      ref: 
+    - role: team
+      name: Texas Rangers
+      ref: 
+- number: 55CVA-ARU
+  uuid: 8f343a7b-24b1-46b5-aacd-26043d24ca5f
+  subjects:
+  - entities:
+    - role: player
+      name: Adley Rutschman
+      ref: 
+    - role: team
+      name: Baltimore Orioles
+      ref: 
+- number: 55CVA-BB
+  uuid: 6495395c-d4ae-474c-b9c8-8f06361a9175
+  subjects:
+  - entities:
+    - role: player
+      name: Barry Bonds
+      ref: 
+    - role: team
+      name: San Francisco Giants
+      ref: 
+- number: 55CVA-BH
+  uuid: 99926abc-fc32-4f30-b445-d579c76d4f82
+  subjects:
+  - entities:
+    - role: player
+      name: Bryce Harper
+      ref: 
+    - role: team
+      name: Philadelphia Phillies
+      ref: 
+- number: 55CVA-BJ
+  uuid: 2532e43b-5714-47d5-b602-143f40bb0678
+  subjects:
+  - entities:
+    - role: player
+      name: Bo Jackson
+      ref: 
+    - role: team
+      name: Kansas City Royals
+      ref: 
+- number: 55CVA-BL
+  uuid: 115855b9-0d61-4fa2-a680-bbf559dede05
+  subjects:
+  - entities:
+    - role: player
+      name: Barry Larkin
+      ref: 
+    - role: team
+      name: Cincinnati Reds
+      ref: 
+- number: 55CVA-BP
+  uuid: 989a9a9f-1979-4995-ab72-4da1ab476273
+  subjects:
+  - entities:
+    - role: player
+      name: Buster Posey
+      ref: 
+    - role: team
+      name: San Francisco Giants
+      ref: 
+- number: 55CVA-BR
+  uuid: 31ee87f5-f680-4515-b58a-62f28e7a5985
+  subjects:
+  - entities:
+    - role: player
+      name: Ben Rice
+      ref: 
+    - role: team
+      name: New York Yankees
+      ref: 
+- number: 55CVA-BW
+  uuid: 175b6cbf-97a9-4d36-95cb-f3176713614b
+  subjects:
+  - entities:
+    - role: player
+      name: Bobby Witt Jr.
+      ref: 
+    - role: team
+      name: Kansas City Royals
+      ref: 
+- number: 55CVA-CB
+  uuid: 8188c2b3-b5f5-440a-8d26-d1a30f259462
+  subjects:
+  - entities:
+    - role: player
+      name: Cody Bellinger
+      ref: 
+    - role: team
+      name: New York Yankees
+      ref: 
+- number: 55CVA-CC
+  uuid: 7283d4d6-6b9b-4b72-9a2a-25662e57075d
+  subjects:
+  - entities:
+    - role: player
+      name: Corbin Carroll
+      ref: 
+    - role: team
+      name: Arizona Diamondbacks
+      ref: 
+- number: 55CVA-CJ
+  uuid: c94b336d-3879-4085-a881-6449174db5a9
+  subjects:
+  - entities:
+    - role: player
+      name: Chipper Jones
+      ref: 
+    - role: team
+      name: Atlanta Braves
+      ref: 
+- number: 55CVA-CK
+  uuid: 291186e4-736f-406b-8da5-fd6c2b4b3eb4
+  subjects:
+  - entities:
+    - role: player
+      name: Clayton Kershaw
+      ref: 
+    - role: team
+      name: Los Angeles Dodgers
+      ref: 
+- number: 55CVA-CR
+  uuid: 46f086cf-c59b-449f-9fbd-44a47a022a30
+  subjects:
+  - entities:
+    - role: player
+      name: Cal Ripken Jr.
+      ref: 
+    - role: team
+      name: Baltimore Orioles
+      ref: 
+- number: 55CVA-CU
+  uuid: e564e6dd-231d-471f-a726-8b08acfe52db
+  subjects:
+  - entities:
+    - role: player
+      name: Chase Utley
+      ref: 
+    - role: team
+      name: Philadelphia Phillies
+      ref: 
+- number: 55CVA-CYE
+  uuid: 1d6e9569-31ef-4dcd-aad9-c4448c532aaa
+  subjects:
+  - entities:
+    - role: player
+      name: Christian Yelich
+      ref: 
+    - role: team
+      name: Milwaukee Brewers
+      ref: 
+- number: 55CVA-DC
+  uuid: 4aa8b1dc-c6aa-47e1-861a-b7be90cdc0cb
+  subjects:
+  - entities:
+    - role: player
+      name: Dylan Crews
+      ref: 
+    - role: team
+      name: Washington Nationals
+      ref: 
+- number: 55CVA-DJ
+  uuid: '098394c7-a223-4f05-89f7-c2decc2126c7'
+  subjects:
+  - entities:
+    - role: player
+      name: Derek Jeter
+      ref: 
+    - role: team
+      name: New York Yankees
+      ref: 
+- number: 55CVA-DM
+  uuid: ebb333a4-cb80-4e83-b981-3d42e1003534
+  subjects:
+  - entities:
+    - role: player
+      name: Dale Murphy
+      ref: 
+    - role: team
+      name: Atlanta Braves
+      ref: 
+- number: 55CVA-DO
+  uuid: 421b634c-ead9-4253-88f0-81e95382cf5a
+  subjects:
+  - entities:
+    - role: player
+      name: David Ortiz
+      ref: 
+    - role: team
+      name: Boston Red Sox
+      ref: 
+- number: 55CVA-DST
+  uuid: 22d444b3-8c59-437e-84a5-f8a870146ac7
+  subjects:
+  - entities:
+    - role: player
+      name: Darryl Strawberry
+      ref: 
+    - role: team
+      name: New York Mets
+      ref: 
+- number: 55CVA-DW
+  uuid: abb88458-25f3-44fa-a529-e4fee6379500
+  subjects:
+  - entities:
+    - role: player
+      name: David Wright
+      ref: 
+    - role: team
+      name: New York Mets
+      ref: 
+- number: 55CVA-DWI
+  uuid: 5c6db87e-6613-4093-a866-00b1e4736ff3
+  subjects:
+  - entities:
+    - role: player
+      name: Dave Winfield
+      ref: 
+    - role: team
+      name: New York Yankees
+      ref: 
+- number: 55CVA-EM
+  uuid: edd704c1-6e69-4ec0-be4e-effaeb9c346c
+  subjects:
+  - entities:
+    - role: player
+      name: Eddie Murray
+      ref: 
+    - role: team
+      name: Baltimore Orioles
+      ref: 
+- number: 55CVA-EMA
+  uuid: a19d243d-888f-403a-9ac9-7d161fc8408e
+  subjects:
+  - entities:
+    - role: player
+      name: Edgar Martinez
+      ref: 
+    - role: team
+      name: Seattle Mariners
+      ref: 
+- number: 55CVA-FL
+  uuid: e351a968-9740-4564-9bb2-6faef832af1c
+  subjects:
+  - entities:
+    - role: player
+      name: Francisco Lindor
+      ref: 
+    - role: team
+      name: New York Mets
+      ref: 
+- number: 55CVA-FM
+  uuid: 73b2aba3-8da7-4b0d-b2d8-b1ab8b7cf11b
+  subjects:
+  - entities:
+    - role: player
+      name: Fred McGriff
+      ref: 
+    - role: team
+      name: Atlanta Braves
+      ref: 
+- number: 55CVA-FT
+  uuid: 56d804ec-1b27-4229-8e75-744e85b9713b
+  subjects:
+  - entities:
+    - role: player
+      name: Frank Thomas
+      ref: 
+    - role: team
+      name: Chicago White Sox
+      ref: 
+- number: 55CVA-FTA
+  uuid: 72336c97-f4f9-4dea-9d04-035e5da9c192
+  subjects:
+  - entities:
+    - role: player
+      name: Fernando Tatis Jr.
+      ref: 
+    - role: team
+      name: San Diego Padres
+      ref: 
+- number: 55CVA-GB
+  uuid: 71445a57-bbb6-40c9-b1fc-2648920b81f7
+  subjects:
+  - entities:
+    - role: player
+      name: George Brett
+      ref: 
+    - role: team
+      name: Kansas City Royals
+      ref: 
+- number: 55CVA-GH
+  uuid: 5f3b2d3a-fa83-42eb-b090-2fedc1b0a39d
+  subjects:
+  - entities:
+    - role: player
+      name: Gunnar Henderson
+      ref: 
+    - role: team
+      name: Baltimore Orioles
+      ref: 
+- number: 55CVA-GM
+  uuid: 2f08e9d3-df4e-4c6a-9bb5-40552ffbb950
+  subjects:
+  - entities:
+    - role: player
+      name: Greg Maddux
+      ref: 
+    - role: team
+      name: Atlanta Braves
+      ref: 
+- number: 55CVA-GS
+  uuid: 55d83b41-2cfe-4198-aa07-c21bf2352177
+  subjects:
+  - entities:
+    - role: player
+      name: Gary Sheffield
+      ref: 
+    - role: team
+      name: Florida Marlins
+      ref: 
+- number: 55CVA-HN
+  uuid: f3d007a7-dfea-4b7e-8435-1ab959e985a0
+  subjects:
+  - entities:
+    - role: player
+      name: Hideo Nomo
+      ref: 
+    - role: team
+      name: Los Angeles Dodgers
+      ref: 
+- number: 55CVA-I
+  uuid: 6b6344c1-498b-48a2-825f-5d1a62bff5c0
+  subjects:
+  - entities:
+    - role: player
+      name: Ichiro
+      ref: 
+    - role: team
+      name: Seattle Mariners
+      ref: 
+- number: 55CVA-IR
+  uuid: 443127c6-4394-4c93-ab4c-99d1776c94a2
+  subjects:
+  - entities:
+    - role: player
+      name: Ivan Rodriguez
+      ref: 
+    - role: team
+      name: Detroit Tigers
+      ref: 
+- number: 55CVA-JA
+  uuid: 190b6d83-f144-4ac9-9e7c-d0130e2cd8d8
+  subjects:
+  - entities:
+    - role: player
+      name: Jose Altuve
+      ref: 
+    - role: team
+      name: Houston Astros
+      ref: 
+- number: 55CVA-JB
+  uuid: 694dc231-efee-469d-8cd5-9526585ac49f
+  subjects:
+  - entities:
+    - role: player
+      name: Johnny Bench
+      ref: 
+    - role: team
+      name: Cincinnati Reds
+      ref: 
+- number: 55CVA-JBA
+  uuid: 01bbf36f-d7b4-44c6-bdd6-a16f2ba89e8e
+  subjects:
+  - entities:
+    - role: player
+      name: Jeff Bagwell
+      ref: 
+    - role: team
+      name: Houston Astros
+      ref: 
+- number: 55CVA-JC
+  uuid: 812c3b98-4d84-4c9d-b742-6bb6c4286c01
+  subjects:
+  - entities:
+    - role: player
+      name: Jackson Chourio
+      ref: 
+    - role: team
+      name: Milwaukee Brewers
+      ref: 
+- number: 55CVA-JD
+  uuid: 3b840d4b-ea9a-4c17-9655-04893321b2a8
+  subjects:
+  - entities:
+    - role: player
+      name: Johnny Damon
+      ref: 
+    - role: team
+      name: Boston Red Sox
+      ref: 
+- number: 55CVA-JH
+  uuid: dc0570cd-8c0e-4b6d-bcc4-e0ff572fde83
+  subjects:
+  - entities:
+    - role: player
+      name: Jackson Holliday
+      ref: 
+    - role: team
+      name: Baltimore Orioles
+      ref: 
+- number: 55CVA-JP
+  uuid: 4575ce05-71a5-41be-b6a9-d67fd7407860
+  subjects:
+  - entities:
+    - role: player
+      name: Jorge Posada
+      ref: 
+    - role: team
+      name: New York Yankees
+      ref: 
+- number: 55CVA-JR
+  uuid: cec25ba0-bcf7-42cb-be41-ef63bb11d52c
+  subjects:
+  - entities:
+    - role: player
+      name: José Ramírez
+      ref: 
+    - role: team
+      name: Cleveland Guardians
+      ref: 
+- number: 55CVA-JRO
+  uuid: 633cff9b-285a-451b-953a-25dff0d2dd25
+  subjects:
+  - entities:
+    - role: player
+      name: Julio Rodríguez
+      ref: 
+    - role: team
+      name: Seattle Mariners
+      ref: 
+- number: 55CVA-JS
+  uuid: 0a57638c-8ca7-4372-bac1-ac899c92fa67
+  subjects:
+  - entities:
+    - role: player
+      name: Juan Soto
+      ref: 
+    - role: team
+      name: New York Mets
+      ref: 
+- number: 55CVA-JT
+  uuid: 6d1e5cd4-2b07-42bc-81e1-6f6810f22db3
+  subjects:
+  - entities:
+    - role: player
+      name: Joe Torre
+      ref: 
+    - role: team
+      name: New York Yankees
+      ref: 
+- number: 55CVA-JW
+  uuid: 4a46650d-de8e-49cb-bd96-36c3d195115e
+  subjects:
+  - entities:
+    - role: player
+      name: James Wood
+      ref: 
+    - role: team
+      name: Washington Nationals
+      ref: 
+- number: 55CVA-KG
+  uuid: 65aad7b1-9586-49b7-858e-079e0286723e
+  subjects:
+  - entities:
+    - role: player
+      name: Ken Griffey Jr.
+      ref: 
+    - role: team
+      name: Seattle Mariners
+      ref: 
+- number: 55CVA-KT
+  uuid: 17514ee0-5e17-4f8d-8bcd-4937cf34dd6a
+  subjects:
+  - entities:
+    - role: player
+      name: Kyle Tucker
+      ref: 
+    - role: team
+      name: Chicago Cubs
+      ref: 
+- number: 55CVA-LR
+  uuid: 19f50ed9-6cd7-4a51-af84-cf7bb93ee267
+  subjects:
+  - entities:
+    - role: player
+      name: Luis Robert Jr.
+      ref: 
+    - role: team
+      name: Chicago White Sox
+      ref: 
+- number: 55CVA-LW
+  uuid: 0bedc9ab-e52f-4472-a1c0-d20d9cca3129
+  subjects:
+  - entities:
+    - role: player
+      name: Larry Walker
+      ref: 
+    - role: team
+      name: Colorado Rockies
+      ref: 
+- number: 55CVA-MM
+  uuid: b657e4c3-2465-4635-b161-a101ce66b6fd
+  subjects:
+  - entities:
+    - role: player
+      name: Marcelo Mayer
+      ref: 
+    - role: team
+      name: Boston Red Sox
+      ref: 
+- number: 55CVA-MMA
+  uuid: b1215353-769c-41d4-a243-feb1b3ecc615
+  subjects:
+  - entities:
+    - role: player
+      name: Manny Machado
+      ref: 
+    - role: team
+      name: San Diego Padres
+      ref: 
+- number: 55CVA-MMC
+  uuid: 7a6c23ac-9383-4fb8-b86a-a92b799ef881
+  subjects:
+  - entities:
+    - role: player
+      name: Mark McGwire
+      ref: 
+    - role: team
+      name: St. Louis Cardinals
+      ref: 
+- number: 55CVA-MP
+  uuid: 2dff9266-fea9-48f5-ae4d-ab072185cc34
+  subjects:
+  - entities:
+    - role: player
+      name: Mike Piazza
+      ref: 
+    - role: team
+      name: New York Mets
+      ref: 
+- number: 55CVA-MR
+  uuid: 9f9141eb-d88f-41fa-9629-658cebee2db0
+  subjects:
+  - entities:
+    - role: player
+      name: Mariano Rivera
+      ref: 
+    - role: team
+      name: New York Yankees
+      ref: 
+- number: 55CVA-MS
+  uuid: 3820acec-b90a-4d06-a3c0-15298cf96e74
+  subjects:
+  - entities:
+    - role: player
+      name: Mike Schmidt
+      ref: 
+    - role: team
+      name: Philadelphia Phillies
+      ref: 
+- number: 55CVA-MT
+  uuid: 2d25a38c-fc04-421a-99fe-e27d917fb4be
+  subjects:
+  - entities:
+    - role: player
+      name: Mike Trout
+      ref: 
+    - role: team
+      name: Los Angeles Angels
+      ref: 
+- number: 55CVA-NA
+  uuid: c937a591-3fc2-47b1-a1f8-40db5f8eb0c6
+  subjects:
+  - entities:
+    - role: player
+      name: Nolan Arenado
+      ref: 
+    - role: team
+      name: St. Louis Cardinals
+      ref: 
+- number: 55CVA-NR
+  uuid: 354b4324-9438-4f33-a9c7-e86651faf8ce
+  subjects:
+  - entities:
+    - role: player
+      name: Nolan Ryan
+      ref: 
+    - role: team
+      name: Texas Rangers
+      ref: 
+- number: 55CVA-OA
+  uuid: 71ce4d3b-7d8a-49fb-968f-8f59f388bbc4
+  subjects:
+  - entities:
+    - role: player
+      name: Ozzie Albies
+      ref: 
+    - role: team
+      name: Atlanta Braves
+      ref: 
+- number: 55CVA-OH
+  uuid: 879ece1a-8e03-44fc-9c61-ea6f6d102ac2
+  subjects:
+  - entities:
+    - role: player
+      name: Orel Hershiser
+      ref: 
+    - role: team
+      name: Los Angeles Dodgers
+      ref: 
+- number: 55CVA-OS
+  uuid: 3a0e21e2-dc95-4bbb-8c0a-2eaf4a0d4842
+  subjects:
+  - entities:
+    - role: player
+      name: Ozzie Smith
+      ref: 
+    - role: team
+      name: San Diego Padres
+      ref: 
+- number: 55CVA-PA
+  uuid: 246aa536-2d2f-4cd3-86fd-28f7ecd34f64
+  subjects:
+  - entities:
+    - role: player
+      name: Pete Alonso
+      ref: 
+    - role: team
+      name: New York Mets
+      ref: 
+- number: 55CVA-PM
+  uuid: 75ef34c9-9f01-49b0-9800-83fc6f3131bb
+  subjects:
+  - entities:
+    - role: player
+      name: Paul Molitor
+      ref: 
+    - role: team
+      name: Minnesota Twins
+      ref: 
+- number: 55CVA-PMA
+  uuid: 35292b27-3e66-4d48-b5e7-aca932d8e9a7
+  subjects:
+  - entities:
+    - role: player
+      name: Pedro Martinez
+      ref: 
+    - role: team
+      name: Montréal Expos
+      ref: 
+- number: 55CVA-PS
+  uuid: 77312373-c007-4ab2-a779-ff1cc3a26745
+  subjects:
+  - entities:
+    - role: player
+      name: Paul Skenes
+      ref: 
+    - role: team
+      name: Pittsburgh Pirates
+      ref: 
+- number: 55CVA-RA
+  uuid: c97a6a12-ac10-443d-aa1e-6c1a6fb3e94e
+  subjects:
+  - entities:
+    - role: player
+      name: Ronald Acuña Jr.
+      ref: 
+    - role: team
+      name: Atlanta Braves
+      ref: 
+- number: 55CVA-RC
+  uuid: 0ce1a8d1-acbb-4303-93a0-903ab2bd3542
+  subjects:
+  - entities:
+    - role: player
+      name: Rod Carew
+      ref: 
+    - role: team
+      name: California Angels
+      ref: 
+- number: 55CVA-RD
+  uuid: 2502b3ad-e5d2-40a9-8a3a-8c6e8bd58f8a
+  subjects:
+  - entities:
+    - role: player
+      name: Rafael Devers
+      ref: 
+    - role: team
+      name: Boston Red Sox
+      ref: 
+- number: 55CVA-RG
+  uuid: 6fac949c-282b-423b-8c37-c81118e69877
+  subjects:
+  - entities:
+    - role: player
+      name: Riley Greene
+      ref: 
+    - role: team
+      name: Detroit Tigers
+      ref: 
+- number: 55CVA-RJ
+  uuid: a4c1b1c3-eb39-4a50-a47d-85b56da2289a
+  subjects:
+  - entities:
+    - role: player
+      name: Randy Johnson
+      ref: 
+    - role: team
+      name: Arizona Diamondbacks
+      ref: 
+- number: 55CVA-RJA
+  uuid: 5eef48bc-9834-4837-b9d3-a4567271b283
+  subjects:
+  - entities:
+    - role: player
+      name: Reggie Jackson
+      ref: 
+    - role: team
+      name: Oakland Athletics
+      ref: 
+- number: 55CVA-SA
+  uuid: 06327bb4-920a-42cf-ac7f-ca7305ef7b4c
+  subjects:
+  - entities:
+    - role: player
+      name: Roki Sasaki
+      ref: 
+    - role: team
+      name: Los Angeles Dodgers
+      ref: 
+- number: 55CVA-SI
+  uuid: 6c069d2f-ee34-4b96-b673-777e88fefe48
+  subjects:
+  - entities:
+    - role: player
+      name: Shota Imanaga
+      ref: 
+    - role: team
+      name: Chicago Cubs
+      ref: 
+- number: 55CVA-SK
+  uuid: 5aebd344-0a58-48d8-b492-ede8057e6b71
+  subjects:
+  - entities:
+    - role: player
+      name: Sandy Koufax
+      ref: 
+    - role: team
+      name: Brooklyn Dodgers
+      ref: 
+- number: 55CVA-SO
+  uuid: 69ed185e-ef7d-4a75-b42d-67c31a8e77df
+  subjects:
+  - entities:
+    - role: player
+      name: Shohei Ohtani
+      ref: 
+    - role: team
+      name: Los Angeles Dodgers
+      ref: 
+- number: 55CVA-SOH
+  uuid: d7879115-5dd8-423c-b2b4-57af15da1bf3
+  subjects:
+  - entities:
+    - role: player
+      name: Sadaharu Oh
+      ref: 
+    - role: team
+      name: Yomiuri Giants
+      ref: 
+- number: 55CVA-SR
+  uuid: 58074da0-9a05-45ab-8ced-568f014b7e1b
+  subjects:
+  - entities:
+    - role: player
+      name: Scott Rolen
+      ref: 
+    - role: team
+      name: Philadelphia Phillies
+      ref: 
+- number: 55CVA-TH
+  uuid: 9df8a379-6ff3-45e0-b8d0-87d9821d93b8
+  subjects:
+  - entities:
+    - role: player
+      name: Torii Hunter
+      ref: 
+    - role: team
+      name: Minnesota Twins
+      ref: 
+- number: 55CVA-VG
+  uuid: 3a36f916-6e56-45d3-8cab-193507fcc4cc
+  subjects:
+  - entities:
+    - role: player
+      name: Vladimir Guerrero Jr.
+      ref: 
+    - role: team
+      name: Toronto Blue Jays
+      ref: 
+- number: 55CVA-WB
+  uuid: 8b487139-346a-49db-af36-9407c6e44283
+  subjects:
+  - entities:
+    - role: player
+      name: Wade Boggs
+      ref: 
+    - role: team
+      name: Tampa Bay Devil Rays
+      ref: 
+- number: 55CVA-WC
+  uuid: 55aadea3-e43e-46e6-856d-bc20ee05e907
+  subjects:
+  - entities:
+    - role: player
+      name: Will Clark
+      ref: 
+    - role: team
+      name: San Francisco Giants
+      ref: 
+- number: 55CVA-WL
+  uuid: 29a464b5-bc4a-43bf-871f-98e7e4be746b
+  subjects:
+  - entities:
+    - role: player
+      name: Wyatt Langford
+      ref: 
+    - role: team
+      name: Texas Rangers
+      ref: 
+- number: 55CVA-YM
+  uuid: d6f104a4-06ed-4f25-9572-dfb9b32cd571
+  subjects:
+  - entities:
+    - role: player
+      name: Yadier Molina
+      ref: 
+    - role: team
+      name: St. Louis Cardinals
+      ref: 
+- number: 55CVA-YY
+  uuid: b13b6d27-a20a-4704-8317-20f2a0c1691d
+  subjects:
+  - entities:
+    - role: player
+      name: Yoshinobu Yamamoto
+      ref: 
+    - role: team
+      name: Los Angeles Dodgers
+      ref: 

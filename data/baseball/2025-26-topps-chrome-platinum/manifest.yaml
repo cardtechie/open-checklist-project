@@ -1,0 +1,265 @@
+set_id: 2025-26-topps-chrome-platinum
+base_sets:
+- id: base
+  name: Base
+  uuid: 43f3a2b5-fa58-5dd6-b652-43c0246bf2ee
+  declared_card_count: 500
+  parallels:
+  - name: Black Refractor
+    print_run: 10
+    serial_numbered: true
+  - name: Black Vibration Refractor
+    print_run: 10
+    serial_numbered: true
+  - name: Blue Lava Refractor
+    print_run: 100
+    serial_numbered: true
+  - name: Blue Mini-Diamond Refractor
+    print_run: 199
+    serial_numbered: true
+  - name: Blue Prism Refractor
+  - name: Blue Vibration Refractor
+    print_run: 150
+    serial_numbered: true
+  - name: Diamond Etch Refractor
+    print_run: 55
+    serial_numbered: true
+  - name: Gold Prism Refractor
+  - name: Gold Refractor
+    print_run: 50
+    serial_numbered: true
+  - name: Gold Vibration Refractor
+    print_run: 50
+    serial_numbered: true
+  - name: Gold Wave Refractor
+    print_run: 50
+    serial_numbered: true
+  - name: Green Vibration Refractor
+    print_run: 99
+    serial_numbered: true
+  - name: Green Wave Refractor
+    print_run: 99
+    serial_numbered: true
+  - name: Orange Refractor
+    print_run: 25
+    serial_numbered: true
+  - name: Orange Vibration Refractor
+    print_run: 25
+    serial_numbered: true
+  - name: Orange Wave Refractor
+    print_run: 25
+    serial_numbered: true
+  - name: Platinum Toile Cream/Black Refractor
+    print_run: 10
+    serial_numbered: true
+  - name: Platinum Toile Cream/Fuchsia Shimmer Refractor
+    print_run: 100
+    serial_numbered: true
+  - name: Platinum Toile Cream/Gold Refractor
+    print_run: 50
+    serial_numbered: true
+  - name: Platinum Toile Cream/Red Refractor
+    print_run: 5
+    serial_numbered: true
+  - name: Platinum Toile Cream/Rose Gold Refractor
+    print_run: 75
+    serial_numbered: true
+  - name: Platinum Toile White/Green Refractor
+    print_run: 99
+    serial_numbered: true
+  - name: Platinum Toile White/Orange Refractor
+    print_run: 25
+    serial_numbered: true
+  - name: Prism Refractor
+  - name: Red Lava Refractor
+    print_run: 5
+    serial_numbered: true
+  - name: Red Prism Refractor
+  - name: Red Refractor
+    print_run: 5
+    serial_numbered: true
+  - name: Red Vibration Refractor
+    print_run: 5
+    serial_numbered: true
+  - name: Refractor
+  - name: Rose Gold Mini-Diamond Refractor
+    print_run: 75
+    serial_numbered: true
+  - name: Rose Gold Refractor
+    print_run: 75
+    serial_numbered: true
+  - name: Speckle Refractor
+    print_run: 150
+    serial_numbered: true
+  - name: SuperFractor
+    print_run: 1
+    serial_numbered: true
+  - name: Topps Refractor
+    print_run: 499
+    serial_numbered: true
+  - name: Vibration Refractor
+    print_run: 250
+    serial_numbered: true
+  subsets:
+  - id: base-city-variations
+    name: Base - City Variations
+    uuid: 555252e7-cf8b-5cd7-8145-120a0b429991
+    type:
+    - variation
+    declared_card_count: 80
+    parallels:
+    - name: SuperFractor
+      print_run: 1
+      serial_numbered: true
+  - id: base-image-variations
+    name: Base - Image Variations
+    uuid: 44c18884-0245-5f02-ba60-9b9e1d9e3b52
+    type:
+    - variation
+    declared_card_count: 40
+subsets:
+- id: 1955-cards-that-never-were
+  name: 1955 Cards That Never Were
+  uuid: 2a36f298-bfc6-562f-9065-cecb4d4bb6d0
+  type:
+  - insert
+  declared_card_count: 20
+  parallels:
+  - name: SuperFractor
+    print_run: 1
+    serial_numbered: true
+- id: 1955-topps-city-variations-autographs
+  name: 1955 Topps City Variations Autographs
+  uuid: a93f846c-8e61-55c1-9ba4-a410eb861fac
+  type:
+  - autograph
+  - variation
+  declared_card_count: 92
+  parallels:
+  - name: SuperFractor
+    print_run: 1
+    serial_numbered: true
+- id: 1955-topps-doubleheaders
+  name: 1955 Topps Doubleheaders
+  uuid: 3b2b0847-4ffe-55f6-968f-676ed97b577d
+  type:
+  - insert
+  declared_card_count: 20
+  parallels:
+  - name: Black Refractor
+    print_run: 10
+    serial_numbered: true
+  - name: Gold Refractor
+    print_run: 50
+    serial_numbered: true
+  - name: Green Refractor
+    print_run: 99
+    serial_numbered: true
+  - name: Orange Refractor
+    print_run: 25
+    serial_numbered: true
+  - name: Red Refractor
+    print_run: 5
+    serial_numbered: true
+  - name: SuperFractor
+    print_run: 1
+    serial_numbered: true
+- id: 1955-topps-employee-super-short-prints
+  name: 1955 Topps Employee Super Short Prints
+  uuid: 3947b5cc-d456-5285-b7fa-b115f404dfac
+  type:
+  - insert
+  declared_card_count: 10
+- id: 1955-topps-rails-and-sails
+  name: 1955 Topps Rails And Sails
+  uuid: 120a34af-4f26-5408-8112-10283e428daa
+  type:
+  - insert
+  declared_card_count: 20
+  parallels:
+  - name: Black Refractor
+    print_run: 10
+    serial_numbered: true
+  - name: Gold Refractor
+    print_run: 50
+    serial_numbered: true
+  - name: Green Refractor
+    print_run: 99
+    serial_numbered: true
+  - name: Orange Refractor
+    print_run: 25
+    serial_numbered: true
+  - name: Red Refractor
+    print_run: 5
+    serial_numbered: true
+  - name: SuperFractor
+    print_run: 1
+    serial_numbered: true
+- id: 1955-world-series
+  name: 1955 World Series
+  uuid: dd40d890-7193-570a-bc0e-c7637e19099f
+  type:
+  - insert
+  declared_card_count: 10
+  parallels:
+  - name: Black Refractor
+    print_run: 10
+    serial_numbered: true
+  - name: Gold Refractor
+    print_run: 50
+    serial_numbered: true
+  - name: Green Refractor
+    print_run: 99
+    serial_numbered: true
+  - name: Orange Refractor
+    print_run: 25
+    serial_numbered: true
+  - name: Red Refractor
+    print_run: 5
+    serial_numbered: true
+  - name: SuperFractor
+    print_run: 1
+    serial_numbered: true
+- id: chrome-platinum-autographs
+  name: Chrome Platinum Autographs
+  uuid: 74cf810b-94a3-51b6-9ca0-db238f09abe1
+  type:
+  - autograph
+  declared_card_count: 178
+  parallels:
+  - name: Aqua Refractor
+    print_run: 150
+    serial_numbered: true
+  - name: Black Refractor
+    print_run: 10
+    serial_numbered: true
+  - name: Blue Prism Refractor
+    print_run: 99
+    serial_numbered: true
+  - name: Gold Refractor
+    print_run: 50
+    serial_numbered: true
+  - name: Green Mini-Diamond Refractor
+    print_run: 75
+    serial_numbered: true
+  - name: Orange Refractor
+    print_run: 25
+    serial_numbered: true
+  - name: Pink Refractor
+    print_run: 15
+    serial_numbered: true
+  - name: Platinum Toile Cream/Blue Refractor
+    print_run: 99
+    serial_numbered: true
+  - name: Platinum Toile Cream/Red Refractor
+    print_run: 5
+    serial_numbered: true
+  - name: Red Refractor
+    print_run: 5
+    serial_numbered: true
+  - name: Refractor
+    print_run: 199
+    serial_numbered: true
+  - name: SuperFractor
+    print_run: 1
+    serial_numbered: true
