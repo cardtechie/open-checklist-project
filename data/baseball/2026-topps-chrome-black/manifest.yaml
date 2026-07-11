@@ -1,0 +1,250 @@
+set_id: 2026-topps-chrome-black
+base_sets:
+- id: base-set
+  name: Base Set
+  uuid: c576be8a-0e3f-5dda-986b-c01ce1baedbc
+  declared_card_count: 200
+  parallels:
+  - name: Blue Refractor
+    print_run: 150
+    serial_numbered: true
+  - name: Gold Mini Diamond Refractor
+    print_run: 50
+    serial_numbered: true
+  - name: Gold Refractor
+    print_run: 50
+    serial_numbered: true
+  - name: Gold Wave Refractor
+    print_run: 50
+    serial_numbered: true
+  - name: Green Refractor
+    print_run: 99
+    serial_numbered: true
+  - name: Orange Mini Diamond Refractor
+    print_run: 25
+    serial_numbered: true
+  - name: Orange Refractor
+    print_run: 25
+    serial_numbered: true
+  - name: Orange Wave Refractor
+    print_run: 25
+    serial_numbered: true
+  - name: Purple Mini-Diamond Refractor
+    print_run: 75
+    serial_numbered: true
+  - name: Purple Refractor
+    print_run: 75
+    serial_numbered: true
+  - name: Purple Wave Refractor
+    print_run: 75
+    serial_numbered: true
+  - name: Red Mini Diamond Refractor
+    print_run: 5
+    serial_numbered: true
+  - name: Red Refractor
+    print_run: 5
+    serial_numbered: true
+  - name: Red Wave Refractor
+    print_run: 5
+    serial_numbered: true
+  - name: Refractor
+    print_run: 199
+    serial_numbered: true
+  - name: Rose Gold Mini Diamond Refractor
+    print_run: 10
+    serial_numbered: true
+  - name: Rose Gold Refractor
+    print_run: 10
+    serial_numbered: true
+  - name: Rose Gold Wave Refractor
+    print_run: 10
+    serial_numbered: true
+  - name: SuperFractor
+    print_run: 1
+    serial_numbered: true
+  subsets:
+  - id: base-rookie-design-variations
+    name: Base - Rookie Design Variations
+    uuid: 144f5e02-0120-5b21-9a69-3f678f562e1e
+    type:
+    - variation
+    declared_card_count: 30
+    parallels:
+    - name: Gold Refractor
+      print_run: 50
+      serial_numbered: true
+    - name: Orange Refractor
+      print_run: 25
+      serial_numbered: true
+    - name: Purple Refractor
+      print_run: 75
+      serial_numbered: true
+    - name: Red Refractor
+      print_run: 5
+      serial_numbered: true
+    - name: Rose Gold Refractor
+      print_run: 10
+      serial_numbered: true
+    - name: SuperFractor
+      print_run: 1
+      serial_numbered: true
+subsets:
+- id: chrome-black-autographs
+  name: Chrome Black Autographs
+  uuid: 61f13177-33fa-5506-90f2-3d90e798d5fa
+  type:
+  - autograph
+  declared_card_count: 111
+  parallels:
+  - name: Blue Refractor
+    print_run: 150
+    serial_numbered: true
+  - name: Gold Mini Diamond Refractor
+    print_run: 50
+    serial_numbered: true
+  - name: Gold Refractor
+    print_run: 50
+    serial_numbered: true
+  - name: Green Refractor
+    print_run: 99
+    serial_numbered: true
+  - name: Orange Mini Diamond Refractor
+    print_run: 25
+    serial_numbered: true
+  - name: Orange Refractor
+    print_run: 25
+    serial_numbered: true
+  - name: Purple Refractor
+    print_run: 75
+    serial_numbered: true
+  - name: Red Mini Diamond Refractor
+    print_run: 5
+    serial_numbered: true
+  - name: Red Refractor
+    print_run: 5
+    serial_numbered: true
+  - name: Refractor
+    print_run: 199
+    serial_numbered: true
+  - name: Rose Gold Mini Diamond Refractor
+    print_run: 10
+    serial_numbered: true
+  - name: Rose Gold Refractor
+    print_run: 10
+    serial_numbered: true
+  - name: SuperFractor
+    print_run: 1
+    serial_numbered: true
+- id: damascus
+  name: Damascus
+  uuid: da698f2d-2d12-5300-a1e6-31289e600444
+  type:
+  - insert
+  declared_card_count: 30
+  parallels:
+  - name: SuperFractor
+    print_run: 1
+    serial_numbered: true
+- id: depth-of-darkness
+  name: Depth Of Darkness
+  uuid: 61f769a1-3506-5139-a8e9-aa60430c7e89
+  type:
+  - insert
+  declared_card_count: 20
+  parallels:
+  - name: Red Refractor
+    print_run: 5
+    serial_numbered: true
+  - name: SuperFractor
+    print_run: 1
+    serial_numbered: true
+- id: home-field
+  name: Home Field
+  uuid: 1ea0ad65-3ac1-5aca-a8c2-fd0247db8b1a
+  type:
+  - insert
+  declared_card_count: 20
+  parallels:
+  - name: Black Refractor
+    print_run: 1
+    serial_numbered: true
+- id: ivory-autographs
+  name: Ivory Autographs
+  uuid: 041733e8-e92f-5ed1-8e23-01ee68635598
+  type:
+  - autograph
+  declared_card_count: 36
+  parallels:
+  - name: Orange Trim
+    print_run: 25
+    serial_numbered: true
+  - name: Red Trim
+    print_run: 5
+    serial_numbered: true
+  - name: SuperFractor
+    print_run: 1
+    serial_numbered: true
+- id: nocturnal
+  name: Nocturnal
+  uuid: 4607fa08-0fd2-5610-9cc1-88e07b81bb85
+  type:
+  - insert
+  declared_card_count: 40
+  parallels:
+  - name: SuperFractor
+    print_run: 1
+    serial_numbered: true
+- id: paint-it
+  name: Paint It
+  uuid: cf0cf25e-e9d8-5485-9d45-2e007cef69c8
+  type:
+  - insert
+  declared_card_count: 19
+  parallels:
+  - name: Red Refractor
+    print_run: 5
+    serial_numbered: true
+  - name: SuperFractor
+    print_run: 1
+    serial_numbered: true
+- id: pitch-black-pairings-dual-autographs
+  name: Pitch Black Pairings Dual Autographs
+  uuid: 3a84af58-87af-5e6b-957e-a2b439c907f7
+  type:
+  - autograph
+  declared_card_count: 14
+  parallels:
+  - name: Orange Refractor
+    print_run: 25
+    serial_numbered: true
+  - name: Red Refractor
+    print_run: 5
+    serial_numbered: true
+  - name: Rose Gold Refractor
+    print_run: 10
+    serial_numbered: true
+  - name: SuperFractor
+    print_run: 1
+    serial_numbered: true
+- id: super-futures-autographs
+  name: Super Futures Autographs
+  uuid: e2dbefbb-5660-501f-a182-eb936eb50a6e
+  type:
+  - autograph
+  declared_card_count: 22
+  parallels:
+  - name: Gold Refractor
+    print_run: 50
+    serial_numbered: true
+  - name: Orange Refractor
+    print_run: 25
+    serial_numbered: true
+  - name: Red Refractor
+    print_run: 5
+    serial_numbered: true
+  - name: Rose Gold Refractor
+    print_run: 10
+    serial_numbered: true
+  - name: SuperFractor
+    print_run: 1
+    serial_numbered: true
