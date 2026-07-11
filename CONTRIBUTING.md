@@ -12,8 +12,19 @@ Thank you for helping improve the open trading card data ecosystem!
 ## Guidelines
 
 - Follow the existing folder structure
-- Validate your YAML before submitting
+- Validate your YAML before submitting (`python tools/validate.py`)
 - Use pull requests — all changes are reviewed
+
+## Data format — use the v0.3 manifest form
+
+New set data must use the **v0.3 manifest form**: `set.yaml` + `manifest.yaml` +
+`checklists/<node-id>.yaml`, from which the per-card explosion is *derived* (never
+committed). See the [schemas overview](schemas/README.md) for the structure.
+
+The old **exploded one-file-per-card format** (`cards/*.yaml`, validated by the `card`
+schema) is **deprecated** — do not author new data in it. It's retained only to validate
+sets not yet migrated, and will be removed once migration completes
+([#33](https://github.com/cardtechie/open-checklist-project/issues/33)).
 
 ## Pull request scope
 
