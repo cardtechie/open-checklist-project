@@ -1,5 +1,16 @@
 # Card Schema v0.1
 
+> ## ⚠️ DEPRECATED
+> The **exploded one-file-per-card format** this schema validates is **deprecated**,
+> superseded by the **v0.3 manifest form** ([`../../manifest`](../../manifest), [`../../checklist`](../../checklist)).
+> A set is now `set.yaml` + `manifest.yaml` + `checklists/`, from which per-card data is
+> *derived* — see the [schemas overview](../../README.md).
+>
+> - **Do not author new data in this format.** New contributions must use the manifest form.
+> - This schema is retained only to validate exploded sets that haven't been migrated yet.
+> - It (and the `v0.2` set schema + the validator's v0.2 path) will be **removed** once all
+>   exploded data is migrated. Tracking: cardtechie/open-checklist-project#33.
+
 This schema defines the structure for individual trading card data in the Open Checklist Project.
 
 ## Required Fields

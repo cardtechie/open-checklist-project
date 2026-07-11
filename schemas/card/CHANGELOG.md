@@ -1,3 +1,8 @@
+## [DEPRECATED] - 2026-07-11
+- The exploded one-file-per-card format is deprecated, superseded by the v0.3 manifest
+  form (manifest + checklist schemas). Retained only to validate not-yet-migrated
+  exploded data; will be removed once migration completes. Tracking: #33.
+
 ## [v0.1] - 2025-06-22
 - Initial release of card schema
 - Added support for sports and TCG genres

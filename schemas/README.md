@@ -15,7 +15,7 @@ legacy data isn't broken during migration.
 | **Set** | v0.3 (manifest form) | [`set/schema.yaml`](set/schema.yaml) | [set/README.md](set/README.md) |
 | **Manifest** | v0.2 | [`manifest/schema.yaml`](manifest/schema.yaml) | [manifest/README.md](manifest/README.md) |
 | **Checklist** | v0.1 | [`checklist/schema.yaml`](checklist/schema.yaml) | [checklist/README.md](checklist/README.md) |
-| **Card** | v0.1 (legacy, exploded) | [`card/schema.yaml`](card/schema.yaml) | [card/README.md](card/README.md) |
+| **Card** | v0.1 (DEPRECATED, exploded) | [`card/schema.yaml`](card/schema.yaml) | [card/README.md](card/README.md) |
 
 The identity/UUID contract that spans the manifest form (which UUIDs are committed vs.
 derived, and the cross-file invariants) is the frozen spec in [`IDENTITY.md`](IDENTITY.md).
@@ -48,7 +48,7 @@ from tens of thousands of files to a handful. See [`IDENTITY.md`](IDENTITY.md) f
 derivation rules and [manifest/README.md](manifest/README.md) for `parallels`,
 `applies_to`, and `sections`.
 
-### Legacy exploded format (v0.2)
+### Legacy exploded format (v0.2) — DEPRECATED
 
 Earlier sets use `data/<genre>/<set-id>/set.yaml` (Set schema **v0.2**) plus
 `cards/*.yaml` (Card schema **v0.1**), one file per card and per parallel. The validator
@@ -145,7 +145,7 @@ schema = load_schema("schemas/set/v0.2/schema.yaml")
 ### Checklist ([changelog](checklist/CHANGELOG.md))
 - **v0.1** ([schema](checklist/v0.1/schema.yaml), [docs](checklist/v0.1/README.md)) — initial checklist schema: committed rows with `subjects` as combinations of `entities`.
 
-### Card ([changelog](card/CHANGELOG.md)) — legacy
+### Card ([changelog](card/CHANGELOG.md)) — DEPRECATED (exploded format, see #33)
 - **v0.1** ([schema](card/v0.1/schema.yaml), [docs](card/v0.1/README.md)) — initial card schema for the exploded format.
 
 ---
