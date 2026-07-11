@@ -1,0 +1,229 @@
+$schema_version: "0.2"
+description: "Manifest schema for the Open Checklist Project — the compact generating structure. A product (set.yaml) holds base sets and/or product-level subsets. Most products have one or more base sets; a base-less product (e.g. a high-end all-autograph/relic release) has only subsets. A base set and a subset are the same recursive node (own checklist + parallels + sections + child subsets), differing only in role: base sets are roots with no `type`; subsets carry a `type` and nest under a base set, another subset, or the product. The per-card explosion is derived from this + checklists/, never committed."
+title: Manifest
+type: object
+required:
+  - set_id
+anyOf:  # a product must have at least one base set or at least one product-level subset
+  - required: [base_sets]
+  - required: [subsets]
+additionalProperties: false
+properties:
+  set_id:
+    type: string
+    pattern: "^[a-z0-9]+(-[a-z0-9]+)*$"
+    description: Must match set.yaml set_id (the product / umbrella).
+  base_sets:
+    type: array
+    minItems: 1
+    description: >
+      The base sets — the roots of the product (optional, but at least one base set or
+      one product-level subset is required). Present for most products; omitted for a
+      base-less product (e.g. an all-autograph/relic high-end release). A base set is NOT
+      a subset: it has no `type` and is never nested. Each is a recursive node
+      (see $defs/baseSet).
+    items:
+      $ref: "#/$defs/baseSet"
+  subsets:
+    type: array
+    minItems: 1
+    description: >
+      Optional PRODUCT-LEVEL subsets — inserts (and their own nested subsets) that
+      belong to the product but not to any single base set (e.g. an insert set like
+      "Anime" or "Patchwork"). Same recursive node shape as a base-set's child subsets;
+      each carries a `type`. A subset that IS tied to one base set (a variation/auto of
+      it) nests under that base set instead; a subset tied to an insert nests under that
+      insert. Only genuinely product-wide inserts live here.
+    items:
+      $ref: "#/$defs/subset"
+
+$defs:
+
+  baseSet:
+    type: object
+    required: [id, name, uuid]
+    additionalProperties: false
+    description: A root checklist unit of the product. Its rows live in checklists/<id>.yaml.
+    properties:
+      id:
+        type: string
+        pattern: "^[a-z0-9]+(-[a-z0-9]+)*$"
+        description: 'Slug, UNIQUE across the whole manifest. Row identities live in checklists/<id>.yaml.'
+      name:
+        type: string
+        description: 'Human name (e.g. "Bowman", "Bowman Chrome Prospects").'
+      uuid:
+        type: string
+        format: uuid
+        description: >
+          Committed identity anchor for this base set. set.yaml carries
+          the PRODUCT (umbrella) uuid; each base set carries its own. Stable forever.
+      declared_card_count:
+        type: integer
+        minimum: 1
+        description: Producer-declared size of THIS base set's checklist (rows only, not parallels). A review-report check.
+      sections:
+        type: array
+        minItems: 1
+        description: Optional singular partition of this checklist. See $defs/section.
+        items: { $ref: "#/$defs/section" }
+      parallels:
+        type: array
+        description: Parallels of this checklist. See $defs/parallel.
+        items: { $ref: "#/$defs/parallel" }
+      subsets:
+        type: array
+        minItems: 1
+        description: Child subsets (recursive), each nested under this node.
+        items: { $ref: "#/$defs/subset" }
+
+  subset:
+    type: object
+    required: [id, name, uuid, type]
+    additionalProperties: false
+    description: >
+      A non-base checklist unit — the same shape as a base set, PLUS `type`, nested under
+      a base set, another subset, or the product directly (top-level `subsets[]`, e.g. a
+      product-level insert or a base-less product). A subset can itself contain subsets
+      and/or parallels.
+    properties:
+      id:
+        type: string
+        pattern: "^[a-z0-9]+(-[a-z0-9]+)*$"
+        description: 'Slug, UNIQUE across the whole manifest. Row identities live in checklists/<id>.yaml.'
+      name:
+        type: string
+        description: 'Human name (e.g. "Chrome Prospect Autographs").'
+      uuid:
+        type: string
+        format: uuid
+        description: Committed identity anchor for this subset. Stable forever.
+      type:
+        type: array
+        minItems: 1
+        uniqueItems: true
+        items:
+          type: string
+          enum: [insert, autograph, relic, variation]
+        description: >
+          One or more type tags. Usually one (`[insert]`, `[variation]`), but material
+          subsets combine orthogonal properties: an autograph relic / autograph patch is
+          `[autograph, relic]`, a variation-autograph is `[autograph, variation]`.
+          Absorbs the old per-card flags (an `autograph` subset means every row is an
+          auto; a `relic` subset means every row carries a relic/patch/swatch). `insert`
+          and `variation` are structural; `autograph` and `relic` are material properties
+          that can co-occur. (A base set has no `type`; it lives in base_sets[].)
+      declared_card_count:
+        type: integer
+        minimum: 1
+        description: Producer-declared size of THIS subset's checklist (rows only, not parallels). A review-report check.
+      sections:
+        type: array
+        minItems: 1
+        items: { $ref: "#/$defs/section" }
+      parallels:
+        type: array
+        items: { $ref: "#/$defs/parallel" }
+      subsets:
+        type: array
+        minItems: 1
+        description: Nested subsets (recursive, same shape).
+        items: { $ref: "#/$defs/subset" }
+
+  section:
+    type: object
+    required: [id, name]
+    additionalProperties: false
+    description: >
+      A SINGULAR editorial block of the parent checklist (e.g. "Veterans", "Rookies"):
+      every row belongs to exactly one section. Membership is declared here and DERIVED
+      onto rows at consume time (rows carry no section field). If a node declares
+      sections, they MUST partition its checklist exactly — every row in exactly one
+      (zero or 2+ = hard error, see IDENTITY.md). A node with no `sections` is one
+      implicit section. NOTE: a section is a structural block, distinct from a per-card
+      ATTRIBUTE (rookie, team-leader, short-print), which is multi-valued and a separate
+      feature — not modeled here.
+    properties:
+      id:
+        type: string
+        pattern: "^[a-z0-9]+(-[a-z0-9]+)*$"
+        description: Section slug, UNIQUE within the parent node. Referenced by parallels' applies_to.sections.
+      name:
+        type: string
+        description: 'Human name of the section (e.g. "Veterans", "Rookies").'
+      declared_card_count:
+        type: integer
+        minimum: 1
+        description: Producer-declared section size — a review-report check against matched rows.
+      range:
+        type: object
+        required: [from, to]
+        additionalProperties: false
+        description: >
+          Contiguous membership for sequential numbering. A row matches iff its `number`
+          shares this range's literal non-digit prefix and its trailing integer is within
+          [from, to] inclusive. Handles "1"–"100" and "US1"–"US25"; NOT mixed-prefix or
+          arbitrary numbering (use `numbers`). Gaps are fine — matches whichever rows exist.
+        properties:
+          from: { type: string }
+          to:   { type: string }
+      numbers:
+        type: array
+        minItems: 1
+        items: { type: string }
+        description: >
+          Explicit membership for non-sequential / interleaved / mixed-prefix numbering.
+          Lists the exact card numbers in this section.
+    oneOf:
+      - { required: [range] }
+      - { required: [numbers] }
+
+  parallel:
+    type: object
+    required: [name]
+    additionalProperties: false
+    properties:
+      name:
+        type: string
+        description: >
+          Canonical parallel name (e.g. "Black", "Gold Pattern", "Superfractor"). UNIQUE
+          within its node. Used verbatim as the UUID-derivation input (see IDENTITY.md) —
+          renaming is a breaking identity change.
+      print_run:
+        type: integer
+        minimum: 0
+        description: Serial-numbering print run, when known (e.g. 10, 50, 1). Per-parallel constant.
+      serial_numbered:
+        type: boolean
+        default: false
+      applies_to:
+        description: >
+          Which rows of the parent checklist this parallel covers. Default "all". Three
+          partial forms, mutually exclusive: `numbers` (ONLY these rows), `except` (all
+          rows EXCEPT these — e.g. a parallel that skips one card the others carry), and
+          `sections` (all rows in the named declared section(s) — e.g. a rookies-only
+          parallel). Prefer `sections`/`except` over `numbers`: they stay correct as the
+          checklist grows, whereas a `numbers` list is a snapshot. Every referenced number
+          MUST exist in the parent checklist, and every referenced section MUST be a
+          declared section id (hard validation errors — see IDENTITY.md). Ranges are
+          intentionally omitted here (card numbers are strings; use a section for a range).
+          This filter selects which rows produce a derived parallel card; it never affects
+          the derived UUID.
+        oneOf:
+          - { type: string, enum: [all] }
+          - type: object
+            required: [numbers]
+            additionalProperties: false
+            properties:
+              numbers: { type: array, minItems: 1, items: { type: string } }
+          - type: object
+            required: [except]
+            additionalProperties: false
+            properties:
+              except: { type: array, minItems: 1, items: { type: string } }
+          - type: object
+            required: [sections]
+            additionalProperties: false
+            properties:
+              sections: { type: array, minItems: 1, items: { type: string } }
+        default: all
