@@ -1,0 +1,280 @@
+- number: '1'
+  uuid: ef08848a-703d-4214-9de0-7bd8101b565f
+  subjects:
+  - entities:
+    - role: player
+      name: Aiden Ruiz
+      ref: 
+    - role: team
+      name: USA Baseball
+      ref: 
+- number: '2'
+  uuid: f632db66-bdf8-4d4e-a4c4-791de5d4acc0
+  subjects:
+  - entities:
+    - role: player
+      name: Matthew Sharman
+      ref: 
+    - role: team
+      name: USA Baseball
+      ref: 
+- number: '3'
+  uuid: 57087b21-cc79-47f7-b37c-23db91dbbee4
+  subjects:
+  - entities:
+    - role: player
+      name: Andrew Costello
+      ref: 
+    - role: team
+      name: USA Baseball
+      ref: 
+- number: '4'
+  uuid: 89744e8c-118c-4a48-b74f-1fd1e4727208
+  subjects:
+  - entities:
+    - role: player
+      name: Coleman Borthwick
+      ref: 
+    - role: team
+      name: USA Baseball
+      ref: 
+- number: '5'
+  uuid: 47e31490-4198-4e8b-9532-61d5e1e1c671
+  subjects:
+  - entities:
+    - role: player
+      name: Cole Koeninger
+      ref: 
+    - role: team
+      name: USA Baseball
+      ref: 
+- number: '6'
+  uuid: 2c0f2fb2-4cc0-4e80-9db3-07aaeaad8723
+  subjects:
+  - entities:
+    - role: player
+      name: Kaden Waechter
+      ref: 
+    - role: team
+      name: USA Baseball
+      ref: 
+- number: '7'
+  uuid: 38e104f9-6ed9-487d-aa2b-33f644551ac2
+  subjects:
+  - entities:
+    - role: player
+      name: Jaden Jackson
+      ref: 
+    - role: team
+      name: USA Baseball
+      ref: 
+- number: '8'
+  uuid: 51d5d3ea-7ecd-4e94-9b77-7efa00b9756b
+  subjects:
+  - entities:
+    - role: player
+      name: Carson Bolemon
+      ref: 
+    - role: team
+      name: USA Baseball
+      ref: 
+- number: '9'
+  uuid: 4ef0ff2c-40cc-464c-a36d-729ee1963713
+  subjects:
+  - entities:
+    - role: player
+      name: Jacob Lombard
+      ref: 
+    - role: team
+      name: USA Baseball
+      ref: 
+- number: '10'
+  uuid: 0aa74b9b-8578-48bd-b458-07e82ca0f0ab
+  subjects:
+  - entities:
+    - role: player
+      name: Grady Emerson
+      ref: 
+    - role: team
+      name: USA Baseball
+      ref: 
+- number: '11'
+  uuid: f11e4c56-c639-4ed3-8ac3-bb5da99eaefb
+  subjects:
+  - entities:
+    - role: player
+      name: Trey Rangel
+      ref: 
+    - role: team
+      name: USA Baseball
+      ref: 
+- number: '12'
+  uuid: b1f00b2e-4039-4bf1-bf74-d49abb94da3b
+  subjects:
+  - entities:
+    - role: player
+      name: Gio Rojas
+      ref: 
+    - role: team
+      name: USA Baseball
+      ref: 
+- number: '13'
+  uuid: dcdbeed9-4acf-4dae-b951-16da95c8f752
+  subjects:
+  - entities:
+    - role: player
+      name: Jorvorskie Lane Jr.
+      ref: 
+    - role: team
+      name: USA Baseball
+      ref: 
+- number: '14'
+  uuid: bacdea31-0f5a-425c-9980-0253e96a32b7
+  subjects:
+  - entities:
+    - role: player
+      name: Anthony Murphy
+      ref: 
+    - role: team
+      name: USA Baseball
+      ref: 
+- number: '15'
+  uuid: 578149cc-0f8d-4533-aa19-12a6fdabc4b1
+  subjects:
+  - entities:
+    - role: player
+      name: Brody Crane
+      ref: 
+    - role: team
+      name: USA Baseball
+      ref: 
+- number: '16'
+  uuid: 0e5cf1ef-d442-4869-adf0-01b6a5498916
+  subjects:
+  - entities:
+    - role: player
+      name: Will Brick
+      ref: 
+    - role: team
+      name: USA Baseball
+      ref: 
+- number: '17'
+  uuid: 547a3d8a-f7ed-4462-8a50-d600f71863f5
+  subjects:
+  - entities:
+    - role: player
+      name: CJ Sampson
+      ref: 
+    - role: team
+      name: USA Baseball
+      ref: 
+- number: '18'
+  uuid: c2740b3f-ab74-491a-9bca-7fae5c5b3a45
+  subjects:
+  - entities:
+    - role: player
+      name: Jared Grindlinger
+      ref: 
+    - role: team
+      name: USA Baseball
+      ref: 
+- number: '19'
+  uuid: 33395b9e-35e6-484c-849c-8eea7a60740b
+  subjects:
+  - entities:
+    - role: player
+      name: James Clark
+      ref: 
+    - role: team
+      name: USA Baseball
+      ref: 
+- number: '20'
+  uuid: da56a1b4-c468-4245-9ba5-f022069827bf
+  subjects:
+  - entities:
+    - role: player
+      name: Brody Schumaker
+      ref: 
+    - role: team
+      name: USA Baseball
+      ref: 
+- number: '21'
+  uuid: a14f41c3-3c6e-4656-b9ff-6d881624721d
+  subjects:
+  - entities:
+    - role: player
+      name: Grady Emerson
+      ref: 
+    - role: team
+      name: USA Baseball
+      ref: 
+- number: '22'
+  uuid: 00b02268-1ce8-434b-b751-ba9a0b17ae2d
+  subjects:
+  - entities:
+    - role: player
+      name: Jacob Lombard
+      ref: 
+    - role: team
+      name: USA Baseball
+      ref: 
+- number: '23'
+  uuid: 0e24d5b2-8bd4-489b-bc1b-da78cfa1dfc3
+  subjects:
+  - entities:
+    - role: player
+      name: Jorvorskie Lane Jr.
+      ref: 
+    - role: team
+      name: USA Baseball
+      ref: 
+- number: '24'
+  uuid: 0a3b97c7-4a10-4388-9ca2-ed6b8c97547a
+  subjects:
+  - entities:
+    - role: player
+      name: Trey Rangel
+      ref: 
+    - role: team
+      name: USA Baseball
+      ref: 
+- number: '25'
+  uuid: 7a9370dc-bda5-4705-b6d0-317692a5d1e4
+  subjects:
+  - entities:
+    - role: player
+      name: Coleman Borthwick
+      ref: 
+    - role: team
+      name: USA Baseball
+      ref: 
+- number: '26'
+  uuid: 7ad3fe98-7caf-444a-aea5-f3a02e7336d8
+  subjects:
+  - entities:
+    - role: player
+      name: Gio Rojas
+      ref: 
+    - role: team
+      name: USA Baseball
+      ref: 
+- number: '27'
+  uuid: c4ecbd38-fe8e-4e70-914b-161f2a11f4ed
+  subjects:
+  - entities:
+    - role: player
+      name: Kaden Waechter
+      ref: 
+    - role: team
+      name: USA Baseball
+      ref: 
+- number: '28'
+  uuid: 5d8252fd-4777-49e0-9ca7-a81fcb42981e
+  subjects:
+  - entities:
+    - role: player
+      name: Cole Koeninger
+      ref: 
+    - role: team
+      name: USA Baseball
+      ref: 

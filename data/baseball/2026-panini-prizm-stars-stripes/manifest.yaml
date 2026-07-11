@@ -1,0 +1,341 @@
+set_id: 2026-panini-prizm-stars-stripes
+base_sets:
+- id: base-set
+  name: Base Set
+  uuid: a6f63d6c-1658-593d-a909-9d7a8b64c034
+  declared_card_count: 200
+  parallels:
+  - name: Prizms Black Finite
+    print_run: 1
+    serial_numbered: true
+  - name: Prizms Black Gold
+    print_run: 5
+    serial_numbered: true
+  - name: Prizms Black Velocity
+    print_run: 39
+    serial_numbered: true
+  - name: Prizms Blue
+    print_run: 299
+    serial_numbered: true
+  - name: Prizms Blue Ice
+    print_run: 99
+    serial_numbered: true
+  - name: Prizms Blue Pulsar
+    print_run: 75
+    serial_numbered: true
+  - name: Prizms Box Set
+  - name: Prizms Box Set Black Pandora
+    print_run: 1
+    serial_numbered: true
+  - name: Prizms Box Set Red Pandora
+    print_run: 39
+    serial_numbered: true
+  - name: Prizms Box Set Signatures
+    print_run: 225
+    serial_numbered: true
+  - name: Prizms Cherry Blossom
+    print_run: 20
+    serial_numbered: true
+  - name: Prizms Cracked Ice
+    print_run: 25
+    serial_numbered: true
+  - name: Prizms Disco
+  - name: Prizms Disco America
+    print_run: 13
+    serial_numbered: true
+  - name: Prizms Disco Black
+    print_run: 1
+    serial_numbered: true
+  - name: Prizms Disco Blue
+    print_run: 149
+    serial_numbered: true
+  - name: Prizms Disco Gold
+    print_run: 10
+    serial_numbered: true
+  - name: Prizms Disco Orange
+    print_run: 75
+    serial_numbered: true
+  - name: Prizms Disco Purple
+    print_run: 99
+    serial_numbered: true
+  - name: Prizms Disco Red
+    print_run: 199
+    serial_numbered: true
+  - name: Prizms Disco Teal
+    print_run: 49
+    serial_numbered: true
+  - name: Prizms Glitter
+  - name: Prizms Gold
+    print_run: 10
+    serial_numbered: true
+  - name: Prizms Gold Vinyl
+    print_run: 1
+    serial_numbered: true
+  - name: Prizms Green
+  - name: Prizms Green Ice
+    print_run: 25
+    serial_numbered: true
+  - name: Prizms Green Pulsar
+    print_run: 25
+    serial_numbered: true
+  - name: Prizms Green Scope
+    print_run: 99
+    serial_numbered: true
+  - name: Prizms Mojo
+    print_run: 25
+    serial_numbered: true
+  - name: Prizms Orange Ice
+    print_run: 199
+    serial_numbered: true
+  - name: Prizms Orange Pulsar
+    print_run: 249
+    serial_numbered: true
+  - name: Prizms Orange Wave
+    print_run: 75
+    serial_numbered: true
+  - name: Prizms Purple
+    print_run: 199
+    serial_numbered: true
+  - name: Prizms Red
+    print_run: 399
+    serial_numbered: true
+  - name: Prizms Red Power
+    print_run: 149
+    serial_numbered: true
+  - name: Prizms Ruby Wave
+  - name: Prizms Silver
+  - name: Prizms Snakeskin
+  subsets:
+  - id: base-prizms-signatures
+    name: Base Prizms Signatures
+    uuid: 82947756-9222-5511-8792-a6eec840b7b2
+    type:
+    - autograph
+    declared_card_count: 200
+    parallels:
+    - name: Gold
+      print_run: 10
+      serial_numbered: true
+    - name: Gold Vinyl
+      print_run: 1
+      serial_numbered: true
+  - id: base-prizms-signatures-green
+    name: Base Prizms Signatures Green
+    uuid: 2d41e756-15e9-52ba-982e-ce239b0adb15
+    type:
+    - autograph
+    declared_card_count: 32
+subsets:
+- id: 13u-14u-national-team-signatures
+  name: 13U/14U National Team Signatures
+  uuid: 33549df3-1aef-5230-8d03-4c1fe8768b66
+  type:
+  - autograph
+  declared_card_count: 50
+  parallels:
+  - name: PE
+  - name: Prizms Black Finite
+    print_run: 1
+    serial_numbered: true
+  - name: Prizms Blue
+    print_run: 49
+    serial_numbered: true
+  - name: Prizms Box Set
+    print_run: 100
+    serial_numbered: true
+  - name: Prizms Disco
+  - name: Prizms Disco Black
+    print_run: 1
+    serial_numbered: true
+  - name: Prizms Disco Gold
+    print_run: 10
+    serial_numbered: true
+  - name: Prizms Disco Red
+    print_run: 25
+    serial_numbered: true
+  - name: Prizms Gold
+    print_run: 10
+    serial_numbered: true
+  - name: Prizms Gold Ice
+    print_run: 10
+    serial_numbered: true
+  - name: Prizms Gold Pulsar
+    print_run: 10
+    serial_numbered: true
+  - name: Prizms Gold Vinyl
+    print_run: 1
+    serial_numbered: true
+  - name: Prizms Green
+  - name: Prizms Green Ice
+    print_run: 99
+    serial_numbered: true
+  - name: Prizms Green Pulsar
+    print_run: 99
+    serial_numbered: true
+  - name: Prizms Mojo
+    print_run: 25
+    serial_numbered: true
+  - name: Prizms Red
+    print_run: 99
+    serial_numbered: true
+- id: 15u-national-team-signatures
+  name: 15U National Team Signatures
+  uuid: 7ac59da6-3adf-56cd-ae14-f175ca0995b0
+  type:
+  - autograph
+  declared_card_count: 20
+  parallels:
+  - name: PE
+  - name: Prizms Black Finite
+    print_run: 1
+    serial_numbered: true
+  - name: Prizms Blue
+    print_run: 49
+    serial_numbered: true
+  - name: Prizms Box Set
+    print_run: 200
+    serial_numbered: true
+  - name: Prizms Disco
+  - name: Prizms Disco Black
+    print_run: 1
+    serial_numbered: true
+  - name: Prizms Disco Gold
+    print_run: 10
+    serial_numbered: true
+  - name: Prizms Disco Red
+    print_run: 25
+    serial_numbered: true
+  - name: Prizms Gold
+    print_run: 10
+    serial_numbered: true
+  - name: Prizms Gold Ice
+    print_run: 10
+    serial_numbered: true
+  - name: Prizms Gold Pulsar
+    print_run: 10
+    serial_numbered: true
+  - name: Prizms Gold Vinyl
+    print_run: 1
+    serial_numbered: true
+  - name: Prizms Green
+  - name: Prizms Green Ice
+    print_run: 99
+    serial_numbered: true
+  - name: Prizms Green Pulsar
+    print_run: 99
+    serial_numbered: true
+  - name: Prizms Mojo
+    print_run: 25
+    serial_numbered: true
+  - name: Prizms Red
+    print_run: 99
+    serial_numbered: true
+- id: 16u-17u-national-team-signatures
+  name: 16U/17U National Team Signatures
+  uuid: 5443e4de-eace-51ab-81df-d1e9b6f7eb63
+  type:
+  - autograph
+  declared_card_count: 71
+- id: 18u-national-team-signatures
+  name: 18U National Team Signatures
+  uuid: 2f983d1b-acae-5a2c-be85-32273381082f
+  type:
+  - autograph
+  declared_card_count: 28
+  parallels:
+  - name: PE
+  - name: Prizms Black Finite
+    print_run: 1
+    serial_numbered: true
+  - name: Prizms Blue
+    print_run: 49
+    serial_numbered: true
+  - name: Prizms Box Set
+    print_run: 200
+    serial_numbered: true
+  - name: Prizms Disco
+  - name: Prizms Disco Black
+    print_run: 1
+    serial_numbered: true
+  - name: Prizms Disco Gold
+    print_run: 10
+    serial_numbered: true
+  - name: Prizms Disco Red
+    print_run: 25
+    serial_numbered: true
+  - name: Prizms Gold
+    print_run: 10
+    serial_numbered: true
+  - name: Prizms Gold Ice
+    print_run: 10
+    serial_numbered: true
+  - name: Prizms Gold Pulsar
+    print_run: 10
+    serial_numbered: true
+  - name: Prizms Gold Vinyl
+    print_run: 1
+    serial_numbered: true
+  - name: Prizms Green
+  - name: Prizms Green Ice
+    print_run: 99
+    serial_numbered: true
+  - name: Prizms Green Pulsar
+    print_run: 99
+    serial_numbered: true
+  - name: Prizms Mojo
+    print_run: 25
+    serial_numbered: true
+  - name: Prizms Red
+    print_run: 99
+    serial_numbered: true
+- id: all-american
+  name: All-American
+  uuid: 034e6d55-446b-558b-a9dc-5f8afd68b3c8
+  type:
+  - insert
+  declared_card_count: 25
+  parallels:
+  - name: Prizms Black Finite
+    print_run: 1
+    serial_numbered: true
+  - name: Prizms Blue
+    print_run: 99
+    serial_numbered: true
+  - name: Prizms Disco
+  - name: Prizms Disco Black
+    print_run: 1
+    serial_numbered: true
+  - name: Prizms Disco Gold
+    print_run: 10
+    serial_numbered: true
+  - name: Prizms Gold
+    print_run: 10
+    serial_numbered: true
+  - name: Prizms Gold Vinyl
+    print_run: 1
+    serial_numbered: true
+  - name: Prizms Green
+  - name: Prizms Mojo
+    print_run: 25
+    serial_numbered: true
+  - name: Prizms Red
+    print_run: 199
+    serial_numbered: true
+- id: jumbo-materials-flag
+  name: Jumbo Materials Flag
+  uuid: bca93f87-fc83-5060-9381-a1fb7bdd6da3
+  type:
+  - relic
+  declared_card_count: 184
+- id: jumbo-materials-jersey-number
+  name: Jumbo Materials Jersey Number
+  uuid: bea87e55-8249-5c87-bece-4eb1053a9130
+  type:
+  - relic
+  declared_card_count: 186
+- id: jumbo-materials-patch
+  name: Jumbo Materials Patch
+  uuid: 41d4d9f3-4d9c-5c85-bacb-921d90691482
+  type:
+  - relic
+  declared_card_count: 189
