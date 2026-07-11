@@ -17,10 +17,8 @@ data/<genre>/<set-id>/
 ## Top level
 
 - **`set_id`** (required) — must match `set.yaml` and the directory name.
-- **`base_sets`** (optional, ≥1 when present) — the root checklists of the product. A
-  base set is **not** a subset: it has no `type` and is never nested. Omitted for a
-  base-less product (e.g. an all-autograph/relic high-end release). A product must have
-  at least one base set **or** at least one product-level subset.
+- **`base_sets`** (required, ≥1) — the root checklists of the product. A base set is
+  **not** a subset: it has no `type` and is never nested.
 - **`subsets`** (optional) — **product-level** subsets: inserts that belong to the
   product but not to any single base set (e.g. an "Anime" insert).
 
