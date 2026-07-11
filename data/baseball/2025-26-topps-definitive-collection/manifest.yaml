@@ -116,6 +116,7 @@ subsets:
   uuid: 39813a7d-9dbd-5119-a110-c87455b04d01
   type:
   - insert
+  - relic
   declared_card_count: 43
   parallels:
   - name: MLB Logo Gold
@@ -161,6 +162,7 @@ subsets:
   uuid: 47cd3de2-9453-5d6c-a262-005f29d256b3
   type:
   - insert
+  - relic
   declared_card_count: 80
 - id: definitive-patch-collection
   name: Definitive Patch Collection
@@ -371,6 +373,7 @@ subsets:
   uuid: f00779bb-347f-5a4e-9acf-7eb7d8620e6a
   type:
   - insert
+  - relic
   declared_card_count: 10
   parallels:
   - name: Black
