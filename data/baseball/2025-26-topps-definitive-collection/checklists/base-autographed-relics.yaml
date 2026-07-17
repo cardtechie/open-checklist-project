@@ -1,0 +1,490 @@
+- number: ARC-AG
+  uuid: f2a66418-ed37-4a23-b360-44e21a17e7be
+  subjects:
+  - entities:
+    - role: player
+      name: Adolis García
+      ref: 
+    - role: team
+      name: Texas Rangers
+      ref: 
+- number: ARC-AP
+  uuid: aff92fad-f9cb-4352-8b79-e04bef7f73c0
+  subjects:
+  - entities:
+    - role: player
+      name: Andy Pettitte
+      ref: 
+    - role: team
+      name: Houston Astros
+      ref: 
+- number: ARC-AR
+  uuid: f66d3c27-6009-4014-9473-e208b839ddd1
+  subjects:
+  - entities:
+    - role: player
+      name: Austin Riley
+      ref: 
+    - role: team
+      name: Atlanta Braves
+      ref: 
+- number: ARC-ARU
+  uuid: 2776b37b-a44e-4f12-92b6-2f15c0345f5e
+  subjects:
+  - entities:
+    - role: player
+      name: Adley Rutschman
+      ref: 
+    - role: team
+      name: Baltimore Orioles
+      ref: 
+- number: ARC-BB
+  uuid: 9a3ea95f-296e-4169-899e-13f66caa3ac9
+  subjects:
+  - entities:
+    - role: player
+      name: Byron Buxton
+      ref: 
+    - role: team
+      name: Minnesota Twins
+      ref: 
+- number: ARC-BN
+  uuid: 0af19db8-36cb-4bf0-ba12-0bd8d23922c9
+  subjects:
+  - entities:
+    - role: player
+      name: Brandon Nimmo
+      ref: 
+    - role: team
+      name: New York Mets
+      ref: 
+- number: ARC-BRO
+  uuid: 4d2de113-f959-42fd-a3ce-5f3f4d159eed
+  subjects:
+  - entities:
+    - role: player
+      name: Brent Rooker
+      ref: 
+    - role: team
+      name: Athletics
+      ref: 
+- number: ARC-CA
+  uuid: fb537e1c-cee7-4d09-8c42-5b083aa5cf77
+  subjects:
+  - entities:
+    - role: player
+      name: CJ Abrams
+      ref: 
+    - role: team
+      name: Washington Nationals
+      ref: 
+- number: ARC-CAM
+  uuid: 4ed68bce-01c0-4ee0-bb14-98d998b5cec9
+  subjects:
+  - entities:
+    - role: player
+      name: Cam Smith
+      ref: 
+    - role: team
+      name: Houston Astros
+      ref: 
+- number: ARC-CCA
+  uuid: 2812cb95-56da-4a8e-92bb-06e11309e827
+  subjects:
+  - entities:
+    - role: player
+      name: Corbin Carroll
+      ref: 
+    - role: team
+      name: Arizona Diamondbacks
+      ref: 
+- number: ARC-CS
+  uuid: 152c0980-8935-4bea-a1bc-db3607fd3b51
+  subjects:
+  - entities:
+    - role: player
+      name: Corey Seager
+      ref: 
+    - role: team
+      name: Texas Rangers
+      ref: 
+- number: ARC-CSA
+  uuid: f49bcbdc-c419-4ee0-830d-27d291826ed6
+  subjects:
+  - entities:
+    - role: player
+      name: Chris Sale
+      ref: 
+    - role: team
+      name: Atlanta Braves
+      ref: 
+- number: ARC-CY
+  uuid: 27d18567-4b14-4167-95d4-a0074e9a3d90
+  subjects:
+  - entities:
+    - role: player
+      name: Christian Yelich
+      ref: 
+    - role: team
+      name: Milwaukee Brewers
+      ref: 
+- number: ARC-DC
+  uuid: e4e6cba5-0111-45d7-b051-2d6dc421b1ac
+  subjects:
+  - entities:
+    - role: player
+      name: Dylan Crews
+      ref: 
+    - role: team
+      name: Washington Nationals
+      ref: 
+- number: ARC-FL
+  uuid: 2fb1891e-6558-4b87-ab0e-0134386f1a5e
+  subjects:
+  - entities:
+    - role: player
+      name: Francisco Lindor
+      ref: 
+    - role: team
+      name: New York Mets
+      ref: 
+- number: ARC-FT
+  uuid: 024d0f0a-6416-465c-b806-67a1d78ea5d0
+  subjects:
+  - entities:
+    - role: player
+      name: Fernando Tatis Jr.
+      ref: 
+    - role: team
+      name: San Diego Padres
+      ref: 
+- number: ARC-GH
+  uuid: 267c1fef-b79b-41ce-a3d4-1b91f4fcaec9
+  subjects:
+  - entities:
+    - role: player
+      name: Gunnar Henderson
+      ref: 
+    - role: team
+      name: Baltimore Orioles
+      ref: 
+- number: ARC-HR
+  uuid: ed379aaf-9a13-41f1-8b35-07bd781bc0f8
+  subjects:
+  - entities:
+    - role: player
+      name: Hanley Ramirez
+      ref: 
+    - role: team
+      name: Florida Marlins
+      ref: 
+- number: ARC-JA
+  uuid: caf34894-e5bb-4dd3-9dc8-d514143d04d7
+  subjects:
+  - entities:
+    - role: player
+      name: Jose Altuve
+      ref: 
+    - role: team
+      name: Houston Astros
+      ref: 
+- number: ARC-JCA
+  uuid: 48a1231e-9ad3-4494-9d81-44553e323670
+  subjects:
+  - entities:
+    - role: player
+      name: Junior Caminero
+      ref: 
+    - role: team
+      name: Tampa Bay Rays
+      ref: 
+- number: ARC-JCJ
+  uuid: abc0768a-3cba-4372-a5e2-19f7e77e645d
+  subjects:
+  - entities:
+    - role: player
+      name: Jazz Chisholm Jr.
+      ref: 
+    - role: team
+      name: New York Yankees
+      ref: 
+- number: ARC-JD
+  uuid: 3a56cbf7-d74d-4eb9-adab-0254961000fb
+  subjects:
+  - entities:
+    - role: player
+      name: Jasson Domínguez
+      ref: 
+    - role: team
+      name: New York Yankees
+      ref: 
+- number: ARC-JDU
+  uuid: 4e559b0d-2159-44fc-bf28-0c51ecaf4188
+  subjects:
+  - entities:
+    - role: player
+      name: Jarren Duran
+      ref: 
+    - role: team
+      name: Boston Red Sox
+      ref: 
+- number: ARC-JHL
+  uuid: becf2bac-9706-4f14-a6ac-038b38e69375
+  subjects:
+  - entities:
+    - role: player
+      name: Jung Hoo Lee
+      ref: 
+    - role: team
+      name: San Francisco Giants
+      ref: 
+- number: ARC-JHM
+  uuid: fabb1a2a-3577-4137-8999-3a12d5f526e8
+  subjects:
+  - entities:
+    - role: player
+      name: Justyn-Henry Malloy
+      ref: 
+    - role: team
+      name: Detroit Tigers
+      ref: 
+- number: ARC-JM
+  uuid: 0d7424b6-ec6f-4a18-b123-ad88ed11555d
+  subjects:
+  - entities:
+    - role: player
+      name: Jackson Merrill
+      ref: 
+    - role: team
+      name: San Diego Padres
+      ref: 
+- number: ARC-JR
+  uuid: 1dba848e-02bc-4866-93fd-93e8d0025d50
+  subjects:
+  - entities:
+    - role: player
+      name: José Ramírez
+      ref: 
+    - role: team
+      name: Cleveland Guardians
+      ref: 
+- number: ARC-JRO
+  uuid: 42d9fbbb-6127-4a09-b698-f557ec2abb23
+  subjects:
+  - entities:
+    - role: player
+      name: Julio Rodríguez
+      ref: 
+    - role: team
+      name: Seattle Mariners
+      ref: 
+- number: ARC-JS
+  uuid: 20a01563-9fd5-4095-b4bd-5efc5d140463
+  subjects:
+  - entities:
+    - role: player
+      name: Juan Soto
+      ref: 
+    - role: team
+      name: New York Mets
+      ref: 
+- number: ARC-JW
+  uuid: 7973af70-9c3b-4510-9e6d-af3ac4515796
+  subjects:
+  - entities:
+    - role: player
+      name: Jordan Westburg
+      ref: 
+    - role: team
+      name: Baltimore Orioles
+      ref: 
+- number: ARC-JWO
+  uuid: 5da4524e-11d3-4a14-8343-7bdfb0ade8df
+  subjects:
+  - entities:
+    - role: player
+      name: James Wood
+      ref: 
+    - role: team
+      name: Washington Nationals
+      ref: 
+- number: ARC-KA
+  uuid: 48de73ad-787a-4028-ad9f-83552f132e4e
+  subjects:
+  - entities:
+    - role: player
+      name: Kevin Alcántara
+      ref: 
+    - role: team
+      name: Chicago Cubs
+      ref: 
+- number: ARC-KC
+  uuid: 28344560-65c6-470a-9cf1-1b5c8050514c
+  subjects:
+  - entities:
+    - role: player
+      name: Kristian Campbell
+      ref: 
+    - role: team
+      name: Boston Red Sox
+      ref: 
+- number: ARC-LA
+  uuid: d5ecd022-1c0b-4a95-8eba-ea39823e129f
+  subjects:
+  - entities:
+    - role: player
+      name: Luisangel Acuña
+      ref: 
+    - role: team
+      name: New York Mets
+      ref: 
+- number: ARC-LW
+  uuid: 6825f24c-afcb-401d-be72-f4283ec2b9d3
+  subjects:
+  - entities:
+    - role: player
+      name: Larry Walker
+      ref: 
+    - role: team
+      name: Colorado Rockies
+      ref: 
+- number: ARC-MH
+  uuid: 45268aaf-a747-46c1-b56f-ce0301d37558
+  subjects:
+  - entities:
+    - role: player
+      name: Michael Harris II
+      ref: 
+    - role: team
+      name: Atlanta Braves
+      ref: 
+- number: ARC-MM
+  uuid: 2b47cb2f-a1f6-4962-b20c-2c88322bac40
+  subjects:
+  - entities:
+    - role: player
+      name: Manny Machado
+      ref: 
+    - role: team
+      name: San Diego Padres
+      ref: 
+- number: ARC-MO
+  uuid: 1ead5238-3dc3-4caa-900a-4c8c330b1eb7
+  subjects:
+  - entities:
+    - role: player
+      name: Matt Olson
+      ref: 
+    - role: team
+      name: Atlanta Braves
+      ref: 
+- number: ARC-MOZ
+  uuid: 370456d5-dda2-4d4e-abbd-b44823697b9e
+  subjects:
+  - entities:
+    - role: player
+      name: Marcell Ozuna
+      ref: 
+    - role: team
+      name: Atlanta Braves
+      ref: 
+- number: ARC-MSH
+  uuid: f4a3e11e-2edd-402a-b195-652f36ee06d6
+  subjects:
+  - entities:
+    - role: player
+      name: Matt Shaw
+      ref: 
+    - role: team
+      name: Chicago Cubs
+      ref: 
+- number: ARC-MT
+  uuid: 9ada91ef-9fee-481f-81f3-83f4ba4fcf8c
+  subjects:
+  - entities:
+    - role: player
+      name: Mike Trout
+      ref: 
+    - role: team
+      name: Los Angeles Angels
+      ref: 
+- number: ARC-MW
+  uuid: 16523417-9f37-4fad-8308-28a1bab5d7dc
+  subjects:
+  - entities:
+    - role: player
+      name: Masyn Winn
+      ref: 
+    - role: team
+      name: St. Louis Cardinals
+      ref: 
+- number: ARC-MY
+  uuid: a138847d-08cc-48bf-8e89-94768496ec45
+  subjects:
+  - entities:
+    - role: player
+      name: Masataka Yoshida
+      ref: 
+    - role: team
+      name: Boston Red Sox
+      ref: 
+- number: ARC-PA
+  uuid: 9de66faf-cd7a-47fa-9e37-d3d719d3e450
+  subjects:
+  - entities:
+    - role: player
+      name: Pete Alonso
+      ref: 
+    - role: team
+      name: New York Mets
+      ref: 
+- number: ARC-RA
+  uuid: 6b66c2ea-d994-430f-942e-05a02289cdc7
+  subjects:
+  - entities:
+    - role: player
+      name: Ronald Acuña Jr.
+      ref: 
+    - role: team
+      name: Atlanta Braves
+      ref: 
+- number: ARC-RD
+  uuid: 1a5bcc22-be6c-43a3-b24f-349dec64ff56
+  subjects:
+  - entities:
+    - role: player
+      name: Rafael Devers
+      ref: 
+    - role: team
+      name: San Francisco Giants
+      ref: 
+- number: ARC-SF
+  uuid: f2b4b3bf-e335-4fef-953b-c26010f9cf59
+  subjects:
+  - entities:
+    - role: player
+      name: Sal Frelick
+      ref: 
+    - role: team
+      name: Milwaukee Brewers
+      ref: 
+- number: ARC-TH
+  uuid: 8c0fe082-b1b0-43af-a189-90fcbe66fac6
+  subjects:
+  - entities:
+    - role: player
+      name: Torii Hunter
+      ref: 
+    - role: team
+      name: Detroit Tigers
+      ref: 
+- number: ARC-VG
+  uuid: 347846c7-f722-4235-b59e-97ad6bc740d1
+  subjects:
+  - entities:
+    - role: player
+      name: Vladimir Guerrero Jr.
+      ref: 
+    - role: team
+      name: Toronto Blue Jays
+      ref: 

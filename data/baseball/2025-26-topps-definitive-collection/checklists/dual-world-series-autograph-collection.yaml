@@ -1,0 +1,221 @@
+- number: DWSA-AT
+  uuid: 80dffeca-a3d1-4a6a-8dd9-44bdeaa912e4
+  subjects:
+  - entities:
+    - role: player
+      name: Jose Altuve
+      ref: 
+    - role: team
+      name: Houston Astros
+      ref: 
+  - entities:
+    - role: player
+      name: Kyle Tucker
+      ref: 
+    - role: team
+      name: Houston Astros
+      ref: 
+- number: DWSA-BP
+  uuid: e71f1bb4-0ff2-4c70-b4dd-06db3a0c0d3e
+  subjects:
+  - entities:
+    - role: player
+      name: Johnny Bench
+      ref: 
+    - role: team
+      name: Cincinnati Reds
+      ref: 
+  - entities:
+    - role: player
+      name: Tony Pérez
+      ref: 
+    - role: team
+      name: Cincinnati Reds
+      ref: 
+- number: DWSA-FA
+  uuid: 6c22b609-4d4a-43ff-bfed-a638a535f851
+  subjects:
+  - entities:
+    - role: player
+      name: Freddie Freeman
+      ref: 
+    - role: team
+      name: Atlanta Braves
+      ref: 
+  - entities:
+    - role: player
+      name: Ozzie Albies
+      ref: 
+    - role: team
+      name: Atlanta Braves
+      ref: 
+- number: DWSA-JG
+  uuid: 529cddd3-586b-4a7d-a506-89a566ce76f0
+  subjects:
+  - entities:
+    - role: player
+      name: Tom Glavine
+      ref: 
+    - role: team
+      name: Atlanta Braves
+      ref: 
+  - entities:
+    - role: player
+      name: Chipper Jones
+      ref: 
+    - role: team
+      name: Atlanta Braves
+      ref: 
+- number: DWSA-JP
+  uuid: 20aecaca-f365-4c2b-a75a-288eb3dedae4
+  subjects:
+  - entities:
+    - role: player
+      name: Andy Pettitte
+      ref: 
+    - role: team
+      name: New York Yankees
+      ref: 
+  - entities:
+    - role: player
+      name: Derek Jeter
+      ref: 
+    - role: team
+      name: New York Yankees
+      ref: 
+- number: DWSA-MR
+  uuid: 0a3cac72-7d6b-4447-a980-02e97f5953a4
+  subjects:
+  - entities:
+    - role: player
+      name: Alex Rodriguez
+      ref: 
+    - role: team
+      name: New York Yankees
+      ref: 
+  - entities:
+    - role: player
+      name: Hideki Matsui
+      ref: 
+    - role: team
+      name: New York Yankees
+      ref: 
+- number: DWSA-OJ
+  uuid: aef35a91-ba46-43b1-9a30-c4cbc53dd769
+  subjects:
+  - entities:
+    - role: player
+      name: Aaron Judge
+      ref: 
+    - role: team
+      name: New York Yankees
+      ref: 
+  - entities:
+    - role: player
+      name: Shohei Ohtani
+      ref: 
+    - role: team
+      name: Los Angeles Dodgers
+      ref: 
+- number: DWSA-PH
+  uuid: 79902c11-d762-45c4-a3ba-e28a6620ee1c
+  subjects:
+  - entities:
+    - role: player
+      name: Albert Pujols
+      ref: 
+    - role: team
+      name: St. Louis Cardinals
+      ref: 
+  - entities:
+    - role: player
+      name: Matt Holliday
+      ref: 
+    - role: team
+      name: St. Louis Cardinals
+      ref: 
+- number: DWSA-RH
+  uuid: a3e0699b-b578-4319-aab4-6ef2abcb906d
+  subjects:
+  - entities:
+    - role: player
+      name: Jimmy Rollins
+      ref: 
+    - role: team
+      name: Philadelphia Phillies
+      ref: 
+  - entities:
+    - role: player
+      name: Ryan Howard
+      ref: 
+    - role: team
+      name: Philadelphia Phillies
+      ref: 
+- number: DWSA-RJM
+  uuid: 344752f8-d52f-4688-8d12-d3b75bc1e742
+  subjects:
+  - entities:
+    - role: player
+      name: Cal Ripken Jr.
+      ref: 
+    - role: team
+      name: Baltimore Orioles
+      ref: 
+  - entities:
+    - role: player
+      name: Eddie Murray
+      ref: 
+    - role: team
+      name: Baltimore Orioles
+      ref: 
+- number: DWSA-SCA
+  uuid: 4fb46355-3617-4a31-b4d5-d6fbfb811eec
+  subjects:
+  - entities:
+    - role: player
+      name: Mike Schmidt
+      ref: 
+    - role: team
+      name: Philadelphia Phillies
+      ref: 
+  - entities:
+    - role: player
+      name: Steve Carlton
+      ref: 
+    - role: team
+      name: Philadelphia Phillies
+      ref: 
+- number: DWSA-SP
+  uuid: d58f7f27-9bc6-46f7-a708-ecf824e5c892
+  subjects:
+  - entities:
+    - role: player
+      name: Andy Pettitte
+      ref: 
+    - role: team
+      name: New York Yankees
+      ref: 
+  - entities:
+    - role: player
+      name: CC Sabathia
+      ref: 
+    - role: team
+      name: New York Yankees
+      ref: 
+- number: DWSA-ST
+  uuid: 5a0a84e1-3f8f-4c49-8bfc-b17c4fb35741
+  subjects:
+  - entities:
+    - role: player
+      name: Trea Turner
+      ref: 
+    - role: team
+      name: Washington Nationals
+      ref: 
+  - entities:
+    - role: player
+      name: Juan Soto
+      ref: 
+    - role: team
+      name: Washington Nationals
+      ref: 

@@ -1,0 +1,100 @@
+- number: PPR-AJ
+  uuid: 75240270-cfdc-40f6-bfcc-1c60c49bd456
+  subjects:
+  - entities:
+    - role: player
+      name: Aaron Judge
+      ref: 
+    - role: team
+      name: New York Yankees
+      ref: 
+- number: PPR-DR
+  uuid: 684b9189-fb28-42ef-9bf5-0ddbcaa0a192
+  subjects:
+  - entities:
+    - role: player
+      name: Dalton Rushing
+      ref: 
+    - role: team
+      name: Los Angeles Dodgers
+      ref: 
+- number: PPR-JR
+  uuid: 22a45bd7-ce47-4307-9a02-6ad663c5d35e
+  subjects:
+  - entities:
+    - role: player
+      name: José Ramírez
+      ref: 
+    - role: team
+      name: Cleveland Guardians
+      ref: 
+- number: PPR-JT
+  uuid: 4609a3d8-f55b-4849-a0e4-4e1d1d1f0275
+  subjects:
+  - entities:
+    - role: player
+      name: J.T. Realmuto
+      ref: 
+    - role: team
+      name: Philadelphia Phillies
+      ref: 
+- number: PPR-OA
+  uuid: cf66799c-2816-44ec-a743-5dc33dda6189
+  subjects:
+  - entities:
+    - role: player
+      name: Ozzie Albies
+      ref: 
+    - role: team
+      name: Atlanta Braves
+      ref: 
+- number: PPR-RA
+  uuid: 94835e51-c830-45c2-963b-b9743f0de0fa
+  subjects:
+  - entities:
+    - role: player
+      name: Ronald Acuña Jr.
+      ref: 
+    - role: team
+      name: Atlanta Braves
+      ref: 
+- number: PPR-SO
+  uuid: 0400ad4c-3339-4e05-91cf-654a99ce17c1
+  subjects:
+  - entities:
+    - role: player
+      name: Shohei Ohtani
+      ref: 
+    - role: team
+      name: Los Angeles Dodgers
+      ref: 
+- number: PPR-SP
+  uuid: 00df16a2-fc6b-4088-9bfd-1d434ba34e23
+  subjects:
+  - entities:
+    - role: player
+      name: Salvador Perez
+      ref: 
+    - role: team
+      name: Kansas City Royals
+      ref: 
+- number: PPR-TH
+  uuid: 56715717-10c7-4096-864d-829ac83358d3
+  subjects:
+  - entities:
+    - role: player
+      name: Teoscar Hernández
+      ref: 
+    - role: team
+      name: Los Angeles Dodgers
+      ref: 
+- number: PPR-WS
+  uuid: 661ed8b2-a41f-496d-8f24-1890dec2ff09
+  subjects:
+  - entities:
+    - role: player
+      name: Will Smith
+      ref: 
+    - role: team
+      name: Los Angeles Dodgers
+      ref: 

@@ -1,0 +1,320 @@
+- number: CCSA-AB
+  uuid: 32bcd707-98f9-42c9-86cd-9e7b43713656
+  subjects:
+  - entities:
+    - role: player
+      name: Alex Bregman
+      ref: 
+    - role: team
+      name: Houston Astros
+      ref: 
+- number: CCSA-AG
+  uuid: 72f1ff37-03c9-4905-b56b-92d85335f1dd
+  subjects:
+  - entities:
+    - role: player
+      name: Adolis García
+      ref: 
+    - role: team
+      name: Texas Rangers
+      ref: 
+- number: CCSA-AM
+  uuid: 1eb2aef8-3b11-492d-94b3-3659f4979e1e
+  subjects:
+  - entities:
+    - role: player
+      name: Andrew McCutchen
+      ref: 
+    - role: team
+      name: Pittsburgh Pirates
+      ref: 
+- number: CCSA-AR
+  uuid: 4fc010f3-7e2c-4b0b-b051-1f89e841fa56
+  subjects:
+  - entities:
+    - role: player
+      name: Adley Rutschman
+      ref: 
+    - role: team
+      name: Baltimore Orioles
+      ref: 
+- number: CCSA-BB
+  uuid: 28420494-005e-4178-8d93-207bf45ec111
+  subjects:
+  - entities:
+    - role: player
+      name: Byron Buxton
+      ref: 
+    - role: team
+      name: Minnesota Twins
+      ref: 
+- number: CCSA-BH
+  uuid: 6f3419ec-a8d7-4319-b7ed-5917a00afa75
+  subjects:
+  - entities:
+    - role: player
+      name: Bryce Harper
+      ref: 
+    - role: team
+      name: Philadelphia Phillies
+      ref: 
+- number: CCSA-BL
+  uuid: fcfad5cc-78a9-40ec-9e13-d69a8c18a151
+  subjects:
+  - entities:
+    - role: player
+      name: Brooks Lee
+      ref: 
+    - role: team
+      name: Minnesota Twins
+      ref: 
+- number: CCSA-CCA
+  uuid: d25a15c7-6fac-410c-9066-9cd58315b2b5
+  subjects:
+  - entities:
+    - role: player
+      name: Corbin Carroll
+      ref: 
+    - role: team
+      name: Arizona Diamondbacks
+      ref: 
+- number: CCSA-CM
+  uuid: c9ba1dae-d92f-4adf-a0d1-07ef9468a1a7
+  subjects:
+  - entities:
+    - role: player
+      name: Christopher Morel
+      ref: 
+    - role: team
+      name: Tampa Bay Rays
+      ref: 
+- number: CCSA-CSA
+  uuid: fde5fda2-357f-4193-a9e5-7162ad8edbec
+  subjects:
+  - entities:
+    - role: player
+      name: Chris Sale
+      ref: 
+    - role: team
+      name: Atlanta Braves
+      ref: 
+- number: CCSA-DC
+  uuid: 26179a0d-1c7b-4d30-86fd-409468f2e2a9
+  subjects:
+  - entities:
+    - role: player
+      name: Dylan Crews
+      ref: 
+    - role: team
+      name: Washington Nationals
+      ref: 
+- number: CCSA-DCR
+  uuid: 95bb5e00-55e1-4840-b596-8bceff18bc1a
+  subjects:
+  - entities:
+    - role: player
+      name: Dylan Crews
+      ref: 
+    - role: team
+      name: Washington Nationals
+      ref: 
+- number: CCSA-FF
+  uuid: e1a1cb0c-fe87-48e9-90fc-309a8dd7ffb9
+  subjects:
+  - entities:
+    - role: player
+      name: Freddie Freeman
+      ref: 
+    - role: team
+      name: Los Angeles Dodgers
+      ref: 
+- number: CCSA-FL
+  uuid: 40ccba87-81aa-4b8f-8e8d-71db43045ba1
+  subjects:
+  - entities:
+    - role: player
+      name: Francisco Lindor
+      ref: 
+    - role: team
+      name: New York Mets
+      ref: 
+- number: CCSA-GH
+  uuid: 58fbcb7d-385a-44f8-84ef-e854faa27d26
+  subjects:
+  - entities:
+    - role: player
+      name: Gunnar Henderson
+      ref: 
+    - role: team
+      name: Baltimore Orioles
+      ref: 
+- number: CCSA-GS
+  uuid: adb32f54-bc73-4b07-97aa-fd01d52b321b
+  subjects:
+  - entities:
+    - role: player
+      name: George Springer
+      ref: 
+    - role: team
+      name: Toronto Blue Jays
+      ref: 
+- number: CCSA-JA
+  uuid: bb14387d-d4a3-4fa2-b159-c22ea47f93c8
+  subjects:
+  - entities:
+    - role: player
+      name: Jose Altuve
+      ref: 
+    - role: team
+      name: Houston Astros
+      ref: 
+- number: CCSA-JC
+  uuid: 2e1a78fa-c082-41fb-8a47-61e1e47b86f2
+  subjects:
+  - entities:
+    - role: player
+      name: Jazz Chisholm Jr.
+      ref: 
+    - role: team
+      name: Miami Marlins
+      ref: 
+- number: CCSA-JR
+  uuid: 97628fd3-9bef-4eca-9c2d-faf1acfad043
+  subjects:
+  - entities:
+    - role: player
+      name: Julio Rodríguez
+      ref: 
+    - role: team
+      name: Seattle Mariners
+      ref: 
+- number: CCSA-JRA
+  uuid: 1ed8d8b0-9e0d-4ce8-ae7b-e780613c0408
+  subjects:
+  - entities:
+    - role: player
+      name: José Ramírez
+      ref: 
+    - role: team
+      name: Cleveland Guardians
+      ref: 
+- number: CCSA-JV
+  uuid: b7e00436-2b87-4462-800e-9efd76381846
+  subjects:
+  - entities:
+    - role: player
+      name: Joey Votto
+      ref: 
+    - role: team
+      name: Cincinnati Reds
+      ref: 
+- number: CCSA-JW
+  uuid: ab598d81-ad21-43f4-97c4-33b1c0ff2e49
+  subjects:
+  - entities:
+    - role: player
+      name: James Wood
+      ref: 
+    - role: team
+      name: Washington Nationals
+      ref: 
+- number: CCSA-JWE
+  uuid: 90c613fc-ed96-495a-8589-5ee908bd35f7
+  subjects:
+  - entities:
+    - role: player
+      name: Jordan Westburg
+      ref: 
+    - role: team
+      name: Baltimore Orioles
+      ref: 
+- number: CCSA-KT
+  uuid: f0c4052f-79d0-4c74-993c-16fa9c8ff10d
+  subjects:
+  - entities:
+    - role: player
+      name: Kyle Tucker
+      ref: 
+    - role: team
+      name: Houston Astros
+      ref: 
+- number: CCSA-LC
+  uuid: 4c97fc4d-e5db-438f-bc96-60f82f4c5013
+  subjects:
+  - entities:
+    - role: player
+      name: Luis Castillo
+      ref: 
+    - role: team
+      name: Seattle Mariners
+      ref: 
+- number: CCSA-MO
+  uuid: 99a2dcba-a143-43c7-9a44-195c8fd1b07d
+  subjects:
+  - entities:
+    - role: player
+      name: Matt Olson
+      ref: 
+    - role: team
+      name: Atlanta Braves
+      ref: 
+- number: CCSA-MT
+  uuid: 2b72aa9e-1465-47dc-9bd0-5e51d211d8bd
+  subjects:
+  - entities:
+    - role: player
+      name: Mike Trout
+      ref: 
+    - role: team
+      name: Los Angeles Angels
+      ref: 
+- number: CCSA-NA
+  uuid: f2573d9f-72b9-44c3-a87f-6d86d1937e2c
+  subjects:
+  - entities:
+    - role: player
+      name: Nolan Arenado
+      ref: 
+    - role: team
+      name: St. Louis Cardinals
+      ref: 
+- number: CCSA-PC
+  uuid: db4b5a26-b325-4ee8-99fe-a0d0ce4347e6
+  subjects:
+  - entities:
+    - role: player
+      name: Pete Crow-Armstrong
+      ref: 
+    - role: team
+      name: Chicago Cubs
+      ref: 
+- number: CCSA-RA
+  uuid: 708fd50f-ad3a-4322-8329-4456ce335c86
+  subjects:
+  - entities:
+    - role: player
+      name: Ronald Acuña Jr.
+      ref: 
+    - role: team
+      name: Atlanta Braves
+      ref: 
+- number: CCSA-SF
+  uuid: 28cc9195-35fb-480b-b4a5-8977dc409954
+  subjects:
+  - entities:
+    - role: player
+      name: Sal Frelick
+      ref: 
+    - role: team
+      name: Milwaukee Brewers
+      ref: 
+- number: CCSA-VG
+  uuid: f47c8689-b8f8-4b0d-8c2a-7902b69cfc86
+  subjects:
+  - entities:
+    - role: player
+      name: Vladimir Guerrero Jr.
+      ref: 
+    - role: team
+      name: Toronto Blue Jays
+      ref: 

@@ -1,0 +1,800 @@
+- number: DNC-AA
+  uuid: 45ba7773-92bd-40cf-9dd6-988e45c2eb4b
+  subjects:
+  - entities:
+    - role: player
+      name: Adael Amador
+      ref: 
+    - role: team
+      name: Colorado Rockies
+      ref: 
+- number: DNC-AM
+  uuid: e64c385f-d877-43ba-9c8b-6a10956c4c93
+  subjects:
+  - entities:
+    - role: player
+      name: Andrew McCutchen
+      ref: 
+    - role: team
+      name: Pittsburgh Pirates
+      ref: 
+- number: DNC-AN
+  uuid: 3f01a7ae-8fd1-4843-9fb5-a97f934de6d5
+  subjects:
+  - entities:
+    - role: player
+      name: Aaron Nola
+      ref: 
+    - role: team
+      name: Philadelphia Phillies
+      ref: 
+- number: DNC-AR
+  uuid: 3a3932e4-5c3b-42ef-b362-d67374aa52ce
+  subjects:
+  - entities:
+    - role: player
+      name: Austin Riley
+      ref: 
+    - role: team
+      name: Atlanta Braves
+      ref: 
+- number: DNC-AROD
+  uuid: eadfa819-bb96-4696-aa82-b03fcb2db08b
+  subjects:
+  - entities:
+    - role: player
+      name: Alex Rodriguez
+      ref: 
+    - role: team
+      name: Texas Rangers
+      ref: 
+- number: DNC-ARU
+  uuid: ce7800a5-08f0-4193-8fa0-6da689e28256
+  subjects:
+  - entities:
+    - role: player
+      name: Adley Rutschman
+      ref: 
+    - role: team
+      name: Baltimore Orioles
+      ref: 
+- number: DNC-BB
+  uuid: 03de4b42-56af-4f59-a161-b55a919264a4
+  subjects:
+  - entities:
+    - role: player
+      name: Bo Bichette
+      ref: 
+    - role: team
+      name: Toronto Blue Jays
+      ref: 
+- number: DNC-BBX
+  uuid: 6600f67c-cec1-42be-ad1c-5715f1d070b9
+  subjects:
+  - entities:
+    - role: player
+      name: Byron Buxton
+      ref: 
+    - role: team
+      name: Minnesota Twins
+      ref: 
+- number: DNC-BH
+  uuid: 10f4d2e6-e544-4b8f-a3bd-eae0ec6f5e03
+  subjects:
+  - entities:
+    - role: player
+      name: Bryce Harper
+      ref: 
+    - role: team
+      name: Philadelphia Phillies
+      ref: 
+- number: DNC-BL
+  uuid: 01627f8a-707f-4f4a-ac32-78c8d7ab208d
+  subjects:
+  - entities:
+    - role: player
+      name: Brooks Lee
+      ref: 
+    - role: team
+      name: Minnesota Twins
+      ref: 
+- number: DNC-BW
+  uuid: 690a5336-8917-424e-8b88-b88089c04c0a
+  subjects:
+  - entities:
+    - role: player
+      name: Bobby Witt Jr.
+      ref: 
+    - role: team
+      name: Kansas City Royals
+      ref: 
+- number: DNC-CA
+  uuid: 7541cc2e-8e72-4d82-a411-2a41dc6b64e2
+  subjects:
+  - entities:
+    - role: player
+      name: CJ Abrams
+      ref: 
+    - role: team
+      name: Washington Nationals
+      ref: 
+- number: DNC-CC
+  uuid: ef83a1d0-0240-46dc-9902-7a474e492010
+  subjects:
+  - entities:
+    - role: player
+      name: Carlos Correa
+      ref: 
+    - role: team
+      name: Houston Astros
+      ref: 
+- number: DNC-CCA
+  uuid: 22170106-4dd0-4b06-8334-1af4d919e29c
+  subjects:
+  - entities:
+    - role: player
+      name: Corbin Carroll
+      ref: 
+    - role: team
+      name: Arizona Diamondbacks
+      ref: 
+- number: DNC-CD
+  uuid: 986863b6-5451-4028-836b-194cc163fabb
+  subjects:
+  - entities:
+    - role: player
+      name: Chase Dollander
+      ref: 
+    - role: team
+      name: Colorado Rockies
+      ref: 
+- number: DNC-CJ
+  uuid: 9378af4c-2c80-404d-af4b-59bbc31b5fd0
+  subjects:
+  - entities:
+    - role: player
+      name: Chipper Jones
+      ref: 
+    - role: team
+      name: Atlanta Braves
+      ref: 
+- number: DNC-CK
+  uuid: cb16c460-2f9b-4b81-a128-ad9710bd12c6
+  subjects:
+  - entities:
+    - role: player
+      name: Clayton Kershaw
+      ref: 
+    - role: team
+      name: Los Angeles Dodgers
+      ref: 
+- number: DNC-CN
+  uuid: 902f2c1c-c614-4914-9181-161c19ce8b0c
+  subjects:
+  - entities:
+    - role: player
+      name: Connor Norby
+      ref: 
+    - role: team
+      name: Miami Marlins
+      ref: 
+- number: DNC-CY
+  uuid: ab556cfa-4829-4492-8e2c-2753a1dc3797
+  subjects:
+  - entities:
+    - role: player
+      name: Christian Yelich
+      ref: 
+    - role: team
+      name: Milwaukee Brewers
+      ref: 
+- number: DNC-DC
+  uuid: d5b36d37-4de3-43f8-ba4b-e68ed8c8acc8
+  subjects:
+  - entities:
+    - role: player
+      name: Dylan Crews
+      ref: 
+    - role: team
+      name: Washington Nationals
+      ref: 
+- number: DNC-FA
+  uuid: 1652691a-413c-417d-818d-8dc0f4776ead
+  subjects:
+  - entities:
+    - role: player
+      name: Francisco Alvarez
+      ref: 
+    - role: team
+      name: New York Mets
+      ref: 
+- number: DNC-FF
+  uuid: e03f9ac4-447b-49df-b176-53f8c06f6f71
+  subjects:
+  - entities:
+    - role: player
+      name: Freddie Freeman
+      ref: 
+    - role: team
+      name: Los Angeles Dodgers
+      ref: 
+- number: DNC-FL
+  uuid: 9a12de28-db9b-44bb-8792-56ce8e638ea2
+  subjects:
+  - entities:
+    - role: player
+      name: Francisco Lindor
+      ref: 
+    - role: team
+      name: New York Mets
+      ref: 
+- number: DNC-FT
+  uuid: dc44a317-de6d-4c8a-a286-f908cb731cd3
+  subjects:
+  - entities:
+    - role: player
+      name: Fernando Tatis Jr.
+      ref: 
+    - role: team
+      name: San Diego Padres
+      ref: 
+- number: DNC-GH
+  uuid: 1ec852f8-cc89-457a-bf32-10ff58711a9d
+  subjects:
+  - entities:
+    - role: player
+      name: Gunnar Henderson
+      ref: 
+    - role: team
+      name: Baltimore Orioles
+      ref: 
+- number: DNC-HG
+  uuid: 56662df6-be9d-457b-908f-1d245992b807
+  subjects:
+  - entities:
+    - role: player
+      name: Hunter Greene
+      ref: 
+    - role: team
+      name: Cincinnati Reds
+      ref: 
+- number: DNC-I
+  uuid: c3ce6d35-efba-4075-a825-7799cce49c50
+  subjects:
+  - entities:
+    - role: player
+      name: Ichiro
+      ref: 
+    - role: team
+      name: Miami Marlins
+      ref: 
+- number: DNC-JA
+  uuid: d39c29fb-4162-4765-91a6-0d84fd7f73cc
+  subjects:
+  - entities:
+    - role: player
+      name: Jose Altuve
+      ref: 
+    - role: team
+      name: Houston Astros
+      ref: 
+- number: DNC-JC
+  uuid: 01cc5599-28d3-46e0-99d5-fd54a95fdd20
+  subjects:
+  - entities:
+    - role: player
+      name: Junior Caminero
+      ref: 
+    - role: team
+      name: Tampa Bay Rays
+      ref: 
+- number: DNC-JCH
+  uuid: 111b7512-512d-4d0d-8754-c10d3ea9d62c
+  subjects:
+  - entities:
+    - role: player
+      name: Jackson Chourio
+      ref: 
+    - role: team
+      name: Milwaukee Brewers
+      ref: 
+- number: DNC-JH
+  uuid: d3b56e82-94ef-4a20-8f54-50dee820262c
+  subjects:
+  - entities:
+    - role: player
+      name: Jackson Holliday
+      ref: 
+    - role: team
+      name: Baltimore Orioles
+      ref: 
+- number: DNC-JL
+  uuid: fda389dd-1820-4333-87ef-c3e46f75732f
+  subjects:
+  - entities:
+    - role: player
+      name: Jung Hoo Lee
+      ref: 
+    - role: team
+      name: San Francisco Giants
+      ref: 
+- number: DNC-JM
+  uuid: e74cf0e1-6514-478b-9c5c-43ce48bb2089
+  subjects:
+  - entities:
+    - role: player
+      name: Jackson Merrill
+      ref: 
+    - role: team
+      name: San Diego Padres
+      ref: 
+- number: DNC-JP
+  uuid: 27c2461b-8b30-4f0a-b5f6-bbd8ee8156b6
+  subjects:
+  - entities:
+    - role: player
+      name: Jeremy Peña
+      ref: 
+    - role: team
+      name: Houston Astros
+      ref: 
+- number: DNC-JRA
+  uuid: d15c6834-3262-45d6-a78f-1c6c78e8fee6
+  subjects:
+  - entities:
+    - role: player
+      name: José Ramírez
+      ref: 
+    - role: team
+      name: Cleveland Guardians
+      ref: 
+- number: DNC-JRO
+  uuid: f96266f3-15e2-4099-9743-d9a6b026e76a
+  subjects:
+  - entities:
+    - role: player
+      name: Julio Rodríguez
+      ref: 
+    - role: team
+      name: Seattle Mariners
+      ref: 
+- number: DNC-JS
+  uuid: 611939f3-4ee8-4d0b-8866-0f5296d0e93e
+  subjects:
+  - entities:
+    - role: player
+      name: Juan Soto
+      ref: 
+    - role: team
+      name: New York Mets
+      ref: 
+- number: DNC-JT
+  uuid: 16d67f47-3f11-42e1-97d4-451681abdca0
+  subjects:
+  - entities:
+    - role: player
+      name: J.T. Realmuto
+      ref: 
+    - role: team
+      name: Philadelphia Phillies
+      ref: 
+- number: DNC-JV
+  uuid: 427e1acc-8381-4e27-8f5a-11e380eebd22
+  subjects:
+  - entities:
+    - role: player
+      name: Joey Votto
+      ref: 
+    - role: team
+      name: Cincinnati Reds
+      ref: 
+- number: DNC-JW
+  uuid: 5cb7e80e-0734-4c74-bad0-a8b030c950da
+  subjects:
+  - entities:
+    - role: player
+      name: James Wood
+      ref: 
+    - role: team
+      name: Washington Nationals
+      ref: 
+- number: DNC-KM
+  uuid: eb883a6a-73e6-4565-bc74-8940eb5497d1
+  subjects:
+  - entities:
+    - role: player
+      name: Ketel Marte
+      ref: 
+    - role: team
+      name: Arizona Diamondbacks
+      ref: 
+- number: DNC-LA
+  uuid: 1cf4563d-d8e1-497a-966a-d627450aa312
+  subjects:
+  - entities:
+    - role: player
+      name: Luisangel Acuña
+      ref: 
+    - role: team
+      name: New York Mets
+      ref: 
+- number: DNC-LAZ
+  uuid: 2a9067ad-09be-4a3d-a2bf-af561731cfa9
+  subjects:
+  - entities:
+    - role: player
+      name: Luis Arraez
+      ref: 
+    - role: team
+      name: San Diego Padres
+      ref: 
+- number: DNC-LB
+  uuid: ac686712-fc42-42eb-aed7-0cf04fc26b3a
+  subjects:
+  - entities:
+    - role: player
+      name: Lawrence Butler
+      ref: 
+    - role: team
+      name: Athletics
+      ref: 
+- number: DNC-LR
+  uuid: 2b13f0bb-e76b-45f9-b07a-c1cf03d638cd
+  subjects:
+  - entities:
+    - role: player
+      name: Luis Robert Jr.
+      ref: 
+    - role: team
+      name: Chicago White Sox
+      ref: 
+- number: DNC-LWA
+  uuid: 0631d2ed-3c61-43a2-ae1b-cf299fcd7c21
+  subjects:
+  - entities:
+    - role: player
+      name: Larry Walker
+      ref: 
+    - role: team
+      name: Colorado Rockies
+      ref: 
+- number: DNC-MB
+  uuid: '0694ce57-4c17-45bc-9317-ae367b2524a9'
+  subjects:
+  - entities:
+    - role: player
+      name: Mookie Betts
+      ref: 
+    - role: team
+      name: Los Angeles Dodgers
+      ref: 
+- number: DNC-MC
+  uuid: d85cdf4f-3f92-4614-99d3-c1f55500dba0
+  subjects:
+  - entities:
+    - role: player
+      name: Miguel Cabrera
+      ref: 
+    - role: team
+      name: Detroit Tigers
+      ref: 
+- number: DNC-MH
+  uuid: 483adb38-5b90-4568-98f0-760931a0d096
+  subjects:
+  - entities:
+    - role: player
+      name: Michael Harris II
+      ref: 
+    - role: team
+      name: Atlanta Braves
+      ref: 
+- number: DNC-MM
+  uuid: a1590cab-c2e1-4238-8436-8f00cff4f604
+  subjects:
+  - entities:
+    - role: player
+      name: Manny Machado
+      ref: 
+    - role: team
+      name: San Diego Padres
+      ref: 
+- number: DNC-MT
+  uuid: 65b1e2ab-d9ed-48c7-9739-6a4805c91177
+  subjects:
+  - entities:
+    - role: player
+      name: Mike Trout
+      ref: 
+    - role: team
+      name: Los Angeles Angels
+      ref: 
+- number: DNC-NA
+  uuid: 775cc9c2-88cc-40a5-99ef-e3d44456bf6f
+  subjects:
+  - entities:
+    - role: player
+      name: Nolan Arenado
+      ref: 
+    - role: team
+      name: St. Louis Cardinals
+      ref: 
+- number: DNC-OA
+  uuid: 53a5498b-ce6b-407d-b5cb-2b04f478b623
+  subjects:
+  - entities:
+    - role: player
+      name: Ozzie Albies
+      ref: 
+    - role: team
+      name: Atlanta Braves
+      ref: 
+- number: DNC-OC
+  uuid: 4082ee12-2028-4df1-aee9-9ba8817a20db
+  subjects:
+  - entities:
+    - role: player
+      name: Oneil Cruz
+      ref: 
+    - role: team
+      name: Pittsburgh Pirates
+      ref: 
+- number: DNC-PA
+  uuid: 2c3f726d-12cf-4fb5-b952-a06cf9ae3da0
+  subjects:
+  - entities:
+    - role: player
+      name: Pete Alonso
+      ref: 
+    - role: team
+      name: New York Mets
+      ref: 
+- number: DNC-PC
+  uuid: a2d7d9f4-3564-412f-813a-84a1063bf4d2
+  subjects:
+  - entities:
+    - role: player
+      name: Pete Crow-Armstrong
+      ref: 
+    - role: team
+      name: Chicago Cubs
+      ref: 
+- number: DNC-PF
+  uuid: ac83585d-51a8-4167-83e0-6a94b1c0abcd
+  subjects:
+  - entities:
+    - role: player
+      name: Prince Fielder
+      ref: 
+    - role: team
+      name: Texas Rangers
+      ref: 
+- number: DNC-RG
+  uuid: a479f858-8e3b-47a2-b349-cca3c51d7764
+  subjects:
+  - entities:
+    - role: player
+      name: Riley Greene
+      ref: 
+    - role: team
+      name: Detroit Tigers
+      ref: 
+- number: DNC-RH
+  uuid: bff04026-00e2-4c34-9b4c-ba0d94bad781
+  subjects:
+  - entities:
+    - role: player
+      name: Rickey Henderson
+      ref: 
+    - role: team
+      name: New York Mets
+      ref: 
+- number: DNC-SA
+  uuid: a080f8ec-8460-4a94-b7a9-e0ef6cac9d01
+  subjects:
+  - entities:
+    - role: player
+      name: Sandy Alcantara
+      ref: 
+    - role: team
+      name: Miami Marlins
+      ref: 
+- number: DNC-SI
+  uuid: a193296b-d5c9-44ae-805e-e9449055cc16
+  subjects:
+  - entities:
+    - role: player
+      name: Shota Imanaga
+      ref: 
+    - role: team
+      name: Chicago Cubs
+      ref: 
+- number: DNC-SO
+  uuid: 56300b52-1dbf-4c23-bf9e-5edf99f49e01
+  subjects:
+  - entities:
+    - role: player
+      name: Shohei Ohtani
+      ref: 
+    - role: team
+      name: Los Angeles Dodgers
+      ref: 
+- number: DNC-SP
+  uuid: 934778af-836f-49ab-8616-9358b266bddd
+  subjects:
+  - entities:
+    - role: player
+      name: Salvador Perez
+      ref: 
+    - role: team
+      name: Kansas City Royals
+      ref: 
+- number: DNC-SS
+  uuid: 270c9f03-c61f-4dfb-bc6b-7ff5d509cd33
+  subjects:
+  - entities:
+    - role: player
+      name: Seiya Suzuki
+      ref: 
+    - role: team
+      name: Chicago Cubs
+      ref: 
+- number: DNC-SST
+  uuid: e7cc3dea-e093-405a-991c-88bfeba54987
+  subjects:
+  - entities:
+    - role: player
+      name: Spencer Strider
+      ref: 
+    - role: team
+      name: Atlanta Braves
+      ref: 
+- number: DNC-ST
+  uuid: f7f40b4a-0a19-4a66-868f-8a53e03226e4
+  subjects:
+  - entities:
+    - role: player
+      name: Spencer Torkelson
+      ref: 
+    - role: team
+      name: Detroit Tigers
+      ref: 
+- number: DNC-TG
+  uuid: 7e3289c7-4481-46c8-8403-1a63b1bfe09f
+  subjects:
+  - entities:
+    - role: player
+      name: Tony Gwynn
+      ref: 
+    - role: team
+      name: San Diego Padres
+      ref: 
+- number: DNC-TH
+  uuid: 8f3fb803-396e-4cf0-b61b-0e7078d171ea
+  subjects:
+  - entities:
+    - role: player
+      name: Torii Hunter
+      ref: 
+    - role: team
+      name: Los Angeles Angels
+      ref: 
+- number: DNC-TS
+  uuid: 6b19121c-6b34-49b0-869f-4a4c78b74f50
+  subjects:
+  - entities:
+    - role: player
+      name: Trevor Story
+      ref: 
+    - role: team
+      name: Boston Red Sox
+      ref: 
+- number: DNC-TSK
+  uuid: e33db9e1-905f-4ab6-a8e4-9a70c2ef0edf
+  subjects:
+  - entities:
+    - role: player
+      name: Tarik Skubal
+      ref: 
+    - role: team
+      name: Detroit Tigers
+      ref: 
+- number: DNC-TSO
+  uuid: e5c56276-c64d-4156-99ee-6dd55afe4fd3
+  subjects:
+  - entities:
+    - role: player
+      name: Tyler Soderstrom
+      ref: 
+    - role: team
+      name: Athletics
+      ref: 
+- number: DNC-TT
+  uuid: 78518871-1cc4-4af8-aab2-ae3927c28d6b
+  subjects:
+  - entities:
+    - role: player
+      name: Trea Turner
+      ref: 
+    - role: team
+      name: Philadelphia Phillies
+      ref: 
+- number: DNC-VG
+  uuid: 1c857912-4f1c-4486-a32f-e5fd987377cb
+  subjects:
+  - entities:
+    - role: player
+      name: Vladimir Guerrero Jr.
+      ref: 
+    - role: team
+      name: Toronto Blue Jays
+      ref: 
+- number: DNC-WS
+  uuid: 47009faa-8823-439b-aff3-ff313c8dd4aa
+  subjects:
+  - entities:
+    - role: player
+      name: Will Smith
+      ref: 
+    - role: team
+      name: Los Angeles Dodgers
+      ref: 
+- number: DNC-XB
+  uuid: 782af6cb-d102-43ae-8294-f1f537d5b482
+  subjects:
+  - entities:
+    - role: player
+      name: Xander Bogaerts
+      ref: 
+    - role: team
+      name: San Diego Padres
+      ref: 
+- number: DNC-YA
+  uuid: bd02f429-659a-4fac-b2e9-024108bd49c4
+  subjects:
+  - entities:
+    - role: player
+      name: Yordan Alvarez
+      ref: 
+    - role: team
+      name: Houston Astros
+      ref: 
+- number: DNC-YD
+  uuid: 4732ddae-6108-423c-a695-435c8cb0d13c
+  subjects:
+  - entities:
+    - role: player
+      name: Yu Darvish
+      ref: 
+    - role: team
+      name: San Diego Padres
+      ref: 
+- number: DNC-YY
+  uuid: c8384538-22e3-4a31-8e5e-d3b11e8cd65b
+  subjects:
+  - entities:
+    - role: player
+      name: Yoshinobu Yamamoto
+      ref: 
+    - role: team
+      name: Los Angeles Dodgers
+      ref: 
+- number: DNC-ZV
+  uuid: 92106130-c345-41c5-abc9-a1fe51576897
+  subjects:
+  - entities:
+    - role: player
+      name: Zac Veen
+      ref: 
+    - role: team
+      name: Colorado Rockies
+      ref: 
+- number: DNC-ZW
+  uuid: 1f29b642-daf2-4548-9e1a-45333adb8306
+  subjects:
+  - entities:
+    - role: player
+      name: Zack Wheeler
+      ref: 
+    - role: team
+      name: Philadelphia Phillies
+      ref: 

@@ -1,0 +1,210 @@
+- number: DHCA-AB
+  uuid: 51ebf455-8890-4abe-bbc8-d5dd89188a26
+  subjects:
+  - entities:
+    - role: player
+      name: Alex Bregman
+      ref: 
+    - role: team
+      name: Houston Astros
+      ref: 
+- number: DHCA-AP
+  uuid: 19d8e672-b2e2-497b-a261-ae2b7dd6e6e7
+  subjects:
+  - entities:
+    - role: player
+      name: Albert Pujols
+      ref: 
+    - role: team
+      name: Los Angeles Angels
+      ref: 
+- number: DHCA-BB
+  uuid: 55e117b6-35e9-4d02-90b3-7ef42f523f08
+  subjects:
+  - entities:
+    - role: player
+      name: Byron Buxton
+      ref: 
+    - role: team
+      name: Minnesota Twins
+      ref: 
+- number: DHCA-BL
+  uuid: ca1785c1-a534-43c5-8088-ebfaff2c0f32
+  subjects:
+  - entities:
+    - role: player
+      name: Brooks Lee
+      ref: 
+    - role: team
+      name: Minnesota Twins
+      ref: 
+- number: DHCA-CC
+  uuid: '09b14fe1-c2d8-4693-a36c-b2eee300158b'
+  subjects:
+  - entities:
+    - role: player
+      name: Corbin Carroll
+      ref: 
+    - role: team
+      name: Arizona Diamondbacks
+      ref: 
+- number: DHCA-CR
+  uuid: 94275200-9e4b-4935-8538-162dd80d7b09
+  subjects:
+  - entities:
+    - role: player
+      name: Cal Raleigh
+      ref: 
+    - role: team
+      name: Seattle Mariners
+      ref: 
+- number: DHCA-DC
+  uuid: 241feecf-fa5c-4da8-b7f9-9b4ff9a999ab
+  subjects:
+  - entities:
+    - role: player
+      name: Dylan Crews
+      ref: 
+    - role: team
+      name: Washington Nationals
+      ref: 
+- number: DHCA-FL
+  uuid: cf611512-d866-4a31-b731-d8b69102ed47
+  subjects:
+  - entities:
+    - role: player
+      name: Francisco Lindor
+      ref: 
+    - role: team
+      name: New York Mets
+      ref: 
+- number: DHCA-FTJ
+  uuid: cf38b8cb-f66c-4914-b665-ff0c1ed59b8a
+  subjects:
+  - entities:
+    - role: player
+      name: Fernando Tatis Jr.
+      ref: 
+    - role: team
+      name: San Diego Padres
+      ref: 
+- number: DHCA-JA
+  uuid: 110688a4-cd6e-4f4b-8e61-8eb4233c14db
+  subjects:
+  - entities:
+    - role: player
+      name: Jose Altuve
+      ref: 
+    - role: team
+      name: Houston Astros
+      ref: 
+- number: DHCA-JD
+  uuid: dc400b2d-63c7-4421-ba75-e45021e7b183
+  subjects:
+  - entities:
+    - role: player
+      name: Jarren Duran
+      ref: 
+    - role: team
+      name: Boston Red Sox
+      ref: 
+- number: DHCA-JR
+  uuid: 5e9950d0-cbdf-443b-9ff0-441f580d5127
+  subjects:
+  - entities:
+    - role: player
+      name: Julio Rodríguez
+      ref: 
+    - role: team
+      name: Seattle Mariners
+      ref: 
+- number: DHCA-JRA
+  uuid: 73c08aba-b520-4d30-8141-30cec8feb38d
+  subjects:
+  - entities:
+    - role: player
+      name: José Ramírez
+      ref: 
+    - role: team
+      name: Cleveland Guardians
+      ref: 
+- number: DHCA-JW
+  uuid: 9b615e5b-8222-407d-8a08-e141f2400004
+  subjects:
+  - entities:
+    - role: player
+      name: James Wood
+      ref: 
+    - role: team
+      name: Washington Nationals
+      ref: 
+- number: DHCA-MM
+  uuid: '0865c0fd-1233-4220-84c2-3b5016d96c29'
+  subjects:
+  - entities:
+    - role: player
+      name: Manny Machado
+      ref: 
+    - role: team
+      name: San Diego Padres
+      ref: 
+- number: DHCA-MT
+  uuid: 5286cca2-768d-44d5-8bbe-c7d53fefea86
+  subjects:
+  - entities:
+    - role: player
+      name: Mike Trout
+      ref: 
+    - role: team
+      name: Los Angeles Angels
+      ref: 
+- number: DHCA-NA
+  uuid: 7c59f595-1a5f-47ee-bd9b-0e7ce88e1d2c
+  subjects:
+  - entities:
+    - role: player
+      name: Nolan Arenado
+      ref: 
+    - role: team
+      name: St. Louis Cardinals
+      ref: 
+- number: DHCA-PCA
+  uuid: d698f816-e05c-47ad-9683-f9e2d9796461
+  subjects:
+  - entities:
+    - role: player
+      name: Pete Crow-Armstrong
+      ref: 
+    - role: team
+      name: Chicago Cubs
+      ref: 
+- number: DHCA-RA
+  uuid: bac05d2b-2722-4b45-b271-9d91ea3e976f
+  subjects:
+  - entities:
+    - role: player
+      name: Ronald Acuña Jr.
+      ref: 
+    - role: team
+      name: Atlanta Braves
+      ref: 
+- number: DHCA-RD
+  uuid: f3b24735-ed66-494b-8848-ed75ddceae6c
+  subjects:
+  - entities:
+    - role: player
+      name: Rafael Devers
+      ref: 
+    - role: team
+      name: Boston Red Sox
+      ref: 
+- number: DHCA-TT
+  uuid: 91c55005-5a55-4cd3-8cb0-4f67ba4ca38c
+  subjects:
+  - entities:
+    - role: player
+      name: Trea Turner
+      ref: 
+    - role: team
+      name: Philadelphia Phillies
+      ref: 

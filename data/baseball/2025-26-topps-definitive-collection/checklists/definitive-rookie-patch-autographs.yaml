@@ -1,0 +1,340 @@
+- number: DRPA-ARA
+  uuid: b2ada177-ae4c-4711-940b-c5b9b1bb0d93
+  subjects:
+  - entities:
+    - role: player
+      name: Agustín Ramírez
+      ref: 
+    - role: team
+      name: Miami Marlins
+      ref: 
+- number: DRPA-BL
+  uuid: 35af9f89-b3fd-433d-8993-c1bbd57187e7
+  subjects:
+  - entities:
+    - role: player
+      name: Brooks Lee
+      ref: 
+    - role: team
+      name: Minnesota Twins
+      ref: 
+- number: DRPA-BR
+  uuid: 6868774f-b537-40b9-824f-73874d412ecd
+  subjects:
+  - entities:
+    - role: player
+      name: Ben Rice
+      ref: 
+    - role: team
+      name: New York Yankees
+      ref: 
+- number: DRPA-CD
+  uuid: 3a992688-2a74-4694-ad19-8e2a5e124f67
+  subjects:
+  - entities:
+    - role: player
+      name: Caden Dana
+      ref: 
+    - role: team
+      name: Los Angeles Angels
+      ref: 
+- number: DRPA-CDO
+  uuid: 9991a6bb-36b6-4893-a67f-23d321070edc
+  subjects:
+  - entities:
+    - role: player
+      name: Chase Dollander
+      ref: 
+    - role: team
+      name: Colorado Rockies
+      ref: 
+- number: DRPA-CH
+  uuid: 694091ce-8164-482f-8de6-fc48ca25def8
+  subjects:
+  - entities:
+    - role: player
+      name: Cade Horton
+      ref: 
+    - role: team
+      name: Chicago Cubs
+      ref: 
+- number: DRPA-CM
+  uuid: 9e27fee0-d71f-4918-98dd-b3066b55b600
+  subjects:
+  - entities:
+    - role: player
+      name: Coby Mayo
+      ref: 
+    - role: team
+      name: Baltimore Orioles
+      ref: 
+- number: DRPA-CME
+  uuid: 6a51268e-05f6-46f6-9255-ba278ff90e0d
+  subjects:
+  - entities:
+    - role: player
+      name: Chase Meidroth
+      ref: 
+    - role: team
+      name: Chicago White Sox
+      ref: 
+- number: DRPA-CSI
+  uuid: 5d084ea3-a0ec-4d21-81c7-f22c350ac6ab
+  subjects:
+  - entities:
+    - role: player
+      name: Chandler Simpson
+      ref: 
+    - role: team
+      name: Tampa Bay Rays
+      ref: 
+- number: DRPA-DAR
+  uuid: b4725ad9-1ee2-487a-bc25-5577b3b1aed9
+  subjects:
+  - entities:
+    - role: player
+      name: Dalton Rushing
+      ref: 
+    - role: team
+      name: Los Angeles Dodgers
+      ref: 
+- number: DRPA-DB
+  uuid: c77a2451-3240-4101-9465-10d242142de7
+  subjects:
+  - entities:
+    - role: player
+      name: Drake Baldwin
+      ref: 
+    - role: team
+      name: Atlanta Braves
+      ref: 
+- number: DRPA-DC
+  uuid: 59f6a727-b4d5-4294-82b5-ae677d8b3614
+  subjects:
+  - entities:
+    - role: player
+      name: Dylan Crews
+      ref: 
+    - role: team
+      name: Washington Nationals
+      ref: 
+- number: DRPA-DL
+  uuid: 3e1e1ae8-49be-4efa-bf4d-5efc8c1a30a0
+  subjects:
+  - entities:
+    - role: player
+      name: Daylen Lile
+      ref: 
+    - role: team
+      name: Washington Nationals
+      ref: 
+- number: DRPA-EQ
+  uuid: 77223254-8bb7-4125-8080-aa5ea6848543
+  subjects:
+  - entities:
+    - role: player
+      name: Edgar Quero
+      ref: 
+    - role: team
+      name: Chicago White Sox
+      ref: 
+- number: DRPA-GM
+  uuid: f0ab310e-a3ea-473b-b0d5-8874faf5e3e9
+  subjects:
+  - entities:
+    - role: player
+      name: Grant McCray
+      ref: 
+    - role: team
+      name: San Francisco Giants
+      ref: 
+- number: DRPA-HB
+  uuid: 82f64c7b-c682-445c-a77a-a89be67e4d5b
+  subjects:
+  - entities:
+    - role: player
+      name: Hayden Birdsong
+      ref: 
+    - role: team
+      name: San Francisco Giants
+      ref: 
+- number: DRPA-HW
+  uuid: 68457040-1e61-4a31-92db-74fa078b41e0
+  subjects:
+  - entities:
+    - role: player
+      name: Hurston Waldrep
+      ref: 
+    - role: team
+      name: Atlanta Braves
+      ref: 
+- number: DRPA-JJ
+  uuid: 4ac22b19-bc51-4043-8144-72e2f37c77e1
+  subjects:
+  - entities:
+    - role: player
+      name: Jackson Jobe
+      ref: 
+    - role: team
+      name: Detroit Tigers
+      ref: 
+- number: DRPA-JJU
+  uuid: 0e4bb857-1759-4363-8762-3e2fea3b2b7c
+  subjects:
+  - entities:
+    - role: player
+      name: Jace Jung
+      ref: 
+    - role: team
+      name: Detroit Tigers
+      ref: 
+- number: DRPA-JM
+  uuid: cb1e5cec-ea90-4e3a-b54d-1ca5eb91ed96
+  subjects:
+  - entities:
+    - role: player
+      name: Justyn-Henry Malloy
+      ref: 
+    - role: team
+      name: Detroit Tigers
+      ref: 
+- number: DRPA-JW
+  uuid: 944275e4-e61c-4372-a4bc-7abd04519cc8
+  subjects:
+  - entities:
+    - role: player
+      name: James Wood
+      ref: 
+    - role: team
+      name: Washington Nationals
+      ref: 
+- number: DRPA-JWI
+  uuid: dba49106-5e8a-4791-bc58-3ea3b57da7ac
+  subjects:
+  - entities:
+    - role: player
+      name: Jacob Wilson
+      ref: 
+    - role: team
+      name: Athletics
+      ref: 
+- number: DRPA-KC
+  uuid: 8a2f8c66-88df-4b6a-bde6-a0f4fbc2db22
+  subjects:
+  - entities:
+    - role: player
+      name: Kristian Campbell
+      ref: 
+    - role: team
+      name: Boston Red Sox
+      ref: 
+- number: DRPA-LA
+  uuid: '09bbb4e1-af56-468c-b6f9-5e3d97f97629'
+  subjects:
+  - entities:
+    - role: player
+      name: Luisangel Acuña
+      ref: 
+    - role: team
+      name: New York Mets
+      ref: 
+- number: DRPA-LHE
+  uuid: 53029394-ee04-473b-ae3f-2592de6744a9
+  subjects:
+  - entities:
+    - role: player
+      name: Logan Henderson
+      ref: 
+    - role: team
+      name: Milwaukee Brewers
+      ref: 
+- number: DRPA-MMA
+  uuid: e220a602-303b-40ec-8544-c31bc526e740
+  subjects:
+  - entities:
+    - role: player
+      name: Marcelo Mayer
+      ref: 
+    - role: team
+      name: Boston Red Sox
+      ref: 
+- number: DRPA-MS
+  uuid: ff9cd814-edcd-459e-8c5b-613066473648
+  subjects:
+  - entities:
+    - role: player
+      name: Matt Shaw
+      ref: 
+    - role: team
+      name: Chicago Cubs
+      ref: 
+- number: DRPA-NK
+  uuid: d8eaf8b1-aa64-4af8-b6da-91be71afb4a0
+  subjects:
+  - entities:
+    - role: player
+      name: Nick Kurtz
+      ref: 
+    - role: team
+      name: Athletics
+      ref: 
+- number: DRPA-NY
+  uuid: 6cd43810-1f79-43ef-96a4-819031497d17
+  subjects:
+  - entities:
+    - role: player
+      name: Nick Yorke
+      ref: 
+    - role: team
+      name: Pittsburgh Pirates
+      ref: 
+- number: DRPA-RS
+  uuid: 7e3217f8-21f9-4c1e-920c-332545bef81c
+  subjects:
+  - entities:
+    - role: player
+      name: Roki Sasaki
+      ref: 
+    - role: team
+      name: Los Angeles Dodgers
+      ref: 
+- number: DRPA-SS
+  uuid: 608c363f-dbb9-4775-a925-3aad510ea770
+  subjects:
+  - entities:
+    - role: player
+      name: Spencer Schwellenbach
+      ref: 
+    - role: team
+      name: Atlanta Braves
+      ref: 
+- number: DRPA-SW
+  uuid: ab1e8a44-45fd-41ff-a4dd-f6fdd64dca2a
+  subjects:
+  - entities:
+    - role: player
+      name: Shay Whitcomb
+      ref: 
+    - role: team
+      name: Houston Astros
+      ref: 
+- number: DRPA-TS
+  uuid: f8f71e4b-2746-4422-b559-00c383ef67e0
+  subjects:
+  - entities:
+    - role: player
+      name: Thomas Saggese
+      ref: 
+    - role: team
+      name: St. Louis Cardinals
+      ref: 
+- number: DRPA-TSW
+  uuid: a7c56f07-1444-4d06-b905-039f24d226c4
+  subjects:
+  - entities:
+    - role: player
+      name: Trey Sweeney
+      ref: 
+    - role: team
+      name: Detroit Tigers
+      ref: 

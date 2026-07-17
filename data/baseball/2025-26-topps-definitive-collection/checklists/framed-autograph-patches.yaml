@@ -1,0 +1,410 @@
+- number: FAPC-AG
+  uuid: ddc6a100-2823-42d3-9add-a70607061b21
+  subjects:
+  - entities:
+    - role: player
+      name: Adolis García
+      ref: 
+    - role: team
+      name: Texas Rangers
+      ref: 
+- number: FAPC-AM
+  uuid: 4ec9d1e8-be6e-4242-b40f-3c7ff0275d5f
+  subjects:
+  - entities:
+    - role: player
+      name: Andrew McCutchen
+      ref: 
+    - role: team
+      name: Pittsburgh Pirates
+      ref: 
+- number: FAPC-AP
+  uuid: 37dd5c27-45c7-4539-bf63-56f53245a0f3
+  subjects:
+  - entities:
+    - role: player
+      name: Andy Pettitte
+      ref: 
+    - role: team
+      name: New York Yankees
+      ref: 
+- number: FAPC-AV
+  uuid: c8908d39-06ca-427b-87f0-899abce43541
+  subjects:
+  - entities:
+    - role: player
+      name: Anthony Volpe
+      ref: 
+    - role: team
+      name: New York Yankees
+      ref: 
+- number: FAPC-BP
+  uuid: d903d2e8-0733-4630-9e97-2d469be94001
+  subjects:
+  - entities:
+    - role: player
+      name: Buster Posey
+      ref: 
+    - role: team
+      name: San Francisco Giants
+      ref: 
+- number: FAPC-BW
+  uuid: f0c443ef-3aa4-4708-b06a-e978fda62c10
+  subjects:
+  - entities:
+    - role: player
+      name: Bobby Witt Jr.
+      ref: 
+    - role: team
+      name: Kansas City Royals
+      ref: 
+- number: FAPC-CC
+  uuid: c760c96b-c765-4290-a46d-c681d1f24c37
+  subjects:
+  - entities:
+    - role: player
+      name: Corbin Carroll
+      ref: 
+    - role: team
+      name: Arizona Diamondbacks
+      ref: 
+- number: FAPC-CY
+  uuid: a6a960ad-102e-4598-b968-c2203fc8b870
+  subjects:
+  - entities:
+    - role: player
+      name: Christian Yelich
+      ref: 
+    - role: team
+      name: Milwaukee Brewers
+      ref: 
+- number: FAPC-EM
+  uuid: ed66bcd9-d003-41a8-8d7a-4fc911977970
+  subjects:
+  - entities:
+    - role: player
+      name: Eddie Murray
+      ref: 
+    - role: team
+      name: New York Mets
+      ref: 
+- number: FAPC-FH
+  uuid: 50f7568b-efc0-456c-b585-ed42f32e0568
+  subjects:
+  - entities:
+    - role: player
+      name: Félix Hernández
+      ref: 
+    - role: team
+      name: Seattle Mariners
+      ref: 
+- number: FAPC-I
+  uuid: c11c9b8c-6578-48a9-9374-ad1583d2a314
+  subjects:
+  - entities:
+    - role: player
+      name: Ichiro
+      ref: 
+    - role: team
+      name: Miami Marlins
+      ref: 
+- number: FAPC-IR
+  uuid: 8270e56a-d7d5-4194-acb7-fabab493d590
+  subjects:
+  - entities:
+    - role: player
+      name: Ivan Rodriguez
+      ref: 
+    - role: team
+      name: Detroit Tigers
+      ref: 
+- number: FAPC-JD
+  uuid: 525465bd-4b53-4efa-821f-752a3d1080d2
+  subjects:
+  - entities:
+    - role: player
+      name: Jasson Domínguez
+      ref: 
+    - role: team
+      name: New York Yankees
+      ref: 
+- number: FAPC-JH
+  uuid: ed529cc4-d85f-40d9-ab44-0a80ed3f1218
+  subjects:
+  - entities:
+    - role: player
+      name: Jackson Holliday
+      ref: 
+    - role: team
+      name: Baltimore Orioles
+      ref: 
+- number: FAPC-JL
+  uuid: 24f6cae1-b8be-46cd-97ea-8d6f9bb94c64
+  subjects:
+  - entities:
+    - role: player
+      name: Jung Hoo Lee
+      ref: 
+    - role: team
+      name: San Francisco Giants
+      ref: 
+- number: FAPC-JM
+  uuid: 6335822b-d78f-46df-8f17-5ff76671d211
+  subjects:
+  - entities:
+    - role: player
+      name: Jackson Merrill
+      ref: 
+    - role: team
+      name: San Diego Padres
+      ref: 
+- number: FAPC-JRA
+  uuid: a08e8fd7-3ee7-4ab4-be72-677a7591bf9f
+  subjects:
+  - entities:
+    - role: player
+      name: José Ramírez
+      ref: 
+    - role: team
+      name: Cleveland Guardians
+      ref: 
+- number: FAPC-JRO
+  uuid: 596644f7-5ce7-4e76-8983-7f97d41f8054
+  subjects:
+  - entities:
+    - role: player
+      name: Julio Rodríguez
+      ref: 
+    - role: team
+      name: Seattle Mariners
+      ref: 
+- number: FAPC-JS
+  uuid: ee097590-0001-4bf8-95cd-fd042104fe1c
+  subjects:
+  - entities:
+    - role: player
+      name: John Smoltz
+      ref: 
+    - role: team
+      name: Atlanta Braves
+      ref: 
+- number: FAPC-JT
+  uuid: 5818563f-a5e1-4167-a3b1-ecfd99a0b070
+  subjects:
+  - entities:
+    - role: player
+      name: J.T. Realmuto
+      ref: 
+    - role: team
+      name: Philadelphia Phillies
+      ref: 
+- number: FAPC-JV
+  uuid: e5c1ecb2-687f-4c83-beab-73a36232b813
+  subjects:
+  - entities:
+    - role: player
+      name: Joey Votto
+      ref: 
+    - role: team
+      name: Cincinnati Reds
+      ref: 
+- number: FAPC-JW
+  uuid: 49c4b76c-efc1-44cb-a121-0a3915ffc744
+  subjects:
+  - entities:
+    - role: player
+      name: Jacob Wilson
+      ref: 
+    - role: team
+      name: Athletics
+      ref: 
+- number: FAPC-KT
+  uuid: 4bcb89a8-5a15-4122-9015-42adda6826f6
+  subjects:
+  - entities:
+    - role: player
+      name: Kyle Tucker
+      ref: 
+    - role: team
+      name: Houston Astros
+      ref: 
+- number: FAPC-LA
+  uuid: 07b05d89-159c-4c63-b195-2e6df6e3ad7c
+  subjects:
+  - entities:
+    - role: player
+      name: Luis Arraez
+      ref: 
+    - role: team
+      name: San Diego Padres
+      ref: 
+- number: FAPC-LW
+  uuid: a5341eff-0e58-40d6-a3c6-12360175a23b
+  subjects:
+  - entities:
+    - role: player
+      name: Larry Walker
+      ref: 
+    - role: team
+      name: Colorado Rockies
+      ref: 
+- number: FAPC-MO
+  uuid: a22261a3-cb5b-42a2-a43f-e5c29fa99dda
+  subjects:
+  - entities:
+    - role: player
+      name: Matt Olson
+      ref: 
+    - role: team
+      name: Atlanta Braves
+      ref: 
+- number: FAPC-MT
+  uuid: ad4ab5e5-9df4-49ee-8434-c0aabc5ca9bc
+  subjects:
+  - entities:
+    - role: player
+      name: Mike Trout
+      ref: 
+    - role: team
+      name: Los Angeles Angels
+      ref: 
+- number: FAPC-OA
+  uuid: c4ca0d15-8068-43da-96de-5312fd31281a
+  subjects:
+  - entities:
+    - role: player
+      name: Ozzie Albies
+      ref: 
+    - role: team
+      name: Atlanta Braves
+      ref: 
+- number: FAPC-OH
+  uuid: a4d03aed-1afe-4d0b-a3a5-368b0e25bc16
+  subjects:
+  - entities:
+    - role: player
+      name: Orel Hershiser
+      ref: 
+    - role: team
+      name: Los Angeles Dodgers
+      ref: 
+- number: FAPC-PC
+  uuid: 1a486b6b-5ea9-4b14-80ad-664f885c7976
+  subjects:
+  - entities:
+    - role: player
+      name: Pete Crow-Armstrong
+      ref: 
+    - role: team
+      name: Chicago Cubs
+      ref: 
+- number: FAPC-PF
+  uuid: 44fd0b69-5522-4b02-8238-d80b0f40f825
+  subjects:
+  - entities:
+    - role: player
+      name: Prince Fielder
+      ref: 
+    - role: team
+      name: Detroit Tigers
+      ref: 
+- number: FAPC-PM
+  uuid: b130a4c3-d58c-44f7-9428-901ea9474ae3
+  subjects:
+  - entities:
+    - role: player
+      name: Paul Molitor
+      ref: 
+    - role: team
+      name: Minnesota Twins
+      ref: 
+- number: FAPC-RA
+  uuid: 0b44b4d4-7a32-46eb-827b-6897044a9c14
+  subjects:
+  - entities:
+    - role: player
+      name: Ronald Acuña Jr.
+      ref: 
+    - role: team
+      name: Atlanta Braves
+      ref: 
+- number: FAPC-RJ
+  uuid: f0e81def-74ce-4b6e-88c4-ac213d31fedb
+  subjects:
+  - entities:
+    - role: player
+      name: Reggie Jackson
+      ref: 
+    - role: team
+      name: California Angels
+      ref: 
+- number: FAPC-SR
+  uuid: 38898a5f-ee6e-4412-8b4e-ea222ac2d02d
+  subjects:
+  - entities:
+    - role: player
+      name: Scott Rolen
+      ref: 
+    - role: team
+      name: Cincinnati Reds
+      ref: 
+- number: FAPC-TH
+  uuid: 1523d01d-7de9-42eb-8791-17eb87fc3909
+  subjects:
+  - entities:
+    - role: player
+      name: Torii Hunter
+      ref: 
+    - role: team
+      name: Minnesota Twins
+      ref: 
+- number: FAPC-TS
+  uuid: 3bee4f2e-954d-448c-bb08-f6250d65b961
+  subjects:
+  - entities:
+    - role: player
+      name: Tarik Skubal
+      ref: 
+    - role: team
+      name: Detroit Tigers
+      ref: 
+- number: FAPC-TT
+  uuid: 6081ca46-593c-4104-ac7b-733cadeb4546
+  subjects:
+  - entities:
+    - role: player
+      name: Trea Turner
+      ref: 
+    - role: team
+      name: Philadelphia Phillies
+      ref: 
+- number: FAPC-VG
+  uuid: 4b62a7ba-c5aa-41e5-8c5a-ea95f843aef7
+  subjects:
+  - entities:
+    - role: player
+      name: Vladimir Guerrero
+      ref: 
+    - role: team
+      name: Los Angeles Angels
+      ref: 
+- number: FAPC-VGJ
+  uuid: fd270281-0226-4d57-9623-528e8dbc2b2a
+  subjects:
+  - entities:
+    - role: player
+      name: Vladimir Guerrero Jr.
+      ref: 
+    - role: team
+      name: Toronto Blue Jays
+      ref: 
+- number: FAPC-WS
+  uuid: 532d3280-a768-4a2c-90d9-be8ee5d3d712
+  subjects:
+  - entities:
+    - role: player
+      name: Will Smith
+      ref: 
+    - role: team
+      name: Los Angeles Dodgers
+      ref: 

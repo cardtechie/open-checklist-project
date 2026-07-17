@@ -1,0 +1,90 @@
+- number: WSAR-AJ
+  uuid: 4d1bfa93-79ff-4fcf-9376-17e26ee44782
+  subjects:
+  - entities:
+    - role: player
+      name: Aaron Judge
+      ref: 
+    - role: team
+      name: New York Yankees
+      ref: 
+- number: WSAR-AV
+  uuid: cc2139ad-14f6-4645-ba92-2ca96c2ece78
+  subjects:
+  - entities:
+    - role: player
+      name: Anthony Volpe
+      ref: 
+    - role: team
+      name: New York Yankees
+      ref: 
+- number: WSAR-FF
+  uuid: 77acf07c-255e-4bca-93d6-9d4d620de595
+  subjects:
+  - entities:
+    - role: player
+      name: Freddie Freeman
+      ref: 
+    - role: team
+      name: Los Angeles Dodgers
+      ref: 
+- number: WSAR-JC
+  uuid: 0b521973-6627-4e3a-b277-33b63540e8db
+  subjects:
+  - entities:
+    - role: player
+      name: Jazz Chisholm Jr.
+      ref: 
+    - role: team
+      name: New York Yankees
+      ref: 
+- number: WSAR-JS
+  uuid: 2c9ea501-fdfb-4638-be77-c3263aaf56c3
+  subjects:
+  - entities:
+    - role: player
+      name: Juan Soto
+      ref: 
+    - role: team
+      name: New York Yankees
+      ref: 
+- number: WSAR-SHO
+  uuid: 719b15ee-f567-4d0c-8c83-f14fcd4043fa
+  subjects:
+  - entities:
+    - role: player
+      name: Shohei Ohtani
+      ref: 
+    - role: team
+      name: Los Angeles Dodgers
+      ref: 
+- number: WSAR-SO
+  uuid: 752ce839-2d89-402f-a584-1984b3f79bdb
+  subjects:
+  - entities:
+    - role: player
+      name: Shohei Ohtani
+      ref: 
+    - role: team
+      name: Los Angeles Dodgers
+      ref: 
+- number: WSAR-SOH
+  uuid: 3acfb2aa-cc4a-4fb0-82da-5ffb900709fd
+  subjects:
+  - entities:
+    - role: player
+      name: Shohei Ohtani
+      ref: 
+    - role: team
+      name: Los Angeles Dodgers
+      ref: 
+- number: WSAR-YY
+  uuid: e9aba785-8359-4fb0-9242-1bc5eb9b4941
+  subjects:
+  - entities:
+    - role: player
+      name: Yoshinobu Yamamoto
+      ref: 
+    - role: team
+      name: Los Angeles Dodgers
+      ref: 
