@@ -1,0 +1,100 @@
+- number: 55E-AC
+  uuid: 0e3a96ca-f771-42b0-bd46-c902ac5f7faa
+  subjects:
+  - entities:
+    - role: employee
+      name: Ariel Charnowitz
+      ref: 
+    - role: team
+      name: Arizona Diamondbacks
+      ref: 
+- number: 55E-HS
+  uuid: fd5cf736-5dff-48a6-a253-a259da1420c5
+  subjects:
+  - entities:
+    - role: employee
+      name: Hunter Stanley
+      ref: 
+    - role: team
+      name: Los Angeles Dodgers
+      ref: 
+- number: 55E-JR
+  uuid: 2e5be39e-a658-44bf-9424-001bd827f22b
+  subjects:
+  - entities:
+    - role: employee
+      name: Josh Ringler
+      ref: 
+    - role: team
+      name: New York Yankees
+      ref: 
+- number: 55E-KA
+  uuid: 305669e3-9971-4c8d-aa56-d0a7c7eba179
+  subjects:
+  - entities:
+    - role: employee
+      name: Keith Andrews
+      ref: 
+    - role: team
+      name: New York Mets
+      ref: 
+- number: 55E-KB
+  uuid: cf4c908d-05d2-47f8-9913-af2f1f80b513
+  subjects:
+  - entities:
+    - role: employee
+      name: Krystal Beisick
+      ref: 
+    - role: team
+      name: New York Yankees
+      ref: 
+- number: 55E-KR
+  uuid: 3e9d71c2-f247-419a-820a-2ddf55d2de4f
+  subjects:
+  - entities:
+    - role: employee
+      name: Keith Rothschild
+      ref: 
+    - role: team
+      name: New York Mets
+      ref: 
+- number: 55E-MD
+  uuid: 7f6cb2dc-ecac-4a66-9d88-96453e89a05c
+  subjects:
+  - entities:
+    - role: employee
+      name: Michelle Diller
+      ref: 
+    - role: team
+      name: New York Yankees
+      ref: 
+- number: 55E-ML
+  uuid: b4404050-9fe6-4bb3-ad63-a000e76f837d
+  subjects:
+  - entities:
+    - role: employee
+      name: Micah Layton
+      ref: 
+    - role: team
+      name: Texas Rangers
+      ref: 
+- number: 55E-NR
+  uuid: f77cadfd-3585-4ec7-99c5-be3f2d85e691
+  subjects:
+  - entities:
+    - role: employee
+      name: Nikki Rubin
+      ref: 
+    - role: team
+      name: New York Yankees
+      ref: 
+- number: 55E-PO
+  uuid: 7d94fc55-231e-456e-8b34-354595ade8a4
+  subjects:
+  - entities:
+    - role: employee
+      name: Pat O'Sullivan
+      ref: 
+    - role: team
+      name: Boston Red Sox
+      ref: 

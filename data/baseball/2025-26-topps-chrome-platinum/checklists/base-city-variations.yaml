@@ -1,0 +1,800 @@
+- number: 55CV-1
+  uuid: b451d139-346b-41cf-9191-7de8257cee77
+  subjects:
+  - entities:
+    - role: player
+      name: Mike Trout
+      ref: 
+    - role: team
+      name: Los Angeles Angels
+      ref: 
+- number: 55CV-2
+  uuid: ec35beb1-778a-4f00-867a-e28a53dc7891
+  subjects:
+  - entities:
+    - role: player
+      name: Rod Carew
+      ref: 
+    - role: team
+      name: California Angels
+      ref: 
+- number: 55CV-3
+  uuid: b35c9c60-9a3f-4541-846e-2408c94b01f5
+  subjects:
+  - entities:
+    - role: player
+      name: Randy Johnson
+      ref: 
+    - role: team
+      name: Arizona Diamondbacks
+      ref: 
+- number: 55CV-4
+  uuid: 782010fe-1b4d-4d0b-a943-59034644fe7a
+  subjects:
+  - entities:
+    - role: player
+      name: Corbin Carroll
+      ref: 
+    - role: team
+      name: Arizona Diamondbacks
+      ref: 
+- number: 55CV-5
+  uuid: 9c4e9226-cc3a-4893-a696-56400d6cdd1d
+  subjects:
+  - entities:
+    - role: player
+      name: Reggie Jackson
+      ref: 
+    - role: team
+      name: Oakland Athletics
+      ref: 
+- number: 55CV-6
+  uuid: 5d210ca5-1013-4a70-86ab-68d315163c8d
+  subjects:
+  - entities:
+    - role: player
+      name: Rickey Henderson
+      ref: 
+    - role: team
+      name: Oakland Athletics
+      ref: 
+- number: 55CV-7
+  uuid: 879ee2ed-32f2-4c3a-b73d-67628b693501
+  subjects:
+  - entities:
+    - role: player
+      name: Ronald Acuña Jr.
+      ref: 
+    - role: team
+      name: Atlanta Braves
+      ref: 
+- number: 55CV-8
+  uuid: f61412ff-6eb7-466f-9e05-465c6e3b3f1a
+  subjects:
+  - entities:
+    - role: player
+      name: Dale Murphy
+      ref: 
+    - role: team
+      name: Atlanta Braves
+      ref: 
+- number: 55CV-9
+  uuid: dafa0a3c-1396-4a1a-9876-4202e958985d
+  subjects:
+  - entities:
+    - role: player
+      name: Chipper Jones
+      ref: 
+    - role: team
+      name: Atlanta Braves
+      ref: 
+- number: 55CV-10
+  uuid: 37edeac9-c4f4-46dc-8e6a-1db65ae243e5
+  subjects:
+  - entities:
+    - role: player
+      name: Cal Ripken Jr.
+      ref: 
+    - role: team
+      name: Baltimore Orioles
+      ref: 
+- number: 55CV-11
+  uuid: 5c862f2f-2205-4919-8f9d-467c9b86951d
+  subjects:
+  - entities:
+    - role: player
+      name: Jackson Holliday
+      ref: 
+    - role: team
+      name: Baltimore Orioles
+      ref: 
+- number: 55CV-12
+  uuid: 1bb3ed03-07fd-489d-ad9a-ecc6210d849c
+  subjects:
+  - entities:
+    - role: player
+      name: Gunnar Henderson
+      ref: 
+    - role: team
+      name: Baltimore Orioles
+      ref: 
+- number: 55CV-13
+  uuid: 3b26d562-5376-4866-a5c4-a0ca3f759802
+  subjects:
+  - entities:
+    - role: player
+      name: Eddie Murray
+      ref: 
+    - role: team
+      name: Baltimore Orioles
+      ref: 
+- number: 55CV-14
+  uuid: 26910b92-7a2e-4ea8-98d4-22ae0f6d0ae9
+  subjects:
+  - entities:
+    - role: player
+      name: David Ortiz
+      ref: 
+    - role: team
+      name: Boston Red Sox
+      ref: 
+- number: 55CV-15
+  uuid: 1833ecbe-4701-429c-824e-0b3328aca61c
+  subjects:
+  - entities:
+    - role: player
+      name: Carl Yastrzemski
+      ref: 
+    - role: team
+      name: Boston Red Sox
+      ref: 
+- number: 55CV-16
+  uuid: 1c99eec7-2d35-4df7-9c31-f89f413eeae0
+  subjects:
+  - entities:
+    - role: player
+      name: Rafael Devers
+      ref: 
+    - role: team
+      name: San Francisco Giants
+      ref: 
+- number: 55CV-17
+  uuid: 1e2fce52-fc47-4433-a45d-b03f592e4044
+  subjects:
+  - entities:
+    - role: player
+      name: Shota Imanaga
+      ref: 
+    - role: team
+      name: Chicago Cubs
+      ref: 
+- number: 55CV-18
+  uuid: b886dcdf-bc57-4dc4-8409-2bd4f592bf58
+  subjects:
+  - entities:
+    - role: player
+      name: Pete Crow-Armstrong
+      ref: 
+    - role: team
+      name: Chicago Cubs
+      ref: 
+- number: 55CV-19
+  uuid: 144b61a7-382c-4492-9ac4-4fcc4c997600
+  subjects:
+  - entities:
+    - role: player
+      name: Dansby Swanson
+      ref: 
+    - role: team
+      name: Chicago Cubs
+      ref: 
+- number: 55CV-20
+  uuid: 20d2043a-3eaa-4ab0-9c61-2286a295c3fc
+  subjects:
+  - entities:
+    - role: player
+      name: Matt Shaw
+      ref: 
+    - role: team
+      name: Chicago Cubs
+      ref: 
+- number: 55CV-21
+  uuid: 6b8683dd-77a1-40a2-b2f5-6b62d7c7ff9d
+  subjects:
+  - entities:
+    - role: player
+      name: Jim Thome
+      ref: 
+    - role: team
+      name: Chicago White Sox
+      ref: 
+- number: 55CV-22
+  uuid: fda85228-fa3c-4234-b970-8048d8a46841
+  subjects:
+  - entities:
+    - role: player
+      name: Frank Thomas
+      ref: 
+    - role: team
+      name: Chicago White Sox
+      ref: 
+- number: 55CV-23
+  uuid: 51d4d443-0d3b-4c3f-8bcd-27f529e9a2e7
+  subjects:
+  - entities:
+    - role: player
+      name: Johnny Bench
+      ref: 
+    - role: team
+      name: Cincinnati Reds
+      ref: 
+- number: 55CV-24
+  uuid: 10f35461-d7b3-4c26-9eff-9e6e2d6e29ae
+  subjects:
+  - entities:
+    - role: player
+      name: Elly De La Cruz
+      ref: 
+    - role: team
+      name: Cincinnati Reds
+      ref: 
+- number: 55CV-25
+  uuid: 93273e99-c1ec-498c-86dd-a3d0cbbc4bd6
+  subjects:
+  - entities:
+    - role: player
+      name: Cade Horton
+      ref: 
+    - role: team
+      name: Chicago Cubs
+      ref: 
+- number: 55CV-26
+  uuid: 6b3cc009-7d45-42bb-9251-6e63da2faf28
+  subjects:
+  - entities:
+    - role: player
+      name: José Ramírez
+      ref: 
+    - role: team
+      name: Cleveland Guardians
+      ref: 
+- number: 55CV-27
+  uuid: a1e9303b-5df8-4b0b-8feb-2f86c0664a08
+  subjects:
+  - entities:
+    - role: player
+      name: Larry Walker
+      ref: 
+    - role: team
+      name: Colorado Rockies
+      ref: 
+- number: 55CV-28
+  uuid: bdc7fb4d-5d57-42b7-91f0-64223bdc13ad
+  subjects:
+  - entities:
+    - role: player
+      name: Riley Greene
+      ref: 
+    - role: team
+      name: Detroit Tigers
+      ref: 
+- number: 55CV-29
+  uuid: ebde8772-7336-4145-bff4-7d7b8c20d74b
+  subjects:
+  - entities:
+    - role: player
+      name: Ivan Rodriguez
+      ref: 
+    - role: team
+      name: Detroit Tigers
+      ref: 
+- number: 55CV-30
+  uuid: 8d024449-27ae-492c-a94c-b09a8e660474
+  subjects:
+  - entities:
+    - role: player
+      name: Gary Sheffield
+      ref: 
+    - role: team
+      name: Florida Marlins
+      ref: 
+- number: 55CV-31
+  uuid: 7882846e-db18-46e9-9cdb-37705c76af16
+  subjects:
+  - entities:
+    - role: player
+      name: Yordan Alvarez
+      ref: 
+    - role: team
+      name: Houston Astros
+      ref: 
+- number: 55CV-32
+  uuid: d32d76f9-eeb7-4b24-abf7-8414594ad6cb
+  subjects:
+  - entities:
+    - role: player
+      name: Jose Altuve
+      ref: 
+    - role: team
+      name: Houston Astros
+      ref: 
+- number: 55CV-33
+  uuid: e1d9b768-316f-4966-8535-225c54cb5dd2
+  subjects:
+  - entities:
+    - role: player
+      name: Kyle Tucker
+      ref: 
+    - role: team
+      name: Chicago Cubs
+      ref: 
+- number: 55CV-34
+  uuid: cd6beee4-3d02-40e6-b864-34bb3f319379
+  subjects:
+  - entities:
+    - role: player
+      name: Bo Jackson
+      ref: 
+    - role: team
+      name: Kansas City Royals
+      ref: 
+- number: 55CV-35
+  uuid: 89f28287-422d-471f-8d97-8d820573960a
+  subjects:
+  - entities:
+    - role: player
+      name: Bobby Witt Jr.
+      ref: 
+    - role: team
+      name: Kansas City Royals
+      ref: 
+- number: 55CV-36
+  uuid: 6ee751e5-2acc-4a86-83c6-18b393e75ae0
+  subjects:
+  - entities:
+    - role: player
+      name: George Brett
+      ref: 
+    - role: team
+      name: Kansas City Royals
+      ref: 
+- number: 55CV-37
+  uuid: 6f0211ac-7f57-47e7-99d0-0b7d10f5f204
+  subjects:
+  - entities:
+    - role: player
+      name: Shohei Ohtani
+      ref: 
+    - role: team
+      name: Los Angeles Dodgers
+      ref: 
+- number: 55CV-38
+  uuid: 18ce7216-9b5f-4933-96ae-4455cc1bd6fa
+  subjects:
+  - entities:
+    - role: player
+      name: Clayton Kershaw
+      ref: 
+    - role: team
+      name: Los Angeles Dodgers
+      ref: 
+- number: 55CV-39
+  uuid: 89a9c457-ca9d-48d7-a4d5-4101d3694314
+  subjects:
+  - entities:
+    - role: player
+      name: Drake Baldwin
+      ref: 
+    - role: team
+      name: Atlanta Braves
+      ref: 
+- number: 55CV-40
+  uuid: ebfcbbbc-85c3-486f-9b66-cbefbb72fa87
+  subjects:
+  - entities:
+    - role: player
+      name: Yoshinobu Yamamoto
+      ref: 
+    - role: team
+      name: Los Angeles Dodgers
+      ref: 
+- number: 55CV-41
+  uuid: 82a09117-1700-4d5b-b942-3b3f2865d9e9
+  subjects:
+  - entities:
+    - role: player
+      name: Mookie Betts
+      ref: 
+    - role: team
+      name: Los Angeles Dodgers
+      ref: 
+- number: 55CV-42
+  uuid: 14bd3de3-1fe8-44dd-bcb0-cca36cefdf6d
+  subjects:
+  - entities:
+    - role: player
+      name: Roki Sasaki
+      ref: 
+    - role: team
+      name: Los Angeles Dodgers
+      ref: 
+- number: 55CV-43
+  uuid: 1ee0c74e-982c-4ed0-b448-19e986590c6b
+  subjects:
+  - entities:
+    - role: player
+      name: Sandy Koufax
+      ref: 
+    - role: team
+      name: Brooklyn Dodgers
+      ref: 
+- number: 55CV-44
+  uuid: a8e6f415-7cd3-406e-8313-a28f21411a44
+  subjects:
+  - entities:
+    - role: player
+      name: Christian Yelich
+      ref: 
+    - role: team
+      name: Milwaukee Brewers
+      ref: 
+- number: 55CV-45
+  uuid: 2a9a8c5e-1874-40cd-8f20-33a2aabdc843
+  subjects:
+  - entities:
+    - role: player
+      name: Jackson Chourio
+      ref: 
+    - role: team
+      name: Milwaukee Brewers
+      ref: 
+- number: 55CV-46
+  uuid: df2c29e0-5bd9-48b9-927e-9ddca39a11a4
+  subjects:
+  - entities:
+    - role: player
+      name: Paul Molitor
+      ref: 
+    - role: team
+      name: Minnesota Twins
+      ref: 
+- number: 55CV-47
+  uuid: 37525ffd-365f-4070-974c-4080b8217b83
+  subjects:
+  - entities:
+    - role: player
+      name: Pedro Martínez
+      ref: 
+    - role: team
+      name: Montréal Expos
+      ref: 
+- number: 55CV-48
+  uuid: 04a4b2ba-eb51-49f7-9000-c2ac2306be28
+  subjects:
+  - entities:
+    - role: player
+      name: Darryl Strawberry
+      ref: 
+    - role: team
+      name: New York Mets
+      ref: 
+- number: 55CV-49
+  uuid: e53c2d4d-256a-483a-b0aa-1fe85f1ea2f5
+  subjects:
+  - entities:
+    - role: player
+      name: Pete Alonso
+      ref: 
+    - role: team
+      name: New York Mets
+      ref: 
+- number: 55CV-50
+  uuid: f25069df-67cb-4780-847e-07ae865e4d3d
+  subjects:
+  - entities:
+    - role: player
+      name: Francisco Lindor
+      ref: 
+    - role: team
+      name: New York Mets
+      ref: 
+- number: 55CV-51
+  uuid: 8329633a-e328-4a17-bd9f-ba148c5525eb
+  subjects:
+  - entities:
+    - role: player
+      name: Derek Jeter
+      ref: 
+    - role: team
+      name: New York Yankees
+      ref: 
+- number: 55CV-52
+  uuid: 379ec0a8-6aa4-47a2-be2e-ee1f9d5f0020
+  subjects:
+  - entities:
+    - role: player
+      name: Cal Raleigh
+      ref: 
+    - role: team
+      name: Seattle Mariners
+      ref: 
+- number: 55CV-53
+  uuid: c0c5c6a8-eb8c-4e3f-aa60-f403b0ceeab6
+  subjects:
+  - entities:
+    - role: player
+      name: Aaron Judge
+      ref: 
+    - role: team
+      name: New York Yankees
+      ref: 
+- number: 55CV-54
+  uuid: f83fb055-210e-4b03-9e37-dc939b72abb2
+  subjects:
+  - entities:
+    - role: player
+      name: Juan Soto
+      ref: 
+    - role: team
+      name: New York Mets
+      ref: 
+- number: 55CV-55
+  uuid: d8cb2b68-d688-4a21-9733-b2b8d56ef491
+  subjects:
+  - entities:
+    - role: player
+      name: Kristian Campbell
+      ref: 
+    - role: team
+      name: Boston Red Sox
+      ref: 
+- number: 55CV-56
+  uuid: 6ee1ca65-1c46-45c6-a74e-4bc0a3d07102
+  subjects:
+  - entities:
+    - role: player
+      name: Bryce Harper
+      ref: 
+    - role: team
+      name: Philadelphia Phillies
+      ref: 
+- number: 55CV-57
+  uuid: 655f18d1-67a0-4482-b8c1-0c6fba7cca28
+  subjects:
+  - entities:
+    - role: player
+      name: Chase Utley
+      ref: 
+    - role: team
+      name: Philadelphia Phillies
+      ref: 
+- number: 55CV-58
+  uuid: dd2d1aaf-303c-448a-8913-7c96e61d40d3
+  subjects:
+  - entities:
+    - role: player
+      name: Mike Schmidt
+      ref: 
+    - role: team
+      name: Philadelphia Phillies
+      ref: 
+- number: 55CV-59
+  uuid: ab280bc2-d518-417b-b7ab-4d09e4f7772c
+  subjects:
+  - entities:
+    - role: player
+      name: Paul Skenes
+      ref: 
+    - role: team
+      name: Pittsburgh Pirates
+      ref: 
+- number: 55CV-60
+  uuid: 8afeb3d5-398a-40b7-8237-a1c5de99ec75
+  subjects:
+  - entities:
+    - role: player
+      name: Manny Machado
+      ref: 
+    - role: team
+      name: San Diego Padres
+      ref: 
+- number: 55CV-61
+  uuid: a452c47c-5f99-4dcb-8de5-35e8cc4a6601
+  subjects:
+  - entities:
+    - role: player
+      name: Fernando Tatis Jr.
+      ref: 
+    - role: team
+      name: San Diego Padres
+      ref: 
+- number: 55CV-62
+  uuid: 64d8dc9e-2fd7-43df-aca3-bc914d1b3b36
+  subjects:
+  - entities:
+    - role: player
+      name: Nick Kurtz
+      ref: 
+    - role: team
+      name: Athletics
+      ref: 
+- number: 55CV-63
+  uuid: bc809149-43ce-4ecb-b3e7-396fb327ac43
+  subjects:
+  - entities:
+    - role: player
+      name: Buster Posey
+      ref: 
+    - role: team
+      name: San Francisco Giants
+      ref: 
+- number: 55CV-64
+  uuid: e69ba9fc-f8d2-4e63-8676-de1894c1c2a4
+  subjects:
+  - entities:
+    - role: player
+      name: Will Clark
+      ref: 
+    - role: team
+      name: San Francisco Giants
+      ref: 
+- number: 55CV-65
+  uuid: 58d42b12-0c19-4a3b-a64c-7c7026794f66
+  subjects:
+  - entities:
+    - role: player
+      name: Ichiro
+      ref: 
+    - role: team
+      name: Seattle Mariners
+      ref: 
+- number: 55CV-66
+  uuid: 002d0c73-56f8-4ccb-88d3-29550823868e
+  subjects:
+  - entities:
+    - role: player
+      name: Ken Griffey Jr.
+      ref: 
+    - role: team
+      name: Seattle Mariners
+      ref: 
+- number: 55CV-67
+  uuid: 5a4f60fe-a03d-42f4-ad2a-6dcdea07e34f
+  subjects:
+  - entities:
+    - role: player
+      name: Julio Rodríguez
+      ref: 
+    - role: team
+      name: Seattle Mariners
+      ref: 
+- number: 55CV-68
+  uuid: 2dd1768d-127a-47c0-9d66-de9842613e77
+  subjects:
+  - entities:
+    - role: player
+      name: Edgar Martinez
+      ref: 
+    - role: team
+      name: Seattle Mariners
+      ref: 
+- number: 55CV-69
+  uuid: 1bb3e601-1328-4ecc-a6c9-4a572f296a35
+  subjects:
+  - entities:
+    - role: player
+      name: Albert Pujols
+      ref: 
+    - role: team
+      name: St. Louis Cardinals
+      ref: 
+- number: 55CV-70
+  uuid: 394e0790-bc12-4384-b3a2-206c019213df
+  subjects:
+  - entities:
+    - role: player
+      name: Yadier Molina
+      ref: 
+    - role: team
+      name: St. Louis Cardinals
+      ref: 
+- number: 55CV-71
+  uuid: eebea4fe-a902-4612-8734-154cadcad996
+  subjects:
+  - entities:
+    - role: player
+      name: Nolan Arenado
+      ref: 
+    - role: team
+      name: St. Louis Cardinals
+      ref: 
+- number: 55CV-72
+  uuid: f653a39d-1e9a-475a-b062-d7756152a5f0
+  subjects:
+  - entities:
+    - role: player
+      name: Mark McGwire
+      ref: 
+    - role: team
+      name: St. Louis Cardinals
+      ref: 
+- number: 55CV-73
+  uuid: bba3e644-9904-4501-9f28-28934801a185
+  subjects:
+  - entities:
+    - role: player
+      name: Wade Boggs
+      ref: 
+    - role: team
+      name: Tampa Bay Devil Rays
+      ref: 
+- number: 55CV-74
+  uuid: d32ee532-ef48-43f3-9d5c-9a11a3776f0c
+  subjects:
+  - entities:
+    - role: player
+      name: Nolan Ryan
+      ref: 
+    - role: team
+      name: Texas Rangers
+      ref: 
+- number: 55CV-75
+  uuid: c135b771-6392-4969-9dc4-84dcdba7068b
+  subjects:
+  - entities:
+    - role: player
+      name: Alex Rodriguez
+      ref: 
+    - role: team
+      name: Texas Rangers
+      ref: 
+- number: 55CV-76
+  uuid: d622a6f7-123b-45af-a7f3-0af0e296e51e
+  subjects:
+  - entities:
+    - role: player
+      name: Corey Seager
+      ref: 
+    - role: team
+      name: Texas Rangers
+      ref: 
+- number: 55CV-77
+  uuid: 7315da7c-c594-4202-a5d3-be7f564da397
+  subjects:
+  - entities:
+    - role: player
+      name: Adrian Beltré
+      ref: 
+    - role: team
+      name: Texas Rangers
+      ref: 
+- number: 55CV-78
+  uuid: bcff3b49-c1ee-4c25-b502-20082f46bde0
+  subjects:
+  - entities:
+    - role: player
+      name: Vladimir Guerrero Jr.
+      ref: 
+    - role: team
+      name: Toronto Blue Jays
+      ref: 
+- number: 55CV-79
+  uuid: 0ddbcdf0-b9b3-42db-9016-6dac69e6026a
+  subjects:
+  - entities:
+    - role: player
+      name: James Wood
+      ref: 
+    - role: team
+      name: Washington Nationals
+      ref: 
+- number: 55CV-80
+  uuid: 688b2b6e-2dcf-4820-bdf9-ea8f932f7238
+  subjects:
+  - entities:
+    - role: player
+      name: Dylan Crews
+      ref: 
+    - role: team
+      name: Washington Nationals
+      ref: 

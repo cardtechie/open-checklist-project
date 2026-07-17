@@ -1,0 +1,1780 @@
+- number: CPA-AA
+  uuid: 6011c4dd-4869-40f8-aca7-31b7ac043987
+  subjects:
+  - entities:
+    - role: player
+      name: Adael Amador
+      ref: 
+    - role: team
+      name: Colorado Rockies
+      ref: 
+- number: CPA-AD
+  uuid: c9b6d1c3-ca01-4c37-924b-18c2c8b50230
+  subjects:
+  - entities:
+    - role: player
+      name: Andre Dawson
+      ref: 
+    - role: team
+      name: Montréal Expos
+      ref: 
+- number: CPA-AG
+  uuid: f30034a4-9342-4658-b48a-a1d9e3e2f89c
+  subjects:
+  - entities:
+    - role: player
+      name: Alex Gordon
+      ref: 
+    - role: team
+      name: Kansas City Royals
+      ref: 
+- number: CPA-AJ
+  uuid: 2aaf5241-3bfe-40ca-a7dd-3a4c4f876f9d
+  subjects:
+  - entities:
+    - role: player
+      name: Aaron Judge
+      ref: 
+    - role: team
+      name: New York Yankees
+      ref: 
+- number: CPA-AM
+  uuid: f09d3be2-7d98-4fc3-bb54-4608ac688601
+  subjects:
+  - entities:
+    - role: player
+      name: Angel Martínez
+      ref: 
+    - role: team
+      name: Cleveland Guardians
+      ref: 
+- number: CPA-AMA
+  uuid: 80e3916e-7d0b-4513-a130-2dd80d38685f
+  subjects:
+  - entities:
+    - role: player
+      name: Adam Mazur
+      ref: 
+    - role: team
+      name: Miami Marlins
+      ref: 
+- number: CPA-AP
+  uuid: 6c5ca469-e389-43cd-a029-cec013cad620
+  subjects:
+  - entities:
+    - role: player
+      name: Andy Pettitte
+      ref: 
+    - role: team
+      name: New York Yankees
+      ref: 
+- number: CPA-API
+  uuid: 2ad90712-4566-4583-8ae1-0e6803f7ddb2
+  subjects:
+  - entities:
+    - role: player
+      name: AJ Pierzynski
+      ref: 
+    - role: team
+      name: Chicago White Sox
+      ref: 
+- number: CPA-AR
+  uuid: dfaa06ab-a01a-4e72-bfa3-860de038dd90
+  subjects:
+  - entities:
+    - role: player
+      name: Alex Rodriguez
+      ref: 
+    - role: team
+      name: Texas Rangers
+      ref: 
+- number: CPA-ARI
+  uuid: 645740a0-88d6-4ec5-981d-783f1f5d17be
+  subjects:
+  - entities:
+    - role: player
+      name: Austin Riley
+      ref: 
+    - role: team
+      name: Atlanta Braves
+      ref: 
+- number: CPA-ARU
+  uuid: 97b4ad4a-9f8a-4a13-b262-11b4482ed5ff
+  subjects:
+  - entities:
+    - role: player
+      name: Adley Rutschman
+      ref: 
+    - role: team
+      name: Baltimore Orioles
+      ref: 
+- number: CPA-AS
+  uuid: 54598025-c54f-4c10-81cf-3ed5d71e5872
+  subjects:
+  - entities:
+    - role: player
+      name: Aaron Schunk
+      ref: 
+    - role: team
+      name: Colorado Rockies
+      ref: 
+- number: CPA-AV
+  uuid: f5b37bca-76b5-4bba-86c2-e3c7e12e5a39
+  subjects:
+  - entities:
+    - role: player
+      name: Anthony Volpe
+      ref: 
+    - role: team
+      name: New York Yankees
+      ref: 
+- number: CPA-AVA
+  uuid: 2e075155-ff56-4843-885f-37d444447d57
+  subjects:
+  - entities:
+    - role: player
+      name: Andy Van Slyke
+      ref: 
+    - role: team
+      name: Pittsburgh Pirates
+      ref: 
+- number: CPA-BB
+  uuid: 12106357-b0c4-4b86-b166-409d654ec27e
+  subjects:
+  - entities:
+    - role: player
+      name: Brady Basso
+      ref: 
+    - role: team
+      name: Athletics
+      ref: 
+- number: CPA-BBA
+  uuid: 76b6f64c-0de5-4fda-b462-4e19f980a4f8
+  subjects:
+  - entities:
+    - role: player
+      name: Brooks Baldwin
+      ref: 
+    - role: team
+      name: Chicago White Sox
+      ref: 
+- number: CPA-BBL
+  uuid: 45fdd3dd-22e3-4f87-8b2e-9f560bc4de5a
+  subjects:
+  - entities:
+    - role: player
+      name: Bradley Blalock
+      ref: 
+    - role: team
+      name: Colorado Rockies
+      ref: 
+- number: CPA-BD
+  uuid: a904f161-ef17-4296-b316-10b1e349ddc7
+  subjects:
+  - entities:
+    - role: player
+      name: Brendan Donovan
+      ref: 
+    - role: team
+      name: St. Louis Cardinals
+      ref: 
+- number: CPA-BDU
+  uuid: 57d9541e-3c16-4cc9-ad58-be9a030dc0c3
+  subjects:
+  - entities:
+    - role: player
+      name: Blake Dunn
+      ref: 
+    - role: team
+      name: Cincinnati Reds
+      ref: 
+- number: CPA-BL
+  uuid: 0c9e29d9-1629-43e3-8c97-7adec0ab2ba7
+  subjects:
+  - entities:
+    - role: player
+      name: Brooks Lee
+      ref: 
+    - role: team
+      name: Minnesota Twins
+      ref: 
+- number: CPA-BN
+  uuid: 46d20a4f-4b40-4d2d-924b-93728e91b990
+  subjects:
+  - entities:
+    - role: player
+      name: Brandon Nimmo
+      ref: 
+    - role: team
+      name: New York Mets
+      ref: 
+- number: CPA-BR
+  uuid: 9daedbaa-7654-4ef7-93da-b8d01dbd0245
+  subjects:
+  - entities:
+    - role: player
+      name: Ben Rice
+      ref: 
+    - role: team
+      name: New York Yankees
+      ref: 
+- number: CPA-BS
+  uuid: 85e3cabc-929f-4ca3-9095-bbca3bc338fd
+  subjects:
+  - entities:
+    - role: player
+      name: Bryson Stott
+      ref: 
+    - role: team
+      name: Philadelphia Phillies
+      ref: 
+- number: CPA-BW
+  uuid: 7ae44bbe-6652-4d82-bfb9-fa755cc09d69
+  subjects:
+  - entities:
+    - role: player
+      name: Bobby Witt Jr.
+      ref: 
+    - role: team
+      name: Kansas City Royals
+      ref: 
+- number: CPA-BWI
+  uuid: 8aa8f3c1-9d5a-48ce-b0e5-dd05456ebb86
+  subjects:
+  - entities:
+    - role: player
+      name: Billy Williams
+      ref: 
+    - role: team
+      name: Chicago Cubs
+      ref: 
+- number: CPA-CAD
+  uuid: f0286e47-e7fa-47a3-a435-eef18188ffad
+  subjects:
+  - entities:
+    - role: player
+      name: Caden Dana
+      ref: 
+    - role: team
+      name: Los Angeles Angels
+      ref: 
+- number: CPA-CAN
+  uuid: 53a965d8-a280-434e-bba4-e22173d21828
+  subjects:
+  - entities:
+    - role: player
+      name: Carlos Narváez
+      ref: 
+    - role: team
+      name: Boston Red Sox
+      ref: 
+- number: CPA-CB
+  uuid: ebce28da-642e-4476-8e22-839c376feb4e
+  subjects:
+  - entities:
+    - role: player
+      name: Craig Biggio
+      ref: 
+    - role: team
+      name: Houston Astros
+      ref: 
+- number: CPA-CC
+  uuid: c0dad79a-1be1-40cf-8a00-544c2664aeef
+  subjects:
+  - entities:
+    - role: player
+      name: Corbin Carroll
+      ref: 
+    - role: team
+      name: Arizona Diamondbacks
+      ref: 
+- number: CPA-CCO
+  uuid: '09d956a0-e758-49be-8be4-3f598afa1ebc'
+  subjects:
+  - entities:
+    - role: player
+      name: Colton Cowser
+      ref: 
+    - role: team
+      name: Baltimore Orioles
+      ref: 
+- number: CPA-CF
+  uuid: 1c80eb8f-d3ea-46bc-972d-76d721faae44
+  subjects:
+  - entities:
+    - role: player
+      name: Carlton Fisk
+      ref: 
+    - role: team
+      name: Boston Red Sox
+      ref: 
+- number: CPA-CHP
+  uuid: '029d3f20-d060-484c-ab55-f62979dc5744'
+  subjects:
+  - entities:
+    - role: player
+      name: Chan Ho Park
+      ref: 
+    - role: team
+      name: Los Angeles Dodgers
+      ref: 
+- number: CPA-CK
+  uuid: b13ed601-d9e8-4740-8cc0-4de0699de7af
+  subjects:
+  - entities:
+    - role: player
+      name: Clayton Kershaw
+      ref: 
+    - role: team
+      name: Los Angeles Dodgers
+      ref: 
+- number: CPA-CKE
+  uuid: b6d7b2ff-b8cb-4e2f-9555-935a4ef71988
+  subjects:
+  - entities:
+    - role: player
+      name: Colt Keith
+      ref: 
+    - role: team
+      name: Detroit Tigers
+      ref: 
+- number: CPA-CM
+  uuid: d396f28c-e231-4797-86a5-e472506a03ce
+  subjects:
+  - entities:
+    - role: player
+      name: Cedric Mullins
+      ref: 
+    - role: team
+      name: Baltimore Orioles
+      ref: 
+- number: CPA-CMA
+  uuid: 1f69e48c-c4ab-4fee-8ac0-2c329a4ea9d0
+  subjects:
+  - entities:
+    - role: player
+      name: Coby Mayo
+      ref: 
+    - role: team
+      name: Baltimore Orioles
+      ref: 
+- number: CPA-CMD
+  uuid: 517cb54a-3aa1-423d-821f-980ed7448b53
+  subjects:
+  - entities:
+    - role: player
+      name: Chayce McDermott
+      ref: 
+    - role: team
+      name: Baltimore Orioles
+      ref: 
+- number: CPA-CME
+  uuid: cdcd3f1e-bba1-4492-be67-d3ef05b0a577
+  subjects:
+  - entities:
+    - role: player
+      name: Cristian Mena
+      ref: 
+    - role: team
+      name: Arizona Diamondbacks
+      ref: 
+- number: CPA-CML
+  uuid: 1bed8a59-2410-4326-b497-44f9d2de26cc
+  subjects:
+  - entities:
+    - role: player
+      name: Christopher Morel
+      ref: 
+    - role: team
+      name: Tampa Bay Rays
+      ref: 
+- number: CPA-CN
+  uuid: d67d0a56-9cef-4fec-99ca-6e4da9ba2f55
+  subjects:
+  - entities:
+    - role: player
+      name: Connor Norby
+      ref: 
+    - role: team
+      name: Miami Marlins
+      ref: 
+- number: CPA-CP
+  uuid: 8f59af8b-851c-4306-ab17-6eea7f06be27
+  subjects:
+  - entities:
+    - role: player
+      name: Cade Povich
+      ref: 
+    - role: team
+      name: Baltimore Orioles
+      ref: 
+- number: CPA-CR
+  uuid: 213ca942-5cc6-4728-97d6-196f88a6c0d7
+  subjects:
+  - entities:
+    - role: player
+      name: Cal Raleigh
+      ref: 
+    - role: team
+      name: Seattle Mariners
+      ref: 
+- number: CPA-CRO
+  uuid: 2fd4074f-248c-4b3e-9ac9-06a2d8c3d7ee
+  subjects:
+  - entities:
+    - role: player
+      name: Carlos Rodriguez
+      ref: 
+    - role: team
+      name: Milwaukee Brewers
+      ref: 
+- number: CPA-CS
+  uuid: '069b9944-7014-4141-b943-c90c7af56933'
+  subjects:
+  - entities:
+    - role: player
+      name: Cam Smith
+      ref: 
+    - role: team
+      name: Houston Astros
+      ref: 
+- number: CPA-CY
+  uuid: ddabf284-78d2-4e1d-846d-06371986d8c9
+  subjects:
+  - entities:
+    - role: player
+      name: Christian Yelich
+      ref: 
+    - role: team
+      name: Milwaukee Brewers
+      ref: 
+- number: CPA-DA
+  uuid: 168194ef-e869-433b-8f7f-2fd64795ba15
+  subjects:
+  - entities:
+    - role: player
+      name: Dalton Rushing
+      ref: 
+    - role: team
+      name: Los Angeles Dodgers
+      ref: 
+- number: CPA-DC
+  uuid: 67a5326c-7011-4d67-aeb8-62e342a66198
+  subjects:
+  - entities:
+    - role: player
+      name: Dylan Crews
+      ref: 
+    - role: team
+      name: Washington Nationals
+      ref: 
+- number: CPA-DE
+  uuid: 9ac3de58-4b52-4876-a19b-412ee2bad915
+  subjects:
+  - entities:
+    - role: player
+      name: Dennis Eckersley
+      ref: 
+    - role: team
+      name: Boston Red Sox
+      ref: 
+- number: CPA-DF
+  uuid: ed6bf831-3069-4186-b026-f6155f7c175c
+  subjects:
+  - entities:
+    - role: player
+      name: David Festa
+      ref: 
+    - role: team
+      name: Minnesota Twins
+      ref: 
+- number: CPA-DG
+  uuid: 55e72ea2-47d5-44f6-9818-0a6ae57e1803
+  subjects:
+  - entities:
+    - role: player
+      name: Dwight Gooden
+      ref: 
+    - role: team
+      name: New York Mets
+      ref: 
+- number: CPA-DH
+  uuid: ac79cd46-472a-4616-ad73-84836dee7584
+  subjects:
+  - entities:
+    - role: player
+      name: DJ Herz
+      ref: 
+    - role: team
+      name: Washington Nationals
+      ref: 
+- number: CPA-DJ
+  uuid: 335c6f79-b325-4af3-b718-acae880df916
+  subjects:
+  - entities:
+    - role: player
+      name: Derek Jeter
+      ref: 
+    - role: team
+      name: New York Yankees
+      ref: 
+- number: CPA-DJU
+  uuid: ad9f459c-a31a-40d1-a649-e0f89cf01a70
+  subjects:
+  - entities:
+    - role: player
+      name: David Justice
+      ref: 
+    - role: team
+      name: Atlanta Braves
+      ref: 
+- number: CPA-DO
+  uuid: a67e3832-5c90-483e-bb5a-64263652e7e2
+  subjects:
+  - entities:
+    - role: player
+      name: Chase Dollander
+      ref: 
+    - role: team
+      name: Colorado Rockies
+      ref: 
+- number: CPA-DR
+  uuid: ba64ee4d-e369-4d96-8413-d001d848793d
+  subjects:
+  - entities:
+    - role: player
+      name: Drew Romo
+      ref: 
+    - role: team
+      name: Colorado Rockies
+      ref: 
+- number: CPA-DS
+  uuid: c28b9a58-1e27-4c28-a13c-e19e40a93c2e
+  subjects:
+  - entities:
+    - role: player
+      name: Darryl Strawberry
+      ref: 
+    - role: team
+      name: New York Mets
+      ref: 
+- number: CPA-DSCH
+  uuid: f0ff7614-a667-41f1-baf2-29e3d725618a
+  subjects:
+  - entities:
+    - role: player
+      name: Daniel Schneemann
+      ref: 
+    - role: team
+      name: Cleveland Guardians
+      ref: 
+- number: CPA-DT
+  uuid: 6992329b-67e6-4c43-ba0a-ec599ee2830b
+  subjects:
+  - entities:
+    - role: player
+      name: Drew Thorpe
+      ref: 
+    - role: team
+      name: Chicago White Sox
+      ref: 
+- number: CPA-EC
+  uuid: 1f8ee400-a68d-43a0-a4e4-af4f6c3b1ed4
+  subjects:
+  - entities:
+    - role: player
+      name: Evan Carter
+      ref: 
+    - role: team
+      name: Texas Rangers
+      ref: 
+- number: CPA-FL
+  uuid: 1e58bc9e-6fa2-4c3f-8524-5b4789d5c4b8
+  subjects:
+  - entities:
+    - role: player
+      name: Fred Lynn
+      ref: 
+    - role: team
+      name: Boston Red Sox
+      ref: 
+- number: CPA-FLI
+  uuid: a1d1d542-23ee-4798-8851-68df0b29c6c4
+  subjects:
+  - entities:
+    - role: player
+      name: Francisco Lindor
+      ref: 
+    - role: team
+      name: New York Mets
+      ref: 
+- number: CPA-FT
+  uuid: 7dfdf8b2-5da0-4281-9297-03cd8bbb338d
+  subjects:
+  - entities:
+    - role: player
+      name: Frank Thomas
+      ref: 
+    - role: team
+      name: Chicago White Sox
+      ref: 
+- number: CPA-GB
+  uuid: 50ce5c61-24a4-42ad-8f0b-7ebd03eb5ee0
+  subjects:
+  - entities:
+    - role: player
+      name: George Brett
+      ref: 
+    - role: team
+      name: Kansas City Royals
+      ref: 
+- number: CPA-GG
+  uuid: 30c4e051-c7a4-4ec5-a9e8-5a8c2dd69221
+  subjects:
+  - entities:
+    - role: player
+      name: Gordon Graceffo
+      ref: 
+    - role: team
+      name: St. Louis Cardinals
+      ref: 
+- number: CPA-GH
+  uuid: 57b3b708-7e77-4d69-8154-1cab9d0dd1a6
+  subjects:
+  - entities:
+    - role: player
+      name: Gunnar Henderson
+      ref: 
+    - role: team
+      name: Baltimore Orioles
+      ref: 
+- number: CPA-GJ
+  uuid: c6297ade-27a1-4125-9fc3-5267268c9712
+  subjects:
+  - entities:
+    - role: player
+      name: Greg Jones
+      ref: 
+    - role: team
+      name: Colorado Rockies
+      ref: 
+- number: CPA-GRC
+  uuid: f89cf8e9-0ae6-4af6-b4fd-315efb55d6f7
+  subjects:
+  - entities:
+    - role: player
+      name: Griffin Conine
+      ref: 
+    - role: team
+      name: Miami Marlins
+      ref: 
+- number: CPA-HB
+  uuid: af0f2833-5944-431b-bbec-0e5bfaa9400d
+  subjects:
+  - entities:
+    - role: player
+      name: Harrison Bader
+      ref: 
+    - role: team
+      name: New York Mets
+      ref: 
+- number: CPA-HK
+  uuid: 4d2ff5f4-a960-4181-acb0-55e7ad642c62
+  subjects:
+  - entities:
+    - role: player
+      name: Hyeseong Kim
+      ref: 
+    - role: team
+      name: Los Angeles Dodgers
+      ref: 
+- number: CPA-HR
+  uuid: 4a62881d-e1aa-4419-973b-8779c8cd9fef
+  subjects:
+  - entities:
+    - role: player
+      name: Hanley Ramírez
+      ref: 
+    - role: team
+      name: Florida Marlins
+      ref: 
+- number: CPA-HW
+  uuid: ff30ce08-c48b-4de4-8b07-23c569a23153
+  subjects:
+  - entities:
+    - role: player
+      name: Hurston Waldrep
+      ref: 
+    - role: team
+      name: Atlanta Braves
+      ref: 
+- number: CPA-I
+  uuid: ba7fd262-fecb-465b-a71f-29afa377d165
+  subjects:
+  - entities:
+    - role: player
+      name: Ichiro
+      ref: 
+    - role: team
+      name: Seattle Mariners
+      ref: 
+- number: CPA-IH
+  uuid: c3399e57-67cb-4e8a-8304-c8228aae51fb
+  subjects:
+  - entities:
+    - role: player
+      name: Ian Happ
+      ref: 
+    - role: team
+      name: Chicago Cubs
+      ref: 
+- number: CPA-JA
+  uuid: 6446ee9a-3187-4cd3-a2b9-f583bb4097c2
+  subjects:
+  - entities:
+    - role: player
+      name: Julian Aguiar
+      ref: 
+    - role: team
+      name: Cincinnati Reds
+      ref: 
+- number: CPA-JB
+  uuid: 681395b3-4986-42ea-9d0e-7d2e91de56c5
+  subjects:
+  - entities:
+    - role: player
+      name: Jordan Beck
+      ref: 
+    - role: team
+      name: Colorado Rockies
+      ref: 
+- number: CPA-JBA
+  uuid: f028b489-c4af-4462-91d7-b44dc1ae707d
+  subjects:
+  - entities:
+    - role: player
+      name: Jeff Bagwell
+      ref: 
+    - role: team
+      name: Houston Astros
+      ref: 
+- number: CPA-JBL
+  uuid: 03ee07e5-de52-41cb-9470-b06a3ca32ad4
+  subjects:
+  - entities:
+    - role: player
+      name: Jake Bloss
+      ref: 
+    - role: team
+      name: Toronto Blue Jays
+      ref: 
+- number: CPA-JC
+  uuid: fbe9015b-e7b3-407d-8889-63630209e183
+  subjects:
+  - entities:
+    - role: player
+      name: Jackson Chourio
+      ref: 
+    - role: team
+      name: Milwaukee Brewers
+      ref: 
+- number: CPA-JCA
+  uuid: 9abaf010-1d9d-4812-9ba7-07551c344aa2
+  subjects:
+  - entities:
+    - role: player
+      name: Joe Carter
+      ref: 
+    - role: team
+      name: Toronto Blue Jays
+      ref: 
+- number: CPA-JCM
+  uuid: 4944ec04-8e55-4c7c-a79f-68e7e67f0b0d
+  subjects:
+  - entities:
+    - role: player
+      name: Junior Caminero
+      ref: 
+    - role: team
+      name: Tampa Bay Rays
+      ref: 
+- number: CPA-JD
+  uuid: 2e367005-4ace-4c50-ada4-9509c2f88749
+  subjects:
+  - entities:
+    - role: player
+      name: Jasson Domínguez
+      ref: 
+    - role: team
+      name: New York Yankees
+      ref: 
+- number: CPA-JDU
+  uuid: 95667bce-fbdc-4b7b-826e-af623755677d
+  subjects:
+  - entities:
+    - role: player
+      name: Jarren Duran
+      ref: 
+    - role: team
+      name: Boston Red Sox
+      ref: 
+- number: CPA-JE
+  uuid: bdfc2547-7d35-464d-a40a-cab3b5ebd4a6
+  subjects:
+  - entities:
+    - role: player
+      name: Jim Edmonds
+      ref: 
+    - role: team
+      name: California Angels
+      ref: 
+- number: CPA-JG
+  uuid: 3e2fbdba-de66-4ebb-97ac-40c089043e2d
+  subjects:
+  - entities:
+    - role: player
+      name: Juan Gonzalez
+      ref: 
+    - role: team
+      name: Texas Rangers
+      ref: 
+- number: CPA-JH
+  uuid: bb047b6a-6dc0-4b8d-95a7-053c18f04850
+  subjects:
+  - entities:
+    - role: player
+      name: Jackson Holliday
+      ref: 
+    - role: team
+      name: Baltimore Orioles
+      ref: 
+- number: CPA-JJ
+  uuid: b7c1e987-9d36-4433-827c-f7f7f3326dfb
+  subjects:
+  - entities:
+    - role: player
+      name: Jace Jung
+      ref: 
+    - role: team
+      name: Detroit Tigers
+      ref: 
+- number: CPA-JJO
+  uuid: 161eac63-7d8a-463c-8993-b77bf56957ce
+  subjects:
+  - entities:
+    - role: player
+      name: Jackson Jobe
+      ref: 
+    - role: team
+      name: Detroit Tigers
+      ref: 
+- number: CPA-JK
+  uuid: a8b4d6a0-9a46-4a90-b3d3-09678a1ba4ed
+  subjects:
+  - entities:
+    - role: player
+      name: John Kruk
+      ref: 
+    - role: team
+      name: Philadelphia Phillies
+      ref: 
+- number: CPA-JKO
+  uuid: 905ffa7c-85db-47e1-bc84-d811ffe97b77
+  subjects:
+  - entities:
+    - role: player
+      name: Jack Kochanowicz
+      ref: 
+    - role: team
+      name: Los Angeles Angels
+      ref: 
+- number: CPA-JL
+  uuid: ec243572-149c-40bb-abef-fb1af5f387f1
+  subjects:
+  - entities:
+    - role: player
+      name: Joey Loperfido
+      ref: 
+    - role: team
+      name: Toronto Blue Jays
+      ref: 
+- number: CPA-JMA
+  uuid: 9fd2ff1b-3259-48c9-ae5a-1a8f544868d5
+  subjects:
+  - entities:
+    - role: player
+      name: Justyn-Henry Malloy
+      ref: 
+    - role: team
+      name: Detroit Tigers
+      ref: 
+- number: CPA-JN
+  uuid: c9fcb2bd-8b53-4df9-91f5-4967ef82dd59
+  subjects:
+  - entities:
+    - role: player
+      name: Jhonkensy Noel
+      ref: 
+    - role: team
+      name: Cleveland Guardians
+      ref: 
+- number: CPA-JNE
+  uuid: 6d135679-cedc-40c1-9107-e71f090c09f6
+  subjects:
+  - entities:
+    - role: player
+      name: Jack Neely
+      ref: 
+    - role: team
+      name: Chicago Cubs
+      ref: 
+- number: CPA-JOB
+  uuid: cd757d91-faad-4bfe-b945-de3cbaa5e375
+  subjects:
+  - entities:
+    - role: player
+      name: Johnny Bench
+      ref: 
+    - role: team
+      name: Cincinnati Reds
+      ref: 
+- number: CPA-JR
+  uuid: a2341ec6-7dca-4873-b3be-c147910cd431
+  subjects:
+  - entities:
+    - role: player
+      name: Julio Rodríguez
+      ref: 
+    - role: team
+      name: Seattle Mariners
+      ref: 
+- number: CPA-JRA
+  uuid: d2294a99-2aed-4a5c-bb9c-5e55c98ebec0
+  subjects:
+  - entities:
+    - role: player
+      name: José Ramírez
+      ref: 
+    - role: team
+      name: Cleveland Guardians
+      ref: 
+- number: CPA-JRO
+  uuid: 7e8d4fc4-a42b-4d44-9bcf-a491c8c133c1
+  subjects:
+  - entities:
+    - role: player
+      name: Jimmy Rollins
+      ref: 
+    - role: team
+      name: Philadelphia Phillies
+      ref: 
+- number: CPA-JS
+  uuid: b9a51e4b-b856-49a5-aad9-b80eada980fc
+  subjects:
+  - entities:
+    - role: player
+      name: Juan Soto
+      ref: 
+    - role: team
+      name: New York Mets
+      ref: 
+- number: CPA-JW
+  uuid: 14275016-026b-4878-bc57-58c3b47019b7
+  subjects:
+  - entities:
+    - role: player
+      name: James Wood
+      ref: 
+    - role: team
+      name: Washington Nationals
+      ref: 
+- number: CPA-JWI
+  uuid: 5be51fec-1f5f-4809-834d-2fac0ce13f7e
+  subjects:
+  - entities:
+    - role: player
+      name: Jacob Wilson
+      ref: 
+    - role: team
+      name: Athletics
+      ref: 
+- number: CPA-JWR
+  uuid: 19adab35-fcf5-457e-b606-4fa333d17ef2
+  subjects:
+  - entities:
+    - role: player
+      name: Justin Wrobleski
+      ref: 
+    - role: team
+      name: Los Angeles Dodgers
+      ref: 
+- number: CPA-KAL
+  uuid: 9ec5e05e-f834-404e-b707-74fbbd1510e7
+  subjects:
+  - entities:
+    - role: player
+      name: Kevin Alcántara
+      ref: 
+    - role: team
+      name: Chicago Cubs
+      ref: 
+- number: CPA-KC
+  uuid: 8540a2e0-dcf7-4270-b7d8-8fa45ad7c073
+  subjects:
+  - entities:
+    - role: player
+      name: Kristian Campbell
+      ref: 
+    - role: team
+      name: Boston Red Sox
+      ref: 
+- number: CPA-KG
+  uuid: 7ea72f53-7ffd-4428-adcd-13cb490cb710
+  subjects:
+  - entities:
+    - role: player
+      name: Ken Griffey Jr.
+      ref: 
+    - role: team
+      name: Seattle Mariners
+      ref: 
+- number: CPA-KH
+  uuid: 92ead03f-2e05-41c1-a5bf-bf8a55225828
+  subjects:
+  - entities:
+    - role: player
+      name: Ke'Bryan Hayes
+      ref: 
+    - role: team
+      name: Cincinnati Reds
+      ref: 
+- number: CPA-KM
+  uuid: 604749ec-6313-495b-bd11-5063d088e99a
+  subjects:
+  - entities:
+    - role: player
+      name: Kyle Manzardo
+      ref: 
+    - role: team
+      name: Cleveland Guardians
+      ref: 
+- number: CPA-KMO
+  uuid: 3d8eb111-1f06-49a7-9695-a0babcc63cc9
+  subjects:
+  - entities:
+    - role: player
+      name: Keider Montero
+      ref: 
+    - role: team
+      name: Detroit Tigers
+      ref: 
+- number: CPA-KT
+  uuid: 6748fdf9-c83c-4638-a0a2-1251faa6fb6c
+  subjects:
+  - entities:
+    - role: player
+      name: Kyle Tucker
+      ref: 
+    - role: team
+      name: Chicago Cubs
+      ref: 
+- number: CPA-KU
+  uuid: 5cdfc31c-69fa-477c-9c81-00c760a00539
+  subjects:
+  - entities:
+    - role: player
+      name: Nick Kurtz
+      ref: 
+    - role: team
+      name: Athletics
+      ref: 
+- number: CPA-LAC
+  uuid: bdc9f7af-118c-49ae-9766-2adafa1f8b29
+  subjects:
+  - entities:
+    - role: player
+      name: Luisangel Acuña
+      ref: 
+    - role: team
+      name: New York Mets
+      ref: 
+- number: CPA-LEJ
+  uuid: 194a5c95-eda2-4435-8d86-32ed3c4cd71a
+  subjects:
+  - entities:
+    - role: player
+      name: Levi Jordan
+      ref: 
+    - role: team
+      name: Cincinnati Reds
+      ref: 
+- number: CPA-LG
+  uuid: 5237e6ad-0876-499c-b90a-b9aaf9258062
+  subjects:
+  - entities:
+    - role: player
+      name: Luis Gil
+      ref: 
+    - role: team
+      name: New York Yankees
+      ref: 
+- number: CPA-LJ
+  uuid: 95789d63-4165-4844-975d-f321009f1fa4
+  subjects:
+  - entities:
+    - role: player
+      name: Leo Jiménez
+      ref: 
+    - role: team
+      name: Toronto Blue Jays
+      ref: 
+- number: CPA-LN
+  uuid: 39a445d3-db52-4fad-bb9c-bcb749ae3983
+  subjects:
+  - entities:
+    - role: player
+      name: Lars Nootbaar
+      ref: 
+    - role: team
+      name: St. Louis Cardinals
+      ref: 
+- number: CPA-MA
+  uuid: d620552f-2c6c-4e23-a5ac-c89618c7cfb3
+  subjects:
+  - entities:
+    - role: player
+      name: Matt Shaw
+      ref: 
+    - role: team
+      name: Chicago Cubs
+      ref: 
+- number: CPA-MB
+  uuid: 0ac6e5ab-5f03-4a98-8bef-c9093fcbaedb
+  subjects:
+  - entities:
+    - role: player
+      name: Mark Buehrle
+      ref: 
+    - role: team
+      name: Chicago White Sox
+      ref: 
+- number: CPA-MH
+  uuid: d342db4f-9003-4a0f-b6bb-3556d97da770
+  subjects:
+  - entities:
+    - role: player
+      name: Michael Harris II
+      ref: 
+    - role: team
+      name: Atlanta Braves
+      ref: 
+- number: CPA-MM
+  uuid: a2f9a1fc-d12a-4eea-b821-fdcc82ae5b8c
+  subjects:
+  - entities:
+    - role: player
+      name: Manny Machado
+      ref: 
+    - role: team
+      name: San Diego Padres
+      ref: 
+- number: CPA-MMA
+  uuid: 55d4f84f-81fc-49cd-b2ee-998dc8fdcf90
+  subjects:
+  - entities:
+    - role: player
+      name: Marcelo Mayer
+      ref: 
+    - role: team
+      name: Boston Red Sox
+      ref: 
+- number: CPA-MMC
+  uuid: 87319eaf-4f49-4f0b-ba2e-3fda10d2c12a
+  subjects:
+  - entities:
+    - role: player
+      name: Michael McGreevy
+      ref: 
+    - role: team
+      name: St. Louis Cardinals
+      ref: 
+- number: CPA-MME
+  uuid: c840750c-a71e-4774-abe1-5805e25c7cf6
+  subjects:
+  - entities:
+    - role: player
+      name: Michael Mercado
+      ref: 
+    - role: team
+      name: Philadelphia Phillies
+      ref: 
+- number: CPA-MOZ
+  uuid: f818e5dc-11c5-45a1-bea4-fae09d2ba895
+  subjects:
+  - entities:
+    - role: player
+      name: Marcell Ozuna
+      ref: 
+    - role: team
+      name: Atlanta Braves
+      ref: 
+- number: CPA-MSC
+  uuid: a1bd0a31-c62a-441c-a278-933fe904e15d
+  subjects:
+  - entities:
+    - role: player
+      name: Mike Schmidt
+      ref: 
+    - role: team
+      name: Philadelphia Phillies
+      ref: 
+- number: CPA-MT
+  uuid: e771f85c-b87c-445f-9c97-3a9f33e88ed2
+  subjects:
+  - entities:
+    - role: player
+      name: Mike Trout
+      ref: 
+    - role: team
+      name: Los Angeles Angels
+      ref: 
+- number: CPA-MW
+  uuid: de52c9a5-2cb0-4be0-aa65-93ab2e9c3a50
+  subjects:
+  - entities:
+    - role: player
+      name: Masyn Winn
+      ref: 
+    - role: team
+      name: St. Louis Cardinals
+      ref: 
+- number: CPA-MY
+  uuid: cf1d516b-7e73-4277-8513-11fa04f1db2c
+  subjects:
+  - entities:
+    - role: player
+      name: Michael Young
+      ref: 
+    - role: team
+      name: Texas Rangers
+      ref: 
+- number: CPA-NA
+  uuid: 532bd170-2dd4-4041-a94c-b81c27f849e5
+  subjects:
+  - entities:
+    - role: player
+      name: Nolan Arenado
+      ref: 
+    - role: team
+      name: St. Louis Cardinals
+      ref: 
+- number: CPA-NAL
+  uuid: 5be79b87-a782-4426-98ce-20d8b518e030
+  subjects:
+  - entities:
+    - role: player
+      name: Nacho Alvarez Jr.
+      ref: 
+    - role: team
+      name: Atlanta Braves
+      ref: 
+- number: CPA-NK
+  uuid: 972729f7-f6c8-4c84-8768-375a47e3359e
+  subjects:
+  - entities:
+    - role: player
+      name: Niko Kavadas
+      ref: 
+    - role: team
+      name: Los Angeles Angels
+      ref: 
+- number: CPA-NL
+  uuid: f5722a51-4875-4428-be4b-b6dd10bc8e52
+  subjects:
+  - entities:
+    - role: player
+      name: Nathaniel Lowe
+      ref: 
+    - role: team
+      name: Washington Nationals
+      ref: 
+- number: CPA-NR
+  uuid: 435fa861-14f1-4546-b0b9-262fa6093618
+  subjects:
+  - entities:
+    - role: player
+      name: Nolan Ryan
+      ref: 
+    - role: team
+      name: Texas Rangers
+      ref: 
+- number: CPA-OH
+  uuid: f6fd15bf-53d2-4016-b7d1-dca028542652
+  subjects:
+  - entities:
+    - role: player
+      name: Orlando Hernandez
+      ref: 
+    - role: team
+      name: New York Yankees
+      ref: 
+- number: CPA-OM
+  uuid: 75ca5a9f-1b66-43cd-b5b6-5c82668b50a3
+  subjects:
+  - entities:
+    - role: player
+      name: Orelvis Martinez
+      ref: 
+    - role: team
+      name: Toronto Blue Jays
+      ref: 
+- number: CPA-PA
+  uuid: 235abb40-074f-4250-a9be-02b34738ddfa
+  subjects:
+  - entities:
+    - role: player
+      name: Pete Alonso
+      ref: 
+    - role: team
+      name: New York Mets
+      ref: 
+- number: CPA-PC
+  uuid: e12bb929-9638-4f84-8eed-e7beced6ec1e
+  subjects:
+  - entities:
+    - role: player
+      name: Pete Crow-Armstrong
+      ref: 
+    - role: team
+      name: Chicago Cubs
+      ref: 
+- number: CPA-PG
+  uuid: 57ebe3b2-ffb0-40eb-9e1b-6c09a319a355
+  subjects:
+  - entities:
+    - role: player
+      name: Paul Goldschmidt
+      ref: 
+    - role: team
+      name: New York Yankees
+      ref: 
+- number: CPA-PK
+  uuid: 0b8c505b-e054-46bb-9f66-ce27a8f7e15a
+  subjects:
+  - entities:
+    - role: player
+      name: Paul Konerko
+      ref: 
+    - role: team
+      name: Chicago White Sox
+      ref: 
+- number: CPA-PM
+  uuid: 5bb801fb-b4c8-4c2f-92ff-e8e0100239f6
+  subjects:
+  - entities:
+    - role: player
+      name: Paul Molitor
+      ref: 
+    - role: team
+      name: Minnesota Twins
+      ref: 
+- number: CPA-PS
+  uuid: 2cc61e38-9d85-4e4b-a326-d4ddfa224c62
+  subjects:
+  - entities:
+    - role: player
+      name: Paul Skenes
+      ref: 
+    - role: team
+      name: Pittsburgh Pirates
+      ref: 
+- number: CPA-RA
+  uuid: 1c6eff48-d724-4906-a7bc-ce5dc173e182
+  subjects:
+  - entities:
+    - role: player
+      name: Ronald Acuña Jr.
+      ref: 
+    - role: team
+      name: Atlanta Braves
+      ref: 
+- number: CPA-RB
+  uuid: d3da80e2-7ebe-48d6-ba88-8d9696deafca
+  subjects:
+  - entities:
+    - role: player
+      name: Ronel Blanco
+      ref: 
+    - role: team
+      name: Houston Astros
+      ref: 
+- number: CPA-RBL
+  uuid: e2c9ab5f-dd88-4eb7-b641-365a035e33ac
+  subjects:
+  - entities:
+    - role: player
+      name: Ryan Bliss
+      ref: 
+    - role: team
+      name: Seattle Mariners
+      ref: 
+- number: CPA-RF
+  uuid: 491574b0-e5fe-453c-9263-35968e2e1f3c
+  subjects:
+  - entities:
+    - role: player
+      name: Rafael Furcal
+      ref: 
+    - role: team
+      name: Atlanta Braves
+      ref: 
+- number: CPA-RH
+  uuid: 105eed75-3781-4d8d-a492-58c64f5e1316
+  subjects:
+  - entities:
+    - role: player
+      name: Rece Hinds
+      ref: 
+    - role: team
+      name: Cincinnati Reds
+      ref: 
+- number: CPA-RJ
+  uuid: 57e66a38-baa9-4c03-aee2-471fe55fc282
+  subjects:
+  - entities:
+    - role: player
+      name: Randy Johnson
+      ref: 
+    - role: team
+      name: Arizona Diamondbacks
+      ref: 
+- number: CPA-RL
+  uuid: 2e278bc3-a21b-4f0b-a137-ee1bbca242b2
+  subjects:
+  - entities:
+    - role: player
+      name: Rhett Lowder
+      ref: 
+    - role: team
+      name: Cincinnati Reds
+      ref: 
+- number: CPA-RR
+  uuid: 134c8d06-a2f1-44c8-a2bb-58b50600f0ae
+  subjects:
+  - entities:
+    - role: player
+      name: River Ryan
+      ref: 
+    - role: team
+      name: Los Angeles Dodgers
+      ref: 
+- number: CPA-RS
+  uuid: 728d9ef5-9bc0-4d6f-a361-19e23f08d57f
+  subjects:
+  - entities:
+    - role: player
+      name: Roki Sasaki
+      ref: 
+    - role: team
+      name: Los Angeles Dodgers
+      ref: 
+- number: CPA-RY
+  uuid: 7627cc60-aa8b-4a57-aa1c-b0c880e3fea5
+  subjects:
+  - entities:
+    - role: player
+      name: Robin Yount
+      ref: 
+    - role: team
+      name: Milwaukee Brewers
+      ref: 
+- number: CPA-RZ
+  uuid: 1f46827e-c3d7-4a64-9af1-fe355253a457
+  subjects:
+  - entities:
+    - role: player
+      name: Ryan Zimmerman
+      ref: 
+    - role: team
+      name: Washington Nationals
+      ref: 
+- number: CPA-SB
+  uuid: 4c702c05-4801-41cb-9aeb-e7546dc77395
+  subjects:
+  - entities:
+    - role: player
+      name: Steward Berroa
+      ref: 
+    - role: team
+      name: Toronto Blue Jays
+      ref: 
+- number: CPA-SF
+  uuid: 4f11a032-1d2a-4569-a091-7e13a9f2b76c
+  subjects:
+  - entities:
+    - role: player
+      name: Sal Frelick
+      ref: 
+    - role: team
+      name: Milwaukee Brewers
+      ref: 
+- number: CPA-SGA
+  uuid: 43512bde-b27c-4169-9b36-a0be099ad60f
+  subjects:
+  - entities:
+    - role: player
+      name: Steve Garvey
+      ref: 
+    - role: team
+      name: Los Angeles Dodgers
+      ref: 
+- number: CPA-SI
+  uuid: c9ca766a-1cea-4ffd-bbe3-d9830049f34a
+  subjects:
+  - entities:
+    - role: player
+      name: Shota Imanaga
+      ref: 
+    - role: team
+      name: Chicago Cubs
+      ref: 
+- number: CPA-SM
+  uuid: a04b7bde-7f2f-4cf9-942e-39448853ba2d
+  subjects:
+  - entities:
+    - role: player
+      name: Shane McClanahan
+      ref: 
+    - role: team
+      name: Tampa Bay Rays
+      ref: 
+- number: CPA-SR
+  uuid: a18749f7-80fe-44fb-9bc8-8e78ad301827
+  subjects:
+  - entities:
+    - role: player
+      name: Scott Rolen
+      ref: 
+    - role: team
+      name: Philadelphia Phillies
+      ref: 
+- number: CPA-SS
+  uuid: 9c6f4d4b-f534-4395-85d3-9dde387ddfd2
+  subjects:
+  - entities:
+    - role: player
+      name: Spencer Steer
+      ref: 
+    - role: team
+      name: Cincinnati Reds
+      ref: 
+- number: CPA-SSC
+  uuid: 9aaeb4e0-267f-4b2b-b4e5-98787d71d1fc
+  subjects:
+  - entities:
+    - role: player
+      name: Spencer Schwellenbach
+      ref: 
+    - role: team
+      name: Atlanta Braves
+      ref: 
+- number: CPA-SW
+  uuid: 25d55116-6053-40a5-8d8e-ba3453dc613e
+  subjects:
+  - entities:
+    - role: player
+      name: Shay Whitcomb
+      ref: 
+    - role: team
+      name: Houston Astros
+      ref: 
+- number: CPA-TH
+  uuid: b38348dd-5bae-4375-b8e4-b3c893e27790
+  subjects:
+  - entities:
+    - role: player
+      name: Trevor Hoffman
+      ref: 
+    - role: team
+      name: San Diego Padres
+      ref: 
+- number: CPA-TL
+  uuid: 033e0c5c-e002-49ed-9512-58f157b8015b
+  subjects:
+  - entities:
+    - role: player
+      name: Tyler Locklear
+      ref: 
+    - role: team
+      name: Seattle Mariners
+      ref: 
+- number: CPA-TM
+  uuid: 1d9495aa-d263-4257-a627-f068abacb6e8
+  subjects:
+  - entities:
+    - role: player
+      name: Ty Madden
+      ref: 
+    - role: team
+      name: Detroit Tigers
+      ref: 
+- number: CPA-TP
+  uuid: a2889a9c-92ec-41f6-a777-1b504f60cb3f
+  subjects:
+  - entities:
+    - role: player
+      name: Tyler Phillips
+      ref: 
+    - role: team
+      name: Philadelphia Phillies
+      ref: 
+- number: CPA-TSA
+  uuid: 9735a64e-849f-4193-9a7b-347ee78dbaaa
+  subjects:
+  - entities:
+    - role: player
+      name: Thomas Saggese
+      ref: 
+    - role: team
+      name: St. Louis Cardinals
+      ref: 
+- number: CPA-TSI
+  uuid: 83fc5976-4e9e-4353-9bf8-98ae91f5139f
+  subjects:
+  - entities:
+    - role: player
+      name: Ted Simmons
+      ref: 
+    - role: team
+      name: St. Louis Cardinals
+      ref: 
+- number: CPA-TSO
+  uuid: 195ee994-3dd5-4237-b4a4-27886408745c
+  subjects:
+  - entities:
+    - role: player
+      name: Tyler Soderstrom
+      ref: 
+    - role: team
+      name: Athletics
+      ref: 
+- number: CPA-TSW
+  uuid: 38b3f9e7-6339-4c88-b1fd-c18af78d33e3
+  subjects:
+  - entities:
+    - role: player
+      name: Trey Sweeney
+      ref: 
+    - role: team
+      name: Detroit Tigers
+      ref: 
+- number: CPA-TT
+  uuid: ad3f8554-6ad8-448d-9cb1-d1a53d82f8bc
+  subjects:
+  - entities:
+    - role: player
+      name: Trea Turner
+      ref: 
+    - role: team
+      name: Philadelphia Phillies
+      ref: 
+- number: CPA-VB
+  uuid: '03329b7a-f13a-495c-a18f-e9d47d0fffd8'
+  subjects:
+  - entities:
+    - role: player
+      name: Valente Bellozo
+      ref: 
+    - role: team
+      name: Miami Marlins
+      ref: 
+- number: CPA-VG
+  uuid: 3dd87ee8-0dc4-422e-b6d4-f951906f5d72
+  subjects:
+  - entities:
+    - role: player
+      name: Vladimir Guerrero Jr.
+      ref: 
+    - role: team
+      name: Toronto Blue Jays
+      ref: 
+- number: CPA-WA
+  uuid: 439411ec-4b00-4cf9-a44e-ebcdd25498b5
+  subjects:
+  - entities:
+    - role: player
+      name: Wilyer Abreu
+      ref: 
+    - role: team
+      name: Boston Red Sox
+      ref: 
+- number: CPA-WL
+  uuid: 913b9b0f-a041-4925-9541-3e8190e0c975
+  subjects:
+  - entities:
+    - role: player
+      name: Wyatt Langford
+      ref: 
+    - role: team
+      name: Texas Rangers
+      ref: 
+- number: CPA-WW
+  uuid: 60d1fb4c-b546-4ff2-8a39-987e7ae9bb2a
+  subjects:
+  - entities:
+    - role: player
+      name: Will Wagner
+      ref: 
+    - role: team
+      name: Toronto Blue Jays
+      ref: 
+- number: CPA-WWA
+  uuid: 6387be0d-370e-49d3-92ca-a836ab50ca1c
+  subjects:
+  - entities:
+    - role: player
+      name: Will Warren
+      ref: 
+    - role: team
+      name: New York Yankees
+      ref: 
+- number: CPA-YD
+  uuid: c1026512-4914-4445-8423-96d6f584a8dd
+  subjects:
+  - entities:
+    - role: player
+      name: Yilber Diaz
+      ref: 
+    - role: team
+      name: Arizona Diamondbacks
+      ref: 
+- number: CPA-YM
+  uuid: b2e37536-b517-4ad8-ad42-ee458395bec3
+  subjects:
+  - entities:
+    - role: player
+      name: Yuki Matsui
+      ref: 
+    - role: team
+      name: San Diego Padres
+      ref: 
+- number: CPA-YY
+  uuid: e6f41215-2f97-4f23-baf0-75bf841b26f6
+  subjects:
+  - entities:
+    - role: player
+      name: Yoshinobu Yamamoto
+      ref: 
+    - role: team
+      name: Los Angeles Dodgers
+      ref: 
+- number: CPA-ZEM
+  uuid: 8727e3d7-262c-444d-bba8-b022bda061f5
+  subjects:
+  - entities:
+    - role: player
+      name: Zebby Matthews
+      ref: 
+    - role: team
+      name: Minnesota Twins
+      ref: 

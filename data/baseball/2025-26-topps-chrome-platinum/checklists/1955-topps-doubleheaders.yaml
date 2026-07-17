@@ -1,0 +1,340 @@
+- number: 55DH-1
+  uuid: a0d6d3d3-4fe7-45e4-a57a-30dd5561d266
+  subjects:
+  - entities:
+    - role: player
+      name: Sandy Koufax
+      ref: 
+    - role: team
+      name: Los Angeles Dodgers
+      ref: 
+  - entities:
+    - role: player
+      name: Shohei Ohtani
+      ref: 
+    - role: team
+      name: Los Angeles Dodgers
+      ref: 
+- number: 55DH-2
+  uuid: ffead80d-93b9-465e-a607-edacd75ecbdf
+  subjects:
+  - entities:
+    - role: player
+      name: Mickey Mantle
+      ref: 
+    - role: team
+      name: New York Yankees
+      ref: 
+  - entities:
+    - role: player
+      name: Aaron Judge
+      ref: 
+    - role: team
+      name: New York Yankees
+      ref: 
+- number: 55DH-3
+  uuid: 3a2e055f-f1df-4b55-b689-7d557c9165cc
+  subjects:
+  - entities:
+    - role: player
+      name: Jackie Robinson
+      ref: 
+    - role: team
+      name: Los Angeles Dodgers
+      ref: 
+  - entities:
+    - role: player
+      name: Mookie Betts
+      ref: 
+    - role: team
+      name: Los Angeles Dodgers
+      ref: 
+- number: 55DH-4
+  uuid: 024c18e4-c280-4d2b-a24a-3cb91eed7d0a
+  subjects:
+  - entities:
+    - role: player
+      name: Mike Schmidt
+      ref: 
+    - role: team
+      name: Philadelphia Phillies
+      ref: 
+  - entities:
+    - role: player
+      name: Bryce Harper
+      ref: 
+    - role: team
+      name: Philadelphia Phillies
+      ref: 
+- number: 55DH-5
+  uuid: 932cba8c-de55-48f6-be04-573cc2e365c9
+  subjects:
+  - entities:
+    - role: player
+      name: Mike Piazza
+      ref: 
+    - role: team
+      name: New York Mets
+      ref: 
+  - entities:
+    - role: player
+      name: Francisco Lindor
+      ref: 
+    - role: team
+      name: New York Mets
+      ref: 
+- number: 55DH-6
+  uuid: f2554c84-737a-48eb-8911-518f8e253739
+  subjects:
+  - entities:
+    - role: player
+      name: Albert Pujols
+      ref: 
+    - role: team
+      name: St. Louis Cardinals
+      ref: 
+  - entities:
+    - role: player
+      name: Stan Musial
+      ref: 
+    - role: team
+      name: St. Louis Cardinals
+      ref: 
+- number: 55DH-7
+  uuid: 126ca856-4b25-415a-baae-9d876907ecb7
+  subjects:
+  - entities:
+    - role: player
+      name: Carl Yastrzemski
+      ref: 
+    - role: team
+      name: Boston Red Sox
+      ref: 
+  - entities:
+    - role: player
+      name: Ted Williams
+      ref: 
+    - role: team
+      name: Boston Red Sox
+      ref: 
+- number: 55DH-8
+  uuid: f67e34bb-2682-4cd9-9871-92f6bba51767
+  subjects:
+  - entities:
+    - role: player
+      name: Ken Griffey Jr.
+      ref: 
+    - role: team
+      name: Seattle Mariners
+      ref: 
+  - entities:
+    - role: player
+      name: Ichiro
+      ref: 
+    - role: team
+      name: Seattle Mariners
+      ref: 
+- number: 55DH-9
+  uuid: 84c57e0a-767a-4d97-919c-697b31bc24cb
+  subjects:
+  - entities:
+    - role: player
+      name: Roki Sasaki
+      ref: 
+    - role: team
+      name: Los Angeles Dodgers
+      ref: 
+  - entities:
+    - role: player
+      name: Yoshinobu Yamamoto
+      ref: 
+    - role: team
+      name: Los Angeles Dodgers
+      ref: 
+- number: 55DH-10
+  uuid: 5a903f43-ceae-4cd7-8850-c1771969abfc
+  subjects:
+  - entities:
+    - role: player
+      name: Roger Maris
+      ref: 
+    - role: team
+      name: New York Yankees
+      ref: 
+  - entities:
+    - role: player
+      name: Mickey Mantle
+      ref: 
+    - role: team
+      name: New York Yankees
+      ref: 
+- number: 55DH-11
+  uuid: 25353080-8d47-4caa-b15f-886424554cba
+  subjects:
+  - entities:
+    - role: player
+      name: Ronald Acuña Jr.
+      ref: 
+    - role: team
+      name: Atlanta Braves
+      ref: 
+  - entities:
+    - role: player
+      name: Hank Aaron
+      ref: 
+    - role: team
+      name: Atlanta Braves
+      ref: 
+- number: 55DH-12
+  uuid: e0c6fc50-ece3-43e4-b108-f6a78598eca8
+  subjects:
+  - entities:
+    - role: player
+      name: Bobby Witt Jr.
+      ref: 
+    - role: team
+      name: Kansas City Royals
+      ref: 
+  - entities:
+    - role: player
+      name: George Brett
+      ref: 
+    - role: team
+      name: Kansas City Royals
+      ref: 
+- number: 55DH-13
+  uuid: 802d4ece-485b-4505-8a74-7af2b66e8e34
+  subjects:
+  - entities:
+    - role: player
+      name: Cal Ripken Jr.
+      ref: 
+    - role: team
+      name: Baltimore Orioles
+      ref: 
+  - entities:
+    - role: player
+      name: Gunnar Henderson
+      ref: 
+    - role: team
+      name: Baltimore Orioles
+      ref: 
+- number: 55DH-14
+  uuid: 33ca412b-8d01-479b-bd3e-06fc3bab9e19
+  subjects:
+  - entities:
+    - role: player
+      name: Tony Gwynn
+      ref: 
+    - role: team
+      name: San Diego Padres
+      ref: 
+  - entities:
+    - role: player
+      name: Fernando Tatis Jr.
+      ref: 
+    - role: team
+      name: San Diego Padres
+      ref: 
+- number: 55DH-16
+  uuid: b44dda18-5a2a-4a41-a020-d4144ce16b0a
+  subjects:
+  - entities:
+    - role: player
+      name: Pedro Martínez
+      ref: 
+    - role: team
+      name: Boston Red Sox
+      ref: 
+  - entities:
+    - role: player
+      name: David Ortiz
+      ref: 
+    - role: team
+      name: Boston Red Sox
+      ref: 
+- number: 55DH-17
+  uuid: e134105b-f3a4-48e7-a7ff-8b3cab599cea
+  subjects:
+  - entities:
+    - role: player
+      name: Brooks Robinson
+      ref: 
+    - role: team
+      name: Baltimore Orioles
+      ref: 
+  - entities:
+    - role: player
+      name: Eddie Murray
+      ref: 
+    - role: team
+      name: Baltimore Orioles
+      ref: 
+- number: 55DH-18
+  uuid: 7670e1e9-dfec-4968-990f-cb75621acd5c
+  subjects:
+  - entities:
+    - role: player
+      name: Nolan Ryan
+      ref: 
+    - role: team
+      name: California Angels
+      ref: 
+  - entities:
+    - role: player
+      name: Mike Trout
+      ref: 
+    - role: team
+      name: California Angels
+      ref: 
+- number: 55DH-19
+  uuid: 389cbde6-41df-4952-899a-49def380496f
+  subjects:
+  - entities:
+    - role: player
+      name: Lou Brock
+      ref: 
+    - role: team
+      name: St. Louis Cardinals
+      ref: 
+  - entities:
+    - role: player
+      name: Bob Gibson
+      ref: 
+    - role: team
+      name: St. Louis Cardinals
+      ref: 
+- number: 55DH-20
+  uuid: 268abbc6-a030-4765-99a5-cc8bf34d17f0
+  subjects:
+  - entities:
+    - role: player
+      name: Nick Kurtz
+      ref: 
+    - role: team
+      name: Athletics
+      ref: 
+  - entities:
+    - role: player
+      name: Jacob Wilson
+      ref: 
+    - role: team
+      name: Athletics
+      ref: 
+- number: 55DH-15
+  uuid: 5657f0dd-5a91-4af6-a8ab-4feb65a73c84
+  subjects:
+  - entities:
+    - role: player
+      name: Vladimir Guerrero Jr.
+      ref: 
+    - role: team
+      name: Toronto Blue Jays/Montréal Expos
+      ref: 
+  - entities:
+    - role: player
+      name: Vladimir Guerrero
+      ref: 
+    - role: team
+      name: Toronto Blue Jays/Montréal Expos
+      ref: 
