@@ -1,0 +1,100 @@
+- number: CA-11
+  uuid: ea5074d9-d96a-4799-ac7a-295323b42372
+  subjects:
+  - entities:
+    - role: player
+      name: Joe Mauer
+      ref: 
+    - role: team
+      name: Minnesota Twins
+      ref: 
+- number: CA-12
+  uuid: 37bc139a-0f42-47ac-8e7e-ce5305a330db
+  subjects:
+  - entities:
+    - role: player
+      name: Buster Posey
+      ref: 
+    - role: team
+      name: San Francisco Giants
+      ref: 
+- number: CA-13
+  uuid: a52e7f08-f60f-41a9-bea0-1e26e988d89f
+  subjects:
+  - entities:
+    - role: player
+      name: Bryce Harper
+      ref: 
+    - role: team
+      name: Washington Nationals
+      ref: 
+- number: CA-14
+  uuid: 5c0f734e-cb5c-41d9-9483-14bdb63a2b09
+  subjects:
+  - entities:
+    - role: player
+      name: Mike Trout
+      ref: 
+    - role: team
+      name: Los Angeles Angels
+      ref: 
+- number: CA-15
+  uuid: f73b59d4-6209-4107-9388-1517ce182d08
+  subjects:
+  - entities:
+    - role: player
+      name: Fernando Tatis Jr.
+      ref: 
+    - role: team
+      name: San Diego Padres
+      ref: 
+- number: CA-16
+  uuid: def60859-91a6-4671-9366-27aafdb5bf9a
+  subjects:
+  - entities:
+    - role: player
+      name: Vladimir Guerrero Jr.
+      ref: 
+    - role: team
+      name: Toronto Blue Jays
+      ref: 
+- number: CA-17
+  uuid: 9feefae1-7ecb-437a-9246-316e7a49d3b0
+  subjects:
+  - entities:
+    - role: player
+      name: Aaron Judge
+      ref: 
+    - role: team
+      name: New York Yankees
+      ref: 
+- number: CA-18
+  uuid: fe379445-aa36-4016-a4a3-6e834f3c5658
+  subjects:
+  - entities:
+    - role: player
+      name: Shohei Ohtani
+      ref: 
+    - role: team
+      name: Los Angeles Dodgers
+      ref: 
+- number: CA-19
+  uuid: ef6cd52c-5e97-4006-b314-30f6a3fe108b
+  subjects:
+  - entities:
+    - role: player
+      name: Mike Trout
+      ref: 
+    - role: team
+      name: Los Angeles Angels
+      ref: 
+- number: CA-20
+  uuid: f9fd974b-61aa-4205-b75c-c0616c3f60f0
+  subjects:
+  - entities:
+    - role: player
+      name: Clayton Kershaw
+      ref: 
+    - role: team
+      name: Los Angeles Dodgers
+      ref: 

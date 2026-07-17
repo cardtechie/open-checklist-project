@@ -1,0 +1,480 @@
+- number: MLP-AJ
+  uuid: 2d4a333d-1c02-40bf-9014-2ed1d02f7c34
+  subjects:
+  - entities:
+    - role: player
+      name: Aaron Judge
+      ref: 
+    - role: team
+      name: New York Yankees
+      ref: 
+- number: MLP-AP
+  uuid: 607fdd2f-3876-4ba4-9b52-cebf3dd849bc
+  subjects:
+  - entities:
+    - role: player
+      name: Albert Pujols
+      ref: 
+    - role: team
+      name: Angels
+      ref: 
+- number: MLP-AR
+  uuid: e6bdf5c4-8d2a-4c8b-bfc7-3cccdf8c5ec4
+  subjects:
+  - entities:
+    - role: player
+      name: Austin Riley
+      ref: 
+    - role: team
+      name: Atlanta Braves
+      ref: 
+- number: MLP-BH
+  uuid: cc7dfac5-801a-4703-bff8-0a86c07b5f40
+  subjects:
+  - entities:
+    - role: player
+      name: Bryce Harper
+      ref: 
+    - role: team
+      name: Philadelphia Phillies
+      ref: 
+- number: MLP-BL
+  uuid: 47fc935f-584b-4672-8628-40699c885989
+  subjects:
+  - entities:
+    - role: player
+      name: Brooks Lee
+      ref: 
+    - role: team
+      name: Minnesota Twins
+      ref: 
+- number: MLP-BR
+  uuid: e6a227a8-a773-4ead-a9d0-31535ef363a5
+  subjects:
+  - entities:
+    - role: player
+      name: Ben Rice
+      ref: 
+    - role: team
+      name: New York Yankees
+      ref: 
+- number: MLP-BW
+  uuid: 37172933-f876-4b72-bd88-1df56078ce70
+  subjects:
+  - entities:
+    - role: player
+      name: Bobby Witt Jr.
+      ref: 
+    - role: team
+      name: Kansas City Royals
+      ref: 
+- number: MLP-CC
+  uuid: 101a9382-7272-4096-bd7e-eb09f5ae4d4f
+  subjects:
+  - entities:
+    - role: player
+      name: Corbin Carroll
+      ref: 
+    - role: team
+      name: Arizona Diamondbacks
+      ref: 
+- number: MLP-CH
+  uuid: 45661293-8311-49eb-b468-cece54f43c35
+  subjects:
+  - entities:
+    - role: player
+      name: Cade Horton
+      ref: 
+    - role: team
+      name: Chicago Cubs
+      ref: 
+- number: MLP-CHS
+  uuid: a3f85a87-9e27-4f2c-9691-b5cf9abad88d
+  subjects:
+  - entities:
+    - role: player
+      name: Chandler Simpson
+      ref: 
+    - role: team
+      name: Tampa Bay Rays
+      ref: 
+- number: MLP-CK
+  uuid: 9b7dfb4b-f91c-4be1-85b6-8d9f16163421
+  subjects:
+  - entities:
+    - role: player
+      name: Clayton Kershaw
+      ref: 
+    - role: team
+      name: Los Angeles Dodgers
+      ref: 
+- number: MLP-CSM
+  uuid: 5ff2b98d-0834-4ca4-bb71-274d5ef2ef2c
+  subjects:
+  - entities:
+    - role: player
+      name: Cam Smith
+      ref: 
+    - role: team
+      name: Houston Astros
+      ref: 
+- number: MLP-DB
+  uuid: 0ba11fb6-4ae8-451a-a742-ed84fe344f6f
+  subjects:
+  - entities:
+    - role: player
+      name: Drake Baldwin
+      ref: 
+    - role: team
+      name: Atlanta Braves
+      ref: 
+- number: MLP-DC
+  uuid: 414e3334-eee7-4635-be7e-863218da4a6a
+  subjects:
+  - entities:
+    - role: player
+      name: Dylan Crews
+      ref: 
+    - role: team
+      name: Washington Nationals
+      ref: 
+- number: MLP-FF
+  uuid: 5988d4c9-10f7-40d0-a55d-d2575999652b
+  subjects:
+  - entities:
+    - role: player
+      name: Freddie Freeman
+      ref: 
+    - role: team
+      name: Los Angeles Dodgers
+      ref: 
+- number: MLP-FL
+  uuid: 456471d2-97ef-4835-bd59-39ef4763aa95
+  subjects:
+  - entities:
+    - role: player
+      name: Francisco Lindor
+      ref: 
+    - role: team
+      name: New York Mets
+      ref: 
+- number: MLP-FT
+  uuid: 6ddcd1d5-322e-4db1-b8a5-7854b2816311
+  subjects:
+  - entities:
+    - role: player
+      name: Fernando Tatis Jr.
+      ref: 
+    - role: team
+      name: San Diego Padres
+      ref: 
+- number: MLP-GM
+  uuid: 22482bc8-83d0-4349-8aa1-ad597478b129
+  subjects:
+  - entities:
+    - role: player
+      name: Greg Maddux
+      ref: 
+    - role: team
+      name: Atlanta Braves
+      ref: 
+- number: MLP-JC
+  uuid: 2bd16b4a-b244-4ed8-be7d-c910cd533ba9
+  subjects:
+  - entities:
+    - role: player
+      name: Junior Caminero
+      ref: 
+    - role: team
+      name: Tampa Bay Rays
+      ref: 
+- number: MLP-JD
+  uuid: 28ac3544-b805-4723-af42-c8525f9f226d
+  subjects:
+  - entities:
+    - role: player
+      name: Jacob deGrom
+      ref: 
+    - role: team
+      name: Texas Rangers
+      ref: 
+- number: MLP-JH
+  uuid: f733de82-e350-4c38-aebc-cdfff76078a6
+  subjects:
+  - entities:
+    - role: player
+      name: Jackson Holliday
+      ref: 
+    - role: team
+      name: Baltimore Orioles
+      ref: 
+- number: MLP-JM
+  uuid: 4c15c077-fdd8-4c4f-b5a2-6bb4c5861f23
+  subjects:
+  - entities:
+    - role: player
+      name: Jackson Merrill
+      ref: 
+    - role: team
+      name: San Diego Padres
+      ref: 
+- number: MLP-JR
+  uuid: e7e63238-4de5-493a-b68f-c10e259e2215
+  subjects:
+  - entities:
+    - role: player
+      name: Julio Rodríguez
+      ref: 
+    - role: team
+      name: Seattle Mariners
+      ref: 
+- number: MLP-JS
+  uuid: 8c7a8954-9ba9-4162-bb07-639174743ee9
+  subjects:
+  - entities:
+    - role: player
+      name: Juan Soto
+      ref: 
+    - role: team
+      name: New York Mets
+      ref: 
+- number: MLP-JV
+  uuid: 24b9574d-fec6-4338-a32a-5bb5906235e7
+  subjects:
+  - entities:
+    - role: player
+      name: Joey Votto
+      ref: 
+    - role: team
+      name: Cincinnati Reds
+      ref: 
+- number: MLP-JW
+  uuid: 6cba2f58-7a4e-4aba-ae40-05e679e4266a
+  subjects:
+  - entities:
+    - role: player
+      name: James Wood
+      ref: 
+    - role: team
+      name: Washington Nationals
+      ref: 
+- number: MLP-JWI
+  uuid: bbdc1d9f-bfed-4e0e-95f5-3307cf95413d
+  subjects:
+  - entities:
+    - role: player
+      name: Jacob Wilson
+      ref: 
+    - role: team
+      name: Athletics
+      ref: 
+- number: MLP-KC
+  uuid: 20e333e9-84e6-4997-964d-5567dba30e80
+  subjects:
+  - entities:
+    - role: player
+      name: Kristian Campbell
+      ref: 
+    - role: team
+      name: Boston Red Sox
+      ref: 
+- number: MLP-KS
+  uuid: f909a3d1-f28d-4d58-8c85-4450e95f1f18
+  subjects:
+  - entities:
+    - role: player
+      name: Kodai Senga
+      ref: 
+    - role: team
+      name: New York Mets
+      ref: 
+- number: MLP-KT
+  uuid: c3fd7784-7772-41a1-a0fc-5980e2ac1e13
+  subjects:
+  - entities:
+    - role: player
+      name: Kyle Tucker
+      ref: 
+    - role: team
+      name: Chicago Cubs
+      ref: 
+- number: MLP-LA
+  uuid: e3279f5f-819a-41bc-8053-d0f59670c1cc
+  subjects:
+  - entities:
+    - role: player
+      name: Luisangel Acuña
+      ref: 
+    - role: team
+      name: New York Mets
+      ref: 
+- number: MLP-MB
+  uuid: e92c9e2f-f26b-40bb-80ca-86e14d382ec4
+  subjects:
+  - entities:
+    - role: player
+      name: Mookie Betts
+      ref: 
+    - role: team
+      name: Los Angeles Dodgers
+      ref: 
+- number: MLP-MC
+  uuid: 42428187-8391-40e5-8f04-1a240acd2aa7
+  subjects:
+  - entities:
+    - role: player
+      name: Miguel Cabrera
+      ref: 
+    - role: team
+      name: Detroit Tigers
+      ref: 
+- number: MLP-MM
+  uuid: 21228ecb-55b4-4a02-b5be-b3e16ea86828
+  subjects:
+  - entities:
+    - role: player
+      name: Manny Machado
+      ref: 
+    - role: team
+      name: San Diego Padres
+      ref: 
+- number: MLP-MMA
+  uuid: 515b5c1d-848a-455f-96d1-8187fc2001b5
+  subjects:
+  - entities:
+    - role: player
+      name: Marcelo Mayer
+      ref: 
+    - role: team
+      name: Boston Red Sox
+      ref: 
+- number: MLP-MS
+  uuid: 21e64799-a3fd-46a3-9aa6-8369ed966a72
+  subjects:
+  - entities:
+    - role: player
+      name: Matt Shaw
+      ref: 
+    - role: team
+      name: Chicago Cubs
+      ref: 
+- number: MLP-MT
+  uuid: be47654b-73c6-4569-bdec-6b1454fef21a
+  subjects:
+  - entities:
+    - role: player
+      name: Mike Trout
+      ref: 
+    - role: team
+      name: Angels
+      ref: 
+- number: MLP-NA
+  uuid: c1b4cad1-c86c-4207-9ea8-ee1079d7f5aa
+  subjects:
+  - entities:
+    - role: player
+      name: Nolan Arenado
+      ref: 
+    - role: team
+      name: St. Louis Cardinals
+      ref: 
+- number: MLP-NK
+  uuid: 239ff681-0b03-44ae-a6fe-315048d13011
+  subjects:
+  - entities:
+    - role: player
+      name: Nick Kurtz
+      ref: 
+    - role: team
+      name: Athletics
+      ref: 
+- number: MLP-PA
+  uuid: 7f85cf00-2cb1-43d7-a03b-16aee0e5fce8
+  subjects:
+  - entities:
+    - role: player
+      name: Pete Alonso
+      ref: 
+    - role: team
+      name: New York Mets
+      ref: 
+- number: MLP-PC
+  uuid: 367054ca-7da5-4a9c-a85e-f7d2e13b2548
+  subjects:
+  - entities:
+    - role: player
+      name: Pete Crow-Armstrong
+      ref: 
+    - role: team
+      name: Chicago Cubs
+      ref: 
+- number: MLP-RA
+  uuid: 8789e772-54c1-411f-8e07-9e6b0334aec1
+  subjects:
+  - entities:
+    - role: player
+      name: Ronald Acuña Jr.
+      ref: 
+    - role: team
+      name: Atlanta Braves
+      ref: 
+- number: MLP-RH
+  uuid: f81a632f-e325-4573-ba0e-170ed2dec7d5
+  subjects:
+  - entities:
+    - role: player
+      name: Rickey Henderson
+      ref: 
+    - role: team
+      name: Seattle Mariners
+      ref: 
+- number: MLP-SI
+  uuid: d2d25971-304e-4ced-a30c-de935c8ae9e9
+  subjects:
+  - entities:
+    - role: player
+      name: Shota Imanaga
+      ref: 
+    - role: team
+      name: Chicago Cubs
+      ref: 
+- number: MLP-SO
+  uuid: 9154f96d-3cae-4ca9-a4c2-c00bc999cb0e
+  subjects:
+  - entities:
+    - role: player
+      name: Shohei Ohtani
+      ref: 
+    - role: team
+      name: Los Angeles Dodgers
+      ref: 
+- number: MLP-TT
+  uuid: 24ec468f-290d-46b7-a740-a7dc08a15141
+  subjects:
+  - entities:
+    - role: player
+      name: Trea Turner
+      ref: 
+    - role: team
+      name: Philadelphia Phillies
+      ref: 
+- number: MLP-VG
+  uuid: 9613c0e5-2ab8-4d51-85e0-0f792a6ee72f
+  subjects:
+  - entities:
+    - role: player
+      name: Vladimir Guerrero Jr.
+      ref: 
+    - role: team
+      name: Toronto Blue Jays
+      ref: 
+- number: MLP-YM
+  uuid: 9fb7e6a0-2dc2-4299-83ca-8c252f0a30f2
+  subjects:
+  - entities:
+    - role: player
+      name: Yadier Molina
+      ref: 
+    - role: team
+      name: St. Louis Cardinals
+      ref: 

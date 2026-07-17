@@ -1,0 +1,981 @@
+set_id: 2026-topps-series-2
+base_sets:
+- id: base
+  name: Base
+  uuid: 55e1e02f-eebf-55ca-b7ee-841ee4ef4ae1
+  declared_card_count: 350
+  parallels:
+  - name: 75 Years Of Topps
+    print_run: 75
+    serial_numbered: true
+  - name: All-Star Game
+  - name: All-Star Game Black
+    print_run: 10
+    serial_numbered: true
+  - name: All-Star Game Gold
+    print_run: 50
+    serial_numbered: true
+  - name: All-Star Game Green
+    print_run: 99
+    serial_numbered: true
+  - name: All-Star Game Orange
+    print_run: 25
+    serial_numbered: true
+  - name: All-Star Game Platinum
+    print_run: 1
+    serial_numbered: true
+  - name: All-Star Game Red
+    print_run: 5
+    serial_numbered: true
+  - name: Aqua Holo
+  - name: Aqua Rainbow Foil
+  - name: Black
+    print_run: 75
+    serial_numbered: true
+  - name: Black Diamante Foil
+    print_run: 10
+    serial_numbered: true
+  - name: Black Holo Foil
+    print_run: 10
+    serial_numbered: true
+  - name: Black Rainbow Foil
+    print_run: 10
+    serial_numbered: true
+  - name: Blue Holo Foil
+    print_run: 150
+    serial_numbered: true
+  - name: Blue Rainbow Foil
+    print_run: 150
+    serial_numbered: true
+  - name: Canvas
+    print_run: 50
+    serial_numbered: true
+  - name: Cherry Blossom
+    print_run: 99
+    serial_numbered: true
+  - name: Diamante Foil
+  - name: FoilFractor
+    print_run: 1
+    serial_numbered: true
+  - name: Gold
+    print_run: 2026
+    serial_numbered: true
+  - name: Gold Diamante Foil
+    print_run: 50
+    serial_numbered: true
+  - name: Gold Holo Foil
+    print_run: 50
+    serial_numbered: true
+  - name: Gold Rainbow Foil
+    print_run: 50
+    serial_numbered: true
+  - name: Green Diamante Foil
+    print_run: 99
+    serial_numbered: true
+  - name: Green Holo Foil
+    print_run: 99
+    serial_numbered: true
+  - name: Green Rainbow Foil
+    print_run: 99
+    serial_numbered: true
+  - name: Holo Foil
+  - name: Independence Day
+    print_run: 76
+    serial_numbered: true
+  - name: Memorial Day Camo
+    print_run: 25
+    serial_numbered: true
+  - name: Orange Diamante Foil
+    print_run: 25
+    serial_numbered: true
+  - name: Orange Holo Foil
+    print_run: 25
+    serial_numbered: true
+  - name: Orange Rainbow Foil
+    print_run: 25
+    serial_numbered: true
+  - name: Pink Diamante Foil
+  - name: Pink Holo
+    print_run: 800
+    serial_numbered: true
+  - name: Printing Plates
+    print_run: 4
+    serial_numbered: true
+  - name: Purple Holo Foil
+    print_run: 250
+    serial_numbered: true
+  - name: Purple Rainbow Foil
+    print_run: 250
+    serial_numbered: true
+  - name: Rainbow Foil
+  - name: Red Diamante Foil
+    print_run: 5
+    serial_numbered: true
+  - name: Red Holo Foil
+    print_run: 5
+    serial_numbered: true
+  - name: Red Rainbow Foil
+    print_run: 5
+    serial_numbered: true
+  - name: Rose Gold Holo Foil
+    print_run: 1
+    serial_numbered: true
+  - name: Sandglitter
+  - name: Sandglitter Black
+    print_run: 10
+    serial_numbered: true
+  - name: Sandglitter Gold
+    print_run: 50
+    serial_numbered: true
+  - name: Sandglitter Orange
+    print_run: 25
+    serial_numbered: true
+  - name: Sandglitter Red
+    print_run: 5
+    serial_numbered: true
+  - name: Silver Crackle Foil Board
+  - name: Topps Logo
+  - name: Wood
+    print_run: 25
+    serial_numbered: true
+  - name: Yellow Holo Foil
+    print_run: 399
+    serial_numbered: true
+  - name: Yellow Rainbow Foil
+    print_run: 399
+    serial_numbered: true
+  subsets:
+  - id: apple-foil-variations
+    name: Apple Foil Variations
+    uuid: 280ef4ca-a8fd-56f6-8f82-78b483a7af1b
+    type:
+    - variation
+    declared_card_count: 100
+  - id: base-1952-variations
+    name: Base - 1952 Variations
+    uuid: 740eafbd-3f9c-544e-a08a-3e212a694896
+    type:
+    - variation
+    declared_card_count: 20
+  - id: base-funko-pop-cards
+    name: Base - Funko Pop Cards
+    uuid: '0409bfa2-e9ca-5f06-a09e-f32d456f48f8'
+    type:
+    - insert
+    declared_card_count: 5
+  - id: base-short-print-rookie-cards
+    name: Base - Short Print Rookie Cards
+    uuid: aff81f8f-9630-5d79-9d5a-3fea33898602
+    type:
+    - insert
+    declared_card_count: 4
+  - id: clear-variation
+    name: Clear Variation
+    uuid: d7802df4-19b0-5bfb-a368-000fa9190b8d
+    type:
+    - variation
+    declared_card_count: 100
+  - id: golden-mirror-variations
+    name: Golden Mirror Variations
+    uuid: d313671e-23a2-593b-a4ed-f2167ef2af42
+    type:
+    - variation
+    declared_card_count: 350
+  - id: holiday-variations
+    name: Holiday Variations
+    uuid: e1df895e-424c-5a2f-a985-7ac27e44f9a5
+    type:
+    - variation
+    declared_card_count: 100
+  - id: player-number-variations
+    name: Player Number Variations
+    uuid: cbca95ae-83c3-589f-adca-99306f28dc73
+    type:
+    - variation
+    declared_card_count: 25
+  - id: team-color-border-variations
+    name: Team Color Border Variations
+    uuid: 661bad15-cb1d-51cf-b64d-02a866a42e36
+    type:
+    - variation
+    declared_card_count: 100
+  - id: true-photo-variations
+    name: True Photo Variations
+    uuid: 43280dbd-dfb0-5732-8f27-43eb85a02b8b
+    type:
+    - variation
+    declared_card_count: 100
+  - id: vintage-stock-variations
+    name: Vintage Stock Variations
+    uuid: 9e0b1537-3238-513d-96b7-69114c555b2c
+    type:
+    - variation
+    declared_card_count: 100
+subsets:
+- id: 1952-rookie-variation-autographs
+  name: 1952 Rookie Variation Autographs
+  uuid: be146d45-27a3-5d08-81e8-f2c13a05fd17
+  type:
+  - autograph
+  - variation
+  declared_card_count: 19
+- id: 1991-topps-all-stars
+  name: 1991 Topps All-Stars
+  uuid: ee0380b6-7163-5c02-b173-202670e80c48
+  type:
+  - insert
+  declared_card_count: 50
+- id: 1991-topps-baseball
+  name: 1991 Topps Baseball
+  uuid: 9847c253-6521-5ed9-886c-82ab4efacca5
+  type:
+  - insert
+  declared_card_count: 50
+  parallels:
+  - name: '"The Real One"'
+    print_run: 91
+    serial_numbered: true
+  - name: All-Star Autograph
+  - name: All-Star Autograph Black
+    print_run: 10
+    serial_numbered: true
+  - name: All-Star Autograph Blue
+    print_run: 150
+    serial_numbered: true
+  - name: All-Star Autograph FoilFractor
+    print_run: 1
+    serial_numbered: true
+  - name: All-Star Autograph Gold
+    print_run: 50
+    serial_numbered: true
+  - name: All-Star Autograph Green
+    print_run: 99
+    serial_numbered: true
+  - name: All-Star Autograph Orange
+    print_run: 25
+    serial_numbered: true
+  - name: All-Star Autograph Red
+    print_run: 5
+    serial_numbered: true
+  - name: All-Star Game Black Parallel
+    print_run: 10
+    serial_numbered: true
+  - name: All-Star Game Gold Parallel
+    print_run: 50
+    serial_numbered: true
+  - name: All-Star Game Orange Parallel
+    print_run: 25
+    serial_numbered: true
+  - name: All-Star Game Parallel
+  - name: All-Star Game Platinum Parallel
+    print_run: 1
+    serial_numbered: true
+  - name: All-Star Game Red Parallel
+    print_run: 5
+    serial_numbered: true
+  - name: All-Star Relics
+  - name: All-Star Relics Black
+    print_run: 10
+    serial_numbered: true
+  - name: All-Star Relics Blue
+    print_run: 150
+    serial_numbered: true
+  - name: All-Star Relics Gold
+    print_run: 50
+    serial_numbered: true
+  - name: All-Star Relics Green
+    print_run: 99
+    serial_numbered: true
+  - name: All-Star Relics Orange
+    print_run: 25
+    serial_numbered: true
+  - name: All-Star Relics Platinum
+    print_run: 1
+    serial_numbered: true
+  - name: All-Star Relics Red
+    print_run: 5
+    serial_numbered: true
+  - name: Autograph Black
+    print_run: 10
+    serial_numbered: true
+  - name: Autograph Blue
+    print_run: 150
+    serial_numbered: true
+  - name: Autograph FoilFractor
+    print_run: 1
+    serial_numbered: true
+  - name: Autograph Gold
+    print_run: 50
+    serial_numbered: true
+  - name: Autograph Green
+    print_run: 99
+    serial_numbered: true
+  - name: Autograph Orange
+    print_run: 25
+    serial_numbered: true
+  - name: Autograph Red
+    print_run: 5
+    serial_numbered: true
+  - name: Black
+    print_run: 10
+    serial_numbered: true
+  - name: Black Crackle Foil
+    print_run: 10
+    serial_numbered: true
+  - name: Blue
+    print_run: 150
+    serial_numbered: true
+  - name: Blue Crackle Foil
+    print_run: 150
+    serial_numbered: true
+  - name: Crackle Foil
+  - name: FoilFractor
+    print_run: 1
+    serial_numbered: true
+  - name: Gold
+    print_run: 50
+    serial_numbered: true
+  - name: Gold Crackle Foil
+    print_run: 50
+    serial_numbered: true
+  - name: Green
+    print_run: 99
+    serial_numbered: true
+  - name: Green Crackle Foil
+    print_run: 99
+    serial_numbered: true
+  - name: Koi Fish
+  - name: Koi Fish Black
+    print_run: 10
+    serial_numbered: true
+  - name: Koi Fish Gold
+    print_run: 50
+    serial_numbered: true
+  - name: Koi Fish Orange
+    print_run: 25
+    serial_numbered: true
+  - name: Koi Fish Red
+    print_run: 5
+    serial_numbered: true
+  - name: Orange
+    print_run: 25
+    serial_numbered: true
+  - name: "Orange Crackle\tFoil"
+    print_run: 25
+    serial_numbered: true
+  - name: Pink
+  - name: Pink Crackle Foil
+  - name: Red
+    print_run: 5
+    serial_numbered: true
+  - name: Red Crackle Foil
+    print_run: 5
+    serial_numbered: true
+  - name: Relics Black
+    print_run: 10
+    serial_numbered: true
+  - name: Relics Blue
+    print_run: 150
+    serial_numbered: true
+  - name: Relics Gold
+    print_run: 50
+    serial_numbered: true
+  - name: Relics Green
+    print_run: 99
+    serial_numbered: true
+  - name: Relics Orange
+    print_run: 25
+    serial_numbered: true
+  - name: Relics Platinum
+    print_run: 1
+    serial_numbered: true
+  - name: Relics Red
+    print_run: 5
+    serial_numbered: true
+- id: 1991-topps-baseball-all-star-autographs
+  name: 1991 Topps Baseball All-Star Autographs
+  uuid: '0518a403-f479-593a-91e8-1309bc1c872d'
+  type:
+  - autograph
+  declared_card_count: 71
+- id: 1991-topps-baseball-all-star-relics
+  name: 1991 Topps Baseball All-Star Relics
+  uuid: 1390a376-7e0f-530e-8619-8619b2a519c0
+  type:
+  - relic
+  declared_card_count: 50
+- id: 1991-topps-baseball-autographs
+  name: 1991 Topps Baseball Autographs
+  uuid: c87032ed-4290-5f23-82f0-98c6873ec0ec
+  type:
+  - autograph
+  declared_card_count: 90
+- id: 1991-topps-baseball-chrome
+  name: 1991 Topps Baseball Chrome
+  uuid: e1c5517f-46f8-5e4f-8a82-6f19c0ccc133
+  type:
+  - insert
+  declared_card_count: 50
+- id: 1991-topps-baseball-chrome-all-star-autographs
+  name: 1991 Topps Baseball Chrome All-Star Autographs
+  uuid: 2d069dcd-9110-593e-9fb9-4e7ac2b758b9
+  type:
+  - autograph
+  declared_card_count: 43
+- id: 1991-topps-baseball-chrome-all-stars
+  name: 1991 Topps Baseball Chrome All-Stars
+  uuid: a2317b62-6861-59cf-a534-89f1eeed7c57
+  type:
+  - insert
+  declared_card_count: 50
+- id: 1991-topps-baseball-chrome-autographs
+  name: 1991 Topps Baseball Chrome Autographs
+  uuid: 4a5896fb-0cf7-5750-b1a0-f707005c34af
+  type:
+  - autograph
+  declared_card_count: 44
+- id: 1991-topps-baseball-relics
+  name: 1991 Topps Baseball Relics
+  uuid: f104cc8a-f979-500c-b952-04b0264b029e
+  type:
+  - relic
+  declared_card_count: 50
+- id: 75-years-of-topps-die-cut-autographs
+  name: 75 Years Of Topps Die-Cut Autographs
+  uuid: eab0466f-85d7-5463-9add-2288ebe8f14f
+  type:
+  - autograph
+  declared_card_count: 11
+- id: all-aces
+  name: All Aces
+  uuid: afb40a92-5871-581c-a6bb-0252d60b3b86
+  type:
+  - insert
+  declared_card_count: 10
+  parallels:
+  - name: Gold
+    print_run: 1
+    serial_numbered: true
+- id: all-kings
+  name: All Kings
+  uuid: 91829fd2-c420-5007-9b80-0cb1f4e7f3a6
+  type:
+  - insert
+  declared_card_count: 15
+  parallels:
+  - name: Gold
+    print_run: 1
+    serial_numbered: true
+- id: baseball-stars-autographs
+  name: Baseball Stars Autographs
+  uuid: 0f7ee745-4fdc-5b5a-b09e-8428814b044e
+  type:
+  - autograph
+  declared_card_count: 92
+  parallels:
+  - name: Black
+    print_run: 10
+    serial_numbered: true
+  - name: Blue
+    print_run: 150
+    serial_numbered: true
+  - name: Gold
+    print_run: 50
+    serial_numbered: true
+  - name: Green
+    print_run: 99
+    serial_numbered: true
+  - name: Orange
+    print_run: 25
+    serial_numbered: true
+  - name: Platinum
+    print_run: 1
+    serial_numbered: true
+  - name: Red
+    print_run: 5
+    serial_numbered: true
+- id: bulk-order
+  name: Bulk Order
+  uuid: 96a733fb-f9e7-536d-989f-3ec08dff1038
+  type:
+  - insert
+  declared_card_count: 10
+- id: city-connect-swatch-collection
+  name: City Connect Swatch Collection
+  uuid: 0605a9b8-e1ff-5e93-92c7-c326d62e6db5
+  type:
+  - relic
+  declared_card_count: 50
+  parallels:
+  - name: Autograph Black
+    print_run: 10
+    serial_numbered: true
+  - name: Autograph Gold
+    print_run: 50
+    serial_numbered: true
+  - name: Autograph Orange
+    print_run: 25
+    serial_numbered: true
+  - name: Autograph Platinum
+    print_run: 1
+    serial_numbered: true
+  - name: Autograph Red
+    print_run: 5
+    serial_numbered: true
+  - name: Black
+    print_run: 10
+    serial_numbered: true
+  - name: Blue
+    print_run: 150
+    serial_numbered: true
+  - name: Gold
+    print_run: 50
+    serial_numbered: true
+  - name: Green
+    print_run: 99
+    serial_numbered: true
+  - name: Orange
+    print_run: 25
+    serial_numbered: true
+  - name: Platinum
+    print_run: 1
+    serial_numbered: true
+  - name: Red
+    print_run: 5
+    serial_numbered: true
+- id: city-connect-swatches-autographs
+  name: City Connect Swatches Autographs
+  uuid: 5d29e974-bdf8-5653-a73a-4d84a8fcd239
+  type:
+  - autograph
+  - relic
+  declared_card_count: 56
+- id: cover-athletes
+  name: Cover Athletes
+  uuid: 702c31f5-ad1d-50da-9436-13c4bf4036b7
+  type:
+  - insert
+  declared_card_count: 10
+  subsets:
+  - id: cover-athlete-autographs
+    name: Cover Athlete Autographs
+    uuid: 9252205a-fe5b-59d9-be4a-466505451ab9
+    type:
+    - autograph
+    declared_card_count: 9
+- id: crooked-numbers
+  name: Crooked Numbers
+  uuid: 17141300-6c74-5017-a999-0c665aaaf1b4
+  type:
+  - insert
+  declared_card_count: 25
+  parallels:
+  - name: Black Foil
+    print_run: 10
+    serial_numbered: true
+  - name: Blue Foil
+    print_run: 150
+    serial_numbered: true
+  - name: FoilFractor
+    print_run: 1
+    serial_numbered: true
+  - name: Gold Foil
+    print_run: 50
+    serial_numbered: true
+  - name: Green Foil
+    print_run: 99
+    serial_numbered: true
+  - name: Orange Foil
+    print_run: 25
+    serial_numbered: true
+  - name: Pink Foil
+  - name: Red Foil
+    print_run: 5
+    serial_numbered: true
+- id: diamond-dust
+  name: Diamond Dust
+  uuid: 9eaef907-47f4-545d-90c6-96a66eb64ce5
+  type:
+  - insert
+  declared_card_count: 10
+- id: fanatics-authentics-redemptions
+  name: Fanatics Authentics Redemptions
+  uuid: 3149ba59-3172-5687-b744-f0b1920d8bc0
+  type:
+  - insert
+  declared_card_count: 30
+- id: first-pitch
+  name: First Pitch
+  uuid: 45f35ad0-6266-5714-a571-58eaf23c5bb4
+  type:
+  - insert
+  declared_card_count: 6
+  subsets:
+  - id: first-pitch-autographs
+    name: First Pitch Autographs
+    uuid: a0b8aecc-9e10-56dd-b4b4-badd33460f61
+    type:
+    - autograph
+    declared_card_count: 6
+- id: flagship-real-one-autographs
+  name: Flagship Real One Autographs
+  uuid: da755b1b-9f9c-54e8-a449-bc33c7d17c38
+  type:
+  - autograph
+  declared_card_count: 66
+- id: funko-pops
+  name: Funko Pops
+  uuid: f10f6ab7-f92a-51b1-b26b-8e1c839869ed
+  type:
+  - insert
+  declared_card_count: 5
+- id: glove-work
+  name: Glove Work
+  uuid: '009231c5-58e4-55c0-9692-1e5f3e3bacbf'
+  type:
+  - insert
+  declared_card_count: 65
+  parallels:
+  - name: Black Foil
+    print_run: 10
+    serial_numbered: true
+  - name: Blue Foil
+    print_run: 150
+    serial_numbered: true
+  - name: FoilFractor
+    print_run: 1
+    serial_numbered: true
+  - name: Gold Foil
+    print_run: 50
+    serial_numbered: true
+  - name: Green Foil
+    print_run: 99
+    serial_numbered: true
+  - name: Orange Foil
+    print_run: 25
+    serial_numbered: true
+  - name: Pink Foil
+  - name: Red Foil
+    print_run: 5
+    serial_numbered: true
+- id: golden-mirror-legend-variations
+  name: Golden Mirror Legend Variations
+  uuid: f801de1e-3649-5ff4-99ef-205990b0e404
+  type:
+  - variation
+  declared_card_count: 50
+- id: heavy-lumber
+  name: Heavy Lumber
+  uuid: be181310-ee5d-5bd8-bbac-f80236fafa03
+  type:
+  - insert
+  declared_card_count: 25
+  parallels:
+  - name: Autograph Relics
+  subsets:
+  - id: heavy-lumber-autograph-relics
+    name: Heavy Lumber Autograph Relics
+    uuid: ba703893-3960-578a-aac5-9e0cb5696ce5
+    type:
+    - autograph
+    - relic
+    declared_card_count: 43
+- id: highlight-reels
+  name: Highlight Reels
+  uuid: 4075f8fc-4918-5986-b134-4c70cdef2e42
+  type:
+  - insert
+  declared_card_count: 10
+  subsets:
+  - id: highlight-reels-autographs
+    name: Highlight Reels Autographs
+    uuid: 4dbb15b8-c90d-596f-a275-8e46dce05a84
+    type:
+    - autograph
+    declared_card_count: 5
+- id: home-field
+  name: Home Field
+  uuid: 3b38dfbf-d15c-5b02-abdd-31d3cc6d81be
+  type:
+  - insert
+  declared_card_count: 20
+- id: home-field-fanfest
+  name: Home Field FanFest
+  uuid: acf9a0dc-2cae-5c4c-8892-c51ea8def96e
+  type:
+  - insert
+  declared_card_count: 1
+- id: iconic-topps-buyback-cards
+  name: Iconic Topps Buyback Cards
+  uuid: 6c9ce4a2-d1c7-54d4-b663-19e055648498
+  type:
+  - insert
+  declared_card_count: 19
+- id: in-the-name-relics
+  name: In The Name Relics
+  uuid: 101d2baf-9806-53ac-b2e2-a511f274df31
+  type:
+  - relic
+  declared_card_count: 91
+- id: major-league-material
+  name: Major League Material
+  uuid: 4f6629a6-2601-51cd-a9b0-c1354e585c6e
+  type:
+  - relic
+  declared_card_count: 98
+  parallels:
+  - name: Autograph Black
+    print_run: 10
+    serial_numbered: true
+  - name: Autograph Gold
+    print_run: 50
+    serial_numbered: true
+  - name: Autograph Orange
+    print_run: 25
+    serial_numbered: true
+  - name: Autograph Platinum
+    print_run: 1
+    serial_numbered: true
+  - name: Autograph Red
+    print_run: 5
+    serial_numbered: true
+  - name: Black
+    print_run: 10
+    serial_numbered: true
+  - name: Blue
+    print_run: 150
+    serial_numbered: true
+  - name: Dual Autograph
+  - name: Dual Autograph Black
+    print_run: 10
+    serial_numbered: true
+  - name: Dual Autograph Orange
+    print_run: 25
+    serial_numbered: true
+  - name: Dual Autograph Platinum
+    print_run: 1
+    serial_numbered: true
+  - name: Dual Autograph Red
+    print_run: 5
+    serial_numbered: true
+  - name: Gold
+    print_run: 50
+    serial_numbered: true
+  - name: Green
+    print_run: 99
+    serial_numbered: true
+  - name: Orange
+    print_run: 25
+    serial_numbered: true
+  - name: Platinum
+    print_run: 1
+    serial_numbered: true
+  - name: Red
+    print_run: 5
+    serial_numbered: true
+- id: major-league-materials-autographs
+  name: Major League Materials Autographs
+  uuid: 932147a7-5abf-56f6-906b-4088c4dc0b29
+  type:
+  - autograph
+  - relic
+  declared_card_count: 65
+- id: major-legaue-materials-dual-autographs
+  name: Major Legaue Materials Dual Autographs
+  uuid: dd02530b-6af3-53ec-bf48-6de3957f33ea
+  type:
+  - autograph
+  - relic
+  declared_card_count: 4
+- id: oversized-1991-topps-baseball
+  name: Oversized 1991 Topps Baseball
+  uuid: b8aa5dfa-eb1b-54ab-935c-2d5396be9771
+  type:
+  - insert
+  declared_card_count: 16
+- id: oversized-2026-topps-baseball
+  name: Oversized 2026 Topps Baseball
+  uuid: 0b05fc69-d03f-57f1-a05a-1cdadf7c9422
+  type:
+  - insert
+  declared_card_count: 16
+- id: postseason-performance-autographs
+  name: Postseason Performance Autographs
+  uuid: '00419d4f-9f52-5e7c-8675-22ab783af578'
+  type:
+  - autograph
+  declared_card_count: 33
+- id: real-one-relics
+  name: Real One Relics
+  uuid: 5a0644ad-ab45-5bf5-9b53-3a7584067821
+  type:
+  - relic
+  declared_card_count: 45
+  parallels:
+  - name: Black Foil
+    print_run: 10
+    serial_numbered: true
+  - name: FoilFractor
+    print_run: 1
+    serial_numbered: true
+  - name: Gold Foil
+    print_run: 50
+    serial_numbered: true
+  - name: Orange Foil
+    print_run: 25
+    serial_numbered: true
+  - name: Red Foil
+    print_run: 5
+    serial_numbered: true
+- id: rounding-the-bases-autographs
+  name: Rounding The Bases Autographs
+  uuid: c9ff9e7f-ce16-5fb2-a845-7d99e0d3a382
+  type:
+  - autograph
+  declared_card_count: 61
+- id: rounding-the-bases-relics
+  name: Rounding The Bases Relics
+  uuid: a4e70e61-1e9b-537d-bbd8-e62decbb56c9
+  type:
+  - relic
+  declared_card_count: 79
+- id: signature-tunes-dual-aurographs
+  name: Signature Tunes Dual Aurographs
+  uuid: d80a0790-bb78-51d2-b00d-2513a3ff87e4
+  type:
+  - autograph
+  declared_card_count: 2
+- id: stars-of-mlb
+  name: Stars Of MLB
+  uuid: 222b63a8-7161-5ee2-86f3-344670b922de
+  type:
+  - insert
+  declared_card_count: 30
+  parallels:
+  - name: "Black Crackle\tFoil"
+    print_run: 10
+    serial_numbered: true
+  - name: Black Foil
+    print_run: 10
+    serial_numbered: true
+  - name: Crackle Foil
+  - name: FoilFractor
+    print_run: 1
+    serial_numbered: true
+  - name: Gold Crackle Foil
+    print_run: 50
+    serial_numbered: true
+  - name: Gold Foil
+    print_run: 50
+    serial_numbered: true
+  - name: Green Foil
+    print_run: 99
+    serial_numbered: true
+  - name: Orange Crackle Foil
+    print_run: 25
+    serial_numbered: true
+  - name: Orange Foil
+    print_run: 25
+    serial_numbered: true
+  - name: Red Crackle Foil
+    print_run: 5
+    serial_numbered: true
+  - name: Red Foil
+    print_run: 5
+    serial_numbered: true
+- id: swinging-with-the-stars
+  name: Swinging With The Stars
+  uuid: 55bbb2fe-9746-5297-b62d-094ab60bbbfe
+  type:
+  - insert
+  declared_card_count: 25
+  parallels:
+  - name: Chrome
+  - name: Chrome Black Refractor
+    print_run: 10
+    serial_numbered: true
+  - name: Chrome Orange Refractor
+    print_run: 25
+    serial_numbered: true
+  - name: Chrome Red Refractor
+    print_run: 5
+    serial_numbered: true
+  - name: Chrome SuperFractor
+    print_run: 1
+    serial_numbered: true
+- id: the-flagship-collection
+  name: The Flagship Collection
+  uuid: 5578b5fa-159f-5dba-9b23-35c7c0597641
+  type:
+  - insert
+  declared_card_count: 90
+- id: the-flagship-collection-chrome
+  name: The Flagship Collection - Chrome
+  uuid: baee6950-7ef0-5b8b-8038-ac11373ce38d
+  type:
+  - insert
+  declared_card_count: 90
+  subsets:
+  - id: the-flagship-collection-chrome-autographs
+    name: The Flagship Collection - Chrome Autographs
+    uuid: b76e9c0c-d2db-52dd-ad64-5417a2920c9f
+    type:
+    - autograph
+    declared_card_count: 63
+- id: through-the-years-golden-mirror-rookie-cards
+  name: Through The Years Golden Mirror Rookie Cards
+  uuid: 06ee07b9-af97-54fa-8971-53ae36a6a06e
+  type:
+  - insert
+  declared_card_count: 5
+- id: titans-of-the-game
+  name: Titans Of The Game
+  uuid: 65d8467c-d4c9-5838-9f16-28b0f7dcaf45
+  type:
+  - insert
+  declared_card_count: 20
+  parallels:
+  - name: Black Crackle Foil
+    print_run: 10
+    serial_numbered: true
+  - name: Black Foil
+    print_run: 10
+    serial_numbered: true
+  - name: "Crackle\tFoil"
+  - name: FoilFractor
+    print_run: 1
+    serial_numbered: true
+  - name: Gold Crackle Foil
+    print_run: 50
+    serial_numbered: true
+  - name: Gold Foil
+    print_run: 50
+    serial_numbered: true
+  - name: Green Foil
+    print_run: 99
+    serial_numbered: true
+  - name: Orange Crackle Foil
+    print_run: 25
+    serial_numbered: true
+  - name: Orange Foil
+    print_run: 25
+    serial_numbered: true
+  - name: "Red Crackle\tFoil"
+    print_run: 5
+    serial_numbered: true
+  - name: Red Foil
+    print_run: 5
+    serial_numbered: true
+- id: topps-flagship-autograph-patches
+  name: Topps Flagship Autograph Patches
+  uuid: fed5dfc3-7389-5d66-a0f7-57d8d7449aa4
+  type:
+  - autograph
+  - relic
+  declared_card_count: 51
+- id: world-champion-autographs
+  name: World Champion Autographs
+  uuid: 745948b1-1b45-56e8-bb73-723541525e39
+  type:
+  - autograph
+  declared_card_count: 14

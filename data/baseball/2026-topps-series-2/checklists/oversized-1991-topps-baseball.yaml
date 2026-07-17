@@ -1,0 +1,160 @@
+- number: 91O-1
+  uuid: 49b1c423-aca7-4907-a031-ac7fa9370bf1
+  subjects:
+  - entities:
+    - role: player
+      name: Shohei Ohtani
+      ref: 
+    - role: team
+      name: Los Angeles Dodgers
+      ref: 
+- number: 91O-2
+  uuid: 157066f7-5624-4fe0-a44f-43477859a966
+  subjects:
+  - entities:
+    - role: player
+      name: Aaron Judge
+      ref: 
+    - role: team
+      name: New York Yankees
+      ref: 
+- number: 91O-3
+  uuid: b386909c-759e-4d99-a0c1-0ad1598e5b57
+  subjects:
+  - entities:
+    - role: player
+      name: Mike Trout
+      ref: 
+    - role: team
+      name: Los Angeles Angels
+      ref: 
+- number: 91O-4
+  uuid: 85edcc08-26bb-4194-b796-56108a3c9810
+  subjects:
+  - entities:
+    - role: player
+      name: Ken Griffey Jr.
+      ref: 
+    - role: team
+      name: Seattle Mariners
+      ref: 
+- number: 91O-5
+  uuid: 77307e4f-cd6b-450f-8714-194024beb1c4
+  subjects:
+  - entities:
+    - role: player
+      name: Ronald Acuña Jr.
+      ref: 
+    - role: team
+      name: Atlanta Braves
+      ref: 
+- number: 91O-6
+  uuid: dc1bc3dc-d7fa-4ab5-b48a-e8cdcea60a25
+  subjects:
+  - entities:
+    - role: player
+      name: Bobby Witt Jr.
+      ref: 
+    - role: team
+      name: Kansas City Royals
+      ref: 
+- number: 91O-7
+  uuid: 40d09c3b-747c-4c99-ac1d-05008dce8006
+  subjects:
+  - entities:
+    - role: player
+      name: Munetaka Murakami
+      ref: 
+    - role: team
+      name: Chicago White Sox
+      ref: 
+- number: 91O-8
+  uuid: 8d68e20d-8e9f-4f0e-9dcf-d7cc010abbcd
+  subjects:
+  - entities:
+    - role: player
+      name: Pete Crow-Armstrong
+      ref: 
+    - role: team
+      name: Chicago Cubs
+      ref: 
+- number: 91O-9
+  uuid: 71451320-3b8e-43a5-9b97-30c6eb9ea625
+  subjects:
+  - entities:
+    - role: player
+      name: Juan Soto
+      ref: 
+    - role: team
+      name: New York Mets
+      ref: 
+- number: 91O-10
+  uuid: 037a15fd-bd78-4277-9ca5-9c46ec49a06c
+  subjects:
+  - entities:
+    - role: player
+      name: Gunnar Henderson
+      ref: 
+    - role: team
+      name: Baltimore Orioles
+      ref: 
+- number: 91O-11
+  uuid: cdfee425-e1c1-4cf3-8e35-725b6482ed2d
+  subjects:
+  - entities:
+    - role: player
+      name: Elly De La Cruz
+      ref: 
+    - role: team
+      name: Cincinnati Reds
+      ref: 
+- number: 91O-12
+  uuid: d845caa4-5a6e-4496-91a7-7373cf47328b
+  subjects:
+  - entities:
+    - role: player
+      name: Fernando Tatis Jr.
+      ref: 
+    - role: team
+      name: San Diego Padres
+      ref: 
+- number: 91O-13
+  uuid: bc2543d1-7f6b-48ad-8c75-0f32a7d1ebb5
+  subjects:
+  - entities:
+    - role: player
+      name: Bryce Harper
+      ref: 
+    - role: team
+      name: Philadelphia Phillies
+      ref: 
+- number: 91O-14
+  uuid: 4e8b31ce-6823-41e0-badf-ed5fda5603cc
+  subjects:
+  - entities:
+    - role: player
+      name: Nick Kurtz
+      ref: 
+    - role: team
+      name: Athletics
+      ref: 
+- number: 91O-15
+  uuid: 5e5babf0-696a-4c22-a269-a4b7904e078b
+  subjects:
+  - entities:
+    - role: player
+      name: Jac Caglianone
+      ref: 
+    - role: team
+      name: Kansas City Royals
+      ref: 
+- number: 91O-16
+  uuid: e2bc0adb-9029-4a3d-a0f7-1e90b81779f3
+  subjects:
+  - entities:
+    - role: player
+      name: Roman Anthony
+      ref: 
+    - role: team
+      name: Boston Red Sox
+      ref: 

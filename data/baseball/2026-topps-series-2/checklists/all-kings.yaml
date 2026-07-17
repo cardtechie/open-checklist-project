@@ -1,0 +1,150 @@
+- number: AK-16
+  uuid: 1469e3e3-4524-4a64-a284-c2c5fc8738db
+  subjects:
+  - entities:
+    - role: player
+      name: Ryne Sandberg
+      ref: 
+    - role: team
+      name: Chicago Cubs
+      ref: 
+- number: AK-17
+  uuid: 14534487-cde4-4482-8fcf-672de2d304ad
+  subjects:
+  - entities:
+    - role: player
+      name: Derek Jeter
+      ref: 
+    - role: team
+      name: New York Yankees
+      ref: 
+- number: AK-18
+  uuid: d3c42081-7b3e-411e-8723-fd62ad4abfc9
+  subjects:
+  - entities:
+    - role: player
+      name: Jackie Robinson
+      ref: 
+    - role: team
+      name: Brooklyn Dodgers
+      ref: 
+- number: AK-19
+  uuid: d9aed058-5925-45a5-87e4-2a2f2975dea2
+  subjects:
+  - entities:
+    - role: player
+      name: Mickey Mantle
+      ref: 
+    - role: team
+      name: New York Yankees
+      ref: 
+- number: AK-20
+  uuid: 8bc971dd-6b79-471c-a7b7-aee23e41ee12
+  subjects:
+  - entities:
+    - role: player
+      name: Ken Griffey Jr.
+      ref: 
+    - role: team
+      name: Seattle Mariners
+      ref: 
+- number: AK-21
+  uuid: d8cba4ec-38ac-4408-b43e-085ed5111d5e
+  subjects:
+  - entities:
+    - role: player
+      name: Jackson Chourio
+      ref: 
+    - role: team
+      name: Milwaukee Brewers
+      ref: 
+- number: AK-22
+  uuid: 27d20a58-6eb4-4e11-8817-235a48e3aa45
+  subjects:
+  - entities:
+    - role: player
+      name: Juan Soto
+      ref: 
+    - role: team
+      name: New York Mets
+      ref: 
+- number: AK-23
+  uuid: b1b2a999-b9f7-4156-8cbf-15199bb3da79
+  subjects:
+  - entities:
+    - role: player
+      name: Cal Raleigh
+      ref: 
+    - role: team
+      name: Seattle Mariners
+      ref: 
+- number: AK-24
+  uuid: fd70b08e-61cd-444b-9d81-bacb909d0d6f
+  subjects:
+  - entities:
+    - role: player
+      name: Vladimir Guerrero Jr.
+      ref: 
+    - role: team
+      name: Toronto Blue Jays
+      ref: 
+- number: AK-25
+  uuid: c9064c1f-5d1f-4811-affb-ce79cf693529
+  subjects:
+  - entities:
+    - role: player
+      name: Nick Kurtz
+      ref: 
+    - role: team
+      name: Athletics
+      ref: 
+- number: AK-26
+  uuid: 8e52d2bc-22c0-43a4-92c3-951ed8a48918
+  subjects:
+  - entities:
+    - role: player
+      name: Bryce Eldridge
+      ref: 
+    - role: team
+      name: San Francisco Giants
+      ref: 
+- number: AK-27
+  uuid: fc73608a-f56f-4acb-af3f-b1ff2ae636a1
+  subjects:
+  - entities:
+    - role: player
+      name: Carson Williams
+      ref: 
+    - role: team
+      name: Tampa Bay Rays
+      ref: 
+- number: AK-28
+  uuid: 842dd8b2-fef2-4e40-b4d3-fc0f52c51499
+  subjects:
+  - entities:
+    - role: player
+      name: Samuel Basallo
+      ref: 
+    - role: team
+      name: Baltimore Orioles
+      ref: 
+- number: AK-29
+  uuid: 8b6b535b-6ba1-4c80-8cea-0dcc387387ac
+  subjects:
+  - entities:
+    - role: player
+      name: Munetaka Murakami
+      ref: 
+    - role: team
+      name: Chicago White Sox
+      ref: 
+- number: AK-30
+  uuid: c6d993c5-abf4-4633-80c4-344bb0e51794
+  subjects:
+  - entities:
+    - role: player
+      name: Roberto Clemente
+      ref: 
+    - role: team
+      name: Pittsburgh Pirates
+      ref: 

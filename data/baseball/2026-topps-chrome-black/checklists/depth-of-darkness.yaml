@@ -1,0 +1,200 @@
+- number: DOD-1
+  uuid: '069d24bd-948d-46a9-ba88-2ae97d950511'
+  subjects:
+  - entities:
+    - role: player
+      name: Jac Caglianone
+      ref: 
+    - role: team
+      name: Kansas City Royals
+      ref: 
+- number: DOD-2
+  uuid: 628a201d-f58c-4ffa-8631-679bb5112373
+  subjects:
+  - entities:
+    - role: player
+      name: Roman Anthony
+      ref: 
+    - role: team
+      name: Boston Red Sox
+      ref: 
+- number: DOD-3
+  uuid: 6bb0e823-0ba6-4036-b542-43b720c4d877
+  subjects:
+  - entities:
+    - role: player
+      name: Colson Montgomery
+      ref: 
+    - role: team
+      name: Chicago White Sox
+      ref: 
+- number: DOD-4
+  uuid: 4a543006-7ae2-4d28-9407-041f42494fb3
+  subjects:
+  - entities:
+    - role: player
+      name: Samuel Basallo
+      ref: 
+    - role: team
+      name: Baltimore Orioles
+      ref: 
+- number: DOD-5
+  uuid: 2dca9057-c4e6-4599-b258-6d39190c1c7a
+  subjects:
+  - entities:
+    - role: player
+      name: Bubba Chandler
+      ref: 
+    - role: team
+      name: Pittsburgh Pirates
+      ref: 
+- number: DOD-6
+  uuid: cb26b309-a77c-498e-9851-1b0ec712f3f3
+  subjects:
+  - entities:
+    - role: player
+      name: Bryce Eldridge
+      ref: 
+    - role: team
+      name: San Francisco Giants
+      ref: 
+- number: DOD-7
+  uuid: 34283145-5fa9-40a2-83f4-6504075d9055
+  subjects:
+  - entities:
+    - role: player
+      name: Carson Williams
+      ref: 
+    - role: team
+      name: Tampa Bay Rays
+      ref: 
+- number: DOD-8
+  uuid: d291262d-4a5a-4272-933d-83dc6e78191a
+  subjects:
+  - entities:
+    - role: player
+      name: Shohei Ohtani
+      ref: 
+    - role: team
+      name: Los Angeles Dodgers
+      ref: 
+- number: DOD-9
+  uuid: fee85f55-73f8-4829-bfe7-a9ff90eb67af
+  subjects:
+  - entities:
+    - role: player
+      name: Aaron Judge
+      ref: 
+    - role: team
+      name: New York Yankees
+      ref: 
+- number: DOD-10
+  uuid: 33bd7597-664e-496c-9498-2a0d06117c6d
+  subjects:
+  - entities:
+    - role: player
+      name: Bryce Harper
+      ref: 
+    - role: team
+      name: Philadelphia Phillies
+      ref: 
+- number: DOD-11
+  uuid: 25797dd6-ce5b-437a-8fdf-d086f7fbd966
+  subjects:
+  - entities:
+    - role: player
+      name: Juan Soto
+      ref: 
+    - role: team
+      name: New York Mets
+      ref: 
+- number: DOD-12
+  uuid: 73c35887-4d78-48db-99e9-819af8df32b3
+  subjects:
+  - entities:
+    - role: player
+      name: Pete Crow-Armstrong
+      ref: 
+    - role: team
+      name: Chicago Cubs
+      ref: 
+- number: DOD-13
+  uuid: 63b8f271-14a8-4b7a-af4e-78c8c17e4a1f
+  subjects:
+  - entities:
+    - role: player
+      name: Paul Skenes
+      ref: 
+    - role: team
+      name: Pittsburgh Pirates
+      ref: 
+- number: DOD-14
+  uuid: 242bf08c-fb94-4109-9b66-a51d5e145642
+  subjects:
+  - entities:
+    - role: player
+      name: Mike Trout
+      ref: 
+    - role: team
+      name: Los Angeles Angels
+      ref: 
+- number: DOD-15
+  uuid: 57d06939-e533-4c76-b262-43a4eca0bd68
+  subjects:
+  - entities:
+    - role: player
+      name: Elly De La Cruz
+      ref: 
+    - role: team
+      name: Cincinnati Reds
+      ref: 
+- number: DOD-16
+  uuid: f7d06133-3254-4c11-a163-a9b9323dc36e
+  subjects:
+  - entities:
+    - role: player
+      name: Cal Raleigh
+      ref: 
+    - role: team
+      name: Seattle Mariners
+      ref: 
+- number: DOD-17
+  uuid: 53e82e82-f7c0-4c56-a681-7469741a9c91
+  subjects:
+  - entities:
+    - role: player
+      name: Bobby Witt Jr.
+      ref: 
+    - role: team
+      name: Kansas City Royals
+      ref: 
+- number: DOD-18
+  uuid: aaf531b7-a03b-4614-adc4-051ca65bdb38
+  subjects:
+  - entities:
+    - role: player
+      name: Francisco Lindor
+      ref: 
+    - role: team
+      name: New York Mets
+      ref: 
+- number: DOD-19
+  uuid: a1984862-868d-4d81-8e07-3baf35b962b4
+  subjects:
+  - entities:
+    - role: player
+      name: Ronald Acuña Jr.
+      ref: 
+    - role: team
+      name: Atlanta Braves
+      ref: 
+- number: DOD-20
+  uuid: f19dbe0b-aa02-4d88-9d26-0fe637b0bb8b
+  subjects:
+  - entities:
+    - role: player
+      name: Fernando Tatis Jr.
+      ref: 
+    - role: team
+      name: San Diego Padres
+      ref: 

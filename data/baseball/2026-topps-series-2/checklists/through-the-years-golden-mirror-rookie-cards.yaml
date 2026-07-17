@@ -1,0 +1,50 @@
+- number: '98'
+  uuid: a933d508-a8d8-4ffa-bda3-eb2199dbc565
+  subjects:
+  - entities:
+    - role: player
+      name: Derek Jeter
+      ref: 
+    - role: team
+      name: New York Yankees
+      ref: 
+- number: '164'
+  uuid: e56522bd-7d15-4e52-8fb8-9f91f60b9e89
+  subjects:
+  - entities:
+    - role: player
+      name: Roberto Clemente
+      ref: 
+    - role: team
+      name: Pittsburgh Pirates
+      ref: 
+- number: '312'
+  uuid: 2f7106fa-d5cf-4460-8fe2-82520062fb0e
+  subjects:
+  - entities:
+    - role: player
+      name: Jackie Robinson
+      ref: 
+    - role: team
+      name: Brooklyn Dodgers
+      ref: 
+- number: '482'
+  uuid: c5eab479-d71c-40cd-80a7-e21d8747bcb9
+  subjects:
+  - entities:
+    - role: player
+      name: Rickey Henderson
+      ref: 
+    - role: team
+      name: Oakland Athletics
+      ref: 
+- number: US175
+  uuid: 4af2720b-505a-4785-988a-6e8bfcb5465f
+  subjects:
+  - entities:
+    - role: player
+      name: Mike Trout
+      ref: 
+    - role: team
+      name: Los Angeles Angels
+      ref: 

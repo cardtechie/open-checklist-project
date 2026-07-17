@@ -1,0 +1,170 @@
+- number: '1'
+  uuid: 6ca0eaa4-501c-4f73-a272-b8144fbcfdf3
+  subjects:
+  - entities:
+    - role: player
+      name: Konnor Griffin
+      ref: 
+    - role: team
+      name: Pittsburgh Pirates
+      ref: 
+  - entities:
+    - role: player
+      name: Paul Skenes
+      ref: 
+    - role: team
+      name: Pittsburgh Pirates
+      ref: 
+- number: '2'
+  uuid: 54eff54c-53d7-4b81-8e68-d50fd8913e39
+  subjects:
+  - entities:
+    - role: player
+      name: Bo Jackson
+      ref: 
+    - role: team
+      name: Kansas City Royals
+      ref: 
+  - entities:
+    - role: player
+      name: Bobby Witt Jr.
+      ref: 
+    - role: team
+      name: Kansas City Royals
+      ref: 
+- number: '3'
+  uuid: 8d354fd2-44ab-42d8-85c6-947981e08ae6
+  subjects:
+  - entities:
+    - role: player
+      name: Marcelo Mayer
+      ref: 
+    - role: team
+      name: Boston Red Sox
+      ref: 
+  - entities:
+    - role: player
+      name: Roman Anthony
+      ref: 
+    - role: team
+      name: Boston Red Sox
+      ref: 
+- number: '4'
+  uuid: ef5434fb-6eef-465b-8c16-ffa4d4c15d93
+  subjects:
+  - entities:
+    - role: player
+      name: Jacob Wilson
+      ref: 
+    - role: team
+      name: Oakland A's
+      ref: 
+  - entities:
+    - role: player
+      name: Nick Kurtz
+      ref: 
+    - role: team
+      name: Oakland A's
+      ref: 
+- number: '5'
+  uuid: 9e553f2a-311e-4a98-adec-617ad357a058
+  subjects:
+  - entities:
+    - role: player
+      name: Alex Rodriguez
+      ref: 
+    - role: team
+      name: Seattle Mariners
+      ref: 
+  - entities:
+    - role: player
+      name: Ken Griffey Jr.
+      ref: 
+    - role: team
+      name: Seattle Mariners
+      ref: 
+- number: '6'
+  uuid: 57882d57-3709-4dcd-b4fa-3973db112bbd
+  subjects:
+  - entities:
+    - role: player
+      name: Dylan Crews
+      ref: 
+    - role: team
+      name: Washington Nationals
+      ref: 
+  - entities:
+    - role: player
+      name: James Wood
+      ref: 
+    - role: team
+      name: Washington Nationals
+      ref: 
+- number: '7'
+  uuid: 45308015-59f6-4202-9f39-c62c24a56e26
+  subjects:
+  - entities:
+    - role: player
+      name: Aaron Judge
+      ref: 
+    - role: team
+      name: New York Yankees
+      ref: 
+  - entities:
+    - role: player
+      name: Joe DiMaggio
+      ref: 
+    - role: team
+      name: New York Yankees
+      ref: 
+- number: '8'
+  uuid: 6b801304-4470-4ee5-8f4c-ebe5e62f0f24
+  subjects:
+  - entities:
+    - role: player
+      name: David Ortiz
+      ref: 
+    - role: team
+      name: Boston Red Sox
+      ref: 
+  - entities:
+    - role: player
+      name: Pedro Martinez
+      ref: 
+    - role: team
+      name: Boston Red Sox
+      ref: 
+- number: '9'
+  uuid: 9bb9b8e0-4317-41c6-9dff-c275c8ca42e7
+  subjects:
+  - entities:
+    - role: player
+      name: Barry Larkin
+      ref: 
+    - role: team
+      name: Cincinnati Reds
+      ref: 
+  - entities:
+    - role: player
+      name: Deion Sanders
+      ref: 
+    - role: team
+      name: Cincinnati Reds
+      ref: 
+- number: '10'
+  uuid: b75262fe-494a-4a36-9637-5c47a4c21c52
+  subjects:
+  - entities:
+    - role: player
+      name: Nolan Ryan
+      ref: 
+    - role: team
+      name: New York Mets
+      ref: 
+  - entities:
+    - role: player
+      name: Tom Seaver
+      ref: 
+    - role: team
+      name: New York Mets
+      ref: 

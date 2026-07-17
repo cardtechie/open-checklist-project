@@ -1,0 +1,200 @@
+- number: HA-21
+  uuid: '09fcf958-9b6d-4fa9-b8fd-ff2ddae771cb'
+  subjects:
+  - entities:
+    - role: player
+      name: Cam Schlittler
+      ref: 
+    - role: team
+      name: New York Yankees
+      ref: 
+- number: HA-22
+  uuid: d46aca27-1e29-4752-b6da-4cae5de72350
+  subjects:
+  - entities:
+    - role: player
+      name: Elly De La Cruz
+      ref: 
+    - role: team
+      name: Cincinnati Reds
+      ref: 
+- number: HA-23
+  uuid: b40f2148-9bb2-44f5-9c60-372874ae9627
+  subjects:
+  - entities:
+    - role: player
+      name: Mark McGwire
+      ref: 
+    - role: team
+      name: St. Louis Cardinals
+      ref: 
+- number: HA-24
+  uuid: 8857e33b-de6f-4c18-816c-e37bdc67e5aa
+  subjects:
+  - entities:
+    - role: player
+      name: Juan Soto
+      ref: 
+    - role: team
+      name: New York Mets
+      ref: 
+- number: HA-25
+  uuid: b52037b8-0501-42cf-a825-8b25d1e0184b
+  subjects:
+  - entities:
+    - role: player
+      name: Vladimir Guerrero Jr.
+      ref: 
+    - role: team
+      name: Toronto Blue Jays
+      ref: 
+- number: HA-26
+  uuid: e743f2fd-8aa8-4f0c-9357-33b558629b02
+  subjects:
+  - entities:
+    - role: player
+      name: Vladimir Guerrero
+      ref: 
+    - role: team
+      name: Montréal Expos
+      ref: 
+- number: HA-27
+  uuid: 149ba38c-8684-4e6c-9a39-99ac34af424b
+  subjects:
+  - entities:
+    - role: player
+      name: Paul Skenes
+      ref: 
+    - role: team
+      name: Pittsburgh Pirates
+      ref: 
+- number: HA-28
+  uuid: 1137a246-3332-4f64-a49b-fde184e761c0
+  subjects:
+  - entities:
+    - role: player
+      name: Bryce Eldridge
+      ref: 
+    - role: team
+      name: San Francisco Giants
+      ref: 
+- number: HA-29
+  uuid: 181dc341-7392-4262-8288-aa9c04190df3
+  subjects:
+  - entities:
+    - role: player
+      name: Barry Larkin
+      ref: 
+    - role: team
+      name: Cincinnati Reds
+      ref: 
+- number: HA-30
+  uuid: a864598f-2541-428c-a80b-6e8855172b00
+  subjects:
+  - entities:
+    - role: player
+      name: Sammy Sosa
+      ref: 
+    - role: team
+      name: Chicago Cubs
+      ref: 
+- number: HA-31
+  uuid: 39647780-b345-423a-a1c6-14d35f9a0974
+  subjects:
+  - entities:
+    - role: player
+      name: Cole Young
+      ref: 
+    - role: team
+      name: Seattle Mariners
+      ref: 
+- number: HA-32
+  uuid: 60b58a7e-25ae-4ee8-8b3d-2a6982f4798c
+  subjects:
+  - entities:
+    - role: player
+      name: Carson Williams
+      ref: 
+    - role: team
+      name: Tampa Bay Rays
+      ref: 
+- number: HA-33
+  uuid: 80538370-a523-4c22-87ff-24e74ed421fd
+  subjects:
+  - entities:
+    - role: player
+      name: Cal Raleigh
+      ref: 
+    - role: team
+      name: Seattle Mariners
+      ref: 
+- number: HA-34
+  uuid: eb425127-2bf2-478d-8472-65ccf7b3c1fc
+  subjects:
+  - entities:
+    - role: player
+      name: Trey Yesavage
+      ref: 
+    - role: team
+      name: Toronto Blue Jays
+      ref: 
+- number: HA-35
+  uuid: 6aa41316-7bf2-46a9-bb37-d7bfdde2c9c4
+  subjects:
+  - entities:
+    - role: player
+      name: Chase DeLauter
+      ref: 
+    - role: team
+      name: Cleveland Guardians
+      ref: 
+- number: HA-36
+  uuid: 04ba486b-6a81-4eca-9e74-7e98af43ed3c
+  subjects:
+  - entities:
+    - role: player
+      name: Carl Yastrzemski
+      ref: 
+    - role: team
+      name: Boston Red Sox
+      ref: 
+- number: HA-37
+  uuid: a900d5c0-6e02-4de4-96cb-ecd432e97e47
+  subjects:
+  - entities:
+    - role: player
+      name: Nick Kurtz
+      ref: 
+    - role: team
+      name: Athletics
+      ref: 
+- number: HA-38
+  uuid: f464809f-9b3a-439d-b386-e1da59222e8f
+  subjects:
+  - entities:
+    - role: player
+      name: Alex Freeland
+      ref: 
+    - role: team
+      name: Los Angeles Dodgers
+      ref: 
+- number: HA-39
+  uuid: e94ce0e7-7095-45af-b7cf-0b0ab0b39aca
+  subjects:
+  - entities:
+    - role: player
+      name: Munetaka Murakami
+      ref: 
+    - role: team
+      name: Chicago White Sox
+      ref: 
+- number: HA-40
+  uuid: a3e7bb6c-2816-4e2a-86ae-e44ce4fbd0ef
+  subjects:
+  - entities:
+    - role: player
+      name: Mike Trout
+      ref: 
+    - role: team
+      name: Los Angeles Angels
+      ref: 

@@ -1,0 +1,272 @@
+- number: DPPA-BB
+  uuid: 02f7856b-c3a1-4908-85e3-2e5b65eba066
+  subjects:
+  - entities:
+    - role: player
+      name: Byron Buxton
+      ref: 
+    - role: team
+      name: Minnesota Twins
+      ref: 
+  - entities:
+    - role: player
+      name: Kris Bryant
+      ref: 
+    - role: team
+      name: Chicago Cubs
+      ref: 
+- number: DPPA-BBR
+  uuid: cca1978e-cb07-4fe0-8f5b-176404243944
+  subjects:
+  - entities:
+    - role: player
+      name: Chase Burns
+      ref: 
+    - role: team
+      name: Cincinnati Reds
+      ref: 
+  - entities:
+    - role: player
+      name: Tyler Bremner
+      ref: 
+    - role: team
+      name: Los Angeles Angels
+      ref: 
+- number: DPPA-BC
+  uuid: a68c3cfc-0a18-48da-ae7d-8c27ed023243
+  subjects:
+  - entities:
+    - role: player
+      name: Dylan Crews
+      ref: 
+    - role: team
+      name: Washington Nationals
+      ref: 
+  - entities:
+    - role: player
+      name: Alex Bregman
+      ref: 
+    - role: team
+      name: Houston Astros
+      ref: 
+- number: DPPA-BW
+  uuid: c1e59726-2db7-4769-b897-6012511beee9
+  subjects:
+  - entities:
+    - role: player
+      name: Alex Bregman
+      ref: 
+    - role: team
+      name: Houston Astros
+      ref: 
+  - entities:
+    - role: player
+      name: Bobby Witt Jr.
+      ref: 
+    - role: team
+      name: Kansas City Royals
+      ref: 
+- number: DPPA-BWI
+  uuid: 2a005e64-c7b4-4955-a3c8-0e2ad51a78bb
+  subjects:
+  - entities:
+    - role: player
+      name: Travis Bazzana
+      ref: 
+    - role: team
+      name: Cleveland Guardians
+      ref: 
+  - entities:
+    - role: player
+      name: Eli Willits
+      ref: 
+    - role: team
+      name: Washington Nationals
+      ref: 
+- number: DPPA-CA
+  uuid: 45e20b14-da5f-40ce-9051-9f05bd69cc56
+  subjects:
+  - entities:
+    - role: player
+      name: Kade Anderson
+      ref: 
+    - role: team
+      name: Seattle Mariners
+      ref: 
+  - entities:
+    - role: player
+      name: Charlie Condon
+      ref: 
+    - role: team
+      name: Colorado Rockies
+      ref: 
+- number: DPPA-GR
+  uuid: a7c9ae0d-c790-47c1-bb46-b7006bcb50db
+  subjects:
+  - entities:
+    - role: player
+      name: Alex Rodriguez
+      ref: 
+    - role: team
+      name: Seattle Mariners
+      ref: 
+  - entities:
+    - role: player
+      name: Ken Griffey Jr.
+      ref: 
+    - role: team
+      name: Seattle Mariners
+      ref: 
+- number: DPPA-JC
+  uuid: d93c5c2c-7931-47f6-b70f-0fca746dcc19
+  subjects:
+  - entities:
+    - role: player
+      name: Jackson Jobe
+      ref: 
+    - role: team
+      name: Detroit Tigers
+      ref: 
+  - entities:
+    - role: player
+      name: Max Clark
+      ref: 
+    - role: team
+      name: Detroit Tigers
+      ref: 
+- number: DPPA-LK
+  uuid: 2e023ba3-65f0-4d54-b99a-1f23e2042a91
+  subjects:
+  - entities:
+    - role: player
+      name: Wyatt Langford
+      ref: 
+    - role: team
+      name: Texas Rangers
+      ref: 
+  - entities:
+    - role: player
+      name: Nick Kurtz
+      ref: 
+    - role: team
+      name: Athletics
+      ref: 
+- number: DPPA-LM
+  uuid: dd691a42-5b4c-4fca-a5db-3823e219643b
+  subjects:
+  - entities:
+    - role: player
+      name: Evan Longoria
+      ref: 
+    - role: team
+      name: Tampa Bay Rays
+      ref: 
+  - entities:
+    - role: player
+      name: Manny Machado
+      ref: 
+    - role: team
+      name: Baltimore Orioles
+      ref: 
+- number: DPPA-MS
+  uuid: aee34b1d-3626-4a8b-aba4-c9cb5e3e66d4
+  subjects:
+  - entities:
+    - role: player
+      name: Max Scherzer
+      ref: 
+    - role: team
+      name: Arizona Diamondbacks
+      ref: 
+  - entities:
+    - role: player
+      name: Andrew McCutchen
+      ref: 
+    - role: team
+      name: Pittsburgh Pirates
+      ref: 
+- number: DPPA-RH
+  uuid: 549fcc7c-8524-4e22-bc61-2f3e9aade500
+  subjects:
+  - entities:
+    - role: player
+      name: Adley Rutschman
+      ref: 
+    - role: team
+      name: Baltimore Orioles
+      ref: 
+  - entities:
+    - role: player
+      name: Jackson Holliday
+      ref: 
+    - role: team
+      name: Baltimore Orioles
+      ref: 
+- number: DPPA-SD
+  uuid: aee81b24-4441-4f60-a3f6-d60bf1c00428
+  subjects:
+  - entities:
+    - role: player
+      name: Hagen Smith
+      ref: 
+    - role: team
+      name: Chicago White Sox
+      ref: 
+  - entities:
+    - role: player
+      name: Liam Doyle
+      ref: 
+    - role: team
+      name: St. Louis Cardinals
+      ref: 
+- number: DPPA-SS
+  uuid: 863b4af0-3668-43e6-994b-193fa8d0b39f
+  subjects:
+  - entities:
+    - role: player
+      name: Stephen Strasburg
+      ref: 
+    - role: team
+      name: Washington Nationals
+      ref: 
+  - entities:
+    - role: player
+      name: Paul Skenes
+      ref: 
+    - role: team
+      name: Pittsburgh Pirates
+      ref: 
+- number: DPPA-WC
+  uuid: c9ff8790-b558-4f4a-a1d8-0c1dff8eaed6
+  subjects:
+  - entities:
+    - role: player
+      name: Jac Caglianone
+      ref: 
+    - role: team
+      name: Kansas City Royals
+      ref: 
+  - entities:
+    - role: player
+      name: Jacob Wilson
+      ref: 
+    - role: team
+      name: Athletics
+      ref: 
+- number: DPPA-WL
+  uuid: e4a81101-7d08-4c96-821c-efab0e1c998d
+  subjects:
+  - entities:
+    - role: player
+      name: Dave Winfield
+      ref: 
+    - role: team
+      name: San Diego Padres
+      ref: 
+  - entities:
+    - role: player
+      name: Barry Larkin
+      ref: 
+    - role: team
+      name: Cincinnati Reds
+      ref: 

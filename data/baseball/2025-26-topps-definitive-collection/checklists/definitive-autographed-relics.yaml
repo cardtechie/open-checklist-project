@@ -1,0 +1,860 @@
+- number: DAR-AB
+  uuid: 4f712718-435e-4241-b82c-85dd7b0a4097
+  subjects:
+  - entities:
+    - role: player
+      name: Adrian Beltré
+      ref: 
+    - role: team
+      name: Texas Rangers
+      ref: 
+- number: DAR-AD
+  uuid: a100f54f-bd68-4621-be76-c57420e59708
+  subjects:
+  - entities:
+    - role: player
+      name: Andre Dawson
+      ref: 
+    - role: team
+      name: Chicago Cubs
+      ref: 
+- number: DAR-AJ
+  uuid: 3f1eab12-daa1-4cde-9594-fe470dcfc2d0
+  subjects:
+  - entities:
+    - role: player
+      name: Andruw Jones
+      ref: 
+    - role: team
+      name: Atlanta Braves
+      ref: 
+- number: DAR-AJU
+  uuid: b21225fe-3c47-4d49-a06d-a9b4af9a8041
+  subjects:
+  - entities:
+    - role: player
+      name: Aaron Judge
+      ref: 
+    - role: team
+      name: New York Yankees
+      ref: 
+- number: DAR-AM
+  uuid: 9a32b7eb-2f92-46de-8faa-c9627ff5d449
+  subjects:
+  - entities:
+    - role: player
+      name: Andrew McCutchen
+      ref: 
+    - role: team
+      name: Pittsburgh Pirates
+      ref: 
+- number: DAR-AP
+  uuid: 1f5722c7-9450-4dcf-bb07-a61d6a5a5c3e
+  subjects:
+  - entities:
+    - role: player
+      name: Andy Pettitte
+      ref: 
+    - role: team
+      name: New York Yankees
+      ref: 
+- number: DAR-APU
+  uuid: 52b56d1a-376f-40f2-9321-252e85a33121
+  subjects:
+  - entities:
+    - role: player
+      name: Albert Pujols
+      ref: 
+    - role: team
+      name: Los Angeles Angels
+      ref: 
+- number: DAR-AR
+  uuid: 0a0582c0-8fde-432c-a1f6-f3a72fc8782d
+  subjects:
+  - entities:
+    - role: player
+      name: Austin Riley
+      ref: 
+    - role: team
+      name: Atlanta Braves
+      ref: 
+- number: DAR-AROD
+  uuid: ae43e36a-98bd-4bed-8cad-2c6fb5585396
+  subjects:
+  - entities:
+    - role: player
+      name: Alex Rodriguez
+      ref: 
+    - role: team
+      name: Seattle Mariners
+      ref: 
+- number: DAR-ARU
+  uuid: b1c20ea7-95ad-4951-b39b-234aef9cd8b0
+  subjects:
+  - entities:
+    - role: player
+      name: Adley Rutschman
+      ref: 
+    - role: team
+      name: Baltimore Orioles
+      ref: 
+- number: DAR-BB
+  uuid: d53cd147-1837-4a8f-9bfc-854f839b04db
+  subjects:
+  - entities:
+    - role: player
+      name: Barry Bonds
+      ref: 
+    - role: team
+      name: San Francisco Giants
+      ref: 
+- number: DAR-BBY
+  uuid: d3cd0a02-8553-4452-8439-641579c7451e
+  subjects:
+  - entities:
+    - role: player
+      name: Bert Blyleven
+      ref: 
+    - role: team
+      name: California Angels
+      ref: 
+- number: DAR-BH
+  uuid: b7f5c817-47f7-48c5-9ee3-a25d1f9b4960
+  subjects:
+  - entities:
+    - role: player
+      name: Bryce Harper
+      ref: 
+    - role: team
+      name: Philadelphia Phillies
+      ref: 
+- number: DAR-BIG
+  uuid: a5db0636-98c3-4424-8185-ee3784bc1644
+  subjects:
+  - entities:
+    - role: player
+      name: Craig Biggio
+      ref: 
+    - role: team
+      name: Houston Astros
+      ref: 
+- number: DAR-BJ
+  uuid: 79474276-5276-4c4c-9fce-b7b9bb0dc014
+  subjects:
+  - entities:
+    - role: player
+      name: Bo Jackson
+      ref: 
+    - role: team
+      name: Chicago White Sox
+      ref: 
+- number: DAR-BL
+  uuid: 380599fa-1296-4d09-9526-2cf5fbbc3623
+  subjects:
+  - entities:
+    - role: player
+      name: Barry Larkin
+      ref: 
+    - role: team
+      name: Cincinnati Reds
+      ref: 
+- number: DAR-BW
+  uuid: 39daaf39-b16d-437b-a60c-a1258b361952
+  subjects:
+  - entities:
+    - role: player
+      name: Bernie Williams
+      ref: 
+    - role: team
+      name: New York Yankees
+      ref: 
+- number: DAR-CB
+  uuid: 1f6d9c88-3fc3-4ccc-9e64-8051c3ac2e99
+  subjects:
+  - entities:
+    - role: player
+      name: Carlos Beltrán
+      ref: 
+    - role: team
+      name: New York Mets
+      ref: 
+- number: DAR-CC
+  uuid: ed3a09ff-2742-4e8e-a728-bb787c431cb1
+  subjects:
+  - entities:
+    - role: player
+      name: CC Sabathia
+      ref: 
+    - role: team
+      name: New York Yankees
+      ref: 
+- number: DAR-CJ
+  uuid: ea01e146-96e5-4ada-b56e-eba0bd6fe464
+  subjects:
+  - entities:
+    - role: player
+      name: Chipper Jones
+      ref: 
+    - role: team
+      name: Atlanta Braves
+      ref: 
+- number: DAR-CR
+  uuid: 9e93cc60-c515-43a0-876e-5c64a8a0785d
+  subjects:
+  - entities:
+    - role: player
+      name: Cal Ripken Jr.
+      ref: 
+    - role: team
+      name: Baltimore Orioles
+      ref: 
+- number: DAR-CS
+  uuid: 73c64e2a-e8a3-4ff8-acf8-cecac9d338a0
+  subjects:
+  - entities:
+    - role: player
+      name: Corey Seager
+      ref: 
+    - role: team
+      name: Texas Rangers
+      ref: 
+- number: DAR-CU
+  uuid: 5022867c-a1bb-418e-8b0f-878ed5c36669
+  subjects:
+  - entities:
+    - role: player
+      name: Chase Utley
+      ref: 
+    - role: team
+      name: Philadelphia Phillies
+      ref: 
+- number: DAR-DG
+  uuid: 3f5203f7-4462-4eae-a3be-c4f72060b487
+  subjects:
+  - entities:
+    - role: player
+      name: Dwight Gooden
+      ref: 
+    - role: team
+      name: New York Yankees
+      ref: 
+- number: DAR-DJ
+  uuid: dd7049c8-87cc-4fc2-9e12-8d677bc00fa8
+  subjects:
+  - entities:
+    - role: player
+      name: Derek Jeter
+      ref: 
+    - role: team
+      name: New York Yankees
+      ref: 
+- number: DAR-DO
+  uuid: 4f8b833f-35c4-40f1-91f6-db1785eac3f3
+  subjects:
+  - entities:
+    - role: player
+      name: David Ortiz
+      ref: 
+    - role: team
+      name: Boston Red Sox
+      ref: 
+- number: DAR-DS
+  uuid: ba853dbd-5f0b-45ec-af8a-8c18f304bc52
+  subjects:
+  - entities:
+    - role: player
+      name: Darryl Strawberry
+      ref: 
+    - role: team
+      name: New York Mets
+      ref: 
+- number: DAR-DW
+  uuid: e548a0e9-31c1-44e1-8125-2a04c3806adc
+  subjects:
+  - entities:
+    - role: player
+      name: Dave Winfield
+      ref: 
+    - role: team
+      name: Minnesota Twins
+      ref: 
+- number: DAR-DWR
+  uuid: 95435046-9c39-4acd-99f5-2483a1538961
+  subjects:
+  - entities:
+    - role: player
+      name: David Wright
+      ref: 
+    - role: team
+      name: New York Mets
+      ref: 
+- number: DAR-EM
+  uuid: 3310fd82-e36e-463e-b295-341ee7eb7222
+  subjects:
+  - entities:
+    - role: player
+      name: Edgar Martinez
+      ref: 
+    - role: team
+      name: Seattle Mariners
+      ref: 
+- number: DAR-FF
+  uuid: 81ba08d6-e60b-4540-9210-d31be022e554
+  subjects:
+  - entities:
+    - role: player
+      name: Freddie Freeman
+      ref: 
+    - role: team
+      name: Los Angeles Dodgers
+      ref: 
+- number: DAR-FH
+  uuid: bfc8baf5-179f-4817-835e-a376eab82e35
+  subjects:
+  - entities:
+    - role: player
+      name: Félix Hernández
+      ref: 
+    - role: team
+      name: Seattle Mariners
+      ref: 
+- number: DAR-FL
+  uuid: 8a420907-e66b-41b6-a94e-0ff540818028
+  subjects:
+  - entities:
+    - role: player
+      name: Francisco Lindor
+      ref: 
+    - role: team
+      name: New York Mets
+      ref: 
+- number: DAR-FM
+  uuid: 53bb178f-8452-4be0-b0ed-b1f59b337155
+  subjects:
+  - entities:
+    - role: player
+      name: Fred McGriff
+      ref: 
+    - role: team
+      name: Tampa Bay Devil Rays
+      ref: 
+- number: DAR-FTJ
+  uuid: 38bb0c53-0ada-4185-88ea-92e1c09ccf77
+  subjects:
+  - entities:
+    - role: player
+      name: Fernando Tatis Jr.
+      ref: 
+    - role: team
+      name: San Diego Padres
+      ref: 
+- number: DAR-GH
+  uuid: 81f8d4da-b7be-4851-8bb2-bbc8f6bb8a7e
+  subjects:
+  - entities:
+    - role: player
+      name: Gunnar Henderson
+      ref: 
+    - role: team
+      name: Baltimore Orioles
+      ref: 
+- number: DAR-GS
+  uuid: 198b64da-8488-4148-89ef-b5bba820d644
+  subjects:
+  - entities:
+    - role: player
+      name: Gary Sheffield
+      ref: 
+    - role: team
+      name: Los Angeles Dodgers
+      ref: 
+- number: DAR-HM
+  uuid: 9c01f927-30e9-4089-baae-6c1a7b351711
+  subjects:
+  - entities:
+    - role: player
+      name: Hideki Matsui
+      ref: 
+    - role: team
+      name: New York Yankees
+      ref: 
+- number: DAR-HR
+  uuid: e63ac171-37ed-46c5-acdb-680ea9120243
+  subjects:
+  - entities:
+    - role: player
+      name: Hanley Ramirez
+      ref: 
+    - role: team
+      name: Florida Marlins
+      ref: 
+- number: DAR-I
+  uuid: 4f1451dc-d722-4f9d-9764-72934c9ecd26
+  subjects:
+  - entities:
+    - role: player
+      name: Ichiro
+      ref: 
+    - role: team
+      name: Miami Marlins
+      ref: 
+- number: DAR-IR
+  uuid: 5b30d9c3-4b1c-498b-bec1-5d06889e56a3
+  subjects:
+  - entities:
+    - role: player
+      name: Ivan Rodriguez
+      ref: 
+    - role: team
+      name: Texas Rangers
+      ref: 
+- number: DAR-IS
+  uuid: cdef294b-56a0-4d8e-99f7-71b48f6af29b
+  subjects:
+  - entities:
+    - role: player
+      name: Ichiro
+      ref: 
+    - role: team
+      name: New York Yankees
+      ref: 
+- number: DAR-JB
+  uuid: e6ce4d16-ffb9-4ab8-ab07-7eec919887e5
+  subjects:
+  - entities:
+    - role: player
+      name: Jeff Bagwell
+      ref: 
+    - role: team
+      name: Houston Astros
+      ref: 
+- number: DAR-JD
+  uuid: 5fe73045-6ce5-4aa7-93f8-05bb93878756
+  subjects:
+  - entities:
+    - role: player
+      name: Johnny Damon
+      ref: 
+    - role: team
+      name: Boston Red Sox
+      ref: 
+- number: DAR-JH
+  uuid: 1ebb6285-863d-4315-8c4e-593793b4e7d2
+  subjects:
+  - entities:
+    - role: player
+      name: Jackson Holliday
+      ref: 
+    - role: team
+      name: Baltimore Orioles
+      ref: 
+- number: DAR-JP
+  uuid: a87d2841-65d8-419b-8bb3-734dfc55438e
+  subjects:
+  - entities:
+    - role: player
+      name: Jim Palmer
+      ref: 
+    - role: team
+      name: Baltimore Orioles
+      ref: 
+- number: DAR-JPO
+  uuid: 92e42d81-c21f-401e-99c0-9efcd4c9bebc
+  subjects:
+  - entities:
+    - role: player
+      name: Jorge Posada
+      ref: 
+    - role: team
+      name: New York Yankees
+      ref: 
+- number: DAR-JR
+  uuid: 983e0832-0c49-4047-9148-ddfc0f0036da
+  subjects:
+  - entities:
+    - role: player
+      name: Jimmy Rollins
+      ref: 
+    - role: team
+      name: Philadelphia Phillies
+      ref: 
+- number: DAR-JRA
+  uuid: b1f342ad-cacd-4cca-b8fe-d852c953fb21
+  subjects:
+  - entities:
+    - role: player
+      name: José Ramírez
+      ref: 
+    - role: team
+      name: Cleveland Guardians
+      ref: 
+- number: DAR-JS
+  uuid: c8628a49-c20e-499e-9bc7-93037640b531
+  subjects:
+  - entities:
+    - role: player
+      name: Juan Soto
+      ref: 
+    - role: team
+      name: New York Mets
+      ref: 
+- number: DAR-JSM
+  uuid: f22ffe08-ea3e-4c76-acfb-eb9aefcedd7f
+  subjects:
+  - entities:
+    - role: player
+      name: John Smoltz
+      ref: 
+    - role: team
+      name: Atlanta Braves
+      ref: 
+- number: DAR-JV
+  uuid: b44cc75f-491d-481d-8464-0c184746af36
+  subjects:
+  - entities:
+    - role: player
+      name: Joey Votto
+      ref: 
+    - role: team
+      name: Cincinnati Reds
+      ref: 
+- number: DAR-KG
+  uuid: c3858fbb-80f4-4d3d-8f9e-04342a3e80a8
+  subjects:
+  - entities:
+    - role: player
+      name: Ken Griffey Jr.
+      ref: 
+    - role: team
+      name: Cincinnati Reds
+      ref: 
+- number: DAR-KT
+  uuid: 15813593-2c12-4261-a0e3-7fde09d14fc7
+  subjects:
+  - entities:
+    - role: player
+      name: Kyle Tucker
+      ref: 
+    - role: team
+      name: Houston Astros
+      ref: 
+- number: DAR-LG
+  uuid: 20e781e3-0562-4026-b9c3-027b3b07c14f
+  subjects:
+  - entities:
+    - role: player
+      name: Luis Gonzalez
+      ref: 
+    - role: team
+      name: Arizona Diamondbacks
+      ref: 
+- number: DAR-LW
+  uuid: '083cead9-730b-4bfc-98de-4d06a7f56baf'
+  subjects:
+  - entities:
+    - role: player
+      name: Larry Walker
+      ref: 
+    - role: team
+      name: Colorado Rockies
+      ref: 
+- number: DAR-MM
+  uuid: 8ac7d3d7-4b22-43a7-a41c-2747b0d8609e
+  subjects:
+  - entities:
+    - role: player
+      name: Manny Machado
+      ref: 
+    - role: team
+      name: San Diego Padres
+      ref: 
+- number: DAR-MP
+  uuid: 68a07f75-8825-4f7b-854d-17219fe8fa8e
+  subjects:
+  - entities:
+    - role: player
+      name: Mike Piazza
+      ref: 
+    - role: team
+      name: New York Mets
+      ref: 
+- number: DAR-MS
+  uuid: af41ad8d-5f45-449f-bfbd-9af366aad376
+  subjects:
+  - entities:
+    - role: player
+      name: Mike Schmidt
+      ref: 
+    - role: team
+      name: Philadelphia Phillies
+      ref: 
+- number: DAR-MT
+  uuid: f8d49ae9-edca-4031-b0ee-d72e56560b8c
+  subjects:
+  - entities:
+    - role: player
+      name: Mike Trout
+      ref: 
+    - role: team
+      name: Los Angeles Angels
+      ref: 
+- number: DAR-MTX
+  uuid: ea4fbdfe-0087-477c-ace9-9b336c76e2fa
+  subjects:
+  - entities:
+    - role: player
+      name: Mark Teixeira
+      ref: 
+    - role: team
+      name: New York Yankees
+      ref: 
+- number: DAR-NG
+  uuid: 7731c325-c69b-4503-9b9c-9a628d7c0a38
+  subjects:
+  - entities:
+    - role: player
+      name: Nomar Garciaparra
+      ref: 
+    - role: team
+      name: Los Angeles Dodgers
+      ref: 
+- number: DAR-OA
+  uuid: 8b9df9a4-fa86-40ad-a810-2cba01455d77
+  subjects:
+  - entities:
+    - role: player
+      name: Ozzie Albies
+      ref: 
+    - role: team
+      name: Atlanta Braves
+      ref: 
+- number: DAR-OH
+  uuid: a216f07a-4963-45c2-9782-65a3e161cb26
+  subjects:
+  - entities:
+    - role: player
+      name: Orel Hershiser
+      ref: 
+    - role: team
+      name: Los Angeles Dodgers
+      ref: 
+- number: DAR-OS
+  uuid: be4d69d0-4e50-454a-b5e5-649e4e07e611
+  subjects:
+  - entities:
+    - role: player
+      name: Ozzie Smith
+      ref: 
+    - role: team
+      name: St. Louis Cardinals
+      ref: 
+- number: DAR-PF
+  uuid: c2b3cfb1-7ee8-436c-a244-fd86a7dfedf5
+  subjects:
+  - entities:
+    - role: player
+      name: Prince Fielder
+      ref: 
+    - role: team
+      name: Detroit Tigers
+      ref: 
+- number: DAR-PM
+  uuid: 2bafa46a-c790-44e4-a2ec-cc5fcaf0c563
+  subjects:
+  - entities:
+    - role: player
+      name: Paul Molitor
+      ref: 
+    - role: team
+      name: Minnesota Twins
+      ref: 
+- number: DAR-RA
+  uuid: f5045239-f590-46fa-963e-31252ac3df55
+  subjects:
+  - entities:
+    - role: player
+      name: Ronald Acuña Jr.
+      ref: 
+    - role: team
+      name: Atlanta Braves
+      ref: 
+- number: DAR-RC
+  uuid: dafd9415-e8de-40f8-a34f-add5ada38e3f
+  subjects:
+  - entities:
+    - role: player
+      name: Roger Clemens
+      ref: 
+    - role: team
+      name: New York Yankees
+      ref: 
+- number: DAR-RH
+  uuid: 8ee635b5-a05b-473b-b400-3524b4ba2be5
+  subjects:
+  - entities:
+    - role: player
+      name: Ryan Howard
+      ref: 
+    - role: team
+      name: Philadelphia Phillies
+      ref: 
+- number: DAR-RJ
+  uuid: 35c92094-9ea3-469e-be30-ef6357861076
+  subjects:
+  - entities:
+    - role: player
+      name: Randy Johnson
+      ref: 
+    - role: team
+      name: New York Yankees
+      ref: 
+- number: DAR-RJA
+  uuid: 3e51091f-cc65-4663-b684-da14b73ea9bb
+  subjects:
+  - entities:
+    - role: player
+      name: Reggie Jackson
+      ref: 
+    - role: team
+      name: California Angels
+      ref: 
+- number: DAR-ROD
+  uuid: 814521a8-80ad-48fb-ac7f-5a4d7a814fab
+  subjects:
+  - entities:
+    - role: player
+      name: Rod Carew
+      ref: 
+    - role: team
+      name: California Angels
+      ref: 
+- number: DAR-RY
+  uuid: 4a0ad84e-eacd-4db6-8646-2598b1abd393
+  subjects:
+  - entities:
+    - role: player
+      name: Robin Yount
+      ref: 
+    - role: team
+      name: Milwaukee Brewers
+      ref: 
+- number: DAR-SC
+  uuid: 3bc41e15-21f8-4397-83ef-474c527e21fe
+  subjects:
+  - entities:
+    - role: player
+      name: Steve Carlton
+      ref: 
+    - role: team
+      name: Philadelphia Phillies
+      ref: 
+- number: DAR-SO
+  uuid: d5be3911-4c57-41a4-994c-2a6e7ccabb23
+  subjects:
+  - entities:
+    - role: player
+      name: Shohei Ohtani
+      ref: 
+    - role: team
+      name: Los Angeles Dodgers
+      ref: 
+- number: DAR-SR
+  uuid: 03fa2941-d8f0-4b32-8acd-031aa4ebc056
+  subjects:
+  - entities:
+    - role: player
+      name: Scott Rolen
+      ref: 
+    - role: team
+      name: Cincinnati Reds
+      ref: 
+- number: DAR-SS
+  uuid: 227d439b-b0c0-452c-813a-5db592ce1bfd
+  subjects:
+  - entities:
+    - role: player
+      name: Sammy Sosa
+      ref: 
+    - role: team
+      name: Chicago Cubs
+      ref: 
+- number: DAR-TED
+  uuid: 9be71ded-4089-48f8-900e-c589f4327593
+  subjects:
+  - entities:
+    - role: player
+      name: Ted Simmons
+      ref: 
+    - role: team
+      name: St. Louis Cardinals
+      ref: 
+- number: DAR-TG
+  uuid: 514765e6-923a-4cce-834a-494e73b29daf
+  subjects:
+  - entities:
+    - role: player
+      name: Tom Glavine
+      ref: 
+    - role: team
+      name: New York Mets
+      ref: 
+- number: DAR-TH
+  uuid: a7bfecfb-a0f6-4311-b3a3-98fba2a4f9f9
+  subjects:
+  - entities:
+    - role: player
+      name: Trevor Hoffman
+      ref: 
+    - role: team
+      name: Milwaukee Brewers
+      ref: 
+- number: DAR-THU
+  uuid: af0a7c0d-ea6d-41a9-9d4d-5202be43cdbb
+  subjects:
+  - entities:
+    - role: player
+      name: Torii Hunter
+      ref: 
+    - role: team
+      name: Minnesota Twins
+      ref: 
+- number: DAR-TP
+  uuid: eda86641-b0f4-40eb-a8a4-2971822c1f45
+  subjects:
+  - entities:
+    - role: player
+      name: Tony Perez
+      ref: 
+    - role: team
+      name: Cincinnati Reds
+      ref: 
+- number: DAR-VG
+  uuid: 4c5c49f2-f240-4a9a-89aa-419a83ec5f16
+  subjects:
+  - entities:
+    - role: player
+      name: Vladimir Guerrero
+      ref: 
+    - role: team
+      name: Los Angeles Angels
+      ref: 
+- number: DAR-VGJ
+  uuid: b391d9c4-93c9-4f83-80e8-08773ca501f4
+  subjects:
+  - entities:
+    - role: player
+      name: Vladimir Guerrero Jr.
+      ref: 
+    - role: team
+      name: Toronto Blue Jays
+      ref: 
+- number: DAR-WB
+  uuid: a2b6f6fc-34ba-4920-af4b-85f5b189d2c8
+  subjects:
+  - entities:
+    - role: player
+      name: Wade Boggs
+      ref: 
+    - role: team
+      name: New York Yankees
+      ref: 

@@ -1,0 +1,200 @@
+- number: '372'
+  uuid: b00e6999-45d6-424c-81b5-75a55c9f9cd5
+  subjects:
+  - entities:
+    - role: player
+      name: Sal Stewart
+      ref: 
+    - role: team
+      name: Cincinnati Reds
+      ref: 
+- number: '398'
+  uuid: 5d9e6f29-717e-48ce-8406-6aa01a76a79f
+  subjects:
+  - entities:
+    - role: player
+      name: Hunter Barco
+      ref: 
+    - role: team
+      name: Pittsburgh Pirates
+      ref: 
+- number: '406'
+  uuid: 0c86c7c8-c437-4750-b60e-bbe68d5abe20
+  subjects:
+  - entities:
+    - role: player
+      name: Bryce Eldridge
+      ref: 
+    - role: team
+      name: San Francisco Giants
+      ref: 
+- number: '435'
+  uuid: 2288feba-3d5a-4d70-a5a9-0a410f8b70e2
+  subjects:
+  - entities:
+    - role: player
+      name: Denzer Guzman
+      ref: 
+    - role: team
+      name: Los Angeles Angels
+      ref: 
+- number: '443'
+  uuid: '02084587-21df-4f82-94f7-ba42367782b9'
+  subjects:
+  - entities:
+    - role: player
+      name: Kazuma Okamoto
+      ref: 
+    - role: team
+      name: Toronto Blue Jays
+      ref: 
+- number: '458'
+  uuid: 4b3d535a-80a5-45a2-9b88-3b65d77eb8f8
+  subjects:
+  - entities:
+    - role: player
+      name: Chase DeLauter
+      ref: 
+    - role: team
+      name: Cleveland Guardians
+      ref: 
+- number: '501'
+  uuid: e8a85597-78cd-48dc-b277-0ce3b56c9547
+  subjects:
+  - entities:
+    - role: player
+      name: Connelly Early
+      ref: 
+    - role: team
+      name: Boston Red Sox
+      ref: 
+- number: '503'
+  uuid: 1502e552-08b8-4954-877c-16ce1fca08c2
+  subjects:
+  - entities:
+    - role: player
+      name: Munetaka Murakami
+      ref: 
+    - role: team
+      name: Chicago White Sox
+      ref: 
+- number: '513'
+  uuid: 8109f0b7-de0c-4451-8253-eedc2de4a903
+  subjects:
+  - entities:
+    - role: player
+      name: Tatsuya Imai
+      ref: 
+    - role: team
+      name: Houston Astros
+      ref: 
+- number: '530'
+  uuid: 416aecb6-4a9a-427e-a6f3-5600d39c4704
+  subjects:
+  - entities:
+    - role: player
+      name: Carter Jensen
+      ref: 
+    - role: team
+      name: Kansas City Royals
+      ref: 
+- number: '534'
+  uuid: c9bda97a-bcb8-4153-9d71-04208abeeee4
+  subjects:
+  - entities:
+    - role: player
+      name: Brandon Sproat
+      ref: 
+    - role: team
+      name: Milwaukee Brewers
+      ref: 
+- number: '570'
+  uuid: c52b8142-a37c-4bf9-9bf9-b9dcdd608444
+  subjects:
+  - entities:
+    - role: player
+      name: Rolddy Muñoz
+      ref: 
+    - role: team
+      name: Atlanta Braves
+      ref: 
+- number: '578'
+  uuid: 8d1f7286-187e-44ad-be3c-696073b6e0a0
+  subjects:
+  - entities:
+    - role: player
+      name: Heriberto Hernández
+      ref: 
+    - role: team
+      name: Miami Marlins
+      ref: 
+- number: '601'
+  uuid: 76a68068-e10f-4dd3-9fa2-75c760dffc3d
+  subjects:
+  - entities:
+    - role: player
+      name: Zach Cole
+      ref: 
+    - role: team
+      name: Houston Astros
+      ref: 
+- number: '603'
+  uuid: a4644167-602a-4b11-b7f1-1fbeff75ae1c
+  subjects:
+  - entities:
+    - role: player
+      name: George Valera
+      ref: 
+    - role: team
+      name: Cleveland Guardians
+      ref: 
+- number: '620'
+  uuid: 217a6967-bb3e-42ff-a0c0-24e58e4bef4d
+  subjects:
+  - entities:
+    - role: player
+      name: Trey Yesavage
+      ref: 
+    - role: team
+      name: Toronto Blue Jays
+      ref: 
+- number: '623'
+  uuid: ca641f0d-35cf-4bc3-aca7-6ab934a6c9d2
+  subjects:
+  - entities:
+    - role: player
+      name: Rafael Flores
+      ref: 
+    - role: team
+      name: Pittsburgh Pirates
+      ref: 
+- number: '659'
+  uuid: 25f3bb14-ca62-463b-b2bb-e8b2c6143d78
+  subjects:
+  - entities:
+    - role: player
+      name: Harry Ford
+      ref: 
+    - role: team
+      name: Washington Nationals
+      ref: 
+- number: '665'
+  uuid: a608817b-22e7-401b-ae96-dd006ea1364c
+  subjects:
+  - entities:
+    - role: player
+      name: Jose Corniell
+      ref: 
+    - role: team
+      name: Texas Rangers
+      ref: 
+- number: '668'
+  uuid: ccbf4c5f-38e4-42f1-a587-22810a93c726
+  subjects:
+  - entities:
+    - role: player
+      name: Petey Halpin
+      ref: 
+    - role: team
+      name: Cleveland Guardians
+      ref: 

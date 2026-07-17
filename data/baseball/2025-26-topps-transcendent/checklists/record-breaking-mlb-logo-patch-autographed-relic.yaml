@@ -1,0 +1,10 @@
+- number: RBA-NK
+  uuid: 643052be-63f1-473c-8cc3-f411f66dd6db
+  subjects:
+  - entities:
+    - role: player
+      name: Nick Kurtz
+      ref: 
+    - role: team
+      name: Athletics
+      ref: 

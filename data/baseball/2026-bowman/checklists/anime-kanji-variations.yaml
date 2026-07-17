@@ -1,0 +1,70 @@
+- number: BA-1
+  uuid: 0450ccd4-0652-4ef5-8d6f-ae1e1c7475d0
+  subjects:
+  - entities:
+    - role: player
+      name: Sadaharu Oh
+      ref: 
+    - role: team
+      name: Yomiuri Giants
+      ref: 
+- number: BA-3
+  uuid: 9fbf9209-9dae-4475-8b7f-9614d1d891de
+  subjects:
+  - entities:
+    - role: player
+      name: Munetaka Murakami
+      ref: 
+    - role: team
+      name: Chicago White Sox
+      ref: 
+- number: BA-8
+  uuid: e0d77d8e-55c6-4ef6-9268-5f5dcc338a1b
+  subjects:
+  - entities:
+    - role: player
+      name: Tatsuya Imai
+      ref: 
+    - role: team
+      name: Houston Astros
+      ref: 
+- number: BA-9
+  uuid: 7346f3e5-aa78-4a60-b3d0-d7c2c2ab9ab3
+  subjects:
+  - entities:
+    - role: player
+      name: Shotaro Morii
+      ref: 
+    - role: team
+      name: Athletics
+      ref: 
+- number: BA-16
+  uuid: 495951e4-ea15-429d-ac3c-dbc288d79b52
+  subjects:
+  - entities:
+    - role: player
+      name: Hideo Nomo
+      ref: 
+    - role: team
+      name: Los Angeles Dodgers
+      ref: 
+- number: BA-17
+  uuid: e02f50de-25a9-4c7a-9957-116461ddbe0f
+  subjects:
+  - entities:
+    - role: player
+      name: Kazuma Okamoto
+      ref: 
+    - role: team
+      name: Toronto Blue Jays
+      ref: 
+- number: BA-26
+  uuid: 1764473a-1c14-4f97-8425-a8d176a5b73f
+  subjects:
+  - entities:
+    - role: player
+      name: Shohei Ohtani
+      ref: 
+    - role: team
+      name: Japan
+      ref: 

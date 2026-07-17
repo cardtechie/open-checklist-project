@@ -1,0 +1,150 @@
+- number: PCA-1
+  uuid: f772d2ac-2eae-4e53-9d5b-92a9fe71623f
+  subjects:
+  - entities:
+    - role: player
+      name: Mike Trout
+      ref: 
+    - role: team
+      name: Los Angeles Angels
+      ref: 
+- number: PCA-2
+  uuid: 5a4bfd22-c9a3-4d92-9c3f-24542c907ab1
+  subjects:
+  - entities:
+    - role: player
+      name: Ronald Acuña Jr.
+      ref: 
+    - role: team
+      name: Atlanta Braves
+      ref: 
+- number: PCA-3
+  uuid: 71374614-83f1-4e62-90bd-8b43a9e3916e
+  subjects:
+  - entities:
+    - role: player
+      name: Juan Soto
+      ref: 
+    - role: team
+      name: New York Mets
+      ref: 
+- number: PCA-4
+  uuid: dd0da4f1-d307-4c34-917e-3a5a7ed20594
+  subjects:
+  - entities:
+    - role: player
+      name: Junior Caminero
+      ref: 
+    - role: team
+      name: Tampa Bay Rays
+      ref: 
+- number: PCA-5
+  uuid: 30d0fed5-e9a1-4bcc-a177-7c26af2fed08
+  subjects:
+  - entities:
+    - role: player
+      name: Kevin McGonigle
+      ref: 
+    - role: team
+      name: Detroit Tigers
+      ref: 
+- number: PCA-6
+  uuid: 9126572d-dda1-45e1-951e-a00aa2a2afea
+  subjects:
+  - entities:
+    - role: player
+      name: JJ Wetherholt
+      ref: 
+    - role: team
+      name: St. Louis Cardinals
+      ref: 
+- number: PCA-7
+  uuid: c8b998fe-231d-4a6a-954a-f8eb97e1f79f
+  subjects:
+  - entities:
+    - role: player
+      name: Cal Raleigh
+      ref: 
+    - role: team
+      name: Seattle Mariners
+      ref: 
+- number: PCA-8
+  uuid: a3724ca3-4b51-4595-ade4-c84e6faab848
+  subjects:
+  - entities:
+    - role: player
+      name: Bryce Eldridge
+      ref: 
+    - role: team
+      name: San Francisco Giants
+      ref: 
+- number: PCA-9
+  uuid: c353481b-cfdd-4eb2-af30-a053a1102a24
+  subjects:
+  - entities:
+    - role: player
+      name: Walker Jenkins
+      ref: 
+    - role: team
+      name: Minnesota Twins
+      ref: 
+- number: PCA-10
+  uuid: 91ce4b6c-636c-44ba-b1d1-b97c481f00a5
+  subjects:
+  - entities:
+    - role: player
+      name: Edward Florentino
+      ref: 
+    - role: team
+      name: Pittsburgh Pirates
+      ref: 
+- number: PCA-11
+  uuid: b0d38b1b-9cd5-4ab4-ae1c-029762121826
+  subjects:
+  - entities:
+    - role: player
+      name: Christian Moore
+      ref: 
+    - role: team
+      name: Los Angeles Angels
+      ref: 
+- number: PCA-12
+  uuid: 22ac6bc0-3ff2-436d-9785-a9ed1412752d
+  subjects:
+  - entities:
+    - role: player
+      name: Samuel Basallo
+      ref: 
+    - role: team
+      name: Baltimore Orioles
+      ref: 
+- number: PCA-13
+  uuid: 78069677-d3f4-46b2-a681-fb1292c8f0a6
+  subjects:
+  - entities:
+    - role: player
+      name: Roman Anthony
+      ref: 
+    - role: team
+      name: Boston Red Sox
+      ref: 
+- number: PCA-14
+  uuid: f9e18324-dd64-4bbe-b5bf-399aed98bbec
+  subjects:
+  - entities:
+    - role: player
+      name: Jac Caglianone
+      ref: 
+    - role: team
+      name: Kansas City Royals
+      ref: 
+- number: PCA-15
+  uuid: 70c31a8e-b511-44c6-a62b-915dbceeaf48
+  subjects:
+  - entities:
+    - role: player
+      name: Ethan Holliday
+      ref: 
+    - role: team
+      name: Colorado Rockies
+      ref: 

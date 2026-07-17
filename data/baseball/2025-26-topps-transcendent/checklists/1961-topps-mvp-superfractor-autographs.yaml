@@ -1,0 +1,400 @@
+- number: 61MVP-AD
+  uuid: 972ec805-d0c7-4c4d-a598-b16b01d90650
+  subjects:
+  - entities:
+    - role: player
+      name: Andre Dawson
+      ref: 
+    - role: team
+      name: Chicago Cubs
+      ref: 
+- number: 61MVP-AJ
+  uuid: 908b4ed8-94f4-4938-9bf2-3a70d0c87cb3
+  subjects:
+  - entities:
+    - role: player
+      name: Aaron Judge
+      ref: 
+    - role: team
+      name: New York Yankees
+      ref: 
+- number: 61MVP-AM
+  uuid: 5130b245-bb98-4256-bbb9-40f642dcf7f6
+  subjects:
+  - entities:
+    - role: player
+      name: Andrew McCutchen
+      ref: 
+    - role: team
+      name: Pittsburgh Pirates
+      ref: 
+- number: 61MVP-AP
+  uuid: 5860a8ea-87bf-4353-9cee-0661b4e88084
+  subjects:
+  - entities:
+    - role: player
+      name: Albert Pujols
+      ref: 
+    - role: team
+      name: St. Louis Cardinals
+      ref: 
+- number: 61MVP-BH
+  uuid: 6289ada3-573c-428e-8dbe-2f4df861aa36
+  subjects:
+  - entities:
+    - role: player
+      name: Bryce Harper
+      ref: 
+    - role: team
+      name: Washington Nationals
+      ref: 
+- number: 61MVP-BHA
+  uuid: 41bb820a-f295-4fe0-a015-2a9334e7012b
+  subjects:
+  - entities:
+    - role: player
+      name: Bryce Harper
+      ref: 
+    - role: team
+      name: Philadelphia Phillies
+      ref: 
+- number: 61MVP-BL
+  uuid: 6877fb16-04b9-4b90-980d-369823aade4a
+  subjects:
+  - entities:
+    - role: player
+      name: Barry Larkin
+      ref: 
+    - role: team
+      name: Cincinnati Reds
+      ref: 
+- number: 61MVP-BP
+  uuid: 4d50cc09-8944-4257-b798-fb9c99a9f852
+  subjects:
+  - entities:
+    - role: player
+      name: Buster Posey
+      ref: 
+    - role: team
+      name: San Francisco Giants
+      ref: 
+- number: 61MVP-CJ
+  uuid: 8c4e66ed-e99a-45e4-baad-6c6c6a639360
+  subjects:
+  - entities:
+    - role: player
+      name: Chipper Jones
+      ref: 
+    - role: team
+      name: Atlanta Braves
+      ref: 
+- number: 61MVP-CK
+  uuid: 451e9002-b90b-4740-8bfe-76d6f79a07d9
+  subjects:
+  - entities:
+    - role: player
+      name: Clayton Kershaw
+      ref: 
+    - role: team
+      name: Los Angeles Dodgers
+      ref: 
+- number: 61MVP-CR
+  uuid: 5e67bf0b-33a0-4857-a5e9-c19f1bd76df4
+  subjects:
+  - entities:
+    - role: player
+      name: Cal Ripken Jr.
+      ref: 
+    - role: team
+      name: Baltimore Orioles
+      ref: 
+- number: 61MVP-DE
+  uuid: b53f2fed-9f30-4c9c-b9eb-8130b4cd6f08
+  subjects:
+  - entities:
+    - role: player
+      name: Dennis Eckersley
+      ref: 
+    - role: team
+      name: Oakland Athletics
+      ref: 
+- number: 61MVP-DM
+  uuid: 62624f0f-256c-4c10-93c1-fa9deb77e4d5
+  subjects:
+  - entities:
+    - role: player
+      name: Don Mattingly
+      ref: 
+    - role: team
+      name: New York Yankees
+      ref: 
+- number: 61MVP-DMU
+  uuid: df320cce-bda3-45fe-add3-513c7202a64a
+  subjects:
+  - entities:
+    - role: player
+      name: Dale Murphy
+      ref: 
+    - role: team
+      name: Atlanta Braves
+      ref: 
+- number: 61MVP-FT
+  uuid: 950168d8-b8a5-4485-a0de-84c141c4d317
+  subjects:
+  - entities:
+    - role: player
+      name: Frank Thomas
+      ref: 
+    - role: team
+      name: Chicago White Sox
+      ref: 
+- number: 61MVP-GBR
+  uuid: 60034961-16e7-4c93-a6b7-28c3c5ed8a59
+  subjects:
+  - entities:
+    - role: player
+      name: George Brett
+      ref: 
+    - role: team
+      name: Kansas City Royals
+      ref: 
+- number: 61MVP-I
+  uuid: 0d025a2e-144a-4dcb-b419-f8373ad0a6dd
+  subjects:
+  - entities:
+    - role: player
+      name: Ichiro
+      ref: 
+    - role: team
+      name: Seattle Mariners
+      ref: 
+- number: 61MVP-IR
+  uuid: 5fa01ee8-a1c2-414a-b8a7-658d5eed7e3f
+  subjects:
+  - entities:
+    - role: player
+      name: Ivan Rodriguez
+      ref: 
+    - role: team
+      name: Texas Rangers
+      ref: 
+- number: 61MVP-JA
+  uuid: 865c8b51-e5d1-45c7-8fd8-91bf99b30687
+  subjects:
+  - entities:
+    - role: player
+      name: Jose Altuve
+      ref: 
+    - role: team
+      name: Houston Astros
+      ref: 
+- number: 61MVP-JB
+  uuid: 6f1e65cf-a71b-479a-8a7e-9cffc35b2124
+  subjects:
+  - entities:
+    - role: player
+      name: Johnny Bench
+      ref: 
+    - role: team
+      name: Cincinnati Reds
+      ref: 
+- number: 61MVP-JC
+  uuid: cba6b85b-f47d-4b1d-b888-9b97039d3762
+  subjects:
+  - entities:
+    - role: player
+      name: José Canseco
+      ref: 
+    - role: team
+      name: Oakland Athletics
+      ref: 
+- number: 61MVP-JR
+  uuid: 806dfcab-a702-4298-a255-13cd9a3d16ad
+  subjects:
+  - entities:
+    - role: player
+      name: Jim Rice
+      ref: 
+    - role: team
+      name: Boston Red Sox
+      ref: 
+- number: 61MVP-JRO
+  uuid: 786ec567-677f-4967-8b86-72b22349b1b0
+  subjects:
+  - entities:
+    - role: player
+      name: Jimmy Rollins
+      ref: 
+    - role: team
+      name: Philadelphia Phillies
+      ref: 
+- number: 61MVP-JT
+  uuid: dce02817-5e6a-4033-b627-57d27d785a92
+  subjects:
+  - entities:
+    - role: player
+      name: Joe Torre
+      ref: 
+    - role: team
+      name: St. Louis Cardinals
+      ref: 
+- number: 61MVP-JV
+  uuid: 2c1ae853-7f19-47ef-9738-89d6d36d4676
+  subjects:
+  - entities:
+    - role: player
+      name: Joey Votto
+      ref: 
+    - role: team
+      name: Cincinnati Reds
+      ref: 
+- number: 61MVP-KG
+  uuid: 1af9e275-5257-44bb-97c5-1b5974261b63
+  subjects:
+  - entities:
+    - role: player
+      name: Ken Griffey Jr.
+      ref: 
+    - role: team
+      name: Seattle Mariners
+      ref: 
+- number: 61MVP-LW
+  uuid: 18a9bd3f-2801-40e4-9f44-8d8e5a46f5b0
+  subjects:
+  - entities:
+    - role: player
+      name: Larry Walker
+      ref: 
+    - role: team
+      name: Colorado Rockies
+      ref: 
+- number: 61MVP-MS
+  uuid: fb83fa2b-28fc-40ae-b4a0-b5cd9d703bc5
+  subjects:
+  - entities:
+    - role: player
+      name: Mike Schmidt
+      ref: 
+    - role: team
+      name: Philadelphia Phillies
+      ref: 
+- number: 61MVP-MT
+  uuid: 2c34cff3-0857-4e89-bbea-bf8479622b7a
+  subjects:
+  - entities:
+    - role: player
+      name: Mike Trout
+      ref: 
+    - role: team
+      name: Angels
+      ref: 
+- number: 61MVP-RA
+  uuid: bab495ae-4449-4039-9d05-634289ded890
+  subjects:
+  - entities:
+    - role: player
+      name: Ronald Acuña Jr.
+      ref: 
+    - role: team
+      name: Atlanta Braves
+      ref: 
+- number: 61MVP-RC
+  uuid: 5cf52292-aaea-4ac5-a3da-89f6e5ccc690
+  subjects:
+  - entities:
+    - role: player
+      name: Roger Clemens
+      ref: 
+    - role: team
+      name: Boston Red Sox
+      ref: 
+- number: 61MVP-RF
+  uuid: 6be186b0-36dc-4167-90a2-735975811c3c
+  subjects:
+  - entities:
+    - role: player
+      name: Rollie Fingers
+      ref: 
+    - role: team
+      name: Milwaukee Brewers
+      ref: 
+- number: 61MVP-RJ
+  uuid: 613c70f9-95fb-491c-9f8a-9590015a2291
+  subjects:
+  - entities:
+    - role: player
+      name: Reggie Jackson
+      ref: 
+    - role: team
+      name: Oakland Athletics
+      ref: 
+- number: 61MVP-ROD
+  uuid: 782511b3-f8e9-4dff-aa2c-7ab374b595bf
+  subjects:
+  - entities:
+    - role: player
+      name: Rod Carew
+      ref: 
+    - role: team
+      name: Minnesota Twins
+      ref: 
+- number: 61MVP-RY
+  uuid: 23f8c2b1-ebf8-4aeb-82cd-f6b6dfb4f914
+  subjects:
+  - entities:
+    - role: player
+      name: Robin Yount
+      ref: 
+    - role: team
+      name: Milwaukee Brewers
+      ref: 
+- number: 61MVP-SHO
+  uuid: afb334f2-4e6f-4e13-b0a4-f046946b7c10
+  subjects:
+  - entities:
+    - role: player
+      name: Shohei Ohtani
+      ref: 
+    - role: team
+      name: Angels
+      ref: 
+- number: 61MVP-SK
+  uuid: fda591af-50ae-467e-b301-cc0218c81ddf
+  subjects:
+  - entities:
+    - role: player
+      name: Sandy Koufax
+      ref: 
+    - role: team
+      name: Los Angeles Dodgers
+      ref: 
+- number: 61MVP-SO
+  uuid: e2f3874a-42cf-4aa6-9dd1-f752d7a54e5e
+  subjects:
+  - entities:
+    - role: player
+      name: Shohei Ohtani
+      ref: 
+    - role: team
+      name: Los Angeles Dodgers
+      ref: 
+- number: 61MVP-SS
+  uuid: 9f87af8d-a06e-4f4f-9ce5-4a2f448dc86d
+  subjects:
+  - entities:
+    - role: player
+      name: Sammy Sosa
+      ref: 
+    - role: team
+      name: Chicago Cubs
+      ref: 
+- number: 61MVP-VG
+  uuid: be8409c9-acd2-4d42-8ecc-ca62e671cf99
+  subjects:
+  - entities:
+    - role: player
+      name: Vladimir Guerrero
+      ref: 
+    - role: team
+      name: Angels
+      ref: 

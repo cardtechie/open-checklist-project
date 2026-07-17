@@ -1,0 +1,360 @@
+- number: IVA-BB
+  uuid: a23a7a41-a897-4ba8-a030-af32f686f853
+  subjects:
+  - entities:
+    - role: player
+      name: Barry Bonds
+      ref: 
+    - role: team
+      name: San Francisco Giants
+      ref: 
+- number: IVA-BC
+  uuid: 807d7e33-3dec-487e-83f5-3b651938deed
+  subjects:
+  - entities:
+    - role: player
+      name: Bubba Chandler
+      ref: 
+    - role: team
+      name: Pittsburgh Pirates
+      ref: 
+- number: IVA-CB
+  uuid: 371af2e7-47f2-4b7b-a3b2-f4d4fadea00d
+  subjects:
+  - entities:
+    - role: player
+      name: Chase Burns
+      ref: 
+    - role: team
+      name: Cincinnati Reds
+      ref: 
+- number: IVA-CJ
+  uuid: 3eeb62ed-ee1e-425f-adfc-76aecbedbb40
+  subjects:
+  - entities:
+    - role: player
+      name: Chipper Jones
+      ref: 
+    - role: team
+      name: Atlanta Braves
+      ref: 
+- number: IVA-CM
+  uuid: 7fc2bacb-4e07-45d7-ac67-63bd8f4e35bf
+  subjects:
+  - entities:
+    - role: player
+      name: Christian Moore
+      ref: 
+    - role: team
+      name: Los Angeles Angels
+      ref: 
+- number: IVA-CS
+  uuid: fac28303-abc7-413a-a624-1a10e12a0921
+  subjects:
+  - entities:
+    - role: player
+      name: CC Sabathia
+      ref: 
+    - role: team
+      name: New York Yankees
+      ref: 
+- number: IVA-DJ
+  uuid: 7453caa2-c51b-4005-ba35-20d3dd28c7da
+  subjects:
+  - entities:
+    - role: player
+      name: Derek Jeter
+      ref: 
+    - role: team
+      name: New York Yankees
+      ref: 
+- number: IVA-DM
+  uuid: c432b325-6df6-489e-9db7-b87bba201019
+  subjects:
+  - entities:
+    - role: player
+      name: Dale Murphy
+      ref: 
+    - role: team
+      name: Atlanta Braves
+      ref: 
+- number: IVA-DMA
+  uuid: d73ecab0-a676-4b5f-b17e-fdec92a8abdc
+  subjects:
+  - entities:
+    - role: player
+      name: Don Mattingly
+      ref: 
+    - role: team
+      name: New York Yankees
+      ref: 
+- number: IVA-DO
+  uuid: 1981a62d-3eab-43b2-847e-9d2a849dc710
+  subjects:
+  - entities:
+    - role: player
+      name: David Ortiz
+      ref: 
+    - role: team
+      name: Boston Red Sox
+      ref: 
+- number: IVA-FT
+  uuid: 5173d808-f187-47b1-a21a-58929d84d9b9
+  subjects:
+  - entities:
+    - role: player
+      name: Fernando Tatis Jr.
+      ref: 
+    - role: team
+      name: San Diego Padres
+      ref: 
+- number: IVA-GB
+  uuid: 97b3d2fd-96cb-458e-83c4-d6d8b38336c2
+  subjects:
+  - entities:
+    - role: player
+      name: George Brett
+      ref: 
+    - role: team
+      name: Kansas City Royals
+      ref: 
+- number: IVA-I
+  uuid: a56deabf-6d35-4a13-9282-7c8efe4d7eaa
+  subjects:
+  - entities:
+    - role: player
+      name: Ichiro
+      ref: 
+    - role: team
+      name: Seattle Mariners
+      ref: 
+- number: IVA-JC
+  uuid: f7ce8cf1-4eb1-41c8-bcc2-f75a06f8344d
+  subjects:
+  - entities:
+    - role: player
+      name: Jac Caglianone
+      ref: 
+    - role: team
+      name: Kansas City Royals
+      ref: 
+- number: IVA-JS
+  uuid: 06f0c328-faef-4839-b4d1-2d6d3bff0576
+  subjects:
+  - entities:
+    - role: player
+      name: Juan Soto
+      ref: 
+    - role: team
+      name: New York Mets
+      ref: 
+- number: IVA-JV
+  uuid: 5fc018b6-163c-429a-930d-573170705c6e
+  subjects:
+  - entities:
+    - role: player
+      name: Joey Votto
+      ref: 
+    - role: team
+      name: Cincinnati Reds
+      ref: 
+- number: IVA-KC
+  uuid: 91f42b19-fadc-4b45-89ea-532ab08ec1fa
+  subjects:
+  - entities:
+    - role: player
+      name: Kristian Campbell
+      ref: 
+    - role: team
+      name: Boston Red Sox
+      ref: 
+- number: IVA-KT
+  uuid: 1ad2174b-db0f-464b-969a-90a54895eb6a
+  subjects:
+  - entities:
+    - role: player
+      name: Kyle Teel
+      ref: 
+    - role: team
+      name: Chicago White Sox
+      ref: 
+- number: IVA-MC
+  uuid: 6003ca0d-99b1-420b-8908-57871bd65b9d
+  subjects:
+  - entities:
+    - role: player
+      name: Miguel Cabrera
+      ref: 
+    - role: team
+      name: Florida Marlins
+      ref: 
+- number: IVA-MM
+  uuid: 49712ddc-fcc2-480b-8789-da125c75a4ef
+  subjects:
+  - entities:
+    - role: player
+      name: Mark McGwire
+      ref: 
+    - role: team
+      name: St. Louis Cardinals
+      ref: 
+- number: IVA-MS
+  uuid: 56a35edb-53cd-4f1a-8d2a-85ea79ec8d2d
+  subjects:
+  - entities:
+    - role: player
+      name: Mike Schmidt
+      ref: 
+    - role: team
+      name: Philadelphia Phillies
+      ref: 
+- number: IVA-NR
+  uuid: 16af99c9-a4da-4dc3-b8be-3e02836a9c47
+  subjects:
+  - entities:
+    - role: player
+      name: Nolan Ryan
+      ref: 
+    - role: team
+      name: Texas Rangers
+      ref: 
+- number: IVA-OC
+  uuid: 25f97b1e-8724-42f7-84f0-fd03d3fbf744
+  subjects:
+  - entities:
+    - role: player
+      name: Owen Caissie
+      ref: 
+    - role: team
+      name: Chicago Cubs
+      ref: 
+- number: IVA-OH
+  uuid: ee175997-c7df-414d-af69-d1d30b22859b
+  subjects:
+  - entities:
+    - role: player
+      name: Orel Hershiser
+      ref: 
+    - role: team
+      name: Los Angeles Dodgers
+      ref: 
+- number: IVA-RA
+  uuid: 59a2f0b5-4bba-4168-8217-41d021adecd4
+  subjects:
+  - entities:
+    - role: player
+      name: Ronald Acuña Jr.
+      ref: 
+    - role: team
+      name: Atlanta Braves
+      ref: 
+- number: IVA-RAN
+  uuid: 38764ff4-e26f-47c5-ac52-ce6d62dbbb1c
+  subjects:
+  - entities:
+    - role: player
+      name: Roman Anthony
+      ref: 
+    - role: team
+      name: Boston Red Sox
+      ref: 
+- number: IVA-RC
+  uuid: 4045fc69-68e0-4ee1-99e4-f9baf59644a5
+  subjects:
+  - entities:
+    - role: player
+      name: Roger Clemens
+      ref: 
+    - role: team
+      name: Boston Red Sox
+      ref: 
+- number: IVA-RJ
+  uuid: 020fc749-bf86-401f-a561-3578d1f98cf9
+  subjects:
+  - entities:
+    - role: player
+      name: Randy Johnson
+      ref: 
+    - role: team
+      name: Seattle Mariners
+      ref: 
+- number: IVA-RJA
+  uuid: 5fce9427-2752-4ae2-bd7f-ffb402a2e7b1
+  subjects:
+  - entities:
+    - role: player
+      name: Reggie Jackson
+      ref: 
+    - role: team
+      name: Oakland Athletics
+      ref: 
+- number: IVA-RY
+  uuid: eef80477-c33f-4912-b623-bff66ed3e8bc
+  subjects:
+  - entities:
+    - role: player
+      name: Robin Yount
+      ref: 
+    - role: team
+      name: Milwaukee Brewers
+      ref: 
+- number: IVA-SB
+  uuid: 7be15b34-df13-4f0d-8a3d-9bdac3419415
+  subjects:
+  - entities:
+    - role: player
+      name: Samuel Basallo
+      ref: 
+    - role: team
+      name: Baltimore Orioles
+      ref: 
+- number: IVA-SC
+  uuid: 9b0b0eb5-81a3-4d9e-b3c6-de062a3d7860
+  subjects:
+  - entities:
+    - role: player
+      name: Steve Carlton
+      ref: 
+    - role: team
+      name: Philadelphia Phillies
+      ref: 
+- number: IVA-SK
+  uuid: a10e4d9d-6b18-49f9-8cff-3d4532802bdb
+  subjects:
+  - entities:
+    - role: player
+      name: Sandy Koufax
+      ref: 
+    - role: team
+      name: Brooklyn Dodgers
+      ref: 
+- number: IVA-SO
+  uuid: 99265be0-dbbc-474a-892a-78b9bfc8415b
+  subjects:
+  - entities:
+    - role: player
+      name: Shohei Ohtani
+      ref: 
+    - role: team
+      name: Los Angeles Dodgers
+      ref: 
+- number: IVA-SS
+  uuid: b95121d3-6865-4d70-8f08-19dda29bc502
+  subjects:
+  - entities:
+    - role: player
+      name: Sammy Sosa
+      ref: 
+    - role: team
+      name: Chicago Cubs
+      ref: 
+- number: IVA-YY
+  uuid: de1c16f5-71f0-439a-9010-6290048f2c24
+  subjects:
+  - entities:
+    - role: player
+      name: Yoshinobu Yamamoto
+      ref: 
+    - role: team
+      name: Los Angeles Dodgers
+      ref: 

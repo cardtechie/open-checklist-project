@@ -1,0 +1,140 @@
+- number: ESA-1
+  uuid: 4112c992-5fd4-4c7e-93a8-5c74c70f5634
+  subjects:
+  - entities:
+    - role: player
+      name: Samuel Basallo
+      ref: 
+    - role: team
+      name: Baltimore Orioles
+      ref: 
+- number: ESA-2
+  uuid: 4ee3a6f8-19a5-4d26-b807-43f65a84bd07
+  subjects:
+  - entities:
+    - role: player
+      name: Bryce Eldridge
+      ref: 
+    - role: team
+      name: San Francisco Giants
+      ref: 
+- number: ESA-3
+  uuid: c2a2b817-b7f8-41d1-a3a4-3fd5fdc00efc
+  subjects:
+  - entities:
+    - role: player
+      name: Ethan Holliday
+      ref: 
+    - role: team
+      name: Colorado Rockies
+      ref: 
+- number: ESA-4
+  uuid: 1e94951c-494b-4f16-95fd-b21c61ac0f07
+  subjects:
+  - entities:
+    - role: player
+      name: Konnor Griffin
+      ref: 
+    - role: team
+      name: Pittsburgh Pirates
+      ref: 
+- number: ESA-5
+  uuid: bbc7e521-1433-4f95-90a5-f1dade5718c5
+  subjects:
+  - entities:
+    - role: player
+      name: Jesús Made
+      ref: 
+    - role: team
+      name: Milwaukee Brewers
+      ref: 
+- number: ESA-6
+  uuid: '09cc3432-a6c6-4f71-92e1-03a19762b5c1'
+  subjects:
+  - entities:
+    - role: player
+      name: JJ Wetherholt
+      ref: 
+    - role: team
+      name: St. Louis Cardinals
+      ref: 
+- number: ESA-7
+  uuid: a3b908c0-7959-4c49-84ed-b2c232e5a0cc
+  subjects:
+  - entities:
+    - role: player
+      name: Roman Anthony
+      ref: 
+    - role: team
+      name: Boston Red Sox
+      ref: 
+- number: ESA-8
+  uuid: 8887da8f-45af-451d-8f76-b4e2774d2096
+  subjects:
+  - entities:
+    - role: player
+      name: Jac Caglianone
+      ref: 
+    - role: team
+      name: Kansas City Royals
+      ref: 
+- number: ESA-9
+  uuid: 1b3e7a65-f56a-4797-8fc8-1cdaee6ca68a
+  subjects:
+  - entities:
+    - role: player
+      name: Vladimir Guerrero Jr.
+      ref: 
+    - role: team
+      name: Toronto Blue Jays
+      ref: 
+- number: ESA-10
+  uuid: e36b8c1a-e469-4282-ae4f-ed86f3817afd
+  subjects:
+  - entities:
+    - role: player
+      name: Juan Soto
+      ref: 
+    - role: team
+      name: New York Mets
+      ref: 
+- number: ESA-11
+  uuid: 2b764453-c9e0-42e9-ac51-1425fd1043af
+  subjects:
+  - entities:
+    - role: player
+      name: Ronald Acuña Jr.
+      ref: 
+    - role: team
+      name: Atlanta Braves
+      ref: 
+- number: ESA-12
+  uuid: 76077660-dd86-4afb-92f4-f21bfd63c465
+  subjects:
+  - entities:
+    - role: player
+      name: Cal Raleigh
+      ref: 
+    - role: team
+      name: Seattle Mariners
+      ref: 
+- number: ESA-13
+  uuid: 48d74a95-1415-4dbb-b36a-8932a48c0a84
+  subjects:
+  - entities:
+    - role: player
+      name: Nick Kurtz
+      ref: 
+    - role: team
+      name: Athletics
+      ref: 
+- number: ESA-14
+  uuid: 3c406d43-920f-45c4-8136-c7fca4a1d42b
+  subjects:
+  - entities:
+    - role: player
+      name: Mike Trout
+      ref: 
+    - role: team
+      name: Los Angeles Angels
+      ref: 

@@ -1,0 +1,100 @@
+- number: PPAR-AJ
+  uuid: 0bc0dd1b-a879-4291-a23b-4c866ec64725
+  subjects:
+  - entities:
+    - role: player
+      name: Aaron Judge
+      ref: 
+    - role: team
+      name: New York Yankees
+      ref: 
+- number: PPAR-JT
+  uuid: fc334275-e6d0-495d-b36a-3e57ed94515e
+  subjects:
+  - entities:
+    - role: player
+      name: J.T. Realmuto
+      ref: 
+    - role: team
+      name: Philadelphia Phillies
+      ref: 
+- number: PPAR-JV
+  uuid: 53225be1-754f-471a-b6f9-030df31a832d
+  subjects:
+  - entities:
+    - role: player
+      name: Joey Votto
+      ref: 
+    - role: team
+      name: Cincinnati Reds
+      ref: 
+- number: PPAR-LA
+  uuid: e3fbea8e-ccbb-4a91-b8e7-70f7f032364d
+  subjects:
+  - entities:
+    - role: player
+      name: Luis Arraez
+      ref: 
+    - role: team
+      name: San Diego Padres
+      ref: 
+- number: PPAR-MT
+  uuid: 9aa0eff7-cee4-41a0-8b9d-e541a6d8bd27
+  subjects:
+  - entities:
+    - role: player
+      name: Mike Trout
+      ref: 
+    - role: team
+      name: Los Angeles Angels
+      ref: 
+- number: PPAR-MY
+  uuid: 597db6e4-e446-4632-b054-481e4072ecfe
+  subjects:
+  - entities:
+    - role: player
+      name: Masataka Yoshida
+      ref: 
+    - role: team
+      name: Boston Red Sox
+      ref: 
+- number: PPAR-PA
+  uuid: 6646a3da-c78a-4cf3-b50e-c986d3ae6264
+  subjects:
+  - entities:
+    - role: player
+      name: Pete Alonso
+      ref: 
+    - role: team
+      name: New York Mets
+      ref: 
+- number: PPAR-RA
+  uuid: 1fce9435-9c51-402f-841a-8b772e5cc81f
+  subjects:
+  - entities:
+    - role: player
+      name: Ronald Acuña Jr.
+      ref: 
+    - role: team
+      name: Atlanta Braves
+      ref: 
+- number: PPAR-SO
+  uuid: 438e3f3b-562a-411b-88f9-81af9c5cecb2
+  subjects:
+  - entities:
+    - role: player
+      name: Shohei Ohtani
+      ref: 
+    - role: team
+      name: Los Angeles Dodgers
+      ref: 
+- number: PPAR-WS
+  uuid: 4d74227c-5bd2-467a-94c6-93d7267093fe
+  subjects:
+  - entities:
+    - role: player
+      name: Will Smith
+      ref: 
+    - role: team
+      name: Los Angeles Dodgers
+      ref: 

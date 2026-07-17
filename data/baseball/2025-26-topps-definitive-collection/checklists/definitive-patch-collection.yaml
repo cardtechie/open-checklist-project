@@ -1,0 +1,870 @@
+- number: DPC-AB
+  uuid: 363da7d2-621c-49ba-8ff9-1138c7a94c1f
+  subjects:
+  - entities:
+    - role: player
+      name: Alex Bregman
+      ref: 
+    - role: team
+      name: Boston Red Sox
+      ref: 
+- number: DPC-AJ
+  uuid: 5e0c0ba2-bace-4326-b412-d251289b8256
+  subjects:
+  - entities:
+    - role: player
+      name: Aaron Judge
+      ref: 
+    - role: team
+      name: New York Yankees
+      ref: 
+- number: DPC-AJU
+  uuid: 3065dfff-c1b9-4094-a53e-993da91a5181
+  subjects:
+  - entities:
+    - role: player
+      name: Aaron Judge
+      ref: 
+    - role: team
+      name: New York Yankees
+      ref: 
+- number: DPC-AK
+  uuid: bb3a2640-7221-42f1-a6ff-326c708e7a66
+  subjects:
+  - entities:
+    - role: player
+      name: Al Kaline
+      ref: 
+    - role: team
+      name: Detroit Tigers
+      ref: 
+- number: DPC-AM
+  uuid: 4229c516-a8e7-4375-81cd-f08d25f1e939
+  subjects:
+  - entities:
+    - role: player
+      name: Andrew McCutchen
+      ref: 
+    - role: team
+      name: Pittsburgh Pirates
+      ref: 
+- number: DPC-AP
+  uuid: 88e111c8-1b52-453b-8494-b106a04c9480
+  subjects:
+  - entities:
+    - role: player
+      name: Albert Pujols
+      ref: 
+    - role: team
+      name: Los Angeles Angels
+      ref: 
+- number: DPC-AR
+  uuid: 47667430-6ef3-4797-bbee-80b80766ed8f
+  subjects:
+  - entities:
+    - role: player
+      name: Austin Riley
+      ref: 
+    - role: team
+      name: Atlanta Braves
+      ref: 
+- number: DPC-AROD
+  uuid: db15cafd-6a61-4fc7-ba17-3624fbfa6ba6
+  subjects:
+  - entities:
+    - role: player
+      name: Alex Rodriguez
+      ref: 
+    - role: team
+      name: Texas Rangers
+      ref: 
+- number: DPC-ARU
+  uuid: 4a27b819-e36d-4d3e-b80a-f1c20ee87451
+  subjects:
+  - entities:
+    - role: player
+      name: Adley Rutschman
+      ref: 
+    - role: team
+      name: Baltimore Orioles
+      ref: 
+- number: DPC-AV
+  uuid: fab0eab7-1004-47ce-b7b8-b7d9ed43f9a9
+  subjects:
+  - entities:
+    - role: player
+      name: Anthony Volpe
+      ref: 
+    - role: team
+      name: New York Yankees
+      ref: 
+- number: DPC-BB
+  uuid: 25856313-bc04-407b-89eb-dc94e9e317cc
+  subjects:
+  - entities:
+    - role: player
+      name: Byron Buxton
+      ref: 
+    - role: team
+      name: Minnesota Twins
+      ref: 
+- number: DPC-BH
+  uuid: d374a71c-575a-4d25-9b8f-7c7d6ce1caba
+  subjects:
+  - entities:
+    - role: player
+      name: Bryce Harper
+      ref: 
+    - role: team
+      name: Philadelphia Phillies
+      ref: 
+- number: DPC-BO
+  uuid: 7cef648c-5b1e-426a-9e52-d3094f1cb326
+  subjects:
+  - entities:
+    - role: player
+      name: Bo Bichette
+      ref: 
+    - role: team
+      name: Toronto Blue Jays
+      ref: 
+- number: DPC-BW
+  uuid: 2ea5425d-25cc-4df1-b352-ac62a6aa315b
+  subjects:
+  - entities:
+    - role: player
+      name: Bobby Witt Jr.
+      ref: 
+    - role: team
+      name: Kansas City Royals
+      ref: 
+- number: DPC-CC
+  uuid: 6f13d13c-b18b-46c0-bfa9-79c41b7aa46d
+  subjects:
+  - entities:
+    - role: player
+      name: Corbin Carroll
+      ref: 
+    - role: team
+      name: Arizona Diamondbacks
+      ref: 
+- number: DPC-CCO
+  uuid: 650e4df7-b175-42fc-98ef-8ecedb96797b
+  subjects:
+  - entities:
+    - role: player
+      name: Carlos Correa
+      ref: 
+    - role: team
+      name: Houston Astros
+      ref: 
+- number: DPC-CCS
+  uuid: aa048a17-a9b7-435f-a5f2-71577576f7f1
+  subjects:
+  - entities:
+    - role: player
+      name: CC Sabathia
+      ref: 
+    - role: team
+      name: New York Yankees
+      ref: 
+- number: DPC-CD
+  uuid: 6d4a1b9f-0f78-4abb-b5a6-25473e415933
+  subjects:
+  - entities:
+    - role: player
+      name: Chase Dollander
+      ref: 
+    - role: team
+      name: Colorado Rockies
+      ref: 
+- number: DPC-CJ
+  uuid: f581f4dc-b2bc-4147-b8b0-994c6b7e94ff
+  subjects:
+  - entities:
+    - role: player
+      name: Chipper Jones
+      ref: 
+    - role: team
+      name: Atlanta Braves
+      ref: 
+- number: DPC-CR
+  uuid: f3f07619-9413-4f0d-9f9b-a81decc684e5
+  subjects:
+  - entities:
+    - role: player
+      name: Cal Ripken Jr.
+      ref: 
+    - role: team
+      name: Baltimore Orioles
+      ref: 
+- number: DPC-CS
+  uuid: 2f26ae00-75e7-4eff-a746-bfa719eddf12
+  subjects:
+  - entities:
+    - role: player
+      name: Corey Seager
+      ref: 
+    - role: team
+      name: Texas Rangers
+      ref: 
+- number: DPC-CY
+  uuid: 9ed7a410-bf91-4aca-89db-88cd5efa2cfc
+  subjects:
+  - entities:
+    - role: player
+      name: Christian Yelich
+      ref: 
+    - role: team
+      name: Milwaukee Brewers
+      ref: 
+- number: DPC-DC
+  uuid: a4e25c45-3587-43f1-af88-0dd643a35b88
+  subjects:
+  - entities:
+    - role: player
+      name: Dylan Crews
+      ref: 
+    - role: team
+      name: Washington Nationals
+      ref: 
+- number: DPC-DJ
+  uuid: d42bd21c-1dbf-417e-9fe8-401cdcb139d9
+  subjects:
+  - entities:
+    - role: player
+      name: Derek Jeter
+      ref: 
+    - role: team
+      name: New York Yankees
+      ref: 
+- number: DPC-DO
+  uuid: ea69bf7d-705e-47fc-9106-3134d28f10a5
+  subjects:
+  - entities:
+    - role: player
+      name: David Ortiz
+      ref: 
+    - role: team
+      name: Boston Red Sox
+      ref: 
+- number: DPC-DP
+  uuid: aad41107-9096-4c5d-a77a-cc93db832538
+  subjects:
+  - entities:
+    - role: player
+      name: Dustin Pedroia
+      ref: 
+    - role: team
+      name: Boston Red Sox
+      ref: 
+- number: DPC-ED
+  uuid: 22bc5873-51b2-4b94-a0b9-e57786af11fb
+  subjects:
+  - entities:
+    - role: player
+      name: Elly De La Cruz
+      ref: 
+    - role: team
+      name: Cincinnati Reds
+      ref: 
+- number: DPC-FA
+  uuid: 764a991c-66f6-4361-bfe2-9770296ba076
+  subjects:
+  - entities:
+    - role: player
+      name: Francisco Alvarez
+      ref: 
+    - role: team
+      name: New York Mets
+      ref: 
+- number: DPC-FF
+  uuid: e6ab9f6f-4a01-48b5-aa72-73ed684a64d3
+  subjects:
+  - entities:
+    - role: player
+      name: Freddie Freeman
+      ref: 
+    - role: team
+      name: Los Angeles Dodgers
+      ref: 
+- number: DPC-FH
+  uuid: b36bc726-2a43-491a-83f7-0e68c9752007
+  subjects:
+  - entities:
+    - role: player
+      name: Félix Hernández
+      ref: 
+    - role: team
+      name: Seattle Mariners
+      ref: 
+- number: DPC-FL
+  uuid: 0fff0c0d-2569-4ad2-b150-13378fb83e15
+  subjects:
+  - entities:
+    - role: player
+      name: Francisco Lindor
+      ref: 
+    - role: team
+      name: New York Mets
+      ref: 
+- number: DPC-FT
+  uuid: 04de0c45-c7ff-49ad-b4c6-0e88abc1de2a
+  subjects:
+  - entities:
+    - role: player
+      name: Fernando Tatis Jr.
+      ref: 
+    - role: team
+      name: San Diego Padres
+      ref: 
+- number: DPC-GC
+  uuid: 214d1143-f08c-4a9e-8fde-1a283efecec5
+  subjects:
+  - entities:
+    - role: player
+      name: Gerrit Cole
+      ref: 
+    - role: team
+      name: New York Yankees
+      ref: 
+- number: DPC-GH
+  uuid: b414fdf5-56bd-45d1-898b-8ce127cce92d
+  subjects:
+  - entities:
+    - role: player
+      name: Gunnar Henderson
+      ref: 
+    - role: team
+      name: Baltimore Orioles
+      ref: 
+- number: DPC-GS
+  uuid: 53cb68e5-9fd0-40c7-be2d-3df6acb8bb4f
+  subjects:
+  - entities:
+    - role: player
+      name: Gary Sheffield
+      ref: 
+    - role: team
+      name: Atlanta Braves
+      ref: 
+- number: DPC-GST
+  uuid: d7cf2bb3-4423-4e29-92c0-1d4b4bfaa1e3
+  subjects:
+  - entities:
+    - role: player
+      name: Giancarlo Stanton
+      ref: 
+    - role: team
+      name: New York Yankees
+      ref: 
+- number: DPC-HG
+  uuid: 77a41cd8-b3af-40b0-8e2a-3904c1e3ea96
+  subjects:
+  - entities:
+    - role: player
+      name: Hunter Greene
+      ref: 
+    - role: team
+      name: Cincinnati Reds
+      ref: 
+- number: DPC-I
+  uuid: 77befd47-ec0a-4da7-9d48-a1ee4918e3ff
+  subjects:
+  - entities:
+    - role: player
+      name: Ichiro
+      ref: 
+    - role: team
+      name: Miami Marlins
+      ref: 
+- number: DPC-ICH
+  uuid: f2562c18-992c-4b73-8f4c-3fa572b3dc28
+  subjects:
+  - entities:
+    - role: player
+      name: Ichiro
+      ref: 
+    - role: team
+      name: Seattle Mariners
+      ref: 
+- number: DPC-JA
+  uuid: 40e70395-ba93-486f-9c7e-bf7cab07dbc5
+  subjects:
+  - entities:
+    - role: player
+      name: Jose Altuve
+      ref: 
+    - role: team
+      name: Houston Astros
+      ref: 
+- number: DPC-JC
+  uuid: b6e7cb20-7234-41a3-b406-03ef2ba1d5d2
+  subjects:
+  - entities:
+    - role: player
+      name: Jackson Chourio
+      ref: 
+    - role: team
+      name: Milwaukee Brewers
+      ref: 
+- number: DPC-JCA
+  uuid: 2f30a19f-476c-4804-a64a-dc449504af90
+  subjects:
+  - entities:
+    - role: player
+      name: Junior Caminero
+      ref: 
+    - role: team
+      name: Tampa Bay Rays
+      ref: 
+- number: DPC-JCJ
+  uuid: 5019f412-e294-462c-9b47-688a020047d7
+  subjects:
+  - entities:
+    - role: player
+      name: Jazz Chisholm Jr.
+      ref: 
+    - role: team
+      name: New York Yankees
+      ref: 
+- number: DPC-JH
+  uuid: '0843a068-0a8f-4462-8a66-bbba5085edb4'
+  subjects:
+  - entities:
+    - role: player
+      name: Jackson Holliday
+      ref: 
+    - role: team
+      name: Baltimore Orioles
+      ref: 
+- number: DPC-JL
+  uuid: '09097d54-7b98-4d02-b8a0-c6bf0155fb45'
+  subjects:
+  - entities:
+    - role: player
+      name: Jung Hoo Lee
+      ref: 
+    - role: team
+      name: San Francisco Giants
+      ref: 
+- number: DPC-JM
+  uuid: 2198853f-47e3-4d69-9339-78281c12cc11
+  subjects:
+  - entities:
+    - role: player
+      name: Jackson Merrill
+      ref: 
+    - role: team
+      name: San Diego Padres
+      ref: 
+- number: DPC-JP
+  uuid: 20c92548-6d2e-46fd-98b7-6201168f2700
+  subjects:
+  - entities:
+    - role: player
+      name: Jeremy Peña
+      ref: 
+    - role: team
+      name: Houston Astros
+      ref: 
+- number: DPC-JPO
+  uuid: 1135bc1d-edef-4072-b81f-3124ce44ddc7
+  subjects:
+  - entities:
+    - role: player
+      name: Jorge Posada
+      ref: 
+    - role: team
+      name: New York Yankees
+      ref: 
+- number: DPC-JR
+  uuid: e6e774e8-4f62-40bc-b824-95bdfe09211e
+  subjects:
+  - entities:
+    - role: player
+      name: José Ramírez
+      ref: 
+    - role: team
+      name: Cleveland Guardians
+      ref: 
+- number: DPC-JRO
+  uuid: c666a29b-c4d4-46e9-8924-3523f79c83e7
+  subjects:
+  - entities:
+    - role: player
+      name: Julio Rodríguez
+      ref: 
+    - role: team
+      name: Seattle Mariners
+      ref: 
+- number: DPC-JSO
+  uuid: 8398c511-b014-4966-aaff-62faf48b683c
+  subjects:
+  - entities:
+    - role: player
+      name: Juan Soto
+      ref: 
+    - role: team
+      name: New York Mets
+      ref: 
+- number: DPC-JW
+  uuid: 84cf5edb-b6f5-4047-98c6-9a6ae242a643
+  subjects:
+  - entities:
+    - role: player
+      name: James Wood
+      ref: 
+    - role: team
+      name: Washington Nationals
+      ref: 
+- number: DPC-KM
+  uuid: c861040f-0dca-4136-a90d-76dc10dda2b0
+  subjects:
+  - entities:
+    - role: player
+      name: Ketel Marte
+      ref: 
+    - role: team
+      name: Arizona Diamondbacks
+      ref: 
+- number: DPC-LA
+  uuid: a2456f07-00a5-4723-b55e-5c5a9a0b4c06
+  subjects:
+  - entities:
+    - role: player
+      name: Luis Arraez
+      ref: 
+    - role: team
+      name: San Diego Padres
+      ref: 
+- number: DPC-LB
+  uuid: edfb3bd8-3b32-4724-b108-94a8c81035b8
+  subjects:
+  - entities:
+    - role: player
+      name: Lawrence Butler
+      ref: 
+    - role: team
+      name: Athletics
+      ref: 
+- number: DPC-LW
+  uuid: 0a9c9783-ea6d-4622-b626-d94c319579f3
+  subjects:
+  - entities:
+    - role: player
+      name: Larry Walker
+      ref: 
+    - role: team
+      name: Colorado Rockies
+      ref: 
+- number: DPC-MB
+  uuid: 1f434d8e-bf8d-4e3e-976d-4363e5aa6a67
+  subjects:
+  - entities:
+    - role: player
+      name: Mookie Betts
+      ref: 
+    - role: team
+      name: Los Angeles Dodgers
+      ref: 
+- number: DPC-MC
+  uuid: f86e12a3-3f36-4dfe-9c1c-9df77241f95b
+  subjects:
+  - entities:
+    - role: player
+      name: Miguel Cabrera
+      ref: 
+    - role: team
+      name: Florida Marlins
+      ref: 
+- number: DPC-MCA
+  uuid: c8425612-c1a1-4df8-bc6a-6bdb7e5ba15b
+  subjects:
+  - entities:
+    - role: player
+      name: Miguel Cabrera
+      ref: 
+    - role: team
+      name: Detroit Tigers
+      ref: 
+- number: DPC-MF
+  uuid: 5e729823-db35-43e5-9f95-a733b93a5e17
+  subjects:
+  - entities:
+    - role: player
+      name: Max Fried
+      ref: 
+    - role: team
+      name: New York Yankees
+      ref: 
+- number: DPC-MM
+  uuid: b12fd568-0649-430f-8979-575166583787
+  subjects:
+  - entities:
+    - role: player
+      name: Manny Machado
+      ref: 
+    - role: team
+      name: San Diego Padres
+      ref: 
+- number: DPC-MO
+  uuid: 7ac7e20e-c360-42e7-8c1a-e38708ac9cd7
+  subjects:
+  - entities:
+    - role: player
+      name: Matt Olson
+      ref: 
+    - role: team
+      name: Atlanta Braves
+      ref: 
+- number: DPC-MS
+  uuid: ad051953-a7a8-4d3a-9583-6302d02b76d3
+  subjects:
+  - entities:
+    - role: player
+      name: Matt Shaw
+      ref: 
+    - role: team
+      name: Chicago Cubs
+      ref: 
+- number: DPC-MT
+  uuid: c2fbcf7a-47a3-4750-9392-9200430327db
+  subjects:
+  - entities:
+    - role: player
+      name: Mike Trout
+      ref: 
+    - role: team
+      name: Los Angeles Angels
+      ref: 
+- number: DPC-NA
+  uuid: 2d481d7b-1442-464d-9c51-7e0ddeef02c2
+  subjects:
+  - entities:
+    - role: player
+      name: Nolan Arenado
+      ref: 
+    - role: team
+      name: St. Louis Cardinals
+      ref: 
+- number: DPC-OA
+  uuid: 28924717-709b-4893-8f64-93c718ab2de2
+  subjects:
+  - entities:
+    - role: player
+      name: Ozzie Albies
+      ref: 
+    - role: team
+      name: Atlanta Braves
+      ref: 
+- number: DPC-OC
+  uuid: 934b9056-9537-424e-a9db-fa211e57311c
+  subjects:
+  - entities:
+    - role: player
+      name: Oneil Cruz
+      ref: 
+    - role: team
+      name: Pittsburgh Pirates
+      ref: 
+- number: DPC-PA
+  uuid: bc017ead-0860-41ae-8a61-5ea472930486
+  subjects:
+  - entities:
+    - role: player
+      name: Pete Alonso
+      ref: 
+    - role: team
+      name: New York Mets
+      ref: 
+- number: DPC-PAL
+  uuid: f7972422-4b1b-4d54-9719-acc21175686b
+  subjects:
+  - entities:
+    - role: player
+      name: Pete Alonso
+      ref: 
+    - role: team
+      name: New York Mets
+      ref: 
+- number: DPC-PC
+  uuid: 6c2c33f5-8a80-44d5-bbce-d89408620523
+  subjects:
+  - entities:
+    - role: player
+      name: Pete Crow-Armstrong
+      ref: 
+    - role: team
+      name: Chicago Cubs
+      ref: 
+- number: DPC-PS
+  uuid: f8e24c75-a59f-4c45-9174-350bb9bca034
+  subjects:
+  - entities:
+    - role: player
+      name: Paul Skenes
+      ref: 
+    - role: team
+      name: Pittsburgh Pirates
+      ref: 
+- number: DPC-RG
+  uuid: 1131f4bd-aeff-4adf-93c4-bfda60eb50b4
+  subjects:
+  - entities:
+    - role: player
+      name: Riley Greene
+      ref: 
+    - role: team
+      name: Detroit Tigers
+      ref: 
+- number: DPC-RH
+  uuid: 89fcca6a-88f7-4cfd-b031-757832b2d9d0
+  subjects:
+  - entities:
+    - role: player
+      name: Rickey Henderson
+      ref: 
+    - role: team
+      name: Oakland Athletics
+      ref: 
+- number: DPC-RJ
+  uuid: 26859a93-537f-4424-b119-29f80ed00880
+  subjects:
+  - entities:
+    - role: player
+      name: Reggie Jackson
+      ref: 
+    - role: team
+      name: California Angels
+      ref: 
+- number: DPC-SA
+  uuid: 75665310-e358-4d26-91ee-acd34f774948
+  subjects:
+  - entities:
+    - role: player
+      name: Sandy Alcantara
+      ref: 
+    - role: team
+      name: Miami Marlins
+      ref: 
+- number: DPC-SO
+  uuid: 55edd76e-ccaf-4e6d-92a1-09bfdeda37f1
+  subjects:
+  - entities:
+    - role: player
+      name: Shohei Ohtani
+      ref: 
+    - role: team
+      name: Los Angeles Dodgers
+      ref: 
+- number: DPC-SP
+  uuid: d2e8ec22-fdcf-4d9f-afbb-7f97f0ec55e1
+  subjects:
+  - entities:
+    - role: player
+      name: Salvador Perez
+      ref: 
+    - role: team
+      name: Kansas City Royals
+      ref: 
+- number: DPC-TG
+  uuid: ed3c2c1d-bc6c-490c-80ab-c52c59307241
+  subjects:
+  - entities:
+    - role: player
+      name: Tony Gwynn
+      ref: 
+    - role: team
+      name: San Diego Padres
+      ref: 
+- number: DPC-TS
+  uuid: 718a7041-9c1b-4952-a30e-2ded2903dd67
+  subjects:
+  - entities:
+    - role: player
+      name: Tarik Skubal
+      ref: 
+    - role: team
+      name: Detroit Tigers
+      ref: 
+- number: DPC-TSO
+  uuid: 1035c024-e798-499d-8bbc-8405eeced8bc
+  subjects:
+  - entities:
+    - role: player
+      name: Tyler Soderstrom
+      ref: 
+    - role: team
+      name: Athletics
+      ref: 
+- number: DPC-TT
+  uuid: 79f0546c-1a2b-44a8-a9c4-7b5c4c669642
+  subjects:
+  - entities:
+    - role: player
+      name: Trea Turner
+      ref: 
+    - role: team
+      name: Philadelphia Phillies
+      ref: 
+- number: DPC-VGJ
+  uuid: 0230033e-d047-47e9-9b6f-2764fafb74c0
+  subjects:
+  - entities:
+    - role: player
+      name: Vladimir Guerrero Jr.
+      ref: 
+    - role: team
+      name: Toronto Blue Jays
+      ref: 
+- number: DPC-WM
+  uuid: b5a37309-eca9-4292-921d-c6817ba74ced
+  subjects:
+  - entities:
+    - role: player
+      name: Willie McCovey
+      ref: 
+    - role: team
+      name: San Francisco Giants
+      ref: 
+- number: DPC-WS
+  uuid: 2a6de277-c509-4f60-9967-8a2d893b12cc
+  subjects:
+  - entities:
+    - role: player
+      name: Willie Stargell
+      ref: 
+    - role: team
+      name: Pittsburgh Pirates
+      ref: 
+- number: DPC-YA
+  uuid: 5ff598be-1a7d-42a8-b27e-ad909b3d9501
+  subjects:
+  - entities:
+    - role: player
+      name: Yordan Alvarez
+      ref: 
+    - role: team
+      name: Houston Astros
+      ref: 
+- number: DPC-YD
+  uuid: ed93592c-be73-4a28-8918-91cb843f35a9
+  subjects:
+  - entities:
+    - role: player
+      name: Yu Darvish
+      ref: 
+    - role: team
+      name: San Diego Padres
+      ref: 
+- number: DPC-ZW
+  uuid: ba70fff2-9b01-43bd-9512-81fb4679982a
+  subjects:
+  - entities:
+    - role: player
+      name: Zack Wheeler
+      ref: 
+    - role: team
+      name: Philadelphia Phillies
+      ref: 

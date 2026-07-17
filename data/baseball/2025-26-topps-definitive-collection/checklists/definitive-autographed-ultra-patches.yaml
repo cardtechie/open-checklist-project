@@ -1,0 +1,400 @@
+- number: DAUP-AJB
+  uuid: 2a93d533-b638-4599-9576-56a6b29a7908
+  subjects:
+  - entities:
+    - role: player
+      name: Aaron Judge
+      ref: 
+    - role: team
+      name: New York Yankees
+      ref: 
+- number: DAUP-AJOB
+  uuid: 7aa42cf4-2a87-4e94-8053-abe5a02fa215
+  subjects:
+  - entities:
+    - role: player
+      name: Andruw Jones
+      ref: 
+    - role: team
+      name: Atlanta Braves
+      ref: 
+- number: DAUP-AJOT
+  uuid: e29a8012-7399-4915-af9a-d385d72d6623
+  subjects:
+  - entities:
+    - role: player
+      name: Andruw Jones
+      ref: 
+    - role: team
+      name: Atlanta Braves
+      ref: 
+- number: DAUP-AJT
+  uuid: b36cd29c-b21d-414c-8290-7f0af9427abc
+  subjects:
+  - entities:
+    - role: player
+      name: Aaron Judge
+      ref: 
+    - role: team
+      name: New York Yankees
+      ref: 
+- number: DAUP-ARB
+  uuid: b26310da-c272-4740-ad69-c018f8a09087
+  subjects:
+  - entities:
+    - role: player
+      name: Alex Rodriguez
+      ref: 
+    - role: team
+      name: Texas Rangers
+      ref: 
+- number: DAUP-ART
+  uuid: 4ac208ee-dbd0-450b-af83-4dae53a0d12b
+  subjects:
+  - entities:
+    - role: player
+      name: Alex Rodriguez
+      ref: 
+    - role: team
+      name: Texas Rangers
+      ref: 
+- number: DAUP-ARUB
+  uuid: d4a99ea8-d065-460b-a9e8-35b9fc5b582b
+  subjects:
+  - entities:
+    - role: player
+      name: Adley Rutschman
+      ref: 
+    - role: team
+      name: Baltimore Orioles
+      ref: 
+- number: DAUP-ARUT
+  uuid: e44e0453-b050-482c-aab2-51ff84a16584
+  subjects:
+  - entities:
+    - role: player
+      name: Adley Rutschman
+      ref: 
+    - role: team
+      name: Baltimore Orioles
+      ref: 
+- number: DAUP-BHB
+  uuid: a651dd26-c299-4f71-827f-9458b3b4d926
+  subjects:
+  - entities:
+    - role: player
+      name: Bryce Harper
+      ref: 
+    - role: team
+      name: Philadelphia Phillies
+      ref: 
+- number: DAUP-BHT
+  uuid: 653cc608-6659-4846-8a4b-d64049a7516d
+  subjects:
+  - entities:
+    - role: player
+      name: Bryce Harper
+      ref: 
+    - role: team
+      name: Philadelphia Phillies
+      ref: 
+- number: DAUP-CBB
+  uuid: 60ca8d67-1384-45a8-be1c-abe020b1d771
+  subjects:
+  - entities:
+    - role: player
+      name: Craig Biggio
+      ref: 
+    - role: team
+      name: Houston Astros
+      ref: 
+- number: DAUP-CBT
+  uuid: 7eac0c16-5e6c-4602-a0ff-eee80da6b3ae
+  subjects:
+  - entities:
+    - role: player
+      name: Craig Biggio
+      ref: 
+    - role: team
+      name: Houston Astros
+      ref: 
+- number: DAUP-CJB
+  uuid: f315516a-4d77-459e-a1d7-4fc66049b516
+  subjects:
+  - entities:
+    - role: player
+      name: Chipper Jones
+      ref: 
+    - role: team
+      name: Atlanta Braves
+      ref: 
+- number: DAUP-CJT
+  uuid: 18a31f01-432a-45e4-aaf6-91446db068cc
+  subjects:
+  - entities:
+    - role: player
+      name: Chipper Jones
+      ref: 
+    - role: team
+      name: Atlanta Braves
+      ref: 
+- number: DAUP-CSB
+  uuid: 1f1b2b6c-7559-4852-8075-f68cb0c0507e
+  subjects:
+  - entities:
+    - role: player
+      name: CC Sabathia
+      ref: 
+    - role: team
+      name: New York Yankees
+      ref: 
+- number: DAUP-CST
+  uuid: 324424b6-1b37-409b-9fcb-8b915e66be9c
+  subjects:
+  - entities:
+    - role: player
+      name: CC Sabathia
+      ref: 
+    - role: team
+      name: New York Yankees
+      ref: 
+- number: DAUP-FHB
+  uuid: fee9cfd4-9057-4ae1-ab5e-9eb6b062b6f2
+  subjects:
+  - entities:
+    - role: player
+      name: Félix Hernández
+      ref: 
+    - role: team
+      name: Seattle Mariners
+      ref: 
+- number: DAUP-FHT
+  uuid: 17542217-4092-4810-8639-7b6aad56c15d
+  subjects:
+  - entities:
+    - role: player
+      name: Félix Hernández
+      ref: 
+    - role: team
+      name: Seattle Mariners
+      ref: 
+- number: DAUP-FLB
+  uuid: 79cafce3-7e6f-44c1-824d-67691467a3f9
+  subjects:
+  - entities:
+    - role: player
+      name: Francisco Lindor
+      ref: 
+    - role: team
+      name: New York Mets
+      ref: 
+- number: DAUP-FLT
+  uuid: a00b108f-c69a-49cd-9c3c-c45b1199a11b
+  subjects:
+  - entities:
+    - role: player
+      name: Francisco Lindor
+      ref: 
+    - role: team
+      name: New York Mets
+      ref: 
+- number: DAUP-HRB
+  uuid: fba03398-dd7f-4ef5-b1cb-9f32610089c2
+  subjects:
+  - entities:
+    - role: player
+      name: Hanley Ramirez
+      ref: 
+    - role: team
+      name: Florida Marlins
+      ref: 
+- number: DAUP-HRT
+  uuid: 3bffd208-417f-46ac-b5eb-56d2fe683a04
+  subjects:
+  - entities:
+    - role: player
+      name: Hanley Ramirez
+      ref: 
+    - role: team
+      name: Florida Marlins
+      ref: 
+- number: DAUP-JRAB
+  uuid: d65b327a-229b-4090-bdcd-738fb03809e5
+  subjects:
+  - entities:
+    - role: player
+      name: José Ramírez
+      ref: 
+    - role: team
+      name: Cleveland Guardians
+      ref: 
+- number: DAUP-JRAT
+  uuid: 9caf0538-1f38-4b57-9ef2-76c2c752393a
+  subjects:
+  - entities:
+    - role: player
+      name: José Ramírez
+      ref: 
+    - role: team
+      name: Cleveland Guardians
+      ref: 
+- number: DAUP-JRB
+  uuid: 5769de36-b8b0-49ca-a570-ddc64b3b171c
+  subjects:
+  - entities:
+    - role: player
+      name: Julio Rodríguez
+      ref: 
+    - role: team
+      name: Seattle Mariners
+      ref: 
+- number: DAUP-JRT
+  uuid: d6b8eeb7-5f73-4a9f-b30a-2a99088e2090
+  subjects:
+  - entities:
+    - role: player
+      name: Julio Rodríguez
+      ref: 
+    - role: team
+      name: Seattle Mariners
+      ref: 
+- number: DAUP-JWB
+  uuid: 41dab24d-01fd-484e-a6ce-e8d03fbe06d6
+  subjects:
+  - entities:
+    - role: player
+      name: James Wood
+      ref: 
+    - role: team
+      name: Washington Nationals
+      ref: 
+- number: DAUP-JWT
+  uuid: faf0b68b-2fab-48db-b79b-1394ee84f0d7
+  subjects:
+  - entities:
+    - role: player
+      name: James Wood
+      ref: 
+    - role: team
+      name: Washington Nationals
+      ref: 
+- number: DAUP-LWB
+  uuid: d4ab0b85-21f2-4168-be20-702b0228840e
+  subjects:
+  - entities:
+    - role: player
+      name: Larry Walker
+      ref: 
+    - role: team
+      name: Colorado Rockies
+      ref: 
+- number: DAUP-LWT
+  uuid: dfe269ba-f58f-46b3-93ad-c9f8c7f84438
+  subjects:
+  - entities:
+    - role: player
+      name: Larry Walker
+      ref: 
+    - role: team
+      name: Colorado Rockies
+      ref: 
+- number: DAUP-MCB
+  uuid: 878aa28c-fe84-47ca-87e4-4d1df75c6c10
+  subjects:
+  - entities:
+    - role: player
+      name: Miguel Cabrera
+      ref: 
+    - role: team
+      name: Detroit Tigers
+      ref: 
+- number: DAUP-MCT
+  uuid: 7be5eca9-298f-4abb-a6de-48113969b10f
+  subjects:
+  - entities:
+    - role: player
+      name: Miguel Cabrera
+      ref: 
+    - role: team
+      name: Detroit Tigers
+      ref: 
+- number: DAUP-MMB
+  uuid: b2303168-ec7b-424e-a832-30322f5e90c1
+  subjects:
+  - entities:
+    - role: player
+      name: Manny Machado
+      ref: 
+    - role: team
+      name: San Diego Padres
+      ref: 
+- number: DAUP-MMT
+  uuid: f407380c-0f8c-4ced-ba9c-5540a0b5ec76
+  subjects:
+  - entities:
+    - role: player
+      name: Manny Machado
+      ref: 
+    - role: team
+      name: San Diego Padres
+      ref: 
+- number: DAUP-PAB
+  uuid: eab43821-4aae-4787-92cc-7de5761f4ff9
+  subjects:
+  - entities:
+    - role: player
+      name: Pete Alonso
+      ref: 
+    - role: team
+      name: New York Mets
+      ref: 
+- number: DAUP-PAT
+  uuid: '01369221-b39e-4d5f-a36a-6c66e103e270'
+  subjects:
+  - entities:
+    - role: player
+      name: Pete Alonso
+      ref: 
+    - role: team
+      name: New York Mets
+      ref: 
+- number: DAUP-RAB
+  uuid: 8dbbfa98-a9fa-48b1-ac64-38ebe6ae90fe
+  subjects:
+  - entities:
+    - role: player
+      name: Ronald Acuña Jr.
+      ref: 
+    - role: team
+      name: Atlanta Braves
+      ref: 
+- number: DAUP-RAT
+  uuid: 8bdb38ad-9e01-4c00-83f5-42cbcd5a6f5a
+  subjects:
+  - entities:
+    - role: player
+      name: Ronald Acuña Jr.
+      ref: 
+    - role: team
+      name: Atlanta Braves
+      ref: 
+- number: DAUP-VGB
+  uuid: 79904f6d-b937-4ee5-ac41-5201da3b7026
+  subjects:
+  - entities:
+    - role: player
+      name: Vladimir Guerrero Jr.
+      ref: 
+    - role: team
+      name: Toronto Blue Jays
+      ref: 
+- number: DAUP-VGT
+  uuid: 8ab764e4-e4cf-4c98-9cc7-4c2b36b60b4c
+  subjects:
+  - entities:
+    - role: player
+      name: Vladimir Guerrero Jr.
+      ref: 
+    - role: team
+      name: Toronto Blue Jays
+      ref: 

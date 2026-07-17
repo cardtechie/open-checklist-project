@@ -1,0 +1,200 @@
+- number: '1'
+  uuid: d83c76e8-bde3-425d-a1cc-0fa3592a4dc1
+  subjects:
+  - entities:
+    - role: player
+      name: Chase DeLauter
+      ref: 
+    - role: team
+      name: Cleveland Guardians
+      ref: 
+- number: '2'
+  uuid: 477b473e-375d-4718-b6b4-51a55198a82c
+  subjects:
+  - entities:
+    - role: player
+      name: Billy Carlson
+      ref: 
+    - role: team
+      name: Chicago White Sox
+      ref: 
+- number: '3'
+  uuid: bc6d2a2b-94fa-4b3d-a391-5c9c8fef560c
+  subjects:
+  - entities:
+    - role: player
+      name: Ethan Holliday
+      ref: 
+    - role: team
+      name: Colorado Rockies
+      ref: 
+- number: '4'
+  uuid: d76b422f-5843-401b-b338-82b12e4703e7
+  subjects:
+  - entities:
+    - role: player
+      name: Jonah Tong
+      ref: 
+    - role: team
+      name: New York Mets
+      ref: 
+- number: '5'
+  uuid: 3c6b312f-809a-4813-b090-0073f48928c0
+  subjects:
+  - entities:
+    - role: player
+      name: Eli Willits
+      ref: 
+    - role: team
+      name: Washington Nationals
+      ref: 
+- number: '6'
+  uuid: e0185730-d8fc-4d73-a52e-d17343a497e7
+  subjects:
+  - entities:
+    - role: player
+      name: Randy Johnson
+      ref: 
+    - role: team
+      name: Montreal Expos
+      ref: 
+- number: '7'
+  uuid: f813d408-c2db-4f9b-b234-0645f6da376c
+  subjects:
+  - entities:
+    - role: player
+      name: Albert Pujols
+      ref: 
+    - role: team
+      name: St. Louis Cardinals
+      ref: 
+- number: '8'
+  uuid: 9b917818-d43d-4758-91ce-cef2cd96b66a
+  subjects:
+  - entities:
+    - role: player
+      name: Roman Anthony
+      ref: 
+    - role: team
+      name: Boston Red Sox
+      ref: 
+- number: '9'
+  uuid: b837c337-7394-4ecf-894c-e08189606560
+  subjects:
+  - entities:
+    - role: player
+      name: Trey Yesavage
+      ref: 
+    - role: team
+      name: Toronto Blue Jays
+      ref: 
+- number: '10'
+  uuid: 311fd7d7-1d19-47ad-984d-6f039701a708
+  subjects:
+  - entities:
+    - role: player
+      name: Deion Sanders
+      ref: 
+    - role: team
+      name: Cincinnati Reds
+      ref: 
+- number: '11'
+  uuid: 138db4e0-4f9a-41c7-8736-aa80d18474c6
+  subjects:
+  - entities:
+    - role: player
+      name: Braden Montgomery
+      ref: 
+    - role: team
+      name: Chicago White Sox
+      ref: 
+- number: '12'
+  uuid: 2ae0647a-0697-4e01-9f4c-62623435e129
+  subjects:
+  - entities:
+    - role: player
+      name: Jacob Misiorowski
+      ref: 
+    - role: team
+      name: Milwaukee Brewers
+      ref: 
+- number: '13'
+  uuid: 3d2c0ce7-ae77-43a7-beb2-53bc9760f297
+  subjects:
+  - entities:
+    - role: player
+      name: Dylan Crews
+      ref: 
+    - role: team
+      name: Washington Nationals
+      ref: 
+- number: '14'
+  uuid: c8ebed19-b819-45ef-b4c1-7bbde94043a3
+  subjects:
+  - entities:
+    - role: player
+      name: Ken Griffey Jr.
+      ref: 
+    - role: team
+      name: Seattle Mariners
+      ref: 
+- number: '15'
+  uuid: 7c44516e-51c0-45cd-80d9-d2c560e5885a
+  subjects:
+  - entities:
+    - role: player
+      name: Konnor Griffin
+      ref: 
+    - role: team
+      name: Pittsburgh Pirates
+      ref: 
+- number: '16'
+  uuid: a38bb7eb-f82e-4da0-8854-99ecf9c7a663
+  subjects:
+  - entities:
+    - role: player
+      name: Cade Horton
+      ref: 
+    - role: team
+      name: Chicago Cubs
+      ref: 
+- number: '17'
+  uuid: 6ae9fc6b-3353-4198-a063-464993ffbdf2
+  subjects:
+  - entities:
+    - role: player
+      name: Aaron Judge
+      ref: 
+    - role: team
+      name: New York Yankees
+      ref: 
+- number: '18'
+  uuid: 1bfbb8bf-6118-4eed-8810-acbefe53ea51
+  subjects:
+  - entities:
+    - role: player
+      name: Mariano Rivera
+      ref: 
+    - role: team
+      name: New York Yankees
+      ref: 
+- number: '19'
+  uuid: 49c9e3a2-05ae-4a83-b8ad-189df7d3e052
+  subjects:
+  - entities:
+    - role: player
+      name: Paul Skenes
+      ref: 
+    - role: team
+      name: Pittsburgh Pirates
+      ref: 
+- number: '20'
+  uuid: 3408c97d-c2fb-4434-a9ea-15e56ae743cd
+  subjects:
+  - entities:
+    - role: player
+      name: Bobby Witt Jr.
+      ref: 
+    - role: team
+      name: Kansas City Royals
+      ref: 

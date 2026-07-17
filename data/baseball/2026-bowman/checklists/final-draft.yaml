@@ -1,0 +1,200 @@
+- number: FD-1
+  uuid: 1659ec9a-ce6f-4aa7-9b6d-f52035fc002b
+  subjects:
+  - entities:
+    - role: player
+      name: Derek Jeter
+      ref: 
+    - role: team
+      name: New York Yankees
+      ref: 
+- number: FD-2
+  uuid: 39ede2f2-0226-405e-a60c-affe2ccba94b
+  subjects:
+  - entities:
+    - role: player
+      name: Ken Griffey Jr.
+      ref: 
+    - role: team
+      name: Seattle Mariners
+      ref: 
+- number: FD-3
+  uuid: dc174c89-45e4-4e0b-88b5-b9152543d0ff
+  subjects:
+  - entities:
+    - role: player
+      name: Ethan Holliday
+      ref: 
+    - role: team
+      name: Colorado Rockies
+      ref: 
+- number: FD-4
+  uuid: 3f429b43-b26e-462e-9ff4-2aa07dcc36b3
+  subjects:
+  - entities:
+    - role: player
+      name: Bryce Eldridge
+      ref: 
+    - role: team
+      name: San Francisco Giants
+      ref: 
+- number: FD-5
+  uuid: bfed29b0-3d0b-4048-a315-7cbaed73ddee
+  subjects:
+  - entities:
+    - role: player
+      name: Munetaka Murakami
+      ref: 
+    - role: team
+      name: Chicago White Sox
+      ref: 
+- number: FD-6
+  uuid: 1bef75b3-b403-4975-b9a4-6debb452d376
+  subjects:
+  - entities:
+    - role: player
+      name: Ronald Acuña Jr.
+      ref: 
+    - role: team
+      name: Atlanta Braves
+      ref: 
+- number: FD-7
+  uuid: d7bc6a67-eaee-4a46-8559-f365f40e28a2
+  subjects:
+  - entities:
+    - role: player
+      name: Samuel Basallo
+      ref: 
+    - role: team
+      name: Baltimore Orioles
+      ref: 
+- number: FD-8
+  uuid: fac4cc51-4a1d-4e25-bf76-3658a5aaee0e
+  subjects:
+  - entities:
+    - role: player
+      name: Jacob Misiorowski
+      ref: 
+    - role: team
+      name: Milwaukee Brewers
+      ref: 
+- number: FD-9
+  uuid: 388d34f8-4c22-478a-95a5-cf5e51d99cf1
+  subjects:
+  - entities:
+    - role: player
+      name: Juan Soto
+      ref: 
+    - role: team
+      name: New York Mets
+      ref: 
+- number: FD-10
+  uuid: 370462c8-4b95-488d-ad24-e73b4a2eb2ec
+  subjects:
+  - entities:
+    - role: player
+      name: Jac Caglianone
+      ref: 
+    - role: team
+      name: Kansas City Royals
+      ref: 
+- number: FD-11
+  uuid: d84895e5-30e5-40e1-ae34-395fb0054a84
+  subjects:
+  - entities:
+    - role: player
+      name: Shohei Ohtani
+      ref: 
+    - role: team
+      name: Los Angeles Dodgers
+      ref: 
+- number: FD-12
+  uuid: 7ea72bd2-46b9-4c05-9b48-05a90ac211e8
+  subjects:
+  - entities:
+    - role: player
+      name: Nick Kurtz
+      ref: 
+    - role: team
+      name: Athletics
+      ref: 
+- number: FD-13
+  uuid: a383b9d9-0d0b-426c-ae6f-31035b98ee6e
+  subjects:
+  - entities:
+    - role: player
+      name: Roman Anthony
+      ref: 
+    - role: team
+      name: Boston Red Sox
+      ref: 
+- number: FD-14
+  uuid: ff32f4fc-c09d-4ad8-9b36-7f5bd54f51e4
+  subjects:
+  - entities:
+    - role: player
+      name: Paul Skenes
+      ref: 
+    - role: team
+      name: Pittsburgh Pirates
+      ref: 
+- number: FD-15
+  uuid: f5b1eccb-fdf0-4133-81b3-2357c6b4d29c
+  subjects:
+  - entities:
+    - role: player
+      name: Manny Ramirez
+      ref: 
+    - role: team
+      name: Boston Red Sox
+      ref: 
+- number: FD-16
+  uuid: 846a18ee-3ac7-4982-b84f-f735c3a703b6
+  subjects:
+  - entities:
+    - role: player
+      name: Mark McGwire
+      ref: 
+    - role: team
+      name: St. Louis Cardinals
+      ref: 
+- number: FD-17
+  uuid: aea3db4b-5146-465b-bb85-9d84f95ef95b
+  subjects:
+  - entities:
+    - role: player
+      name: Elly De La Cruz
+      ref: 
+    - role: team
+      name: Cincinnati Reds
+      ref: 
+- number: FD-18
+  uuid: 4b81ce51-cf0c-4027-b3cd-ec79c0c6cd44
+  subjects:
+  - entities:
+    - role: player
+      name: Konnor Griffin
+      ref: 
+    - role: team
+      name: Pittsburgh Pirates
+      ref: 
+- number: FD-19
+  uuid: d0c5129f-ad58-4429-b0d7-3c84b629c4b8
+  subjects:
+  - entities:
+    - role: player
+      name: Bryce Harper
+      ref: 
+    - role: team
+      name: Philadelphia Phillies
+      ref: 
+- number: FD-20
+  uuid: c4277ba8-62c1-44e3-a39b-4ba3b8b4a8ce
+  subjects:
+  - entities:
+    - role: player
+      name: Cal Raleigh
+      ref: 
+    - role: team
+      name: Seattle Mariners
+      ref: 

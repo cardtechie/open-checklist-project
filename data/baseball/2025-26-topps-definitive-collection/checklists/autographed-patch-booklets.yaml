@@ -1,0 +1,400 @@
+- number: APBC-AB
+  uuid: 9c7ea040-a454-4cd1-ad99-2ed525fe1efc
+  subjects:
+  - entities:
+    - role: player
+      name: Alex Bregman
+      ref: 
+    - role: team
+      name: Houston Astros
+      ref: 
+- number: APBC-AJ
+  uuid: 41d8801e-870a-4cde-88d9-9e89d36a9374
+  subjects:
+  - entities:
+    - role: player
+      name: Aaron Judge
+      ref: 
+    - role: team
+      name: New York Yankees
+      ref: 
+- number: APBC-AJO
+  uuid: ab89b09a-32d0-4c26-95b1-f94c05ba54b9
+  subjects:
+  - entities:
+    - role: player
+      name: Andruw Jones
+      ref: 
+    - role: team
+      name: Atlanta Braves
+      ref: 
+- number: APBC-AM
+  uuid: b8d3a8d7-b4fb-4e61-8910-661e314ad6d7
+  subjects:
+  - entities:
+    - role: player
+      name: Andrew McCutchen
+      ref: 
+    - role: team
+      name: Pittsburgh Pirates
+      ref: 
+- number: APBC-AP
+  uuid: 7e00a7fa-c1a5-40ad-bc2c-29be6513af27
+  subjects:
+  - entities:
+    - role: player
+      name: Albert Pujols
+      ref: 
+    - role: team
+      name: Los Angeles Angels
+      ref: 
+- number: APBC-AR
+  uuid: e026ffc9-736c-4099-b4f5-bc6643ab5940
+  subjects:
+  - entities:
+    - role: player
+      name: Austin Riley
+      ref: 
+    - role: team
+      name: Atlanta Braves
+      ref: 
+- number: APBC-AROD
+  uuid: 5b3482c7-f1b4-404f-81cc-79022dd666ae
+  subjects:
+  - entities:
+    - role: player
+      name: Alex Rodriguez
+      ref: 
+    - role: team
+      name: Texas Rangers
+      ref: 
+- number: APBC-ARU
+  uuid: 15eabb3d-1178-4b89-8a29-a1d5b1cdc71a
+  subjects:
+  - entities:
+    - role: player
+      name: Adley Rutschman
+      ref: 
+    - role: team
+      name: Baltimore Orioles
+      ref: 
+- number: APBC-BB
+  uuid: 11cfdcbb-7be9-445f-9fc1-6b57677f9731
+  subjects:
+  - entities:
+    - role: player
+      name: Byron Buxton
+      ref: 
+    - role: team
+      name: Minnesota Twins
+      ref: 
+- number: APBC-BH
+  uuid: 53128828-de56-47e8-8a8a-f2c78ac9526f
+  subjects:
+  - entities:
+    - role: player
+      name: Bryce Harper
+      ref: 
+    - role: team
+      name: Philadelphia Phillies
+      ref: 
+- number: APBC-BL
+  uuid: bb3e8cb8-29b4-408c-b710-cfb4c6270978
+  subjects:
+  - entities:
+    - role: player
+      name: Brooks Lee
+      ref: 
+    - role: team
+      name: Minnesota Twins
+      ref: 
+- number: APBC-CAM
+  uuid: 769aa61b-a786-4acc-a9d2-22701305f0c6
+  subjects:
+  - entities:
+    - role: player
+      name: Cam Smith
+      ref: 
+    - role: team
+      name: Houston Astros
+      ref: 
+- number: APBC-CC
+  uuid: e3a8dd09-58b9-47c2-9fce-b3ccab59512f
+  subjects:
+  - entities:
+    - role: player
+      name: Corbin Carroll
+      ref: 
+    - role: team
+      name: Arizona Diamondbacks
+      ref: 
+- number: APBC-CJ
+  uuid: 16298861-71d4-4886-9d69-f9a49b9de6f4
+  subjects:
+  - entities:
+    - role: player
+      name: Chipper Jones
+      ref: 
+    - role: team
+      name: Atlanta Braves
+      ref: 
+- number: APBC-CK
+  uuid: 19ab4dd3-5df5-4bd2-8a87-94644f12ce6f
+  subjects:
+  - entities:
+    - role: player
+      name: Clayton Kershaw
+      ref: 
+    - role: team
+      name: Los Angeles Dodgers
+      ref: 
+- number: APBC-CS
+  uuid: d04662d4-ea50-4ea4-875d-c14ab4be389d
+  subjects:
+  - entities:
+    - role: player
+      name: CC Sabathia
+      ref: 
+    - role: team
+      name: New York Yankees
+      ref: 
+- number: APBC-CY
+  uuid: b8b8d413-3173-40be-824a-297d2d0a8279
+  subjects:
+  - entities:
+    - role: player
+      name: Christian Yelich
+      ref: 
+    - role: team
+      name: Milwaukee Brewers
+      ref: 
+- number: APBC-DC
+  uuid: 0ab03787-bc94-4072-ae8d-690b6e7d9501
+  subjects:
+  - entities:
+    - role: player
+      name: Dylan Crews
+      ref: 
+    - role: team
+      name: Washington Nationals
+      ref: 
+- number: APBC-FF
+  uuid: 214192e6-ceb4-415e-b82a-fe39e894801d
+  subjects:
+  - entities:
+    - role: player
+      name: Freddie Freeman
+      ref: 
+    - role: team
+      name: Los Angeles Dodgers
+      ref: 
+- number: APBC-FL
+  uuid: 0a3b7a9f-b1a5-447d-b72f-589235ccff7e
+  subjects:
+  - entities:
+    - role: player
+      name: Francisco Lindor
+      ref: 
+    - role: team
+      name: New York Mets
+      ref: 
+- number: APBC-FT
+  uuid: 1f2e7985-fcf1-4ec1-a204-14120ce57fe9
+  subjects:
+  - entities:
+    - role: player
+      name: Fernando Tatis Jr.
+      ref: 
+    - role: team
+      name: San Diego Padres
+      ref: 
+- number: APBC-I
+  uuid: b7e5908e-61e8-4cd7-b1f2-339c87b1c7d9
+  subjects:
+  - entities:
+    - role: player
+      name: Ichiro
+      ref: 
+    - role: team
+      name: Seattle Mariners
+      ref: 
+- number: APBC-JA
+  uuid: 2a0dee67-197a-448a-80b1-c10b944f7e4e
+  subjects:
+  - entities:
+    - role: player
+      name: Jose Altuve
+      ref: 
+    - role: team
+      name: Houston Astros
+      ref: 
+- number: APBC-JM
+  uuid: 5f95f1dc-bb59-4b67-b03b-5826519cac53
+  subjects:
+  - entities:
+    - role: player
+      name: Jackson Merrill
+      ref: 
+    - role: team
+      name: San Diego Padres
+      ref: 
+- number: APBC-JR
+  uuid: 7d1e2691-a4b2-4a59-bdd9-8b903d680c33
+  subjects:
+  - entities:
+    - role: player
+      name: Julio Rodríguez
+      ref: 
+    - role: team
+      name: Seattle Mariners
+      ref: 
+- number: APBC-JT
+  uuid: 94ba21ff-72bd-4400-974a-110a5d2d6703
+  subjects:
+  - entities:
+    - role: player
+      name: J.T. Realmuto
+      ref: 
+    - role: team
+      name: Philadelphia Phillies
+      ref: 
+- number: APBC-JV
+  uuid: ed7eb928-e0b2-4d0e-84d2-ba339fb54151
+  subjects:
+  - entities:
+    - role: player
+      name: Joey Votto
+      ref: 
+    - role: team
+      name: Cincinnati Reds
+      ref: 
+- number: APBC-JW
+  uuid: 912e243b-f1fe-4107-ba54-ef574d69796a
+  subjects:
+  - entities:
+    - role: player
+      name: James Wood
+      ref: 
+    - role: team
+      name: Washington Nationals
+      ref: 
+- number: APBC-KT
+  uuid: 855bbf9f-8768-4b28-a59d-8cd43051de67
+  subjects:
+  - entities:
+    - role: player
+      name: Kyle Tucker
+      ref: 
+    - role: team
+      name: Houston Astros
+      ref: 
+- number: APBC-LW
+  uuid: 22fb90a1-cff3-422c-a3af-93ef9b77c038
+  subjects:
+  - entities:
+    - role: player
+      name: Larry Walker
+      ref: 
+    - role: team
+      name: Colorado Rockies
+      ref: 
+- number: APBC-MM
+  uuid: 97083b82-b2cb-4bd9-a6a9-db4199c8e2db
+  subjects:
+  - entities:
+    - role: player
+      name: Manny Machado
+      ref: 
+    - role: team
+      name: San Diego Padres
+      ref: 
+- number: APBC-MT
+  uuid: 1cf3f750-111a-4502-acb2-66482445d327
+  subjects:
+  - entities:
+    - role: player
+      name: Mike Trout
+      ref: 
+    - role: team
+      name: Los Angeles Angels
+      ref: 
+- number: APBC-PA
+  uuid: fef9247f-3384-456e-97e7-fb8add7de9b4
+  subjects:
+  - entities:
+    - role: player
+      name: Pete Alonso
+      ref: 
+    - role: team
+      name: New York Mets
+      ref: 
+- number: APBC-PCA
+  uuid: bef867c1-ff4b-42a9-b8ab-e2d495adf3e6
+  subjects:
+  - entities:
+    - role: player
+      name: Pete Crow-Armstrong
+      ref: 
+    - role: team
+      name: Chicago Cubs
+      ref: 
+- number: APBC-PF
+  uuid: c42cb8c4-3483-42b3-8f7b-f45ea33755ff
+  subjects:
+  - entities:
+    - role: player
+      name: Prince Fielder
+      ref: 
+    - role: team
+      name: Texas Rangers
+      ref: 
+- number: APBC-RA
+  uuid: c772dbef-a8d3-4218-90b3-1d9bf73ca345
+  subjects:
+  - entities:
+    - role: player
+      name: Ronald Acuña Jr.
+      ref: 
+    - role: team
+      name: Atlanta Braves
+      ref: 
+- number: APBC-SO
+  uuid: 2066c420-dfc7-4eb7-acb1-9262fc2cd29f
+  subjects:
+  - entities:
+    - role: player
+      name: Shohei Ohtani
+      ref: 
+    - role: team
+      name: Los Angeles Dodgers
+      ref: 
+- number: APBC-TT
+  uuid: 6c4cab59-5837-4e9e-8bfa-8814f880d9fe
+  subjects:
+  - entities:
+    - role: player
+      name: Trea Turner
+      ref: 
+    - role: team
+      name: Philadelphia Phillies
+      ref: 
+- number: APBC-VG
+  uuid: 9d3e4d90-dec6-4f7a-9e9d-742597bcd965
+  subjects:
+  - entities:
+    - role: player
+      name: Vladimir Guerrero Jr.
+      ref: 
+    - role: team
+      name: Toronto Blue Jays
+      ref: 
+- number: APBC-WB
+  uuid: 9b060b63-1f3a-406e-88b6-d9b5d99841cf
+  subjects:
+  - entities:
+    - role: player
+      name: Wade Boggs
+      ref: 
+    - role: team
+      name: Boston Red Sox
+      ref: 

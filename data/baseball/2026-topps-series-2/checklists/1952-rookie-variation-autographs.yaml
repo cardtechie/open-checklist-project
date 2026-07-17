@@ -1,0 +1,190 @@
+- number: '129'
+  uuid: f902e57c-2a94-4540-9b2f-63c6471c143b
+  subjects:
+  - entities:
+    - role: player
+      name: Cole Young
+      ref: 
+    - role: team
+      name: Seattle Mariners
+      ref: 
+- number: '214'
+  uuid: 7edad94e-6770-44b9-8e61-4844a32800cb
+  subjects:
+  - entities:
+    - role: player
+      name: Nolan McLean
+      ref: 
+    - role: team
+      name: New York Mets
+      ref: 
+- number: '339'
+  uuid: 5973dddc-0ac6-4977-bb32-f9dba55ab958
+  subjects:
+  - entities:
+    - role: player
+      name: Dylan Beavers
+      ref: 
+    - role: team
+      name: Baltimore Orioles
+      ref: 
+- number: '372'
+  uuid: bc6b04de-c395-46af-adf5-674a7134b39d
+  subjects:
+  - entities:
+    - role: player
+      name: Sal Stewart
+      ref: 
+    - role: team
+      name: Cincinnati Reds
+      ref: 
+- number: '406'
+  uuid: 132a5404-8f28-4d5a-babb-30bd5f579a2b
+  subjects:
+  - entities:
+    - role: player
+      name: Bryce Eldridge
+      ref: 
+    - role: team
+      name: San Francisco Giants
+      ref: 
+- number: '435'
+  uuid: c6c14f7a-bb09-4346-a072-dd2266fa3c09
+  subjects:
+  - entities:
+    - role: player
+      name: Denzer Guzman
+      ref: 
+    - role: team
+      name: Los Angeles Angels
+      ref: 
+- number: '456'
+  uuid: c656853d-e62b-4955-bb21-f7e04f13addd
+  subjects:
+  - entities:
+    - role: player
+      name: Justin Dean
+      ref: 
+    - role: team
+      name: Los Angeles Dodgers
+      ref: 
+- number: '458'
+  uuid: 00b9fdc6-404a-420a-9648-27cd56e64ec3
+  subjects:
+  - entities:
+    - role: player
+      name: Chase DeLauter
+      ref: 
+    - role: team
+      name: Cleveland Guardians
+      ref: 
+- number: '501'
+  uuid: 4aac3cff-5b73-4bf9-a4c6-bbbe46969ffc
+  subjects:
+  - entities:
+    - role: player
+      name: Connelly Early
+      ref: 
+    - role: team
+      name: Boston Red Sox
+      ref: 
+- number: '530'
+  uuid: 12608d5f-f563-46f3-9917-bf527e6bf7bd
+  subjects:
+  - entities:
+    - role: player
+      name: Carter Jensen
+      ref: 
+    - role: team
+      name: Kansas City Royals
+      ref: 
+- number: '570'
+  uuid: 135411d8-d4e5-4994-a07a-0e6ea61f88c4
+  subjects:
+  - entities:
+    - role: player
+      name: Rolddy Muñoz
+      ref: 
+    - role: team
+      name: Atlanta Braves
+      ref: 
+- number: '578'
+  uuid: 76db4c97-1030-4c90-9a39-f828282f75b2
+  subjects:
+  - entities:
+    - role: player
+      name: Heriberto Hernández
+      ref: 
+    - role: team
+      name: Miami Marlins
+      ref: 
+- number: '601'
+  uuid: d227877b-e961-4885-aec9-5519ea44a2db
+  subjects:
+  - entities:
+    - role: player
+      name: Zach Cole
+      ref: 
+    - role: team
+      name: Houston Astros
+      ref: 
+- number: '603'
+  uuid: 156f4516-8701-4eec-8e24-61abd45cb2d1
+  subjects:
+  - entities:
+    - role: player
+      name: George Valera
+      ref: 
+    - role: team
+      name: Cleveland Guardians
+      ref: 
+- number: '620'
+  uuid: dc08287d-a7ab-45bb-b536-d4ae0caaa4e1
+  subjects:
+  - entities:
+    - role: player
+      name: Trey Yesavage
+      ref: 
+    - role: team
+      name: Toronto Blue Jays
+      ref: 
+- number: '623'
+  uuid: 6c2164a6-faed-47ce-8100-d7c3cc408300
+  subjects:
+  - entities:
+    - role: player
+      name: Rafael Flores
+      ref: 
+    - role: team
+      name: Pittsburgh Pirates
+      ref: 
+- number: '659'
+  uuid: f6fdd5a7-8909-465f-a748-be06fc4092f5
+  subjects:
+  - entities:
+    - role: player
+      name: Harry Ford
+      ref: 
+    - role: team
+      name: Seattle Mariners
+      ref: 
+- number: '665'
+  uuid: 53ce279e-b1a3-4f42-9fd8-a757096e1207
+  subjects:
+  - entities:
+    - role: player
+      name: Jose Corniell
+      ref: 
+    - role: team
+      name: Texas Rangers
+      ref: 
+- number: '674'
+  uuid: 3b7598ba-7e81-4afe-af9e-4f77c124e5d5
+  subjects:
+  - entities:
+    - role: player
+      name: Andre Granillo
+      ref: 
+    - role: team
+      name: St. Louis Cardinals
+      ref: 

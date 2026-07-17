@@ -1,0 +1,100 @@
+- number: 55WS-1
+  uuid: '0243955e-5c79-409d-b9b0-acb55d6abffa'
+  subjects:
+  - entities:
+    - role: player
+      name: Roy Campanella
+      ref: 
+    - role: team
+      name: Brooklyn Dodgers
+      ref: 
+- number: 55WS-2
+  uuid: 3bec003c-dcc9-4acf-ab3b-ab4b9b05de7d
+  subjects:
+  - entities:
+    - role: player
+      name: Pee Wee Reese
+      ref: 
+    - role: team
+      name: Brooklyn Dodgers
+      ref: 
+- number: 55WS-3
+  uuid: b2debf41-8958-4fdd-887e-37dbb89032c6
+  subjects:
+  - entities:
+    - role: player
+      name: Jackie Robinson
+      ref: 
+    - role: team
+      name: Brooklyn Dodgers
+      ref: 
+- number: 55WS-4
+  uuid: 3abf307f-8b3d-4870-bbee-ea931f2ba75f
+  subjects:
+  - entities:
+    - role: player
+      name: Duke Snider
+      ref: 
+    - role: team
+      name: Brooklyn Dodgers
+      ref: 
+- number: 55WS-5
+  uuid: 8b005665-51d8-4416-a7e3-bce21cb4c0eb
+  subjects:
+  - entities:
+    - role: player
+      name: Gil Hodges
+      ref: 
+    - role: team
+      name: Brooklyn Dodgers
+      ref: 
+- number: 55WS-6
+  uuid: b9a13324-4ee5-4b01-9bd2-973f975b5c9d
+  subjects:
+  - entities:
+    - role: player
+      name: Sandy Koufax
+      ref: 
+    - role: team
+      name: Brooklyn Dodgers
+      ref: 
+- number: 55WS-7
+  uuid: e4d4044c-6d61-4860-ae85-a9973e81ee8d
+  subjects:
+  - entities:
+    - role: player
+      name: Casey Stengel
+      ref: 
+    - role: team
+      name: New York Yankees
+      ref: 
+- number: 55WS-8
+  uuid: de544738-aacd-445f-a87d-ae8e8d9974dc
+  subjects:
+  - entities:
+    - role: player
+      name: Yogi Berra
+      ref: 
+    - role: team
+      name: New York Yankees
+      ref: 
+- number: 55WS-9
+  uuid: dfbf79aa-9339-4d01-ae19-a0f06a96d72b
+  subjects:
+  - entities:
+    - role: player
+      name: Whitey Ford
+      ref: 
+    - role: team
+      name: New York Yankees
+      ref: 
+- number: 55WS-10
+  uuid: e5c7990f-fb66-4204-a921-00a7e8108132
+  subjects:
+  - entities:
+    - role: player
+      name: Mickey Mantle
+      ref: 
+    - role: team
+      name: New York Yankees
+      ref: 

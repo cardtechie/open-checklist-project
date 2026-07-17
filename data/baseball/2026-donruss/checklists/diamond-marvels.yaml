@@ -1,0 +1,200 @@
+- number: '1'
+  uuid: 99d6cb56-533c-4492-bc7b-e4eebe60faaa
+  subjects:
+  - entities:
+    - role: player
+      name: Deion Sanders
+      ref: 
+    - role: team
+      name: Cincinnati Reds
+      ref: 
+- number: '2'
+  uuid: 3945880c-7427-401c-9eb2-99f2a1a4a847
+  subjects:
+  - entities:
+    - role: player
+      name: Nolan Ryan
+      ref: 
+    - role: team
+      name: Texas Rangers
+      ref: 
+- number: '3'
+  uuid: b6f8954f-c3cc-4760-8b36-e6c25e466662
+  subjects:
+  - entities:
+    - role: player
+      name: Bubba Chandler
+      ref: 
+    - role: team
+      name: Pittsburgh Pirates
+      ref: 
+- number: '4'
+  uuid: c9de9f0f-ef3d-4fbe-9c4c-e75a412f882d
+  subjects:
+  - entities:
+    - role: player
+      name: Ethan Holliday
+      ref: 
+    - role: team
+      name: Colorado Rockies
+      ref: 
+- number: '5'
+  uuid: 86508780-5a2e-4d5e-a14f-ffa474db9ce6
+  subjects:
+  - entities:
+    - role: player
+      name: Paul Skenes
+      ref: 
+    - role: team
+      name: Pittsburgh Pirates
+      ref: 
+- number: '6'
+  uuid: 0ae0faa7-f308-4382-93f9-09796c1f7227
+  subjects:
+  - entities:
+    - role: player
+      name: Nick Kurtz
+      ref: 
+    - role: team
+      name: Oakland A's
+      ref: 
+- number: '7'
+  uuid: a559fe31-a933-4b0b-891b-08397ffb1153
+  subjects:
+  - entities:
+    - role: player
+      name: Jacob Misiorowski
+      ref: 
+    - role: team
+      name: Milwaukee Brewers
+      ref: 
+- number: '8'
+  uuid: f1938d67-3353-450b-b469-4cb5b54d8efd
+  subjects:
+  - entities:
+    - role: player
+      name: Jackson Chourio
+      ref: 
+    - role: team
+      name: Milwaukee Brewers
+      ref: 
+- number: '9'
+  uuid: b7ebdfd2-5478-4b00-b621-21cb34073205
+  subjects:
+  - entities:
+    - role: player
+      name: Bobby Witt Jr.
+      ref: 
+    - role: team
+      name: Kansas City Royals
+      ref: 
+- number: '10'
+  uuid: e5dc5012-ff9d-41aa-b65a-171da0486b9f
+  subjects:
+  - entities:
+    - role: player
+      name: Cade Horton
+      ref: 
+    - role: team
+      name: Chicago Cubs
+      ref: 
+- number: '11'
+  uuid: 16f586a3-b569-43e9-935f-6e0ffc7a67ac
+  subjects:
+  - entities:
+    - role: player
+      name: Roman Anthony
+      ref: 
+    - role: team
+      name: Boston Red Sox
+      ref: 
+- number: '12'
+  uuid: 18533e8a-c6fe-4e01-80ea-5e43e3cd42c1
+  subjects:
+  - entities:
+    - role: player
+      name: Jonah Tong
+      ref: 
+    - role: team
+      name: New York Mets
+      ref: 
+- number: '13'
+  uuid: 8b3815de-7874-4979-9f1e-e6215e32dc6d
+  subjects:
+  - entities:
+    - role: player
+      name: Jacob Wilson
+      ref: 
+    - role: team
+      name: Oakland A's
+      ref: 
+- number: '14'
+  uuid: 12f3d5fe-96d4-466c-97fd-da6d39a1c85c
+  subjects:
+  - entities:
+    - role: player
+      name: Konnor Griffin
+      ref: 
+    - role: team
+      name: Pittsburgh Pirates
+      ref: 
+- number: '15'
+  uuid: c31e1cf0-6bfc-4d44-8b79-2e3c001522b0
+  subjects:
+  - entities:
+    - role: player
+      name: Trey Yesavage
+      ref: 
+    - role: team
+      name: Toronto Blue Jays
+      ref: 
+- number: '16'
+  uuid: ca5cee0f-2006-4753-9a1a-0d95277907f5
+  subjects:
+  - entities:
+    - role: player
+      name: Dylan Crews
+      ref: 
+    - role: team
+      name: Washington Nationals
+      ref: 
+- number: '17'
+  uuid: 52055e3a-2d9f-4d13-bffd-6ad0fd93e274
+  subjects:
+  - entities:
+    - role: player
+      name: James Wood
+      ref: 
+    - role: team
+      name: Washington Nationals
+      ref: 
+- number: '18'
+  uuid: 020a3dfa-f16a-4e4e-80e5-a8e1e3a36a29
+  subjects:
+  - entities:
+    - role: player
+      name: Aaron Judge
+      ref: 
+    - role: team
+      name: New York Yankees
+      ref: 
+- number: '19'
+  uuid: 575d63ce-14ea-492a-b042-899800ac6e1b
+  subjects:
+  - entities:
+    - role: player
+      name: Ken Griffey Jr.
+      ref: 
+    - role: team
+      name: Cincinnati Reds
+      ref: 
+- number: '20'
+  uuid: accf6abd-a4eb-4946-8968-5af6d4a98d14
+  subjects:
+  - entities:
+    - role: player
+      name: Marcelo Mayer
+      ref: 
+    - role: team
+      name: Boston Red Sox
+      ref: 

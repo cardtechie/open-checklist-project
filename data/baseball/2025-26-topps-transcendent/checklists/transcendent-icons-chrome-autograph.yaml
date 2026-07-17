@@ -1,0 +1,610 @@
+- number: TAIC-AP
+  uuid: f17436e7-7eee-4bbf-9fe0-65e542e7c38f
+  subjects:
+  - entities:
+    - role: player
+      name: Andy Pettitte
+      ref: 
+    - role: team
+      name: Houston Astros
+      ref: 
+- number: TAIC-APU
+  uuid: a85efeb6-70ab-4b87-998d-438e083db6e0
+  subjects:
+  - entities:
+    - role: player
+      name: Albert Pujols
+      ref: 
+    - role: team
+      name: St. Louis Cardinals
+      ref: 
+- number: TAIC-AV
+  uuid: 3a6cdbcf-3387-4eec-99ce-f00af2b983e3
+  subjects:
+  - entities:
+    - role: player
+      name: Anthony Volpe
+      ref: 
+    - role: team
+      name: New York Yankees
+      ref: 
+- number: TAIC-BAG
+  uuid: 29825ba7-56c7-4977-9faf-9117f30209ab
+  subjects:
+  - entities:
+    - role: player
+      name: Jeff Bagwell
+      ref: 
+    - role: team
+      name: Houston Astros
+      ref: 
+- number: TAIC-BB
+  uuid: c6eb9706-8f8f-4bb1-a3a0-b416e5661bea
+  subjects:
+  - entities:
+    - role: player
+      name: Barry Bonds
+      ref: 
+    - role: team
+      name: San Francisco Giants
+      ref: 
+- number: TAIC-BH
+  uuid: 8741e9be-c621-49d9-8ad9-cd41dd241b6b
+  subjects:
+  - entities:
+    - role: player
+      name: Bryce Harper
+      ref: 
+    - role: team
+      name: Philadelphia Phillies
+      ref: 
+- number: TAIC-BJ
+  uuid: 48633a3d-0bab-4ea6-87b7-2c5eea4d0132
+  subjects:
+  - entities:
+    - role: player
+      name: Bo Jackson
+      ref: 
+    - role: team
+      name: Kansas City Royals
+      ref: 
+- number: TAIC-BL
+  uuid: 6a9dcb0b-f2a9-4ffd-ac7b-c7adaed015e4
+  subjects:
+  - entities:
+    - role: player
+      name: Barry Larkin
+      ref: 
+    - role: team
+      name: Cincinnati Reds
+      ref: 
+- number: TAIC-BP
+  uuid: 3695a2f8-acb8-4bdf-a157-862cedb031c8
+  subjects:
+  - entities:
+    - role: player
+      name: Buster Posey
+      ref: 
+    - role: team
+      name: San Francisco Giants
+      ref: 
+- number: TAIC-BW
+  uuid: ef58c28b-fb66-49d9-8e13-c4dd00ad264f
+  subjects:
+  - entities:
+    - role: player
+      name: Bobby Witt Jr.
+      ref: 
+    - role: team
+      name: Kansas City Royals
+      ref: 
+- number: TAIC-CA
+  uuid: dcea1f48-29f9-4d6f-a24f-67d6dcaa9dde
+  subjects:
+  - entities:
+    - role: player
+      name: Cam Smith
+      ref: 
+    - role: team
+      name: Houston Astros
+      ref: 
+- number: TAIC-CC
+  uuid: da91184c-4772-409b-b084-4fb89f6eabd1
+  subjects:
+  - entities:
+    - role: player
+      name: Corbin Carroll
+      ref: 
+    - role: team
+      name: Arizona Diamondbacks
+      ref: 
+- number: TAIC-CF
+  uuid: cced3e99-ca79-49c9-aacf-0a768c01b4f8
+  subjects:
+  - entities:
+    - role: player
+      name: Carlton Fisk
+      ref: 
+    - role: team
+      name: Boston Red Sox
+      ref: 
+- number: TAIC-CJ
+  uuid: 6ea25b1b-d98b-43d4-8219-012e7e3d9316
+  subjects:
+  - entities:
+    - role: player
+      name: Chipper Jones
+      ref: 
+    - role: team
+      name: Atlanta Braves
+      ref: 
+- number: TAIC-CK
+  uuid: d91c995b-592b-4082-a801-b1e199780c9d
+  subjects:
+  - entities:
+    - role: player
+      name: Clayton Kershaw
+      ref: 
+    - role: team
+      name: Los Angeles Dodgers
+      ref: 
+- number: TAIC-CR
+  uuid: 944af537-c3ce-4fad-b120-f3e5d1de2709
+  subjects:
+  - entities:
+    - role: player
+      name: Cal Ripken Jr.
+      ref: 
+    - role: team
+      name: Baltimore Orioles
+      ref: 
+- number: TAIC-CU
+  uuid: 1584d956-1653-4c2b-9b08-d78325ae6977
+  subjects:
+  - entities:
+    - role: player
+      name: Chase Utley
+      ref: 
+    - role: team
+      name: Philadelphia Phillies
+      ref: 
+- number: TAIC-DJ
+  uuid: a2e6f018-8260-4ce5-bf92-559334bf8181
+  subjects:
+  - entities:
+    - role: player
+      name: Derek Jeter
+      ref: 
+    - role: team
+      name: New York Yankees
+      ref: 
+- number: TAIC-EM
+  uuid: 15c62fd8-fb67-4bae-a9ef-9313119989d4
+  subjects:
+  - entities:
+    - role: player
+      name: Eddie Murray
+      ref: 
+    - role: team
+      name: Baltimore Orioles
+      ref: 
+- number: TAIC-FT
+  uuid: acb4c54c-cac0-4d67-8c94-3a7aaf66d9b3
+  subjects:
+  - entities:
+    - role: player
+      name: Frank Thomas
+      ref: 
+    - role: team
+      name: Chicago White Sox
+      ref: 
+- number: TAIC-FTJ
+  uuid: 2369873e-5f3f-45fa-9834-979172811ded
+  subjects:
+  - entities:
+    - role: player
+      name: Fernando Tatis Jr.
+      ref: 
+    - role: team
+      name: San Diego Padres
+      ref: 
+- number: TAIC-GB
+  uuid: d797419d-9a96-401e-9879-a1649af0f154
+  subjects:
+  - entities:
+    - role: player
+      name: George Brett
+      ref: 
+    - role: team
+      name: Kansas City Royals
+      ref: 
+- number: TAIC-GM
+  uuid: 5e1c9272-8221-4ae8-9668-aa259d5e177d
+  subjects:
+  - entities:
+    - role: player
+      name: Greg Maddux
+      ref: 
+    - role: team
+      name: Chicago Cubs
+      ref: 
+- number: TAIC-HM
+  uuid: 674cc8a4-5f91-48ea-b352-15c3e4291f7c
+  subjects:
+  - entities:
+    - role: player
+      name: Hideki Matsui
+      ref: 
+    - role: team
+      name: New York Yankees
+      ref: 
+- number: TAIC-I
+  uuid: 75ef2c12-7640-46fd-91c1-40188695d337
+  subjects:
+  - entities:
+    - role: player
+      name: Ichiro
+      ref: 
+    - role: team
+      name: Seattle Mariners
+      ref: 
+- number: TAIC-IR
+  uuid: e8b38574-7a36-48ec-8095-aeafa4d3fb3d
+  subjects:
+  - entities:
+    - role: player
+      name: Ivan Rodriguez
+      ref: 
+    - role: team
+      name: Florida Marlins
+      ref: 
+- number: TAIC-JB
+  uuid: 8197a182-1809-4284-9683-4572821f4dae
+  subjects:
+  - entities:
+    - role: player
+      name: Johnny Bench
+      ref: 
+    - role: team
+      name: Cincinnati Reds
+      ref: 
+- number: TAIC-JC
+  uuid: 4eddf365-1c76-49a5-9be6-fbffe967e898
+  subjects:
+  - entities:
+    - role: player
+      name: Jackson Chourio
+      ref: 
+    - role: team
+      name: Milwaukee Brewers
+      ref: 
+- number: TAIC-JH
+  uuid: 5c567790-a74d-43e4-a503-248c0cc68516
+  subjects:
+  - entities:
+    - role: player
+      name: Jackson Holliday
+      ref: 
+    - role: team
+      name: Baltimore Orioles
+      ref: 
+- number: TAIC-JP
+  uuid: ad9f697e-1848-459f-80d0-b69883fb930c
+  subjects:
+  - entities:
+    - role: player
+      name: Jorge Posada
+      ref: 
+    - role: team
+      name: New York Yankees
+      ref: 
+- number: TAIC-JRA
+  uuid: 357e8d9b-4848-494c-8d35-701aad458e70
+  subjects:
+  - entities:
+    - role: player
+      name: José Ramírez
+      ref: 
+    - role: team
+      name: Cleveland Guardians
+      ref: 
+- number: TAIC-JS
+  uuid: fc7dd472-04ce-4b73-a7b0-af0c60fb0962
+  subjects:
+  - entities:
+    - role: player
+      name: Juan Soto
+      ref: 
+    - role: team
+      name: New York Mets
+      ref: 
+- number: TAIC-JW
+  uuid: d10ea4f0-0bf7-44e0-aa2a-baa107ac21ae
+  subjects:
+  - entities:
+    - role: player
+      name: James Wood
+      ref: 
+    - role: team
+      name: Washington Nationals
+      ref: 
+- number: TAIC-KA
+  uuid: d8898a31-7624-4ca5-bcf4-b61fd5c57406
+  subjects:
+  - entities:
+    - role: player
+      name: Kevin Alcántara
+      ref: 
+    - role: team
+      name: Chicago Cubs
+      ref: 
+- number: TAIC-KC
+  uuid: 27ddff32-f7d2-4489-8faf-e40dcad0c823
+  subjects:
+  - entities:
+    - role: player
+      name: Kristian Campbell
+      ref: 
+    - role: team
+      name: Boston Red Sox
+      ref: 
+- number: TAIC-KG
+  uuid: 149d71a5-9f9e-4a1e-9e60-0128900a3b19
+  subjects:
+  - entities:
+    - role: player
+      name: Ken Griffey Jr.
+      ref: 
+    - role: team
+      name: Seattle Mariners
+      ref: 
+- number: TAIC-LEE
+  uuid: c302db91-379f-4ef6-b9f3-5b7c007c024b
+  subjects:
+  - entities:
+    - role: player
+      name: Brooks Lee
+      ref: 
+    - role: team
+      name: Minnesota Twins
+      ref: 
+- number: TAIC-MA
+  uuid: fb22f7ea-3862-4159-b53d-4d3293ff2b29
+  subjects:
+  - entities:
+    - role: player
+      name: Matt Shaw
+      ref: 
+    - role: team
+      name: Chicago Cubs
+      ref: 
+- number: TAIC-MMG
+  uuid: 9234095b-3941-4d7e-a7a8-500844ce475d
+  subjects:
+  - entities:
+    - role: player
+      name: Mark McGwire
+      ref: 
+    - role: team
+      name: St. Louis Cardinals
+      ref: 
+- number: TAIC-MP
+  uuid: 93304fba-fa2d-4117-998e-3d7581329a14
+  subjects:
+  - entities:
+    - role: player
+      name: Mike Piazza
+      ref: 
+    - role: team
+      name: New York Mets
+      ref: 
+- number: TAIC-MS
+  uuid: abefd5dd-e4c7-4850-8ecb-1acb36549599
+  subjects:
+  - entities:
+    - role: player
+      name: Mike Schmidt
+      ref: 
+    - role: team
+      name: Philadelphia Phillies
+      ref: 
+- number: TAIC-MT
+  uuid: ac463822-8815-4051-9aa3-6582ebadc1f7
+  subjects:
+  - entities:
+    - role: player
+      name: Mike Trout
+      ref: 
+    - role: team
+      name: Angels
+      ref: 
+- number: TAIC-NA
+  uuid: 82c021cc-bbc4-4403-822f-fb2dd729191f
+  subjects:
+  - entities:
+    - role: player
+      name: Nolan Arenado
+      ref: 
+    - role: team
+      name: St. Louis Cardinals
+      ref: 
+- number: TAIC-OH
+  uuid: 2259e56c-557d-44a3-bd56-420bb72d66aa
+  subjects:
+  - entities:
+    - role: player
+      name: Orel Hershiser
+      ref: 
+    - role: team
+      name: Los Angeles Dodgers
+      ref: 
+- number: TAIC-OS
+  uuid: 959ebab6-5c4d-41e0-ad4d-ee5f663e0909
+  subjects:
+  - entities:
+    - role: player
+      name: Ozzie Smith
+      ref: 
+    - role: team
+      name: St. Louis Cardinals
+      ref: 
+- number: TAIC-PCA
+  uuid: 4597d048-ecbe-47d9-8cfc-b2dfd6dbcd67
+  subjects:
+  - entities:
+    - role: player
+      name: Pete Crow-Armstrong
+      ref: 
+    - role: team
+      name: Chicago Cubs
+      ref: 
+- number: TAIC-PMO
+  uuid: 82e56c8f-e675-42fd-b49d-37509df2e5dc
+  subjects:
+  - entities:
+    - role: player
+      name: Paul Molitor
+      ref: 
+    - role: team
+      name: Milwaukee Brewers
+      ref: 
+- number: TAIC-PS
+  uuid: a435e22c-cbd3-4e34-8289-d06652ba1b80
+  subjects:
+  - entities:
+    - role: player
+      name: Paul Skenes
+      ref: 
+    - role: team
+      name: Pittsburgh Pirates
+      ref: 
+- number: TAIC-RC
+  uuid: 43aed64c-01f1-42df-9451-20f32a80cb72
+  subjects:
+  - entities:
+    - role: player
+      name: Roger Clemens
+      ref: 
+    - role: team
+      name: Boston Red Sox
+      ref: 
+- number: TAIC-RJ
+  uuid: 82a879ec-d8b7-4097-b42e-5c1d33e08df7
+  subjects:
+  - entities:
+    - role: player
+      name: Randy Johnson
+      ref: 
+    - role: team
+      name: Arizona Diamondbacks
+      ref: 
+- number: TAIC-RJA
+  uuid: 6131d78b-6986-43cf-afe2-6f6253321d46
+  subjects:
+  - entities:
+    - role: player
+      name: Reggie Jackson
+      ref: 
+    - role: team
+      name: Oakland Athletics
+      ref: 
+- number: TAIC-RL
+  uuid: 2c48d5ad-3997-4ec0-aec6-8e38ae3686f8
+  subjects:
+  - entities:
+    - role: player
+      name: Rhett Lowder
+      ref: 
+    - role: team
+      name: Cincinnati Reds
+      ref: 
+- number: TAIC-ROD
+  uuid: b6147c0c-c85e-44fd-9dae-e3b4ea22176c
+  subjects:
+  - entities:
+    - role: player
+      name: Rod Carew
+      ref: 
+    - role: team
+      name: California Angels
+      ref: 
+- number: TAIC-RS
+  uuid: 6d064756-f70e-4bbc-9e9a-8c0b9197e4bf
+  subjects:
+  - entities:
+    - role: player
+      name: Roki Sasaki
+      ref: 
+    - role: team
+      name: Los Angeles Dodgers
+      ref: 
+- number: TAIC-RY
+  uuid: 2609cfad-d966-4c97-a1b2-b276c22d8870
+  subjects:
+  - entities:
+    - role: player
+      name: Robin Yount
+      ref: 
+    - role: team
+      name: Milwaukee Brewers
+      ref: 
+- number: TAIC-SO
+  uuid: 864b7cac-cf60-44f5-b716-756bef37bf69
+  subjects:
+  - entities:
+    - role: player
+      name: Shohei Ohtani
+      ref: 
+    - role: team
+      name: Los Angeles Dodgers
+      ref: 
+- number: TAIC-SS
+  uuid: 680ecce5-dd48-4b1c-9fb1-1e612a0a992f
+  subjects:
+  - entities:
+    - role: player
+      name: Sammy Sosa
+      ref: 
+    - role: team
+      name: Chicago Cubs
+      ref: 
+- number: TAIC-TT
+  uuid: 83878591-8174-47f6-b37e-3c5c0f95aa33
+  subjects:
+  - entities:
+    - role: player
+      name: Trea Turner
+      ref: 
+    - role: team
+      name: Philadelphia Phillies
+      ref: 
+- number: TAIC-VG
+  uuid: ce48d12a-ce49-4c36-b4c1-28646d27f035
+  subjects:
+  - entities:
+    - role: player
+      name: Vladimir Guerrero
+      ref: 
+    - role: team
+      name: Angels
+      ref: 
+- number: TAIC-WC
+  uuid: a4e6b232-5c23-43fc-b345-507240446152
+  subjects:
+  - entities:
+    - role: player
+      name: Will Clark
+      ref: 
+    - role: team
+      name: San Francisco Giants
+      ref: 
+- number: TAIC-YY
+  uuid: 6d5fd751-ea63-42a4-9b05-311880842ff4
+  subjects:
+  - entities:
+    - role: player
+      name: Yoshinobu Yamamoto
+      ref: 
+    - role: team
+      name: Los Angeles Dodgers
+      ref: 

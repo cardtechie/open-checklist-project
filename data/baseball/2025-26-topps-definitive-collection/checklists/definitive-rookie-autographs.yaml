@@ -1,0 +1,420 @@
+- number: DRA-ARA
+  uuid: 327733a2-aa8d-4eee-b1ee-50ab06369ff4
+  subjects:
+  - entities:
+    - role: player
+      name: Agustín Ramírez
+      ref: 
+    - role: team
+      name: Miami Marlins
+      ref: 
+- number: DRA-BL
+  uuid: d0f366df-5c3d-40c7-a117-749b6d7f502e
+  subjects:
+  - entities:
+    - role: player
+      name: Brooks Lee
+      ref: 
+    - role: team
+      name: Minnesota Twins
+      ref: 
+- number: DRA-BR
+  uuid: 68b4cf7b-7a7e-4af0-be2a-03ff1eb352d8
+  subjects:
+  - entities:
+    - role: player
+      name: Ben Rice
+      ref: 
+    - role: team
+      name: New York Yankees
+      ref: 
+- number: DRA-BW
+  uuid: b5aabd06-03e9-4f3b-b3a1-595302912eed
+  subjects:
+  - entities:
+    - role: player
+      name: Ben Williamson
+      ref: 
+    - role: team
+      name: Seattle Mariners
+      ref: 
+- number: DRA-CDO
+  uuid: 572d14b8-7192-4ce0-bf0d-d3446b194e6a
+  subjects:
+  - entities:
+    - role: player
+      name: Chase Dollander
+      ref: 
+    - role: team
+      name: Colorado Rockies
+      ref: 
+- number: DRA-CDU
+  uuid: 19803dc8-9d3a-468a-bea0-221cc666cb25
+  subjects:
+  - entities:
+    - role: player
+      name: Caleb Durbin
+      ref: 
+    - role: team
+      name: Milwaukee Brewers
+      ref: 
+- number: DRA-CH
+  uuid: 985d5c04-ecc0-420e-ae5c-b24473eb296a
+  subjects:
+  - entities:
+    - role: player
+      name: Cade Horton
+      ref: 
+    - role: team
+      name: Chicago Cubs
+      ref: 
+- number: DRA-CMA
+  uuid: d10aad15-97a6-4620-a0bc-322a50693458
+  subjects:
+  - entities:
+    - role: player
+      name: Coby Mayo
+      ref: 
+    - role: team
+      name: Baltimore Orioles
+      ref: 
+- number: DRA-CME
+  uuid: 31b535a8-0994-46a1-8ce4-a3ddb5eb0864
+  subjects:
+  - entities:
+    - role: player
+      name: Chase Meidroth
+      ref: 
+    - role: team
+      name: Chicago White Sox
+      ref: 
+- number: DRA-CNO
+  uuid: 71de659b-d89d-4f3c-85c4-341f8858fc14
+  subjects:
+  - entities:
+    - role: player
+      name: Connor Norby
+      ref: 
+    - role: team
+      name: Miami Marlins
+      ref: 
+- number: DRA-CS
+  uuid: 974e9df0-208d-4467-a2d4-105f7e1c87d8
+  subjects:
+  - entities:
+    - role: player
+      name: Cam Smith
+      ref: 
+    - role: team
+      name: Houston Astros
+      ref: 
+- number: DRA-CSI
+  uuid: d81eeae0-2f68-4a7c-aa04-0846a8b65879
+  subjects:
+  - entities:
+    - role: player
+      name: Chandler Simpson
+      ref: 
+    - role: team
+      name: Tampa Bay Rays
+      ref: 
+- number: DRA-DAR
+  uuid: eab1ee95-5a3d-4e4c-941b-1229d9c2b110
+  subjects:
+  - entities:
+    - role: player
+      name: Dalton Rushing
+      ref: 
+    - role: team
+      name: Los Angeles Dodgers
+      ref: 
+- number: DRA-DB
+  uuid: e613d735-db7f-4f0b-870b-0e6ee85543bb
+  subjects:
+  - entities:
+    - role: player
+      name: Drake Baldwin
+      ref: 
+    - role: team
+      name: Atlanta Braves
+      ref: 
+- number: DRA-DC
+  uuid: da51a326-20d2-411f-86fc-84ede5972590
+  subjects:
+  - entities:
+    - role: player
+      name: Dylan Crews
+      ref: 
+    - role: team
+      name: Washington Nationals
+      ref: 
+- number: DRA-DCR
+  uuid: 91db9df1-e97d-4c40-afe3-5722f7d6dee7
+  subjects:
+  - entities:
+    - role: player
+      name: Dylan Crews
+      ref: 
+    - role: team
+      name: Washington Nationals
+      ref: 
+- number: DRA-DR
+  uuid: 0bcb3ae9-25b9-4169-9c7d-4b2d66079068
+  subjects:
+  - entities:
+    - role: player
+      name: Dalton Rushing
+      ref: 
+    - role: team
+      name: Los Angeles Dodgers
+      ref: 
+- number: DRA-EQ
+  uuid: 46fe84b9-9b42-4488-b9ab-e33e7bd40d8f
+  subjects:
+  - entities:
+    - role: player
+      name: Edgar Quero
+      ref: 
+    - role: team
+      name: Chicago White Sox
+      ref: 
+- number: DRA-HK
+  uuid: b15a4bbe-5af0-43b9-8bfa-7bceb295b2e5
+  subjects:
+  - entities:
+    - role: player
+      name: Hyeseong Kim
+      ref: 
+    - role: team
+      name: Los Angeles Dodgers
+      ref: 
+- number: DRA-HW
+  uuid: d56dfcc8-f965-42ac-a9d0-83953fc7d230
+  subjects:
+  - entities:
+    - role: player
+      name: Hurston Waldrep
+      ref: 
+    - role: team
+      name: Atlanta Braves
+      ref: 
+- number: DRA-HYK
+  uuid: 4654f8f0-90d9-4de7-9979-55981e9ad9be
+  subjects:
+  - entities:
+    - role: player
+      name: Hyeseong Kim
+      ref: 
+    - role: team
+      name: Los Angeles Dodgers
+      ref: 
+- number: DRA-JJO
+  uuid: ed864a30-23f7-4bb7-9909-4cea287fe605
+  subjects:
+  - entities:
+    - role: player
+      name: Jackson Jobe
+      ref: 
+    - role: team
+      name: Detroit Tigers
+      ref: 
+- number: DRA-JJU
+  uuid: f1b881d8-30c6-432f-9a4e-c13398f25e2f
+  subjects:
+  - entities:
+    - role: player
+      name: Jace Jung
+      ref: 
+    - role: team
+      name: Detroit Tigers
+      ref: 
+- number: DRA-JW
+  uuid: b7686ca8-33e3-41ef-9ba9-044737e3c9e5
+  subjects:
+  - entities:
+    - role: player
+      name: James Wood
+      ref: 
+    - role: team
+      name: Washington Nationals
+      ref: 
+- number: DRA-JWI
+  uuid: fa408c4a-70dc-4268-9296-9faa1f8e3c2b
+  subjects:
+  - entities:
+    - role: player
+      name: Jacob Wilson
+      ref: 
+    - role: team
+      name: Athletics
+      ref: 
+- number: DRA-JWO
+  uuid: 25a3a4a3-89f4-46ab-b0e0-833ebf48dc7f
+  subjects:
+  - entities:
+    - role: player
+      name: James Wood
+      ref: 
+    - role: team
+      name: Washington Nationals
+      ref: 
+- number: DRA-KA
+  uuid: 8645e658-5266-4f75-9772-cdc8c79acd02
+  subjects:
+  - entities:
+    - role: player
+      name: Kevin Alcántara
+      ref: 
+    - role: team
+      name: Chicago Cubs
+      ref: 
+- number: DRA-KC
+  uuid: d517b906-9bc6-4845-a9db-a4d97ce24a69
+  subjects:
+  - entities:
+    - role: player
+      name: Kristian Campbell
+      ref: 
+    - role: team
+      name: Boston Red Sox
+      ref: 
+- number: DRA-KCA
+  uuid: 541e0603-94fd-4273-8246-c08fa6a13a51
+  subjects:
+  - entities:
+    - role: player
+      name: Kristian Campbell
+      ref: 
+    - role: team
+      name: Boston Red Sox
+      ref: 
+- number: DRA-KR
+  uuid: 5c8ad59e-4d82-434e-9f7f-31902488dd2f
+  subjects:
+  - entities:
+    - role: player
+      name: Kumar Rocker
+      ref: 
+    - role: team
+      name: Texas Rangers
+      ref: 
+- number: DRA-LA
+  uuid: e45c51b0-6e9a-4558-b8b7-fe34cea89640
+  subjects:
+  - entities:
+    - role: player
+      name: Luisangel Acuña
+      ref: 
+    - role: team
+      name: New York Mets
+      ref: 
+- number: DRA-LK
+  uuid: bd8bfee3-21ca-4fa2-b4ab-ab4896540c40
+  subjects:
+  - entities:
+    - role: player
+      name: Luke Keaschall
+      ref: 
+    - role: team
+      name: Minnesota Twins
+      ref: 
+- number: DRA-MB
+  uuid: '08cbca37-be94-4d3d-9257-83350d4c4875'
+  subjects:
+  - entities:
+    - role: player
+      name: Moisés Ballesteros
+      ref: 
+    - role: team
+      name: Chicago Cubs
+      ref: 
+- number: DRA-MMU
+  uuid: c6e47297-39af-4ac6-8971-e23f9311bd8b
+  subjects:
+  - entities:
+    - role: player
+      name: Max Muncy
+      ref: 
+    - role: team
+      name: Athletics
+      ref: 
+- number: DRA-MS
+  uuid: ed673291-a50c-4263-94dc-65291c633bf4
+  subjects:
+  - entities:
+    - role: player
+      name: Matt Shaw
+      ref: 
+    - role: team
+      name: Chicago Cubs
+      ref: 
+- number: DRA-NK
+  uuid: 2caf7c3b-deb8-4e19-b7bd-e5879216158a
+  subjects:
+  - entities:
+    - role: player
+      name: Nick Kurtz
+      ref: 
+    - role: team
+      name: Athletics
+      ref: 
+- number: DRA-NKU
+  uuid: b863c4e0-628a-4484-8e4b-597c9a674fcf
+  subjects:
+  - entities:
+    - role: player
+      name: Nick Kurtz
+      ref: 
+    - role: team
+      name: Athletics
+      ref: 
+- number: DRA-RL
+  uuid: 5910dddd-0bd3-4491-9117-d6143332b226
+  subjects:
+  - entities:
+    - role: player
+      name: Rhett Lowder
+      ref: 
+    - role: team
+      name: Cincinnati Reds
+      ref: 
+- number: DRA-RS
+  uuid: 38e3b7d8-7fc3-4cba-8ac6-b731b02c9c89
+  subjects:
+  - entities:
+    - role: player
+      name: Roki Sasaki
+      ref: 
+    - role: team
+      name: Los Angeles Dodgers
+      ref: 
+- number: DRA-RSA
+  uuid: 146eceea-7e35-44a5-a257-8d0bc9105e11
+  subjects:
+  - entities:
+    - role: player
+      name: Roki Sasaki
+      ref: 
+    - role: team
+      name: Los Angeles Dodgers
+      ref: 
+- number: DRA-SS
+  uuid: 83e3eedd-1cb2-4a7c-8a38-d2b1d81c3522
+  subjects:
+  - entities:
+    - role: player
+      name: Spencer Schwellenbach
+      ref: 
+    - role: team
+      name: Atlanta Braves
+      ref: 
+- number: DRA-TS
+  uuid: 2a333a73-a984-44ef-99e0-836e81510e67
+  subjects:
+  - entities:
+    - role: player
+      name: Thomas Saggese
+      ref: 
+    - role: team
+      name: St. Louis Cardinals
+      ref: 

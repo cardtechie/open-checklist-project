@@ -1,0 +1,200 @@
+- number: UR-1
+  uuid: 624b6c63-703b-4207-b4bf-974dcd49e347
+  subjects:
+  - entities:
+    - role: player
+      name: Kevin McGonigle
+      ref: 
+    - role: team
+      name: Detroit Tigers
+      ref: 
+- number: UR-2
+  uuid: ede39e7e-b71a-42af-9750-43f1ed895864
+  subjects:
+  - entities:
+    - role: player
+      name: Cam Schlittler
+      ref: 
+    - role: team
+      name: New York Yankees
+      ref: 
+- number: UR-3
+  uuid: 90105701-1698-4a0e-b2fd-856d8eeabbf7
+  subjects:
+  - entities:
+    - role: player
+      name: Jhonny Level
+      ref: 
+    - role: team
+      name: San Francisco Giants
+      ref: 
+- number: UR-4
+  uuid: 501f779c-68dd-49ed-8cbc-2501ff781147
+  subjects:
+  - entities:
+    - role: player
+      name: Colt Emerson
+      ref: 
+    - role: team
+      name: Seattle Mariners
+      ref: 
+- number: UR-5
+  uuid: f7aacfa7-9be8-4c63-8593-d73f630b944d
+  subjects:
+  - entities:
+    - role: player
+      name: Franklin Arias
+      ref: 
+    - role: team
+      name: Boston Red Sox
+      ref: 
+- number: UR-6
+  uuid: 3382b548-8e5c-4358-855c-76c5731f975a
+  subjects:
+  - entities:
+    - role: player
+      name: Kyle Teel
+      ref: 
+    - role: team
+      name: Chicago White Sox
+      ref: 
+- number: UR-7
+  uuid: 50bd550e-7b10-4313-888d-353d7168e0f3
+  subjects:
+  - entities:
+    - role: player
+      name: Rainiel Rodriguez
+      ref: 
+    - role: team
+      name: St. Louis Cardinals
+      ref: 
+- number: UR-8
+  uuid: 0b56e004-2852-4945-9661-8ddf4e07ad11
+  subjects:
+  - entities:
+    - role: player
+      name: Thomas White
+      ref: 
+    - role: team
+      name: Miami Marlins
+      ref: 
+- number: UR-9
+  uuid: '095d2857-c882-4843-a0e3-51e9e9dc37e8'
+  subjects:
+  - entities:
+    - role: player
+      name: Edward Florentino
+      ref: 
+    - role: team
+      name: Pittsburgh Pirates
+      ref: 
+- number: UR-10
+  uuid: c9aab8a5-4d70-4ac2-9203-81798e6cbbd0
+  subjects:
+  - entities:
+    - role: player
+      name: Ryan Waldschmidt
+      ref: 
+    - role: team
+      name: Arizona Diamondbacks
+      ref: 
+- number: UR-11
+  uuid: 6019b10a-4a50-443c-9ccd-99a9d979327f
+  subjects:
+  - entities:
+    - role: player
+      name: Sal Stewart
+      ref: 
+    - role: team
+      name: Cincinnati Reds
+      ref: 
+- number: UR-12
+  uuid: 8dc75258-5a5a-4d3f-8afd-431e608da100
+  subjects:
+  - entities:
+    - role: player
+      name: Carson Benge
+      ref: 
+    - role: team
+      name: New York Mets
+      ref: 
+- number: UR-13
+  uuid: 14f3d41d-4c29-46a8-bcee-72dd15df55e8
+  subjects:
+  - entities:
+    - role: player
+      name: Daniel Pierce
+      ref: 
+    - role: team
+      name: Tampa Bay Rays
+      ref: 
+- number: UR-14
+  uuid: bf7c098d-b317-41ee-9a3d-28250955bc7e
+  subjects:
+  - entities:
+    - role: player
+      name: Josue De Paula
+      ref: 
+    - role: team
+      name: Los Angeles Dodgers
+      ref: 
+- number: UR-15
+  uuid: c7c5498d-c06c-40e5-a16c-a6b102fc2ab3
+  subjects:
+  - entities:
+    - role: player
+      name: Trey Yesavage
+      ref: 
+    - role: team
+      name: Toronto Blue Jays
+      ref: 
+- number: UR-16
+  uuid: 82862942-d5b2-4ae4-8482-45c93a835dbe
+  subjects:
+  - entities:
+    - role: player
+      name: Samuel Basallo
+      ref: 
+    - role: team
+      name: Baltimore Orioles
+      ref: 
+- number: UR-17
+  uuid: 87cb05a9-154d-47fd-a13f-2c89f8c7aa2f
+  subjects:
+  - entities:
+    - role: player
+      name: Wehiwa Aloy
+      ref: 
+    - role: team
+      name: Baltimore Orioles
+      ref: 
+- number: UR-18
+  uuid: 0bb310d5-6ba4-4bbf-93fa-12951160603d
+  subjects:
+  - entities:
+    - role: player
+      name: Caleb Bonemer
+      ref: 
+    - role: team
+      name: Chicago White Sox
+      ref: 
+- number: UR-19
+  uuid: 9f2d644d-7388-45e2-bc76-4c852bc6a227
+  subjects:
+  - entities:
+    - role: player
+      name: Connelly Early
+      ref: 
+    - role: team
+      name: Boston Red Sox
+      ref: 
+- number: UR-20
+  uuid: 982b0249-9623-4002-81da-e44a539e6a0d
+  subjects:
+  - entities:
+    - role: player
+      name: Kaelen Culpepper
+      ref: 
+    - role: team
+      name: Minnesota Twins
+      ref: 

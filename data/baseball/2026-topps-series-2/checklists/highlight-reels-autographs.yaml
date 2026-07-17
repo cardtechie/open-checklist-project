@@ -1,0 +1,50 @@
+- number: HR-3
+  uuid: cc21dff3-5749-4625-8407-b1bd0c966d47
+  subjects:
+  - entities:
+    - role: player
+      name: Fernando Tatis Jr.
+      ref: 
+    - role: team
+      name: San Diego Padres
+      ref: 
+- number: HR-4
+  uuid: c1180df9-135c-4fbb-9907-e5478603a9a1
+  subjects:
+  - entities:
+    - role: player
+      name: Vladimir Guerrero Jr.
+      ref: 
+    - role: team
+      name: Toronto Blue Jays
+      ref: 
+- number: HR-5
+  uuid: fd3f28a2-4042-465d-a76b-e95a1b0c9043
+  subjects:
+  - entities:
+    - role: player
+      name: Julio Rodríguez
+      ref: 
+    - role: team
+      name: Seattle Mariners
+      ref: 
+- number: HR-6
+  uuid: b2a642fc-b0d8-4042-b23e-7680a341a3ac
+  subjects:
+  - entities:
+    - role: player
+      name: Ronald Acuña Jr.
+      ref: 
+    - role: team
+      name: Atlanta Braves
+      ref: 
+- number: HR-8
+  uuid: a6bde71e-e904-40f0-87d9-f720fd419c64
+  subjects:
+  - entities:
+    - role: player
+      name: Mike Trout
+      ref: 
+    - role: team
+      name: Los Angeles Angels
+      ref: 

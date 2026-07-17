@@ -1,0 +1,100 @@
+- number: AA-11
+  uuid: fb891978-a129-41e9-9f7c-cde28a4bb4c7
+  subjects:
+  - entities:
+    - role: player
+      name: Yoshinobu Yamamoto
+      ref: 
+    - role: team
+      name: Los Angeles Dodgers
+      ref: 
+- number: AA-12
+  uuid: 61b97f7c-db03-4072-a14b-0562ce5045a9
+  subjects:
+  - entities:
+    - role: player
+      name: Greg Maddux
+      ref: 
+    - role: team
+      name: Chicago Cubs
+      ref: 
+- number: AA-13
+  uuid: 52456614-e7ec-47d0-adba-883540f8989f
+  subjects:
+  - entities:
+    - role: player
+      name: Randy Johnson
+      ref: 
+    - role: team
+      name: Seattle Mariners
+      ref: 
+- number: AA-14
+  uuid: 73d4f3ca-db81-4131-84e5-e1bb44654fbd
+  subjects:
+  - entities:
+    - role: player
+      name: Christy Mathewson
+      ref: 
+    - role: team
+      name: New York Giants
+      ref: 
+- number: AA-15
+  uuid: 66f5c0cf-35d9-4042-b35e-cc8d3451e27d
+  subjects:
+  - entities:
+    - role: player
+      name: Roki Sasaki
+      ref: 
+    - role: team
+      name: Los Angeles Dodgers
+      ref: 
+- number: AA-16
+  uuid: bbfc8e5a-2ee3-46a8-bb62-8ceac81b7267
+  subjects:
+  - entities:
+    - role: player
+      name: Nolan Ryan
+      ref: 
+    - role: team
+      name: California Angels
+      ref: 
+- number: AA-17
+  uuid: '096dc873-af57-4dc8-9add-d119b2539963'
+  subjects:
+  - entities:
+    - role: player
+      name: Garrett Crochet
+      ref: 
+    - role: team
+      name: Boston Red Sox
+      ref: 
+- number: AA-18
+  uuid: 0afb238f-1e18-4505-a881-343c2d051450
+  subjects:
+  - entities:
+    - role: player
+      name: Cam Schlittler
+      ref: 
+    - role: team
+      name: New York Yankees
+      ref: 
+- number: AA-19
+  uuid: 936f9a4e-0184-43ae-a1e2-d20cf4b6566d
+  subjects:
+  - entities:
+    - role: player
+      name: Payton Tolle
+      ref: 
+    - role: team
+      name: Boston Red Sox
+      ref: 
+- number: AA-20
+  uuid: 26c77420-684c-4fb1-831f-a7eaeed6466e
+  subjects:
+  - entities:
+    - role: player
+      name: Trey Yesavage
+      ref: 
+    - role: team
+      name: Toronto Blue Jays
+      ref: 

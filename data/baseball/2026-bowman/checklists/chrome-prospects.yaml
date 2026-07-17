@@ -1,0 +1,1500 @@
+- number: BCP-1
+  uuid: c6ed81c3-f4a6-4b5e-a684-0ea0ffd79c14
+  subjects:
+  - entities:
+    - role: player
+      name: Ethan Holliday
+      ref: 
+    - role: team
+      name: Colorado Rockies
+      ref: 
+- number: BCP-2
+  uuid: a512d699-54d0-4258-951c-48e57a9e960a
+  subjects:
+  - entities:
+    - role: player
+      name: Max Clark
+      ref: 
+    - role: team
+      name: Detroit Tigers
+      ref: 
+- number: BCP-3
+  uuid: e7353a91-8fb1-48c6-9ec4-55066e59abba
+  subjects:
+  - entities:
+    - role: player
+      name: Yojancel Cabrera
+      ref: 
+    - role: team
+      name: Los Angeles Angels
+      ref: 
+- number: BCP-4
+  uuid: b51b7a69-bfb1-4b35-a384-f65ba8c6922e
+  subjects:
+  - entities:
+    - role: player
+      name: James Quinn-Irons
+      ref: 
+    - role: team
+      name: Tampa Bay Rays
+      ref: 
+- number: BCP-5
+  uuid: 4885a402-7042-4907-88cd-89329e7d2a1d
+  subjects:
+  - entities:
+    - role: player
+      name: Tyson Lewis
+      ref: 
+    - role: team
+      name: Cincinnati Reds
+      ref: 
+- number: BCP-6
+  uuid: 958c168c-6017-4f2c-8310-b00d24402a20
+  subjects:
+  - entities:
+    - role: player
+      name: Jared Jones
+      ref: 
+    - role: team
+      name: Pittsburgh Pirates
+      ref: 
+- number: BCP-7
+  uuid: 913565f9-3694-4a5e-a582-70e4254e84d8
+  subjects:
+  - entities:
+    - role: player
+      name: Kendry Chourio
+      ref: 
+    - role: team
+      name: Kansas City Royals
+      ref: 
+- number: BCP-8
+  uuid: 0cdbd4ed-4428-4424-ae89-af44cd1b67b3
+  subjects:
+  - entities:
+    - role: player
+      name: Anderson Araujo
+      ref: 
+    - role: team
+      name: Philadelphia Phillies
+      ref: 
+- number: BCP-9
+  uuid: b6561bf1-d580-4893-a444-55aa485377c7
+  subjects:
+  - entities:
+    - role: player
+      name: Tyler Bremner
+      ref: 
+    - role: team
+      name: Los Angeles Angels
+      ref: 
+- number: BCP-10
+  uuid: 3f23c228-a341-4604-ac16-31c8c99940d1
+  subjects:
+  - entities:
+    - role: player
+      name: Liam Doyle
+      ref: 
+    - role: team
+      name: St. Louis Cardinals
+      ref: 
+- number: BCP-11
+  uuid: 7e27916d-c713-410c-b86f-7b6be37e27f6
+  subjects:
+  - entities:
+    - role: player
+      name: David Shields
+      ref: 
+    - role: team
+      name: Kansas City Royals
+      ref: 
+- number: BCP-12
+  uuid: c94dbc50-ad4d-4894-8c7f-cc6aa16992cc
+  subjects:
+  - entities:
+    - role: player
+      name: Jase Mitchell
+      ref: 
+    - role: team
+      name: Houston Astros
+      ref: 
+- number: BCP-13
+  uuid: 801890bb-3b7e-4aaa-b4d6-6db8f95824fa
+  subjects:
+  - entities:
+    - role: player
+      name: Blake Mitchell
+      ref: 
+    - role: team
+      name: Kansas City Royals
+      ref: 
+- number: BCP-14
+  uuid: b1516314-a978-422a-a4ef-a163fc3582ff
+  subjects:
+  - entities:
+    - role: player
+      name: Carlos Gutierrez
+      ref: 
+    - role: team
+      name: San Francisco Giants
+      ref: 
+- number: BCP-15
+  uuid: 4565f43d-20b9-4550-a00e-81fd9c6782db
+  subjects:
+  - entities:
+    - role: player
+      name: Gage Jump
+      ref: 
+    - role: team
+      name: Athletics
+      ref: 
+- number: BCP-16
+  uuid: 6a4558c2-05cd-4e00-9347-6ef75b5424bd
+  subjects:
+  - entities:
+    - role: player
+      name: Marek Houston
+      ref: 
+    - role: team
+      name: Minnesota Twins
+      ref: 
+- number: BCP-17
+  uuid: 71c92bec-4e39-4fb7-b57b-a51cbe694e3f
+  subjects:
+  - entities:
+    - role: player
+      name: Caden Scarborough
+      ref: 
+    - role: team
+      name: Texas Rangers
+      ref: 
+- number: BCP-18
+  uuid: 1e1b4442-7946-4575-a0ff-49be609b0c6a
+  subjects:
+  - entities:
+    - role: player
+      name: Blaine Bullard
+      ref: 
+    - role: team
+      name: Toronto Blue Jays
+      ref: 
+- number: BCP-19
+  uuid: 7b7ba1de-c123-4d42-ba5f-e9c025ac40fd
+  subjects:
+  - entities:
+    - role: player
+      name: Kade Anderson
+      ref: 
+    - role: team
+      name: Seattle Mariners
+      ref: 
+- number: BCP-20
+  uuid: 25902431-5bf4-4fc6-b412-93d4f41f4dae
+  subjects:
+  - entities:
+    - role: player
+      name: Theo Gillen
+      ref: 
+    - role: team
+      name: Tampa Bay Rays
+      ref: 
+- number: BCP-21
+  uuid: 4769fe42-78f2-40dc-acfd-999c54a9a805
+  subjects:
+  - entities:
+    - role: player
+      name: Roldy Brito
+      ref: 
+    - role: team
+      name: Colorado Rockies
+      ref: 
+- number: BCP-22
+  uuid: 79f237e8-b989-4866-80e8-9f4d28c3d17e
+  subjects:
+  - entities:
+    - role: player
+      name: Deniel Ortiz
+      ref: 
+    - role: team
+      name: St. Louis Cardinals
+      ref: 
+- number: BCP-23
+  uuid: b8559b11-58e9-48dc-8e1a-035fd5065365
+  subjects:
+  - entities:
+    - role: player
+      name: Enddy Azocar
+      ref: 
+    - role: team
+      name: Boston Red Sox
+      ref: 
+- number: BCP-24
+  uuid: 21074ca3-3b83-4308-b110-e6ce0268cf26
+  subjects:
+  - entities:
+    - role: player
+      name: Edward Duran
+      ref: 
+    - role: team
+      name: Toronto Blue Jays
+      ref: 
+- number: BCP-25
+  uuid: 1b25053e-505e-4884-b306-d0c932341049
+  subjects:
+  - entities:
+    - role: player
+      name: Juan Sanchez
+      ref: 
+    - role: team
+      name: Toronto Blue Jays
+      ref: 
+- number: BCP-26
+  uuid: cc96747f-77e3-4eb1-b555-c51ecdc3ee00
+  subjects:
+  - entities:
+    - role: player
+      name: Sean Paul Liñan
+      ref: 
+    - role: team
+      name: Washington Nationals
+      ref: 
+- number: BCP-27
+  uuid: '0924abef-cfe3-4958-8b59-839bf4618fde'
+  subjects:
+  - entities:
+    - role: player
+      name: Franklin Arias
+      ref: 
+    - role: team
+      name: Boston Red Sox
+      ref: 
+- number: BCP-28
+  uuid: 101ed8de-5a9f-4dab-9887-8f8a366af355
+  subjects:
+  - entities:
+    - role: player
+      name: Carlos Virahonda
+      ref: 
+    - role: team
+      name: Arizona Diamondbacks
+      ref: 
+- number: BCP-29
+  uuid: 274f39b6-4540-4c91-8d53-0b9db7872e1c
+  subjects:
+  - entities:
+    - role: player
+      name: Victor Arias
+      ref: 
+    - role: team
+      name: Toronto Blue Jays
+      ref: 
+- number: BCP-30
+  uuid: 044c2ed9-c8e1-4eb5-bbfe-24470c9f1b91
+  subjects:
+  - entities:
+    - role: player
+      name: Alimber Santa
+      ref: 
+    - role: team
+      name: Houston Astros
+      ref: 
+- number: BCP-31
+  uuid: 90f93942-3ad0-4c7a-a9d8-b7672ddac2fc
+  subjects:
+  - entities:
+    - role: player
+      name: Brent Iredale
+      ref: 
+    - role: team
+      name: Pittsburgh Pirates
+      ref: 
+- number: BCP-32
+  uuid: f0cb0687-e69e-436c-95af-bd89ca13b245
+  subjects:
+  - entities:
+    - role: player
+      name: Breyson Guedez
+      ref: 
+    - role: team
+      name: Athletics
+      ref: 
+- number: BCP-33
+  uuid: c2cafbf9-0a9f-4bd7-a8ca-268e6713c21d
+  subjects:
+  - entities:
+    - role: player
+      name: Coy James
+      ref: 
+    - role: team
+      name: Washington Nationals
+      ref: 
+- number: BCP-34
+  uuid: c51dc7da-3205-468c-a94a-296eb71b7568
+  subjects:
+  - entities:
+    - role: player
+      name: Cristopher Polanco
+      ref: 
+    - role: team
+      name: Toronto Blue Jays
+      ref: 
+- number: BCP-35
+  uuid: 8ee09560-ea3c-4d5b-9374-f5f5f6cc0a9a
+  subjects:
+  - entities:
+    - role: player
+      name: Travis Bazzana
+      ref: 
+    - role: team
+      name: Cleveland Guardians
+      ref: 
+- number: BCP-36
+  uuid: 0dee940d-48d7-4a81-9964-c0aea228d119
+  subjects:
+  - entities:
+    - role: player
+      name: Moisés Chace
+      ref: 
+    - role: team
+      name: Philadelphia Phillies
+      ref: 
+- number: BCP-37
+  uuid: 529502fe-7492-4a28-b488-58c7ffc87184
+  subjects:
+  - entities:
+    - role: player
+      name: Gage Stanifer
+      ref: 
+    - role: team
+      name: Toronto Blue Jays
+      ref: 
+- number: BCP-38
+  uuid: 2b9b78b7-612a-4c73-97d9-de8ca26e6382
+  subjects:
+  - entities:
+    - role: player
+      name: Luis Cova
+      ref: 
+    - role: team
+      name: Miami Marlins
+      ref: 
+- number: BCP-39
+  uuid: 85f52176-4a64-47b3-855d-d064c8554a12
+  subjects:
+  - entities:
+    - role: player
+      name: Ryan Waldschmidt
+      ref: 
+    - role: team
+      name: Arizona Diamondbacks
+      ref: 
+- number: BCP-40
+  uuid: 53eba209-1e34-4d70-ab62-fadde068eb2c
+  subjects:
+  - entities:
+    - role: player
+      name: Aiva Arquette
+      ref: 
+    - role: team
+      name: Miami Marlins
+      ref: 
+- number: BCP-41
+  uuid: 5d47f5cb-e415-40a7-bf65-867f290a31c9
+  subjects:
+  - entities:
+    - role: player
+      name: Brailyn Antunez
+      ref: 
+    - role: team
+      name: Milwaukee Brewers
+      ref: 
+- number: BCP-42
+  uuid: b6363145-9c91-4053-bbcc-544d8492925a
+  subjects:
+  - entities:
+    - role: player
+      name: David Davalillo
+      ref: 
+    - role: team
+      name: Texas Rangers
+      ref: 
+- number: BCP-43
+  uuid: a1daf101-b922-438a-8c1a-e6028cab9941
+  subjects:
+  - entities:
+    - role: player
+      name: Parks Harber
+      ref: 
+    - role: team
+      name: San Francisco Giants
+      ref: 
+- number: BCP-44
+  uuid: 896d009f-a39b-4c64-a85b-9de1d08506ad
+  subjects:
+  - entities:
+    - role: player
+      name: Billy Carlson
+      ref: 
+    - role: team
+      name: Chicago White Sox
+      ref: 
+- number: BCP-45
+  uuid: 98dba598-24e3-498e-9283-d91723220dc3
+  subjects:
+  - entities:
+    - role: player
+      name: Seong-Jun Kim
+      ref: 
+    - role: team
+      name: Texas Rangers
+      ref: 
+- number: BCP-46
+  uuid: 6cac2899-11a5-472c-99a4-47a2baf88f53
+  subjects:
+  - entities:
+    - role: player
+      name: Charlie Condon
+      ref: 
+    - role: team
+      name: Colorado Rockies
+      ref: 
+- number: BCP-47
+  uuid: 93b4dd90-438b-4ae0-8a89-b69d6a61dca1
+  subjects:
+  - entities:
+    - role: player
+      name: Handelfry Encarnacion
+      ref: 
+    - role: team
+      name: Milwaukee Brewers
+      ref: 
+- number: BCP-48
+  uuid: f92393f7-ea98-4ca1-a115-58dd928a1bcf
+  subjects:
+  - entities:
+    - role: player
+      name: Shotaro Morii
+      ref: 
+    - role: team
+      name: Athletics
+      ref: 
+- number: BCP-49
+  uuid: 643a22aa-5ff4-4102-9776-b2ea1cb6311b
+  subjects:
+  - entities:
+    - role: player
+      name: Aidan Miller
+      ref: 
+    - role: team
+      name: Philadelphia Phillies
+      ref: 
+- number: BCP-50
+  uuid: 3244efd6-b9c3-44f4-81d7-57a83484c66e
+  subjects:
+  - entities:
+    - role: player
+      name: Daniel Dickinson
+      ref: 
+    - role: team
+      name: Milwaukee Brewers
+      ref: 
+- number: BCP-51
+  uuid: 0a6e58fc-6033-46e9-b2d4-60be4be40a6e
+  subjects:
+  - entities:
+    - role: player
+      name: Sebastian Walcott
+      ref: 
+    - role: team
+      name: Texas Rangers
+      ref: 
+- number: BCP-52
+  uuid: 6c7589ac-cda7-4eb1-9baa-59f75ff591b9
+  subjects:
+  - entities:
+    - role: player
+      name: Ethan Dorchies
+      ref: 
+    - role: team
+      name: Milwaukee Brewers
+      ref: 
+- number: BCP-53
+  uuid: 8b619711-2c51-4700-bf69-509e28a53555
+  subjects:
+  - entities:
+    - role: player
+      name: Braden Montgomery
+      ref: 
+    - role: team
+      name: Chicago White Sox
+      ref: 
+- number: BCP-54
+  uuid: '098f1b68-56d4-42ca-bab9-796ff6e8652c'
+  subjects:
+  - entities:
+    - role: player
+      name: Rainiel Rodriguez
+      ref: 
+    - role: team
+      name: St. Louis Cardinals
+      ref: 
+- number: BCP-55
+  uuid: 48d8debd-9650-42f8-b859-7a34f4ec7036
+  subjects:
+  - entities:
+    - role: player
+      name: Andrew Salas
+      ref: 
+    - role: team
+      name: Miami Marlins
+      ref: 
+- number: BCP-56
+  uuid: f6c6d9f4-4ba1-4721-8ad7-1287ef7db1ba
+  subjects:
+  - entities:
+    - role: player
+      name: Josuar Gonzalez
+      ref: 
+    - role: team
+      name: San Francisco Giants
+      ref: 
+- number: BCP-57
+  uuid: 61cd664e-2602-4a75-8340-5224bc931faa
+  subjects:
+  - entities:
+    - role: player
+      name: Felnin Celesten
+      ref: 
+    - role: team
+      name: Seattle Mariners
+      ref: 
+- number: BCP-58
+  uuid: 8218e4d8-53d7-487a-b9d6-654d2e0bf539
+  subjects:
+  - entities:
+    - role: player
+      name: Jude Warwick
+      ref: 
+    - role: team
+      name: Detroit Tigers
+      ref: 
+- number: BCP-59
+  uuid: 82bdabb7-76a5-432d-b533-26694df171b1
+  subjects:
+  - entities:
+    - role: player
+      name: Brendan Tunink
+      ref: 
+    - role: team
+      name: Los Angeles Dodgers
+      ref: 
+- number: BCP-60
+  uuid: 27af35ef-b3f8-40be-88a4-cc0b851db530
+  subjects:
+  - entities:
+    - role: player
+      name: Isaiah Jackson
+      ref: 
+    - role: team
+      name: Los Angeles Angels
+      ref: 
+- number: BCP-61
+  uuid: 951e2582-6273-40e8-93a7-85a8d6d219d2
+  subjects:
+  - entities:
+    - role: player
+      name: Chris Arroyo
+      ref: 
+    - role: team
+      name: Miami Marlins
+      ref: 
+- number: BCP-62
+  uuid: 86ca4625-9c38-46bb-9553-eb444d28547c
+  subjects:
+  - entities:
+    - role: player
+      name: Josh Owens
+      ref: 
+    - role: team
+      name: Texas Rangers
+      ref: 
+- number: BCP-63
+  uuid: f3d0117c-7a8a-47cd-af85-64d253c41fb8
+  subjects:
+  - entities:
+    - role: player
+      name: Leo De Vries
+      ref: 
+    - role: team
+      name: Athletics
+      ref: 
+- number: BCP-64
+  uuid: c63d3b87-6d7f-4c18-9883-ade1886b4fa2
+  subjects:
+  - entities:
+    - role: player
+      name: George Lombard Jr.
+      ref: 
+    - role: team
+      name: New York Yankees
+      ref: 
+- number: BCP-65
+  uuid: 50bb481b-2145-4aaa-ac92-74e2495a0c43
+  subjects:
+  - entities:
+    - role: player
+      name: Nelly Taylor
+      ref: 
+    - role: team
+      name: Boston Red Sox
+      ref: 
+- number: BCP-66
+  uuid: 73b684dc-e8d8-4559-b2c5-4822273627fa
+  subjects:
+  - entities:
+    - role: player
+      name: Wyatt Sanford
+      ref: 
+    - role: team
+      name: Pittsburgh Pirates
+      ref: 
+- number: BCP-67
+  uuid: c7e452ae-966e-4c1f-bab4-9eabb3d789f0
+  subjects:
+  - entities:
+    - role: player
+      name: Arjun Nimmala
+      ref: 
+    - role: team
+      name: Toronto Blue Jays
+      ref: 
+- number: BCP-68
+  uuid: fb7e3d64-ef73-4b9d-8082-de3cc76ebe92
+  subjects:
+  - entities:
+    - role: player
+      name: Ike Irish
+      ref: 
+    - role: team
+      name: Baltimore Orioles
+      ref: 
+- number: BCP-69
+  uuid: '082f8ea3-85c5-419a-b3a9-bb03c9986beb'
+  subjects:
+  - entities:
+    - role: player
+      name: Owen Carey
+      ref: 
+    - role: team
+      name: Atlanta Braves
+      ref: 
+- number: BCP-70
+  uuid: 397e5b62-2101-4fba-ad6d-c8621bc55c09
+  subjects:
+  - entities:
+    - role: player
+      name: Kash Mayfield
+      ref: 
+    - role: team
+      name: San Diego Padres
+      ref: 
+- number: BCP-71
+  uuid: 3bbd1fab-527c-4b54-8c1d-ff0b01a14dfa
+  subjects:
+  - entities:
+    - role: player
+      name: Enyervert Perez
+      ref: 
+    - role: team
+      name: Arizona Diamondbacks
+      ref: 
+- number: BCP-72
+  uuid: 9a8ce6dd-a33d-4bf3-aeef-3014803b9441
+  subjects:
+  - entities:
+    - role: player
+      name: Luis Arana
+      ref: 
+    - role: team
+      name: Miami Marlins
+      ref: 
+- number: BCP-73
+  uuid: 9548d649-bc04-4f12-b06c-ad37dc28f9d8
+  subjects:
+  - entities:
+    - role: player
+      name: Charles Davalan
+      ref: 
+    - role: team
+      name: Los Angeles Dodgers
+      ref: 
+- number: BCP-74
+  uuid: ed10c980-0869-4b9c-8eac-197de7df3100
+  subjects:
+  - entities:
+    - role: player
+      name: Jack Wheeler
+      ref: 
+    - role: team
+      name: Texas Rangers
+      ref: 
+- number: BCP-75
+  uuid: 2b0f87b0-18d2-4b1e-9e4b-a6228e6be394
+  subjects:
+  - entities:
+    - role: player
+      name: Juan Torres
+      ref: 
+    - role: team
+      name: New York Yankees
+      ref: 
+- number: BCP-76
+  uuid: bc69f217-1035-40f7-bcdf-0dc2adb1ec14
+  subjects:
+  - entities:
+    - role: player
+      name: Esmerlyn Valdez
+      ref: 
+    - role: team
+      name: Pittsburgh Pirates
+      ref: 
+- number: BCP-77
+  uuid: f969dfe1-c1ab-4a47-8ebf-c9c68aa05981
+  subjects:
+  - entities:
+    - role: player
+      name: Daniel Pierce
+      ref: 
+    - role: team
+      name: Tampa Bay Rays
+      ref: 
+- number: BCP-78
+  uuid: 84d0c148-569a-4ef6-b219-8a6c95f7a41b
+  subjects:
+  - entities:
+    - role: player
+      name: Dax Kilby
+      ref: 
+    - role: team
+      name: New York Yankees
+      ref: 
+- number: BCP-79
+  uuid: dd1ba47f-df9d-42a9-be5e-697744687f88
+  subjects:
+  - entities:
+    - role: player
+      name: Esteban Mejia
+      ref: 
+    - role: team
+      name: Baltimore Orioles
+      ref: 
+- number: BCP-80
+  uuid: de749614-907f-4fae-87cd-1624fc99accb
+  subjects:
+  - entities:
+    - role: player
+      name: Thomas White
+      ref: 
+    - role: team
+      name: Miami Marlins
+      ref: 
+- number: BCP-81
+  uuid: 0d11fe2f-ab00-482e-b4ca-d2ab99686dc9
+  subjects:
+  - entities:
+    - role: player
+      name: Jose Urbina
+      ref: 
+    - role: team
+      name: Tampa Bay Rays
+      ref: 
+- number: BCP-82
+  uuid: f4848e35-5c41-4e7d-971c-8efc3af6ef2a
+  subjects:
+  - entities:
+    - role: player
+      name: Edward Florentino
+      ref: 
+    - role: team
+      name: Pittsburgh Pirates
+      ref: 
+- number: BCP-83
+  uuid: 0b85532e-ad8a-4d53-8bd8-70f023fc3d4e
+  subjects:
+  - entities:
+    - role: player
+      name: Josue De Paula
+      ref: 
+    - role: team
+      name: Los Angeles Dodgers
+      ref: 
+- number: BCP-84
+  uuid: 521e15b1-5e2f-4461-9e8b-fc4eb0d6ff21
+  subjects:
+  - entities:
+    - role: player
+      name: David Hagaman
+      ref: 
+    - role: team
+      name: Arizona Diamondbacks
+      ref: 
+- number: BCP-85
+  uuid: 6e868cfe-78ad-4767-ae1a-eb35dbfefa21
+  subjects:
+  - entities:
+    - role: player
+      name: Anthony Frobose
+      ref: 
+    - role: team
+      name: New York Mets
+      ref: 
+- number: BCP-86
+  uuid: ae87abd3-dc80-44c7-94f2-0b7f206a332e
+  subjects:
+  - entities:
+    - role: player
+      name: Zyhir Hope
+      ref: 
+    - role: team
+      name: Los Angeles Dodgers
+      ref: 
+- number: BCP-87
+  uuid: 41b41b64-58fd-4aed-9429-169fd2d18abf
+  subjects:
+  - entities:
+    - role: player
+      name: Jean Carlos Sio
+      ref: 
+    - role: team
+      name: San Francisco Giants
+      ref: 
+- number: BCP-88
+  uuid: 0fb3ab96-d25a-44d1-86a3-599f8ee8d129
+  subjects:
+  - entities:
+    - role: player
+      name: Dasan Hill
+      ref: 
+    - role: team
+      name: Minnesota Twins
+      ref: 
+- number: BCP-89
+  uuid: 28aca3a6-806c-42e1-8bd1-1fb9e8637791
+  subjects:
+  - entities:
+    - role: player
+      name: Kendry Martinez
+      ref: 
+    - role: team
+      name: Seattle Mariners
+      ref: 
+- number: BCP-90
+  uuid: f7462c00-72e2-49da-baa3-519fceeb3c04
+  subjects:
+  - entities:
+    - role: player
+      name: Andrew Tess
+      ref: 
+    - role: team
+      name: Baltimore Orioles
+      ref: 
+- number: BCP-91
+  uuid: bd10afa1-b607-4721-952b-f462da5dff89
+  subjects:
+  - entities:
+    - role: player
+      name: Elian Peña
+      ref: 
+    - role: team
+      name: New York Mets
+      ref: 
+- number: BCP-92
+  uuid: 0c662390-0355-41b0-947c-3f1b90edf6e9
+  subjects:
+  - entities:
+    - role: player
+      name: Konnor Griffin
+      ref: 
+    - role: team
+      name: Pittsburgh Pirates
+      ref: 
+- number: BCP-93
+  uuid: c7309a55-eafe-46b0-813f-b44134b6f782
+  subjects:
+  - entities:
+    - role: player
+      name: Jorge Quintana
+      ref: 
+    - role: team
+      name: San Diego Padres
+      ref: 
+- number: BCP-94
+  uuid: becbbfe2-be7e-4a35-9105-2eef937c30e2
+  subjects:
+  - entities:
+    - role: player
+      name: Ricardo Cova
+      ref: 
+    - role: team
+      name: Seattle Mariners
+      ref: 
+- number: BCP-95
+  uuid: 87ae765d-98e5-433e-bb13-696561dc4ccd
+  subjects:
+  - entities:
+    - role: player
+      name: Eli Willits
+      ref: 
+    - role: team
+      name: Washington Nationals
+      ref: 
+- number: BCP-96
+  uuid: 1ed6c12d-69fa-48ee-89a8-d70022d1682a
+  subjects:
+  - entities:
+    - role: player
+      name: Jesús Made
+      ref: 
+    - role: team
+      name: Milwaukee Brewers
+      ref: 
+- number: BCP-97
+  uuid: 284a33c4-39cf-4e00-8a26-cea6a92fe56e
+  subjects:
+  - entities:
+    - role: player
+      name: Daniel Hernandez
+      ref: 
+    - role: team
+      name: Washington Nationals
+      ref: 
+- number: BCP-98
+  uuid: 6bb58b6b-e95d-4230-ac66-62e99010d35c
+  subjects:
+  - entities:
+    - role: player
+      name: Walker Jenkins
+      ref: 
+    - role: team
+      name: Minnesota Twins
+      ref: 
+- number: BCP-99
+  uuid: 2d978fea-d68b-4ae0-94de-a8f2c9ca4fa4
+  subjects:
+  - entities:
+    - role: player
+      name: Bryce Rainer
+      ref: 
+    - role: team
+      name: Detroit Tigers
+      ref: 
+- number: BCP-100
+  uuid: a7181863-25a7-4d65-8ce2-401f6aea6a87
+  subjects:
+  - entities:
+    - role: player
+      name: Marconi German
+      ref: 
+    - role: team
+      name: Washington Nationals
+      ref: 
+- number: BCP-101
+  uuid: 2c00cebc-43b1-4c4f-ab16-42ef66db71bd
+  subjects:
+  - entities:
+    - role: player
+      name: Kehden Hettiger
+      ref: 
+    - role: team
+      name: Philadelphia Phillies
+      ref: 
+- number: BCP-102
+  uuid: 3f930e4d-7585-4ffb-90a8-bef10b290b1a
+  subjects:
+  - entities:
+    - role: player
+      name: Eric Hartman
+      ref: 
+    - role: team
+      name: Atlanta Braves
+      ref: 
+- number: BCP-103
+  uuid: 39c04d22-8f2e-439f-8148-b1493c76124d
+  subjects:
+  - entities:
+    - role: player
+      name: Nick Monistere
+      ref: 
+    - role: team
+      name: Houston Astros
+      ref: 
+- number: BCP-104
+  uuid: 6b595c0d-0cb8-4a55-abbe-0999c558b354
+  subjects:
+  - entities:
+    - role: player
+      name: Henry Lalane
+      ref: 
+    - role: team
+      name: New York Yankees
+      ref: 
+- number: BCP-105
+  uuid: 722f4c71-bfaa-4e32-87f3-3cae82e45d95
+  subjects:
+  - entities:
+    - role: player
+      name: Kade Snell
+      ref: 
+    - role: team
+      name: Chicago Cubs
+      ref: 
+- number: BCP-106
+  uuid: 3af69115-3571-4cd4-8ed8-1322b312802f
+  subjects:
+  - entities:
+    - role: player
+      name: Francisco Espinoza
+      ref: 
+    - role: team
+      name: Los Angeles Dodgers
+      ref: 
+- number: BCP-107
+  uuid: 329a3a63-b973-4c3f-a97f-45f6559f39af
+  subjects:
+  - entities:
+    - role: player
+      name: Miguel Mendez
+      ref: 
+    - role: team
+      name: San Diego Padres
+      ref: 
+- number: BCP-108
+  uuid: 19c217d4-56f3-4fa6-ab3f-3f0f6b16b1e5
+  subjects:
+  - entities:
+    - role: player
+      name: Colt Emerson
+      ref: 
+    - role: team
+      name: Seattle Mariners
+      ref: 
+- number: BCP-109
+  uuid: 3b87a3e1-5a2a-4f5d-bff3-af2658372ea1
+  subjects:
+  - entities:
+    - role: player
+      name: Truitt Madonna
+      ref: 
+    - role: team
+      name: San Diego Padres
+      ref: 
+- number: BCP-110
+  uuid: 254bef48-2b36-47f7-9918-4fc414dd5b6e
+  subjects:
+  - entities:
+    - role: player
+      name: Matthew Ferrara
+      ref: 
+    - role: team
+      name: Philadelphia Phillies
+      ref: 
+- number: BCP-111
+  uuid: '0795fc50-cf84-4392-968f-729d3b75dca7'
+  subjects:
+  - entities:
+    - role: player
+      name: Carson Benge
+      ref: 
+    - role: team
+      name: New York Mets
+      ref: 
+- number: BCP-112
+  uuid: 7857e14b-c93f-48d0-a9c9-28a056636afc
+  subjects:
+  - entities:
+    - role: player
+      name: Jamie Arnold
+      ref: 
+    - role: team
+      name: Athletics
+      ref: 
+- number: BCP-113
+  uuid: 28883a72-7b73-45b4-b66f-4833c2630740
+  subjects:
+  - entities:
+    - role: player
+      name: Josh Knoth
+      ref: 
+    - role: team
+      name: Milwaukee Brewers
+      ref: 
+- number: BCP-114
+  uuid: d8e5cac8-cec2-4545-b1ac-41d9bbf927c8
+  subjects:
+  - entities:
+    - role: player
+      name: Argenis Cayama
+      ref: 
+    - role: team
+      name: San Francisco Giants
+      ref: 
+- number: BCP-115
+  uuid: db008512-e99a-4d93-924c-4112e66ad606
+  subjects:
+  - entities:
+    - role: player
+      name: JJ Wetherholt
+      ref: 
+    - role: team
+      name: St. Louis Cardinals
+      ref: 
+- number: BCP-116
+  uuid: 0bbd585d-0711-433a-9387-dd1c85791c32
+  subjects:
+  - entities:
+    - role: player
+      name: Dauri Fernandez
+      ref: 
+    - role: team
+      name: Cleveland Guardians
+      ref: 
+- number: BCP-117
+  uuid: 30152254-d241-4b41-a826-4fe99c64ab1f
+  subjects:
+  - entities:
+    - role: player
+      name: Victor Figueroa
+      ref: 
+    - role: team
+      name: Baltimore Orioles
+      ref: 
+- number: BCP-118
+  uuid: 3ab1df08-f524-4a61-a7ef-4ccaa460c639
+  subjects:
+  - entities:
+    - role: player
+      name: Gabriel Rodriguez
+      ref: 
+    - role: team
+      name: Cleveland Guardians
+      ref: 
+- number: BCP-119
+  uuid: 1e98d173-88a5-414d-948e-cb487136ca43
+  subjects:
+  - entities:
+    - role: player
+      name: Mathias Lacombe
+      ref: 
+    - role: team
+      name: Chicago White Sox
+      ref: 
+- number: BCP-120
+  uuid: 542c3262-f918-49ce-944b-2dc124fe5ebd
+  subjects:
+  - entities:
+    - role: player
+      name: Luis Peña
+      ref: 
+    - role: team
+      name: Milwaukee Brewers
+      ref: 
+- number: BCP-121
+  uuid: ad1bf7a7-14eb-4e37-b9e1-c38bcd13dec5
+  subjects:
+  - entities:
+    - role: player
+      name: Keaton Anthony
+      ref: 
+    - role: team
+      name: Philadelphia Phillies
+      ref: 
+- number: BCP-122
+  uuid: 2684143d-1b09-4f88-aa29-292eed26c29c
+  subjects:
+  - entities:
+    - role: player
+      name: Sam Petersen
+      ref: 
+    - role: team
+      name: Washington Nationals
+      ref: 
+- number: BCP-123
+  uuid: dcf32249-0cf7-4919-b2a5-86b01a4aaa05
+  subjects:
+  - entities:
+    - role: player
+      name: JR Ritchie
+      ref: 
+    - role: team
+      name: Atlanta Braves
+      ref: 
+- number: BCP-124
+  uuid: 0fab6021-5473-496c-bb6c-ad6a5f28ec18
+  subjects:
+  - entities:
+    - role: player
+      name: Riley Nelson
+      ref: 
+    - role: team
+      name: Cleveland Guardians
+      ref: 
+- number: BCP-125
+  uuid: cebcfae1-be23-457a-ba6b-03eec7c643fe
+  subjects:
+  - entities:
+    - role: player
+      name: Wei-En Lin
+      ref: 
+    - role: team
+      name: Athletics
+      ref: 
+- number: BCP-126
+  uuid: c94b17f0-1d15-4651-8061-beff25797f85
+  subjects:
+  - entities:
+    - role: player
+      name: Gavin Fien
+      ref: 
+    - role: team
+      name: Texas Rangers
+      ref: 
+- number: BCP-127
+  uuid: 356c7600-5601-42e0-af3e-b33ec52dfcaa
+  subjects:
+  - entities:
+    - role: player
+      name: Seojun Moon
+      ref: 
+    - role: team
+      name: Toronto Blue Jays
+      ref: 
+- number: BCP-128
+  uuid: b89e445a-56be-4612-a9ed-5f56f9778fd5
+  subjects:
+  - entities:
+    - role: player
+      name: Hector Ramos
+      ref: 
+    - role: team
+      name: Boston Red Sox
+      ref: 
+- number: BCP-129
+  uuid: 9c997558-7981-48f9-a790-fc7bcb6952ce
+  subjects:
+  - entities:
+    - role: player
+      name: Seaver King
+      ref: 
+    - role: team
+      name: Washington Nationals
+      ref: 
+- number: BCP-130
+  uuid: f8abc27a-676f-402d-b735-b841e40308d1
+  subjects:
+  - entities:
+    - role: player
+      name: Kenly Hunter
+      ref: 
+    - role: team
+      name: St. Louis Cardinals
+      ref: 
+- number: BCP-131
+  uuid: f681a04b-f148-40a7-943e-147cb5a1cace
+  subjects:
+  - entities:
+    - role: player
+      name: Walker Janek
+      ref: 
+    - role: team
+      name: Houston Astros
+      ref: 
+- number: BCP-132
+  uuid: 1ad8d0b1-e83d-4fed-bf4e-36d213dfbde7
+  subjects:
+  - entities:
+    - role: player
+      name: Keyner Martinez
+      ref: 
+    - role: team
+      name: San Francisco Giants
+      ref: 
+- number: BCP-133
+  uuid: 89cc550c-0613-42fe-8d57-a1845370ace4
+  subjects:
+  - entities:
+    - role: player
+      name: Xavier Neyens
+      ref: 
+    - role: team
+      name: Houston Astros
+      ref: 
+- number: BCP-134
+  uuid: ff9cf022-ce65-41cc-be90-4ad205646b3e
+  subjects:
+  - entities:
+    - role: player
+      name: T.J. Rumfield
+      ref: 
+    - role: team
+      name: New York Yankees
+      ref: 
+- number: BCP-135
+  uuid: 8bdc97e0-4d08-4ff4-a40d-918568396509
+  subjects:
+  - entities:
+    - role: player
+      name: Wehiwa Aloy
+      ref: 
+    - role: team
+      name: Baltimore Orioles
+      ref: 
+- number: BCP-136
+  uuid: db8b1f5d-09e7-4fc4-8320-13bbafbd0ec5
+  subjects:
+  - entities:
+    - role: player
+      name: Gavin Kilen
+      ref: 
+    - role: team
+      name: San Francisco Giants
+      ref: 
+- number: BCP-137
+  uuid: 3986d9e0-809b-47fd-824f-1d706418c8b4
+  subjects:
+  - entities:
+    - role: player
+      name: Braden Nett
+      ref: 
+    - role: team
+      name: Athletics
+      ref: 
+- number: BCP-138
+  uuid: e28ba4a8-dd74-47ef-8116-b81b11506e36
+  subjects:
+  - entities:
+    - role: player
+      name: Patrick Copen
+      ref: 
+    - role: team
+      name: Los Angeles Dodgers
+      ref: 
+- number: BCP-139
+  uuid: 2e77e825-5d88-42e8-abde-5d181dc126bc
+  subjects:
+  - entities:
+    - role: player
+      name: Edgar Montero
+      ref: 
+    - role: team
+      name: Athletics
+      ref: 
+- number: BCP-140
+  uuid: 15ddbcb6-048b-4daa-bf7c-8435f3b66a15
+  subjects:
+  - entities:
+    - role: player
+      name: Pedro Ibarguen
+      ref: 
+    - role: team
+      name: Milwaukee Brewers
+      ref: 
+- number: BCP-141
+  uuid: 43b5185a-8fb7-4c8f-b581-be4ba0162a6e
+  subjects:
+  - entities:
+    - role: player
+      name: Justin Gonzales
+      ref: 
+    - role: team
+      name: Boston Red Sox
+      ref: 
+- number: BCP-142
+  uuid: 3cce9fc1-f26f-4451-9c77-a014c355e07b
+  subjects:
+  - entities:
+    - role: player
+      name: Brady Ebel
+      ref: 
+    - role: team
+      name: Milwaukee Brewers
+      ref: 
+- number: BCP-143
+  uuid: e3dfff08-a39d-4a4b-8225-c1152f1c5e1c
+  subjects:
+  - entities:
+    - role: player
+      name: Kaelen Culpepper
+      ref: 
+    - role: team
+      name: Minnesota Twins
+      ref: 
+- number: BCP-144
+  uuid: 4559af4a-1324-4f2b-8cc3-0ebadd353a5e
+  subjects:
+  - entities:
+    - role: player
+      name: Colby Shelton
+      ref: 
+    - role: team
+      name: Chicago White Sox
+      ref: 
+- number: BCP-145
+  uuid: 73224115-99cc-4221-bed2-b4d0349f4712
+  subjects:
+  - entities:
+    - role: player
+      name: Kevin McGonigle
+      ref: 
+    - role: team
+      name: Detroit Tigers
+      ref: 
+- number: BCP-146
+  uuid: a801e14f-4e03-489f-a779-e48afde31036
+  subjects:
+  - entities:
+    - role: player
+      name: Matt Klein
+      ref: 
+    - role: team
+      name: Colorado Rockies
+      ref: 
+- number: BCP-147
+  uuid: 977e1274-12ae-48fe-913c-445b87df0ce4
+  subjects:
+  - entities:
+    - role: player
+      name: JoJo Parker
+      ref: 
+    - role: team
+      name: Toronto Blue Jays
+      ref: 
+- number: BCP-148
+  uuid: 86685c4d-cd2d-42e4-bf07-d53a0cb739ff
+  subjects:
+  - entities:
+    - role: player
+      name: Dillon Lewis
+      ref: 
+    - role: team
+      name: New York Yankees
+      ref: 
+- number: BCP-149
+  uuid: 8c465018-1507-4847-be4d-812ed236d78c
+  subjects:
+  - entities:
+    - role: player
+      name: Andrew Fischer
+      ref: 
+    - role: team
+      name: Milwaukee Brewers
+      ref: 
+- number: BCP-150
+  uuid: 505f66ed-b09a-462d-aab0-6ea07f352eff
+  subjects:
+  - entities:
+    - role: player
+      name: Wilder Dalis
+      ref: 
+    - role: team
+      name: Colorado Rockies
+      ref: 

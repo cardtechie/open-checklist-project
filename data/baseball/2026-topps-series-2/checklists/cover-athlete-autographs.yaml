@@ -1,0 +1,90 @@
+- number: COVR-AJ
+  uuid: 11ec1afb-58e7-4999-b73e-345e0d89613c
+  subjects:
+  - entities:
+    - role: player
+      name: Aaron Judge
+      ref: 
+    - role: team
+      name: New York Yankees
+      ref: 
+- number: COVR-BH
+  uuid: 6ffef300-098f-4093-bc7f-3c91e24e0c70
+  subjects:
+  - entities:
+    - role: player
+      name: Bryce Harper
+      ref: 
+    - role: team
+      name: Washington Nationals
+      ref: 
+- number: COVR-BP
+  uuid: 0e187e58-aa80-493d-adbd-c93401aabd75
+  subjects:
+  - entities:
+    - role: player
+      name: Buster Posey
+      ref: 
+    - role: team
+      name: San Francisco Giants
+      ref: 
+- number: COVR-FTJ
+  uuid: 1052f156-1b96-48cb-8f75-2866077fd93d
+  subjects:
+  - entities:
+    - role: player
+      name: Fernando Tatis Jr.
+      ref: 
+    - role: team
+      name: San Diego Padres
+      ref: 
+- number: COVR-KER
+  uuid: b2b40b79-0f6a-43c2-8258-6b467ed90ad2
+  subjects:
+  - entities:
+    - role: player
+      name: Clayton Kershaw
+      ref: 
+    - role: team
+      name: Los Angeles Dodgers
+      ref: 
+- number: COVR-MT
+  uuid: 8cd5712a-a773-4233-9b3d-999f23282fed
+  subjects:
+  - entities:
+    - role: player
+      name: Mike Trout
+      ref: 
+    - role: team
+      name: Los Angeles Angels
+      ref: 
+- number: COVR-SHO
+  uuid: 510da703-bfed-471a-83f4-5e59c200b10b
+  subjects:
+  - entities:
+    - role: player
+      name: Shohei Ohtani
+      ref: 
+    - role: team
+      name: Los Angeles Dodgers
+      ref: 
+- number: COVR-TRO
+  uuid: 6c961b97-9ee0-4d59-b0c1-da23269662fb
+  subjects:
+  - entities:
+    - role: player
+      name: Mike Trout
+      ref: 
+    - role: team
+      name: Los Angeles Angels
+      ref: 
+- number: COVR-VGJ
+  uuid: b3978fe1-78e8-4555-b268-236c804561ac
+  subjects:
+  - entities:
+    - role: player
+      name: Vladimir Guerrero Jr.
+      ref: 
+    - role: team
+      name: Toronto Blue Jays
+      ref: 

@@ -1,0 +1,60 @@
+- number: FP-10
+  uuid: 5cf76255-b072-4bfc-9d16-948097d6ca18
+  subjects:
+  - entities:
+    - role: player
+      name: Jerry Seinfeld
+      ref: 
+    - role: team
+      name: New York Mets
+      ref: 
+- number: FP-11
+  uuid: 5ea8b789-a167-4667-8907-34afa7d45b98
+  subjects:
+  - entities:
+    - role: player
+      name: Maria Taylor
+      ref: 
+    - role: team
+      name: Atlanta Braves
+      ref: 
+- number: FP-12
+  uuid: d2144b73-8b1a-4fb9-b8bc-2f9256b6b0f3
+  subjects:
+  - entities:
+    - role: player
+      name: Yandel
+      ref: 
+    - role: team
+      name: Tampa Bay Rays
+      ref: 
+- number: FP-13
+  uuid: 5b0faeea-6c87-438c-a3fe-a125a25d8f3d
+  subjects:
+  - entities:
+    - role: player
+      name: Scott Yager
+      ref: 
+    - role: team
+      name: Pittsburgh Pirates
+      ref: 
+- number: FP-14
+  uuid: f3fc2455-c375-4d58-b858-8cfbc399a878
+  subjects:
+  - entities:
+    - role: player
+      name: Madison Marilla
+      ref: 
+    - role: team
+      name: Tampa Bay Rays
+      ref: 
+- number: FP-15
+  uuid: 03313e48-ac58-4736-b920-dd919f8e5638
+  subjects:
+  - entities:
+    - role: player
+      name: Hayden Christensen
+      ref: 
+    - role: team
+      name: Chicago Cubs
+      ref: 

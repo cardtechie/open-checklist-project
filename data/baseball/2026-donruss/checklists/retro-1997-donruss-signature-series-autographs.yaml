@@ -1,0 +1,140 @@
+- number: '1'
+  uuid: 74159f74-2b4e-406d-9868-112213969b1b
+  subjects:
+  - entities:
+    - role: player
+      name: Frank Thomas
+      ref: 
+    - role: team
+      name: Chicago White Sox
+      ref: 
+- number: '2'
+  uuid: 2f79dd14-ede8-4c6f-abd8-a48206ce573b
+  subjects:
+  - entities:
+    - role: player
+      name: Jacob Wilson
+      ref: 
+    - role: team
+      name: Oakland A's
+      ref: 
+- number: '3'
+  uuid: 8262868c-f09e-4a21-839b-6363d8b2b81a
+  subjects:
+  - entities:
+    - role: player
+      name: Matt Shaw
+      ref: 
+    - role: team
+      name: Chicago Cubs
+      ref: 
+- number: '4'
+  uuid: 882c1bd5-1aa3-4f17-9f58-230610b33c5b
+  subjects:
+  - entities:
+    - role: player
+      name: Heston Kjerstad
+      ref: 
+    - role: team
+      name: Baltimore Orioles
+      ref: 
+- number: '5'
+  uuid: 6658a2a3-f073-4781-8653-c8518e5c290d
+  subjects:
+  - entities:
+    - role: player
+      name: Jackson Chourio
+      ref: 
+    - role: team
+      name: Milwaukee Brewers
+      ref: 
+- number: '6'
+  uuid: e3450a6b-abff-4fab-ae65-f22bd505a683
+  subjects:
+  - entities:
+    - role: player
+      name: Dylan Crews
+      ref: 
+    - role: team
+      name: Washington Nationals
+      ref: 
+- number: '7'
+  uuid: 3f796a22-67b5-4cda-b699-018253875bb5
+  subjects:
+  - entities:
+    - role: player
+      name: Konnor Griffin
+      ref: 
+    - role: team
+      name: Pittsburgh Pirates
+      ref: 
+- number: '8'
+  uuid: 8ab89aa6-6043-4a2e-9792-581476d5a5c6
+  subjects:
+  - entities:
+    - role: player
+      name: Bobby Witt Jr.
+      ref: 
+    - role: team
+      name: Kansas City Royals
+      ref: 
+- number: '10'
+  uuid: 292c3a00-d77e-4d18-8739-9dfdcaa14833
+  subjects:
+  - entities:
+    - role: player
+      name: George Lombard Jr.
+      ref: 
+    - role: team
+      name: New York Yankees
+      ref: 
+- number: '11'
+  uuid: b6e1cb4e-1cc2-43c9-8f62-90568f08b4b0
+  subjects:
+  - entities:
+    - role: player
+      name: Rhett Lowder
+      ref: 
+    - role: team
+      name: Cincinnati Reds
+      ref: 
+- number: '13'
+  uuid: d511482d-4d3a-40c1-bb59-4dffb92cd2ec
+  subjects:
+  - entities:
+    - role: player
+      name: Aidan Miller
+      ref: 
+    - role: team
+      name: Philadelphia Phillies
+      ref: 
+- number: '14'
+  uuid: a328eb99-669a-4bd3-83dc-b2d40873e7b0
+  subjects:
+  - entities:
+    - role: player
+      name: Kristian Campbell
+      ref: 
+    - role: team
+      name: Boston Red Sox
+      ref: 
+- number: '16'
+  uuid: c9e8c7fb-73e4-4939-9ccc-cdd29e24f266
+  subjects:
+  - entities:
+    - role: player
+      name: Jacob Misiorowski
+      ref: 
+    - role: team
+      name: Milwaukee Brewers
+      ref: 
+- number: '17'
+  uuid: d99c4058-30a2-49d3-a93a-8770f7e9d941
+  subjects:
+  - entities:
+    - role: player
+      name: Mike Lowell
+      ref: 
+    - role: team
+      name: Boston Red Sox
+      ref: 

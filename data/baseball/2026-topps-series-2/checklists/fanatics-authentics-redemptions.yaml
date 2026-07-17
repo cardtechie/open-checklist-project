@@ -1,0 +1,300 @@
+- number: FAR-1
+  uuid: 712021e2-b1ad-4cf9-bce3-3aca3c6e35eb
+  subjects:
+  - entities:
+    - role: player
+      name: Buster Posey
+      ref: 
+    - role: team
+      name: San Francisco Giants
+      ref: 
+- number: FAR-2
+  uuid: 1593192b-9c60-4b08-8c3d-6628f8321bfc
+  subjects:
+  - entities:
+    - role: player
+      name: Cal Raleigh
+      ref: 
+    - role: team
+      name: Seattle Mariners
+      ref: 
+- number: FAR-3
+  uuid: 12ae8b0c-83b4-429a-ad13-5c927566645a
+  subjects:
+  - entities:
+    - role: player
+      name: Fernando Tatis Jr.
+      ref: 
+    - role: team
+      name: San Diego Padres
+      ref: 
+- number: FAR-4
+  uuid: 45a31afa-d8b3-4c36-843f-ea88fb1b39bd
+  subjects:
+  - entities:
+    - role: player
+      name: Paul Skenes
+      ref: 
+    - role: team
+      name: Pittsburgh Pirates
+      ref: 
+- number: FAR-5
+  uuid: 2eb2e404-8df3-47fc-a0ea-57db4513ba7d
+  subjects:
+  - entities:
+    - role: player
+      name: Nick Kurtz
+      ref: 
+    - role: team
+      name: Athletics
+      ref: 
+- number: FAR-6
+  uuid: 0bff7bad-966c-4697-9358-a90dee766179
+  subjects:
+  - entities:
+    - role: player
+      name: Mike Schmidt
+      ref: 
+    - role: team
+      name: Philadelphia Phillies
+      ref: 
+- number: FAR-7
+  uuid: 284db480-3849-40b7-b8e4-407f5af61baa
+  subjects:
+  - entities:
+    - role: player
+      name: Yadier Molina
+      ref: 
+    - role: team
+      name: St. Louis Cardinals
+      ref: 
+- number: FAR-8
+  uuid: 2fec0811-e2c2-4620-a237-044da67c9270
+  subjects:
+  - entities:
+    - role: player
+      name: Junior Caminero
+      ref: 
+    - role: team
+      name: Tampa Bay Rays
+      ref: 
+- number: FAR-9
+  uuid: cf534921-33f9-4069-b10b-9ffa46ac2c51
+  subjects:
+  - entities:
+    - role: player
+      name: Kyle Teel
+      ref: 
+    - role: team
+      name: Chicago White Sox
+      ref: 
+- number: FAR-10
+  uuid: f96acd82-6dad-4091-874c-21aa60288f07
+  subjects:
+  - entities:
+    - role: player
+      name: Zac Veen
+      ref: 
+    - role: team
+      name: Colorado Rockies
+      ref: 
+- number: FAR-11
+  uuid: 87412093-dcc3-40ab-80a1-7c35b2db68c6
+  subjects:
+  - entities:
+    - role: player
+      name: Pete Crow-Armstrong
+      ref: 
+    - role: team
+      name: Chicago Cubs
+      ref: 
+- number: FAR-12
+  uuid: 2f88a079-34fc-49d1-b775-c248108d0db1
+  subjects:
+  - entities:
+    - role: player
+      name: Dylan Crews
+      ref: 
+    - role: team
+      name: Washington Nationals
+      ref: 
+- number: FAR-13
+  uuid: c678e35c-e10b-4813-ae82-7b351c868991
+  subjects:
+  - entities:
+    - role: player
+      name: Adrian Beltre
+      ref: 
+    - role: team
+      name: Texas Rangers
+      ref: 
+- number: FAR-14
+  uuid: 679c1b84-6181-4f34-9a01-fe933c404ce2
+  subjects:
+  - entities:
+    - role: player
+      name: Trey Yesavage
+      ref: 
+    - role: team
+      name: Toronto Blue Jays
+      ref: 
+- number: FAR-15
+  uuid: 0c5bdb88-82a6-40bb-86c2-374bfab621e7
+  subjects:
+  - entities:
+    - role: player
+      name: Max Fried
+      ref: 
+    - role: team
+      name: New York Yankees
+      ref: 
+- number: FAR-16
+  uuid: 8ceea131-869a-4938-9eda-49a216da773b
+  subjects:
+  - entities:
+    - role: player
+      name: Mike Piazza
+      ref: 
+    - role: team
+      name: New York Mets
+      ref: 
+- number: FAR-17
+  uuid: f2015eab-a9eb-49c1-9f69-cad630cd9350
+  subjects:
+  - entities:
+    - role: player
+      name: Steven Kwan
+      ref: 
+    - role: team
+      name: Cleveland Guardians
+      ref: 
+- number: FAR-18
+  uuid: 57919a68-a756-4a0b-a7fb-1fc76d9cf1ce
+  subjects:
+  - entities:
+    - role: player
+      name: Kerry Carpenter
+      ref: 
+    - role: team
+      name: Detroit Tigers
+      ref: 
+- number: FAR-19
+  uuid: fa057b85-c0df-48db-8834-d84d389e52ac
+  subjects:
+  - entities:
+    - role: player
+      name: Gavin Lux
+      ref: 
+    - role: team
+      name: Cincinnati Reds
+      ref: 
+- number: FAR-20
+  uuid: 64130329-4e1e-4ca8-ad60-211a32b2db09
+  subjects:
+  - entities:
+    - role: player
+      name: Carl Yastrzemski
+      ref: 
+    - role: team
+      name: Boston Red Sox
+      ref: 
+- number: FAR-21
+  uuid: 28af1c66-84d8-4b49-a48a-254c02931b53
+  subjects:
+  - entities:
+    - role: player
+      name: Chipper Jones
+      ref: 
+    - role: team
+      name: Atlanta Braves
+      ref: 
+- number: FAR-22
+  uuid: 252d2520-1f05-4d1b-ba9d-5557d949d6ea
+  subjects:
+  - entities:
+    - role: player
+      name: Cal Ripken Jr.
+      ref: 
+    - role: team
+      name: Baltimore Orioles
+      ref: 
+- number: FAR-23
+  uuid: 56896038-26a8-4bc2-a824-8e808b238d17
+  subjects:
+  - entities:
+    - role: player
+      name: Nolan Ryan
+      ref: 
+    - role: team
+      name: Houston Astros
+      ref: 
+- number: FAR-24
+  uuid: 16d2746e-2947-46d3-bf76-b7af7966de4d
+  subjects:
+  - entities:
+    - role: player
+      name: Jac Caglianone
+      ref: 
+    - role: team
+      name: Kansas City Royals
+      ref: 
+- number: FAR-25
+  uuid: 9b962b11-32ba-4ec0-be5e-359aea5be7c4
+  subjects:
+  - entities:
+    - role: player
+      name: Jackson Chourio
+      ref: 
+    - role: team
+      name: Milwaukee Brewers
+      ref: 
+- number: FAR-26
+  uuid: 50f1ef92-c428-44bf-9ea9-85c5b2d98d31
+  subjects:
+  - entities:
+    - role: player
+      name: Byron Buxton
+      ref: 
+    - role: team
+      name: Minnesota Twins
+      ref: 
+- number: FAR-27
+  uuid: 01b717d3-c68e-4bf2-89a4-51f781780f7e
+  subjects:
+  - entities:
+    - role: player
+      name: Ichiro
+      ref: 
+    - role: team
+      name: Seattle Mariners
+      ref: 
+- number: FAR-28
+  uuid: 4dd8e133-51a6-4982-91f4-0c99a120d06c
+  subjects:
+  - entities:
+    - role: player
+      name: Roki Sasaki
+      ref: 
+    - role: team
+      name: Los Angeles Dodgers
+      ref: 
+- number: FAR-29
+  uuid: fd6c12fa-2f36-4a9b-987a-4f52e1ba1aef
+  subjects:
+  - entities:
+    - role: player
+      name: Albert Pujols
+      ref: 
+    - role: team
+      name: Los Angeles Angels
+      ref: 
+- number: FAR-30
+  uuid: b9b858f7-56ef-4fa5-8cbd-3635b2e375c8
+  subjects:
+  - entities:
+    - role: player
+      name: Corbin Carroll
+      ref: 
+    - role: team
+      name: Arizona Diamondbacks
+      ref: 

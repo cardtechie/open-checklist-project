@@ -1,0 +1,220 @@
+- number: SFA-AF
+  uuid: b4a236f8-326e-4880-9af8-75057ec36b9e
+  subjects:
+  - entities:
+    - role: player
+      name: Alex Freeland
+      ref: 
+    - role: team
+      name: Los Angeles Dodgers
+      ref: 
+- number: SFA-AR
+  uuid: 9bf83061-f333-4ab1-b4c8-a88c55bb6f60
+  subjects:
+  - entities:
+    - role: player
+      name: Agustín Ramírez
+      ref: 
+    - role: team
+      name: Miami Marlins
+      ref: 
+- number: SFA-BC
+  uuid: fe4f5618-3776-47e1-b31c-d75476eccee4
+  subjects:
+  - entities:
+    - role: player
+      name: Bubba Chandler
+      ref: 
+    - role: team
+      name: Pittsburgh Pirates
+      ref: 
+- number: SFA-BL
+  uuid: 63758eee-9b90-40eb-8d86-7b93c7e0c873
+  subjects:
+  - entities:
+    - role: player
+      name: Brooks Lee
+      ref: 
+    - role: team
+      name: Minnesota Twins
+      ref: 
+- number: SFA-BM
+  uuid: 545e9d5a-633e-4dbd-8b56-0c2850470c64
+  subjects:
+  - entities:
+    - role: player
+      name: Brice Matthews
+      ref: 
+    - role: team
+      name: Houston Astros
+      ref: 
+- number: SFA-CAG
+  uuid: 843621b4-dd5c-4566-8794-2713ad7887e9
+  subjects:
+  - entities:
+    - role: player
+      name: Jac Caglianone
+      ref: 
+    - role: team
+      name: Kansas City Royals
+      ref: 
+- number: SFA-CB
+  uuid: 454636b3-6942-4849-ab3c-ffd614af53e9
+  subjects:
+  - entities:
+    - role: player
+      name: Chase Burns
+      ref: 
+    - role: team
+      name: Cincinnati Reds
+      ref: 
+- number: SFA-CM
+  uuid: 97494ba8-4f83-4d32-8ddf-2c79a8d850a1
+  subjects:
+  - entities:
+    - role: player
+      name: Christian Moore
+      ref: 
+    - role: team
+      name: Los Angeles Angels
+      ref: 
+- number: SFA-CSI
+  uuid: d40692ef-1f83-48b4-897a-e827f825f8ec
+  subjects:
+  - entities:
+    - role: player
+      name: Chandler Simpson
+      ref: 
+    - role: team
+      name: Tampa Bay Rays
+      ref: 
+- number: SFA-CY
+  uuid: 1e4d9b14-93bf-4741-a616-c0a2c02d2eb6
+  subjects:
+  - entities:
+    - role: player
+      name: Cole Young
+      ref: 
+    - role: team
+      name: Seattle Mariners
+      ref: 
+- number: SFA-DB
+  uuid: e6bcd500-4a19-44e8-bf6d-7bba7a60a917
+  subjects:
+  - entities:
+    - role: player
+      name: Dylan Beavers
+      ref: 
+    - role: team
+      name: Baltimore Orioles
+      ref: 
+- number: SFA-DR
+  uuid: 7b2f45f3-4a84-4c3f-9d2c-7667aa1d7c93
+  subjects:
+  - entities:
+    - role: player
+      name: Dalton Rushing
+      ref: 
+    - role: team
+      name: Los Angeles Dodgers
+      ref: 
+- number: SFA-JM
+  uuid: 59521869-3c25-4847-b1ca-e8d70bda2bf7
+  subjects:
+  - entities:
+    - role: player
+      name: Jacob Melton
+      ref: 
+    - role: team
+      name: Houston Astros
+      ref: 
+- number: SFA-JMA
+  uuid: ec364077-cf80-424b-9127-d6ee35a1c061
+  subjects:
+  - entities:
+    - role: player
+      name: Jakob Marsee
+      ref: 
+    - role: team
+      name: Miami Marlins
+      ref: 
+- number: SFA-KC
+  uuid: a4afbde2-4c80-479f-b6d7-7ac52d8dcba0
+  subjects:
+  - entities:
+    - role: player
+      name: Kristian Campbell
+      ref: 
+    - role: team
+      name: Boston Red Sox
+      ref: 
+- number: SFA-KT
+  uuid: 6a1da22c-877c-4f80-a106-d6b92e010a66
+  subjects:
+  - entities:
+    - role: player
+      name: Kyle Teel
+      ref: 
+    - role: team
+      name: Chicago White Sox
+      ref: 
+- number: SFA-NK
+  uuid: 28af85aa-b87e-4b77-a7e1-0c8024f8fa1e
+  subjects:
+  - entities:
+    - role: player
+      name: Nick Kurtz
+      ref: 
+    - role: team
+      name: Athletics
+      ref: 
+- number: SFA-NM
+  uuid: 02b6dd1f-4868-4b3d-a570-57bce7540a6f
+  subjects:
+  - entities:
+    - role: player
+      name: Nolan McLean
+      ref: 
+    - role: team
+      name: New York Mets
+      ref: 
+- number: SFA-OC
+  uuid: 2da296a7-fd75-4ca3-b6fc-eb906d5d63ab
+  subjects:
+  - entities:
+    - role: player
+      name: Owen Caissie
+      ref: 
+    - role: team
+      name: Chicago Cubs
+      ref: 
+- number: SFA-RS
+  uuid: 1892c44f-07e7-4ff0-8a3f-345d55bb8929
+  subjects:
+  - entities:
+    - role: player
+      name: Roki Sasaki
+      ref: 
+    - role: team
+      name: Los Angeles Dodgers
+      ref: 
+- number: SFA-SB
+  uuid: 3e0d117f-34aa-4401-894c-7c8f12ce3eb3
+  subjects:
+  - entities:
+    - role: player
+      name: Samuel Basallo
+      ref: 
+    - role: team
+      name: Baltimore Orioles
+      ref: 
+- number: SFA-SS
+  uuid: b52c48c4-f133-4a12-916c-87f45b221ccb
+  subjects:
+  - entities:
+    - role: player
+      name: Sal Stewart
+      ref: 
+    - role: team
+      name: Cincinnati Reds
+      ref: 

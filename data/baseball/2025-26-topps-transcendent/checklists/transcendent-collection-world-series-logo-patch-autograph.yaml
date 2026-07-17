@@ -1,0 +1,50 @@
+- number: WSMLB-AV
+  uuid: 3d0c6083-df9e-4af3-b3b6-478705a04745
+  subjects:
+  - entities:
+    - role: player
+      name: Anthony Volpe
+      ref: 
+    - role: team
+      name: New York Yankees
+      ref: 
+- number: WSMLB-AW
+  uuid: e7be5a5d-d5a9-42e9-9808-1697875fb800
+  subjects:
+  - entities:
+    - role: player
+      name: Austin Wells
+      ref: 
+    - role: team
+      name: New York Yankees
+      ref: 
+- number: WSMLB-JS
+  uuid: 004a38cc-41ae-44bf-aed8-3e1e7bcf3ca7
+  subjects:
+  - entities:
+    - role: player
+      name: Juan Soto
+      ref: 
+    - role: team
+      name: New York Yankees
+      ref: 
+- number: WSMLB-JT
+  uuid: 33388f20-4df0-4e66-a7bd-e701e4fd1f0d
+  subjects:
+  - entities:
+    - role: player
+      name: Jose Trevino
+      ref: 
+    - role: team
+      name: New York Yankees
+      ref: 
+- number: WSMLB-TI
+  uuid: 1cf28f8a-cfcc-42e9-ab59-2b0b648f4b49
+  subjects:
+  - entities:
+    - role: player
+      name: Tim Hill
+      ref: 
+    - role: team
+      name: New York Yankees
+      ref: 

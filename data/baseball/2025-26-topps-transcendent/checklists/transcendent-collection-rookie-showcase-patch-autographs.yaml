@@ -1,0 +1,330 @@
+- number: RSPA-AR
+  uuid: 82cb4a11-045c-4563-bf43-253595381406
+  subjects:
+  - entities:
+    - role: player
+      name: Agustin Ramírez
+      ref: 
+    - role: team
+      name: Miami Marlins
+      ref: 
+- number: RSPA-BEN
+  uuid: 9698a09c-335b-46cd-9bf0-4df160bab072
+  subjects:
+  - entities:
+    - role: player
+      name: Ben Rice
+      ref: 
+    - role: team
+      name: New York Yankees
+      ref: 
+- number: RSPA-BL
+  uuid: c3b9994b-210d-49b6-9190-f182e38bd3d1
+  subjects:
+  - entities:
+    - role: player
+      name: Brooks Lee
+      ref: 
+    - role: team
+      name: Minnesota Twins
+      ref: 
+- number: RSPA-BR
+  uuid: dd3145c6-ffe2-4ea3-abe8-53b6d7524233
+  subjects:
+  - entities:
+    - role: player
+      name: Ben Rice
+      ref: 
+    - role: team
+      name: New York Yankees
+      ref: 
+- number: RSPA-CH
+  uuid: 8dec6960-12ef-4861-955d-96c11c0f7588
+  subjects:
+  - entities:
+    - role: player
+      name: Cade Horton
+      ref: 
+    - role: team
+      name: Chicago Cubs
+      ref: 
+- number: RSPA-CM
+  uuid: 1045faac-3d3f-4ce6-9061-8a5a586eb620
+  subjects:
+  - entities:
+    - role: player
+      name: Coby Mayo
+      ref: 
+    - role: team
+      name: Baltimore Orioles
+      ref: 
+- number: RSPA-CME
+  uuid: ddbc3d7c-0dac-488f-a3f5-bc1b0fd81852
+  subjects:
+  - entities:
+    - role: player
+      name: Chase Meidroth
+      ref: 
+    - role: team
+      name: Chicago White Sox
+      ref: 
+- number: RSPA-CN
+  uuid: 82cf74ee-6b97-4b7c-94f7-9d04c6dd9c1d
+  subjects:
+  - entities:
+    - role: player
+      name: Connor Norby
+      ref: 
+    - role: team
+      name: Miami Marlins
+      ref: 
+- number: RSPA-CNO
+  uuid: b799fbcc-194c-42b2-b66f-aa2e89269941
+  subjects:
+  - entities:
+    - role: player
+      name: Connor Norby
+      ref: 
+    - role: team
+      name: Miami Marlins
+      ref: 
+- number: RSPA-CS
+  uuid: e37be994-484c-4f9c-8301-62110abdfe82
+  subjects:
+  - entities:
+    - role: player
+      name: Cam Smith
+      ref: 
+    - role: team
+      name: Houston Astros
+      ref: 
+- number: RSPA-CSI
+  uuid: 4f9c8804-919c-4e01-8399-70ff375f9b4c
+  subjects:
+  - entities:
+    - role: player
+      name: Chandler Simpson
+      ref: 
+    - role: team
+      name: Tampa Bay Rays
+      ref: 
+- number: RSPA-DC
+  uuid: 4a4f8375-9b39-4d17-bb0d-0014811aaeb9
+  subjects:
+  - entities:
+    - role: player
+      name: Dylan Crews
+      ref: 
+    - role: team
+      name: Washington Nationals
+      ref: 
+- number: RSPA-DCR
+  uuid: a410401d-cad4-4e72-a69f-7f134e14056a
+  subjects:
+  - entities:
+    - role: player
+      name: Dylan Crews
+      ref: 
+    - role: team
+      name: Washington Nationals
+      ref: 
+- number: RSPA-EQ
+  uuid: 12ed87b5-8a02-405e-a9b9-2f91b67858dc
+  subjects:
+  - entities:
+    - role: player
+      name: Edgar Quero
+      ref: 
+    - role: team
+      name: Chicago White Sox
+      ref: 
+- number: RSPA-JJ
+  uuid: db05e374-ae99-4932-97b5-91d902e4f5b8
+  subjects:
+  - entities:
+    - role: player
+      name: Jace Jung
+      ref: 
+    - role: team
+      name: Detroit Tigers
+      ref: 
+- number: RSPA-JJU
+  uuid: d707b408-d01e-4f8b-b157-aabd81f5f3d9
+  subjects:
+  - entities:
+    - role: player
+      name: Jace Jung
+      ref: 
+    - role: team
+      name: Detroit Tigers
+      ref: 
+- number: RSPA-JW
+  uuid: 17913bd4-9fd1-413e-9a21-52fe1f341785
+  subjects:
+  - entities:
+    - role: player
+      name: James Wood
+      ref: 
+    - role: team
+      name: Washington Nationals
+      ref: 
+- number: RSPA-JWI
+  uuid: 9f11ba48-46ac-4a23-8382-213f4504eefd
+  subjects:
+  - entities:
+    - role: player
+      name: Jacob Wilson
+      ref: 
+    - role: team
+      name: Athletics
+      ref: 
+- number: RSPA-JWO
+  uuid: cfad1ea5-ef53-4c73-88c6-458392632b31
+  subjects:
+  - entities:
+    - role: player
+      name: James Wood
+      ref: 
+    - role: team
+      name: Washington Nationals
+      ref: 
+- number: RSPA-KC
+  uuid: d0d7aba8-82c5-4c2a-8ca0-9e25267fc433
+  subjects:
+  - entities:
+    - role: player
+      name: Kristian Campbell
+      ref: 
+    - role: team
+      name: Boston Red Sox
+      ref: 
+- number: RSPA-KCA
+  uuid: 5e2fb57f-24ea-45c2-a6ce-a683c488da99
+  subjects:
+  - entities:
+    - role: player
+      name: Kristian Campbell
+      ref: 
+    - role: team
+      name: Boston Red Sox
+      ref: 
+- number: RSPA-LEE
+  uuid: 9e7c5cf0-7a85-46a8-a2ea-3734d6569d5e
+  subjects:
+  - entities:
+    - role: player
+      name: Brooks Lee
+      ref: 
+    - role: team
+      name: Minnesota Twins
+      ref: 
+- number: RSPA-LK
+  uuid: d0aade7c-ba99-437d-a9db-e884003060f8
+  subjects:
+  - entities:
+    - role: player
+      name: Luke Keaschall
+      ref: 
+    - role: team
+      name: Minnesota Twins
+      ref: 
+- number: RSPA-MB
+  uuid: b6f005c0-d035-4d60-bf58-91279aaa7069
+  subjects:
+  - entities:
+    - role: player
+      name: Moisés Ballesteros
+      ref: 
+    - role: team
+      name: Chicago Cubs
+      ref: 
+- number: RSPA-MM
+  uuid: 148d6687-a2e7-48e6-a555-ed56ad13d7fd
+  subjects:
+  - entities:
+    - role: player
+      name: Marcelo Mayer
+      ref: 
+    - role: team
+      name: Boston Red Sox
+      ref: 
+- number: RSPA-MMY
+  uuid: 681e751e-c4e4-46e1-8b37-c7ddac5e1d64
+  subjects:
+  - entities:
+    - role: player
+      name: Marcelo Mayer
+      ref: 
+    - role: team
+      name: Boston Red Sox
+      ref: 
+- number: RSPA-MS
+  uuid: 7acd799d-dd67-4de0-93e0-a297cccb92de
+  subjects:
+  - entities:
+    - role: player
+      name: Matt Shaw
+      ref: 
+    - role: team
+      name: Chicago Cubs
+      ref: 
+- number: RSPA-MSH
+  uuid: 212c0aff-4f03-43f6-9e7a-4d5ca41a242d
+  subjects:
+  - entities:
+    - role: player
+      name: Matt Shaw
+      ref: 
+    - role: team
+      name: Chicago Cubs
+      ref: 
+- number: RSPA-NK
+  uuid: ecb63387-873b-4cdf-8f95-76900f5d7603
+  subjects:
+  - entities:
+    - role: player
+      name: Nick Kurtz
+      ref: 
+    - role: team
+      name: Athletics
+      ref: 
+- number: RSPA-RH
+  uuid: e7740bd2-49e0-4b11-bd8b-4266db05d382
+  subjects:
+  - entities:
+    - role: player
+      name: Robert Hassell III
+      ref: 
+    - role: team
+      name: Washington Nationals
+      ref: 
+- number: RSPA-RS
+  uuid: 7cefcd6b-4e50-4627-8829-9deed7318239
+  subjects:
+  - entities:
+    - role: player
+      name: Roki Sasaki
+      ref: 
+    - role: team
+      name: Los Angeles Dodgers
+      ref: 
+- number: RSPA-SM
+  uuid: 78a13032-dd7b-4a2c-917c-5aeb7cf1fb3c
+  subjects:
+  - entities:
+    - role: player
+      name: Cam Smith
+      ref: 
+    - role: team
+      name: Houston Astros
+      ref: 
+- number: RSPA-WIL
+  uuid: 13152b47-f3b3-4595-9635-2e9262780340
+  subjects:
+  - entities:
+    - role: player
+      name: Jacob Wilson
+      ref: 
+    - role: team
+      name: Athletics
+      ref: 

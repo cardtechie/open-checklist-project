@@ -1,0 +1,200 @@
+- number: 55RS-1
+  uuid: 27fe0183-8282-44f9-a340-a6f5653ee243
+  subjects:
+  - entities:
+    - role: player
+      name: Juan Soto
+      ref: 
+    - role: team
+      name: New York Mets
+      ref: 
+- number: 55RS-2
+  uuid: 371730f3-6c38-409e-89a2-a1eccbbb6d54
+  subjects:
+  - entities:
+    - role: player
+      name: Lou Brock
+      ref: 
+    - role: team
+      name: St. Louis Cardinals
+      ref: 
+- number: 55RS-3
+  uuid: 11e4d253-0f35-42b7-bff0-cbaa0389eb01
+  subjects:
+  - entities:
+    - role: player
+      name: Francisco Lindor
+      ref: 
+    - role: team
+      name: New York Mets
+      ref: 
+- number: 55RS-4
+  uuid: 856762bc-771d-4144-b2f7-a62ea2d033bf
+  subjects:
+  - entities:
+    - role: player
+      name: Albert Pujols
+      ref: 
+    - role: team
+      name: St. Louis Cardinals
+      ref: 
+- number: 55RS-5
+  uuid: 84b446d7-0501-498f-9932-2f34fce5fa4b
+  subjects:
+  - entities:
+    - role: player
+      name: Roger Clemens
+      ref: 
+    - role: team
+      name: New York Yankees
+      ref: 
+- number: 55RS-6
+  uuid: 8f337154-b79a-4bfb-b744-f1e284824d4a
+  subjects:
+  - entities:
+    - role: player
+      name: Alex Rodriguez
+      ref: 
+    - role: team
+      name: New York Yankees
+      ref: 
+- number: 55RS-7
+  uuid: b9054cb8-ad47-477a-a8f4-36ccd3588ea3
+  subjects:
+  - entities:
+    - role: player
+      name: Rickey Henderson
+      ref: 
+    - role: team
+      name: Oakland Athletics
+      ref: 
+- number: 55RS-8
+  uuid: ffd0a17a-cbb4-4027-b885-7b75d6cfb88d
+  subjects:
+  - entities:
+    - role: player
+      name: Ken Griffey Jr.
+      ref: 
+    - role: team
+      name: Seattle Mariners
+      ref: 
+- number: 55RS-9
+  uuid: 4f931e89-f846-4b36-a57f-631bd7c8a4f0
+  subjects:
+  - entities:
+    - role: player
+      name: Ivan Rodriguez
+      ref: 
+    - role: team
+      name: Texas Rangers
+      ref: 
+- number: 55RS-10
+  uuid: 21393d06-918c-4ec0-8145-84e9da28301d
+  subjects:
+  - entities:
+    - role: player
+      name: Giancarlo Stanton
+      ref: 
+    - role: team
+      name: New York Yankees
+      ref: 
+- number: 55RS-11
+  uuid: f29fce1e-5347-407d-83e5-735303622bf4
+  subjects:
+  - entities:
+    - role: player
+      name: Vladimir Guerrero
+      ref: 
+    - role: team
+      name: Los Angeles Angels
+      ref: 
+- number: 55RS-12
+  uuid: bdc43332-5409-45d1-85c6-c006e0cadbac
+  subjects:
+  - entities:
+    - role: player
+      name: Manny Ramirez
+      ref: 
+    - role: team
+      name: Boston Red Sox
+      ref: 
+- number: 55RS-13
+  uuid: 9b28bc94-1551-4260-b929-c55205bce645
+  subjects:
+  - entities:
+    - role: player
+      name: Pedro Martínez
+      ref: 
+    - role: team
+      name: Boston Red Sox
+      ref: 
+- number: 55RS-14
+  uuid: 8ef65e15-69d0-4efe-9df3-b8113f448524
+  subjects:
+  - entities:
+    - role: player
+      name: Randy Johnson
+      ref: 
+    - role: team
+      name: Arizona Diamondbacks
+      ref: 
+- number: 55RS-15
+  uuid: a2a57248-f298-40b1-ae82-a3dfe07e7c61
+  subjects:
+  - entities:
+    - role: player
+      name: Nolan Ryan
+      ref: 
+    - role: team
+      name: Texas Rangers
+      ref: 
+- number: 55RS-16
+  uuid: b77337f3-f00b-4564-891a-ffab0a344862
+  subjects:
+  - entities:
+    - role: player
+      name: Greg Maddux
+      ref: 
+    - role: team
+      name: Chicago Cubs
+      ref: 
+- number: 55RS-17
+  uuid: 0ecb5d55-d9e0-4f5d-aa35-47b9537ae758
+  subjects:
+  - entities:
+    - role: player
+      name: Eddie Murray
+      ref: 
+    - role: team
+      name: Baltimore Orioles
+      ref: 
+- number: 55RS-18
+  uuid: ec59c6d3-a098-4bd3-be5e-a02e9e29d5e7
+  subjects:
+  - entities:
+    - role: player
+      name: Manny Machado
+      ref: 
+    - role: team
+      name: San Diego Padres
+      ref: 
+- number: 55RS-19
+  uuid: 54c1633d-ebae-4c1a-90d8-bbd089f0fac0
+  subjects:
+  - entities:
+    - role: player
+      name: Shohei Ohtani
+      ref: 
+    - role: team
+      name: Los Angeles Dodgers
+      ref: 
+- number: 55RS-20
+  uuid: 98e4585b-aedc-4c25-91a3-0e16777a95dc
+  subjects:
+  - entities:
+    - role: player
+      name: Bryce Harper
+      ref: 
+    - role: team
+      name: Philadelphia Phillies
+      ref: 

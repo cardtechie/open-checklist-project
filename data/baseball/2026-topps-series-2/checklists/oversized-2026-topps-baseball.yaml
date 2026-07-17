@@ -1,0 +1,160 @@
+- number: '368'
+  uuid: 9e9eb65a-fbf1-454b-8f35-8ed6806c6c7c
+  subjects:
+  - entities:
+    - role: player
+      name: Kyle Tucker
+      ref: 
+    - role: team
+      name: Los Angeles Dodgers
+      ref: 
+- number: '372'
+  uuid: c5c5ccef-4956-4d56-b759-fd49cb9171b6
+  subjects:
+  - entities:
+    - role: player
+      name: Sal Stewart
+      ref: 
+    - role: team
+      name: Cincinnati Reds
+      ref: 
+- number: '400'
+  uuid: 9e7371ff-b934-4d28-a068-c4a3964a74db
+  subjects:
+  - entities:
+    - role: player
+      name: Pete Alonso
+      ref: 
+    - role: team
+      name: Baltimore Orioles
+      ref: 
+- number: '406'
+  uuid: 603af0f5-64a6-48eb-8692-4c0fa071909b
+  subjects:
+  - entities:
+    - role: player
+      name: Bryce Eldridge
+      ref: 
+    - role: team
+      name: San Francisco Giants
+      ref: 
+- number: '448'
+  uuid: cd049ad8-bb08-4b45-b9b4-b37333df6df4
+  subjects:
+  - entities:
+    - role: player
+      name: Jackson Chourio
+      ref: 
+    - role: team
+      name: Milwaukee Brewers
+      ref: 
+- number: '458'
+  uuid: e511d110-5d59-4c71-8f53-ed1b72fdcf7d
+  subjects:
+  - entities:
+    - role: player
+      name: Chase DeLauter
+      ref: 
+    - role: team
+      name: Cleveland Guardians
+      ref: 
+- number: '468'
+  uuid: e3e844ff-796c-4b8d-87fd-4f140a767c40
+  subjects:
+  - entities:
+    - role: player
+      name: Yordan Alvarez
+      ref: 
+    - role: team
+      name: Houston Astros
+      ref: 
+- number: '473'
+  uuid: dfdefc1d-52e9-4b76-baf8-51d4a41c6de2
+  subjects:
+  - entities:
+    - role: player
+      name: Bo Bichette
+      ref: 
+    - role: team
+      name: New York Mets
+      ref: 
+- number: '500'
+  uuid: 63a54735-c0b7-4bfe-8cf2-baa514523522
+  subjects:
+  - entities:
+    - role: player
+      name: Shohei Ohtani
+      ref: 
+    - role: team
+      name: Los Angeles Dodgers
+      ref: 
+- number: '503'
+  uuid: 1c7a8ced-bb59-434f-97b6-5904ca48e7e3
+  subjects:
+  - entities:
+    - role: player
+      name: Munetaka Murakami
+      ref: 
+    - role: team
+      name: Chicago White Sox
+      ref: 
+- number: '530'
+  uuid: 419e2b0f-5896-4e4b-b99e-5b9adbec8c51
+  subjects:
+  - entities:
+    - role: player
+      name: Carter Jensen
+      ref: 
+    - role: team
+      name: Kansas City Royals
+      ref: 
+- number: '560'
+  uuid: e9317249-a91b-4cf6-a3fc-13f302fa5a6e
+  subjects:
+  - entities:
+    - role: player
+      name: Jarren Duran
+      ref: 
+    - role: team
+      name: Boston Red Sox
+      ref: 
+- number: '600'
+  uuid: f1c14a95-3484-41a6-9a44-4620c37126b2
+  subjects:
+  - entities:
+    - role: player
+      name: Juan Soto
+      ref: 
+    - role: team
+      name: New York Mets
+      ref: 
+- number: '620'
+  uuid: 46c356a5-493a-49a5-b7d3-17f3a0c53d78
+  subjects:
+  - entities:
+    - role: player
+      name: Trey Yesavage
+      ref: 
+    - role: team
+      name: Toronto Blue Jays
+      ref: 
+- number: '650'
+  uuid: 6619532c-6610-4c30-8dd1-d0787d14064f
+  subjects:
+  - entities:
+    - role: player
+      name: Kyle Schwarber
+      ref: 
+    - role: team
+      name: Philadelphia Phillies
+      ref: 
+- number: '685'
+  uuid: f880dd3f-6886-4746-8d2e-2b91c952461a
+  subjects:
+  - entities:
+    - role: player
+      name: Seiya Suzuki
+      ref: 
+    - role: team
+      name: Chicago Cubs
+      ref: 

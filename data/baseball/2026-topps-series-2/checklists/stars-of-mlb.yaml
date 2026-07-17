@@ -1,0 +1,300 @@
+- number: SMLB-31
+  uuid: 16a2a084-1509-4cb8-a53a-465c5764c208
+  subjects:
+  - entities:
+    - role: player
+      name: Christian Moore
+      ref: 
+    - role: team
+      name: Los Angeles Angels
+      ref: 
+- number: SMLB-32
+  uuid: 516f39ef-a262-4236-ab0b-77ae49e52263
+  subjects:
+  - entities:
+    - role: player
+      name: Nick Kurtz
+      ref: 
+    - role: team
+      name: Athletics
+      ref: 
+- number: SMLB-33
+  uuid: 016cde22-e5d5-4aec-b987-416d899387a1
+  subjects:
+  - entities:
+    - role: player
+      name: Dylan Beavers
+      ref: 
+    - role: team
+      name: Baltimore Orioles
+      ref: 
+- number: SMLB-34
+  uuid: 7d8b9109-03e3-45e5-aead-60d567e57059
+  subjects:
+  - entities:
+    - role: player
+      name: Payton Tolle
+      ref: 
+    - role: team
+      name: Boston Red Sox
+      ref: 
+- number: SMLB-35
+  uuid: 7f19c394-536b-45a3-882f-673f96e707fb
+  subjects:
+  - entities:
+    - role: player
+      name: Jarren Duran
+      ref: 
+    - role: team
+      name: Boston Red Sox
+      ref: 
+- number: SMLB-36
+  uuid: a2d39347-185b-4547-b5a2-4f51af7f9b0d
+  subjects:
+  - entities:
+    - role: player
+      name: Owen Caissie
+      ref: 
+    - role: team
+      name: Miami Marlins
+      ref: 
+- number: SMLB-37
+  uuid: 7cbbc458-a649-4813-b099-1c6184e8bbf0
+  subjects:
+  - entities:
+    - role: player
+      name: Colson Montgomery
+      ref: 
+    - role: team
+      name: Chicago White Sox
+      ref: 
+- number: SMLB-38
+  uuid: da51111e-fd6c-4ac8-b858-d6b8670115b5
+  subjects:
+  - entities:
+    - role: player
+      name: Sal Stewart
+      ref: 
+    - role: team
+      name: Cincinnati Reds
+      ref: 
+- number: SMLB-39
+  uuid: b8cff45e-5ae9-4a6f-b039-b22749a6ae32
+  subjects:
+  - entities:
+    - role: player
+      name: Chase DeLauter
+      ref: 
+    - role: team
+      name: Cleveland Guardians
+      ref: 
+- number: SMLB-40
+  uuid: c0058a45-234a-471f-b7bb-3ea6679b4816
+  subjects:
+  - entities:
+    - role: player
+      name: Riley Greene
+      ref: 
+    - role: team
+      name: Detroit Tigers
+      ref: 
+- number: SMLB-41
+  uuid: 8f4a0afb-c1a6-4a24-978c-c6962241e8f2
+  subjects:
+  - entities:
+    - role: player
+      name: Brice Matthews
+      ref: 
+    - role: team
+      name: Houston Astros
+      ref: 
+- number: SMLB-42
+  uuid: 9bff38cf-6502-479f-a8c8-ec9d541350dd
+  subjects:
+  - entities:
+    - role: player
+      name: Freddie Freeman
+      ref: 
+    - role: team
+      name: Los Angeles Dodgers
+      ref: 
+- number: SMLB-43
+  uuid: bc2c3b07-628e-4c2d-85e6-559241b84e4f
+  subjects:
+  - entities:
+    - role: player
+      name: Yoshinobu Yamamoto
+      ref: 
+    - role: team
+      name: Los Angeles Dodgers
+      ref: 
+- number: SMLB-44
+  uuid: e59e0dde-dd28-4a5f-bcd5-9969cefa810c
+  subjects:
+  - entities:
+    - role: player
+      name: Alex Freeland
+      ref: 
+    - role: team
+      name: Los Angeles Dodgers
+      ref: 
+- number: SMLB-45
+  uuid: 4ac8fc00-1f5f-462e-a165-d6d20bb861a2
+  subjects:
+  - entities:
+    - role: player
+      name: Jackson Chourio
+      ref: 
+    - role: team
+      name: Milwaukee Brewers
+      ref: 
+- number: SMLB-46
+  uuid: efb5c496-d796-452a-8df3-42157118b1c2
+  subjects:
+  - entities:
+    - role: player
+      name: Nolan McLean
+      ref: 
+    - role: team
+      name: New York Mets
+      ref: 
+- number: SMLB-47
+  uuid: 64d65bf8-a4f1-4104-a474-779f857d8176
+  subjects:
+  - entities:
+    - role: player
+      name: Pete Alonso
+      ref: 
+    - role: team
+      name: Baltimore Orioles
+      ref: 
+- number: SMLB-48
+  uuid: 2b39277c-d38b-498d-8946-4ca6de7c136b
+  subjects:
+  - entities:
+    - role: player
+      name: Cam Schlittler
+      ref: 
+    - role: team
+      name: New York Yankees
+      ref: 
+- number: SMLB-49
+  uuid: a6a0af59-f6a0-45ea-a526-19bd63642978
+  subjects:
+  - entities:
+    - role: player
+      name: Kyle Schwarber
+      ref: 
+    - role: team
+      name: Philadelphia Phillies
+      ref: 
+- number: SMLB-50
+  uuid: 44878ad9-7042-4607-81cf-387e1ce2ac6f
+  subjects:
+  - entities:
+    - role: player
+      name: Bubba Chandler
+      ref: 
+    - role: team
+      name: Pittsburgh Pirates
+      ref: 
+- number: SMLB-51
+  uuid: 8d922fd0-d95d-4c58-b1e3-732ec6e33736
+  subjects:
+  - entities:
+    - role: player
+      name: Jackson Merrill
+      ref: 
+    - role: team
+      name: San Diego Padres
+      ref: 
+- number: SMLB-52
+  uuid: 21a27df2-a3d5-40bb-9633-49c1dd27de1c
+  subjects:
+  - entities:
+    - role: player
+      name: Bryce Eldridge
+      ref: 
+    - role: team
+      name: San Francisco Giants
+      ref: 
+- number: SMLB-53
+  uuid: db5009e6-ec39-4379-ab19-6bd137ea2ef6
+  subjects:
+  - entities:
+    - role: player
+      name: Cole Young
+      ref: 
+    - role: team
+      name: Seattle Mariners
+      ref: 
+- number: SMLB-54
+  uuid: c3cc4667-375b-4feb-9ed5-b7d720c53ba6
+  subjects:
+  - entities:
+    - role: player
+      name: Cal Raleigh
+      ref: 
+    - role: team
+      name: Seattle Mariners
+      ref: 
+- number: SMLB-55
+  uuid: 62098d2c-8ef8-4121-a23b-d46770da1fe1
+  subjects:
+  - entities:
+    - role: player
+      name: Nolan Arenado
+      ref: 
+    - role: team
+      name: Arizona Diamondbacks
+      ref: 
+- number: SMLB-56
+  uuid: aaffc2e0-aa03-4797-80cf-5bb991e46117
+  subjects:
+  - entities:
+    - role: player
+      name: Munetaka Murakami
+      ref: 
+    - role: team
+      name: Chicago White Sox
+      ref: 
+- number: SMLB-57
+  uuid: 66fed8f0-de51-4e5c-a1ca-5f767504efe7
+  subjects:
+  - entities:
+    - role: player
+      name: Carson Williams
+      ref: 
+    - role: team
+      name: Tampa Bay Rays
+      ref: 
+- number: SMLB-58
+  uuid: e366978e-1485-424a-a16f-767ad72b326b
+  subjects:
+  - entities:
+    - role: player
+      name: Wyatt Langford
+      ref: 
+    - role: team
+      name: Texas Rangers
+      ref: 
+- number: SMLB-59
+  uuid: 18b5c25e-9429-4dc3-90dc-e85625ac825b
+  subjects:
+  - entities:
+    - role: player
+      name: Trey Yesavage
+      ref: 
+    - role: team
+      name: Toronto Blue Jays
+      ref: 
+- number: SMLB-60
+  uuid: 0c592af8-cc09-409c-9852-366bc8143921
+  subjects:
+  - entities:
+    - role: player
+      name: Brady House
+      ref: 
+    - role: team
+      name: Washington Nationals
+      ref: 
