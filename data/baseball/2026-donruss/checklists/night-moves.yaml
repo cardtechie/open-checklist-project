@@ -1,0 +1,100 @@
+- number: '1'
+  uuid: cf5f7b20-6dd2-4842-a061-12457f5689d2
+  subjects:
+  - entities:
+    - role: player
+      name: Paul Skenes
+      ref: 
+    - role: team
+      name: Pittsburgh Pirates
+      ref: 
+- number: '2'
+  uuid: 68797340-84f9-4a8e-a0b2-f0c5efa60277
+  subjects:
+  - entities:
+    - role: player
+      name: Aaron Judge
+      ref: 
+    - role: team
+      name: New York Yankees
+      ref: 
+- number: '3'
+  uuid: d05f962b-f74f-47c2-9091-b6d49ae233a0
+  subjects:
+  - entities:
+    - role: player
+      name: Bobby Witt Jr.
+      ref: 
+    - role: team
+      name: Kansas City Royals
+      ref: 
+- number: '4'
+  uuid: 96d60e64-73a2-41da-bb67-ea463745227b
+  subjects:
+  - entities:
+    - role: player
+      name: Ethan Holliday
+      ref: 
+    - role: team
+      name: Colorado Rockies
+      ref: 
+- number: '5'
+  uuid: 36805731-08f9-45c3-8d14-5dfbbd4c8428
+  subjects:
+  - entities:
+    - role: player
+      name: Eli Willits
+      ref: 
+    - role: team
+      name: Washington Nationals
+      ref: 
+- number: '6'
+  uuid: 95e8b4fb-67e9-45b7-881e-eabe2ab02e1b
+  subjects:
+  - entities:
+    - role: player
+      name: Jacob Misiorowski
+      ref: 
+    - role: team
+      name: Milwaukee Brewers
+      ref: 
+- number: '7'
+  uuid: 6f5bd3b5-8f94-4c82-833a-5abf436ecdca
+  subjects:
+  - entities:
+    - role: player
+      name: Nick Kurtz
+      ref: 
+    - role: team
+      name: Oakland A's
+      ref: 
+- number: '8'
+  uuid: 1441c636-47f9-421f-9bc5-39a6ab89d91d
+  subjects:
+  - entities:
+    - role: player
+      name: Roman Anthony
+      ref: 
+    - role: team
+      name: Boston Red Sox
+      ref: 
+- number: '9'
+  uuid: 9bc01779-736c-4df4-a8c7-b1ed62f743e1
+  subjects:
+  - entities:
+    - role: player
+      name: Trey Yesavage
+      ref: 
+    - role: team
+      name: Toronto Blue Jays
+      ref: 
+- number: '10'
+  uuid: 93a92bba-5062-436f-b5d0-a8ec7d65e4ad
+  subjects:
+  - entities:
+    - role: player
+      name: Konnor Griffin
+      ref: 
+    - role: team
+      name: Pittsburgh Pirates
+      ref: 

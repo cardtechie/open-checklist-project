@@ -1,0 +1,200 @@
+- number: '1'
+  uuid: 7f8b9bc5-6387-4019-9c2a-bf20ebc06dcb
+  subjects:
+  - entities:
+    - role: player
+      name: Bryce Eldridge
+      ref: 
+    - role: team
+      name: San Francisco Giants
+      ref: 
+- number: '2'
+  uuid: 27e36744-8f92-4ef7-9e6e-671b8274795a
+  subjects:
+  - entities:
+    - role: player
+      name: Ken Griffey Jr.
+      ref: 
+    - role: team
+      name: Seattle Mariners
+      ref: 
+- number: '3'
+  uuid: a192e071-d166-4352-8387-e8145411aad7
+  subjects:
+  - entities:
+    - role: player
+      name: Roman Anthony
+      ref: 
+    - role: team
+      name: Boston Red Sox
+      ref: 
+- number: '4'
+  uuid: 1cf425af-9899-47cf-b305-0dfa5a8f6561
+  subjects:
+  - entities:
+    - role: player
+      name: Jackson Chourio
+      ref: 
+    - role: team
+      name: Milwaukee Brewers
+      ref: 
+- number: '5'
+  uuid: 2c2b7f3a-8e48-4a7a-8ba1-22ed92cc7a1b
+  subjects:
+  - entities:
+    - role: player
+      name: Miguel Cabrera
+      ref: 
+    - role: team
+      name: Detroit Tigers
+      ref: 
+- number: '6'
+  uuid: cf133331-75e8-472d-8505-ee5e650d7e77
+  subjects:
+  - entities:
+    - role: player
+      name: Ethan Holliday
+      ref: 
+    - role: team
+      name: Colorado Rockies
+      ref: 
+- number: '7'
+  uuid: f9a539d5-9fff-41e8-af4e-841187c0a7d4
+  subjects:
+  - entities:
+    - role: player
+      name: Cam Smith
+      ref: 
+    - role: team
+      name: Houston Astros
+      ref: 
+- number: '8'
+  uuid: 68e7a0f5-1074-4f60-9e15-abcb94b8fdc3
+  subjects:
+  - entities:
+    - role: player
+      name: Josh Hamilton
+      ref: 
+    - role: team
+      name: Texas Rangers
+      ref: 
+- number: '9'
+  uuid: 173139b2-19b6-485a-868e-02d267b9a27d
+  subjects:
+  - entities:
+    - role: player
+      name: Bobby Witt Jr.
+      ref: 
+    - role: team
+      name: Kansas City Royals
+      ref: 
+- number: '10'
+  uuid: 0aae2e4b-24ca-4944-ab9b-7922abb6713b
+  subjects:
+  - entities:
+    - role: player
+      name: Spencer Jones
+      ref: 
+    - role: team
+      name: New York Yankees
+      ref: 
+- number: '11'
+  uuid: 69f8c8b7-7f24-486e-b09e-05be9f66f68c
+  subjects:
+  - entities:
+    - role: player
+      name: Dick Allen
+      ref: 
+    - role: team
+      name: Chicago White Sox
+      ref: 
+- number: '12'
+  uuid: 344cd1e2-a1ca-483b-b4d9-5601bd807e18
+  subjects:
+  - entities:
+    - role: player
+      name: Darryl Strawberry
+      ref: 
+    - role: team
+      name: New York Mets
+      ref: 
+- number: '13'
+  uuid: ca6d843a-e8f2-4cb6-8c05-29f7fb649e4c
+  subjects:
+  - entities:
+    - role: player
+      name: Sammy Sosa
+      ref: 
+    - role: team
+      name: Chicago Cubs
+      ref: 
+- number: '14'
+  uuid: e43a0fb2-9443-4d4d-bd47-f0c2cef01c2f
+  subjects:
+  - entities:
+    - role: player
+      name: Nick Kurtz
+      ref: 
+    - role: team
+      name: Oakland A's
+      ref: 
+- number: '15'
+  uuid: 95298e26-e3ed-41d2-901e-02fe9f2fe8c5
+  subjects:
+  - entities:
+    - role: player
+      name: Reggie Jackson
+      ref: 
+    - role: team
+      name: Oakland A's
+      ref: 
+- number: '16'
+  uuid: 83b4140c-515d-4188-9f0a-343736c926e4
+  subjects:
+  - entities:
+    - role: player
+      name: Albert Pujols
+      ref: 
+    - role: team
+      name: St. Louis Cardinals
+      ref: 
+- number: '17'
+  uuid: a4b53493-c983-48c2-80eb-78a0b9a0d386
+  subjects:
+  - entities:
+    - role: player
+      name: Prince Fielder
+      ref: 
+    - role: team
+      name: Milwaukee Brewers
+      ref: 
+- number: '18'
+  uuid: fd74a497-2ad1-40cb-9c96-bd22ca4a9377
+  subjects:
+  - entities:
+    - role: player
+      name: Aaron Judge
+      ref: 
+    - role: team
+      name: New York Yankees
+      ref: 
+- number: '19'
+  uuid: 8587cf63-9891-4d59-9230-26f22268c5e3
+  subjects:
+  - entities:
+    - role: player
+      name: James Wood
+      ref: 
+    - role: team
+      name: Washington Nationals
+      ref: 
+- number: '20'
+  uuid: 1e235985-ee41-4222-8f21-4942b3a15244
+  subjects:
+  - entities:
+    - role: player
+      name: Jose Canseco
+      ref: 
+    - role: team
+      name: Oakland A's
+      ref: 

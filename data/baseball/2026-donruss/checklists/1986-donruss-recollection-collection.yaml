@@ -1,0 +1,220 @@
+- number: '1'
+  uuid: d4243ad6-29cb-49c1-9e56-9af763f6f7d4
+  subjects:
+  - entities:
+    - role: player
+      name: Bret Saberhagen
+      ref: 
+    - role: team
+      name: Kansas City Royals
+      ref: 
+- number: '2'
+  uuid: 223d7e2c-b4bd-4f16-8c85-8e53c608be05
+  subjects:
+  - entities:
+    - role: player
+      name: Bo Jackson
+      ref: 
+    - role: team
+      name: Kansas City Royals
+      ref: 
+- number: '3'
+  uuid: 61bb0953-9e84-4bed-8e73-7876ad0eb389
+  subjects:
+  - entities:
+    - role: player
+      name: Will Clark
+      ref: 
+    - role: team
+      name: San Francisco Giants
+      ref: 
+- number: '4'
+  uuid: fca3789f-fe05-4cdb-88e0-6b5022b5c4f3
+  subjects:
+  - entities:
+    - role: player
+      name: Jose Canseco
+      ref: 
+    - role: team
+      name: Oakland A's
+      ref: 
+- number: '5'
+  uuid: 4fe07480-6cd2-4653-8a3f-4215c5b8da56
+  subjects:
+  - entities:
+    - role: player
+      name: Jose Canseco
+      ref: 
+    - role: team
+      name: Oakland A's
+      ref: 
+- number: '6'
+  uuid: 868da81c-18af-4b37-8ed5-5fe948ade9b5
+  subjects:
+  - entities:
+    - role: player
+      name: Cal Ripken
+      ref: 
+    - role: team
+      name: Baltimore Orioles
+      ref: 
+- number: '7'
+  uuid: 03fc47ee-1fff-436a-8916-f19ddf6624b9
+  subjects:
+  - entities:
+    - role: player
+      name: Darryl Strawberry
+      ref: 
+    - role: team
+      name: New York Mets
+      ref: 
+- number: '8'
+  uuid: 81acfc2f-da3c-425f-a286-9c6864c0e58b
+  subjects:
+  - entities:
+    - role: player
+      name: Roger Clemens
+      ref: 
+    - role: team
+      name: Boston Red Sox
+      ref: 
+- number: '9'
+  uuid: d7c3d6a6-69eb-492e-91cf-4e78fe35edf6
+  subjects:
+  - entities:
+    - role: player
+      name: George Foster
+      ref: 
+    - role: team
+      name: New York Mets
+      ref: 
+- number: '10'
+  uuid: f23d3f0b-7362-484e-a654-1a25f7b36e5c
+  subjects:
+  - entities:
+    - role: player
+      name: Ken Griffey Sr.
+      ref: 
+    - role: team
+      name: New York Yankees
+      ref: 
+- number: '11'
+  uuid: 20d58ca6-02ea-4f75-9c84-64db4b3d53fd
+  subjects:
+  - entities:
+    - role: player
+      name: Keith Hernandez
+      ref: 
+    - role: team
+      name: New York Mets
+      ref: 
+- number: '12'
+  uuid: 7c8ddfe7-cdb9-4ce0-8e05-5dfdc410cbf2
+  subjects:
+  - entities:
+    - role: player
+      name: Don Mattingly
+      ref: 
+    - role: team
+      name: New York Yankees
+      ref: 
+- number: '13'
+  uuid: b3f46f9c-abf1-4017-8f62-57d92cac0528
+  subjects:
+  - entities:
+    - role: player
+      name: Chili Davis
+      ref: 
+    - role: team
+      name: San Francisco Giants
+      ref: 
+- number: '14'
+  uuid: 859d2437-3050-4de4-9c31-17fde0a39a6c
+  subjects:
+  - entities:
+    - role: player
+      name: Paul O'Neill
+      ref: 
+    - role: team
+      name: Cincinnati Reds
+      ref: 
+- number: '15'
+  uuid: dd2d7a62-4130-4d60-885f-d927c37bb8db
+  subjects:
+  - entities:
+    - role: player
+      name: Andres Galarraga
+      ref: 
+    - role: team
+      name: Montreal Expos
+      ref: 
+- number: '16'
+  uuid: aae5b933-2704-4f0d-a844-ded884ab50c9
+  subjects:
+  - entities:
+    - role: player
+      name: Mike Schmidt
+      ref: 
+    - role: team
+      name: Philadelphia Phillies
+      ref: 
+- number: '17'
+  uuid: cc458a3e-ed96-4426-9c7e-1cf10c55e068
+  subjects:
+  - entities:
+    - role: player
+      name: Ozzie Smith
+      ref: 
+    - role: team
+      name: St. Louis Cardinals
+      ref: 
+- number: '18'
+  uuid: 68ff6ac4-d7b9-4d96-a9af-601f57861ced
+  subjects:
+  - entities:
+    - role: player
+      name: George Brett
+      ref: 
+    - role: team
+      name: Kansas City Royals
+      ref: 
+- number: '19'
+  uuid: c49d6c28-2391-4623-be35-75fe43da57a6
+  subjects:
+  - entities:
+    - role: player
+      name: Lou Whitaker
+      ref: 
+    - role: team
+      name: Detroit Tigers
+      ref: 
+- number: '20'
+  uuid: a202597d-86ad-4505-b0d4-b19fc65cb672
+  subjects:
+  - entities:
+    - role: player
+      name: Robin Yount
+      ref: 
+    - role: team
+      name: Milwaukee Brewers
+      ref: 
+- number: '21'
+  uuid: 17636140-dbf5-4fd1-977b-19719af559a5
+  subjects:
+  - entities:
+    - role: player
+      name: Dwight Gooden
+      ref: 
+    - role: team
+      name: New York Mets
+      ref: 
+- number: '22'
+  uuid: e5a73c7d-76b5-422f-b5ff-cea2bf580c6f
+  subjects:
+  - entities:
+    - role: player
+      name: Dwight Gooden
+      ref: 
+    - role: team
+      name: New York Mets
+      ref: 

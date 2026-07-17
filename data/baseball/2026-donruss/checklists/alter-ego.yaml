@@ -1,0 +1,100 @@
+- number: '1'
+  uuid: 1ce36bcc-cfe0-4731-9124-c88a14af0bc9
+  subjects:
+  - entities:
+    - role: player
+      name: Reggie Jackson
+      ref: 
+    - role: team
+      name: New York Yankees
+      ref: 
+- number: '2'
+  uuid: 4d216326-3027-4b49-b07c-1a07c4c4a8de
+  subjects:
+  - entities:
+    - role: player
+      name: Hideki Matsui
+      ref: 
+    - role: team
+      name: New York Yankees
+      ref: 
+- number: '3'
+  uuid: 3ad89e57-8247-4e76-9cf9-4e38edb82186
+  subjects:
+  - entities:
+    - role: player
+      name: Deion Sanders
+      ref: 
+    - role: team
+      name: Cincinnati Reds
+      ref: 
+- number: '4'
+  uuid: 9190db7f-78ba-4189-bfd1-0b34770307c3
+  subjects:
+  - entities:
+    - role: player
+      name: Jacob Misiorowski
+      ref: 
+    - role: team
+      name: Milwaukee Brewers
+      ref: 
+- number: '5'
+  uuid: 2d846284-970d-406a-a9a6-341268835702
+  subjects:
+  - entities:
+    - role: player
+      name: Roman Anthony
+      ref: 
+    - role: team
+      name: Boston Red Sox
+      ref: 
+- number: '6'
+  uuid: 33c15ff0-2421-4559-81d7-5a8014d66b47
+  subjects:
+  - entities:
+    - role: player
+      name: Aaron Judge
+      ref: 
+    - role: team
+      name: New York Yankees
+      ref: 
+- number: '7'
+  uuid: cf3c18e1-8f97-404e-9adb-000664513548
+  subjects:
+  - entities:
+    - role: player
+      name: Paul Skenes
+      ref: 
+    - role: team
+      name: Pittsburgh Pirates
+      ref: 
+- number: '8'
+  uuid: b88d16af-e796-4a1d-8b9e-7534211bc919
+  subjects:
+  - entities:
+    - role: player
+      name: Andrew Painter
+      ref: 
+    - role: team
+      name: Philadelphia Phillies
+      ref: 
+- number: '9'
+  uuid: fdf5ba47-ddb9-49d4-a09d-e2ac9aa0d308
+  subjects:
+  - entities:
+    - role: player
+      name: Dylan Crews
+      ref: 
+    - role: team
+      name: Washington Nationals
+      ref: 
+- number: '10'
+  uuid: 640c275b-9c84-4e67-b96e-2e5aa08075eb
+  subjects:
+  - entities:
+    - role: player
+      name: Bobby Witt Jr.
+      ref: 
+    - role: team
+      name: Kansas City Royals
+      ref: 

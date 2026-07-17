@@ -1,0 +1,1000 @@
+- number: '1'
+  uuid: '079f8019-63d0-4bd7-bc3e-d680e5ab5242'
+  subjects:
+  - entities:
+    - role: player
+      name: Noble Meyer
+      ref: 
+    - role: team
+      name: Miami Marlins
+      ref: 
+- number: '2'
+  uuid: cb4065e3-81a9-4a4d-b185-b57da6227f34
+  subjects:
+  - entities:
+    - role: player
+      name: Emilien Pitre
+      ref: 
+    - role: team
+      name: Tampa Bay Rays
+      ref: 
+- number: '3'
+  uuid: 40068e37-32f3-4a96-88c8-1a93be316f3f
+  subjects:
+  - entities:
+    - role: player
+      name: Bret Saberhagen
+      ref: 
+    - role: team
+      name: Kansas City Royals
+      ref: 
+- number: '4'
+  uuid: b3508a36-f6c9-49f9-8ddb-938d34f22a65
+  subjects:
+  - entities:
+    - role: player
+      name: Bobby Witt Jr.
+      ref: 
+    - role: team
+      name: Kansas City Royals
+      ref: 
+- number: '5'
+  uuid: 2a5d24d8-db0a-42ee-b879-40eef8b1becd
+  subjects:
+  - entities:
+    - role: player
+      name: Brody Brecht
+      ref: 
+    - role: team
+      name: Colorado Rockies
+      ref: 
+- number: '6'
+  uuid: dadd8aaf-ea7c-4ffd-8512-c470039cf2ec
+  subjects:
+  - entities:
+    - role: player
+      name: Carter Johnson
+      ref: 
+    - role: team
+      name: Miami Marlins
+      ref: 
+- number: '7'
+  uuid: 289d77f1-4d76-4e5f-919b-5925cf691ed1
+  subjects:
+  - entities:
+    - role: player
+      name: Brock Porter
+      ref: 
+    - role: team
+      name: Texas Rangers
+      ref: 
+- number: '8'
+  uuid: 201b50fe-c6d8-4694-8f79-2481f460c5ec
+  subjects:
+  - entities:
+    - role: player
+      name: Cameron Schlittler
+      ref: 
+    - role: team
+      name: New York Yankees
+      ref: 
+- number: '9'
+  uuid: 6d8ff87a-8316-4981-a38d-a59373169ec5
+  subjects:
+  - entities:
+    - role: player
+      name: Kendall George
+      ref: 
+    - role: team
+      name: Los Angeles Dodgers
+      ref: 
+- number: '10'
+  uuid: 2a300b8a-95d5-4024-aa1b-8d794e1380de
+  subjects:
+  - entities:
+    - role: player
+      name: Ryan Zimmerman
+      ref: 
+    - role: team
+      name: Washington Nationals
+      ref: 
+- number: '11'
+  uuid: 49c8925a-798b-4f43-9bd7-898f296782ff
+  subjects:
+  - entities:
+    - role: player
+      name: Brooks Lee
+      ref: 
+    - role: team
+      name: Minnesota Twins
+      ref: 
+- number: '12'
+  uuid: c335a26b-f976-417b-b22a-fe378623b7e9
+  subjects:
+  - entities:
+    - role: player
+      name: Cam Smith
+      ref: 
+    - role: team
+      name: Houston Astros
+      ref: 
+- number: '13'
+  uuid: 7873b8b1-780f-4670-99b4-70c12b33d942
+  subjects:
+  - entities:
+    - role: player
+      name: Sammy Stafura
+      ref: 
+    - role: team
+      name: Pittsburgh Pirates
+      ref: 
+- number: '14'
+  uuid: e95aaf83-08ca-43c6-92bb-dbc41b2cef0e
+  subjects:
+  - entities:
+    - role: player
+      name: Tatsuya Imai
+      ref: 
+    - role: team
+      name: Houston Astros
+      ref: 
+- number: '15'
+  uuid: 4ea25b4a-495d-4a69-9405-63548a57439a
+  subjects:
+  - entities:
+    - role: player
+      name: Ivan Luciano
+      ref: 
+    - role: team
+      name: Arizona Diamondbacks
+      ref: 
+- number: '16'
+  uuid: 27d02f3d-e58e-4795-a0c1-7515e2bf68e6
+  subjects:
+  - entities:
+    - role: player
+      name: Heston Kjerstad
+      ref: 
+    - role: team
+      name: Baltimore Orioles
+      ref: 
+- number: '17'
+  uuid: 93a2e06d-1896-4ba8-b3b8-166cc9e6ede1
+  subjects:
+  - entities:
+    - role: player
+      name: Won-Bin Cho
+      ref: 
+    - role: team
+      name: St. Louis Cardinals
+      ref: 
+- number: '18'
+  uuid: e703a697-5308-4061-af11-34e18cb69d6a
+  subjects:
+  - entities:
+    - role: player
+      name: Bryce Eldridge
+      ref: 
+    - role: team
+      name: San Francisco Giants
+      ref: 
+- number: '19'
+  uuid: 415e9cb8-69bf-4e68-9e19-f4371dda370b
+  subjects:
+  - entities:
+    - role: player
+      name: Tomoyuki Sugano
+      ref: 
+    - role: team
+      name: Baltimore Orioles
+      ref: 
+- number: '20'
+  uuid: 592f170d-2c48-43c0-aec1-1251b7a59705
+  subjects:
+  - entities:
+    - role: player
+      name: Drue Hackenberg
+      ref: 
+    - role: team
+      name: Atlanta Braves
+      ref: 
+- number: '21'
+  uuid: f981246a-a9e5-455c-bf4d-f656fb0d4bdf
+  subjects:
+  - entities:
+    - role: player
+      name: Alex Gordon
+      ref: 
+    - role: team
+      name: Kansas City Royals
+      ref: 
+- number: '22'
+  uuid: 730569a3-c05c-47f8-ab6d-c4a8172b8c87
+  subjects:
+  - entities:
+    - role: player
+      name: Pedro Martinez
+      ref: 
+    - role: team
+      name: Montreal Expos
+      ref: 
+- number: '23'
+  uuid: fa237961-adbd-438c-ae97-bc53d497c9a5
+  subjects:
+  - entities:
+    - role: player
+      name: Tai Peete
+      ref: 
+    - role: team
+      name: Seattle Mariners
+      ref: 
+- number: '24'
+  uuid: 5acaea83-c7f3-4cac-9024-2374398616d6
+  subjects:
+  - entities:
+    - role: player
+      name: Nolan Schanuel
+      ref: 
+    - role: team
+      name: Los Angeles Angels
+      ref: 
+- number: '25'
+  uuid: ef668604-9ac7-455b-a4c8-bdcb81aba9dc
+  subjects:
+  - entities:
+    - role: player
+      name: Mike Piazza
+      ref: 
+    - role: team
+      name: New York Mets
+      ref: 
+- number: '26'
+  uuid: f4373271-d5e7-4ce4-a868-a0b941ffcd19
+  subjects:
+  - entities:
+    - role: player
+      name: David Ortiz
+      ref: 
+    - role: team
+      name: Boston Red Sox
+      ref: 
+- number: '27'
+  uuid: 5f7f6f3f-1615-4d56-9955-1a13de229d50
+  subjects:
+  - entities:
+    - role: player
+      name: Samuel Zavala
+      ref: 
+    - role: team
+      name: Chicago White Sox
+      ref: 
+- number: '28'
+  uuid: 7dde885f-8422-4e05-a8ca-0f0720899a17
+  subjects:
+  - entities:
+    - role: player
+      name: Stephen Vogt
+      ref: 
+    - role: team
+      name: Cleveland Guardians
+      ref: 
+- number: '29'
+  uuid: 66657ff9-5c8c-4a92-ab2a-6e1003dd3257
+  subjects:
+  - entities:
+    - role: player
+      name: Jason Varitek
+      ref: 
+    - role: team
+      name: Boston Red Sox
+      ref: 
+- number: '30'
+  uuid: 289c5587-9a9a-48ae-bd48-6024f12c174f
+  subjects:
+  - entities:
+    - role: player
+      name: Michael Burrows
+      ref: 
+    - role: team
+      name: Pittsburgh Pirates
+      ref: 
+- number: '31'
+  uuid: 60b068de-7ead-4d5d-a3c1-fa216d7e3c32
+  subjects:
+  - entities:
+    - role: player
+      name: Sammy Sosa
+      ref: 
+    - role: team
+      name: Chicago Cubs
+      ref: 
+- number: '32'
+  uuid: 022e1963-1d2e-40db-84a2-a0b62e04f776
+  subjects:
+  - entities:
+    - role: player
+      name: Cole Mathis
+      ref: 
+    - role: team
+      name: Chicago Cubs
+      ref: 
+- number: '33'
+  uuid: e3a55290-9925-453a-91de-6fa64b921921
+  subjects:
+  - entities:
+    - role: player
+      name: Rintaro Sasaki
+      ref: 
+    - role: team
+      name: Stanford Cardinal
+      ref: 
+- number: '34'
+  uuid: 2a7fd774-c985-4998-8daf-f1d4607b474a
+  subjects:
+  - entities:
+    - role: player
+      name: Frank Thomas
+      ref: 
+    - role: team
+      name: Chicago White Sox
+      ref: 
+- number: '35'
+  uuid: dcb173b8-67b8-418f-88bc-1e520e5141e2
+  subjects:
+  - entities:
+    - role: player
+      name: Kyle Teel
+      ref: 
+    - role: team
+      name: Chicago White Sox
+      ref: 
+- number: '36'
+  uuid: a665f682-09fe-4e29-bac9-9691a5ad1f9f
+  subjects:
+  - entities:
+    - role: player
+      name: Tyson Lewis
+      ref: 
+    - role: team
+      name: Cincinnati Reds
+      ref: 
+- number: '37'
+  uuid: cff953f3-3253-4f67-b9cf-3e0b01ab8877
+  subjects:
+  - entities:
+    - role: player
+      name: Brian Holiday
+      ref: 
+    - role: team
+      name: St. Louis Cardinals
+      ref: 
+- number: '38'
+  uuid: 383dacff-8130-490b-baaa-59e79183632f
+  subjects:
+  - entities:
+    - role: player
+      name: Jacob Wilson
+      ref: 
+    - role: team
+      name: Oakland A's
+      ref: 
+- number: '39'
+  uuid: dd1f8f4f-6d41-4316-9f3f-2b8189c8592b
+  subjects:
+  - entities:
+    - role: player
+      name: Tony Perez
+      ref: 
+    - role: team
+      name: Cincinnati Reds
+      ref: 
+- number: '40'
+  uuid: b078fd10-4fd2-4bcc-a149-15ae6c0ab4d6
+  subjects:
+  - entities:
+    - role: player
+      name: Aiden May
+      ref: 
+    - role: team
+      name: Miami Marlins
+      ref: 
+- number: '41'
+  uuid: c5ed6370-739d-4365-9d9f-99057c38348d
+  subjects:
+  - entities:
+    - role: player
+      name: Dylan Crews
+      ref: 
+    - role: team
+      name: Washington Nationals
+      ref: 
+- number: '42'
+  uuid: 683a1589-aa67-4a18-b579-75c40cb6603a
+  subjects:
+  - entities:
+    - role: player
+      name: Wyatt Sanford
+      ref: 
+    - role: team
+      name: Pittsburgh Pirates
+      ref: 
+- number: '43'
+  uuid: a9eba548-b9b2-4c9d-add4-dddc18fce615
+  subjects:
+  - entities:
+    - role: player
+      name: Enrique Bradfield Jr.
+      ref: 
+    - role: team
+      name: Baltimore Orioles
+      ref: 
+- number: '44'
+  uuid: 1795f41a-ea98-498a-bb53-2a1b42199bc9
+  subjects:
+  - entities:
+    - role: player
+      name: Chase Burns
+      ref: 
+    - role: team
+      name: Cincinnati Reds
+      ref: 
+- number: '45'
+  uuid: 77ccaef4-1d87-474c-8f50-add1383821f2
+  subjects:
+  - entities:
+    - role: player
+      name: Blake Larson
+      ref: 
+    - role: team
+      name: Chicago White Sox
+      ref: 
+- number: '46'
+  uuid: a5e61510-ced9-496b-bab9-6a67faeea739
+  subjects:
+  - entities:
+    - role: player
+      name: Hurston Waldrep
+      ref: 
+    - role: team
+      name: Atlanta Braves
+      ref: 
+- number: '47'
+  uuid: d421f738-be86-4d84-866e-a0f1fc39566f
+  subjects:
+  - entities:
+    - role: player
+      name: Grant Taylor
+      ref: 
+    - role: team
+      name: Chicago White Sox
+      ref: 
+- number: '48'
+  uuid: 6356d325-8708-4be4-985c-61f23df91eb9
+  subjects:
+  - entities:
+    - role: player
+      name: Kazuma Okamoto
+      ref: 
+    - role: team
+      name: Toronto Blue Jays
+      ref: 
+- number: '49'
+  uuid: 46a0d0d9-c0d9-43f0-9e55-ffca2c4010d5
+  subjects:
+  - entities:
+    - role: player
+      name: Payton Tolle
+      ref: 
+    - role: team
+      name: Boston Red Sox
+      ref: 
+- number: '50'
+  uuid: 74e34688-f108-410d-95e2-a0327299db39
+  subjects:
+  - entities:
+    - role: player
+      name: Cole Messina
+      ref: 
+    - role: team
+      name: Colorado Rockies
+      ref: 
+- number: '51'
+  uuid: d31cad61-fbbc-4e34-b55d-8558fc30f8b1
+  subjects:
+  - entities:
+    - role: player
+      name: Paul Skenes
+      ref: 
+    - role: team
+      name: Pittsburgh Pirates
+      ref: 
+- number: '52'
+  uuid: 16f10432-08fc-477b-af7d-7071c20c014a
+  subjects:
+  - entities:
+    - role: player
+      name: Ryan Howard
+      ref: 
+    - role: team
+      name: Philadelphia Phillies
+      ref: 
+- number: '53'
+  uuid: 4a50501c-41dd-45ae-aa22-c80c5fdbf25d
+  subjects:
+  - entities:
+    - role: player
+      name: Jace Jung
+      ref: 
+    - role: team
+      name: Detroit Tigers
+      ref: 
+- number: '54'
+  uuid: e294a814-607c-48a2-8441-820d11f9c213
+  subjects:
+  - entities:
+    - role: player
+      name: Jaron DeBerry
+      ref: 
+    - role: team
+      name: Milwaukee Brewers
+      ref: 
+- number: '55'
+  uuid: c24ee5d4-7bb7-40ae-85f3-164d77acd19b
+  subjects:
+  - entities:
+    - role: player
+      name: Chase Dollander
+      ref: 
+    - role: team
+      name: Colorado Rockies
+      ref: 
+- number: '56'
+  uuid: 63ed17d2-61f3-4a66-8d3a-50a3be8ec113
+  subjects:
+  - entities:
+    - role: player
+      name: Michael Young
+      ref: 
+    - role: team
+      name: Texas Rangers
+      ref: 
+- number: '57'
+  uuid: 48904865-6a3c-4a54-9599-4d3c031be877
+  subjects:
+  - entities:
+    - role: player
+      name: Jonah Tong
+      ref: 
+    - role: team
+      name: New York Mets
+      ref: 
+- number: '58'
+  uuid: 566fe0b2-0917-4f3c-adb8-00bff649537e
+  subjects:
+  - entities:
+    - role: player
+      name: Daniel Eagen
+      ref: 
+    - role: team
+      name: Arizona Diamondbacks
+      ref: 
+- number: '59'
+  uuid: fda102b5-2b16-4e58-8db3-48b67ff9f397
+  subjects:
+  - entities:
+    - role: player
+      name: Cole Miller
+      ref: 
+    - role: team
+      name: Oakland A's
+      ref: 
+- number: '60'
+  uuid: fe709398-b633-47ef-8938-fd8eca28d099
+  subjects:
+  - entities:
+    - role: player
+      name: Trey Snyder
+      ref: 
+    - role: team
+      name: New York Mets
+      ref: 
+- number: '61'
+  uuid: e6c8f9a3-a003-4b64-9c8d-1c0773923b82
+  subjects:
+  - entities:
+    - role: player
+      name: Ralphy Velazquez
+      ref: 
+    - role: team
+      name: Cleveland Guardians
+      ref: 
+- number: '62'
+  uuid: 36bde794-82be-43e8-b343-c9fb26e33fac
+  subjects:
+  - entities:
+    - role: player
+      name: Josh Kuroda-Grauer
+      ref: 
+    - role: team
+      name: Oakland A's
+      ref: 
+- number: '63'
+  uuid: a1fb3ea4-3c44-48e9-9990-86d1c50d4061
+  subjects:
+  - entities:
+    - role: player
+      name: Grant Shepardson
+      ref: 
+    - role: team
+      name: Miami Marlins
+      ref: 
+- number: '64'
+  uuid: d3395ee3-d649-40aa-8a3e-1f1c12991353
+  subjects:
+  - entities:
+    - role: player
+      name: David Cone
+      ref: 
+    - role: team
+      name: New York Mets
+      ref: 
+- number: '65'
+  uuid: 29dbaaea-b590-4ffc-8ac6-49e2acaa6c68
+  subjects:
+  - entities:
+    - role: player
+      name: Trey Yesavage
+      ref: 
+    - role: team
+      name: Toronto Blue Jays
+      ref: 
+- number: '66'
+  uuid: 161a9752-1797-4398-98d0-b3faa657e220
+  subjects:
+  - entities:
+    - role: player
+      name: Nick Kurtz
+      ref: 
+    - role: team
+      name: Oakland A's
+      ref: 
+- number: '67'
+  uuid: c2703cdf-28dd-4101-ba11-9f113f1067cd
+  subjects:
+  - entities:
+    - role: player
+      name: Zach Ehrhard
+      ref: 
+    - role: team
+      name: Los Angeles Dodgers
+      ref: 
+- number: '68'
+  uuid: 244420c1-d3a9-4704-8acf-cdbaa27aaf90
+  subjects:
+  - entities:
+    - role: player
+      name: Matt Shaw
+      ref: 
+    - role: team
+      name: Chicago Cubs
+      ref: 
+- number: '69'
+  uuid: ecafe96a-02ba-49a5-8ba6-a5e0f0af0744
+  subjects:
+  - entities:
+    - role: player
+      name: Cobb Hightower
+      ref: 
+    - role: team
+      name: Baltimore Orioles
+      ref: 
+- number: '70'
+  uuid: e3c6ddeb-b29c-4fd5-8150-78d2d94d6b1c
+  subjects:
+  - entities:
+    - role: player
+      name: Ty Floyd
+      ref: 
+    - role: team
+      name: Cincinnati Reds
+      ref: 
+- number: '71'
+  uuid: 176be2b5-ca50-4b13-9e0e-b8dbe27d0052
+  subjects:
+  - entities:
+    - role: player
+      name: Mitch Jebb
+      ref: 
+    - role: team
+      name: Pittsburgh Pirates
+      ref: 
+- number: '72'
+  uuid: ecbdd8be-241b-4e5d-95bf-24febe8344a2
+  subjects:
+  - entities:
+    - role: player
+      name: Colin Houck
+      ref: 
+    - role: team
+      name: New York Mets
+      ref: 
+- number: '73'
+  uuid: 785d2f65-f25e-4413-9a01-19a1331c0660
+  subjects:
+  - entities:
+    - role: player
+      name: Chase Davis
+      ref: 
+    - role: team
+      name: St. Louis Cardinals
+      ref: 
+- number: '74'
+  uuid: a1f1da15-5aad-4f2a-87de-878c52825baf
+  subjects:
+  - entities:
+    - role: player
+      name: Paul Konerko
+      ref: 
+    - role: team
+      name: Chicago White Sox
+      ref: 
+- number: '75'
+  uuid: ff29b913-b4b4-4687-9fa2-5cc3d846c40b
+  subjects:
+  - entities:
+    - role: player
+      name: Adam Dunn
+      ref: 
+    - role: team
+      name: Cincinnati Reds
+      ref: 
+- number: '76'
+  uuid: ac997949-30ec-44f7-a003-51c4d66f0529
+  subjects:
+  - entities:
+    - role: player
+      name: Joey Oakie
+      ref: 
+    - role: team
+      name: Cleveland Guardians
+      ref: 
+- number: '77'
+  uuid: '03700946-b2be-40a9-804d-11f48f8d8c66'
+  subjects:
+  - entities:
+    - role: player
+      name: Seaver King
+      ref: 
+    - role: team
+      name: Washington Nationals
+      ref: 
+- number: '78'
+  uuid: 268e0131-5fb0-4261-a51a-0a8c3daf1282
+  subjects:
+  - entities:
+    - role: player
+      name: Ryan Forcucci
+      ref: 
+    - role: team
+      name: Houston Astros
+      ref: 
+- number: '79'
+  uuid: 06bb3326-fd60-42e6-bd4a-a4a3fb596d44
+  subjects:
+  - entities:
+    - role: player
+      name: Blake Mitchell
+      ref: 
+    - role: team
+      name: Kansas City Royals
+      ref: 
+- number: '80'
+  uuid: dbd809b5-80c1-4419-9d84-7a5d7c515aca
+  subjects:
+  - entities:
+    - role: player
+      name: Nate Dohm
+      ref: 
+    - role: team
+      name: St. Louis Cardinals
+      ref: 
+- number: '81'
+  uuid: 307e09b9-07cb-4ec3-acf9-84d3dd1d5c71
+  subjects:
+  - entities:
+    - role: player
+      name: Nate Furman
+      ref: 
+    - role: team
+      name: Cleveland Guardians
+      ref: 
+- number: '82'
+  uuid: 8dd726d8-9144-43de-b24a-af240abb4fea
+  subjects:
+  - entities:
+    - role: player
+      name: Peyton Stovall
+      ref: 
+    - role: team
+      name: Cincinnati Reds
+      ref: 
+- number: '83'
+  uuid: 398f087f-febd-4d57-ac52-71cd3e907cac
+  subjects:
+  - entities:
+    - role: player
+      name: Caleb Bonemer
+      ref: 
+    - role: team
+      name: Chicago White Sox
+      ref: 
+- number: '84'
+  uuid: 476242a7-556c-433d-ac0b-4fa874c2f626
+  subjects:
+  - entities:
+    - role: player
+      name: Gino Groover
+      ref: 
+    - role: team
+      name: Arizona Diamondbacks
+      ref: 
+- number: '85'
+  uuid: 156bb05e-e76c-4e82-8855-0104a3193175
+  subjects:
+  - entities:
+    - role: player
+      name: Brayden Taylor
+      ref: 
+    - role: team
+      name: Tampa Bay Rays
+      ref: 
+- number: '86'
+  uuid: 8a9bba31-a0c2-4c9f-a784-977cc1abea3c
+  subjects:
+  - entities:
+    - role: player
+      name: Reggie Jackson
+      ref: 
+    - role: team
+      name: Oakland A's
+      ref: 
+- number: '87'
+  uuid: 608f60bd-18fb-43ad-82bd-a1ef61e53c07
+  subjects:
+  - entities:
+    - role: player
+      name: Khadim Diaw
+      ref: 
+    - role: team
+      name: Minnesota Twins
+      ref: 
+- number: '88'
+  uuid: c25682e3-14f1-415a-aa85-f5dd0d1b92c6
+  subjects:
+  - entities:
+    - role: player
+      name: Jimmy Crooks
+      ref: 
+    - role: team
+      name: St. Louis Cardinals
+      ref: 
+- number: '89'
+  uuid: 22d882da-8d1a-44e8-9641-e3709e6fbc08
+  subjects:
+  - entities:
+    - role: player
+      name: Josh Knoth
+      ref: 
+    - role: team
+      name: Milwaukee Brewers
+      ref: 
+- number: '90'
+  uuid: 9b7ae45a-1eaa-4e0c-a42d-6c5d2039285b
+  subjects:
+  - entities:
+    - role: player
+      name: Jacob Gonzalez
+      ref: 
+    - role: team
+      name: Chicago White Sox
+      ref: 
+- number: '91'
+  uuid: e0a610e5-0dfe-47e9-8418-3e257861b654
+  subjects:
+  - entities:
+    - role: player
+      name: Griffin Burkholder
+      ref: 
+    - role: team
+      name: Philadelphia Phillies
+      ref: 
+- number: '92'
+  uuid: c4ab38be-4eb3-473a-9d8c-ea6f3d246f00
+  subjects:
+  - entities:
+    - role: player
+      name: Adrian Santana
+      ref: 
+    - role: team
+      name: Tampa Bay Rays
+      ref: 
+- number: '93'
+  uuid: 4549d6e4-3bfa-45da-aa72-4fdc562ced3a
+  subjects:
+  - entities:
+    - role: player
+      name: Carter Holton
+      ref: 
+    - role: team
+      name: Atlanta Braves
+      ref: 
+- number: '94'
+  uuid: 76779c18-f2e9-4f69-bbdc-0f69d3cc7672
+  subjects:
+  - entities:
+    - role: player
+      name: Tommy Troy
+      ref: 
+    - role: team
+      name: Arizona Diamondbacks
+      ref: 
+- number: '95'
+  uuid: 61b7c240-2c05-4e2e-b37c-dc55fe6be326
+  subjects:
+  - entities:
+    - role: player
+      name: Hagen Smith
+      ref: 
+    - role: team
+      name: Chicago White Sox
+      ref: 
+- number: '96'
+  uuid: 8ef1dce2-18c6-4e35-888c-fced5dec3543
+  subjects:
+  - entities:
+    - role: player
+      name: Zac Veen
+      ref: 
+    - role: team
+      name: Colorado Rockies
+      ref: 
+- number: '97'
+  uuid: 516b79b7-7b5f-4f35-9272-c927d1275bbc
+  subjects:
+  - entities:
+    - role: player
+      name: Chase DeLauter
+      ref: 
+    - role: team
+      name: Cleveland Guardians
+      ref: 
+- number: '98'
+  uuid: 251d6887-9b2d-4fa4-bd58-42d0fe7c65f8
+  subjects:
+  - entities:
+    - role: player
+      name: Harry Ford
+      ref: 
+    - role: team
+      name: Seattle Mariners
+      ref: 
+- number: '99'
+  uuid: b0e93c76-8d00-4efe-a1c1-33ce881349f9
+  subjects:
+  - entities:
+    - role: player
+      name: Bronson Arroyo
+      ref: 
+    - role: team
+      name: Boston Red Sox
+      ref: 
+- number: '100'
+  uuid: 1e40c528-a696-43b3-9473-f37b10cd0dba
+  subjects:
+  - entities:
+    - role: player
+      name: Harold Baines
+      ref: 
+    - role: team
+      name: Chicago White Sox
+      ref: 
