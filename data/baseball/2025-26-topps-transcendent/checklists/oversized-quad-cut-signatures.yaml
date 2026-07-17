@@ -1,0 +1,31 @@
+- number: OQCS-RACM
+  uuid: 17a8f466-0135-4286-a383-7048ed188644
+  subjects:
+  - entities:
+    - role: player
+      name: Roberto Clemente
+      ref: 
+    - role: team
+      name: Pittsburgh Pirates
+      ref: 
+  - entities:
+    - role: player
+      name: Hank Aaron
+      ref: 
+    - role: team
+      name: Atlanta Braves
+      ref: 
+  - entities:
+    - role: player
+      name: Willie Mays
+      ref: 
+    - role: team
+      name: San Francisco Giants
+      ref: 
+  - entities:
+    - role: player
+      name: Babe Ruth
+      ref: 
+    - role: team
+      name: New York Yankees
+      ref: 

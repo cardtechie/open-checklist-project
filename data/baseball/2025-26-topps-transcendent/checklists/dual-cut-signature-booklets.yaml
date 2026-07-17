@@ -1,0 +1,120 @@
+- number: DCSB-DJG
+  uuid: 1c0c0197-4d4b-4673-a39f-b43b597e6396
+  subjects:
+  - entities:
+    - role: player
+      name: Lou Gehrig
+      ref: 
+    - role: team
+      name: New York Yankees
+      ref: 
+  - entities:
+    - role: player
+      name: Aaron Judge
+      ref: 
+    - role: team
+      name: New York Yankees
+      ref: 
+  - entities:
+    - role: player
+      name: Joe DiMaggio
+      ref: 
+    - role: team
+      name: New York Yankees
+      ref: 
+- number: DCSB-KRR
+  uuid: 6f326904-fbaa-4866-ab8d-74c1e1449cf0
+  subjects:
+  - entities:
+    - role: player
+      name: Jackie Robinson
+      ref: 
+    - role: team
+      name: Brooklyn Dodgers
+      ref: 
+  - entities:
+    - role: player
+      name: Sandy Koufax
+      ref: 
+    - role: team
+      name: Brooklyn Dodgers
+      ref: 
+  - entities:
+    - role: player
+      name: Pee Wee Reese
+      ref: 
+    - role: team
+      name: Brooklyn Dodgers
+      ref: 
+- number: DCSB-PGY
+  uuid: 3e1481b4-b9d0-4f01-b768-400f3b95301e
+  subjects:
+  - entities:
+    - role: player
+      name: Lefty Grove
+      ref: 
+    - role: team
+      name: Boston Red Sox
+      ref: 
+  - entities:
+    - role: player
+      name: Pedro Martínez
+      ref: 
+    - role: team
+      name: Boston Red Sox
+      ref: 
+  - entities:
+    - role: player
+      name: Cy Young
+      ref: 
+    - role: team
+      name: Boston Red Sox
+      ref: 
+- number: DCSB-PMG
+  uuid: 88f23052-1577-4a26-8d39-847c43a30a0a
+  subjects:
+  - entities:
+    - role: player
+      name: Bob Gibson
+      ref: 
+    - role: team
+      name: St. Louis Cardinals
+      ref: 
+  - entities:
+    - role: player
+      name: Stan Musial
+      ref: 
+    - role: team
+      name: St. Louis Cardinals
+      ref: 
+  - entities:
+    - role: player
+      name: Albert Pujols
+      ref: 
+    - role: team
+      name: St. Louis Cardinals
+      ref: 
+- number: DCSB-SBC
+  uuid: 77838900-2b0f-4ed6-a3eb-85ba8f53ef82
+  subjects:
+  - entities:
+    - role: player
+      name: Barry Bonds
+      ref: 
+    - role: team
+      name: Pittsburgh Pirates
+      ref: 
+  - entities:
+    - role: player
+      name: Willie Stargell
+      ref: 
+    - role: team
+      name: Pittsburgh Pirates
+      ref: 
+  - entities:
+    - role: player
+      name: Roberto Clemente
+      ref: 
+    - role: team
+      name: Pittsburgh Pirates
+      ref: 

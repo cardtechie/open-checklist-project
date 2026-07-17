@@ -1,0 +1,680 @@
+- number: TCDP-AA
+  uuid: 9c8ec4ef-ddd6-42ac-9662-9c4498da1f96
+  subjects:
+  - entities:
+    - role: player
+      name: Ozzie Albies
+      ref: 
+    - role: team
+      name: Atlanta Braves
+      ref: 
+  - entities:
+    - role: player
+      name: Ronald Acuña Jr.
+      ref: 
+    - role: team
+      name: Atlanta Braves
+      ref: 
+- number: TCDP-AAL
+  uuid: 6111e1d7-e383-4e1b-acf2-19f752cfb0dc
+  subjects:
+  - entities:
+    - role: player
+      name: Jose Altuve
+      ref: 
+    - role: team
+      name: Houston Astros
+      ref: 
+  - entities:
+    - role: player
+      name: Yordan Alvarez
+      ref: 
+    - role: team
+      name: Houston Astros
+      ref: 
+- number: TCDP-BB
+  uuid: e12f091a-5534-4441-ae1e-97b8723ed6fd
+  subjects:
+  - entities:
+    - role: player
+      name: Craig Biggio
+      ref: 
+    - role: team
+      name: Houston Astros
+      ref: 
+  - entities:
+    - role: player
+      name: Jeff Bagwell
+      ref: 
+    - role: team
+      name: Houston Astros
+      ref: 
+- number: TCDP-BM
+  uuid: 6e4f331c-2406-4f59-a9c7-6a44069a0c10
+  subjects:
+  - entities:
+    - role: player
+      name: Yadier Molina
+      ref: 
+    - role: team
+      name: St. Louis Cardinals
+      ref: 
+  - entities:
+    - role: player
+      name: Lou Brock
+      ref: 
+    - role: team
+      name: St. Louis Cardinals
+      ref: 
+- number: TCDP-BR
+  uuid: 0e658b22-a1b1-4075-8645-676d81d709c8
+  subjects:
+  - entities:
+    - role: player
+      name: Ivan Rodriguez
+      ref: 
+    - role: team
+      name: Texas Rangers
+      ref: 
+  - entities:
+    - role: player
+      name: Adrian Beltré
+      ref: 
+    - role: team
+      name: Texas Rangers
+      ref: 
+- number: TCDP-BS
+  uuid: b47364e3-8fd2-4896-92a3-f242db1e63f8
+  subjects:
+  - entities:
+    - role: player
+      name: Moisés Ballesteros
+      ref: 
+    - role: team
+      name: Chicago Cubs
+      ref: 
+  - entities:
+    - role: player
+      name: Matt Shaw
+      ref: 
+    - role: team
+      name: Chicago Cubs
+      ref: 
+- number: TCDP-CM
+  uuid: 842548d0-b917-4ef3-b000-e381701dc5cd
+  subjects:
+  - entities:
+    - role: player
+      name: Marcelo Mayer
+      ref: 
+    - role: team
+      name: Boston Red Sox
+      ref: 
+  - entities:
+    - role: player
+      name: Kristian Campbell
+      ref: 
+    - role: team
+      name: Boston Red Sox
+      ref: 
+- number: TCDP-CP
+  uuid: 6b037445-d5fa-4162-8a5d-78614f1d2315
+  subjects:
+  - entities:
+    - role: player
+      name: Dustin Pedroia
+      ref: 
+    - role: team
+      name: Boston Red Sox
+      ref: 
+  - entities:
+    - role: player
+      name: Kristian Campbell
+      ref: 
+    - role: team
+      name: Boston Red Sox
+      ref: 
+- number: TCDP-CTO
+  uuid: 980463db-51f0-4891-b1a0-f0b0fc4453cd
+  subjects:
+  - entities:
+    - role: player
+      name: Spencer Torkelson
+      ref: 
+    - role: team
+      name: Detroit Tigers
+      ref: 
+  - entities:
+    - role: player
+      name: Miguel Cabrera
+      ref: 
+    - role: team
+      name: Detroit Tigers
+      ref: 
+- number: TCDP-CV
+  uuid: 96e407aa-32e8-4752-ac40-a3d380d1e5a3
+  subjects:
+  - entities:
+    - role: player
+      name: Jazz Chisholm Jr.
+      ref: 
+    - role: team
+      name: New York Yankees
+      ref: 
+  - entities:
+    - role: player
+      name: Anthony Volpe
+      ref: 
+    - role: team
+      name: New York Yankees
+      ref: 
+- number: TCDP-DM
+  uuid: 2ca2ddd6-a877-4987-8bc8-97dd83653659
+  subjects:
+  - entities:
+    - role: player
+      name: Fred McGriff
+      ref: 
+    - role: team
+      name: Tampa Bay Rays
+      ref: 
+  - entities:
+    - role: player
+      name: Johnny Damon
+      ref: 
+    - role: team
+      name: Tampa Bay Rays
+      ref: 
+- number: TCDP-DY
+  uuid: b64321e1-ec5c-4e78-a04e-112d7a7acab9
+  subjects:
+  - entities:
+    - role: player
+      name: Masataka Yoshida
+      ref: 
+    - role: team
+      name: Boston Red Sox
+      ref: 
+  - entities:
+    - role: player
+      name: Jarren Duran
+      ref: 
+    - role: team
+      name: Boston Red Sox
+      ref: 
+- number: TCDP-GB
+  uuid: 66f54136-0dc5-45b0-bf40-96fa865779dd
+  subjects:
+  - entities:
+    - role: player
+      name: Bo Bichette
+      ref: 
+    - role: team
+      name: Toronto Blue Jays
+      ref: 
+  - entities:
+    - role: player
+      name: Vladimir Guerrero Jr.
+      ref: 
+    - role: team
+      name: Toronto Blue Jays
+      ref: 
+- number: TCDP-HR
+  uuid: 751e6a8a-417e-4823-92e6-1098fb510573
+  subjects:
+  - entities:
+    - role: player
+      name: Gunnar Henderson
+      ref: 
+    - role: team
+      name: Baltimore Orioles
+      ref: 
+  - entities:
+    - role: player
+      name: Adley Rutschman
+      ref: 
+    - role: team
+      name: Baltimore Orioles
+      ref: 
+- number: TCDP-JC
+  uuid: 315b2c37-4651-4c33-9486-f951102281a6
+  subjects:
+  - entities:
+    - role: player
+      name: Aaron Judge
+      ref: 
+    - role: team
+      name: New York Yankees
+      ref: 
+  - entities:
+    - role: player
+      name: Gerrit Cole
+      ref: 
+    - role: team
+      name: New York Yankees
+      ref: 
+- number: TCDP-JJ
+  uuid: da254561-3fc6-4aa6-8959-ab847ac54b6b
+  subjects:
+  - entities:
+    - role: player
+      name: Jace Jung
+      ref: 
+    - role: team
+      name: Texas Rangers
+      ref: 
+  - entities:
+    - role: player
+      name: Josh Jung
+      ref: 
+    - role: team
+      name: Detroit Tigers
+      ref: 
+- number: TCDP-KB
+  uuid: '0696a580-5650-4473-bd33-1c6a06f6e98b'
+  subjects:
+  - entities:
+    - role: player
+      name: Mookie Betts
+      ref: 
+    - role: team
+      name: Los Angeles Dodgers
+      ref: 
+  - entities:
+    - role: player
+      name: Clayton Kershaw
+      ref: 
+    - role: team
+      name: Los Angeles Dodgers
+      ref: 
+- number: TCDP-KW
+  uuid: fa30f613-617d-47b7-b338-e1b01a59a003
+  subjects:
+  - entities:
+    - role: player
+      name: Jacob Wilson
+      ref: 
+    - role: team
+      name: Athletics
+      ref: 
+  - entities:
+    - role: player
+      name: Nick Kurtz
+      ref: 
+    - role: team
+      name: Athletics
+      ref: 
+- number: TCDP-LA
+  uuid: de86c3d2-8ccc-4862-8787-fca2b19e9924
+  subjects:
+  - entities:
+    - role: player
+      name: Pete Alonso
+      ref: 
+    - role: team
+      name: New York Mets
+      ref: 
+  - entities:
+    - role: player
+      name: Francisco Lindor
+      ref: 
+    - role: team
+      name: New York Mets
+      ref: 
+- number: TCDP-LY
+  uuid: f8351289-efe1-4cae-8455-3dd9d095c86e
+  subjects:
+  - entities:
+    - role: player
+      name: Jung Hoo Lee
+      ref: 
+    - role: team
+      name: San Francisco Giants
+      ref: 
+  - entities:
+    - role: player
+      name: Mike Yastrzemski
+      ref: 
+    - role: team
+      name: San Francisco Giants
+      ref: 
+- number: TCDP-MA
+  uuid: 7433a560-5e85-403f-bd44-7ed4ff46e3a6
+  subjects:
+  - entities:
+    - role: player
+      name: Luis Arraez
+      ref: 
+    - role: team
+      name: San Diego Padres
+      ref: 
+  - entities:
+    - role: player
+      name: Jackson Merrill
+      ref: 
+    - role: team
+      name: San Diego Padres
+      ref: 
+- number: TCDP-MC
+  uuid: a147b838-8d21-4fad-b772-a09bb8799817
+  subjects:
+  - entities:
+    - role: player
+      name: Andrew McCutchen
+      ref: 
+    - role: team
+      name: Pittsburgh Pirates
+      ref: 
+  - entities:
+    - role: player
+      name: Oneil Cruz
+      ref: 
+    - role: team
+      name: Pittsburgh Pirates
+      ref: 
+- number: TCDP-MCA
+  uuid: c8425f76-82aa-4ae9-b7b7-e7834bd6859d
+  subjects:
+  - entities:
+    - role: player
+      name: Corbin Carroll
+      ref: 
+    - role: team
+      name: Arizona Diamondbacks
+      ref: 
+  - entities:
+    - role: player
+      name: Ketel Marte
+      ref: 
+    - role: team
+      name: Arizona Diamondbacks
+      ref: 
+- number: TCDP-MCC
+  uuid: b642a66b-de03-4c2d-9040-7edf91a9bf91
+  subjects:
+  - entities:
+    - role: player
+      name: Andrew McCutchen
+      ref: 
+    - role: team
+      name: Pittsburgh Pirates
+      ref: 
+  - entities:
+    - role: player
+      name: Roberto Clemente
+      ref: 
+    - role: team
+      name: Pittsburgh Pirates
+      ref: 
+- number: TCDP-MM
+  uuid: cbdbed95-c984-473d-9d4f-de8f4395a12b
+  subjects:
+  - entities:
+    - role: player
+      name: Justin Morneau
+      ref: 
+    - role: team
+      name: Minnesota Twins
+      ref: 
+  - entities:
+    - role: player
+      name: Joe Mauer
+      ref: 
+    - role: team
+      name: Minnesota Twins
+      ref: 
+- number: TCDP-MS
+  uuid: 30549c6d-acd3-4324-b893-dd930360d8c5
+  subjects:
+  - entities:
+    - role: player
+      name: Pedro Martinez
+      ref: 
+    - role: team
+      name: New York Mets
+      ref: 
+  - entities:
+    - role: player
+      name: Kodai Senga
+      ref: 
+    - role: team
+      name: New York Mets
+      ref: 
+- number: TCDP-MT
+  uuid: 26b858ab-c554-4106-b0e3-e26760cd0a0c
+  subjects:
+  - entities:
+    - role: player
+      name: Manny Machado
+      ref: 
+    - role: team
+      name: San Diego Padres
+      ref: 
+  - entities:
+    - role: player
+      name: Fernando Tatis Jr.
+      ref: 
+    - role: team
+      name: San Diego Padres
+      ref: 
+- number: TCDP-OR
+  uuid: 96ece97b-55a6-4c2a-92b1-6749a0eafab4
+  subjects:
+  - entities:
+    - role: player
+      name: Manny Ramirez
+      ref: 
+    - role: team
+      name: Boston Red Sox
+      ref: 
+  - entities:
+    - role: player
+      name: David Ortiz
+      ref: 
+    - role: team
+      name: Boston Red Sox
+      ref: 
+- number: TCDP-OY
+  uuid: b0c94669-ebec-4543-8e9b-939d66307c5d
+  subjects:
+  - entities:
+    - role: player
+      name: Yoshinobu Yamamoto
+      ref: 
+    - role: team
+      name: Los Angeles Dodgers
+      ref: 
+  - entities:
+    - role: player
+      name: Shohei Ohtani
+      ref: 
+    - role: team
+      name: Los Angeles Dodgers
+      ref: 
+- number: TCDP-RB
+  uuid: c9436b36-2905-43fe-9056-ad58c65bd584
+  subjects:
+  - entities:
+    - role: player
+      name: José Ramírez
+      ref: 
+    - role: team
+      name: Cleveland Guardians
+      ref: 
+  - entities:
+    - role: player
+      name: Shane Bieber
+      ref: 
+    - role: team
+      name: Cleveland Guardians
+      ref: 
+- number: TCDP-RC
+  uuid: 158ce828-75c7-4d10-9ceb-2ab4cbd4a31f
+  subjects:
+  - entities:
+    - role: player
+      name: Miguel Cabrera
+      ref: 
+    - role: team
+      name: Florida Marlins
+      ref: 
+  - entities:
+    - role: player
+      name: Ivan Rodriguez
+      ref: 
+    - role: team
+      name: Florida Marlins
+      ref: 
+- number: TCDP-RD
+  uuid: 6e1ee87c-d750-462f-9692-4d3e79adeb0d
+  subjects:
+  - entities:
+    - role: player
+      name: Jacob deGrom
+      ref: 
+    - role: team
+      name: Texas Rangers
+      ref: 
+  - entities:
+    - role: player
+      name: Kumar Rocker
+      ref: 
+    - role: team
+      name: Texas Rangers
+      ref: 
+- number: TCDP-RO
+  uuid: 58545334-79fb-4ceb-abe3-09e4d922f1ef
+  subjects:
+  - entities:
+    - role: player
+      name: Matt Olson
+      ref: 
+    - role: team
+      name: Atlanta Braves
+      ref: 
+  - entities:
+    - role: player
+      name: Austin Riley
+      ref: 
+    - role: team
+      name: Atlanta Braves
+      ref: 
+- number: TCDP-SD
+  uuid: ae07bc51-6078-4c79-bc03-a49f22f8a717
+  subjects:
+  - entities:
+    - role: player
+      name: Jasson Domínguez
+      ref: 
+    - role: team
+      name: New York Yankees
+      ref: 
+  - entities:
+    - role: player
+      name: Giancarlo Stanton
+      ref: 
+    - role: team
+      name: New York Yankees
+      ref: 
+- number: TCDP-SI
+  uuid: 7d92c067-c11c-404e-8b26-7dd2a2534a28
+  subjects:
+  - entities:
+    - role: player
+      name: Seiya Suzuki
+      ref: 
+    - role: team
+      name: Chicago Cubs
+      ref: 
+  - entities:
+    - role: player
+      name: Shota Imanaga
+      ref: 
+    - role: team
+      name: Chicago Cubs
+      ref: 
+- number: TCDP-SM
+  uuid: 36bd6662-cf53-49e2-b7c1-3c5c5920a434
+  subjects:
+  - entities:
+    - role: player
+      name: Greg Maddux
+      ref: 
+    - role: team
+      name: Atlanta Braves
+      ref: 
+  - entities:
+    - role: player
+      name: John Smoltz
+      ref: 
+    - role: team
+      name: Atlanta Braves
+      ref: 
+- number: TCDP-SP
+  uuid: 545a2d34-ee01-4dc7-bee8-c3212738253d
+  subjects:
+  - entities:
+    - role: player
+      name: CC Sabathia
+      ref: 
+    - role: team
+      name: New York Yankees
+      ref: 
+  - entities:
+    - role: player
+      name: Jorge Posada
+      ref: 
+    - role: team
+      name: New York Yankees
+      ref: 
+- number: TCDP-TB
+  uuid: b12718f4-3e16-4b6e-845f-e91c1950363f
+  subjects:
+  - entities:
+    - role: player
+      name: Mark Buehrle
+      ref: 
+    - role: team
+      name: Chicago White Sox
+      ref: 
+  - entities:
+    - role: player
+      name: Jim Thome
+      ref: 
+    - role: team
+      name: Chicago White Sox
+      ref: 
+- number: TCDP-WC
+  uuid: efc48524-e5dd-401c-ac54-5ac07723a813
+  subjects:
+  - entities:
+    - role: player
+      name: James Wood
+      ref: 
+    - role: team
+      name: Washington Nationals
+      ref: 
+  - entities:
+    - role: player
+      name: Dylan Crews
+      ref: 
+    - role: team
+      name: Washington Nationals
+      ref: 
+- number: TCDP-WP
+  uuid: a73f9316-f9bd-4510-a4bb-aa140de23844
+  subjects:
+  - entities:
+    - role: player
+      name: Bobby Witt Jr.
+      ref: 
+    - role: team
+      name: Kansas City Royals
+      ref: 
+  - entities:
+    - role: player
+      name: Salvador Perez
+      ref: 
+    - role: team
+      name: Kansas City Royals
+      ref: 

@@ -1,0 +1,500 @@
+- number: PCA-ABR
+  uuid: 2803e9c9-317e-4f97-99a0-f771556770c5
+  subjects:
+  - entities:
+    - role: player
+      name: Alex Bregman
+      ref: 
+    - role: team
+      name: Boston Red Sox
+      ref: 
+- number: PCA-AJ
+  uuid: bcc4dbd1-4f77-4770-9ad1-0ea58b85f718
+  subjects:
+  - entities:
+    - role: player
+      name: Aaron Judge
+      ref: 
+    - role: team
+      name: New York Yankees
+      ref: 
+- number: PCA-AM
+  uuid: 44df360b-5458-44a5-a572-451c91cd4aab
+  subjects:
+  - entities:
+    - role: player
+      name: Andrew McCutchen
+      ref: 
+    - role: team
+      name: Pittsburgh Pirates
+      ref: 
+- number: PCA-APU
+  uuid: 0db7a7cb-dee1-4bb0-9518-e67b43adef7b
+  subjects:
+  - entities:
+    - role: player
+      name: Albert Pujols
+      ref: 
+    - role: team
+      name: Angels
+      ref: 
+- number: PCA-AR
+  uuid: a603b399-092b-4466-85c4-56ca1e54ea60
+  subjects:
+  - entities:
+    - role: player
+      name: Austin Riley
+      ref: 
+    - role: team
+      name: Atlanta Braves
+      ref: 
+- number: PCA-AV
+  uuid: 6ea5a352-ca7a-4f21-a190-c981bb4c6768
+  subjects:
+  - entities:
+    - role: player
+      name: Anthony Volpe
+      ref: 
+    - role: team
+      name: New York Yankees
+      ref: 
+- number: PCA-BL
+  uuid: c29c47a2-4445-4e75-b593-2e297ea90897
+  subjects:
+  - entities:
+    - role: player
+      name: Barry Larkin
+      ref: 
+    - role: team
+      name: Cincinnati Reds
+      ref: 
+- number: PCA-CC
+  uuid: 86411297-cc04-4bb6-98a0-cad6f31fb569
+  subjects:
+  - entities:
+    - role: player
+      name: Corbin Carroll
+      ref: 
+    - role: team
+      name: Arizona Diamondbacks
+      ref: 
+- number: PCA-CJ
+  uuid: a7b2e9eb-db9d-4756-af15-15003ef7394d
+  subjects:
+  - entities:
+    - role: player
+      name: Chipper Jones
+      ref: 
+    - role: team
+      name: Atlanta Braves
+      ref: 
+- number: PCA-CK
+  uuid: 1eb90762-bfa7-4b88-938d-d789b9f3d130
+  subjects:
+  - entities:
+    - role: player
+      name: Clayton Kershaw
+      ref: 
+    - role: team
+      name: Los Angeles Dodgers
+      ref: 
+- number: PCA-CS
+  uuid: 583b3ef8-05d4-4466-a44e-8e5face1cda0
+  subjects:
+  - entities:
+    - role: player
+      name: Corey Seager
+      ref: 
+    - role: team
+      name: Texas Rangers
+      ref: 
+- number: PCA-CY
+  uuid: 63ddce3a-7eb8-4509-8beb-6bafd3478cf2
+  subjects:
+  - entities:
+    - role: player
+      name: Christian Yelich
+      ref: 
+    - role: team
+      name: Milwaukee Brewers
+      ref: 
+- number: PCA-DC
+  uuid: bf577900-f788-46fd-b030-9a9ede3afede
+  subjects:
+  - entities:
+    - role: player
+      name: Dylan Crews
+      ref: 
+    - role: team
+      name: Washington Nationals
+      ref: 
+- number: PCA-DJ
+  uuid: ce5a6af4-c4d0-4f47-9e45-c4a09a36f4aa
+  subjects:
+  - entities:
+    - role: player
+      name: Derek Jeter
+      ref: 
+    - role: team
+      name: New York Yankees
+      ref: 
+- number: PCA-DO
+  uuid: c3683426-cc76-4269-8f9b-25f44b6e0b54
+  subjects:
+  - entities:
+    - role: player
+      name: David Ortiz
+      ref: 
+    - role: team
+      name: Boston Red Sox
+      ref: 
+- number: PCA-DOR
+  uuid: dc08b872-3a41-45ed-843d-f390b89ccf0f
+  subjects:
+  - entities:
+    - role: player
+      name: David Ortiz
+      ref: 
+    - role: team
+      name: Minnesota Twins
+      ref: 
+- number: PCA-FL
+  uuid: ef17abd5-5796-4429-80d4-6dbbe1e17035
+  subjects:
+  - entities:
+    - role: player
+      name: Francisco Lindor
+      ref: 
+    - role: team
+      name: New York Mets
+      ref: 
+- number: PCA-FT
+  uuid: a50629ea-139d-445e-8110-6f57cc9649b6
+  subjects:
+  - entities:
+    - role: player
+      name: Fernando Tatis Jr.
+      ref: 
+    - role: team
+      name: San Diego Padres
+      ref: 
+- number: PCA-GH
+  uuid: a246c4d5-85d0-4378-bfe7-bc53e7bbf1c9
+  subjects:
+  - entities:
+    - role: player
+      name: Gunnar Henderson
+      ref: 
+    - role: team
+      name: Baltimore Orioles
+      ref: 
+- number: PCA-I
+  uuid: 361c4371-e587-474e-a7a4-acfb3a9c6e8a
+  subjects:
+  - entities:
+    - role: player
+      name: Ichiro
+      ref: 
+    - role: team
+      name: Seattle Mariners
+      ref: 
+- number: PCA-JA
+  uuid: 159108d1-da73-41ce-8cfa-06df0c79891e
+  subjects:
+  - entities:
+    - role: player
+      name: Jose Altuve
+      ref: 
+    - role: team
+      name: Houston Astros
+      ref: 
+- number: PCA-JC
+  uuid: 5be76c6d-3b8f-4118-b048-3e5df1241ec3
+  subjects:
+  - entities:
+    - role: player
+      name: Junior Caminero
+      ref: 
+    - role: team
+      name: Tampa Bay Rays
+      ref: 
+- number: PCA-JCJ
+  uuid: 6775828a-0707-4acf-b681-5868b4dcf402
+  subjects:
+  - entities:
+    - role: player
+      name: Jazz Chisholm Jr.
+      ref: 
+    - role: team
+      name: New York Yankees
+      ref: 
+- number: PCA-JM
+  uuid: 929373d7-bf07-41b9-8c91-201a104bc6e8
+  subjects:
+  - entities:
+    - role: player
+      name: Joe Mauer
+      ref: 
+    - role: team
+      name: Minnesota Twins
+      ref: 
+- number: PCA-JRA
+  uuid: 73051bee-ac88-4743-82c9-0faeb8bba599
+  subjects:
+  - entities:
+    - role: player
+      name: José Ramírez
+      ref: 
+    - role: team
+      name: Cleveland Guardians
+      ref: 
+- number: PCA-JS
+  uuid: cd1dce4e-f565-4d9e-95fc-87e94bd82489
+  subjects:
+  - entities:
+    - role: player
+      name: Juan Soto
+      ref: 
+    - role: team
+      name: New York Mets
+      ref: 
+- number: PCA-JSA
+  uuid: e89c9aa0-07bf-41c3-a0c8-83283c833138
+  subjects:
+  - entities:
+    - role: player
+      name: Johan Santana
+      ref: 
+    - role: team
+      name: New York Mets
+      ref: 
+- number: PCA-JW
+  uuid: f6c86341-fdfd-4791-9819-38e0e6559125
+  subjects:
+  - entities:
+    - role: player
+      name: James Wood
+      ref: 
+    - role: team
+      name: Washington Nationals
+      ref: 
+- number: PCA-KG
+  uuid: fcf92532-72be-4ef7-9d6f-238e6d8776d4
+  subjects:
+  - entities:
+    - role: player
+      name: Ken Griffey Jr.
+      ref: 
+    - role: team
+      name: Seattle Mariners
+      ref: 
+- number: PCA-LB
+  uuid: eec42d20-760a-4cf8-ba31-839a3daf9a5b
+  subjects:
+  - entities:
+    - role: player
+      name: Lawrence Butler
+      ref: 
+    - role: team
+      name: Athletics
+      ref: 
+- number: PCA-LEE
+  uuid: 1fb4d812-0e76-41c1-b363-15338073ea33
+  subjects:
+  - entities:
+    - role: player
+      name: Brooks Lee
+      ref: 
+    - role: team
+      name: Minnesota Twins
+      ref: 
+- number: PCA-LW
+  uuid: 651744c7-a3eb-44f7-97dd-3440882f8fa0
+  subjects:
+  - entities:
+    - role: player
+      name: Larry Walker
+      ref: 
+    - role: team
+      name: Colorado Rockies
+      ref: 
+- number: PCA-MMA
+  uuid: 9425da81-fc72-4d38-a502-ea13827ddb72
+  subjects:
+  - entities:
+    - role: player
+      name: Manny Machado
+      ref: 
+    - role: team
+      name: San Diego Padres
+      ref: 
+- number: PCA-MT
+  uuid: 77d2496d-e862-4873-ac35-bc19bd0f6f1f
+  subjects:
+  - entities:
+    - role: player
+      name: Mike Trout
+      ref: 
+    - role: team
+      name: Angels
+      ref: 
+- number: PCA-MTX
+  uuid: 6a331918-7aa2-4ae1-95f0-b379b7746bd5
+  subjects:
+  - entities:
+    - role: player
+      name: Mark Teixeira
+      ref: 
+    - role: team
+      name: New York Yankees
+      ref: 
+- number: PCA-NA
+  uuid: f57c3b5b-d703-49d2-9b3b-a89635935572
+  subjects:
+  - entities:
+    - role: player
+      name: Nolan Arenado
+      ref: 
+    - role: team
+      name: St. Louis Cardinals
+      ref: 
+- number: PCA-OA
+  uuid: 8758d29c-a769-4c58-92c9-eb7d48891289
+  subjects:
+  - entities:
+    - role: player
+      name: Ozzie Albies
+      ref: 
+    - role: team
+      name: Atlanta Braves
+      ref: 
+- number: PCA-OH
+  uuid: 92ee16ac-2738-42cd-a5b3-1f9055565265
+  subjects:
+  - entities:
+    - role: player
+      name: Orel Hershiser
+      ref: 
+    - role: team
+      name: Los Angeles Dodgers
+      ref: 
+- number: PCA-PA
+  uuid: 6d2c24ca-e082-4597-be4a-cf5fd8171258
+  subjects:
+  - entities:
+    - role: player
+      name: Pete Alonso
+      ref: 
+    - role: team
+      name: New York Mets
+      ref: 
+- number: PCA-PCA
+  uuid: '081fbcd7-4d1d-4df6-bfb4-04b6ac2544a3'
+  subjects:
+  - entities:
+    - role: player
+      name: Pete Crow-Armstrong
+      ref: 
+    - role: team
+      name: Chicago Cubs
+      ref: 
+- number: PCA-PF
+  uuid: 19d728e8-0e22-4f28-afa6-a85ddc59d124
+  subjects:
+  - entities:
+    - role: player
+      name: Prince Fielder
+      ref: 
+    - role: team
+      name: Detroit Tigers
+      ref: 
+- number: PCA-PS
+  uuid: 04b25a24-fc18-4cbc-83fd-9ce418957aa3
+  subjects:
+  - entities:
+    - role: player
+      name: Paul Skenes
+      ref: 
+    - role: team
+      name: Pittsburgh Pirates
+      ref: 
+- number: PCA-RA
+  uuid: 8164eca5-726f-4002-b93e-c3f11599eb4f
+  subjects:
+  - entities:
+    - role: player
+      name: Ronald Acuña Jr.
+      ref: 
+    - role: team
+      name: Atlanta Braves
+      ref: 
+- number: PCA-RJA
+  uuid: 43ca6f24-dab8-49fc-afdb-06526a2a8b78
+  subjects:
+  - entities:
+    - role: player
+      name: Reggie Jackson
+      ref: 
+    - role: team
+      name: California Angels
+      ref: 
+- number: PCA-SC
+  uuid: 11035bc6-af56-49a1-a380-ee771a936d11
+  subjects:
+  - entities:
+    - role: player
+      name: Steve Carlton
+      ref: 
+    - role: team
+      name: Philadelphia Phillies
+      ref: 
+- number: PCA-SHO
+  uuid: 3eb141e6-e3f1-4775-a994-7604b78066b2
+  subjects:
+  - entities:
+    - role: player
+      name: Shohei Ohtani
+      ref: 
+    - role: team
+      name: Los Angeles Dodgers
+      ref: 
+- number: PCA-SI
+  uuid: eb89a5c3-459d-4542-9022-72855d679c78
+  subjects:
+  - entities:
+    - role: player
+      name: Shota Imanaga
+      ref: 
+    - role: team
+      name: Chicago Cubs
+      ref: 
+- number: PCA-SO
+  uuid: 78446bfb-846a-447d-bba3-b71d73f30062
+  subjects:
+  - entities:
+    - role: player
+      name: Shohei Ohtani
+      ref: 
+    - role: team
+      name: Angels
+      ref: 
+- number: PCA-TH
+  uuid: 5b09ba6e-8437-4786-beb6-9eeed0fda424
+  subjects:
+  - entities:
+    - role: player
+      name: Torii Hunter
+      ref: 
+    - role: team
+      name: Minnesota Twins
+      ref: 
+- number: PCA-YY
+  uuid: 66ab5528-328c-4bad-a3b9-b017aaf1db5c
+  subjects:
+  - entities:
+    - role: player
+      name: Yoshinobu Yamamoto
+      ref: 
+    - role: team
+      name: Los Angeles Dodgers
+      ref: 

@@ -1,0 +1,170 @@
+- number: DPA-HA
+  uuid: 0a867ff7-4b29-4d93-9943-725480f2ea38
+  subjects:
+  - entities:
+    - role: player
+      name: Michael Harris II
+      ref: 
+    - role: team
+      name: Atlanta Braves
+      ref: 
+  - entities:
+    - role: player
+      name: Ozzie Albies
+      ref: 
+    - role: team
+      name: Atlanta Braves
+      ref: 
+- number: DPA-HH
+  uuid: 3ef182d1-da10-40a9-8bcf-dbb038712bb8
+  subjects:
+  - entities:
+    - role: player
+      name: Gunnar Henderson
+      ref: 
+    - role: team
+      name: Baltimore Orioles
+      ref: 
+  - entities:
+    - role: player
+      name: Jackson Holliday
+      ref: 
+    - role: team
+      name: Baltimore Orioles
+      ref: 
+- number: DPA-HT
+  uuid: 3af91b03-5f7f-4519-8ff2-25eac6d51c59
+  subjects:
+  - entities:
+    - role: player
+      name: Bryce Harper
+      ref: 
+    - role: team
+      name: Philadelphia Phillies
+      ref: 
+  - entities:
+    - role: player
+      name: Trea Turner
+      ref: 
+    - role: team
+      name: Philadelphia Phillies
+      ref: 
+- number: DPA-IGJ
+  uuid: f9ab0e9f-cd49-43d6-82d3-c41d788a72bc
+  subjects:
+  - entities:
+    - role: player
+      name: Ichiro
+      ref: 
+    - role: team
+      name: Seattle Mariners
+      ref: 
+  - entities:
+    - role: player
+      name: Ken Griffey Jr.
+      ref: 
+    - role: team
+      name: Seattle Mariners
+      ref: 
+- number: DPA-JJU
+  uuid: 556ea6d7-6ef9-4b47-b1c2-8c9999e6ed81
+  subjects:
+  - entities:
+    - role: player
+      name: Jace Jung
+      ref: 
+    - role: team
+      name: Detroit Tigers
+      ref: 
+  - entities:
+    - role: player
+      name: Josh Jung
+      ref: 
+    - role: team
+      name: Texas Rangers
+      ref: 
+- number: DPA-JO
+  uuid: 7c5ec063-31a4-4d1e-97be-8edb90994d6d
+  subjects:
+  - entities:
+    - role: player
+      name: Aaron Judge
+      ref: 
+    - role: team
+      name: New York Yankees
+      ref: 
+  - entities:
+    - role: player
+      name: Shohei Ohtani
+      ref: 
+    - role: team
+      name: Los Angeles Dodgers
+      ref: 
+- number: DPA-OS
+  uuid: 9248703f-7959-4e8d-9155-8256272a00e3
+  subjects:
+  - entities:
+    - role: player
+      name: Roki Sasaki
+      ref: 
+    - role: team
+      name: Los Angeles Dodgers
+      ref: 
+  - entities:
+    - role: player
+      name: Shohei Ohtani
+      ref: 
+    - role: team
+      name: Los Angeles Dodgers
+      ref: 
+- number: DPA-TP
+  uuid: 0ac502da-1357-4241-91ce-788c06de9819
+  subjects:
+  - entities:
+    - role: player
+      name: Albert Pujols
+      ref: 
+    - role: team
+      name: Angels
+      ref: 
+  - entities:
+    - role: player
+      name: Mike Trout
+      ref: 
+    - role: team
+      name: Angels
+      ref: 
+- number: DPA-WC
+  uuid: 549ce3c5-a68e-4d06-9205-f20e7caae3d0
+  subjects:
+  - entities:
+    - role: player
+      name: James Wood
+      ref: 
+    - role: team
+      name: Washington Nationals
+      ref: 
+  - entities:
+    - role: player
+      name: Dylan Crews
+      ref: 
+    - role: team
+      name: Washington Nationals
+      ref: 
+- number: DPA-WK
+  uuid: 31aec18f-db0f-40df-8eb2-9b1e282eee9e
+  subjects:
+  - entities:
+    - role: player
+      name: Nick Kurtz
+      ref: 
+    - role: team
+      name: Athletics
+      ref: 
+  - entities:
+    - role: player
+      name: Jacob Wilson
+      ref: 
+    - role: team
+      name: Athletics
+      ref: 

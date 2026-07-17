@@ -1,0 +1,230 @@
+- number: JPCA-AJ
+  uuid: e5bceb76-791b-415d-b551-866578ac7027
+  subjects:
+  - entities:
+    - role: player
+      name: Aaron Judge
+      ref: 
+    - role: team
+      name: New York Yankees
+      ref: 
+- number: JPCA-AM
+  uuid: 96f2bb36-b51c-4b83-b22d-8c787e0fb874
+  subjects:
+  - entities:
+    - role: player
+      name: Andrew McCutchen
+      ref: 
+    - role: team
+      name: Pittsburgh Pirates
+      ref: 
+- number: JPCA-BB
+  uuid: d20aa366-2f2a-46e9-86a7-2e0eb0949677
+  subjects:
+  - entities:
+    - role: player
+      name: Byron Buxton
+      ref: 
+    - role: team
+      name: Minnesota Twins
+      ref: 
+- number: JPCA-BH
+  uuid: 895b2be0-a43a-43b2-9172-f0a71e3e7515
+  subjects:
+  - entities:
+    - role: player
+      name: Bryce Harper
+      ref: 
+    - role: team
+      name: Philadelphia Phillies
+      ref: 
+- number: JPCA-BW
+  uuid: d4f2a362-654f-4e3b-8568-2e76b3177782
+  subjects:
+  - entities:
+    - role: player
+      name: Bobby Witt Jr.
+      ref: 
+    - role: team
+      name: Kansas City Royals
+      ref: 
+- number: JPCA-CK
+  uuid: 0a1b17b8-a9d8-4e8a-b253-85723e007517
+  subjects:
+  - entities:
+    - role: player
+      name: Clayton Kershaw
+      ref: 
+    - role: team
+      name: Los Angeles Dodgers
+      ref: 
+- number: JPCA-CR
+  uuid: 15b6e02a-5b0a-4873-b5cb-a9dc4326372b
+  subjects:
+  - entities:
+    - role: player
+      name: Cal Raleigh
+      ref: 
+    - role: team
+      name: Seattle Mariners
+      ref: 
+- number: JPCA-CY
+  uuid: db477209-064c-4fc5-9420-84cc054b2d49
+  subjects:
+  - entities:
+    - role: player
+      name: Christian Yelich
+      ref: 
+    - role: team
+      name: Milwaukee Brewers
+      ref: 
+- number: JPCA-DC
+  uuid: 910cb3c7-a04d-4b89-9a86-3b01ef11fb77
+  subjects:
+  - entities:
+    - role: player
+      name: Dylan Crews
+      ref: 
+    - role: team
+      name: Washington Nationals
+      ref: 
+- number: JPCA-FT
+  uuid: a1e90fa4-bbf5-4732-895a-46f9c3740350
+  subjects:
+  - entities:
+    - role: player
+      name: Fernando Tatis Jr.
+      ref: 
+    - role: team
+      name: San Diego Padres
+      ref: 
+- number: JPCA-GH
+  uuid: fc0691db-00d2-44f8-8aac-00cbc584c57c
+  subjects:
+  - entities:
+    - role: player
+      name: Gunnar Henderson
+      ref: 
+    - role: team
+      name: Baltimore Orioles
+      ref: 
+- number: JPCA-I
+  uuid: 2197309b-5c81-4ded-9b87-4e7fd7ab5235
+  subjects:
+  - entities:
+    - role: player
+      name: Ichiro
+      ref: 
+    - role: team
+      name: New York Yankees
+      ref: 
+- number: JPCA-IS
+  uuid: bd3da2db-0a18-458c-9ac2-19af81c9960e
+  subjects:
+  - entities:
+    - role: player
+      name: Ichiro
+      ref: 
+    - role: team
+      name: Miami Marlins
+      ref: 
+- number: JPCA-JA
+  uuid: 143d1e90-6d86-4618-8268-05033c8dc86e
+  subjects:
+  - entities:
+    - role: player
+      name: Jose Altuve
+      ref: 
+    - role: team
+      name: Houston Astros
+      ref: 
+- number: JPCA-JS
+  uuid: ff4f473d-9d06-49ba-bf5a-f65b186666e1
+  subjects:
+  - entities:
+    - role: player
+      name: Juan Soto
+      ref: 
+    - role: team
+      name: New York Mets
+      ref: 
+- number: JPCA-JW
+  uuid: 654229b9-9f2c-4747-89b4-d9368f0cb298
+  subjects:
+  - entities:
+    - role: player
+      name: James Wood
+      ref: 
+    - role: team
+      name: Washington Nationals
+      ref: 
+- number: JPCA-MMA
+  uuid: 9f7c43dc-cbdd-4dab-a52a-17f7fb97613e
+  subjects:
+  - entities:
+    - role: player
+      name: Manny Machado
+      ref: 
+    - role: team
+      name: San Diego Padres
+      ref: 
+- number: JPCA-MT
+  uuid: c453fd6d-5b89-480f-822a-1d7a39496bb1
+  subjects:
+  - entities:
+    - role: player
+      name: Mike Trout
+      ref: 
+    - role: team
+      name: Angels
+      ref: 
+- number: JPCA-NH
+  uuid: cc546a14-5ef6-4c2d-918a-050722ca7c76
+  subjects:
+  - entities:
+    - role: player
+      name: Nico Hoerner
+      ref: 
+    - role: team
+      name: Chicago Cubs
+      ref: 
+- number: JPCA-OA
+  uuid: a3e2f8c8-caec-42aa-93d8-3147a8a536c5
+  subjects:
+  - entities:
+    - role: player
+      name: Ozzie Albies
+      ref: 
+    - role: team
+      name: Atlanta Braves
+      ref: 
+- number: JPCA-PA
+  uuid: a829e327-3c72-4a31-b4ba-c046b1b69c81
+  subjects:
+  - entities:
+    - role: player
+      name: Pete Alonso
+      ref: 
+    - role: team
+      name: New York Mets
+      ref: 
+- number: JPCA-RA
+  uuid: e8608766-d553-4fbd-abef-966569885df1
+  subjects:
+  - entities:
+    - role: player
+      name: Ronald Acuña Jr.
+      ref: 
+    - role: team
+      name: Atlanta Braves
+      ref: 
+- number: JPCA-SO
+  uuid: 9739a654-e80b-4dc0-bd4f-22c89b41a48b
+  subjects:
+  - entities:
+    - role: player
+      name: Shohei Ohtani
+      ref: 
+    - role: team
+      name: Los Angeles Dodgers
+      ref: 

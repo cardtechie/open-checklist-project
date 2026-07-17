@@ -1,0 +1,60 @@
+- number: WSAR-AV
+  uuid: a350ba81-f3ac-4819-a74f-69ae62bf09c1
+  subjects:
+  - entities:
+    - role: player
+      name: Anthony Volpe
+      ref: 
+    - role: team
+      name: New York Yankees
+      ref: 
+- number: WSAR-AVO
+  uuid: db36cfb0-fac0-47ff-a9e3-de0f0580d5b1
+  subjects:
+  - entities:
+    - role: player
+      name: Anthony Volpe
+      ref: 
+    - role: team
+      name: New York Yankees
+      ref: 
+- number: WSAR-AW
+  uuid: 0d6d3314-6407-419b-a7ea-f9163949d611
+  subjects:
+  - entities:
+    - role: player
+      name: Austin Wells
+      ref: 
+    - role: team
+      name: New York Yankees
+      ref: 
+- number: WSAR-AWE
+  uuid: 0d871de8-b74f-4742-9131-e6601ad420a3
+  subjects:
+  - entities:
+    - role: player
+      name: Austin Wells
+      ref: 
+    - role: team
+      name: New York Yankees
+      ref: 
+- number: WSAR-JS
+  uuid: dc888b29-80ce-4753-a8bb-ef71da21421f
+  subjects:
+  - entities:
+    - role: player
+      name: Juan Soto
+      ref: 
+    - role: team
+      name: New York Yankees
+      ref: 
+- number: WSAR-JSO
+  uuid: 6c7d2db5-c3bb-4335-99bc-6147dec64705
+  subjects:
+  - entities:
+    - role: player
+      name: Juan Soto
+      ref: 
+    - role: team
+      name: New York Yankees
+      ref: 

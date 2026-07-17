@@ -1,0 +1,54 @@
+- number: CFCS
+  uuid: '08f0e5bc-0699-4c0b-80b6-0c6f7b9ff292'
+  subjects:
+  - entities:
+    - role: player
+      name: Carlton Fisk
+      ref: 
+    - role: team
+      name: Boston Red Sox
+      ref: 
+- number: CRCS
+  uuid: 90c3a7f3-ce01-453f-af35-aead08ac053b
+  subjects:
+  - entities:
+    - role: player
+      name: Lou Gehrig
+      ref: 
+    - role: team
+      name: New York Yankees
+      ref: 
+  - entities:
+    - role: player
+      name: Cal Ripken Jr.
+      ref: 
+    - role: team
+      name: Baltimore Orioles
+      ref: 
+- number: CYCS
+  uuid: 690e1638-afb7-4e54-9738-794b066baeac
+  subjects:
+  - entities:
+    - role: player
+      name: Cy Young
+      ref: 
+    - role: team
+      name: Cleveland Naps
+      ref: 
+- number: PRCS
+  uuid: 3e19b508-6a38-426b-9688-b95617ec1498
+  subjects:
+  - entities:
+    - role: player
+      name: Ty Cobb
+      ref: 
+    - role: team
+      name: Detroit Tigers
+      ref: 
+  - entities:
+    - role: player
+      name: Pete Rose
+      ref: 
+    - role: team
+      name: Cincinnati Reds
+      ref: 

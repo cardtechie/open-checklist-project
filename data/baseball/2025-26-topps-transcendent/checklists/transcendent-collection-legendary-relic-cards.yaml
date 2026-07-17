@@ -1,0 +1,150 @@
+- number: TCLR-AK
+  uuid: 7bf0001b-e86c-4a9a-bd3d-4e457f42cbb8
+  subjects:
+  - entities:
+    - role: player
+      name: Al Kaline
+      ref: 
+    - role: team
+      name: Detroit Tigers
+      ref: 
+- number: TCLR-BR
+  uuid: a84934df-aa8c-46f0-899e-906574cf54c2
+  subjects:
+  - entities:
+    - role: player
+      name: Babe Ruth
+      ref: 
+    - role: team
+      name: New York Yankees
+      ref: 
+- number: TCLR-CY
+  uuid: 6c961eb1-70ac-4898-9225-5aa2844f8b50
+  subjects:
+  - entities:
+    - role: player
+      name: Carl Yastrzemski
+      ref: 
+    - role: team
+      name: Boston Red Sox
+      ref: 
+- number: TCLR-DJ
+  uuid: 76e0e5d1-e6c4-4f59-bfad-f74e932054ed
+  subjects:
+  - entities:
+    - role: player
+      name: Derek Jeter
+      ref: 
+    - role: team
+      name: New York Yankees
+      ref: 
+- number: TCLR-EB
+  uuid: 92041481-020c-428b-8a8f-67d7fa3aea37
+  subjects:
+  - entities:
+    - role: player
+      name: Ernie Banks
+      ref: 
+    - role: team
+      name: Chicago Cubs
+      ref: 
+- number: TCLR-HA
+  uuid: b59e1211-c0cd-4ffd-8bd2-f8bd2b637547
+  subjects:
+  - entities:
+    - role: player
+      name: Hank Aaron
+      ref: 
+    - role: team
+      name: Atlanta Braves
+      ref: 
+- number: TCLR-JB
+  uuid: 614e8bb2-30e3-4bab-9d88-4f2710141671
+  subjects:
+  - entities:
+    - role: player
+      name: Johnny Bench
+      ref: 
+    - role: team
+      name: Cincinnati Reds
+      ref: 
+- number: TCLR-JD
+  uuid: 594cf570-8370-449b-8f20-173887ecb92e
+  subjects:
+  - entities:
+    - role: player
+      name: Joe DiMaggio
+      ref: 
+    - role: team
+      name: New York Yankees
+      ref: 
+- number: TCLR-MM
+  uuid: eda1d791-f91f-440b-8ae4-e87862f7c21c
+  subjects:
+  - entities:
+    - role: player
+      name: Mickey Mantle
+      ref: 
+    - role: team
+      name: New York Yankees
+      ref: 
+- number: TCLR-RC
+  uuid: 20604ca2-01fe-402f-918d-b04f674b6f46
+  subjects:
+  - entities:
+    - role: player
+      name: Roberto Clemente
+      ref: 
+    - role: team
+      name: Pittsburgh Pirates
+      ref: 
+- number: TCLR-RH
+  uuid: 750ec6bb-5eeb-41a6-a550-fe40561b4887
+  subjects:
+  - entities:
+    - role: player
+      name: Rogers Hornsby
+      ref: 
+    - role: team
+      name: St. Louis Cardinals
+      ref: 
+- number: TCLR-RJ
+  uuid: d2739047-a8b8-4c90-a161-9d056ee45bd8
+  subjects:
+  - entities:
+    - role: player
+      name: Reggie Jackson
+      ref: 
+    - role: team
+      name: California Angels
+      ref: 
+- number: TCLR-SM
+  uuid: ba51440c-8f15-40c7-b338-66fc56b6fbfd
+  subjects:
+  - entities:
+    - role: player
+      name: Stan Musial
+      ref: 
+    - role: team
+      name: St. Louis Cardinals
+      ref: 
+- number: TCLR-WM
+  uuid: 11e1c00c-fe69-4b8a-8e46-7d592509ce71
+  subjects:
+  - entities:
+    - role: player
+      name: Willie Mays
+      ref: 
+    - role: team
+      name: San Francisco Giants
+      ref: 
+- number: TCLR-YB
+  uuid: 961ca5ad-08d8-4da1-a353-0f54e5e11bf1
+  subjects:
+  - entities:
+    - role: player
+      name: Yogi Berra
+      ref: 
+    - role: team
+      name: New York Yankees
+      ref: 
