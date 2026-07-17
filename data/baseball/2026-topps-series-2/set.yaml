@@ -1,0 +1,23 @@
+uuid: 454adae3-692f-42e6-8f6a-459079498348
+set_id: 2026-topps-series-2
+name: 2026 Topps Series 2
+genre: Sports
+category:
+- MLB
+sports:
+- Baseball
+season: '2026'
+years:
+- 2026
+series: 2026 Topps Baseball
+series_number: 2
+manufacturer: Topps
+release_date: '2026-06-11'
+description: 2026 Topps is a 700-card set released in two equal series of 350 cards.
+  Series One was issued the week of February 13th. As usual, each 20-pack Hobby box
+  will yield either an autograph or a Relic card while Hobby-exclusive jumbo boxes
+  will yield an autograph, a game-used Relic -- down from the previous year's two.
+source:
+  name: BaseballCardpedia
+  url: https://baseballcardpedia.com/index.php/2026_Topps#Checklist
+  file: import/2026-Topps-Series-2-Baseball-Checklist.xlsx

@@ -1,0 +1,250 @@
+- number: '358'
+  uuid: f42c3673-aafa-40da-ac1c-f91d5272e7d7
+  subjects:
+  - entities:
+    - role: player
+      name: Adley Rutschman
+      ref: 
+    - role: team
+      name: Baltimore Orioles
+      ref: 
+- number: '372'
+  uuid: f3cda8cd-7a2a-451e-b67f-8f10b5c9af7c
+  subjects:
+  - entities:
+    - role: player
+      name: Sal Stewart
+      ref: 
+    - role: team
+      name: Cincinnati Reds
+      ref: 
+- number: '398'
+  uuid: bb200128-774f-40a6-8ab5-9a796d470906
+  subjects:
+  - entities:
+    - role: player
+      name: Hunter Barco
+      ref: 
+    - role: team
+      name: Pittsburgh Pirates
+      ref: 
+- number: '400'
+  uuid: e8024982-e89f-44a1-b384-cbb7e4927412
+  subjects:
+  - entities:
+    - role: player
+      name: Pete Alonso
+      ref: 
+    - role: team
+      name: Baltimore Orioles
+      ref: 
+- number: '406'
+  uuid: 3f9eff0b-3a57-4832-ad18-8466325e8bed
+  subjects:
+  - entities:
+    - role: player
+      name: Bryce Eldridge
+      ref: 
+    - role: team
+      name: San Francisco Giants
+      ref: 
+- number: '415'
+  uuid: 0f637de5-e204-4189-b5d6-c7458501e246
+  subjects:
+  - entities:
+    - role: player
+      name: Justin Verlander
+      ref: 
+    - role: team
+      name: Detroit Tigers
+      ref: 
+- number: '448'
+  uuid: fc3bd5c8-7c23-496f-9ffe-f2cc2f1f2c2f
+  subjects:
+  - entities:
+    - role: player
+      name: Jackson Chourio
+      ref: 
+    - role: team
+      name: Milwaukee Brewers
+      ref: 
+- number: '450'
+  uuid: 42939b20-9aac-436d-a75a-12013ef77ffa
+  subjects:
+  - entities:
+    - role: player
+      name: Gerrit Cole
+      ref: 
+    - role: team
+      name: New York Yankees
+      ref: 
+- number: '458'
+  uuid: 6ac522d1-7eed-4fee-bd96-2c5fc7e5494b
+  subjects:
+  - entities:
+    - role: player
+      name: Chase DeLauter
+      ref: 
+    - role: team
+      name: Cleveland Guardians
+      ref: 
+- number: '459'
+  uuid: ce10dd79-990e-4602-904a-322cae4afd07
+  subjects:
+  - entities:
+    - role: player
+      name: Ketel Marte
+      ref: 
+    - role: team
+      name: Arizona Diamondbacks
+      ref: 
+- number: '468'
+  uuid: aafda479-1a4b-4cba-a2f0-f282cb353089
+  subjects:
+  - entities:
+    - role: player
+      name: Yordan Alvarez
+      ref: 
+    - role: team
+      name: Houston Astros
+      ref: 
+- number: '473'
+  uuid: d2a98f5d-7920-4d5a-a68c-a00862954657
+  subjects:
+  - entities:
+    - role: player
+      name: Bo Bichette
+      ref: 
+    - role: team
+      name: New York Mets
+      ref: 
+- number: '500'
+  uuid: e6d8025f-22f2-4035-adf9-fd1eaf30992a
+  subjects:
+  - entities:
+    - role: player
+      name: Shohei Ohtani
+      ref: 
+    - role: team
+      name: Los Angeles Dodgers
+      ref: 
+- number: '503'
+  uuid: dac3ee60-fecb-4fd1-9821-1ced8a2b4acd
+  subjects:
+  - entities:
+    - role: player
+      name: Munetaka Murakami
+      ref: 
+    - role: team
+      name: Chicago White Sox
+      ref: 
+- number: '530'
+  uuid: 0c1ca4b5-21d3-4e58-bcaa-3526e2d0f2c4
+  subjects:
+  - entities:
+    - role: player
+      name: Carter Jensen
+      ref: 
+    - role: team
+      name: Kansas City Royals
+      ref: 
+- number: '534'
+  uuid: 602c5a80-f192-4946-b480-39f145b75189
+  subjects:
+  - entities:
+    - role: player
+      name: Brandon Sproat
+      ref: 
+    - role: team
+      name: Milwaukee Brewers
+      ref: 
+- number: '561'
+  uuid: 356d4d61-4cc7-4c94-bf1b-db5c773d12b4
+  subjects:
+  - entities:
+    - role: player
+      name: Matt Chapman
+      ref: 
+    - role: team
+      name: San Francisco Giants
+      ref: 
+- number: '568'
+  uuid: fc8e1b28-1d2e-494f-ac28-91257d97ef07
+  subjects:
+  - entities:
+    - role: player
+      name: Ozzie Albies
+      ref: 
+    - role: team
+      name: Atlanta Braves
+      ref: 
+- number: '600'
+  uuid: 0aaf0283-7160-4c50-be6a-dce9d1d4cf60
+  subjects:
+  - entities:
+    - role: player
+      name: Juan Soto
+      ref: 
+    - role: team
+      name: New York Mets
+      ref: 
+- number: '614'
+  uuid: fa4c5394-860b-4c74-8cfa-a4925e63a7e2
+  subjects:
+  - entities:
+    - role: player
+      name: Manny Machado
+      ref: 
+    - role: team
+      name: San Diego Padres
+      ref: 
+- number: '620'
+  uuid: 2aef1477-20f4-4195-8fe0-11b7e0a7b057
+  subjects:
+  - entities:
+    - role: player
+      name: Trey Yesavage
+      ref: 
+    - role: team
+      name: Toronto Blue Jays
+      ref: 
+- number: '632'
+  uuid: cd53469b-9db5-49e0-ae89-5f895e4cfaf1
+  subjects:
+  - entities:
+    - role: player
+      name: Cade Horton
+      ref: 
+    - role: team
+      name: Chicago Cubs
+      ref: 
+- number: '650'
+  uuid: accf6654-fd8d-4eb5-8099-04c3081a78df
+  subjects:
+  - entities:
+    - role: player
+      name: Kyle Schwarber
+      ref: 
+    - role: team
+      name: Philadelphia Phillies
+      ref: 
+- number: '659'
+  uuid: 25c8723a-6cba-4586-ac1e-3348ac3ff4d9
+  subjects:
+  - entities:
+    - role: player
+      name: Harry Ford
+      ref: 
+    - role: team
+      name: Washington Nationals
+      ref: 
+- number: '700'
+  uuid: 7acb2b7b-41c7-456d-86e4-e985fa6d2590
+  subjects:
+  - entities:
+    - role: player
+      name: Freddie Freeman
+      ref: 
+    - role: team
+      name: Los Angeles Dodgers
+      ref: 

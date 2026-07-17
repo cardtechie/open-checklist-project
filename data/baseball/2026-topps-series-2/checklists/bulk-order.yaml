@@ -1,0 +1,100 @@
+- number: BO-1
+  uuid: 36acc35c-2209-4b91-aa21-f9bacabb42b3
+  subjects:
+  - entities:
+    - role: player
+      name: Seiya Suzuki
+      ref: 
+    - role: team
+      name: Chicago Cubs
+      ref: 
+- number: BO-2
+  uuid: 1459ab7c-e9e3-4d80-ac01-62d768b7aff6
+  subjects:
+  - entities:
+    - role: player
+      name: Juan Soto
+      ref: 
+    - role: team
+      name: New York Mets
+      ref: 
+- number: BO-3
+  uuid: c3baaa0a-bbc5-4ab8-846a-fe538d5a4ea7
+  subjects:
+  - entities:
+    - role: player
+      name: George Springer
+      ref: 
+    - role: team
+      name: Toronto Blue Jays
+      ref: 
+- number: BO-4
+  uuid: 621f0f48-6b16-46e4-80e2-057581b59cd9
+  subjects:
+  - entities:
+    - role: player
+      name: Byron Buxton
+      ref: 
+    - role: team
+      name: Minnesota Twins
+      ref: 
+- number: BO-5
+  uuid: f325f45b-9b83-4856-b2d1-0857dc5391e6
+  subjects:
+  - entities:
+    - role: player
+      name: José Ramírez
+      ref: 
+    - role: team
+      name: Cleveland Guardians
+      ref: 
+- number: BO-6
+  uuid: 867b03fe-290a-4516-a9e5-aad19ee1a00f
+  subjects:
+  - entities:
+    - role: player
+      name: Nick Kurtz
+      ref: 
+    - role: team
+      name: Athletics
+      ref: 
+- number: BO-7
+  uuid: 81649f19-6cc1-4873-87f8-8d36b9ec55b8
+  subjects:
+  - entities:
+    - role: player
+      name: Giancarlo Stanton
+      ref: 
+    - role: team
+      name: New York Yankees
+      ref: 
+- number: BO-8
+  uuid: afc4c913-7ec9-4ede-af84-c9ea593a116d
+  subjects:
+  - entities:
+    - role: player
+      name: Mookie Betts
+      ref: 
+    - role: team
+      name: Los Angeles Dodgers
+      ref: 
+- number: BO-9
+  uuid: 31532d34-dce0-4bc7-9b94-57a6a1c43ee7
+  subjects:
+  - entities:
+    - role: player
+      name: James Wood
+      ref: 
+    - role: team
+      name: Washington Nationals
+      ref: 
+- number: BO-10
+  uuid: 97bdff94-8da1-491d-91ad-4d8e11701505
+  subjects:
+  - entities:
+    - role: player
+      name: Mike Trout
+      ref: 
+    - role: team
+      name: Los Angeles Angels
+      ref: 

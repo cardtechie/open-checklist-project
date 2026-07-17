@@ -1,0 +1,430 @@
+- number: 91ASC-1
+  uuid: a2dec66f-375e-4891-9fca-78d5938adb0c
+  subjects:
+  - entities:
+    - role: player
+      name: Mike Trout
+      ref: 
+    - role: team
+      name: Los Angeles Angels
+      ref: 
+- number: 91ASC-2
+  uuid: 250fa885-91dc-44a3-8ac5-6868feeef1b2
+  subjects:
+  - entities:
+    - role: player
+      name: Sandy Koufax
+      ref: 
+    - role: team
+      name: Los Angeles Dodgers
+      ref: 
+- number: 91ASC-3
+  uuid: 3381b47c-2e7f-47a4-83b8-fed71fcc34ed
+  subjects:
+  - entities:
+    - role: player
+      name: Chipper Jones
+      ref: 
+    - role: team
+      name: Atlanta Braves
+      ref: 
+- number: 91ASC-4
+  uuid: 40c2811e-664d-469d-a94b-a54afb655000
+  subjects:
+  - entities:
+    - role: player
+      name: David Ortiz
+      ref: 
+    - role: team
+      name: Boston Red Sox
+      ref: 
+- number: 91ASC-5
+  uuid: 3092eb47-1700-49ac-b018-ceb14464e14a
+  subjects:
+  - entities:
+    - role: player
+      name: George Brett
+      ref: 
+    - role: team
+      name: Kansas City Royals
+      ref: 
+- number: 91ASC-6
+  uuid: 40d99146-4b5f-4e08-b151-7a472317cf2b
+  subjects:
+  - entities:
+    - role: player
+      name: Sammy Sosa
+      ref: 
+    - role: team
+      name: Chicago Cubs
+      ref: 
+- number: 91ASC-7
+  uuid: 9f784aa3-366d-4f29-bbdc-5cfcb47654f1
+  subjects:
+  - entities:
+    - role: player
+      name: Nolan Ryan
+      ref: 
+    - role: team
+      name: Texas Rangers
+      ref: 
+- number: 91ASC-8
+  uuid: 1a278f53-aea9-41ef-8e19-37cff7f30e38
+  subjects:
+  - entities:
+    - role: player
+      name: Corbin Carroll
+      ref: 
+    - role: team
+      name: Arizona Diamondbacks
+      ref: 
+- number: 91ASC-9
+  uuid: d8f605eb-7f09-482c-a3d7-08cec926d839
+  subjects:
+  - entities:
+    - role: player
+      name: Juan Soto
+      ref: 
+    - role: team
+      name: New York Mets
+      ref: 
+- number: 91ASC-10
+  uuid: bf6f5af6-9c47-4515-9ce4-e7b34e30ab9c
+  subjects:
+  - entities:
+    - role: player
+      name: Francisco Lindor
+      ref: 
+    - role: team
+      name: New York Mets
+      ref: 
+- number: 91ASC-11
+  uuid: 04c651bd-0b9b-493e-ac00-271fc199ae8c
+  subjects:
+  - entities:
+    - role: player
+      name: Frank Thomas
+      ref: 
+    - role: team
+      name: Chicago White Sox
+      ref: 
+- number: 91ASC-12
+  uuid: 62219be2-4b3a-4b86-91b5-6465743dadac
+  subjects:
+  - entities:
+    - role: player
+      name: Jarren Duran
+      ref: 
+    - role: team
+      name: Boston Red Sox
+      ref: 
+- number: 91ASC-13
+  uuid: 1cf00849-d638-4f60-b424-3372ccde7ae4
+  subjects:
+  - entities:
+    - role: player
+      name: Ichiro
+      ref: 
+    - role: team
+      name: Seattle Mariners
+      ref: 
+- number: 91ASC-14
+  uuid: 1eef72ef-6561-4ac1-91ed-e49a0d1c7a32
+  subjects:
+  - entities:
+    - role: player
+      name: Randy Johnson
+      ref: 
+    - role: team
+      name: Seattle Mariners
+      ref: 
+- number: 91ASC-15
+  uuid: 6b4349ee-7484-40d1-b6d9-77b41f49c36f
+  subjects:
+  - entities:
+    - role: player
+      name: Derek Jeter
+      ref: 
+    - role: team
+      name: New York Yankees
+      ref: 
+- number: 91ASC-16
+  uuid: 7d448ea3-6495-41d4-8010-a9a112c449b1
+  subjects:
+  - entities:
+    - role: player
+      name: Albert Pujols
+      ref: 
+    - role: team
+      name: St. Louis Cardinals
+      ref: 
+- number: 91ASC-17
+  uuid: 32c7eaf7-ecea-4344-b660-37b32fc0f15c
+  subjects:
+  - entities:
+    - role: player
+      name: Fernando Tatis Jr.
+      ref: 
+    - role: team
+      name: San Diego Padres
+      ref: 
+- number: 91ASC-18
+  uuid: d6e1df81-89c0-41bc-b480-ce4fda5e49b3
+  subjects:
+  - entities:
+    - role: player
+      name: José Ramírez
+      ref: 
+    - role: team
+      name: Cleveland Guardians
+      ref: 
+- number: 91ASC-19
+  uuid: 9f022a82-1a67-48eb-8c2b-fedd389898d5
+  subjects:
+  - entities:
+    - role: player
+      name: Elly De La Cruz
+      ref: 
+    - role: team
+      name: Cincinnati Reds
+      ref: 
+- number: 91ASC-20
+  uuid: ac33e789-f753-4ac1-adf1-fea62bb1f14e
+  subjects:
+  - entities:
+    - role: player
+      name: Tarik Skubal
+      ref: 
+    - role: team
+      name: Detroit Tigers
+      ref: 
+- number: 91ASC-21
+  uuid: bdce9b7d-23f7-4a5d-989a-df31733012c7
+  subjects:
+  - entities:
+    - role: player
+      name: Ozzie Smith
+      ref: 
+    - role: team
+      name: St. Louis Cardinals
+      ref: 
+- number: 91ASC-22
+  uuid: bcaa9fd7-5184-4614-b4a1-fe0c7c2d059b
+  subjects:
+  - entities:
+    - role: player
+      name: Ryne Sandberg
+      ref: 
+    - role: team
+      name: Chicago Cubs
+      ref: 
+- number: 91ASC-23
+  uuid: 9f09f103-8953-4f1e-a362-56ea205b7d85
+  subjects:
+  - entities:
+    - role: player
+      name: Bobby Witt Jr.
+      ref: 
+    - role: team
+      name: Kansas City Royals
+      ref: 
+- number: 91ASC-24
+  uuid: 88f88188-2f4f-444a-9eeb-f3efa3f0e931
+  subjects:
+  - entities:
+    - role: player
+      name: Will Clark
+      ref: 
+    - role: team
+      name: San Francisco Giants
+      ref: 
+- number: 91ASC-25
+  uuid: c0cf41ba-a223-4623-bcae-bd69cd4760d6
+  subjects:
+  - entities:
+    - role: player
+      name: Manny Machado
+      ref: 
+    - role: team
+      name: San Diego Padres
+      ref: 
+- number: 91ASC-27
+  uuid: b40fe43c-ff35-43ed-96dd-27f6ed5c8563
+  subjects:
+  - entities:
+    - role: player
+      name: Paul Skenes
+      ref: 
+    - role: team
+      name: Pittsburgh Pirates
+      ref: 
+- number: 91ASC-28
+  uuid: b0ece01a-173f-4065-88b5-db1c2b2f1847
+  subjects:
+  - entities:
+    - role: player
+      name: Mike Schmidt
+      ref: 
+    - role: team
+      name: Philadelphia Phillies
+      ref: 
+- number: 91ASC-29
+  uuid: 34d1f1f9-4c1e-476b-8987-e1552390747c
+  subjects:
+  - entities:
+    - role: player
+      name: Byron Buxton
+      ref: 
+    - role: team
+      name: Minnesota Twins
+      ref: 
+- number: 91ASC-30
+  uuid: bc8e37d9-05be-4818-b3a4-7daf6db09fce
+  subjects:
+  - entities:
+    - role: player
+      name: Freddie Freeman
+      ref: 
+    - role: team
+      name: Los Angeles Dodgers
+      ref: 
+- number: 91ASC-31
+  uuid: d304f144-d330-4944-8b64-434bee84f3e4
+  subjects:
+  - entities:
+    - role: player
+      name: Corey Seager
+      ref: 
+    - role: team
+      name: Texas Rangers
+      ref: 
+- number: 91ASC-32
+  uuid: 0f913219-9473-4b97-b8df-0d437bfd6319
+  subjects:
+  - entities:
+    - role: player
+      name: Julio Rodríguez
+      ref: 
+    - role: team
+      name: Seattle Mariners
+      ref: 
+- number: 91ASC-33
+  uuid: c915fcd1-ac6c-47ff-ae0a-3862421a4913
+  subjects:
+  - entities:
+    - role: player
+      name: Clayton Kershaw
+      ref: 
+    - role: team
+      name: Los Angeles Dodgers
+      ref: 
+- number: 91ASC-34
+  uuid: 50a7fa46-a80a-448b-9fed-1681591977b2
+  subjects:
+  - entities:
+    - role: player
+      name: Ronald Acuña Jr.
+      ref: 
+    - role: team
+      name: Atlanta Braves
+      ref: 
+- number: 91ASC-35
+  uuid: 5ed35dd7-cf3c-41d0-8612-72810c830533
+  subjects:
+  - entities:
+    - role: player
+      name: Don Mattingly
+      ref: 
+    - role: team
+      name: New York Yankees
+      ref: 
+- number: 91ASC-36
+  uuid: 231203ab-4265-4b41-b261-b89a0bfc47d6
+  subjects:
+  - entities:
+    - role: player
+      name: Christian Yelich
+      ref: 
+    - role: team
+      name: Milwaukee Brewers
+      ref: 
+- number: 91ASC-39
+  uuid: e43c8e3f-a3cd-48d0-8779-d5900603f1b2
+  subjects:
+  - entities:
+    - role: player
+      name: Mark McGwire
+      ref: 
+    - role: team
+      name: Oakland Athletics
+      ref: 
+- number: 91ASC-41
+  uuid: 36ff0cfe-fe5d-4e68-b084-37deefe32056
+  subjects:
+  - entities:
+    - role: player
+      name: Vladimir Guerrero Jr.
+      ref: 
+    - role: team
+      name: Toronto Blue Jays
+      ref: 
+- number: 91ASC-42
+  uuid: 7ea13021-7a3f-4c32-b648-43de8b3ca1dc
+  subjects:
+  - entities:
+    - role: player
+      name: Aaron Judge
+      ref: 
+    - role: team
+      name: New York Yankees
+      ref: 
+- number: 91ASC-44
+  uuid: 1701d924-ec5d-40b3-94b7-5ab074f41c95
+  subjects:
+  - entities:
+    - role: player
+      name: James Wood
+      ref: 
+    - role: team
+      name: Washington Nationals
+      ref: 
+- number: 91ASC-45
+  uuid: fea0ed0b-a358-4a83-bd52-1867d6906474
+  subjects:
+  - entities:
+    - role: player
+      name: Ken Griffey Jr.
+      ref: 
+    - role: team
+      name: Seattle Mariners
+      ref: 
+- number: 91ASC-46
+  uuid: f3f05799-4871-42b7-bd8e-e2b05b99cc50
+  subjects:
+  - entities:
+    - role: player
+      name: Miguel Cabrera
+      ref: 
+    - role: team
+      name: Detroit Tigers
+      ref: 
+- number: 91ASC-48
+  uuid: d778d6ca-8b1c-4cd9-9200-c710031cba40
+  subjects:
+  - entities:
+    - role: player
+      name: Greg Maddux
+      ref: 
+    - role: team
+      name: Chicago Cubs
+      ref: 
+- number: 91ASC-49
+  uuid: df17062d-1c57-4d4d-bfb7-ff3cb1177ec4
+  subjects:
+  - entities:
+    - role: player
+      name: Jacob Misiorowski
+      ref: 
+    - role: team
+      name: Milwaukee Brewers
+      ref: 

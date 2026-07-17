@@ -1,0 +1,110 @@
+- number: 75YA-BB
+  uuid: 85e5d3a7-dcd1-48d7-be0d-cdf7e45c1d1e
+  subjects:
+  - entities:
+    - role: player
+      name: Byron Buxton
+      ref: 
+    - role: team
+      name: Minnesota Twins
+      ref: 
+- number: 75YA-BP
+  uuid: '08fcc413-e1dc-460f-a721-b54562fe6f58'
+  subjects:
+  - entities:
+    - role: player
+      name: Buster Posey
+      ref: 
+    - role: team
+      name: San Francisco Giants
+      ref: 
+- number: 75YA-GH
+  uuid: 67c87946-16a0-47cd-9cd6-1c3c5a0b62c6
+  subjects:
+  - entities:
+    - role: player
+      name: Gunnar Henderson
+      ref: 
+    - role: team
+      name: Baltimore Orioles
+      ref: 
+- number: 75YA-JMA
+  uuid: d4fa2840-67ba-47f5-bace-d20f707cdbdb
+  subjects:
+  - entities:
+    - role: player
+      name: Joe Mauer
+      ref: 
+    - role: team
+      name: Minnesota Twins
+      ref: 
+- number: 75YA-JSO
+  uuid: 0bc5f56a-5fbd-4f60-a245-30d3f31fbb56
+  subjects:
+  - entities:
+    - role: player
+      name: Juan Soto
+      ref: 
+    - role: team
+      name: New York Mets
+      ref: 
+- number: 75YA-MC
+  uuid: c191f13a-8742-49b6-8d05-b7bd414753d6
+  subjects:
+  - entities:
+    - role: player
+      name: Miguel Cabrera
+      ref: 
+    - role: team
+      name: Detroit Tigers
+      ref: 
+- number: 75YA-NR
+  uuid: 3613227f-d589-4e94-85c1-0071dd6bd2e4
+  subjects:
+  - entities:
+    - role: player
+      name: Nolan Ryan
+      ref: 
+    - role: team
+      name: Texas Rangers
+      ref: 
+- number: 75YA-RG
+  uuid: c148a910-3f0d-4022-b80d-fb5a60942577
+  subjects:
+  - entities:
+    - role: player
+      name: Riley Greene
+      ref: 
+    - role: team
+      name: Detroit Tigers
+      ref: 
+- number: 75YA-SI
+  uuid: f07d44e6-a8e8-4a67-9f55-80bc74d489a7
+  subjects:
+  - entities:
+    - role: player
+      name: Shota Imanaga
+      ref: 
+    - role: team
+      name: Chicago Cubs
+      ref: 
+- number: 75YA-SKO
+  uuid: 2da73944-87d1-401e-825e-6ddb45d4d2ab
+  subjects:
+  - entities:
+    - role: player
+      name: Sandy Koufax
+      ref: 
+    - role: team
+      name: Los Angeles Dodgers
+      ref: 
+- number: 75YA-TH
+  uuid: f595085f-c55b-48b8-b668-d8b810374716
+  subjects:
+  - entities:
+    - role: player
+      name: Torii Hunter
+      ref: 
+    - role: team
+      name: Minnesota Twins
+      ref: 

@@ -1,0 +1,200 @@
+- number: TOG-21
+  uuid: 7a835874-1450-48e8-a48e-fbfe094da4d9
+  subjects:
+  - entities:
+    - role: player
+      name: Christian Moore
+      ref: 
+    - role: team
+      name: Los Angeles Angels
+      ref: 
+- number: TOG-22
+  uuid: 238a9733-b8fb-4f57-b8e8-0921358b4bde
+  subjects:
+  - entities:
+    - role: player
+      name: Nick Kurtz
+      ref: 
+    - role: team
+      name: Athletics
+      ref: 
+- number: TOG-23
+  uuid: a562dbbe-d3bf-4484-92db-aa04e7248c2c
+  subjects:
+  - entities:
+    - role: player
+      name: Seiya Suzuki
+      ref: 
+    - role: team
+      name: Chicago Cubs
+      ref: 
+- number: TOG-24
+  uuid: '087c26a7-60b4-4c32-9d72-17f4cfb9edfa'
+  subjects:
+  - entities:
+    - role: player
+      name: Colson Montgomery
+      ref: 
+    - role: team
+      name: Chicago White Sox
+      ref: 
+- number: TOG-25
+  uuid: 4e06a7f6-1f3a-4be7-a99b-2e1495fce19e
+  subjects:
+  - entities:
+    - role: player
+      name: Chase Burns
+      ref: 
+    - role: team
+      name: Cincinnati Reds
+      ref: 
+- number: TOG-26
+  uuid: 3614c753-1fa9-4352-9858-d5b82f3abb2d
+  subjects:
+  - entities:
+    - role: player
+      name: José Ramírez
+      ref: 
+    - role: team
+      name: Cleveland Guardians
+      ref: 
+- number: TOG-27
+  uuid: febad243-f118-486b-8865-ceedf4eba166
+  subjects:
+  - entities:
+    - role: player
+      name: Tarik Skubal
+      ref: 
+    - role: team
+      name: Detroit Tigers
+      ref: 
+- number: TOG-28
+  uuid: 96929fca-e15f-45f3-b58d-45730deab89e
+  subjects:
+  - entities:
+    - role: player
+      name: Munetaka Murakami
+      ref: 
+    - role: team
+      name: Chicago White Sox
+      ref: 
+- number: TOG-29
+  uuid: 3d7144fa-4ae8-4411-8341-24cfd0f7ef75
+  subjects:
+  - entities:
+    - role: player
+      name: Freddie Freeman
+      ref: 
+    - role: team
+      name: Los Angeles Dodgers
+      ref: 
+- number: TOG-30
+  uuid: 0e124fc7-a762-402e-b3e3-4c687a2381b2
+  subjects:
+  - entities:
+    - role: player
+      name: Alex Freeland
+      ref: 
+    - role: team
+      name: Los Angeles Dodgers
+      ref: 
+- number: TOG-31
+  uuid: 297791b3-a3e7-43b2-8151-c4f1645a74ad
+  subjects:
+  - entities:
+    - role: player
+      name: Jackson Chourio
+      ref: 
+    - role: team
+      name: Milwaukee Brewers
+      ref: 
+- number: TOG-32
+  uuid: f5788672-a918-4a4e-bcb0-1dbf79692b48
+  subjects:
+  - entities:
+    - role: player
+      name: Francisco Lindor
+      ref: 
+    - role: team
+      name: New York Mets
+      ref: 
+- number: TOG-33
+  uuid: 4f3adff3-9bb6-45b0-8dcf-d7770b3872f9
+  subjects:
+  - entities:
+    - role: player
+      name: Nolan McLean
+      ref: 
+    - role: team
+      name: New York Mets
+      ref: 
+- number: TOG-34
+  uuid: 7a021382-0c45-4db2-8c83-2371624644c2
+  subjects:
+  - entities:
+    - role: player
+      name: Cam Schlittler
+      ref: 
+    - role: team
+      name: New York Yankees
+      ref: 
+- number: TOG-35
+  uuid: 1ad06797-b3fd-4c9a-8c85-a86a67d79e8f
+  subjects:
+  - entities:
+    - role: player
+      name: Kyle Schwarber
+      ref: 
+    - role: team
+      name: Philadelphia Phillies
+      ref: 
+- number: TOG-36
+  uuid: 954c104e-8f17-4428-b2a5-00c2c9ce0ee8
+  subjects:
+  - entities:
+    - role: player
+      name: Bubba Chandler
+      ref: 
+    - role: team
+      name: Pittsburgh Pirates
+      ref: 
+- number: TOG-37
+  uuid: a98591c1-3c2d-471c-9c0b-c095b0eeb58c
+  subjects:
+  - entities:
+    - role: player
+      name: Jackson Merrill
+      ref: 
+    - role: team
+      name: San Diego Padres
+      ref: 
+- number: TOG-38
+  uuid: d03a3426-292f-4618-8e3c-c36c7e8bbb97
+  subjects:
+  - entities:
+    - role: player
+      name: Bryce Eldridge
+      ref: 
+    - role: team
+      name: San Francisco Giants
+      ref: 
+- number: TOG-39
+  uuid: 2b08ec70-2149-4124-b0ea-29e0e8f54fca
+  subjects:
+  - entities:
+    - role: player
+      name: Cole Young
+      ref: 
+    - role: team
+      name: Seattle Mariners
+      ref: 
+- number: TOG-40
+  uuid: '0921bc67-651d-46c7-bf24-6d02e37cc936'
+  subjects:
+  - entities:
+    - role: player
+      name: Trey Yesavage
+      ref: 
+    - role: team
+      name: Toronto Blue Jays
+      ref: 

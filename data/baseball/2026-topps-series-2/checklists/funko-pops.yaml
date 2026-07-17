@@ -1,0 +1,50 @@
+- number: '41'
+  uuid: '0852c648-9dd0-45d8-b6f7-da7b21037f02'
+  subjects:
+  - entities:
+    - role: player
+      name: Mookie Betts
+      ref: 
+    - role: team
+      name: Los Angeles Dodgers
+      ref: 
+- number: '46'
+  uuid: a827cca2-2e4c-4be0-9364-2b41b986ab04
+  subjects:
+  - entities:
+    - role: player
+      name: Gunnar Henderson
+      ref: 
+    - role: team
+      name: Baltimore Orioles
+      ref: 
+- number: '50'
+  uuid: 9ec02919-5fc5-405c-91f4-3805627bc50c
+  subjects:
+  - entities:
+    - role: player
+      name: Ronald Acuña Jr.
+      ref: 
+    - role: team
+      name: Atlanta Braves
+      ref: 
+- number: '123'
+  uuid: a769a820-a6bf-4d09-8e99-8b4a93d3c9ec
+  subjects:
+  - entities:
+    - role: player
+      name: Francisco Lindor
+      ref: 
+    - role: team
+      name: New York Mets
+      ref: 
+- number: '278'
+  uuid: 3146aa9a-e42c-49f8-85f9-9828500e9915
+  subjects:
+  - entities:
+    - role: player
+      name: Jose Altuve
+      ref: 
+    - role: team
+      name: Houston Astros
+      ref: 

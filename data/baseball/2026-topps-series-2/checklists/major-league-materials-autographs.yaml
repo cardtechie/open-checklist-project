@@ -1,0 +1,650 @@
+- number: MLM2-AF
+  uuid: f05a5172-35a3-4408-abef-66960dc469b1
+  subjects:
+  - entities:
+    - role: player
+      name: Alex Freeland
+      ref: 
+    - role: team
+      name: Los Angeles Dodgers
+      ref: 
+- number: MLM2-AG
+  uuid: 6eb3ccc5-bac0-426c-97f4-628f5b21fe56
+  subjects:
+  - entities:
+    - role: player
+      name: Adolis García
+      ref: 
+    - role: team
+      name: Philadelphia Phillies
+      ref: 
+- number: MLM2-AM
+  uuid: d93ef5d9-5b4e-4c8c-adea-f0c679151e8f
+  subjects:
+  - entities:
+    - role: player
+      name: Andrew McCutchen
+      ref: 
+    - role: team
+      name: Pittsburgh Pirates
+      ref: 
+- number: MLM2-BC
+  uuid: eec91c30-d2e3-4947-b492-39d7c15ef511
+  subjects:
+  - entities:
+    - role: player
+      name: Bubba Chandler
+      ref: 
+    - role: team
+      name: Pittsburgh Pirates
+      ref: 
+- number: MLM2-BHO
+  uuid: 17299231-bf51-40c3-bd30-e76b2fd37ec5
+  subjects:
+  - entities:
+    - role: player
+      name: Brady House
+      ref: 
+    - role: team
+      name: Washington Nationals
+      ref: 
+- number: MLM2-BL
+  uuid: 4ca7ff93-f5e1-49f2-8114-bc0b2e44cd5b
+  subjects:
+  - entities:
+    - role: player
+      name: Barry Larkin
+      ref: 
+    - role: team
+      name: Cincinnati Reds
+      ref: 
+- number: MLM2-BM
+  uuid: 51fd2efd-b76a-4429-96ad-2317067f22f6
+  subjects:
+  - entities:
+    - role: player
+      name: Brice Matthews
+      ref: 
+    - role: team
+      name: Houston Astros
+      ref: 
+- number: MLM2-BW
+  uuid: 8bb48876-f53a-49cf-9251-fd96a72b2181
+  subjects:
+  - entities:
+    - role: player
+      name: Bryan Woo
+      ref: 
+    - role: team
+      name: Seattle Mariners
+      ref: 
+- number: MLM2-CA
+  uuid: f03d1515-4cc0-4342-baf3-348689792930
+  subjects:
+  - entities:
+    - role: player
+      name: CJ Abrams
+      ref: 
+    - role: team
+      name: Washington Nationals
+      ref: 
+- number: MLM2-CB
+  uuid: dd347e3d-8253-4df7-863a-44810fc5b4c0
+  subjects:
+  - entities:
+    - role: player
+      name: Chase Burns
+      ref: 
+    - role: team
+      name: Cincinnati Reds
+      ref: 
+- number: MLM2-CCA
+  uuid: e3c60038-3389-4ce9-9145-be9eab6b061d
+  subjects:
+  - entities:
+    - role: player
+      name: Corbin Carroll
+      ref: 
+    - role: team
+      name: Arizona Diamondbacks
+      ref: 
+- number: MLM2-CCS
+  uuid: f4647c62-b64c-4365-b4e2-4b9a966306b1
+  subjects:
+  - entities:
+    - role: player
+      name: CC Sabathia
+      ref: 
+    - role: team
+      name: New York Yankees
+      ref: 
+- number: MLM2-CD
+  uuid: '0449aadb-43cc-4f00-9f7b-756c2ff27cea'
+  subjects:
+  - entities:
+    - role: player
+      name: Chase DeLauter
+      ref: 
+    - role: team
+      name: Cleveland Guardians
+      ref: 
+- number: MLM2-CH
+  uuid: 9fb0dfe7-6a36-44ad-954a-ca1abd2d6aa8
+  subjects:
+  - entities:
+    - role: player
+      name: Cade Horton
+      ref: 
+    - role: team
+      name: Chicago Cubs
+      ref: 
+- number: MLM2-CJ
+  uuid: 78056593-1729-4e77-b43b-e24728f8a793
+  subjects:
+  - entities:
+    - role: player
+      name: Carter Jensen
+      ref: 
+    - role: team
+      name: Kansas City Royals
+      ref: 
+- number: MLM2-CK
+  uuid: 7be0ea98-f9ab-4c8f-9dcb-98ccaa6f8d3c
+  subjects:
+  - entities:
+    - role: player
+      name: C.J. Kayfus
+      ref: 
+    - role: team
+      name: Cleveland Guardians
+      ref: 
+- number: MLM2-CM
+  uuid: 368e75b8-90f1-4398-b8f4-15d25d195b5f
+  subjects:
+  - entities:
+    - role: player
+      name: Colson Montgomery
+      ref: 
+    - role: team
+      name: Chicago White Sox
+      ref: 
+- number: MLM2-CR
+  uuid: 9046742d-d8e1-49df-8f08-f41826cea63f
+  subjects:
+  - entities:
+    - role: player
+      name: Ceddanne Rafaela
+      ref: 
+    - role: team
+      name: Boston Red Sox
+      ref: 
+- number: MLM2-CRJ
+  uuid: 532c50e0-cc06-4312-90d6-2e1b0c706afe
+  subjects:
+  - entities:
+    - role: player
+      name: Cal Ripken Jr.
+      ref: 
+    - role: team
+      name: Baltimore Orioles
+      ref: 
+- number: MLM2-CS
+  uuid: 5c07cb8d-99ac-414a-bb7d-68d2f1d3e310
+  subjects:
+  - entities:
+    - role: player
+      name: Chris Sale
+      ref: 
+    - role: team
+      name: Atlanta Braves
+      ref: 
+- number: MLM2-CSC
+  uuid: eb574474-813f-45c1-a4c1-f25715ee83b6
+  subjects:
+  - entities:
+    - role: player
+      name: Cam Schlittler
+      ref: 
+    - role: team
+      name: New York Yankees
+      ref: 
+- number: MLM2-CT
+  uuid: afb157cb-02be-4f3f-a1c7-b5d18c68725a
+  subjects:
+  - entities:
+    - role: player
+      name: Colby Thomas
+      ref: 
+    - role: team
+      name: Athletics
+      ref: 
+- number: MLM2-CW
+  uuid: 8c40358e-196c-4b1a-a80a-558ce5cf829e
+  subjects:
+  - entities:
+    - role: player
+      name: Carson Williams
+      ref: 
+    - role: team
+      name: Tampa Bay Rays
+      ref: 
+- number: MLM2-CY
+  uuid: 601e6c48-2da5-401e-991a-c6ff59330527
+  subjects:
+  - entities:
+    - role: player
+      name: Christian Yelich
+      ref: 
+    - role: team
+      name: Milwaukee Brewers
+      ref: 
+- number: MLM2-DB
+  uuid: d3e5d154-f32a-47fe-ac73-b92847cb9142
+  subjects:
+  - entities:
+    - role: player
+      name: Drake Baldwin
+      ref: 
+    - role: team
+      name: Atlanta Braves
+      ref: 
+- number: MLM2-DC
+  uuid: 19113015-61ac-4f37-91af-5eb6ada32335
+  subjects:
+  - entities:
+    - role: player
+      name: Dylan Crews
+      ref: 
+    - role: team
+      name: Washington Nationals
+      ref: 
+- number: MLM2-DO
+  uuid: 98fcd32a-02c7-493e-b778-dc67e5306b1f
+  subjects:
+  - entities:
+    - role: player
+      name: David Ortiz
+      ref: 
+    - role: team
+      name: Boston Red Sox
+      ref: 
+- number: MLM2-DS
+  uuid: c71f0bb0-d387-4c40-a516-f10ff151494e
+  subjects:
+  - entities:
+    - role: player
+      name: Dansby Swanson
+      ref: 
+    - role: team
+      name: Chicago Cubs
+      ref: 
+- number: MLM2-FT
+  uuid: b94d7111-7215-42c1-8123-d8eeff0ed858
+  subjects:
+  - entities:
+    - role: player
+      name: Frank Thomas
+      ref: 
+    - role: team
+      name: Chicago White Sox
+      ref: 
+- number: MLM2-JC
+  uuid: a40d52d5-3c18-4e5c-a588-0fc6c3bb1dcd
+  subjects:
+  - entities:
+    - role: player
+      name: Junior Caminero
+      ref: 
+    - role: team
+      name: Tampa Bay Rays
+      ref: 
+- number: MLM2-JCA
+  uuid: 7f0b58f0-1d62-4714-8a73-a6a141c8b661
+  subjects:
+  - entities:
+    - role: player
+      name: Jac Caglianone
+      ref: 
+    - role: team
+      name: Kansas City Royals
+      ref: 
+- number: MLM2-JCJ
+  uuid: 4b728a95-43c3-4606-9835-d4c219d97790
+  subjects:
+  - entities:
+    - role: player
+      name: Jazz Chisholm Jr.
+      ref: 
+    - role: team
+      name: New York Yankees
+      ref: 
+- number: MLM2-JM
+  uuid: fbe3db8a-1a50-473a-b915-6dd9853848e0
+  subjects:
+  - entities:
+    - role: player
+      name: Jakob Marsee
+      ref: 
+    - role: team
+      name: Miami Marlins
+      ref: 
+- number: MLM2-JMI
+  uuid: 7b95bc7d-55d2-449c-8ff5-1fd5ad4d7c38
+  subjects:
+  - entities:
+    - role: player
+      name: Jacob Misiorowski
+      ref: 
+    - role: team
+      name: Milwaukee Brewers
+      ref: 
+- number: MLM2-JRA
+  uuid: eb8c42f8-c534-412f-83b4-2f3f68dbde7b
+  subjects:
+  - entities:
+    - role: player
+      name: José Ramírez
+      ref: 
+    - role: team
+      name: Cleveland Guardians
+      ref: 
+- number: MLM2-JT
+  uuid: 47987e2f-882d-43b1-a294-e016d5537262
+  subjects:
+  - entities:
+    - role: player
+      name: Jonah Tong
+      ref: 
+    - role: team
+      name: New York Mets
+      ref: 
+- number: MLM2-JWO
+  uuid: 8f3df35b-1974-4649-88f1-dbcd7ad3c61e
+  subjects:
+  - entities:
+    - role: player
+      name: James Wood
+      ref: 
+    - role: team
+      name: Washington Nationals
+      ref: 
+- number: MLM2-KT
+  uuid: cfd53acb-f7fa-47b4-9a4c-b0b5ba4deb88
+  subjects:
+  - entities:
+    - role: player
+      name: Kyle Teel
+      ref: 
+    - role: team
+      name: Chicago White Sox
+      ref: 
+- number: MLM2-KTU
+  uuid: f17251b6-b2e3-43b7-a777-dd265a621f88
+  subjects:
+  - entities:
+    - role: player
+      name: Kyle Tucker
+      ref: 
+    - role: team
+      name: Los Angeles Dodgers
+      ref: 
+- number: MLM2-LK
+  uuid: 5f93b5e8-980c-4c6d-baa7-36dd0a6970f9
+  subjects:
+  - entities:
+    - role: player
+      name: Luke Keaschall
+      ref: 
+    - role: team
+      name: Minnesota Twins
+      ref: 
+- number: MLM2-MC
+  uuid: ffa0f038-9702-4c1e-a4f4-5a8fbf110146
+  subjects:
+  - entities:
+    - role: player
+      name: Matt Chapman
+      ref: 
+    - role: team
+      name: San Francisco Giants
+      ref: 
+- number: MLM2-MT
+  uuid: a042821f-1e52-4a65-b4e6-b12ef31b1b56
+  subjects:
+  - entities:
+    - role: player
+      name: Mike Trout
+      ref: 
+    - role: team
+      name: Los Angeles Angels
+      ref: 
+- number: MLM2-MW
+  uuid: 3e505d27-ef37-42a4-ac4f-c815bc6d5418
+  subjects:
+  - entities:
+    - role: player
+      name: Masyn Winn
+      ref: 
+    - role: team
+      name: St. Louis Cardinals
+      ref: 
+- number: MLM2-NH
+  uuid: fb5c1621-2136-4fc3-8bb4-bc7076338fc9
+  subjects:
+  - entities:
+    - role: player
+      name: Nico Hoerner
+      ref: 
+    - role: team
+      name: Chicago Cubs
+      ref: 
+- number: MLM2-NK
+  uuid: 6dfb7efa-fb9d-4609-a161-55cedb7c0a8a
+  subjects:
+  - entities:
+    - role: player
+      name: Nick Kurtz
+      ref: 
+    - role: team
+      name: Athletics
+      ref: 
+- number: MLM2-NM
+  uuid: 12cf9438-4e4f-4db4-964f-dd2bce061cf1
+  subjects:
+  - entities:
+    - role: player
+      name: Nolan McLean
+      ref: 
+    - role: team
+      name: New York Mets
+      ref: 
+- number: MLM2-PT
+  uuid: 16936770-6827-4d62-a326-1bf7f0a49a61
+  subjects:
+  - entities:
+    - role: player
+      name: Payton Tolle
+      ref: 
+    - role: team
+      name: Boston Red Sox
+      ref: 
+- number: MLM2-RAJ
+  uuid: 2e738c2e-7688-4158-8877-1f117df3b808
+  subjects:
+  - entities:
+    - role: player
+      name: Ronald Acuña Jr.
+      ref: 
+    - role: team
+      name: Atlanta Braves
+      ref: 
+- number: MLM2-RS
+  uuid: d5f35d97-cc8a-4d53-9119-b33fb838f7b5
+  subjects:
+  - entities:
+    - role: player
+      name: Roki Sasaki
+      ref: 
+    - role: team
+      name: Los Angeles Dodgers
+      ref: 
+- number: MLM2-SB
+  uuid: 200756d3-3d55-40a7-bc16-74065cb51827
+  subjects:
+  - entities:
+    - role: player
+      name: Samuel Basallo
+      ref: 
+    - role: team
+      name: Baltimore Orioles
+      ref: 
+- number: MLM2-SS
+  uuid: 630106f0-9a9d-4f05-99a6-12b2f8c420ae
+  subjects:
+  - entities:
+    - role: player
+      name: Sal Stewart
+      ref: 
+    - role: team
+      name: Cincinnati Reds
+      ref: 
+- number: MLM2-SSC
+  uuid: 42c5ed30-2aa2-4dc7-9a10-1ab6de2652cc
+  subjects:
+  - entities:
+    - role: player
+      name: Spencer Schwellenbach
+      ref: 
+    - role: team
+      name: Atlanta Braves
+      ref: 
+- number: MLM2-SST
+  uuid: ae9e45a7-3095-4cc7-8656-45eacccd955f
+  subjects:
+  - entities:
+    - role: player
+      name: Spencer Strider
+      ref: 
+    - role: team
+      name: Atlanta Braves
+      ref: 
+- number: MLM2-TSO
+  uuid: 350362ed-ce24-40ad-9814-97ec45c4c3ac
+  subjects:
+  - entities:
+    - role: player
+      name: Tyler Soderstrom
+      ref: 
+    - role: team
+      name: Athletics
+      ref: 
+- number: MLM2-TT
+  uuid: 590abbce-f469-42ac-8981-971286b56cfc
+  subjects:
+  - entities:
+    - role: player
+      name: Trea Turner
+      ref: 
+    - role: team
+      name: Philadelphia Phillies
+      ref: 
+- number: MLM2-VG
+  uuid: f82a677d-43be-454a-a6d8-9dd978629b11
+  subjects:
+  - entities:
+    - role: player
+      name: Vladimir Guerrero
+      ref: 
+    - role: team
+      name: Montréal Expos
+      ref: 
+- number: MLM2-VP
+  uuid: fe48cff1-0820-4620-bcfa-0eebff7c31d6
+  subjects:
+  - entities:
+    - role: player
+      name: Vinnie Pasquantino
+      ref: 
+    - role: team
+      name: Kansas City Royals
+      ref: 
+- number: MLM2-WL
+  uuid: fac0cf07-2631-4a0b-915b-11e49153fe12
+  subjects:
+  - entities:
+    - role: player
+      name: Wyatt Langford
+      ref: 
+    - role: team
+      name: Texas Rangers
+      ref: 
+- number: MLM2-WS
+  uuid: 4cf3b46f-bf5a-445d-9c67-3354ceaed800
+  subjects:
+  - entities:
+    - role: player
+      name: Will Smith
+      ref: 
+    - role: team
+      name: Los Angeles Dodgers
+      ref: 
+- number: MLM2-YY
+  uuid: d378df2c-9935-4437-92a3-7193a85a9141
+  subjects:
+  - entities:
+    - role: player
+      name: Yoshinobu Yamamoto
+      ref: 
+    - role: team
+      name: Los Angeles Dodgers
+      ref: 
+- number: MLMA-CM
+  uuid: c326b5ee-51c5-4e0f-bed4-9727572b6ab2
+  subjects:
+  - entities:
+    - role: player
+      name: Christian Moore
+      ref: 
+    - role: team
+      name: Los Angeles Angels
+      ref: 
+- number: MLMA-ED
+  uuid: b0b26b7e-6d86-4bd7-8d3f-23231462fd73
+  subjects:
+  - entities:
+    - role: player
+      name: Elly De La Cruz
+      ref: 
+    - role: team
+      name: Cincinnati Reds
+      ref: 
+- number: MLMA-JS
+  uuid: 91ecad36-0412-4fe0-8d5c-9c9816522b65
+  subjects:
+  - entities:
+    - role: player
+      name: Juan Soto
+      ref: 
+    - role: team
+      name: New York Mets
+      ref: 
+- number: MLMA-JWI
+  uuid: aaffcbbf-19d4-43fe-b304-c3c5abb7c22c
+  subjects:
+  - entities:
+    - role: player
+      name: Jacob Wilson
+      ref: 
+    - role: team
+      name: Athletics
+      ref: 
+- number: MLMA-MO
+  uuid: 70d5218e-c5bd-4ae8-94a2-bcd7aaf1c4d5
+  subjects:
+  - entities:
+    - role: player
+      name: Matt Olson
+      ref: 
+    - role: team
+      name: Atlanta Braves
+      ref: 

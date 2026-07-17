@@ -1,0 +1,250 @@
+- number: SWS-1
+  uuid: 3743b49a-0048-4389-b1d0-b0cbd6f4f187
+  subjects:
+  - entities:
+    - role: player
+      name: Shohei Ohtani
+      ref: 
+    - role: team
+      name: Los Angeles Dodgers
+      ref: 
+- number: SWS-2
+  uuid: 18e1fa4f-925c-4dc4-b784-058bfd729fed
+  subjects:
+  - entities:
+    - role: player
+      name: Aaron Judge
+      ref: 
+    - role: team
+      name: New York Yankees
+      ref: 
+- number: SWS-3
+  uuid: d314756e-fb27-486a-9bc1-2bca497a7e51
+  subjects:
+  - entities:
+    - role: player
+      name: Juan Soto
+      ref: 
+    - role: team
+      name: New York Mets
+      ref: 
+- number: SWS-4
+  uuid: f9c62e0b-96c6-4af6-becc-28790785c7e6
+  subjects:
+  - entities:
+    - role: player
+      name: Vladimir Guerrero Jr.
+      ref: 
+    - role: team
+      name: Toronto Blue Jays
+      ref: 
+- number: SWS-5
+  uuid: 4094e72d-b88c-47f2-b5e8-1daa142162ae
+  subjects:
+  - entities:
+    - role: player
+      name: Julio Rodríguez
+      ref: 
+    - role: team
+      name: Seattle Mariners
+      ref: 
+- number: SWS-6
+  uuid: ab58eda0-23c6-44ac-ab45-732e77389c2b
+  subjects:
+  - entities:
+    - role: player
+      name: Ronald Acuña Jr.
+      ref: 
+    - role: team
+      name: Atlanta Braves
+      ref: 
+- number: SWS-7
+  uuid: 74d2823e-2669-4d05-9e30-97420865a5b4
+  subjects:
+  - entities:
+    - role: player
+      name: Bobby Witt Jr.
+      ref: 
+    - role: team
+      name: Kansas City Royals
+      ref: 
+- number: SWS-8
+  uuid: 7d6a1b7f-948a-4f49-87b5-4ce621a36fb1
+  subjects:
+  - entities:
+    - role: player
+      name: Elly De La Cruz
+      ref: 
+    - role: team
+      name: Cincinnati Reds
+      ref: 
+- number: SWS-9
+  uuid: 40248b6d-b288-455e-81b6-3176cf81551d
+  subjects:
+  - entities:
+    - role: player
+      name: Mike Trout
+      ref: 
+    - role: team
+      name: Los Angeles Angels
+      ref: 
+- number: SWS-10
+  uuid: a6816efe-4a88-4db6-94bb-b114bb686685
+  subjects:
+  - entities:
+    - role: player
+      name: Bryce Harper
+      ref: 
+    - role: team
+      name: Philadelphia Phillies
+      ref: 
+- number: SWS-11
+  uuid: b1fcc778-fc21-4c6d-b694-22fc6d42016f
+  subjects:
+  - entities:
+    - role: player
+      name: Pete Crow-Armstrong
+      ref: 
+    - role: team
+      name: Chicago Cubs
+      ref: 
+- number: SWS-12
+  uuid: 1b248264-3cd6-4e0a-aa29-f075091769d8
+  subjects:
+  - entities:
+    - role: player
+      name: Cal Raleigh
+      ref: 
+    - role: team
+      name: Seattle Mariners
+      ref: 
+- number: SWS-13
+  uuid: 4c670fe5-eb6b-492a-8fc0-e5486fd73695
+  subjects:
+  - entities:
+    - role: player
+      name: Nick Kurtz
+      ref: 
+    - role: team
+      name: Athletics
+      ref: 
+- number: SWS-14
+  uuid: 390f6b9c-3cf3-47f5-a19d-bba457453166
+  subjects:
+  - entities:
+    - role: player
+      name: Jac Caglianone
+      ref: 
+    - role: team
+      name: Kansas City Royals
+      ref: 
+- number: SWS-15
+  uuid: 785b3d83-320e-428b-9443-7720f96bdccc
+  subjects:
+  - entities:
+    - role: player
+      name: Roman Anthony
+      ref: 
+    - role: team
+      name: Boston Red Sox
+      ref: 
+- number: SWS-16
+  uuid: e9034eec-1a48-409b-90dd-7f97406197fb
+  subjects:
+  - entities:
+    - role: player
+      name: Samuel Basallo
+      ref: 
+    - role: team
+      name: Baltimore Orioles
+      ref: 
+- number: SWS-17
+  uuid: bd520b6c-d4a2-4737-925f-11e00787fc11
+  subjects:
+  - entities:
+    - role: player
+      name: Colson Montgomery
+      ref: 
+    - role: team
+      name: Chicago White Sox
+      ref: 
+- number: SWS-18
+  uuid: c4ceb65c-feb7-4696-8d33-a4c646612949
+  subjects:
+  - entities:
+    - role: player
+      name: Bryce Eldridge
+      ref: 
+    - role: team
+      name: San Francisco Giants
+      ref: 
+- number: SWS-19
+  uuid: 35ae0ab4-77ca-4584-9949-67106f0817ef
+  subjects:
+  - entities:
+    - role: player
+      name: Carson Williams
+      ref: 
+    - role: team
+      name: Tampa Bay Rays
+      ref: 
+- number: SWS-20
+  uuid: 7a593546-199a-4a5d-8a24-fa290bdfcde5
+  subjects:
+  - entities:
+    - role: player
+      name: Gunnar Henderson
+      ref: 
+    - role: team
+      name: Baltimore Orioles
+      ref: 
+- number: SWS-21
+  uuid: a01f899f-eccf-4aba-9eaa-64778b0ba994
+  subjects:
+  - entities:
+    - role: player
+      name: Ken Griffey Jr.
+      ref: 
+    - role: team
+      name: Seattle Mariners
+      ref: 
+- number: SWS-22
+  uuid: 90fd7f65-77fb-4475-af90-b6eb8ded3579
+  subjects:
+  - entities:
+    - role: player
+      name: Willie Mays
+      ref: 
+    - role: team
+      name: New York Giants
+      ref: 
+- number: SWS-23
+  uuid: 5b7ce0e4-8262-4c39-9971-f8163b8d122b
+  subjects:
+  - entities:
+    - role: player
+      name: Derek Jeter
+      ref: 
+    - role: team
+      name: New York Yankees
+      ref: 
+- number: SWS-24
+  uuid: 8c671097-4286-4333-a21c-542bfbfa9728
+  subjects:
+  - entities:
+    - role: player
+      name: Mickey Mantle
+      ref: 
+    - role: team
+      name: New York Yankees
+      ref: 
+- number: SWS-25
+  uuid: 6b8109c7-268a-4d0b-972e-e7878451e0e8
+  subjects:
+  - entities:
+    - role: player
+      name: Jackie Robinson
+      ref: 
+    - role: team
+      name: Brooklyn Dodgers
+      ref: 

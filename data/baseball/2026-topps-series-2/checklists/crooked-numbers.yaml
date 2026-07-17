@@ -1,0 +1,250 @@
+- number: CN-1
+  uuid: ecbe10d4-4a14-417d-8bde-32bec3f6c837
+  subjects:
+  - entities:
+    - role: player
+      name: Aaron Judge
+      ref: 
+    - role: team
+      name: New York Yankees
+      ref: 
+- number: CN-2
+  uuid: 62619144-4c98-4459-aa92-5385fe2f2891
+  subjects:
+  - entities:
+    - role: player
+      name: Rickey Henderson
+      ref: 
+    - role: team
+      name: Oakland Athletics
+      ref: 
+- number: CN-3
+  uuid: 99df814e-d023-4fe8-b162-b70153c80b9e
+  subjects:
+  - entities:
+    - role: player
+      name: Juan Soto
+      ref: 
+    - role: team
+      name: New York Mets
+      ref: 
+- number: CN-4
+  uuid: ba57ee81-72ff-4404-a4aa-35c66bdc69d7
+  subjects:
+  - entities:
+    - role: player
+      name: Ichiro
+      ref: 
+    - role: team
+      name: Seattle Mariners
+      ref: 
+- number: CN-5
+  uuid: 56f38899-dbdd-4a69-9ee5-45488408378d
+  subjects:
+  - entities:
+    - role: player
+      name: Cal Raleigh
+      ref: 
+    - role: team
+      name: Seattle Mariners
+      ref: 
+- number: CN-6
+  uuid: 9acdb5ec-4afd-4ed7-bca6-f6784cea09ea
+  subjects:
+  - entities:
+    - role: player
+      name: Mark McGwire
+      ref: 
+    - role: team
+      name: St. Louis Cardinals
+      ref: 
+- number: CN-7
+  uuid: 35c2fe6a-b615-42e7-8ca4-119c5342e303
+  subjects:
+  - entities:
+    - role: player
+      name: Lou Gehrig
+      ref: 
+    - role: team
+      name: New York Yankees
+      ref: 
+- number: CN-8
+  uuid: 6b3dc274-fa01-4d7b-81a1-937b944bd923
+  subjects:
+  - entities:
+    - role: player
+      name: Bobby Witt Jr.
+      ref: 
+    - role: team
+      name: Kansas City Royals
+      ref: 
+- number: CN-9
+  uuid: c2cec2d7-e2eb-4295-90c2-91db725dff50
+  subjects:
+  - entities:
+    - role: player
+      name: Shohei Ohtani
+      ref: 
+    - role: team
+      name: Los Angeles Dodgers
+      ref: 
+- number: CN-10
+  uuid: fbf5c132-07a5-4ff1-b39f-18ccadfb944c
+  subjects:
+  - entities:
+    - role: player
+      name: Aaron Judge
+      ref: 
+    - role: team
+      name: New York Yankees
+      ref: 
+- number: CN-11
+  uuid: 6d1e9d47-342d-49ee-a844-a45f52222b4f
+  subjects:
+  - entities:
+    - role: player
+      name: Elly De La Cruz
+      ref: 
+    - role: team
+      name: Cincinnati Reds
+      ref: 
+- number: CN-12
+  uuid: c51a0854-9621-497d-97f3-4b9a4b80c7f0
+  subjects:
+  - entities:
+    - role: player
+      name: Ronald Acuña Jr.
+      ref: 
+    - role: team
+      name: Atlanta Braves
+      ref: 
+- number: CN-13
+  uuid: 7ce02a9b-5147-403a-a6f8-0645ed8bfb16
+  subjects:
+  - entities:
+    - role: player
+      name: Kyle Schwarber
+      ref: 
+    - role: team
+      name: Philadelphia Phillies
+      ref: 
+- number: CN-14
+  uuid: 90f1294e-9f40-4ea7-b735-12e4099f175e
+  subjects:
+  - entities:
+    - role: player
+      name: Nolan Ryan
+      ref: 
+    - role: team
+      name: California Angels
+      ref: 
+- number: CN-15
+  uuid: 9949c6e2-b661-4f72-b54b-01c6ddfebcbd
+  subjects:
+  - entities:
+    - role: player
+      name: Sandy Koufax
+      ref: 
+    - role: team
+      name: Los Angeles Dodgers
+      ref: 
+- number: CN-16
+  uuid: f2ced3b0-cce9-4184-a56a-fb200af7269c
+  subjects:
+  - entities:
+    - role: player
+      name: Randy Johnson
+      ref: 
+    - role: team
+      name: Arizona Diamondbacks
+      ref: 
+- number: CN-17
+  uuid: a5ba211a-41b0-4cf5-86cc-cf9b064b3f22
+  subjects:
+  - entities:
+    - role: player
+      name: Ken Griffey Jr.
+      ref: 
+    - role: team
+      name: Seattle Mariners
+      ref: 
+- number: CN-18
+  uuid: ff6d5e73-86f1-4c26-aee8-0811a71e6197
+  subjects:
+  - entities:
+    - role: player
+      name: Mickey Mantle
+      ref: 
+    - role: team
+      name: New York Yankees
+      ref: 
+- number: CN-19
+  uuid: c012537f-7acd-4932-921b-18eb65554391
+  subjects:
+  - entities:
+    - role: player
+      name: Ted Williams
+      ref: 
+    - role: team
+      name: Boston Red Sox
+      ref: 
+- number: CN-20
+  uuid: 20ff4388-f648-410c-8fb3-d990fefa9a5a
+  subjects:
+  - entities:
+    - role: player
+      name: Derek Jeter
+      ref: 
+    - role: team
+      name: New York Yankees
+      ref: 
+- number: CN-21
+  uuid: cfd47140-cbfc-4738-9610-0b94824f1e92
+  subjects:
+  - entities:
+    - role: player
+      name: Tony Gwynn
+      ref: 
+    - role: team
+      name: San Diego Padres
+      ref: 
+- number: CN-22
+  uuid: c712818d-8f7e-46e4-9211-8ddde524a098
+  subjects:
+  - entities:
+    - role: player
+      name: Babe Ruth
+      ref: 
+    - role: team
+      name: New York Yankees
+      ref: 
+- number: CN-23
+  uuid: 806b463b-41c6-4418-bda0-fe08b6b2b618
+  subjects:
+  - entities:
+    - role: player
+      name: Clayton Kershaw
+      ref: 
+    - role: team
+      name: Los Angeles Dodgers
+      ref: 
+- number: CN-24
+  uuid: 6bfe982f-3006-4378-8188-0f498ece42b0
+  subjects:
+  - entities:
+    - role: player
+      name: Paul Skenes
+      ref: 
+    - role: team
+      name: Pittsburgh Pirates
+      ref: 
+- number: CN-25
+  uuid: a9d207b1-1f04-4cad-b9f2-555b912180c4
+  subjects:
+  - entities:
+    - role: player
+      name: Mike Trout
+      ref: 
+    - role: team
+      name: Los Angeles Angels
+      ref: 
