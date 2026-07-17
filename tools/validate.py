@@ -1,11 +1,9 @@
 #!/usr/bin/env python3
-"""Validate Open Checklist Project data.
+"""Validate Open Checklist Project data (v0.3 manifest form).
 
-Per set directory (data/<genre>/<set-id>/):
-  * v0.3 (manifest form): validates set.yaml, manifest.yaml, and checklists/*.yaml
-    against their schemas, then enforces the cross-file invariants from IDENTITY.md
-    (unique ids/uuids, sections partition, applies_to references, etc.).
-  * v0.2 (legacy exploded): validates set.yaml + cards/*.yaml against the old schemas.
+Per set directory (data/<genre>/<set-id>/) it validates set.yaml, manifest.yaml, and
+checklists/*.yaml against their schemas, then enforces the cross-file invariants from
+IDENTITY.md (unique ids/uuids, sections partition, applies_to references, etc.).
 
 This is a CI gate, so it is defensive: malformed YAML, unreadable files, and
 schema-invalid shapes are recorded as errors and reported at the end rather than
@@ -281,20 +279,6 @@ def validate_v03(set_dir, schemas, rep):
                 rep.err(where, f"orphan checklist file checklists/{f.name} (no matching node id)")
 
 
-# ---- v0.2 legacy validation ----------------------------------------------------
-
-def validate_v02(set_dir, schemas, rep):
-    where = str(set_dir)
-    if "v2set" not in schemas or "v2card" not in schemas:
-        rep.err(where, "legacy v0.2 schemas unavailable (schemas/set/v0.2 or schemas/card/v0.1 missing)")
-        return
-    set_yaml = rep.load_yaml(set_dir / "set.yaml", f"{where}/set.yaml")
-    rep.schema_check(f"{where}/set.yaml", set_yaml, schemas["v2set"])
-    for card in sorted((set_dir / "cards").glob("*.yaml")):
-        data = rep.load_yaml(card, str(card))
-        rep.schema_check(str(card), data, schemas["v2card"])
-
-
 # ---- main ----------------------------------------------------------------------
 
 def main(argv):
@@ -302,18 +286,12 @@ def main(argv):
     schema_dir = Path(argv[2]) if len(argv) > 2 else SCHEMA_DIR
 
     # Current-version schemas via the `schema.yaml` pointer symlinks
-    # (set -> v0.3, manifest -> v0.1, checklist -> v0.1).
+    # (set -> v0.3, manifest -> v0.2, checklist -> v0.1).
     schemas = {
         "set": load_schema(schema_dir / "set" / "schema.yaml"),
         "manifest": load_schema(schema_dir / "manifest" / "schema.yaml"),
         "checklist": load_schema(schema_dir / "checklist" / "schema.yaml"),
     }
-    # Legacy schemas pinned to explicit version dirs so a moving pointer never changes
-    # how already-committed exploded sets are validated.
-    for legacy, fname in (("v2set", "set/v0.2/schema.yaml"), ("v2card", "card/v0.1/schema.yaml")):
-        p = schema_dir / fname
-        if p.exists():
-            schemas[legacy] = load_schema(p)
 
     rep = Report()
     set_dirs = sorted({p.parent for p in data_dir.rglob("set.yaml")})
@@ -321,31 +299,18 @@ def main(argv):
         print(f"no sets found under {data_dir}")
         return 0
 
-    deprecated = []  # exploded v0.2 sets — still validated, but flagged for migration
     for sd in set_dirs:
         try:
             if (sd / "manifest.yaml").exists():
                 fmt = "v0.3"
                 validate_v03(sd, schemas, rep)
-            elif (sd / "cards").is_dir():
-                fmt = "v0.2 DEPRECATED"
-                deprecated.append(sd)
-                validate_v02(sd, schemas, rep)
             else:
                 fmt = "?"
-                rep.err(str(sd), "no manifest.yaml (v0.3) or cards/ (v0.2)")
+                rep.err(str(sd), "no manifest.yaml — the v0.3 manifest form is required")
         except Exception as e:  # pragma: no cover - a bad set must not abort the run
             fmt = "!"
             rep.err(str(sd), f"unexpected error during validation: {e}")
         print(f"  [{fmt}] {sd}")
-
-    if deprecated:  # non-fatal: the exploded format is deprecated but still validated
-        n = len(deprecated)
-        noun = "set uses" if n == 1 else "sets use"
-        print(f"\n⚠️  {n} {noun} the DEPRECATED exploded (v0.2) format —"
-              " migrate to the v0.3 manifest form (set.yaml + manifest.yaml + checklists/):")
-        for dep_dir in deprecated:
-            print(f"  - {dep_dir}")
 
     if rep.errors:
         print(f"\n❌ {len(rep.errors)} validation error(s):")
