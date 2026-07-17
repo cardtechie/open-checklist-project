@@ -1,0 +1,238 @@
+- number: PDPA-AC
+  uuid: da4525ed-6c13-4335-ac48-4c3976d7ed6f
+  subjects:
+  - entities:
+    - role: player
+      name: Kristian Campbell
+      ref: 
+    - role: team
+      name: Boston Red Sox
+      ref: 
+  - entities:
+    - role: player
+      name: Roman Anthony
+      ref: 
+    - role: team
+      name: Boston Red Sox
+      ref: 
+- number: PDPA-AJ
+  uuid: 5675d369-4f57-478c-8514-b81e0d4d26af
+  subjects:
+  - entities:
+    - role: player
+      name: Chipper Jones
+      ref: 
+    - role: team
+      name: Atlanta Braves
+      ref: 
+  - entities:
+    - role: player
+      name: Ronald Acuña Jr.
+      ref: 
+    - role: team
+      name: Atlanta Braves
+      ref: 
+- number: PDPA-BC
+  uuid: 064b2342-8fc6-4cc3-8fd8-400523c6d375
+  subjects:
+  - entities:
+    - role: player
+      name: Wade Boggs
+      ref: 
+    - role: team
+      name: Boston Red Sox
+      ref: 
+  - entities:
+    - role: player
+      name: Roger Clemens
+      ref: 
+    - role: team
+      name: Boston Red Sox
+      ref: 
+- number: PDPA-JG
+  uuid: 0b32e072-0bf5-4a53-96a0-7a2ff025c593
+  subjects:
+  - entities:
+    - role: player
+      name: Ken Griffey Jr.
+      ref: 
+    - role: team
+      name: Seattle Mariners
+      ref: 
+  - entities:
+    - role: player
+      name: Randy Johnson
+      ref: 
+    - role: team
+      name: Seattle Mariners
+      ref: 
+- number: PDPA-JI
+  uuid: a2df6fc0-dbd2-424a-99ea-9af62a8ca8a1
+  subjects:
+  - entities:
+    - role: player
+      name: Ichiro
+      ref: 
+    - role: team
+      name: New York Yankees
+      ref: 
+  - entities:
+    - role: player
+      name: Derek Jeter
+      ref: 
+    - role: team
+      name: New York Yankees
+      ref: 
+- number: PDPA-KP
+  uuid: 0f69fced-c119-44c0-9f81-f96e54d6ce8b
+  subjects:
+  - entities:
+    - role: player
+      name: Hyeseong Kim
+      ref: 
+    - role: team
+      name: Los Angeles Dodgers
+      ref: 
+  - entities:
+    - role: player
+      name: Chan Ho Park
+      ref: 
+    - role: team
+      name: Los Angeles Dodgers
+      ref: 
+- number: PDPA-OY
+  uuid: 39ab0afe-c3c5-4114-9399-2eab0ec6b0fd
+  subjects:
+  - entities:
+    - role: player
+      name: Yoshinobu Yamamoto
+      ref: 
+    - role: team
+      name: Los Angeles Dodgers
+      ref: 
+  - entities:
+    - role: player
+      name: Shohei Ohtani
+      ref: 
+    - role: team
+      name: Los Angeles Dodgers
+      ref: 
+- number: PDPA-PM
+  uuid: bd23c6e7-a40b-4bfa-9dea-5d4e6db80d42
+  subjects:
+  - entities:
+    - role: player
+      name: Mark McGwire
+      ref: 
+    - role: team
+      name: St. Louis Cardinals
+      ref: 
+  - entities:
+    - role: player
+      name: Albert Pujols
+      ref: 
+    - role: team
+      name: St. Louis Cardinals
+      ref: 
+- number: PDPA-SC
+  uuid: 38f29f3f-f966-42ca-9efd-bd3edfd422b6
+  subjects:
+  - entities:
+    - role: player
+      name: Bubba Chandler
+      ref: 
+    - role: team
+      name: Pittsburgh Pirates
+      ref: 
+  - entities:
+    - role: player
+      name: Paul Skenes
+      ref: 
+    - role: team
+      name: Pittsburgh Pirates
+      ref: 
+- number: PDPA-SD
+  uuid: 70dac5d3-1aaa-4694-b828-301120df250f
+  subjects:
+  - entities:
+    - role: player
+      name: Sammy Sosa
+      ref: 
+    - role: team
+      name: Chicago Cubs
+      ref: 
+  - entities:
+    - role: player
+      name: Andre Dawson
+      ref: 
+    - role: team
+      name: Chicago Cubs
+      ref: 
+- number: PDPA-TJ
+  uuid: d55fc54e-b7c5-4efd-9d78-71944fb1d901
+  subjects:
+  - entities:
+    - role: player
+      name: Mike Trout
+      ref: 
+    - role: team
+      name: Los Angeles Angels
+      ref: 
+  - entities:
+    - role: player
+      name: Reggie Jackson
+      ref: 
+    - role: team
+      name: Los Angeles Angels
+      ref: 
+- number: PDPA-TK
+  uuid: 94fadaf7-b833-4af3-85f6-1fb8edc6b61e
+  subjects:
+  - entities:
+    - role: player
+      name: Frank Thomas
+      ref: 
+    - role: team
+      name: Chicago White Sox
+      ref: 
+  - entities:
+    - role: player
+      name: Paul Konerko
+      ref: 
+    - role: team
+      name: Chicago White Sox
+      ref: 
+- number: PDPA-WG
+  uuid: 0fcd2126-b610-40a8-aeef-27894dda2026
+  subjects:
+  - entities:
+    - role: player
+      name: Vladimir Guerrero
+      ref: 
+    - role: team
+      name: Montréal Expos
+      ref: 
+  - entities:
+    - role: player
+      name: Larry Walker
+      ref: 
+    - role: team
+      name: Montréal Expos
+      ref: 
+- number: PDPA-WW
+  uuid: 2a7a998d-42c9-4e40-a7dc-996f7622c93c
+  subjects:
+  - entities:
+    - role: player
+      name: Jack Wilson
+      ref: 
+    - role: team
+      name: Pittsburgh Pirates
+      ref: 
+  - entities:
+    - role: player
+      name: Jacob Wilson
+      ref: 
+    - role: team
+      name: Athletics
+      ref: 

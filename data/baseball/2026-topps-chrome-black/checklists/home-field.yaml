@@ -1,0 +1,200 @@
+- number: CBHA-1
+  uuid: 2a1c81e4-837b-4ed2-a92b-3afe048724fb
+  subjects:
+  - entities:
+    - role: player
+      name: Jac Caglianone
+      ref: 
+    - role: team
+      name: Kansas City Royals
+      ref: 
+- number: CBHA-2
+  uuid: b27d7e4a-f8ec-4299-8fe2-1d246e5b4fa7
+  subjects:
+  - entities:
+    - role: player
+      name: Roman Anthony
+      ref: 
+    - role: team
+      name: Boston Red Sox
+      ref: 
+- number: CBHA-3
+  uuid: 493e07e9-07c0-414c-86a1-436e19659ea6
+  subjects:
+  - entities:
+    - role: player
+      name: Aaron Judge
+      ref: 
+    - role: team
+      name: New York Yankees
+      ref: 
+- number: CBHA-4
+  uuid: 5b3a2a85-7509-47ed-886d-e7e80f9a7098
+  subjects:
+  - entities:
+    - role: player
+      name: Kyle Teel
+      ref: 
+    - role: team
+      name: Chicago White Sox
+      ref: 
+- number: CBHA-5
+  uuid: 23a02dc8-0a7c-4088-94c2-1ea31961ea5d
+  subjects:
+  - entities:
+    - role: player
+      name: Shohei Ohtani
+      ref: 
+    - role: team
+      name: Los Angeles Dodgers
+      ref: 
+- number: CBHA-6
+  uuid: 60b9b5aa-6f38-496e-a365-851c4ec2ff82
+  subjects:
+  - entities:
+    - role: player
+      name: Harry Ford
+      ref: 
+    - role: team
+      name: Seattle Mariners
+      ref: 
+- number: CBHA-7
+  uuid: 06fa82ae-e2ea-4322-9ef5-e41cea0aaad6
+  subjects:
+  - entities:
+    - role: player
+      name: Bobby Witt Jr.
+      ref: 
+    - role: team
+      name: Kansas City Royals
+      ref: 
+- number: CBHA-8
+  uuid: 406437c7-f5fd-4724-8166-0760ed551153
+  subjects:
+  - entities:
+    - role: player
+      name: Pete Crow-Armstrong
+      ref: 
+    - role: team
+      name: Chicago Cubs
+      ref: 
+- number: CBHA-9
+  uuid: 5e34e7ae-d658-449c-91bd-1a60f8dda455
+  subjects:
+  - entities:
+    - role: player
+      name: Bryce Harper
+      ref: 
+    - role: team
+      name: Philadelphia Phillies
+      ref: 
+- number: CBHA-10
+  uuid: cc8af6b1-d7d2-446e-8e1e-c51cc170c88b
+  subjects:
+  - entities:
+    - role: player
+      name: Trey Yesavage
+      ref: 
+    - role: team
+      name: Toronto Blue Jays
+      ref: 
+- number: CBHA-11
+  uuid: 258f6a7d-d338-4fc3-bcbf-b48f4f63561a
+  subjects:
+  - entities:
+    - role: player
+      name: Owen Caissie
+      ref: 
+    - role: team
+      name: Chicago Cubs
+      ref: 
+- number: CBHA-12
+  uuid: bf2946db-a91e-4f8a-90e9-bedbef1f61de
+  subjects:
+  - entities:
+    - role: player
+      name: Honus Wagner
+      ref: 
+    - role: team
+      name: Pittsburgh Pirates
+      ref: 
+- number: CBHA-13
+  uuid: d6e3e8ae-7cb5-4d53-985d-e65e18936cba
+  subjects:
+  - entities:
+    - role: player
+      name: Bubba Chandler
+      ref: 
+    - role: team
+      name: Pittsburgh Pirates
+      ref: 
+- number: CBHA-14
+  uuid: 23061070-929d-4f1a-afa5-a538048963cc
+  subjects:
+  - entities:
+    - role: player
+      name: Jacob Misiorowski
+      ref: 
+    - role: team
+      name: Milwaukee Brewers
+      ref: 
+- number: CBHA-15
+  uuid: 8f8de1ed-d59f-4a71-94ed-fffbe32a7294
+  subjects:
+  - entities:
+    - role: player
+      name: Samuel Basallo
+      ref: 
+    - role: team
+      name: Baltimore Orioles
+      ref: 
+- number: CBHA-16
+  uuid: 739484e7-f1f0-4452-9556-ffede44025b2
+  subjects:
+  - entities:
+    - role: player
+      name: Chase Burns
+      ref: 
+    - role: team
+      name: Cincinnati Reds
+      ref: 
+- number: CBHA-17
+  uuid: a897cbdc-837d-49ef-8cd4-a33789b82386
+  subjects:
+  - entities:
+    - role: player
+      name: Cal Raleigh
+      ref: 
+    - role: team
+      name: Seattle Mariners
+      ref: 
+- number: CBHA-18
+  uuid: 795525a1-f465-411f-8680-48d1b31cd79c
+  subjects:
+  - entities:
+    - role: player
+      name: Ken Griffey Jr.
+      ref: 
+    - role: team
+      name: Seattle Mariners
+      ref: 
+- number: CBHA-19
+  uuid: 2d914512-f3d8-426c-9bcc-38c94a930ab3
+  subjects:
+  - entities:
+    - role: player
+      name: Bryce Eldridge
+      ref: 
+    - role: team
+      name: San Francisco Giants
+      ref: 
+- number: CBHA-20
+  uuid: 1c6db5b9-2f03-401f-8bf1-0b6a96a77ba2
+  subjects:
+  - entities:
+    - role: player
+      name: Colson Montgomery
+      ref: 
+    - role: team
+      name: Chicago White Sox
+      ref: 

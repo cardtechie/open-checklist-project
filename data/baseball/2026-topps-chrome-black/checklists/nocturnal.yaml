@@ -1,0 +1,400 @@
+- number: NOC-1
+  uuid: 4c2178b4-9f2a-4e7e-a6e3-6c95b6c3bc13
+  subjects:
+  - entities:
+    - role: player
+      name: Jac Caglianone
+      ref: 
+    - role: team
+      name: Kansas City Royals
+      ref: 
+- number: NOC-2
+  uuid: af9a7206-776c-4f26-9a72-a021bdb1d660
+  subjects:
+  - entities:
+    - role: player
+      name: Roman Anthony
+      ref: 
+    - role: team
+      name: Boston Red Sox
+      ref: 
+- number: NOC-3
+  uuid: efea10bd-8c19-47ec-93d6-7f5fa4917e88
+  subjects:
+  - entities:
+    - role: player
+      name: Colson Montgomery
+      ref: 
+    - role: team
+      name: Chicago White Sox
+      ref: 
+- number: NOC-4
+  uuid: 2873ed03-e316-4b4a-9aa3-c82407a1aab3
+  subjects:
+  - entities:
+    - role: player
+      name: Kyle Teel
+      ref: 
+    - role: team
+      name: Chicago White Sox
+      ref: 
+- number: NOC-5
+  uuid: 23d02b70-911a-4b73-8426-1e454a42336b
+  subjects:
+  - entities:
+    - role: player
+      name: Jacob Misiorowski
+      ref: 
+    - role: team
+      name: Milwaukee Brewers
+      ref: 
+- number: NOC-6
+  uuid: b859bf54-613a-447f-a2f9-2bea6f5f311f
+  subjects:
+  - entities:
+    - role: player
+      name: Christian Moore
+      ref: 
+    - role: team
+      name: Los Angeles Angels
+      ref: 
+- number: NOC-7
+  uuid: 3176cbe9-d2d6-4b19-8201-514f516e6288
+  subjects:
+  - entities:
+    - role: player
+      name: Chase Burns
+      ref: 
+    - role: team
+      name: Cincinnati Reds
+      ref: 
+- number: NOC-8
+  uuid: ef219719-dade-4afd-bc03-ba83d9e67552
+  subjects:
+  - entities:
+    - role: player
+      name: Owen Caissie
+      ref: 
+    - role: team
+      name: Chicago Cubs
+      ref: 
+- number: NOC-9
+  uuid: cb2402c4-9b30-44c4-91ac-ca43b9da487e
+  subjects:
+  - entities:
+    - role: player
+      name: Samuel Basallo
+      ref: 
+    - role: team
+      name: Baltimore Orioles
+      ref: 
+- number: NOC-10
+  uuid: 60dfd3e8-4fde-46cb-9526-1a94204eefb2
+  subjects:
+  - entities:
+    - role: player
+      name: Bubba Chandler
+      ref: 
+    - role: team
+      name: Pittsburgh Pirates
+      ref: 
+- number: NOC-11
+  uuid: 3772ad95-69ea-43f4-b810-3e0d056cff65
+  subjects:
+  - entities:
+    - role: player
+      name: Sal Stewart
+      ref: 
+    - role: team
+      name: Cincinnati Reds
+      ref: 
+- number: NOC-12
+  uuid: 640f93b8-b906-44b5-bd42-d230abbde096
+  subjects:
+  - entities:
+    - role: player
+      name: Harry Ford
+      ref: 
+    - role: team
+      name: Seattle Mariners
+      ref: 
+- number: NOC-13
+  uuid: f337ed77-3a8d-4b9f-850e-f82f74081586
+  subjects:
+  - entities:
+    - role: player
+      name: Alex Freeland
+      ref: 
+    - role: team
+      name: Los Angeles Dodgers
+      ref: 
+- number: NOC-14
+  uuid: 52206e0c-e37c-46d7-95e2-48a5a963f85e
+  subjects:
+  - entities:
+    - role: player
+      name: Payton Tolle
+      ref: 
+    - role: team
+      name: Boston Red Sox
+      ref: 
+- number: NOC-15
+  uuid: c9f028c2-8907-4bf3-8479-7ebb8bd96697
+  subjects:
+  - entities:
+    - role: player
+      name: Carson Williams
+      ref: 
+    - role: team
+      name: Tampa Bay Rays
+      ref: 
+- number: NOC-16
+  uuid: 6d937737-56b2-4fc7-9ba7-3fcc9efc5985
+  subjects:
+  - entities:
+    - role: player
+      name: Manny Machado
+      ref: 
+    - role: team
+      name: San Diego Padres
+      ref: 
+- number: NOC-17
+  uuid: 067ac54c-c035-42f5-84e8-62740171214a
+  subjects:
+  - entities:
+    - role: player
+      name: Mookie Betts
+      ref: 
+    - role: team
+      name: Los Angeles Dodgers
+      ref: 
+- number: NOC-18
+  uuid: 53ccd202-30c6-4bb4-9ee8-98715fc4102b
+  subjects:
+  - entities:
+    - role: player
+      name: Freddie Freeman
+      ref: 
+    - role: team
+      name: Los Angeles Dodgers
+      ref: 
+- number: NOC-19
+  uuid: b438855a-9017-4f1e-9c7d-81fb300b21cc
+  subjects:
+  - entities:
+    - role: player
+      name: Shohei Ohtani
+      ref: 
+    - role: team
+      name: Los Angeles Dodgers
+      ref: 
+- number: NOC-20
+  uuid: ba34bfc2-5453-400e-acd2-327b7e0a2611
+  subjects:
+  - entities:
+    - role: player
+      name: Aaron Judge
+      ref: 
+    - role: team
+      name: New York Yankees
+      ref: 
+- number: NOC-21
+  uuid: 2f3c0e27-3b1b-4a92-a7f7-230ba021decd
+  subjects:
+  - entities:
+    - role: player
+      name: Yoshinobu Yamamoto
+      ref: 
+    - role: team
+      name: Los Angeles Dodgers
+      ref: 
+- number: NOC-22
+  uuid: a0f07755-6273-4e3d-8a44-35dfba280251
+  subjects:
+  - entities:
+    - role: player
+      name: Nolan Arenado
+      ref: 
+    - role: team
+      name: St. Louis Cardinals
+      ref: 
+- number: NOC-23
+  uuid: 416dece4-d32c-457c-a80c-e43e7718406c
+  subjects:
+  - entities:
+    - role: player
+      name: Bo Bichette
+      ref: 
+    - role: team
+      name: Toronto Blue Jays
+      ref: 
+- number: NOC-24
+  uuid: b0a4f938-721a-4cbe-b9f5-eddff0a616e1
+  subjects:
+  - entities:
+    - role: player
+      name: Junior Caminero
+      ref: 
+    - role: team
+      name: Tampa Bay Rays
+      ref: 
+- number: NOC-25
+  uuid: 750d96eb-e8c8-4d25-b16e-f170caa54e3c
+  subjects:
+  - entities:
+    - role: player
+      name: Bryce Harper
+      ref: 
+    - role: team
+      name: Philadelphia Phillies
+      ref: 
+- number: NOC-26
+  uuid: ab66f8f0-6592-4e14-96eb-3bbf5a3df4fd
+  subjects:
+  - entities:
+    - role: player
+      name: Juan Soto
+      ref: 
+    - role: team
+      name: New York Mets
+      ref: 
+- number: NOC-27
+  uuid: f2bb3ae0-9acf-44c1-ac03-ecba5ba94e71
+  subjects:
+  - entities:
+    - role: player
+      name: Ronald Acuña Jr.
+      ref: 
+    - role: team
+      name: Atlanta Braves
+      ref: 
+- number: NOC-28
+  uuid: bd9039e0-2c31-4bd4-80a0-8ae9751c088e
+  subjects:
+  - entities:
+    - role: player
+      name: James Wood
+      ref: 
+    - role: team
+      name: Washington Nationals
+      ref: 
+- number: NOC-29
+  uuid: 1605cfc7-dac5-42f1-a228-dc49fb1b643c
+  subjects:
+  - entities:
+    - role: player
+      name: Yordan Alvarez
+      ref: 
+    - role: team
+      name: Houston Astros
+      ref: 
+- number: NOC-30
+  uuid: f66cb96e-cf87-42ea-bfe4-4f5a4a9c873c
+  subjects:
+  - entities:
+    - role: player
+      name: Julio Rodríguez
+      ref: 
+    - role: team
+      name: Seattle Mariners
+      ref: 
+- number: NOC-31
+  uuid: 59a6fe12-f356-4c03-8f01-f86ab2498e6f
+  subjects:
+  - entities:
+    - role: player
+      name: José Ramírez
+      ref: 
+    - role: team
+      name: Cleveland Guardians
+      ref: 
+- number: NOC-32
+  uuid: 3d08f437-1b80-4faf-960d-059d385a9f89
+  subjects:
+  - entities:
+    - role: player
+      name: Riley Greene
+      ref: 
+    - role: team
+      name: Detroit Tigers
+      ref: 
+- number: NOC-33
+  uuid: 32bcfc5e-682d-4c53-a753-78bc4de9ebf9
+  subjects:
+  - entities:
+    - role: player
+      name: Pete Crow-Armstrong
+      ref: 
+    - role: team
+      name: Chicago Cubs
+      ref: 
+- number: NOC-34
+  uuid: 238fc6ec-5a45-4659-bb2c-31b4e97cb191
+  subjects:
+  - entities:
+    - role: player
+      name: Paul Skenes
+      ref: 
+    - role: team
+      name: Pittsburgh Pirates
+      ref: 
+- number: NOC-35
+  uuid: 3209af07-6a16-4700-b79b-e161c97efd8e
+  subjects:
+  - entities:
+    - role: player
+      name: Nick Kurtz
+      ref: 
+    - role: team
+      name: Athletics
+      ref: 
+- number: NOC-36
+  uuid: '0782fedb-565e-4819-b0cd-bf5f9d0e1b26'
+  subjects:
+  - entities:
+    - role: player
+      name: Jacob Wilson
+      ref: 
+    - role: team
+      name: Athletics
+      ref: 
+- number: NOC-37
+  uuid: f0d486b1-4e64-4fb5-875c-32b1af367d64
+  subjects:
+  - entities:
+    - role: player
+      name: Mike Trout
+      ref: 
+    - role: team
+      name: Los Angeles Angels
+      ref: 
+- number: NOC-38
+  uuid: 410dfe45-4dc7-4693-a940-d6ad57dab89f
+  subjects:
+  - entities:
+    - role: player
+      name: Elly De La Cruz
+      ref: 
+    - role: team
+      name: Cincinnati Reds
+      ref: 
+- number: NOC-39
+  uuid: d5764f6f-4332-4571-8dfa-4bd7781093d1
+  subjects:
+  - entities:
+    - role: player
+      name: Corbin Carroll
+      ref: 
+    - role: team
+      name: Arizona Diamondbacks
+      ref: 
+- number: NOC-40
+  uuid: 84a6dc0a-81b2-4202-acaf-f301b7120ac7
+  subjects:
+  - entities:
+    - role: player
+      name: Trea Turner
+      ref: 
+    - role: team
+      name: Philadelphia Phillies
+      ref: 

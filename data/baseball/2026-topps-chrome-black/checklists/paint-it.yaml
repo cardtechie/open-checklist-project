@@ -1,0 +1,190 @@
+- number: PIA-AP
+  uuid: 678bf022-4958-4f40-b02c-340bf31370b2
+  subjects:
+  - entities:
+    - role: player
+      name: Albert Pujols
+      ref: 
+    - role: team
+      name: St. Louis Cardinals
+      ref: 
+- number: PIA-BC
+  uuid: 8978d731-933b-4b68-9a9e-f955015e128a
+  subjects:
+  - entities:
+    - role: player
+      name: Bubba Chandler
+      ref: 
+    - role: team
+      name: Pittsburgh Pirates
+      ref: 
+- number: PIA-CB
+  uuid: 785136c9-a819-4469-923e-9e4a7c9adc31
+  subjects:
+  - entities:
+    - role: player
+      name: Chase Burns
+      ref: 
+    - role: team
+      name: Cincinnati Reds
+      ref: 
+- number: PIA-CM
+  uuid: c8c16e3b-5364-41ff-b89e-2dd90e4764a6
+  subjects:
+  - entities:
+    - role: player
+      name: Christian Moore
+      ref: 
+    - role: team
+      name: Los Angeles Angels
+      ref: 
+- number: PIA-CMO
+  uuid: bc11e0c8-c068-4a56-8d72-9e2b723daa55
+  subjects:
+  - entities:
+    - role: player
+      name: Colson Montgomery
+      ref: 
+    - role: team
+      name: Chicago White Sox
+      ref: 
+- number: PIA-CS
+  uuid: 5101e3ab-02e2-4cef-ba7b-ded1a8b79e7b
+  subjects:
+  - entities:
+    - role: player
+      name: CC Sabathia
+      ref: 
+    - role: team
+      name: New York Yankees
+      ref: 
+- number: PIA-DJ
+  uuid: d49c6b63-3431-48c7-a07b-d5c62a1fe55f
+  subjects:
+  - entities:
+    - role: player
+      name: Derek Jeter
+      ref: 
+    - role: team
+      name: New York Yankees
+      ref: 
+- number: PIA-GB
+  uuid: af1d2a0c-e37b-4abb-b9ed-28de4239e7b2
+  subjects:
+  - entities:
+    - role: player
+      name: George Brett
+      ref: 
+    - role: team
+      name: Kansas City Royals
+      ref: 
+- number: PIA-I
+  uuid: 54d763d9-8522-45ae-acd0-762056af2aca
+  subjects:
+  - entities:
+    - role: player
+      name: Ichiro
+      ref: 
+    - role: team
+      name: Seattle Mariners
+      ref: 
+- number: PIA-JC
+  uuid: bc89daa3-33e2-488e-95a5-80058eef3c5a
+  subjects:
+  - entities:
+    - role: player
+      name: Jac Caglianone
+      ref: 
+    - role: team
+      name: Kansas City Royals
+      ref: 
+- number: PIA-KC
+  uuid: 139cbe2a-f1fb-4e7d-aae8-5c0aed0c7b10
+  subjects:
+  - entities:
+    - role: player
+      name: Kristian Campbell
+      ref: 
+    - role: team
+      name: Boston Red Sox
+      ref: 
+- number: PIA-KS
+  uuid: cd984244-9cfa-4bad-8bd5-add6b020cae4
+  subjects:
+  - entities:
+    - role: player
+      name: Kodai Senga
+      ref: 
+    - role: team
+      name: New York Mets
+      ref: 
+- number: PIA-KT
+  uuid: 17490305-34df-4912-9963-834aaea17239
+  subjects:
+  - entities:
+    - role: player
+      name: Kyle Teel
+      ref: 
+    - role: team
+      name: Chicago White Sox
+      ref: 
+- number: PIA-MT
+  uuid: bbae71a3-be25-47e9-a655-08fa5646ad74
+  subjects:
+  - entities:
+    - role: player
+      name: Mike Trout
+      ref: 
+    - role: team
+      name: Los Angeles Angels
+      ref: 
+- number: PIA-NK
+  uuid: 400475bb-f807-4971-9afb-fb8f09c738da
+  subjects:
+  - entities:
+    - role: player
+      name: Nick Kurtz
+      ref: 
+    - role: team
+      name: Athletics
+      ref: 
+- number: PIA-NR
+  uuid: 6defbb97-65a8-482b-8ac0-71a70d10807b
+  subjects:
+  - entities:
+    - role: player
+      name: Nolan Ryan
+      ref: 
+    - role: team
+      name: Texas Rangers
+      ref: 
+- number: PIA-OC
+  uuid: d9b12aeb-fcef-4c95-9fab-86bb42e63ae4
+  subjects:
+  - entities:
+    - role: player
+      name: Owen Caissie
+      ref: 
+    - role: team
+      name: Chicago Cubs
+      ref: 
+- number: PIA-RAN
+  uuid: 9a04f0ca-178b-4713-8c84-7414bec31df9
+  subjects:
+  - entities:
+    - role: player
+      name: Roman Anthony
+      ref: 
+    - role: team
+      name: Boston Red Sox
+      ref: 
+- number: PIA-YY
+  uuid: 7d99ecc2-ea9e-4a1d-bd88-f634cd1c5cda
+  subjects:
+  - entities:
+    - role: player
+      name: Yoshinobu Yamamoto
+      ref: 
+    - role: team
+      name: Los Angeles Dodgers
+      ref: 

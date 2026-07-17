@@ -1,0 +1,1110 @@
+- number: CBA-AF
+  uuid: 1b2fb0c0-9ac9-447f-9f6c-b9c3f3b24176
+  subjects:
+  - entities:
+    - role: player
+      name: Alex Freeland
+      ref: 
+    - role: team
+      name: Los Angeles Dodgers
+      ref: 
+- number: CBA-AGI
+  uuid: 1eaaf327-34c3-4817-b315-9c9786079558
+  subjects:
+  - entities:
+    - role: player
+      name: Andrés Giménez
+      ref: 
+    - role: team
+      name: Toronto Blue Jays
+      ref: 
+- number: CBA-AJ
+  uuid: 67f9b0cd-71a8-410c-8a18-416672deaa71
+  subjects:
+  - entities:
+    - role: player
+      name: Aaron Judge
+      ref: 
+    - role: team
+      name: New York Yankees
+      ref: 
+- number: CBA-AM
+  uuid: b9b72f16-8d22-4dbb-9ff1-f2c1878a0db0
+  subjects:
+  - entities:
+    - role: player
+      name: Andrew McCutchen
+      ref: 
+    - role: team
+      name: Pittsburgh Pirates
+      ref: 
+- number: CBA-AP
+  uuid: ddd70c78-6124-40df-b059-2ec179a24479
+  subjects:
+  - entities:
+    - role: player
+      name: Albert Pujols
+      ref: 
+    - role: team
+      name: St. Louis Cardinals
+      ref: 
+- number: CBA-ARA
+  uuid: 165069e3-3ae9-4812-bac9-2bd69bcc2920
+  subjects:
+  - entities:
+    - role: player
+      name: Agustín Ramírez
+      ref: 
+    - role: team
+      name: Miami Marlins
+      ref: 
+- number: CBA-BB
+  uuid: 30eefb9b-3ff5-49f2-a3dc-fcc693925f16
+  subjects:
+  - entities:
+    - role: player
+      name: Barry Bonds
+      ref: 
+    - role: team
+      name: Pittsburgh Pirates
+      ref: 
+- number: CBA-BBU
+  uuid: b825159b-5a01-46ec-a8da-a34449d4d0ab
+  subjects:
+  - entities:
+    - role: player
+      name: Byron Buxton
+      ref: 
+    - role: team
+      name: Minnesota Twins
+      ref: 
+- number: CBA-BC
+  uuid: c90a3111-c88c-43b7-972a-d622ecafff44
+  subjects:
+  - entities:
+    - role: player
+      name: Bubba Chandler
+      ref: 
+    - role: team
+      name: Pittsburgh Pirates
+      ref: 
+- number: CBA-BE
+  uuid: 68cb103b-444e-4ee7-9c65-10d7824a44be
+  subjects:
+  - entities:
+    - role: player
+      name: Bryce Eldridge
+      ref: 
+    - role: team
+      name: San Francisco Giants
+      ref: 
+- number: CBA-BH
+  uuid: 86540ca8-088b-4b22-8f9e-56ad90872f6d
+  subjects:
+  - entities:
+    - role: player
+      name: Brady House
+      ref: 
+    - role: team
+      name: Washington Nationals
+      ref: 
+- number: CBA-BM
+  uuid: 3c8c6849-9e90-4957-a6dc-fe1ceb50717d
+  subjects:
+  - entities:
+    - role: player
+      name: Brice Matthews
+      ref: 
+    - role: team
+      name: Houston Astros
+      ref: 
+- number: CBA-BR
+  uuid: 4a3c27cb-3cba-461d-b674-26919ddca925
+  subjects:
+  - entities:
+    - role: player
+      name: Brent Rooker
+      ref: 
+    - role: team
+      name: Athletics
+      ref: 
+- number: CBA-BT
+  uuid: 1f3c31c1-cfda-460a-8d38-da2ae4764649
+  subjects:
+  - entities:
+    - role: player
+      name: Brice Turang
+      ref: 
+    - role: team
+      name: Milwaukee Brewers
+      ref: 
+- number: CBA-BW
+  uuid: 55bb02ee-fd8b-47a4-9f78-02ec6b99d27a
+  subjects:
+  - entities:
+    - role: player
+      name: Bryan Woo
+      ref: 
+    - role: team
+      name: Seattle Mariners
+      ref: 
+- number: CBA-BZ
+  uuid: 4fa3d5e3-ae50-4e82-82d5-6561888a48fa
+  subjects:
+  - entities:
+    - role: player
+      name: Barry Zito
+      ref: 
+    - role: team
+      name: Oakland Athletics
+      ref: 
+- number: CBA-CA
+  uuid: 760000a1-360b-48a8-89f3-8094d56d0821
+  subjects:
+  - entities:
+    - role: player
+      name: CJ Abrams
+      ref: 
+    - role: team
+      name: Washington Nationals
+      ref: 
+- number: CBA-CAG
+  uuid: d87be9a7-e58c-409b-850f-1128fac66a48
+  subjects:
+  - entities:
+    - role: player
+      name: Jac Caglianone
+      ref: 
+    - role: team
+      name: Kansas City Royals
+      ref: 
+- number: CBA-CB
+  uuid: 0f267285-954d-4270-82f5-a5804dc76805
+  subjects:
+  - entities:
+    - role: player
+      name: Chase Burns
+      ref: 
+    - role: team
+      name: Cincinnati Reds
+      ref: 
+- number: CBA-CBL
+  uuid: 498473ea-3689-4a67-9c88-6779af160dfc
+  subjects:
+  - entities:
+    - role: player
+      name: Charlie Blackmon
+      ref: 
+    - role: team
+      name: Colorado Rockies
+      ref: 
+- number: CBA-CC
+  uuid: 03cea6d3-a389-4178-810a-47377b835094
+  subjects:
+  - entities:
+    - role: player
+      name: Corbin Carroll
+      ref: 
+    - role: team
+      name: Arizona Diamondbacks
+      ref: 
+- number: CBA-CD
+  uuid: 525e54d0-48a9-40ac-ac2b-669c1c9919dc
+  subjects:
+  - entities:
+    - role: player
+      name: Chase Dollander
+      ref: 
+    - role: team
+      name: Colorado Rockies
+      ref: 
+- number: CBA-CDE
+  uuid: 94750be9-6738-4b38-813b-068a434f1485
+  subjects:
+  - entities:
+    - role: player
+      name: Chase DeLauter
+      ref: 
+    - role: team
+      name: Cleveland Guardians
+      ref: 
+- number: CBA-CF
+  uuid: 22a51994-b024-46b7-bc65-efb5279d243a
+  subjects:
+  - entities:
+    - role: player
+      name: Cody Freeman
+      ref: 
+    - role: team
+      name: Texas Rangers
+      ref: 
+- number: CBA-CH
+  uuid: e8813b26-880b-48a5-81c8-b1647c59cc8b
+  subjects:
+  - entities:
+    - role: player
+      name: Cade Horton
+      ref: 
+    - role: team
+      name: Chicago Cubs
+      ref: 
+- number: CBA-CJ
+  uuid: 40fa49e5-9344-49c2-961d-070a58b48482
+  subjects:
+  - entities:
+    - role: player
+      name: C.J. Kayfus
+      ref: 
+    - role: team
+      name: Cleveland Guardians
+      ref: 
+- number: CBA-CM
+  uuid: 22cc091d-9c8d-4fe5-a6aa-b1a4ce84d38a
+  subjects:
+  - entities:
+    - role: player
+      name: Christian Moore
+      ref: 
+    - role: team
+      name: Los Angeles Angels
+      ref: 
+- number: CBA-CME
+  uuid: e0542de1-b0db-482e-9b57-ac683b1b9c17
+  subjects:
+  - entities:
+    - role: player
+      name: Chase Meidroth
+      ref: 
+    - role: team
+      name: Chicago White Sox
+      ref: 
+- number: CBA-CMO
+  uuid: 59994301-8d27-4982-aded-a69ad670c1bd
+  subjects:
+  - entities:
+    - role: player
+      name: Colson Montgomery
+      ref: 
+    - role: team
+      name: Chicago White Sox
+      ref: 
+- number: CBA-CR
+  uuid: ad428302-3db6-46d4-8cf2-5ebd5f7fc235
+  subjects:
+  - entities:
+    - role: player
+      name: Cal Raleigh
+      ref: 
+    - role: team
+      name: Seattle Mariners
+      ref: 
+- number: CBA-CT
+  uuid: a6489a90-99e2-47c9-a4bf-371dab4dbf9a
+  subjects:
+  - entities:
+    - role: player
+      name: Colby Thomas
+      ref: 
+    - role: team
+      name: Athletics
+      ref: 
+- number: CBA-CWH
+  uuid: 8cdc2456-7393-41f4-87e6-da49d1250b77
+  subjects:
+  - entities:
+    - role: player
+      name: Carson Whisenhunt
+      ref: 
+    - role: team
+      name: San Francisco Giants
+      ref: 
+- number: CBA-CY
+  uuid: 574a7951-9fbf-4e42-82d0-a5d90b3b6a3c
+  subjects:
+  - entities:
+    - role: player
+      name: Cole Young
+      ref: 
+    - role: team
+      name: Seattle Mariners
+      ref: 
+- number: CBA-CYE
+  uuid: 5edf6ab9-c0d5-486a-96c1-64917e056f7b
+  subjects:
+  - entities:
+    - role: player
+      name: Christian Yelich
+      ref: 
+    - role: team
+      name: Milwaukee Brewers
+      ref: 
+- number: CBA-DB
+  uuid: d8138233-de8a-400c-8e17-484ad5223545
+  subjects:
+  - entities:
+    - role: player
+      name: Drake Baldwin
+      ref: 
+    - role: team
+      name: Atlanta Braves
+      ref: 
+- number: CBA-DBE
+  uuid: dfb861cb-8e1f-4d93-8649-37b80fe12414
+  subjects:
+  - entities:
+    - role: player
+      name: Dylan Beavers
+      ref: 
+    - role: team
+      name: Baltimore Orioles
+      ref: 
+- number: CBA-DF
+  uuid: 792a1833-02ae-450f-885f-7bc41959392b
+  subjects:
+  - entities:
+    - role: player
+      name: Didier Fuentes
+      ref: 
+    - role: team
+      name: Atlanta Braves
+      ref: 
+- number: CBA-DG
+  uuid: c82676af-a5e4-4021-90c6-ac95dc69ec62
+  subjects:
+  - entities:
+    - role: player
+      name: Dwight Gooden
+      ref: 
+    - role: team
+      name: New York Mets
+      ref: 
+- number: CBA-DGI
+  uuid: be91a737-7af2-4f53-b43c-abb47dd2877a
+  subjects:
+  - entities:
+    - role: player
+      name: Drew Gilbert
+      ref: 
+    - role: team
+      name: San Francisco Giants
+      ref: 
+- number: CBA-DJ
+  uuid: fac61549-08bf-4e54-aa47-61d49652e6cf
+  subjects:
+  - entities:
+    - role: player
+      name: Derek Jeter
+      ref: 
+    - role: team
+      name: New York Yankees
+      ref: 
+- number: CBA-DL
+  uuid: 8f3c97a0-1fab-4859-bebf-db35141fe00a
+  subjects:
+  - entities:
+    - role: player
+      name: Derrek Lee
+      ref: 
+    - role: team
+      name: Chicago Cubs
+      ref: 
+- number: CBA-DR
+  uuid: f4025f6f-69a4-49f5-86e7-7027364f948b
+  subjects:
+  - entities:
+    - role: player
+      name: Dalton Rushing
+      ref: 
+    - role: team
+      name: Los Angeles Dodgers
+      ref: 
+- number: CBA-DW
+  uuid: 50fb14ee-cb2b-4353-9c6c-ee5ba02ab930
+  subjects:
+  - entities:
+    - role: player
+      name: Dave Winfield
+      ref: 
+    - role: team
+      name: San Diego Padres
+      ref: 
+- number: CBA-ED
+  uuid: e165e08c-9de5-4551-93ba-55b7c443a433
+  subjects:
+  - entities:
+    - role: player
+      name: Elly De La Cruz
+      ref: 
+    - role: team
+      name: Cincinnati Reds
+      ref: 
+- number: CBA-EM
+  uuid: 377b4fa3-6433-4910-a6dc-0577d99169ae
+  subjects:
+  - entities:
+    - role: player
+      name: Eddie Murray
+      ref: 
+    - role: team
+      name: Baltimore Orioles
+      ref: 
+- number: CBA-EQ
+  uuid: 86195cca-b456-4997-b199-374f75e42058
+  subjects:
+  - entities:
+    - role: player
+      name: Edgar Quero
+      ref: 
+    - role: team
+      name: Chicago White Sox
+      ref: 
+- number: CBA-FT
+  uuid: d56d526a-cbd3-48d9-bcce-68a75af0a943
+  subjects:
+  - entities:
+    - role: player
+      name: Frank Thomas
+      ref: 
+    - role: team
+      name: Chicago White Sox
+      ref: 
+- number: CBA-FTJ
+  uuid: fbc040d5-9ef1-400b-841c-87b4ed5dc501
+  subjects:
+  - entities:
+    - role: player
+      name: Fernando Tatis Jr.
+      ref: 
+    - role: team
+      name: San Diego Padres
+      ref: 
+- number: CBA-HK
+  uuid: 0d452b0b-86ab-4a5f-8333-983dc6d123c7
+  subjects:
+  - entities:
+    - role: player
+      name: Hyeseong Kim
+      ref: 
+    - role: team
+      name: Los Angeles Dodgers
+      ref: 
+- number: CBA-HP
+  uuid: 658e5804-6f2b-40de-a151-908237625c2d
+  subjects:
+  - entities:
+    - role: player
+      name: Hunter Pence
+      ref: 
+    - role: team
+      name: San Francisco Giants
+      ref: 
+- number: CBA-HR
+  uuid: 9cf31873-d173-4923-88f9-2620d247ef51
+  subjects:
+  - entities:
+    - role: player
+      name: Hanley Ramirez
+      ref: 
+    - role: team
+      name: Florida Marlins
+      ref: 
+- number: CBA-IC
+  uuid: d165d2db-ecb3-4205-8cc2-8275ad9ef4af
+  subjects:
+  - entities:
+    - role: player
+      name: Isaac Collins
+      ref: 
+    - role: team
+      name: Milwaukee Brewers
+      ref: 
+- number: CBA-JA
+  uuid: b8eeb7c2-3259-493e-ab2c-6810c36e1c7e
+  subjects:
+  - entities:
+    - role: player
+      name: Jonathan Aranda
+      ref: 
+    - role: team
+      name: Tampa Bay Rays
+      ref: 
+- number: CBA-JB
+  uuid: 0776c13d-83e4-42f5-8ee8-e2c7d314c855
+  subjects:
+  - entities:
+    - role: player
+      name: Johnny Bench
+      ref: 
+    - role: team
+      name: Cincinnati Reds
+      ref: 
+- number: CBA-JCA
+  uuid: 2fac083a-7758-4785-b019-edd358aa98df
+  subjects:
+  - entities:
+    - role: player
+      name: Jose Canseco
+      ref: 
+    - role: team
+      name: Oakland Athletics
+      ref: 
+- number: CBA-JCJ
+  uuid: 31751525-a786-447f-adce-46d0fabf4baa
+  subjects:
+  - entities:
+    - role: player
+      name: Jazz Chisholm Jr.
+      ref: 
+    - role: team
+      name: New York Yankees
+      ref: 
+- number: CBA-JD
+  uuid: 6c2190e3-29ea-4991-832b-1dc84a50e9b0
+  subjects:
+  - entities:
+    - role: player
+      name: Jasson Domínguez
+      ref: 
+    - role: team
+      name: New York Yankees
+      ref: 
+- number: CBA-JDA
+  uuid: 03becbfa-7402-4653-8ff5-ced70062b278
+  subjects:
+  - entities:
+    - role: player
+      name: Johnny Damon
+      ref: 
+    - role: team
+      name: Tampa Bay Rays
+      ref: 
+- number: CBA-JI
+  uuid: cfd090a3-aad5-4894-924d-88223be9bdea
+  subjects:
+  - entities:
+    - role: player
+      name: Jimmy Crooks
+      ref: 
+    - role: team
+      name: St. Louis Cardinals
+      ref: 
+- number: CBA-JLE
+  uuid: 24fc2783-cba6-4938-9c5c-9d9c30488c6d
+  subjects:
+  - entities:
+    - role: player
+      name: Jack Leiter
+      ref: 
+    - role: team
+      name: Texas Rangers
+      ref: 
+- number: CBA-JM
+  uuid: 690107fd-7a55-45dc-aaec-a9a6357c10ff
+  subjects:
+  - entities:
+    - role: player
+      name: Jacob Melton
+      ref: 
+    - role: team
+      name: Houston Astros
+      ref: 
+- number: CBA-JMA
+  uuid: b830ae07-8be9-4cbe-b21b-57a5c1da9d84
+  subjects:
+  - entities:
+    - role: player
+      name: Jakob Marsee
+      ref: 
+    - role: team
+      name: Miami Marlins
+      ref: 
+- number: CBA-JMI
+  uuid: 1891755b-adbb-45b8-801e-34957898b14a
+  subjects:
+  - entities:
+    - role: player
+      name: Jacob Misiorowski
+      ref: 
+    - role: team
+      name: Milwaukee Brewers
+      ref: 
+- number: CBA-JR
+  uuid: 8e2cf926-5bfe-4dd1-9ae5-7e72ad01e549
+  subjects:
+  - entities:
+    - role: player
+      name: Julio Rodríguez
+      ref: 
+    - role: team
+      name: Seattle Mariners
+      ref: 
+- number: CBA-JRE
+  uuid: 73095546-dc44-4938-99ee-61e2e901c8ec
+  subjects:
+  - entities:
+    - role: player
+      name: José Reyes
+      ref: 
+    - role: team
+      name: New York Mets
+      ref: 
+- number: CBA-JRO
+  uuid: 54e1a436-3746-44bd-ad82-7a14c277d7c1
+  subjects:
+  - entities:
+    - role: player
+      name: Jimmy Rollins
+      ref: 
+    - role: team
+      name: Philadelphia Phillies
+      ref: 
+- number: CBA-JS
+  uuid: 5cd9bf6e-6173-40c0-a72e-1063687eb577
+  subjects:
+  - entities:
+    - role: player
+      name: Johan Santana
+      ref: 
+    - role: team
+      name: New York Mets
+      ref: 
+- number: CBA-JT
+  uuid: 92ecd849-4736-4a72-9c1e-83941623c3b4
+  subjects:
+  - entities:
+    - role: player
+      name: Jonah Tong
+      ref: 
+    - role: team
+      name: New York Mets
+      ref: 
+- number: CBA-JWE
+  uuid: a4e10745-fcae-4991-b661-5f170329448b
+  subjects:
+  - entities:
+    - role: player
+      name: Jordan Westburg
+      ref: 
+    - role: team
+      name: Baltimore Orioles
+      ref: 
+- number: CBA-KCA
+  uuid: 80e5331b-43ee-48ff-8881-a2ef99026700
+  subjects:
+  - entities:
+    - role: player
+      name: Kristian Campbell
+      ref: 
+    - role: team
+      name: Boston Red Sox
+      ref: 
+- number: CBA-KK
+  uuid: 689dcc92-ec83-4a45-b513-617e17d2c9c2
+  subjects:
+  - entities:
+    - role: player
+      name: Kyle Karros
+      ref: 
+    - role: team
+      name: Colorado Rockies
+      ref: 
+- number: CBA-KO
+  uuid: 4c81f0e2-0ceb-4005-82c8-a619cf912c61
+  subjects:
+  - entities:
+    - role: player
+      name: Kazuma Okamoto
+      ref: 
+    - role: team
+      name: Toronto Blue Jays
+      ref: 
+- number: CBA-KS
+  uuid: 4f0e9a1a-9a90-4159-8c64-6b3a3421fc9c
+  subjects:
+  - entities:
+    - role: player
+      name: Kodai Senga
+      ref: 
+    - role: team
+      name: New York Mets
+      ref: 
+- number: CBA-KW
+  uuid: 285a2373-0432-466a-83bd-cc3b97bc907b
+  subjects:
+  - entities:
+    - role: player
+      name: Kerry Wood
+      ref: 
+    - role: team
+      name: Chicago Cubs
+      ref: 
+- number: CBA-LA
+  uuid: 25f3afa1-c3a2-4d6c-8904-9698b2351de7
+  subjects:
+  - entities:
+    - role: player
+      name: Luis Arraez
+      ref: 
+    - role: team
+      name: San Diego Padres
+      ref: 
+- number: CBA-LG
+  uuid: b205c168-9078-4c3a-82cd-9b4ef46845e4
+  subjects:
+  - entities:
+    - role: player
+      name: Luis Gonzalez
+      ref: 
+    - role: team
+      name: Arizona Diamondbacks
+      ref: 
+- number: CBA-LW
+  uuid: f4d818eb-fea5-4504-84dd-87704065b936
+  subjects:
+  - entities:
+    - role: player
+      name: Logan Webb
+      ref: 
+    - role: team
+      name: San Francisco Giants
+      ref: 
+- number: CBA-LWA
+  uuid: b0a2d0f4-ea5c-4fb6-9558-88c11afc4ddb
+  subjects:
+  - entities:
+    - role: player
+      name: Larry Walker
+      ref: 
+    - role: team
+      name: Colorado Rockies
+      ref: 
+- number: CBA-MHA
+  uuid: 690ff453-e818-49fd-8049-055142456003
+  subjects:
+  - entities:
+    - role: player
+      name: Michael Harris II
+      ref: 
+    - role: team
+      name: Atlanta Braves
+      ref: 
+- number: CBA-MM
+  uuid: cb0e0b8d-58e0-4c46-af43-8fb802a1ee93
+  subjects:
+  - entities:
+    - role: player
+      name: Mark McGwire
+      ref: 
+    - role: team
+      name: St. Louis Cardinals
+      ref: 
+- number: CBA-MT
+  uuid: eb999da2-4918-4129-aeb2-b042fc2cb959
+  subjects:
+  - entities:
+    - role: player
+      name: Mike Trout
+      ref: 
+    - role: team
+      name: Los Angeles Angels
+      ref: 
+- number: CBA-MU
+  uuid: 02e2e5cb-b87d-48f1-b5c5-3293622de084
+  subjects:
+  - entities:
+    - role: player
+      name: Munetaka Murakami
+      ref: 
+    - role: team
+      name: Chicago White Sox
+      ref: 
+- number: CBA-NC
+  uuid: 8529b89b-292c-4c75-89fc-430fcee3242d
+  subjects:
+  - entities:
+    - role: player
+      name: Nathan Church
+      ref: 
+    - role: team
+      name: St. Louis Cardinals
+      ref: 
+- number: CBA-NK
+  uuid: f4b2de6c-6308-4c02-8845-031471bc5725
+  subjects:
+  - entities:
+    - role: player
+      name: Nick Kurtz
+      ref: 
+    - role: team
+      name: Athletics
+      ref: 
+- number: CBA-NM
+  uuid: 597ef7a9-57fe-4d71-a5ad-9e0e9ea90f24
+  subjects:
+  - entities:
+    - role: player
+      name: Nolan McLean
+      ref: 
+    - role: team
+      name: New York Mets
+      ref: 
+- number: CBA-OC
+  uuid: f7e60a63-a46b-41fe-ad66-83edde05ab28
+  subjects:
+  - entities:
+    - role: player
+      name: Owen Caissie
+      ref: 
+    - role: team
+      name: Chicago Cubs
+      ref: 
+- number: CBA-OH
+  uuid: 65956dc1-e0e2-4abc-9a79-9054b2a65578
+  subjects:
+  - entities:
+    - role: player
+      name: Orlando Hernandez
+      ref: 
+    - role: team
+      name: New York Yankees
+      ref: 
+- number: CBA-OK
+  uuid: f9f75b2b-6c6b-4378-bed3-5286add0ac53
+  subjects:
+  - entities:
+    - role: player
+      name: Otto Kemp
+      ref: 
+    - role: team
+      name: Philadelphia Phillies
+      ref: 
+- number: CBA-PO
+  uuid: 9139bfa3-df48-4834-8d1e-a35734b0d5ec
+  subjects:
+  - entities:
+    - role: player
+      name: Paul O'Neill
+      ref: 
+    - role: team
+      name: New York Yankees
+      ref: 
+- number: CBA-PS
+  uuid: 37ba00ed-7203-40b8-b95d-887fe34095e6
+  subjects:
+  - entities:
+    - role: player
+      name: Paul Skenes
+      ref: 
+    - role: team
+      name: Pittsburgh Pirates
+      ref: 
+- number: CBA-RA
+  uuid: 03c9fadd-ef57-47e6-8b58-e9194b81f457
+  subjects:
+  - entities:
+    - role: player
+      name: Roman Anthony
+      ref: 
+    - role: team
+      name: Boston Red Sox
+      ref: 
+- number: CBA-RAJ
+  uuid: 2abf9788-67f6-4195-9b44-45180f01a2c6
+  subjects:
+  - entities:
+    - role: player
+      name: Ronald Acuña Jr.
+      ref: 
+    - role: team
+      name: Atlanta Braves
+      ref: 
+- number: CBA-RAR
+  uuid: fba2b6b7-8b83-4cef-bc70-7255e29d15d1
+  subjects:
+  - entities:
+    - role: player
+      name: Randy Arozarena
+      ref: 
+    - role: team
+      name: Seattle Mariners
+      ref: 
+- number: CBA-RRI
+  uuid: b7fa910d-8264-42cf-8398-0a185a15495b
+  subjects:
+  - entities:
+    - role: player
+      name: Ryan Ritter
+      ref: 
+    - role: team
+      name: Colorado Rockies
+      ref: 
+- number: CBA-RS
+  uuid: b90f0efb-bbad-4824-aa46-d86a1ff44a85
+  subjects:
+  - entities:
+    - role: player
+      name: Roki Sasaki
+      ref: 
+    - role: team
+      name: Los Angeles Dodgers
+      ref: 
+- number: CBA-SB
+  uuid: eab86b31-0092-4fb1-9228-a4ac602a03c6
+  subjects:
+  - entities:
+    - role: player
+      name: Samuel Basallo
+      ref: 
+    - role: team
+      name: Baltimore Orioles
+      ref: 
+- number: CBA-SC
+  uuid: d45546ee-5013-4312-907c-745921adc11f
+  subjects:
+  - entities:
+    - role: player
+      name: Cam Schlittler
+      ref: 
+    - role: team
+      name: New York Yankees
+      ref: 
+- number: CBA-SK
+  uuid: 4363340f-bad2-4950-9a60-c4b12d124555
+  subjects:
+  - entities:
+    - role: player
+      name: Sandy Koufax
+      ref: 
+    - role: team
+      name: Los Angeles Dodgers
+      ref: 
+- number: CBA-SOG
+  uuid: f93e4f17-29ee-46ee-85a3-83f31ca905b8
+  subjects:
+  - entities:
+    - role: player
+      name: Shinnosuke Ogasawara
+      ref: 
+    - role: team
+      name: Washington Nationals
+      ref: 
+- number: CBA-SS
+  uuid: fcb54a6a-d3c0-40f7-abc2-661c80d08b63
+  subjects:
+  - entities:
+    - role: player
+      name: Sal Stewart
+      ref: 
+    - role: team
+      name: Cincinnati Reds
+      ref: 
+- number: CBA-TI
+  uuid: 5264e2fa-a66a-461e-9d25-4b09bf361559
+  subjects:
+  - entities:
+    - role: player
+      name: Tatsuya Imai
+      ref: 
+    - role: team
+      name: Houston Astros
+      ref: 
+- number: CBA-TM
+  uuid: dbd98600-0aab-4846-9bf7-325cd3265848
+  subjects:
+  - entities:
+    - role: player
+      name: Troy Melton
+      ref: 
+    - role: team
+      name: Detroit Tigers
+      ref: 
+- number: CBA-TS
+  uuid: a23d30eb-1911-49fa-bf9a-72af69ad900a
+  subjects:
+  - entities:
+    - role: player
+      name: Ted Simmons
+      ref: 
+    - role: team
+      name: St. Louis Cardinals
+      ref: 
+- number: CBA-TY
+  uuid: 047b01d1-2d2d-4c4f-a039-48295ad03d36
+  subjects:
+  - entities:
+    - role: player
+      name: Trey Yesavage
+      ref: 
+    - role: team
+      name: Toronto Blue Jays
+      ref: 
+- number: CBA-VG
+  uuid: fccd7e18-7bfd-47b4-a13a-bca9f365a75c
+  subjects:
+  - entities:
+    - role: player
+      name: Vladimir Guerrero Jr.
+      ref: 
+    - role: team
+      name: Toronto Blue Jays
+      ref: 
+- number: CBA-VW
+  uuid: a6e774a3-e3f8-4393-8733-6807cf97cf04
+  subjects:
+  - entities:
+    - role: player
+      name: Vernon Wells
+      ref: 
+    - role: team
+      name: Toronto Blue Jays
+      ref: 
+- number: CBA-WB
+  uuid: c6a551fa-48a6-4613-b596-3257b33559fa
+  subjects:
+  - entities:
+    - role: player
+      name: Wade Boggs
+      ref: 
+    - role: team
+      name: Boston Red Sox
+      ref: 
+- number: CBA-WBE
+  uuid: 0473ce20-5351-4cab-8b25-402822718bc9
+  subjects:
+  - entities:
+    - role: player
+      name: Warming Bernabel
+      ref: 
+    - role: team
+      name: Colorado Rockies
+      ref: 
+- number: CBA-WC
+  uuid: 6e249fe8-cb9c-402f-a7dd-0067c950dd71
+  subjects:
+  - entities:
+    - role: player
+      name: Will Clark
+      ref: 
+    - role: team
+      name: San Francisco Giants
+      ref: 
+- number: CBA-YF
+  uuid: 0bc75266-fe15-41ab-8047-0af4187625f5
+  subjects:
+  - entities:
+    - role: player
+      name: Yanquiel Fernández
+      ref: 
+    - role: team
+      name: Colorado Rockies
+      ref: 
+- number: CBA-ZNE
+  uuid: a7f422d0-b750-48be-a1e6-47db7b99a2be
+  subjects:
+  - entities:
+    - role: player
+      name: Zach Neto
+      ref: 
+    - role: team
+      name: Los Angeles Angels
+      ref: 

@@ -1,0 +1,300 @@
+- number: DAM-1
+  uuid: b4895b63-2038-404c-9082-b1e43a29094b
+  subjects:
+  - entities:
+    - role: player
+      name: Shohei Ohtani
+      ref: 
+    - role: team
+      name: Los Angeles Dodgers
+      ref: 
+- number: DAM-2
+  uuid: 65ba6f34-d418-462a-9806-04b55bbe83f5
+  subjects:
+  - entities:
+    - role: player
+      name: Aaron Judge
+      ref: 
+    - role: team
+      name: New York Yankees
+      ref: 
+- number: DAM-3
+  uuid: 15690252-361c-4335-b109-a82ade8c9f4c
+  subjects:
+  - entities:
+    - role: player
+      name: Ronald Acuña Jr.
+      ref: 
+    - role: team
+      name: Atlanta Braves
+      ref: 
+- number: DAM-4
+  uuid: 9befdf96-7b72-45ff-b1d1-deb9ccb6f757
+  subjects:
+  - entities:
+    - role: player
+      name: Bobby Witt Jr.
+      ref: 
+    - role: team
+      name: Kansas City Royals
+      ref: 
+- number: DAM-5
+  uuid: 0ca19acc-17d7-463e-bf23-5eb9c43112c4
+  subjects:
+  - entities:
+    - role: player
+      name: Juan Soto
+      ref: 
+    - role: team
+      name: New York Mets
+      ref: 
+- number: DAM-6
+  uuid: 3dc77330-40b8-48fe-8e74-d16f8e4ab1f5
+  subjects:
+  - entities:
+    - role: player
+      name: Cal Raleigh
+      ref: 
+    - role: team
+      name: Seattle Mariners
+      ref: 
+- number: DAM-7
+  uuid: fc0abde9-aed2-4832-9bab-535759d5ebbd
+  subjects:
+  - entities:
+    - role: player
+      name: Pete Crow-Armstrong
+      ref: 
+    - role: team
+      name: Chicago Cubs
+      ref: 
+- number: DAM-8
+  uuid: a66d3b22-52fd-44f7-bf2c-7882668a4017
+  subjects:
+  - entities:
+    - role: player
+      name: Paul Skenes
+      ref: 
+    - role: team
+      name: Pittsburgh Pirates
+      ref: 
+- number: DAM-9
+  uuid: 1d118c43-2150-4fb2-a214-f06512d55ddb
+  subjects:
+  - entities:
+    - role: player
+      name: Nick Kurtz
+      ref: 
+    - role: team
+      name: Athletics
+      ref: 
+- number: DAM-10
+  uuid: 88b1cab9-2e14-4293-9167-bec51fc5890e
+  subjects:
+  - entities:
+    - role: player
+      name: Kyle Schwarber
+      ref: 
+    - role: team
+      name: Philadelphia Phillies
+      ref: 
+- number: DAM-11
+  uuid: ecc15113-d53e-4fc6-8940-61be8287bd51
+  subjects:
+  - entities:
+    - role: player
+      name: Fernando Tatis Jr.
+      ref: 
+    - role: team
+      name: San Diego Padres
+      ref: 
+- number: DAM-12
+  uuid: 91647fa3-aff9-4dbe-b56b-a8dd040f33c4
+  subjects:
+  - entities:
+    - role: player
+      name: Francisco Lindor
+      ref: 
+    - role: team
+      name: New York Mets
+      ref: 
+- number: DAM-13
+  uuid: 7d493a30-d012-461f-ba99-589b60f0e398
+  subjects:
+  - entities:
+    - role: player
+      name: Elly De La Cruz
+      ref: 
+    - role: team
+      name: Cincinnati Reds
+      ref: 
+- number: DAM-14
+  uuid: 417bd20c-ce90-4780-ad34-1f5a64310ed0
+  subjects:
+  - entities:
+    - role: player
+      name: Bryce Harper
+      ref: 
+    - role: team
+      name: Philadelphia Phillies
+      ref: 
+- number: DAM-15
+  uuid: b80395ce-6e74-46e7-89bf-9375a02cb91e
+  subjects:
+  - entities:
+    - role: player
+      name: Vladimir Guerrero Jr.
+      ref: 
+    - role: team
+      name: Toronto Blue Jays
+      ref: 
+- number: DAM-16
+  uuid: 0d457358-a589-4d2b-8f38-8af476ae071c
+  subjects:
+  - entities:
+    - role: player
+      name: Tarik Skubal
+      ref: 
+    - role: team
+      name: Detroit Tigers
+      ref: 
+- number: DAM-17
+  uuid: dfa18504-d6bd-4170-9ce8-efba059b0075
+  subjects:
+  - entities:
+    - role: player
+      name: Jac Caglianone
+      ref: 
+    - role: team
+      name: Kansas City Royals
+      ref: 
+- number: DAM-18
+  uuid: beff7263-d10d-4494-a831-18b9bca47198
+  subjects:
+  - entities:
+    - role: player
+      name: Roman Anthony
+      ref: 
+    - role: team
+      name: Boston Red Sox
+      ref: 
+- number: DAM-19
+  uuid: 6d09a27d-5076-43a8-bae0-a3e01daf8e72
+  subjects:
+  - entities:
+    - role: player
+      name: Colson Montgomery
+      ref: 
+    - role: team
+      name: Chicago White Sox
+      ref: 
+- number: DAM-20
+  uuid: 9df54536-6edf-4368-a75e-eb63e4935459
+  subjects:
+  - entities:
+    - role: player
+      name: Kyle Teel
+      ref: 
+    - role: team
+      name: Chicago White Sox
+      ref: 
+- number: DAM-21
+  uuid: f0c2aff3-3436-4fe8-b696-68ca7a821888
+  subjects:
+  - entities:
+    - role: player
+      name: Jacob Misiorowski
+      ref: 
+    - role: team
+      name: Milwaukee Brewers
+      ref: 
+- number: DAM-22
+  uuid: 58dbcb2c-24eb-4dc6-95f7-07d5db6ea0ee
+  subjects:
+  - entities:
+    - role: player
+      name: Christian Moore
+      ref: 
+    - role: team
+      name: Los Angeles Angels
+      ref: 
+- number: DAM-23
+  uuid: 97de07cd-4d60-4f34-98ce-a0352517a20f
+  subjects:
+  - entities:
+    - role: player
+      name: Chase Burns
+      ref: 
+    - role: team
+      name: Cincinnati Reds
+      ref: 
+- number: DAM-24
+  uuid: 7f616930-8fe1-4d68-9098-2434158dfdfd
+  subjects:
+  - entities:
+    - role: player
+      name: Owen Caissie
+      ref: 
+    - role: team
+      name: Chicago Cubs
+      ref: 
+- number: DAM-25
+  uuid: c1641c0f-47d3-4625-83e9-6f1c793c8e51
+  subjects:
+  - entities:
+    - role: player
+      name: Samuel Basallo
+      ref: 
+    - role: team
+      name: Baltimore Orioles
+      ref: 
+- number: DAM-26
+  uuid: 31f94147-40d5-48b3-bb83-6050882fa496
+  subjects:
+  - entities:
+    - role: player
+      name: Bubba Chandler
+      ref: 
+    - role: team
+      name: Pittsburgh Pirates
+      ref: 
+- number: DAM-27
+  uuid: aec6989d-958d-44b9-939d-50e94d1327f0
+  subjects:
+  - entities:
+    - role: player
+      name: Sal Stewart
+      ref: 
+    - role: team
+      name: Cincinnati Reds
+      ref: 
+- number: DAM-28
+  uuid: ac5718e3-84f2-4afb-8e39-a1ed418ebc53
+  subjects:
+  - entities:
+    - role: player
+      name: Harry Ford
+      ref: 
+    - role: team
+      name: Seattle Mariners
+      ref: 
+- number: DAM-30
+  uuid: f33c0cc4-feee-4b71-9698-e98f45d0b6f5
+  subjects:
+  - entities:
+    - role: player
+      name: Payton Tolle
+      ref: 
+    - role: team
+      name: Boston Red Sox
+      ref: 
+- number: DAM-31
+  uuid: d7ac4d3f-40ca-4462-a8e7-e40f9bcd53d4
+  subjects:
+  - entities:
+    - role: player
+      name: Carson Williams
+      ref: 
+    - role: team
+      name: Tampa Bay Rays
+      ref: 
