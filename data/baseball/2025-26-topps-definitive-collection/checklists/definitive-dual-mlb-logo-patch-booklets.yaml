@@ -297,6 +297,13 @@
     - role: team
       name: New York Mets
       ref: 
+  - entities:
+    - role: player
+      name: Juan Soto
+      ref: 
+    - role: team
+      name: Washington Nationals
+      ref: 
 - number: DDLP-VC
   uuid: 19837486-4c24-4c34-9219-db50d83964da
   subjects:
