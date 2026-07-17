@@ -1,0 +1,310 @@
+- number: BPA-AA
+  uuid: e0c0de25-2277-4464-a47c-d8c7e7d479c2
+  subjects:
+  - entities:
+    - role: player
+      name: Aiva Arquette
+      ref: 
+    - role: team
+      name: Miami Marlins
+      ref: 
+- number: BPA-AF
+  uuid: 285d870a-f385-481d-81bc-bafa0f22137d
+  subjects:
+  - entities:
+    - role: player
+      name: Andrew Fischer
+      ref: 
+    - role: team
+      name: Milwaukee Brewers
+      ref: 
+- number: BPA-AG
+  uuid: f2b396c3-0e0a-4f59-86cf-9571676da638
+  subjects:
+  - entities:
+    - role: player
+      name: Angel Guzman
+      ref: 
+    - role: team
+      name: San Francisco Giants
+      ref: 
+- number: BPA-AL
+  uuid: fe425381-5e15-4955-84df-1a29394312a9
+  subjects:
+  - entities:
+    - role: player
+      name: Arnaldo Lantigua
+      ref: 
+    - role: team
+      name: Cincinnati Reds
+      ref: 
+- number: BPA-BM
+  uuid: fbf1660d-8edf-4956-8045-ea8e5edc34b0
+  subjects:
+  - entities:
+    - role: player
+      name: Blake Mitchell
+      ref: 
+    - role: team
+      name: Kansas City Royals
+      ref: 
+- number: BPA-CB
+  uuid: e2749a3b-61bb-42e9-9fbf-e75e6b1a10ba
+  subjects:
+  - entities:
+    - role: player
+      name: Caleb Bonemer
+      ref: 
+    - role: team
+      name: Chicago White Sox
+      ref: 
+- number: BPA-CBE
+  uuid: ddb4600d-13bd-42f9-ace2-e932d8ebf5f1
+  subjects:
+  - entities:
+    - role: player
+      name: Carson Benge
+      ref: 
+    - role: team
+      name: New York Mets
+      ref: 
+- number: BPA-CE
+  uuid: b24ff2d7-3ff2-4861-b9ed-11c90dc2fa3e
+  subjects:
+  - entities:
+    - role: player
+      name: Colt Emerson
+      ref: 
+    - role: team
+      name: Seattle Mariners
+      ref: 
+- number: BPA-CJ
+  uuid: 8f96e441-93a1-4980-a768-56ae657d2a76
+  subjects:
+  - entities:
+    - role: player
+      name: Coy James
+      ref: 
+    - role: team
+      name: Washington Nationals
+      ref: 
+- number: BPA-DP
+  uuid: ec89f1a5-0f3f-48f7-96b9-6d9fcabe8516
+  subjects:
+  - entities:
+    - role: player
+      name: Daniel Pierce
+      ref: 
+    - role: team
+      name: Tampa Bay Rays
+      ref: 
+- number: BPA-DT
+  uuid: 31d1b410-6e48-4fd1-b50f-0a1d8dbcfaa0
+  subjects:
+  - entities:
+    - role: player
+      name: Diego Tornes
+      ref: 
+    - role: team
+      name: Atlanta Braves
+      ref: 
+- number: BPA-EC
+  uuid: 97d18124-bc88-4928-ba60-aaef35e09eb7
+  subjects:
+  - entities:
+    - role: player
+      name: Ethan Conrad
+      ref: 
+    - role: team
+      name: Chicago Cubs
+      ref: 
+- number: BPA-EF
+  uuid: 1de22a81-a0f5-4f1e-86ad-cf7d29577743
+  subjects:
+  - entities:
+    - role: player
+      name: Edward Florentino
+      ref: 
+    - role: team
+      name: Pittsburgh Pirates
+      ref: 
+- number: BPA-EH
+  uuid: 72ab1b23-d64c-4cca-bf03-eb1c4d950369
+  subjects:
+  - entities:
+    - role: player
+      name: Ethan Holliday
+      ref: 
+    - role: team
+      name: Colorado Rockies
+      ref: 
+- number: BPA-GS
+  uuid: ff435996-58e3-4f84-9a9a-0c2168a6c633
+  subjects:
+  - entities:
+    - role: player
+      name: Grant Shepardson
+      ref: 
+    - role: team
+      name: Miami Marlins
+      ref: 
+- number: BPA-GT
+  uuid: d60495de-7f25-496a-bdd1-e39deee0d8af
+  subjects:
+  - entities:
+    - role: player
+      name: Gavin Turley
+      ref: 
+    - role: team
+      name: Athletics
+      ref: 
+- number: BPA-JP
+  uuid: 7bb24294-7c34-438e-906a-f458c626b4e7
+  subjects:
+  - entities:
+    - role: player
+      name: Jose Perdomo
+      ref: 
+    - role: team
+      name: Atlanta Braves
+      ref: 
+- number: BPA-JT
+  uuid: 03ddd95d-1d8d-47e2-9b2d-ad1446b5aab4
+  subjects:
+  - entities:
+    - role: player
+      name: James Tibbs III
+      ref: 
+    - role: team
+      name: Los Angeles Dodgers
+      ref: 
+- number: BPA-KC
+  uuid: 5ea5c0e4-e751-4fd9-9556-2922b3a302e7
+  subjects:
+  - entities:
+    - role: player
+      name: Kaelen Culpepper
+      ref: 
+    - role: team
+      name: Minnesota Twins
+      ref: 
+- number: BPA-KD
+  uuid: 8f932cb3-86b2-4de7-a226-17157f8fa790
+  subjects:
+  - entities:
+    - role: player
+      name: Korbyn Dickerson
+      ref: 
+    - role: team
+      name: Seattle Mariners
+      ref: 
+- number: BPA-KG
+  uuid: 4c5aa1c9-9627-457a-8366-3904c0df3f1d
+  subjects:
+  - entities:
+    - role: player
+      name: Konnor Griffin
+      ref: 
+    - role: team
+      name: Pittsburgh Pirates
+      ref: 
+- number: BPA-LP
+  uuid: ac492775-9de4-423c-864a-4353e794fd63
+  subjects:
+  - entities:
+    - role: player
+      name: Luis Peña
+      ref: 
+    - role: team
+      name: Milwaukee Brewers
+      ref: 
+- number: BPA-MH
+  uuid: ab02e576-be79-4b6a-869c-960f2a7ebdca
+  subjects:
+  - entities:
+    - role: player
+      name: Marek Houston
+      ref: 
+    - role: team
+      name: Minnesota Twins
+      ref: 
+- number: BPA-PM
+  uuid: 6b5a32f2-c751-4019-be32-df41287dd42c
+  subjects:
+  - entities:
+    - role: player
+      name: PJ Morlando
+      ref: 
+    - role: team
+      name: Miami Marlins
+      ref: 
+- number: BPA-QM
+  uuid: ec7bf71b-4161-4823-b907-ac541656dec4
+  subjects:
+  - entities:
+    - role: player
+      name: Quinn Mathews
+      ref: 
+    - role: team
+      name: St. Louis Cardinals
+      ref: 
+- number: BPA-SH
+  uuid: c4cf0abe-7573-4dae-ba9d-d64a96453c7e
+  subjects:
+  - entities:
+    - role: player
+      name: Steele Hall
+      ref: 
+    - role: team
+      name: Cincinnati Reds
+      ref: 
+- number: BPA-SKI
+  uuid: fa6f6715-cb3b-4a61-aaa4-5616fcd37aa4
+  subjects:
+  - entities:
+    - role: player
+      name: Seaver King
+      ref: 
+    - role: team
+      name: Washington Nationals
+      ref: 
+- number: BPA-SM
+  uuid: 85574c21-72d7-4d60-9665-e9ce7ef35f8f
+  subjects:
+  - entities:
+    - role: player
+      name: Shotaro Morii
+      ref: 
+    - role: team
+      name: Athletics
+      ref: 
+- number: BPA-WA
+  uuid: b77bf272-6639-4f5d-ab92-5ae0d9bb86a4
+  subjects:
+  - entities:
+    - role: player
+      name: Wehiwa Aloy
+      ref: 
+    - role: team
+      name: Baltimore Orioles
+      ref: 
+- number: BPA-WJ
+  uuid: bdba83ca-fcc9-4696-bab0-8dadc5d4458d
+  subjects:
+  - entities:
+    - role: player
+      name: Walker Jenkins
+      ref: 
+    - role: team
+      name: Minnesota Twins
+      ref: 
+- number: BPA-ZE
+  uuid: 8cdc2564-7699-4c60-ab29-6003597dc453
+  subjects:
+  - entities:
+    - role: player
+      name: Zach Ehrhard
+      ref: 
+    - role: team
+      name: Los Angeles Dodgers
+      ref: 

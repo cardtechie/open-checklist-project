@@ -1,0 +1,250 @@
+- number: ES-1
+  uuid: 0fe06f7f-a8c4-4d39-a70c-4aa5304b9bf0
+  subjects:
+  - entities:
+    - role: player
+      name: Francisco Lindor
+      ref: 
+    - role: team
+      name: New York Mets
+      ref: 
+- number: ES-2
+  uuid: bbf001d0-a4f0-4496-a41b-ce770cefe60d
+  subjects:
+  - entities:
+    - role: player
+      name: Vladimir Guerrero Jr.
+      ref: 
+    - role: team
+      name: Toronto Blue Jays
+      ref: 
+- number: ES-3
+  uuid: fd429ec4-73d9-4821-a4b4-a47980208a93
+  subjects:
+  - entities:
+    - role: player
+      name: Fernando Tatis Jr.
+      ref: 
+    - role: team
+      name: San Diego Padres
+      ref: 
+- number: ES-4
+  uuid: a58b00a0-4573-4dcc-b8a7-226850e1da32
+  subjects:
+  - entities:
+    - role: player
+      name: Junior Caminero
+      ref: 
+    - role: team
+      name: Tampa Bay Rays
+      ref: 
+- number: ES-5
+  uuid: b391608f-5896-4669-afdb-d250a274b065
+  subjects:
+  - entities:
+    - role: player
+      name: Mookie Betts
+      ref: 
+    - role: team
+      name: Los Angeles Dodgers
+      ref: 
+- number: ES-6
+  uuid: 16503891-fc9c-4e1f-904c-c605339ff147
+  subjects:
+  - entities:
+    - role: player
+      name: Bryce Harper
+      ref: 
+    - role: team
+      name: Philadelphia Phillies
+      ref: 
+- number: ES-7
+  uuid: 3be84a88-42a0-41d9-9542-346aa6189f67
+  subjects:
+  - entities:
+    - role: player
+      name: Juan Soto
+      ref: 
+    - role: team
+      name: New York Mets
+      ref: 
+- number: ES-8
+  uuid: 8075aa0c-9db7-4a26-a8c5-4fb50d1c330b
+  subjects:
+  - entities:
+    - role: player
+      name: Ronald Acuña Jr.
+      ref: 
+    - role: team
+      name: Atlanta Braves
+      ref: 
+- number: ES-9
+  uuid: b455b777-744b-4029-8681-f102ee5a421a
+  subjects:
+  - entities:
+    - role: player
+      name: Elly De La Cruz
+      ref: 
+    - role: team
+      name: Cincinnati Reds
+      ref: 
+- number: ES-10
+  uuid: 6d7b005e-b835-46d5-bcf7-faace1627bf9
+  subjects:
+  - entities:
+    - role: player
+      name: Samuel Basallo
+      ref: 
+    - role: team
+      name: Baltimore Orioles
+      ref: 
+- number: ES-11
+  uuid: f0eff619-cb12-442d-ad28-7f96c7fcf296
+  subjects:
+  - entities:
+    - role: player
+      name: Bryce Eldridge
+      ref: 
+    - role: team
+      name: San Francisco Giants
+      ref: 
+- number: ES-12
+  uuid: d3b1126a-f385-485c-abdd-53e0c96cf8d6
+  subjects:
+  - entities:
+    - role: player
+      name: JJ Wetherholt
+      ref: 
+    - role: team
+      name: St. Louis Cardinals
+      ref: 
+- number: ES-13
+  uuid: e3b2a065-8c05-4a36-af39-a3b13274816b
+  subjects:
+  - entities:
+    - role: player
+      name: Ethan Holliday
+      ref: 
+    - role: team
+      name: Colorado Rockies
+      ref: 
+- number: ES-14
+  uuid: 3d4c7c1e-acb8-449e-9ef3-f150858deec3
+  subjects:
+  - entities:
+    - role: player
+      name: Cal Raleigh
+      ref: 
+    - role: team
+      name: Seattle Mariners
+      ref: 
+- number: ES-15
+  uuid: 4dcc6b76-8a02-45ce-aa27-3febcc05be2e
+  subjects:
+  - entities:
+    - role: player
+      name: Aaron Judge
+      ref: 
+    - role: team
+      name: New York Yankees
+      ref: 
+- number: ES-16
+  uuid: de70ddc6-f527-440e-a2a4-f8a5ffac9932
+  subjects:
+  - entities:
+    - role: player
+      name: Roman Anthony
+      ref: 
+    - role: team
+      name: Boston Red Sox
+      ref: 
+- number: ES-17
+  uuid: '0595937a-cae8-4b4d-a1fa-0b55d7364909'
+  subjects:
+  - entities:
+    - role: player
+      name: Konnor Griffin
+      ref: 
+    - role: team
+      name: Pittsburgh Pirates
+      ref: 
+- number: ES-18
+  uuid: be7a1e31-5d71-4761-b15f-fd70b7e75653
+  subjects:
+  - entities:
+    - role: player
+      name: Shohei Ohtani
+      ref: 
+    - role: team
+      name: Los Angeles Dodgers
+      ref: 
+- number: ES-19
+  uuid: 5ab21daa-6777-4a2e-b2d9-a3b70f393e0a
+  subjects:
+  - entities:
+    - role: player
+      name: Bobby Witt Jr.
+      ref: 
+    - role: team
+      name: Kansas City Royals
+      ref: 
+- number: ES-20
+  uuid: 1dd25bca-03e9-47c8-8b51-72e146184341
+  subjects:
+  - entities:
+    - role: player
+      name: Jesús Made
+      ref: 
+    - role: team
+      name: Milwaukee Brewers
+      ref: 
+- number: ES-21
+  uuid: 78e5ab6d-013a-4610-9f33-d63e47fc2c95
+  subjects:
+  - entities:
+    - role: player
+      name: Aiva Arquette
+      ref: 
+    - role: team
+      name: Miami Marlins
+      ref: 
+- number: ES-22
+  uuid: fc3b2b5c-b715-43af-afa0-a1d6a3de03a2
+  subjects:
+  - entities:
+    - role: player
+      name: Nick Kurtz
+      ref: 
+    - role: team
+      name: Athletics
+      ref: 
+- number: ES-23
+  uuid: 9ab6b087-3f88-4a38-8ee2-cfd026296cba
+  subjects:
+  - entities:
+    - role: player
+      name: Jac Caglianone
+      ref: 
+    - role: team
+      name: Kansas City Royals
+      ref: 
+- number: ES-24
+  uuid: f67660d7-20e3-4d64-8a21-5936db27dba0
+  subjects:
+  - entities:
+    - role: player
+      name: Pete Crow-Armstrong
+      ref: 
+    - role: team
+      name: Chicago Cubs
+      ref: 
+- number: ES-25
+  uuid: 7a97c1cd-abf7-4bfb-b494-93d234ff9cd6
+  subjects:
+  - entities:
+    - role: player
+      name: Mike Trout
+      ref: 
+    - role: team
+      name: Los Angeles Angels
+      ref: 
