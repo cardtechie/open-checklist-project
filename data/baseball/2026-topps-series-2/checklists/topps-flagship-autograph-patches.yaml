@@ -1,0 +1,510 @@
+- number: TFAP-ABO
+  uuid: '089c2098-dd6d-4feb-bb5f-60d9cd009d87'
+  subjects:
+  - entities:
+    - role: player
+      name: Alec Bohm
+      ref: 
+    - role: team
+      name: Philadelphia Phillies
+      ref: 
+- number: TFAP-AG
+  uuid: d4fe150e-b5f3-4989-9cd0-9af4374ed04a
+  subjects:
+  - entities:
+    - role: player
+      name: Adolis García
+      ref: 
+    - role: team
+      name: Texas Rangers
+      ref: 
+- number: TFAP-AM
+  uuid: 396d0317-d971-4bf5-b347-9ee56e3b6487
+  subjects:
+  - entities:
+    - role: player
+      name: Andrew McCutchen
+      ref: 
+    - role: team
+      name: Pittsburgh Pirates
+      ref: 
+- number: TFAP-ANO
+  uuid: 68972c08-ddb2-4ea9-8215-9e7636301e1f
+  subjects:
+  - entities:
+    - role: player
+      name: Aaron Nola
+      ref: 
+    - role: team
+      name: Philadelphia Phillies
+      ref: 
+- number: TFAP-AP
+  uuid: fa14f162-6618-40e0-a1d8-3fcc2672e27c
+  subjects:
+  - entities:
+    - role: player
+      name: Albert Pujols
+      ref: 
+    - role: team
+      name: Los Angeles Angels
+      ref: 
+- number: TFAP-ARY
+  uuid: '07899bd1-8148-4705-b538-ffc0e703a7d4'
+  subjects:
+  - entities:
+    - role: player
+      name: Austin Riley
+      ref: 
+    - role: team
+      name: Atlanta Braves
+      ref: 
+- number: TFAP-BST
+  uuid: 1e787163-2625-4987-af4b-cf5bc7e7f377
+  subjects:
+  - entities:
+    - role: player
+      name: Bryson Stott
+      ref: 
+    - role: team
+      name: Philadelphia Phillies
+      ref: 
+- number: TFAP-CRA
+  uuid: 1f687fdf-3b1f-408a-9491-b63f06b2071d
+  subjects:
+  - entities:
+    - role: player
+      name: Ceddanne Rafaela
+      ref: 
+    - role: team
+      name: Boston Red Sox
+      ref: 
+- number: TFAP-DST
+  uuid: 10829d02-4119-43c8-b1ca-38966f0cac3e
+  subjects:
+  - entities:
+    - role: player
+      name: Darryl Strawberry
+      ref: 
+    - role: team
+      name: New York Mets
+      ref: 
+- number: TFAP-EL
+  uuid: 4363b93a-7ffc-4932-b742-18ee4f4e7b40
+  subjects:
+  - entities:
+    - role: player
+      name: Evan Longoria
+      ref: 
+    - role: team
+      name: San Francisco Giants
+      ref: 
+- number: TFAP-EM
+  uuid: fab4dd41-ad91-4b69-8bee-7233203433d2
+  subjects:
+  - entities:
+    - role: player
+      name: Eddie Murray
+      ref: 
+    - role: team
+      name: New York Mets
+      ref: 
+- number: TFAP-FP
+  uuid: eff82858-60fb-433e-9d9e-7bd59e75ae4b
+  subjects:
+  - entities:
+    - role: player
+      name: Freddy Peralta
+      ref: 
+    - role: team
+      name: Milwaukee Brewers
+      ref: 
+- number: TFAP-FTJ
+  uuid: cfbcee87-302f-4b0e-87d7-1e4cc39023d9
+  subjects:
+  - entities:
+    - role: player
+      name: Fernando Tatis Jr.
+      ref: 
+    - role: team
+      name: San Diego Padres
+      ref: 
+- number: TFAP-GSH
+  uuid: 7d1483a7-f02b-4a82-afa2-71daf0906546
+  subjects:
+  - entities:
+    - role: player
+      name: Gary Sheffield
+      ref: 
+    - role: team
+      name: Atlanta Braves
+      ref: 
+- number: TFAP-JMA
+  uuid: 2e0b2c5d-773c-4f53-8484-af96ecb112ee
+  subjects:
+  - entities:
+    - role: player
+      name: Joe Mauer
+      ref: 
+    - role: team
+      name: Minnesota Twins
+      ref: 
+- number: TFAP-LC
+  uuid: 7ac14273-69ff-44fe-895e-f358bb7ee7a3
+  subjects:
+  - entities:
+    - role: player
+      name: Luis Castillo
+      ref: 
+    - role: team
+      name: Seattle Mariners
+      ref: 
+- number: TFAP-MMU
+  uuid: 58eb8f04-193e-4506-b45a-f8a6d641f19b
+  subjects:
+  - entities:
+    - role: player
+      name: Max Muncy
+      ref: 
+    - role: team
+      name: Los Angeles Dodgers
+      ref: 
+- number: TFAP-MOL
+  uuid: efe546ae-0754-4400-ac23-99fdd930bca3
+  subjects:
+  - entities:
+    - role: player
+      name: Matt Olson
+      ref: 
+    - role: team
+      name: Atlanta Braves
+      ref: 
+- number: TFAP-MTR
+  uuid: a0fb8e43-3818-434c-ae73-fe8c302c053a
+  subjects:
+  - entities:
+    - role: player
+      name: Mike Trout
+      ref: 
+    - role: team
+      name: Los Angeles Angels
+      ref: 
+- number: TFAP-PG
+  uuid: ee0c3127-fff5-4f22-962d-879c97472328
+  subjects:
+  - entities:
+    - role: player
+      name: Paul Goldschmidt
+      ref: 
+    - role: team
+      name: New York Yankees
+      ref: 
+- number: TFAP-SL
+  uuid: a8bc08bf-d8fb-49a0-b28b-fee817eaf158
+  subjects:
+  - entities:
+    - role: player
+      name: Shea Langeliers
+      ref: 
+    - role: team
+      name: Athletics
+      ref: 
+- number: TFAP-TIH
+  uuid: 709fa941-b9d3-4a89-aa5f-645172d88ec0
+  subjects:
+  - entities:
+    - role: player
+      name: Torii Hunter
+      ref: 
+    - role: team
+      name: Detroit Tigers
+      ref: 
+- number: TFAP-ZW
+  uuid: 0c004b32-124b-43f8-a53f-8a45b8a1c940
+  subjects:
+  - entities:
+    - role: player
+      name: Zack Wheeler
+      ref: 
+    - role: team
+      name: Philadelphia Phillies
+      ref: 
+- number: TFAP2-AB
+  uuid: 46010c09-49cc-427f-b11f-0e6b8319c007
+  subjects:
+  - entities:
+    - role: player
+      name: Alex Bregman
+      ref: 
+    - role: team
+      name: Boston Red Sox
+      ref: 
+- number: TFAP2-AJ
+  uuid: affcce1d-3052-49f4-83bf-7fd05579f1ca
+  subjects:
+  - entities:
+    - role: player
+      name: Aaron Judge
+      ref: 
+    - role: team
+      name: New York Yankees
+      ref: 
+- number: TFAP2-AM
+  uuid: dd64140d-0957-4ecb-8a06-95296854426b
+  subjects:
+  - entities:
+    - role: player
+      name: Andrew McCutchen
+      ref: 
+    - role: team
+      name: Pittsburgh Pirates
+      ref: 
+- number: TFAP2-AR
+  uuid: 6e04a7ab-eb47-45b1-81c9-0c9af647afd9
+  subjects:
+  - entities:
+    - role: player
+      name: Austin Riley
+      ref: 
+    - role: team
+      name: Atlanta Braves
+      ref: 
+- number: TFAP2-AV
+  uuid: afbad0e5-7370-4bc8-9283-2be744227d9b
+  subjects:
+  - entities:
+    - role: player
+      name: Anthony Volpe
+      ref: 
+    - role: team
+      name: New York Yankees
+      ref: 
+- number: TFAP2-BC
+  uuid: 51ee12fe-6d98-4e3a-88ea-e5e08d030ec6
+  subjects:
+  - entities:
+    - role: player
+      name: Bubba Chandler
+      ref: 
+    - role: team
+      name: Pittsburgh Pirates
+      ref: 
+- number: TFAP2-BH
+  uuid: 5b2550fa-9f9a-4d94-8f44-ff0c609d3000
+  subjects:
+  - entities:
+    - role: player
+      name: Brady House
+      ref: 
+    - role: team
+      name: Washington Nationals
+      ref: 
+- number: TFAP2-BR
+  uuid: 5ee36e9f-fb9b-4a72-b4db-a0b846e4bf6b
+  subjects:
+  - entities:
+    - role: player
+      name: Brent Rooker
+      ref: 
+    - role: team
+      name: Athletics
+      ref: 
+- number: TFAP2-CB
+  uuid: b8b2abf1-3920-407c-b2bb-bf8a1184d0e3
+  subjects:
+  - entities:
+    - role: player
+      name: Chase Burns
+      ref: 
+    - role: team
+      name: Cincinnati Reds
+      ref: 
+- number: TFAP2-CK
+  uuid: 00326ebb-8931-4ff8-a14a-5641f754c6d4
+  subjects:
+  - entities:
+    - role: player
+      name: C.J. Kayfus
+      ref: 
+    - role: team
+      name: Cleveland Guardians
+      ref: 
+- number: TFAP2-CMO
+  uuid: e0b101dc-4cf9-486d-a4eb-2847673a55c7
+  subjects:
+  - entities:
+    - role: player
+      name: Christian Moore
+      ref: 
+    - role: team
+      name: Los Angeles Angels
+      ref: 
+- number: TFAP2-CS
+  uuid: 40e0a0ab-e975-43aa-91d7-873108101651
+  subjects:
+  - entities:
+    - role: player
+      name: Chris Sale
+      ref: 
+    - role: team
+      name: Atlanta Braves
+      ref: 
+- number: TFAP2-CY
+  uuid: 4ed00b6c-af0b-4a05-abe3-0f61db1f4102
+  subjects:
+  - entities:
+    - role: player
+      name: Christian Yelich
+      ref: 
+    - role: team
+      name: Milwaukee Brewers
+      ref: 
+- number: TFAP2-DB
+  uuid: aa31777b-420b-425b-a95c-464766175739
+  subjects:
+  - entities:
+    - role: player
+      name: Drake Baldwin
+      ref: 
+    - role: team
+      name: Atlanta Braves
+      ref: 
+- number: TFAP2-DBE
+  uuid: d40e8dff-7167-4ddd-9fdf-a1efe29e200c
+  subjects:
+  - entities:
+    - role: player
+      name: Dylan Beavers
+      ref: 
+    - role: team
+      name: Baltimore Orioles
+      ref: 
+- number: TFAP2-FL
+  uuid: 7e7873bd-9ff7-40b3-9b9c-b20d65a3d2a8
+  subjects:
+  - entities:
+    - role: player
+      name: Francisco Lindor
+      ref: 
+    - role: team
+      name: New York Mets
+      ref: 
+- number: TFAP2-FP
+  uuid: e45e69a4-d5ab-49b0-a17e-8d94b3f3794a
+  subjects:
+  - entities:
+    - role: player
+      name: Freddy Peralta
+      ref: 
+    - role: team
+      name: Milwaukee Brewers
+      ref: 
+- number: TFAP2-JCA
+  uuid: 8da000e0-062a-4257-aebc-ce6b4be07215
+  subjects:
+  - entities:
+    - role: player
+      name: Jac Caglianone
+      ref: 
+    - role: team
+      name: Kansas City Royals
+      ref: 
+- number: TFAP2-JM
+  uuid: de11e2b1-661c-4f2f-aa45-1c7313f96679
+  subjects:
+  - entities:
+    - role: player
+      name: Jacob Melton
+      ref: 
+    - role: team
+      name: Houston Astros
+      ref: 
+- number: TFAP2-JP
+  uuid: 39286d04-81aa-4443-86d4-4329eccf9d01
+  subjects:
+  - entities:
+    - role: player
+      name: Jeremy Peña
+      ref: 
+    - role: team
+      name: Houston Astros
+      ref: 
+- number: TFAP2-JR
+  uuid: e2a69c2c-6d06-448f-b5a9-3dc5bdae252b
+  subjects:
+  - entities:
+    - role: player
+      name: José Ramírez
+      ref: 
+    - role: team
+      name: Cleveland Guardians
+      ref: 
+- number: TFAP2-JWI
+  uuid: f82c57c6-88c6-43cb-bef0-9a5d323e5324
+  subjects:
+  - entities:
+    - role: player
+      name: Jacob Wilson
+      ref: 
+    - role: team
+      name: Athletics
+      ref: 
+- number: TFAP2-MF
+  uuid: 1dbb8c1e-88ba-40da-97cd-2350588eed25
+  subjects:
+  - entities:
+    - role: player
+      name: Max Fried
+      ref: 
+    - role: team
+      name: New York Yankees
+      ref: 
+- number: TFAP2-NC
+  uuid: ccdc7484-4500-41f7-8396-b7c1226dfe86
+  subjects:
+  - entities:
+    - role: player
+      name: Nathan Church
+      ref: 
+    - role: team
+      name: St. Louis Cardinals
+      ref: 
+- number: TFAP2-RAN
+  uuid: 4e6c3413-915f-46f3-b197-121818a187c9
+  subjects:
+  - entities:
+    - role: player
+      name: Roman Anthony
+      ref: 
+    - role: team
+      name: Boston Red Sox
+      ref: 
+- number: TFAP2-RG
+  uuid: 267a5e46-736e-4239-89bd-a73f5c66d2c5
+  subjects:
+  - entities:
+    - role: player
+      name: Riley Greene
+      ref: 
+    - role: team
+      name: Detroit Tigers
+      ref: 
+- number: TFAP2-WS
+  uuid: b2abda3c-b8e5-40e3-af79-5336ace37558
+  subjects:
+  - entities:
+    - role: player
+      name: Will Smith
+      ref: 
+    - role: team
+      name: Los Angeles Dodgers
+      ref: 
+- number: TFAP2-YF
+  uuid: b7dbbc08-1f88-434b-a28c-a05b10bfa3cc
+  subjects:
+  - entities:
+    - role: player
+      name: Yanquiel Fernández
+      ref: 
+    - role: team
+      name: Colorado Rockies
+      ref: 

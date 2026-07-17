@@ -1,0 +1,500 @@
+- number: CC2-ABO
+  uuid: c43485f2-d5f6-44a9-8481-dc2d2e11dadb
+  subjects:
+  - entities:
+    - role: player
+      name: Alec Bohm
+      ref: 
+    - role: team
+      name: Philadelphia Phillies
+      ref: 
+- number: CC2-AR
+  uuid: c51c7276-36cc-4203-beab-69b083d8b4dc
+  subjects:
+  - entities:
+    - role: player
+      name: Adley Rutschman
+      ref: 
+    - role: team
+      name: Baltimore Orioles
+      ref: 
+- number: CC2-BB
+  uuid: 4e9e51e0-8b99-4e66-bf49-e3846bad9199
+  subjects:
+  - entities:
+    - role: player
+      name: Byron Buxton
+      ref: 
+    - role: team
+      name: Minnesota Twins
+      ref: 
+- number: CC2-BS
+  uuid: afe4c011-1115-4e7f-90f3-83176292acd1
+  subjects:
+  - entities:
+    - role: player
+      name: Bryson Stott
+      ref: 
+    - role: team
+      name: Philadelphia Phillies
+      ref: 
+- number: CC2-BW
+  uuid: e5ef613f-580b-46e1-af04-8c02080c1850
+  subjects:
+  - entities:
+    - role: player
+      name: Bryan Woo
+      ref: 
+    - role: team
+      name: Seattle Mariners
+      ref: 
+- number: CC2-CA
+  uuid: 212f4452-8a84-450b-8f63-5049d5f4e26c
+  subjects:
+  - entities:
+    - role: player
+      name: CJ Abrams
+      ref: 
+    - role: team
+      name: Washington Nationals
+      ref: 
+- number: CC2-CC
+  uuid: 3f6c44a8-2156-44ef-ac62-ad2ed9e73127
+  subjects:
+  - entities:
+    - role: player
+      name: Colton Cowser
+      ref: 
+    - role: team
+      name: Baltimore Orioles
+      ref: 
+- number: CC2-CR
+  uuid: 39eac767-10ae-4fe7-9397-610e3df95329
+  subjects:
+  - entities:
+    - role: player
+      name: Ceddanne Rafaela
+      ref: 
+    - role: team
+      name: Boston Red Sox
+      ref: 
+- number: CC2-CS
+  uuid: 855e3ad0-78ab-4d83-930e-8c2d4c75a268
+  subjects:
+  - entities:
+    - role: player
+      name: Cristopher Sánchez
+      ref: 
+    - role: team
+      name: Philadelphia Phillies
+      ref: 
+- number: CC2-CSM
+  uuid: 82baef9d-9869-4c9e-bec0-2a89f024e0f0
+  subjects:
+  - entities:
+    - role: player
+      name: Cam Smith
+      ref: 
+    - role: team
+      name: Houston Astros
+      ref: 
+- number: CC2-DG
+  uuid: ea3d8153-5384-47bd-95b6-3fcc9ede4e8e
+  subjects:
+  - entities:
+    - role: player
+      name: Drew Gilbert
+      ref: 
+    - role: team
+      name: San Francisco Giants
+      ref: 
+- number: CC2-ET
+  uuid: c9be5529-649b-432b-b1a6-18bc3971bff9
+  subjects:
+  - entities:
+    - role: player
+      name: Ezequiel Tovar
+      ref: 
+    - role: team
+      name: Colorado Rockies
+      ref: 
+- number: CC2-FF
+  uuid: 6afefcb4-ca73-481e-87dd-0848a7b3c18c
+  subjects:
+  - entities:
+    - role: player
+      name: Freddie Freeman
+      ref: 
+    - role: team
+      name: Los Angeles Dodgers
+      ref: 
+- number: CC2-FL
+  uuid: 49ec08bb-fdc0-4d24-861d-f04ee13e99ba
+  subjects:
+  - entities:
+    - role: player
+      name: Francisco Lindor
+      ref: 
+    - role: team
+      name: New York Mets
+      ref: 
+- number: CC2-FT
+  uuid: f9912a27-d905-4ddf-84de-7bf79f310963
+  subjects:
+  - entities:
+    - role: player
+      name: Fernando Tatis Jr.
+      ref: 
+    - role: team
+      name: San Diego Padres
+      ref: 
+- number: CC2-JC
+  uuid: ead7b645-527c-4844-a160-44b850fd5313
+  subjects:
+  - entities:
+    - role: player
+      name: Junior Caminero
+      ref: 
+    - role: team
+      name: Tampa Bay Rays
+      ref: 
+- number: CC2-JD
+  uuid: a2aab4df-d4e6-4cf3-822d-154dbde2a89a
+  subjects:
+  - entities:
+    - role: player
+      name: Jarren Duran
+      ref: 
+    - role: team
+      name: Boston Red Sox
+      ref: 
+- number: CC2-JH
+  uuid: 7f79214a-1475-46f3-81eb-afb2a05912a1
+  subjects:
+  - entities:
+    - role: player
+      name: Jung Hoo Lee
+      ref: 
+    - role: team
+      name: San Francisco Giants
+      ref: 
+- number: CC2-JHO
+  uuid: 92d6f8cd-390c-4e2d-9d25-8770a2c34ef7
+  subjects:
+  - entities:
+    - role: player
+      name: Jackson Holliday
+      ref: 
+    - role: team
+      name: Baltimore Orioles
+      ref: 
+- number: CC2-JJ
+  uuid: 317d0d49-2533-4c9b-b7c1-f399dc3264eb
+  subjects:
+  - entities:
+    - role: player
+      name: Josh Jung
+      ref: 
+    - role: team
+      name: Texas Rangers
+      ref: 
+- number: CC2-JL
+  uuid: 2bf767f4-d834-46b4-ad84-514ca6431e78
+  subjects:
+  - entities:
+    - role: player
+      name: Jordan Lawlar
+      ref: 
+    - role: team
+      name: Arizona Diamondbacks
+      ref: 
+- number: CC2-JP
+  uuid: edd3e87d-5184-4c53-b92d-4b4e72c2168c
+  subjects:
+  - entities:
+    - role: player
+      name: Jeremy Peña
+      ref: 
+    - role: team
+      name: Houston Astros
+      ref: 
+- number: CC2-JR
+  uuid: b51eeef7-cdc4-4b17-ae63-4d1c1ed4b4bd
+  subjects:
+  - entities:
+    - role: player
+      name: J.T. Realmuto
+      ref: 
+    - role: team
+      name: Philadelphia Phillies
+      ref: 
+- number: CC2-JRA
+  uuid: bea611e5-7cff-47e5-b768-318b335c849a
+  subjects:
+  - entities:
+    - role: player
+      name: José Ramírez
+      ref: 
+    - role: team
+      name: Cleveland Guardians
+      ref: 
+- number: CC2-JS
+  uuid: 678ef447-461c-42ad-85d2-73480e88c8bd
+  subjects:
+  - entities:
+    - role: player
+      name: Juan Soto
+      ref: 
+    - role: team
+      name: New York Mets
+      ref: 
+- number: CC2-JW
+  uuid: 35e48036-7b12-44cd-9fd6-8a62e831ec8b
+  subjects:
+  - entities:
+    - role: player
+      name: James Wood
+      ref: 
+    - role: team
+      name: Washington Nationals
+      ref: 
+- number: CC2-JWE
+  uuid: 7f4d039a-743f-4600-b36a-18134b2a0cd7
+  subjects:
+  - entities:
+    - role: player
+      name: Jordan Westburg
+      ref: 
+    - role: team
+      name: Baltimore Orioles
+      ref: 
+- number: CC2-KK
+  uuid: 19d3b5b5-d37f-4548-b189-fd6957a22a1d
+  subjects:
+  - entities:
+    - role: player
+      name: Kyle Karros
+      ref: 
+    - role: team
+      name: Colorado Rockies
+      ref: 
+- number: CC2-LN
+  uuid: 0aaf552f-06cc-4778-a630-7e51a560e87c
+  subjects:
+  - entities:
+    - role: player
+      name: Lars Nootbaar
+      ref: 
+    - role: team
+      name: St. Louis Cardinals
+      ref: 
+- number: CC2-LO
+  uuid: 82d91ef1-0886-4d09-bc8b-0cf1ddab1e9d
+  subjects:
+  - entities:
+    - role: player
+      name: Logan O'Hoppe
+      ref: 
+    - role: team
+      name: Los Angeles Angels
+      ref: 
+- number: CC2-MC
+  uuid: c270e7a3-e1e8-4b26-b399-1759a4e0af60
+  subjects:
+  - entities:
+    - role: player
+      name: Matt Chapman
+      ref: 
+    - role: team
+      name: San Francisco Giants
+      ref: 
+- number: CC2-MMA
+  uuid: e2aceba8-6a12-4ac9-a8b6-dd05bd035619
+  subjects:
+  - entities:
+    - role: player
+      name: Manny Machado
+      ref: 
+    - role: team
+      name: San Diego Padres
+      ref: 
+- number: CC2-MT
+  uuid: 105229cf-2914-49f8-8529-02c217d05f83
+  subjects:
+  - entities:
+    - role: player
+      name: Mike Trout
+      ref: 
+    - role: team
+      name: Los Angeles Angels
+      ref: 
+- number: CC2-MV
+  uuid: a77cbbe2-e2d3-46f7-8462-ad5c432dccfc
+  subjects:
+  - entities:
+    - role: player
+      name: Mark Vientos
+      ref: 
+    - role: team
+      name: New York Mets
+      ref: 
+- number: CC2-MW
+  uuid: 92bae80b-fc7b-4785-830f-b3b3aba546fb
+  subjects:
+  - entities:
+    - role: player
+      name: Masyn Winn
+      ref: 
+    - role: team
+      name: St. Louis Cardinals
+      ref: 
+- number: CC2-NA
+  uuid: e7021db4-14a9-4cee-8997-4238cd00a447
+  subjects:
+  - entities:
+    - role: player
+      name: Nolan Arenado
+      ref: 
+    - role: team
+      name: St. Louis Cardinals
+      ref: 
+- number: CC2-NS
+  uuid: 857011d7-a9ae-42f5-abe7-7215c7b5adc5
+  subjects:
+  - entities:
+    - role: player
+      name: Nolan Schanuel
+      ref: 
+    - role: team
+      name: Los Angeles Angels
+      ref: 
+- number: CC2-PA
+  uuid: '087cb373-65d1-4901-a418-801566aeafdc'
+  subjects:
+  - entities:
+    - role: player
+      name: Pete Alonso
+      ref: 
+    - role: team
+      name: New York Mets
+      ref: 
+- number: CC2-RA
+  uuid: 98fe8bb5-e29d-4293-9398-ae50d822aa86
+  subjects:
+  - entities:
+    - role: player
+      name: Ronald Acuña Jr.
+      ref: 
+    - role: team
+      name: Atlanta Braves
+      ref: 
+- number: CC2-RM
+  uuid: 6f33e88c-137e-4d10-8a55-f96776c313ff
+  subjects:
+  - entities:
+    - role: player
+      name: Ryan Mountcastle
+      ref: 
+    - role: team
+      name: Baltimore Orioles
+      ref: 
+- number: CC2-SF
+  uuid: 19467972-5804-4db6-9cd3-585b6f1ca1b7
+  subjects:
+  - entities:
+    - role: player
+      name: Sal Frelick
+      ref: 
+    - role: team
+      name: Milwaukee Brewers
+      ref: 
+- number: CC2-SP
+  uuid: e0e89525-a0dc-46d8-b9f4-aba7942f8bbf
+  subjects:
+  - entities:
+    - role: player
+      name: Salvador Perez
+      ref: 
+    - role: team
+      name: Kansas City Royals
+      ref: 
+- number: CC2-TG
+  uuid: 91b3d0e5-b953-4d18-ad3b-cb6e46d984fb
+  subjects:
+  - entities:
+    - role: player
+      name: Tyler Glasnow
+      ref: 
+    - role: team
+      name: Los Angeles Dodgers
+      ref: 
+- number: CC2-TH
+  uuid: f5386cf9-ff75-445a-845d-5e550625eaff
+  subjects:
+  - entities:
+    - role: player
+      name: Teoscar Hernández
+      ref: 
+    - role: team
+      name: Los Angeles Dodgers
+      ref: 
+- number: CC2-TS
+  uuid: '05971c3f-5e5f-403c-b0c1-1b905719577f'
+  subjects:
+  - entities:
+    - role: player
+      name: Tarik Skubal
+      ref: 
+    - role: team
+      name: Detroit Tigers
+      ref: 
+- number: CC2-TT
+  uuid: 6048ad6b-9b07-4e75-9635-503b11cd5eaf
+  subjects:
+  - entities:
+    - role: player
+      name: Trea Turner
+      ref: 
+    - role: team
+      name: Philadelphia Phillies
+      ref: 
+- number: CC2-VG
+  uuid: a5112430-159f-4cd6-9521-687367d4abd5
+  subjects:
+  - entities:
+    - role: player
+      name: Vladimir Guerrero Jr.
+      ref: 
+    - role: team
+      name: Toronto Blue Jays
+      ref: 
+- number: CC2-WA
+  uuid: b80a572e-00c8-4b71-bb04-753fc8d73fcb
+  subjects:
+  - entities:
+    - role: player
+      name: Willy Adames
+      ref: 
+    - role: team
+      name: San Francisco Giants
+      ref: 
+- number: CC2-WS
+  uuid: 7db014f9-0de4-4c75-b6f6-323e9ddafe04
+  subjects:
+  - entities:
+    - role: player
+      name: Will Smith
+      ref: 
+    - role: team
+      name: Los Angeles Dodgers
+      ref: 
+- number: CC2-ZN
+  uuid: d7b48250-f8cf-4939-8de5-998e394d5ac4
+  subjects:
+  - entities:
+    - role: player
+      name: Zach Neto
+      ref: 
+    - role: team
+      name: Los Angeles Angels
+      ref: 

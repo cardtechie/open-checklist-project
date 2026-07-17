@@ -1,0 +1,100 @@
+- number: HR-1
+  uuid: ac15e602-bd6c-45b6-938b-3f52ffb769a0
+  subjects:
+  - entities:
+    - role: player
+      name: Shohei Ohtani
+      ref: 
+    - role: team
+      name: Los Angeles Dodgers
+      ref: 
+- number: HR-2
+  uuid: 88da1450-4cf9-44c8-94d4-28b41ca17694
+  subjects:
+  - entities:
+    - role: player
+      name: Aaron Judge
+      ref: 
+    - role: team
+      name: New York Yankees
+      ref: 
+- number: HR-3
+  uuid: 73e85345-3522-4532-8892-e004b070e1b2
+  subjects:
+  - entities:
+    - role: player
+      name: Fernando Tatis Jr.
+      ref: 
+    - role: team
+      name: San Diego Padres
+      ref: 
+- number: HR-4
+  uuid: 84172e90-5208-405a-b13e-05c66f9fac65
+  subjects:
+  - entities:
+    - role: player
+      name: Vladimir Guerrero Jr.
+      ref: 
+    - role: team
+      name: Toronto Blue Jays
+      ref: 
+- number: HR-5
+  uuid: ef2e0592-100e-433c-a919-7399cf746004
+  subjects:
+  - entities:
+    - role: player
+      name: Julio Rodríguez
+      ref: 
+    - role: team
+      name: Seattle Mariners
+      ref: 
+- number: HR-6
+  uuid: a560c6c3-4af0-4980-8100-777ba55bb4e2
+  subjects:
+  - entities:
+    - role: player
+      name: Ronald Acuña Jr.
+      ref: 
+    - role: team
+      name: Atlanta Braves
+      ref: 
+- number: HR-7
+  uuid: acb0dea0-281b-4b7e-acd8-973a82322189
+  subjects:
+  - entities:
+    - role: player
+      name: Bobby Witt Jr.
+      ref: 
+    - role: team
+      name: Kansas City Royals
+      ref: 
+- number: HR-8
+  uuid: 42344145-97bb-400e-860b-c60efeae8476
+  subjects:
+  - entities:
+    - role: player
+      name: Mike Trout
+      ref: 
+    - role: team
+      name: Los Angeles Angels
+      ref: 
+- number: HR-9
+  uuid: c3f20127-35a3-4b78-9c6e-df9731f58a00
+  subjects:
+  - entities:
+    - role: player
+      name: Pete Crow-Armstrong
+      ref: 
+    - role: team
+      name: Chicago Cubs
+      ref: 
+- number: HR-10
+  uuid: 6db7fc8f-620a-4007-8934-6f5c2d34e5ef
+  subjects:
+  - entities:
+    - role: player
+      name: Roman Anthony
+      ref: 
+    - role: team
+      name: Boston Red Sox
+      ref: 

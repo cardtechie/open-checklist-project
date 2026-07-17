@@ -1,0 +1,493 @@
+- number: DARC-BA
+  uuid: fa44ad47-301f-4a4d-af4f-62c6b5bce522
+  subjects:
+  - entities:
+    - role: player
+      name: Craig Biggio
+      ref: 
+    - role: team
+      name: Houston Astros
+      ref: 
+  - entities:
+    - role: player
+      name: Jose Altuve
+      ref: 
+    - role: team
+      name: Houston Astros
+      ref: 
+- number: DARC-BB
+  uuid: 6bf1cd74-7758-45be-9184-4ed2cace0b5b
+  subjects:
+  - entities:
+    - role: player
+      name: Jeff Bagwell
+      ref: 
+    - role: team
+      name: Houston Astros
+      ref: 
+  - entities:
+    - role: player
+      name: Craig Biggio
+      ref: 
+    - role: team
+      name: Houston Astros
+      ref: 
+- number: DARC-BR
+  uuid: 1348ee52-8f40-4f45-ab55-cf049493c3d9
+  subjects:
+  - entities:
+    - role: player
+      name: José Ramírez
+      ref: 
+    - role: team
+      name: Cleveland Guardians
+      ref: 
+  - entities:
+    - role: player
+      name: Adrian Beltré
+      ref: 
+    - role: team
+      name: Texas Rangers
+      ref: 
+- number: DARC-CH
+  uuid: ec82205f-bd1c-4b0d-bfaf-e550ab44bd5a
+  subjects:
+  - entities:
+    - role: player
+      name: Torii Hunter
+      ref: 
+    - role: team
+      name: Minnesota Twins
+      ref: 
+  - entities:
+    - role: player
+      name: Rod Carew
+      ref: 
+    - role: team
+      name: Minnesota Twins
+      ref: 
+- number: DARC-CW
+  uuid: 415e8bce-e6b6-48dd-b6f6-baee7341bb75
+  subjects:
+  - entities:
+    - role: player
+      name: James Wood
+      ref: 
+    - role: team
+      name: Washington Nationals
+      ref: 
+  - entities:
+    - role: player
+      name: Dylan Crews
+      ref: 
+    - role: team
+      name: Washington Nationals
+      ref: 
+- number: DARC-DV
+  uuid: 2e7e6fe2-24af-4210-ac5f-43677bb35d00
+  subjects:
+  - entities:
+    - role: player
+      name: Jasson Domínguez
+      ref: 
+    - role: team
+      name: New York Yankees
+      ref: 
+  - entities:
+    - role: player
+      name: Anthony Volpe
+      ref: 
+    - role: team
+      name: New York Yankees
+      ref: 
+- number: DARC-GJJ
+  uuid: 28886e55-be11-4b89-bc80-bfcf443eea56
+  subjects:
+  - entities:
+    - role: player
+      name: Ken Griffey Jr.
+      ref: 
+    - role: team
+      name: Chicago White Sox
+      ref: 
+  - entities:
+    - role: player
+      name: Bo Jackson
+      ref: 
+    - role: team
+      name: Chicago White Sox
+      ref: 
+- number: DARC-HA
+  uuid: e7f74c96-8edd-4b68-a64f-daee2ef3f095
+  subjects:
+  - entities:
+    - role: player
+      name: Ozzie Albies
+      ref: 
+    - role: team
+      name: Atlanta Braves
+      ref: 
+  - entities:
+    - role: player
+      name: Michael Harris II
+      ref: 
+    - role: team
+      name: Atlanta Braves
+      ref: 
+- number: DARC-HB
+  uuid: f7d56b1d-8d32-47b2-83fd-87fa7d169191
+  subjects:
+  - entities:
+    - role: player
+      name: Byron Buxton
+      ref: 
+    - role: team
+      name: Minnesota Twins
+      ref: 
+  - entities:
+    - role: player
+      name: Torii Hunter
+      ref: 
+    - role: team
+      name: Minnesota Twins
+      ref: 
+- number: DARC-HK
+  uuid: 25a7343b-28ff-4217-8365-9eefb16c8af2
+  subjects:
+  - entities:
+    - role: player
+      name: Clayton Kershaw
+      ref: 
+    - role: team
+      name: Los Angeles Dodgers
+      ref: 
+  - entities:
+    - role: player
+      name: Orel Hershiser
+      ref: 
+    - role: team
+      name: Los Angeles Dodgers
+      ref: 
+- number: DARC-ICA
+  uuid: 99128591-612e-48cf-9b1e-632e8679ef75
+  subjects:
+  - entities:
+    - role: player
+      name: Shota Imanaga
+      ref: 
+    - role: team
+      name: Chicago Cubs
+      ref: 
+  - entities:
+    - role: player
+      name: Pete Crow-Armstrong
+      ref: 
+    - role: team
+      name: Chicago Cubs
+      ref: 
+- number: DARC-JH
+  uuid: 6e5b9e2e-ffd5-4414-8733-476ce7be9159
+  subjects:
+  - entities:
+    - role: player
+      name: Torii Hunter
+      ref: 
+    - role: team
+      name: Los Angeles Angels
+      ref: 
+  - entities:
+    - role: player
+      name: Reggie Jackson
+      ref: 
+    - role: team
+      name: California Angels
+      ref: 
+- number: DARC-JHZ
+  uuid: b029f955-ba39-4175-8683-16507ff81e63
+  subjects:
+  - entities:
+    - role: player
+      name: Félix Hernández
+      ref: 
+    - role: team
+      name: Seattle Mariners
+      ref: 
+  - entities:
+    - role: player
+      name: Randy Johnson
+      ref: 
+    - role: team
+      name: Seattle Mariners
+      ref: 
+- number: DARC-JJ
+  uuid: d8ccb011-4d17-406c-b726-441f7516a174
+  subjects:
+  - entities:
+    - role: player
+      name: Aaron Judge
+      ref: 
+    - role: team
+      name: New York Yankees
+      ref: 
+  - entities:
+    - role: player
+      name: Derek Jeter
+      ref: 
+    - role: team
+      name: New York Yankees
+      ref: 
+- number: DARC-JR
+  uuid: dacbd130-e7e2-4b98-9e80-e6b185ba8d92
+  subjects:
+  - entities:
+    - role: player
+      name: Chipper Jones
+      ref: 
+    - role: team
+      name: Atlanta Braves
+      ref: 
+  - entities:
+    - role: player
+      name: Austin Riley
+      ref: 
+    - role: team
+      name: Atlanta Braves
+      ref: 
+- number: DARC-LB
+  uuid: e95e3cde-8c9d-46c3-88eb-b1f68035c5d5
+  subjects:
+  - entities:
+    - role: player
+      name: Brooks Lee
+      ref: 
+    - role: team
+      name: Minnesota Twins
+      ref: 
+  - entities:
+    - role: player
+      name: Byron Buxton
+      ref: 
+    - role: team
+      name: Minnesota Twins
+      ref: 
+- number: DARC-MO
+  uuid: e511fd18-3e65-42ae-b87c-efcbf99f55d0
+  subjects:
+  - entities:
+    - role: player
+      name: Matt Olson
+      ref: 
+    - role: team
+      name: Atlanta Braves
+      ref: 
+  - entities:
+    - role: player
+      name: Fred McGriff
+      ref: 
+    - role: team
+      name: Atlanta Braves
+      ref: 
+- number: DARC-MY
+  uuid: 8fe9e920-db6e-48ee-ab9e-da586b136176
+  subjects:
+  - entities:
+    - role: player
+      name: Masataka Yoshida
+      ref: 
+    - role: team
+      name: Boston Red Sox
+      ref: 
+  - entities:
+    - role: player
+      name: Hideki Matsui
+      ref: 
+    - role: team
+      name: New York Yankees
+      ref: 
+- number: DARC-PP
+  uuid: ef6cde1b-947e-4b84-bf63-35f02b75280d
+  subjects:
+  - entities:
+    - role: player
+      name: Jorge Posada
+      ref: 
+    - role: team
+      name: New York Yankees
+      ref: 
+  - entities:
+    - role: player
+      name: Andy Pettitte
+      ref: 
+    - role: team
+      name: New York Yankees
+      ref: 
+- number: DARC-PR
+  uuid: 9e046171-cd74-44c6-acfd-3abc01a065d5
+  subjects:
+  - entities:
+    - role: player
+      name: Scott Rolen
+      ref: 
+    - role: team
+      name: Cincinnati Reds
+      ref: 
+  - entities:
+    - role: player
+      name: Tony Pérez
+      ref: 
+    - role: team
+      name: Cincinnati Reds
+      ref: 
+- number: DARC-PS
+  uuid: b6f01f94-d59c-47f5-8f6b-c52d58edefb0
+  subjects:
+  - entities:
+    - role: player
+      name: Mike Piazza
+      ref: 
+    - role: team
+      name: Los Angeles Dodgers
+      ref: 
+  - entities:
+    - role: player
+      name: Will Smith
+      ref: 
+    - role: team
+      name: Los Angeles Dodgers
+      ref: 
+- number: DARC-PT
+  uuid: 37c2c74d-0aab-459a-b7f0-606fd7fe2be0
+  subjects:
+  - entities:
+    - role: player
+      name: Albert Pujols
+      ref: 
+    - role: team
+      name: Los Angeles Angels
+      ref: 
+  - entities:
+    - role: player
+      name: Mike Trout
+      ref: 
+    - role: team
+      name: Los Angeles Angels
+      ref: 
+- number: DARC-RA
+  uuid: c0261eaf-c237-48aa-8cf2-37dce2c0b774
+  subjects:
+  - entities:
+    - role: player
+      name: Ozzie Albies
+      ref: 
+    - role: team
+      name: Atlanta Braves
+      ref: 
+  - entities:
+    - role: player
+      name: Austin Riley
+      ref: 
+    - role: team
+      name: Atlanta Braves
+      ref: 
+- number: DARC-RU
+  uuid: c54b7eed-c885-4a76-a2bc-c2818c5925b4
+  subjects:
+  - entities:
+    - role: player
+      name: Jimmy Rollins
+      ref: 
+    - role: team
+      name: Philadelphia Phillies
+      ref: 
+  - entities:
+    - role: player
+      name: Chase Utley
+      ref: 
+    - role: team
+      name: Philadelphia Phillies
+      ref: 
+- number: DARC-SM
+  uuid: c43897d1-1154-4fbe-9152-6e153469ab03
+  subjects:
+  - entities:
+    - role: player
+      name: Andrew McCutchen
+      ref: 
+    - role: team
+      name: Pittsburgh Pirates
+      ref: 
+  - entities:
+    - role: player
+      name: Paul Skenes
+      ref: 
+    - role: team
+      name: Pittsburgh Pirates
+      ref: 
+- number: DARC-SP
+  uuid: 1907e2c9-f50b-4671-b7b1-50c7707fc797
+  subjects:
+  - entities:
+    - role: player
+      name: Jorge Posada
+      ref: 
+    - role: team
+      name: New York Yankees
+      ref: 
+  - entities:
+    - role: player
+      name: CC Sabathia
+      ref: 
+    - role: team
+      name: New York Yankees
+      ref: 
+- number: DARC-TR
+  uuid: 959dc81c-fdf9-426e-afc7-137a18191600
+  subjects:
+  - entities:
+    - role: player
+      name: J.T. Realmuto
+      ref: 
+    - role: team
+      name: Philadelphia Phillies
+      ref: 
+  - entities:
+    - role: player
+      name: Trea Turner
+      ref: 
+    - role: team
+      name: Philadelphia Phillies
+      ref: 
+- number: DARC-VG
+  uuid: 6f11646b-8d19-4b22-9fc6-337c16e5bfce
+  subjects:
+  - entities:
+    - role: player
+      name: Vladimir Guerrero
+      ref: 
+    - role: team
+      name: Los Angeles Angels
+      ref: 
+  - entities:
+    - role: player
+      name: Vladimir Guerrero Jr.
+      ref: 
+    - role: team
+      name: Toronto Blue Jays
+      ref: 
+- number: DARC-WV
+  uuid: 53c01a42-2607-45ef-a26e-d5ee51eea377
+  subjects:
+  - entities:
+    - role: player
+      name: Larry Walker
+      ref: 
+    - role: team
+      name: Colorado Rockies
+      ref: 
+  - entities:
+    - role: player
+      name: Joey Votto
+      ref: 
+    - role: team
+      name: Cincinnati Reds
+      ref: 

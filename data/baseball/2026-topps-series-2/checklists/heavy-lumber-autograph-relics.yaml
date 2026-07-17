@@ -1,0 +1,430 @@
+- number: HL2-ABR
+  uuid: 74896e66-ae64-42d6-8de9-afda67cb674d
+  subjects:
+  - entities:
+    - role: player
+      name: Alex Bregman
+      ref: 
+    - role: team
+      name: Boston Red Sox
+      ref: 
+- number: HL2-AP
+  uuid: a8d13021-ec80-441f-a81a-baf2fada4ae7
+  subjects:
+  - entities:
+    - role: player
+      name: Albert Pujols
+      ref: 
+    - role: team
+      name: St. Louis Cardinals
+      ref: 
+- number: HL2-AV
+  uuid: 6ce351b5-255f-4cac-ac2a-f6ece36cc409
+  subjects:
+  - entities:
+    - role: player
+      name: Anthony Volpe
+      ref: 
+    - role: team
+      name: New York Yankees
+      ref: 
+- number: HL2-BH
+  uuid: 1816b5e0-6caf-47d3-8e6b-2727e28a780a
+  subjects:
+  - entities:
+    - role: player
+      name: Brady House
+      ref: 
+    - role: team
+      name: Washington Nationals
+      ref: 
+- number: HL2-BL
+  uuid: 542e4681-aee9-4889-9262-f73b02bfeffc
+  subjects:
+  - entities:
+    - role: player
+      name: Barry Larkin
+      ref: 
+    - role: team
+      name: Cincinnati Reds
+      ref: 
+- number: HL2-BR
+  uuid: dcfa2572-539b-48a2-b03d-82af7a8b2a7c
+  subjects:
+  - entities:
+    - role: player
+      name: Brent Rooker
+      ref: 
+    - role: team
+      name: Athletics
+      ref: 
+- number: HL2-DB
+  uuid: 3a7f196b-88aa-4061-9804-e1c8064e65df
+  subjects:
+  - entities:
+    - role: player
+      name: Dylan Beavers
+      ref: 
+    - role: team
+      name: Baltimore Orioles
+      ref: 
+- number: HL2-DM
+  uuid: 4d5bf921-418c-4997-911b-b70a57128904
+  subjects:
+  - entities:
+    - role: player
+      name: Don Mattingly
+      ref: 
+    - role: team
+      name: New York Yankees
+      ref: 
+- number: HL2-DS
+  uuid: 6f07e7fd-075d-4330-a7ff-3200c2acb9c9
+  subjects:
+  - entities:
+    - role: player
+      name: Darryl Strawberry
+      ref: 
+    - role: team
+      name: New York Mets
+      ref: 
+- number: HL2-ED
+  uuid: 7bf3dfb0-6805-4102-845b-558887e89823
+  subjects:
+  - entities:
+    - role: player
+      name: Eric Davis
+      ref: 
+    - role: team
+      name: Cincinnati Reds
+      ref: 
+- number: HL2-EM
+  uuid: 78f6c435-686b-4110-ad9a-8fb5c50d3ec4
+  subjects:
+  - entities:
+    - role: player
+      name: Edgar Martinez
+      ref: 
+    - role: team
+      name: Seattle Mariners
+      ref: 
+- number: HL2-FM
+  uuid: 3c0567b9-5d74-420f-8a9b-b1b1e4bb837c
+  subjects:
+  - entities:
+    - role: player
+      name: Fred McGriff
+      ref: 
+    - role: team
+      name: Toronto Blue Jays
+      ref: 
+- number: HL2-FMC
+  uuid: 5e7f890a-1424-4961-88c2-b837a385b6c0
+  subjects:
+  - entities:
+    - role: player
+      name: Fred McGriff
+      ref: 
+    - role: team
+      name: Chicago Cubs
+      ref: 
+- number: HL2-FMF
+  uuid: cf993515-c252-430e-a610-2b0d937a9297
+  subjects:
+  - entities:
+    - role: player
+      name: Fred McGriff
+      ref: 
+    - role: team
+      name: Tampa Bay Devil Rays
+      ref: 
+- number: HL2-GSH
+  uuid: 4fed068b-00a6-4a67-83ed-28292463ad1f
+  subjects:
+  - entities:
+    - role: player
+      name: Gary Sheffield
+      ref: 
+    - role: team
+      name: New York Yankees
+      ref: 
+- number: HL2-JCA
+  uuid: 43e82936-76d2-4876-bfdc-9a29a7a7566a
+  subjects:
+  - entities:
+    - role: player
+      name: Jose Canseco
+      ref: 
+    - role: team
+      name: Oakland Athletics
+      ref: 
+- number: HL2-JGO
+  uuid: 833b4c84-6e77-4f87-9db1-758950179361
+  subjects:
+  - entities:
+    - role: player
+      name: Juan Gonzalez
+      ref: 
+    - role: team
+      name: Texas Rangers
+      ref: 
+- number: HL2-JP
+  uuid: e67db84c-3496-4b14-bbe6-705a2f7f26e0
+  subjects:
+  - entities:
+    - role: player
+      name: Jorge Posada
+      ref: 
+    - role: team
+      name: New York Yankees
+      ref: 
+- number: HL2-MM
+  uuid: be8fdd8a-75d2-4e5f-8617-5d72fb20ad42
+  subjects:
+  - entities:
+    - role: player
+      name: Mark McGwire
+      ref: 
+    - role: team
+      name: Oakland Athletics
+      ref: 
+- number: HL2-MP
+  uuid: c9823349-b4c5-4d59-a18f-2699b062baa7
+  subjects:
+  - entities:
+    - role: player
+      name: Mike Piazza
+      ref: 
+    - role: team
+      name: Los Angeles Dodgers
+      ref: 
+- number: HL2-MW
+  uuid: 7c57eee7-e5d2-4abc-b267-51700e062839
+  subjects:
+  - entities:
+    - role: player
+      name: Masyn Winn
+      ref: 
+    - role: team
+      name: St. Louis Cardinals
+      ref: 
+- number: HL2-NK
+  uuid: 8f896d51-b5ac-4ab5-8e2a-0124d19b9adb
+  subjects:
+  - entities:
+    - role: player
+      name: Nick Kurtz
+      ref: 
+    - role: team
+      name: Athletics
+      ref: 
+- number: HL2-PM
+  uuid: fe65974d-7782-489d-8678-cb497d1b2cde
+  subjects:
+  - entities:
+    - role: player
+      name: Paul Molitor
+      ref: 
+    - role: team
+      name: Milwaukee Brewers
+      ref: 
+- number: HL2-RG
+  uuid: a5e75d5b-c774-4b86-a0fe-f589effc6c1e
+  subjects:
+  - entities:
+    - role: player
+      name: Riley Greene
+      ref: 
+    - role: team
+      name: Detroit Tigers
+      ref: 
+- number: HL2-RH
+  uuid: 8b65950c-f336-40b3-abaf-d8bfdcb4a7f0
+  subjects:
+  - entities:
+    - role: player
+      name: Ryan Howard
+      ref: 
+    - role: team
+      name: Philadelphia Phillies
+      ref: 
+- number: HL2-SB
+  uuid: 341dcc7d-b13e-43fc-b57d-2a890f93fd53
+  subjects:
+  - entities:
+    - role: player
+      name: Samuel Basallo
+      ref: 
+    - role: team
+      name: Baltimore Orioles
+      ref: 
+- number: HL2-SSU
+  uuid: 65efa2bc-b0fb-4938-bc9c-daea24412635
+  subjects:
+  - entities:
+    - role: player
+      name: Seiya Suzuki
+      ref: 
+    - role: team
+      name: Chicago Cubs
+      ref: 
+- number: HL2-TO
+  uuid: abfdcc8f-fce0-4677-b5fc-21cd3924fccc
+  subjects:
+  - entities:
+    - role: player
+      name: Tony Oliva
+      ref: 
+    - role: team
+      name: Minnesota Twins
+      ref: 
+- number: HL2-WBS
+  uuid: 31efd304-229b-46d2-b58f-7101c775a039
+  subjects:
+  - entities:
+    - role: player
+      name: Wade Boggs
+      ref: 
+    - role: team
+      name: Tampa Bay Devil Rays
+      ref: 
+- number: HL2-WL
+  uuid: 4630af94-9b98-4b5b-8ea1-1f7899d52e20
+  subjects:
+  - entities:
+    - role: player
+      name: Wyatt Langford
+      ref: 
+    - role: team
+      name: Texas Rangers
+      ref: 
+- number: HLAR-ARD
+  uuid: 1a4c8c42-6219-44a4-9e9d-861478a2d76d
+  subjects:
+  - entities:
+    - role: player
+      name: Alex Rodríguez
+      ref: 
+    - role: team
+      name: New York Yankees
+      ref: 
+- number: HLAR-ARI
+  uuid: '05299bfa-6508-4887-8b2f-12a33386b6df'
+  subjects:
+  - entities:
+    - role: player
+      name: Austin Riley
+      ref: 
+    - role: team
+      name: Atlanta Braves
+      ref: 
+- number: HLAR-ARO
+  uuid: f383008d-9aa1-4b16-a5f4-c69ed20eb639
+  subjects:
+  - entities:
+    - role: player
+      name: Alex Rodríguez
+      ref: 
+    - role: team
+      name: Texas Rangers
+      ref: 
+- number: HLAR-AROD
+  uuid: e61e75b5-d907-497a-ad75-f203021a20f8
+  subjects:
+  - entities:
+    - role: player
+      name: Alex Rodríguez
+      ref: 
+    - role: team
+      name: Seattle Mariners
+      ref: 
+- number: HLAR-DWI
+  uuid: 5f75bebf-822b-4db0-be50-bce3811bf650
+  subjects:
+  - entities:
+    - role: player
+      name: Dave Winfield
+      ref: 
+    - role: team
+      name: San Diego Padres
+      ref: 
+- number: HLAR-ED
+  uuid: 680e4ee9-0ed1-48c2-95fa-01f4436f4e11
+  subjects:
+  - entities:
+    - role: player
+      name: Elly De La Cruz
+      ref: 
+    - role: team
+      name: Cincinnati Reds
+      ref: 
+- number: HLAR-JM
+  uuid: e4b1122d-dea7-449d-8b5b-405486fde781
+  subjects:
+  - entities:
+    - role: player
+      name: Jackson Merrill
+      ref: 
+    - role: team
+      name: San Diego Padres
+      ref: 
+- number: HLAR-LA
+  uuid: 2f7a5ff2-d12c-43b2-bb02-6a8e6cdced64
+  subjects:
+  - entities:
+    - role: player
+      name: Luis Arraez
+      ref: 
+    - role: team
+      name: San Diego Padres
+      ref: 
+- number: HLAR-MC
+  uuid: 4ad67db2-907e-47d2-b329-13fc431f345a
+  subjects:
+  - entities:
+    - role: player
+      name: Matt Chapman
+      ref: 
+    - role: team
+      name: San Francisco Giants
+      ref: 
+- number: HLAR-MG
+  uuid: 25a25109-4e3c-4f26-b415-c66d4a7c1771
+  subjects:
+  - entities:
+    - role: player
+      name: Mark Grace
+      ref: 
+    - role: team
+      name: Chicago Cubs
+      ref: 
+- number: HLAR-RA
+  uuid: c828fa28-bd7c-4945-afcc-7174aae3e354
+  subjects:
+  - entities:
+    - role: player
+      name: Randy Arozarena
+      ref: 
+    - role: team
+      name: Seattle Mariners
+      ref: 
+- number: HLAR-TH
+  uuid: 9c118562-051b-4d8e-afac-df4ca0e981ec
+  subjects:
+  - entities:
+    - role: player
+      name: Torii Hunter
+      ref: 
+    - role: team
+      name: Minnesota Twins
+      ref: 
+- number: HLAR-WS
+  uuid: fc81eecd-72d7-4153-89fd-5bd518fd49d5
+  subjects:
+  - entities:
+    - role: player
+      name: Will Smith
+      ref: 
+    - role: team
+      name: Los Angeles Dodgers
+      ref: 

@@ -1,0 +1,140 @@
+- number: WCA-AP
+  uuid: f0c59300-1993-4abf-b7de-d0a4abba3bcb
+  subjects:
+  - entities:
+    - role: player
+      name: Andy Pages
+      ref: 
+    - role: team
+      name: Los Angeles Dodgers
+      ref: 
+- number: WCA-BS
+  uuid: 9a281e5b-59a4-40f6-808a-5f0bc59de98a
+  subjects:
+  - entities:
+    - role: player
+      name: Blake Snell
+      ref: 
+    - role: team
+      name: Los Angeles Dodgers
+      ref: 
+- number: WCA-CK
+  uuid: 0b3bf25b-a5a3-45d2-9676-f864125cbefd
+  subjects:
+  - entities:
+    - role: player
+      name: Clayton Kershaw
+      ref: 
+    - role: team
+      name: Los Angeles Dodgers
+      ref: 
+- number: WCA-DRY
+  uuid: b3528490-50ba-4048-8965-bbfd37fcbff9
+  subjects:
+  - entities:
+    - role: player
+      name: Jack Dreyer
+      ref: 
+    - role: team
+      name: Los Angeles Dodgers
+      ref: 
+- number: WCA-EDG
+  uuid: 4f4c86f8-0e32-4e84-9c90-2de8192de99f
+  subjects:
+  - entities:
+    - role: player
+      name: Edgardo Henriquez
+      ref: 
+    - role: team
+      name: Los Angeles Dodgers
+      ref: 
+- number: WCA-FF
+  uuid: bcb2efba-6612-4c8f-87c4-113df20d577e
+  subjects:
+  - entities:
+    - role: player
+      name: Freddie Freeman
+      ref: 
+    - role: team
+      name: Los Angeles Dodgers
+      ref: 
+- number: WCA-HYE
+  uuid: 03d51845-b500-4c81-892a-9064a5d14245
+  subjects:
+  - entities:
+    - role: player
+      name: Hyeseong Kim
+      ref: 
+    - role: team
+      name: Los Angeles Dodgers
+      ref: 
+- number: WCA-JD
+  uuid: 8f60fd0c-dcff-4292-bb31-724083b05a87
+  subjects:
+  - entities:
+    - role: player
+      name: Justin Dean
+      ref: 
+    - role: team
+      name: Los Angeles Dodgers
+      ref: 
+- number: WCA-RS
+  uuid: 8dc0f56f-d88c-4c99-99d4-73076749767e
+  subjects:
+  - entities:
+    - role: player
+      name: Roki Sasaki
+      ref: 
+    - role: team
+      name: Los Angeles Dodgers
+      ref: 
+- number: WCA-SO
+  uuid: 6b6c5de0-5de6-463c-9f4b-52707e1fcab3
+  subjects:
+  - entities:
+    - role: player
+      name: Shohei Ohtani
+      ref: 
+    - role: team
+      name: Los Angeles Dodgers
+      ref: 
+- number: WCA-TE
+  uuid: 9892bc0b-69cb-4bb9-b8d7-58c3de404e6e
+  subjects:
+  - entities:
+    - role: player
+      name: Tommy Edman
+      ref: 
+    - role: team
+      name: Los Angeles Dodgers
+      ref: 
+- number: WCA-WK
+  uuid: f11fcecc-f5df-4830-bd83-0f35736f9230
+  subjects:
+  - entities:
+    - role: player
+      name: Will Klein
+      ref: 
+    - role: team
+      name: Los Angeles Dodgers
+      ref: 
+- number: WCA-WS
+  uuid: 902d78ce-3a28-4fc2-99cb-36753ae53d1c
+  subjects:
+  - entities:
+    - role: player
+      name: Will Smith
+      ref: 
+    - role: team
+      name: Los Angeles Dodgers
+      ref: 
+- number: WCA-YY
+  uuid: 1edd6360-ae94-4812-b8aa-7a6d3078d17c
+  subjects:
+  - entities:
+    - role: player
+      name: Yoshinobu Yamamoto
+      ref: 
+    - role: team
+      name: Los Angeles Dodgers
+      ref: 

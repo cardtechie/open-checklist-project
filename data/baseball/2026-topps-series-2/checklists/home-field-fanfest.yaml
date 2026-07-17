@@ -1,0 +1,10 @@
+- number: HA-LL
+  uuid: 9a9970b8-c256-40ff-a58d-364b6f1fc746
+  subjects:
+  - entities:
+    - role: player
+      name: Lady Liberty
+      ref: 
+    - role: team
+      name: United States of America
+      ref: 

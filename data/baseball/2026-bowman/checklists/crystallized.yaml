@@ -1,0 +1,200 @@
+- number: BWC-1
+  uuid: f00f2b52-af23-4215-b479-88ca08913631
+  subjects:
+  - entities:
+    - role: player
+      name: Aiva Arquette
+      ref: 
+    - role: team
+      name: Miami Marlins
+      ref: 
+- number: BWC-2
+  uuid: 5510c28c-071a-495c-b0c4-a07f55832c0a
+  subjects:
+  - entities:
+    - role: player
+      name: Ronald Acuña Jr.
+      ref: 
+    - role: team
+      name: Atlanta Braves
+      ref: 
+- number: BWC-3
+  uuid: 3a8ca17c-b0d0-4e38-bcd0-a270f26674e5
+  subjects:
+  - entities:
+    - role: player
+      name: Marek Houston
+      ref: 
+    - role: team
+      name: Minnesota Twins
+      ref: 
+- number: BWC-4
+  uuid: 71927381-a32d-4893-ab8c-ba415a04d016
+  subjects:
+  - entities:
+    - role: player
+      name: Edward Florentino
+      ref: 
+    - role: team
+      name: Pittsburgh Pirates
+      ref: 
+- number: BWC-5
+  uuid: 01cf23f3-8f5c-4cbb-be52-2dc4df6f5021
+  subjects:
+  - entities:
+    - role: player
+      name: Jacob Misiorowski
+      ref: 
+    - role: team
+      name: Milwaukee Brewers
+      ref: 
+- number: BWC-6
+  uuid: d12faa7b-6f2c-4a56-aff1-1bb1a75ef7da
+  subjects:
+  - entities:
+    - role: player
+      name: Bryce Eldridge
+      ref: 
+    - role: team
+      name: San Francisco Giants
+      ref: 
+- number: BWC-7
+  uuid: e1827b42-3e07-4860-8050-7b6617c7fd15
+  subjects:
+  - entities:
+    - role: player
+      name: Bobby Witt Jr.
+      ref: 
+    - role: team
+      name: Kansas City Royals
+      ref: 
+- number: BWC-8
+  uuid: cdc63cb4-d8b8-4c68-a8ed-171962432f54
+  subjects:
+  - entities:
+    - role: player
+      name: Aaron Judge
+      ref: 
+    - role: team
+      name: New York Yankees
+      ref: 
+- number: BWC-9
+  uuid: 7011e885-121b-4296-8297-3b0e99c5bd46
+  subjects:
+  - entities:
+    - role: player
+      name: Samuel Basallo
+      ref: 
+    - role: team
+      name: Baltimore Orioles
+      ref: 
+- number: BWC-10
+  uuid: 948a1a34-e45c-4243-8680-41ae3756f6bb
+  subjects:
+  - entities:
+    - role: player
+      name: Daniel Pierce
+      ref: 
+    - role: team
+      name: Tampa Bay Rays
+      ref: 
+- number: BWC-11
+  uuid: f8654a9c-dff8-4b91-b446-222fb3814251
+  subjects:
+  - entities:
+    - role: player
+      name: Sal Stewart
+      ref: 
+    - role: team
+      name: Cincinnati Reds
+      ref: 
+- number: BWC-12
+  uuid: 57ae3d0c-385d-464f-bd1f-cdf6cdc3b7a3
+  subjects:
+  - entities:
+    - role: player
+      name: Vladimir Guerrero Jr.
+      ref: 
+    - role: team
+      name: Toronto Blue Jays
+      ref: 
+- number: BWC-13
+  uuid: 6e353c01-4890-4926-a330-a104c03fdd61
+  subjects:
+  - entities:
+    - role: player
+      name: Jac Caglianone
+      ref: 
+    - role: team
+      name: Kansas City Royals
+      ref: 
+- number: BWC-14
+  uuid: 1d37d32d-ff0f-469f-8b4e-574f33ddc1d9
+  subjects:
+  - entities:
+    - role: player
+      name: Ethan Holliday
+      ref: 
+    - role: team
+      name: Colorado Rockies
+      ref: 
+- number: BWC-15
+  uuid: 7709dcac-889e-44e6-980a-2dadf7949a26
+  subjects:
+  - entities:
+    - role: player
+      name: Bubba Chandler
+      ref: 
+    - role: team
+      name: Pittsburgh Pirates
+      ref: 
+- number: BWC-16
+  uuid: 7e17d817-3cf8-4b7f-972a-6bcc4470bd64
+  subjects:
+  - entities:
+    - role: player
+      name: Paul Skenes
+      ref: 
+    - role: team
+      name: Pittsburgh Pirates
+      ref: 
+- number: BWC-17
+  uuid: 4555e1ec-3868-43c8-a23e-b0cae2e01643
+  subjects:
+  - entities:
+    - role: player
+      name: Colson Montgomery
+      ref: 
+    - role: team
+      name: Chicago White Sox
+      ref: 
+- number: BWC-18
+  uuid: a67c2f0f-3274-4a5d-b240-28fe38ba5d1e
+  subjects:
+  - entities:
+    - role: player
+      name: Roman Anthony
+      ref: 
+    - role: team
+      name: Boston Red Sox
+      ref: 
+- number: BWC-19
+  uuid: e34078d8-8be4-4f4b-9f9e-9b5bd36c0638
+  subjects:
+  - entities:
+    - role: player
+      name: Shohei Ohtani
+      ref: 
+    - role: team
+      name: Los Angeles Dodgers
+      ref: 
+- number: BWC-20
+  uuid: 1d182a1e-e756-49aa-8b87-88942af931d3
+  subjects:
+  - entities:
+    - role: player
+      name: Francisco Lindor
+      ref: 
+    - role: team
+      name: New York Mets
+      ref: 

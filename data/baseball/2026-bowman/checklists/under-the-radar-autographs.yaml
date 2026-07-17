@@ -1,0 +1,130 @@
+- number: UTRA-1
+  uuid: 1b8a0de9-074f-4cf6-ab33-b6d1a4188291
+  subjects:
+  - entities:
+    - role: player
+      name: Connelly Early
+      ref: 
+    - role: team
+      name: Boston Red Sox
+      ref: 
+- number: UTRA-2
+  uuid: 15efab3e-5516-453f-9e93-f75feb1e837a
+  subjects:
+  - entities:
+    - role: player
+      name: Samuel Basallo
+      ref: 
+    - role: team
+      name: Baltimore Orioles
+      ref: 
+- number: UTRA-3
+  uuid: 8f783b3f-5de3-4c76-85a1-e5a5567949ab
+  subjects:
+  - entities:
+    - role: player
+      name: Cam Schlittler
+      ref: 
+    - role: team
+      name: New York Yankees
+      ref: 
+- number: UTRA-4
+  uuid: bcfbeb1c-9810-40bd-8a08-63d9739a36f9
+  subjects:
+  - entities:
+    - role: player
+      name: Trey Yesavage
+      ref: 
+    - role: team
+      name: Toronto Blue Jays
+      ref: 
+- number: UTRA-5
+  uuid: 3de82923-5801-4932-bec4-cc7776da0c53
+  subjects:
+  - entities:
+    - role: player
+      name: Carson Benge
+      ref: 
+    - role: team
+      name: New York Mets
+      ref: 
+- number: UTRA-6
+  uuid: c8cec429-7089-4d7f-b159-9cc5cc78d2f7
+  subjects:
+  - entities:
+    - role: player
+      name: Kyle Teel
+      ref: 
+    - role: team
+      name: Chicago White Sox
+      ref: 
+- number: UTRA-7
+  uuid: e031a324-1b58-4739-90fa-1efd46817d79
+  subjects:
+  - entities:
+    - role: player
+      name: Sal Stewart
+      ref: 
+    - role: team
+      name: Cincinnati Reds
+      ref: 
+- number: UTRA-8
+  uuid: 648dcf79-48e9-4176-8817-ac58fd2751c4
+  subjects:
+  - entities:
+    - role: player
+      name: Franklin Arias
+      ref: 
+    - role: team
+      name: Boston Red Sox
+      ref: 
+- number: UTRA-9
+  uuid: 76b8175f-b882-408a-99a6-fa092e9b7621
+  subjects:
+  - entities:
+    - role: player
+      name: Josue De Paula
+      ref: 
+    - role: team
+      name: Los Angeles Dodgers
+      ref: 
+- number: UTRA-10
+  uuid: faf7c975-05f0-4c16-8251-fa3c05eda9e4
+  subjects:
+  - entities:
+    - role: player
+      name: Kaelen Culpepper
+      ref: 
+    - role: team
+      name: Minnesota Twins
+      ref: 
+- number: UTRA-11
+  uuid: 0bffdee1-4b0e-4b62-b4be-c77606b9f11a
+  subjects:
+  - entities:
+    - role: player
+      name: Edward Florentino
+      ref: 
+    - role: team
+      name: Pittsburgh Pirates
+      ref: 
+- number: UTRA-12
+  uuid: e6351db5-3e06-45a7-bda0-b2d3470d1760
+  subjects:
+  - entities:
+    - role: player
+      name: Colt Emerson
+      ref: 
+    - role: team
+      name: Seattle Mariners
+      ref: 
+- number: UTRA-13
+  uuid: 8b3014b1-6356-4edb-9ef9-fe839ce4f317
+  subjects:
+  - entities:
+    - role: player
+      name: Kevin McGonigle
+      ref: 
+    - role: team
+      name: Detroit Tigers
+      ref: 

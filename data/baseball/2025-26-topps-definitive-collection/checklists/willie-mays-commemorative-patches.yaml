@@ -1,0 +1,476 @@
+- number: WMCP-ALM
+  uuid: 64e5460a-2633-4de1-9356-012be809f569
+  subjects:
+  - entities:
+    - role: player
+      name: Francisco Alvarez
+      ref: 
+    - role: team
+      name: New York Mets
+      ref: 
+  - entities:
+    - role: player
+      name: Willie Mays
+      ref: 
+    - role: team
+      name: New York Mets
+      ref: 
+- number: WMCP-AM
+  uuid: ee25b9d3-cfcd-4908-b3a3-16dc6cd7fb6c
+  subjects:
+  - entities:
+    - role: player
+      name: Luisangel Acuña
+      ref: 
+    - role: team
+      name: New York Mets
+      ref: 
+  - entities:
+    - role: player
+      name: Willie Mays
+      ref: 
+    - role: team
+      name: New York Mets
+      ref: 
+- number: WMCP-AMA
+  uuid: 9d5bad5b-b9f0-4cbc-88f8-38c05de27c32
+  subjects:
+  - entities:
+    - role: player
+      name: Willie Mays
+      ref: 
+    - role: team
+      name: New York Mets
+      ref: 
+  - entities:
+    - role: player
+      name: Pete Alonso
+      ref: 
+    - role: team
+      name: New York Mets
+      ref: 
+- number: WMCP-ARM
+  uuid: c97eca5f-4255-4838-87f8-e0d1808035f2
+  subjects:
+  - entities:
+    - role: player
+      name: Nolan Arenado
+      ref: 
+    - role: team
+      name: St. Louis Cardinals
+      ref: 
+  - entities:
+    - role: player
+      name: Willie Mays
+      ref: 
+    - role: team
+      name: San Francisco Giants
+      ref: 
+- number: WMCP-BM
+  uuid: 673026c5-a9ff-4d98-b19d-243cd05f6010
+  subjects:
+  - entities:
+    - role: player
+      name: Hayden Birdsong
+      ref: 
+    - role: team
+      name: San Francisco Giants
+      ref: 
+  - entities:
+    - role: player
+      name: Willie Mays
+      ref: 
+    - role: team
+      name: San Francisco Giants
+      ref: 
+- number: WMCP-BMA
+  uuid: a45b2777-c43c-4ae9-be0f-e14c6db53567
+  subjects:
+  - entities:
+    - role: player
+      name: Patrick Bailey
+      ref: 
+    - role: team
+      name: San Francisco Giants
+      ref: 
+  - entities:
+    - role: player
+      name: Willie Mays
+      ref: 
+    - role: team
+      name: San Francisco Giants
+      ref: 
+- number: WMCP-CAM
+  uuid: 3c577099-8124-432c-b710-410397d8c74b
+  subjects:
+  - entities:
+    - role: player
+      name: Willie Mays
+      ref: 
+    - role: team
+      name: San Francisco Giants
+      ref: 
+  - entities:
+    - role: player
+      name: Dylan Carlson
+      ref: 
+    - role: team
+      name: St. Louis Cardinals
+      ref: 
+- number: WMCP-CM
+  uuid: aba4d524-cd8b-40ec-b9ff-c876802fc512
+  subjects:
+  - entities:
+    - role: player
+      name: Willie Mays
+      ref: 
+    - role: team
+      name: San Francisco Giants
+      ref: 
+  - entities:
+    - role: player
+      name: Matt Chapman
+      ref: 
+    - role: team
+      name: San Francisco Giants
+      ref: 
+- number: WMCP-CMA
+  uuid: 19f1daa7-60fb-4cb0-94f8-68a690cb0bda
+  subjects:
+  - entities:
+    - role: player
+      name: Michael Conforto
+      ref: 
+    - role: team
+      name: San Francisco Giants
+      ref: 
+  - entities:
+    - role: player
+      name: Willie Mays
+      ref: 
+    - role: team
+      name: San Francisco Giants
+      ref: 
+- number: WMCP-CRM
+  uuid: be235b25-6055-4ad7-95e6-1cc4f46dcb56
+  subjects:
+  - entities:
+    - role: player
+      name: Willie Mays
+      ref: 
+    - role: team
+      name: San Francisco Giants
+      ref: 
+  - entities:
+    - role: player
+      name: Brandon Crawford
+      ref: 
+    - role: team
+      name: St. Louis Cardinals
+      ref: 
+- number: WMCP-DM
+  uuid: 4e1ae4e7-9010-4860-9b04-b2d88e7a17c4
+  subjects:
+  - entities:
+    - role: player
+      name: Willie Mays
+      ref: 
+    - role: team
+      name: New York Mets
+      ref: 
+  - entities:
+    - role: player
+      name: Edwin Díaz
+      ref: 
+    - role: team
+      name: New York Mets
+      ref: 
+- number: WMCP-DMA
+  uuid: 0b75e522-7f3b-463b-844a-ffa83109a4fd
+  subjects:
+  - entities:
+    - role: player
+      name: Willie Mays
+      ref: 
+    - role: team
+      name: San Francisco Giants
+      ref: 
+  - entities:
+    - role: player
+      name: Brendan Donovan
+      ref: 
+    - role: team
+      name: St. Louis Cardinals
+      ref: 
+- number: WMCP-EM
+  uuid: b2b8193a-5cfe-4417-8752-cc6800097144
+  subjects:
+  - entities:
+    - role: player
+      name: Willie Mays
+      ref: 
+    - role: team
+      name: San Francisco Giants
+      ref: 
+  - entities:
+    - role: player
+      name: Thairo Estrada
+      ref: 
+    - role: team
+      name: San Francisco Giants
+      ref: 
+- number: WMCP-FLWM
+  uuid: 31d7b637-480c-4ebc-84a0-5f0b36543c53
+  subjects:
+  - entities:
+    - role: player
+      name: Francisco Lindor
+      ref: 
+    - role: team
+      name: New York Mets
+      ref: 
+  - entities:
+    - role: player
+      name: Willie Mays
+      ref: 
+    - role: team
+      name: New York Mets
+      ref: 
+- number: WMCP-FMA
+  uuid: f346fd03-8086-45e3-a288-55f34d1cca73
+  subjects:
+  - entities:
+    - role: player
+      name: Willie Mays
+      ref: 
+    - role: team
+      name: San Francisco Giants
+      ref: 
+  - entities:
+    - role: player
+      name: Wilmer Flores
+      ref: 
+    - role: team
+      name: San Francisco Giants
+      ref: 
+- number: WMCP-GMA
+  uuid: 6a232624-c98c-45f3-be17-df4e1ec7622f
+  subjects:
+  - entities:
+    - role: player
+      name: Willie Mays
+      ref: 
+    - role: team
+      name: San Francisco Giants
+      ref: 
+  - entities:
+    - role: player
+      name: Paul Goldschmidt
+      ref: 
+    - role: team
+      name: St. Louis Cardinals
+      ref: 
+- number: WMCP-GOM
+  uuid: 751a9674-8d5e-4c95-bcb9-6c95e9d1ff4f
+  subjects:
+  - entities:
+    - role: player
+      name: Willie Mays
+      ref: 
+    - role: team
+      name: San Francisco Giants
+      ref: 
+  - entities:
+    - role: player
+      name: Nolan Gorman
+      ref: 
+    - role: team
+      name: St. Louis Cardinals
+      ref: 
+- number: WMCP-HM
+  uuid: 986d8058-e894-4c34-b930-4abd23c62dd8
+  subjects:
+  - entities:
+    - role: player
+      name: Willie Mays
+      ref: 
+    - role: team
+      name: San Francisco Giants
+      ref: 
+  - entities:
+    - role: player
+      name: Kyle Harrison
+      ref: 
+    - role: team
+      name: San Francisco Giants
+      ref: 
+- number: WMCP-LM
+  uuid: eea58355-441d-40d3-8d90-450c24917c83
+  subjects:
+  - entities:
+    - role: player
+      name: Willie Mays
+      ref: 
+    - role: team
+      name: New York Mets
+      ref: 
+  - entities:
+    - role: player
+      name: Francisco Lindor
+      ref: 
+    - role: team
+      name: New York Mets
+      ref: 
+- number: WMCP-LUM
+  uuid: ffdeed73-0ce9-4b71-a081-e348396fb5f7
+  subjects:
+  - entities:
+    - role: player
+      name: Willie Mays
+      ref: 
+    - role: team
+      name: San Francisco Giants
+      ref: 
+  - entities:
+    - role: player
+      name: Marco Luciano
+      ref: 
+    - role: team
+      name: San Francisco Giants
+      ref: 
+- number: WMCP-MLWM
+  uuid: 84fda4ad-af45-4254-a459-025cb5d2f38f
+  subjects:
+  - entities:
+    - role: player
+      name: Marco Luciano
+      ref: 
+    - role: team
+      name: San Francisco Giants
+      ref: 
+  - entities:
+    - role: player
+      name: Willie Mays
+      ref: 
+    - role: team
+      name: San Francisco Giants
+      ref: 
+- number: WMCP-MMA
+  uuid: 2f2f0754-1bb8-4fc5-95c8-72a37a5bd722
+  subjects:
+  - entities:
+    - role: player
+      name: Willie Mays
+      ref: 
+    - role: team
+      name: San Francisco Giants
+      ref: 
+  - entities:
+    - role: player
+      name: Grant McCray
+      ref: 
+    - role: team
+      name: San Francisco Giants
+      ref: 
+- number: WMCP-NM
+  uuid: 0ee33687-cb47-4750-ba61-94bf0bd38130
+  subjects:
+  - entities:
+    - role: player
+      name: Brandon Nimmo
+      ref: 
+    - role: team
+      name: New York Mets
+      ref: 
+  - entities:
+    - role: player
+      name: Willie Mays
+      ref: 
+    - role: team
+      name: New York Mets
+      ref: 
+- number: WMCP-PAWM
+  uuid: aea96e30-d58b-4a0b-9580-8457372fdb6e
+  subjects:
+  - entities:
+    - role: player
+      name: Willie Mays
+      ref: 
+    - role: team
+      name: New York Mets
+      ref: 
+  - entities:
+    - role: player
+      name: Pete Alonso
+      ref: 
+    - role: team
+      name: New York Mets
+      ref: 
+- number: WMCP-SOM
+  uuid: 25b59fb0-1b33-4f52-a9d7-c8bf32f4dfd8
+  subjects:
+  - entities:
+    - role: player
+      name: Willie Mays
+      ref: 
+    - role: team
+      name: San Francisco Giants
+      ref: 
+  - entities:
+    - role: player
+      name: Jorge Soler
+      ref: 
+    - role: team
+      name: San Francisco Giants
+      ref: 
+- number: WMCP-WIM
+  uuid: 3d3c6f33-9535-4b77-a867-590f8f90b684
+  subjects:
+  - entities:
+    - role: player
+      name: Willie Mays
+      ref: 
+    - role: team
+      name: San Francisco Giants
+      ref: 
+  - entities:
+    - role: player
+      name: Masyn Winn
+      ref: 
+    - role: team
+      name: St. Louis Cardinals
+      ref: 
+- number: WMCP-WM
+  uuid: c881cc8d-943c-42c5-bcf6-ba7a88c5dbff
+  subjects:
+  - entities:
+    - role: player
+      name: Willie Mays
+      ref: 
+    - role: team
+      name: San Francisco Giants
+      ref: 
+  - entities:
+    - role: player
+      name: Logan Webb
+      ref: 
+    - role: team
+      name: San Francisco Giants
+      ref: 
+- number: WMCP-YM
+  uuid: b9965354-4b0b-41bc-9244-f0aad944a01e
+  subjects:
+  - entities:
+    - role: player
+      name: Willie Mays
+      ref: 
+    - role: team
+      name: San Francisco Giants
+      ref: 
+  - entities:
+    - role: player
+      name: Mike Yastrzemski
+      ref: 
+    - role: team
+      name: San Francisco Giants
+      ref: 

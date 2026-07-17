@@ -1,0 +1,490 @@
+- number: DABG-AAZ
+  uuid: 12596c07-dbd7-4f86-900b-c174f8d3628c
+  subjects:
+  - entities:
+    - role: player
+      name: Armando Alvarez
+      ref: 
+    - role: team
+      name: Athletics
+      ref: 
+- number: DABG-ARA
+  uuid: 4c611fef-7b92-440c-b01c-3aeb5be46ae3
+  subjects:
+  - entities:
+    - role: player
+      name: Agustín Ramírez
+      ref: 
+    - role: team
+      name: Miami Marlins
+      ref: 
+- number: DABG-BB
+  uuid: 22bde6ec-beda-40b0-92d2-e4569a26e2d6
+  subjects:
+  - entities:
+    - role: player
+      name: Brooks Baldwin
+      ref: 
+    - role: team
+      name: Chicago White Sox
+      ref: 
+- number: DABG-BD
+  uuid: 49f39c92-5e24-47b5-a2dd-138dc4700379
+  subjects:
+  - entities:
+    - role: player
+      name: Blake Dunn
+      ref: 
+    - role: team
+      name: Cincinnati Reds
+      ref: 
+- number: DABG-BLO
+  uuid: e4782a2d-9b30-4e9b-b691-00836f3afd4c
+  subjects:
+  - entities:
+    - role: player
+      name: Brandon Lockridge
+      ref: 
+    - role: team
+      name: San Diego Padres
+      ref: 
+- number: DABG-BR
+  uuid: 202c0e8d-ea12-4075-865c-2bae2100dfbc
+  subjects:
+  - entities:
+    - role: player
+      name: Ben Rice
+      ref: 
+    - role: team
+      name: New York Yankees
+      ref: 
+- number: DABG-BT
+  uuid: e23f7dc1-84ea-4b57-adbb-ebfb01837ca7
+  subjects:
+  - entities:
+    - role: player
+      name: Bryce Teodosio
+      ref: 
+    - role: team
+      name: Los Angeles Angels
+      ref: 
+- number: DABG-BWI
+  uuid: 031ae192-1750-450c-b206-6b61254d0b38
+  subjects:
+  - entities:
+    - role: player
+      name: Ben Williamson
+      ref: 
+    - role: team
+      name: Seattle Mariners
+      ref: 
+- number: DABG-CD
+  uuid: 2d4fa2a8-178d-4be7-a37b-8b2938ff1df4
+  subjects:
+  - entities:
+    - role: player
+      name: Caleb Durbin
+      ref: 
+    - role: team
+      name: Milwaukee Brewers
+      ref: 
+- number: DABG-CM
+  uuid: c492160d-97e4-4056-a87f-3b0a304f23c9
+  subjects:
+  - entities:
+    - role: player
+      name: Coby Mayo
+      ref: 
+    - role: team
+      name: Baltimore Orioles
+      ref: 
+- number: DABG-CS
+  uuid: 45db30f9-f8c4-47e4-a9a3-c76939802ab5
+  subjects:
+  - entities:
+    - role: player
+      name: Cam Smith
+      ref: 
+    - role: team
+      name: Houston Astros
+      ref: 
+- number: DABG-CSI
+  uuid: c34c8f1f-9443-4be0-b181-eabeb838275c
+  subjects:
+  - entities:
+    - role: player
+      name: Chandler Simpson
+      ref: 
+    - role: team
+      name: Tampa Bay Rays
+      ref: 
+- number: DABG-DAR
+  uuid: 61063379-5959-4978-bf37-79a174951703
+  subjects:
+  - entities:
+    - role: player
+      name: Dalton Rushing
+      ref: 
+    - role: team
+      name: Los Angeles Dodgers
+      ref: 
+- number: DABG-DBA
+  uuid: 92665c83-d850-4e09-9612-21249e5ef249
+  subjects:
+  - entities:
+    - role: player
+      name: Drake Baldwin
+      ref: 
+    - role: team
+      name: Atlanta Braves
+      ref: 
+- number: DABG-DD
+  uuid: e58cd288-c415-4c31-97b8-eddbd989f314
+  subjects:
+  - entities:
+    - role: player
+      name: Dillon Dingler
+      ref: 
+    - role: team
+      name: Detroit Tigers
+      ref: 
+- number: DABG-DH
+  uuid: 924e2648-e4d9-477e-af40-0d8d05e947d4
+  subjects:
+  - entities:
+    - role: player
+      name: Dustin Harris
+      ref: 
+    - role: team
+      name: Texas Rangers
+      ref: 
+- number: DABG-DHA
+  uuid: 38b09b66-fc3a-4aef-a552-2340c52d5a1f
+  subjects:
+  - entities:
+    - role: player
+      name: Dustin Harris
+      ref: 
+    - role: team
+      name: Texas Rangers
+      ref: 
+- number: DABG-DK
+  uuid: 710d89d6-06ae-47cc-a23b-634c96fe7442
+  subjects:
+  - entities:
+    - role: player
+      name: DaShawn Keirsey Jr.
+      ref: 
+    - role: team
+      name: Minnesota Twins
+      ref: 
+- number: DABG-EQ
+  uuid: 9f2c059a-a5b4-4465-aeb2-f44e4b669f78
+  subjects:
+  - entities:
+    - role: player
+      name: Edgar Quero
+      ref: 
+    - role: team
+      name: Chicago White Sox
+      ref: 
+- number: DABG-GC
+  uuid: 6a455090-6bf4-4de8-9691-6739e6b5629d
+  subjects:
+  - entities:
+    - role: player
+      name: Griffin Conine
+      ref: 
+    - role: team
+      name: Miami Marlins
+      ref: 
+- number: DABG-HK
+  uuid: b525ca6f-646e-4901-8a9b-08fc19b4b1e6
+  subjects:
+  - entities:
+    - role: player
+      name: Hyeseong Kim
+      ref: 
+    - role: team
+      name: Los Angeles Dodgers
+      ref: 
+- number: DABG-HS
+  uuid: 681b78bc-ebfe-4b20-bb8e-28a26933cb20
+  subjects:
+  - entities:
+    - role: player
+      name: Hayden Senger
+      ref: 
+    - role: team
+      name: New York Mets
+      ref: 
+- number: DABG-JCE
+  uuid: 1e0e7f05-668a-4bed-a8c1-1dfe104fc999
+  subjects:
+  - entities:
+    - role: player
+      name: J.C. Escarra
+      ref: 
+    - role: team
+      name: New York Yankees
+      ref: 
+- number: DABG-JE
+  uuid: feb96d5f-ce28-47cb-890b-51325e7d54ac
+  subjects:
+  - entities:
+    - role: player
+      name: J.C. Escarra
+      ref: 
+    - role: team
+      name: New York Yankees
+      ref: 
+- number: DABG-JM
+  uuid: 7f28112d-18b3-49a3-9f56-d42cab51834e
+  subjects:
+  - entities:
+    - role: player
+      name: Justyn-Henry Malloy
+      ref: 
+    - role: team
+      name: Detroit Tigers
+      ref: 
+- number: DABG-JMA
+  uuid: 8bf3c4e0-9759-46ba-9e0b-abc18f95962a
+  subjects:
+  - entities:
+    - role: player
+      name: Jake Mangum
+      ref: 
+    - role: team
+      name: Tampa Bay Rays
+      ref: 
+- number: DABG-JR
+  uuid: 93d16ef3-cdd2-4e69-831d-913add355712
+  subjects:
+  - entities:
+    - role: player
+      name: John Rave
+      ref: 
+    - role: team
+      name: Kansas City Royals
+      ref: 
+- number: DABG-JV
+  uuid: 88a5d0a3-171a-44d7-abb9-b3bbe9b2f7a4
+  subjects:
+  - entities:
+    - role: player
+      name: Jorbit Vivas
+      ref: 
+    - role: team
+      name: New York Yankees
+      ref: 
+- number: DABG-JWI
+  uuid: 6df8babe-5523-4656-a3d7-fc608d0f2cde
+  subjects:
+  - entities:
+    - role: player
+      name: Jacob Wilson
+      ref: 
+    - role: team
+      name: Athletics
+      ref: 
+- number: DABG-KA
+  uuid: 2e6b4bc4-4b5e-42e4-85fd-965450753bd9
+  subjects:
+  - entities:
+    - role: player
+      name: Kevin Alcántara
+      ref: 
+    - role: team
+      name: Chicago Cubs
+      ref: 
+- number: DABG-KC
+  uuid: 8d689af4-1283-43fc-a1d4-26c1fab777eb
+  subjects:
+  - entities:
+    - role: player
+      name: Kristian Campbell
+      ref: 
+    - role: team
+      name: Boston Red Sox
+      ref: 
+- number: DABG-KCA
+  uuid: 5021627d-3f02-4f35-a1e7-655c74891b07
+  subjects:
+  - entities:
+    - role: player
+      name: Kristian Campbell
+      ref: 
+    - role: team
+      name: Boston Red Sox
+      ref: 
+- number: DABG-KM
+  uuid: ab443092-c496-42c2-aa82-a880f748c367
+  subjects:
+  - entities:
+    - role: player
+      name: Kameron Misner
+      ref: 
+    - role: team
+      name: Tampa Bay Rays
+      ref: 
+- number: DABG-LA
+  uuid: 1975488f-1341-4dff-a101-24d315015085
+  subjects:
+  - entities:
+    - role: player
+      name: Luisangel Acuña
+      ref: 
+    - role: team
+      name: New York Mets
+      ref: 
+- number: DABG-LDA
+  uuid: 57b2fd13-4ec0-4aef-a21e-b4124e399f31
+  subjects:
+  - entities:
+    - role: player
+      name: Logan Davidson
+      ref: 
+    - role: team
+      name: Athletics
+      ref: 
+- number: DABG-LH
+  uuid: bac0daa8-eabd-4d71-be5e-7e63270b815b
+  subjects:
+  - entities:
+    - role: player
+      name: Liam Hicks
+      ref: 
+    - role: team
+      name: Miami Marlins
+      ref: 
+- number: DABG-LK
+  uuid: db2a8ece-e1e2-4e85-ad9c-022e55ccf146
+  subjects:
+  - entities:
+    - role: player
+      name: Luke Keaschall
+      ref: 
+    - role: team
+      name: Minnesota Twins
+      ref: 
+- number: DABG-MB
+  uuid: c999ac35-66c8-490d-8015-ba5e0d355ba3
+  subjects:
+  - entities:
+    - role: player
+      name: Moisés Ballesteros
+      ref: 
+    - role: team
+      name: Chicago Cubs
+      ref: 
+- number: DABG-MMA
+  uuid: c1e505b5-cd2e-4d61-8e9c-b98dbf71712b
+  subjects:
+  - entities:
+    - role: player
+      name: Marcelo Mayer
+      ref: 
+    - role: team
+      name: Boston Red Sox
+      ref: 
+- number: DABG-MS
+  uuid: 520fb689-d594-4802-bd5a-1148f7c3c8d9
+  subjects:
+  - entities:
+    - role: player
+      name: Matt Shaw
+      ref: 
+    - role: team
+      name: Chicago Cubs
+      ref: 
+- number: DABG-NK
+  uuid: 9157ebb3-b2dd-4f16-8b21-b53415142a02
+  subjects:
+  - entities:
+    - role: player
+      name: Niko Kavadas
+      ref: 
+    - role: team
+      name: Los Angeles Angels
+      ref: 
+- number: DABG-NKU
+  uuid: 9b59edd1-82fd-4adf-bb1a-8ee7451ea63a
+  subjects:
+  - entities:
+    - role: player
+      name: Nick Kurtz
+      ref: 
+    - role: team
+      name: Athletics
+      ref: 
+- number: DABG-NS
+  uuid: 68ba9b4e-bbe0-4b0f-b4cd-f3647721455f
+  subjects:
+  - entities:
+    - role: player
+      name: Nick Sogard
+      ref: 
+    - role: team
+      name: Boston Red Sox
+      ref: 
+- number: DABG-TC
+  uuid: 14ae6941-0e0c-4763-9836-cee95438740a
+  subjects:
+  - entities:
+    - role: player
+      name: Tyler Callihan
+      ref: 
+    - role: team
+      name: Cincinnati Reds
+      ref: 
+- number: DABG-TL
+  uuid: 78125fab-c85d-4c5d-bc55-c9fe5152317c
+  subjects:
+  - entities:
+    - role: player
+      name: Tyler Locklear
+      ref: 
+    - role: team
+      name: Seattle Mariners
+      ref: 
+- number: DABG-TSW
+  uuid: aa14de3a-012b-4170-a4ae-40581449cdc6
+  subjects:
+  - entities:
+    - role: player
+      name: Trey Sweeney
+      ref: 
+    - role: team
+      name: Detroit Tigers
+      ref: 
+- number: DABG-VMJ
+  uuid: 9010a3b7-13e6-4017-bddc-2193457e5395
+  subjects:
+  - entities:
+    - role: player
+      name: Victor Mesa Jr.
+      ref: 
+    - role: team
+      name: Miami Marlins
+      ref: 
+- number: DABG-WW
+  uuid: e9176aa7-e6b8-481b-8eaf-6888e0dd07ea
+  subjects:
+  - entities:
+    - role: player
+      name: Will Wagner
+      ref: 
+    - role: team
+      name: Toronto Blue Jays
+      ref: 
+- number: DABG-ZD
+  uuid: 64619760-9ea0-4f2c-bc18-6a8b375a2216
+  subjects:
+  - entities:
+    - role: player
+      name: Zach Dezenzo
+      ref: 
+    - role: team
+      name: Houston Astros
+      ref: 

@@ -1,0 +1,150 @@
+- number: BS-1
+  uuid: ac469c35-0993-4eed-b558-75b0e41c556c
+  subjects:
+  - entities:
+    - role: player
+      name: Colson Montgomery
+      ref: 
+    - role: team
+      name: Chicago White Sox
+      ref: 
+- number: BS-2
+  uuid: b23bdebd-9e58-4875-af67-7aa4b5e844aa
+  subjects:
+  - entities:
+    - role: player
+      name: Nolan McLean
+      ref: 
+    - role: team
+      name: New York Mets
+      ref: 
+- number: BS-3
+  uuid: 95fa778f-934f-4648-b16c-a30b7c4003f9
+  subjects:
+  - entities:
+    - role: player
+      name: Samuel Basallo
+      ref: 
+    - role: team
+      name: Baltimore Orioles
+      ref: 
+- number: BS-4
+  uuid: 84ec5149-6fd6-4707-bc2b-e7a69d4e304f
+  subjects:
+  - entities:
+    - role: player
+      name: Jac Caglianone
+      ref: 
+    - role: team
+      name: Kansas City Royals
+      ref: 
+- number: BS-5
+  uuid: d7442444-08d6-4e14-a3e4-a90a0a25b2b0
+  subjects:
+  - entities:
+    - role: player
+      name: Cam Schlittler
+      ref: 
+    - role: team
+      name: New York Yankees
+      ref: 
+- number: BS-6
+  uuid: 15003b7b-915c-4b00-a314-39ec5a0d6a1a
+  subjects:
+  - entities:
+    - role: player
+      name: Roman Anthony
+      ref: 
+    - role: team
+      name: Boston Red Sox
+      ref: 
+- number: BS-7
+  uuid: fc85cfd6-cc79-45d9-99aa-fbd135eee87d
+  subjects:
+  - entities:
+    - role: player
+      name: Bryce Eldridge
+      ref: 
+    - role: team
+      name: San Francisco Giants
+      ref: 
+- number: BS-8
+  uuid: 63261490-6f5e-405e-b8e8-f36d4b73d9de
+  subjects:
+  - entities:
+    - role: player
+      name: Chase Burns
+      ref: 
+    - role: team
+      name: Cincinnati Reds
+      ref: 
+- number: BS-9
+  uuid: 2e077bcd-b74d-4925-982e-18db08215763
+  subjects:
+  - entities:
+    - role: player
+      name: Aiva Arquette
+      ref: 
+    - role: team
+      name: Miami Marlins
+      ref: 
+- number: BS-10
+  uuid: b3042b4b-19a3-49e9-9496-385bb4fc72ff
+  subjects:
+  - entities:
+    - role: player
+      name: Edward Florentino
+      ref: 
+    - role: team
+      name: Pittsburgh Pirates
+      ref: 
+- number: BS-11
+  uuid: bc541fa2-8382-4ad4-a091-5057bfcdaa09
+  subjects:
+  - entities:
+    - role: player
+      name: Wehiwa Aloy
+      ref: 
+    - role: team
+      name: Baltimore Orioles
+      ref: 
+- number: BS-12
+  uuid: 7a4d0386-e47b-464e-8132-958d5ab98233
+  subjects:
+  - entities:
+    - role: player
+      name: Bubba Chandler
+      ref: 
+    - role: team
+      name: Pittsburgh Pirates
+      ref: 
+- number: BS-13
+  uuid: 368f12cf-8427-48e4-9b8e-cf7db0b59379
+  subjects:
+  - entities:
+    - role: player
+      name: Ethan Holliday
+      ref: 
+    - role: team
+      name: Colorado Rockies
+      ref: 
+- number: BS-14
+  uuid: a2544a54-1483-428c-b963-ee7f29a9ef4c
+  subjects:
+  - entities:
+    - role: player
+      name: Trey Yesavage
+      ref: 
+    - role: team
+      name: Toronto Blue Jays
+      ref: 
+- number: BS-15
+  uuid: e6c6dc12-861e-484e-8423-986b99294040
+  subjects:
+  - entities:
+    - role: player
+      name: Christian Moore
+      ref: 
+    - role: team
+      name: Los Angeles Angels
+      ref: 

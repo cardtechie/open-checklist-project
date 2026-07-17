@@ -1,0 +1,450 @@
+- number: FAC-AD
+  uuid: df6bc979-be2a-48e1-8997-33a8bd0e5b00
+  subjects:
+  - entities:
+    - role: player
+      name: Andre Dawson
+      ref: 
+    - role: team
+      name: Chicago Cubs
+      ref: 
+- number: FAC-AJ
+  uuid: 1c7f058b-fc40-47d5-8f0b-2cbef14ac0cf
+  subjects:
+  - entities:
+    - role: player
+      name: Aaron Judge
+      ref: 
+    - role: team
+      name: New York Yankees
+      ref: 
+- number: FAC-AP
+  uuid: 31bc8b6d-5f33-48e8-91be-f99b5e30d9e4
+  subjects:
+  - entities:
+    - role: player
+      name: Albert Pujols
+      ref: 
+    - role: team
+      name: St. Louis Cardinals
+      ref: 
+- number: FAC-BB
+  uuid: 84e4d31e-221b-4726-8929-e8e957803546
+  subjects:
+  - entities:
+    - role: player
+      name: Barry Bonds
+      ref: 
+    - role: team
+      name: San Francisco Giants
+      ref: 
+- number: FAC-BJ
+  uuid: 9cef484e-f22b-4325-9399-f59321f6116a
+  subjects:
+  - entities:
+    - role: player
+      name: Bo Jackson
+      ref: 
+    - role: team
+      name: Kansas City Royals
+      ref: 
+- number: FAC-BW
+  uuid: 221ed242-91d6-43e2-a89a-507eaa6e7055
+  subjects:
+  - entities:
+    - role: player
+      name: Bernie Williams
+      ref: 
+    - role: team
+      name: New York Yankees
+      ref: 
+- number: FAC-BWJ
+  uuid: e5c65981-4572-41b9-95ec-595f36affca7
+  subjects:
+  - entities:
+    - role: player
+      name: Bobby Witt Jr.
+      ref: 
+    - role: team
+      name: Kansas City Royals
+      ref: 
+- number: FAC-CB
+  uuid: '064911d7-2052-4a09-9bd8-615d51aeca72'
+  subjects:
+  - entities:
+    - role: player
+      name: Craig Biggio
+      ref: 
+    - role: team
+      name: Houston Astros
+      ref: 
+- number: FAC-CC
+  uuid: e9e342fd-1882-4d70-96e0-acf10d979f26
+  subjects:
+  - entities:
+    - role: player
+      name: CC Sabathia
+      ref: 
+    - role: team
+      name: New York Yankees
+      ref: 
+- number: FAC-CS
+  uuid: d0e7d359-64b5-43b4-b4a1-33f4e3687886
+  subjects:
+  - entities:
+    - role: player
+      name: Corey Seager
+      ref: 
+    - role: team
+      name: Texas Rangers
+      ref: 
+- number: FAC-CSA
+  uuid: 27f35307-8e74-4e31-b946-5e2ad3ffb545
+  subjects:
+  - entities:
+    - role: player
+      name: Chris Sale
+      ref: 
+    - role: team
+      name: Atlanta Braves
+      ref: 
+- number: FAC-DC
+  uuid: 179bffb7-f28f-48e3-9a1b-af4e392f9bd9
+  subjects:
+  - entities:
+    - role: player
+      name: Dylan Crews
+      ref: 
+    - role: team
+      name: Washington Nationals
+      ref: 
+- number: FAC-DJ
+  uuid: 9711b852-205e-4036-b631-aa87184a5bf6
+  subjects:
+  - entities:
+    - role: player
+      name: Derek Jeter
+      ref: 
+    - role: team
+      name: New York Yankees
+      ref: 
+- number: FAC-DW
+  uuid: 96c8906e-e992-47f3-9c35-83948efff555
+  subjects:
+  - entities:
+    - role: player
+      name: David Wright
+      ref: 
+    - role: team
+      name: New York Mets
+      ref: 
+- number: FAC-FF
+  uuid: ab9fe2d3-e5e4-4c16-8bd1-358b5f39a03f
+  subjects:
+  - entities:
+    - role: player
+      name: Freddie Freeman
+      ref: 
+    - role: team
+      name: Los Angeles Dodgers
+      ref: 
+- number: FAC-FL
+  uuid: eab6336b-6580-4603-a8bb-365e326375c9
+  subjects:
+  - entities:
+    - role: player
+      name: Francisco Lindor
+      ref: 
+    - role: team
+      name: New York Mets
+      ref: 
+- number: FAC-GH
+  uuid: b5da5720-4f51-4a14-a98b-c19150ef16cd
+  subjects:
+  - entities:
+    - role: player
+      name: Gunnar Henderson
+      ref: 
+    - role: team
+      name: Baltimore Orioles
+      ref: 
+- number: FAC-JB
+  uuid: 9a2ff6bd-611a-4e60-8259-9723bed09c7b
+  subjects:
+  - entities:
+    - role: player
+      name: Jeff Bagwell
+      ref: 
+    - role: team
+      name: Houston Astros
+      ref: 
+- number: FAC-JC
+  uuid: b9692a2d-e3e9-4f49-a42a-02747fc8f9b2
+  subjects:
+  - entities:
+    - role: player
+      name: Jackson Chourio
+      ref: 
+    - role: team
+      name: Milwaukee Brewers
+      ref: 
+- number: FAC-JCA
+  uuid: 1f2ac070-c7e4-40f6-9f63-96d783a198fc
+  subjects:
+  - entities:
+    - role: player
+      name: Junior Caminero
+      ref: 
+    - role: team
+      name: Tampa Bay Rays
+      ref: 
+- number: FAC-JH
+  uuid: e08b9fd5-1c57-471b-bee2-c548df3b58bd
+  subjects:
+  - entities:
+    - role: player
+      name: Jackson Holliday
+      ref: 
+    - role: team
+      name: Baltimore Orioles
+      ref: 
+- number: FAC-JJ
+  uuid: bc2c2b71-17f7-4b97-8632-960eefef75ca
+  subjects:
+  - entities:
+    - role: player
+      name: Jackson Jobe
+      ref: 
+    - role: team
+      name: Detroit Tigers
+      ref: 
+- number: FAC-JM
+  uuid: 985548da-9791-486f-ba3a-e6da4e572006
+  subjects:
+  - entities:
+    - role: player
+      name: Jackson Merrill
+      ref: 
+    - role: team
+      name: San Diego Padres
+      ref: 
+- number: FAC-JS
+  uuid: 4eb37c7e-bce8-4fa8-b4a3-49494a9bcefc
+  subjects:
+  - entities:
+    - role: player
+      name: Juan Soto
+      ref: 
+    - role: team
+      name: New York Mets
+      ref: 
+- number: FAC-JW
+  uuid: 5a4e64e8-96f8-44fb-9b33-7dde2260061f
+  subjects:
+  - entities:
+    - role: player
+      name: James Wood
+      ref: 
+    - role: team
+      name: Washington Nationals
+      ref: 
+- number: FAC-KC
+  uuid: 20b1391e-0575-40ec-9c25-ae4df3a043ba
+  subjects:
+  - entities:
+    - role: player
+      name: Kristian Campbell
+      ref: 
+    - role: team
+      name: Boston Red Sox
+      ref: 
+- number: FAC-KT
+  uuid: 9a963456-41ff-4043-8154-e9052efeca1f
+  subjects:
+  - entities:
+    - role: player
+      name: Kyle Tucker
+      ref: 
+    - role: team
+      name: Chicago Cubs
+      ref: 
+- number: FAC-MM
+  uuid: c3263561-5d65-4bbd-b10f-2cad702318ab
+  subjects:
+  - entities:
+    - role: player
+      name: Mark McGwire
+      ref: 
+    - role: team
+      name: Oakland Athletics
+      ref: 
+- number: FAC-MMA
+  uuid: 522858ce-f717-4618-92ff-02e3624ab963
+  subjects:
+  - entities:
+    - role: player
+      name: Marcelo Mayer
+      ref: 
+    - role: team
+      name: Boston Red Sox
+      ref: 
+- number: FAC-MS
+  uuid: 16aa4004-b0e1-4b4d-8ed7-f9db9718da46
+  subjects:
+  - entities:
+    - role: player
+      name: Mike Schmidt
+      ref: 
+    - role: team
+      name: Philadelphia Phillies
+      ref: 
+- number: FAC-MSH
+  uuid: eb22a254-f592-452c-b7c5-139142b26afc
+  subjects:
+  - entities:
+    - role: player
+      name: Matt Shaw
+      ref: 
+    - role: team
+      name: Chicago Cubs
+      ref: 
+- number: FAC-NK
+  uuid: 5b271298-8d87-415e-97e0-a541116103ab
+  subjects:
+  - entities:
+    - role: player
+      name: Nick Kurtz
+      ref: 
+    - role: team
+      name: Athletics
+      ref: 
+- number: FAC-PA
+  uuid: 50dacfd9-b5a1-4fce-80b0-487cf466b497
+  subjects:
+  - entities:
+    - role: player
+      name: Pete Alonso
+      ref: 
+    - role: team
+      name: New York Mets
+      ref: 
+- number: FAC-PM
+  uuid: e4f58c42-efd2-4511-9e5e-233ecc295739
+  subjects:
+  - entities:
+    - role: player
+      name: Paul Molitor
+      ref: 
+    - role: team
+      name: Milwaukee Brewers
+      ref: 
+- number: FAC-PS
+  uuid: f73a2250-ebbc-4956-84a9-0a25d6e90a3b
+  subjects:
+  - entities:
+    - role: player
+      name: Paul Skenes
+      ref: 
+    - role: team
+      name: Pittsburgh Pirates
+      ref: 
+- number: FAC-RA
+  uuid: f7807e2a-df23-42a3-8a45-3e41a8fdadda
+  subjects:
+  - entities:
+    - role: player
+      name: Ronald Acuña Jr.
+      ref: 
+    - role: team
+      name: Atlanta Braves
+      ref: 
+- number: FAC-RS
+  uuid: 1015b85b-cea4-44c2-827e-f516456cf544
+  subjects:
+  - entities:
+    - role: player
+      name: Roki Sasaki
+      ref: 
+    - role: team
+      name: Los Angeles Dodgers
+      ref: 
+- number: FAC-SI
+  uuid: 52e5a0f1-64cc-4860-be6b-a1f6b9dfd46d
+  subjects:
+  - entities:
+    - role: player
+      name: Shota Imanaga
+      ref: 
+    - role: team
+      name: Chicago Cubs
+      ref: 
+- number: FAC-SO
+  uuid: f04613d3-a453-4f6e-b65b-a2d06bbd2b37
+  subjects:
+  - entities:
+    - role: player
+      name: Shohei Ohtani
+      ref: 
+    - role: team
+      name: Los Angeles Dodgers
+      ref: 
+- number: FAC-SR
+  uuid: 30b9afcc-5f52-4494-91f8-17e59eb51b14
+  subjects:
+  - entities:
+    - role: player
+      name: Scott Rolen
+      ref: 
+    - role: team
+      name: Philadelphia Phillies
+      ref: 
+- number: FAC-TG
+  uuid: fb25bd0d-0624-4b45-b9fb-ff05b3b83fe2
+  subjects:
+  - entities:
+    - role: player
+      name: Tom Glavine
+      ref: 
+    - role: team
+      name: Atlanta Braves
+      ref: 
+- number: FAC-TS
+  uuid: df81a26d-8630-4279-8ac6-4fb79193ec25
+  subjects:
+  - entities:
+    - role: player
+      name: Tarik Skubal
+      ref: 
+    - role: team
+      name: Detroit Tigers
+      ref: 
+- number: FAC-VG
+  uuid: 66066382-5079-4fab-a922-fd5d128e1202
+  subjects:
+  - entities:
+    - role: player
+      name: Vladimir Guerrero Jr.
+      ref: 
+    - role: team
+      name: Toronto Blue Jays
+      ref: 
+- number: FAC-WL
+  uuid: 29e0b395-1e11-4328-9401-b792c5d7e02f
+  subjects:
+  - entities:
+    - role: player
+      name: Wyatt Langford
+      ref: 
+    - role: team
+      name: Texas Rangers
+      ref: 
+- number: FAC-YY
+  uuid: d31a222b-1d1a-4ab6-bbcb-24c3884731e3
+  subjects:
+  - entities:
+    - role: player
+      name: Yoshinobu Yamamoto
+      ref: 
+    - role: team
+      name: Los Angeles Dodgers
+      ref: 

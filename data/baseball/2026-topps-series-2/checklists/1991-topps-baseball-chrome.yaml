@@ -1,0 +1,500 @@
+- number: 91C2-1
+  uuid: 6d90d864-86de-4a31-9554-6e1a1eafdbbc
+  subjects:
+  - entities:
+    - role: player
+      name: Pete Alonso
+      ref: 
+    - role: team
+      name: Baltimore Orioles
+      ref: 
+- number: 91C2-2
+  uuid: e44928f9-5c29-4487-b2a9-f9e2fbb9dc15
+  subjects:
+  - entities:
+    - role: player
+      name: Cole Young
+      ref: 
+    - role: team
+      name: Seattle Mariners
+      ref: 
+- number: 91C2-3
+  uuid: 1b682ac9-bf27-4f40-8252-1136cc3ba7d2
+  subjects:
+  - entities:
+    - role: player
+      name: Cam Schlittler
+      ref: 
+    - role: team
+      name: New York Yankees
+      ref: 
+- number: 91C2-4
+  uuid: c37947f3-4e84-4825-9c6a-8bb5ad59603c
+  subjects:
+  - entities:
+    - role: player
+      name: Denzer Guzman
+      ref: 
+    - role: team
+      name: Los Angeles Angels
+      ref: 
+- number: 91C2-5
+  uuid: d6a22083-1caa-4c25-903c-0a61cd9f448d
+  subjects:
+  - entities:
+    - role: player
+      name: Jakob Marsee
+      ref: 
+    - role: team
+      name: Miami Marlins
+      ref: 
+- number: 91C2-6
+  uuid: 8f7e4709-8ebe-4573-a80f-fe531813c4ab
+  subjects:
+  - entities:
+    - role: player
+      name: Mariano Rivera
+      ref: 
+    - role: team
+      name: New York Yankees
+      ref: 
+- number: 91C2-7
+  uuid: f6568bd1-3f43-4942-84b1-b15b01755cef
+  subjects:
+  - entities:
+    - role: player
+      name: Adley Rutschman
+      ref: 
+    - role: team
+      name: Baltimore Orioles
+      ref: 
+- number: 91C2-8
+  uuid: 1b0f2a09-6d64-4c8b-8ccb-4f443d11a8c6
+  subjects:
+  - entities:
+    - role: player
+      name: Bo Bichette
+      ref: 
+    - role: team
+      name: New York Mets
+      ref: 
+- number: 91C2-9
+  uuid: c5b48be7-fa3b-4d35-a3fc-45deb636aab9
+  subjects:
+  - entities:
+    - role: player
+      name: Rafael Flores
+      ref: 
+    - role: team
+      name: Pittsburgh Pirates
+      ref: 
+- number: 91C2-10
+  uuid: 2bd1418a-c357-4bde-a590-53049fdd51ec
+  subjects:
+  - entities:
+    - role: player
+      name: Alex Freeland
+      ref: 
+    - role: team
+      name: Los Angeles Dodgers
+      ref: 
+- number: 91C2-11
+  uuid: 49064650-f06b-4e17-a135-5c2fd60cc5bf
+  subjects:
+  - entities:
+    - role: player
+      name: Kyle Schwarber
+      ref: 
+    - role: team
+      name: Philadelphia Phillies
+      ref: 
+- number: 91C2-12
+  uuid: ef90b0a9-32b8-43c3-94b8-0d992184af6e
+  subjects:
+  - entities:
+    - role: player
+      name: Colson Montgomery
+      ref: 
+    - role: team
+      name: Chicago White Sox
+      ref: 
+- number: 91C2-13
+  uuid: ed6de94b-8209-4aee-a25c-7f5bd0784bd2
+  subjects:
+  - entities:
+    - role: player
+      name: Chase DeLauter
+      ref: 
+    - role: team
+      name: Cleveland Guardians
+      ref: 
+- number: 91C2-14
+  uuid: 857fc59e-f5c0-4eae-bb25-b2a96b3633c0
+  subjects:
+  - entities:
+    - role: player
+      name: Blake Snell
+      ref: 
+    - role: team
+      name: Los Angeles Dodgers
+      ref: 
+- number: 91C2-15
+  uuid: f22a05b1-3dc4-42a1-823e-cc0102d680c2
+  subjects:
+  - entities:
+    - role: player
+      name: Connelly Early
+      ref: 
+    - role: team
+      name: Boston Red Sox
+      ref: 
+- number: 91C2-16
+  uuid: 1aa8ec47-577d-42cd-b08f-d6f66b23cc8e
+  subjects:
+  - entities:
+    - role: player
+      name: Brandon Sproat
+      ref: 
+    - role: team
+      name: Milwaukee Brewers
+      ref: 
+- number: 91C2-17
+  uuid: 417f9ac2-5456-4eb2-ad10-081a24397729
+  subjects:
+  - entities:
+    - role: player
+      name: Seiya Suzuki
+      ref: 
+    - role: team
+      name: Chicago Cubs
+      ref: 
+- number: 91C2-18
+  uuid: 366a79b2-5108-4224-aa54-65ecec56bfb9
+  subjects:
+  - entities:
+    - role: player
+      name: Jimmy Crooks
+      ref: 
+    - role: team
+      name: St. Louis Cardinals
+      ref: 
+- number: 91C2-19
+  uuid: 9c2a1e1c-b285-45bb-b6b0-4d97f37d8764
+  subjects:
+  - entities:
+    - role: player
+      name: Jackson Chourio
+      ref: 
+    - role: team
+      name: Milwaukee Brewers
+      ref: 
+- number: 91C2-20
+  uuid: 01c6fe6a-c017-4da3-8866-c93037437b7f
+  subjects:
+  - entities:
+    - role: player
+      name: Munetaka Murakami
+      ref: 
+    - role: team
+      name: Chicago White Sox
+      ref: 
+- number: 91C2-21
+  uuid: c2403868-be99-4610-aa8e-4e838ce80ee3
+  subjects:
+  - entities:
+    - role: player
+      name: Hunter Barco
+      ref: 
+    - role: team
+      name: Pittsburgh Pirates
+      ref: 
+- number: 91C2-22
+  uuid: 7cb56846-3c26-41b3-bb2d-8439a88dac56
+  subjects:
+  - entities:
+    - role: player
+      name: Zach Neto
+      ref: 
+    - role: team
+      name: Los Angeles Angels
+      ref: 
+- number: 91C2-23
+  uuid: a2d703e6-915f-4049-849c-4e3c2c2fb06d
+  subjects:
+  - entities:
+    - role: player
+      name: Roki Sasaki
+      ref: 
+    - role: team
+      name: Los Angeles Dodgers
+      ref: 
+- number: 91C2-24
+  uuid: 32d9048f-0397-4e49-ae98-f05fe3d12006
+  subjects:
+  - entities:
+    - role: player
+      name: Jac Caglianone
+      ref: 
+    - role: team
+      name: Kansas City Royals
+      ref: 
+- number: 91C2-25
+  uuid: 5cb4ff0f-4372-4a57-8e8c-3cca75e0ccdc
+  subjects:
+  - entities:
+    - role: player
+      name: Chris Sale
+      ref: 
+    - role: team
+      name: Atlanta Braves
+      ref: 
+- number: 91C2-26
+  uuid: 5a0529a2-0ae2-4133-8f8c-00364f28d528
+  subjects:
+  - entities:
+    - role: player
+      name: Nolan McLean
+      ref: 
+    - role: team
+      name: New York Mets
+      ref: 
+- number: 91C2-27
+  uuid: b01e9410-a0e9-452a-9b1e-3ca9c6076415
+  subjects:
+  - entities:
+    - role: player
+      name: Sal Stewart
+      ref: 
+    - role: team
+      name: Cincinnati Reds
+      ref: 
+- number: 91C2-28
+  uuid: a98bbfd3-759f-4a9d-a52f-98caf994cb86
+  subjects:
+  - entities:
+    - role: player
+      name: Zach Cole
+      ref: 
+    - role: team
+      name: Houston Astros
+      ref: 
+- number: 91C2-29
+  uuid: 04a80510-9eda-4ac8-b484-438ba4e15a92
+  subjects:
+  - entities:
+    - role: player
+      name: Jacob deGrom
+      ref: 
+    - role: team
+      name: Texas Rangers
+      ref: 
+- number: 91C2-30
+  uuid: 067c70f1-ca67-422d-8dc5-94d0d00eb1b1
+  subjects:
+  - entities:
+    - role: player
+      name: Dylan Beavers
+      ref: 
+    - role: team
+      name: Baltimore Orioles
+      ref: 
+- number: 91C2-31
+  uuid: fadb00d5-3ae3-4803-9390-2c431baf8d0b
+  subjects:
+  - entities:
+    - role: player
+      name: Payton Tolle
+      ref: 
+    - role: team
+      name: Boston Red Sox
+      ref: 
+- number: 91C2-32
+  uuid: 69f17f9e-7cba-4d35-8c62-02f624e3f734
+  subjects:
+  - entities:
+    - role: player
+      name: Bryce Eldridge
+      ref: 
+    - role: team
+      name: San Francisco Giants
+      ref: 
+- number: 91C2-33
+  uuid: 69243b5e-7f3a-4401-94e6-4fcee58c3be9
+  subjects:
+  - entities:
+    - role: player
+      name: Cade Horton
+      ref: 
+    - role: team
+      name: Chicago Cubs
+      ref: 
+- number: 91C2-34
+  uuid: 0ae96d68-ac64-40b9-a9e8-d4b0ddb60336
+  subjects:
+  - entities:
+    - role: player
+      name: Chase Burns
+      ref: 
+    - role: team
+      name: Cincinnati Reds
+      ref: 
+- number: 91C2-35
+  uuid: 3c3fd7f0-cef8-4f56-9f67-c55a02e09a58
+  subjects:
+  - entities:
+    - role: player
+      name: Tatsuya Imai
+      ref: 
+    - role: team
+      name: Houston Astros
+      ref: 
+- number: 91C2-36
+  uuid: c8c26fa4-447b-45f9-ba7a-66c40afea310
+  subjects:
+  - entities:
+    - role: player
+      name: Carter Jensen
+      ref: 
+    - role: team
+      name: Kansas City Royals
+      ref: 
+- number: 91C2-37
+  uuid: 40140894-e8bc-43cb-b5aa-a13e53e492a0
+  subjects:
+  - entities:
+    - role: player
+      name: Samuel Basallo
+      ref: 
+    - role: team
+      name: Baltimore Orioles
+      ref: 
+- number: 91C2-38
+  uuid: c60d0410-8b2b-4c5a-ad60-74e2d2d3bcd6
+  subjects:
+  - entities:
+    - role: player
+      name: Carson Williams
+      ref: 
+    - role: team
+      name: Tampa Bay Rays
+      ref: 
+- number: 91C2-39
+  uuid: 066dd2a0-10e4-4264-b22f-156cc5065018
+  subjects:
+  - entities:
+    - role: player
+      name: Jackson Merrill
+      ref: 
+    - role: team
+      name: San Diego Padres
+      ref: 
+- number: 91C2-40
+  uuid: e24ff9fb-f795-4eb6-b2e4-8aa814f6b01f
+  subjects:
+  - entities:
+    - role: player
+      name: Austin Riley
+      ref: 
+    - role: team
+      name: Atlanta Braves
+      ref: 
+- number: 91C2-41
+  uuid: 1d51e52f-9970-4ce8-b1ea-9051b3eceb51
+  subjects:
+  - entities:
+    - role: player
+      name: Jazz Chisholm Jr.
+      ref: 
+    - role: team
+      name: New York Yankees
+      ref: 
+- number: 91C2-42
+  uuid: 0a0ff59c-1840-4851-acbc-190ee9f0987f
+  subjects:
+  - entities:
+    - role: player
+      name: Joe Mauer
+      ref: 
+    - role: team
+      name: Minnesota Twins
+      ref: 
+- number: 91C2-43
+  uuid: fbcfbf66-a406-4f09-8379-1e03136e9553
+  subjects:
+  - entities:
+    - role: player
+      name: Kazuma Okamoto
+      ref: 
+    - role: team
+      name: Toronto Blue Jays
+      ref: 
+- number: 91C2-44
+  uuid: 59048725-5fce-486f-aeb4-5d3b18b6cbde
+  subjects:
+  - entities:
+    - role: player
+      name: C.J. Kayfus
+      ref: 
+    - role: team
+      name: Cleveland Guardians
+      ref: 
+- number: 91C2-45
+  uuid: 4fe1a133-1cab-4772-a291-c1a0ad7a63ac
+  subjects:
+  - entities:
+    - role: player
+      name: Roman Anthony
+      ref: 
+    - role: team
+      name: Boston Red Sox
+      ref: 
+- number: 91C2-46
+  uuid: a1e2f353-43e5-4782-b971-092c3e7e5769
+  subjects:
+  - entities:
+    - role: player
+      name: Trey Yesavage
+      ref: 
+    - role: team
+      name: Toronto Blue Jays
+      ref: 
+- number: 91C2-47
+  uuid: '01380c0e-18e5-4a0d-8a2f-21ed865f5038'
+  subjects:
+  - entities:
+    - role: player
+      name: Harry Ford
+      ref: 
+    - role: team
+      name: Washington Nationals
+      ref: 
+- number: 91C2-48
+  uuid: cc3c4540-1a40-4043-9cdf-4167947c31ff
+  subjects:
+  - entities:
+    - role: player
+      name: Lawrence Butler
+      ref: 
+    - role: team
+      name: Athletics
+      ref: 
+- number: 91C2-49
+  uuid: 6c78601c-aac1-4d43-b7b9-aae922638cbd
+  subjects:
+  - entities:
+    - role: player
+      name: Nolan Ryan
+      ref: 
+    - role: team
+      name: Houston Astros
+      ref: 
+- number: 91C2-50
+  uuid: 8f10f305-500a-4769-ac70-ba703b0ad66f
+  subjects:
+  - entities:
+    - role: player
+      name: Nick Kurtz
+      ref: 
+    - role: team
+      name: Athletics
+      ref: 

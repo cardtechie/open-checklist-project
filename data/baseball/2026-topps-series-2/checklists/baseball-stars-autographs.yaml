@@ -1,0 +1,920 @@
+- number: BSA-BB
+  uuid: 9d93b44e-20c0-44f6-b752-0a786c86f19e
+  subjects:
+  - entities:
+    - role: player
+      name: Barry Bonds
+      ref: 
+    - role: team
+      name: Pittsburgh Pirates
+      ref: 
+- number: BSA2-AB
+  uuid: 3a104ebd-c63a-428a-b563-8cc17f8c64c2
+  subjects:
+  - entities:
+    - role: player
+      name: Addison Barger
+      ref: 
+    - role: team
+      name: Toronto Blue Jays
+      ref: 
+- number: BSA2-ABO
+  uuid: d0bfd331-7e04-4632-90d2-1c8d7c5d8a71
+  subjects:
+  - entities:
+    - role: player
+      name: Alec Bohm
+      ref: 
+    - role: team
+      name: Philadelphia Phillies
+      ref: 
+- number: BSA2-ABR
+  uuid: 4a783f1b-231e-4afe-b5ba-a7bbfed1041f
+  subjects:
+  - entities:
+    - role: player
+      name: Alex Bregman
+      ref: 
+    - role: team
+      name: Chicago Cubs
+      ref: 
+- number: BSA2-AF
+  uuid: '02112459-d66e-4e8c-9f54-3b9b49918920'
+  subjects:
+  - entities:
+    - role: player
+      name: Alex Freeland
+      ref: 
+    - role: team
+      name: Los Angeles Dodgers
+      ref: 
+- number: BSA2-AG
+  uuid: c1f42856-f2dd-4b1d-babb-52638ab4c0b8
+  subjects:
+  - entities:
+    - role: player
+      name: Andres Galarraga
+      ref: 
+    - role: team
+      name: Montréal Expos
+      ref: 
+- number: BSA2-AGA
+  uuid: 5d7b06ad-9648-4a5e-af12-c304a7f9ef68
+  subjects:
+  - entities:
+    - role: player
+      name: Adolis García
+      ref: 
+    - role: team
+      name: Philadelphia Phillies
+      ref: 
+- number: BSA2-AGI
+  uuid: ef4c338c-5f6f-4736-9945-56abb4c96039
+  subjects:
+  - entities:
+    - role: player
+      name: Andrés Giménez
+      ref: 
+    - role: team
+      name: Toronto Blue Jays
+      ref: 
+- number: BSA2-AGR
+  uuid: 3edea86b-cde8-4d34-91fe-d80dc88cc667
+  subjects:
+  - entities:
+    - role: player
+      name: Andre Granillo
+      ref: 
+    - role: team
+      name: Washington Nationals
+      ref: 
+- number: BSA2-AP
+  uuid: 114679cb-cb9b-43ed-a03a-0498670d8d4e
+  subjects:
+  - entities:
+    - role: player
+      name: Andy Pages
+      ref: 
+    - role: team
+      name: Los Angeles Dodgers
+      ref: 
+- number: BSA2-APA
+  uuid: a689e942-78d1-494e-9b22-3dd0172a81de
+  subjects:
+  - entities:
+    - role: player
+      name: Andrew Painter
+      ref: 
+    - role: team
+      name: Philadelphia Phillies
+      ref: 
+- number: BSA2-AS
+  uuid: 52a585ed-572c-4032-91a2-2e93a43e31a9
+  subjects:
+  - entities:
+    - role: player
+      name: Alfonso Soriano
+      ref: 
+    - role: team
+      name: New York Yankees
+      ref: 
+- number: BSA2-BG
+  uuid: 22682b34-dadc-429a-98cd-08c63de61765
+  subjects:
+  - entities:
+    - role: player
+      name: Brett Gardner
+      ref: 
+    - role: team
+      name: New York Yankees
+      ref: 
+- number: BSA2-BM
+  uuid: 2783d816-7cb5-4457-8554-317e4cbd86b3
+  subjects:
+  - entities:
+    - role: player
+      name: Brice Matthews
+      ref: 
+    - role: team
+      name: Houston Astros
+      ref: 
+- number: BSA2-BR
+  uuid: d0a70e56-d895-4242-a86d-f045405431f1
+  subjects:
+  - entities:
+    - role: player
+      name: Billy Ripken
+      ref: 
+    - role: team
+      name: Baltimore Orioles
+      ref: 
+- number: BSA2-BS
+  uuid: 5a534782-40c7-45f2-ac31-9bf4fba9ddbf
+  subjects:
+  - entities:
+    - role: player
+      name: Blake Snell
+      ref: 
+    - role: team
+      name: Los Angeles Dodgers
+      ref: 
+- number: BSA2-BSP
+  uuid: 9168be23-9c48-4392-850c-9068865edcf4
+  subjects:
+  - entities:
+    - role: player
+      name: Brandon Sproat
+      ref: 
+    - role: team
+      name: Milwaukee Brewers
+      ref: 
+- number: BSA2-BW
+  uuid: 2d4d7a88-e2db-4680-8253-04ae9b69f9f6
+  subjects:
+  - entities:
+    - role: player
+      name: Bryan Woo
+      ref: 
+    - role: team
+      name: Seattle Mariners
+      ref: 
+- number: BSA2-CC
+  uuid: d67f9c4a-6bf1-47a8-93a4-88b508246b7b
+  subjects:
+  - entities:
+    - role: player
+      name: Cade Cavalli
+      ref: 
+    - role: team
+      name: Washington Nationals
+      ref: 
+- number: BSA2-CD
+  uuid: 19b115cf-14c9-468a-9b45-65339e11a1e2
+  subjects:
+  - entities:
+    - role: player
+      name: Chase DeLauter
+      ref: 
+    - role: team
+      name: Cleveland Guardians
+      ref: 
+- number: BSA2-CJ
+  uuid: af3887f7-a249-4d17-ae4c-4c5f7416c4f8
+  subjects:
+  - entities:
+    - role: player
+      name: Carter Jensen
+      ref: 
+    - role: team
+      name: Kansas City Royals
+      ref: 
+- number: BSA2-CM
+  uuid: d2c50602-e472-4e5c-80f0-8ed286177fb5
+  subjects:
+  - entities:
+    - role: player
+      name: Christian Moore
+      ref: 
+    - role: team
+      name: Los Angeles Angels
+      ref: 
+- number: BSA2-CP
+  uuid: 8dd93ef1-d94b-4db9-bccf-ea6081a3abb6
+  subjects:
+  - entities:
+    - role: player
+      name: César Prieto
+      ref: 
+    - role: team
+      name: St. Louis Cardinals
+      ref: 
+- number: BSA2-CS
+  uuid: bae86e0e-6d60-4b93-969c-8842f9ed1cec
+  subjects:
+  - entities:
+    - role: player
+      name: Chandler Simpson
+      ref: 
+    - role: team
+      name: Tampa Bay Rays
+      ref: 
+- number: BSA2-DB
+  uuid: 9dae6a8c-443f-4561-89e5-d11eab25d492
+  subjects:
+  - entities:
+    - role: player
+      name: Dusty Baker
+      ref: 
+    - role: team
+      name: Los Angeles Dodgers
+      ref: 
+- number: BSA2-DBE
+  uuid: c3f007e0-760d-474d-8f4b-cf1c370a5209
+  subjects:
+  - entities:
+    - role: player
+      name: Dylan Beavers
+      ref: 
+    - role: team
+      name: Baltimore Orioles
+      ref: 
+- number: BSA2-DBR
+  uuid: da8eca64-02a3-42c2-b49f-8547b6f0e9b1
+  subjects:
+  - entities:
+    - role: player
+      name: David Bednar
+      ref: 
+    - role: team
+      name: New York Yankees
+      ref: 
+- number: BSA2-DC
+  uuid: 3b7e2b56-d21a-4c87-9923-47eb5d58893f
+  subjects:
+  - entities:
+    - role: player
+      name: Denzel Clarke
+      ref: 
+    - role: team
+      name: Athletics
+      ref: 
+- number: BSA2-DE
+  uuid: a33db2eb-f776-4ab3-81a5-f2b2bea89d54
+  subjects:
+  - entities:
+    - role: player
+      name: Dennis Eckersley
+      ref: 
+    - role: team
+      name: Oakland Athletics
+      ref: 
+- number: BSA2-DGU
+  uuid: 56d10ebb-727b-49a7-b50c-2c779ea69ec4
+  subjects:
+  - entities:
+    - role: player
+      name: Denzer Guzman
+      ref: 
+    - role: team
+      name: Los Angeles Angels
+      ref: 
+- number: BSA2-DM
+  uuid: 31003d6f-f85a-40f2-b5e3-e8a332cd3729
+  subjects:
+  - entities:
+    - role: player
+      name: Dale Murphy
+      ref: 
+    - role: team
+      name: Atlanta Braves
+      ref: 
+- number: BSA2-DV
+  uuid: 3c969549-00fb-4507-ac7d-34a92d632713
+  subjects:
+  - entities:
+    - role: player
+      name: Daulton Varsho
+      ref: 
+    - role: team
+      name: Toronto Blue Jays
+      ref: 
+- number: BSA2-EG
+  uuid: f9202e9e-4e05-4819-a296-f120ab887601
+  subjects:
+  - entities:
+    - role: player
+      name: Eric Gagne
+      ref: 
+    - role: team
+      name: Los Angeles Dodgers
+      ref: 
+- number: BSA2-FL
+  uuid: 3f691dd5-8f75-47a2-960b-460ad9540b66
+  subjects:
+  - entities:
+    - role: player
+      name: Fred Lynn
+      ref: 
+    - role: team
+      name: Boston Red Sox
+      ref: 
+- number: BSA2-GC
+  uuid: d4ad2b95-669b-457a-8397-cb79fc779b5c
+  subjects:
+  - entities:
+    - role: player
+      name: Garrett Crochet
+      ref: 
+    - role: team
+      name: Boston Red Sox
+      ref: 
+- number: BSA2-GK
+  uuid: 9df1dc52-c5a6-4881-baec-73c180642482
+  subjects:
+  - entities:
+    - role: player
+      name: George Kirby
+      ref: 
+    - role: team
+      name: Seattle Mariners
+      ref: 
+- number: BSA2-GV
+  uuid: 365798e1-3822-41d2-9834-69f9da5f818d
+  subjects:
+  - entities:
+    - role: player
+      name: George Valera
+      ref: 
+    - role: team
+      name: Cleveland Guardians
+      ref: 
+- number: BSA2-HB
+  uuid: a0cc9735-f8e9-4797-80bd-b22ec512e09a
+  subjects:
+  - entities:
+    - role: player
+      name: Harrison Bader
+      ref: 
+    - role: team
+      name: San Francisco Giants
+      ref: 
+- number: BSA2-HBA
+  uuid: 5a9dd1c7-e795-4d6e-b71a-0619a32e32f0
+  subjects:
+  - entities:
+    - role: player
+      name: Hunter Barco
+      ref: 
+    - role: team
+      name: Pittsburgh Pirates
+      ref: 
+- number: BSA2-HF
+  uuid: d1378900-4ce5-48d8-9817-68e0d6e3465c
+  subjects:
+  - entities:
+    - role: player
+      name: Harry Ford
+      ref: 
+    - role: team
+      name: Washington Nationals
+      ref: 
+- number: BSA2-HHA
+  uuid: ac1cb6a2-fba4-4eb2-b757-2e840a640ef2
+  subjects:
+  - entities:
+    - role: player
+      name: Hayden Harris
+      ref: 
+    - role: team
+      name: Atlanta Braves
+      ref: 
+- number: BSA2-JB
+  uuid: 744c10e5-e71c-4ec0-a04d-98a386cd231d
+  subjects:
+  - entities:
+    - role: player
+      name: Jay Buhner
+      ref: 
+    - role: team
+      name: Seattle Mariners
+      ref: 
+- number: BSA2-JC
+  uuid: 44f86d47-963c-41a3-95fb-9026706302d7
+  subjects:
+  - entities:
+    - role: player
+      name: Junior Caminero
+      ref: 
+    - role: team
+      name: Tampa Bay Rays
+      ref: 
+- number: BSA2-JD
+  uuid: 2ce428d2-8f87-48d5-a27a-5408e9b2a943
+  subjects:
+  - entities:
+    - role: player
+      name: Jhoan Duran
+      ref: 
+    - role: team
+      name: Philadelphia Phillies
+      ref: 
+- number: BSA2-JG
+  uuid: bed6823b-fa9e-480a-a001-83dad693e054
+  subjects:
+  - entities:
+    - role: player
+      name: Jhostynxon Garcia
+      ref: 
+    - role: team
+      name: Pittsburgh Pirates
+      ref: 
+- number: BSA2-JJ
+  uuid: bb67252d-ea2c-499e-a58e-1a2efa22cb8f
+  subjects:
+  - entities:
+    - role: player
+      name: Jared Jones
+      ref: 
+    - role: team
+      name: Pittsburgh Pirates
+      ref: 
+- number: BSA2-JJU
+  uuid: 88075dda-27f7-4d04-a35e-4ba4302ec65c
+  subjects:
+  - entities:
+    - role: player
+      name: Josh Jung
+      ref: 
+    - role: team
+      name: Texas Rangers
+      ref: 
+- number: BSA2-JL
+  uuid: 11c8cf36-4ef7-4bc2-bf00-7794ab2c229e
+  subjects:
+  - entities:
+    - role: player
+      name: Jesús Luzardo
+      ref: 
+    - role: team
+      name: Philadelphia Phillies
+      ref: 
+- number: BSA2-JM
+  uuid: 2aaba86f-733c-482c-bc1d-5abad35f0db8
+  subjects:
+  - entities:
+    - role: player
+      name: Jacob Melton
+      ref: 
+    - role: team
+      name: Tampa Bay Rays
+      ref: 
+- number: BSA2-JO
+  uuid: dac308f5-fd50-4d1e-a0fb-864758c12c12
+  subjects:
+  - entities:
+    - role: player
+      name: James Outman
+      ref: 
+    - role: team
+      name: Minnesota Twins
+      ref: 
+- number: BSA2-JR
+  uuid: 42e783e2-1bec-4904-b3f3-7eb0db508c34
+  subjects:
+  - entities:
+    - role: player
+      name: Jim Rice
+      ref: 
+    - role: team
+      name: Boston Red Sox
+      ref: 
+- number: BSA2-JS
+  uuid: 3141ee35-631e-49f0-9642-949b2f045754
+  subjects:
+  - entities:
+    - role: player
+      name: Justin Steele
+      ref: 
+    - role: team
+      name: Chicago Cubs
+      ref: 
+- number: BSA2-JW
+  uuid: 8674f739-68dd-4d01-b120-08aa12ef49ee
+  subjects:
+  - entities:
+    - role: player
+      name: Jack Winkler
+      ref: 
+    - role: team
+      name: Houston Astros
+      ref: 
+- number: BSA2-LC
+  uuid: a14079a3-9d02-4ce6-b9a1-65d8e34e3def
+  subjects:
+  - entities:
+    - role: player
+      name: Luis Castillo
+      ref: 
+    - role: team
+      name: Seattle Mariners
+      ref: 
+- number: BSA2-MB
+  uuid: 369f1cbd-96b4-4625-b61e-5bb99af1d179
+  subjects:
+  - entities:
+    - role: player
+      name: Michael Busch
+      ref: 
+    - role: team
+      name: Chicago Cubs
+      ref: 
+- number: BSA2-MC
+  uuid: 38c27431-60b4-4518-9c9e-e0ddb4463ac8
+  subjects:
+  - entities:
+    - role: player
+      name: Matt Chapman
+      ref: 
+    - role: team
+      name: San Francisco Giants
+      ref: 
+- number: BSA2-MF
+  uuid: 9f8ecc25-d711-482f-af33-7ace86342789
+  subjects:
+  - entities:
+    - role: player
+      name: Mitch Farris
+      ref: 
+    - role: team
+      name: Los Angeles Angels
+      ref: 
+- number: BSA2-MG
+  uuid: 8365ba4a-0946-446c-b6b7-83ff9e306fc9
+  subjects:
+  - entities:
+    - role: player
+      name: Mark Grace
+      ref: 
+    - role: team
+      name: Chicago Cubs
+      ref: 
+- number: BSA2-MM
+  uuid: 941737b8-64db-464a-a565-f1a54e145327
+  subjects:
+  - entities:
+    - role: player
+      name: Max Muncy
+      ref: 
+    - role: team
+      name: Los Angeles Dodgers
+      ref: 
+- number: BSA2-MMI
+  uuid: b6845e08-9aa0-4fc6-afe3-75e1547e42a4
+  subjects:
+  - entities:
+    - role: player
+      name: Munetaka Murakami
+      ref: 
+    - role: team
+      name: Chicago White Sox
+      ref: 
+- number: BSA2-MMU
+  uuid: 7b619a58-679b-4095-a763-5f37b9256a08
+  subjects:
+  - entities:
+    - role: player
+      name: Mark Mulder
+      ref: 
+    - role: team
+      name: St. Louis Cardinals
+      ref: 
+- number: BSA2-MV
+  uuid: d150d7df-bb57-4682-aba5-8fc2b8cb02dc
+  subjects:
+  - entities:
+    - role: player
+      name: Mark Vientos
+      ref: 
+    - role: team
+      name: New York Mets
+      ref: 
+- number: BSA2-MY
+  uuid: eba16072-be0a-43ea-8918-e4a5c334141d
+  subjects:
+  - entities:
+    - role: player
+      name: Michael Young
+      ref: 
+    - role: team
+      name: Texas Rangers
+      ref: 
+- number: BSA2-NL
+  uuid: edc2b886-5cf3-4de3-bab4-17cf23c4154f
+  subjects:
+  - entities:
+    - role: player
+      name: Nick Lodolo
+      ref: 
+    - role: team
+      name: Cincinnati Reds
+      ref: 
+- number: BSA2-NM
+  uuid: 2aa97a1b-034c-4465-948f-d04577acf7c9
+  subjects:
+  - entities:
+    - role: player
+      name: Noelvi Marte
+      ref: 
+    - role: team
+      name: Cincinnati Reds
+      ref: 
+- number: BSA2-NMC
+  uuid: 43d56042-9c28-47e5-b58c-4916d9315b1a
+  subjects:
+  - entities:
+    - role: player
+      name: Nolan McLean
+      ref: 
+    - role: team
+      name: New York Mets
+      ref: 
+- number: BSA2-NS
+  uuid: 5585b8c8-80ab-48dd-b7fb-845425c77c0d
+  subjects:
+  - entities:
+    - role: player
+      name: Nolan Schanuel
+      ref: 
+    - role: team
+      name: Los Angeles Angels
+      ref: 
+- number: BSA2-OC
+  uuid: 355ec9e1-159d-459b-966f-c9f108e65ddf
+  subjects:
+  - entities:
+    - role: player
+      name: Owen Caissie
+      ref: 
+    - role: team
+      name: Miami Marlins
+      ref: 
+- number: BSA2-PB
+  uuid: 8a12f032-e249-4348-abe6-5afafac29bf1
+  subjects:
+  - entities:
+    - role: player
+      name: Patrick Bailey
+      ref: 
+    - role: team
+      name: San Francisco Giants
+      ref: 
+- number: BSA2-PH
+  uuid: 81af10f0-a98d-4ade-833f-6fe08d12d1ee
+  subjects:
+  - entities:
+    - role: player
+      name: Petey Halpin
+      ref: 
+    - role: team
+      name: Cleveland Guardians
+      ref: 
+- number: BSA2-PK
+  uuid: 955ffdb0-41cb-44bb-be7b-2fbb5424b0cd
+  subjects:
+  - entities:
+    - role: player
+      name: Paul Konerko
+      ref: 
+    - role: team
+      name: Chicago White Sox
+      ref: 
+- number: BSA2-PM
+  uuid: 33eadcff-9c6b-4c1f-92ac-45685e2a1f5c
+  subjects:
+  - entities:
+    - role: player
+      name: Paul Molitor
+      ref: 
+    - role: team
+      name: Toronto Blue Jays
+      ref: 
+- number: BSA2-PME
+  uuid: 3004c6a2-ebe2-4e84-9f58-53c4037c0e18
+  subjects:
+  - entities:
+    - role: player
+      name: Parker Messick
+      ref: 
+    - role: team
+      name: Cleveland Guardians
+      ref: 
+- number: BSA2-PO
+  uuid: 526ef89b-5de0-43b2-abd1-c2e05783bb90
+  subjects:
+  - entities:
+    - role: player
+      name: Paul O'Neill
+      ref: 
+    - role: team
+      name: New York Yankees
+      ref: 
+- number: BSA2-PT
+  uuid: dce4c23d-3718-4cca-af40-7b1c2b235326
+  subjects:
+  - entities:
+    - role: player
+      name: Payton Tolle
+      ref: 
+    - role: team
+      name: Boston Red Sox
+      ref: 
+- number: BSA2-QP
+  uuid: ba32dbe9-2192-45b3-9e9d-f24fa44d534b
+  subjects:
+  - entities:
+    - role: player
+      name: Quinn Priester
+      ref: 
+    - role: team
+      name: Milwaukee Brewers
+      ref: 
+- number: BSA2-RF
+  uuid: 19a4645e-adb7-4d53-a660-97184d80197a
+  subjects:
+  - entities:
+    - role: player
+      name: Richard Fitts
+      ref: 
+    - role: team
+      name: St. Louis Cardinals
+      ref: 
+- number: BSA2-RFL
+  uuid: 1c634e96-2d05-4b08-8344-e5871b2dedd1
+  subjects:
+  - entities:
+    - role: player
+      name: Rafael Flores
+      ref: 
+    - role: team
+      name: Pittsburgh Pirates
+      ref: 
+- number: BSA2-RM
+  uuid: 3608f2b5-5ca5-4b06-937d-2f2925d45d87
+  subjects:
+  - entities:
+    - role: player
+      name: Rolddy Muñoz
+      ref: 
+    - role: team
+      name: Atlanta Braves
+      ref: 
+- number: BSA2-SB
+  uuid: bea212d3-3c95-4fc4-8545-fab1bca90187
+  subjects:
+  - entities:
+    - role: player
+      name: Shane Bieber
+      ref: 
+    - role: team
+      name: Toronto Blue Jays
+      ref: 
+- number: BSA2-SC
+  uuid: 95e66ddf-9f24-4e56-8698-3e99e8645928
+  subjects:
+  - entities:
+    - role: player
+      name: Steve Carlton
+      ref: 
+    - role: team
+      name: Philadelphia Phillies
+      ref: 
+- number: BSA2-SG
+  uuid: 490b115d-ef56-40db-8227-57b81d2c6a16
+  subjects:
+  - entities:
+    - role: player
+      name: Sonny Gray
+      ref: 
+    - role: team
+      name: Boston Red Sox
+      ref: 
+- number: BSA2-SL
+  uuid: 48d0905f-54d7-404d-a480-152887f69ddb
+  subjects:
+  - entities:
+    - role: player
+      name: Shea Langeliers
+      ref: 
+    - role: team
+      name: Athletics
+      ref: 
+- number: BSA2-SR
+  uuid: 28873017-6cd7-4d6c-b475-78f214026f6a
+  subjects:
+  - entities:
+    - role: player
+      name: Scott Rolen
+      ref: 
+    - role: team
+      name: St. Louis Cardinals
+      ref: 
+- number: BSA2-SS
+  uuid: a77dbf3e-0eb9-4303-9e5f-73190971920e
+  subjects:
+  - entities:
+    - role: player
+      name: Sal Stewart
+      ref: 
+    - role: team
+      name: Cincinnati Reds
+      ref: 
+- number: BSA2-TB
+  uuid: 2f9f8960-8176-4ca8-8a18-c9d402a43e2e
+  subjects:
+  - entities:
+    - role: player
+      name: Tanner Bibee
+      ref: 
+    - role: team
+      name: Cleveland Guardians
+      ref: 
+- number: BSA2-TH
+  uuid: '029b6f9e-e9d5-4387-8808-d18bb903b186'
+  subjects:
+  - entities:
+    - role: player
+      name: Tim Hudson
+      ref: 
+    - role: team
+      name: Atlanta Braves
+      ref: 
+- number: BSA2-TI
+  uuid: ea2e6581-1a54-4395-a580-40d73aab1a7a
+  subjects:
+  - entities:
+    - role: player
+      name: Tatsuya Imai
+      ref: 
+    - role: team
+      name: Houston Astros
+      ref: 
+- number: BSA2-WB
+  uuid: 57790e45-ebbe-4aa8-87f3-733f7fb2afce
+  subjects:
+  - entities:
+    - role: player
+      name: Warming Bernabel
+      ref: 
+    - role: team
+      name: Washington Nationals
+      ref: 
+- number: BSA2-WL
+  uuid: 2ada3a96-1cc5-4296-9c6a-e46b10480bf3
+  subjects:
+  - entities:
+    - role: player
+      name: Wyatt Langford
+      ref: 
+    - role: team
+      name: Texas Rangers
+      ref: 
+- number: BSA2-YF
+  uuid: abf032b4-7bc7-4387-9d90-016bf9d60306
+  subjects:
+  - entities:
+    - role: player
+      name: Yanquiel Fernández
+      ref: 
+    - role: team
+      name: New York Yankees
+      ref: 
+- number: BSA2-ZC
+  uuid: 3e83f3a6-4a56-4111-b410-d09bd3e7d997
+  subjects:
+  - entities:
+    - role: player
+      name: Zach Cole
+      ref: 
+    - role: team
+      name: Houston Astros
+      ref: 
