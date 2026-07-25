@@ -1,0 +1,66 @@
+name: Reserve work-order identity
+
+# When a work-order is opened, reserve the set's identity at discovery:
+# derive set_id from the title and mint a UUIDv4, writing both to the pinned
+# issue fields — only when empty, so bot/human-provided values are preserved.
+# Fulfills #52 ("reserve the UUID at discovery").
+
+on:
+  issues:
+    types: [opened]
+
+permissions:
+  issues: write
+
+jobs:
+  reserve:
+    if: contains(github.event.issue.labels.*.name, 'work-order')
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/github-script@v7
+        with:
+          script: |
+            const crypto = require('crypto');
+            const { owner, repo } = context.repo;
+            const issue_number = context.issue.number;
+
+            // Org issue field IDs (from `GET /orgs/<org>/issue-fields`).
+            // If the fields are ever recreated, update these three ids.
+            const F_SETID = 44649933; // set_id (text)
+            const F_UUID  = 44650144; // Reserved set UUID (text)
+            const F_REL   = 44650123; // Release Date (date)
+
+            // Current pinned values (PUT replaces the whole set, so we merge).
+            const cur = await github.request(
+              'GET /repos/{owner}/{repo}/issues/{issue_number}/issue-field-values',
+              { owner, repo, issue_number });
+            const byId = Object.fromEntries((cur.data || []).map(f => [f.issue_field_id, f.value]));
+
+            // Derive set_id from the title: strip the "[Work Order] " prefix, slugify.
+            const title = (context.payload.issue.title || '');
+            const name = title.replace(/^\[Work Order\]\s*/i, '').trim();
+            const slug = name.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-+|-+$/g, '');
+
+            const setId = byId[F_SETID] || slug;
+            const uuid  = byId[F_UUID]  || crypto.randomUUID();
+
+            const values = [
+              { field_id: F_SETID, value: setId },
+              { field_id: F_UUID,  value: uuid },
+            ];
+            if (byId[F_REL]) values.push({ field_id: F_REL, value: byId[F_REL] });
+
+            await github.request(
+              'PUT /repos/{owner}/{repo}/issues/{issue_number}/issue-field-values',
+              { owner, repo, issue_number, issue_field_values: values });
+
+            const changed = [];
+            if (!byId[F_SETID]) changed.push('`set_id`: `' + setId + '`');
+            if (!byId[F_UUID])  changed.push('`Reserved set UUID`: `' + uuid + '`');
+            if (changed.length) {
+              await github.rest.issues.createComment({
+                owner, repo, issue_number,
+                body: '🔖 Reserved identity at discovery — ' + changed.join(' · ') +
+                      '. Committed unchanged into `set.yaml` when the filling PR lands.',
+              });
+            }
