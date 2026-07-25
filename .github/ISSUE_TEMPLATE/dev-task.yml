@@ -2,7 +2,7 @@ name: "Development task"
 description: "OCP tooling, schema, validator, CI, or docs work — NOT a set checklist."
 title: "<short task title>"
 labels: []
-# Prefer the native issue type Task / Bug / Feature to categorize dev work.
+type: "Task"
 body:
   - type: markdown
     attributes:

@@ -2,7 +2,7 @@ name: "Set work-order"
 description: "Register a set that needs a checklist — the discovery-stage work-order for the pipeline."
 title: "[Work Order] <Set name>"
 labels: ["work-order"]
-# Once the org "Work Order" issue type exists, add:  type: "Work Order"
+type: "Work Order"
 body:
   - type: markdown
     attributes:
