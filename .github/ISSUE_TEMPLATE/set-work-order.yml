@@ -13,9 +13,9 @@ body:
 
         This is for **sets**. For OCP tooling / schema / docs work, use the **Development task** template instead.
 
-        **Set the pinned issue fields in the sidebar** — `set_id`, `Reserved set UUID` (reserve a UUIDv4
-        at discovery; identity is born here and is committed unchanged into `set.yaml`), and `Release Date`.
-        The fields below capture the rest into the issue body.
+        **Identity is born here.** Capture `set_id`, the reserved set UUID, and the release date in
+        the fields below so the work-order is self-contained. If the org "Work Order" issue type
+        exposes matching sidebar fields, set those too — the body values are the source of truth.
   - type: input
     id: set-name
     attributes:
@@ -24,6 +24,32 @@ body:
       placeholder: 2026 Bowman
     validations:
       required: true
+  - type: input
+    id: set-id
+    attributes:
+      label: set_id
+      description: Stable slug — lowercase, hyphenated. Matches the data directory name and set.yaml `set_id`.
+      placeholder: 2026-bowman
+    validations:
+      required: true
+  - type: input
+    id: reserved-uuid
+    attributes:
+      label: Reserved set UUID
+      description: >
+        Reserve a UUIDv4 at discovery; identity is born here and is committed unchanged into
+        `set.yaml`. Generate with `uuidgen` (or any UUIDv4 tool).
+      placeholder: 3f2a1c8e-9b4d-4e6a-8c1f-0a2b3c4d5e6f
+    validations:
+      required: true
+  - type: input
+    id: release-date
+    attributes:
+      label: Release date
+      description: Official release date, when known (YYYY-MM-DD).
+      placeholder: "2026-04-15"
+    validations:
+      required: false
   - type: input
     id: manufacturer
     attributes:
@@ -42,37 +68,39 @@ body:
         - Non-Sport
     validations:
       required: true
-  - type: dropdown
-    id: sport
+  - type: checkboxes
+    id: sports
     attributes:
-      label: Sport
-      description: Specific sport, when genre is Sports. Matches set.yaml `sports`.
+      label: Sports
+      description: >
+        Specific sport(s), when genre is Sports. Matches set.yaml `sports` (an array — check
+        all that apply; leave blank for non-sport / TCG products).
       options:
-        - Baseball
-        - Basketball
-        - Football
-        - Hockey
-        - Soccer
-        - Golf
-        - Boxing
-        - Wrestling
-        - Tennis
-        - Racing
-        - MMA
-        - Olympics
-        - Cricket
-        - Lacrosse
-        - Pickleball
-        - Bowling
-        - N/A (non-sport / TCG)
-    validations:
-      required: false
-  - type: input
+        - label: Baseball
+        - label: Basketball
+        - label: Football
+        - label: Hockey
+        - label: Soccer
+        - label: Golf
+        - label: Boxing
+        - label: Wrestling
+        - label: Tennis
+        - label: Racing
+        - label: MMA
+        - label: Olympics
+        - label: Cricket
+        - label: Lacrosse
+        - label: Pickleball
+        - label: Bowling
+  - type: textarea
     id: category
     attributes:
       label: Category
-      description: Subject / franchise / league. Matches set.yaml `category` (e.g. MLB, Pokemon).
-      placeholder: MLB
+      description: >
+        Subject / franchise / league. Matches set.yaml `category` (an array, minItems 1) —
+        one per line (e.g. MLB, or Pokemon).
+      placeholder: |
+        MLB
     validations:
       required: false
   - type: textarea
