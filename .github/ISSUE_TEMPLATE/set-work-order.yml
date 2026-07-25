@@ -12,20 +12,16 @@ body:
         published. See the pipeline stages in the design doc (Discover → Source → Normalize → Validate → Consume).
 
         This is for **sets**. For OCP tooling / schema / docs work, use the **Development task** template instead.
+
+        **Set the pinned issue fields in the sidebar** — `set_id`, `Reserved set UUID` (reserve a UUIDv4
+        at discovery; identity is born here and is committed unchanged into `set.yaml`), and `Release Date`.
+        The fields below capture the rest into the issue body.
   - type: input
     id: set-name
     attributes:
       label: Set name
       description: Human name of the product (e.g. "2026 Bowman").
       placeholder: 2026 Bowman
-    validations:
-      required: true
-  - type: input
-    id: set-id
-    attributes:
-      label: set_id (slug)
-      description: 'Lowercase kebab slug, matches the data dir + set.yaml. Pattern: ^[a-z0-9]+(-[a-z0-9]+)*$'
-      placeholder: 2026-bowman
     validations:
       required: true
   - type: input
@@ -38,32 +34,45 @@ body:
   - type: dropdown
     id: genre
     attributes:
-      label: Genre / sport
+      label: Genre
+      description: The broad genre. Matches set.yaml `genre` (Sports / TCG / Non-Sport).
+      options:
+        - Sports
+        - TCG
+        - Non-Sport
+    validations:
+      required: true
+  - type: dropdown
+    id: sport
+    attributes:
+      label: Sport
+      description: Specific sport, when genre is Sports. Matches set.yaml `sports`.
       options:
         - Baseball
         - Basketball
         - Football
         - Hockey
         - Soccer
-        - Multi-Sport
-        - Non-Sport
-        - Other (note below)
+        - Golf
+        - Boxing
+        - Wrestling
+        - Tennis
+        - Racing
+        - MMA
+        - Olympics
+        - Cricket
+        - Lacrosse
+        - Pickleball
+        - Bowling
+        - N/A (non-sport / TCG)
     validations:
-      required: true
+      required: false
   - type: input
     id: category
     attributes:
       label: Category
-      description: e.g. MLB, NBA, NFL — the league/category if applicable.
+      description: Subject / franchise / league. Matches set.yaml `category` (e.g. MLB, Pokemon).
       placeholder: MLB
-    validations:
-      required: false
-  - type: input
-    id: release-date
-    attributes:
-      label: Release date
-      description: YYYY-MM-DD if known.
-      placeholder: "2026-05-13"
     validations:
       required: false
   - type: textarea
@@ -73,17 +82,6 @@ body:
       description: Where a checklist might be sourced (Beckett, TCDB, BaseballCardpedia, manufacturer, …). One per line.
       placeholder: |
         https://baseballcardpedia.com/index.php/2026_Bowman
-    validations:
-      required: false
-  - type: input
-    id: set-uuid
-    attributes:
-      label: Reserved set UUID
-      description: >
-        The set's canonical UUID (UUIDv4), reserved at discovery and committed into set.yaml when the
-        filling PR lands — identity is born here. The discovery bot fills this automatically; if creating
-        by hand, generate a v4 (e.g. `uuidgen`) and paste it. Leave blank only if it will be minted later.
-      placeholder: edb5a80d-2881-4ebb-9a64-67f594eb8c67
     validations:
       required: false
   - type: textarea
