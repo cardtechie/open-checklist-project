@@ -1,0 +1,7 @@
+# Force a choice between the two issue kinds so set work-orders and dev tasks
+# stay cleanly separable (work-order label / "Work Order" type vs. dev tasks).
+blank_issues_enabled: false
+contact_links:
+  - name: Contributing a set checklist
+    url: https://github.com/cardtechie/open-checklist-project/blob/main/CONTRIBUTING.md
+    about: How to fill a work-order with a v0.3 manifest-form set (one set per PR).

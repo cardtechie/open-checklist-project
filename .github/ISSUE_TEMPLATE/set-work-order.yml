@@ -1,0 +1,95 @@
+name: "Set work-order"
+description: "Register a set that needs a checklist — the discovery-stage work-order for the pipeline."
+title: "[Work Order] <Set name>"
+labels: ["work-order"]
+# Once the org "Work Order" issue type exists, add:  type: "Work Order"
+body:
+  - type: markdown
+    attributes:
+      value: |
+        A **work-order** is the moment a set first enters the system: it exists and needs a checklist.
+        It is filled by a PR that adds the set in **v0.3 manifest form**, and closes when the set is
+        published. See the pipeline stages in the design doc (Discover → Source → Normalize → Validate → Consume).
+
+        This is for **sets**. For OCP tooling / schema / docs work, use the **Development task** template instead.
+  - type: input
+    id: set-name
+    attributes:
+      label: Set name
+      description: Human name of the product (e.g. "2026 Bowman").
+      placeholder: 2026 Bowman
+    validations:
+      required: true
+  - type: input
+    id: set-id
+    attributes:
+      label: set_id (slug)
+      description: 'Lowercase kebab slug, matches the data dir + set.yaml. Pattern: ^[a-z0-9]+(-[a-z0-9]+)*$'
+      placeholder: 2026-bowman
+    validations:
+      required: true
+  - type: input
+    id: manufacturer
+    attributes:
+      label: Manufacturer
+      placeholder: Topps
+    validations:
+      required: false
+  - type: dropdown
+    id: genre
+    attributes:
+      label: Genre / sport
+      options:
+        - Baseball
+        - Basketball
+        - Football
+        - Hockey
+        - Soccer
+        - Multi-Sport
+        - Non-Sport
+        - Other (note below)
+    validations:
+      required: true
+  - type: input
+    id: category
+    attributes:
+      label: Category
+      description: e.g. MLB, NBA, NFL — the league/category if applicable.
+      placeholder: MLB
+    validations:
+      required: false
+  - type: input
+    id: release-date
+    attributes:
+      label: Release date
+      description: YYYY-MM-DD if known.
+      placeholder: "2026-05-13"
+    validations:
+      required: false
+  - type: textarea
+    id: sources
+    attributes:
+      label: Candidate source URLs
+      description: Where a checklist might be sourced (Beckett, TCDB, BaseballCardpedia, manufacturer, …). One per line.
+      placeholder: |
+        https://baseballcardpedia.com/index.php/2026_Bowman
+    validations:
+      required: false
+  - type: input
+    id: set-uuid
+    attributes:
+      label: Reserved set UUID
+      description: >
+        The set's canonical UUID (UUIDv4), reserved at discovery and committed into set.yaml when the
+        filling PR lands — identity is born here. The discovery bot fills this automatically; if creating
+        by hand, generate a v4 (e.g. `uuidgen`) and paste it. Leave blank only if it will be minted later.
+      placeholder: edb5a80d-2881-4ebb-9a64-67f594eb8c67
+    validations:
+      required: false
+  - type: textarea
+    id: notes
+    attributes:
+      label: Notes
+      description: Anything else — parallels expected, base-less product, split series, ambiguity, etc.
+    validations:
+      required: false
