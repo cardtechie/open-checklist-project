@@ -1,0 +1,40 @@
+name: "Development task"
+description: "OCP tooling, schema, validator, CI, or docs work — NOT a set checklist."
+title: "<short task title>"
+labels: []
+type: "Task"
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Use this for work on **the project itself** — schemas, `validate.py`, CI, docs, tooling.
+        For a **set that needs a checklist**, use the **Set work-order** template instead (it is a
+        different kind of issue: the `work-order` label / "Work Order" type).
+  - type: dropdown
+    id: area
+    attributes:
+      label: Area
+      options:
+        - Schema (set / manifest / checklist)
+        - Validator (validate.py)
+        - Identity / UUID
+        - CI / GitHub Actions
+        - Docs
+        - Tooling / converter
+        - Other
+    validations:
+      required: true
+  - type: textarea
+    id: description
+    attributes:
+      label: Description
+      description: What needs to happen and why.
+    validations:
+      required: true
+  - type: textarea
+    id: acceptance
+    attributes:
+      label: Acceptance criteria
+      description: How we know it's done.
+    validations:
+      required: false

@@ -1,0 +1,121 @@
+name: "Set work-order"
+description: "Register a set that needs a checklist — the discovery-stage work-order for the pipeline."
+title: "[Work Order] <Set name>"
+labels: ["work-order"]
+type: "Work Order"
+body:
+  - type: markdown
+    attributes:
+      value: |
+        A **work-order** is the moment a set first enters the system: it exists and needs a checklist.
+        It is filled by a PR that adds the set in **v0.3 manifest form**, and closes when the set is
+        published. See the pipeline stages in the design doc (Discover → Source → Normalize → Validate → Consume).
+
+        This is for **sets**. For OCP tooling / schema / docs work, use the **Development task** template instead.
+
+        **Identity is born here.** Capture `set_id`, the reserved set UUID, and the release date in
+        the fields below so the work-order is self-contained. If the org "Work Order" issue type
+        exposes matching sidebar fields, set those too — the body values are the source of truth.
+  - type: input
+    id: set-name
+    attributes:
+      label: Set name
+      description: Human name of the product (e.g. "2026 Bowman").
+      placeholder: 2026 Bowman
+    validations:
+      required: true
+  - type: input
+    id: set-id
+    attributes:
+      label: set_id
+      description: Stable slug — lowercase, hyphenated. Matches the data directory name and set.yaml `set_id`.
+      placeholder: 2026-bowman
+    validations:
+      required: true
+  - type: input
+    id: reserved-uuid
+    attributes:
+      label: Reserved set UUID
+      description: >
+        Reserve a UUIDv4 at discovery; identity is born here and is committed unchanged into
+        `set.yaml`. Generate with `uuidgen` (or any UUIDv4 tool).
+      placeholder: 3f2a1c8e-9b4d-4e6a-8c1f-0a2b3c4d5e6f
+    validations:
+      required: true
+  - type: input
+    id: release-date
+    attributes:
+      label: Release date
+      description: Official release date, when known (YYYY-MM-DD).
+      placeholder: "2026-04-15"
+    validations:
+      required: false
+  - type: input
+    id: manufacturer
+    attributes:
+      label: Manufacturer
+      placeholder: Topps
+    validations:
+      required: false
+  - type: dropdown
+    id: genre
+    attributes:
+      label: Genre
+      description: The broad genre. Matches set.yaml `genre` (Sports / TCG / Non-Sport).
+      options:
+        - Sports
+        - TCG
+        - Non-Sport
+    validations:
+      required: true
+  - type: checkboxes
+    id: sports
+    attributes:
+      label: Sports
+      description: >
+        Specific sport(s), when genre is Sports. Matches set.yaml `sports` (an array — check
+        all that apply; leave blank for non-sport / TCG products).
+      options:
+        - label: Baseball
+        - label: Basketball
+        - label: Football
+        - label: Hockey
+        - label: Soccer
+        - label: Golf
+        - label: Boxing
+        - label: Wrestling
+        - label: Tennis
+        - label: Racing
+        - label: MMA
+        - label: Olympics
+        - label: Cricket
+        - label: Lacrosse
+        - label: Pickleball
+        - label: Bowling
+  - type: textarea
+    id: category
+    attributes:
+      label: Category
+      description: >
+        Subject / franchise / league. Matches set.yaml `category` (an array, minItems 1) —
+        one per line (e.g. MLB, or Pokemon).
+      placeholder: |
+        MLB
+    validations:
+      required: true
+  - type: textarea
+    id: sources
+    attributes:
+      label: Candidate source URLs
+      description: Where a checklist might be sourced (Beckett, TCDB, BaseballCardpedia, manufacturer, …). One per line.
+      placeholder: |
+        https://baseballcardpedia.com/index.php/2026_Bowman
+    validations:
+      required: false
+  - type: textarea
+    id: notes
+    attributes:
+      label: Notes
+      description: Anything else — parallels expected, base-less product, split series, ambiguity, etc.
+    validations:
+      required: false
