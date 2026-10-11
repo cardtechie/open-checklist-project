@@ -50,6 +50,9 @@ pip install pyyaml jsonschema
 python tools/validate.py
 ```
 
+PRs touching `data/` also get an advisory computed review report; run it locally with
+`python tools/review_report.py data/<genre>/<set-id>` (see [CONTRIBUTING.md](CONTRIBUTING.md#review-report)).
+
 ## Learn More
 
 - [Website](https://openchecklistproject.org)

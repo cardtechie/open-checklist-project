@@ -1,0 +1,69 @@
+name: Review Report
+
+# Advisory only: computes a one-page review report from the PR's data and posts it as a
+# sticky comment and job summary. It never fails a PR on findings and should not be made
+# a required check. `tools/validate.py` (validate.yml) remains the pass/fail gate.
+#
+# Uses `pull_request` (not `pull_request_target`) so untrusted PR code never runs with a
+# write token. Fork PRs get a read-only token, so the comment step is best-effort; the
+# job summary and artifact are always available.
+
+on:
+  pull_request:
+    paths:
+      - 'data/**'
+      - 'tools/**'
+
+permissions:
+  contents: read
+  pull-requests: write
+
+jobs:
+  report:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Install dependencies
+        run: pip install pyyaml jsonschema
+      - name: Run tool unit tests
+        run: python -m unittest discover tools/tests
+      - name: Build review report
+        env:
+          BASE_REF: ${{ github.base_ref }}
+        run: |
+          python tools/review_report.py \
+            --changed-against "origin/$BASE_REF" \
+            --output review-report.md
+          cat review-report.md >> "$GITHUB_STEP_SUMMARY"
+      - uses: actions/upload-artifact@v4
+        with:
+          name: review-report
+          path: review-report.md
+      - name: Post sticky PR comment
+        continue-on-error: true
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const fs = require('fs');
+            const marker = '<!-- ocp-review-report:v1 -->';
+            const limit = 60000; // GitHub caps comments at 65,536 characters
+            let body = fs.readFileSync('review-report.md', 'utf8');
+            if (body.length > limit) {
+              body = body.slice(0, limit) +
+                '\n\n_Report truncated; the full report is in the `review-report` artifact of this run._\n';
+            }
+            body = `${marker}\n${body}`;
+            const { owner, repo } = context.repo;
+            const issue_number = context.issue.number;
+            const comments = await github.paginate(github.rest.issues.listComments, { owner, repo, issue_number });
+            const existing = comments.find(c => c.body && c.body.startsWith(marker));
+            if (existing) {
+              await github.rest.issues.updateComment({ owner, repo, comment_id: existing.id, body });
+            } else {
+              await github.rest.issues.createComment({ owner, repo, issue_number, body });
+            }

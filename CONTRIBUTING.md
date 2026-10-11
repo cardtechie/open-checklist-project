@@ -13,6 +13,7 @@ Thank you for helping improve the open trading card data ecosystem!
 
 - Follow the existing folder structure
 - Validate your YAML before submitting (`python tools/validate.py`)
+- Optionally preview the reviewer's report (`python tools/review_report.py data/<genre>/<set-id>`)
 - Use pull requests — all changes are reviewed
 
 ## Data format — use the v0.3 manifest form
@@ -54,6 +55,26 @@ others — not one-off scripts tailored to a single import:
 - Prefer tools that **validate, transform, or consume** the published data over
   one-off generators used to produce a single contribution. Keep that kind of
   personal scaffolding in your own fork.
+
+## Review report
+
+Every PR that touches `data/**` gets an **advisory** review report, posted as a sticky
+comment and job summary. It is computed from the PR's contents (never committed) and
+summarises what a reviewer would otherwise find by reading ~70 YAML files: declared vs
+actual counts per node, parallel print runs, numbering gaps, duplicate numbers and
+subjects, and placeholder URLs. It never fails a PR; `tools/validate.py` remains the gate.
+
+```bash
+pip install pyyaml jsonschema
+python tools/review_report.py data/baseball/2026-bowman          # one or more set dirs
+python tools/review_report.py --changed-against origin/main      # sets touched by your branch
+```
+
+Some checks need data this repository does not hold, so they take an optional input file
+and print `skipped: no <input> supplied` without it: `--known-names` (never-seen player
+names), `--deceased` (deceased players on autograph nodes), `--marquee` (runs of
+consecutive famous players; `--famous-run N`), and `--source-runs` (print runs declared
+by the source, as YAML/JSON). `--check-links` opts in to HEAD-probing URLs.
 
 ## Bulk and generated imports
 
