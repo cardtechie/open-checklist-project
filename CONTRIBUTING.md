@@ -79,6 +79,10 @@ without it the URL row only counts placeholder-looking URLs and is marked `(part
 
 ## Bulk and generated imports
 
+Unattended set production from a work order follows the Stage A producer contract in
+[`docs/PRODUCER.md`](docs/PRODUCER.md): a precondition check
+(`tools/check_work_order.py`), named stop cases instead of guesses, and one set per PR.
+
 Large, machine-generated checklists are welcome, with a few expectations:
 
 - Submit them **one set at a time** (see above).

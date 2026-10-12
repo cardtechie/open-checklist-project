@@ -6,6 +6,7 @@ on:
     paths:
       - 'data/**/*.yaml'
       - 'schemas/**/*.yaml'
+      - 'tools/**'
 
 jobs:
   validate:
@@ -18,5 +19,7 @@ jobs:
           python-version: 3.11
       - name: Install dependencies
         run: pip install pyyaml jsonschema
+      - name: Run tool unit tests
+        run: python -m unittest discover -s tools/tests
       - name: Run validation
         run: python tools/validate.py
