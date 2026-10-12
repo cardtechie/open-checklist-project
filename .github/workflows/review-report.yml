@@ -4,8 +4,12 @@ name: Review Report
 # sticky comment and job summary. It never fails a PR on findings and should not be made
 # a required check. `tools/validate.py` (validate.yml) remains the pass/fail gate.
 #
-# Uses `pull_request` (not `pull_request_target`) so untrusted PR code never runs with a
-# write token. Fork PRs get a read-only token, so the comment step is best-effort; the
+# Two jobs, so PR-controlled code never runs alongside a write-capable token:
+#   - `report` checks out and executes the PR's code (tests + tools/review_report.py) with a
+#     read-only token and no persisted checkout credential, and uploads the report artifact.
+#   - `comment` holds `pull-requests: write` but checks out and executes nothing from the PR;
+#     it only downloads the artifact and posts its text as a comment.
+# Fork PRs get a read-only token on `pull_request`, so the comment job is best-effort; the
 # job summary and artifact are always available.
 
 on:
@@ -16,15 +20,17 @@ on:
 
 permissions:
   contents: read
-  pull-requests: write
 
 jobs:
   report:
     runs-on: ubuntu-latest
+    permissions:
+      contents: read
     steps:
       - uses: actions/checkout@v4
         with:
           fetch-depth: 0
+          persist-credentials: false
       - uses: actions/setup-python@v5
         with:
           python-version: '3.11'
@@ -44,8 +50,18 @@ jobs:
         with:
           name: review-report
           path: review-report.md
+
+  comment:
+    needs: report
+    runs-on: ubuntu-latest
+    continue-on-error: true
+    permissions:
+      pull-requests: write
+    steps:
+      - uses: actions/download-artifact@v4
+        with:
+          name: review-report
       - name: Post sticky PR comment
-        continue-on-error: true
         uses: actions/github-script@v7
         with:
           script: |
