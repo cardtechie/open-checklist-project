@@ -74,7 +74,8 @@ Some checks need data this repository does not hold, so they take an optional in
 and print `skipped: no <input> supplied` without it: `--known-names` (never-seen player
 names), `--deceased` (deceased players on autograph nodes), `--marquee` (runs of
 consecutive famous players; `--famous-run N`), and `--source-runs` (print runs declared
-by the source, as YAML/JSON). `--check-links` opts in to HEAD-probing URLs.
+by the source, as a YAML/JSON mapping). `--check-links` opts in to HEAD-probing URLs;
+without it the URL row only counts placeholder-looking URLs and is marked `(partial)`.
 
 ## Bulk and generated imports
 

@@ -21,6 +21,12 @@ on:
 permissions:
   contents: read
 
+# One run per PR at a time: a newer push cancels the older run, so two runs cannot both
+# create the sticky comment and an older run cannot finish last and overwrite newer results.
+concurrency:
+  group: review-report-${{ github.event.pull_request.number }}
+  cancel-in-progress: true
+
 jobs:
   report:
     runs-on: ubuntu-latest
@@ -76,6 +82,13 @@ jobs:
             body = `${marker}\n${body}`;
             const { owner, repo } = context.repo;
             const issue_number = context.issue.number;
+            // Skip if the PR has moved on since this run's commit: a newer run owns the comment.
+            const runHead = context.payload.pull_request.head.sha;
+            const { data: pr } = await github.rest.pulls.get({ owner, repo, pull_number: issue_number });
+            if (pr.head.sha !== runHead) {
+              core.notice(`PR head is now ${pr.head.sha}, not this run's ${runHead}; not posting a stale report.`);
+              return;
+            }
             const comments = await github.paginate(github.rest.issues.listComments, { owner, repo, issue_number });
             const existing = comments.find(c => c.body && c.body.startsWith(marker));
             if (existing) {

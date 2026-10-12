@@ -153,6 +153,32 @@ class ReviewReportTests(unittest.TestCase):
     def test_gap_ranges_per_prefix(self):
         self.assertEqual(rr.gap_ranges(["A-1", "A-4", "B-1", "B-2"]), ["A-2 to A-3"])
 
+    def test_table_cells_escape_pipes_and_newlines(self):
+        node = {"id": "base", "parallels": [{"name": "Gold | Foil\nShimmer", "print_run": 5, "serial_numbered": True}]}
+        text = rr.render([self.run_set([(node, [player("1", "A")])])])
+        self.assertIn("| `base` | Gold \\| Foil Shimmer | 5 | yes | - |", text)
+
+    def test_dead_link_row_partial_without_check_links(self):
+        rep = self.run_set([({"id": "base"}, [player("1", "A")])])
+        self.assertIn("Placeholder / dead URLs", rep.partial)
+        row = next(l for l in rr.render([rep]).splitlines() if l.startswith("| Placeholder / dead URLs |"))
+        self.assertIn("0 (partial)", row)
+
+    def test_source_runs_must_be_mapping(self):
+        with tempfile.TemporaryDirectory() as t:
+            f = Path(t) / "runs.yaml"
+            f.write_text("- 50\n- 25\n")
+            with self.assertRaises(SystemExit):
+                rr.main([t, "--source-runs", str(f)])
+            f.write_text("Gold: 50\n")
+            self.assertEqual(rr.load_source_runs(str(f)), ({"Gold": 50}, None))
+
+    def test_famous_run_below_one_rejected(self):
+        with tempfile.TemporaryDirectory() as t:
+            for bad in ("0", "-2"):
+                with self.assertRaises(SystemExit):
+                    rr.main([t, "--marquee", __file__, "--famous-run", bad])
+
     def test_empty_report(self):
         self.assertIn("No set directories", rr.render([]))
 

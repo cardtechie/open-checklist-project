@@ -76,6 +76,11 @@ def read_names(path):
     return names
 
 
+def md_cell(value):
+    """Make a value safe for one Markdown table cell: escape pipes, flatten line breaks."""
+    return " ".join(str(value).replace("|", "\\|").splitlines())
+
+
 def norm(name):
     return " ".join(str(name).lower().split())
 
@@ -160,6 +165,7 @@ class SetReport:
         self.problems = []                                  # load problems, shown at the top
         self.findings = {c: [] for c in CHECKS}             # check -> [str]
         self.skipped = {}                                   # check -> reason
+        self.partial = {}                                   # check -> why it only partly ran
         self.nodes = []                                     # per-node table rows
         self.parallels = []                                 # every parallel declaration
 
@@ -287,6 +293,11 @@ def analyze_set(set_dir, opts):
                     rep.add("Placeholder / dead URLs", f"dead link ({bad}): {u}")
         if len(urls) > LINK_CAP:
             rep.add("Placeholder / dead URLs", f"link probe capped at {LINK_CAP} of {len(urls)} URLs")
+    else:
+        # Without the probe only placeholder-looking strings were scanned, so a 0 here says
+        # nothing about dead links; flag the row as partial rather than as a clean pass.
+        rep.partial["Placeholder / dead URLs"] = ("partial: dead-link probe not run (no --check-links); "
+                                                  "only placeholder-looking URLs were checked")
 
     # Never-seen names
     if opts.known_names is None:
@@ -331,7 +342,12 @@ def render(reports):
     for c in CHECKS:
         cells = []
         for r in reports:
-            cells.append("skipped" if c in r.skipped else str(len(r.findings[c])))
+            if c in r.skipped:
+                cells.append("skipped")
+            elif c in r.partial:
+                cells.append(f"{len(r.findings[c])} (partial)")
+            else:
+                cells.append(str(len(r.findings[c])))
         L.append(f"| {c} | " + " | ".join(cells) + " |")
     L.append("")
     for r in reports:
@@ -341,13 +357,14 @@ def render(reports):
         if r.problems:
             L.append("")
         L += ["### Structure", "", "| Node | Kind | Declared | Found | Parallels |", "|---|---|---|---|---|"]
-        L += [f"| `{n[0]}` | {n[1]} | {n[2]} | {n[3]} | {n[4]} |" for n in r.nodes]
+        L += [f"| `{md_cell(n[0])}` | {md_cell(n[1])} | {n[2]} | {n[3]} | {n[4]} |" for n in r.nodes]
         L.append("")
         if r.parallels:
             L += ["### Parallels", "", f"<details><summary>{len(r.parallels)} parallel declarations</summary>", "",
                   "| Node | Parallel | Print run | Serial numbered | Source run |", "|---|---|---|---|---|"]
             cell = lambda v: "-" if v is None else str(v)  # noqa: E731
-            L += [f"| `{nid}` | {name} | {cell(run)} | {'yes' if ser else 'no'} | {cell(src)} |"
+            L += [f"| `{md_cell(nid)}` | {md_cell(name)} | {md_cell(cell(run))} | {'yes' if ser else 'no'} "
+                  f"| {md_cell(cell(src))} |"
                   for nid, name, run, ser, src in r.parallels[:DETAIL_CAP]]
             if len(r.parallels) > DETAIL_CAP:
                 L.append(f"\n_... and {len(r.parallels) - DETAIL_CAP} more parallels not shown._")
@@ -355,7 +372,7 @@ def render(reports):
         for c in CHECKS:
             if r.findings[c]:
                 L += [f"**{c}** ({len(r.findings[c])})", ""] + bullets(r.findings[c]) + [""]
-        for c, why in r.skipped.items():
+        for c, why in list(r.skipped.items()) + list(r.partial.items()):
             L.append(f"- {c}: {why}")
         L.append("")
     return "\n".join(L).rstrip() + "\n"
@@ -369,8 +386,16 @@ def changed_set_dirs(ref):
 
 
 def load_source_runs(path):
-    text = Path(path).read_text()
-    return json.loads(text) if path.endswith(".json") else yaml.safe_load(text)
+    """Load --source-runs; returns (mapping, error-string-or-None). Only a mapping is usable."""
+    try:
+        text = Path(path).read_text()
+        data = json.loads(text) if path.endswith(".json") else yaml.safe_load(text)
+    except (OSError, ValueError, yaml.YAMLError) as e:
+        return None, f"cannot load {path}: {str(e).splitlines()[0] if str(e) else type(e).__name__}"
+    if not isinstance(data, dict):
+        return None, (f"{path} must be a mapping ({{parallel: print_run}} or {{node-id: {{parallel: print_run}}}}), "
+                      f"got {type(data).__name__}")
+    return data, None
 
 
 def main(argv=None):
@@ -387,13 +412,20 @@ def main(argv=None):
     opts = ap.parse_args(argv)
     if not opts.set_dirs and not opts.changed_against:
         ap.error("give set directories or --changed-against REF")
+    if opts.famous_run < 1:
+        ap.error(f"--famous-run must be at least 1, got {opts.famous_run}")
     dirs = [Path(d) for d in opts.set_dirs]
     if opts.changed_against:
         dirs += changed_set_dirs(opts.changed_against)
     opts.known_names = read_names(opts.known_names) if opts.known_names else None
     opts.deceased = read_names(opts.deceased) if opts.deceased else None
     opts.marquee = read_names(opts.marquee) if opts.marquee else None
-    opts.source_runs = load_source_runs(opts.source_runs) if opts.source_runs else None
+    if opts.source_runs:
+        opts.source_runs, err = load_source_runs(opts.source_runs)
+        if err:
+            ap.error(f"--source-runs: {err}")
+    else:
+        opts.source_runs = None
     text = render([analyze_set(d, opts) for d in dict.fromkeys(dirs)])
     if opts.output:
         Path(opts.output).write_text(text)
