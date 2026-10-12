@@ -85,8 +85,9 @@ docker run open-checklist-validator
 `tools/review_report.py` derives a one-page markdown report from a set's files
 (declared vs actual counts, parallel print runs, numbering gaps, duplicates, placeholder
 URLs). It is **advisory**: findings never fail a run, nothing it emits is committed, and
-`validate.py` stays the pass/fail gate. The `review-report.yml` workflow posts it as a
-sticky PR comment. Checks needing external data (never-seen names, deceased players,
+`validate.py` stays the pass/fail gate. The `review-report.yml` workflow builds it with a
+read-only token; `review-report-comment.yml` (a `workflow_run` workflow loaded from the
+default branch, so a PR cannot rewrite it) posts it as a sticky PR comment. Checks needing external data (never-seen names, deceased players,
 marquee runs, source print runs) take optional input files and report "skipped" without them.
 
 New data must use the manifest form. The validator still accepts the earlier exploded

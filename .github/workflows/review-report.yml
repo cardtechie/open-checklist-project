@@ -4,13 +4,14 @@ name: Review Report
 # sticky comment and job summary. It never fails a PR on findings and should not be made
 # a required check. `tools/validate.py` (validate.yml) remains the pass/fail gate.
 #
-# Two jobs, so PR-controlled code never runs alongside a write-capable token:
-#   - `report` checks out and executes the PR's code (tests + tools/review_report.py) with a
-#     read-only token and no persisted checkout credential, and uploads the report artifact.
-#   - `comment` holds `pull-requests: write` but checks out and executes nothing from the PR;
-#     it only downloads the artifact and posts its text as a comment.
-# Fork PRs get a read-only token on `pull_request`, so the comment job is best-effort; the
-# job summary and artifact are always available.
+# This workflow only BUILDS the report. It runs the PR's code (tests + tools/review_report.py)
+# with a read-only token and no persisted checkout credential, and uploads the report as an
+# artifact. It holds no write permission at all: a `pull_request` run takes its workflow
+# definition from the PR branch, so any job defined here could be rewritten by the PR.
+#
+# Posting the sticky comment is done by `review-report-comment.yml`, a `workflow_run`
+# workflow that GitHub always loads from the default branch. It never checks out or
+# executes PR code; it only downloads this run's artifact and posts its text.
 
 on:
   pull_request:
@@ -57,42 +58,3 @@ jobs:
           name: review-report
           path: review-report.md
 
-  comment:
-    needs: report
-    runs-on: ubuntu-latest
-    continue-on-error: true
-    permissions:
-      pull-requests: write
-    steps:
-      - uses: actions/download-artifact@v4
-        with:
-          name: review-report
-      - name: Post sticky PR comment
-        uses: actions/github-script@v7
-        with:
-          script: |
-            const fs = require('fs');
-            const marker = '<!-- ocp-review-report:v1 -->';
-            const limit = 60000; // GitHub caps comments at 65,536 characters
-            let body = fs.readFileSync('review-report.md', 'utf8');
-            if (body.length > limit) {
-              body = body.slice(0, limit) +
-                '\n\n_Report truncated; the full report is in the `review-report` artifact of this run._\n';
-            }
-            body = `${marker}\n${body}`;
-            const { owner, repo } = context.repo;
-            const issue_number = context.issue.number;
-            // Skip if the PR has moved on since this run's commit: a newer run owns the comment.
-            const runHead = context.payload.pull_request.head.sha;
-            const { data: pr } = await github.rest.pulls.get({ owner, repo, pull_number: issue_number });
-            if (pr.head.sha !== runHead) {
-              core.notice(`PR head is now ${pr.head.sha}, not this run's ${runHead}; not posting a stale report.`);
-              return;
-            }
-            const comments = await github.paginate(github.rest.issues.listComments, { owner, repo, issue_number });
-            const existing = comments.find(c => c.body && c.body.startsWith(marker));
-            if (existing) {
-              await github.rest.issues.updateComment({ owner, repo, comment_id: existing.id, body });
-            } else {
-              await github.rest.issues.createComment({ owner, repo, issue_number, body });
-            }
