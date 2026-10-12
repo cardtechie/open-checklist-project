@@ -1,66 +1,70 @@
 name: Reserve work-order identity
 
-# When a work-order is opened, reserve the set's identity at discovery:
-# derive set_id from the title and mint a UUIDv4, writing both to the pinned
-# issue fields — only when empty, so bot/human-provided values are preserved.
-# Fulfills #52 ("reserve the UUID at discovery").
+# Reserve a work order's identity: derive set_id from its Set name (else its title)
+# and take the Reserved set UUID from the body's Set UUID row when one is recorded,
+# minting a UUIDv4 only when none is. Both go to the pinned issue fields, only when
+# empty, so bot/human-provided values are preserved. Fulfills #52 ("reserve the UUID
+# at discovery"); widened by #78 (Discover) so a work order labelled or typed after it
+# was opened, or filed outside the template, is reserved too.
+#
+# The logic lives in .github/scripts/work-order.js.
 
 on:
   issues:
-    types: [opened]
+    types: [opened, labeled, typed]
+  workflow_dispatch:
+    inputs:
+      issue_number:
+        description: Work-order issue number to reserve
+        required: true
+        type: string
 
 permissions:
+  contents: read
   issues: write
 
 jobs:
   reserve:
-    if: contains(github.event.issue.labels.*.name, 'work-order')
+    # On an issue event, only work orders: the work-order label OR the Work Order
+    # issue type. A dispatch is checked inside the script once the issue is fetched.
+    if: >-
+      github.event_name == 'workflow_dispatch' ||
+      contains(github.event.issue.labels.*.name, 'work-order') ||
+      github.event.issue.type.name == 'Work Order'
     runs-on: ubuntu-latest
+    concurrency:
+      group: reserve-work-order-${{ github.event.issue.number || inputs.issue_number }}
+      cancel-in-progress: false
     steps:
+      - uses: actions/checkout@v4
+        with:
+          sparse-checkout: .github/scripts
+          persist-credentials: false
       - uses: actions/github-script@v7
+        env:
+          DISPATCH_ISSUE: ${{ inputs.issue_number }}
         with:
           script: |
-            const crypto = require('crypto');
+            const wo = require(`${process.env.GITHUB_WORKSPACE}/.github/scripts/work-order.js`);
             const { owner, repo } = context.repo;
-            const issue_number = context.issue.number;
 
-            // Org issue field IDs (from `GET /orgs/<org>/issue-fields`).
-            // If the fields are ever recreated, update these three ids.
-            const F_SETID = 44649933; // set_id (text)
-            const F_UUID  = 44650144; // Reserved set UUID (text)
-            const F_REL   = 44650123; // Release Date (date)
-
-            // Current pinned values (PUT replaces the whole set, so we merge).
-            const cur = await github.request(
-              'GET /repos/{owner}/{repo}/issues/{issue_number}/issue-field-values',
-              { owner, repo, issue_number });
-            const byId = Object.fromEntries((cur.data || []).map(f => [f.issue_field_id, f.value]));
-
-            // Derive set_id from the title: strip the "[Work Order] " prefix, slugify.
-            const title = (context.payload.issue.title || '');
-            const name = title.replace(/^\[Work Order\]\s*/i, '').trim();
-            const slug = name.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-+|-+$/g, '');
-
-            const setId = byId[F_SETID] || slug;
-            const uuid  = byId[F_UUID]  || crypto.randomUUID();
-
-            const values = [
-              { field_id: F_SETID, value: setId },
-              { field_id: F_UUID,  value: uuid },
-            ];
-            if (byId[F_REL]) values.push({ field_id: F_REL, value: byId[F_REL] });
-
-            await github.request(
-              'PUT /repos/{owner}/{repo}/issues/{issue_number}/issue-field-values',
-              { owner, repo, issue_number, issue_field_values: values });
-
-            const changed = [];
-            if (!byId[F_SETID]) changed.push('`set_id`: `' + setId + '`');
-            if (!byId[F_UUID])  changed.push('`Reserved set UUID`: `' + uuid + '`');
-            if (changed.length) {
-              await github.rest.issues.createComment({
-                owner, repo, issue_number,
-                body: '🔖 Reserved identity at discovery — ' + changed.join(' · ') +
-                      '. Committed unchanged into `set.yaml` when the filling PR lands.',
-              });
+            let issue = context.payload.issue;
+            if (context.eventName === 'workflow_dispatch') {
+              const raw = String(process.env.DISPATCH_ISSUE || '').trim();
+              if (!/^[1-9][0-9]*$/.test(raw)) {
+                core.setFailed(`issue_number must be a positive integer, got ${JSON.stringify(raw)}`);
+                return;
+              }
+              const res = await github.rest.issues.get({ owner, repo, issue_number: Number(raw) });
+              issue = res.data;
+              if (issue.pull_request) {
+                core.setFailed(`#${raw} is a pull request, not a work order.`);
+                return;
+              }
+              if (issue.state !== 'open') {
+                core.notice(`#${raw} is not open; nothing to reserve.`);
+                return;
+              }
             }
+
+            await wo.reserveIdentity({ github, context, core, issue });
