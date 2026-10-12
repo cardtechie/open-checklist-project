@@ -101,6 +101,14 @@ see [#33](https://github.com/cardtechie/open-checklist-project/issues/33)).
 - Python 3.11 with `pyyaml` and `jsonschema`.
 - Validation must pass for data changes to be accepted.
 
+## Producing a set
+
+Unattended Source → Normalize for a work order follows the Stage A producer contract,
+[`docs/PRODUCER.md`](../docs/PRODUCER.md), and is run by the
+[`produce-set`](skills/produce-set/SKILL.md) skill. `tools/check_work_order.py <n>` decides
+whether a work order is Ready (exit 0 ready, 10 not ready). The producer never invents rows
+to make a count match. A mismatch is a stop that comments on the work order, never a PR.
+
 ## Contributing data
 
 New set data must use the manifest form (`set.yaml` + `manifest.yaml` + `checklists/`);
