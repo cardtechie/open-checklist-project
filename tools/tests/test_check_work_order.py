@@ -108,6 +108,11 @@ class CheckWorkOrderTests(unittest.TestCase):
         p["field_values"][0]["value"] = "2025 Panini Prizm"
         self.assertNotReady(self.run_check(p), "not a lowercase slug")
 
+    def test_set_id_with_surrounding_whitespace_rejected(self):
+        p = ready_payload()
+        p["field_values"][0]["value"] = " 2025-panini-prizm-draft-picks "
+        self.assertNotReady(self.run_check(p), "surrounding whitespace")
+
     def test_set_id_dir_collision(self):
         (self.data / "football" / "2025-panini-prizm-draft-picks").mkdir()
         self.assertNotReady(self.run_check(ready_payload()), "already has a data directory")
@@ -128,6 +133,27 @@ class CheckWorkOrderTests(unittest.TestCase):
         p = ready_payload()
         p["field_values"][1]["value"] = "not-a-uuid"
         self.assertNotReady(self.run_check(p), "not a valid UUID")
+
+    def test_non_hyphenated_uuid_forms_rejected(self):
+        for form in ("{" + UUID + "}", "urn:uuid:" + UUID, UUID.replace("-", "")):
+            p = ready_payload()
+            p["field_values"][1]["value"] = form
+            self.assertNotReady(self.run_check(p), "not a valid UUID")
+
+    def test_reserved_uuid_returned_unchanged(self):
+        p = ready_payload()
+        p["field_values"][1]["value"] = UUID.upper()
+        v = self.run_check(p)
+        self.assertTrue(v["ready"], v["reasons"])
+        self.assertEqual(v["reserved_uuid"], UUID.upper())
+
+    def test_uppercase_uuid_collides_with_lowercase(self):
+        d = self.data / "football" / "other-set"
+        d.mkdir(parents=True)
+        (d / "set.yaml").write_text(f"uuid: {UUID}\n")
+        p = ready_payload()
+        p["field_values"][1]["value"] = UUID.upper()
+        self.assertNotReady(self.run_check(p), "already used")
 
     def test_uuid_collision(self):
         d = self.data / "football" / "other-set" / "checklists"
@@ -188,6 +214,11 @@ class CheckWorkOrderTests(unittest.TestCase):
                                                "ftp://example.org/x"))]
         self.assertNotReady(self.run_check(p), "not http/https")
 
+    def test_malformed_bracketed_url_is_not_ready(self):
+        p = ready_payload()
+        p["comments"] = [comment(BLOCK.replace("https://example.org/2025-prizm-draft-picks", "http://[::1"))]
+        self.assertNotReady(self.run_check(p), "not http/https")
+
     def test_non_public_source_hosts_rejected(self):
         for bad in ("http://localhost/x", "http://127.0.0.1/x", "http://169.254.169.254/latest/meta-data/",
                     "http://10.0.0.5/x", "http://192.168.1.1/x", "http://[::1]/x", "http://[fd00::1]/x",
@@ -240,6 +271,10 @@ class CheckWorkOrderTests(unittest.TestCase):
             self.assertEqual(cwo.main([]), cwo.EXIT_USAGE)
             self.assertEqual(cwo.main(["77", "--repo", "bad repo; rm -rf"]), cwo.EXIT_USAGE)
             self.assertEqual(cwo.main(["--from-json", "/nonexistent/x.json"]), cwo.EXIT_USAGE)
+            with tempfile.TemporaryDirectory() as t:
+                f = Path(t) / "bad-utf8.json"
+                f.write_bytes(b'{"issue": {"title": "\xff\xfe"}}')
+                self.assertEqual(cwo.main(["--from-json", str(f)]), cwo.EXIT_USAGE)
 
 
     def test_cli_malformed_github_json_is_read_error(self):

@@ -27,7 +27,7 @@ start.
    type decides this, not the `work-order` label (#79).
 2. The pinned issue field **`set_id`** is non-empty, is a lowercase slug
    (`^[a-z0-9]+(-[a-z0-9]+)*$`), and no `data/*/<set_id>/` directory exists on `main`.
-3. The pinned issue field **`Reserved set UUID`** is non-empty, is a valid UUID, and is not
+3. The pinned issue field **`Reserved set UUID`** is non-empty, is a valid UUID in the hyphenated 8-4-4-4-12 form, and is not
    already used as any `uuid` under `data/` on `main`.
 4. There is a **Discover block**. This is a comment whose first line is
    `<!-- ocp-discover:v1 -->`, followed by one fenced `yaml` block with at least

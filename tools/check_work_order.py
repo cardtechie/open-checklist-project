@@ -45,6 +45,9 @@ TRUSTED_ASSOCIATIONS = {"OWNER", "MEMBER", "COLLABORATOR"}
 
 SLUG_RE = re.compile(r"^[a-z0-9]+(-[a-z0-9]+)*$")
 FENCE_RE = re.compile(r"^```ya?ml[ \t]*\n(.*?)^```[ \t]*$", re.MULTILINE | re.DOTALL)
+UUID_TEXT_RE = re.compile(
+    r"^[0-9a-fA-F]{8}-[0-9a-fA-F]{4}-[0-9a-fA-F]{4}-[0-9a-fA-F]{4}-[0-9a-fA-F]{12}$"
+)
 UUID_IN_YAML_RE = re.compile(
     r"\buuid:\s*['\"]?([0-9a-fA-F]{8}-[0-9a-fA-F]{4}-[0-9a-fA-F]{4}-[0-9a-fA-F]{4}-[0-9a-fA-F]{12})"
 )
@@ -104,7 +107,7 @@ def fetch_work_order(repo, num):
 def load_json_payload(path):
     try:
         data = json.loads(Path(path).read_text())
-    except (OSError, json.JSONDecodeError) as e:
+    except (OSError, UnicodeDecodeError, json.JSONDecodeError) as e:
         raise ReadError(f"cannot read {path}: {e}") from e
     if not isinstance(data, dict) or not isinstance(data.get("issue"), dict):
         raise ReadError(f"{path}: expected an object with an 'issue' object")
@@ -163,7 +166,10 @@ def is_positive_int(v):
 def is_http_url(v):
     if not isinstance(v, str):
         return False
-    p = urlparse(v.strip())
+    try:
+        p = urlparse(v.strip())
+    except ValueError:  # e.g. an unterminated bracketed host: http://[::1
+        return False
     return p.scheme in ("http", "https") and bool(p.netloc)
 
 
@@ -292,10 +298,15 @@ def check(payload, data_dir="data"):
         reasons.append(f"issue type is not '{WORK_ORDER_TYPE}' (got: {issue_type_name(issue)})")
 
     # 2. set_id: present, a slug, no existing data dir.
+    # The pinned value is checked as written: the producer may not edit pinned
+    # fields, so surrounding whitespace is refused rather than silently stripped.
     set_id = field_value(payload.get("field_values"), FIELD_SET_ID)
-    set_id = set_id.strip() if isinstance(set_id, str) else None
-    if not set_id:
+    set_id = set_id if isinstance(set_id, str) else None
+    if not (set_id and set_id.strip()):
+        set_id = None
         reasons.append("pinned field set_id is empty")
+    elif set_id != set_id.strip():
+        reasons.append(f"set_id {set_id!r} has surrounding whitespace")
     elif not SLUG_RE.match(set_id):
         reasons.append(f"set_id '{set_id}' is not a lowercase slug")
     elif set_id in existing_set_ids(data_dir):
@@ -307,12 +318,20 @@ def check(payload, data_dir="data"):
     if not (isinstance(raw_uuid, str) and raw_uuid.strip()):
         reasons.append("pinned field Reserved set UUID is empty")
     else:
+        # The producer commits the reserved UUID unchanged, so the verdict returns the
+        # field text as written (only trimmed) and canonicalizes solely to compare for
+        # collisions. Only the hyphenated 8-4-4-4-12 form is accepted: uuid.UUID also
+        # takes braces, urn: and bare-hex forms, which must not reach a committed file.
+        text = raw_uuid.strip()
         try:
-            reserved = str(uuidlib.UUID(raw_uuid.strip()))
+            if not UUID_TEXT_RE.match(text):
+                raise ValueError(text)
+            canonical = str(uuidlib.UUID(text))
         except ValueError:
-            reasons.append(f"Reserved set UUID '{raw_uuid.strip()}' is not a valid UUID")
+            reasons.append(f"Reserved set UUID '{text}' is not a valid UUID")
         else:
-            if reserved in existing_uuids(data_dir):
+            reserved = text
+            if canonical in existing_uuids(data_dir):
                 reasons.append(f"Reserved set UUID {reserved} is already used under {data_dir}/")
 
     # 4. Exactly one effective Discover block (newest trusted one wins).
