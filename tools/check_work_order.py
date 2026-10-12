@@ -1,0 +1,316 @@
+#!/usr/bin/env python3
+"""Check whether a set work order meets the Stage A producer precondition.
+
+The Stage A producer (docs/PRODUCER.md) may start on a work order only when it is
+Ready. This script is the deterministic half of that decision: it reads the work
+order (issue, pinned issue fields, comments), checks the four precondition items,
+and prints a JSON verdict with the normalized inputs the producer needs.
+
+    python tools/check_work_order.py 77
+    python tools/check_work_order.py 77 --repo cardtechie/open-checklist-project
+    python tools/check_work_order.py --from-json work-order.json
+
+`--from-json` reads a file shaped {"issue": {...}, "field_values": [...],
+"comments": [...]} -- the same three payloads the GitHub API returns -- so the check
+can run offline and in tests.
+
+It never writes to GitHub. Exit 0 = ready, 10 = not ready, 2 = usage or read error.
+"""
+import argparse
+import json
+import re
+import subprocess
+import sys
+import uuid as uuidlib
+from pathlib import Path
+from urllib.parse import urlparse
+
+import yaml
+
+DEFAULT_REPO = "cardtechie/open-checklist-project"
+WORK_ORDER_TYPE = "Work Order"
+DISCOVER_MARKER = "<!-- ocp-discover:v1 -->"
+
+# Pinned issue fields are resolved by NAME. The numeric ids (the same ones
+# .github/workflows/reserve-work-order.yml writes) are a fallback for a payload that
+# carries no name.
+FIELD_SET_ID = ("set_id", 44649933)
+FIELD_UUID = ("Reserved set UUID", 44650144)
+
+# Only a comment from someone with write access to the repo can carry the Discover
+# block. Anyone can comment on a public issue, and the block decides which URL the
+# producer fetches and which count it trusts.
+TRUSTED_ASSOCIATIONS = {"OWNER", "MEMBER", "COLLABORATOR"}
+
+SLUG_RE = re.compile(r"^[a-z0-9]+(-[a-z0-9]+)*$")
+FENCE_RE = re.compile(r"^```ya?ml[ \t]*\n(.*?)^```[ \t]*$", re.MULTILINE | re.DOTALL)
+UUID_IN_YAML_RE = re.compile(
+    r"\buuid:\s*['\"]?([0-9a-fA-F]{8}-[0-9a-fA-F]{4}-[0-9a-fA-F]{4}-[0-9a-fA-F]{4}-[0-9a-fA-F]{12})"
+)
+GENRES = {"Sports", "TCG", "Non-Sport"}
+
+EXIT_READY, EXIT_NOT_READY, EXIT_USAGE = 0, 10, 2
+
+
+class ReadError(Exception):
+    pass
+
+
+# --------------------------------------------------------------------------- reading
+
+def _gh_json(args):
+    try:
+        out = subprocess.run(["gh", "api", *args], check=True, capture_output=True, text=True)
+    except FileNotFoundError as e:
+        raise ReadError("gh CLI not found") from e
+    except subprocess.CalledProcessError as e:
+        raise ReadError(f"gh api {' '.join(args)} failed: {e.stderr.strip()}") from e
+    return out.stdout
+
+
+def fetch_work_order(repo, num):
+    """Read the three payloads for issue <num> through the gh CLI."""
+    base = f"repos/{repo}/issues/{num}"
+    issue = json.loads(_gh_json([base]))
+    fields = json.loads(_gh_json([f"{base}/issue-field-values"]) or "[]")
+    # --paginate with --jq '.[]' emits one JSON object per line across all pages.
+    raw = _gh_json(["--paginate", f"{base}/comments", "--jq", ".[]"])
+    comments = [json.loads(line) for line in raw.splitlines() if line.strip()]
+    return {"issue": issue, "field_values": fields, "comments": comments}
+
+
+def load_json_payload(path):
+    try:
+        data = json.loads(Path(path).read_text())
+    except (OSError, json.JSONDecodeError) as e:
+        raise ReadError(f"cannot read {path}: {e}") from e
+    if not isinstance(data, dict) or not isinstance(data.get("issue"), dict):
+        raise ReadError(f"{path}: expected an object with an 'issue' object")
+    return data
+
+
+# --------------------------------------------------------------------------- helpers
+
+def field_value(field_values, field):
+    """Return a pinned field's value, matched by name, then by numeric id."""
+    name, fid = field
+    values = [f for f in (field_values or []) if isinstance(f, dict)]
+    for f in values:
+        if f.get("issue_field_name") == name:
+            return f.get("value")
+    for f in values:
+        if f.get("issue_field_id") == fid:
+            return f.get("value")
+    return None
+
+
+def issue_type_name(issue):
+    t = issue.get("type")
+    if isinstance(t, dict):
+        return t.get("name")
+    return t if isinstance(t, str) else None
+
+
+def existing_set_ids(data_dir):
+    root = Path(data_dir)
+    if not root.is_dir():
+        return set()
+    return {p.name for genre in root.iterdir() if genre.is_dir()
+            for p in genre.iterdir() if p.is_dir()}
+
+
+def existing_uuids(data_dir):
+    """Every `uuid:` value committed anywhere under data/ (lower-cased)."""
+    found = set()
+    root = Path(data_dir)
+    if not root.is_dir():
+        return found
+    for path in root.rglob("*.y*ml"):
+        try:
+            text = path.read_text(errors="replace")
+        except OSError:
+            continue
+        found.update(m.lower() for m in UUID_IN_YAML_RE.findall(text))
+    return found
+
+
+def is_positive_int(v):
+    return isinstance(v, int) and not isinstance(v, bool) and v > 0
+
+
+def is_http_url(v):
+    if not isinstance(v, str):
+        return False
+    p = urlparse(v.strip())
+    return p.scheme in ("http", "https") and bool(p.netloc)
+
+
+def discover_blocks(comments):
+    """Comments whose first line is the Discover marker, oldest first."""
+    blocks = []
+    for i, c in enumerate(comments or []):
+        if not isinstance(c, dict):
+            continue
+        body = (c.get("body") or "").replace("\r\n", "\n")
+        if body.lstrip().split("\n", 1)[0].strip() == DISCOVER_MARKER:
+            blocks.append((c.get("created_at") or "", i, c, body))
+    blocks.sort(key=lambda b: (b[0], b[1]))
+    return blocks
+
+
+def parse_discover(body, reasons):
+    """Parse one Discover block body into a dict, appending reasons on failure."""
+    m = FENCE_RE.search(body)
+    if not m:
+        reasons.append("discover block has no fenced yaml block")
+        return None
+    try:
+        data = yaml.safe_load(m.group(1))
+    except yaml.YAMLError as e:
+        first = str(e).splitlines()[0] if str(e) else "parse error"
+        reasons.append(f"discover block yaml is malformed: {first}")
+        return None
+    if not isinstance(data, dict):
+        reasons.append("discover block yaml is not a mapping")
+        return None
+
+    out = {}
+    sources = data.get("sources")
+    if not isinstance(sources, list) or not sources:
+        reasons.append("discover block has no sources")
+        sources = []
+    out["sources"] = []
+    for n, s in enumerate(sources, 1):
+        if not isinstance(s, dict):
+            reasons.append(f"source {n} is not a mapping")
+            continue
+        if not is_http_url(s.get("url")):
+            reasons.append(f"source {n} url is missing or not http/https")
+        if not is_positive_int(s.get("card_count")):
+            reasons.append(f"source {n} card_count must be a positive integer")
+        entry = {"url": s.get("url"), "card_count": s.get("card_count")}
+        if "parallels_listed" in s:
+            if not isinstance(s["parallels_listed"], bool):
+                reasons.append(f"source {n} parallels_listed must be true or false")
+            entry["parallels_listed"] = s["parallels_listed"]
+        out["sources"].append(entry)
+
+    for key in ("name", "genre"):
+        if key in data and not (isinstance(data[key], str) and data[key].strip()):
+            reasons.append(f"discover block {key} must be a non-empty string")
+    if isinstance(data.get("genre"), str) and data["genre"] not in GENRES:
+        reasons.append(f"discover block genre must be one of {sorted(GENRES)}")
+    for key in ("sports", "category"):
+        v = data.get(key)
+        if key in data and not (isinstance(v, list) and v and all(isinstance(x, str) and x for x in v)):
+            reasons.append(f"discover block {key} must be a non-empty list of strings")
+    if "year" in data and not is_positive_int(data["year"]):
+        reasons.append("discover block year must be a positive integer")
+    for key in ("name", "genre", "sports", "category", "year"):
+        out[key] = data.get(key)
+    return out
+
+
+# --------------------------------------------------------------------------- check
+
+def check(payload, data_dir="data"):
+    """Return the verdict dict for a work-order payload."""
+    issue = payload.get("issue") or {}
+    reasons = []
+
+    # 1. An open issue of type Work Order (keyed on the type, never the label: #79).
+    if issue.get("pull_request"):
+        reasons.append("ref is a pull request, not an issue")
+    if issue.get("state") != "open":
+        reasons.append(f"issue is not open (state: {issue.get('state')})")
+    if issue_type_name(issue) != WORK_ORDER_TYPE:
+        reasons.append(f"issue type is not '{WORK_ORDER_TYPE}' (got: {issue_type_name(issue)})")
+
+    # 2. set_id: present, a slug, no existing data dir.
+    set_id = field_value(payload.get("field_values"), FIELD_SET_ID)
+    set_id = set_id.strip() if isinstance(set_id, str) else None
+    if not set_id:
+        reasons.append("pinned field set_id is empty")
+    elif not SLUG_RE.match(set_id):
+        reasons.append(f"set_id '{set_id}' is not a lowercase slug")
+    elif set_id in existing_set_ids(data_dir):
+        reasons.append(f"set_id '{set_id}' already has a data directory")
+
+    # 3. Reserved set UUID: present, a valid UUID, not already used.
+    raw_uuid = field_value(payload.get("field_values"), FIELD_UUID)
+    reserved = None
+    if not (isinstance(raw_uuid, str) and raw_uuid.strip()):
+        reasons.append("pinned field Reserved set UUID is empty")
+    else:
+        try:
+            reserved = str(uuidlib.UUID(raw_uuid.strip()))
+        except ValueError:
+            reasons.append(f"Reserved set UUID '{raw_uuid.strip()}' is not a valid UUID")
+        else:
+            if reserved in existing_uuids(data_dir):
+                reasons.append(f"Reserved set UUID {reserved} is already used under {data_dir}/")
+
+    # 4. Exactly one effective Discover block (newest trusted one wins).
+    blocks = discover_blocks(payload.get("comments"))
+    trusted = [b for b in blocks if b[2].get("author_association") in TRUSTED_ASSOCIATIONS]
+    discover = None
+    if not blocks:
+        reasons.append("no discover block comment (first line <!-- ocp-discover:v1 -->)")
+    elif not trusted:
+        reasons.append("discover block is not from a repo owner, member or collaborator")
+    else:
+        discover = parse_discover(trusted[-1][3], reasons)
+
+    title = issue.get("title") or ""
+    block_name = discover.get("name") if discover else None
+    name = block_name if isinstance(block_name, str) and block_name.strip() else \
+        re.sub(r"^\[Work Order\]\s*", "", title, flags=re.IGNORECASE).strip()
+
+    return {
+        "ready": not reasons,
+        "reasons": reasons,
+        "number": issue.get("number"),
+        "set_id": set_id,
+        "reserved_uuid": reserved,
+        "name": name or None,
+        "name_source": "discover-block" if block_name else "title",
+        "genre": discover.get("genre") if discover else None,
+        "sports": discover.get("sports") if discover else None,
+        "category": discover.get("category") if discover else None,
+        "year": discover.get("year") if discover else None,
+        "sources": discover.get("sources") if discover else [],
+    }
+
+
+def main(argv=None):
+    ap = argparse.ArgumentParser(description=__doc__.split("\n\n")[0])
+    ap.add_argument("number", nargs="?", type=int, help="work-order issue number")
+    ap.add_argument("--repo", default=DEFAULT_REPO, help=f"owner/repo (default {DEFAULT_REPO})")
+    ap.add_argument("--from-json", help="read the issue/field_values/comments payload from a file")
+    ap.add_argument("--data-dir", default="data", help="data directory for collision checks")
+    try:
+        args = ap.parse_args(argv)
+    except SystemExit as e:
+        return EXIT_USAGE if e.code else 0
+    if (args.number is None) == (args.from_json is None):
+        print("error: give exactly one of <number> or --from-json", file=sys.stderr)
+        return EXIT_USAGE
+    if args.number is not None and args.number < 1:
+        print("error: number must be a positive integer", file=sys.stderr)
+        return EXIT_USAGE
+    if not re.match(r"^[A-Za-z0-9._-]+/[A-Za-z0-9._-]+$", args.repo):
+        print(f"error: invalid --repo {args.repo!r}", file=sys.stderr)
+        return EXIT_USAGE
+    try:
+        payload = load_json_payload(args.from_json) if args.from_json \
+            else fetch_work_order(args.repo, args.number)
+    except ReadError as e:
+        print(f"error: {e}", file=sys.stderr)
+        return EXIT_USAGE
+    verdict = check(payload, args.data_dir)
+    print(json.dumps(verdict, indent=2))
+    return EXIT_READY if verdict["ready"] else EXIT_NOT_READY
+
+
+if __name__ == "__main__":
+    sys.exit(main())
