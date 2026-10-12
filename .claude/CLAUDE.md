@@ -97,7 +97,7 @@ see [#33](https://github.com/cardtechie/open-checklist-project/issues/33)).
 
 ## GitHub Integration
 
-- **Validation workflow** runs on PR/push to `data/**/*.yaml` or `schemas/**/*.yaml`.
+- **Validation workflow** (`validate`) runs on every PR and every merge-queue run, and only does the full validation when data, schema, or validator (`tools/`) files changed (always on `merge_group`).
 - Python 3.11 with `pyyaml` and `jsonschema`.
 - Validation must pass for data changes to be accepted.
 
