@@ -242,6 +242,94 @@ class ReviewReportTests(unittest.TestCase):
         finally:
             rr._request = orig
 
+    def test_symlinked_checklists_root_rejected(self):
+        with tempfile.TemporaryDirectory() as t:
+            outside = Path(t) / "outside"
+            outside.mkdir()
+            (outside / "base.yaml").write_text(yaml.safe_dump([player("1", "Leaked")]))
+            d = Path(t) / "s"
+            d.mkdir()
+            (d / "checklists").symlink_to(outside, target_is_directory=True)
+            (d / "set.yaml").write_text("set_id: s\n")
+            (d / "manifest.yaml").write_text(yaml.safe_dump({"set_id": "s", "base_sets": [{"id": "base"}]}))
+            rep = rr.analyze_set(d, opts(known_names=set()))
+            self.assertEqual(rep.nodes, [])
+            self.assertEqual(rep.findings["Never-seen names"], [])
+            self.assertTrue(any("checklists/ resolves outside" in p for p in rep.problems))
+
+    def test_symlinked_set_file_rejected(self):
+        with tempfile.TemporaryDirectory() as t:
+            (Path(t) / "secret.yaml").write_text("url: https://placeholder.example.com/x\n")
+            d = Path(t) / "s"
+            (d / "checklists").mkdir(parents=True)
+            (d / "set.yaml").symlink_to(Path(t) / "secret.yaml")
+            (d / "manifest.yaml").write_text("set_id: s\n")
+            rep = rr.analyze_set(d, opts())
+            self.assertEqual(rep.findings["Placeholder / dead URLs"], [])
+            self.assertTrue(any("outside the set directory" in p for p in rep.problems))
+
+    def test_probe_transient_failures_are_inconclusive(self):
+        import urllib.error
+
+        def fake(url, method):
+            if "timeout" in url:
+                raise TimeoutError()
+            code = int(url.rsplit("/", 1)[1])
+            raise urllib.error.HTTPError(url, code, "x", {}, None)
+
+        orig = rr._request
+        rr._request = fake
+        try:
+            self.assertEqual(rr.probe("https://a.test/429"), ("inconclusive", "HTTP 429"))
+            self.assertEqual(rr.probe("https://a.test/503"), ("inconclusive", "HTTP 503"))
+            self.assertEqual(rr.probe("https://a.test/timeout"), ("inconclusive", "TimeoutError"))
+            self.assertEqual(rr.probe("https://a.test/404"), ("dead", "HTTP 404"))
+        finally:
+            rr._request = orig
+
+    def test_non_utf8_yaml_is_a_load_problem(self):
+        with tempfile.TemporaryDirectory() as t:
+            d = make_set(t, [({"id": "base"}, [player("1", "A")])])
+            (d / "checklists" / "base.yaml").write_bytes(b"- number: '1'\n  note: \xff\xfe\n")
+            rep = rr.analyze_set(d, opts())
+            self.assertTrue(any("UTF-8" in p for p in rep.problems))
+
+    def test_cyclic_yaml_reported_not_recursed(self):
+        with tempfile.TemporaryDirectory() as t:
+            d = Path(t) / "s"
+            (d / "checklists").mkdir(parents=True)
+            (d / "set.yaml").write_text("set_id: s\nloop: &l [*l]\n")
+            (d / "manifest.yaml").write_text(
+                "set_id: s\nbase_sets:\n  - &b\n    id: base\n    subsets: [*b]\n")
+            (d / "checklists" / "base.yaml").write_text(yaml.safe_dump([player("1", "A")]))
+            rep = rr.analyze_set(d, opts())
+            self.assertEqual([n[0] for n in rep.nodes], ["base"])
+            self.assertTrue(any("cyclic YAML" in p for p in rep.problems))
+
+    def test_unmatched_source_declarations_mark_partial(self):
+        node = {"id": "base", "parallels": [{"name": "Gold", "print_run": 50, "serial_numbered": True},
+                                            {"name": "Glod", "print_run": 25, "serial_numbered": True}]}
+        rep = self.run_set([(node, [player("1", "A")])], source_runs={"Gold": 50})
+        self.assertEqual(rep.findings["Parallel consistency (vs source)"], [])
+        self.assertIn("Glod", rep.partial["Parallel consistency (vs source)"])
+        row = next(l for l in rr.render([rep]).splitlines()
+                   if l.startswith("| Parallel consistency (vs source) |"))
+        self.assertIn("0 (partial)", row)
+
+    def test_links_and_images_inert_in_tables_and_headings(self):
+        node = {"id": "base", "declared_card_count": "[x](https://evil.test)",
+                "parallels": [{"name": "[Review](https://example.org) ![i](https://x.test/i.png)",
+                               "print_run": 5, "serial_numbered": True}]}
+        with tempfile.TemporaryDirectory() as t:
+            d = make_set(t, [(node, [player("1", "A")])])
+            d = d.rename(Path(t) / "[s](evil)")
+            text = rr.render([rr.analyze_set(d, opts())])
+        self.assertNotIn("[Review](", text)
+        self.assertNotIn("![i](", text)
+        self.assertNotIn("[x](", text)
+        self.assertNotIn("[s](", text)
+        self.assertIn("\\[Review\\](https://example.org)", text)
+
     def test_empty_report(self):
         self.assertIn("No set directories", rr.render([]))
 

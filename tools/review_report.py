@@ -58,10 +58,12 @@ CHECKS = [
 def load_yaml(path):
     """Load YAML defensively. Returns (data, error-string-or-None)."""
     try:
-        with open(path) as f:
+        with open(path, encoding="utf-8") as f:
             return yaml.safe_load(f), None
     except FileNotFoundError:
         return None, f"file not found: {path}"
+    except UnicodeDecodeError as e:
+        return None, f"cannot decode {path} as UTF-8: {e.reason} at byte {e.start}"
     except yaml.YAMLError as e:
         return None, f"invalid YAML in {path}: {str(e).splitlines()[0] if str(e) else e}"
     except OSError as e:
@@ -78,11 +80,6 @@ def read_names(path):
     return names
 
 
-def md_cell(value):
-    """Make a value safe for one Markdown table cell: escape pipes, flatten line breaks."""
-    return " ".join(str(value).replace("|", "\\|").splitlines())
-
-
 _MD_SPECIAL = re.compile(r"([\\`*_\[\]<>#|~!])")
 
 
@@ -90,6 +87,13 @@ def md_text(value):
     """Make an untrusted value inert in Markdown prose: flatten line breaks and
     backslash-escape the characters that start formatting, links, headings or HTML."""
     return _MD_SPECIAL.sub(r"\\\1", " ".join(str(value).splitlines()))
+
+
+def md_cell(value):
+    """Make a value safe for one Markdown table cell. Same as md_text: pipes are escaped
+    (so the cell delimiter survives), line breaks flattened, and links, images, emphasis
+    and HTML rendered as inert text."""
+    return md_text(value)
 
 
 def as_list(value):
@@ -120,34 +124,41 @@ def iter_nodes_safe(manifest, problems):
             return []
         return container
 
-    def walk(node, is_base, where):
+    def walk(node, is_base, where, ancestors):
         if not isinstance(node, dict):
             problems.append(f"{where} is {type(node).__name__}, not a mapping; skipped")
             return
+        if id(node) in ancestors:  # a YAML alias back to a containing node
+            problems.append(f"{where} refers back to a containing node (cyclic YAML); skipped")
+            return
         yield node, is_base
         nid = node.get("id")
+        ancestors = ancestors | {id(node)}
         for child in children(node.get("subsets"), f"subsets of node {nid}"):
-            yield from walk(child, False, f"a subset of node {nid}")
+            yield from walk(child, False, f"a subset of node {nid}", ancestors)
 
     for b in children(manifest.get("base_sets"), "base_sets"):
-        yield from walk(b, True, "a base_sets entry")
+        yield from walk(b, True, "a base_sets entry", frozenset())
     for sub in children(manifest.get("subsets"), "subsets"):
-        yield from walk(sub, False, "a subsets entry")
+        yield from walk(sub, False, "a subsets entry", frozenset())
 
 
 def norm(name):
     return " ".join(str(name).lower().split())
 
 
-def walk_strings(obj):
+def walk_strings(obj, _seen=None):
+    """Every string in a YAML document. Each container is visited once, so a cyclic
+    alias (or a heavily shared one) cannot recurse forever or blow up the walk."""
+    seen = set() if _seen is None else _seen
     if isinstance(obj, str):
         yield obj
-    elif isinstance(obj, dict):
-        for v in obj.values():
-            yield from walk_strings(v)
-    elif isinstance(obj, list):
-        for v in obj:
-            yield from walk_strings(v)
+    elif isinstance(obj, (dict, list)):
+        if id(obj) in seen:
+            return
+        seen.add(id(obj))
+        for v in (obj.values() if isinstance(obj, dict) else obj):
+            yield from walk_strings(v, seen)
 
 
 def is_placeholder_url(url):
@@ -169,9 +180,11 @@ def _request(url, method):
 
 def probe(url):
     """Probe a URL. Returns None if it responds OK, ("restricted", detail) for an
-    access-controlled response (401/403 do not establish a dead link), or
-    ("dead", detail) for a confirmed failure. A server that rejects HEAD (405/501)
-    is retried with a bounded GET before being judged."""
+    access-controlled response (401/403 do not establish a dead link),
+    ("inconclusive", detail) when the probe itself failed (429, 5xx, DNS/TLS error,
+    timeout) and says nothing about the link, or ("dead", detail) for a confirmed
+    failure (any other 4xx). A server that rejects HEAD (405/501) is retried with a
+    bounded GET before being judged."""
     for method in ("HEAD", "GET"):
         try:
             status = _request(url, method)
@@ -181,10 +194,12 @@ def probe(url):
                 continue
             if e.code in (401, 403):
                 return ("restricted", f"HTTP {e.code}")
+            if e.code == 429 or e.code >= 500:
+                return ("inconclusive", f"HTTP {e.code}")
             return ("dead", f"HTTP {e.code}")
-        except Exception as e:  # noqa: BLE001 - any other failure is a finding
-            return ("dead", type(e).__name__)
-    return ("dead", "no response")
+        except Exception as e:  # noqa: BLE001 - network/DNS/TLS/timeout: not proof of a dead link
+            return ("inconclusive", type(e).__name__)
+    return ("inconclusive", "no response")
 
 
 def row_players(row):
@@ -248,10 +263,22 @@ class SetReport:
 
 def analyze_set(set_dir, opts):
     rep = SetReport(set_dir)
-    set_yaml, err = load_yaml(rep.dir / "set.yaml")
+    set_root = rep.dir.resolve()
+
+    def inside_set(path):
+        """True when `path` resolves inside this set directory; a symlink out of the set
+        (to a file or to the checklists/ root) must not feed data into the report."""
+        return path.resolve().is_relative_to(set_root)
+
+    def load_in_set(path):
+        if not inside_set(path):
+            return None, f"{path} resolves outside the set directory; skipped"
+        return load_yaml(path)
+
+    set_yaml, err = load_in_set(rep.dir / "set.yaml")
     if err:
         rep.problems.append(err)
-    manifest, err = load_yaml(rep.dir / "manifest.yaml")
+    manifest, err = load_in_set(rep.dir / "manifest.yaml")
     if err:
         rep.problems.append(err)
     if not isinstance(manifest, dict):
@@ -262,6 +289,12 @@ def analyze_set(set_dir, opts):
     seen_names = set()
     nodes_rows = {}
     checklists = (rep.dir / "checklists").resolve()
+    # The containment test below is only meaningful if the checklists/ root itself stays
+    # inside the set: a symlinked root would move both sides of it into the link target.
+    if not checklists.is_relative_to(set_root) or checklists == set_root:
+        rep.problems.append("checklists/ resolves outside the set directory; node files skipped")
+        manifest = {}
+    unmatched_src = []  # parallel declarations --source-runs had no entry for
     for node, is_base in iter_nodes_safe(manifest, rep.problems):
         nid = node.get("id")
         if not isinstance(nid, str) or not nid:
@@ -307,6 +340,8 @@ def analyze_set(set_dir, opts):
             if isinstance(src_run, dict):  # another node's map in a per-node file, not a run
                 src_run = None
             rep.parallels.append((nid, name, run, ser, src_run))
+            if opts.source_runs is not None and src_run is None:
+                unmatched_src.append(f"{nid} / {name}")
             if src_run is not None and src_run != run:
                 rep.add("Parallel consistency (vs source)",
                         f"`{nid}` / {md_text(name)}: print_run {md_text(run)} vs source {md_text(src_run)}")
@@ -382,6 +417,9 @@ def analyze_set(set_dir, opts):
                 if bad and bad[0] == "restricted":
                     rep.add("Placeholder / dead URLs",
                             f"access-restricted ({bad[1]}), not confirmed dead: {md_text(u)}")
+                elif bad and bad[0] == "inconclusive":
+                    rep.add("Placeholder / dead URLs",
+                            f"probe inconclusive ({md_text(bad[1])}), not confirmed dead: {md_text(u)}")
                 elif bad:
                     rep.add("Placeholder / dead URLs", f"dead link ({bad[1]}): {md_text(u)}")
         if len(urls) > LINK_CAP:
@@ -409,6 +447,13 @@ def analyze_set(set_dir, opts):
     # comparison never ran, so it reports as skipped rather than as zero mismatches.
     if opts.source_runs is None:
         rep.skipped["Parallel consistency (vs source)"] = "skipped: no --source-runs input supplied"
+    elif unmatched_src:
+        # A declaration with no source entry was never compared, so a clean count would
+        # overstate coverage; name what was missed instead.
+        shown = ", ".join(unmatched_src[:LIST_CAP]) + (" ..." if len(unmatched_src) > LIST_CAP else "")
+        rep.partial["Parallel consistency (vs source)"] = (
+            f"partial: {len(unmatched_src)} declaration(s) had no --source-runs entry and were "
+            f"not compared: {md_text(shown)}")
     return rep
 
 
@@ -430,7 +475,7 @@ def render(reports):
          "Computed from this PR's contents; nothing here is committed. `tools/validate.py` remains the pass/fail gate.", ""]
     if not reports:
         return "\n".join(L + ["No set directories to report on."]) + "\n"
-    L += ["| Check | " + " | ".join(f"`{r.dir.name}`" for r in reports) + " |",
+    L += ["| Check | " + " | ".join(md_cell(r.dir.name) for r in reports) + " |",
           "|---|" + "---|" * len(reports)]
     for c in CHECKS:
         cells = []
@@ -444,13 +489,13 @@ def render(reports):
         L.append(f"| {c} | " + " | ".join(cells) + " |")
     L.append("")
     for r in reports:
-        L += [f"## {r.dir.name}", ""]
+        L += [f"## {md_text(r.dir.name)}", ""]
         for p in r.problems:
             L.append(f"- Load problem: {md_text(p)}")
         if r.problems:
             L.append("")
         L += ["### Structure", "", "| Node | Kind | Declared | Found | Parallels |", "|---|---|---|---|---|"]
-        L += [f"| `{md_cell(n[0])}` | {md_cell(n[1])} | {n[2]} | {n[3]} | {n[4]} |" for n in r.nodes]
+        L += ["| " + " | ".join(md_cell(v) for v in n) + " |" for n in r.nodes]
         L.append("")
         if r.parallels:
             L += ["### Parallels", "", f"<details><summary>{len(r.parallels)} parallel declarations</summary>", "",
