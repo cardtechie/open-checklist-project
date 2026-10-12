@@ -10,6 +10,7 @@ checklist data. The project consists of:
 - **YAML schemas** — sets, manifests, and checklists (in `schemas/`)
 - **Curated data** organized by genre/sport/set (in `data/`)
 - **Validation tools** to ensure data compliance (`tools/validate.py`)
+- **Review report** (`tools/review_report.py`) — advisory computed summary for human reviewers
 - **GitHub workflows** for automated validation
 
 ## The manifest form (v0.3)
@@ -78,6 +79,16 @@ docker run open-checklist-validator
 5. `sections` partition a node's checklist (every row in exactly one section).
 6. `applies_to` (`numbers` / `except` / `sections`) references resolve to existing rows /
    sections; `set_id` agrees across `set.yaml`, `manifest.yaml`, and the directory name.
+
+### Review report (advisory)
+
+`tools/review_report.py` derives a one-page markdown report from a set's files
+(declared vs actual counts, parallel print runs, numbering gaps, duplicates, placeholder
+URLs). It is **advisory**: findings never fail a run, nothing it emits is committed, and
+`validate.py` stays the pass/fail gate. The `review-report.yml` workflow builds it with a
+read-only token; `review-report-comment.yml` (a `workflow_run` workflow loaded from the
+default branch, so a PR cannot rewrite it) posts it as a sticky PR comment. Checks needing external data (never-seen names, deceased players,
+marquee runs, source print runs) take optional input files and report "skipped" without them.
 
 New data must use the manifest form. The validator still accepts the earlier exploded
 `cards/` format for not-yet-migrated sets, but that format is **deprecated** and being

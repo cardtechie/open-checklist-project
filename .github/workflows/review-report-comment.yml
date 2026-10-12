@@ -1,0 +1,81 @@
+name: Review Report Comment
+
+# Posts the advisory review report built by `review-report.yml` as a sticky PR comment.
+#
+# Why a separate workflow: a `pull_request` run takes its workflow definition from the PR
+# branch, so a write-capable job defined there could be rewritten by the PR to run its own
+# commands with that token. A `workflow_run` workflow is always loaded from the default
+# branch, so this definition is protected. It never checks out or executes PR code; it only
+# downloads the report artifact and posts its text as data.
+#
+# Only same-repository PRs are commented on, as before (fork PRs never received a writable
+# token). Every PR still gets the report in the build run's job summary and artifact.
+
+on:
+  workflow_run:
+    workflows: ['Review Report']
+    types: [completed]
+
+permissions: {}
+
+concurrency:
+  group: review-report-comment-${{ github.event.workflow_run.head_repository.full_name }}-${{ github.event.workflow_run.head_branch }}
+  cancel-in-progress: true
+
+jobs:
+  comment:
+    if: >-
+      github.event.workflow_run.event == 'pull_request' &&
+      github.event.workflow_run.conclusion == 'success' &&
+      github.event.workflow_run.head_repository.full_name == github.repository
+    runs-on: ubuntu-latest
+    permissions:
+      actions: read
+      pull-requests: write
+    steps:
+      - uses: actions/download-artifact@v4
+        with:
+          name: review-report
+          run-id: ${{ github.event.workflow_run.id }}
+          github-token: ${{ github.token }}
+      - name: Post sticky PR comment
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const fs = require('fs');
+            const marker = '<!-- ocp-review-report:v1 -->';
+            const limit = 60000; // GitHub caps comments at 65,536 characters
+            const run = context.payload.workflow_run;
+            const { owner, repo } = context.repo;
+            // The PR comes from the run's own metadata, never from the artifact (which the
+            // PR's code wrote). Fall back to the commit's associated PRs if GitHub omitted it.
+            let prs = run.pull_requests || [];
+            if (!prs.length) {
+              const { data } = await github.rest.repos.listPullRequestsAssociatedWithCommit(
+                { owner, repo, commit_sha: run.head_sha });
+              prs = data.filter(p => p.head.sha === run.head_sha && p.state === 'open');
+            }
+            if (prs.length !== 1) {
+              core.notice(`Found ${prs.length} PRs for ${run.head_sha}; not posting.`);
+              return;
+            }
+            const issue_number = prs[0].number;
+            // Skip if the PR has moved on since this run's commit: a newer run owns the comment.
+            const { data: pr } = await github.rest.pulls.get({ owner, repo, pull_number: issue_number });
+            if (pr.head.sha !== run.head_sha) {
+              core.notice(`PR head is now ${pr.head.sha}, not this run's ${run.head_sha}; not posting a stale report.`);
+              return;
+            }
+            let body = fs.readFileSync('review-report.md', 'utf8');
+            if (body.length > limit) {
+              body = body.slice(0, limit) +
+                '\n\n_Report truncated; the full report is in the `review-report` artifact of the build run._\n';
+            }
+            body = `${marker}\n${body}`;
+            const comments = await github.paginate(github.rest.issues.listComments, { owner, repo, issue_number });
+            const existing = comments.find(c => c.body && c.body.startsWith(marker));
+            if (existing) {
+              await github.rest.issues.updateComment({ owner, repo, comment_id: existing.id, body });
+            } else {
+              await github.rest.issues.createComment({ owner, repo, issue_number, body });
+            }

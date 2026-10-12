@@ -1,0 +1,60 @@
+name: Review Report
+
+# Advisory only: computes a one-page review report from the PR's data and posts it as a
+# sticky comment and job summary. It never fails a PR on findings and should not be made
+# a required check. `tools/validate.py` (validate.yml) remains the pass/fail gate.
+#
+# This workflow only BUILDS the report. It runs the PR's code (tests + tools/review_report.py)
+# with a read-only token and no persisted checkout credential, and uploads the report as an
+# artifact. It holds no write permission at all: a `pull_request` run takes its workflow
+# definition from the PR branch, so any job defined here could be rewritten by the PR.
+#
+# Posting the sticky comment is done by `review-report-comment.yml`, a `workflow_run`
+# workflow that GitHub always loads from the default branch. It never checks out or
+# executes PR code; it only downloads this run's artifact and posts its text.
+
+on:
+  pull_request:
+    paths:
+      - 'data/**'
+      - 'tools/**'
+
+permissions:
+  contents: read
+
+# One run per PR at a time: a newer push cancels the older run, so two runs cannot both
+# create the sticky comment and an older run cannot finish last and overwrite newer results.
+concurrency:
+  group: review-report-${{ github.event.pull_request.number }}
+  cancel-in-progress: true
+
+jobs:
+  report:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+          persist-credentials: false
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Install dependencies
+        run: pip install pyyaml jsonschema
+      - name: Run tool unit tests
+        run: python -m unittest discover tools/tests
+      - name: Build review report
+        env:
+          BASE_REF: ${{ github.base_ref }}
+        run: |
+          python tools/review_report.py \
+            --changed-against "origin/$BASE_REF" \
+            --output review-report.md
+          cat review-report.md >> "$GITHUB_STEP_SUMMARY"
+      - uses: actions/upload-artifact@v4
+        with:
+          name: review-report
+          path: review-report.md
+
