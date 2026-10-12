@@ -15,7 +15,8 @@ does not restate it. Read it first, then run its steps **(a)–(f)** in order:
 1. **(a) Check:** `python tools/check_work_order.py <n>`. On exit 10, stop with
    `precondition-unmet`. On exit 2, report the error and stop, and do not comment.
 2. **(b) Fetch:** fetch each source in the verdict's `sources`. Keep raw files outside
-   the repository.
+   the repository. Never fetch a host that resolves to, or redirects to, a loopback,
+   link-local, private or other non-public address; stop with `source-unreachable`.
 3. **(c) Author** `data/<dir>/<set_id>/` from the verdict and the source.
 4. **(d) Count** every node against the source. Any difference is a stop.
 5. **(e) Validate:** run `python tools/validate.py`. Fix authoring errors only. Never fix

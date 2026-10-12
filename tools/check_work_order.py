@@ -17,6 +17,7 @@ can run offline and in tests.
 It never writes to GitHub. Exit 0 = ready, 10 = not ready, 2 = usage or read error.
 """
 import argparse
+import ipaddress
 import json
 import re
 import subprocess
@@ -68,14 +69,35 @@ def _gh_json(args):
     return out.stdout
 
 
+def _decode(text, what):
+    """Decode one JSON document from the GitHub API, or raise ReadError."""
+    try:
+        return json.loads(text)
+    except json.JSONDecodeError as e:
+        raise ReadError(f"{what}: malformed JSON from the GitHub API: {e}") from e
+
+
 def fetch_work_order(repo, num):
-    """Read the three payloads for issue <num> through the gh CLI."""
+    """Read the three payloads for issue <num> through the gh CLI.
+
+    Every decode and shape check raises ReadError, so a malformed or unexpected
+    response exits 2 like any other read failure instead of with a traceback.
+    """
     base = f"repos/{repo}/issues/{num}"
-    issue = json.loads(_gh_json([base]))
-    fields = json.loads(_gh_json([f"{base}/issue-field-values"]) or "[]")
+    issue = _decode(_gh_json([base]), f"issue #{num}")
+    if not isinstance(issue, dict):
+        raise ReadError(f"issue #{num}: expected a JSON object")
+    fields = _decode(_gh_json([f"{base}/issue-field-values"]) or "[]", f"issue #{num} field values")
+    if not isinstance(fields, list):
+        raise ReadError(f"issue #{num} field values: expected a JSON array")
     # --paginate with --jq '.[]' emits one JSON object per line across all pages.
     raw = _gh_json(["--paginate", f"{base}/comments", "--jq", ".[]"])
-    comments = [json.loads(line) for line in raw.splitlines() if line.strip()]
+    comments = []
+    for n, line in enumerate((l for l in raw.splitlines() if l.strip()), 1):
+        c = _decode(line, f"issue #{num} comment {n}")
+        if not isinstance(c, dict):
+            raise ReadError(f"issue #{num} comment {n}: expected a JSON object")
+        comments.append(c)
     return {"issue": issue, "field_values": fields, "comments": comments}
 
 
@@ -145,6 +167,48 @@ def is_http_url(v):
     return p.scheme in ("http", "https") and bool(p.netloc)
 
 
+# Host names that never point at a public source. The producer fetches every accepted
+# URL unattended, so a source must not reach loopback, link-local (cloud metadata),
+# private or otherwise non-global addresses.
+BLOCKED_HOST_SUFFIXES = (".localhost", ".local", ".internal", ".lan", ".home.arpa")
+NUMERIC_HOST_RE = re.compile(r"^(0x[0-9a-f]+|[0-9]+)(\.(0x[0-9a-f]+|[0-9]+))*$", re.IGNORECASE)
+
+
+def source_url_problem(v):
+    """Return why a source URL may not be fetched, or None when it is acceptable.
+
+    This is the deterministic half of the policy: it judges the URL text only. A
+    public host name can still resolve to, or redirect to, a private address, so the
+    fetch step (docs/PRODUCER.md step b) checks the resolved address and every
+    redirect target too.
+    """
+    if not is_http_url(v):
+        return "is missing or not http/https"
+    p = urlparse(v.strip())
+    if p.username is not None or p.password is not None:
+        return "must not carry credentials"
+    try:
+        host = (p.hostname or "").rstrip(".").lower()
+        p.port  # raises ValueError on a malformed port
+    except ValueError:
+        return "has a malformed host or port"
+    if not host:
+        return "has no host"
+    if host == "localhost" or host.endswith(BLOCKED_HOST_SUFFIXES) or "." not in host:
+        return f"host '{host}' is not a public host name"
+    try:
+        ip = ipaddress.ip_address(host)
+    except ValueError:
+        # Integer, hex and short dotted forms (http://2130706433/, http://0x7f.1/) are
+        # read as IP addresses by many clients, so they are refused outright.
+        if NUMERIC_HOST_RE.match(host):
+            return f"host '{host}' is a non-standard numeric address"
+        return None
+    if not ip.is_global:
+        return f"host {host} is not a public address"
+    return None
+
+
 def discover_blocks(comments):
     """Comments whose first line is the Discover marker, oldest first."""
     blocks = []
@@ -184,8 +248,9 @@ def parse_discover(body, reasons):
         if not isinstance(s, dict):
             reasons.append(f"source {n} is not a mapping")
             continue
-        if not is_http_url(s.get("url")):
-            reasons.append(f"source {n} url is missing or not http/https")
+        problem = source_url_problem(s.get("url"))
+        if problem:
+            reasons.append(f"source {n} url {problem}")
         if not is_positive_int(s.get("card_count")):
             reasons.append(f"source {n} card_count must be a positive integer")
         entry = {"url": s.get("url"), "card_count": s.get("card_count")}

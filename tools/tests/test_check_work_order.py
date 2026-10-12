@@ -188,6 +188,22 @@ class CheckWorkOrderTests(unittest.TestCase):
                                                "ftp://example.org/x"))]
         self.assertNotReady(self.run_check(p), "not http/https")
 
+    def test_non_public_source_hosts_rejected(self):
+        for bad in ("http://localhost/x", "http://127.0.0.1/x", "http://169.254.169.254/latest/meta-data/",
+                    "http://10.0.0.5/x", "http://192.168.1.1/x", "http://[::1]/x", "http://[fd00::1]/x",
+                    "http://2130706433/x", "http://0x7f.1/x", "http://metadata.google.internal/x",
+                    "http://printer.local/x", "http://intranet/x", "https://user:pw@example.org/x",
+                    "http://example.org:notaport/x"):
+            p = ready_payload()
+            p["comments"] = [comment(BLOCK.replace("https://example.org/2025-prizm-draft-picks", bad))]
+            self.assertNotReady(self.run_check(p), "source 1 url")
+
+    def test_public_source_hosts_accepted(self):
+        for good in ("https://www.beckett.com/x", "http://93.184.216.34/x", "https://example.org:8443/x"):
+            p = ready_payload()
+            p["comments"] = [comment(BLOCK.replace("https://example.org/2025-prizm-draft-picks", good))]
+            self.assertTrue(self.run_check(p)["ready"], good)
+
     def test_name_falls_back_to_title(self):
         p = ready_payload()
         p["comments"] = [comment(BLOCK.replace("name: 2025 Panini Prizm Draft Picks\n", ""))]
@@ -225,6 +241,21 @@ class CheckWorkOrderTests(unittest.TestCase):
             self.assertEqual(cwo.main(["77", "--repo", "bad repo; rm -rf"]), cwo.EXIT_USAGE)
             self.assertEqual(cwo.main(["--from-json", "/nonexistent/x.json"]), cwo.EXIT_USAGE)
 
+
+    def test_cli_malformed_github_json_is_read_error(self):
+        cases = [
+            ["not json", "[]", ""],                       # issue body
+            ['{"number": 77}', "{oops", ""],               # field values
+            ['{"number": 77}', "[]", '{"body": "ok"}\n{broken'],  # one paginated comment
+            ['[]', "[]", ""],                               # issue is not an object
+            ['{"number": 77}', "{}", ""],                   # field values not an array
+            ['{"number": 77}', "[]", "[1, 2]"],             # comment is not an object
+        ]
+        for issue, fields, comments in cases:
+            outs = iter([issue, fields, comments])
+            with unittest.mock.patch.object(cwo, "_gh_json", side_effect=lambda args: next(outs)), \
+                    redirect_stdout(io.StringIO()), unittest.mock.patch("sys.stderr", io.StringIO()):
+                self.assertEqual(cwo.main(["77"]), cwo.EXIT_USAGE, (issue, fields, comments))
 
 if __name__ == "__main__":
     unittest.main()

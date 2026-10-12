@@ -32,7 +32,9 @@ start.
 4. There is a **Discover block**. This is a comment whose first line is
    `<!-- ocp-discover:v1 -->`, followed by one fenced `yaml` block with at least
    `sources:`. That is one or more entries, each with:
-   - `url`: an `http` or `https` URL;
+   - `url`: an `http` or `https` URL on a public host. The checker refuses credentials
+     in the URL, `localhost` and `.local` / `.internal`-style names, single-label hosts,
+     numeric host forms, and any IP literal that is not a public address;
    - `card_count`: the source's own stated base-set count, as a positive integer.
 
    Optional keys, used when present:
@@ -82,7 +84,11 @@ The verdict carries `ready`, `reasons`, `set_id`, `reserved_uuid`, `name` (with
 with `precondition-unmet` and quote its `reasons`.
 
 **(b) Fetch.** Fetch every source URL. If a source cannot be fetched or read, stop with
-`source-unreachable`. Raw source files (spreadsheets, HTML) are **never committed**
+`source-unreachable`. The fetch is unattended, so it only reaches public addresses: if a
+source host resolves to, or any redirect leads to, a loopback, link-local (cloud
+metadata), private or otherwise non-public address, do not fetch it and stop with
+`source-unreachable`. The checker's URL check covers the URL text only; this step
+covers what the name resolves to and where it redirects. Raw source files (spreadsheets, HTML) are **never committed**
 (see [CONTRIBUTING](../CONTRIBUTING.md)).
 
 **(c) Author** `data/<dir>/<set_id>/`. `<dir>` is the sport in lower case for a Sports
