@@ -179,6 +179,69 @@ class ReviewReportTests(unittest.TestCase):
                 with self.assertRaises(SystemExit):
                     rr.main([t, "--marquee", __file__, "--famous-run", bad])
 
+    def test_node_id_outside_checklists_rejected(self):
+        with tempfile.TemporaryDirectory() as t:
+            d = Path(t) / "s"
+            (d / "checklists").mkdir(parents=True)
+            (Path(t) / "other.yaml").write_text(yaml.safe_dump([player("1", "Leaked")]))
+            (d / "set.yaml").write_text("set_id: s\n")
+            (d / "manifest.yaml").write_text(yaml.safe_dump(
+                {"set_id": "s", "base_sets": [{"id": "../../other"}, {"id": "Bad_Id"}]}))
+            rep = rr.analyze_set(d, opts(known_names=set()))
+            self.assertEqual(rep.nodes, [])
+            self.assertEqual(rep.findings["Never-seen names"], [])
+            self.assertEqual(sum("not a valid slug" in p for p in rep.problems), 2)
+
+    def test_malformed_manifest_types_recorded_not_raised(self):
+        for manifest in ({"base_sets": 1},
+                         {"base_sets": [{"id": "base", "subsets": 1, "type": 1, "parallels": 3}]}):
+            with tempfile.TemporaryDirectory() as t:
+                d = Path(t) / "s"
+                (d / "checklists").mkdir(parents=True)
+                (d / "set.yaml").write_text("set_id: s\n")
+                (d / "manifest.yaml").write_text(yaml.safe_dump(manifest))
+                (d / "checklists" / "base.yaml").write_text(yaml.safe_dump(
+                    [{"number": "1", "subjects": 1}, {"number": "2", "subjects": [{"entities": 5}]}]))
+                rep = rr.analyze_set(d, opts())
+                self.assertTrue(rep.problems)
+                self.assertIn("Review report", rr.render([rep]))
+
+    def test_sequential_famous_requires_consecutive_numbers(self):
+        rows = [player("1", "S1"), player("3", "S2"), player("4", "S3")]
+        rep = self.run_set([({"id": "base"}, rows)], marquee={"s1", "s2", "s3"})
+        self.assertEqual(rep.findings["Sequential famous player"], [])
+        rows = [player("3", "S1"), player("4", "S2"), player("5", "S3")]
+        rep = self.run_set([({"id": "base"}, rows)], marquee={"s1", "s2", "s3"})
+        self.assertEqual(len(rep.findings["Sequential famous player"]), 1)
+
+    def test_untrusted_values_escaped_in_findings(self):
+        rep = self.run_set([({"id": "base"}, [player("1", "## Heading\n<img src=x>")])],
+                           known_names=set())
+        text = rr.render([rep])
+        self.assertNotIn("\n## Heading", text)
+        self.assertNotIn("<img", text.replace("\\<img", ""))  # only the escaped form survives
+        self.assertIn("\\#\\# Heading \\<img src=x\\>", text)
+
+    def test_probe_falls_back_to_get_and_flags_restricted(self):
+        import urllib.error
+        calls = []
+
+        def fake(url, method):
+            calls.append(method)
+            codes = {"HEAD": 405, "GET": 200} if "a" in url else {"HEAD": 403, "GET": 403}
+            if codes[method] >= 400:
+                raise urllib.error.HTTPError(url, codes[method], "x", {}, None)
+            return codes[method]
+
+        orig = rr._request
+        rr._request = fake
+        try:
+            self.assertIsNone(rr.probe("https://a.test/"))
+            self.assertEqual(calls, ["HEAD", "GET"])
+            self.assertEqual(rr.probe("https://b.test/"), ("restricted", "HTTP 403"))
+        finally:
+            rr._request = orig
+
     def test_empty_report(self):
         self.assertIn("No set directories", rr.render([]))
 

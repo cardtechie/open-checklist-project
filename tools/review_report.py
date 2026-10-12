@@ -25,6 +25,7 @@ import json
 import re
 import subprocess
 import sys
+import urllib.error
 import urllib.request
 from collections import defaultdict
 from pathlib import Path
@@ -32,11 +33,12 @@ from pathlib import Path
 import yaml
 
 sys.path.insert(0, str(Path(__file__).resolve().parent))
-from validate import iter_nodes, find_dupes, _split  # noqa: E402
+from validate import find_dupes, _split  # noqa: E402
 
 LIST_CAP = 10          # items shown inline before the rest fold into <details>
 DETAIL_CAP = 200       # hard cap on items listed at all
 LINK_CAP = 25          # max distinct URLs probed with --check-links
+NODE_ID_RE = re.compile(r"^[a-z0-9]+(-[a-z0-9]+)*$")  # manifest schema slug pattern
 URL_RE = re.compile(r"https?://[^\s'\"<>)\]]+")
 PLACEHOLDER_HOSTS = (
     "example.com", "example.org", "example.net", "localhost", "127.0.0.1",
@@ -81,6 +83,58 @@ def md_cell(value):
     return " ".join(str(value).replace("|", "\\|").splitlines())
 
 
+_MD_SPECIAL = re.compile(r"([\\`*_\[\]<>#|~!])")
+
+
+def md_text(value):
+    """Make an untrusted value inert in Markdown prose: flatten line breaks and
+    backslash-escape the characters that start formatting, links, headings or HTML."""
+    return _MD_SPECIAL.sub(r"\\\1", " ".join(str(value).splitlines()))
+
+
+def as_list(value):
+    """A YAML list field, or [] when it is absent or not a list."""
+    return value if isinstance(value, list) else []
+
+
+def node_types(node, problems, nid):
+    """A node's `type` as a list of strings; a malformed value is recorded, not raised."""
+    t = node.get("type")
+    if t is None:
+        return []
+    if not isinstance(t, list):
+        problems.append(f"node {nid}: type is {type(t).__name__}, not a list")
+        return [str(t)]
+    return [str(x) for x in t]
+
+
+def iter_nodes_safe(manifest, problems):
+    """Like validate.iter_nodes, but records malformed containers as load problems
+    instead of raising, so the advisory report still covers what can be read.
+    Problems are plain text; render() escapes them for Markdown."""
+    def children(container, where):
+        if container is None:
+            return []
+        if not isinstance(container, list):
+            problems.append(f"{where} is {type(container).__name__}, not a list; skipped")
+            return []
+        return container
+
+    def walk(node, is_base, where):
+        if not isinstance(node, dict):
+            problems.append(f"{where} is {type(node).__name__}, not a mapping; skipped")
+            return
+        yield node, is_base
+        nid = node.get("id")
+        for child in children(node.get("subsets"), f"subsets of node {nid}"):
+            yield from walk(child, False, f"a subset of node {nid}")
+
+    for b in children(manifest.get("base_sets"), "base_sets"):
+        yield from walk(b, True, "a base_sets entry")
+    for sub in children(manifest.get("subsets"), "subsets"):
+        yield from walk(sub, False, "a subsets entry")
+
+
 def norm(name):
     return " ".join(str(name).lower().split())
 
@@ -104,22 +158,41 @@ def is_placeholder_url(url):
     return any(w in low for w in PLACEHOLDER_WORDS)
 
 
+def _request(url, method):
+    headers = {"User-Agent": "ocp-review-report"}
+    if method == "GET":
+        headers["Range"] = "bytes=0-0"  # bounded: we only need the status line
+    req = urllib.request.Request(url, method=method, headers=headers)
+    with urllib.request.urlopen(req, timeout=5) as r:
+        return r.status
+
+
 def probe(url):
-    """HEAD a URL; returns an error string for a dead link, or None if it responds OK."""
-    try:
-        req = urllib.request.Request(url, method="HEAD", headers={"User-Agent": "ocp-review-report"})
-        with urllib.request.urlopen(req, timeout=5) as r:
-            return None if r.status < 400 else f"HTTP {r.status}"
-    except Exception as e:  # noqa: BLE001 - any failure is a finding
-        return str(getattr(e, "code", None) or type(e).__name__)
+    """Probe a URL. Returns None if it responds OK, ("restricted", detail) for an
+    access-controlled response (401/403 do not establish a dead link), or
+    ("dead", detail) for a confirmed failure. A server that rejects HEAD (405/501)
+    is retried with a bounded GET before being judged."""
+    for method in ("HEAD", "GET"):
+        try:
+            status = _request(url, method)
+            return None if status < 400 else ("dead", f"HTTP {status}")
+        except urllib.error.HTTPError as e:
+            if method == "HEAD" and e.code in (405, 501):
+                continue
+            if e.code in (401, 403):
+                return ("restricted", f"HTTP {e.code}")
+            return ("dead", f"HTTP {e.code}")
+        except Exception as e:  # noqa: BLE001 - any other failure is a finding
+            return ("dead", type(e).__name__)
+    return ("dead", "no response")
 
 
 def row_players(row):
     out = []
-    for s in row.get("subjects") or []:
+    for s in as_list(row.get("subjects")):
         if not isinstance(s, dict):
             continue
-        for e in s.get("entities") or []:
+        for e in as_list(s.get("entities")):
             if isinstance(e, dict) and e.get("role") == "player" and e.get("name"):
                 out.append(str(e["name"]))
     return out
@@ -127,10 +200,10 @@ def row_players(row):
 
 def subject_key(row):
     subs = []
-    for s in row.get("subjects") or []:
+    for s in as_list(row.get("subjects")):
         if isinstance(s, dict):
             ents = tuple(sorted((str(e.get("role")), norm(e.get("name")))
-                                for e in (s.get("entities") or [])
+                                for e in as_list(s.get("entities"))
                                 if isinstance(e, dict) and e.get("name")))
             if ents:
                 subs.append(ents)
@@ -188,12 +261,20 @@ def analyze_set(set_dir, opts):
 
     seen_names = set()
     nodes_rows = {}
-    for node, is_base in iter_nodes(manifest):
+    checklists = (rep.dir / "checklists").resolve()
+    for node, is_base in iter_nodes_safe(manifest, rep.problems):
         nid = node.get("id")
         if not isinstance(nid, str) or not nid:
             rep.problems.append("a node has no usable id; skipped")
             continue
-        rows, err = load_yaml(rep.dir / "checklists" / f"{nid}.yaml")
+        # The id becomes a path component, so it must be a manifest slug and must not
+        # resolve outside this set's checklists/ directory (e.g. via a symlink).
+        path = rep.dir / "checklists" / f"{nid}.yaml"
+        if not NODE_ID_RE.match(nid) or not path.resolve().is_relative_to(checklists):
+            rep.problems.append(f"node id {nid!r} is not a valid slug inside checklists/; skipped")
+            continue
+        types = node_types(node, rep.problems, nid)
+        rows, err = load_yaml(path)
         if err:
             rep.problems.append(err)
             rows = []
@@ -203,7 +284,7 @@ def analyze_set(set_dir, opts):
         all_docs.append(rows)
         nodes_rows[nid] = rows
         numbers = [str(r["number"]) for r in rows if r.get("number") is not None]
-        parallels = [p for p in (node.get("parallels") or []) if isinstance(p, dict)]
+        parallels = [p for p in as_list(node.get("parallels")) if isinstance(p, dict)]
         for r in rows:
             seen_names.update(norm(n) for n in row_players(r))
 
@@ -213,7 +294,7 @@ def analyze_set(set_dir, opts):
         if isinstance(dcc, int) and dcc != len(rows):
             mark = " (mismatch)"
             rep.add("Declared vs actual count", f"`{nid}`: declared {dcc}, found {len(rows)}")
-        rep.nodes.append((nid, "base" if is_base else ",".join(map(str, node.get("type") or [])) or "subset",
+        rep.nodes.append((nid, "base" if is_base else ",".join(types) or "subset",
                           "-" if dcc is None else str(dcc), str(len(rows)) + mark, str(len(parallels))))
 
         # Parallels: list every declaration, then check local consistency
@@ -227,23 +308,24 @@ def analyze_set(set_dir, opts):
                 src_run = None
             rep.parallels.append((nid, name, run, ser, src_run))
             if src_run is not None and src_run != run:
-                rep.add("Parallel consistency (vs source)", f"`{nid}` / {name}: print_run {run} vs source {src_run}")
+                rep.add("Parallel consistency (vs source)",
+                        f"`{nid}` / {md_text(name)}: print_run {md_text(run)} vs source {md_text(src_run)}")
             if ser and run is None:
-                rep.add("Parallel consistency", f"`{nid}` / {name}: serial_numbered without print_run")
+                rep.add("Parallel consistency", f"`{nid}` / {md_text(name)}: serial_numbered without print_run")
             if run is not None and not ser:
-                rep.add("Parallel consistency", f"`{nid}` / {name}: print_run {run} but not serial_numbered")
+                rep.add("Parallel consistency", f"`{nid}` / {md_text(name)}: print_run {md_text(run)} but not serial_numbered")
             if run == 0:
-                rep.add("Parallel consistency", f"`{nid}` / {name}: print_run is 0")
+                rep.add("Parallel consistency", f"`{nid}` / {md_text(name)}: print_run is 0")
 
         # Variation nodes are sparse by nature (a subset of the base numbers), so a gap
         # there is expected, not a finding.
-        is_variation = "variation" in [str(t).lower() for t in (node.get("type") or [])]
+        is_variation = "variation" in [t.lower() for t in types]
         gaps = [] if is_variation else gap_ranges(numbers)
         if gaps:
-            rep.add("Numbering gaps", f"`{nid}`: missing {', '.join(gaps[:8])}" + (" ..." if len(gaps) > 8 else ""))
+            rep.add("Numbering gaps", f"`{nid}`: missing {md_text(', '.join(gaps[:8]))}" + (" ..." if len(gaps) > 8 else ""))
         dn = find_dupes(numbers)
         if dn:
-            rep.add("Duplicate card numbers", f"`{nid}`: {', '.join(sorted(dn)[:10])}")
+            rep.add("Duplicate card numbers", f"`{nid}`: {md_text(', '.join(sorted(dn)[:10]))}")
 
         by_key = defaultdict(list)
         for r in rows:
@@ -253,28 +335,36 @@ def analyze_set(set_dir, opts):
         for k, nums in by_key.items():
             if len(nums) > 1:
                 who = "; ".join(" + ".join(n for _, n in s) for s in k)
-                rep.add("Duplicate subjects", f"`{nid}`: {who} on {', '.join(nums[:6])}")
+                rep.add("Duplicate subjects", f"`{nid}`: {md_text(who)} on {md_text(', '.join(nums[:6]))}")
 
-        # Sequential famous player / deceased autograph (input-file driven)
+        # Sequential famous player / deceased autograph (input-file driven). A run only
+        # extends across card numbers that are consecutive within the same prefix, so a
+        # numbering gap or out-of-order row breaks it rather than counting as adjacent.
         if opts.marquee is not None:
             run_ = []
             def flush():
                 if len(run_) >= opts.famous_run:
                     rep.add("Sequential famous player",
-                            f"`{nid}`: {len(run_)} consecutive marquee rows {run_[0][0]}..{run_[-1][0]}")
+                            f"`{nid}`: {len(run_)} consecutive marquee cards "
+                            f"{md_text(run_[0][0])}..{md_text(run_[-1][0])}")
             for r in rows:
                 ps = row_players(r)
-                if ps and all(norm(p) in opts.marquee for p in ps):
-                    run_.append((r.get("number"), ps))
-                else:
+                pfx, val = _split(r.get("number"))
+                if not (ps and val is not None and all(norm(p) in opts.marquee for p in ps)):
                     flush()
                     run_ = []
+                    continue
+                if run_ and not (run_[-1][1] == pfx and run_[-1][2] + 1 == val):
+                    flush()
+                    run_ = []
+                run_.append((r.get("number"), pfx, val))
             flush()
-        if opts.deceased is not None and any("autograph" in str(t).lower() for t in (node.get("type") or [])):
+        if opts.deceased is not None and any("autograph" in t.lower() for t in types):
             for r in rows:
                 hit = [p for p in row_players(r) if norm(p) in opts.deceased]
                 if hit:
-                    rep.add("Deceased with live autograph", f"`{nid}` {r.get('number')}: {', '.join(hit)}")
+                    rep.add("Deceased with live autograph",
+                            f"`{nid}` {md_text(r.get('number'))}: {md_text(', '.join(hit))}")
 
     # Placeholder / dead URLs: every string in all three file kinds
     urls = {}
@@ -284,13 +374,16 @@ def analyze_set(set_dir, opts):
                 urls[u.rstrip(".,;")] = True
     for u in urls:
         if is_placeholder_url(u):
-            rep.add("Placeholder / dead URLs", f"placeholder-looking URL: {u}")
+            rep.add("Placeholder / dead URLs", f"placeholder-looking URL: {md_text(u)}")
     if opts.check_links:
         for u in list(urls)[:LINK_CAP]:
             if not is_placeholder_url(u):
                 bad = probe(u)
-                if bad:
-                    rep.add("Placeholder / dead URLs", f"dead link ({bad}): {u}")
+                if bad and bad[0] == "restricted":
+                    rep.add("Placeholder / dead URLs",
+                            f"access-restricted ({bad[1]}), not confirmed dead: {md_text(u)}")
+                elif bad:
+                    rep.add("Placeholder / dead URLs", f"dead link ({bad[1]}): {md_text(u)}")
         if len(urls) > LINK_CAP:
             rep.add("Placeholder / dead URLs", f"link probe capped at {LINK_CAP} of {len(urls)} URLs")
     else:
@@ -306,7 +399,7 @@ def analyze_set(set_dir, opts):
         unseen = sorted({n for rows in nodes_rows.values() for r in rows for n in row_players(r)
                          if norm(n) not in opts.known_names})
         for n in unseen:
-            rep.add("Never-seen names", n)
+            rep.add("Never-seen names", md_text(n))
     if opts.deceased is None:
         rep.skipped["Deceased with live autograph"] = "skipped: no --deceased input supplied"
     if opts.marquee is None:
@@ -353,7 +446,7 @@ def render(reports):
     for r in reports:
         L += [f"## {r.dir.name}", ""]
         for p in r.problems:
-            L.append(f"- Load problem: {p}")
+            L.append(f"- Load problem: {md_text(p)}")
         if r.problems:
             L.append("")
         L += ["### Structure", "", "| Node | Kind | Declared | Found | Parallels |", "|---|---|---|---|---|"]
