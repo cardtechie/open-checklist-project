@@ -74,9 +74,30 @@ class ReviewReportTests(unittest.TestCase):
     def test_source_runs_global_and_per_node(self):
         node = {"id": "base", "parallels": [{"name": "Gold", "print_run": 50, "serial_numbered": True}]}
         rep = self.run_set([(node, [player("1", "A")])], source_runs={"Gold": 25})
-        self.assertIn("vs source 25", rep.findings["Parallel consistency"][0])
-        rep = self.run_set([(node, [player("1", "A")])], source_runs={"base": {"Gold": 50}})
+        self.assertIn("vs source 25", rep.findings["Parallel consistency (vs source)"][0])
         self.assertEqual(rep.findings["Parallel consistency"], [])
+        rep = self.run_set([(node, [player("1", "A")])], source_runs={"base": {"Gold": 50}})
+        self.assertEqual(rep.findings["Parallel consistency (vs source)"], [])
+        self.assertNotIn("Parallel consistency (vs source)", rep.skipped)
+
+    def test_source_comparison_reported_as_skipped_not_zero(self):
+        node = {"id": "base", "parallels": [{"name": "Gold", "print_run": 50, "serial_numbered": True}]}
+        rep = self.run_set([(node, [player("1", "A")])])
+        self.assertIn("Parallel consistency (vs source)", rep.skipped)
+        row = next(l for l in rr.render([rep]).splitlines() if l.startswith("| Parallel consistency (vs source) |"))
+        self.assertIn("skipped", row)
+
+    def test_every_parallel_declaration_rendered(self):
+        node = {"id": "base", "parallels": [
+            {"name": "Gold", "print_run": 50, "serial_numbered": True},
+            {"name": "Refractor"},
+        ]}
+        rep = self.run_set([(node, [player("1", "A")])], source_runs={"Gold": 50})
+        self.assertEqual(rep.parallels, [("base", "Gold", 50, True, 50), ("base", "Refractor", None, None, None)])
+        text = rr.render([rep])
+        self.assertIn("### Parallels", text)
+        self.assertIn("| `base` | Gold | 50 | yes | 50 |", text)
+        self.assertIn("| `base` | Refractor | - | no | - |", text)
 
     def test_skipped_when_inputs_absent(self):
         rep = self.run_set([({"id": "base"}, [player("1", "A")])])

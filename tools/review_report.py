@@ -46,7 +46,8 @@ PLACEHOLDER_HOSTS = (
 PLACEHOLDER_WORDS = ("placeholder", "your-", "todo", "tbd", "xxx", "/null", "/undefined", "/none")
 
 CHECKS = [
-    "Declared vs actual count", "Parallel consistency", "Numbering gaps",
+    "Declared vs actual count", "Parallel consistency", "Parallel consistency (vs source)",
+    "Numbering gaps",
     "Duplicate card numbers", "Duplicate subjects", "Placeholder / dead URLs",
     "Never-seen names", "Deceased with live autograph", "Sequential famous player",
 ]
@@ -160,6 +161,7 @@ class SetReport:
         self.findings = {c: [] for c in CHECKS}             # check -> [str]
         self.skipped = {}                                   # check -> reason
         self.nodes = []                                     # per-node table rows
+        self.parallels = []                                 # every parallel declaration
 
     def add(self, check, text):
         self.findings[check].append(text)
@@ -208,9 +210,18 @@ def analyze_set(set_dir, opts):
         rep.nodes.append((nid, "base" if is_base else ",".join(map(str, node.get("type") or [])) or "subset",
                           "-" if dcc is None else str(dcc), str(len(rows)) + mark, str(len(parallels))))
 
-        # Parallels: local consistency
+        # Parallels: list every declaration, then check local consistency
+        src = None
+        if opts.source_runs is not None:
+            src = opts.source_runs.get(nid) if isinstance(opts.source_runs.get(nid), dict) else opts.source_runs
         for p in parallels:
             name, run, ser = p.get("name", "<unnamed>"), p.get("print_run"), p.get("serial_numbered")
+            src_run = src.get(name) if isinstance(src, dict) and isinstance(name, str) else None
+            if isinstance(src_run, dict):  # another node's map in a per-node file, not a run
+                src_run = None
+            rep.parallels.append((nid, name, run, ser, src_run))
+            if src_run is not None and src_run != run:
+                rep.add("Parallel consistency (vs source)", f"`{nid}` / {name}: print_run {run} vs source {src_run}")
             if ser and run is None:
                 rep.add("Parallel consistency", f"`{nid}` / {name}: serial_numbered without print_run")
             if run is not None and not ser:
@@ -290,17 +301,10 @@ def analyze_set(set_dir, opts):
     if opts.marquee is None:
         rep.skipped["Sequential famous player"] = "skipped: no --marquee input supplied"
 
-    # Source-declared print runs
+    # Source-declared print runs are compared per parallel above; without the input the
+    # comparison never ran, so it reports as skipped rather than as zero mismatches.
     if opts.source_runs is None:
         rep.skipped["Parallel consistency (vs source)"] = "skipped: no --source-runs input supplied"
-    else:
-        for node, _ in iter_nodes(manifest):
-            nid = node.get("id")
-            ref = opts.source_runs.get(nid) if isinstance(opts.source_runs.get(nid), dict) else opts.source_runs
-            for p in node.get("parallels") or []:
-                if isinstance(p, dict) and p.get("name") in ref and ref[p["name"]] != p.get("print_run"):
-                    rep.add("Parallel consistency",
-                            f"`{nid}` / {p['name']}: print_run {p.get('print_run')} vs source {ref[p['name']]}")
     return rep
 
 
@@ -339,6 +343,15 @@ def render(reports):
         L += ["### Structure", "", "| Node | Kind | Declared | Found | Parallels |", "|---|---|---|---|---|"]
         L += [f"| `{n[0]}` | {n[1]} | {n[2]} | {n[3]} | {n[4]} |" for n in r.nodes]
         L.append("")
+        if r.parallels:
+            L += ["### Parallels", "", f"<details><summary>{len(r.parallels)} parallel declarations</summary>", "",
+                  "| Node | Parallel | Print run | Serial numbered | Source run |", "|---|---|---|---|---|"]
+            cell = lambda v: "-" if v is None else str(v)  # noqa: E731
+            L += [f"| `{nid}` | {name} | {cell(run)} | {'yes' if ser else 'no'} | {cell(src)} |"
+                  for nid, name, run, ser, src in r.parallels[:DETAIL_CAP]]
+            if len(r.parallels) > DETAIL_CAP:
+                L.append(f"\n_... and {len(r.parallels) - DETAIL_CAP} more parallels not shown._")
+            L += ["", "</details>", ""]
         for c in CHECKS:
             if r.findings[c]:
                 L += [f"**{c}** ({len(r.findings[c])})", ""] + bullets(r.findings[c]) + [""]
