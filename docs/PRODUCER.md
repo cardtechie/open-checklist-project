@@ -52,22 +52,24 @@ start.
    pinned fields stay the source of truth for `set_id` and the UUID, and the block never
    repeats them.
 
-   A reservation stop revokes the block the same way. When the reserve workflow
+   A reservation stop is stricter. When the reserve workflow
    (`.github/workflows/reserve-work-order.yml`) finds a pinned, body or API UUID
    conflict, it writes nothing and posts
    `<!-- ocp-reserve-stop:v1 -->` as GitHub Actions; an automatic run on an issue event
    can do this after Discover already posted its block. A reserve stop from GitHub
-   Actions or a trusted author, written at or after both the effective block and the
-   workflow's last lookup-run `<!-- ocp-reserve:v1 -->` comment, makes the work order not
-   Ready. The stop carries a `reason: <code>` line (e.g. `api-uuid-mismatch`). Only a
-   lookup run clears it: a Discover dispatch with a fresh Trading Card API lookup, whose
-   reserve comment is tagged `run: api-lookup`. An issue-event run (opened, labeled,
-   typed) did no lookup, so it writes nothing while a stop is in effect, and its reserve
-   comment (`run: issue-event`) never clears one. To recover, fix the conflict on the
-   issue (never by overwriting a pinned value) and re-run Discover: a successful lookup
-   run rewrites its `ocp-reserve:v1` comment after the stop, even when nothing is left to
-   write, and Discover rewrites its block. Either one written after the stop makes the
-   work order Ready again.
+   Actions or a trusted author makes the work order not Ready, whenever the Discover
+   block was written. The stop carries a `reason: <code>` line (e.g.
+   `api-uuid-mismatch`). Only one thing clears it: a `<!-- ocp-reserve:v1 -->` comment
+   from `github-actions[bot]` tagged `run: api-lookup` (a Discover dispatch with a fresh
+   Trading Card API lookup), written (created or last edited) after the stop. A Discover
+   block written after the stop does **not** clear it, because Discover can post its
+   block before its dispatch has re-checked the UUID, and that window must not read as
+   Ready. An issue-event run (opened, labeled, typed) did no lookup, so it writes nothing
+   while a stop is in effect, and its reserve comment (`run: issue-event`) never clears
+   one; nor does a reserve comment from any other author. To recover, fix the conflict on
+   the issue (never by overwriting a pinned value) and re-run Discover: a successful
+   lookup run rewrites its `ocp-reserve:v1` comment after the stop, even when nothing is
+   left to write, and that comment makes the work order Ready again.
 
 Worked Discover block for work order #77:
 

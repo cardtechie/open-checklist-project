@@ -279,18 +279,48 @@ class CheckWorkOrderTests(unittest.TestCase):
                          self.bot(self.RESERVE_STOP, "2026-09-01T00:00:00Z", "2026-10-05T00:00:00Z")]
         self.assertNotReady(self.run_check(p), "identity reservation stopped")
 
-    def test_reserve_stop_older_than_block_does_not_revoke(self):
+    def test_discover_block_newer_than_reserve_stop_does_not_clear_it(self):
         p = ready_payload()
         p["comments"] = [self.bot(self.RESERVE_STOP, "2026-09-01T00:00:00Z"),
                          comment(BLOCK, "2026-10-01T00:00:00Z")]
-        self.assertTrue(self.run_check(p)["ready"])
+        self.assertNotReady(self.run_check(p), "identity reservation stopped")
 
-    def test_discover_block_rewritten_after_reserve_stop_is_ready(self):
+    def test_discover_block_rewritten_after_reserve_stop_does_not_clear_it(self):
         p = ready_payload()
         block = comment(BLOCK, "2026-09-01T00:00:00Z")
         block["updated_at"] = "2026-10-10T00:00:00Z"
         p["comments"] = [block, self.bot(self.RESERVE_STOP, "2026-10-05T00:00:00Z")]
+        self.assertNotReady(self.run_check(p), "identity reservation stopped")
+
+    def test_rerun_window_between_block_and_lookup_is_not_ready(self):
+        """Discover re-runs after a reserve stop: it posts a new block before its
+        dispatch has re-checked the UUID. That window is not Ready; the dispatch's
+        api-lookup reserve comment, written after the stop, is what makes it Ready."""
+        stop = self.bot(self.RESERVE_STOP_API, "2026-10-05T00:00:00Z")
+        block = comment(BLOCK, "2026-10-06T00:00:00Z")
+        p = ready_payload()
+        p["comments"] = [stop, block]
+        self.assertNotReady(self.run_check(p), "identity reservation stopped (api-uuid-mismatch: ")
+        p["comments"] = [stop, block, self.bot(self.RESERVE_OK, "2026-10-07T00:00:00Z")]
+        v = self.run_check(p)
+        self.assertTrue(v["ready"], v["reasons"])
+        self.assertEqual(v["sources"][0]["card_count"], 100)
+
+    def test_normal_discover_flow_without_a_stop_is_ready(self):
+        """No stop ever: block, then dispatch, then the api-lookup reserve comment."""
+        p = ready_payload()
+        p["comments"] = [comment(BLOCK, "2026-10-01T00:00:00Z")]
         self.assertTrue(self.run_check(p)["ready"])
+        p["comments"].append(self.bot(self.RESERVE_OK, "2026-10-02T00:00:00Z"))
+        v = self.run_check(p)
+        self.assertTrue(v["ready"], v["reasons"])
+
+    def test_member_api_lookup_reservation_does_not_clear_reserve_stop(self):
+        p = ready_payload()
+        p["comments"] = [comment(BLOCK, "2026-10-01T00:00:00Z"),
+                         self.bot(self.RESERVE_STOP, "2026-10-05T00:00:00Z"),
+                         comment(self.RESERVE_OK, "2026-10-06T00:00:00Z")]
+        self.assertNotReady(self.run_check(p), "identity reservation stopped")
 
     def test_reservation_written_after_reserve_stop_is_ready(self):
         p = ready_payload()

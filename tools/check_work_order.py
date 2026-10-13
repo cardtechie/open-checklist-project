@@ -260,11 +260,15 @@ def is_trusted(comment_):
     return comment_.get("author_association") in TRUSTED_ASSOCIATIONS
 
 
+def is_from_actions(comment_):
+    """A comment written by GitHub Actions (github-actions[bot])."""
+    user = comment_.get("user") if isinstance(comment_.get("user"), dict) else {}
+    return user.get("login") == ACTIONS_BOT_LOGIN and user.get("type") == "Bot"
+
+
 def is_trusted_reserve(comment_):
     """A reserve-workflow comment: from GitHub Actions, or from a trusted author."""
-    user = comment_.get("user") if isinstance(comment_.get("user"), dict) else {}
-    from_actions = user.get("login") == ACTIONS_BOT_LOGIN and user.get("type") == "Bot"
-    return from_actions or is_trusted(comment_)
+    return is_from_actions(comment_) or is_trusted(comment_)
 
 
 def latest_written(blocks):
@@ -407,11 +411,14 @@ def check(payload, data_dir="data"):
     # comment written at or after the effective block revokes it: a re-run that stopped
     # (e.g. source-disagreement, api-mismatch) must not leave an earlier block usable.
     # A trusted `<!-- ocp-reserve-stop:v1 -->` (the reserve workflow found a pinned, body
-    # or API UUID conflict and wrote nothing) revokes it the same way, unless the
-    # workflow wrote its `<!-- ocp-reserve:v1 -->` comment after the stop from a lookup
-    # run (tagged `run: api-lookup`: a Discover dispatch with a fresh API lookup). A
-    # reserve comment from an issue-event run never clears it, since that run did no
-    # lookup and so cannot show an API conflict is resolved.
+    # or API UUID conflict and wrote nothing) makes the issue not ready until GitHub
+    # Actions writes its `<!-- ocp-reserve:v1 -->` comment after the stop from a lookup
+    # run (tagged `run: api-lookup`: a Discover dispatch with a fresh API lookup). Only
+    # that clears it. A Discover block written after the stop does not: Discover posts
+    # its block before its dispatch re-checks the UUID, so the block alone would read
+    # ready in the window before the reserve run. A reserve comment from an issue-event
+    # run never clears it either, since that run did no lookup and so cannot show an
+    # API conflict is resolved, and nor does one from any author but github-actions[bot].
     comments = payload.get("comments")
     blocks = discover_blocks(comments)
     trusted = [b for b in blocks if is_trusted(b[2])]
@@ -420,18 +427,17 @@ def check(payload, data_dir="data"):
     latest_reserve_stop = latest_written([b for b in marked_comments(comments, RESERVE_STOP_MARKER)
                                           if is_trusted_reserve(b[2])])
     latest_reserve = latest_written([b for b in marked_comments(comments, RESERVE_MARKER)
-                                     if is_trusted_reserve(b[2]) and is_lookup_reserve(b[3])])
+                                     if is_from_actions(b[2]) and is_lookup_reserve(b[3])])
     # The effective block is the trusted one written last: a re-run PATCHes an
     # existing block in place, so the older-by-created_at block can be the newest.
     effective = max(trusted, key=lambda b: (last_written(b[2]), b[0], b[1])) if trusted else None
     effective_at = last_written(effective[2]) if effective else ""
-    reserve_stopped = bool(latest_reserve_stop) and all(
-        last_written(latest_reserve_stop[2]) >= at
-        for at in (effective_at, last_written(latest_reserve[2]) if latest_reserve else ""))
+    reserve_stopped = bool(latest_reserve_stop) and (
+        not latest_reserve or last_written(latest_reserve_stop[2]) >= last_written(latest_reserve[2]))
     discover = None
     if reserve_stopped:
         reasons.append(f"identity reservation stopped ({reserve_stop_summary(latest_reserve_stop[3])}) "
-                       "and no discover block or reservation was written after the stop")
+                       "and no api-lookup reservation was written after the stop")
     if latest_stop and (not effective or last_written(latest_stop[2]) >= effective_at):
         reasons.append(f"discover stopped ({stop_reason(latest_stop[3])}) and no discover "
                        "block was written after the stop")

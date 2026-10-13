@@ -128,19 +128,23 @@ as it is. When a pinned, body or API UUID disagree, it writes nothing and posts 
 
 That `ocp-reserve-stop:v1` comment also makes the work order **not Ready** on its own,
 including when an automatic issue-event run (opened, labeled, typed) wrote it after an
-earlier Discover block: `tools/check_work_order.py` treats a reserve stop written
-(created or last edited) at or after the effective Discover block, and at or after the
-workflow's last lookup-run `<!-- ocp-reserve:v1 -->` comment (tagged `run: api-lookup`),
-as revoking the block. The stop records its cause on a `reason: <code>` line. A labeled,
-opened or typed event never supersedes a stop: it did no API lookup, so while a stop is in
-effect it writes nothing, and its reserve comment (`run: issue-event`) never clears one.
+earlier Discover block: `tools/check_work_order.py` keeps the work order not Ready while
+a reserve stop is in effect, whenever the Discover block was written. Only one thing
+clears it: a `<!-- ocp-reserve:v1 -->` comment from GitHub Actions (`github-actions[bot]`)
+tagged `run: api-lookup`, written (created or last edited) after the stop. A Discover
+block written after the stop does **not** clear it: the block can land before the
+dispatch has re-checked the UUID, and the checker must not read that window as Ready.
+The stop records its cause on a `reason: <code>` line. A labeled, opened or typed event
+never supersedes a stop: it did no API lookup, so while a stop is in effect it writes
+nothing, and its reserve comment (`run: issue-event`) never clears one.
 **Recovery:**
 fix the conflict on the issue (correct the body's Set UUID row or clear the conflicting
 field by hand; never overwrite a pinned value to do it), then re-run Discover. Its step
-3 dispatch (a fresh lookup) reaches the workflow, which on success rewrites its `ocp-reserve:v1` comment
-after the stop, even when there is nothing left to write, and its step 5 rewrites the
-Discover block. Either one written after the stop makes the work order Ready again, so
-no stale stop stays in effect.
+3 dispatch (a fresh lookup) reaches the workflow, which on success rewrites its
+`ocp-reserve:v1` comment (tagged `run: api-lookup`) after the stop, even when there is
+nothing left to write. That comment, and only that comment, makes the work order Ready
+again. Rewriting the Discover block in step 5 is still required, but on its own it leaves
+the stop in effect. If the dispatch stops again, the work order stays not Ready.
 
 Then check for collisions **before anything is published**: run
 `python tools/check_work_order.py <n>` from an up-to-date `main` checkout. It checks
