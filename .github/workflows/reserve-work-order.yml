@@ -7,6 +7,11 @@ name: Reserve work-order identity
 # at discovery"); widened by #78 (Discover) so a work order labelled or typed after it
 # was opened, or filed outside the template, is reserved too.
 #
+# A UUID is minted only on a workflow_dispatch, which is how Discover runs this after
+# its Trading Card API lookup. Issue events fire before that lookup, so they reserve
+# set_id (and a body-recorded UUID) only; minting there could pin a fresh UUID for a
+# set the API already holds.
+#
 # The logic lives in .github/scripts/work-order.js.
 
 on:
@@ -67,4 +72,7 @@ jobs:
               }
             }
 
-            await wo.reserveIdentity({ github, context, core, issue });
+            await wo.reserveIdentity({
+              github, context, core, issue,
+              allowMint: context.eventName === 'workflow_dispatch',
+            });

@@ -78,7 +78,10 @@ gh api repos/cardtechie/open-checklist-project/issues/<n>/issue-field-values
 
 The workflow slugs `set_id` from the body's Set name (else the title minus
 `[Work Order] `), copies the body's Set UUID when present, and mints a UUID only when
-neither is pinned nor recorded. It never overwrites a pinned value. If it posts an
+neither is pinned nor recorded **and** it was started by this dispatch. The automatic
+issue-event runs (opened, labeled, typed) fire before step 2's API lookup, so they
+reserve `set_id` only and leave the UUID empty for this step. It never overwrites a
+pinned value. If it posts an
 `<!-- ocp-reserve-stop:v1 -->` comment (a pinned UUID disagrees with the body's), stop
 with `identity-conflict` and quote that comment.
 

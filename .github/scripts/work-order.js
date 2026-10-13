@@ -13,6 +13,14 @@
 //   upsert create a duplicate set (tradingcardapi-tools#1051).
 // - If a pinned UUID and a body UUID disagree, nothing is written and the work order
 //   gets a stop comment naming both.
+// - A UUID is minted only when the caller allows it (`allowMint`). The workflow allows
+//   it on a dispatch only, which is how Discover runs it after its Trading Card API
+//   lookup. An automatic issue event (opened/labeled/typed) fires before that lookup,
+//   so minting there would pin a fresh UUID for a set the API may already hold, and
+//   the no-overwrite rule would then make the conflict unrecoverable. On those events
+//   only `set_id` (and a body-recorded UUID) is reserved.
+// - The PUT replaces the issue's whole field-value set, so every existing entry is
+//   carried over and only the missing identity values are added.
 //
 // The issue body is untrusted text. It is only parsed here, never executed or passed
 // to a shell.
@@ -111,8 +119,9 @@ function isWorkOrder(issue) {
 
 // Decide what to write, without any I/O. `pinned` is { setId, uuid } as currently
 // stored. Returns { action: 'write' | 'noop' | 'stop', setId, uuid, uuidSource,
-// changed, reason }.
-function planIdentity({ title, body, pinned, mint = () => crypto.randomUUID() }) {
+// changed, reason }. With `allowMint: false` and no pinned or body UUID, `uuid` is
+// null and `uuidSource` is 'deferred': the UUID is left for Discover to reserve.
+function planIdentity({ title, body, pinned, allowMint = true, mint = () => crypto.randomUUID() }) {
   const { uuid: bodyUuid } = parseBody(body);
   const pinnedSetId = pinned && pinned.setId ? String(pinned.setId) : null;
   const pinnedUuid = pinned && pinned.uuid ? String(pinned.uuid) : null;
@@ -135,15 +144,18 @@ function planIdentity({ title, body, pinned, mint = () => crypto.randomUUID() })
     if (bodyUuid) {
       uuid = bodyUuid;
       uuidSource = 'body';
-    } else {
+    } else if (allowMint) {
       uuid = mint();
       uuidSource = 'minted';
+    } else {
+      uuid = null;
+      uuidSource = 'deferred';
     }
   }
 
   const changed = [];
   if (!pinnedSetId) changed.push('set_id');
-  if (!pinnedUuid) changed.push('uuid');
+  if (!pinnedUuid && uuid) changed.push('uuid');
   return { action: changed.length ? 'write' : 'noop', setId, uuid, uuidSource, changed };
 }
 
@@ -166,7 +178,9 @@ async function upsertComment({ github, owner, repo, issue_number, marker, body }
 }
 
 // Reserve the identity of one work-order issue. `issue` is the REST issue object.
-async function reserveIdentity({ github, context, core, issue }) {
+// `allowMint` must be true only once the Trading Card API lookup has run (Discover's
+// dispatch); see the rules above.
+async function reserveIdentity({ github, context, core, issue, allowMint = false }) {
   const { owner, repo } = context.repo;
   const issue_number = issue.number;
 
@@ -180,12 +194,14 @@ async function reserveIdentity({ github, context, core, issue }) {
     'GET /repos/{owner}/{repo}/issues/{issue_number}/issue-field-values',
     { owner, repo, issue_number },
   );
-  const byId = Object.fromEntries((cur.data || []).map((f) => [f.issue_field_id, f.value]));
+  const existing = cur.data || [];
+  const byId = Object.fromEntries(existing.map((f) => [f.issue_field_id, f.value]));
 
   const plan = planIdentity({
     title: issue.title,
     body: issue.body,
     pinned: { setId: byId[F_SETID], uuid: byId[F_UUID] },
+    allowMint,
   });
 
   if (plan.action === 'stop') {
@@ -197,15 +213,19 @@ async function reserveIdentity({ github, context, core, issue }) {
     return plan;
   }
   if (plan.action === 'noop') {
-    core.info(`#${issue_number}: set_id and Reserved set UUID already pinned; nothing to do.`);
+    core.info(plan.uuidSource === 'deferred'
+      ? `#${issue_number}: set_id already pinned; Reserved set UUID is left for Discover to reserve after its API lookup.`
+      : `#${issue_number}: set_id and Reserved set UUID already pinned; nothing to do.`);
     return plan;
   }
 
-  const values = [
-    { field_id: F_SETID, value: plan.setId },
-    { field_id: F_UUID, value: plan.uuid },
-  ];
-  if (byId[F_REL]) values.push({ field_id: F_REL, value: byId[F_REL] });
+  // PUT replaces the whole field-value set: carry every existing entry over unchanged
+  // and add only the identity values that were missing.
+  const values = existing
+    .filter((f) => f.value !== null && f.value !== undefined && f.value !== '')
+    .map((f) => ({ field_id: f.issue_field_id, value: f.value }));
+  if (plan.changed.includes('set_id')) values.push({ field_id: F_SETID, value: plan.setId });
+  if (plan.changed.includes('uuid')) values.push({ field_id: F_UUID, value: plan.uuid });
 
   await github.request(
     'PUT /repos/{owner}/{repo}/issues/{issue_number}/issue-field-values',
@@ -217,6 +237,8 @@ async function reserveIdentity({ github, context, core, issue }) {
   if (plan.changed.includes('uuid')) {
     const how = plan.uuidSource === 'body' ? ' (copied from the Set UUID in the body)' : ' (newly minted)';
     parts.push('`Reserved set UUID`: `' + plan.uuid + '`' + how);
+  } else if (plan.uuidSource === 'deferred') {
+    parts.push('`Reserved set UUID`: not yet reserved (Discover reserves it after the Trading Card API lookup)');
   }
   await upsertComment({
     github, owner, repo, issue_number, marker: RESERVE_MARKER,
