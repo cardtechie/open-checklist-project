@@ -21,6 +21,20 @@ otherwise) is out of scope, and so is fetching or authoring the set, which is
 
 Run the steps in order. Any **stop** ends the run (see *Stop and report*).
 
+## 0. Prerequisite: a Trading Card API lookup
+
+Step 2 must search the Trading Card API before any identity is written, and Discover
+has no other lookup path. It needs the `tradingcard-api` MCP server (its `search_sets`
+tool) connected to the session. This repo does not ship that server's configuration;
+it is configured per operator.
+
+Check for it **before step 1**. If `search_sets` is not available, end the run with
+`Stopped (api-unavailable)`: no comment on the work order and no change to the issue
+(not even step 1's type fix). This is a missing tool, not a problem with the work
+order, so it is reported to the operator only. Never skip step 2 and never treat an
+unavailable lookup as "no set matches": that would mint a UUID for a set that may
+already exist.
+
 ## 1. Accept
 
 Read the issue: `gh api repos/cardtechie/open-checklist-project/issues/<n>`.
@@ -133,7 +147,10 @@ Never guess a source.
 Post one comment in exactly the format `docs/PRODUCER.md` defines: the first line is
 `<!-- ocp-discover:v1 -->`, followed by one fenced `yaml` block. Include `sources:` and,
 when known, `name` (the exact API set name from step 2), `genre` (`Sports`, `TCG` or
-`Non-Sport`), `sports`, `category` and `year`. **Never repeat `set_id` or the UUID**;
+`Non-Sport`), `sports`, `category` and `year`. The checker accepts `year` only as a
+positive integer, so include it only for a single-year set (`2025`). Omit it for a
+season year such as `2025-26`: step 2 still compares that exact string, but the block
+cannot carry it. **Never repeat `set_id` or the UUID**;
 the pinned fields are their source of truth. A short note below the yaml block (what
 was found, any base-only source) is fine; the checker reads only the first yaml block.
 
@@ -195,3 +212,4 @@ End with exactly one of:
 - `Ready: <work-order url>`, with the `set_id`, the UUID (and whether it was copied or
   minted) and each source with its `card_count`, or
 - `Stopped (<reason>): <stop-comment url>`.
+- `Stopped (api-unavailable)`, with no comment URL (step 0).
