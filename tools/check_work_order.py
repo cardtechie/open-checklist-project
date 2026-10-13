@@ -352,7 +352,7 @@ def check(payload, data_dir="data"):
             if canonical in existing_uuids(data_dir):
                 reasons.append(f"Reserved set UUID {reserved} is already used under {data_dir}/")
 
-    # 4. Exactly one effective Discover block (newest trusted one wins), not revoked
+    # 4. Exactly one effective Discover block (last-written trusted one wins), not revoked
     # by a Discover stop. A trusted `<!-- ocp-discover-stop:v1 -->` comment written at
     # or after the effective block revokes it: a re-run that stopped (e.g.
     # source-disagreement, api-mismatch) must not leave an earlier block usable.
@@ -361,8 +361,11 @@ def check(payload, data_dir="data"):
     stops = [b for b in marked_comments(payload.get("comments"), DISCOVER_STOP_MARKER)
              if b[2].get("author_association") in TRUSTED_ASSOCIATIONS]
     latest_stop = max(stops, key=lambda b: (last_written(b[2]), b[1])) if stops else None
+    # The effective block is the trusted one written last: a re-run PATCHes an
+    # existing block in place, so the older-by-created_at block can be the newest.
+    effective = max(trusted, key=lambda b: (last_written(b[2]), b[0], b[1])) if trusted else None
     discover = None
-    if latest_stop and (not trusted or last_written(latest_stop[2]) >= last_written(trusted[-1][2])):
+    if latest_stop and (not effective or last_written(latest_stop[2]) >= last_written(effective[2])):
         reasons.append(f"discover stopped ({stop_reason(latest_stop[3])}) and no discover "
                        "block was written after the stop")
     elif not blocks:
@@ -370,7 +373,7 @@ def check(payload, data_dir="data"):
     elif not trusted:
         reasons.append("discover block is not from a repo owner, member or collaborator")
     else:
-        discover = parse_discover(trusted[-1][3], reasons)
+        discover = parse_discover(effective[3], reasons)
 
     title = issue.get("title") or ""
     block_name = discover.get("name") if discover else None

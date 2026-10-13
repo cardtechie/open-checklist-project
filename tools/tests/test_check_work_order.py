@@ -211,6 +211,31 @@ class CheckWorkOrderTests(unittest.TestCase):
                                         "2026-10-01T00:00:00Z")]
         self.assertTrue(self.run_check(p)["ready"])
 
+    def test_rerun_patching_older_block_makes_it_effective(self):
+        # Two trusted blocks; a re-run PATCHes the OLDER one, so it is the last written.
+        p = ready_payload()
+        older = comment(BLOCK.replace("card_count: 100", "card_count: 120"), "2026-09-01T00:00:00Z")
+        older["updated_at"] = "2026-10-10T00:00:00Z"
+        newer = comment(BLOCK, "2026-10-01T00:00:00Z")
+        p["comments"] = [older, newer]
+        v = self.run_check(p)
+        self.assertTrue(v["ready"], v["reasons"])
+        self.assertEqual(v["sources"][0]["card_count"], 120)
+
+    def test_stop_older_than_patched_older_block_does_not_revoke(self):
+        # The stop post-dates the newer block's creation but pre-dates the re-run
+        # that PATCHed the older block, so the patched block is effective.
+        p = ready_payload()
+        older = comment(BLOCK.replace("card_count: 100", "card_count: 120"), "2026-09-01T00:00:00Z")
+        older["updated_at"] = "2026-10-10T00:00:00Z"
+        newer = comment(BLOCK, "2026-10-01T00:00:00Z")
+        stop = comment("<!-- ocp-discover-stop:v1 -->\nreason: source-disagreement\n",
+                       "2026-10-05T00:00:00Z")
+        p["comments"] = [older, newer, stop]
+        v = self.run_check(p)
+        self.assertTrue(v["ready"], v["reasons"])
+        self.assertEqual(v["sources"][0]["card_count"], 120)
+
     def test_untrusted_stop_does_not_revoke(self):
         p = ready_payload()
         p["comments"] = [comment(BLOCK, "2026-10-01T00:00:00Z"),
