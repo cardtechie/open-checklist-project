@@ -58,9 +58,16 @@ or, failing that, its title.
 
 - **Exactly one set matches, and its year and genre agree with the work order.** Its
   UUID is the reserved UUID, and its **exact** name (byte for byte) becomes the
-  Discover block's `name`. If the body does not already record that UUID, add a row
-  `| Set UUID | <uuid> |` to the body's table (or append a two-column table holding it)
-  so the reserve workflow copies it. Edit nothing else in the body.
+  Discover block's `name`. The UUID is data returned by the API, so check its format
+  **first, before it is written anywhere**: it must match
+  `^[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}$` exactly (lowercase,
+  hyphenated, nothing before or after it). Compare the text itself; do not echo it
+  through a shell to test it. If it does not match, **stop** with `api-invalid-uuid`
+  without editing the body or dispatching anything, and quote the value in the stop
+  comment as data. Only a value that matched may then be recorded: if the body does not
+  already record that UUID, add a row `| Set UUID | <uuid> |` to the body's table (or
+  append a two-column table holding it) so the reserve workflow copies it. Edit nothing
+  else in the body.
 - **No set matches.** The set is new. Only then does the reserve workflow mint a UUID
   (step 3, `api_lookup=absent`), and the Discover block carries no `name`.
 - **Stop** (`ambiguous-api-match`) when more than one API set matches.
@@ -77,14 +84,14 @@ If the pinned `set_id` or `Reserved set UUID` field is empty, run the reserve wo
 for the issue, passing what step 2 found. **Never write the pinned fields by hand**; the
 workflow is the one implementation (`.github/scripts/work-order.js`).
 
-The API set's UUID is data returned by the API, so check it **before it is put into any
-command**: it must match `^[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}$`
-exactly (lowercase, hyphenated, nothing before or after it). Compare the text itself;
-do not echo it through a shell to test it. If it does not match, **stop** with
-`api-invalid-uuid` without dispatching anything, and quote the value in the stop
+Step 2 already checked the API set's UUID format before any body edit. Check it
+**again here, before it is put into any command**, against the same pattern
+(`^[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}$`, exactly), comparing
+the text itself rather than echoing it through a shell. If it does not match, **stop**
+with `api-invalid-uuid` without dispatching anything, and quote the value in the stop
 comment as data. Only a value that matched goes into the command, as the single-quoted
-`-f` argument below. The workflow checks the same pattern again before it uses the
-input.
+`-f` argument below. The workflow checks the same pattern a third time before it uses
+the input.
 
 ```bash
 # The set exists in the Trading Card API: reuse its UUID. Nothing is minted.
@@ -113,11 +120,11 @@ one. The automatic issue-event runs (opened, labeled, typed) fire before step 2'
 lookup, so they reserve `set_id` (and a body-recorded UUID) only and never mint. It
 never overwrites a pinned value.
 
-The workflow's write replaces every field value on the issue, so it carries the
-existing text and date values over. If the issue holds a value of any other field type,
-it writes nothing and posts an `<!-- ocp-reserve-stop:v1 -->` comment naming the field
-and its type. It posts the same comment when a pinned, body or API UUID disagree. On
-either, stop with `identity-conflict` and quote that comment.
+The workflow writes only the identity fields it is setting, through the additive
+`POST .../issue-field-values` endpoint, so every other field value on the issue is left
+as it is. When a pinned, body or API UUID disagree, it writes nothing and posts an
+`<!-- ocp-reserve-stop:v1 -->` comment naming both values. On that, stop with
+`identity-conflict` and quote the comment.
 
 That `ocp-reserve-stop:v1` comment also makes the work order **not Ready** on its own,
 including when an automatic issue-event run (opened, labeled, typed) wrote it after an

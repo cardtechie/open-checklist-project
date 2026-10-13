@@ -25,10 +25,13 @@
 //   carries no `apiLookup`: it reserves `set_id` (and a body-recorded UUID) only and
 //   never mints. Minting there would pin a fresh UUID for a set the API may already
 //   hold, and the no-overwrite rule would then make the conflict unrecoverable.
-// - The PUT replaces the issue's whole field-value set, so existing values must be
-//   carried over. Only `text` and `date` fields are carried (their value round-trips
-//   unchanged). Any other field type stops the write with a comment naming the field
-//   and its type, rather than guessing how to write it back.
+// - Only the identity fields being set are written, through the additive
+//   `POST .../issue-field-values` endpoint, which sets the fields it is given and leaves
+//   every other field value on the issue alone. The replacing `PUT` is never used: it
+//   would write back every value from the earlier GET snapshot and so overwrite a field
+//   a person changed in between. The API offers no conditional write, so a concurrent
+//   write to `set_id` or `Reserved set UUID` itself between the GET and the POST is not
+//   detected; the workflow's per-issue concurrency group keeps its own runs serial.
 //
 // The issue body is untrusted text. It is only parsed here, never executed or passed
 // to a shell.
@@ -193,24 +196,14 @@ function planIdentity({ title, body, pinned, apiLookup = null, apiUuid = null, m
   return { action: changed.length ? 'write' : 'noop', setId, uuid, uuidSource, changed };
 }
 
-// Field types whose stored value can be written back unchanged by the PUT.
-const CARRY_TYPES = ['text', 'date'];
-
-// Build the PUT body: every existing text/date value carried over, plus the identity
-// values that were missing. Returns { values } or { stop: { name, type } } for the
-// first set field of any other type.
-function carryValues(existing, plan) {
+// The POST body: only the identity values that were missing. Never empty for a
+// 'write' plan; an empty array would clear every field value on the issue, so callers
+// must not send one.
+function identityValues(plan) {
   const values = [];
-  for (const f of existing) {
-    if (f.value === null || f.value === undefined || f.value === '') continue;
-    if (!CARRY_TYPES.includes(f.data_type)) {
-      return { stop: { name: f.issue_field_name || String(f.issue_field_id), type: f.data_type || 'unknown' } };
-    }
-    values.push({ field_id: f.issue_field_id, value: f.value });
-  }
   if (plan.changed.includes('set_id')) values.push({ field_id: F_SETID, value: plan.setId });
   if (plan.changed.includes('uuid')) values.push({ field_id: F_UUID, value: plan.uuid });
-  return { values };
+  return values;
 }
 
 function listComments({ github, owner, repo, issue_number }) {
@@ -219,10 +212,19 @@ function listComments({ github, owner, repo, issue_number }) {
   });
 }
 
+// The account this workflow comments as. Only its comments are this workflow's own:
+// tools/check_work_order.py trusts a reserve comment by this exact login (with type
+// Bot), so a marker posted by any other bot account is ignored here too.
+const ACTIONS_BOT_LOGIN = 'github-actions[bot]';
+
+function isActionsBot(user) {
+  return Boolean(user) && user.login === ACTIONS_BOT_LOGIN && user.type === 'Bot';
+}
+
 // This workflow's own comment carrying `marker`, or undefined.
 function botComment(comments, marker) {
   return (comments || []).find(
-    (c) => (c.body || '').startsWith(marker) && c.user && c.user.type === 'Bot',
+    (c) => (c.body || '').startsWith(marker) && isActionsBot(c.user),
   );
 }
 
@@ -271,7 +273,7 @@ async function reserveIdentity({
     return { action: 'skip' };
   }
 
-  // Current pinned values (PUT replaces the whole set, so we merge).
+  // Current pinned values. They decide what is missing; nothing else is written back.
   const cur = await github.request(
     'GET /repos/{owner}/{repo}/issues/{issue_number}/issue-field-values',
     { owner, repo, issue_number },
@@ -319,23 +321,15 @@ async function reserveIdentity({
     return plan;
   }
 
-  // PUT replaces the whole field-value set: carry existing text/date values over and
-  // stop on any other type rather than guess how to write it back.
-  const carried = carryValues(existing, plan);
-  if (carried.stop) {
-    const { name, type } = carried.stop;
-    const reason = `the issue has a value in the \`${name}\` field, of type \`${type}\`. Writing the identity replaces every field value, and only text and date values are carried over, so this one would be lost`;
-    await upsertComment({
-      github, owner, repo, issue_number, marker: RESERVE_STOP_MARKER,
-      body: `⏸ **Identity not reserved** — ${reason}. Nothing was written. Clear or record that field by hand, or extend the backfill to the \`${type}\` type, then re-run the workflow.`,
-    });
-    core.warning(`#${issue_number}: stopped on field ${name} (${type})`);
-    return { action: 'stop', reason, field: name, fieldType: type };
+  // Write only the missing identity fields. POST is additive: other field values on the
+  // issue are left untouched, so a concurrent edit to them cannot be overwritten.
+  const values = identityValues(plan);
+  if (!values.length) {
+    // Unreachable for a 'write' plan; guarded because an empty array clears every field.
+    throw new Error(`#${issue_number}: refusing to POST an empty issue_field_values array`);
   }
-  const values = carried.values;
-
   await github.request(
-    'PUT /repos/{owner}/{repo}/issues/{issue_number}/issue-field-values',
+    'POST /repos/{owner}/{repo}/issues/{issue_number}/issue-field-values',
     { owner, repo, issue_number, issue_field_values: values },
   );
 
@@ -365,12 +359,13 @@ module.exports = {
   F_REL,
   RESERVE_MARKER,
   RESERVE_STOP_MARKER,
+  ACTIONS_BOT_LOGIN,
   API_UUID_RE,
   parseBody,
   stopInEffect,
   deriveSetId,
   isWorkOrder,
   planIdentity,
-  carryValues,
+  identityValues,
   reserveIdentity,
 };

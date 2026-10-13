@@ -54,7 +54,7 @@ start.
 
    A reservation stop revokes the block the same way. When the reserve workflow
    (`.github/workflows/reserve-work-order.yml`) finds a pinned, body or API UUID
-   conflict, or a field it cannot carry over, it writes nothing and posts
+   conflict, it writes nothing and posts
    `<!-- ocp-reserve-stop:v1 -->` as GitHub Actions; an automatic run on an issue event
    can do this after Discover already posted its block. A reserve stop from GitHub
    Actions or a trusted author, written at or after both the effective block and the

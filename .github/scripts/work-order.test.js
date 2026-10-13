@@ -182,6 +182,7 @@ function stubGithub({ fieldValues = [], comments = [] } = {}) {
   };
   return github;
 }
+const BOT = { login: 'github-actions[bot]', type: 'Bot' };
 const context = { repo: { owner: 'cardtechie', repo: 'open-checklist-project' } };
 const core = { notice() {}, info() {}, warning() {} };
 const issue77 = { number: 77, title: TABLE_TITLE, body: TABLE_BODY, labels: [], type: { name: 'Work Order' } };
@@ -189,7 +190,7 @@ const issue77 = { number: 77, title: TABLE_TITLE, body: TABLE_BODY, labels: [], 
 test('reserveIdentity writes both fields and comments once', async () => {
   const github = stubGithub();
   await wo.reserveIdentity({ github, context, core, issue: issue77 });
-  const put = github.calls.find(([r]) => r.startsWith('PUT'));
+  const put = github.calls.find(([r]) => r.startsWith('POST'));
   assert.deepEqual(put[1].issue_field_values, [
     { field_id: wo.F_SETID, value: '2025-panini-prizm-draft-picks' },
     { field_id: wo.F_UUID, value: UUID },
@@ -199,63 +200,71 @@ test('reserveIdentity writes both fields and comments once', async () => {
   assert.ok(created[0][1].body.startsWith(wo.RESERVE_MARKER));
 });
 
-test('reserveIdentity carries existing text and date field values over in the PUT', async () => {
+test('reserveIdentity writes only the identity fields, never the other field values (#87)', async () => {
   const github = stubGithub({
     fieldValues: [
       { issue_field_id: 19561085, data_type: 'date', issue_field_name: 'Target date', value: '2026-10-01' },
       { issue_field_id: wo.F_REL, data_type: 'date', issue_field_name: 'Release Date', value: '2026-09-28' },
-      { issue_field_id: 555, data_type: 'text', issue_field_name: 'Notes', value: 'keep me' },
+      { issue_field_id: 19561086, data_type: 'single_select', issue_field_name: 'Effort', value: 'Medium' },
     ],
   });
-  await wo.reserveIdentity({ github, context, core, issue: issue77 });
-  const put = github.calls.find(([r]) => r.startsWith('PUT'));
-  assert.deepEqual(put[1].issue_field_values, [
-    { field_id: 19561085, value: '2026-10-01' },
-    { field_id: wo.F_REL, value: '2026-09-28' },
-    { field_id: 555, value: 'keep me' },
+  const plan = await wo.reserveIdentity({ github, context, core, issue: issue77 });
+  assert.equal(plan.action, 'write');
+  const writes = github.calls.filter(([r]) => r.startsWith('POST') || r.startsWith('PUT'));
+  assert.equal(writes.length, 1);
+  assert.equal(writes[0][0], 'POST /repos/{owner}/{repo}/issues/{issue_number}/issue-field-values');
+  assert.deepEqual(writes[0][1].issue_field_values, [
     { field_id: wo.F_SETID, value: '2025-panini-prizm-draft-picks' },
     { field_id: wo.F_UUID, value: UUID },
   ]);
 });
 
-test('reserveIdentity stops on any other field type, names it, and writes nothing', async () => {
+test('reserveIdentity writes only the missing field when one is already pinned', async () => {
   const github = stubGithub({
-    fieldValues: [
-      { issue_field_id: 19561085, data_type: 'date', issue_field_name: 'Target date', value: '2026-10-01' },
-      { issue_field_id: 19561086, data_type: 'single_select', issue_field_name: 'Effort', value: 'Medium' },
-    ],
+    fieldValues: [{ issue_field_id: wo.F_SETID, data_type: 'text', value: 'kept-slug' }],
   });
-  const plan = await wo.reserveIdentity({ github, context, core, issue: issue77 });
-  assert.equal(plan.action, 'stop');
-  assert.equal(plan.field, 'Effort');
-  assert.equal(plan.fieldType, 'single_select');
-  assert.equal(github.calls.filter(([r]) => r.startsWith('PUT')).length, 0);
-  const created = github.calls.filter(([r]) => r === 'createComment');
-  assert.equal(created.length, 1);
-  assert.ok(created[0][1].body.startsWith(wo.RESERVE_STOP_MARKER));
-  assert.match(created[0][1].body, /`Effort`/);
-  assert.match(created[0][1].body, /`single_select`/);
+  await wo.reserveIdentity({ github, context, core, issue: issue77 });
+  const post = github.calls.find(([r]) => r.startsWith('POST'));
+  assert.deepEqual(post[1].issue_field_values, [{ field_id: wo.F_UUID, value: UUID }]);
 });
 
-test('carryValues stops on a field with no data_type rather than guessing', () => {
-  const res = wo.carryValues([{ issue_field_id: 7, value: 3 }], { changed: [] });
-  assert.deepEqual(res.stop, { name: '7', type: 'unknown' });
+test('identityValues is empty when nothing changed, so no empty array is ever sent', () => {
+  assert.deepEqual(wo.identityValues({ changed: [] }), []);
 });
 
 test('reserveIdentity on Discover dispatch for #77 pins the existing API UUID', async () => {
   const github = stubGithub();
   const plan = await wo.reserveIdentity({ github, context, core, issue: issue77, apiLookup: 'found', apiUuid: UUID });
   assert.equal(plan.uuidSource, 'api');
-  const put = github.calls.find(([r]) => r.startsWith('PUT'));
+  const put = github.calls.find(([r]) => r.startsWith('POST'));
   assert.deepEqual(put[1].issue_field_values, [
     { field_id: wo.F_SETID, value: '2025-panini-prizm-draft-picks' },
     { field_id: wo.F_UUID, value: 'a1e7c40a-d72f-47ca-860d-6d4f603b876f' },
   ]);
 });
 
+test('reserveIdentity ignores another bot account\'s reserve marker and posts its own', async () => {
+  const github = stubGithub({
+    comments: [{ id: 9, body: `${wo.RESERVE_MARKER}\nspoofed`, user: { login: 'evil-app[bot]', type: 'Bot' } }],
+  });
+  await wo.reserveIdentity({ github, context, core, issue: issue77 });
+  assert.equal(github.calls.filter(([r]) => r === 'updateComment').length, 0);
+  assert.equal(github.calls.filter(([r]) => r === 'createComment').length, 1);
+});
+
+test('stopInEffect ignores markers from any account but github-actions[bot] with type Bot', () => {
+  const otherBot = { ...STOP_COMMENT, user: { login: 'evil-app[bot]', type: 'Bot' } };
+  assert.equal(wo.stopInEffect([otherBot]), false);
+  const spoofedType = { ...STOP_COMMENT, user: { login: 'github-actions[bot]', type: 'User' } };
+  assert.equal(wo.stopInEffect([spoofedType]), false);
+  // Another bot's later reserve comment must not supersede the real stop.
+  const otherOk = { id: 5, body: `${wo.RESERVE_MARKER}\nok`, user: { login: 'evil-app[bot]', type: 'Bot' }, created_at: '2026-10-09T00:00:00Z' };
+  assert.equal(wo.stopInEffect([STOP_COMMENT, otherOk]), true);
+});
+
 test('reserveIdentity updates its own earlier comment instead of adding one', async () => {
   const github = stubGithub({
-    comments: [{ id: 9, body: `${wo.RESERVE_MARKER}\nold`, user: { type: 'Bot' } }],
+    comments: [{ id: 9, body: `${wo.RESERVE_MARKER}\nold`, user: BOT }],
   });
   await wo.reserveIdentity({ github, context, core, issue: issue77 });
   assert.equal(github.calls.filter(([r]) => r === 'createComment').length, 0);
@@ -268,7 +277,7 @@ test('reserveIdentity writes nothing on a UUID conflict', async () => {
   });
   const plan = await wo.reserveIdentity({ github, context, core, issue: issue77 });
   assert.equal(plan.action, 'stop');
-  assert.equal(github.calls.filter(([r]) => r.startsWith('PUT')).length, 0);
+  assert.equal(github.calls.filter(([r]) => r.startsWith('POST')).length, 0);
   const created = github.calls.filter(([r]) => r === 'createComment');
   assert.ok(created[0][1].body.startsWith(wo.RESERVE_STOP_MARKER));
 });
@@ -298,7 +307,7 @@ test('API_UUID_RE accepts only an exact lowercase hyphenated UUID', () => {
   }
 });
 
-const STOP_COMMENT = { id: 4, body: `${wo.RESERVE_STOP_MARKER}\nconflict`, user: { type: 'Bot' }, created_at: '2026-10-05T00:00:00Z' };
+const STOP_COMMENT = { id: 4, body: `${wo.RESERVE_STOP_MARKER}\nconflict`, user: BOT, created_at: '2026-10-05T00:00:00Z' };
 const PINNED = [
   { issue_field_id: wo.F_SETID, data_type: 'text', value: '2025-panini-prizm-draft-picks' },
   { issue_field_id: wo.F_UUID, data_type: 'text', value: UUID },
@@ -308,7 +317,7 @@ const now = () => '2026-10-12T00:00:00.000Z';
 test('stopInEffect: a reserve stop counts until a reserve comment is written after it', () => {
   assert.equal(wo.stopInEffect([]), false);
   assert.equal(wo.stopInEffect([STOP_COMMENT]), true);
-  const older = { id: 3, body: `${wo.RESERVE_MARKER}\nok`, user: { type: 'Bot' }, created_at: '2026-10-01T00:00:00Z' };
+  const older = { id: 3, body: `${wo.RESERVE_MARKER}\nok`, user: BOT, created_at: '2026-10-01T00:00:00Z' };
   assert.equal(wo.stopInEffect([older, STOP_COMMENT]), true);
   const newer = { ...older, updated_at: '2026-10-06T00:00:00Z' };
   assert.equal(wo.stopInEffect([newer, STOP_COMMENT]), false);
@@ -320,7 +329,7 @@ test('reserveIdentity noop after a corrected conflict rewrites the reserve comme
   const github = stubGithub({ fieldValues: PINNED, comments: [STOP_COMMENT] });
   const plan = await wo.reserveIdentity({ github, context, core, issue: issue77, now });
   assert.equal(plan.action, 'noop');
-  assert.equal(github.calls.filter(([r]) => r.startsWith('PUT')).length, 0);
+  assert.equal(github.calls.filter(([r]) => r.startsWith('POST')).length, 0);
   const created = github.calls.filter(([r]) => r === 'createComment');
   assert.equal(created.length, 1);
   assert.ok(created[0][1].body.startsWith(wo.RESERVE_MARKER));
