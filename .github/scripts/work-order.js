@@ -12,9 +12,16 @@
 //   API, that UUID is the set's identity, and a fresh one would make the downstream
 //   upsert create a duplicate set (tradingcardapi-tools#1051).
 // - If a pinned UUID and a body UUID disagree, nothing is written and the work order
-//   gets a stop comment (`ocp-reserve-stop:v1`) naming both. tools/check_work_order.py
-//   treats that stop as making the work order not Ready. A later successful run
-//   (write or noop) rewrites the reserve comment after the stop, which supersedes it.
+//   gets a stop comment (`ocp-reserve-stop:v1`) naming both, with a machine-readable
+//   `reason: <code>` line. tools/check_work_order.py treats that stop as making the work
+//   order not Ready.
+// - Only a lookup run supersedes a stop: a Discover dispatch that carries a fresh Trading
+//   Card API lookup (`absent`, or `found` with a valid lowercase `apiUuid`). It rewrites
+//   the reserve comment after the stop, tagged `run: api-lookup`. An issue event
+//   (opened/labeled/typed) does no API lookup, so it can never prove an API conflict is
+//   resolved: while a stop is in effect it writes nothing at all, and the reserve comment
+//   it writes otherwise is tagged `run: issue-event`, which the checker never lets clear a
+//   stop.
 // - A UUID is reserved only after Discover has looked the set up in the Trading Card
 //   API, and the dispatch says what it found (`apiLookup`):
 //   - `found`: the set exists, and its UUID (`apiUuid`) is the reserved UUID. Nothing
@@ -49,6 +56,11 @@ const WORK_ORDER_LABEL = 'work-order';
 const WORK_ORDER_TYPE = 'Work Order';
 const RESERVE_MARKER = '<!-- ocp-reserve:v1 -->';
 const RESERVE_STOP_MARKER = '<!-- ocp-reserve-stop:v1 -->';
+// The `run:` tag on a reserve comment. Only RUN_LOOKUP clears a stop (here and in
+// tools/check_work_order.py).
+const RUN_LOOKUP = 'api-lookup';
+const RUN_ISSUE_EVENT = 'issue-event';
+const RUN_TAG_RE = /^run:[ \t]*(\S+)/m;
 
 const SLUG_RE = /^[a-z0-9]+(-[a-z0-9]+)*$/;
 const UUID_RE = /^[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}$/i;
@@ -134,7 +146,8 @@ function isWorkOrder(issue) {
 // Decide what to write, without any I/O. `pinned` is { setId, uuid } as currently
 // stored. `apiLookup` is 'found', 'absent', or null (an issue event: no lookup yet);
 // `apiUuid` is the matched set's UUID when `apiLookup` is 'found'. Returns
-// { action: 'write' | 'noop' | 'stop', setId, uuid, uuidSource, changed, reason }.
+// { action: 'write' | 'noop' | 'stop', setId, uuid, uuidSource, changed, code, reason }.
+// A stop's `code` is a short machine-readable reason (e.g. `api-uuid-mismatch`).
 // With no lookup and no pinned or body UUID, `uuid` is null and `uuidSource` is
 // 'deferred': the UUID is left for Discover to reserve.
 function planIdentity({ title, body, pinned, apiLookup = null, apiUuid = null, mint = () => crypto.randomUUID() }) {
@@ -144,32 +157,33 @@ function planIdentity({ title, body, pinned, apiLookup = null, apiUuid = null, m
   const same = (a, b) => a.toLowerCase() === b.toLowerCase();
 
   if (apiLookup !== null && apiLookup !== 'found' && apiLookup !== 'absent') {
-    return { action: 'stop', reason: `the API lookup result must be \`found\` or \`absent\`, got \`${apiLookup}\`` };
+    return { action: 'stop', code: 'api-lookup-invalid', reason: `the API lookup result must be \`found\` or \`absent\`, got \`${apiLookup}\`` };
   }
   let api = null;
   if (apiLookup === 'found') {
     api = apiUuid ? String(apiUuid).trim() : '';
-    if (!UUID_RE.test(api)) {
-      return { action: 'stop', reason: `the API lookup found the set but gave no valid set UUID (\`${api}\`)` };
+    if (!API_UUID_RE.test(api)) {
+      return { action: 'stop', code: 'api-uuid-invalid', reason: `the API lookup found the set but gave no valid set UUID (\`${api}\`)` };
     }
     if (pinnedUuid && !same(pinnedUuid, api)) {
-      return { action: 'stop', reason: `the pinned \`Reserved set UUID\` (\`${pinnedUuid}\`) differs from the Trading Card API set's UUID (\`${api}\`)` };
+      return { action: 'stop', code: 'api-uuid-mismatch', reason: `the pinned \`Reserved set UUID\` (\`${pinnedUuid}\`) differs from the Trading Card API set's UUID (\`${api}\`)` };
     }
     if (bodyUuid && !same(bodyUuid, api)) {
-      return { action: 'stop', reason: `the Set UUID recorded in the body (\`${bodyUuid}\`) differs from the Trading Card API set's UUID (\`${api}\`)` };
+      return { action: 'stop', code: 'api-uuid-mismatch', reason: `the Set UUID recorded in the body (\`${bodyUuid}\`) differs from the Trading Card API set's UUID (\`${api}\`)` };
     }
   }
 
   if (pinnedUuid && bodyUuid && !same(pinnedUuid, bodyUuid)) {
     return {
       action: 'stop',
+      code: 'pinned-body-mismatch',
       reason: `the pinned \`Reserved set UUID\` (\`${pinnedUuid}\`) differs from the Set UUID recorded in the body (\`${bodyUuid}\`)`,
     };
   }
 
   const setId = pinnedSetId || deriveSetId(title, body);
   if (!setId) {
-    return { action: 'stop', reason: 'no `set_id` could be derived: the body has no Set name and the title does not slug to a valid `set_id`' };
+    return { action: 'stop', code: 'no-set-id', reason: 'no `set_id` could be derived: the body has no Set name and the title does not slug to a valid `set_id`' };
   }
 
   let uuid = pinnedUuid;
@@ -232,14 +246,28 @@ function lastWritten(c) {
   return (c && (c.updated_at || c.created_at)) || '';
 }
 
-// True when this workflow's reserve stop is in effect: it exists and was written at or
-// after its last reserve comment. tools/check_work_order.py treats such a stop as making
-// the work order not Ready until a reserve comment or Discover block is written after it.
+// The `run:` tag of a reserve comment, or null (an untagged comment).
+function runTag(comment) {
+  const m = RUN_TAG_RE.exec((comment && comment.body) || '');
+  return m ? m[1] : null;
+}
+
+// True when a dispatch carried a fresh, validated API lookup: `absent`, or `found` with
+// an exact lowercase hyphenated `apiUuid`. Only such a run may supersede a stop.
+function isLookupRun(apiLookup, apiUuid) {
+  if (apiLookup === 'absent') return true;
+  return apiLookup === 'found' && API_UUID_RE.test(String(apiUuid || ''));
+}
+
+// True when this workflow's reserve stop is in effect: it exists and no reserve comment
+// tagged `run: api-lookup` was written after it. A reserve comment from an issue-event
+// run (or an untagged one) never clears a stop. tools/check_work_order.py applies the
+// same rule.
 function stopInEffect(comments) {
   const stop = botComment(comments, RESERVE_STOP_MARKER);
   if (!stop) return false;
   const ok = botComment(comments, RESERVE_MARKER);
-  return !ok || lastWritten(stop) >= lastWritten(ok);
+  return !ok || runTag(ok) !== RUN_LOOKUP || lastWritten(stop) >= lastWritten(ok);
 }
 
 // Create the comment carrying `marker`, or update this workflow's existing one.
@@ -273,6 +301,16 @@ async function reserveIdentity({
     return { action: 'skip' };
   }
 
+  // An issue-event run never supersedes a stop: it did no API lookup, so it cannot show
+  // that the conflict the stop records is resolved. While a stop is in effect it writes
+  // nothing (no field, no comment) and leaves the stop for Discover's next dispatch.
+  const lookupRun = isLookupRun(apiLookup, apiUuid);
+  const stopped = stopInEffect(await listComments({ github, owner, repo, issue_number }));
+  if (stopped && !lookupRun) {
+    core.notice(`#${issue_number}: a reservation stop is in effect; only a Discover dispatch with a fresh Trading Card API lookup can supersede it. Nothing written.`);
+    return { action: 'held' };
+  }
+
   // Current pinned values. They decide what is missing; nothing else is written back.
   const cur = await github.request(
     'GET /repos/{owner}/{repo}/issues/{issue_number}/issue-field-values',
@@ -292,15 +330,17 @@ async function reserveIdentity({
   if (plan.action === 'stop') {
     await upsertComment({
       github, owner, repo, issue_number, marker: RESERVE_STOP_MARKER,
-      body: `⏸ **Identity not reserved** — ${plan.reason}. Nothing was written. Resolve it on the issue and re-run the workflow.`,
+      body: `reason: ${plan.code}\n⏸ **Identity not reserved** — ${plan.reason}. Nothing was written. Resolve it on the issue and re-run the workflow.`,
     });
     core.warning(`#${issue_number}: ${plan.reason}`);
     return plan;
   }
-  // A successful run (write or noop) supersedes this workflow's earlier stop, by writing
-  // its reserve comment after the stop. Without that, a corrected issue whose identity
-  // was already pinned would stay not Ready on a stop that no longer applies.
-  const supersedes = stopInEffect(await listComments({ github, owner, repo, issue_number }));
+  // A successful lookup run (write or noop) supersedes this workflow's earlier stop, by
+  // writing its reserve comment, tagged `run: api-lookup`, after the stop. Without that, a
+  // corrected issue whose identity was already pinned would stay not Ready on a stop that
+  // no longer applies. (Only a lookup run reaches here with a stop in effect.)
+  const supersedes = stopped;
+  const runLine = `run: ${lookupRun ? RUN_LOOKUP : RUN_ISSUE_EVENT}\n`;
   const supersedeNote = supersedes
     ? ` Supersedes the earlier \`ocp-reserve-stop:v1\` comment: the identity was checked again at ${now()} and no conflict remains.`
     : '';
@@ -315,7 +355,7 @@ async function reserveIdentity({
         : '`Reserved set UUID`: not yet reserved (Discover reserves it after the Trading Card API lookup)';
       await upsertComment({
         github, owner, repo, issue_number, marker: RESERVE_MARKER,
-        body: '🔖 Identity confirmed — `set_id`: `' + plan.setId + '` · ' + uuidText + '.' + supersedeNote,
+        body: runLine + '🔖 Identity confirmed — `set_id`: `' + plan.setId + '` · ' + uuidText + '.' + supersedeNote,
       });
     }
     return plan;
@@ -347,7 +387,7 @@ async function reserveIdentity({
   }
   await upsertComment({
     github, owner, repo, issue_number, marker: RESERVE_MARKER,
-    body: '🔖 Reserved identity — ' + parts.join(' · ') +
+    body: runLine + '🔖 Reserved identity — ' + parts.join(' · ') +
       '. Committed unchanged into `set.yaml` when the filling PR lands.' + supersedeNote,
   });
   return plan;
@@ -359,10 +399,14 @@ module.exports = {
   F_REL,
   RESERVE_MARKER,
   RESERVE_STOP_MARKER,
+  RUN_LOOKUP,
+  RUN_ISSUE_EVENT,
   ACTIONS_BOT_LOGIN,
   API_UUID_RE,
   parseBody,
   stopInEffect,
+  isLookupRun,
+  runTag,
   deriveSetId,
   isWorkOrder,
   planIdentity,

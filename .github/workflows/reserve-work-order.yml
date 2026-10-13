@@ -46,8 +46,10 @@ jobs:
     # must not pin identity fields Discover and the producer would never use). An
     # opened or typed event whose payload carries no issue type is let through too:
     # the script re-reads the issue through REST and checks the type there, so a
-    # type-only work order is not dropped when the payload omits it. A dispatch is
-    # checked inside the script once the issue is fetched.
+    # type-only work order is not dropped when the payload omits it. This gate is only
+    # a cheap prefilter on the event snapshot: the step re-reads the issue through REST
+    # on every path (issue event or dispatch) and does nothing unless it is still an
+    # open work-order issue.
     if: >-
       github.event_name == 'workflow_dispatch' ||
       (github.event.issue.state == 'open' &&
@@ -74,7 +76,7 @@ jobs:
             const wo = require(`${process.env.GITHUB_WORKSPACE}/.github/scripts/work-order.js`);
             const { owner, repo } = context.repo;
 
-            let issue = context.payload.issue;
+            let issueNumber = context.payload.issue && context.payload.issue.number;
             let apiLookup = null;
             let apiUuid = null;
             if (context.eventName === 'workflow_dispatch') {
@@ -96,25 +98,26 @@ jobs:
                 core.setFailed(`issue_number must be a positive integer, got ${JSON.stringify(raw)}`);
                 return;
               }
-              const res = await github.rest.issues.get({ owner, repo, issue_number: Number(raw) });
-              issue = res.data;
-              if (issue.pull_request) {
-                core.setFailed(`#${raw} is a pull request, not a work order.`);
-                return;
-              }
-              if (issue.state !== 'open') {
-                core.notice(`#${raw} is not open; nothing to reserve.`);
-                return;
-              }
-            } else if (!wo.isWorkOrder(issue)) {
-              // The gate let an opened/typed event through without an issue type in
-              // the payload. Read the issue through REST and check its type there.
-              const res = await github.rest.issues.get({ owner, repo, issue_number: issue.number });
-              issue = res.data;
-              if (issue.pull_request || issue.state !== 'open') {
-                core.notice(`#${issue.number} is not an open issue; nothing to reserve.`);
-                return;
-              }
+              issueNumber = Number(raw);
+            }
+
+            // Always act on the issue as it is NOW, on every path. The job gate saw the
+            // event payload, which is a snapshot: the issue can be closed, or lose its
+            // work-order label/type, before this step runs. Re-read it through REST and
+            // do nothing unless it is still an open work-order issue.
+            const res = await github.rest.issues.get({ owner, repo, issue_number: issueNumber });
+            const issue = res.data;
+            if (issue.pull_request) {
+              core.notice(`#${issueNumber} is a pull request, not a work order; nothing to reserve.`);
+              return;
+            }
+            if (issue.state !== 'open') {
+              core.notice(`#${issueNumber} is not open; nothing to reserve.`);
+              return;
+            }
+            if (!wo.isWorkOrder(issue)) {
+              core.notice(`#${issueNumber} is not a work order; nothing to reserve.`);
+              return;
             }
 
             await wo.reserveIdentity({

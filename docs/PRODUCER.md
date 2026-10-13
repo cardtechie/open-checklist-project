@@ -58,11 +58,16 @@ start.
    `<!-- ocp-reserve-stop:v1 -->` as GitHub Actions; an automatic run on an issue event
    can do this after Discover already posted its block. A reserve stop from GitHub
    Actions or a trusted author, written at or after both the effective block and the
-   workflow's last `<!-- ocp-reserve:v1 -->` comment, makes the work order not Ready.
-   To recover, fix the conflict on the issue (never by overwriting a pinned value) and
-   re-run Discover: a successful reservation rewrites its `ocp-reserve:v1` comment after
-   the stop, even when nothing is left to write, and Discover rewrites its block. Either
-   one written after the stop makes the work order Ready again.
+   workflow's last lookup-run `<!-- ocp-reserve:v1 -->` comment, makes the work order not
+   Ready. The stop carries a `reason: <code>` line (e.g. `api-uuid-mismatch`). Only a
+   lookup run clears it: a Discover dispatch with a fresh Trading Card API lookup, whose
+   reserve comment is tagged `run: api-lookup`. An issue-event run (opened, labeled,
+   typed) did no lookup, so it writes nothing while a stop is in effect, and its reserve
+   comment (`run: issue-event`) never clears one. To recover, fix the conflict on the
+   issue (never by overwriting a pinned value) and re-run Discover: a successful lookup
+   run rewrites its `ocp-reserve:v1` comment after the stop, even when nothing is left to
+   write, and Discover rewrites its block. Either one written after the stop makes the
+   work order Ready again.
 
 Worked Discover block for work order #77:
 

@@ -38,6 +38,11 @@ DISCOVER_STOP_MARKER = "<!-- ocp-discover-stop:v1 -->"
 RESERVE_MARKER = "<!-- ocp-reserve:v1 -->"
 RESERVE_STOP_MARKER = "<!-- ocp-reserve-stop:v1 -->"
 STOP_REASON_RE = re.compile(r"^reason:[ \t]*(\S+)", re.MULTILINE)
+# A reserve comment's `run:` tag. Only a lookup run (a Discover dispatch carrying a fresh
+# Trading Card API lookup) clears a reserve stop; an issue-event run did no lookup, so its
+# reserve comment (`run: issue-event`, or an untagged one) never does.
+RESERVE_RUN_RE = re.compile(r"^run:[ \t]*(\S+)", re.MULTILINE)
+RESERVE_RUN_LOOKUP = "api-lookup"
 
 # Pinned issue fields are resolved by NAME. The numeric ids (the same ones
 # .github/workflows/reserve-work-order.yml writes) are a fallback for a payload that
@@ -272,13 +277,23 @@ def stop_reason(body):
     return m.group(1) if m else "unspecified"
 
 
+def is_lookup_reserve(body):
+    """True when a reserve comment was written by a lookup run (`run: api-lookup`)."""
+    m = RESERVE_RUN_RE.search(body)
+    return bool(m) and m.group(1) == RESERVE_RUN_LOOKUP
+
+
 def reserve_stop_summary(body):
-    """One line of a reserve stop comment, for the verdict: its text after the marker."""
+    """One line of a reserve stop comment, for the verdict: its text after the marker
+    (and after its `reason:` line), prefixed with the reason code when there is one."""
     rest = body.split("\n", 1)[1] if "\n" in body else ""
-    line = next((l.strip() for l in rest.split("\n") if l.strip()), "")
+    line = next((l.strip() for l in rest.split("\n")
+                 if l.strip() and not STOP_REASON_RE.match(l.strip())), "")
     line = re.sub(r"^\W*\*\*Identity not reserved\*\*\s*\W\s*", "", line)
     line = line.split(". Nothing was written", 1)[0]
-    return (line[:200] + "...") if len(line) > 200 else (line or "unspecified")
+    line = (line[:200] + "...") if len(line) > 200 else (line or "unspecified")
+    m = STOP_REASON_RE.search(rest)
+    return f"{m.group(1)}: {line}" if m else line
 
 
 def parse_discover(body, reasons):
@@ -393,9 +408,10 @@ def check(payload, data_dir="data"):
     # (e.g. source-disagreement, api-mismatch) must not leave an earlier block usable.
     # A trusted `<!-- ocp-reserve-stop:v1 -->` (the reserve workflow found a pinned, body
     # or API UUID conflict and wrote nothing) revokes it the same way, unless the
-    # workflow wrote its `<!-- ocp-reserve:v1 -->` comment after the stop (a later
-    # successful reservation): an automatic issue-event run can stop on a conflict
-    # after Discover already posted its block.
+    # workflow wrote its `<!-- ocp-reserve:v1 -->` comment after the stop from a lookup
+    # run (tagged `run: api-lookup`: a Discover dispatch with a fresh API lookup). A
+    # reserve comment from an issue-event run never clears it, since that run did no
+    # lookup and so cannot show an API conflict is resolved.
     comments = payload.get("comments")
     blocks = discover_blocks(comments)
     trusted = [b for b in blocks if is_trusted(b[2])]
@@ -404,7 +420,7 @@ def check(payload, data_dir="data"):
     latest_reserve_stop = latest_written([b for b in marked_comments(comments, RESERVE_STOP_MARKER)
                                           if is_trusted_reserve(b[2])])
     latest_reserve = latest_written([b for b in marked_comments(comments, RESERVE_MARKER)
-                                     if is_trusted_reserve(b[2])])
+                                     if is_trusted_reserve(b[2]) and is_lookup_reserve(b[3])])
     # The effective block is the trusted one written last: a re-run PATCHes an
     # existing block in place, so the older-by-created_at block can be the newest.
     effective = max(trusted, key=lambda b: (last_written(b[2]), b[0], b[1])) if trusted else None

@@ -314,20 +314,25 @@ const PINNED = [
 ];
 const now = () => '2026-10-12T00:00:00.000Z';
 
-test('stopInEffect: a reserve stop counts until a reserve comment is written after it', () => {
+test('stopInEffect: a reserve stop counts until a lookup-run reserve comment is written after it', () => {
   assert.equal(wo.stopInEffect([]), false);
   assert.equal(wo.stopInEffect([STOP_COMMENT]), true);
-  const older = { id: 3, body: `${wo.RESERVE_MARKER}\nok`, user: BOT, created_at: '2026-10-01T00:00:00Z' };
+  const older = { id: 3, body: `${wo.RESERVE_MARKER}\nrun: api-lookup\nok`, user: BOT, created_at: '2026-10-01T00:00:00Z' };
   assert.equal(wo.stopInEffect([older, STOP_COMMENT]), true);
   const newer = { ...older, updated_at: '2026-10-06T00:00:00Z' };
   assert.equal(wo.stopInEffect([newer, STOP_COMMENT]), false);
+  // A later reserve comment from an issue-event run, or an untagged one, never clears it.
+  const issueEvent = { ...newer, body: `${wo.RESERVE_MARKER}\nrun: issue-event\nok` };
+  assert.equal(wo.stopInEffect([issueEvent, STOP_COMMENT]), true);
+  const untagged = { ...newer, body: `${wo.RESERVE_MARKER}\nok` };
+  assert.equal(wo.stopInEffect([untagged, STOP_COMMENT]), true);
   const human = { ...STOP_COMMENT, user: { type: 'User' } };
   assert.equal(wo.stopInEffect([human]), false);
 });
 
-test('reserveIdentity noop after a corrected conflict rewrites the reserve comment to supersede the stop', async () => {
+test('reserveIdentity lookup-run noop after a corrected conflict rewrites the reserve comment to supersede the stop', async () => {
   const github = stubGithub({ fieldValues: PINNED, comments: [STOP_COMMENT] });
-  const plan = await wo.reserveIdentity({ github, context, core, issue: issue77, now });
+  const plan = await wo.reserveIdentity({ github, context, core, issue: issue77, apiLookup: 'found', apiUuid: UUID, now });
   assert.equal(plan.action, 'noop');
   assert.equal(github.calls.filter(([r]) => r.startsWith('POST')).length, 0);
   const created = github.calls.filter(([r]) => r === 'createComment');
@@ -335,6 +340,113 @@ test('reserveIdentity noop after a corrected conflict rewrites the reserve comme
   assert.ok(created[0][1].body.startsWith(wo.RESERVE_MARKER));
   assert.match(created[0][1].body, /Supersedes the earlier `ocp-reserve-stop:v1` comment/);
   assert.match(created[0][1].body, /2026-10-12T00:00:00\.000Z/);
+  assert.equal(wo.runTag(created[0][1]), wo.RUN_LOOKUP);
+});
+
+test('reserveIdentity on an issue event with a stop in effect writes nothing at all', async () => {
+  for (const fieldValues of [PINNED, []]) {
+    const github = stubGithub({ fieldValues, comments: [STOP_COMMENT] });
+    const plan = await wo.reserveIdentity({ github, context, core, issue: issue77, now });
+    assert.equal(plan.action, 'held');
+    assert.equal(github.calls.filter(([r]) => r.startsWith('POST') || r.startsWith('GET')).length, 0);
+    assert.equal(github.calls.filter(([r]) => r === 'createComment' || r === 'updateComment').length, 0);
+  }
+});
+
+test('isLookupRun: only absent, or found with a lowercase hyphenated UUID', () => {
+  assert.equal(wo.isLookupRun('absent', null), true);
+  assert.equal(wo.isLookupRun('found', UUID), true);
+  assert.equal(wo.isLookupRun('found', UUID.toUpperCase()), false);
+  assert.equal(wo.isLookupRun('found', null), false);
+  assert.equal(wo.isLookupRun(null, UUID), false);
+});
+
+test('planIdentity tags each stop with a machine-readable code', () => {
+  const other = '00000000-0000-4000-8000-000000000000';
+  assert.equal(wo.planIdentity({ title: TABLE_TITLE, body: TABLE_BODY, pinned: {}, apiLookup: 'found', apiUuid: other }).code, 'api-uuid-mismatch');
+  assert.equal(wo.planIdentity({ title: '', body: FORM_BODY, pinned: { uuid: other }, apiLookup: 'found', apiUuid: UUID }).code, 'api-uuid-mismatch');
+  assert.equal(wo.planIdentity({ title: '', body: FORM_BODY, pinned: {}, apiLookup: 'found', apiUuid: UUID.toUpperCase() }).code, 'api-uuid-invalid');
+  assert.equal(wo.planIdentity({ title: '', body: FORM_BODY, pinned: {}, apiLookup: 'maybe' }).code, 'api-lookup-invalid');
+  assert.equal(wo.planIdentity({ title: TABLE_TITLE, body: TABLE_BODY, pinned: { uuid: other } }).code, 'pinned-body-mismatch');
+  assert.equal(wo.planIdentity({ title: '[Work Order] !!!', body: '', pinned: {} }).code, 'no-set-id');
+});
+
+// A stateful stub: field values and comments persist across runs, and every write
+// advances a clock, so a sequence of runs can be replayed against one issue.
+function statefulGithub({ fieldValues = [] } = {}) {
+  const state = { fields: [...fieldValues], comments: [], tick: 0, calls: [] };
+  const stamp = () => `2026-10-12T00:00:${String(++state.tick).padStart(2, '0')}Z`;
+  const github = {
+    state,
+    calls: state.calls,
+    request: async (route, params) => {
+      state.calls.push([route, params]);
+      if (route.startsWith('GET')) return { data: state.fields.map((f) => ({ ...f })) };
+      for (const v of params.issue_field_values) {
+        state.fields = state.fields.filter((f) => f.issue_field_id !== v.field_id);
+        state.fields.push({ issue_field_id: v.field_id, data_type: 'text', value: v.value });
+      }
+      return { data: {} };
+    },
+    paginate: async () => state.comments.map((c) => ({ ...c })),
+    rest: {
+      issues: {
+        listComments: () => {},
+        createComment: async (p) => {
+          state.calls.push(['createComment', p]);
+          const at = stamp();
+          state.comments.push({ id: state.comments.length + 1, body: p.body, user: BOT, created_at: at, updated_at: at });
+        },
+        updateComment: async (p) => {
+          state.calls.push(['updateComment', p]);
+          const c = state.comments.find((x) => x.id === p.comment_id);
+          c.body = p.body;
+          c.updated_at = stamp();
+        },
+      },
+    },
+  };
+  return github;
+}
+
+test('an API-UUID-mismatch stop survives a later label event and clears only on a matching lookup dispatch', async () => {
+  const other = '00000000-0000-4000-8000-000000000000';
+  // set_id and a UUID are already pinned; the API holds the set under a different UUID.
+  const github = statefulGithub({
+    fieldValues: [
+      { issue_field_id: wo.F_SETID, data_type: 'text', value: '2025-panini-prizm-draft-picks' },
+      { issue_field_id: wo.F_UUID, data_type: 'text', value: UUID },
+    ],
+  });
+  const issue = { ...issue77, body: FORM_BODY };
+
+  // 1. Discover dispatch: the lookup found the set under another UUID. Stop.
+  const first = await wo.reserveIdentity({ github, context, core, issue, apiLookup: 'found', apiUuid: other, now });
+  assert.equal(first.action, 'stop');
+  const stop = github.state.comments.find((c) => c.body.startsWith(wo.RESERVE_STOP_MARKER));
+  assert.match(stop.body, /^reason: api-uuid-mismatch$/m);
+  assert.equal(wo.stopInEffect(github.state.comments), true);
+
+  // 2. A `labeled` issue event (no API lookup). It must not supersede the stop.
+  const before = github.state.comments.map((c) => ({ ...c }));
+  const second = await wo.reserveIdentity({ github, context, core, issue, now });
+  assert.equal(second.action, 'held');
+  assert.deepEqual(github.state.comments, before);
+  assert.equal(wo.stopInEffect(github.state.comments), true);
+
+  // 3. Discover dispatch again, and this time the lookup matches the pinned UUID.
+  const third = await wo.reserveIdentity({ github, context, core, issue, apiLookup: 'found', apiUuid: UUID, now });
+  assert.equal(third.action, 'noop');
+  const reserve = github.state.comments.find((c) => c.body.startsWith(wo.RESERVE_MARKER));
+  assert.equal(wo.runTag(reserve), wo.RUN_LOOKUP);
+  assert.equal(wo.stopInEffect(github.state.comments), false);
+});
+
+test('an issue-event reserve comment written before any stop is tagged issue-event', async () => {
+  const github = statefulGithub();
+  await wo.reserveIdentity({ github, context, core, issue: issue77, now });
+  const reserve = github.state.comments.find((c) => c.body.startsWith(wo.RESERVE_MARKER));
+  assert.equal(wo.runTag(reserve), wo.RUN_ISSUE_EVENT);
 });
 
 test('reserveIdentity noop with no stop in effect writes no comment', async () => {
@@ -344,9 +456,9 @@ test('reserveIdentity noop with no stop in effect writes no comment', async () =
   assert.equal(github.calls.filter(([r]) => r === 'createComment' || r === 'updateComment').length, 0);
 });
 
-test('reserveIdentity write after a stop notes that it supersedes the stop', async () => {
+test('reserveIdentity lookup-run write after a stop notes that it supersedes the stop', async () => {
   const github = stubGithub({ comments: [STOP_COMMENT] });
-  await wo.reserveIdentity({ github, context, core, issue: issue77, now });
+  await wo.reserveIdentity({ github, context, core, issue: issue77, apiLookup: 'found', apiUuid: UUID, now });
   const created = github.calls.filter(([r]) => r === 'createComment');
   assert.equal(created.length, 1);
   assert.ok(created[0][1].body.startsWith(wo.RESERVE_MARKER));

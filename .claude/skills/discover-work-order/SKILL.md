@@ -130,10 +130,14 @@ That `ocp-reserve-stop:v1` comment also makes the work order **not Ready** on it
 including when an automatic issue-event run (opened, labeled, typed) wrote it after an
 earlier Discover block: `tools/check_work_order.py` treats a reserve stop written
 (created or last edited) at or after the effective Discover block, and at or after the
-workflow's last `<!-- ocp-reserve:v1 -->` comment, as revoking the block. **Recovery:**
+workflow's last lookup-run `<!-- ocp-reserve:v1 -->` comment (tagged `run: api-lookup`),
+as revoking the block. The stop records its cause on a `reason: <code>` line. A labeled,
+opened or typed event never supersedes a stop: it did no API lookup, so while a stop is in
+effect it writes nothing, and its reserve comment (`run: issue-event`) never clears one.
+**Recovery:**
 fix the conflict on the issue (correct the body's Set UUID row or clear the conflicting
 field by hand; never overwrite a pinned value to do it), then re-run Discover. Its step
-3 dispatch reaches the workflow, which on success rewrites its `ocp-reserve:v1` comment
+3 dispatch (a fresh lookup) reaches the workflow, which on success rewrites its `ocp-reserve:v1` comment
 after the stop, even when there is nothing left to write, and its step 5 rewrites the
 Discover block. Either one written after the stop makes the work order Ready again, so
 no stale stop stays in effect.

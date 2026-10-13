@@ -247,7 +247,14 @@ class CheckWorkOrderTests(unittest.TestCase):
     RESERVE_STOP = ("<!-- ocp-reserve-stop:v1 -->\n\u23f8 **Identity not reserved** \u2014 the pinned "
                     "`Reserved set UUID` (`a`) differs from the Set UUID recorded in the body (`b`). "
                     "Nothing was written. Resolve it on the issue and re-run the workflow.")
-    RESERVE_OK = "<!-- ocp-reserve:v1 -->\n\U0001f516 Reserved identity \u2014 `set_id`: `x`."
+    RESERVE_OK = "<!-- ocp-reserve:v1 -->\nrun: api-lookup\n\U0001f516 Reserved identity \u2014 `set_id`: `x`."
+    RESERVE_OK_ISSUE_EVENT = ("<!-- ocp-reserve:v1 -->\nrun: issue-event\n\U0001f516 Identity confirmed "
+                              "\u2014 `set_id`: `x`. Supersedes the earlier `ocp-reserve-stop:v1` comment.")
+    RESERVE_OK_UNTAGGED = "<!-- ocp-reserve:v1 -->\n\U0001f516 Reserved identity \u2014 `set_id`: `x`."
+    RESERVE_STOP_API = ("<!-- ocp-reserve-stop:v1 -->\nreason: api-uuid-mismatch\n\u23f8 **Identity not "
+                        "reserved** \u2014 the pinned `Reserved set UUID` (`a`) differs from the Trading "
+                        "Card API set's UUID (`c`). Nothing was written. Resolve it on the issue and "
+                        "re-run the workflow.")
 
     @staticmethod
     def bot(body, created, updated=None):
@@ -293,6 +300,37 @@ class CheckWorkOrderTests(unittest.TestCase):
         v = self.run_check(p)
         self.assertTrue(v["ready"], v["reasons"])
         self.assertEqual(v["sources"][0]["card_count"], 100)
+
+    def test_issue_event_reservation_after_reserve_stop_does_not_clear_it(self):
+        for ok in (self.RESERVE_OK_ISSUE_EVENT, self.RESERVE_OK_UNTAGGED):
+            p = ready_payload()
+            p["comments"] = [comment(BLOCK, "2026-10-01T00:00:00Z"),
+                             self.bot(self.RESERVE_STOP_API, "2026-10-05T00:00:00Z"),
+                             self.bot(ok, "2026-09-01T00:00:00Z", "2026-10-06T00:00:00Z")]
+            self.assertNotReady(self.run_check(p), "identity reservation stopped (api-uuid-mismatch: ")
+
+    def test_api_mismatch_stop_then_label_event_then_matching_lookup(self):
+        """The sequence the reserve workflow produces: a Discover dispatch stops on an API
+        UUID mismatch, a later label event changes nothing (and must not be read as a
+        clearing), then a Discover dispatch whose lookup matches rewrites the reserve
+        comment as a lookup run."""
+        block = comment(BLOCK, "2026-10-01T00:00:00Z")
+        # Before any stop, an issue-event run had written its reserve comment.
+        early = self.bot(self.RESERVE_OK_ISSUE_EVENT, "2026-09-01T00:00:00Z")
+        stop = self.bot(self.RESERVE_STOP_API, "2026-10-05T00:00:00Z")
+        p = ready_payload()
+        p["comments"] = [early, block, stop]
+        self.assertNotReady(self.run_check(p), "identity reservation stopped (api-uuid-mismatch: ")
+        # A label event: even if a reserve comment from it were (wrongly) rewritten after
+        # the stop, it is tagged issue-event and does not clear the stop.
+        relabel = self.bot(self.RESERVE_OK_ISSUE_EVENT, "2026-09-01T00:00:00Z", "2026-10-06T00:00:00Z")
+        p["comments"] = [relabel, block, stop]
+        self.assertNotReady(self.run_check(p), "identity reservation stopped")
+        # The matching lookup dispatch rewrites the same comment as a lookup run.
+        cleared = self.bot(self.RESERVE_OK, "2026-09-01T00:00:00Z", "2026-10-07T00:00:00Z")
+        p["comments"] = [cleared, block, stop]
+        v = self.run_check(p)
+        self.assertTrue(v["ready"], v["reasons"])
 
     def test_reservation_older_than_reserve_stop_does_not_clear_it(self):
         p = ready_payload()
