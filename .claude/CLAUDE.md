@@ -101,6 +101,16 @@ see [#33](https://github.com/cardtechie/open-checklist-project/issues/33)).
 - Python 3.11 with `pyyaml` and `jsonschema`.
 - Validation must pass for data changes to be accepted.
 
+## Discovering a work order
+
+Before a work order can be produced it must be **Ready** — the precondition in
+[`docs/PRODUCER.md`](../docs/PRODUCER.md). The
+[`discover-work-order`](skills/discover-work-order/SKILL.md) skill gets it there: the
+`reserve-work-order.yml` workflow (logic in `.github/scripts/work-order.js`, tests via
+`node --test .github/scripts/work-order.test.js`) pins `set_id` and `Reserved set UUID`,
+copying an existing Trading Card API set UUID rather than minting one, and the skill posts
+the `<!-- ocp-discover:v1 -->` source block. It never guesses a source or overwrites a value.
+
 ## Producing a set
 
 Unattended Source → Normalize for a work order follows the Stage A producer contract,

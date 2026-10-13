@@ -1,0 +1,31 @@
+name: Work Order Tests
+
+# Run the node tests for the work-order identity logic (.github/scripts/work-order.js),
+# which .github/workflows/reserve-work-order.yml runs through actions/github-script.
+# The tests need only node:test and crypto, so there is no npm install (#88).
+
+on:
+  pull_request:
+    paths:
+      - '.github/scripts/**'
+      - '.github/workflows/reserve-work-order.yml'
+      - '.github/workflows/work-order-tests.yml'
+  # A merge queue event carries no path filter, so the job always runs there. It takes
+  # seconds and has no dependencies.
+  merge_group:
+
+permissions:
+  contents: read
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: false
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 24
+      - name: Run work-order tests
+        run: node --test .github/scripts/work-order.test.js

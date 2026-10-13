@@ -31,6 +31,18 @@ import yaml
 DEFAULT_REPO = "cardtechie/open-checklist-project"
 WORK_ORDER_TYPE = "Work Order"
 DISCOVER_MARKER = "<!-- ocp-discover:v1 -->"
+DISCOVER_STOP_MARKER = "<!-- ocp-discover-stop:v1 -->"
+# Written by .github/workflows/reserve-work-order.yml (.github/scripts/work-order.js):
+# RESERVE_MARKER on a successful reservation, RESERVE_STOP_MARKER when it stopped on an
+# identity conflict and wrote nothing.
+RESERVE_MARKER = "<!-- ocp-reserve:v1 -->"
+RESERVE_STOP_MARKER = "<!-- ocp-reserve-stop:v1 -->"
+STOP_REASON_RE = re.compile(r"^reason:[ \t]*(\S+)", re.MULTILINE)
+# A reserve comment's `run:` tag. Only a lookup run (a Discover dispatch carrying a fresh
+# Trading Card API lookup) clears a reserve stop; an issue-event run did no lookup, so its
+# reserve comment (`run: issue-event`, or an untagged one) never does.
+RESERVE_RUN_RE = re.compile(r"^run:[ \t]*(\S+)", re.MULTILINE)
+RESERVE_RUN_LOOKUP = "api-lookup"
 
 # Pinned issue fields are resolved by NAME. The numeric ids (the same ones
 # .github/workflows/reserve-work-order.yml writes) are a fallback for a payload that
@@ -42,6 +54,11 @@ FIELD_UUID = ("Reserved set UUID", 44650144)
 # block. Anyone can comment on a public issue, and the block decides which URL the
 # producer fetches and which count it trusts.
 TRUSTED_ASSOCIATIONS = {"OWNER", "MEMBER", "COLLABORATOR"}
+
+# The reserve workflow comments as GitHub Actions, whose comments carry no trusted
+# author_association, so its own comments are trusted by account. No other account
+# can comment as github-actions[bot].
+ACTIONS_BOT_LOGIN = "github-actions[bot]"
 
 SLUG_RE = re.compile(r"^[a-z0-9]+(-[a-z0-9]+)*$")
 FENCE_RE = re.compile(r"^```ya?ml[ \t]*\n(.*?)^```[ \t]*$", re.MULTILINE | re.DOTALL)
@@ -215,17 +232,72 @@ def source_url_problem(v):
     return None
 
 
-def discover_blocks(comments):
-    """Comments whose first line is the Discover marker, oldest first."""
+def marked_comments(comments, marker):
+    """Comments whose first line is `marker`, oldest first (by created_at)."""
     blocks = []
     for i, c in enumerate(comments or []):
         if not isinstance(c, dict):
             continue
         body = (c.get("body") or "").replace("\r\n", "\n")
-        if body.lstrip().split("\n", 1)[0].strip() == DISCOVER_MARKER:
+        if body.lstrip().split("\n", 1)[0].strip() == marker:
             blocks.append((c.get("created_at") or "", i, c, body))
     blocks.sort(key=lambda b: (b[0], b[1]))
     return blocks
+
+
+def discover_blocks(comments):
+    """Comments whose first line is the Discover marker, oldest first."""
+    return marked_comments(comments, DISCOVER_MARKER)
+
+
+def last_written(comment_):
+    """When a comment was last written. Discover PATCHes its block and its stop
+    comment in place on a re-run, so updated_at (not created_at) orders them."""
+    return comment_.get("updated_at") or comment_.get("created_at") or ""
+
+
+def is_trusted(comment_):
+    return comment_.get("author_association") in TRUSTED_ASSOCIATIONS
+
+
+def is_from_actions(comment_):
+    """A comment written by GitHub Actions (github-actions[bot])."""
+    user = comment_.get("user") if isinstance(comment_.get("user"), dict) else {}
+    return user.get("login") == ACTIONS_BOT_LOGIN and user.get("type") == "Bot"
+
+
+def is_trusted_reserve(comment_):
+    """A reserve-workflow comment: from GitHub Actions, or from a trusted author."""
+    return is_from_actions(comment_) or is_trusted(comment_)
+
+
+def latest_written(blocks):
+    """The block written last (by last_written, then position), or None."""
+    return max(blocks, key=lambda b: (last_written(b[2]), b[1])) if blocks else None
+
+
+def stop_reason(body):
+    m = STOP_REASON_RE.search(body)
+    return m.group(1) if m else "unspecified"
+
+
+def is_lookup_reserve(body):
+    """True when a reserve comment was written by a lookup run (`run: api-lookup`)."""
+    m = RESERVE_RUN_RE.search(body)
+    return bool(m) and m.group(1) == RESERVE_RUN_LOOKUP
+
+
+def reserve_stop_summary(body):
+    """One line of a reserve stop comment, for the verdict: its text after the marker
+    (and after its `reason:` line), prefixed with the reason code when there is one."""
+    rest = body.split("\n", 1)[1] if "\n" in body else ""
+    line = next((l.strip() for l in rest.split("\n")
+                 if l.strip() and not STOP_REASON_RE.match(l.strip())), "")
+    line = re.sub(r"^\W*\*\*Identity not reserved\*\*\s*\W\s*", "", line)
+    line = line.split(". Nothing was written", 1)[0]
+    line = (line[:200] + "...") if len(line) > 200 else (line or "unspecified")
+    m = STOP_REASON_RE.search(rest)
+    return f"{m.group(1)}: {line}" if m else line
 
 
 def parse_discover(body, reasons):
@@ -334,16 +406,47 @@ def check(payload, data_dir="data"):
             if canonical in existing_uuids(data_dir):
                 reasons.append(f"Reserved set UUID {reserved} is already used under {data_dir}/")
 
-    # 4. Exactly one effective Discover block (newest trusted one wins).
-    blocks = discover_blocks(payload.get("comments"))
-    trusted = [b for b in blocks if b[2].get("author_association") in TRUSTED_ASSOCIATIONS]
+    # 4. Exactly one effective Discover block (last-written trusted one wins), not revoked
+    # by a Discover stop or a reservation stop. A trusted `<!-- ocp-discover-stop:v1 -->`
+    # comment written at or after the effective block revokes it: a re-run that stopped
+    # (e.g. source-disagreement, api-mismatch) must not leave an earlier block usable.
+    # A trusted `<!-- ocp-reserve-stop:v1 -->` (the reserve workflow found a pinned, body
+    # or API UUID conflict and wrote nothing) makes the issue not ready until GitHub
+    # Actions writes its `<!-- ocp-reserve:v1 -->` comment after the stop from a lookup
+    # run (tagged `run: api-lookup`: a Discover dispatch with a fresh API lookup). Only
+    # that clears it. A Discover block written after the stop does not: Discover posts
+    # its block before its dispatch re-checks the UUID, so the block alone would read
+    # ready in the window before the reserve run. A reserve comment from an issue-event
+    # run never clears it either, since that run did no lookup and so cannot show an
+    # API conflict is resolved, and nor does one from any author but github-actions[bot].
+    comments = payload.get("comments")
+    blocks = discover_blocks(comments)
+    trusted = [b for b in blocks if is_trusted(b[2])]
+    latest_stop = latest_written([b for b in marked_comments(comments, DISCOVER_STOP_MARKER)
+                                  if is_trusted(b[2])])
+    latest_reserve_stop = latest_written([b for b in marked_comments(comments, RESERVE_STOP_MARKER)
+                                          if is_trusted_reserve(b[2])])
+    latest_reserve = latest_written([b for b in marked_comments(comments, RESERVE_MARKER)
+                                     if is_from_actions(b[2]) and is_lookup_reserve(b[3])])
+    # The effective block is the trusted one written last: a re-run PATCHes an
+    # existing block in place, so the older-by-created_at block can be the newest.
+    effective = max(trusted, key=lambda b: (last_written(b[2]), b[0], b[1])) if trusted else None
+    effective_at = last_written(effective[2]) if effective else ""
+    reserve_stopped = bool(latest_reserve_stop) and (
+        not latest_reserve or last_written(latest_reserve_stop[2]) >= last_written(latest_reserve[2]))
     discover = None
-    if not blocks:
+    if reserve_stopped:
+        reasons.append(f"identity reservation stopped ({reserve_stop_summary(latest_reserve_stop[3])}) "
+                       "and no api-lookup reservation was written after the stop")
+    if latest_stop and (not effective or last_written(latest_stop[2]) >= effective_at):
+        reasons.append(f"discover stopped ({stop_reason(latest_stop[3])}) and no discover "
+                       "block was written after the stop")
+    elif not blocks:
         reasons.append("no discover block comment (first line <!-- ocp-discover:v1 -->)")
     elif not trusted:
         reasons.append("discover block is not from a repo owner, member or collaborator")
-    else:
-        discover = parse_discover(trusted[-1][3], reasons)
+    elif not reserve_stopped:
+        discover = parse_discover(effective[3], reasons)
 
     title = issue.get("title") or ""
     block_name = discover.get("name") if discover else None

@@ -187,6 +187,225 @@ class CheckWorkOrderTests(unittest.TestCase):
         self.assertTrue(v["ready"])
         self.assertIn("example.org", v["sources"][0]["url"])
 
+    def test_stop_newer_than_block_revokes_it(self):
+        p = ready_payload()
+        stop = "<!-- ocp-discover-stop:v1 -->\nreason: source-disagreement\n\n**Discover stopped.**\n"
+        p["comments"] = [comment(BLOCK, "2026-10-01T00:00:00Z"), comment(stop, "2026-10-05T00:00:00Z")]
+        v = self.run_check(p)
+        self.assertNotReady(v, "discover stopped (source-disagreement)")
+        self.assertEqual(v["sources"], [])
+
+    def test_stop_patched_after_block_revokes_it(self):
+        # A re-run PATCHes its earlier stop in place: updated_at, not created_at, counts.
+        p = ready_payload()
+        stop = comment("<!-- ocp-discover-stop:v1 -->\nreason: api-mismatch\n", "2026-09-01T00:00:00Z")
+        stop["updated_at"] = "2026-10-05T00:00:00Z"
+        p["comments"] = [comment(BLOCK, "2026-10-01T00:00:00Z"), stop]
+        self.assertNotReady(self.run_check(p), "discover stopped (api-mismatch)")
+
+    def test_block_rewritten_after_stop_is_effective(self):
+        p = ready_payload()
+        block = comment(BLOCK, "2026-09-01T00:00:00Z")
+        block["updated_at"] = "2026-10-05T00:00:00Z"
+        p["comments"] = [block, comment("<!-- ocp-discover-stop:v1 -->\nreason: no-source\n",
+                                        "2026-10-01T00:00:00Z")]
+        self.assertTrue(self.run_check(p)["ready"])
+
+    def test_rerun_patching_older_block_makes_it_effective(self):
+        # Two trusted blocks; a re-run PATCHes the OLDER one, so it is the last written.
+        p = ready_payload()
+        older = comment(BLOCK.replace("card_count: 100", "card_count: 120"), "2026-09-01T00:00:00Z")
+        older["updated_at"] = "2026-10-10T00:00:00Z"
+        newer = comment(BLOCK, "2026-10-01T00:00:00Z")
+        p["comments"] = [older, newer]
+        v = self.run_check(p)
+        self.assertTrue(v["ready"], v["reasons"])
+        self.assertEqual(v["sources"][0]["card_count"], 120)
+
+    def test_stop_older_than_patched_older_block_does_not_revoke(self):
+        # The stop post-dates the newer block's creation but pre-dates the re-run
+        # that PATCHed the older block, so the patched block is effective.
+        p = ready_payload()
+        older = comment(BLOCK.replace("card_count: 100", "card_count: 120"), "2026-09-01T00:00:00Z")
+        older["updated_at"] = "2026-10-10T00:00:00Z"
+        newer = comment(BLOCK, "2026-10-01T00:00:00Z")
+        stop = comment("<!-- ocp-discover-stop:v1 -->\nreason: source-disagreement\n",
+                       "2026-10-05T00:00:00Z")
+        p["comments"] = [older, newer, stop]
+        v = self.run_check(p)
+        self.assertTrue(v["ready"], v["reasons"])
+        self.assertEqual(v["sources"][0]["card_count"], 120)
+
+    def test_untrusted_stop_does_not_revoke(self):
+        p = ready_payload()
+        p["comments"] = [comment(BLOCK, "2026-10-01T00:00:00Z"),
+                         comment("<!-- ocp-discover-stop:v1 -->\nreason: no-source\n",
+                                 "2026-10-05T00:00:00Z", assoc="NONE")]
+        self.assertTrue(self.run_check(p)["ready"])
+
+    # --- reservation stops (ocp-reserve-stop:v1, written by the reserve workflow)
+    RESERVE_STOP = ("<!-- ocp-reserve-stop:v1 -->\n\u23f8 **Identity not reserved** \u2014 the pinned "
+                    "`Reserved set UUID` (`a`) differs from the Set UUID recorded in the body (`b`). "
+                    "Nothing was written. Resolve it on the issue and re-run the workflow.")
+    RESERVE_OK = "<!-- ocp-reserve:v1 -->\nrun: api-lookup\n\U0001f516 Reserved identity \u2014 `set_id`: `x`."
+    RESERVE_OK_ISSUE_EVENT = ("<!-- ocp-reserve:v1 -->\nrun: issue-event\n\U0001f516 Identity confirmed "
+                              "\u2014 `set_id`: `x`. Supersedes the earlier `ocp-reserve-stop:v1` comment.")
+    RESERVE_OK_UNTAGGED = "<!-- ocp-reserve:v1 -->\n\U0001f516 Reserved identity \u2014 `set_id`: `x`."
+    RESERVE_STOP_API = ("<!-- ocp-reserve-stop:v1 -->\nreason: api-uuid-mismatch\n\u23f8 **Identity not "
+                        "reserved** \u2014 the pinned `Reserved set UUID` (`a`) differs from the Trading "
+                        "Card API set's UUID (`c`). Nothing was written. Resolve it on the issue and "
+                        "re-run the workflow.")
+
+    @staticmethod
+    def bot(body, created, updated=None):
+        c = comment(body, created, assoc="NONE")
+        c["user"] = {"login": "github-actions[bot]", "type": "Bot"}
+        if updated:
+            c["updated_at"] = updated
+        return c
+
+    def test_reserve_stop_newer_than_block_makes_not_ready(self):
+        p = ready_payload()
+        p["comments"] = [comment(BLOCK, "2026-10-01T00:00:00Z"),
+                         self.bot(self.RESERVE_STOP, "2026-10-05T00:00:00Z")]
+        v = self.run_check(p)
+        self.assertNotReady(v, "identity reservation stopped (the pinned `Reserved set UUID` (`a`) "
+                               "differs from the Set UUID recorded in the body (`b`))")
+        self.assertEqual(v["sources"], [])
+
+    def test_reserve_stop_patched_after_block_makes_not_ready(self):
+        p = ready_payload()
+        p["comments"] = [comment(BLOCK, "2026-10-01T00:00:00Z"),
+                         self.bot(self.RESERVE_STOP, "2026-09-01T00:00:00Z", "2026-10-05T00:00:00Z")]
+        self.assertNotReady(self.run_check(p), "identity reservation stopped")
+
+    def test_discover_block_newer_than_reserve_stop_does_not_clear_it(self):
+        p = ready_payload()
+        p["comments"] = [self.bot(self.RESERVE_STOP, "2026-09-01T00:00:00Z"),
+                         comment(BLOCK, "2026-10-01T00:00:00Z")]
+        self.assertNotReady(self.run_check(p), "identity reservation stopped")
+
+    def test_discover_block_rewritten_after_reserve_stop_does_not_clear_it(self):
+        p = ready_payload()
+        block = comment(BLOCK, "2026-09-01T00:00:00Z")
+        block["updated_at"] = "2026-10-10T00:00:00Z"
+        p["comments"] = [block, self.bot(self.RESERVE_STOP, "2026-10-05T00:00:00Z")]
+        self.assertNotReady(self.run_check(p), "identity reservation stopped")
+
+    def test_rerun_window_between_block_and_lookup_is_not_ready(self):
+        """Discover re-runs after a reserve stop: it posts a new block before its
+        dispatch has re-checked the UUID. That window is not Ready; the dispatch's
+        api-lookup reserve comment, written after the stop, is what makes it Ready."""
+        stop = self.bot(self.RESERVE_STOP_API, "2026-10-05T00:00:00Z")
+        block = comment(BLOCK, "2026-10-06T00:00:00Z")
+        p = ready_payload()
+        p["comments"] = [stop, block]
+        self.assertNotReady(self.run_check(p), "identity reservation stopped (api-uuid-mismatch: ")
+        p["comments"] = [stop, block, self.bot(self.RESERVE_OK, "2026-10-07T00:00:00Z")]
+        v = self.run_check(p)
+        self.assertTrue(v["ready"], v["reasons"])
+        self.assertEqual(v["sources"][0]["card_count"], 100)
+
+    def test_normal_discover_flow_without_a_stop_is_ready(self):
+        """No stop ever: block, then dispatch, then the api-lookup reserve comment."""
+        p = ready_payload()
+        p["comments"] = [comment(BLOCK, "2026-10-01T00:00:00Z")]
+        self.assertTrue(self.run_check(p)["ready"])
+        p["comments"].append(self.bot(self.RESERVE_OK, "2026-10-02T00:00:00Z"))
+        v = self.run_check(p)
+        self.assertTrue(v["ready"], v["reasons"])
+
+    def test_member_api_lookup_reservation_does_not_clear_reserve_stop(self):
+        p = ready_payload()
+        p["comments"] = [comment(BLOCK, "2026-10-01T00:00:00Z"),
+                         self.bot(self.RESERVE_STOP, "2026-10-05T00:00:00Z"),
+                         comment(self.RESERVE_OK, "2026-10-06T00:00:00Z")]
+        self.assertNotReady(self.run_check(p), "identity reservation stopped")
+
+    def test_reservation_written_after_reserve_stop_is_ready(self):
+        p = ready_payload()
+        p["comments"] = [comment(BLOCK, "2026-10-01T00:00:00Z"),
+                         self.bot(self.RESERVE_STOP, "2026-10-05T00:00:00Z"),
+                         self.bot(self.RESERVE_OK, "2026-09-01T00:00:00Z", "2026-10-06T00:00:00Z")]
+        v = self.run_check(p)
+        self.assertTrue(v["ready"], v["reasons"])
+        self.assertEqual(v["sources"][0]["card_count"], 100)
+
+    def test_issue_event_reservation_after_reserve_stop_does_not_clear_it(self):
+        for ok in (self.RESERVE_OK_ISSUE_EVENT, self.RESERVE_OK_UNTAGGED):
+            p = ready_payload()
+            p["comments"] = [comment(BLOCK, "2026-10-01T00:00:00Z"),
+                             self.bot(self.RESERVE_STOP_API, "2026-10-05T00:00:00Z"),
+                             self.bot(ok, "2026-09-01T00:00:00Z", "2026-10-06T00:00:00Z")]
+            self.assertNotReady(self.run_check(p), "identity reservation stopped (api-uuid-mismatch: ")
+
+    def test_api_mismatch_stop_then_label_event_then_matching_lookup(self):
+        """The sequence the reserve workflow produces: a Discover dispatch stops on an API
+        UUID mismatch, a later label event changes nothing (and must not be read as a
+        clearing), then a Discover dispatch whose lookup matches rewrites the reserve
+        comment as a lookup run."""
+        block = comment(BLOCK, "2026-10-01T00:00:00Z")
+        # Before any stop, an issue-event run had written its reserve comment.
+        early = self.bot(self.RESERVE_OK_ISSUE_EVENT, "2026-09-01T00:00:00Z")
+        stop = self.bot(self.RESERVE_STOP_API, "2026-10-05T00:00:00Z")
+        p = ready_payload()
+        p["comments"] = [early, block, stop]
+        self.assertNotReady(self.run_check(p), "identity reservation stopped (api-uuid-mismatch: ")
+        # A label event: even if a reserve comment from it were (wrongly) rewritten after
+        # the stop, it is tagged issue-event and does not clear the stop.
+        relabel = self.bot(self.RESERVE_OK_ISSUE_EVENT, "2026-09-01T00:00:00Z", "2026-10-06T00:00:00Z")
+        p["comments"] = [relabel, block, stop]
+        self.assertNotReady(self.run_check(p), "identity reservation stopped")
+        # The matching lookup dispatch rewrites the same comment as a lookup run.
+        cleared = self.bot(self.RESERVE_OK, "2026-09-01T00:00:00Z", "2026-10-07T00:00:00Z")
+        p["comments"] = [cleared, block, stop]
+        v = self.run_check(p)
+        self.assertTrue(v["ready"], v["reasons"])
+
+    def test_reservation_older_than_reserve_stop_does_not_clear_it(self):
+        p = ready_payload()
+        p["comments"] = [self.bot(self.RESERVE_OK, "2026-09-01T00:00:00Z"),
+                         comment(BLOCK, "2026-10-01T00:00:00Z"),
+                         self.bot(self.RESERVE_STOP, "2026-10-05T00:00:00Z")]
+        self.assertNotReady(self.run_check(p), "identity reservation stopped")
+
+    def test_reserve_stop_from_trusted_member_counts(self):
+        p = ready_payload()
+        p["comments"] = [comment(BLOCK, "2026-10-01T00:00:00Z"),
+                         comment(self.RESERVE_STOP, "2026-10-05T00:00:00Z")]
+        self.assertNotReady(self.run_check(p), "identity reservation stopped")
+
+    def test_untrusted_reserve_stop_does_not_revoke(self):
+        p = ready_payload()
+        spoof = comment(self.RESERVE_STOP, "2026-10-05T00:00:00Z", assoc="NONE")
+        spoof["user"] = {"login": "github-actions", "type": "User"}
+        p["comments"] = [comment(BLOCK, "2026-10-01T00:00:00Z"), spoof]
+        self.assertTrue(self.run_check(p)["ready"])
+
+    def test_untrusted_reservation_does_not_clear_reserve_stop(self):
+        p = ready_payload()
+        p["comments"] = [comment(BLOCK, "2026-10-01T00:00:00Z"),
+                         self.bot(self.RESERVE_STOP, "2026-10-05T00:00:00Z"),
+                         comment(self.RESERVE_OK, "2026-10-06T00:00:00Z", assoc="NONE")]
+        self.assertNotReady(self.run_check(p), "identity reservation stopped")
+
+    def test_reserve_stop_with_no_discover_block_reports_both(self):
+        p = ready_payload()
+        p["comments"] = [self.bot(self.RESERVE_STOP, "2026-10-05T00:00:00Z")]
+        v = self.run_check(p)
+        self.assertNotReady(v, "identity reservation stopped")
+        self.assertNotReady(v, "no discover block comment")
+
+    def test_reserve_and_discover_stops_both_reported(self):
+        p = ready_payload()
+        p["comments"] = [comment(BLOCK, "2026-10-01T00:00:00Z"),
+                         self.bot(self.RESERVE_STOP, "2026-10-05T00:00:00Z"),
+                         comment("<!-- ocp-discover-stop:v1 -->\nreason: identity-conflict\n",
+                                 "2026-10-06T00:00:00Z")]
+        v = self.run_check(p)
+        self.assertNotReady(v, "identity reservation stopped")
+        self.assertNotReady(v, "discover stopped (identity-conflict)")
+
     def test_block_without_fenced_yaml(self):
         p = ready_payload()
         p["comments"] = [comment("<!-- ocp-discover:v1 -->\nsources: none here")]

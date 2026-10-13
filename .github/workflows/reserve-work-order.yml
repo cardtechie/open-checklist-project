@@ -1,66 +1,126 @@
 name: Reserve work-order identity
 
-# When a work-order is opened, reserve the set's identity at discovery:
-# derive set_id from the title and mint a UUIDv4, writing both to the pinned
-# issue fields — only when empty, so bot/human-provided values are preserved.
-# Fulfills #52 ("reserve the UUID at discovery").
+# Reserve a work order's identity: derive set_id from its Set name (else its title)
+# and take the Reserved set UUID from the body's Set UUID row when one is recorded,
+# minting a UUIDv4 only when none is. Both go to the pinned issue fields, only when
+# empty, so bot/human-provided values are preserved. Fulfills #52 ("reserve the UUID
+# at discovery"); widened by #78 (Discover) so a work order labelled or typed after it
+# was opened, or filed outside the template, is reserved too.
+#
+# The UUID is reserved only on a workflow_dispatch, which is how Discover runs this
+# after its Trading Card API lookup, and the dispatch says what the lookup found:
+# api_lookup=found reuses the existing set's UUID (api_set_uuid) and never mints;
+# api_lookup=absent mints one for a new set. Issue events fire before that lookup, so
+# they reserve set_id (and a body-recorded UUID) only; minting there could pin a fresh
+# UUID for a set the API already holds.
+#
+# The logic lives in .github/scripts/work-order.js.
 
 on:
   issues:
-    types: [opened]
+    types: [opened, labeled, typed]
+  workflow_dispatch:
+    inputs:
+      issue_number:
+        description: Work-order issue number to reserve
+        required: true
+        type: string
+      api_lookup:
+        description: What Discover's Trading Card API lookup found (found = the set exists, absent = it is new)
+        required: true
+        type: choice
+        options: [found, absent]
+      api_set_uuid:
+        description: The existing set's UUID, required when api_lookup is found
+        required: false
+        type: string
 
 permissions:
+  contents: read
   issues: write
 
 jobs:
   reserve:
-    if: contains(github.event.issue.labels.*.name, 'work-order')
+    # On an issue event, only OPEN work orders: the work-order label OR the Work Order
+    # issue type, on an issue that is still open (labelling or typing a closed issue
+    # must not pin identity fields Discover and the producer would never use). An
+    # opened or typed event whose payload carries no issue type is let through too:
+    # the script re-reads the issue through REST and checks the type there, so a
+    # type-only work order is not dropped when the payload omits it. This gate is only
+    # a cheap prefilter on the event snapshot: the step re-reads the issue through REST
+    # on every path (issue event or dispatch) and does nothing unless it is still an
+    # open work-order issue.
+    if: >-
+      github.event_name == 'workflow_dispatch' ||
+      (github.event.issue.state == 'open' &&
+       (contains(github.event.issue.labels.*.name, 'work-order') ||
+        github.event.issue.type.name == 'Work Order' ||
+        ((github.event.action == 'opened' || github.event.action == 'typed') &&
+         !github.event.issue.type)))
     runs-on: ubuntu-latest
+    concurrency:
+      group: reserve-work-order-${{ github.event.issue.number || inputs.issue_number }}
+      cancel-in-progress: false
     steps:
+      - uses: actions/checkout@v4
+        with:
+          sparse-checkout: .github/scripts
+          persist-credentials: false
       - uses: actions/github-script@v7
+        env:
+          DISPATCH_ISSUE: ${{ inputs.issue_number }}
+          DISPATCH_API_LOOKUP: ${{ inputs.api_lookup }}
+          DISPATCH_API_UUID: ${{ inputs.api_set_uuid }}
         with:
           script: |
-            const crypto = require('crypto');
+            const wo = require(`${process.env.GITHUB_WORKSPACE}/.github/scripts/work-order.js`);
             const { owner, repo } = context.repo;
-            const issue_number = context.issue.number;
 
-            // Org issue field IDs (from `GET /orgs/<org>/issue-fields`).
-            // If the fields are ever recreated, update these three ids.
-            const F_SETID = 44649933; // set_id (text)
-            const F_UUID  = 44650144; // Reserved set UUID (text)
-            const F_REL   = 44650123; // Release Date (date)
-
-            // Current pinned values (PUT replaces the whole set, so we merge).
-            const cur = await github.request(
-              'GET /repos/{owner}/{repo}/issues/{issue_number}/issue-field-values',
-              { owner, repo, issue_number });
-            const byId = Object.fromEntries((cur.data || []).map(f => [f.issue_field_id, f.value]));
-
-            // Derive set_id from the title: strip the "[Work Order] " prefix, slugify.
-            const title = (context.payload.issue.title || '');
-            const name = title.replace(/^\[Work Order\]\s*/i, '').trim();
-            const slug = name.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-+|-+$/g, '');
-
-            const setId = byId[F_SETID] || slug;
-            const uuid  = byId[F_UUID]  || crypto.randomUUID();
-
-            const values = [
-              { field_id: F_SETID, value: setId },
-              { field_id: F_UUID,  value: uuid },
-            ];
-            if (byId[F_REL]) values.push({ field_id: F_REL, value: byId[F_REL] });
-
-            await github.request(
-              'PUT /repos/{owner}/{repo}/issues/{issue_number}/issue-field-values',
-              { owner, repo, issue_number, issue_field_values: values });
-
-            const changed = [];
-            if (!byId[F_SETID]) changed.push('`set_id`: `' + setId + '`');
-            if (!byId[F_UUID])  changed.push('`Reserved set UUID`: `' + uuid + '`');
-            if (changed.length) {
-              await github.rest.issues.createComment({
-                owner, repo, issue_number,
-                body: '🔖 Reserved identity at discovery — ' + changed.join(' · ') +
-                      '. Committed unchanged into `set.yaml` when the filling PR lands.',
-              });
+            let issueNumber = context.payload.issue && context.payload.issue.number;
+            let apiLookup = null;
+            let apiUuid = null;
+            if (context.eventName === 'workflow_dispatch') {
+              apiLookup = String(process.env.DISPATCH_API_LOOKUP || '').trim();
+              apiUuid = String(process.env.DISPATCH_API_UUID || '').trim() || null;
+              if (apiLookup !== 'found' && apiLookup !== 'absent') {
+                core.setFailed(`api_lookup must be found or absent, got ${JSON.stringify(apiLookup)}`);
+                return;
+              }
+              // api_set_uuid relays a Trading Card API response. Accept only an exact
+              // lowercase hyphenated UUID, before the value is used anywhere. It is read
+              // from the environment, never interpolated into a shell or this script.
+              if (apiUuid !== null && !wo.API_UUID_RE.test(apiUuid)) {
+                core.setFailed(`api_set_uuid must be a lowercase hyphenated UUID, got ${JSON.stringify(apiUuid)}`);
+                return;
+              }
+              const raw = String(process.env.DISPATCH_ISSUE || '').trim();
+              if (!/^[1-9][0-9]*$/.test(raw)) {
+                core.setFailed(`issue_number must be a positive integer, got ${JSON.stringify(raw)}`);
+                return;
+              }
+              issueNumber = Number(raw);
             }
+
+            // Always act on the issue as it is NOW, on every path. The job gate saw the
+            // event payload, which is a snapshot: the issue can be closed, or lose its
+            // work-order label/type, before this step runs. Re-read it through REST and
+            // do nothing unless it is still an open work-order issue.
+            const res = await github.rest.issues.get({ owner, repo, issue_number: issueNumber });
+            const issue = res.data;
+            if (issue.pull_request) {
+              core.notice(`#${issueNumber} is a pull request, not a work order; nothing to reserve.`);
+              return;
+            }
+            if (issue.state !== 'open') {
+              core.notice(`#${issueNumber} is not open; nothing to reserve.`);
+              return;
+            }
+            if (!wo.isWorkOrder(issue)) {
+              core.notice(`#${issueNumber} is not a work order; nothing to reserve.`);
+              return;
+            }
+
+            await wo.reserveIdentity({
+              github, context, core, issue,
+              apiLookup, apiUuid,
+            });
