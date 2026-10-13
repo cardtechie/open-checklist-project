@@ -187,6 +187,37 @@ class CheckWorkOrderTests(unittest.TestCase):
         self.assertTrue(v["ready"])
         self.assertIn("example.org", v["sources"][0]["url"])
 
+    def test_stop_newer_than_block_revokes_it(self):
+        p = ready_payload()
+        stop = "<!-- ocp-discover-stop:v1 -->\nreason: source-disagreement\n\n**Discover stopped.**\n"
+        p["comments"] = [comment(BLOCK, "2026-10-01T00:00:00Z"), comment(stop, "2026-10-05T00:00:00Z")]
+        v = self.run_check(p)
+        self.assertNotReady(v, "discover stopped (source-disagreement)")
+        self.assertEqual(v["sources"], [])
+
+    def test_stop_patched_after_block_revokes_it(self):
+        # A re-run PATCHes its earlier stop in place: updated_at, not created_at, counts.
+        p = ready_payload()
+        stop = comment("<!-- ocp-discover-stop:v1 -->\nreason: api-mismatch\n", "2026-09-01T00:00:00Z")
+        stop["updated_at"] = "2026-10-05T00:00:00Z"
+        p["comments"] = [comment(BLOCK, "2026-10-01T00:00:00Z"), stop]
+        self.assertNotReady(self.run_check(p), "discover stopped (api-mismatch)")
+
+    def test_block_rewritten_after_stop_is_effective(self):
+        p = ready_payload()
+        block = comment(BLOCK, "2026-09-01T00:00:00Z")
+        block["updated_at"] = "2026-10-05T00:00:00Z"
+        p["comments"] = [block, comment("<!-- ocp-discover-stop:v1 -->\nreason: no-source\n",
+                                        "2026-10-01T00:00:00Z")]
+        self.assertTrue(self.run_check(p)["ready"])
+
+    def test_untrusted_stop_does_not_revoke(self):
+        p = ready_payload()
+        p["comments"] = [comment(BLOCK, "2026-10-01T00:00:00Z"),
+                         comment("<!-- ocp-discover-stop:v1 -->\nreason: no-source\n",
+                                 "2026-10-05T00:00:00Z", assoc="NONE")]
+        self.assertTrue(self.run_check(p)["ready"])
+
     def test_block_without_fenced_yaml(self):
         p = ready_payload()
         p["comments"] = [comment("<!-- ocp-discover:v1 -->\nsources: none here")]

@@ -43,13 +43,18 @@ jobs:
   reserve:
     # On an issue event, only OPEN work orders: the work-order label OR the Work Order
     # issue type, on an issue that is still open (labelling or typing a closed issue
-    # must not pin identity fields Discover and the producer would never use). A
-    # dispatch is checked inside the script once the issue is fetched.
+    # must not pin identity fields Discover and the producer would never use). An
+    # opened or typed event whose payload carries no issue type is let through too:
+    # the script re-reads the issue through REST and checks the type there, so a
+    # type-only work order is not dropped when the payload omits it. A dispatch is
+    # checked inside the script once the issue is fetched.
     if: >-
       github.event_name == 'workflow_dispatch' ||
       (github.event.issue.state == 'open' &&
        (contains(github.event.issue.labels.*.name, 'work-order') ||
-        github.event.issue.type.name == 'Work Order'))
+        github.event.issue.type.name == 'Work Order' ||
+        ((github.event.action == 'opened' || github.event.action == 'typed') &&
+         !github.event.issue.type)))
     runs-on: ubuntu-latest
     concurrency:
       group: reserve-work-order-${{ github.event.issue.number || inputs.issue_number }}
@@ -92,6 +97,15 @@ jobs:
               }
               if (issue.state !== 'open') {
                 core.notice(`#${raw} is not open; nothing to reserve.`);
+                return;
+              }
+            } else if (!wo.isWorkOrder(issue)) {
+              // The gate let an opened/typed event through without an issue type in
+              // the payload. Read the issue through REST and check its type there.
+              const res = await github.rest.issues.get({ owner, repo, issue_number: issue.number });
+              issue = res.data;
+              if (issue.pull_request || issue.state !== 'open') {
+                core.notice(`#${issue.number} is not an open issue; nothing to reserve.`);
                 return;
               }
             }

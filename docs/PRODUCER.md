@@ -44,7 +44,10 @@ start.
    - per source, `parallels_listed: true|false`.
 
    If there is more than one block, the **newest** one wins. Only a block written by a
-   repository owner, member or collaborator counts. Anyone can comment on a public
+   repository owner, member or collaborator counts. A Discover stop comment (first line
+   `<!-- ocp-discover-stop:v1 -->`) from such an author **revokes** the block when it was
+   written (created or last edited) at or after the block: the work order is not Ready,
+   and the checker reports the stop's `reason:`. Anyone can comment on a public
    issue, and the block decides which URL is fetched and which count is trusted. The
    pinned fields stay the source of truth for `set_id` and the UUID, and the block never
    repeats them.

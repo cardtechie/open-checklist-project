@@ -31,6 +31,8 @@ import yaml
 DEFAULT_REPO = "cardtechie/open-checklist-project"
 WORK_ORDER_TYPE = "Work Order"
 DISCOVER_MARKER = "<!-- ocp-discover:v1 -->"
+DISCOVER_STOP_MARKER = "<!-- ocp-discover-stop:v1 -->"
+STOP_REASON_RE = re.compile(r"^reason:[ \t]*(\S+)", re.MULTILINE)
 
 # Pinned issue fields are resolved by NAME. The numeric ids (the same ones
 # .github/workflows/reserve-work-order.yml writes) are a fallback for a payload that
@@ -215,17 +217,33 @@ def source_url_problem(v):
     return None
 
 
-def discover_blocks(comments):
-    """Comments whose first line is the Discover marker, oldest first."""
+def marked_comments(comments, marker):
+    """Comments whose first line is `marker`, oldest first (by created_at)."""
     blocks = []
     for i, c in enumerate(comments or []):
         if not isinstance(c, dict):
             continue
         body = (c.get("body") or "").replace("\r\n", "\n")
-        if body.lstrip().split("\n", 1)[0].strip() == DISCOVER_MARKER:
+        if body.lstrip().split("\n", 1)[0].strip() == marker:
             blocks.append((c.get("created_at") or "", i, c, body))
     blocks.sort(key=lambda b: (b[0], b[1]))
     return blocks
+
+
+def discover_blocks(comments):
+    """Comments whose first line is the Discover marker, oldest first."""
+    return marked_comments(comments, DISCOVER_MARKER)
+
+
+def last_written(comment_):
+    """When a comment was last written. Discover PATCHes its block and its stop
+    comment in place on a re-run, so updated_at (not created_at) orders them."""
+    return comment_.get("updated_at") or comment_.get("created_at") or ""
+
+
+def stop_reason(body):
+    m = STOP_REASON_RE.search(body)
+    return m.group(1) if m else "unspecified"
 
 
 def parse_discover(body, reasons):
@@ -334,11 +352,20 @@ def check(payload, data_dir="data"):
             if canonical in existing_uuids(data_dir):
                 reasons.append(f"Reserved set UUID {reserved} is already used under {data_dir}/")
 
-    # 4. Exactly one effective Discover block (newest trusted one wins).
+    # 4. Exactly one effective Discover block (newest trusted one wins), not revoked
+    # by a Discover stop. A trusted `<!-- ocp-discover-stop:v1 -->` comment written at
+    # or after the effective block revokes it: a re-run that stopped (e.g.
+    # source-disagreement, api-mismatch) must not leave an earlier block usable.
     blocks = discover_blocks(payload.get("comments"))
     trusted = [b for b in blocks if b[2].get("author_association") in TRUSTED_ASSOCIATIONS]
+    stops = [b for b in marked_comments(payload.get("comments"), DISCOVER_STOP_MARKER)
+             if b[2].get("author_association") in TRUSTED_ASSOCIATIONS]
+    latest_stop = max(stops, key=lambda b: (last_written(b[2]), b[1])) if stops else None
     discover = None
-    if not blocks:
+    if latest_stop and (not trusted or last_written(latest_stop[2]) >= last_written(trusted[-1][2])):
+        reasons.append(f"discover stopped ({stop_reason(latest_stop[3])}) and no discover "
+                       "block was written after the stop")
+    elif not blocks:
         reasons.append("no discover block comment (first line <!-- ocp-discover:v1 -->)")
     elif not trusted:
         reasons.append("discover block is not from a repo owner, member or collaborator")

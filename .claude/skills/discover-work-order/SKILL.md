@@ -109,11 +109,14 @@ it writes nothing and posts an `<!-- ocp-reserve-stop:v1 -->` comment naming the
 and its type. It posts the same comment when a pinned, body or API UUID disagree. On
 either, stop with `identity-conflict` and quote that comment.
 
-Collisions are checked by `tools/check_work_order.py` against `data/` on `main` (run it
-from an up-to-date `main` checkout). After the Discover block is posted (step 5), a
+Then check for collisions **before anything is published**: run
+`python tools/check_work_order.py <n>` from an up-to-date `main` checkout. It checks
+both pinned values against `data/` on `main`. It will also report reasons that later
+steps clear (no Discover block yet); ignore those here. A
 `set_id ... already has a data directory` reason is a stop with `set-id-collision`, and
-a `Reserved set UUID ... is already used` reason is a stop with `uuid-collision`. Do not
-invent a variant slug or a new UUID to get around either.
+a `Reserved set UUID ... is already used` reason is a stop with `uuid-collision`. Both
+stop the run here, before step 5 posts a block. Do not invent a variant slug or a new
+UUID to get around either.
 
 ## 4. Sources
 
@@ -171,14 +174,21 @@ Run `python tools/check_work_order.py <n>` from an up-to-date `main` checkout.
 - **Exit 0**: the work order is Ready. Report it and leave the issue for `produce-set`.
   Do not start the producer, change the board, or close anything.
 - **Exit 10**: quote the checker's `reasons` verbatim. Map a collision reason to its
-  stop (step 3); anything else is a stop with `checker-not-ready`.
+  stop (step 3); anything else is a stop with `checker-not-ready`. The block from step
+  5 is already posted at this point; the stop comment revokes it (see *Stop and
+  report*), so it is not left effective.
 - **Exit 2**: report the error and stop without commenting.
 
 ## Stop and report
 
-A stop **comments on the work order and fills nothing**. It writes no Discover block (if
-one already exists from an earlier run, leave it and say so). The comment has this
-format, and on a re-run it is **edited in place** (PATCH), never duplicated:
+A stop **comments on the work order and fills nothing**. It writes no Discover block.
+If one already exists from an earlier run, leave it in place and say so: the stop
+comment **revokes** it. `tools/check_work_order.py` reports not ready, with the stop's
+reason, whenever a trusted stop comment was written (created or last edited) at or
+after the effective Discover block, so `produce-set` cannot use a source this run
+rejected. A later run that succeeds rewrites its block (step 5), which makes the block
+newer than the stop and effective again. The comment has this format, and on a re-run
+it is **edited in place** (PATCH), never duplicated:
 
 ```markdown
 <!-- ocp-discover-stop:v1 -->
