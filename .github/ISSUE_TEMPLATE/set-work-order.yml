@@ -10,9 +10,11 @@ body:
         A **work-order** is the moment a set first enters the system: it exists and needs a checklist.
         Keep this light — **only the Set name is required.**
 
-        On submit, automation reserves the set's identity into the pinned issue fields: `set_id`
-        (a slug of the name) and a fresh `Reserved set UUID`. You don't type those. Then
-        **Discover** finds checklist sources and posts a `<!-- ocp-discover:v1 -->` comment;
+        On submit, automation reserves `set_id` (a slug of the name) into the pinned issue fields.
+        The `Reserved set UUID` is pinned later, by **Discover**, after it looks the set up in the
+        Trading Card API: a set that already exists keeps its existing UUID, and only a new set
+        gets a newly minted one. You don't type either. **Discover** also finds checklist
+        sources and posts a `<!-- ocp-discover:v1 -->` comment;
         that comment, not this form, is what the producer reads. If you know the
         `Release Date`, set it in the sidebar field. Genre / sport / category are optional here —
         they're set for real at the **Normalize** step (in `set.yaml`).
