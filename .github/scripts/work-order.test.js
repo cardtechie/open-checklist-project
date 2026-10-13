@@ -281,3 +281,65 @@ test('reserveIdentity skips an issue that is not a work order', async () => {
   assert.equal(res.action, 'skip');
   assert.equal(github.calls.length, 0);
 });
+
+test('API_UUID_RE accepts only an exact lowercase hyphenated UUID', () => {
+  assert.ok(wo.API_UUID_RE.test(UUID));
+  for (const bad of [
+    UUID.toUpperCase(),
+    `${UUID}\n`,
+    ` ${UUID}`,
+    `${UUID}; rm -rf /`,
+    `$(id)${UUID}`,
+    UUID.replace(/-/g, ''),
+    `{${UUID}}`,
+    '',
+  ]) {
+    assert.equal(wo.API_UUID_RE.test(bad), false, JSON.stringify(bad));
+  }
+});
+
+const STOP_COMMENT = { id: 4, body: `${wo.RESERVE_STOP_MARKER}\nconflict`, user: { type: 'Bot' }, created_at: '2026-10-05T00:00:00Z' };
+const PINNED = [
+  { issue_field_id: wo.F_SETID, data_type: 'text', value: '2025-panini-prizm-draft-picks' },
+  { issue_field_id: wo.F_UUID, data_type: 'text', value: UUID },
+];
+const now = () => '2026-10-12T00:00:00.000Z';
+
+test('stopInEffect: a reserve stop counts until a reserve comment is written after it', () => {
+  assert.equal(wo.stopInEffect([]), false);
+  assert.equal(wo.stopInEffect([STOP_COMMENT]), true);
+  const older = { id: 3, body: `${wo.RESERVE_MARKER}\nok`, user: { type: 'Bot' }, created_at: '2026-10-01T00:00:00Z' };
+  assert.equal(wo.stopInEffect([older, STOP_COMMENT]), true);
+  const newer = { ...older, updated_at: '2026-10-06T00:00:00Z' };
+  assert.equal(wo.stopInEffect([newer, STOP_COMMENT]), false);
+  const human = { ...STOP_COMMENT, user: { type: 'User' } };
+  assert.equal(wo.stopInEffect([human]), false);
+});
+
+test('reserveIdentity noop after a corrected conflict rewrites the reserve comment to supersede the stop', async () => {
+  const github = stubGithub({ fieldValues: PINNED, comments: [STOP_COMMENT] });
+  const plan = await wo.reserveIdentity({ github, context, core, issue: issue77, now });
+  assert.equal(plan.action, 'noop');
+  assert.equal(github.calls.filter(([r]) => r.startsWith('PUT')).length, 0);
+  const created = github.calls.filter(([r]) => r === 'createComment');
+  assert.equal(created.length, 1);
+  assert.ok(created[0][1].body.startsWith(wo.RESERVE_MARKER));
+  assert.match(created[0][1].body, /Supersedes the earlier `ocp-reserve-stop:v1` comment/);
+  assert.match(created[0][1].body, /2026-10-12T00:00:00\.000Z/);
+});
+
+test('reserveIdentity noop with no stop in effect writes no comment', async () => {
+  const github = stubGithub({ fieldValues: PINNED });
+  const plan = await wo.reserveIdentity({ github, context, core, issue: issue77, now });
+  assert.equal(plan.action, 'noop');
+  assert.equal(github.calls.filter(([r]) => r === 'createComment' || r === 'updateComment').length, 0);
+});
+
+test('reserveIdentity write after a stop notes that it supersedes the stop', async () => {
+  const github = stubGithub({ comments: [STOP_COMMENT] });
+  await wo.reserveIdentity({ github, context, core, issue: issue77, now });
+  const created = github.calls.filter(([r]) => r === 'createComment');
+  assert.equal(created.length, 1);
+  assert.ok(created[0][1].body.startsWith(wo.RESERVE_MARKER));
+  assert.match(created[0][1].body, /Supersedes the earlier/);
+});

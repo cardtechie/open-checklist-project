@@ -84,6 +84,13 @@ jobs:
                 core.setFailed(`api_lookup must be found or absent, got ${JSON.stringify(apiLookup)}`);
                 return;
               }
+              // api_set_uuid relays a Trading Card API response. Accept only an exact
+              // lowercase hyphenated UUID, before the value is used anywhere. It is read
+              // from the environment, never interpolated into a shell or this script.
+              if (apiUuid !== null && !wo.API_UUID_RE.test(apiUuid)) {
+                core.setFailed(`api_set_uuid must be a lowercase hyphenated UUID, got ${JSON.stringify(apiUuid)}`);
+                return;
+              }
               const raw = String(process.env.DISPATCH_ISSUE || '').trim();
               if (!/^[1-9][0-9]*$/.test(raw)) {
                 core.setFailed(`issue_number must be a positive integer, got ${JSON.stringify(raw)}`);

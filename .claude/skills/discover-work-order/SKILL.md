@@ -75,12 +75,22 @@ three different years.
 
 If the pinned `set_id` or `Reserved set UUID` field is empty, run the reserve workflow
 for the issue, passing what step 2 found. **Never write the pinned fields by hand**; the
-workflow is the one implementation (`.github/scripts/work-order.js`):
+workflow is the one implementation (`.github/scripts/work-order.js`).
+
+The API set's UUID is data returned by the API, so check it **before it is put into any
+command**: it must match `^[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}$`
+exactly (lowercase, hyphenated, nothing before or after it). Compare the text itself;
+do not echo it through a shell to test it. If it does not match, **stop** with
+`api-invalid-uuid` without dispatching anything, and quote the value in the stop
+comment as data. Only a value that matched goes into the command, as the single-quoted
+`-f` argument below. The workflow checks the same pattern again before it uses the
+input.
 
 ```bash
 # The set exists in the Trading Card API: reuse its UUID. Nothing is minted.
+# <api-set-uuid> is the value that matched the pattern above, and nothing else.
 gh workflow run reserve-work-order.yml --repo cardtechie/open-checklist-project \
-  -f issue_number=<n> -f api_lookup=found -f api_set_uuid=<api-set-uuid>
+  -f issue_number=<n> -f api_lookup=found -f 'api_set_uuid=<api-set-uuid>'
 
 # No set matched: the set is new, and only now is a UUID minted.
 gh workflow run reserve-work-order.yml --repo cardtechie/open-checklist-project \
@@ -108,6 +118,18 @@ existing text and date values over. If the issue holds a value of any other fiel
 it writes nothing and posts an `<!-- ocp-reserve-stop:v1 -->` comment naming the field
 and its type. It posts the same comment when a pinned, body or API UUID disagree. On
 either, stop with `identity-conflict` and quote that comment.
+
+That `ocp-reserve-stop:v1` comment also makes the work order **not Ready** on its own,
+including when an automatic issue-event run (opened, labeled, typed) wrote it after an
+earlier Discover block: `tools/check_work_order.py` treats a reserve stop written
+(created or last edited) at or after the effective Discover block, and at or after the
+workflow's last `<!-- ocp-reserve:v1 -->` comment, as revoking the block. **Recovery:**
+fix the conflict on the issue (correct the body's Set UUID row or clear the conflicting
+field by hand; never overwrite a pinned value to do it), then re-run Discover. Its step
+3 dispatch reaches the workflow, which on success rewrites its `ocp-reserve:v1` comment
+after the stop, even when there is nothing left to write, and its step 5 rewrites the
+Discover block. Either one written after the stop makes the work order Ready again, so
+no stale stop stays in effect.
 
 Then check for collisions **before anything is published**: run
 `python tools/check_work_order.py <n>` from an up-to-date `main` checkout. It checks
@@ -200,7 +222,7 @@ reason: source-disagreement
 ```
 
 The first line is the marker and the second is `reason:` with one value:
-`ambiguous-api-match`, `api-mismatch`, `identity-conflict`, `no-source`,
+`ambiguous-api-match`, `api-mismatch`, `api-invalid-uuid`, `identity-conflict`, `no-source`,
 `source-disagreement`, `ambiguous-product`, `set-id-collision`, `uuid-collision` or
 `checker-not-ready`. Then the evidence.
 

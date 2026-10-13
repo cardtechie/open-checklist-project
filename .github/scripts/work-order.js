@@ -12,7 +12,9 @@
 //   API, that UUID is the set's identity, and a fresh one would make the downstream
 //   upsert create a duplicate set (tradingcardapi-tools#1051).
 // - If a pinned UUID and a body UUID disagree, nothing is written and the work order
-//   gets a stop comment naming both.
+//   gets a stop comment (`ocp-reserve-stop:v1`) naming both. tools/check_work_order.py
+//   treats that stop as making the work order not Ready. A later successful run
+//   (write or noop) rewrites the reserve comment after the stop, which supersedes it.
 // - A UUID is reserved only after Discover has looked the set up in the Trading Card
 //   API, and the dispatch says what it found (`apiLookup`):
 //   - `found`: the set exists, and its UUID (`apiUuid`) is the reserved UUID. Nothing
@@ -47,6 +49,9 @@ const RESERVE_STOP_MARKER = '<!-- ocp-reserve-stop:v1 -->';
 
 const SLUG_RE = /^[a-z0-9]+(-[a-z0-9]+)*$/;
 const UUID_RE = /^[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}$/i;
+// The exact form a Trading Card API set UUID must take before Discover's dispatch input
+// is used: lowercase and hyphenated, nothing else (#78).
+const API_UUID_RE = /^[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}$/;
 
 // Strip markdown decoration from a table cell or form answer.
 function clean(value) {
@@ -208,14 +213,37 @@ function carryValues(existing, plan) {
   return { values };
 }
 
-// Create the comment carrying `marker`, or update this workflow's existing one.
-async function upsertComment({ github, owner, repo, issue_number, marker, body }) {
-  const comments = await github.paginate(github.rest.issues.listComments, {
+function listComments({ github, owner, repo, issue_number }) {
+  return github.paginate(github.rest.issues.listComments, {
     owner, repo, issue_number, per_page: 100,
   });
-  const mine = comments.find(
+}
+
+// This workflow's own comment carrying `marker`, or undefined.
+function botComment(comments, marker) {
+  return (comments || []).find(
     (c) => (c.body || '').startsWith(marker) && c.user && c.user.type === 'Bot',
   );
+}
+
+function lastWritten(c) {
+  return (c && (c.updated_at || c.created_at)) || '';
+}
+
+// True when this workflow's reserve stop is in effect: it exists and was written at or
+// after its last reserve comment. tools/check_work_order.py treats such a stop as making
+// the work order not Ready until a reserve comment or Discover block is written after it.
+function stopInEffect(comments) {
+  const stop = botComment(comments, RESERVE_STOP_MARKER);
+  if (!stop) return false;
+  const ok = botComment(comments, RESERVE_MARKER);
+  return !ok || lastWritten(stop) >= lastWritten(ok);
+}
+
+// Create the comment carrying `marker`, or update this workflow's existing one.
+async function upsertComment({ github, owner, repo, issue_number, marker, body }) {
+  const comments = await listComments({ github, owner, repo, issue_number });
+  const mine = botComment(comments, marker);
   const full = `${marker}\n${body}`;
   if (mine) {
     if (mine.body !== full) {
@@ -229,7 +257,12 @@ async function upsertComment({ github, owner, repo, issue_number, marker, body }
 // Reserve the identity of one work-order issue. `issue` is the REST issue object.
 // `apiLookup`/`apiUuid` come only from Discover's dispatch, after its Trading Card API
 // lookup; an issue event passes neither. See the rules above.
-async function reserveIdentity({ github, context, core, issue, apiLookup = null, apiUuid = null }) {
+// `now` stamps the note that supersedes an earlier stop, so that comment is always
+// rewritten (and so written after the stop) rather than skipped as unchanged.
+async function reserveIdentity({
+  github, context, core, issue, apiLookup = null, apiUuid = null,
+  now = () => new Date().toISOString(),
+}) {
   const { owner, repo } = context.repo;
   const issue_number = issue.number;
 
@@ -262,10 +295,27 @@ async function reserveIdentity({ github, context, core, issue, apiLookup = null,
     core.warning(`#${issue_number}: ${plan.reason}`);
     return plan;
   }
+  // A successful run (write or noop) supersedes this workflow's earlier stop, by writing
+  // its reserve comment after the stop. Without that, a corrected issue whose identity
+  // was already pinned would stay not Ready on a stop that no longer applies.
+  const supersedes = stopInEffect(await listComments({ github, owner, repo, issue_number }));
+  const supersedeNote = supersedes
+    ? ` Supersedes the earlier \`ocp-reserve-stop:v1\` comment: the identity was checked again at ${now()} and no conflict remains.`
+    : '';
+
   if (plan.action === 'noop') {
     core.info(plan.uuidSource === 'deferred'
       ? `#${issue_number}: set_id already pinned; Reserved set UUID is left for Discover to reserve after its API lookup.`
       : `#${issue_number}: set_id and Reserved set UUID already pinned; nothing to do.`);
+    if (supersedes) {
+      const uuidText = plan.uuid
+        ? '`Reserved set UUID`: `' + plan.uuid + '`'
+        : '`Reserved set UUID`: not yet reserved (Discover reserves it after the Trading Card API lookup)';
+      await upsertComment({
+        github, owner, repo, issue_number, marker: RESERVE_MARKER,
+        body: '🔖 Identity confirmed — `set_id`: `' + plan.setId + '` · ' + uuidText + '.' + supersedeNote,
+      });
+    }
     return plan;
   }
 
@@ -304,7 +354,7 @@ async function reserveIdentity({ github, context, core, issue, apiLookup = null,
   await upsertComment({
     github, owner, repo, issue_number, marker: RESERVE_MARKER,
     body: '🔖 Reserved identity — ' + parts.join(' · ') +
-      '. Committed unchanged into `set.yaml` when the filling PR lands.',
+      '. Committed unchanged into `set.yaml` when the filling PR lands.' + supersedeNote,
   });
   return plan;
 }
@@ -315,7 +365,9 @@ module.exports = {
   F_REL,
   RESERVE_MARKER,
   RESERVE_STOP_MARKER,
+  API_UUID_RE,
   parseBody,
+  stopInEffect,
   deriveSetId,
   isWorkOrder,
   planIdentity,

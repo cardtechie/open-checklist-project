@@ -52,6 +52,18 @@ start.
    pinned fields stay the source of truth for `set_id` and the UUID, and the block never
    repeats them.
 
+   A reservation stop revokes the block the same way. When the reserve workflow
+   (`.github/workflows/reserve-work-order.yml`) finds a pinned, body or API UUID
+   conflict, or a field it cannot carry over, it writes nothing and posts
+   `<!-- ocp-reserve-stop:v1 -->` as GitHub Actions; an automatic run on an issue event
+   can do this after Discover already posted its block. A reserve stop from GitHub
+   Actions or a trusted author, written at or after both the effective block and the
+   workflow's last `<!-- ocp-reserve:v1 -->` comment, makes the work order not Ready.
+   To recover, fix the conflict on the issue (never by overwriting a pinned value) and
+   re-run Discover: a successful reservation rewrites its `ocp-reserve:v1` comment after
+   the stop, even when nothing is left to write, and Discover rewrites its block. Either
+   one written after the stop makes the work order Ready again.
+
 Worked Discover block for work order #77:
 
 ````markdown
