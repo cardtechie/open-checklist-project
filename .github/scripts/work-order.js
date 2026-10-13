@@ -13,14 +13,20 @@
 //   upsert create a duplicate set (tradingcardapi-tools#1051).
 // - If a pinned UUID and a body UUID disagree, nothing is written and the work order
 //   gets a stop comment naming both.
-// - A UUID is minted only when the caller allows it (`allowMint`). The workflow allows
-//   it on a dispatch only, which is how Discover runs it after its Trading Card API
-//   lookup. An automatic issue event (opened/labeled/typed) fires before that lookup,
-//   so minting there would pin a fresh UUID for a set the API may already hold, and
-//   the no-overwrite rule would then make the conflict unrecoverable. On those events
-//   only `set_id` (and a body-recorded UUID) is reserved.
-// - The PUT replaces the issue's whole field-value set, so every existing entry is
-//   carried over and only the missing identity values are added.
+// - A UUID is reserved only after Discover has looked the set up in the Trading Card
+//   API, and the dispatch says what it found (`apiLookup`):
+//   - `found`: the set exists, and its UUID (`apiUuid`) is the reserved UUID. Nothing
+//     is minted. A pinned or body UUID that disagrees with it is a stop.
+//   - `absent`: the set is new, so a UUID is minted unless one is already pinned or
+//     recorded in the body.
+//   An automatic issue event (opened/labeled/typed) fires before that lookup, so it
+//   carries no `apiLookup`: it reserves `set_id` (and a body-recorded UUID) only and
+//   never mints. Minting there would pin a fresh UUID for a set the API may already
+//   hold, and the no-overwrite rule would then make the conflict unrecoverable.
+// - The PUT replaces the issue's whole field-value set, so existing values must be
+//   carried over. Only `text` and `date` fields are carried (their value round-trips
+//   unchanged). Any other field type stops the write with a comment naming the field
+//   and its type, rather than guessing how to write it back.
 //
 // The issue body is untrusted text. It is only parsed here, never executed or passed
 // to a shell.
@@ -118,15 +124,35 @@ function isWorkOrder(issue) {
 }
 
 // Decide what to write, without any I/O. `pinned` is { setId, uuid } as currently
-// stored. Returns { action: 'write' | 'noop' | 'stop', setId, uuid, uuidSource,
-// changed, reason }. With `allowMint: false` and no pinned or body UUID, `uuid` is
-// null and `uuidSource` is 'deferred': the UUID is left for Discover to reserve.
-function planIdentity({ title, body, pinned, allowMint = true, mint = () => crypto.randomUUID() }) {
+// stored. `apiLookup` is 'found', 'absent', or null (an issue event: no lookup yet);
+// `apiUuid` is the matched set's UUID when `apiLookup` is 'found'. Returns
+// { action: 'write' | 'noop' | 'stop', setId, uuid, uuidSource, changed, reason }.
+// With no lookup and no pinned or body UUID, `uuid` is null and `uuidSource` is
+// 'deferred': the UUID is left for Discover to reserve.
+function planIdentity({ title, body, pinned, apiLookup = null, apiUuid = null, mint = () => crypto.randomUUID() }) {
   const { uuid: bodyUuid } = parseBody(body);
   const pinnedSetId = pinned && pinned.setId ? String(pinned.setId) : null;
-  const pinnedUuid = pinned && pinned.uuid ? String(pinned.uuid) : null;
+  const pinnedUuid = pinned && pinned.uuid ? String(pinned.uuid).trim() : null;
+  const same = (a, b) => a.toLowerCase() === b.toLowerCase();
 
-  if (pinnedUuid && bodyUuid && pinnedUuid.trim().toLowerCase() !== bodyUuid.toLowerCase()) {
+  if (apiLookup !== null && apiLookup !== 'found' && apiLookup !== 'absent') {
+    return { action: 'stop', reason: `the API lookup result must be \`found\` or \`absent\`, got \`${apiLookup}\`` };
+  }
+  let api = null;
+  if (apiLookup === 'found') {
+    api = apiUuid ? String(apiUuid).trim() : '';
+    if (!UUID_RE.test(api)) {
+      return { action: 'stop', reason: `the API lookup found the set but gave no valid set UUID (\`${api}\`)` };
+    }
+    if (pinnedUuid && !same(pinnedUuid, api)) {
+      return { action: 'stop', reason: `the pinned \`Reserved set UUID\` (\`${pinnedUuid}\`) differs from the Trading Card API set's UUID (\`${api}\`)` };
+    }
+    if (bodyUuid && !same(bodyUuid, api)) {
+      return { action: 'stop', reason: `the Set UUID recorded in the body (\`${bodyUuid}\`) differs from the Trading Card API set's UUID (\`${api}\`)` };
+    }
+  }
+
+  if (pinnedUuid && bodyUuid && !same(pinnedUuid, bodyUuid)) {
     return {
       action: 'stop',
       reason: `the pinned \`Reserved set UUID\` (\`${pinnedUuid}\`) differs from the Set UUID recorded in the body (\`${bodyUuid}\`)`,
@@ -141,10 +167,13 @@ function planIdentity({ title, body, pinned, allowMint = true, mint = () => cryp
   let uuid = pinnedUuid;
   let uuidSource = 'pinned';
   if (!uuid) {
-    if (bodyUuid) {
+    if (api) {
+      uuid = api;
+      uuidSource = 'api';
+    } else if (bodyUuid) {
       uuid = bodyUuid;
       uuidSource = 'body';
-    } else if (allowMint) {
+    } else if (apiLookup === 'absent') {
       uuid = mint();
       uuidSource = 'minted';
     } else {
@@ -157,6 +186,26 @@ function planIdentity({ title, body, pinned, allowMint = true, mint = () => cryp
   if (!pinnedSetId) changed.push('set_id');
   if (!pinnedUuid && uuid) changed.push('uuid');
   return { action: changed.length ? 'write' : 'noop', setId, uuid, uuidSource, changed };
+}
+
+// Field types whose stored value can be written back unchanged by the PUT.
+const CARRY_TYPES = ['text', 'date'];
+
+// Build the PUT body: every existing text/date value carried over, plus the identity
+// values that were missing. Returns { values } or { stop: { name, type } } for the
+// first set field of any other type.
+function carryValues(existing, plan) {
+  const values = [];
+  for (const f of existing) {
+    if (f.value === null || f.value === undefined || f.value === '') continue;
+    if (!CARRY_TYPES.includes(f.data_type)) {
+      return { stop: { name: f.issue_field_name || String(f.issue_field_id), type: f.data_type || 'unknown' } };
+    }
+    values.push({ field_id: f.issue_field_id, value: f.value });
+  }
+  if (plan.changed.includes('set_id')) values.push({ field_id: F_SETID, value: plan.setId });
+  if (plan.changed.includes('uuid')) values.push({ field_id: F_UUID, value: plan.uuid });
+  return { values };
 }
 
 // Create the comment carrying `marker`, or update this workflow's existing one.
@@ -178,9 +227,9 @@ async function upsertComment({ github, owner, repo, issue_number, marker, body }
 }
 
 // Reserve the identity of one work-order issue. `issue` is the REST issue object.
-// `allowMint` must be true only once the Trading Card API lookup has run (Discover's
-// dispatch); see the rules above.
-async function reserveIdentity({ github, context, core, issue, allowMint = false }) {
+// `apiLookup`/`apiUuid` come only from Discover's dispatch, after its Trading Card API
+// lookup; an issue event passes neither. See the rules above.
+async function reserveIdentity({ github, context, core, issue, apiLookup = null, apiUuid = null }) {
   const { owner, repo } = context.repo;
   const issue_number = issue.number;
 
@@ -201,7 +250,8 @@ async function reserveIdentity({ github, context, core, issue, allowMint = false
     title: issue.title,
     body: issue.body,
     pinned: { setId: byId[F_SETID], uuid: byId[F_UUID] },
-    allowMint,
+    apiLookup,
+    apiUuid,
   });
 
   if (plan.action === 'stop') {
@@ -219,13 +269,20 @@ async function reserveIdentity({ github, context, core, issue, allowMint = false
     return plan;
   }
 
-  // PUT replaces the whole field-value set: carry every existing entry over unchanged
-  // and add only the identity values that were missing.
-  const values = existing
-    .filter((f) => f.value !== null && f.value !== undefined && f.value !== '')
-    .map((f) => ({ field_id: f.issue_field_id, value: f.value }));
-  if (plan.changed.includes('set_id')) values.push({ field_id: F_SETID, value: plan.setId });
-  if (plan.changed.includes('uuid')) values.push({ field_id: F_UUID, value: plan.uuid });
+  // PUT replaces the whole field-value set: carry existing text/date values over and
+  // stop on any other type rather than guess how to write it back.
+  const carried = carryValues(existing, plan);
+  if (carried.stop) {
+    const { name, type } = carried.stop;
+    const reason = `the issue has a value in the \`${name}\` field, of type \`${type}\`. Writing the identity replaces every field value, and only text and date values are carried over, so this one would be lost`;
+    await upsertComment({
+      github, owner, repo, issue_number, marker: RESERVE_STOP_MARKER,
+      body: `⏸ **Identity not reserved** — ${reason}. Nothing was written. Clear or record that field by hand, or extend the backfill to the \`${type}\` type, then re-run the workflow.`,
+    });
+    core.warning(`#${issue_number}: stopped on field ${name} (${type})`);
+    return { action: 'stop', reason, field: name, fieldType: type };
+  }
+  const values = carried.values;
 
   await github.request(
     'PUT /repos/{owner}/{repo}/issues/{issue_number}/issue-field-values',
@@ -235,7 +292,11 @@ async function reserveIdentity({ github, context, core, issue, allowMint = false
   const parts = [];
   if (plan.changed.includes('set_id')) parts.push('`set_id`: `' + plan.setId + '`');
   if (plan.changed.includes('uuid')) {
-    const how = plan.uuidSource === 'body' ? ' (copied from the Set UUID in the body)' : ' (newly minted)';
+    const how = {
+      api: ' (the existing Trading Card API set)',
+      body: ' (copied from the Set UUID in the body)',
+      minted: ' (newly minted: the set is not in the Trading Card API)',
+    }[plan.uuidSource] || '';
     parts.push('`Reserved set UUID`: `' + plan.uuid + '`' + how);
   } else if (plan.uuidSource === 'deferred') {
     parts.push('`Reserved set UUID`: not yet reserved (Discover reserves it after the Trading Card API lookup)');
@@ -258,5 +319,6 @@ module.exports = {
   deriveSetId,
   isWorkOrder,
   planIdentity,
+  carryValues,
   reserveIdentity,
 };

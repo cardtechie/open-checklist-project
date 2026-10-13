@@ -73,28 +73,60 @@ test('planIdentity copies the body UUID instead of minting (#77)', () => {
   assert.deepEqual(plan.changed, ['set_id', 'uuid']);
 });
 
-test('planIdentity mints only when no UUID is pinned or recorded', () => {
-  const plan = wo.planIdentity({ title: '', body: FORM_BODY, pinned: {}, mint: () => 'minted' });
+const NO_MINT = () => { throw new Error('must not mint'); };
+
+test('planIdentity mints only when the API lookup says the set is absent', () => {
+  const plan = wo.planIdentity({ title: '', body: FORM_BODY, pinned: {}, apiLookup: 'absent', mint: () => 'minted' });
   assert.equal(plan.uuid, 'minted');
   assert.equal(plan.uuidSource, 'minted');
 });
 
-test('planIdentity defers the UUID instead of minting when minting is not allowed', () => {
-  const plan = wo.planIdentity({
-    title: '', body: FORM_BODY, pinned: {}, allowMint: false,
-    mint: () => { throw new Error('must not mint before the API lookup'); },
-  });
+test('planIdentity defers the UUID on an issue event (no API lookup yet)', () => {
+  const plan = wo.planIdentity({ title: '', body: FORM_BODY, pinned: {}, mint: NO_MINT });
   assert.equal(plan.action, 'write');
   assert.equal(plan.uuid, null);
   assert.equal(plan.uuidSource, 'deferred');
   assert.deepEqual(plan.changed, ['set_id']);
 
-  const pinnedSlug = wo.planIdentity({ title: '', body: FORM_BODY, pinned: { setId: 'kept' }, allowMint: false });
+  const pinnedSlug = wo.planIdentity({ title: '', body: FORM_BODY, pinned: { setId: 'kept' }, mint: NO_MINT });
   assert.equal(pinnedSlug.action, 'noop');
 
-  const fromBody = wo.planIdentity({ title: TABLE_TITLE, body: TABLE_BODY, pinned: {}, allowMint: false });
+  const fromBody = wo.planIdentity({ title: TABLE_TITLE, body: TABLE_BODY, pinned: {}, mint: NO_MINT });
   assert.equal(fromBody.uuid, UUID);
   assert.deepEqual(fromBody.changed, ['set_id', 'uuid']);
+});
+
+test('planIdentity reuses the existing API set UUID for Prizm Draft Picks (#77) and mints nothing', () => {
+  const plan = wo.planIdentity({
+    title: TABLE_TITLE, body: TABLE_BODY, pinned: {}, apiLookup: 'found', apiUuid: UUID, mint: NO_MINT,
+  });
+  assert.equal(plan.action, 'write');
+  assert.equal(plan.uuid, 'a1e7c40a-d72f-47ca-860d-6d4f603b876f');
+  assert.equal(plan.uuidSource, 'api');
+  assert.deepEqual(plan.changed, ['set_id', 'uuid']);
+});
+
+test('planIdentity reuses the API set UUID even when the body records none', () => {
+  const plan = wo.planIdentity({
+    title: '', body: FORM_BODY, pinned: {}, apiLookup: 'found', apiUuid: UUID, mint: NO_MINT,
+  });
+  assert.equal(plan.uuid, UUID);
+  assert.equal(plan.uuidSource, 'api');
+});
+
+test('planIdentity stops when the API set UUID disagrees with a pinned or body UUID', () => {
+  const other = '00000000-0000-4000-8000-000000000000';
+  const vsBody = wo.planIdentity({ title: TABLE_TITLE, body: TABLE_BODY, pinned: {}, apiLookup: 'found', apiUuid: other, mint: NO_MINT });
+  assert.equal(vsBody.action, 'stop');
+  assert.match(vsBody.reason, /Trading Card API/);
+  const vsPinned = wo.planIdentity({ title: '', body: FORM_BODY, pinned: { uuid: other }, apiLookup: 'found', apiUuid: UUID, mint: NO_MINT });
+  assert.equal(vsPinned.action, 'stop');
+});
+
+test('planIdentity stops when the lookup found a set but gave no valid UUID, or the result is unknown', () => {
+  assert.equal(wo.planIdentity({ title: '', body: FORM_BODY, pinned: {}, apiLookup: 'found', mint: NO_MINT }).action, 'stop');
+  assert.equal(wo.planIdentity({ title: '', body: FORM_BODY, pinned: {}, apiLookup: 'found', apiUuid: 'nope', mint: NO_MINT }).action, 'stop');
+  assert.equal(wo.planIdentity({ title: '', body: FORM_BODY, pinned: {}, apiLookup: 'maybe', mint: NO_MINT }).action, 'stop');
 });
 
 test('planIdentity never overwrites pinned values', () => {
@@ -167,11 +199,12 @@ test('reserveIdentity writes both fields and comments once', async () => {
   assert.ok(created[0][1].body.startsWith(wo.RESERVE_MARKER));
 });
 
-test('reserveIdentity carries every existing field value over in the PUT', async () => {
+test('reserveIdentity carries existing text and date field values over in the PUT', async () => {
   const github = stubGithub({
     fieldValues: [
-      { issue_field_id: 19561085, value: '2026-10-01' },
-      { issue_field_id: wo.F_REL, value: '2026-09-28' },
+      { issue_field_id: 19561085, data_type: 'date', issue_field_name: 'Target date', value: '2026-10-01' },
+      { issue_field_id: wo.F_REL, data_type: 'date', issue_field_name: 'Release Date', value: '2026-09-28' },
+      { issue_field_id: 555, data_type: 'text', issue_field_name: 'Notes', value: 'keep me' },
     ],
   });
   await wo.reserveIdentity({ github, context, core, issue: issue77 });
@@ -179,27 +212,45 @@ test('reserveIdentity carries every existing field value over in the PUT', async
   assert.deepEqual(put[1].issue_field_values, [
     { field_id: 19561085, value: '2026-10-01' },
     { field_id: wo.F_REL, value: '2026-09-28' },
+    { field_id: 555, value: 'keep me' },
     { field_id: wo.F_SETID, value: '2025-panini-prizm-draft-picks' },
     { field_id: wo.F_UUID, value: UUID },
   ]);
 });
 
-test('reserveIdentity mints only when allowed, and never on an issue event', async () => {
-  const formIssue = { number: 90, title: '[Work Order] 2026 Bowman', body: FORM_BODY, labels: [{ name: 'work-order' }] };
+test('reserveIdentity stops on any other field type, names it, and writes nothing', async () => {
+  const github = stubGithub({
+    fieldValues: [
+      { issue_field_id: 19561085, data_type: 'date', issue_field_name: 'Target date', value: '2026-10-01' },
+      { issue_field_id: 19561086, data_type: 'single_select', issue_field_name: 'Effort', value: 'Medium' },
+    ],
+  });
+  const plan = await wo.reserveIdentity({ github, context, core, issue: issue77 });
+  assert.equal(plan.action, 'stop');
+  assert.equal(plan.field, 'Effort');
+  assert.equal(plan.fieldType, 'single_select');
+  assert.equal(github.calls.filter(([r]) => r.startsWith('PUT')).length, 0);
+  const created = github.calls.filter(([r]) => r === 'createComment');
+  assert.equal(created.length, 1);
+  assert.ok(created[0][1].body.startsWith(wo.RESERVE_STOP_MARKER));
+  assert.match(created[0][1].body, /`Effort`/);
+  assert.match(created[0][1].body, /`single_select`/);
+});
 
-  const onEvent = stubGithub();
-  const plan = await wo.reserveIdentity({ github: onEvent, context, core, issue: formIssue });
-  assert.equal(plan.uuidSource, 'deferred');
-  const put = onEvent.calls.find(([r]) => r.startsWith('PUT'));
-  assert.deepEqual(put[1].issue_field_values, [{ field_id: wo.F_SETID, value: '2026-bowman' }]);
+test('carryValues stops on a field with no data_type rather than guessing', () => {
+  const res = wo.carryValues([{ issue_field_id: 7, value: 3 }], { changed: [] });
+  assert.deepEqual(res.stop, { name: '7', type: 'unknown' });
+});
 
-  const onDispatch = stubGithub({ fieldValues: [{ issue_field_id: wo.F_SETID, value: '2026-bowman' }] });
-  const minted = await wo.reserveIdentity({ github: onDispatch, context, core, issue: formIssue, allowMint: true });
-  assert.equal(minted.uuidSource, 'minted');
-  const put2 = onDispatch.calls.find(([r]) => r.startsWith('PUT'));
-  assert.equal(put2[1].issue_field_values.length, 2);
-  assert.deepEqual(put2[1].issue_field_values[0], { field_id: wo.F_SETID, value: '2026-bowman' });
-  assert.equal(put2[1].issue_field_values[1].field_id, wo.F_UUID);
+test('reserveIdentity on Discover dispatch for #77 pins the existing API UUID', async () => {
+  const github = stubGithub();
+  const plan = await wo.reserveIdentity({ github, context, core, issue: issue77, apiLookup: 'found', apiUuid: UUID });
+  assert.equal(plan.uuidSource, 'api');
+  const put = github.calls.find(([r]) => r.startsWith('PUT'));
+  assert.deepEqual(put[1].issue_field_values, [
+    { field_id: wo.F_SETID, value: '2025-panini-prizm-draft-picks' },
+    { field_id: wo.F_UUID, value: 'a1e7c40a-d72f-47ca-860d-6d4f603b876f' },
+  ]);
 });
 
 test('reserveIdentity updates its own earlier comment instead of adding one', async () => {
@@ -213,7 +264,7 @@ test('reserveIdentity updates its own earlier comment instead of adding one', as
 
 test('reserveIdentity writes nothing on a UUID conflict', async () => {
   const github = stubGithub({
-    fieldValues: [{ issue_field_id: wo.F_UUID, value: '00000000-0000-4000-8000-000000000000' }],
+    fieldValues: [{ issue_field_id: wo.F_UUID, data_type: 'text', value: '00000000-0000-4000-8000-000000000000' }],
   });
   const plan = await wo.reserveIdentity({ github, context, core, issue: issue77 });
   assert.equal(plan.action, 'stop');

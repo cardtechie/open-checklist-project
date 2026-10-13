@@ -47,8 +47,8 @@ or, failing that, its title.
   Discover block's `name`. If the body does not already record that UUID, add a row
   `| Set UUID | <uuid> |` to the body's table (or append a two-column table holding it)
   so the reserve workflow copies it. Edit nothing else in the body.
-- **No set matches.** The set is new. The reserve workflow will mint a UUID, and the
-  Discover block carries no `name`.
+- **No set matches.** The set is new. Only then does the reserve workflow mint a UUID
+  (step 3, `api_lookup=absent`), and the Discover block carries no `name`.
 - **Stop** (`ambiguous-api-match`) when more than one API set matches.
 - **Stop** (`api-mismatch`) when the matched set's year or genre disagrees with the work
   order, or when a pinned `Reserved set UUID` (or a body Set UUID) differs from the
@@ -60,11 +60,17 @@ three different years.
 ## 3. Identity
 
 If the pinned `set_id` or `Reserved set UUID` field is empty, run the reserve workflow
-for the issue. **Never write the pinned fields by hand**; the workflow is the one
-implementation (`.github/scripts/work-order.js`):
+for the issue, passing what step 2 found. **Never write the pinned fields by hand**; the
+workflow is the one implementation (`.github/scripts/work-order.js`):
 
 ```bash
-gh workflow run reserve-work-order.yml --repo cardtechie/open-checklist-project -f issue_number=<n>
+# The set exists in the Trading Card API: reuse its UUID. Nothing is minted.
+gh workflow run reserve-work-order.yml --repo cardtechie/open-checklist-project \
+  -f issue_number=<n> -f api_lookup=found -f api_set_uuid=<api-set-uuid>
+
+# No set matched: the set is new, and only now is a UUID minted.
+gh workflow run reserve-work-order.yml --repo cardtechie/open-checklist-project \
+  -f issue_number=<n> -f api_lookup=absent
 ```
 
 Find that run (`gh run list --workflow reserve-work-order.yml --repo
@@ -77,13 +83,17 @@ gh api repos/cardtechie/open-checklist-project/issues/<n>/issue-field-values
 ```
 
 The workflow slugs `set_id` from the body's Set name (else the title minus
-`[Work Order] `), copies the body's Set UUID when present, and mints a UUID only when
-neither is pinned nor recorded **and** it was started by this dispatch. The automatic
-issue-event runs (opened, labeled, typed) fire before step 2's API lookup, so they
-reserve `set_id` only and leave the UUID empty for this step. It never overwrites a
-pinned value. If it posts an
-`<!-- ocp-reserve-stop:v1 -->` comment (a pinned UUID disagrees with the body's), stop
-with `identity-conflict` and quote that comment.
+`[Work Order] `). For the UUID, `api_lookup=found` uses the API set's UUID and never
+mints; `api_lookup=absent` copies the body's Set UUID when present and otherwise mints
+one. The automatic issue-event runs (opened, labeled, typed) fire before step 2's API
+lookup, so they reserve `set_id` (and a body-recorded UUID) only and never mint. It
+never overwrites a pinned value.
+
+The workflow's write replaces every field value on the issue, so it carries the
+existing text and date values over. If the issue holds a value of any other field type,
+it writes nothing and posts an `<!-- ocp-reserve-stop:v1 -->` comment naming the field
+and its type. It posts the same comment when a pinned, body or API UUID disagree. On
+either, stop with `identity-conflict` and quote that comment.
 
 Collisions are checked by `tools/check_work_order.py` against `data/` on `main` (run it
 from an up-to-date `main` checkout). After the Discover block is posted (step 5), a
