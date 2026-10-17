@@ -7,6 +7,9 @@ on:
       - 'data/**/*.yaml'
       - 'schemas/**/*.yaml'
       - 'tools/**'
+  # A merge queue event carries no path filter, so the check always reports there
+  # (mirrors work-order-tests.yml).
+  merge_group:
 
 jobs:
   validate:
