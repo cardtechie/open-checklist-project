@@ -77,6 +77,12 @@ consecutive famous players; `--famous-run N`), and `--source-runs` (print runs d
 by the source, as a YAML/JSON mapping). `--check-links` opts in to HEAD-probing URLs;
 without it the URL row only counts placeholder-looking URLs and is marked `(partial)`.
 
+## Releases
+
+The repository uses semantic versioning with bare-number tags. Add your changelog entry under
+`## [Unreleased]`; a maintainer cuts the release. See [`docs/RELEASING.md`](docs/RELEASING.md)
+for the bump rules and the release process.
+
 ## Bulk and generated imports
 
 Unattended set production from a work order follows the Stage A producer contract in
