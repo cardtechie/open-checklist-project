@@ -42,6 +42,13 @@ To keep PRs reviewable and CI fast, scope each PR to a single concern:
 - **Rebase, don't merge.** Keep your branch's history linear; avoid merge commits
   from `main`.
 
+## Changelog
+
+Every PR adds a one-line entry to [`CHANGELOG.md`](CHANGELOG.md) under `## [Unreleased]`, in the
+matching subheading (Added, Changed, Fixed or Removed). Follow the existing style: an imperative
+sentence ending in a period, prefixed with the issue number, for example
+`- **[Issue #123]** Add a thing.` A data-only set PR can use a single "Added" line naming the set.
+
 ## Tooling contributions
 
 Tools in `/tools` are welcome, but they must be **generic and reusable** by
