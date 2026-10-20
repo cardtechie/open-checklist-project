@@ -1,0 +1,144 @@
+#!/usr/bin/env bash
+#
+# Tests for scripts/collate-changelog.sh. Runs the collator against throwaway
+# git repos, so it never touches this repo's CHANGELOG.md or changelog.d/.
+#
+# Usage: bash scripts/collate-changelog.test.sh
+
+set -uo pipefail
+
+SRC="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)/collate-changelog.sh"
+fails=0
+count=0
+
+pass() { count=$((count + 1)); printf 'ok   %s\n' "$1"; }
+fail() { count=$((count + 1)); fails=$((fails + 1)); printf 'FAIL %s\n' "$1"; }
+
+# new_repo: make a fixture repo with the current CHANGELOG shape; cd into it.
+new_repo() {
+  dir=$(mktemp -d)
+  cd "$dir" || exit 1
+  git init -q .
+  mkdir -p scripts changelog.d
+  cp "$SRC" scripts/collate-changelog.sh
+  cat > CHANGELOG.md <<'CL'
+# Changelog
+
+All notable changes to this project are documented in this file.
+
+## [Unreleased]
+
+### Added
+
+- **[Issue #2]** Second entry.
+- **[Issue #1]** First entry.
+CL
+}
+
+run() { bash scripts/collate-changelog.sh "$@" >"$OUT" 2>&1; echo $?; }
+OUT=$(mktemp)
+
+# 1. collate appends under the matching subsection, in ascending issue order.
+new_repo
+echo '- **[Issue #20]** Later.' > changelog.d/20-added.md
+echo '- **[Issue #10]** Earlier.' > changelog.d/10-added.md
+rc=$(run)
+expected=$(cat <<'CL'
+# Changelog
+
+All notable changes to this project are documented in this file.
+
+## [Unreleased]
+
+### Added
+
+- **[Issue #2]** Second entry.
+- **[Issue #1]** First entry.
+- **[Issue #10]** Earlier.
+- **[Issue #20]** Later.
+CL
+)
+[ "$rc" = 0 ] && [ "$(cat CHANGELOG.md)" = "$expected" ] && pass "appends in ascending order, existing lines untouched" || fail "append layout"
+[ ! -e changelog.d/10-added.md ] && [ ! -e changelog.d/20-added.md ] && pass "consumed fragments are deleted" || fail "fragments deleted"
+
+# 2. repeat collation is a no-op.
+before=$(cat CHANGELOG.md)
+rc=$(run)
+[ "$rc" = 0 ] && [ "$(cat CHANGELOG.md)" = "$before" ] && pass "repeat collation changes nothing" || fail "repeat collation"
+
+# 3. new subsection is created in Keep-a-Changelog order.
+new_repo
+echo '- **[Issue #5]** Fix it.' > changelog.d/5-fixed.md
+echo '- **[Issue #6]** Change it.' > changelog.d/6-changed.md
+rc=$(run)
+order=$(grep '^### ' CHANGELOG.md | tr '\n' ' ')
+[ "$rc" = 0 ] && [ "$order" = "### Added ### Changed ### Fixed " ] && pass "new subsections created in order" || fail "subsection order ($order)"
+
+# 4. released sections after [Unreleased] are preserved verbatim.
+new_repo
+printf '\n## [1.0.0] - 2026-01-01\n\n### Added\n\n- Old thing.\n' >> CHANGELOG.md
+echo '- **[Issue #7]** New.' > changelog.d/7-added.md
+rc=$(run)
+tail -n 5 CHANGELOG.md | grep -q -- '- Old thing.' && grep -q '^## \[1.0.0\] - 2026-01-01$' CHANGELOG.md \
+  && [ "$(grep -c '^## ' CHANGELOG.md)" = 2 ] && [ "$rc" = 0 ] && pass "released sections preserved" || fail "released sections"
+
+# 5. no [Unreleased] section: one is created before the first section.
+new_repo
+printf '# Changelog\n\n## [1.0.0] - 2026-01-01\n\n### Added\n\n- Old.\n' > CHANGELOG.md
+echo '- **[Issue #8]** New.' > changelog.d/8-added.md
+rc=$(run)
+[ "$rc" = 0 ] && [ "$(grep '^## ' CHANGELOG.md | head -1)" = "## [Unreleased]" ] && pass "creates [Unreleased] when absent" || fail "create [Unreleased]"
+
+# 6. --check validates without writing.
+new_repo
+echo '- **[Issue #9]** Entry.' > changelog.d/9-added.md
+before=$(cat CHANGELOG.md)
+rc=$(run --check)
+[ "$rc" = 0 ] && [ "$(cat CHANGELOG.md)" = "$before" ] && [ -e changelog.d/9-added.md ] && pass "--check writes nothing" || fail "--check"
+
+# 7. bad names fail --check and collation, and consume nothing.
+new_repo
+echo '- **[Issue #9]** Entry.' > changelog.d/9-added.md
+echo 'x' > changelog.d/oops.md
+rc=$(run --check); [ "$rc" = 1 ] && pass "--check rejects a misnamed fragment" || fail "--check bad name"
+rc=$(run); [ "$rc" = 1 ] && [ -e changelog.d/9-added.md ] && pass "collation rejects a misnamed fragment and consumes nothing" || fail "collate bad name"
+
+# 8. unknown type is rejected.
+new_repo
+echo 'x' > changelog.d/3-improved.md
+rc=$(run --check); [ "$rc" = 1 ] && pass "unknown type rejected" || fail "unknown type"
+
+# 9. empty body is rejected.
+new_repo
+printf '\n\n' > changelog.d/4-added.md
+rc=$(run --check); [ "$rc" = 1 ] && pass "empty body rejected" || fail "empty body"
+
+# 10. symlinked fragment is rejected.
+new_repo
+echo 'x' > target.txt
+ln -s ../target.txt changelog.d/4-added.md
+rc=$(run --check); [ "$rc" = 1 ] && pass "symlinked fragment rejected" || fail "symlinked fragment"
+
+# 11. symlinked changelog.d is rejected.
+new_repo
+rm -rf changelog.d; mkdir real; ln -s real changelog.d
+rc=$(run --check); [ "$rc" = 1 ] && pass "symlinked changelog.d rejected" || fail "symlinked changelog.d"
+
+# 12. bookkeeping files are ignored; no fragments is a clean no-op.
+new_repo
+echo '# readme' > changelog.d/README.md
+touch changelog.d/.gitkeep
+rc=$(run); [ "$rc" = 0 ] && grep -q 'no pending fragments' "$OUT" && pass "bookkeeping ignored, nothing pending" || fail "bookkeeping"
+
+# 13. hand-edited [Unreleased] with an unknown subheading is refused.
+new_repo
+printf '\n### Misc\n\n- Hand edit.\n' >> CHANGELOG.md
+echo '- **[Issue #3]** New.' > changelog.d/3-added.md
+rc=$(run); [ "$rc" = 1 ] && [ -e changelog.d/3-added.md ] && pass "unrecognised subheading refused, fragment kept" || fail "unknown subheading"
+
+# 14. bad invocation exits 2.
+new_repo
+rc=$(run --bogus); [ "$rc" = 2 ] && pass "unknown argument exits 2" || fail "bad invocation"
+
+printf '\n%s test(s), %s failure(s)\n' "$count" "$fails"
+[ "$fails" -eq 0 ]

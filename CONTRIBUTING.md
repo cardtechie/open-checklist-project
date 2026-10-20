@@ -16,6 +16,17 @@ Thank you for helping improve the open trading card data ecosystem!
 - Optionally preview the reviewer's report (`python tools/review_report.py data/<genre>/<set-id>`)
 - Use pull requests — all changes are reviewed
 
+## Changelog
+
+Do not edit `CHANGELOG.md` in a pull request. Instead add one fragment,
+`changelog.d/<issue>-<type>.md`, where `<type>` is one of
+`added | changed | fixed | security | removed | deprecated`. It holds a single
+line such as `- **[Issue #95]** Add changelog-fragment support.` Fragments are
+collated into `CHANGELOG.md` after merge to `main`, and a PR check fails a PR
+that adds none (Dependabot is exempt). See
+[`changelog.d/README.md`](changelog.d/README.md) for the details, and run
+`bash scripts/collate-changelog.sh --check` to validate your fragment locally.
+
 ## Data format — use the v0.3 manifest form
 
 Set data uses the **v0.3 manifest form**: `set.yaml` + `manifest.yaml` +

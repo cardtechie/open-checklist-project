@@ -1,0 +1,45 @@
+name: Changelog fragment
+
+# Every PR adds one changelog.d/<issue>-<type>.md fragment instead of editing
+# CHANGELOG.md. Collation happens once, post-merge, in collate-changelog.yml.
+# See changelog.d/README.md.
+
+on:
+  pull_request:
+    types: [opened, synchronize, reopened]
+
+permissions:
+  contents: read
+
+jobs:
+  fragment:
+    runs-on: ubuntu-latest
+    # Dependabot PRs carry no issue number to name a fragment after.
+    if: github.event.pull_request.user.login != 'dependabot[bot]'
+    steps:
+      - name: Check out
+        uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262 # v4
+        with:
+          fetch-depth: 0
+
+      - name: Require an added fragment
+        env:
+          BASE_SHA: ${{ github.event.pull_request.base.sha }}
+          HEAD_SHA: ${{ github.event.pull_request.head.sha }}
+        run: |
+          set -euo pipefail
+          # Files this PR adds relative to the merge base, so a fragment added
+          # and later renamed or deleted in the same PR does not count.
+          added=$(git diff --name-only --diff-filter=A "$BASE_SHA...$HEAD_SHA" -- changelog.d)
+          fragments=$(printf '%s\n' "$added" | grep -E '^changelog\.d/[1-9][0-9]*-(added|changed|fixed|security|removed|deprecated)\.md$' || true)
+          if [ -z "$fragments" ]; then
+            echo "::error::This PR adds no changelog fragment. Add changelog.d/<issue>-<type>.md (type: added|changed|fixed|security|removed|deprecated). See changelog.d/README.md."
+            exit 1
+          fi
+          printf 'fragment(s) added:\n%s\n' "$fragments"
+
+      - name: Validate fragment names and bodies
+        run: bash scripts/collate-changelog.sh --check
+
+      - name: Run collator tests
+        run: bash scripts/collate-changelog.test.sh

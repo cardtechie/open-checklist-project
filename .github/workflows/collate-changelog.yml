@@ -1,0 +1,82 @@
+name: Collate changelog
+
+# Drains changelog.d/ into CHANGELOG.md once, post-merge — the consumer half of
+# the per-PR fragment convention. Collation never happens inside a pull request:
+# the fragment it consumed would be gone before anything else could collate it
+# correctly, and every open PR would then conflict on CHANGELOG.md.
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+# One collation at a time. Two concurrent runs would each read the same pending
+# fragments and race to push the same section.
+concurrency:
+  group: collate-changelog
+  cancel-in-progress: false
+
+jobs:
+  collate:
+    runs-on: ubuntu-latest
+    # workflow_dispatch can be aimed at any ref. Without this guard a manual run
+    # against a feature branch would consume that branch's pending fragments and
+    # push a generated CHANGELOG.md commit back to it — collating inside a PR,
+    # which is exactly what the fragment convention exists to prevent. Manual
+    # recovery still works; it just has to target main.
+    if: github.ref == 'refs/heads/main'
+    steps:
+      # Check out the current tip of main, not the SHA that triggered this run.
+      # The concurrency group queues runs, so by the time a queued run starts an
+      # earlier collation may already have committed and deleted the fragments it
+      # consumed. Defaulting to the triggering SHA would check out the older tree,
+      # collate those same fragments a second time, and then fail to rebase its
+      # CHANGELOG.md onto the earlier collator commit — leaving the newer
+      # fragments pending with no later push to retry them. The rebase retry below
+      # still covers the remaining race: a merge landing between this checkout and
+      # the push.
+      - name: Check out
+        uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262 # v4
+        with:
+          ref: main
+
+      - name: Collate fragments
+        run: bash scripts/collate-changelog.sh
+
+      - name: Commit the collated changelog
+        run: |
+          set -euo pipefail
+          if [ -z "$(git status --porcelain)" ]; then
+            echo "nothing to commit"
+            exit 0
+          fi
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add -A CHANGELOG.md changelog.d
+          # [skip ci] so the commit-back does not re-trigger this workflow. The
+          # empty-diff check above is a second guard on the same thing.
+          git commit -m 'docs: collate CHANGELOG [skip ci]'
+          # The concurrency group serialises collation runs against each other,
+          # but not against ordinary merges to main. If one lands between the
+          # checkout and this push, the push is rejected as non-fast-forward.
+          # Rebase onto the new tip and retry: the generated commit touches only
+          # CHANGELOG.md and changelog.d, and collation is the sole writer of
+          # both on main, so the rebase is expected to be clean. A conflict means
+          # something hand-edited a generated file, which is a real failure.
+          for attempt in 1 2 3; do
+            if git push; then
+              exit 0
+            fi
+            echo "push rejected (attempt $attempt); rebasing onto origin/main" >&2
+            git fetch origin main
+            if ! git rebase origin/main; then
+              git rebase --abort || true
+              echo "could not rebase the collated changelog onto origin/main" >&2
+              exit 1
+            fi
+          done
+          echo "could not push the collated changelog after 3 attempts" >&2
+          exit 1
