@@ -168,6 +168,23 @@ while IFS= read -r -d '' path; do
     continue
   fi
 
+  # The documented shape is a bullet, optionally followed by more bullets or
+  # indented sub-bullet/continuation lines. Anything else (a heading, loose
+  # prose) would be copied into [Unreleased], consumed, and then make the next
+  # run refuse the section it just wrote, so reject it while it is still a
+  # recoverable fragment.
+  if ! body_err=$(trim_blanks "$path" | awk '
+    NR == 1 && $0 !~ /^- / { print "first line must start with \"- \""; exit 1 }
+    /^[[:space:]]*$/ { next }
+    /^- / || /^[[:space:]]+[^[:space:]]/ { next }
+    { print "line " NR " is not a bullet or an indented continuation: " $0; exit 1 }
+  '); then
+    printf 'error: %s has an invalid body (%s); expected a "- **[Issue #N]** ..." bullet with optional indented sub-bullets.\n' \
+      "$path" "$body_err" >&2
+    malformed=1
+    continue
+  fi
+
   num="${base%%-*}"
   type="${base#*-}"
   type="${type%.md}"
@@ -175,8 +192,10 @@ while IFS= read -r -d '' path; do
   printf '%s %s\n' "$num" "$path" >> "$work/list.$type"
   pending=$((pending + 1))
 # NUL-delimited, and process substitution rather than a pipe, so the loop body
-# stays in this shell and its counters survive it.
-done < <(find "$FRAGMENT_DIR" -mindepth 1 -maxdepth 1 -print0)
+# stays in this shell and its counters survive it. `-path ... -prune` lists the
+# directory's immediate children using only POSIX find primaries: -mindepth and
+# -maxdepth are GNU extensions that macOS's BSD find lacks.
+done < <(find "$FRAGMENT_DIR" -path "$FRAGMENT_DIR/*" -prune -print0)
 
 if [ "$malformed" -ne 0 ]; then
   exit 1
@@ -257,8 +276,8 @@ fi
 awk -v types=" $TYPES " -v file="$CHANGELOG" '
   /^### / {
     t = tolower($2)
-    if (index(types, " " t " ") == 0) {
-      printf "error: %s: unrecognised subheading \"### %s\" in [Unreleased].\n", file, $2 > "/dev/stderr"
+    if (NF != 2 || index(types, " " t " ") == 0) {
+      printf "error: %s: unrecognised subheading \"%s\" in [Unreleased]; expected exactly \"### <Type>\".\n", file, $0 > "/dev/stderr"
       bad = 1
     }
     seen = 1

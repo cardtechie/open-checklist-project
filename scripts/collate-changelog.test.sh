@@ -140,5 +140,27 @@ rc=$(run); [ "$rc" = 1 ] && [ -e changelog.d/3-added.md ] && pass "unrecognised 
 new_repo
 rc=$(run --bogus); [ "$rc" = 2 ] && pass "unknown argument exits 2" || fail "bad invocation"
 
+# 15. a fragment body that is not a bullet is rejected and kept.
+new_repo
+printf '### Misc\n\n- **[Issue #4]** Heading first.\n' > changelog.d/4-added.md
+rc=$(run --check); [ "$rc" = 1 ] && pass "heading-bearing fragment rejected" || fail "heading fragment"
+new_repo
+printf -- '- **[Issue #5]** Fine.\n### Misc\n' > changelog.d/5-added.md
+rc=$(run --check); [ "$rc" = 1 ] && pass "heading after a bullet rejected" || fail "heading after bullet"
+new_repo
+printf 'Loose prose.\n' > changelog.d/6-added.md
+rc=$(run --check); [ "$rc" = 1 ] && pass "prose-only fragment rejected" || fail "prose fragment"
+
+# 16. bullet with indented sub-bullets and continuation is accepted.
+new_repo
+printf -- '- **[Issue #7]** Main line.\n  - Caveat.\n    continued.\n' > changelog.d/7-changed.md
+rc=$(run --check); [ "$rc" = 0 ] && pass "bullet with sub-bullets accepted" || fail "sub-bullets"
+
+# 17. a hand-edited subheading with extra text is refused, not rewritten.
+new_repo
+sed -i.bak 's/^### Added$/### Added (2026)/' CHANGELOG.md && rm -f CHANGELOG.md.bak
+echo '- **[Issue #8]** New.' > changelog.d/8-added.md
+rc=$(run); [ "$rc" = 1 ] && [ -e changelog.d/8-added.md ] && pass "decorated subheading refused, fragment kept" || fail "decorated subheading"
+
 printf '\n%s test(s), %s failure(s)\n' "$count" "$fails"
 [ "$fails" -eq 0 ]
