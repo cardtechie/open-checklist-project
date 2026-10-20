@@ -176,7 +176,7 @@ while IFS= read -r -d '' path; do
   if ! body_err=$(trim_blanks "$path" | awk '
     NR == 1 && $0 !~ /^- / { print "first line must start with \"- \""; exit 1 }
     /^[[:space:]]*$/ { next }
-    /^- \*\*\[Issue #[1-9][0-9]*\]\*\* / { next }
+    /^- \*\*\[Issue #[1-9][0-9]*\]\*\*[[:space:]]+[^[:space:]]/ { next }
     /^- / { print "line " NR " is a top-level bullet without the \"- **[Issue #N]** \" prefix: " $0; exit 1 }
     /^[[:space:]]+[^[:space:]]/ { next }
     { print "line " NR " is not a bullet or an indented continuation: " $0; exit 1 }
