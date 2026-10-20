@@ -162,5 +162,10 @@ sed -i.bak 's/^### Added$/### Added (2026)/' CHANGELOG.md && rm -f CHANGELOG.md.
 echo '- **[Issue #8]** New.' > changelog.d/8-added.md
 rc=$(run); [ "$rc" = 1 ] && [ -e changelog.d/8-added.md ] && pass "decorated subheading refused, fragment kept" || fail "decorated subheading"
 
+# 18. a top-level bullet without the issue prefix is rejected, even after a valid one.
+new_repo
+printf -- '- **[Issue #9]** Valid.\n- not an issue entry\n' > changelog.d/9-added.md
+rc=$(run --check); [ "$rc" = 1 ] && pass "top-level bullet without issue prefix rejected" || fail "unprefixed bullet"
+
 printf '\n%s test(s), %s failure(s)\n' "$count" "$fails"
 [ "$fails" -eq 0 ]
