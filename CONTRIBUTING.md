@@ -22,8 +22,10 @@ Do not edit `CHANGELOG.md` in a pull request. Instead add one fragment,
 `changelog.d/<issue>-<type>.md`, where `<type>` is one of
 `added | changed | fixed | security | removed | deprecated`. It holds a single
 line such as `- **[Issue #95]** Add changelog-fragment support.` Fragments are
-collated into `CHANGELOG.md` after merge to `main`, and a PR check fails a PR
-that adds none (Dependabot is exempt). See
+collated after merge to `main` by a workflow that opens (or refreshes) one
+automated "Collate changelog fragments" PR from `auto/collate-changelog`; the
+entries reach `CHANGELOG.md` when that PR merges. A PR check fails a PR that
+adds no fragment (Dependabot and the collate PR are exempt). See
 [`changelog.d/README.md`](changelog.d/README.md) for the details, and run
 `bash scripts/collate-changelog.sh --check` to validate your fragment locally.
 

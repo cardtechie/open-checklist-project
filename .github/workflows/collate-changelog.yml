@@ -1,82 +1,141 @@
 name: Collate changelog
 
 # Drains changelog.d/ into CHANGELOG.md once, post-merge — the consumer half of
-# the per-PR fragment convention. Collation never happens inside a pull request:
-# the fragment it consumed would be gone before anything else could collate it
-# correctly, and every open PR would then conflict on CHANGELOG.md.
+# the per-PR fragment convention. Collation never happens inside a feature pull
+# request: the fragment it consumed would be gone before anything else could
+# collate it correctly, and every open PR would then conflict on CHANGELOG.md.
+#
+# The result is NOT pushed to main. The main ruleset requires pull requests and
+# has no bypass actors, so a direct push would be rejected. Instead the
+# collation commit is published on a fixed branch, auto/collate-changelog, and a
+# single PR into main carries it. Merging that PR is the moment the entries
+# land in CHANGELOG.md. The workflow is idempotent:
+#
+#   - nothing pending              -> no branch push, no PR
+#   - pending, no open collate PR  -> push the branch, open the PR
+#   - pending, collate PR open     -> refresh the branch in place, reuse the PR
+#
+# Merging the collate PR is itself a push to main; that run finds nothing
+# pending and exits without opening anything.
 
 on:
   push:
     branches: [main]
   workflow_dispatch:
 
-permissions:
-  contents: write
+# All git and gh operations use the PROJECT_TOKEN PAT (checkout token + GH_TOKEN),
+# matching the org's auto/sync-main-to-develop back-merge workflows. A PAT, not
+# GITHUB_TOKEN, because a branch pushed or a PR opened with GITHUB_TOKEN does not
+# trigger workflows, so the collate PR would never get its required checks. The
+# default GITHUB_TOKEN therefore needs no permissions.
+permissions: {}
 
 # One collation at a time. Two concurrent runs would each read the same pending
-# fragments and race to push the same section.
+# fragments and race to refresh the same branch.
 concurrency:
   group: collate-changelog
   cancel-in-progress: false
+
+env:
+  COLLATE_BRANCH: auto/collate-changelog
+  COLLATE_SUBJECT: 'docs: collate CHANGELOG'
 
 jobs:
   collate:
     runs-on: ubuntu-latest
     # workflow_dispatch can be aimed at any ref. Without this guard a manual run
-    # against a feature branch would consume that branch's pending fragments and
-    # push a generated CHANGELOG.md commit back to it — collating inside a PR,
-    # which is exactly what the fragment convention exists to prevent. Manual
-    # recovery still works; it just has to target main.
+    # against a feature branch would collate that branch's pending fragments.
+    # Manual recovery still works; it just has to target main.
     if: github.ref == 'refs/heads/main'
     steps:
       # Check out the current tip of main, not the SHA that triggered this run.
-      # The concurrency group queues runs, so by the time a queued run starts an
-      # earlier collation may already have committed and deleted the fragments it
-      # consumed. Defaulting to the triggering SHA would check out the older tree,
-      # collate those same fragments a second time, and then fail to rebase its
-      # CHANGELOG.md onto the earlier collator commit — leaving the newer
-      # fragments pending with no later push to retry them. The rebase retry below
-      # still covers the remaining race: a merge landing between this checkout and
-      # the push.
+      # The concurrency group queues runs, so a queued run should collate what is
+      # pending now, not what was pending when it was triggered.
       - name: Check out
         uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262 # v4
         with:
           ref: main
+          fetch-depth: 0
+          token: ${{ secrets.PROJECT_TOKEN }}
 
       - name: Collate fragments
         run: bash scripts/collate-changelog.sh
 
-      - name: Commit the collated changelog
+      - name: Open or update the collate PR
+        env:
+          GH_TOKEN: ${{ secrets.PROJECT_TOKEN }}
         run: |
           set -euo pipefail
-          if [ -z "$(git status --porcelain)" ]; then
-            echo "nothing to commit"
+
+          if [ -z "$(git status --porcelain -- CHANGELOG.md changelog.d)" ]; then
+            echo "No pending fragments on main; nothing to collate."
             exit 0
           fi
+
           git config user.name 'github-actions[bot]'
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+
+          # The collation commit sits directly on main's tip. No [skip ci]: this
+          # commit is the head of the collate PR, and [skip ci] would suppress the
+          # pull_request checks the main ruleset needs before the PR can merge.
+          git checkout -B "$COLLATE_BRANCH"
           git add -A CHANGELOG.md changelog.d
-          # [skip ci] so the commit-back does not re-trigger this workflow. The
-          # empty-diff check above is a second guard on the same thing.
-          git commit -m 'docs: collate CHANGELOG [skip ci]'
-          # The concurrency group serialises collation runs against each other,
-          # but not against ordinary merges to main. If one lands between the
-          # checkout and this push, the push is rejected as non-fast-forward.
-          # Rebase onto the new tip and retry: the generated commit touches only
-          # CHANGELOG.md and changelog.d, and collation is the sole writer of
-          # both on main, so the rebase is expected to be clean. A conflict means
-          # something hand-edited a generated file, which is a real failure.
-          for attempt in 1 2 3; do
-            if git push; then
-              exit 0
-            fi
-            echo "push rejected (attempt $attempt); rebasing onto origin/main" >&2
-            git fetch origin main
-            if ! git rebase origin/main; then
-              git rebase --abort || true
-              echo "could not rebase the collated changelog onto origin/main" >&2
+          git commit -m "$COLLATE_SUBJECT"
+
+          # Fetch the existing branch so the guards below see its real tip.
+          # Tolerate ONLY the "branch does not exist yet" case; a real fetch
+          # failure (auth, network) must fail the run rather than be mistaken
+          # for an absent branch and overwritten.
+          if ! fetch_err=$(git fetch origin "+refs/heads/$COLLATE_BRANCH:refs/remotes/origin/$COLLATE_BRANCH" 2>&1); then
+            if printf '%s\n' "$fetch_err" | grep -qi "couldn't find remote ref"; then
+              echo "$COLLATE_BRANCH does not exist on origin yet; creating it."
+            else
+              printf '%s\n' "$fetch_err" >&2
+              echo "Unexpected error fetching $COLLATE_BRANCH; failing the run for diagnosis." >&2
               exit 1
             fi
-          done
-          echo "could not push the collated changelog after 3 attempts" >&2
-          exit 1
+          fi
+
+          remote="origin/$COLLATE_BRANCH"
+          if ! git rev-parse --verify --quiet "$remote" >/dev/null; then
+            git push origin "HEAD:refs/heads/$COLLATE_BRANCH"
+          elif git diff --quiet HEAD "$remote"; then
+            # Same tree as the branch already carries: re-pushing would only
+            # restart the PR's checks and review for no change.
+            echo "$COLLATE_BRANCH already carries this collation; leaving it as is."
+          else
+            # A refresh rewrites the branch: it is regenerated from main's tip
+            # every time, so it is never a fast-forward of the previous one. Only
+            # rewrite a branch this workflow owns outright: either nothing beyond
+            # main (a previous collate PR merged with a merge commit and the
+            # branch was not deleted), or exactly one commit beyond main carrying
+            # our subject (an open, closed or squash-merged collate PR). Anything
+            # else means a human has pushed to it; leave it alone rather than
+            # discard their work.
+            ahead=$(git rev-list --count "origin/main..$remote")
+            subject=$(git log -1 --format=%s "$remote")
+            if [ "$ahead" != "0" ] && { [ "$ahead" != "1" ] || [ "$subject" != "$COLLATE_SUBJECT" ]; }; then
+              echo "::warning::$COLLATE_BRANCH carries commits this workflow did not write; leaving it untouched. Merge its PR, or delete the branch, and the next run regenerates it."
+              exit 0
+            fi
+            # --force-with-lease keyed on the tip fetched above: if anything
+            # pushed in between, the push is rejected instead of clobbering it.
+            git push --force-with-lease="refs/heads/$COLLATE_BRANCH:$(git rev-parse "$remote")" \
+              origin "HEAD:refs/heads/$COLLATE_BRANCH"
+          fi
+
+          # Reuse an already-open collate PR rather than opening another. Its
+          # branch was refreshed above, so no second PR is needed.
+          existing=$(gh pr list --head "$COLLATE_BRANCH" --base main --state open --json number --jq '.[0].number // empty')
+          if [ -n "$existing" ]; then
+            echo "Collate PR #$existing is already open; reusing it."
+            exit 0
+          fi
+
+          gh pr create \
+            --base main \
+            --head "$COLLATE_BRANCH" \
+            --title "Collate changelog fragments" \
+            --body "Automated collation of the pending \`changelog.d/\` fragments into \`CHANGELOG.md\` under \`## [Unreleased]\`, opened by \`.github/workflows/collate-changelog.yml\`.
+
+          The \`main\` ruleset requires pull requests, so collation lands through this PR rather than a push. The workflow refreshes this branch in place on every push to \`main\` while fragments are pending; do not push to it by hand. Merge it before cutting a release so every pending entry is under \`[Unreleased]\` when the release PR moves it into a version section."

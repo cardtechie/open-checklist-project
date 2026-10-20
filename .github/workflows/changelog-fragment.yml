@@ -22,7 +22,15 @@ jobs:
         with:
           fetch-depth: 0
 
+      # The collate PR (auto/collate-changelog, opened by collate-changelog.yml)
+      # consumes fragments rather than adding one, so it is exempt from this
+      # step only; the name/body validation and collator tests below still run.
+      # The same-repo check stops a fork from claiming the exemption by naming
+      # its branch auto/collate-changelog.
       - name: Require an added fragment
+        if: >-
+          !(github.event.pull_request.head.ref == 'auto/collate-changelog' &&
+            github.event.pull_request.head.repo.full_name == github.repository)
         env:
           BASE_SHA: ${{ github.event.pull_request.base.sha }}
           HEAD_SHA: ${{ github.event.pull_request.head.sha }}

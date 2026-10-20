@@ -15,11 +15,19 @@ non-obvious caveat. Never restate what is in the linked issue.
 `scripts/collate-changelog.sh`, run by `.github/workflows/collate-changelog.yml`
 on every push to `main`. It groups the pending fragments by type, appends them
 to the matching `### <Type>` subsection of `## [Unreleased]` in `CHANGELOG.md`
-(creating the subsection when absent), deletes the fragments it consumed, and
-commits the result back with `[skip ci]`.
+(creating the subsection when absent) and deletes the fragments it consumed.
 
-Entries land under `[Unreleased]` because this repo cuts no tagged releases yet.
-Versioned sections arrive with #82.
+The result is not pushed to `main`: the `main` ruleset requires pull requests
+with no bypass actors. Instead the workflow commits the collation to the fixed
+branch `auto/collate-changelog` and opens a single PR into `main`, titled
+"Collate changelog fragments". While fragments are pending it refreshes that
+branch in place on every push to `main` and reuses the open PR rather than
+opening another; with nothing pending it does nothing. Do not push to that
+branch by hand. The entries reach `CHANGELOG.md` when the collate PR merges.
+
+Entries land under `[Unreleased]`. Turning `[Unreleased]` into a versioned
+section is a human step in a release PR (#82), so merge the collate PR before
+cutting a release.
 
 A fragment whose name does not match `<issue>-<type>.md`, or whose body is
 empty, **fails the collation run**. It is never skipped silently, because a
@@ -31,4 +39,5 @@ bash scripts/collate-changelog.sh --check
 ```
 
 The `Changelog fragment` workflow runs the same check on every PR and fails a PR
-that adds no fragment. Dependabot PRs are exempt.
+that adds no fragment. Dependabot PRs are exempt, and the collate PR is exempt
+from the added-fragment requirement because it consumes fragments instead.
