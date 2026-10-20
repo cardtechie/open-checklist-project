@@ -109,12 +109,16 @@ jobs:
             # rewrite a branch this workflow owns outright: either nothing beyond
             # main (a previous collate PR merged with a merge commit and the
             # branch was not deleted), or exactly one commit beyond main carrying
-            # our subject (an open, closed or squash-merged collate PR). Anything
+            # our subject and the bot's author email (an open, closed or squash-merged collate PR). Anything
             # else means a human has pushed to it; leave it alone rather than
             # discard their work.
             ahead=$(git rev-list --count "origin/main..$remote")
             subject=$(git log -1 --format=%s "$remote")
-            if [ "$ahead" != "0" ] && { [ "$ahead" != "1" ] || [ "$subject" != "$COLLATE_SUBJECT" ]; }; then
+            # The subject alone is not ownership: a human can push a commit with
+            # the same subject. Require the tip to also be authored by the bot
+            # identity this workflow commits as.
+            author_email=$(git log -1 --format=%ae "$remote")
+            if [ "$ahead" != "0" ] && { [ "$ahead" != "1" ] || [ "$subject" != "$COLLATE_SUBJECT" ] || [ "$author_email" != "41898282+github-actions[bot]@users.noreply.github.com" ]; }; then
               echo "::warning::$COLLATE_BRANCH carries commits this workflow did not write; leaving it untouched. Merge its PR, or delete the branch, and the next run regenerates it."
               exit 0
             fi
