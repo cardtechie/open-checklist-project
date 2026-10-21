@@ -40,18 +40,29 @@ jobs:
           # versioned section by hand (docs/RELEASING.md), so it adds a
           # `## [X.Y.Z]` heading to CHANGELOG.md and no fragment. It is
           # recognised by that heading, the same one release.yml reads, not by
-          # branch name. It is only exempt when no fragment is still pending in
-          # the head: pending fragments are not in CHANGELOG.md yet, so cutting
-          # the release first would leave them out of the release notes. Merge
-          # the collate PR first.
+          # branch name. The heading alone is not trusted, because anyone can
+          # add one. The exemption holds only when the transformation really
+          # happened: (1) no fragment is pending in the BASE tree, so a PR
+          # cannot hide pending fragments by deleting them, (2) none is
+          # pending in the head either, and (3) `## [Unreleased]` is empty in
+          # the head, i.e. its entries were moved under the new heading. Merge
+          # the collate PR first, then update this branch.
           if git diff -U0 "$BASE_SHA...$HEAD_SHA" -- CHANGELOG.md | grep -qE '^\+## \[[0-9]+\.[0-9]+\.[0-9]+\]'; then
-            pending=$(git ls-tree -r --name-only "$HEAD_SHA" -- changelog.d | grep -vE '^changelog\.d/(README\.md|\.gitkeep|\.markdownlint\.json)$' || true)
-            if [ -n "$pending" ]; then
+            pending_filter='^changelog\.d/(README\.md|\.gitkeep|\.markdownlint\.json)$'
+            pending_base=$(git ls-tree -r --name-only "$BASE_SHA" -- changelog.d | grep -vE "$pending_filter" || true)
+            pending_head=$(git ls-tree -r --name-only "$HEAD_SHA" -- changelog.d | grep -vE "$pending_filter" || true)
+            if [ -n "$pending_base" ] || [ -n "$pending_head" ]; then
               echo "::error::This release PR adds a versioned CHANGELOG.md section while fragments are still pending. Merge the collate PR first, then update this branch. See docs/RELEASING.md."
-              printf 'pending fragments:\n%s\n' "$pending"
+              printf 'pending fragments (base):\n%s\npending fragments (head):\n%s\n' "$pending_base" "$pending_head"
               exit 1
             fi
-            echo "release PR (adds a versioned CHANGELOG.md section, no fragments pending): fragment requirement does not apply"
+            unreleased_body=$(git show "$HEAD_SHA:CHANGELOG.md" | awk '/^## \[Unreleased\]/{f=1;next} f&&/^## /{exit} f&&NF{print}')
+            if [ -n "$unreleased_body" ]; then
+              echo "::error::This release PR adds a versioned CHANGELOG.md section but leaves entries under [Unreleased]. Move them under the new heading. See docs/RELEASING.md."
+              printf '%s\n' "$unreleased_body"
+              exit 1
+            fi
+            echo "release PR (versioned CHANGELOG.md section, [Unreleased] emptied, no fragments pending): fragment requirement does not apply"
             exit 0
           fi
           # Files this PR adds relative to the merge base, so a fragment added
