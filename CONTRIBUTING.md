@@ -25,7 +25,9 @@ line such as `- **[Issue #95]** Add changelog-fragment support.` Fragments are
 collated after merge to `main` by a workflow that opens (or refreshes) one
 automated "Collate changelog fragments" PR from `auto/collate-changelog`; the
 entries reach `CHANGELOG.md` when that PR merges. A PR check fails a PR that
-adds no fragment (Dependabot and the collate PR are exempt). See
+adds no fragment (Dependabot, the collate PR and a release PR are exempt; a release PR is the
+one PR a maintainer edits `CHANGELOG.md` in, and only after the collate PR has landed, see
+[`docs/RELEASING.md`](docs/RELEASING.md)). See
 [`changelog.d/README.md`](changelog.d/README.md) for the details, and run
 `bash scripts/collate-changelog.sh --check` to validate your fragment locally.
 
@@ -92,8 +94,8 @@ without it the URL row only counts placeholder-looking URLs and is marked `(part
 
 ## Releases
 
-The repository uses semantic versioning with bare-number tags. Add your changelog entry under
-`## [Unreleased]`; a maintainer cuts the release. See [`docs/RELEASING.md`](docs/RELEASING.md)
+The repository uses semantic versioning with bare-number tags. Add your changelog entry as a
+`changelog.d/` fragment (see [Changelog](#changelog)); a maintainer cuts the release. See [`docs/RELEASING.md`](docs/RELEASING.md)
 for the bump rules and the release process.
 
 ## Bulk and generated imports

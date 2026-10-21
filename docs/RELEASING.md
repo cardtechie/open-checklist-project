@@ -27,9 +27,15 @@ The version is declared by a person in a pull request. The release workflow
 (`.github/workflows/release.yml`) commits nothing, because the `main` ruleset requires pull
 requests with no bypass actors.
 
+0. Merge the open "Collate changelog fragments" PR (from `auto/collate-changelog`) first.
+   Fragments in `changelog.d/` are not in `CHANGELOG.md` until it lands, so a release cut
+   before then would leave them out of the release notes.
 1. Open a PR that moves the entries under `## [Unreleased]` in `CHANGELOG.md` into a new
    `## [X.Y.Z] - YYYY-MM-DD` section above the older ones, and leaves an empty
    `## [Unreleased]`.
+   This is the one PR that edits `CHANGELOG.md` by hand, and it adds no fragment. The
+   `Changelog fragment` check recognises it by the new `## [X.Y.Z]` heading and waives the
+   fragment requirement, but fails it while any fragment is still pending in `changelog.d/`.
 2. Merge it.
 3. On the push to `main`, the workflow reads the newest `## [X.Y.Z]` heading. If that tag does
    not exist, it creates the tag and a GitHub release whose notes are that section's body. If
@@ -39,5 +45,5 @@ requests with no bypass actors.
 Tag creation uses the default `GITHUB_TOKEN` with `contents: write`. If a tag ruleset is ever
 added to this repo, the workflow will need a token that is allowed to create tags.
 
-The release is cut by a maintainer. Contributors add their entry under `## [Unreleased]` and
-do not choose a version.
+The release is cut by a maintainer. Contributors add a `changelog.d/` fragment (see
+[`CONTRIBUTING.md`](../CONTRIBUTING.md)) and do not choose a version.

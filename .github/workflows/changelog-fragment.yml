@@ -36,6 +36,24 @@ jobs:
           HEAD_SHA: ${{ github.event.pull_request.head.sha }}
         run: |
           set -euo pipefail
+          # Release PR exemption. A release PR turns [Unreleased] into a
+          # versioned section by hand (docs/RELEASING.md), so it adds a
+          # `## [X.Y.Z]` heading to CHANGELOG.md and no fragment. It is
+          # recognised by that heading, the same one release.yml reads, not by
+          # branch name. It is only exempt when no fragment is still pending in
+          # the head: pending fragments are not in CHANGELOG.md yet, so cutting
+          # the release first would leave them out of the release notes. Merge
+          # the collate PR first.
+          if git diff -U0 "$BASE_SHA...$HEAD_SHA" -- CHANGELOG.md | grep -qE '^\+## \[[0-9]+\.[0-9]+\.[0-9]+\]'; then
+            pending=$(git ls-tree -r --name-only "$HEAD_SHA" -- changelog.d | grep -vE '^changelog\.d/(README\.md|\.gitkeep|\.markdownlint\.json)$' || true)
+            if [ -n "$pending" ]; then
+              echo "::error::This release PR adds a versioned CHANGELOG.md section while fragments are still pending. Merge the collate PR first, then update this branch. See docs/RELEASING.md."
+              printf 'pending fragments:\n%s\n' "$pending"
+              exit 1
+            fi
+            echo "release PR (adds a versioned CHANGELOG.md section, no fragments pending): fragment requirement does not apply"
+            exit 0
+          fi
           # Files this PR adds relative to the merge base, so a fragment added
           # and later renamed or deleted in the same PR does not count.
           added=$(git diff --name-only --diff-filter=A "$BASE_SHA...$HEAD_SHA" -- changelog.d)
