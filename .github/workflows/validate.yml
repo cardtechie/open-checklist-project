@@ -3,26 +3,48 @@ name: Validate Data
 on:
   workflow_dispatch:
   pull_request:
-    paths:
-      - 'data/**/*.yaml'
-      - 'schemas/**/*.yaml'
-      - 'tools/**'
-  # A merge queue event carries no path filter, so the check always reports there
-  # (mirrors work-order-tests.yml).
   merge_group:
 
 jobs:
   validate:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v3
+      - uses: actions/checkout@v7
+        with:
+          fetch-depth: 0
+      - name: Detect data or schema changes
+        id: changes
+        env:
+          EVENT_NAME: ${{ github.event_name }}
+          BASE_SHA: ${{ github.event.pull_request.base.sha }}
+          HEAD_SHA: ${{ github.event.pull_request.head.sha }}
+        run: |
+          relevant=true
+          if [ "$EVENT_NAME" = "pull_request" ]; then
+            if files=$(git diff --name-only "$BASE_SHA" "$HEAD_SHA"); then
+              if printf '%s\n' "$files" | grep -Eq '^(data|schemas)/.*\.yaml$|^tools/|^\.github/workflows/validate\.yml$'; then
+                relevant=true
+              else
+                relevant=false
+              fi
+            fi
+          fi
+          echo "relevant=$relevant" >> "$GITHUB_OUTPUT"
+          echo "relevant=$relevant"
       - name: Set up Python
+        if: steps.changes.outputs.relevant == 'true'
         uses: actions/setup-python@v4
         with:
           python-version: 3.11
       - name: Install dependencies
+        if: steps.changes.outputs.relevant == 'true'
         run: pip install pyyaml jsonschema
       - name: Run tool unit tests
+        if: steps.changes.outputs.relevant == 'true'
         run: python -m unittest discover -s tools/tests
       - name: Run validation
+        if: steps.changes.outputs.relevant == 'true'
         run: python tools/validate.py
+      - name: Skip notice
+        if: steps.changes.outputs.relevant != 'true'
+        run: echo "No data or schema files changed; validation skipped."

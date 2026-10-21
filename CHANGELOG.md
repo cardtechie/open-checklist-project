@@ -4,6 +4,10 @@ All notable changes to this project are documented in this file.
 
 ## [Unreleased]
 
+### Changed
+
+- **[Issue #80]** Make the validate check report on every pull request and run on merge-queue groups.
+
 ## [0.1.0] - 2026-10-17
 
 ### Added
