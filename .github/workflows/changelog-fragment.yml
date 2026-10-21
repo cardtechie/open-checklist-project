@@ -44,10 +44,31 @@ jobs:
           # add one. The exemption holds only when the transformation really
           # happened: (1) no fragment is pending in the BASE tree, so a PR
           # cannot hide pending fragments by deleting them, (2) none is
-          # pending in the head either, and (3) `## [Unreleased]` is empty in
-          # the head, i.e. its entries were moved under the new heading. Merge
-          # the collate PR first, then update this branch.
+          # pending in the head either, (3) the head's first versioned heading
+          # (the one release.yml selects) is strict SemVer and was added by
+          # this PR, (4) `## [Unreleased]` exists and is empty in the head, and
+          # (5) every entry that was under `[Unreleased]` in the base now sits
+          # under that new heading. Merge the collate PR first, then update
+          # this branch.
           if git diff -U0 "$BASE_SHA...$HEAD_SHA" -- CHANGELOG.md | grep -qE '^\+## \[[0-9]+\.[0-9]+\.[0-9]+\]'; then
+            # Same selection and same strict SemVer pattern as release.yml.
+            first_version() { sed -nE 's/^## \[([^]]+)\].*/\1/p' | grep -v '^Unreleased$' | head -n 1 || true; }
+            section_body() { awk -v h="$1" 'index($0, "## [" h "]") == 1 {f=1; next} f && /^## / {exit} f && NF {print}'; }
+            head_changelog=$(git show "$HEAD_SHA:CHANGELOG.md")
+            base_changelog=$(git show "$BASE_SHA:CHANGELOG.md" 2>/dev/null || true)
+            new_version=$(printf '%s\n' "$head_changelog" | first_version)
+            if ! printf '%s' "$new_version" | grep -Eq '^(0|[1-9][0-9]*)\.(0|[1-9][0-9]*)\.(0|[1-9][0-9]*)$'; then
+              echo "::error::The first versioned CHANGELOG.md heading ('$new_version') is not strict X.Y.Z, so release.yml would reject it. See docs/RELEASING.md."
+              exit 1
+            fi
+            if printf '%s\n' "$base_changelog" | grep -qF "## [$new_version]"; then
+              echo "::error::CHANGELOG.md already has a '## [$new_version]' heading in the base. A release PR must add the new version as the first versioned heading, above the existing ones. See docs/RELEASING.md."
+              exit 1
+            fi
+            if ! printf '%s\n' "$head_changelog" | grep -q '^## \[Unreleased\]'; then
+              echo "::error::This release PR removed the '## [Unreleased]' heading. Keep it, emptied. See docs/RELEASING.md."
+              exit 1
+            fi
             pending_filter='^changelog\.d/(README\.md|\.gitkeep|\.markdownlint\.json)$'
             pending_base=$(git ls-tree -r --name-only "$BASE_SHA" -- changelog.d | grep -vE "$pending_filter" || true)
             pending_head=$(git ls-tree -r --name-only "$HEAD_SHA" -- changelog.d | grep -vE "$pending_filter" || true)
@@ -62,7 +83,18 @@ jobs:
               printf '%s\n' "$unreleased_body"
               exit 1
             fi
-            echo "release PR (versioned CHANGELOG.md section, [Unreleased] emptied, no fragments pending): fragment requirement does not apply"
+            # Prove the move: each base [Unreleased] entry must now be present
+            # in the new version's section, so deleting the notes fails.
+            base_unreleased=$(printf '%s\n' "$base_changelog" | section_body "Unreleased")
+            new_section=$(printf '%s\n' "$head_changelog" | section_body "$new_version")
+            while IFS= read -r line; do
+              [ -z "$line" ] && continue
+              if ! printf '%s\n' "$new_section" | grep -qxF -- "$line"; then
+                echo "::error::An entry from [Unreleased] is missing under [$new_version]: $line"
+                exit 1
+              fi
+            done <<< "$base_unreleased"
+            echo "release PR (versioned CHANGELOG.md section, [Unreleased] entries moved, no fragments pending): fragment requirement does not apply"
             exit 0
           fi
           # Files this PR adds relative to the merge base, so a fragment added
