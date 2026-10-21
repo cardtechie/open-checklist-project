@@ -1,0 +1,1 @@
+- **[Issue #95]** Add changelog-fragment support: a changelog.d directory, a collator with a check mode, and a PR gate that requires a fragment.
