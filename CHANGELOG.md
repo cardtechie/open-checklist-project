@@ -18,7 +18,7 @@ The format follows [Keep a Changelog](https://keepachangelog.com/en/1.1.0/) and 
 
 ## 2026-10 (pre-versioning)
 
-Entries for #65 and #78 are listed under `[Unreleased]` above.
+Other October 2026 entries are retained under `[Unreleased]` above rather than repeated here.
 
 ### Added
 
