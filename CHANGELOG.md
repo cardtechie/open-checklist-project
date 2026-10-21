@@ -6,6 +6,10 @@ The format follows [Keep a Changelog](https://keepachangelog.com/en/1.1.0/) and 
 
 ## [Unreleased]
 
+### Changed
+
+- **[Issue #80]** Make the validate check report on every pull request and run on merge-queue groups.
+
 ### Added
 
 - **[Issue #81]** Backfill CHANGELOG.md from the repo's history and require changelog entries in CONTRIBUTING.md.
