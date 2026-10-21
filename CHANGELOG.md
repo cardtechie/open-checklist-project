@@ -4,6 +4,10 @@ All notable changes to this project are documented in this file.
 
 ## [Unreleased]
 
+### Changed
+
+- **[Issue #80]** Make the validate check report on every pull request and run on merge-queue groups.
+
 ### Added
 
 - **[Issue #88]** Run the work-order.js node tests in CI.
