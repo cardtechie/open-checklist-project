@@ -167,5 +167,95 @@ new_repo
 printf -- '- **[Issue #9]** Valid.\n- not an issue entry\n' > changelog.d/9-added.md
 rc=$(run --check); [ "$rc" = 1 ] && pass "top-level bullet without issue prefix rejected" || fail "unprefixed bullet"
 
+# 19. --release collates pending fragments and cuts the version below an empty [Unreleased].
+new_repo
+printf '\n## [0.1.0] - 2026-01-01\n\n### Added\n\n- Old thing.\n' >> CHANGELOG.md
+echo '- **[Issue #30]** Fix it.' > changelog.d/30-fixed.md
+rc=$(RELEASE_DATE=2026-10-23 run --release 0.2.0)
+expected=$(cat <<'CL'
+# Changelog
+
+All notable changes to this project are documented in this file.
+
+## [Unreleased]
+
+## [0.2.0] - 2026-10-23
+
+### Added
+
+- **[Issue #2]** Second entry.
+- **[Issue #1]** First entry.
+
+### Fixed
+
+- **[Issue #30]** Fix it.
+
+## [0.1.0] - 2026-01-01
+
+### Added
+
+- Old thing.
+CL
+)
+[ "$rc" = 0 ] && [ "$(cat CHANGELOG.md)" = "$expected" ] && [ ! -e changelog.d/30-fixed.md ] \
+  && pass "--release collates and cuts the version under an empty [Unreleased]" || fail "--release layout"
+
+# 20. the cut version is the first bracketed heading, the one release.yml selects.
+first=$(sed -nE 's/^## \[([^]]+)\].*/\1/p' CHANGELOG.md | grep -v '^Unreleased$' | head -n 1)
+[ "$first" = "0.2.0" ] && pass "release.yml would select the cut version" || fail "first version ($first)"
+
+# 21. collating after a release fills the fresh [Unreleased] and leaves the release alone.
+echo '- **[Issue #31]** Next.' > changelog.d/31-added.md
+rc=$(run)
+[ "$rc" = 0 ] && [ "$(sed -n '5,9p' CHANGELOG.md)" = "$(printf '## [Unreleased]\n\n### Added\n\n- **[Issue #31]** Next.')" ] \
+  && grep -q '^## \[0.2.0\] - 2026-10-23$' CHANGELOG.md && pass "post-release collation lands in the new [Unreleased]" || fail "post-release collation"
+
+# 22. --release with nothing pending versions what is already under [Unreleased].
+new_repo
+rc=$(RELEASE_DATE=2026-10-23 run --release 0.1.0)
+[ "$rc" = 0 ] && grep -q '^## \[0.1.0\] - 2026-10-23$' CHANGELOG.md && pass "--release with no pending fragments versions [Unreleased]" || fail "--release no pending"
+
+# 23. --release refuses an empty release, an existing version, and a bad version.
+new_repo
+printf '# Changelog\n\n## [Unreleased]\n' > CHANGELOG.md
+before=$(cat CHANGELOG.md)
+rc=$(run --release 0.1.0); [ "$rc" = 1 ] && [ "$(cat CHANGELOG.md)" = "$before" ] && pass "--release refuses an empty release" || fail "empty release"
+new_repo
+printf '\n## [0.1.0] - 2026-01-01\n\n### Added\n\n- Old thing.\n' >> CHANGELOG.md
+echo '- **[Issue #32]** New.' > changelog.d/32-added.md
+rc=$(run --release 0.1.0); [ "$rc" = 1 ] && [ -e changelog.d/32-added.md ] && pass "--release refuses an existing version and consumes nothing" || fail "existing version"
+new_repo
+printf '\n## [0.2.0] - 2026-02-01\n\n### Added\n\n- Newer.\n\n## [0.10.0] - 2026-01-01\n\n### Added\n\n- Odd order.\n' >> CHANGELOG.md
+before=$(cat CHANGELOG.md)
+rc=$(run --release 0.1.1); [ "$rc" = 1 ] && [ "$(cat CHANGELOG.md)" = "$before" ] && pass "--release refuses an older version" || fail "older version"
+rc=$(run --release 0.9.0); [ "$rc" = 1 ] && pass "--release compares numerically against every version, not just the first" || fail "numeric compare"
+rc=$(RELEASE_DATE=2026-10-23 run --release 0.10.1); [ "$rc" = 0 ] && grep -q '^## \[0.10.1\] - 2026-10-23$' CHANGELOG.md && pass "--release accepts a newer version" || fail "newer version"
+new_repo
+printf '\n## [999999999999999999999.0.0] - 2026-01-01\n\n### Added\n\n- Huge.\n' >> CHANGELOG.md
+rc=$(run --release 1.0.0); [ "$rc" = 1 ] && pass "--release compares components wider than a bash integer" || fail "huge component"
+rc=$(RELEASE_DATE=2026-10-23 run --release 1000000000000000000000.0.0); [ "$rc" = 0 ] && pass "--release accepts a newer huge version" || fail "huge newer"
+new_repo
+printf '# Changelog\n\n## [0.1.0] - 2026-01-01\n\n### Added\n\n- Old.\n\n## [Unreleased]\n\n### Added\n\n- **[Issue #1]** New.\n' > CHANGELOG.md
+before=$(cat CHANGELOG.md)
+rc=$(run --release 0.2.0); [ "$rc" = 1 ] && [ "$(cat CHANGELOG.md)" = "$before" ] && pass "--release refuses a versioned section above [Unreleased]" || fail "section above [Unreleased]"
+new_repo
+for d in 2026-99-99 2026-02-29 2026-04-31 2026-00-10; do
+  rc=$(RELEASE_DATE=$d run --release 1.0.0); [ "$rc" = 2 ] && pass "RELEASE_DATE $d rejected" || fail "RELEASE_DATE $d accepted"
+done
+rc=$(RELEASE_DATE=2028-02-29 run --release 1.0.0); [ "$rc" = 0 ] && pass "leap-day RELEASE_DATE accepted" || fail "leap day"
+new_repo
+rmdir changelog.d
+rc=$(RELEASE_DATE=2026-10-23 run --release 0.1.0)
+[ "$rc" = 0 ] && grep -q '^## \[0.1.0\] - 2026-10-23$' CHANGELOG.md && pass "--release versions [Unreleased] when changelog.d/ is absent" || fail "--release without changelog.d"
+new_repo
+rmdir changelog.d
+before=$(cat CHANGELOG.md)
+rc=$(run); [ "$rc" = 0 ] && [ "$(cat CHANGELOG.md)" = "$before" ] && pass "plain collation without changelog.d/ is still a no-op" || fail "plain without changelog.d"
+for bad in v1.0.0 01.2.3 1.2; do
+  rc=$(run --release "$bad"); [ "$rc" = 2 ] && pass "--release rejects $bad" || fail "--release accepted $bad"
+done
+rc=$(run --release); [ "$rc" = 2 ] && pass "--release without a version exits 2" || fail "--release missing version"
+rc=$(RELEASE_DATE=tomorrow run --release 1.0.0); [ "$rc" = 2 ] && pass "bad RELEASE_DATE exits 2" || fail "bad RELEASE_DATE"
+
 printf '\n%s test(s), %s failure(s)\n' "$count" "$fails"
 [ "$fails" -eq 0 ]

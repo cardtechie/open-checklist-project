@@ -25,7 +25,9 @@ line such as `- **[Issue #95]** Add changelog-fragment support.` Fragments are
 collated after merge to `main` by a workflow that opens (or refreshes) one
 automated "Collate changelog fragments" PR from `auto/collate-changelog`; the
 entries reach `CHANGELOG.md` when that PR merges. A PR check fails a PR that
-adds no fragment (Dependabot and the collate PR are exempt). See
+adds no fragment or edits `CHANGELOG.md` (Dependabot and the collate PR are exempt). There is no release
+exception: a release is cut by the same collation, so no PR edits `CHANGELOG.md` by hand (see
+[`docs/RELEASING.md`](docs/RELEASING.md)). See
 [`changelog.d/README.md`](changelog.d/README.md) for the details, and run
 `bash scripts/collate-changelog.sh --check` to validate your fragment locally.
 
@@ -89,6 +91,12 @@ names), `--deceased` (deceased players on autograph nodes), `--marquee` (runs of
 consecutive famous players; `--famous-run N`), and `--source-runs` (print runs declared
 by the source, as a YAML/JSON mapping). `--check-links` opts in to HEAD-probing URLs;
 without it the URL row only counts placeholder-looking URLs and is marked `(partial)`.
+
+## Releases
+
+The repository uses semantic versioning with bare-number tags. Add your changelog entry as a
+`changelog.d/` fragment (see [Changelog](#changelog)); a maintainer cuts the release. See [`docs/RELEASING.md`](docs/RELEASING.md)
+for the bump rules and the release process.
 
 ## Bulk and generated imports
 

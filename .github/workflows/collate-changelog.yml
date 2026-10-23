@@ -17,11 +17,24 @@ name: Collate changelog
 #
 # Merging the collate PR is itself a push to main; that run finds nothing
 # pending and exits without opening anything.
+#
+# Releases ride the same PR (#82). A manual run with `release_version` set
+# collates with `--release X.Y.Z`, which turns the collated [Unreleased] body
+# into a `## [X.Y.Z] - date` section. Merging that collate PR is the release:
+# release.yml then tags and publishes the new section. No PR edits
+# CHANGELOG.md by hand, so the fragment rule has no release exception. See
+# docs/RELEASING.md.
 
 on:
   push:
     branches: [main]
   workflow_dispatch:
+    inputs:
+      release_version:
+        description: 'Cut this release (X.Y.Z, no "v" prefix). Leave empty for a plain collation.'
+        required: false
+        default: ''
+        type: string
 
 # All git and gh operations use the PROJECT_TOKEN PAT (checkout token + GH_TOKEN),
 # matching the org's auto/sync-main-to-develop back-merge workflows. A PAT, not
@@ -58,14 +71,37 @@ jobs:
           fetch-depth: 0
           token: ${{ secrets.PROJECT_TOKEN }}
 
+      # The input reaches the script through env, never by interpolation into
+      # the shell, and the script validates it as strict X.Y.Z.
       - name: Collate fragments
-        run: bash scripts/collate-changelog.sh
+        env:
+          RELEASE_VERSION: ${{ inputs.release_version || '' }}
+        run: |
+          set -euo pipefail
+          if [ -n "$RELEASE_VERSION" ]; then
+            bash scripts/collate-changelog.sh --release "$RELEASE_VERSION"
+          else
+            bash scripts/collate-changelog.sh
+          fi
 
       - name: Open or update the collate PR
         env:
           GH_TOKEN: ${{ secrets.PROJECT_TOKEN }}
+          RELEASE_VERSION: ${{ inputs.release_version || '' }}
         run: |
           set -euo pipefail
+
+          if [ -n "$RELEASE_VERSION" ]; then
+            PR_TITLE="Release $RELEASE_VERSION"
+            PR_BODY="Release \`$RELEASE_VERSION\`, opened by a manual run of \`.github/workflows/collate-changelog.yml\` with \`release_version\` set. It collates the pending \`changelog.d/\` fragments and moves the \`## [Unreleased]\` entries into a new \`## [$RELEASE_VERSION]\` section, leaving \`[Unreleased]\` empty.
+
+          Merging this PR is the release: \`.github/workflows/release.yml\` then tags \`$RELEASE_VERSION\` and publishes a GitHub release whose notes are that section. Do not push to this branch by hand; a plain collation run leaves it alone until it merges. See \`docs/RELEASING.md\`."
+          else
+            PR_TITLE="Collate changelog fragments"
+            PR_BODY="Automated collation of the pending \`changelog.d/\` fragments into \`CHANGELOG.md\` under \`## [Unreleased]\`, opened by \`.github/workflows/collate-changelog.yml\`.
+
+          The \`main\` ruleset requires pull requests, so collation lands through this PR rather than a push. The workflow refreshes this branch in place on every push to \`main\` while fragments are pending; do not push to it by hand. To cut a release, run the workflow by hand with \`release_version\` set (see \`docs/RELEASING.md\`)."
+          fi
 
           if [ -z "$(git status --porcelain -- CHANGELOG.md changelog.d)" ]; then
             echo "No pending fragments on main; nothing to collate."
@@ -97,6 +133,21 @@ jobs:
           fi
 
           remote="origin/$COLLATE_BRANCH"
+
+          # A plain collation must not overwrite a release that is still
+          # waiting to merge: the regenerated branch would drop its version
+          # section. Leave it; whatever merged meanwhile is collated into the
+          # next [Unreleased] once the release PR lands.
+          if [ -z "$RELEASE_VERSION" ] && git rev-parse --verify --quiet "$remote" >/dev/null; then
+            first_version() { sed -nE 's/^## \[([^]]+)\].*/\1/p' | grep -v '^Unreleased$' | head -n 1 || true; }
+            branch_version=$(git show "$remote:CHANGELOG.md" 2>/dev/null | first_version)
+            main_version=$(git show "origin/main:CHANGELOG.md" 2>/dev/null | first_version)
+            if [ -n "$branch_version" ] && [ "$branch_version" != "$main_version" ]; then
+              echo "::warning::$COLLATE_BRANCH carries the unmerged release $branch_version; leaving it untouched. Merge its PR, and the next run collates what is pending."
+              exit 0
+            fi
+          fi
+
           if ! git rev-parse --verify --quiet "$remote" >/dev/null; then
             git push origin "HEAD:refs/heads/$COLLATE_BRANCH"
           elif git diff --quiet HEAD "$remote"; then
@@ -133,13 +184,14 @@ jobs:
           existing=$(gh pr list --head "$COLLATE_BRANCH" --base main --state open --json number --jq '.[0].number // empty')
           if [ -n "$existing" ]; then
             echo "Collate PR #$existing is already open; reusing it."
+            if [ -n "$RELEASE_VERSION" ]; then
+              gh pr edit "$existing" --title "$PR_TITLE" --body "$PR_BODY"
+            fi
             exit 0
           fi
 
           gh pr create \
             --base main \
             --head "$COLLATE_BRANCH" \
-            --title "Collate changelog fragments" \
-            --body "Automated collation of the pending \`changelog.d/\` fragments into \`CHANGELOG.md\` under \`## [Unreleased]\`, opened by \`.github/workflows/collate-changelog.yml\`.
-
-          The \`main\` ruleset requires pull requests, so collation lands through this PR rather than a push. The workflow refreshes this branch in place on every push to \`main\` while fragments are pending; do not push to it by hand. Merge it before cutting a release so every pending entry is under \`[Unreleased]\` when the release PR moves it into a version section."
+            --title "$PR_TITLE" \
+            --body "$PR_BODY"

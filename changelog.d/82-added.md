@@ -1,0 +1,1 @@
+- **[Issue #82]** Adopt semantic versioning with a changelog-driven release workflow and document the bump rules.

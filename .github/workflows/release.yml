@@ -1,0 +1,74 @@
+name: Release
+
+# Tag and publish the newest version section of CHANGELOG.md when its tag does not exist yet (#82).
+#
+# The version is declared by a maintainer who runs the "Collate changelog" workflow with a
+# `release_version`; its collate PR turns `## [Unreleased]` into `## [X.Y.Z] - YYYY-MM-DD`,
+# and merging that PR is what this workflow picks up. This workflow commits nothing: the `main`
+# ruleset requires pull requests with no bypass actors, so a push back to `main` would be
+# rejected. Ordinary merges are inert because the newest version's tag already exists.
+# See docs/RELEASING.md.
+
+on:
+  push:
+    branches:
+      - main
+
+permissions:
+  contents: write
+
+concurrency:
+  group: release
+  cancel-in-progress: false
+
+jobs:
+  release:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262 # v4
+        with:
+          fetch-depth: 0
+          fetch-tags: true
+
+      - name: Find the newest version in CHANGELOG.md
+        id: version
+        run: |
+          set -euo pipefail
+          # First `## [X.Y.Z]` heading; `## [Unreleased]` never matches the pattern.
+          VERSION=$(sed -nE 's/^## \[([^]]+)\].*/\1/p' CHANGELOG.md | grep -v '^Unreleased$' | head -n 1 || true)
+          if [ -z "$VERSION" ]; then
+            echo "No version section in CHANGELOG.md; nothing to release."
+            echo "release=false" >> "$GITHUB_OUTPUT"
+            exit 0
+          fi
+          if ! printf '%s' "$VERSION" | grep -Eq '^(0|[1-9][0-9]*)\.(0|[1-9][0-9]*)\.(0|[1-9][0-9]*)$'; then
+            echo "::error::Newest changelog version '$VERSION' is not X.Y.Z"
+            exit 1
+          fi
+          if git rev-parse -q --verify "refs/tags/$VERSION" >/dev/null; then
+            echo "Tag $VERSION already exists; nothing to release."
+            echo "release=false" >> "$GITHUB_OUTPUT"
+            exit 0
+          fi
+          # Section body: everything after the heading up to the next `## ` heading.
+          awk -v v="$VERSION" '
+            $0 ~ "^## \\[" v "\\]" { found = 1; next }
+            found && /^## / { exit }
+            found { print }
+          ' CHANGELOG.md > "$RUNNER_TEMP/release-notes.md"
+          echo "Releasing $VERSION"
+          cat "$RUNNER_TEMP/release-notes.md"
+          echo "release=true" >> "$GITHUB_OUTPUT"
+          echo "version=$VERSION" >> "$GITHUB_OUTPUT"
+
+      - name: Create tag and GitHub release
+        if: steps.version.outputs.release == 'true'
+        env:
+          GH_TOKEN: ${{ github.token }}
+          VERSION: ${{ steps.version.outputs.version }}
+        run: |
+          set -euo pipefail
+          gh release create "$VERSION" \
+            --target "$GITHUB_SHA" \
+            --title "$VERSION" \
+            --notes-file "$RUNNER_TEMP/release-notes.md"

@@ -4,9 +4,14 @@ name: Changelog fragment
 # CHANGELOG.md. Collation happens once, post-merge, in collate-changelog.yml.
 # See changelog.d/README.md.
 
+# merge_group: so a merge queue gets this check's status instead of waiting on
+# one that never arrives (#82). A queued group has no pull_request payload, so
+# the two PR-diff steps below run on pull_request only; the PR they judged is
+# the one in the queue. Validation and the collator tests run on both.
 on:
   pull_request:
     types: [opened, synchronize, reopened]
+  merge_group:
 
 permissions:
   contents: read
@@ -29,6 +34,7 @@ jobs:
       # its branch auto/collate-changelog.
       - name: Require an added fragment
         if: >-
+          github.event_name == 'pull_request' &&
           !(github.event.pull_request.head.ref == 'auto/collate-changelog' &&
             github.event.pull_request.head.repo.full_name == github.repository)
         env:
@@ -45,6 +51,27 @@ jobs:
             exit 1
           fi
           printf 'fragment(s) added:\n%s\n' "$fragments"
+
+      # Only the collate PR writes CHANGELOG.md. A hand edit would bypass the
+      # fragment convention, and release.yml publishes whatever version
+      # heading reaches main, so a version added by any other PR would be an
+      # unapproved release (#82). Same exemption as the step above.
+      - name: Refuse hand edits to CHANGELOG.md
+        if: >-
+          github.event_name == 'pull_request' &&
+          !(github.event.pull_request.head.ref == 'auto/collate-changelog' &&
+            github.event.pull_request.head.repo.full_name == github.repository)
+        env:
+          BASE_SHA: ${{ github.event.pull_request.base.sha }}
+          HEAD_SHA: ${{ github.event.pull_request.head.sha }}
+        run: |
+          set -euo pipefail
+          changed=$(git diff --name-only "$BASE_SHA...$HEAD_SHA" -- CHANGELOG.md)
+          if [ -n "$changed" ]; then
+            echo "::error::This PR edits CHANGELOG.md. Only the collate PR (auto/collate-changelog) writes it, releases included; add a changelog.d/ fragment instead. See changelog.d/README.md and docs/RELEASING.md."
+            exit 1
+          fi
+          echo "CHANGELOG.md untouched"
 
       - name: Validate fragment names and bodies
         run: bash scripts/collate-changelog.sh --check

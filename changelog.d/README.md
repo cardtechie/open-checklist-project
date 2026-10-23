@@ -25,9 +25,12 @@ branch in place on every push to `main` and reuses the open PR rather than
 opening another; with nothing pending it does nothing. Do not push to that
 branch by hand. The entries reach `CHANGELOG.md` when the collate PR merges.
 
-Entries land under `[Unreleased]`. Turning `[Unreleased]` into a versioned
-section is a human step in a release PR (#82), so merge the collate PR before
-cutting a release.
+Entries land under `[Unreleased]`. A release is the same collation run with a
+version: a manual run of the workflow with `release_version` set calls
+`scripts/collate-changelog.sh --release X.Y.Z`, which turns the collated
+`[Unreleased]` body into a `## [X.Y.Z] - YYYY-MM-DD` section under a fresh empty
+`[Unreleased]`, and the collate PR carries it. No PR hand-edits `CHANGELOG.md`
+to cut a release (#82). See `docs/RELEASING.md`.
 
 A fragment whose name does not match `<issue>-<type>.md`, or whose body is
 empty, **fails the collation run**. It is never skipped silently, because a
@@ -39,5 +42,5 @@ bash scripts/collate-changelog.sh --check
 ```
 
 The `Changelog fragment` workflow runs the same check on every PR and fails a PR
-that adds no fragment. Dependabot PRs are exempt, and the collate PR is exempt
+that adds no fragment, or that edits `CHANGELOG.md`. Dependabot PRs are exempt, and the collate PR is exempt
 from the added-fragment requirement because it consumes fragments instead.
