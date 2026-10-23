@@ -374,6 +374,23 @@ if [ -n "$release" ]; then
     printf 'error: %s already has a ## [%s] section; pick the next version.\n' "$CHANGELOG" "$release" >&2
     exit 1
   fi
+  # The new section becomes the first versioned heading, which release.yml
+  # publishes as the newest release, so it must be newer than every version
+  # already in the file. Compared numerically, component by component.
+  IFS=. read -r new_major new_minor new_patch <<< "$release"
+  if [ -f "$CHANGELOG" ]; then
+    while IFS= read -r existing; do
+      [[ "$existing" =~ ^(0|[1-9][0-9]*)\.(0|[1-9][0-9]*)\.(0|[1-9][0-9]*)$ ]] || continue
+      IFS=. read -r old_major old_minor old_patch <<< "$existing"
+      if [ "$new_major" -lt "$old_major" ] \
+        || { [ "$new_major" -eq "$old_major" ] && [ "$new_minor" -lt "$old_minor" ]; } \
+        || { [ "$new_major" -eq "$old_major" ] && [ "$new_minor" -eq "$old_minor" ] && [ "$new_patch" -le "$old_patch" ]; }; then
+        printf 'error: release %s is not newer than ## [%s] already in %s; pick a higher version.\n' \
+          "$release" "$existing" "$CHANGELOG" >&2
+        exit 1
+      fi
+    done < <(sed -nE 's/^## \[([^]]+)\].*/\1/p' "$CHANGELOG")
+  fi
 fi
 
 {

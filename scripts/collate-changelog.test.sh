@@ -224,6 +224,12 @@ new_repo
 printf '\n## [0.1.0] - 2026-01-01\n\n### Added\n\n- Old thing.\n' >> CHANGELOG.md
 echo '- **[Issue #32]** New.' > changelog.d/32-added.md
 rc=$(run --release 0.1.0); [ "$rc" = 1 ] && [ -e changelog.d/32-added.md ] && pass "--release refuses an existing version and consumes nothing" || fail "existing version"
+new_repo
+printf '\n## [0.2.0] - 2026-02-01\n\n### Added\n\n- Newer.\n\n## [0.10.0] - 2026-01-01\n\n### Added\n\n- Odd order.\n' >> CHANGELOG.md
+before=$(cat CHANGELOG.md)
+rc=$(run --release 0.1.1); [ "$rc" = 1 ] && [ "$(cat CHANGELOG.md)" = "$before" ] && pass "--release refuses an older version" || fail "older version"
+rc=$(run --release 0.9.0); [ "$rc" = 1 ] && pass "--release compares numerically against every version, not just the first" || fail "numeric compare"
+rc=$(RELEASE_DATE=2026-10-23 run --release 0.10.1); [ "$rc" = 0 ] && grep -q '^## \[0.10.1\] - 2026-10-23$' CHANGELOG.md && pass "--release accepts a newer version" || fail "newer version"
 for bad in v1.0.0 01.2.3 1.2; do
   rc=$(run --release "$bad"); [ "$rc" = 2 ] && pass "--release rejects $bad" || fail "--release accepted $bad"
 done

@@ -93,8 +93,14 @@ jobs:
 
           if [ -n "$RELEASE_VERSION" ]; then
             PR_TITLE="Release $RELEASE_VERSION"
+            PR_BODY="Release \`$RELEASE_VERSION\`, opened by a manual run of \`.github/workflows/collate-changelog.yml\` with \`release_version\` set. It collates the pending \`changelog.d/\` fragments and moves the \`## [Unreleased]\` entries into a new \`## [$RELEASE_VERSION]\` section, leaving \`[Unreleased]\` empty.
+
+          Merging this PR is the release: \`.github/workflows/release.yml\` then tags \`$RELEASE_VERSION\` and publishes a GitHub release whose notes are that section. Do not push to this branch by hand; a plain collation run leaves it alone until it merges. See \`docs/RELEASING.md\`."
           else
             PR_TITLE="Collate changelog fragments"
+            PR_BODY="Automated collation of the pending \`changelog.d/\` fragments into \`CHANGELOG.md\` under \`## [Unreleased]\`, opened by \`.github/workflows/collate-changelog.yml\`.
+
+          The \`main\` ruleset requires pull requests, so collation lands through this PR rather than a push. The workflow refreshes this branch in place on every push to \`main\` while fragments are pending; do not push to it by hand. To cut a release, run the workflow by hand with \`release_version\` set (see \`docs/RELEASING.md\`)."
           fi
 
           if [ -z "$(git status --porcelain -- CHANGELOG.md changelog.d)" ]; then
@@ -179,7 +185,7 @@ jobs:
           if [ -n "$existing" ]; then
             echo "Collate PR #$existing is already open; reusing it."
             if [ -n "$RELEASE_VERSION" ]; then
-              gh pr edit "$existing" --title "$PR_TITLE"
+              gh pr edit "$existing" --title "$PR_TITLE" --body "$PR_BODY"
             fi
             exit 0
           fi
@@ -188,6 +194,4 @@ jobs:
             --base main \
             --head "$COLLATE_BRANCH" \
             --title "$PR_TITLE" \
-            --body "Automated collation of the pending \`changelog.d/\` fragments into \`CHANGELOG.md\` under \`## [Unreleased]\`, opened by \`.github/workflows/collate-changelog.yml\`.
-
-          The \`main\` ruleset requires pull requests, so collation lands through this PR rather than a push. The workflow refreshes this branch in place on every push to \`main\` while fragments are pending; do not push to it by hand. Merge it before cutting a release so every pending entry is under \`[Unreleased]\` when the release PR moves it into a version section."
+            --body "$PR_BODY"

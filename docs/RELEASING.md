@@ -24,7 +24,7 @@ While the version is `0.x`, a breaking change bumps **minor** instead of major.
 ## How a release is cut
 
 A maintainer declares the version; the collation writes it. No pull request edits
-`CHANGELOG.md` by hand, a release included, so every PR follows the same fragment rule (see
+`CHANGELOG.md` by hand, including for releases, so every PR follows the same fragment rule (see
 [`changelog.d/README.md`](../changelog.d/README.md)). Neither workflow pushes to `main`,
 because the `main` ruleset requires pull requests with no bypass actors.
 
