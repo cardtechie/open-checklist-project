@@ -23,24 +23,29 @@ While the version is `0.x`, a breaking change bumps **minor** instead of major.
 
 ## How a release is cut
 
-The version is declared by a person in a pull request. The release workflow
-(`.github/workflows/release.yml`) commits nothing, because the `main` ruleset requires pull
-requests with no bypass actors.
+A maintainer declares the version; the collation writes it. No pull request edits
+`CHANGELOG.md` by hand, a release included, so every PR follows the same fragment rule (see
+[`changelog.d/README.md`](../changelog.d/README.md)). Neither workflow pushes to `main`,
+because the `main` ruleset requires pull requests with no bypass actors.
 
-0. Merge the open "Collate changelog fragments" PR (from `auto/collate-changelog`) first.
-   Fragments in `changelog.d/` are not in `CHANGELOG.md` until it lands, so a release cut
-   before then would leave them out of the release notes.
-1. Open a PR that moves the entries under `## [Unreleased]` in `CHANGELOG.md` into a new
-   `## [X.Y.Z] - YYYY-MM-DD` section above the older ones, and leaves an empty
-   `## [Unreleased]`.
-   This is the one PR that edits `CHANGELOG.md` by hand, and it adds no fragment. The
-   `Changelog fragment` check recognises it by the new `## [X.Y.Z]` heading and waives the
-   fragment requirement, but fails it while any fragment is still pending in `changelog.d/`.
-2. Merge it.
-3. On the push to `main`, the workflow reads the newest `## [X.Y.Z]` heading. If that tag does
-   not exist, it creates the tag and a GitHub release whose notes are that section's body. If
-   the tag exists, it does nothing, so ordinary merges are inert.
+1. Run the **Collate changelog** workflow (`.github/workflows/collate-changelog.yml`) by hand
+   against `main`, with `release_version` set to the new version, for example `0.1.0`
+   (`gh workflow run collate-changelog.yml --ref main -f release_version=0.1.0`). It runs
+   `scripts/collate-changelog.sh --release X.Y.Z`, which collates every pending fragment and
+   then turns the `## [Unreleased]` body into a `## [X.Y.Z] - YYYY-MM-DD` section (today's UTC
+   date) under a fresh, empty `## [Unreleased]`. The result goes to the usual collate PR from
+   `auto/collate-changelog`, retitled `Release X.Y.Z`; an already-open collate PR is refreshed
+   rather than duplicated, so nothing pending is left out. The script refuses an empty release
+   and a version that already has a section.
+2. Review and merge that PR. While it is open, a plain collation run will not overwrite it;
+   anything merged in the meantime is collated into the next `[Unreleased]` afterwards.
+3. On the push to `main`, `.github/workflows/release.yml` reads the newest `## [X.Y.Z]`
+   heading. If that tag does not exist, it creates the tag and a GitHub release whose notes
+   are that section's body. If the tag exists, it does nothing, so ordinary merges are inert.
 4. Check the release page: the notes should match the changelog section.
+
+The dispatch input exists only once this workflow is on `main`, so the first release, `0.1.0`,
+is cut after this process merges.
 
 Tag creation uses the default `GITHUB_TOKEN` with `contents: write`. If a tag ruleset is ever
 added to this repo, the workflow will need a token that is allowed to create tags.

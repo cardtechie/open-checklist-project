@@ -10,19 +10,26 @@
 #
 # Fragments are written under `## [Unreleased]`, in the existing layout:
 # `### Added|Changed|...` subsections, one `- **[Issue #N]** ...` bullet each.
-# This repo cuts no tagged releases yet (#82); when it does, a `--release
-# <version>` mode can rename [Unreleased] into a versioned section.
+#
+# `--release <X.Y.Z>` cuts a release (#82): it collates as usual, then turns the
+# collated `[Unreleased]` body into a `## [X.Y.Z] - YYYY-MM-DD` section and
+# leaves a fresh empty `## [Unreleased]` above it. That versioned section is the
+# one .github/workflows/release.yml tags. The date is today in UTC, or
+# $RELEASE_DATE (YYYY-MM-DD) when set. See docs/RELEASING.md.
 #
 # Usage:
-#   scripts/collate-changelog.sh            collate and write
-#   scripts/collate-changelog.sh --check    validate fragment names and bodies only
+#   scripts/collate-changelog.sh                    collate and write
+#   scripts/collate-changelog.sh --check            validate fragment names and bodies only
+#   scripts/collate-changelog.sh --release X.Y.Z    collate, then cut version X.Y.Z
 #
 # Exit codes:
-#   0  collated, or nothing pending, or --check passed
+#   0  collated, or nothing pending, or --check passed, or the release was cut
 #   1  a fragment is malformed, a path is a symlink or otherwise not the
-#      required regular file/directory, or CHANGELOG.md cannot be safely
-#      re-rendered
-#   2  bad invocation: an unknown or extra argument
+#      required regular file/directory, CHANGELOG.md cannot be safely
+#      re-rendered, or a release cannot be cut (nothing under [Unreleased], or
+#      the version already has a section)
+#   2  bad invocation: an unknown or extra argument, or a release version or
+#      date that is not strict X.Y.Z / YYYY-MM-DD
 #
 # Written for bash 3.2 (macOS ships it): no associative arrays, no mapfile.
 
@@ -39,20 +46,38 @@ TYPES="added changed deprecated removed fixed security"
 BOOKKEEPING="README.md .gitkeep .markdownlint.json"
 
 usage() {
-  printf 'usage: %s [--check]\n' "${0##*/}"
+  printf 'usage: %s [--check | --release X.Y.Z]\n' "${0##*/}"
 }
 
-if [ "$#" -gt 1 ]; then
-  printf 'error: too many arguments (expected at most one)\n' >&2
-  usage >&2
-  exit 2
-fi
-
 check_only=0
+release=""
 case "${1-}" in
-  --check) check_only=1 ;;
+  --check)
+    check_only=1
+    [ "$#" -le 1 ] || { printf 'error: too many arguments\n' >&2; usage >&2; exit 2; }
+    ;;
+  --release)
+    if [ "$#" -ne 2 ]; then
+      printf 'error: --release takes exactly one version argument\n' >&2
+      usage >&2
+      exit 2
+    fi
+    release="$2"
+    # Same strict SemVer core as release.yml: no leading zeros, no prefix.
+    if ! [[ "$release" =~ ^(0|[1-9][0-9]*)\.(0|[1-9][0-9]*)\.(0|[1-9][0-9]*)$ ]]; then
+      printf 'error: release version %s is not strict X.Y.Z (no "v" prefix, no leading zeros)\n' "$release" >&2
+      exit 2
+    fi
+    release_date="${RELEASE_DATE:-$(date -u +%Y-%m-%d)}"
+    if ! [[ "$release_date" =~ ^[0-9]{4}-[0-9]{2}-[0-9]{2}$ ]]; then
+      printf 'error: RELEASE_DATE %s is not YYYY-MM-DD\n' "$release_date" >&2
+      exit 2
+    fi
+    ;;
   -h|--help) usage; exit 0 ;;
-  "") ;;
+  "")
+    [ "$#" -eq 0 ] || { usage >&2; exit 2; }
+    ;;
   *)
     printf 'error: unknown argument: %s\n' "$1" >&2
     usage >&2
@@ -208,7 +233,9 @@ if [ "$check_only" -eq 1 ]; then
   exit 0
 fi
 
-if [ "$pending" -eq 0 ]; then
+# A release still has work to do with nothing pending: it versions whatever an
+# earlier collation already put under [Unreleased].
+if [ "$pending" -eq 0 ] && [ -z "$release" ]; then
   printf 'no pending fragments\n'
   exit 0
 fi
@@ -328,8 +355,26 @@ for t in $TYPES; do
 done
 
 # ---------------------------------------------------------------------------
-# 4. Write the file back.
+# 4. Write the file back. In release mode the collated groups go under the new
+#    version heading and [Unreleased] is left empty above it, so the version
+#    is the first bracketed `## [X.Y.Z]` heading, which is what release.yml reads.
 # ---------------------------------------------------------------------------
+
+if [ -n "$release" ]; then
+  has_entries=0
+  for t in $TYPES; do
+    [ -s "$work/body.$t" ] && has_entries=1
+  done
+  if [ "$has_entries" -eq 0 ]; then
+    printf 'error: nothing under %s and no pending fragments; refusing to cut an empty release %s.\n' \
+      "$SECTION" "$release" >&2
+    exit 1
+  fi
+  if [ -f "$CHANGELOG" ] && awk -v h="## [$release]" 'index($0, h) == 1 { f = 1 } END { exit f ? 0 : 1 }' "$CHANGELOG"; then
+    printf 'error: %s already has a ## [%s] section; pick the next version.\n' "$CHANGELOG" "$release" >&2
+    exit 1
+  fi
+fi
 
 {
   if [ -s "$before_file" ]; then
@@ -341,6 +386,10 @@ done
   fi
 
   printf '%s\n\n' "$SECTION"
+
+  if [ -n "$release" ]; then
+    printf '## [%s] - %s\n\n' "$release" "$release_date"
+  fi
 
   first_group=1
   for t in $TYPES; do
@@ -371,4 +420,8 @@ for t in $TYPES; do
   done < "$work/list.$t"
 done
 
-printf 'collated %s fragment(s) into %s under %s\n' "$pending" "$CHANGELOG" "$SECTION"
+if [ -n "$release" ]; then
+  printf 'collated %s fragment(s) and cut ## [%s] - %s in %s\n' "$pending" "$release" "$release_date" "$CHANGELOG"
+else
+  printf 'collated %s fragment(s) into %s under %s\n' "$pending" "$CHANGELOG" "$SECTION"
+fi

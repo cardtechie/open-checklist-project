@@ -25,8 +25,8 @@ line such as `- **[Issue #95]** Add changelog-fragment support.` Fragments are
 collated after merge to `main` by a workflow that opens (or refreshes) one
 automated "Collate changelog fragments" PR from `auto/collate-changelog`; the
 entries reach `CHANGELOG.md` when that PR merges. A PR check fails a PR that
-adds no fragment (Dependabot, the collate PR and a release PR are exempt; a release PR is the
-one PR a maintainer edits `CHANGELOG.md` in, and only after the collate PR has landed, see
+adds no fragment (Dependabot and the collate PR are exempt). There is no release
+exception: a release is cut by the same collation, so no PR edits `CHANGELOG.md` by hand (see
 [`docs/RELEASING.md`](docs/RELEASING.md)). See
 [`changelog.d/README.md`](changelog.d/README.md) for the details, and run
 `bash scripts/collate-changelog.sh --check` to validate your fragment locally.

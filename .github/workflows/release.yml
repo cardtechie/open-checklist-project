@@ -2,8 +2,9 @@ name: Release
 
 # Tag and publish the newest version section of CHANGELOG.md when its tag does not exist yet (#82).
 #
-# The version is declared by a human in the release PR, which moves the `## [Unreleased]`
-# entries under `## [X.Y.Z] - YYYY-MM-DD`. This workflow commits nothing: the `main`
+# The version is declared by a maintainer who runs the "Collate changelog" workflow with a
+# `release_version`; its collate PR turns `## [Unreleased]` into `## [X.Y.Z] - YYYY-MM-DD`,
+# and merging that PR is what this workflow picks up. This workflow commits nothing: the `main`
 # ruleset requires pull requests with no bypass actors, so a push back to `main` would be
 # rejected. Ordinary merges are inert because the newest version's tag already exists.
 # See docs/RELEASING.md.
