@@ -42,5 +42,5 @@ bash scripts/collate-changelog.sh --check
 ```
 
 The `Changelog fragment` workflow runs the same check on every PR and fails a PR
-that adds no fragment. Dependabot PRs are exempt, and the collate PR is exempt
+that adds no fragment, or that edits `CHANGELOG.md`. Dependabot PRs are exempt, and the collate PR is exempt
 from the added-fragment requirement because it consumes fragments instead.
