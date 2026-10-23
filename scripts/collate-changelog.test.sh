@@ -243,6 +243,14 @@ for d in 2026-99-99 2026-02-29 2026-04-31 2026-00-10; do
   rc=$(RELEASE_DATE=$d run --release 1.0.0); [ "$rc" = 2 ] && pass "RELEASE_DATE $d rejected" || fail "RELEASE_DATE $d accepted"
 done
 rc=$(RELEASE_DATE=2028-02-29 run --release 1.0.0); [ "$rc" = 0 ] && pass "leap-day RELEASE_DATE accepted" || fail "leap day"
+new_repo
+rmdir changelog.d
+rc=$(RELEASE_DATE=2026-10-23 run --release 0.1.0)
+[ "$rc" = 0 ] && grep -q '^## \[0.1.0\] - 2026-10-23$' CHANGELOG.md && pass "--release versions [Unreleased] when changelog.d/ is absent" || fail "--release without changelog.d"
+new_repo
+rmdir changelog.d
+before=$(cat CHANGELOG.md)
+rc=$(run); [ "$rc" = 0 ] && [ "$(cat CHANGELOG.md)" = "$before" ] && pass "plain collation without changelog.d/ is still a no-op" || fail "plain without changelog.d"
 for bad in v1.0.0 01.2.3 1.2; do
   rc=$(run --release "$bad"); [ "$rc" = 2 ] && pass "--release rejects $bad" || fail "--release accepted $bad"
 done

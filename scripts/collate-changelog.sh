@@ -141,7 +141,10 @@ if [ -e "$FRAGMENT_DIR" ] && [ ! -d "$FRAGMENT_DIR" ]; then
   exit 1
 fi
 
-if [ ! -d "$FRAGMENT_DIR" ]; then
+# With no fragment directory there is nothing to collate, but a release still
+# versions what an earlier collation put under [Unreleased], so only the plain
+# and --check modes stop here.
+if [ ! -d "$FRAGMENT_DIR" ] && [ -z "$release" ]; then
   printf 'no pending fragments (%s does not exist)\n' "$FRAGMENT_DIR"
   exit 0
 fi
@@ -261,7 +264,7 @@ while IFS= read -r -d '' path; do
 # stays in this shell and its counters survive it. `-path ... -prune` lists the
 # directory's immediate children using only POSIX find primaries: -mindepth and
 # -maxdepth are GNU extensions that macOS's BSD find lacks.
-done < <(find "$FRAGMENT_DIR" -path "$FRAGMENT_DIR/*" -prune -print0)
+done < <(if [ -d "$FRAGMENT_DIR" ]; then find "$FRAGMENT_DIR" -path "$FRAGMENT_DIR/*" -prune -print0; fi)
 
 if [ "$malformed" -ne 0 ]; then
   exit 1
