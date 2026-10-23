@@ -4,9 +4,14 @@ name: Changelog fragment
 # CHANGELOG.md. Collation happens once, post-merge, in collate-changelog.yml.
 # See changelog.d/README.md.
 
+# merge_group: so a merge queue gets this check's status instead of waiting on
+# one that never arrives (#82). A queued group has no pull_request payload, so
+# the two PR-diff steps below run on pull_request only; the PR they judged is
+# the one in the queue. Validation and the collator tests run on both.
 on:
   pull_request:
     types: [opened, synchronize, reopened]
+  merge_group:
 
 permissions:
   contents: read
@@ -29,6 +34,7 @@ jobs:
       # its branch auto/collate-changelog.
       - name: Require an added fragment
         if: >-
+          github.event_name == 'pull_request' &&
           !(github.event.pull_request.head.ref == 'auto/collate-changelog' &&
             github.event.pull_request.head.repo.full_name == github.repository)
         env:
@@ -52,6 +58,7 @@ jobs:
       # unapproved release (#82). Same exemption as the step above.
       - name: Refuse hand edits to CHANGELOG.md
         if: >-
+          github.event_name == 'pull_request' &&
           !(github.event.pull_request.head.ref == 'auto/collate-changelog' &&
             github.event.pull_request.head.repo.full_name == github.repository)
         env:
