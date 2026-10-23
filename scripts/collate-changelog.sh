@@ -49,6 +49,45 @@ usage() {
   printf 'usage: %s [--check | --release X.Y.Z]\n' "${0##*/}"
 }
 
+# valid_date YYYY-MM-DD: the shape, and a real day of a real month (leap
+# years included). Pure bash, so it behaves the same on GNU and BSD date.
+valid_date() {
+  [[ "$1" =~ ^([0-9]{4})-([0-9]{2})-([0-9]{2})$ ]] || return 1
+  local y=$((10#${BASH_REMATCH[1]})) m=$((10#${BASH_REMATCH[2]})) d=$((10#${BASH_REMATCH[3]})) max
+  [ "$m" -ge 1 ] && [ "$m" -le 12 ] && [ "$d" -ge 1 ] || return 1
+  case "$m" in
+    4|6|9|11) max=30 ;;
+    2) if { [ $((y % 4)) -eq 0 ] && [ $((y % 100)) -ne 0 ]; } || [ $((y % 400)) -eq 0 ]; then max=29; else max=28; fi ;;
+    *) max=31 ;;
+  esac
+  [ "$d" -le "$max" ]
+}
+
+# num_cmp A B: -1, 0 or 1 for two non-negative decimal integers without
+# leading zeros. Length first, then lexicographic, so a SemVer component of
+# any size compares correctly without bash's fixed-width integer conversion.
+num_cmp() {
+  if [ "${#1}" -ne "${#2}" ]; then
+    [ "${#1}" -lt "${#2}" ] && echo -1 || echo 1
+  elif [ "$1" = "$2" ]; then
+    echo 0
+  elif [[ "$1" < "$2" ]]; then
+    echo -1
+  else
+    echo 1
+  fi
+}
+
+# ver_newer A B: succeed when X.Y.Z A is strictly newer than B.
+ver_newer() {
+  local a1 a2 a3 b1 b2 b3 c
+  IFS=. read -r a1 a2 a3 <<< "$1"
+  IFS=. read -r b1 b2 b3 <<< "$2"
+  c=$(num_cmp "$a1" "$b1"); [ "$c" = 0 ] || { [ "$c" = 1 ]; return; }
+  c=$(num_cmp "$a2" "$b2"); [ "$c" = 0 ] || { [ "$c" = 1 ]; return; }
+  c=$(num_cmp "$a3" "$b3"); [ "$c" = 1 ]
+}
+
 check_only=0
 release=""
 case "${1-}" in
@@ -69,8 +108,8 @@ case "${1-}" in
       exit 2
     fi
     release_date="${RELEASE_DATE:-$(date -u +%Y-%m-%d)}"
-    if ! [[ "$release_date" =~ ^[0-9]{4}-[0-9]{2}-[0-9]{2}$ ]]; then
-      printf 'error: RELEASE_DATE %s is not YYYY-MM-DD\n' "$release_date" >&2
+    if ! valid_date "$release_date"; then
+      printf 'error: RELEASE_DATE %s is not a real YYYY-MM-DD calendar date\n' "$release_date" >&2
       exit 2
     fi
     ;;
@@ -374,17 +413,21 @@ if [ -n "$release" ]; then
     printf 'error: %s already has a ## [%s] section; pick the next version.\n' "$CHANGELOG" "$release" >&2
     exit 1
   fi
-  # The new section becomes the first versioned heading, which release.yml
-  # publishes as the newest release, so it must be newer than every version
-  # already in the file. Compared numerically, component by component.
-  IFS=. read -r new_major new_minor new_patch <<< "$release"
+  # The new section is written directly under [Unreleased]. It is the first
+  # versioned heading, the one release.yml publishes, only when no versioned
+  # section sits above [Unreleased]; refuse that layout rather than cut a
+  # release that release.yml would never see.
+  if grep -qE '^## \[[^]]+\]' "$before_file"; then
+    printf 'error: %s has a versioned section above %s; move %s to the top before cutting a release.\n' \
+      "$CHANGELOG" "$SECTION" "$SECTION" >&2
+    exit 1
+  fi
+  # It must also be newer than every version already in the file, or
+  # release.yml would publish an older number as the newest release.
   if [ -f "$CHANGELOG" ]; then
     while IFS= read -r existing; do
       [[ "$existing" =~ ^(0|[1-9][0-9]*)\.(0|[1-9][0-9]*)\.(0|[1-9][0-9]*)$ ]] || continue
-      IFS=. read -r old_major old_minor old_patch <<< "$existing"
-      if [ "$new_major" -lt "$old_major" ] \
-        || { [ "$new_major" -eq "$old_major" ] && [ "$new_minor" -lt "$old_minor" ]; } \
-        || { [ "$new_major" -eq "$old_major" ] && [ "$new_minor" -eq "$old_minor" ] && [ "$new_patch" -le "$old_patch" ]; }; then
+      if ! ver_newer "$release" "$existing"; then
         printf 'error: release %s is not newer than ## [%s] already in %s; pick a higher version.\n' \
           "$release" "$existing" "$CHANGELOG" >&2
         exit 1
