@@ -6,15 +6,17 @@ The format follows [Keep a Changelog](https://keepachangelog.com/en/1.1.0/) and 
 
 ## [Unreleased]
 
-### Changed
-
-- **[Issue #80]** Make the validate check report on every pull request and run on merge-queue groups.
-
 ### Added
 
 - **[Issue #88]** Run the work-order.js node tests in CI.
 - **[Issue #78]** Add Stage A Discover: backfill work-order identity (reusing an existing API set UUID) and post the Discover block so a work order passes the producer precondition check.
 - **[Issue #65]** Add the Stage A producer contract, a work-order precondition checker and the produce-set skill for unattended Source→Normalize.
+- **[Issue #81]** Backfill CHANGELOG.md from the repo's history.
+- **[Issue #95]** Add changelog-fragment support: a changelog.d directory, a collator with a check mode, and a PR gate that requires a fragment.
+
+### Changed
+
+- **[Issue #80]** Make the validate check report on every pull request and run on merge-queue groups.
 
 ## 2026-10 (pre-versioning)
 
