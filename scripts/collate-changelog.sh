@@ -5,8 +5,9 @@
 # This is the consumer half of the per-PR fragment convention described in
 # changelog.d/README.md. Each PR writes one fragment at
 # changelog.d/<issue>-<type>.md; this script drains the directory into
-# CHANGELOG.md and deletes the fragments it consumed. It runs post-merge from
-# .github/workflows/collate-changelog.yml, and is never run inside a PR.
+# CHANGELOG.md and deletes the fragments it consumed. It runs at release, from
+# scripts/commit-changelog-back.sh in .github/workflows/release.yml, and is
+# never run inside a PR.
 #
 # Fragments are written under `## [Unreleased]`, in the existing layout:
 # `### Added|Changed|...` subsections, one `- **[Issue #N]** ...` bullet each.

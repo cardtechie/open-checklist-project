@@ -1,8 +1,9 @@
 name: Changelog fragment
 
 # Every PR adds one changelog.d/<issue>-<type>.md fragment instead of editing
-# CHANGELOG.md. Collation happens once, post-merge, in collate-changelog.yml.
-# See changelog.d/README.md.
+# CHANGELOG.md. Collation happens at release, in release.yml, which commits the
+# collated CHANGELOG.md straight back to main. See changelog.d/README.md and
+# docs/RELEASING.md.
 
 # merge_group: so a merge queue gets this check's status instead of waiting on
 # one that never arrives (#82). A queued group has no pull_request payload, so
@@ -27,16 +28,8 @@ jobs:
         with:
           fetch-depth: 0
 
-      # The collate PR (auto/collate-changelog, opened by collate-changelog.yml)
-      # consumes fragments rather than adding one, so it is exempt from this
-      # step only; the name/body validation and collator tests below still run.
-      # The same-repo check stops a fork from claiming the exemption by naming
-      # its branch auto/collate-changelog.
       - name: Require an added fragment
-        if: >-
-          github.event_name == 'pull_request' &&
-          !(github.event.pull_request.head.ref == 'auto/collate-changelog' &&
-            github.event.pull_request.head.repo.full_name == github.repository)
+        if: github.event_name == 'pull_request'
         env:
           BASE_SHA: ${{ github.event.pull_request.base.sha }}
           HEAD_SHA: ${{ github.event.pull_request.head.sha }}
@@ -52,15 +45,13 @@ jobs:
           fi
           printf 'fragment(s) added:\n%s\n' "$fragments"
 
-      # Only the collate PR writes CHANGELOG.md. A hand edit would bypass the
-      # fragment convention, and release.yml publishes whatever version
-      # heading reaches main, so a version added by any other PR would be an
-      # unapproved release (#82). Same exemption as the step above.
+      # No PR writes CHANGELOG.md. Only the release workflow's commit-back
+      # does, and that is a push, not a PR, so there is no exemption here. A
+      # hand edit would bypass the fragment convention, and a version heading
+      # added by a PR would let the commit-back's resume check mistake it for
+      # its own (#82, #98).
       - name: Refuse hand edits to CHANGELOG.md
-        if: >-
-          github.event_name == 'pull_request' &&
-          !(github.event.pull_request.head.ref == 'auto/collate-changelog' &&
-            github.event.pull_request.head.repo.full_name == github.repository)
+        if: github.event_name == 'pull_request'
         env:
           BASE_SHA: ${{ github.event.pull_request.base.sha }}
           HEAD_SHA: ${{ github.event.pull_request.head.sha }}
@@ -68,7 +59,7 @@ jobs:
           set -euo pipefail
           changed=$(git diff --name-only "$BASE_SHA...$HEAD_SHA" -- CHANGELOG.md)
           if [ -n "$changed" ]; then
-            echo "::error::This PR edits CHANGELOG.md. Only the collate PR (auto/collate-changelog) writes it, releases included; add a changelog.d/ fragment instead. See changelog.d/README.md and docs/RELEASING.md."
+            echo "::error::This PR edits CHANGELOG.md. Only the release workflow writes it; add a changelog.d/ fragment instead. See changelog.d/README.md and docs/RELEASING.md."
             exit 1
           fi
           echo "CHANGELOG.md untouched"
@@ -78,3 +69,6 @@ jobs:
 
       - name: Run collator tests
         run: bash scripts/collate-changelog.test.sh
+
+      - name: Run commit-back tests
+        run: bash scripts/commit-changelog-back.test.sh
