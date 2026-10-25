@@ -1,0 +1,2 @@
+- **[Issue #98]** Collate changelog fragments in the release workflow and commit the result back to main as cardtechie-ops-bot, replacing the collate PR.
+  - The main ruleset must list the cardtechie-ops-bot App as a bypass actor before a release can run.

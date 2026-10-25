@@ -1,21 +1,36 @@
 name: Release
 
-# Tag and publish the newest version section of CHANGELOG.md when its tag does not exist yet (#82).
+# Cut a release (#98). A maintainer runs this by hand against `main` with the
+# version to release (strict X.Y.Z, no "v" prefix):
 #
-# The version is declared by a maintainer who runs the "Collate changelog" workflow with a
-# `release_version`; its collate PR turns `## [Unreleased]` into `## [X.Y.Z] - YYYY-MM-DD`,
-# and merging that PR is what this workflow picks up. This workflow commits nothing: the `main`
-# ruleset requires pull requests with no bypass actors, so a push back to `main` would be
-# rejected. Ordinary merges are inert because the newest version's tag already exists.
+#   gh workflow run release.yml --ref main -f version=0.1.0
+#
+# In one run it:
+#   1. collates every pending changelog.d/ fragment into a new
+#      `## [X.Y.Z] - YYYY-MM-DD` section of CHANGELOG.md and commits that back
+#      to `main` as cardtechie-ops-bot (scripts/commit-changelog-back.sh), then
+#   2. tags that commit X.Y.Z and publishes a GitHub release whose notes are
+#      the new section.
+#
+# Collation happens here, post-merge, and never inside a pull request. The
+# commit-back is a plain fast-forward push of main's tip, so the org
+# `non_fast_forward` rule does not reject it; the `main` ruleset's
+# pull-request rule does, unless the cardtechie-ops-bot App is listed on it as
+# a bypass actor. A rejected push fails the run before anything is tagged.
 # See docs/RELEASING.md.
 
 on:
-  push:
-    branches:
-      - main
+  workflow_dispatch:
+    inputs:
+      version:
+        description: 'Version to release (X.Y.Z, no "v" prefix)'
+        required: true
+        type: string
 
+# Every write uses the cardtechie-ops-bot App token minted below, so the
+# default GITHUB_TOKEN only needs to read.
 permissions:
-  contents: write
+  contents: read
 
 concurrency:
   group: release
@@ -24,51 +39,101 @@ concurrency:
 jobs:
   release:
     runs-on: ubuntu-latest
+    # workflow_dispatch can be aimed at any ref; a release is only ever cut
+    # from main.
+    if: github.ref == 'refs/heads/main'
     steps:
-      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262 # v4
+      # Org secrets: they do not show in a repo-level secret listing. Never
+      # GITHUB_TOKEN (it cannot bypass the main ruleset), PROJECT_TOKEN or a
+      # personal PAT.
+      - name: Mint the cardtechie-ops-bot token
+        id: app-token
+        uses: actions/create-github-app-token@bcd2ba49218906704ab6c1aa796996da409d3eb1 # v3.2.0
         with:
+          app-id: ${{ secrets.CARDTECHIE_BOT }}
+          private-key: ${{ secrets.CARDTECHIE_BOT_PRIVATE_KEY }}
+          # Least privilege, scoped to this repository only.
+          repositories: ${{ github.event.repository.name }}
+          permission-contents: write
+
+      # The tip of main, not github.sha, so the commit-back fast-forwards even
+      # when main moved after this run was queued. The token is never
+      # persisted into .git/config; the commit-back step hands it to its own
+      # push only.
+      - name: Check out
+        uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262 # v4
+        with:
+          ref: main
           fetch-depth: 0
           fetch-tags: true
+          persist-credentials: false
 
-      - name: Find the newest version in CHANGELOG.md
-        id: version
+      # The input reaches the shell through env, never by interpolation, and
+      # commit-changelog-back.sh validates it again before using it.
+      - name: Refuse an existing tag
+        env:
+          VERSION: ${{ inputs.version }}
         run: |
           set -euo pipefail
-          # First `## [X.Y.Z]` heading; `## [Unreleased]` never matches the pattern.
-          VERSION=$(sed -nE 's/^## \[([^]]+)\].*/\1/p' CHANGELOG.md | grep -v '^Unreleased$' | head -n 1 || true)
-          if [ -z "$VERSION" ]; then
-            echo "No version section in CHANGELOG.md; nothing to release."
-            echo "release=false" >> "$GITHUB_OUTPUT"
-            exit 0
-          fi
-          if ! printf '%s' "$VERSION" | grep -Eq '^(0|[1-9][0-9]*)\.(0|[1-9][0-9]*)\.(0|[1-9][0-9]*)$'; then
-            echo "::error::Newest changelog version '$VERSION' is not X.Y.Z"
+          if ! printf '%s' "$VERSION" | grep -Eqx '(0|[1-9][0-9]*)\.(0|[1-9][0-9]*)\.(0|[1-9][0-9]*)'; then
+            echo "::error::version '$VERSION' is not strict X.Y.Z (no \"v\" prefix, no leading zeros)"
             exit 1
           fi
           if git rev-parse -q --verify "refs/tags/$VERSION" >/dev/null; then
-            echo "Tag $VERSION already exists; nothing to release."
-            echo "release=false" >> "$GITHUB_OUTPUT"
-            exit 0
+            echo "::error::Tag $VERSION already exists; pick the next version."
+            exit 1
           fi
+
+      # No continue-on-error: a rejected push must fail the run here, so no
+      # tag is ever created for a version whose notes did not land. A rerun
+      # after a failure past this step resumes: the script recognises its own
+      # commit-back at HEAD and reports release=true without re-collating.
+      - name: Collate and commit back to main
+        id: commit_back
+        env:
+          APP_TOKEN: ${{ steps.app-token.outputs.token }}
+          VERSION: ${{ inputs.version }}
+        run: |
+          set -euo pipefail
+          # Push credential for this step only, as cardtechie-ops-bot. Set via
+          # GIT_CONFIG_* so it lives in this process's environment and is never
+          # written to .git/config.
+          basic_auth=$(printf 'x-access-token:%s' "$APP_TOKEN" | base64 -w0)
+          # The runner masks the raw token, not its base64 form.
+          echo "::add-mask::${basic_auth}"
+          export GIT_CONFIG_COUNT=1
+          export GIT_CONFIG_KEY_0=http.https://github.com/.extraheader
+          export GIT_CONFIG_VALUE_0="AUTHORIZATION: basic ${basic_auth}"
+          bash scripts/commit-changelog-back.sh "$VERSION" --branch main --output "$GITHUB_OUTPUT"
+
+      - name: Extract the release notes
+        if: steps.commit_back.outputs.release == 'true'
+        env:
+          VERSION: ${{ inputs.version }}
+        run: |
+          set -euo pipefail
           # Section body: everything after the heading up to the next `## ` heading.
           awk -v v="$VERSION" '
-            $0 ~ "^## \\[" v "\\]" { found = 1; next }
+            index($0, "## [" v "]") == 1 { found = 1; next }
             found && /^## / { exit }
             found { print }
           ' CHANGELOG.md > "$RUNNER_TEMP/release-notes.md"
-          echo "Releasing $VERSION"
+          if ! grep -q '[^[:space:]]' "$RUNNER_TEMP/release-notes.md"; then
+            echo "::error::## [$VERSION] in CHANGELOG.md has no body; refusing to publish an empty release."
+            exit 1
+          fi
           cat "$RUNNER_TEMP/release-notes.md"
-          echo "release=true" >> "$GITHUB_OUTPUT"
-          echo "version=$VERSION" >> "$GITHUB_OUTPUT"
 
       - name: Create tag and GitHub release
-        if: steps.version.outputs.release == 'true'
+        if: steps.commit_back.outputs.release == 'true'
         env:
-          GH_TOKEN: ${{ github.token }}
-          VERSION: ${{ steps.version.outputs.version }}
+          GH_TOKEN: ${{ steps.app-token.outputs.token }}
+          VERSION: ${{ inputs.version }}
+          TARGET_SHA: ${{ steps.commit_back.outputs.sha }}
         run: |
           set -euo pipefail
           gh release create "$VERSION" \
-            --target "$GITHUB_SHA" \
+            --repo "$GITHUB_REPOSITORY" \
+            --target "$TARGET_SHA" \
             --title "$VERSION" \
             --notes-file "$RUNNER_TEMP/release-notes.md"

@@ -21,12 +21,11 @@ Thank you for helping improve the open trading card data ecosystem!
 Do not edit `CHANGELOG.md` in a pull request. Instead add one fragment,
 `changelog.d/<issue>-<type>.md`, where `<type>` is one of
 `added | changed | fixed | security | removed | deprecated`. It holds a single
-line such as `- **[Issue #95]** Add changelog-fragment support.` Fragments are
-collated after merge to `main` by a workflow that opens (or refreshes) one
-automated "Collate changelog fragments" PR from `auto/collate-changelog`; the
-entries reach `CHANGELOG.md` when that PR merges. A PR check fails a PR that
-adds no fragment or edits `CHANGELOG.md` (Dependabot and the collate PR are exempt). There is no release
-exception: a release is cut by the same collation, so no PR edits `CHANGELOG.md` by hand (see
+line such as `- **[Issue #95]** Add changelog-fragment support.` Fragments stay
+in `changelog.d/` until a release: the release workflow collates them into a
+versioned section of `CHANGELOG.md` and commits it back to `main`. A PR check
+fails a PR that adds no fragment or edits `CHANGELOG.md` (Dependabot is exempt).
+There is no release exception: no PR edits `CHANGELOG.md`, releases included (see
 [`docs/RELEASING.md`](docs/RELEASING.md)). See
 [`changelog.d/README.md`](changelog.d/README.md) for the details, and run
 `bash scripts/collate-changelog.sh --check` to validate your fragment locally.
