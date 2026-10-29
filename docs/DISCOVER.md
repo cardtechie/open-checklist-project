@@ -64,7 +64,7 @@ or, failing that, its title.
   **first, before it is written anywhere**: it must match
   `^[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}$` exactly (lowercase,
   hyphenated, nothing before or after it). Compare the text itself; do not echo it
-  through a shell to test it. If it does not match, **stop** with `api-invalid-uuid`
+  through a shell to test it. If it does not match, **stop** with `api-uuid-invalid`
   without editing the body or dispatching anything, and quote the value in the stop
   comment as data. Only a value that matched may then be recorded: if the body does not
   already record that UUID, add a row `| Set UUID | <uuid> |` to the body's table (or
@@ -90,7 +90,7 @@ Step 2 already checked the API set's UUID format before any body edit. Check it
 **again here, before it is put into any command**, against the same pattern
 (`^[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}$`, exactly), comparing
 the text itself rather than echoing it through a shell. If it does not match, **stop**
-with `api-invalid-uuid` without dispatching anything, and quote the value in the stop
+with `api-uuid-invalid` without dispatching anything, and quote the value in the stop
 comment as data. Only a value that matched goes into the command, as the single-quoted
 `-f` argument below. The workflow checks the same pattern a third time before it uses
 the input.
@@ -239,7 +239,7 @@ reason: source-disagreement
 ```
 
 The first line is the marker and the second is `reason:` with one value:
-`ambiguous-api-match`, `api-mismatch`, `api-invalid-uuid`, `identity-conflict`, `no-source`,
+`ambiguous-api-match`, `api-mismatch`, `api-uuid-invalid`, `identity-conflict`, `no-source`,
 `source-disagreement`, `ambiguous-product`, `set-id-collision`, `uuid-collision` or
 `checker-not-ready`. Then the evidence.
 
