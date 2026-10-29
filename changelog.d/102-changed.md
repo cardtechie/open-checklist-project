@@ -1,0 +1,1 @@
+- **[Issue #102]** Document the changelog fragment a set PR must add in PRODUCER.md and the produce-set skill.
