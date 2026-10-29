@@ -147,7 +147,10 @@ trim** to make them agree.
 opened.
 
 **(f) Open one PR per set.** Use branch `data/<set_id>` and target `main`. The PR adds
-only that set's directory, with no `tools/` or `schemas/` changes. The body says
+that set's directory and exactly one changelog fragment, `changelog.d/<work order>-added.md`
+(one imperative line in the `- **[Issue #N]** ...` layout from `changelog.d/README.md`), and
+makes no `tools/` or `schemas/` changes. The Changelog fragment check fails a PR without
+the fragment. The body says
 `Closes #<work order>` and lists each source URL with its stated count against the
 authored count.
 
