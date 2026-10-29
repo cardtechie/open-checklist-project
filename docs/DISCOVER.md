@@ -206,6 +206,9 @@ existing Discover comment from the earlier run in place rather than adding a sec
 gh api -X PATCH repos/cardtechie/open-checklist-project/issues/comments/<comment-id> -F body=@<file>
 ```
 
+PATCH a Discover or stop marker comment only when the current account wrote it;
+otherwise post a new marker comment and leave the old one alone.
+
 The checker only trusts a block written by a repository owner, member or collaborator,
 so post it as such an account.
 
@@ -243,7 +246,7 @@ reason: source-disagreement
 
 The first line is the marker and the second is `reason:` with one value:
 `ambiguous-api-match`, `api-mismatch`, `api-uuid-mismatch`, `api-uuid-invalid`,
-`identity-conflict`, `pinned-body-mismatch`, `no-source`,
+`identity-conflict`, `no-source`,
 `source-disagreement`, `ambiguous-product`, `set-id-collision`, `uuid-collision` or
 `checker-not-ready`. Then the evidence.
 
