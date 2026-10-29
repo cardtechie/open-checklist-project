@@ -1,0 +1,1 @@
+- **[Issue #104]** Move the producer and Discover rules out of the Claude skills into docs/PRODUCER.md and a new docs/DISCOVER.md, and add AGENTS.md for Codex and other agents.
