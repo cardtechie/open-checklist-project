@@ -127,8 +127,9 @@ never overwrites a pinned value.
 The workflow writes only the identity fields it is setting, through the additive
 `POST .../issue-field-values` endpoint, so every other field value on the issue is left
 as it is. When a pinned, body or API UUID disagree, it writes nothing and posts an
-`<!-- ocp-reserve-stop:v1 -->` comment naming both values. On that, stop with
-`identity-conflict` and quote the comment.
+`<!-- ocp-reserve-stop:v1 -->` comment naming both values (`pinned-body-mismatch` when
+the pinned `Reserved set UUID` differs from the Set UUID recorded in the body). On that,
+stop with `identity-conflict` and quote the comment.
 
 That `ocp-reserve-stop:v1` comment also makes the work order **not Ready** on its own,
 including when an automatic issue-event run (opened, labeled, typed) wrote it after an
@@ -242,7 +243,7 @@ reason: source-disagreement
 
 The first line is the marker and the second is `reason:` with one value:
 `ambiguous-api-match`, `api-mismatch`, `api-uuid-mismatch`, `api-uuid-invalid`,
-`identity-conflict`, `no-source`,
+`identity-conflict`, `pinned-body-mismatch`, `no-source`,
 `source-disagreement`, `ambiguous-product`, `set-id-collision`, `uuid-collision` or
 `checker-not-ready`. Then the evidence.
 
@@ -259,9 +260,12 @@ The first line is the marker and the second is `reason:` with one value:
 
 ## Report
 
-End with exactly one of:
+End with exactly one of these five forms:
 
 - `Ready: <work-order url>`, with the `set_id`, the UUID (and whether it was copied or
   minted) and each source with its `card_count`, or
 - `Stopped (<reason>): <stop-comment url>`.
 - `Stopped (api-unavailable)`, with no comment URL (step 0).
+- `Not a work order: <issue url>`, with no comment URL (step 1).
+- `Error (checker exit 2): <work-order url>`, followed by the checker's error quoted
+  verbatim, with no comment URL (step 6).
