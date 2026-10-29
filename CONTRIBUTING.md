@@ -99,7 +99,9 @@ for the bump rules and the release process.
 
 ## Bulk and generated imports
 
-Unattended set production from a work order follows the Stage A producer contract in
+A work order is made Ready by the Discover contract in
+[`docs/DISCOVER.md`](docs/DISCOVER.md). Unattended set production from a Ready work order
+follows the Stage A producer contract in
 [`docs/PRODUCER.md`](docs/PRODUCER.md): a precondition check
 (`tools/check_work_order.py`), named stop cases instead of guesses, and one set per PR.
 
