@@ -74,8 +74,10 @@ or, failing that, its title.
   (step 3, `api_lookup=absent`), and the Discover block carries no `name`.
 - **Stop** (`ambiguous-api-match`) when more than one API set matches.
 - **Stop** (`api-mismatch`) when the matched set's year or genre disagrees with the work
-  order, or when a pinned `Reserved set UUID` (or a body Set UUID) differs from the
-  matched set's UUID. Never change a value that is already set to resolve this.
+  order. Never change a value that is already set to resolve this.
+- **Stop** (`api-uuid-mismatch`) when a pinned `Reserved set UUID` (or a body Set UUID)
+  differs from the matched set's UUID. Never change a value that is already set to
+  resolve this.
 
 The year is compared exactly as the API holds it: `2025`, `2025-26` and `2024-25` are
 three different years.
@@ -239,7 +241,8 @@ reason: source-disagreement
 ```
 
 The first line is the marker and the second is `reason:` with one value:
-`ambiguous-api-match`, `api-mismatch`, `api-uuid-invalid`, `identity-conflict`, `no-source`,
+`ambiguous-api-match`, `api-mismatch`, `api-uuid-mismatch`, `api-uuid-invalid`,
+`identity-conflict`, `no-source`,
 `source-disagreement`, `ambiguous-product`, `set-id-collision`, `uuid-collision` or
 `checker-not-ready`. Then the evidence.
 
