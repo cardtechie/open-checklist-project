@@ -1,0 +1,81 @@
+set_id: 2025-panini-prizm-draft-picks
+base_sets:
+- id: base-set
+  name: Base Set
+  uuid: f5aa591f-1d7e-4d59-9b8e-cf1f0a2667eb
+  declared_card_count: 200
+  parallels:
+  - name: Gold Ice Prizms
+  - name: Green Prizms
+  - name: Purple Wave Prizms
+  - name: Red Ice Prizms
+  - name: Ruby Wave Prizms
+  - name: Silver Prizms
+  - name: Snakeskin Prizms
+  - name: White Sparkle Prizms
+  - name: Red Prizms
+    print_run: 399
+    serial_numbered: true
+  - name: Blue Wave Prizms
+    print_run: 299
+    serial_numbered: true
+  - name: Blue Prizms
+    print_run: 249
+    serial_numbered: true
+  - name: Purple Ice Prizms
+    print_run: 199
+    serial_numbered: true
+  - name: Blue Ice Prizms
+    print_run: 149
+    serial_numbered: true
+  - name: Red Finite Prizms
+    print_run: 125
+    serial_numbered: true
+  - name: Purple Prizms
+    print_run: 99
+    serial_numbered: true
+  - name: Blue Finite Prizms
+    print_run: 89
+    serial_numbered: true
+  - name: Orange Pulsar Prizms
+    print_run: 75
+    serial_numbered: true
+  - name: Gold Flash Prizms
+    print_run: 49
+    serial_numbered: true
+  - name: Red Flash Prizms
+    print_run: 49
+    serial_numbered: true
+  - name: Orange Finite Prizms
+    print_run: 39
+    serial_numbered: true
+  - name: Green Pulsar Prizms
+    print_run: 25
+    serial_numbered: true
+  - name: Mojo Prizms
+    print_run: 25
+    serial_numbered: true
+  - name: Gold Shimmer Prizms
+    print_run: 15
+    serial_numbered: true
+  - name: Neon Pink Pulsar Prizms
+    print_run: 15
+    serial_numbered: true
+  - name: Gold Prizms
+    print_run: 10
+    serial_numbered: true
+  - name: Green Shimmer Prizms
+    print_run: 8
+    serial_numbered: true
+  - name: Black Gold Prizms
+    print_run: 5
+    serial_numbered: true
+  - name: Black Finite Prizms
+    print_run: 1
+    serial_numbered: true
+  - name: Black Shimmer Prizms
+    print_run: 1
+    serial_numbered: true
+  - name: Gold Vinyl Prizms
+    print_run: 1
+    serial_numbered: true
