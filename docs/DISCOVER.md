@@ -233,7 +233,7 @@ reason, whenever a trusted stop comment was written (created or last edited) at 
 after the effective Discover block, so the producer cannot use a source this run
 rejected. A later run that succeeds rewrites its block (step 5), which makes the block
 newer than the stop and effective again. The comment has this format, and on a re-run
-it is **edited in place** (PATCH), never duplicated:
+it is **edited in place** (PATCH) when the current account wrote it, and otherwise a new marker comment is posted, per step 5:
 
 ```markdown
 <!-- ocp-discover-stop:v1 -->
