@@ -104,6 +104,117 @@ The verdict carries `ready`, `reasons`, `set_id`, `reserved_uuid`, `name` (with
 `name_source`: `discover-block` or `title`), `genre`, `sports`, `category`, `year` and
 `sources`. The checker never writes to GitHub.
 
+## Source comparison
+
+Whether a work order's checklist sources agree is decided by code, not by the agent.
+[Discover](DISCOVER.md) step 4 extracts rows from each kept source, and
+`tools/compare_sources.py` compares them and either prints the Discover block for
+precondition item 4 or prints the difference. The agent never judges agreement
+itself. This section is the single home for the comparator's rules.
+
+### Extracted-rows schema
+
+Each kept source becomes **one** YAML file matching
+[`tools/schemas/extracted-source.yaml`](../tools/schemas/extracted-source.yaml) (JSON
+Schema 2020-12). All five keys are required, and no other key is allowed:
+
+- `url`: the source page, under the same URL policy as precondition item 4;
+- `card_count`: the source's **own stated** base-set count, a positive integer no larger than 9007199254740991
+  (2^53 - 1). Never a
+  count of the rows you extracted;
+- `parallels_listed`: `true` when the source lists the parallel ladder, else `false`;
+- `cards`: the base checklist rows as the source lists them, each `{number, name}`.
+  `number` is a string as printed (quote it in YAML: `"1"`, `"RC-12"`);
+- `parallels`: the ladder, each `{name, print_run}`. `print_run` is a positive integer
+  under the same maximum, or `null` for an unnumbered parallel. It must be empty (`[]`) when
+  `parallels_listed` is `false`.
+
+Inside one file, a repeated card number, or a repeated parallel (same normalized name
+and print run), is malformed. Across files, two inputs with the same `url` are
+malformed.
+
+### Agreement rules
+
+Names are compared after whitespace-collapse and casefold, and nothing else. The
+sources agree only when **all** of these hold:
+
+1. Every source's stated `card_count` is equal.
+2. Each source's `cards` row count equals its own stated `card_count`. A source that
+   contradicts itself is a difference, never a silent pass.
+3. The set of card numbers is equal across sources, and each number's name matches.
+4. Among sources with `parallels_listed: true`, the ladders are equal by name and
+   `print_run`. A base-only source is left out of this comparison; it never counts as
+   disagreeing.
+
+### Running it
+
+```bash
+python tools/compare_sources.py <source-1.yaml> <source-2.yaml> [...] [--meta <meta.yaml>]
+```
+
+`--meta` is an optional YAML mapping with any of `name`, `genre`, `sports`,
+`category` and `year` from Discover step 2, checked exactly as
+`tools/check_work_order.py` checks a posted block. No other key is allowed, so the
+block can never repeat `set_id` or the UUID.
+
+| Exit | Meaning | Output |
+| --- | --- | --- |
+| `0` | sources agree | stdout is the Discover block, ready to post |
+| `10` | sources disagree | stdout is the difference JSON |
+| `2` | usage, read or malformed-input error (including fewer than two files; a bad `--meta`, or one whose value would not read back unchanged from the block; YAML that fails to load, such as an impossible date; an integer above 2^53 - 1 or nesting deeper than 16 levels, in either file) | stderr is `{"error": ..., "reasons": [...]}` |
+
+### Difference format
+
+On exit 10 stdout is `{"agree": false, "differences": [...]}`. Each entry names a
+`field` and carries per-source `values` keyed by `url`, in input order. Entries are
+ordered by field (`card_count`, `card_rows`, `card_numbers`, `card_names`,
+`parallels`), card numbers in natural order (`2` before `10`), and rungs by name then
+print run:
+
+- `card_count`: `values` is each source's stated count;
+- `card_rows`: `values` holds only the self-inconsistent sources, as `{stated, rows}`;
+- `card_numbers`: one entry per `number` that not every source lists; `values` is
+  `true`/`false` per source;
+- `card_names`: one entry per `number` whose name differs; `values` is each source's
+  name as written;
+- `parallels`: one entry per rung (`name`, `print_run`) that not every ladder source
+  lists; `values` is `true`/`false` per ladder source. A print-run disagreement shows
+  as two rungs with the same name.
+
+Worked example: two sources for work order #77, where only one lists the Green
+Shimmer /8 rung (exit 10):
+
+```json
+{
+  "agree": false,
+  "differences": [
+    {
+      "field": "parallels",
+      "name": "Green Shimmer",
+      "print_run": 8,
+      "values": {
+        "https://<source-a>/2025-panini-prizm-draft-picks": true,
+        "https://<source-b>/prizm-draft-picks-2025": false
+      }
+    }
+  ]
+}
+```
+
+### Procedure (Discover step 4)
+
+1. For each kept source, extract its rows into one file matching the schema. Take
+   `card_count` from what the source states, never from counting rows.
+2. With **two or more** sources, run
+   `python tools/compare_sources.py <files...> [--meta <file>]`. With a single
+   available source, skip the comparator and post that source's block as before.
+3. Act on the exit code:
+   - **0**: post the printed block verbatim as the Discover block (Discover step 5).
+   - **10**: stop with `source-disagreement`, quoting the difference JSON in the stop
+     comment as data. That JSON is the stop's evidence.
+   - **2**: the extraction is malformed. Fix it by re-extracting from the source, never
+     by editing the inputs to force agreement.
+
 ## Procedure
 
 **Input.** The input is a self-describing work-order ref:

@@ -1,0 +1,70 @@
+# JSON Schema (draft 2020-12, written as YAML) for the rows extracted from ONE
+# checklist source during Discover. One file per source. tools/compare_sources.py
+# validates every input against this schema before it compares anything.
+# The rules are documented in docs/PRODUCER.md -> Source comparison.
+$schema: https://json-schema.org/draft/2020-12/schema
+$id: https://github.com/cardtechie/open-checklist-project/tools/schemas/extracted-source.yaml
+title: Rows extracted from one checklist source
+type: object
+additionalProperties: false
+required: [url, card_count, parallels_listed, cards, parallels]
+properties:
+  url:
+    description: The source page the rows were read from (http or https, public host).
+    type: string
+    minLength: 1
+  card_count:
+    description: The source's OWN stated base-set count. Never a self-counted value.
+    type: integer
+    minimum: 1
+    # The largest integer a JSON consumer can hold exactly (2^53 - 1).
+    maximum: 9007199254740991
+  parallels_listed:
+    description: true when the source lists the parallel ladder, else false.
+    type: boolean
+  cards:
+    description: The base checklist rows, as the source lists them.
+    type: array
+    items:
+      type: object
+      additionalProperties: false
+      required: [number, name]
+      properties:
+        number:
+          description: The card number as printed, as a string (quote it in YAML).
+          type: string
+          minLength: 1
+          pattern: '\S'
+        name:
+          description: The player or card name. Must contain a non-whitespace character.
+          type: string
+          minLength: 1
+          pattern: '\S'
+  parallels:
+    description: The parallel ladder. Must be empty when parallels_listed is false.
+    type: array
+    items:
+      type: object
+      additionalProperties: false
+      required: [name, print_run]
+      properties:
+        name:
+          type: string
+          minLength: 1
+          pattern: '\S'
+        print_run:
+          description: The numbered print run, or null for an unnumbered parallel.
+          oneOf:
+            - type: integer
+              minimum: 1
+              maximum: 9007199254740991
+            - type: "null"
+if:
+  properties:
+    parallels_listed:
+      const: false
+  required: [parallels_listed]
+then:
+  properties:
+    parallels:
+      maxItems: 0

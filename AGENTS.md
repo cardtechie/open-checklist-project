@@ -23,6 +23,8 @@ own. If a rule is missing or wrong, change the doc.
 
 ```bash
 python tools/check_work_order.py <n>   # is work order <n> Ready? exit 0 ready, 10 not ready, 2 error
+python tools/compare_sources.py <files...> [--meta <file>]
+                                       # do Discover's sources agree? exit 0 agree (prints the block), 10 disagree, 2 error
 python tools/validate.py               # the pass/fail gate for everything under data/
 ```
 
