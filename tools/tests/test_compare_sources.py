@@ -318,6 +318,11 @@ class LoaderEdges(Runner):
         payload = self.assert_usage(self.write(source(URL_A)), self.write(source(URL_B)), "--meta", meta)
         self.assertEqual(payload["reasons"], [f"nested deeper than {cs.MAX_DEPTH} levels"])
 
+    def test_meta_value_that_yaml_rewrites(self):
+        meta = self.write({"name": "2025 Prizm\u0085Draft Picks"})
+        payload = self.assert_usage(self.write(source(URL_A)), self.write(source(URL_B)), "--meta", meta)
+        self.assertEqual(payload["error"], "a --meta value does not survive the Discover block unchanged")
+
     def test_meta_impossible_date(self):
         meta = self.write(None, raw="year: 2025-02-30\n")
         self.assert_usage(self.write(source(URL_A)), self.write(source(URL_B)), "--meta", meta)

@@ -161,7 +161,7 @@ block can never repeat `set_id` or the UUID.
 | --- | --- | --- |
 | `0` | sources agree | stdout is the Discover block, ready to post |
 | `10` | sources disagree | stdout is the difference JSON |
-| `2` | usage, read or malformed-input error (including fewer than two files, or a bad `--meta`) | stderr is `{"error": ..., "reasons": [...]}` |
+| `2` | usage, read or malformed-input error (including fewer than two files; a bad `--meta`, or one whose value would not read back unchanged from the block; YAML that fails to load, such as an impossible date; an integer above 2^53 - 1 or nesting deeper than 16 levels, in either file) | stderr is `{"error": ..., "reasons": [...]}` |
 
 ### Difference format
 

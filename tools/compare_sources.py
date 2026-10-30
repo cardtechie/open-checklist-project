@@ -247,9 +247,15 @@ def discover_block(sources, meta=None):
                         "parallels_listed": s["parallels_listed"]} for s in sources]
     body = f"{cwo.DISCOVER_MARKER}\n```yaml\n{yaml.safe_dump(data, sort_keys=False, allow_unicode=True)}```\n"
     reasons = []
-    cwo.parse_discover(body, reasons)
+    parsed = cwo.parse_discover(body, reasons)
     if reasons:
         raise InputError("the Discover block would not pass tools/check_work_order.py", reasons)
+    # The block must say exactly what --meta said. YAML can rewrite a value on the way
+    # through: a NEL (U+0085) inside a plain string is folded to a space, for one.
+    changed = [f"meta {key} reads back as {parsed.get(key)!r}, not {data[key]!r}"
+               for key in META_KEYS if key in data and parsed.get(key) != data[key]]
+    if changed:
+        raise InputError("a --meta value does not survive the Discover block unchanged", changed)
     return body
 
 
