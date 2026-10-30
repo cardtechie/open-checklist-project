@@ -1,0 +1,1 @@
+- **[Issue #103]** Add a deterministic source comparator and an extracted-rows schema so Discover's source-agreement decision is made by code, not the AI.
