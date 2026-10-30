@@ -32,9 +32,12 @@ properties:
           description: The card number as printed, as a string (quote it in YAML).
           type: string
           minLength: 1
+          pattern: '\S'
         name:
+          description: The player or card name. Must contain a non-whitespace character.
           type: string
           minLength: 1
+          pattern: '\S'
   parallels:
     description: The parallel ladder. Must be empty when parallels_listed is false.
     type: array
@@ -46,6 +49,7 @@ properties:
         name:
           type: string
           minLength: 1
+          pattern: '\S'
         print_run:
           description: The numbered print run, or null for an unnumbered parallel.
           oneOf:

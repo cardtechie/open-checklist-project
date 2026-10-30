@@ -203,6 +203,19 @@ class Malformed(Runner):
             with self.subTest(url=url):
                 self.assert_usage(self.write(source(URL_A)), self.write(source(url)))
 
+    def test_whitespace_only_values_are_rejected(self):
+        for field in ("card name", "card number", "parallel name"):
+            with self.subTest(field=field):
+                a, b = source(URL_A), source(URL_B)
+                for src in (a, b):
+                    if field == "card name":
+                        src["cards"][0]["name"] = "   "
+                    elif field == "card number":
+                        src["cards"][0]["number"] = " \t "
+                    else:
+                        src["parallels"][0]["name"] = "  "
+                self.assert_usage(self.write(a), self.write(b))
+
     def test_duplicate_card_number(self):
         cards = CARDS + [{"number": "2", "name": "Someone Else"}]
         self.assert_usage(self.write(source(URL_A)), self.write(source(URL_B, cards=cards)))
