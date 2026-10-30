@@ -200,15 +200,26 @@ def _fail(err):
     return EXIT_USAGE
 
 
+class _Parser(argparse.ArgumentParser):
+    """An ArgumentParser whose errors are InputErrors, so they reach _fail as JSON.
+
+    argparse's default error() prints its own usage text and exits 2 before _fail
+    can run, which breaks the documented exit-2 contract of a JSON stderr.
+    """
+
+    def error(self, message):
+        raise InputError("invalid command line", [message])
+
+
 def main(argv=None):
-    ap = argparse.ArgumentParser(description=__doc__.split("\n\n")[0])
+    ap = _Parser(description=__doc__.split("\n\n")[0])
     ap.add_argument("sources", nargs="*", help="two or more extracted-source files")
     ap.add_argument("--meta", help="yaml file with name/genre/sports/category/year for the block")
     try:
-        args = ap.parse_args(argv)
-    except SystemExit as e:
-        return EXIT_USAGE if e.code else 0
-    try:
+        try:
+            args = ap.parse_args(argv)
+        except SystemExit as e:  # --help: argparse prints it and exits 0
+            return EXIT_USAGE if e.code else 0
         if len(args.sources) < 2:
             raise InputError("give two or more extracted-source files",
                              [f"got {len(args.sources)}; a single source skips the comparator"])

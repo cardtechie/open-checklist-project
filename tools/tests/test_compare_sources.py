@@ -219,6 +219,18 @@ class Malformed(Runner):
     def test_no_input_files(self):
         self.assert_usage()
 
+    def test_unknown_flag_is_structured_usage_error(self):
+        payload = self.assert_usage(self.write(source(URL_A)), self.write(source(URL_B)), "--bogus")
+        self.assertTrue(any("--bogus" in r for r in payload["reasons"]))
+
+    def test_meta_without_value_is_structured_usage_error(self):
+        self.assert_usage(self.write(source(URL_A)), self.write(source(URL_B)), "--meta")
+
+    def test_help_exits_zero(self):
+        code, out, _ = self.run_cli("--help")
+        self.assertEqual(code, 0)
+        self.assertIn("usage", out)
+
     def test_meta_invalid_year(self):
         meta = self.write({"year": "2025-26"})
         payload = self.assert_usage(self.write(source(URL_A)), self.write(source(URL_B)), "--meta", meta)
