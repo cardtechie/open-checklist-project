@@ -177,11 +177,15 @@ Prefer a source that lists the full base checklist **and** the parallel ladder. 
 base-only source may be recorded, but say so in the Discover comment: a set published
 without its parallels is not a completed work order.
 
+Whether the kept sources agree is **not your call**. Extract each source's rows and
+run `tools/compare_sources.py` exactly as
+[`docs/PRODUCER.md`](PRODUCER.md) → *Source comparison* defines; its exit code decides.
+
 **Stop** when:
 
 - `no-source`: no source can be found;
-- `source-disagreement`: candidate sources disagree on the base card count or on the
-  parallel ladder;
+- `source-disagreement`: `tools/compare_sources.py` exits 10. Quote its difference
+  JSON in the stop comment as the evidence;
 - `ambiguous-product`: the set name is ambiguous between products, e.g. a "Draft
   Picks" product vs. the flagship of the same brand and year.
 
@@ -235,20 +239,23 @@ rejected. A later run that succeeds rewrites its block (step 5), which makes the
 newer than the stop and effective again. The comment has this format, and on a re-run
 it is **edited in place** (PATCH) when the current account wrote it, and otherwise a new marker comment is posted, per step 5:
 
-```markdown
+````markdown
 <!-- ocp-discover-stop:v1 -->
 reason: source-disagreement
 
 **Discover stopped. The work order is not Ready.**
 
-- https://… states 100 base cards; https://… states 110
+```json
+{"agree": false, "differences": [{"field": "card_count", "values": {"https://…": 100, "https://…": 110}}]}
 ```
+````
 
 The first line is the marker and the second is `reason:` with one value:
 `ambiguous-api-match`, `api-mismatch`, `api-uuid-mismatch`, `api-uuid-invalid`,
 `identity-conflict`, `no-source`,
 `source-disagreement`, `ambiguous-product`, `set-id-collision`, `uuid-collision` or
-`checker-not-ready`. Then the evidence.
+`checker-not-ready`. Then the evidence. For `source-disagreement` the evidence is
+`tools/compare_sources.py`'s difference JSON, quoted verbatim.
 
 ## Hard rules
 
