@@ -614,10 +614,21 @@ class CheckWorkOrderTests(unittest.TestCase):
             "reason: source-disagreement\n%s\ndrop: [1, 2]" % auth,
             "reason: source-disagreement\n%s\ndrop: [[https://example.org/y]]" % auth,
             "reason: source-disagreement\n%s\ndrop: [null]" % auth,
+            "reason: source-disagreement\n%s\ndrop:" % auth,
+            "reason: source-disagreement\n%s\ndrop: null" % auth,
+            "reason: source-disagreement\n%s\ndrop: ~" % auth,
+            "reason: source-disagreement\n%s\ndrop: ''" % auth,
+            "reason: source-disagreement\n%s\ndrops: [https://example.org/y]" % auth,
+            "reason: source-disagreement\n%s\nnote: see thread" % auth,
         ]
         for body in bodies:
             with self.subTest(body):
                 self.assertIsNone(cwo.parse_ruling(head % body))
+
+    def test_ruling_explicit_empty_drop_is_accepted(self):
+        body = ("<!-- ocp-discover-ruling:v1 -->\n```yaml\nreason: source-disagreement\n"
+                "authoritative: https://example.org/x\ndrop: []\n```\n")
+        self.assertEqual(cwo.parse_ruling(body)["drop"], [])
 
     def test_ruling_that_drops_its_authoritative_source_is_null(self):
         head = "<!-- ocp-discover-ruling:v1 -->\n```yaml\nreason: source-disagreement\n%s\n```\n"

@@ -36,6 +36,7 @@ DISCOVER_STOP_MARKER = "<!-- ocp-discover-stop:v1 -->"
 # Source comparison -> Recovery after a disagreement). Discover never writes one.
 DISCOVER_RULING_MARKER = "<!-- ocp-discover-ruling:v1 -->"
 RULING_REASON = "source-disagreement"
+RULING_KEYS = frozenset({"reason", "authoritative", "drop"})
 # Written by .github/workflows/reserve-work-order.yml (.github/scripts/work-order.js):
 # RESERVE_MARKER on a successful reservation, RESERVE_STOP_MARKER when it stopped on an
 # identity conflict and wrote nothing.
@@ -380,12 +381,16 @@ def parse_ruling(body):
         return None
     if not isinstance(data, dict) or data.get("reason") != RULING_REASON:
         return None
+    # No other key: a misspelt `drops:` would otherwise be ignored, and the ruling
+    # applied as though it dropped nothing.
+    if set(data) - RULING_KEYS:
+        return None
     authoritative = data.get("authoritative")
     if source_url_problem(authoritative):
         return None
+    # Only an absent `drop` defaults to []. An explicit `drop:` (null) is malformed,
+    # like every other non-list value.
     drop = data.get("drop", [])
-    if drop is None:
-        drop = []
     if not isinstance(drop, list) or any(
             not isinstance(u, str) or source_url_problem(u) for u in drop):
         return None

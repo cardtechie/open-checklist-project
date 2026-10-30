@@ -295,7 +295,11 @@ collision or API stop.
 
 - `reason`: `source-disagreement`;
 - `authoritative`: the URL of the authoritative source;
-- `drop` (optional, default `[]`): URLs of further sources to drop.
+- `drop` (optional): a list of URLs of further sources to drop. Only an absent `drop`
+  means `[]`; an explicit `drop:` with no list (null) is malformed.
+
+No other key is allowed: a ruling with any other key (a misspelt `drops:`, say) is
+malformed.
 
 Every URL must be in the stop's difference JSON `sources`, the full list of compared
 sources (never only the keys of an entry's `values`, which can be sparse: a `card_rows`
