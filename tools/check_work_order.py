@@ -371,7 +371,12 @@ def parse_ruling(body):
         return None
     try:
         data = yaml.safe_load(m.group(1))
-    except yaml.YAMLError:
+    except (yaml.YAMLError, ValueError, TypeError, OverflowError, RecursionError):
+        # The loader raises the non-YAMLError ones itself, exactly as
+        # tools/compare_sources.py's _read_yaml handles them: an integer over CPython's
+        # 4300-digit limit, an impossible date such as 2025-02-30, or nesting deeper
+        # than the recursion limit. A ruling is untrusted input however trusted its
+        # author, so any of them is a malformed ruling, never a checker failure.
         return None
     if not isinstance(data, dict) or data.get("reason") != RULING_REASON:
         return None
@@ -384,7 +389,13 @@ def parse_ruling(body):
     if not isinstance(drop, list) or any(
             not isinstance(u, str) or source_url_problem(u) for u in drop):
         return None
-    return {"authoritative": authoritative, "drop": list(drop)}
+    # Same normalization the comparator applies to a source url, so padding cannot
+    # hide the authoritative source inside its own drop list.
+    authoritative = authoritative.strip()
+    drop = list(dict.fromkeys(u.strip() for u in drop))
+    if authoritative in drop:
+        return None  # a ruling cannot both keep and drop its authoritative source
+    return {"authoritative": authoritative, "drop": drop}
 
 
 def effective_ruling(comments):

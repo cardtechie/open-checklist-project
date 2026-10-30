@@ -578,6 +578,62 @@ class CheckWorkOrderTests(unittest.TestCase):
         self.assertTrue(v["ready"], v["reasons"])
         self.assertEqual(v["ruling"]["authoritative"], "https://example.org/2025-prizm-draft-picks")
 
+    def test_ruling_yaml_the_loader_rejects_outside_yamlerror_is_null(self):
+        # yaml.safe_load raises these itself rather than a YAMLError; a malformed
+        # trusted ruling must stay `null`, never abort the checker.
+        base = ("<!-- ocp-discover-ruling:v1 -->\n```yaml\nreason: source-disagreement\n"
+                "authoritative: https://example.org/x\n%s\n```\n")
+        extras = {
+            "impossible date": "when: 2025-02-30",
+            "impossible date key": "? !!timestamp 2025-13-01\n: v",
+            "integer over the digit limit": "n: " + "9" * 5000,
+            "nesting past the recursion limit": "x: " + "[" * 3000 + "]" * 3000,
+        }
+        for label, extra in extras.items():
+            with self.subTest(label):
+                self.assertIsNone(cwo.parse_ruling(base % extra))
+                p = ready_payload()
+                p["comments"].append(self.ruling(body=base % extra))
+                v = self.run_check(p)
+                self.assertIsNone(v["ruling"])
+                self.assertTrue(v["ready"], v["reasons"])
+
+    def test_ruling_wrong_types_are_null(self):
+        head = "<!-- ocp-discover-ruling:v1 -->\n```yaml\n%s\n```\n"
+        auth = "authoritative: https://example.org/x"
+        bodies = [
+            "- a\n- b", "just a scalar", "",
+            "reason: [source-disagreement]\n" + auth,
+            "reason: source-disagreement\nauthoritative: 5",
+            "reason: source-disagreement\nauthoritative: [https://example.org/x]",
+            "reason: source-disagreement\nauthoritative: {a: 1}",
+            "reason: source-disagreement\nauthoritative: true",
+            "reason: source-disagreement\nauthoritative: https://example.org:99999/x",
+            "reason: source-disagreement\nauthoritative: http://[::1",
+            "reason: source-disagreement\n%s\ndrop: {a: b}" % auth,
+            "reason: source-disagreement\n%s\ndrop: [1, 2]" % auth,
+            "reason: source-disagreement\n%s\ndrop: [[https://example.org/y]]" % auth,
+            "reason: source-disagreement\n%s\ndrop: [null]" % auth,
+        ]
+        for body in bodies:
+            with self.subTest(body):
+                self.assertIsNone(cwo.parse_ruling(head % body))
+
+    def test_ruling_that_drops_its_authoritative_source_is_null(self):
+        head = "<!-- ocp-discover-ruling:v1 -->\n```yaml\nreason: source-disagreement\n%s\n```\n"
+        for body in ["authoritative: https://example.org/x\ndrop: [https://example.org/x]",
+                     "authoritative: https://example.org/x\ndrop: ['  https://example.org/x ']"]:
+            with self.subTest(body):
+                self.assertIsNone(cwo.parse_ruling(head % body))
+
+    def test_ruling_urls_are_trimmed_and_drop_deduplicated(self):
+        body = ("<!-- ocp-discover-ruling:v1 -->\n```yaml\nreason: source-disagreement\n"
+                "authoritative: '  https://example.org/x  '\n"
+                "drop: [https://example.org/y, ' https://example.org/y']\n```\n")
+        self.assertEqual(cwo.parse_ruling(body),
+                         {"authoritative": "https://example.org/x",
+                          "drop": ["https://example.org/y"]})
+
     def test_parse_ruling_direct(self):
         self.assertIsNone(cwo.parse_ruling(""))
         self.assertIsNone(cwo.parse_ruling(None))

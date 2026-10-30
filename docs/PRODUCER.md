@@ -177,7 +177,9 @@ block can never repeat `set_id` or the UUID.
 
 ### Difference format
 
-On exit 10 stdout is `{"agree": false, "differences": [...]}`. Each entry names a
+On exit 10 stdout is `{"agree": false, "sources": [...], "differences": [...]}`.
+`sources` is the `url` of every compared source, in input order; it is the only
+complete list of them, because an entry's `values` can be sparse. Each entry names a
 `field` and carries per-source `values` keyed by `url`, in input order. Entries are
 ordered by field (`card_count`, `card_rows`, `card_numbers`, `card_names`,
 `parallels`), card numbers in natural order (`2` before `10`), and rungs by name then
@@ -199,6 +201,10 @@ Shimmer /8 rung (exit 10):
 ```json
 {
   "agree": false,
+  "sources": [
+    "https://<source-a>/2025-panini-prizm-draft-picks",
+    "https://<source-b>/prizm-draft-picks-2025"
+  ],
   "differences": [
     {
       "field": "parallels",
@@ -291,8 +297,13 @@ collision or API stop.
 - `authoritative`: the URL of the authoritative source;
 - `drop` (optional, default `[]`): URLs of further sources to drop.
 
-Every URL must be a key of the stop's difference `values`, i.e. one of the compared
-sources, under the same URL policy as precondition item 4. A ruling applies only when
+Every URL must be in the stop's difference JSON `sources`, the full list of compared
+sources (never only the keys of an entry's `values`, which can be sparse: a `card_rows`
+entry lists only self-inconsistent sources, a `parallels` entry only ladder sources),
+compared after trimming surrounding whitespace, and under the same URL policy as
+precondition item 4. `drop` must not name the authoritative source. A stop quoted
+before `sources` existed has none: re-run the comparator over the stop's extracted
+files to get the full list before validating the ruling. A ruling applies only when
 it was written (created or last edited) after the latest `source-disagreement` stop;
 an older ruling answered an earlier disagreement. Only a ruling from a repository
 owner, member or collaborator counts, and the newest such ruling wins. Discover

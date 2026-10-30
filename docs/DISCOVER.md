@@ -205,7 +205,9 @@ short:
 - Otherwise a **trusted operator ruling** names it: a comment whose first line is
   `<!-- ocp-discover-ruling:v1 -->` (format in *Stop and report*), from a repository
   owner, member or collaborator, written after the latest `source-disagreement` stop.
-  Every URL in it must be a key of that stop's difference `values`. Ignore a ruling
+  Every URL in it must be in that stop's difference JSON `sources` (the full compared
+  set; an entry's `values` can be sparse), and `drop` must not name the authoritative
+  source. Ignore a ruling
   that is older than the stop, untrusted, malformed, or names a URL that was not
   compared.
 - Classify each other source by the difference `field`: a source that disagrees with
@@ -275,7 +277,7 @@ reason: source-disagreement
 **Discover stopped. The work order is not Ready.**
 
 ```json
-{"agree": false, "differences": [{"field": "card_count", "values": {"https://…": 100, "https://…": 110}}]}
+{"agree": false, "sources": ["https://…", "https://…"], "differences": [{"field": "card_count", "values": {"https://…": 100, "https://…": 110}}]}
 ```
 ````
 

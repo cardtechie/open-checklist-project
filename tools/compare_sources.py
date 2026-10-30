@@ -25,8 +25,9 @@ yaml block) for Discover step 5 to post. `--meta <file>` adds `name`, `genre`,
 `sports`, `category` and `year` to it, checked exactly as tools/check_work_order.py
 checks a posted block. It never repeats `set_id` or the UUID.
 
-On disagreement it prints {"agree": false, "differences": [...]} on stdout: the
-evidence a `source-disagreement` stop comment quotes.
+On disagreement it prints {"agree": false, "sources": [...], "differences": [...]} on
+stdout, `sources` being every compared url in input order: the evidence a
+`source-disagreement` stop comment quotes.
 
 It never writes to GitHub and never fetches a URL.
 Exit 0 = sources agree, 10 = sources disagree, 2 = usage, read or malformed-input error
@@ -304,7 +305,11 @@ def main(argv=None):
         block = discover_block(sources, meta)
         differences = compare(sources)
         if differences:
-            print(json.dumps({"agree": False, "differences": differences}, indent=2))
+            # `sources` is every compared url in input order. A difference's `values`
+            # can be sparse (card_rows lists only self-inconsistent sources, parallels
+            # only ladder sources), so it alone cannot say which sources were compared.
+            print(json.dumps({"agree": False, "sources": [s["url"] for s in sources],
+                              "differences": differences}, indent=2))
             return EXIT_DISAGREE
         print(block, end="")
         return EXIT_AGREE
