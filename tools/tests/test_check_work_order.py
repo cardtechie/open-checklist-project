@@ -496,6 +496,161 @@ class CheckWorkOrderTests(unittest.TestCase):
                 self.assertEqual(cwo.main(["--from-json", str(f)]), cwo.EXIT_USAGE)
 
 
+    # --- operator ruling on a source-disagreement stop (ocp-discover-ruling:v1, #91)
+    RULING = ("<!-- ocp-discover-ruling:v1 -->\nRuling on the source-disagreement stop.\n\n"
+              "```yaml\nreason: source-disagreement\n"
+              "authoritative: https://example.org/2025-prizm-draft-picks\n"
+              "drop: [https://example.com/other-list]\n```\n")
+    STOP_SD = "<!-- ocp-discover-stop:v1 -->\nreason: source-disagreement\n"
+
+    def ruling(self, created="2026-10-06T00:00:00Z", assoc="MEMBER", body=None, cid=501):
+        c = comment(body or self.RULING, created, assoc)
+        c["id"] = cid
+        return c
+
+    def test_no_ruling_is_null(self):
+        self.assertIsNone(self.run_check(ready_payload())["ruling"])
+
+    def test_trusted_ruling_surfaces(self):
+        p = ready_payload()
+        p["comments"].append(self.ruling())
+        v = self.run_check(p)
+        self.assertTrue(v["ready"], v["reasons"])
+        self.assertEqual(v["ruling"], {"comment_id": 501,
+                                       "authoritative": "https://example.org/2025-prizm-draft-picks",
+                                       "drop": ["https://example.com/other-list"]})
+
+    def test_untrusted_ruling_is_ignored(self):
+        p = ready_payload()
+        p["comments"].append(self.ruling(assoc="NONE"))
+        self.assertIsNone(self.run_check(p)["ruling"])
+
+    def test_newer_trusted_ruling_wins_by_updated_at(self):
+        p = ready_payload()
+        older = self.ruling("2026-10-06T00:00:00Z", cid=601)
+        newer_body = self.RULING.replace("https://example.org/2025-prizm-draft-picks",
+                                         "https://example.net/checklist")
+        newer = self.ruling("2026-10-02T00:00:00Z", body=newer_body, cid=602)
+        newer["updated_at"] = "2026-10-08T00:00:00Z"
+        p["comments"] += [older, newer]
+        v = self.run_check(p)
+        self.assertEqual(v["ruling"]["comment_id"], 602)
+        self.assertEqual(v["ruling"]["authoritative"], "https://example.net/checklist")
+
+    def test_ruling_drop_defaults_to_empty(self):
+        p = ready_payload()
+        body = ("<!-- ocp-discover-ruling:v1 -->\n```yaml\nreason: source-disagreement\n"
+                "authoritative: https://example.org/x\n```\n")
+        p["comments"].append(self.ruling(body=body))
+        self.assertEqual(self.run_check(p)["ruling"]["drop"], [])
+
+    def test_malformed_trusted_ruling_is_null_and_adds_no_reason(self):
+        bad_bodies = [
+            "<!-- ocp-discover-ruling:v1 -->\nno fence here\n",
+            "<!-- ocp-discover-ruling:v1 -->\n```yaml\n: [unbalanced\n```\n",
+            self.RULING.replace("reason: source-disagreement", "reason: identity-conflict"),
+            self.RULING.replace("https://example.org/2025-prizm-draft-picks", "http://127.0.0.1/x"),
+            self.RULING.replace("drop: [https://example.com/other-list]", "drop: https://example.com/x"),
+            self.RULING.replace("drop: [https://example.com/other-list]", "drop: [ftp://example.com/x]"),
+        ]
+        for body in bad_bodies:
+            p = ready_payload()
+            p["comments"].append(self.ruling(body=body))
+            v = self.run_check(p)
+            self.assertIsNone(v["ruling"], body)
+            self.assertTrue(v["ready"], (body, v["reasons"]))
+
+    def test_ruling_alone_does_not_clear_stop(self):
+        p = ready_payload()
+        p["comments"] = [comment(BLOCK, "2026-10-01T00:00:00Z"),
+                         comment(self.STOP_SD, "2026-10-05T00:00:00Z"),
+                         self.ruling("2026-10-06T00:00:00Z")]
+        v = self.run_check(p)
+        self.assertNotReady(v, "discover stopped (source-disagreement)")
+        self.assertEqual(v["ruling"]["comment_id"], 501)
+
+    def test_block_after_stop_and_ruling_is_ready_with_ruling(self):
+        p = ready_payload()
+        p["comments"] = [comment(self.STOP_SD, "2026-10-05T00:00:00Z"),
+                         self.ruling("2026-10-06T00:00:00Z"),
+                         comment(BLOCK, "2026-10-07T00:00:00Z")]
+        v = self.run_check(p)
+        self.assertTrue(v["ready"], v["reasons"])
+        self.assertEqual(v["ruling"]["authoritative"], "https://example.org/2025-prizm-draft-picks")
+
+    def test_ruling_yaml_the_loader_rejects_outside_yamlerror_is_null(self):
+        # yaml.safe_load raises these itself rather than a YAMLError; a malformed
+        # trusted ruling must stay `null`, never abort the checker.
+        base = ("<!-- ocp-discover-ruling:v1 -->\n```yaml\nreason: source-disagreement\n"
+                "authoritative: https://example.org/x\n%s\n```\n")
+        extras = {
+            "impossible date": "when: 2025-02-30",
+            "impossible date key": "? !!timestamp 2025-13-01\n: v",
+            "integer over the digit limit": "n: " + "9" * 5000,
+            "nesting past the recursion limit": "x: " + "[" * 3000 + "]" * 3000,
+        }
+        for label, extra in extras.items():
+            with self.subTest(label):
+                self.assertIsNone(cwo.parse_ruling(base % extra))
+                p = ready_payload()
+                p["comments"].append(self.ruling(body=base % extra))
+                v = self.run_check(p)
+                self.assertIsNone(v["ruling"])
+                self.assertTrue(v["ready"], v["reasons"])
+
+    def test_ruling_wrong_types_are_null(self):
+        head = "<!-- ocp-discover-ruling:v1 -->\n```yaml\n%s\n```\n"
+        auth = "authoritative: https://example.org/x"
+        bodies = [
+            "- a\n- b", "just a scalar", "",
+            "reason: [source-disagreement]\n" + auth,
+            "reason: source-disagreement\nauthoritative: 5",
+            "reason: source-disagreement\nauthoritative: [https://example.org/x]",
+            "reason: source-disagreement\nauthoritative: {a: 1}",
+            "reason: source-disagreement\nauthoritative: true",
+            "reason: source-disagreement\nauthoritative: https://example.org:99999/x",
+            "reason: source-disagreement\nauthoritative: http://[::1",
+            "reason: source-disagreement\n%s\ndrop: {a: b}" % auth,
+            "reason: source-disagreement\n%s\ndrop: [1, 2]" % auth,
+            "reason: source-disagreement\n%s\ndrop: [[https://example.org/y]]" % auth,
+            "reason: source-disagreement\n%s\ndrop: [null]" % auth,
+            "reason: source-disagreement\n%s\ndrop:" % auth,
+            "reason: source-disagreement\n%s\ndrop: null" % auth,
+            "reason: source-disagreement\n%s\ndrop: ~" % auth,
+            "reason: source-disagreement\n%s\ndrop: ''" % auth,
+            "reason: source-disagreement\n%s\ndrops: [https://example.org/y]" % auth,
+            "reason: source-disagreement\n%s\nnote: see thread" % auth,
+        ]
+        for body in bodies:
+            with self.subTest(body):
+                self.assertIsNone(cwo.parse_ruling(head % body))
+
+    def test_ruling_explicit_empty_drop_is_accepted(self):
+        body = ("<!-- ocp-discover-ruling:v1 -->\n```yaml\nreason: source-disagreement\n"
+                "authoritative: https://example.org/x\ndrop: []\n```\n")
+        self.assertEqual(cwo.parse_ruling(body)["drop"], [])
+
+    def test_ruling_that_drops_its_authoritative_source_is_null(self):
+        head = "<!-- ocp-discover-ruling:v1 -->\n```yaml\nreason: source-disagreement\n%s\n```\n"
+        for body in ["authoritative: https://example.org/x\ndrop: [https://example.org/x]",
+                     "authoritative: https://example.org/x\ndrop: ['  https://example.org/x ']"]:
+            with self.subTest(body):
+                self.assertIsNone(cwo.parse_ruling(head % body))
+
+    def test_ruling_urls_are_trimmed_and_drop_deduplicated(self):
+        body = ("<!-- ocp-discover-ruling:v1 -->\n```yaml\nreason: source-disagreement\n"
+                "authoritative: '  https://example.org/x  '\n"
+                "drop: [https://example.org/y, ' https://example.org/y']\n```\n")
+        self.assertEqual(cwo.parse_ruling(body),
+                         {"authoritative": "https://example.org/x",
+                          "drop": ["https://example.org/y"]})
+
+    def test_parse_ruling_direct(self):
+        self.assertIsNone(cwo.parse_ruling(""))
+        self.assertIsNone(cwo.parse_ruling(None))
+        self.assertEqual(cwo.parse_ruling(self.RULING)["drop"], ["https://example.com/other-list"])
+
+
     def test_cli_malformed_github_json_is_read_error(self):
         cases = [
             ["not json", "[]", ""],                       # issue body

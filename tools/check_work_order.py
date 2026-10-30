@@ -32,6 +32,11 @@ DEFAULT_REPO = "cardtechie/open-checklist-project"
 WORK_ORDER_TYPE = "Work Order"
 DISCOVER_MARKER = "<!-- ocp-discover:v1 -->"
 DISCOVER_STOP_MARKER = "<!-- ocp-discover-stop:v1 -->"
+# An operator's ruling on a Discover source-disagreement stop (docs/PRODUCER.md ->
+# Source comparison -> Recovery after a disagreement). Discover never writes one.
+DISCOVER_RULING_MARKER = "<!-- ocp-discover-ruling:v1 -->"
+RULING_REASON = "source-disagreement"
+RULING_KEYS = frozenset({"reason", "authoritative", "drop"})
 # Written by .github/workflows/reserve-work-order.yml (.github/scripts/work-order.js):
 # RESERVE_MARKER on a successful reservation, RESERVE_STOP_MARKER when it stopped on an
 # identity conflict and wrote nothing.
@@ -354,6 +359,62 @@ def parse_discover(body, reasons):
     return out
 
 
+def parse_ruling(body):
+    """Parse an operator-ruling comment body, or return None when it is malformed.
+
+    A ruling names the authoritative source of a source-disagreement stop and,
+    optionally, sources to drop. A malformed ruling is not an error for the checker:
+    it adds no reason, because a ruling never decides readiness (the Discover block a
+    re-run writes does). Discover refuses to act on a ruling this returns None for.
+    """
+    m = FENCE_RE.search(body or "")
+    if not m:
+        return None
+    try:
+        data = yaml.safe_load(m.group(1))
+    except (yaml.YAMLError, ValueError, TypeError, OverflowError, RecursionError):
+        # The loader raises the non-YAMLError ones itself, exactly as
+        # tools/compare_sources.py's _read_yaml handles them: an integer over CPython's
+        # 4300-digit limit, an impossible date such as 2025-02-30, or nesting deeper
+        # than the recursion limit. A ruling is untrusted input however trusted its
+        # author, so any of them is a malformed ruling, never a checker failure.
+        return None
+    if not isinstance(data, dict) or data.get("reason") != RULING_REASON:
+        return None
+    # No other key: a misspelt `drops:` would otherwise be ignored, and the ruling
+    # applied as though it dropped nothing.
+    if set(data) - RULING_KEYS:
+        return None
+    authoritative = data.get("authoritative")
+    if source_url_problem(authoritative):
+        return None
+    # Only an absent `drop` defaults to []. An explicit `drop:` (null) is malformed,
+    # like every other non-list value.
+    drop = data.get("drop", [])
+    if not isinstance(drop, list) or any(
+            not isinstance(u, str) or source_url_problem(u) for u in drop):
+        return None
+    # Same normalization the comparator applies to a source url, so padding cannot
+    # hide the authoritative source inside its own drop list.
+    authoritative = authoritative.strip()
+    drop = list(dict.fromkeys(u.strip() for u in drop))
+    if authoritative in drop:
+        return None  # a ruling cannot both keep and drop its authoritative source
+    return {"authoritative": authoritative, "drop": drop}
+
+
+def effective_ruling(comments):
+    """The newest trusted ruling comment, parsed, or None (informational only)."""
+    latest = latest_written([b for b in marked_comments(comments, DISCOVER_RULING_MARKER)
+                             if is_trusted(b[2])])
+    if not latest:
+        return None
+    parsed = parse_ruling(latest[3])
+    if parsed is None:
+        return None
+    return {"comment_id": latest[2].get("id"), **parsed}
+
+
 # --------------------------------------------------------------------------- check
 
 def check(payload, data_dir="data"):
@@ -466,6 +527,9 @@ def check(payload, data_dir="data"):
         "category": discover.get("category") if discover else None,
         "year": discover.get("year") if discover else None,
         "sources": discover.get("sources") if discover else [],
+        # Informational: the newest trusted operator ruling on a source-disagreement
+        # stop. It never changes `reasons` or `ready`.
+        "ruling": effective_ruling(comments),
     }
 
 

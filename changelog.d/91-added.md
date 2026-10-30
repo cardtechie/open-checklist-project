@@ -1,0 +1,1 @@
+- **[Issue #91]** Add a recovery path for a Discover source-disagreement stop: manufacturer-source precedence and a trusted operator-ruling comment applied to the comparator's inputs and surfaced by the checker.

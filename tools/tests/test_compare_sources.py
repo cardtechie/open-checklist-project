@@ -71,6 +71,32 @@ class Runner(unittest.TestCase):
         return payload["differences"]
 
 
+class CompareSourcesList(Runner):
+    def test_disagreement_lists_every_compared_source_even_when_values_are_sparse(self):
+        # A and B are consistent; C states 3 but has 4 rows. The card_rows entry's
+        # values hold C alone, so a ruling naming A could not be validated against it:
+        # `sources` is the complete compared set (#91 recovery validates against it).
+        extra = CARDS + [{"number": "11", "name": "Ashton Jeanty"}]
+        paths = [self.write(source(URL_A)), self.write(source(URL_B)),
+                 self.write(source(URL_C, cards=extra, count=3))]
+        code, out, err = self.run_cli(*paths)
+        self.assertEqual(code, cs.EXIT_DISAGREE, err)
+        payload = json.loads(out)
+        self.assertEqual(list(payload), ["agree", "sources", "differences"])
+        self.assertEqual(payload["sources"], [URL_A, URL_B, URL_C])
+        rows = [d for d in payload["differences"] if d["field"] == "card_rows"]
+        self.assertEqual(rows, [{"field": "card_rows", "values": {URL_C: {"stated": 3, "rows": 4}}}])
+
+    def test_base_only_source_is_listed_though_absent_from_parallels_values(self):
+        paths = [self.write(source(URL_A)), self.write(source(URL_B, parallels=LADDER[:2])),
+                 self.write(source(URL_C, listed=False))]
+        code, out, err = self.run_cli(*paths)
+        self.assertEqual(code, cs.EXIT_DISAGREE, err)
+        payload = json.loads(out)
+        self.assertEqual(payload["sources"], [URL_A, URL_B, URL_C])
+        self.assertTrue(all(URL_C not in d["values"] for d in payload["differences"]))
+
+
 class Agree(Runner):
     def test_two_agreeing_sources_print_a_block_the_checker_accepts(self):
         code, out, err = self.run_cli(self.write(source(URL_A)), self.write(source(URL_B)))
