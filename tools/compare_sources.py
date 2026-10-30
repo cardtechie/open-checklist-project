@@ -69,7 +69,10 @@ def norm(text):
 
 def natural_key(number):
     """Sort card numbers as strings, with digit runs compared numerically (2 < 10)."""
-    return [(0, int(part), "") if part.isdigit() else (1, 0, part)
+    # isdecimal, not isdigit: re's \d and int() both accept exactly the Unicode
+    # decimal digits, while isdigit also admits superscripts such as "\u00b2" that
+    # int() rejects.
+    return [(0, int(part), "") if part.isdecimal() else (1, 0, part)
             for part in re.split(r"(\d+)", number) if part != ""]
 
 

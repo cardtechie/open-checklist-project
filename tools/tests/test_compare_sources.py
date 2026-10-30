@@ -164,6 +164,13 @@ class Disagree(Runner):
         diffs = [d["number"] for d in self.differences(a, b) if d["field"] == "card_numbers"]
         self.assertEqual(diffs, ["001", "01", "1"])
 
+    def test_non_decimal_digit_numbers_sort_without_crashing(self):
+        extra = [{"number": n, "name": f"Player {n}"} for n in ("1\u00b2", "\u0662", "1")]
+        a = source(URL_A, cards=extra, count=3)
+        b = source(URL_B, cards=[], count=3)
+        diffs = [d["number"] for d in self.differences(a, b) if d["field"] == "card_numbers"]
+        self.assertEqual(diffs, ["1", "1\u00b2", "\u0662"])
+
     def test_three_sources_in_input_order(self):
         c = source(URL_C)
         c["card_count"] = 9
