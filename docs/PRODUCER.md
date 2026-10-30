@@ -75,6 +75,15 @@ start.
    lookup run rewrites its `ocp-reserve:v1` comment after the stop, even when nothing is
    left to write, and that comment makes the work order Ready again.
 
+   An **operator ruling** (first line `<!-- ocp-discover-ruling:v1 -->`, defined in
+   *Source comparison* → *Recovery after a disagreement*) settles a `source-disagreement`
+   stop. It is trusted on the same terms as the block: only a ruling from a repository
+   owner, member or collaborator counts, and the newest one (by last edit) wins. A
+   ruling **never makes a work order Ready on its own**: the stop stays in effect until
+   a re-run of Discover applies the ruling and writes a block after the stop. The
+   checker reports the newest trusted ruling in the verdict's `ruling` key and adds no
+   reason for it, malformed or not.
+
 Worked Discover block for work order #77:
 
 ````markdown
@@ -101,8 +110,11 @@ python tools/check_work_order.py --from-json wo.json
 ```
 
 The verdict carries `ready`, `reasons`, `set_id`, `reserved_uuid`, `name` (with
-`name_source`: `discover-block` or `title`), `genre`, `sports`, `category`, `year` and
-`sources`. The checker never writes to GitHub.
+`name_source`: `discover-block` or `title`), `genre`, `sports`, `category`, `year`,
+`sources` and `ruling`. `ruling` is `{comment_id, authoritative, drop}` from the newest
+trusted operator ruling, or `null` when there is none or it is malformed. It is
+informational only and changes neither `reasons` nor `ready`. The checker never
+writes to GitHub.
 
 ## Source comparison
 
@@ -210,10 +222,99 @@ Shimmer /8 rung (exit 10):
    available source, skip the comparator and post that source's block as before.
 3. Act on the exit code:
    - **0**: post the printed block verbatim as the Discover block (Discover step 5).
-   - **10**: stop with `source-disagreement`, quoting the difference JSON in the stop
-     comment as data. That JSON is the stop's evidence.
+   - **10**: apply *Recovery after a disagreement* below when manufacturer precedence
+     or a ruling settles it. Otherwise stop with `source-disagreement`, quoting the
+     difference JSON in the stop comment as data. That JSON is the stop's evidence.
    - **2**: the extraction is malformed. Fix it by re-extracting from the source, never
      by editing the inputs to force agreement.
+
+### Recovery after a disagreement
+
+A `source-disagreement` stop is settled by naming **one authoritative source** and
+changing the comparator's **inputs** to match it, then running the comparator again.
+The verdict is never overridden: `tools/compare_sources.py` stays the only thing that
+decides agreement.
+
+**1. Pick the authoritative source.** Only two things can name it:
+
+- **Manufacturer precedence** (no operator needed). When exactly one compared source is
+  on the manufacturer's own domain (its checklist or sell sheet), it is authoritative.
+  The manufacturer domains are exactly this closed list, a subdomain of a listed
+  domain included:
+
+  | Domain | Manufacturer |
+  | --- | --- |
+  | `paniniamerica.net` | Panini America |
+  | `upperdeck.com` | The Upper Deck Company |
+  | `topps.com` | The Topps Company |
+  | `leaftradingcards.com` | Leaf Trading Cards |
+
+  Any other host is not a manufacturer source. When two or more compared sources are
+  on listed domains, precedence does not apply. A domain is added to this list only
+  by an edit to this document, and only once its ownership is verified.
+- **An operator ruling**, in every other case. Never choose a source by any other
+  rule: majority, popularity or "the more complete list" are each an invented rule.
+
+**2. Classify every other source** against the authoritative one, using the difference
+JSON from the latest run. A source **disagrees** in an entry when its value there
+differs from the authoritative source's value, or, for `card_rows`, when it is listed
+at all.
+
+- **Base disagreer**: it disagrees in any `card_count`, `card_rows`, `card_numbers`
+  or `card_names` entry. It is **dropped**: its file is not passed to the comparator.
+- **Ladder-only disagreer**: it disagrees only in `parallels` entries. It is **kept as
+  base-only**: rewrite its extracted file with `parallels_listed: false` and
+  `parallels: []`. Agreement rule 4 then leaves it out of the ladder comparison, with
+  no comparator change. A ruling's `drop:` list may drop it outright instead.
+- Every other source is passed unchanged.
+
+If the authoritative source itself is in a `card_rows` entry, it contradicts its own
+count. Neither precedence nor a ruling can settle that: stop again.
+
+**3. Re-run the comparator** over the authoritative file and the kept files.
+
+- **0**: post the printed block as the Discover block, with a note line below the yaml
+  block citing the ruling comment's URL or `manufacturer precedence`.
+- **10**: the ruling did not cover this disagreement (for example, a source that
+  appeared since). Stop again with `source-disagreement` and the new difference JSON.
+  The operator rules again.
+- With only the authoritative source left, take the single-source path (step 2 of
+  the procedure above) and post its block.
+
+A ruling settles a source disagreement only. It never overrides an identity,
+collision or API stop.
+
+**The ruling comment.** A comment whose first line is
+`<!-- ocp-discover-ruling:v1 -->`, followed by one fenced `yaml` block:
+
+- `reason`: `source-disagreement`;
+- `authoritative`: the URL of the authoritative source;
+- `drop` (optional, default `[]`): URLs of further sources to drop.
+
+Every URL must be a key of the stop's difference `values`, i.e. one of the compared
+sources, under the same URL policy as precondition item 4. A ruling applies only when
+it was written (created or last edited) after the latest `source-disagreement` stop;
+an older ruling answered an earlier disagreement. Only a ruling from a repository
+owner, member or collaborator counts, and the newest such ruling wins. Discover
+refuses to act on a ruling that is malformed or names a URL that was not compared,
+and **Discover never writes a ruling**: a ruling is the operator's.
+
+Worked ruling for work order #77's shape: the worked difference above has one
+`parallels` entry, where source A lists Green Shimmer /8 and source B does not.
+
+````markdown
+<!-- ocp-discover-ruling:v1 -->
+```yaml
+reason: source-disagreement
+authoritative: https://<source-a>/2025-panini-prizm-draft-picks
+```
+````
+
+Source B disagrees only in `parallels`, so it is a ladder-only disagreer. Discover
+rewrites its file with `parallels_listed: false` and `parallels: []`, and re-runs the
+comparator over both files. Source B is now base-only and left out of the ladder
+comparison, so the comparator exits 0. Discover posts the printed block (A with the
+ladder, B base-only) with a note line citing the ruling's URL.
 
 ## Procedure
 
