@@ -276,6 +276,65 @@ class Malformed(Runner):
         self.assert_usage(self.write(source(URL_A)), self.write(source(URL_B)), "--meta", meta)
 
 
+class LoaderEdges(Runner):
+    """Inputs that made the YAML loader or the writer raise instead of exiting 2."""
+
+    def good_yaml(self, url=URL_A):
+        return yaml.safe_dump(source(url), sort_keys=False)
+
+    def assert_source_usage(self, raw):
+        return self.assert_usage(self.write(None, raw=raw), self.write(source(URL_B)))
+
+    def test_integer_past_the_digit_limit(self):
+        huge = "9" * 5000
+        for field in ("card_count", "print_run"):
+            with self.subTest(field=field):
+                raw = self.good_yaml().replace("card_count: 3", f"card_count: {huge}", 1) \
+                    if field == "card_count" else self.good_yaml().replace("print_run: 10", f"print_run: {huge}", 1)
+                self.assertIn(huge, raw)
+                self.assert_source_usage(raw)
+
+    def test_impossible_date(self):
+        self.assert_source_usage(self.good_yaml() + "released: 2025-02-30\n")
+
+    def test_nesting_past_the_recursion_limit(self):
+        self.assert_source_usage("deep: " + "[" * 50000 + "]" * 50000 + "\n")
+
+    def test_hex_integer_past_the_digit_limit(self):
+        raw = self.good_yaml().replace("card_count: 3", "card_count: 0x" + "f" * 5000, 1)
+        payload = self.assert_source_usage(raw)
+        self.assertEqual(payload["reasons"], [f"card_count: larger than {cs.MAX_SAFE_INT}"])
+
+    def test_count_above_the_json_safe_maximum(self):
+        bad = source(URL_B, count=2 ** 53)
+        self.assert_usage(self.write(source(URL_A)), self.write(bad))
+
+    def test_meta_hex_year_that_cannot_be_written(self):
+        meta = self.write(None, raw="year: 0x" + "f" * 5000 + "\n")
+        self.assert_usage(self.write(source(URL_A)), self.write(source(URL_B)), "--meta", meta)
+
+    def test_meta_nested_too_deep_to_write(self):
+        meta = self.write(None, raw="name: " + "[" * 400 + "x" + "]" * 400 + "\n")
+        payload = self.assert_usage(self.write(source(URL_A)), self.write(source(URL_B)), "--meta", meta)
+        self.assertEqual(payload["reasons"], [f"nested deeper than {cs.MAX_DEPTH} levels"])
+
+    def test_meta_impossible_date(self):
+        meta = self.write(None, raw="year: 2025-02-30\n")
+        self.assert_usage(self.write(source(URL_A)), self.write(source(URL_B)), "--meta", meta)
+
+    def test_card_number_with_a_digit_run_past_the_limit(self):
+        long_number = "1" * 5000
+        a = source(URL_A, cards=CARDS + [{"number": long_number, "name": "Long"}], count=4)
+        diffs = [d["number"] for d in self.differences(a, source(URL_B, count=4))
+                 if d["field"] == "card_numbers"]
+        self.assertEqual(diffs, [long_number])
+
+    def test_digit_runs_still_sort_by_value(self):
+        self.assertLess(cs.natural_key("9"), cs.natural_key("10"))
+        self.assertLess(cs.natural_key("10"), cs.natural_key("1" * 5000))
+        self.assertEqual(cs.natural_key("002"), cs.natural_key("\u0662"))
+
+
 class Schema(unittest.TestCase):
     def test_schema_is_a_valid_draft_2020_12_schema(self):
         import jsonschema

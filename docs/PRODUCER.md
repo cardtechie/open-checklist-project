@@ -119,13 +119,14 @@ Each kept source becomes **one** YAML file matching
 Schema 2020-12). All five keys are required, and no other key is allowed:
 
 - `url`: the source page, under the same URL policy as precondition item 4;
-- `card_count`: the source's **own stated** base-set count, a positive integer. Never a
+- `card_count`: the source's **own stated** base-set count, a positive integer no larger than 9007199254740991
+  (2^53 - 1). Never a
   count of the rows you extracted;
 - `parallels_listed`: `true` when the source lists the parallel ladder, else `false`;
 - `cards`: the base checklist rows as the source lists them, each `{number, name}`.
   `number` is a string as printed (quote it in YAML: `"1"`, `"RC-12"`);
-- `parallels`: the ladder, each `{name, print_run}`. `print_run` is a positive integer,
-  or `null` for an unnumbered parallel. It must be empty (`[]`) when
+- `parallels`: the ladder, each `{name, print_run}`. `print_run` is a positive integer
+  under the same maximum, or `null` for an unnumbered parallel. It must be empty (`[]`) when
   `parallels_listed` is `false`.
 
 Inside one file, a repeated card number, or a repeated parallel (same normalized name

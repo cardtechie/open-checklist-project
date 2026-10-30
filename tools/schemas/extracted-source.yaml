@@ -17,6 +17,8 @@ properties:
     description: The source's OWN stated base-set count. Never a self-counted value.
     type: integer
     minimum: 1
+    # The largest integer a JSON consumer can hold exactly (2^53 - 1).
+    maximum: 9007199254740991
   parallels_listed:
     description: true when the source lists the parallel ladder, else false.
     type: boolean
@@ -55,6 +57,7 @@ properties:
           oneOf:
             - type: integer
               minimum: 1
+              maximum: 9007199254740991
             - type: "null"
 if:
   properties:

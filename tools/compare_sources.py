@@ -36,6 +36,7 @@ import argparse
 import json
 import re
 import sys
+import unicodedata
 from pathlib import Path
 
 import jsonschema
@@ -49,6 +50,13 @@ EXIT_AGREE, EXIT_DISAGREE, EXIT_USAGE = 0, 10, 2
 SCHEMA_PATH = Path(__file__).resolve().parent / "schemas" / "extracted-source.yaml"
 META_KEYS = ("name", "genre", "sports", "category", "year")
 FIELD_ORDER = ("card_count", "card_rows", "card_numbers", "card_names", "parallels")
+# The largest integer a JSON consumer can hold exactly (2^53 - 1). Anything larger is
+# refused on read: YAML loads a hex or binary integer of any size, and str()/repr()
+# of one over 4300 digits raises, which would traceback in validation or output.
+MAX_SAFE_INT = 2 ** 53 - 1
+# Neither input needs more than a few levels (a source is three deep). A deeper value
+# loads, but yaml.safe_dump of it can exceed the recursion limit when writing the block.
+MAX_DEPTH = 16
 
 
 class InputError(Exception):
@@ -67,12 +75,23 @@ def norm(text):
     return " ".join(text.split()).casefold()
 
 
+def _digit_run_key(run):
+    """Order a decimal digit run by numeric value without int().
+
+    CPython refuses int() on a run longer than 4300 digits, and a card number is a
+    free string, so the run is compared as (length, digits) once it is mapped to
+    ASCII and stripped of leading zeros. That is the same order int() gives.
+    """
+    digits = "".join(str(unicodedata.decimal(c)) for c in run).lstrip("0")
+    return (len(digits), digits)
+
+
 def natural_key(number):
     """Sort card numbers as strings, with digit runs compared numerically (2 < 10)."""
-    # isdecimal, not isdigit: re's \d and int() both accept exactly the Unicode
-    # decimal digits, while isdigit also admits superscripts such as "\u00b2" that
-    # int() rejects.
-    return [(0, int(part), "") if part.isdecimal() else (1, 0, part)
+    # isdecimal, not isdigit: re's \d matches exactly the Unicode decimal digits,
+    # while isdigit also admits superscripts such as "\u00b2" that have no
+    # decimal value.
+    return [(0, _digit_run_key(part), "") if part.isdecimal() else (1, (0, ""), part)
             for part in re.split(r"(\d+)", number) if part != ""]
 
 
@@ -85,12 +104,47 @@ def load_schema():
 
 def _read_yaml(path):
     try:
-        return yaml.safe_load(Path(path).read_text())
+        data = yaml.safe_load(Path(path).read_text())
     except (OSError, UnicodeDecodeError) as e:
         raise InputError(f"cannot read {path}: {e}") from e
     except yaml.YAMLError as e:
         first = str(e).splitlines()[0] if str(e) else "parse error"
         raise InputError(f"{path}: yaml is malformed: {first}") from e
+    except (ValueError, TypeError, OverflowError, RecursionError) as e:
+        # Raised by the loader itself, not as a YAMLError: an integer over CPython's
+        # 4300-digit limit, an impossible date such as 2025-02-30, or nesting deeper
+        # than the recursion limit.
+        first = str(e).splitlines()[0] if str(e) else type(e).__name__
+        raise InputError(f"{path}: yaml is malformed: {first}") from e
+    problems = _value_problems(data)
+    if problems:
+        raise InputError(f"{path}: value out of range", problems)
+    return data
+
+
+def _value_problems(data):
+    """Reasons a loaded YAML value cannot be processed safely: integers whose magnitude
+    exceeds MAX_SAFE_INT, and nesting deeper than MAX_DEPTH. Iterative, so a deep value
+    cannot exhaust the recursion limit here either."""
+    problems, too_deep = [], False
+    stack = [(data, (), 0)]
+    while stack:
+        value, path, depth = stack.pop()
+        if isinstance(value, bool):
+            continue
+        if isinstance(value, int):
+            if abs(value) > MAX_SAFE_INT:
+                problems.append(f"{'/'.join(str(p) for p in path) or '<root>'}: larger than {MAX_SAFE_INT}")
+            continue
+        if isinstance(value, (dict, list)):
+            if depth >= MAX_DEPTH:
+                too_deep = True
+                continue
+            items = value.items() if isinstance(value, dict) else enumerate(value)
+            stack.extend((v, path + (k,), depth + 1) for k, v in reversed(list(items)))
+    if too_deep:
+        problems.append(f"nested deeper than {MAX_DEPTH} levels")
+    return problems
 
 
 def load_source(path, validator):
