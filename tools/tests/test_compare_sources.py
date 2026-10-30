@@ -157,6 +157,13 @@ class Disagree(Runner):
         diffs = [d["number"] for d in self.differences(a, b) if d["field"] == "card_numbers"]
         self.assertEqual(diffs, ["2", "9", "10a", "100"])
 
+    def test_equal_natural_keys_sort_by_raw_number(self):
+        extra = [{"number": n, "name": f"Player {n}"} for n in ("01", "001", "1")]
+        a = source(URL_A, cards=extra, count=3)
+        b = source(URL_B, cards=[], count=3)
+        diffs = [d["number"] for d in self.differences(a, b) if d["field"] == "card_numbers"]
+        self.assertEqual(diffs, ["001", "01", "1"])
+
     def test_three_sources_in_input_order(self):
         c = source(URL_C)
         c["card_count"] = 9
@@ -206,6 +213,9 @@ class Malformed(Runner):
 
     def test_duplicate_source_url(self):
         self.assert_usage(self.write(source(URL_A)), self.write(source(URL_A)))
+
+    def test_duplicate_source_url_ignores_surrounding_whitespace(self):
+        self.assert_usage(self.write(source(URL_A)), self.write(source(f"  {URL_A} ")))
 
     def test_unreadable_yaml(self):
         self.assert_usage(self.write(source(URL_A)), self.write(None, raw="url: [unterminated\n"))

@@ -150,7 +150,10 @@ def compare(sources):
 
     # 3. Card numbers, then names for numbers more than one source lists.
     names = {s["url"]: {c["number"]: c["name"] for c in s["cards"]} for s in sources}
-    all_numbers = sorted({n for by_num in names.values() for n in by_num}, key=natural_key)
+    # Raw number breaks ties: "1", "01" and "001" share a natural key, and set
+    # iteration order would otherwise make the output vary between processes.
+    all_numbers = sorted({n for by_num in names.values() for n in by_num},
+                         key=lambda n: (natural_key(n), n))
     for number in all_numbers:
         listed = {u: number in names[u] for u in urls}
         if not all(listed.values()):
@@ -227,10 +230,12 @@ def main(argv=None):
         sources = [load_source(p, validator) for p in args.sources]
         seen = {}
         for path, s in zip(args.sources, sources):
-            if s["url"] in seen:
+            # Same normalization the URL policy validates, so padding cannot hide a duplicate.
+            url = s["url"].strip()
+            if url in seen:
                 raise InputError("duplicate source url",
-                                 [f"{path} and {seen[s['url']]} both have url {s['url']}"])
-            seen[s["url"]] = path
+                                 [f"{path} and {seen[url]} both have url {url}"])
+            seen[url] = path
         meta = load_meta(args.meta) if args.meta else None
         # Built before comparing so a bad --meta is exit 2 whatever the sources say.
         block = discover_block(sources, meta)
