@@ -41,6 +41,14 @@ start.
      numeric host forms, and any IP literal that is not a public address;
    - `card_count`: the source's own stated base-set count, as a positive integer.
 
+   - `subsets`: **required**, the list of every subset the product has beyond the base
+     set. Each entry is `{name, type, card_count, parallels_listed}`: `name` the subset
+     name exactly as the source prints it, `type` one of `insert`, `autograph`, `relic`
+     or `variation`, `card_count` the source's own stated count (a positive integer), and
+     `parallels_listed` whether the source lists that subset's own ladder. A product with
+     no subsets says so with `subsets: []`. An absent key is **not Ready**: a block that
+     is silent on subsets is how a base-plus-parallels set once passed as done (#113).
+
    Optional keys, used when present:
    - `name`: the **exact** Trading Card API set name, when the set already exists there;
    - `genre` (`Sports`, `TCG` or `Non-Sport`), `sports` (list), `category` (list) and
@@ -98,6 +106,11 @@ sources:
   - url: https://<source>/2025-panini-prizm-draft-picks
     card_count: <the source's stated base-set count>
     parallels_listed: true
+subsets:
+  - name: <subset name as the source prints it>
+    type: autograph
+    card_count: <the source's stated count for this subset>
+    parallels_listed: true
 ```
 ````
 
@@ -111,7 +124,7 @@ python tools/check_work_order.py --from-json wo.json
 
 The verdict carries `ready`, `reasons`, `set_id`, `reserved_uuid`, `name` (with
 `name_source`: `discover-block` or `title`), `genre`, `sports`, `category`, `year`,
-`sources` and `ruling`. `ruling` is `{comment_id, authoritative, drop}` from the newest
+`sources`, `subsets` (the list above, `[]` for a base-only product) and `ruling`. `ruling` is `{comment_id, authoritative, drop}` from the newest
 trusted operator ruling, or `null` when there is none or it is malformed. It is
 informational only and changes neither `reasons` nor `ready`. The checker never
 writes to GitHub.
@@ -128,7 +141,7 @@ itself. This section is the single home for the comparator's rules.
 
 Each kept source becomes **one** YAML file matching
 [`tools/schemas/extracted-source.yaml`](../tools/schemas/extracted-source.yaml) (JSON
-Schema 2020-12). All five keys are required, and no other key is allowed:
+Schema 2020-12). All six keys are required, and no other key is allowed:
 
 - `url`: the source page, under the same URL policy as precondition item 4;
 - `card_count`: the source's **own stated** base-set count, a positive integer no larger than 9007199254740991
@@ -139,10 +152,15 @@ Schema 2020-12). All five keys are required, and no other key is allowed:
   `number` is a string as printed (quote it in YAML: `"1"`, `"RC-12"`);
 - `parallels`: the ladder, each `{name, print_run}`. `print_run` is a positive integer
   under the same maximum, or `null` for an unnumbered parallel. It must be empty (`[]`) when
-  `parallels_listed` is `false`.
+  `parallels_listed` is `false`;
+- `subsets`: every subset the source lists beyond the base set, each
+  `{name, type, card_count, parallels_listed}` with `type` one of `insert`, `autograph`,
+  `relic` or `variation` and `card_count` the source's **own stated** count, never a count
+  of rows you extracted. An explicit `[]` means the source lists none. Never leave a
+  subset out because it is hard to extract: say so with a stop (`subsets-unauthorable`).
 
-Inside one file, a repeated card number, or a repeated parallel (same normalized name
-and print run), is malformed. Across files, two inputs with the same `url` are
+Inside one file, a repeated card number, a repeated parallel (same normalized name
+and print run), or a repeated subset name is malformed. Across files, two inputs with the same `url` are
 malformed.
 
 ### Agreement rules
@@ -157,6 +175,10 @@ sources agree only when **all** of these hold:
 4. Among sources with `parallels_listed: true`, the ladders are equal by name and
    `print_run`. A base-only source is left out of this comparison; it never counts as
    disagreeing.
+5. Every source lists the same subsets (by normalized name), and each subset has the
+   same `type` and `card_count` wherever it is listed. A source with `subsets: []`
+   disagrees with one that lists subsets: a missing subset is a difference, never a
+   silent pass.
 
 ### Running it
 
@@ -171,7 +193,7 @@ block can never repeat `set_id` or the UUID.
 
 | Exit | Meaning | Output |
 | --- | --- | --- |
-| `0` | sources agree | stdout is the Discover block, ready to post |
+| `0` | sources agree | stdout is the Discover block, ready to post, carrying the reconciled `subsets:` list |
 | `10` | sources disagree | stdout is the difference JSON |
 | `2` | usage, read or malformed-input error (including fewer than two files; a bad `--meta`, or one whose value would not read back unchanged from the block; YAML that fails to load, such as an impossible date; an integer above 2^53 - 1 or nesting deeper than 16 levels, in either file) | stderr is `{"error": ..., "reasons": [...]}` |
 
@@ -182,7 +204,7 @@ On exit 10 stdout is `{"agree": false, "sources": [...], "differences": [...]}`.
 complete list of them, because an entry's `values` can be sparse. Each entry names a
 `field` and carries per-source `values` keyed by `url`, in input order. Entries are
 ordered by field (`card_count`, `card_rows`, `card_numbers`, `card_names`,
-`parallels`), card numbers in natural order (`2` before `10`), and rungs by name then
+`parallels`, `subsets`), card numbers in natural order (`2` before `10`), and rungs by name then
 print run:
 
 - `card_count`: `values` is each source's stated count;
@@ -193,7 +215,11 @@ print run:
   name as written;
 - `parallels`: one entry per rung (`name`, `print_run`) that not every ladder source
   lists; `values` is `true`/`false` per ladder source. A print-run disagreement shows
-  as two rungs with the same name.
+  as two rungs with the same name;
+- `subsets`: one entry per subset and `attribute`. `attribute: listed` is a subset not
+  every source lists (`values` is `true`/`false` per source); `attribute: type` and
+  `attribute: card_count` are a subset whose type or stated count differs (`values` is
+  each source's value).
 
 Worked example: two sources for work order #77, where only one lists the Green
 Shimmer /8 rung (exit 10):
@@ -266,8 +292,8 @@ JSON from the latest run. A source **disagrees** in an entry when its value ther
 differs from the authoritative source's value, or, for `card_rows`, when it is listed
 at all.
 
-- **Base disagreer**: it disagrees in any `card_count`, `card_rows`, `card_numbers`
-  or `card_names` entry. It is **dropped**: its file is not passed to the comparator.
+- **Base disagreer**: it disagrees in any `card_count`, `card_rows`, `card_numbers`,
+  `card_names` or `subsets` entry. It is **dropped**: its file is not passed to the comparator.
 - **Ladder-only disagreer**: it disagrees only in `parallels` entries. It is **kept as
   base-only**: rewrite its extracted file with `parallels_listed: false` and
   `parallels: []`. Agreement rule 4 then leaves it out of the ladder comparison, with
@@ -367,8 +393,13 @@ set (`baseball`, `football`) and the genre in lower case otherwise (`tcg`, `non-
 - `manifest.yaml`:
   - **Base sets** get freshly minted UUIDv4 `uuid`s and a `declared_card_count`. They
     have no `type`.
-  - **Subsets** get fresh UUIDv4 `uuid`s and a `type` list (`insert`, `autograph`,
-    `relic` or `variation`).
+  - **Subsets**: author **every** subset the verdict's `subsets` lists, each as its own
+    node with its own `checklists/<node-id>.yaml`. A node gets a fresh UUIDv4 `uuid`, a
+    `name` equal to the listed name (exact source string), a `type` list that includes
+    the listed `type`, and a `declared_card_count` equal to the listed `card_count`. A
+    subset whose `parallels_listed` is `true` carries its own `parallels` ladder (exact
+    source names, `print_run`, `serial_numbered`), not the base set's. Never merge two
+    listed subsets into one node, and never add a subset Discover did not list.
   - **`parallels`** use the exact source names, with `print_run` and `serial_numbered`
     where the source states them, and `applies_to` where a parallel covers only some
     rows.
@@ -378,9 +409,18 @@ set (`baseball`, `football`) and the genre in lower case otherwise (`tcg`, `non-
 **Never commit** exploded per-card files or parallel uuids. Parallel cards are derived
 (`uuidv5(row.uuid, parallel.name)`) at consume time.
 
-**(d) Count.** For every node, compare the number of authored rows with the count the
-source states. Any difference is a stop with `count-mismatch`. **Never pad and never
-trim** to make them agree.
+**(d) Count.** For every node, base and subset alike, compare the number of authored rows
+with the count the source states. Any difference is a stop with `count-mismatch`. **Never
+pad and never trim** to make them agree. Then run the subset gate:
+
+```bash
+python tools/check_work_order.py <n> > "$TMPDIR/verdict.json"   # outside the repository
+python tools/review_report.py data/<dir>/<set_id> --discover "$TMPDIR/verdict.json" --require-subsets
+```
+
+Exit 3 means a Discover-listed subset is missing, miscounted or lacks the ladder its
+source lists. Fix an authoring slip; if the source simply cannot support the subset, stop
+with `subsets-unauthorable`. Never fix it by dropping the subset or padding its rows.
 
 **(e) Validate.** Run `python tools/validate.py` locally. It must pass before a PR is
 opened. Fix authoring errors only. **Never** fix a failure by changing rows to match a
@@ -391,8 +431,9 @@ that set's directory and exactly one changelog fragment, `changelog.d/<work orde
 (one imperative line in the `- **[Issue #N]** ...` layout from `changelog.d/README.md`), and
 makes no `tools/` or `schemas/` changes. The Changelog fragment check fails a PR without
 the fragment. The body says
-`Closes #<work order>` and lists each source URL with its stated count against the
-authored count.
+`Closes #<work order>`, lists each source URL with its stated count against the
+authored count, and includes the review report's *Subset completeness* result, so a
+reviewer sees every listed subset against what was authored.
 
 ## Naming for Sync
 
@@ -408,9 +449,20 @@ parallel as the `is_parallel` child of its node's set. So:
 
 ## Done when
 
-`validate.py` **passes on CI** for the set directory the PR adds. That is the whole
-definition of done. The producer does not judge data quality beyond that gate. The
-advisory review report is for the human reviewer.
+A set is done only when **both** hold:
+
+1. `validate.py` **passes on CI** for the set directory the PR adds; and
+2. **every subset the Discover block lists is authored at its stated count**: a node
+   with the listed name and type, `declared_card_count` equal to the listed
+   `card_count`, rows equal to that count, and its own ladder where the source lists
+   one. The review report's *Subset completeness* check is the evidence, and the
+   producer's step (d) gate (`--require-subsets`) enforces it before a PR is opened.
+
+A base set with parallels alone is not done when the Discover block lists any subset.
+CI cannot enforce item 2 by itself, because `validate.py` has no access to the work
+order's Discover block; the producer gate and the reviewer reading the report do. The
+producer does not judge data quality beyond these gates. The rest of the advisory review
+report is for the human reviewer.
 
 ## Stop and report
 
@@ -425,6 +477,7 @@ invents no row. Stop reasons:
 | `subset-type-unknown` | a subset's `type` cannot be inferred from the source |
 | `base-set-judgment` | a base-set judgment call appears, e.g. whether a separately-numbered prospect run is its own base set or a section (the Donruss "Rated Prospects" 101–200 pattern) |
 | `no-parallel-ladder` | the source lists no parallel ladder, so a base-only set would pass `validate.py` and still fail the work order |
+| `subsets-unauthorable` | the Discover block lists a subset the producer cannot author from its source: the rows are not available, or the subset cannot be told apart from another. Name each such subset and what is missing |
 
 The stop comment has this format:
 
@@ -463,6 +516,8 @@ sets in the Trading Card API, creating them is Sync's concern, not this job's.
 
 - **Never invent, pad, duplicate or drop rows** to make a count match. A mismatch is a
   `count-mismatch` stop, always.
+- **Never ship a set missing a Discover-listed subset**, and never drop one to make the
+  gate pass. A subset that cannot be authored is a `subsets-unauthorable` stop.
 - **Never commit** exploded per-card files, parallel uuids, raw source files, or
   placeholder URLs.
 - The reserved set UUID goes into `set.yaml` `uuid` **unchanged**. Every other anchor uuid

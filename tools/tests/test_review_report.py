@@ -13,7 +13,7 @@ import review_report as rr  # noqa: E402
 
 def opts(**kw):
     base = dict(known_names=None, deceased=None, marquee=None, source_runs=None,
-                famous_run=3, check_links=False)
+                famous_run=3, check_links=False, discover=None)
     base.update(kw)
     return Namespace(**base)
 
@@ -33,6 +33,98 @@ def make_set(root, nodes, set_extra=None):
     for node, rows in nodes:
         (d / "checklists" / f"{node['id']}.yaml").write_text(yaml.safe_dump(rows))
     return d
+
+
+def make_set_with_subsets(root, base_rows, subsets):
+    """subsets: list of (node-dict, rows) authored under the manifest's top-level subsets."""
+    d = Path(root) / "s1"
+    (d / "checklists").mkdir(parents=True)
+    (d / "set.yaml").write_text(yaml.safe_dump({"set_id": "s1"}))
+    manifest = {"set_id": "s1", "base_sets": [{"id": "base"}], "subsets": [n for n, _ in subsets]}
+    (d / "manifest.yaml").write_text(yaml.safe_dump(manifest))
+    (d / "checklists" / "base.yaml").write_text(yaml.safe_dump(base_rows))
+    for node, rows in subsets:
+        (d / "checklists" / f"{node['id']}.yaml").write_text(yaml.safe_dump(rows))
+    return d
+
+
+AUTOS = {"name": "Rookie Autographs", "type": "autograph", "card_count": 2, "parallels_listed": True}
+
+
+class SubsetCompletenessTests(unittest.TestCase):
+    def report(self, listed, subsets, base=None):
+        with tempfile.TemporaryDirectory() as t:
+            d = make_set_with_subsets(t, base or [player("1", "A")], subsets)
+            return rr.analyze_set(d, opts(discover=listed))
+
+    def autos_node(self, **kw):
+        return {"id": "rookie-autographs", "name": "Rookie Autographs", "type": ["autograph"],
+                "parallels": [{"name": "Gold"}], **kw}
+
+    def test_skipped_without_discover_input(self):
+        rep = self.report(None, [])
+        self.assertIn("Subset completeness", rep.skipped)
+        self.assertEqual(rep.findings["Subset completeness"], [])
+
+    def test_complete_set_has_no_findings(self):
+        rep = self.report([AUTOS], [(self.autos_node(), [player("1", "A"), player("2", "B")])])
+        self.assertEqual(rep.findings["Subset completeness"], [])
+        self.assertNotIn("Subset completeness", rep.skipped)
+
+    def test_base_plus_parallels_only_is_incomplete(self):
+        # The #77 / PR #101 shape: base and parallels authored, the listed subset is not.
+        rep = self.report([AUTOS], [])
+        self.assertEqual(len(rep.findings["Subset completeness"]), 1)
+        self.assertIn("no such subset is authored", rep.findings["Subset completeness"][0])
+
+    def test_count_mismatch_is_reported(self):
+        rep = self.report([AUTOS], [(self.autos_node(), [player("1", "A")])])
+        self.assertIn("Discover lists 2 cards", rep.findings["Subset completeness"][0])
+        self.assertIn("has 1", rep.findings["Subset completeness"][0])
+
+    def test_name_match_is_normalized_but_type_must_match(self):
+        node = self.autos_node(name="  rookie   AUTOGRAPHS ")
+        rows = [player("1", "A"), player("2", "B")]
+        self.assertEqual(self.report([AUTOS], [(node, rows)]).findings["Subset completeness"], [])
+        wrong = self.autos_node(type=["insert"])
+        self.assertEqual(len(self.report([AUTOS], [(wrong, rows)]).findings["Subset completeness"]), 1)
+
+    def test_listed_ladder_must_be_authored(self):
+        node = self.autos_node(parallels=[])
+        rep = self.report([AUTOS], [(node, [player("1", "A"), player("2", "B")])])
+        self.assertIn("parallel ladder", rep.findings["Subset completeness"][0])
+        base_only = dict(AUTOS, parallels_listed=False)
+        self.assertEqual(self.report([base_only], [(node, [player("1", "A"), player("2", "B")])])
+                         .findings["Subset completeness"], [])
+
+    def test_empty_list_means_base_only_and_passes(self):
+        self.assertEqual(self.report([], []).findings["Subset completeness"], [])
+
+    def test_cli_discover_and_require_subsets(self):
+        with tempfile.TemporaryDirectory() as t:
+            d = make_set_with_subsets(t, [player("1", "A")], [])
+            verdict = Path(t) / "verdict.json"
+            verdict.write_text(yaml.safe_dump({"subsets": [AUTOS]}))
+            out = Path(t) / "out.md"
+            self.assertEqual(rr.main([str(d), "--discover", str(verdict), "--output", str(out)]), 0)
+            self.assertIn("Subset completeness", out.read_text())
+            self.assertEqual(rr.main([str(d), "--discover", str(verdict), "--require-subsets",
+                                      "--output", str(out)]), 3)
+            verdict.write_text(yaml.safe_dump({"subsets": []}))
+            self.assertEqual(rr.main([str(d), "--discover", str(verdict), "--require-subsets",
+                                      "--output", str(out)]), 0)
+
+    def test_cli_rejects_bad_discover_input(self):
+        with tempfile.TemporaryDirectory() as t:
+            d = make_set_with_subsets(t, [player("1", "A")], [])
+            bad = Path(t) / "bad.yaml"
+            bad.write_text("not: subsets\n")
+            with self.assertRaises(SystemExit) as cm:
+                rr.main([str(d), "--discover", str(bad)])
+            self.assertEqual(cm.exception.code, 2)
+            with self.assertRaises(SystemExit) as cm:
+                rr.main([str(d), "--require-subsets"])
+            self.assertEqual(cm.exception.code, 2)
 
 
 class ReviewReportTests(unittest.TestCase):
