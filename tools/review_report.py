@@ -7,7 +7,8 @@ files. The report is ADVISORY and computed on demand: nothing it emits is commit
 `tools/validate.py` remains the pass/fail gate for schema and IDENTITY.md invariants.
 
 Exit code is 0 whenever a report was produced (findings never fail the run); non-zero
-only for bad arguments or a crash.
+only for bad arguments or a crash. The one exception is `--require-subsets`, which exits 3
+when a set misses a Discover-listed subset (see below).
 
 Usage:
     python tools/review_report.py data/baseball/2026-bowman [more set dirs ...]
@@ -19,6 +20,13 @@ one, that check prints an explicit "skipped" line instead of silently passing:
     --deceased FILE      one name per line; an optional ",date" suffix is ignored
     --marquee FILE       one famous-player name per line
     --source-runs FILE   YAML/JSON {parallel: print_run} or {node-id: {parallel: print_run}}
+    --discover FILE      the tools/check_work_order.py verdict (JSON/YAML) or any mapping
+                         with a `subsets` list; enables the "Subset completeness" check
+
+A set is done only when every subset Discover listed is authored at its stated count,
+with a ladder where the source lists one. `--require-subsets` makes that check a gate for
+the producer: it exits 3 when the check has a finding, and 2 when no usable `subsets`
+list was supplied, so a missing input can never read as a pass.
 """
 import argparse
 import json
@@ -49,7 +57,7 @@ PLACEHOLDER_WORDS = ("placeholder", "your-", "todo", "tbd", "xxx", "/null", "/un
 
 CHECKS = [
     "Declared vs actual count", "Parallel consistency", "Parallel consistency (vs source)",
-    "Numbering gaps",
+    "Numbering gaps", "Subset completeness",
     "Duplicate card numbers", "Duplicate subjects", "Placeholder / dead URLs",
     "Never-seen names", "Deceased with live autograph", "Sequential famous player",
 ]
@@ -261,6 +269,49 @@ class SetReport:
         self.findings[check].append(text)
 
 
+def check_subsets(rep, listed, authored):
+    """Compare the Discover-listed subsets with the authored non-base nodes.
+
+    A listed subset is satisfied by a node with the same normalized name whose `type`
+    includes the listed type and whose row count equals the stated card_count. When
+    Discover says the source lists the subset's ladder, the node must carry parallels.
+    Nothing is judged beyond that; counts are the source's, never recomputed here.
+    """
+    for sub in listed:
+        name, kind, count = sub["name"], sub["type"], sub["card_count"]
+        label = f"`{md_text(name)}` ({md_text(kind)})"
+        match = [a for a in authored if a[1] == norm(name) and kind in a[2]]
+        if not match:
+            rep.add("Subset completeness", f"{label}: Discover lists {count} cards, no such subset is authored")
+            continue
+        nid, _, _, rows, ladder = match[0]
+        if rows != count:
+            rep.add("Subset completeness", f"{label}: Discover lists {count} cards, `{md_text(nid)}` has {rows}")
+        if sub.get("parallels_listed") is True and ladder == 0:
+            rep.add("Subset completeness", f"{label}: the source lists a parallel ladder, `{md_text(nid)}` has none")
+
+
+def load_discover_subsets(path):
+    """Load --discover; returns (subsets-list, error-string-or-None)."""
+    try:
+        data = yaml.safe_load(Path(path).read_text())  # JSON is YAML
+    except (OSError, ValueError, yaml.YAMLError) as e:
+        return None, f"cannot load {path}: {str(e).splitlines()[0] if str(e) else type(e).__name__}"
+    subs = data.get("subsets") if isinstance(data, dict) else None
+    if not isinstance(subs, list):
+        return None, f"{path} must be a mapping with a `subsets` list (a check_work_order.py verdict has one)"
+    bad = [i for i, x in enumerate(subs, 1)
+           if not (isinstance(x, dict) and isinstance(x.get("name"), str) and x["name"].strip()
+                   and isinstance(x.get("type"), str) and is_count(x.get("card_count")))]
+    if bad:
+        return None, f"{path}: subset(s) {bad} need a name, a type and a positive integer card_count"
+    return subs, None
+
+
+def is_count(v):
+    return isinstance(v, int) and not isinstance(v, bool) and v > 0
+
+
 def analyze_set(set_dir, opts):
     rep = SetReport(set_dir)
     set_root = rep.dir.resolve()
@@ -295,6 +346,7 @@ def analyze_set(set_dir, opts):
         rep.problems.append("checklists/ resolves outside the set directory; node files skipped")
         manifest = {}
     unmatched_src = []  # parallel declarations --source-runs had no entry for
+    authored_subsets = []  # (id, norm(name), types, rows, parallel count) of every non-base node
     for node, is_base in iter_nodes_safe(manifest, rep.problems):
         nid = node.get("id")
         if not isinstance(nid, str) or not nid:
@@ -320,6 +372,9 @@ def analyze_set(set_dir, opts):
         parallels = [p for p in as_list(node.get("parallels")) if isinstance(p, dict)]
         for r in rows:
             seen_names.update(norm(n) for n in row_players(r))
+
+        if not is_base:
+            authored_subsets.append((nid, norm(node.get("name") or nid), types, len(rows), len(parallels)))
 
         # Structure: declared vs actual (shown, not re-gated; validate.py owns the error)
         dcc = node.get("declared_card_count")
@@ -438,6 +493,10 @@ def analyze_set(set_dir, opts):
                          if norm(n) not in opts.known_names})
         for n in unseen:
             rep.add("Never-seen names", md_text(n))
+    if opts.discover is None:
+        rep.skipped["Subset completeness"] = "skipped: no --discover input supplied"
+    else:
+        check_subsets(rep, opts.discover, authored_subsets)
     if opts.deceased is None:
         rep.skipped["Deceased with live autograph"] = "skipped: no --deceased input supplied"
     if opts.marquee is None:
@@ -545,6 +604,9 @@ def main(argv=None):
     ap.add_argument("--deceased")
     ap.add_argument("--marquee")
     ap.add_argument("--source-runs")
+    ap.add_argument("--discover", help="check_work_order.py verdict (or a mapping with `subsets`)")
+    ap.add_argument("--require-subsets", action="store_true",
+                    help="exit 3 when a set misses a Discover-listed subset (needs --discover)")
     ap.add_argument("--famous-run", type=int, default=5, help="consecutive marquee rows that count as a run")
     ap.add_argument("--check-links", action="store_true", help="HEAD-probe URLs (off by default; offline)")
     opts = ap.parse_args(argv)
@@ -564,11 +626,22 @@ def main(argv=None):
             ap.error(f"--source-runs: {err}")
     else:
         opts.source_runs = None
-    text = render([analyze_set(d, opts) for d in dict.fromkeys(dirs)])
+    if opts.discover:
+        opts.discover, err = load_discover_subsets(opts.discover)
+        if err:
+            ap.error(f"--discover: {err}")
+    else:
+        opts.discover = None
+    if opts.require_subsets and opts.discover is None:
+        ap.error("--require-subsets needs --discover")
+    reports = [analyze_set(d, opts) for d in dict.fromkeys(dirs)]
+    text = render(reports)
     if opts.output:
         Path(opts.output).write_text(text)
     else:
         sys.stdout.write(text)
+    if opts.require_subsets and any(r.findings["Subset completeness"] for r in reports):
+        return 3
     return 0
 
 

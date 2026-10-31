@@ -74,6 +74,8 @@ UUID_IN_YAML_RE = re.compile(
     r"\buuid:\s*['\"]?([0-9a-fA-F]{8}-[0-9a-fA-F]{4}-[0-9a-fA-F]{4}-[0-9a-fA-F]{4}-[0-9a-fA-F]{12})"
 )
 GENRES = {"Sports", "TCG", "Non-Sport"}
+# The closed set of subset types, the same values a manifest node's `type` list takes.
+SUBSET_TYPES = ("insert", "autograph", "relic", "variation")
 
 EXIT_READY, EXIT_NOT_READY, EXIT_USAGE = 0, 10, 2
 
@@ -305,6 +307,45 @@ def reserve_stop_summary(body):
     return f"{m.group(1)}: {line}" if m else line
 
 
+_ABSENT = object()
+
+
+def parse_subsets(raw, reasons):
+    """Validate the Discover block's `subsets:` list and return it normalized.
+
+    The key is required: a block without it says nothing about the product's inserts,
+    autographs and relics, which is how a base-plus-parallels set once passed as done.
+    A base-only product states that explicitly with `subsets: []`.
+    """
+    if raw is _ABSENT:
+        reasons.append("discover block has no subsets (a base-only product says `subsets: []`)")
+        return []
+    if not isinstance(raw, list):
+        reasons.append("discover block subsets must be a list")
+        return []
+    out, seen = [], set()
+    for n, x in enumerate(raw, 1):
+        if not isinstance(x, dict):
+            reasons.append(f"subset {n} is not a mapping")
+            continue
+        name = x.get("name")
+        if not (isinstance(name, str) and name.strip()):
+            reasons.append(f"subset {n} name must be a non-empty string")
+        elif " ".join(name.split()).casefold() in seen:
+            reasons.append(f"subset {n} name {name!r} repeats an earlier subset")
+        else:
+            seen.add(" ".join(name.split()).casefold())
+        if x.get("type") not in SUBSET_TYPES:
+            reasons.append(f"subset {n} type must be one of {list(SUBSET_TYPES)}")
+        if not is_positive_int(x.get("card_count")):
+            reasons.append(f"subset {n} card_count must be a positive integer")
+        if "parallels_listed" in x and not isinstance(x["parallels_listed"], bool):
+            reasons.append(f"subset {n} parallels_listed must be true or false")
+        out.append({"name": name, "type": x.get("type"), "card_count": x.get("card_count"),
+                    "parallels_listed": x.get("parallels_listed")})
+    return out
+
+
 def parse_discover(body, reasons):
     """Parse one Discover block body into a dict, appending reasons on failure."""
     m = FENCE_RE.search(body)
@@ -342,6 +383,8 @@ def parse_discover(body, reasons):
                 reasons.append(f"source {n} parallels_listed must be true or false")
             entry["parallels_listed"] = s["parallels_listed"]
         out["sources"].append(entry)
+
+    out["subsets"] = parse_subsets(data.get("subsets", _ABSENT), reasons)
 
     for key in ("name", "genre"):
         if key in data and not (isinstance(data[key], str) and data[key].strip()):
@@ -527,6 +570,8 @@ def check(payload, data_dir="data"):
         "category": discover.get("category") if discover else None,
         "year": discover.get("year") if discover else None,
         "sources": discover.get("sources") if discover else [],
+        # Every subset the set must carry to be done; [] means a base-only product.
+        "subsets": discover.get("subsets") if discover else [],
         # Informational: the newest trusted operator ruling on a source-disagreement
         # stop. It never changes `reasons` or `ready`.
         "ruling": effective_ruling(comments),

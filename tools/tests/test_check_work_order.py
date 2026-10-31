@@ -26,6 +26,15 @@ sources:
   - url: https://example.org/2025-prizm-draft-picks
     card_count: 100
     parallels_listed: true
+subsets:
+  - name: Rookie Autographs
+    type: autograph
+    card_count: 40
+    parallels_listed: true
+  - name: Draft Class Inserts
+    type: insert
+    card_count: 20
+    parallels_listed: false
 ```
 """
 
@@ -461,6 +470,43 @@ class CheckWorkOrderTests(unittest.TestCase):
         self.assertTrue(v["ready"])
         self.assertEqual(v["name"], "2025 Panini Prizm Draft Picks (Football)")
         self.assertEqual(v["name_source"], "title")
+
+    def test_subsets_are_echoed_in_the_verdict(self):
+        v = self.run_check(ready_payload())
+        self.assertTrue(v["ready"], v["reasons"])
+        self.assertEqual(v["subsets"], [
+            {"name": "Rookie Autographs", "type": "autograph", "card_count": 40, "parallels_listed": True},
+            {"name": "Draft Class Inserts", "type": "insert", "card_count": 20, "parallels_listed": False}])
+
+    def test_base_only_product_says_so_with_an_empty_list(self):
+        head = BLOCK.split("subsets:")[0]
+        p = ready_payload()
+        p["comments"] = [comment(head + "subsets: []\n```\n")]
+        v = self.run_check(p)
+        self.assertTrue(v["ready"], v["reasons"])
+        self.assertEqual(v["subsets"], [])
+
+    def test_absent_subsets_is_not_ready(self):
+        p = ready_payload()
+        p["comments"] = [comment(BLOCK.split("subsets:")[0] + "```\n")]
+        self.assertNotReady(self.run_check(p), "has no subsets")
+
+    def test_malformed_subsets_are_not_ready(self):
+        cases = {
+            "subsets must be a list": "subsets: Rookie Autographs\n",
+            "subset 1 is not a mapping": "subsets: [just-a-name]\n",
+            "subset 1 name must be a non-empty string": "subsets:\n  - {name: ' ', type: insert, card_count: 5}\n",
+            "subset 1 type must be one of": "subsets:\n  - {name: A, type: parallel, card_count: 5}\n",
+            "subset 1 card_count must be a positive integer": "subsets:\n  - {name: A, type: insert, card_count: 0}\n",
+            "subset 1 parallels_listed must be true or false":
+                "subsets:\n  - {name: A, type: insert, card_count: 5, parallels_listed: 'yes'}\n",
+            "repeats an earlier subset":
+                "subsets:\n  - {name: A, type: insert, card_count: 5}\n  - {name: ' a ', type: relic, card_count: 5}\n",
+        }
+        for reason, tail in cases.items():
+            p = ready_payload()
+            p["comments"] = [comment(BLOCK.split("subsets:")[0] + tail + "```\n")]
+            self.assertNotReady(self.run_check(p), reason)
 
     def test_bad_genre(self):
         p = ready_payload()
