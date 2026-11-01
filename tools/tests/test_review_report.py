@@ -87,7 +87,10 @@ class SubsetCompletenessTests(unittest.TestCase):
         rows = [player("1", "A"), player("2", "B")]
         self.assertEqual(self.report([AUTOS], [(node, rows)]).findings["Subset completeness"], [])
         wrong = self.autos_node(type=["insert"])
-        self.assertEqual(len(self.report([AUTOS], [(wrong, rows)]).findings["Subset completeness"]), 1)
+        # A wrong-type node satisfies nothing: the listed subset is missing and the node is unlisted.
+        found = self.report([AUTOS], [(wrong, rows)]).findings["Subset completeness"]
+        self.assertEqual(len(found), 2)
+        self.assertIn("no such subset is authored", found[0])
 
     def test_listed_ladder_must_be_authored(self):
         node = self.autos_node(parallels=[])
@@ -112,6 +115,28 @@ class SubsetCompletenessTests(unittest.TestCase):
             with self.assertRaises(SystemExit) as cm:
                 rr.main([str(d), "--discover", str(bad)])
             self.assertEqual(cm.exception.code, 2)
+
+    def test_unlisted_authored_subset_is_reported(self):
+        rows = [player("1", "A"), player("2", "B")]
+        extra = {"id": "bonus", "name": "Bonus Inserts", "type": ["insert"], "declared_card_count": 1}
+        rep = self.report([AUTOS], [(self.autos_node(), rows), (extra, [player("1", "A")])])
+        self.assertEqual(len(rep.findings["Subset completeness"]), 1)
+        self.assertIn("`bonus`", rep.findings["Subset completeness"][0])
+        self.assertIn("not listed by Discover", rep.findings["Subset completeness"][0])
+        # Discover says no subsets at all: any authored subset is unlisted.
+        rep = self.report([], [(extra, [player("1", "A")])])
+        self.assertEqual(len(rep.findings["Subset completeness"]), 1)
+
+    def test_report_shows_successful_subset_matches(self):
+        rows = [player("1", "A"), player("2", "B")]
+        with tempfile.TemporaryDirectory() as t:
+            d = make_set_with_subsets(t, [player("1", "A")], [(self.autos_node(), rows)])
+            rep = rr.analyze_set(d, opts(discover=[AUTOS]))
+        self.assertEqual(rep.findings["Subset completeness"], [])
+        out = rr.render([rep])
+        self.assertIn("Subsets (Discover vs authored)", out)
+        self.assertIn("Rookie Autographs", out)
+        self.assertIn("| ok |", out)
 
     def test_empty_list_means_base_only_and_passes(self):
         self.assertEqual(self.report([], []).findings["Subset completeness"], [])

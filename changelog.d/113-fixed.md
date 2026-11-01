@@ -1,0 +1,1 @@
+- **[Issue #113]** Report authored subsets Discover did not list, and show the per-subset Discover comparison in the review report.

@@ -264,6 +264,7 @@ class SetReport:
         self.partial = {}                                   # check -> why it only partly ran
         self.nodes = []                                     # per-node table rows
         self.parallels = []                                 # every parallel declaration
+        self.subset_compare = []                            # per Discover subset: listed vs authored
 
     def add(self, check, text):
         self.findings[check].append(text)
@@ -275,23 +276,40 @@ def check_subsets(rep, listed, authored):
     A listed subset is satisfied by a node with the same normalized name whose `type`
     includes the listed type and whose row count and declared_card_count equal the stated card_count. When
     Discover says the source lists the subset's ladder, the node must carry parallels.
+    Every authored non-base node must in turn be one of the listed subsets: an unlisted
+    node is reported, since the producer contract forbids adding subsets Discover did not
+    list. Each listed subset also gets a row in `rep.subset_compare` (matches included),
+    so the report shows the listed-versus-authored comparison and not only mismatches.
     Nothing is judged beyond that; counts are the source's, never recomputed here.
     """
+    matched = set()
     for sub in listed:
         name, kind, count = sub["name"], sub["type"], sub["card_count"]
         label = f"`{md_text(name)}` ({md_text(kind)})"
         match = [a for a in authored if a[1] == norm(name) and kind in a[2]]
         if not match:
             rep.add("Subset completeness", f"{label}: Discover lists {count} cards, no such subset is authored")
+            rep.subset_compare.append((name, kind, count, sub.get("parallels_listed"), None, None, None, None, "missing"))
             continue
         nid, _, _, rows, ladder, declared = match[0]
+        matched.add(nid)
+        problems = []
         if rows != count:
+            problems.append("rows")
             rep.add("Subset completeness", f"{label}: Discover lists {count} cards, `{md_text(nid)}` has {rows}")
         if declared != count or isinstance(declared, bool):
+            problems.append("declared")
             shown = "no declared_card_count" if declared is None else f"declared_card_count {md_text(declared)}"
             rep.add("Subset completeness", f"{label}: Discover lists {count} cards, `{md_text(nid)}` has {shown}")
         if sub.get("parallels_listed") is True and ladder == 0:
+            problems.append("ladder")
             rep.add("Subset completeness", f"{label}: the source lists a parallel ladder, `{md_text(nid)}` has none")
+        rep.subset_compare.append((name, kind, count, sub.get("parallels_listed"), nid, rows, declared, ladder,
+                                   "mismatch: " + ", ".join(problems) if problems else "ok"))
+    for nid, _, types, rows, _, _ in authored:
+        if nid not in matched:
+            rep.add("Subset completeness",
+                    f"`{md_text(nid)}` ({md_text(','.join(types) or 'subset')}, {rows} rows) is authored but not listed by Discover")
 
 
 def load_discover_subsets(path):
@@ -561,6 +579,15 @@ def render(reports):
         L += ["### Structure", "", "| Node | Kind | Declared | Found | Parallels |", "|---|---|---|---|---|"]
         L += ["| " + " | ".join(md_cell(v) for v in n) + " |" for n in r.nodes]
         L.append("")
+        if r.subset_compare:
+            cell = lambda v: "-" if v is None else str(v)  # noqa: E731
+            L += ["### Subsets (Discover vs authored)", "",
+                  "| Discover subset | Type | Listed cards | Ladder listed | Node | Rows | Declared | Parallels | Result |",
+                  "|---|---|---|---|---|---|---|---|---|"]
+            L += ["| " + " | ".join(md_cell(cell(v)) for v in row) + " |" for row in r.subset_compare[:DETAIL_CAP]]
+            if len(r.subset_compare) > DETAIL_CAP:
+                L.append(f"\n_... and {len(r.subset_compare) - DETAIL_CAP} more subsets not shown._")
+            L.append("")
         if r.parallels:
             L += ["### Parallels", "", f"<details><summary>{len(r.parallels)} parallel declarations</summary>", "",
                   "| Node | Parallel | Print run | Serial numbered | Source run |", "|---|---|---|---|---|"]
