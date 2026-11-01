@@ -273,7 +273,7 @@ def check_subsets(rep, listed, authored):
     """Compare the Discover-listed subsets with the authored non-base nodes.
 
     A listed subset is satisfied by a node with the same normalized name whose `type`
-    includes the listed type and whose row count equals the stated card_count. When
+    includes the listed type and whose row count and declared_card_count equal the stated card_count. When
     Discover says the source lists the subset's ladder, the node must carry parallels.
     Nothing is judged beyond that; counts are the source's, never recomputed here.
     """
@@ -284,9 +284,12 @@ def check_subsets(rep, listed, authored):
         if not match:
             rep.add("Subset completeness", f"{label}: Discover lists {count} cards, no such subset is authored")
             continue
-        nid, _, _, rows, ladder = match[0]
+        nid, _, _, rows, ladder, declared = match[0]
         if rows != count:
             rep.add("Subset completeness", f"{label}: Discover lists {count} cards, `{md_text(nid)}` has {rows}")
+        if declared != count or isinstance(declared, bool):
+            shown = "no declared_card_count" if declared is None else f"declared_card_count {md_text(declared)}"
+            rep.add("Subset completeness", f"{label}: Discover lists {count} cards, `{md_text(nid)}` has {shown}")
         if sub.get("parallels_listed") is True and ladder == 0:
             rep.add("Subset completeness", f"{label}: the source lists a parallel ladder, `{md_text(nid)}` has none")
 
@@ -302,9 +305,10 @@ def load_discover_subsets(path):
         return None, f"{path} must be a mapping with a `subsets` list (a check_work_order.py verdict has one)"
     bad = [i for i, x in enumerate(subs, 1)
            if not (isinstance(x, dict) and isinstance(x.get("name"), str) and x["name"].strip()
-                   and isinstance(x.get("type"), str) and is_count(x.get("card_count")))]
+                   and isinstance(x.get("type"), str) and is_count(x.get("card_count"))
+                   and isinstance(x.get("parallels_listed"), bool))]
     if bad:
-        return None, f"{path}: subset(s) {bad} need a name, a type and a positive integer card_count"
+        return None, f"{path}: subset(s) {bad} need a name, a type, a positive integer card_count and a boolean parallels_listed"
     return subs, None
 
 
@@ -346,7 +350,7 @@ def analyze_set(set_dir, opts):
         rep.problems.append("checklists/ resolves outside the set directory; node files skipped")
         manifest = {}
     unmatched_src = []  # parallel declarations --source-runs had no entry for
-    authored_subsets = []  # (id, norm(name), types, rows, parallel count) of every non-base node
+    authored_subsets = []  # (id, norm(name), types, rows, parallel count, declared_card_count) of every non-base node
     for node, is_base in iter_nodes_safe(manifest, rep.problems):
         nid = node.get("id")
         if not isinstance(nid, str) or not nid:
@@ -374,7 +378,8 @@ def analyze_set(set_dir, opts):
             seen_names.update(norm(n) for n in row_players(r))
 
         if not is_base:
-            authored_subsets.append((nid, norm(node.get("name") or nid), types, len(rows), len(parallels)))
+            authored_subsets.append((nid, norm(node.get("name") or nid), types, len(rows), len(parallels),
+                                    node.get("declared_card_count")))
 
         # Structure: declared vs actual (shown, not re-gated; validate.py owns the error)
         dcc = node.get("declared_card_count")

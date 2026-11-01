@@ -501,12 +501,18 @@ class CheckWorkOrderTests(unittest.TestCase):
             "subset 1 parallels_listed must be true or false":
                 "subsets:\n  - {name: A, type: insert, card_count: 5, parallels_listed: 'yes'}\n",
             "repeats an earlier subset":
-                "subsets:\n  - {name: A, type: insert, card_count: 5}\n  - {name: ' a ', type: relic, card_count: 5}\n",
+                "subsets:\n  - {name: A, type: insert, card_count: 5, parallels_listed: false}\n  - {name: ' a ', type: relic, card_count: 5}\n",
         }
         for reason, tail in cases.items():
             p = ready_payload()
             p["comments"] = [comment(BLOCK.split("subsets:")[0] + tail + "```\n")]
             self.assertNotReady(self.run_check(p), reason)
+
+    def test_absent_parallels_listed_is_not_ready(self):
+        p = ready_payload()
+        p["comments"] = [comment(BLOCK.split("subsets:")[0]
+                                 + "subsets:\n  - {name: A, type: insert, card_count: 5}\n```\n")]
+        self.assertNotReady(self.run_check(p), "subset 1 parallels_listed must be true or false")
 
     def test_bad_genre(self):
         p = ready_payload()

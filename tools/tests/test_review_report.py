@@ -59,7 +59,7 @@ class SubsetCompletenessTests(unittest.TestCase):
 
     def autos_node(self, **kw):
         return {"id": "rookie-autographs", "name": "Rookie Autographs", "type": ["autograph"],
-                "parallels": [{"name": "Gold"}], **kw}
+                "parallels": [{"name": "Gold"}], "declared_card_count": 2, **kw}
 
     def test_skipped_without_discover_input(self):
         rep = self.report(None, [])
@@ -96,6 +96,22 @@ class SubsetCompletenessTests(unittest.TestCase):
         base_only = dict(AUTOS, parallels_listed=False)
         self.assertEqual(self.report([base_only], [(node, [player("1", "A"), player("2", "B")])])
                          .findings["Subset completeness"], [])
+
+    def test_declared_card_count_must_match_discover(self):
+        rows = [player("1", "A"), player("2", "B")]
+        for kw in ({"declared_card_count": 3}, {"declared_card_count": None}):
+            rep = self.report([AUTOS], [(self.autos_node(**kw), rows)])
+            self.assertEqual(len(rep.findings["Subset completeness"]), 1, kw)
+            self.assertIn("declared_card_count", rep.findings["Subset completeness"][0])
+
+    def test_discover_subset_needs_boolean_parallels_listed(self):
+        with tempfile.TemporaryDirectory() as t:
+            d = make_set_with_subsets(t, [player("1", "A")], [])
+            bad = Path(t) / "bad.yaml"
+            bad.write_text(yaml.safe_dump({"subsets": [{k: v for k, v in AUTOS.items() if k != "parallels_listed"}]}))
+            with self.assertRaises(SystemExit) as cm:
+                rr.main([str(d), "--discover", str(bad)])
+            self.assertEqual(cm.exception.code, 2)
 
     def test_empty_list_means_base_only_and_passes(self):
         self.assertEqual(self.report([], []).findings["Subset completeness"], [])

@@ -339,7 +339,7 @@ def parse_subsets(raw, reasons):
             reasons.append(f"subset {n} type must be one of {list(SUBSET_TYPES)}")
         if not is_positive_int(x.get("card_count")):
             reasons.append(f"subset {n} card_count must be a positive integer")
-        if "parallels_listed" in x and not isinstance(x["parallels_listed"], bool):
+        if not isinstance(x.get("parallels_listed"), bool):
             reasons.append(f"subset {n} parallels_listed must be true or false")
         out.append({"name": name, "type": x.get("type"), "card_count": x.get("card_count"),
                     "parallels_listed": x.get("parallels_listed")})
