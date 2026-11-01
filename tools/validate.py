@@ -157,6 +157,21 @@ def iter_nodes(manifest):
         yield from walk(s, False)
 
 
+def category_repeats_sport(set_yaml):
+    """Return the `category` values that merely repeat a `sports` value (case-insensitive).
+
+    `category` is the licensing league or body (MLB, NFL, NCAA), never the sport.
+    Non-list or non-string fields are ignored; the schema check reports those.
+    """
+    if not isinstance(set_yaml, dict):
+        return []
+    cats, sports = set_yaml.get("category"), set_yaml.get("sports")
+    if not isinstance(cats, list) or not isinstance(sports, list):
+        return []
+    sport_keys = {s.strip().casefold() for s in sports if isinstance(s, str)}
+    return [c for c in cats if isinstance(c, str) and c.strip().casefold() in sport_keys]
+
+
 def validate_v03(set_dir, schemas, rep):
     where = str(set_dir)
     set_yaml = rep.load_yaml(set_dir / "set.yaml", f"{where}/set.yaml")
@@ -172,6 +187,12 @@ def validate_v03(set_dir, schemas, rep):
     if not isinstance(manifest, dict):
         rep.err(where, "manifest.yaml is not a mapping; skipping invariant checks")
         return
+
+    repeated = category_repeats_sport(set_yaml)
+    if repeated:
+        rep.err(f"{where}/set.yaml",
+                f"category {repeated} repeats the sport; category must be the licensing "
+                "league or body (e.g. MLB, NFL, NCAA), never the sport (docs/PRODUCER.md)")
 
     # set_id agreement (set.yaml <-> manifest <-> directory name)
     if set_yaml.get("set_id") != manifest.get("set_id"):
