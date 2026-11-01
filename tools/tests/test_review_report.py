@@ -116,6 +116,16 @@ class SubsetCompletenessTests(unittest.TestCase):
                 rr.main([str(d), "--discover", str(bad)])
             self.assertEqual(cm.exception.code, 2)
 
+    def test_discover_rejects_unknown_type_and_duplicate_names(self):
+        for subs in ([{**AUTOS, "type": "bogus"}], [AUTOS, dict(AUTOS, name=" " + AUTOS["name"].upper())]):
+            with tempfile.TemporaryDirectory() as t:
+                d = make_set_with_subsets(t, [player("1", "A")], [])
+                bad = Path(t) / "bad.yaml"
+                bad.write_text(yaml.safe_dump({"subsets": subs}))
+                with self.assertRaises(SystemExit) as cm:
+                    rr.main([str(d), "--discover", str(bad)])
+                self.assertEqual(cm.exception.code, 2)
+
     def test_unlisted_authored_subset_is_reported(self):
         rows = [player("1", "A"), player("2", "B")]
         extra = {"id": "bonus", "name": "Bonus Inserts", "type": ["insert"], "declared_card_count": 1}

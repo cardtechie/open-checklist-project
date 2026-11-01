@@ -151,6 +151,10 @@ def iter_nodes_safe(manifest, problems):
         yield from walk(sub, False, "a subsets entry", frozenset())
 
 
+# Mirrors check_work_order.SUBSET_TYPES: the closed set of Discover subset types.
+SUBSET_TYPES = ("insert", "autograph", "relic", "variation")
+
+
 def norm(name):
     return " ".join(str(name).lower().split())
 
@@ -323,10 +327,19 @@ def load_discover_subsets(path):
         return None, f"{path} must be a mapping with a `subsets` list (a check_work_order.py verdict has one)"
     bad = [i for i, x in enumerate(subs, 1)
            if not (isinstance(x, dict) and isinstance(x.get("name"), str) and x["name"].strip()
-                   and isinstance(x.get("type"), str) and is_count(x.get("card_count"))
+                   and x.get("type") in SUBSET_TYPES and is_count(x.get("card_count"))
                    and isinstance(x.get("parallels_listed"), bool))]
     if bad:
-        return None, f"{path}: subset(s) {bad} need a name, a type, a positive integer card_count and a boolean parallels_listed"
+        return None, (f"{path}: subset(s) {bad} need a name, a type from {list(SUBSET_TYPES)}, "
+                      "a positive integer card_count and a boolean parallels_listed")
+    seen, dupes = {}, []
+    for i, x in enumerate(subs, 1):
+        key = norm(x["name"])
+        if key in seen:
+            dupes.append(i)
+        seen.setdefault(key, i)
+    if dupes:
+        return None, f"{path}: subset(s) {dupes} repeat the name of an earlier subset"
     return subs, None
 
 
