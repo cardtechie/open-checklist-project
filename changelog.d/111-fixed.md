@@ -1,0 +1,1 @@
+- **[Issue #111]** Require `category` to be the licensing league, never the sport, in the producer contract and validator.
