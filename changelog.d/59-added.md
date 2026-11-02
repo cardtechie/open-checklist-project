@@ -1,0 +1,1 @@
+- **[Issue #59]** Add Work Order issues to the Set Pipeline board at A · Discover / Todo automatically.

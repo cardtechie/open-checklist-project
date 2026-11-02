@@ -1,0 +1,100 @@
+name: Add work order to Set Pipeline board
+
+# Put every Work Order issue (identified by its native issue type, not a label) on the
+# Set Pipeline board (org project #14) at Stage = A · Discover, Status = Todo. Fleet-filed
+# work orders carry the type but no work-order label, so the type is the trigger (#59).
+#
+# Only a field that is currently empty is set, so a `typed` event on a work order that was
+# placed by hand, or has advanced past A · Discover, never resets it. A · Source and later
+# are reached by Discover once the work order carries set_id, Reserved set UUID and a
+# source URL (#78), not at placement.
+#
+# Writes go through the org PROJECT_TOKEN secret (visibility: all); the default
+# GITHUB_TOKEN cannot touch an org project.
+
+on:
+  issues:
+    types: [opened, typed]
+
+permissions: {}
+
+jobs:
+  add:
+    if: github.event.issue.type.name == 'Work Order'
+    runs-on: ubuntu-latest
+    # An issue created from the Work Order form can fire both `opened` and `typed`;
+    # serialise them so the two runs do not race on the same item.
+    concurrency:
+      group: add-work-order-to-board-${{ github.event.issue.number }}
+      cancel-in-progress: false
+    steps:
+      - uses: actions/github-script@f28e40c7f34bde8b3046d885e986cb6290c5673b # v7
+        with:
+          github-token: ${{ secrets.PROJECT_TOKEN }}
+          script: |
+            // IDs for the Set Pipeline board (org project #14), read from its project
+            // fields via GraphQL on 2026-10-10.
+            const PROJECT_ID = 'PVT_kwDOBRJ1A84BeZdW';
+            const STAGE_FIELD = 'PVTSSF_lADOBRJ1A84BeZdWzhY0ARM';
+            const STAGE_DISCOVER = 'ba550069'; // "A · Discover"
+            const STATUS_FIELD = 'PVTSSF_lADOBRJ1A84BeZdWzhY0AHQ';
+            const STATUS_TODO = 'f75ad846'; // "Todo"
+
+            const issue = context.payload.issue;
+
+            try {
+              // Idempotent: returns the existing item when the issue is already on the board.
+              const added = await github.graphql(
+                `mutation($project: ID!, $content: ID!) {
+                  addProjectV2ItemById(input: {projectId: $project, contentId: $content}) {
+                    item { id }
+                  }
+                }`,
+                { project: PROJECT_ID, content: issue.node_id },
+              );
+              const itemId = added.addProjectV2ItemById.item.id;
+
+              const current = await github.graphql(
+                `query($item: ID!) {
+                  node(id: $item) {
+                    ... on ProjectV2Item {
+                      stage: fieldValueByName(name: "Stage") {
+                        ... on ProjectV2ItemFieldSingleSelectValue { optionId }
+                      }
+                      status: fieldValueByName(name: "Status") {
+                        ... on ProjectV2ItemFieldSingleSelectValue { optionId }
+                      }
+                    }
+                  }
+                }`,
+                { item: itemId },
+              );
+              const { stage, status } = current.node;
+
+              const setField = (field, optionId) =>
+                github.graphql(
+                  `mutation($project: ID!, $item: ID!, $field: ID!, $option: String!) {
+                    updateProjectV2ItemFieldValue(input: {
+                      projectId: $project, itemId: $item, fieldId: $field,
+                      value: {singleSelectOptionId: $option}
+                    }) { projectV2Item { id } }
+                  }`,
+                  { project: PROJECT_ID, item: itemId, field, option: optionId },
+                );
+
+              if (stage && stage.optionId) {
+                core.info(`#${issue.number}: Stage already set (${stage.optionId}); left alone.`);
+              } else {
+                await setField(STAGE_FIELD, STAGE_DISCOVER);
+                core.info(`#${issue.number}: Stage set to A · Discover.`);
+              }
+              if (status && status.optionId) {
+                core.info(`#${issue.number}: Status already set (${status.optionId}); left alone.`);
+              } else {
+                await setField(STATUS_FIELD, STATUS_TODO);
+                core.info(`#${issue.number}: Status set to Todo.`);
+              }
+            } catch (err) {
+              // A broken token or field ID must show as a red run, not pass silently.
+              core.setFailed(`Could not place #${issue.number} on the Set Pipeline board: ${err.message}`);
+            }
