@@ -100,6 +100,7 @@ see [#33](https://github.com/cardtechie/open-checklist-project/issues/33)).
 - **Validation workflow** (`validate`) runs on every PR and every merge-queue run, and only does the full validation when data, schema, validator (`tools/`), or workflow (`.github/workflows/validate.yml`) files changed (always on `merge_group` and every other non-PR event, such as `workflow_dispatch`).
 - Python 3.11 with `pyyaml` and `jsonschema`.
 - Validation must pass for data changes to be accepted.
+- **Work Order board placement** (`add-work-order-to-board.yml`): Work Order issues (identified by issue type, not label) are added to the Set Pipeline board (#14) at A · Discover / Todo when opened or typed, using the org `PROJECT_TOKEN`. Fields already set are left alone.
 
 ## Discovering a work order
 
