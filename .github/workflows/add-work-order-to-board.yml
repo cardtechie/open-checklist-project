@@ -20,7 +20,14 @@ permissions: {}
 
 jobs:
   add:
-    if: github.event.issue.type.name == 'Work Order'
+    # Cheap prefilter on the event snapshot only. An `opened` or `typed` event whose
+    # payload carries no issue type is let through too: the step re-reads the issue
+    # through REST and checks the type there, so a type-only work order is not dropped
+    # when the payload omits it (same gate as reserve-work-order.yml).
+    if: >-
+      github.event.issue.type.name == 'Work Order' ||
+      ((github.event.action == 'opened' || github.event.action == 'typed') &&
+       !github.event.issue.type)
     runs-on: ubuntu-latest
     # An issue created from the Work Order form can fire both `opened` and `typed`;
     # serialise them so the two runs do not race on the same item.
@@ -40,9 +47,22 @@ jobs:
             const STATUS_FIELD = 'PVTSSF_lADOBRJ1A84BeZdWzhY0AHQ';
             const STATUS_TODO = 'f75ad846'; // "Todo"
 
-            const issue = context.payload.issue;
-
             try {
+              // The event payload is a snapshot: re-read the issue so the type check, the
+              // node_id and the number all come from its current state.
+              const { owner, repo } = context.repo;
+              const issue = (
+                await github.rest.issues.get({
+                  owner,
+                  repo,
+                  issue_number: context.payload.issue.number,
+                })
+              ).data;
+              if (issue.pull_request || issue.type?.name !== 'Work Order') {
+                core.notice(`#${issue.number} is not a Work Order; nothing to place.`);
+                return;
+              }
+
               // Idempotent: returns the existing item when the issue is already on the board.
               const added = await github.graphql(
                 `mutation($project: ID!, $content: ID!) {
@@ -96,5 +116,5 @@ jobs:
               }
             } catch (err) {
               // A broken token or field ID must show as a red run, not pass silently.
-              core.setFailed(`Could not place #${issue.number} on the Set Pipeline board: ${err.message}`);
+              core.setFailed(`Could not place #${context.payload.issue.number} on the Set Pipeline board: ${err.message}`);
             }
