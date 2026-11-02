@@ -26,11 +26,16 @@ LADDER = [{"name": "Silver", "print_run": None},
           {"name": "Green Shimmer", "print_run": 8}]
 
 
-def source(url, cards=None, parallels=None, listed=True, count=None):
+def sub(name, type_="autograph", count=40, listed=True):
+    return {"name": name, "type": type_, "card_count": count, "parallels_listed": listed}
+
+
+def source(url, cards=None, parallels=None, listed=True, count=None, subsets=None):
     cards = copy.deepcopy(CARDS if cards is None else cards)
     parallels = copy.deepcopy(LADDER if parallels is None else parallels) if listed else []
     return {"url": url, "card_count": len(cards) if count is None else count,
-            "parallels_listed": listed, "cards": cards, "parallels": parallels}
+            "parallels_listed": listed, "cards": cards, "parallels": parallels,
+            "subsets": copy.deepcopy(subsets or [])}
 
 
 class Runner(unittest.TestCase):
@@ -139,6 +144,68 @@ class Agree(Runner):
         self.assertEqual(parsed["year"], 2025)
         self.assertNotIn("set_id", out)
         self.assertNotIn("uuid", out)
+
+
+class Subsets(Runner):
+    AUTO = sub("Rookie Autographs", "autograph", 40)
+    INSERT = sub("Draft Class", "insert", 20, listed=False)
+
+    def diffs(self, *srcs):
+        code, out, err = self.run_cli(*[self.write(s) for s in srcs])
+        self.assertEqual(code, cs.EXIT_DISAGREE, err)
+        return json.loads(out)["differences"]
+
+    def test_agreeing_subsets_are_emitted_and_round_trip_through_the_checker(self):
+        a = source(URL_A, subsets=[self.AUTO, self.INSERT])
+        b = source(URL_B, subsets=[sub("  rookie   AUTOGRAPHS", "autograph", 40), self.INSERT])
+        code, out, err = self.run_cli(self.write(a), self.write(b))
+        self.assertEqual(code, cs.EXIT_AGREE, err)
+        reasons = []
+        parsed = cwo.parse_discover(out, reasons)
+        self.assertEqual(reasons, [])
+        self.assertEqual(parsed["subsets"], [self.AUTO, self.INSERT])  # first spelling names it
+
+    def test_base_only_product_emits_an_explicit_empty_list(self):
+        code, out, err = self.run_cli(self.write(source(URL_A)), self.write(source(URL_B)))
+        self.assertEqual(code, cs.EXIT_AGREE, err)
+        self.assertIn("subsets: []", out)
+        self.assertEqual(cwo.parse_discover(out, [])["subsets"], [])
+
+    def test_parallels_listed_is_true_when_any_source_lists_the_ladder(self):
+        a = source(URL_A, subsets=[sub("Rookie Autographs", "autograph", 40, listed=False)])
+        b = source(URL_B, subsets=[sub("Rookie Autographs", "autograph", 40, listed=True)])
+        code, out, err = self.run_cli(self.write(a), self.write(b))
+        self.assertEqual(code, cs.EXIT_AGREE, err)
+        self.assertTrue(cwo.parse_discover(out, [])["subsets"][0]["parallels_listed"])
+
+    def test_a_source_listing_no_subsets_disagrees_with_one_that_does(self):
+        diffs = self.diffs(source(URL_A, subsets=[self.AUTO]), source(URL_B))
+        self.assertEqual(diffs, [{"field": "subsets", "name": "Rookie Autographs", "attribute": "listed",
+                                  "values": {URL_A: True, URL_B: False}}])
+
+    def test_subset_count_disagreement(self):
+        diffs = self.diffs(source(URL_A, subsets=[self.AUTO]),
+                           source(URL_B, subsets=[sub("Rookie Autographs", "autograph", 45)]))
+        self.assertEqual(diffs, [{"field": "subsets", "name": "Rookie Autographs", "attribute": "card_count",
+                                  "values": {URL_A: 40, URL_B: 45}}])
+
+    def test_subset_type_disagreement(self):
+        diffs = self.diffs(source(URL_A, subsets=[self.AUTO]),
+                           source(URL_B, subsets=[sub("Rookie Autographs", "relic", 40)]))
+        self.assertEqual([(d["attribute"], d["values"]) for d in diffs],
+                         [("type", {URL_A: "autograph", URL_B: "relic"})])
+
+    def test_malformed_subsets_are_exit_2(self):
+        for bad in (sub("A", "parallel"), sub("A", count=0), sub("  "), {"name": "A", "type": "insert"}):
+            with self.subTest(bad=bad):
+                self.assert_usage(self.write(source(URL_A)), self.write(source(URL_B, subsets=[bad])))
+        dup = [sub("Rookie Autographs"), sub("rookie  autographs", "insert", 5)]
+        self.assert_usage(self.write(source(URL_A)), self.write(source(URL_B, subsets=dup)))
+
+    def test_subsets_key_is_required(self):
+        bad = source(URL_B)
+        del bad["subsets"]
+        self.assert_usage(self.write(source(URL_A)), self.write(bad))
 
 
 class Disagree(Runner):

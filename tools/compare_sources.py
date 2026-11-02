@@ -19,9 +19,13 @@ Agreement rules (all must hold):
 4. Among sources with `parallels_listed: true`, the parallel ladders are equal by
    normalized name and `print_run`. Base-only sources are left out of this
    comparison; they are never counted as disagreeing.
+5. Every source lists the same subsets (normalized name), and each subset has the same
+   `type` and stated `card_count` wherever it is listed. A source with `subsets: []`
+   disagrees with one that lists subsets: a missing subset is a difference, never a
+   silent pass.
 
 On agreement it prints the Discover block (`<!-- ocp-discover:v1 -->` plus one fenced
-yaml block) for Discover step 5 to post. `--meta <file>` adds `name`, `genre`,
+yaml block, carrying the reconciled `subsets:` list) for Discover step 5 to post. `--meta <file>` adds `name`, `genre`,
 `sports`, `category` and `year` to it, checked exactly as tools/check_work_order.py
 checks a posted block. It never repeats `set_id` or the UUID.
 
@@ -50,7 +54,7 @@ EXIT_AGREE, EXIT_DISAGREE, EXIT_USAGE = 0, 10, 2
 
 SCHEMA_PATH = Path(__file__).resolve().parent / "schemas" / "extracted-source.yaml"
 META_KEYS = ("name", "genre", "sports", "category", "year")
-FIELD_ORDER = ("card_count", "card_rows", "card_numbers", "card_names", "parallels")
+FIELD_ORDER = ("card_count", "card_rows", "card_numbers", "card_names", "parallels", "subsets")
 # The largest integer a JSON consumer can hold exactly (2^53 - 1). Anything larger is
 # refused on read: YAML loads a hex or binary integer of any size, and str()/repr()
 # of one over 4300 digits raises, which would traceback in validation or output.
@@ -171,6 +175,12 @@ def load_source(path, validator):
         if key in rungs:
             reasons.append(f"duplicate parallel {p['name']!r} with print_run {p['print_run']}")
         rungs.add(key)
+    listed = set()
+    for sub in data["subsets"]:
+        key = norm(sub["name"])
+        if key in listed:
+            reasons.append(f"duplicate subset {sub['name']!r}")
+        listed.add(key)
     if reasons:
         raise InputError(f"{path}: malformed extraction", reasons)
     return data
@@ -235,7 +245,45 @@ def compare(sources):
                 found["parallels"].append({"field": "parallels", "name": rungs[key],
                                            "print_run": key[1], "values": listed})
 
+    # 5. Subsets, across every source (a source that lists none disagrees with one that does).
+    by_source = {s["url"]: {norm(x["name"]): x for x in s["subsets"]} for s in sources}
+    spelling = {}
+    for s in sources:  # first spelling seen, in input order, names the subset
+        for key, x in by_source[s["url"]].items():
+            spelling.setdefault(key, x["name"])
+    for key in sorted(spelling):
+        listed = {u: key in by_source[u] for u in urls}
+        if not all(listed.values()):
+            found["subsets"].append({"field": "subsets", "name": spelling[key],
+                                     "attribute": "listed", "values": listed})
+        having = {u: by_source[u][key] for u in urls if key in by_source[u]}
+        if len(having) > 1:
+            for attr in ("type", "card_count"):
+                values = {u: x[attr] for u, x in having.items()}
+                if len(set(values.values())) > 1:
+                    found["subsets"].append({"field": "subsets", "name": spelling[key],
+                                             "attribute": attr, "values": values})
+
     return [d for f in FIELD_ORDER for d in found[f]]
+
+
+def reconciled_subsets(sources):
+    """The subsets of agreeing sources, as the Discover block carries them.
+
+    The first spelling seen (input order) names a subset; `parallels_listed` is true
+    when any source lists that subset's ladder, the same way a base-only source is left
+    out of the ladder comparison.
+    """
+    out = {}
+    for s in sources:
+        for x in s["subsets"]:
+            key = norm(x["name"])
+            if key not in out:
+                out[key] = {"name": x["name"], "type": x["type"], "card_count": x["card_count"],
+                            "parallels_listed": x["parallels_listed"]}
+            elif x["parallels_listed"]:
+                out[key]["parallels_listed"] = True
+    return list(out.values())
 
 
 def discover_block(sources, meta=None):
@@ -246,6 +294,7 @@ def discover_block(sources, meta=None):
             data[key] = meta[key]
     data["sources"] = [{"url": s["url"], "card_count": s["card_count"],
                         "parallels_listed": s["parallels_listed"]} for s in sources]
+    data["subsets"] = reconciled_subsets(sources)
     body = f"{cwo.DISCOVER_MARKER}\n```yaml\n{yaml.safe_dump(data, sort_keys=False, allow_unicode=True)}```\n"
     reasons = []
     parsed = cwo.parse_discover(body, reasons)

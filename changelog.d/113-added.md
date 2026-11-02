@@ -1,0 +1,1 @@
+- **[Issue #113]** Require every Discover-listed subset to be authored before a set is done.

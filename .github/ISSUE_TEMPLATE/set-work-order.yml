@@ -19,6 +19,11 @@ body:
         `Release Date`, set it in the sidebar field. Genre / sport / category are optional here —
         they're set for real at the **Normalize** step (in `set.yaml`).
 
+        **Definition of done:** a set is done only when every subset Discover lists (autographs,
+        inserts, relics, variations) is authored at its stated count, each with its own parallel
+        ladder where the source lists one, on top of the base set and its parallels. Base plus
+        parallels alone is not done. Discover lists the subsets; the producer authors them.
+
         For OCP tooling / schema / docs work, use the **Development task** template instead.
   - type: input
     id: set-name
@@ -73,6 +78,6 @@ body:
     id: notes
     attributes:
       label: Notes (optional)
-      description: Anything else — parallels expected, base-less product, split series, ambiguity, etc.
+      description: Anything else — parallels expected, subsets you know about (autographs, inserts, relics), base-less product, split series, ambiguity, etc.
     validations:
       required: false

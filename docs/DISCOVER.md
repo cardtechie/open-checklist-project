@@ -173,12 +173,20 @@ you keep, record:
 - `parallels_listed`: `true` when the source lists the parallel ladder (with print runs
   where they exist), else `false`.
 
-Prefer a source that lists the full base checklist **and** the parallel ladder. A
-base-only source may be recorded, but say so in the Discover comment: a set published
-without its parallels is not a completed work order.
+- `subsets`: every subset the source lists beyond the base set (inserts, autographs,
+  relics, variations), each with `name` as the source prints it, `type` (`insert`,
+  `autograph`, `relic` or `variation`), the source's **own stated** `card_count` for it,
+  and `parallels_listed` for that subset's own ladder. A product with none is recorded
+  as an explicit `subsets: []`, never by leaving the key out. A set is done only when
+  every subset is authored, so an omitted subset here is an omission nobody downstream
+  can recover.
 
-Whether the kept sources agree is **not your call**. Extract each source's rows and
-run `tools/compare_sources.py` exactly as
+Prefer a source that lists the full base checklist, the parallel ladder **and** every
+subset. A base-only source may be recorded, but say so in the Discover comment: a set
+published without its parallels or its subsets is not a completed work order.
+
+Whether the kept sources agree is **not your call**, subsets included. Extract each
+source's rows and subsets and run `tools/compare_sources.py` exactly as
 [`docs/PRODUCER.md`](PRODUCER.md) → *Source comparison* defines; its exit code decides.
 
 **Stop** when:
@@ -188,7 +196,11 @@ run `tools/compare_sources.py` exactly as
   precedence nor an applicable operator ruling settles it (see *Recovery* below).
   Quote its difference JSON in the stop comment as the evidence;
 - `ambiguous-product`: the set name is ambiguous between products, e.g. a "Draft
-  Picks" product vs. the flagship of the same brand and year.
+  Picks" product vs. the flagship of the same brand and year;
+- `subsets-unauthorable`: a source lists a subset whose rows Discover cannot extract
+  (a gated page, an image-only list, a count with no list). Name each such subset and
+  what is missing in the stop comment. Never omit it from `subsets`, and never state a
+  count Discover did not read from the source.
 
 Never guess a source.
 
@@ -211,8 +223,8 @@ short:
   that is older than the stop, untrusted, malformed, or names a URL that was not
   compared.
 - Classify each other source by the difference `field`: a source that disagrees with
-  the authoritative one in `card_count`, `card_rows`, `card_numbers` or `card_names`
-  is **dropped**; one that disagrees only in `parallels` is **kept base-only** (rewrite
+  the authoritative one in `card_count`, `card_rows`, `card_numbers`, `card_names`
+  or `subsets` is **dropped**; one that disagrees only in `parallels` is **kept base-only** (rewrite
   its file with `parallels_listed: false` and `parallels: []`) unless the ruling's
   `drop:` lists it.
 - Re-run `tools/compare_sources.py`. On exit 0, post its block (step 5) with a note line
@@ -225,7 +237,7 @@ A ruling never overrides an identity, collision or API stop.
 ## 5. Post the Discover block
 
 Post one comment in exactly the format `docs/PRODUCER.md` defines: the first line is
-`<!-- ocp-discover:v1 -->`, followed by one fenced `yaml` block. Include `sources:` and,
+`<!-- ocp-discover:v1 -->`, followed by one fenced `yaml` block. Include `sources:`, `subsets:` (the reconciled list, `[]` for a base-only product) and,
 when known, `name` (the exact API set name from step 2), `genre` (`Sports`, `TCG` or
 `Non-Sport`), `sports`, `category` and `year`. The checker accepts `year` only as a
 positive integer, so include it only for a single-year set (`2025`). Omit it for a
@@ -284,7 +296,7 @@ reason: source-disagreement
 The first line is the marker and the second is `reason:` with one value:
 `ambiguous-api-match`, `api-mismatch`, `api-uuid-mismatch`, `api-uuid-invalid`,
 `identity-conflict`, `no-source`,
-`source-disagreement`, `ambiguous-product`, `set-id-collision`, `uuid-collision` or
+`source-disagreement`, `ambiguous-product`, `subsets-unauthorable`, `set-id-collision`, `uuid-collision` or
 `checker-not-ready`. Then the evidence. For `source-disagreement` the evidence is
 `tools/compare_sources.py`'s difference JSON, quoted verbatim.
 
