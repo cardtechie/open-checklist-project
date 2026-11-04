@@ -79,3 +79,761 @@ base_sets:
   - name: Gold Vinyl Prizms
     print_run: 1
     serial_numbered: true
+  subsets:
+  - id: base-silver-prizms-autographs
+    name: Base Silver Prizms Autographs
+    uuid: e7b9f7e7-5c33-4082-aa36-b2751ae0fba9
+    type:
+    - autograph
+    declared_card_count: 161
+subsets:
+- id: draft-picks-autographs
+  name: Draft Picks Autographs
+  uuid: 18685bb8-72f5-41b6-bb34-16d083be2a6b
+  type:
+  - autograph
+  declared_card_count: 86
+  parallels:
+  - name: Gold Ice Prizms
+    applies_to:
+      except:
+      - '22'
+      - '38'
+      - '57'
+      - '58'
+      - '59'
+      - '63'
+      - '85'
+      - '91'
+      - '96'
+  - name: Green Prizms
+    applies_to:
+      except:
+      - '22'
+      - '38'
+      - '44'
+      - '52'
+      - '57'
+      - '58'
+      - '59'
+      - '63'
+      - '85'
+      - '91'
+      - '96'
+  - name: Hyper Prizms
+    applies_to:
+      except:
+      - '38'
+      - '44'
+      - '58'
+      - '85'
+  - name: Red Ice Prizms
+    applies_to:
+      except:
+      - '22'
+      - '38'
+      - '44'
+      - '57'
+      - '58'
+      - '59'
+      - '63'
+      - '85'
+      - '91'
+      - '96'
+  - name: Silver Prizms
+    applies_to:
+      except:
+      - '38'
+      - '44'
+      - '58'
+      - '85'
+  - name: Red Prizms
+    serial_numbered: true
+    applies_to:
+      except:
+      - '22'
+      - '38'
+      - '44'
+      - '61'
+      - '85'
+  - name: Blue Prizms
+    serial_numbered: true
+    applies_to:
+      except:
+      - '22'
+      - '38'
+      - '44'
+      - '61'
+      - '85'
+  - name: Purple Ice Prizms
+    serial_numbered: true
+    applies_to:
+      except:
+      - '22'
+      - '38'
+      - '44'
+      - '69'
+      - '85'
+  - name: Blue Ice Prizms
+    serial_numbered: true
+    applies_to:
+      except:
+      - '38'
+      - '44'
+      - '61'
+      - '69'
+      - '85'
+  - name: Orange Pulsar Prizms
+    serial_numbered: true
+    applies_to:
+      except:
+      - '38'
+      - '44'
+      - '85'
+  - name: Orange Wave Prizms
+    print_run: 75
+    serial_numbered: true
+    applies_to:
+      except:
+      - '22'
+      - '38'
+      - '44'
+      - '52'
+      - '57'
+      - '58'
+      - '59'
+      - '63'
+      - '85'
+      - '91'
+      - '96'
+  - name: Green Pulsar Prizms
+    print_run: 25
+    serial_numbered: true
+    applies_to:
+      except:
+      - '22'
+      - '38'
+      - '44'
+      - '54'
+      - '57'
+      - '58'
+      - '59'
+      - '63'
+      - '85'
+      - '91'
+      - '96'
+  - name: Mojo Prizms
+    print_run: 25
+    serial_numbered: true
+    applies_to:
+      except:
+      - '44'
+      - '69'
+      - '85'
+  - name: Gold Shimmer Prizms
+    print_run: 15
+    serial_numbered: true
+    applies_to:
+      except:
+      - '23'
+  - name: Neon Pink Pulsar Prizms
+    print_run: 15
+    serial_numbered: true
+    applies_to:
+      except:
+      - '22'
+      - '38'
+      - '44'
+      - '57'
+      - '58'
+      - '59'
+      - '63'
+      - '85'
+      - '91'
+      - '96'
+      - '100'
+  - name: Gold Prizms
+    print_run: 10
+    serial_numbered: true
+    applies_to:
+      except:
+      - '44'
+  - name: Green Shimmer Prizms
+    print_run: 8
+    serial_numbered: true
+    applies_to:
+      except:
+      - '23'
+      - '44'
+  - name: Black Gold Prizms
+    print_run: 5
+    serial_numbered: true
+    applies_to:
+      except:
+      - '23'
+      - '44'
+  - name: Gold Flash Prizms
+    print_run: 5
+    serial_numbered: true
+    applies_to:
+      except:
+      - '22'
+      - '38'
+      - '44'
+      - '57'
+      - '58'
+      - '59'
+      - '63'
+      - '85'
+      - '91'
+      - '96'
+  - name: Red Flash Prizms
+    print_run: 5
+    serial_numbered: true
+    applies_to:
+      except:
+      - '22'
+      - '38'
+      - '44'
+      - '57'
+      - '58'
+      - '59'
+      - '63'
+      - '85'
+      - '91'
+      - '96'
+  - name: Black Shimmer Prizms
+    print_run: 1
+    serial_numbered: true
+  - name: Gold Vinyl Prizms
+    print_run: 1
+    serial_numbered: true
+  - name: White Sparkle Prizms
+    print_run: 1
+    serial_numbered: true
+    applies_to:
+      except:
+      - '38'
+      - '44'
+      - '57'
+      - '58'
+      - '59'
+      - '63'
+      - '91'
+      - '96'
+- id: jumbo-rookie-patch-autographs
+  name: Jumbo Rookie Patch Autographs
+  uuid: dc067976-c74f-4b4c-a040-92d1cbefc76e
+  type:
+  - autograph
+  - relic
+  declared_card_count: 37
+  parallels:
+  - name: Tie-Dye Prizms
+    print_run: 25
+    serial_numbered: true
+  - name: Gold Prizms
+    print_run: 10
+    serial_numbered: true
+  - name: Black Prizms
+    print_run: 1
+    serial_numbered: true
+- id: legends-patch-autographs
+  name: Legends Patch Autographs
+  uuid: f366eb18-8568-4a15-83dc-33271f699382
+  type:
+  - autograph
+  - relic
+  declared_card_count: 40
+  parallels:
+  - name: Tie-Dye Prizms
+    print_run: 25
+    serial_numbered: true
+  - name: Gold Prizms
+    print_run: 10
+    serial_numbered: true
+  - name: Black Prizms
+    print_run: 1
+    serial_numbered: true
+- id: prospects-patch-autographs
+  name: Prospects Patch Autographs
+  uuid: c25f2ecb-ed5e-4df9-b7a6-a8f5c294a8c4
+  type:
+  - autograph
+  - relic
+  declared_card_count: 18
+  parallels:
+  - name: Tie-Dye Prizms
+    print_run: 25
+    serial_numbered: true
+  - name: Gold Prizms
+    print_run: 10
+    serial_numbered: true
+  - name: Black Prizms
+    print_run: 1
+    serial_numbered: true
+- id: saturday-star-signatures
+  name: Saturday Star Signatures
+  uuid: 8b48bf1c-5e72-43ec-b1e3-0ba5b50cd440
+  type:
+  - autograph
+  declared_card_count: 45
+  parallels:
+  - name: Green Prizms
+    applies_to:
+      except:
+      - '18'
+      - '22'
+      - '35'
+      - '40'
+  - name: Hyper Prizms
+    applies_to:
+      except:
+      - '3'
+      - '4'
+      - '8'
+      - '12'
+      - '13'
+      - '18'
+      - '20'
+      - '22'
+      - '40'
+  - name: Red Ice Prizms
+    applies_to:
+      except:
+      - '18'
+      - '22'
+      - '35'
+      - '40'
+  - name: Silver Prizms
+    applies_to:
+      except:
+      - '22'
+      - '40'
+  - name: Red Prizms
+    serial_numbered: true
+    applies_to:
+      except:
+      - '3'
+      - '4'
+      - '8'
+      - '12'
+      - '13'
+      - '18'
+      - '20'
+      - '22'
+      - '35'
+      - '40'
+  - name: Blue Prizms
+    serial_numbered: true
+    applies_to:
+      except:
+      - '3'
+      - '4'
+      - '8'
+      - '12'
+      - '13'
+      - '18'
+      - '20'
+      - '22'
+      - '35'
+      - '40'
+  - name: Purple Ice Prizms
+    serial_numbered: true
+    applies_to:
+      except:
+      - '3'
+      - '4'
+      - '8'
+      - '12'
+      - '13'
+      - '18'
+      - '20'
+      - '22'
+      - '35'
+  - name: Blue Ice Prizms
+    serial_numbered: true
+    applies_to:
+      except:
+      - '3'
+      - '4'
+      - '8'
+      - '12'
+      - '13'
+      - '18'
+      - '20'
+      - '22'
+      - '35'
+  - name: Orange Pulsar Prizms
+    serial_numbered: true
+    applies_to:
+      except:
+      - '3'
+      - '4'
+      - '8'
+      - '12'
+      - '13'
+      - '18'
+      - '20'
+      - '22'
+  - name: Orange Wave Prizms
+    serial_numbered: true
+    applies_to:
+      except:
+      - '18'
+      - '22'
+      - '35'
+      - '40'
+  - name: Mojo Prizms
+    print_run: 25
+    serial_numbered: true
+    applies_to:
+      except:
+      - '22'
+  - name: Gold Ice Prizms
+    serial_numbered: true
+    applies_to:
+      except:
+      - '18'
+      - '22'
+      - '35'
+      - '40'
+  - name: Green Pulsar Prizms
+    serial_numbered: true
+    applies_to:
+      except:
+      - '18'
+      - '22'
+      - '35'
+      - '40'
+  - name: Gold Shimmer Prizms
+    print_run: 15
+    serial_numbered: true
+    applies_to:
+      except:
+      - '22'
+  - name: Neon Pink Pulsar Prizms
+    serial_numbered: true
+    applies_to:
+      except:
+      - '18'
+      - '22'
+      - '35'
+  - name: Gold Prizms
+    print_run: 10
+    serial_numbered: true
+    applies_to:
+      except:
+      - '22'
+  - name: Green Shimmer Prizms
+    print_run: 8
+    serial_numbered: true
+    applies_to:
+      except:
+      - '22'
+  - name: Black Gold Prizms
+    print_run: 5
+    serial_numbered: true
+    applies_to:
+      except:
+      - '22'
+  - name: Gold Flash Prizms
+    print_run: 5
+    serial_numbered: true
+    applies_to:
+      except:
+      - '22'
+      - '35'
+  - name: Red Flash Prizms
+    print_run: 5
+    serial_numbered: true
+    applies_to:
+      except:
+      - '18'
+      - '22'
+      - '35'
+  - name: Black Shimmer Prizms
+    print_run: 1
+    serial_numbered: true
+    applies_to:
+      except:
+      - '22'
+  - name: Gold Vinyl Prizms
+    print_run: 1
+    serial_numbered: true
+    applies_to:
+      except:
+      - '22'
+  - name: White Sparkle Prizms
+    print_run: 1
+    serial_numbered: true
+- id: sensational-signatures
+  name: Sensational Signatures
+  uuid: 845e36da-6c76-4da2-9cb8-b78123673f4e
+  type:
+  - autograph
+  declared_card_count: 88
+  parallels:
+  - name: Gold Ice Prizms
+    applies_to:
+      except:
+      - '1'
+      - '33'
+      - '57'
+      - '59'
+      - '63'
+      - '91'
+      - '96'
+  - name: Green Prizms
+    applies_to:
+      except:
+      - '1'
+      - '52'
+      - '54'
+  - name: Red Ice Prizms
+    applies_to:
+      except:
+      - '1'
+      - '33'
+      - '57'
+      - '59'
+      - '63'
+      - '91'
+      - '96'
+  - name: Silver Prizms
+    applies_to:
+      except:
+      - '1'
+      - '23'
+      - '52'
+      - '54'
+  - name: Orange Wave Prizms
+    print_run: 75
+    serial_numbered: true
+    applies_to:
+      except:
+      - '1'
+      - '52'
+      - '54'
+  - name: Green Pulsar Prizms
+    print_run: 25
+    serial_numbered: true
+    applies_to:
+      except:
+      - '1'
+      - '54'
+  - name: Neon Pink Pulsar Prizms
+    print_run: 15
+    serial_numbered: true
+    applies_to:
+      except:
+      - '1'
+  - name: Gold Flash Prizms
+    print_run: 5
+    serial_numbered: true
+    applies_to:
+      except:
+      - '33'
+      - '57'
+      - '59'
+      - '63'
+      - '91'
+      - '96'
+  - name: Red Flash Prizms
+    print_run: 5
+    serial_numbered: true
+    applies_to:
+      except:
+      - '33'
+      - '57'
+      - '59'
+      - '63'
+      - '91'
+      - '96'
+- id: signing-day
+  name: Signing Day
+  uuid: b4cc496c-09ef-469a-b81b-d1914263e562
+  type:
+  - autograph
+  declared_card_count: 43
+  parallels:
+  - name: Green Prizms
+    applies_to:
+      except:
+      - '17'
+      - '20'
+      - '31'
+      - '33'
+      - '34'
+      - '35'
+      - '40'
+      - '43'
+  - name: Hyper Prizms
+    applies_to:
+      except:
+      - '33'
+      - '40'
+      - '41'
+  - name: Red Ice Prizms
+    applies_to:
+      except:
+      - '17'
+      - '20'
+      - '31'
+      - '33'
+      - '34'
+      - '35'
+      - '40'
+      - '43'
+  - name: Silver Prizms
+    applies_to:
+      except:
+      - '28'
+      - '33'
+      - '40'
+      - '41'
+  - name: Red Prizms
+    serial_numbered: true
+    applies_to:
+      except:
+      - '8'
+      - '17'
+      - '28'
+      - '33'
+      - '40'
+      - '41'
+  - name: Blue Prizms
+    serial_numbered: true
+    applies_to:
+      except:
+      - '17'
+      - '33'
+      - '40'
+      - '41'
+  - name: Purple Ice Prizms
+    serial_numbered: true
+    applies_to:
+      except:
+      - '17'
+      - '33'
+      - '40'
+      - '41'
+  - name: Blue Ice Prizms
+    serial_numbered: true
+    applies_to:
+      except:
+      - '17'
+      - '33'
+      - '40'
+  - name: Orange Pulsar Prizms
+    serial_numbered: true
+    applies_to:
+      except:
+      - '33'
+      - '40'
+  - name: Orange Wave Prizms
+    print_run: 75
+    serial_numbered: true
+    applies_to:
+      except:
+      - '17'
+      - '20'
+      - '31'
+      - '33'
+      - '34'
+      - '35'
+      - '40'
+      - '43'
+  - name: Gold Ice Prizms
+    print_run: 25
+    serial_numbered: true
+    applies_to:
+      except:
+      - '17'
+      - '20'
+      - '31'
+      - '33'
+      - '34'
+      - '35'
+      - '40'
+      - '43'
+  - name: Green Pulsar Prizms
+    print_run: 25
+    serial_numbered: true
+    applies_to:
+      except:
+      - '17'
+      - '20'
+      - '31'
+      - '33'
+      - '34'
+      - '35'
+      - '40'
+      - '43'
+  - name: Mojo Prizms
+    print_run: 25
+    serial_numbered: true
+    applies_to:
+      except:
+      - '40'
+  - name: Gold Shimmer Prizms
+    print_run: 15
+    serial_numbered: true
+  - name: Neon Pink Pulsar Prizms
+    print_run: 15
+    serial_numbered: true
+    applies_to:
+      except:
+      - '17'
+      - '33'
+      - '34'
+      - '35'
+      - '40'
+      - '43'
+  - name: Gold Prizms
+    print_run: 10
+    serial_numbered: true
+  - name: Green Shimmer Prizms
+    print_run: 8
+    serial_numbered: true
+  - name: Black Gold Prizms
+    print_run: 5
+    serial_numbered: true
+  - name: Gold Flash Prizms
+    print_run: 5
+    serial_numbered: true
+    applies_to:
+      except:
+      - '17'
+      - '33'
+      - '34'
+      - '35'
+      - '40'
+      - '43'
+  - name: Red Flash Prizms
+    print_run: 5
+    serial_numbered: true
+    applies_to:
+      except:
+      - '17'
+      - '33'
+      - '34'
+      - '35'
+      - '40'
+      - '43'
+  - name: Black Shimmer Prizms
+    print_run: 1
+    serial_numbered: true
+  - name: Gold Vinyl Prizms
+    print_run: 1
+    serial_numbered: true
+  - name: White Sparkle Prizms
+    print_run: 1
+    serial_numbered: true
+    applies_to:
+      except:
+      - '33'
+      - '34'
+      - '35'
+      - '40'
+      - '43'

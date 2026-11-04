@@ -1,0 +1,400 @@
+- number: '1'
+  uuid: 73c5fe15-00ea-47de-8adf-336336c2fac4
+  subjects:
+  - entities:
+    - role: player
+      name: Peyton Manning
+      ref: null
+    - role: team
+      name: Tennessee Volunteers
+      ref: null
+- number: '2'
+  uuid: 30ec78f4-6609-4dbe-b80b-7422940cb4c0
+  subjects:
+  - entities:
+    - role: player
+      name: Joe Namath
+      ref: null
+    - role: team
+      name: Alabama Crimson Tide
+      ref: null
+- number: '3'
+  uuid: 5ed85335-0c1b-4b97-8c95-ff146020572b
+  subjects:
+  - entities:
+    - role: player
+      name: Justin Herbert
+      ref: null
+    - role: team
+      name: Oregon Ducks
+      ref: null
+- number: '4'
+  uuid: 9754458a-3f1e-4925-ad90-ad82c4ff89b1
+  subjects:
+  - entities:
+    - role: player
+      name: Trevor Lawrence
+      ref: null
+    - role: team
+      name: Clemson Tigers
+      ref: null
+- number: '5'
+  uuid: 43e5d808-969a-4c0f-8806-adb9a51f1388
+  subjects:
+  - entities:
+    - role: player
+      name: Troy Polamalu
+      ref: null
+    - role: team
+      name: USC Trojans
+      ref: null
+- number: '6'
+  uuid: 9f105ccc-a9ed-4d7b-8cf9-7145c854f532
+  subjects:
+  - entities:
+    - role: player
+      name: Drew Brees
+      ref: null
+    - role: team
+      name: Purdue Boilermakers
+      ref: null
+- number: '7'
+  uuid: b9324eb2-ce37-4d77-acb8-455548f6be0c
+  subjects:
+  - entities:
+    - role: player
+      name: Barry Sanders
+      ref: null
+    - role: team
+      name: Oklahoma State Cowboys
+      ref: null
+- number: '8'
+  uuid: 0aa6a818-f435-464e-be10-e2c8955f5c7a
+  subjects:
+  - entities:
+    - role: player
+      name: Tim Tebow
+      ref: null
+    - role: team
+      name: Florida Gators
+      ref: null
+- number: '9'
+  uuid: 50bd5d7d-1717-4f2f-8558-500e6a3e40f9
+  subjects:
+  - entities:
+    - role: player
+      name: Jared Goff
+      ref: null
+    - role: team
+      name: Cal Golden Bears
+      ref: null
+- number: '10'
+  uuid: 976e9926-539a-406c-8a7e-6eb4a53da37c
+  subjects:
+  - entities:
+    - role: player
+      name: CeeDee Lamb
+      ref: null
+    - role: team
+      name: Oklahoma Sooners
+      ref: null
+- number: '11'
+  uuid: 927c7245-baa7-455f-afa3-a4385d4affc3
+  subjects:
+  - entities:
+    - role: player
+      name: Deion Sanders
+      ref: null
+    - role: team
+      name: Florida State Seminoles
+      ref: null
+- number: '12'
+  uuid: 050a77d3-a74a-4cec-ac46-4f83137f3aea
+  subjects:
+  - entities:
+    - role: player
+      name: Baker Mayfield
+      ref: null
+    - role: team
+      name: Oklahoma Sooners
+      ref: null
+- number: '13'
+  uuid: 5a7748e1-6ab4-4132-9117-b0ee7745585c
+  subjects:
+  - entities:
+    - role: player
+      name: Sam Darnold
+      ref: null
+    - role: team
+      name: USC Trojans
+      ref: null
+- number: '14'
+  uuid: db37c9ad-9979-44ad-bfd5-86f04d43e174
+  subjects:
+  - entities:
+    - role: player
+      name: Marshall Faulk
+      ref: null
+    - role: team
+      name: San Diego State Aztecs
+      ref: null
+- number: '15'
+  uuid: 3e3008fb-544e-40de-9f2b-09da85153687
+  subjects:
+  - entities:
+    - role: player
+      name: Von Miller
+      ref: null
+    - role: team
+      name: Texas A&M Aggies
+      ref: null
+- number: '16'
+  uuid: 47d57eb3-1313-4c24-a074-689fa2923600
+  subjects:
+  - entities:
+    - role: player
+      name: Tony Dorsett
+      ref: null
+    - role: team
+      name: Pittsburgh Panthers
+      ref: null
+- number: '17'
+  uuid: 573fd527-b3ec-4d44-8038-4f30c78948e5
+  subjects:
+  - entities:
+    - role: player
+      name: Justin Jefferson
+      ref: null
+    - role: team
+      name: LSU Tigers
+      ref: null
+- number: '18'
+  uuid: 7f49a1ba-b5fb-47b2-b5bd-0ab6a79fce4c
+  subjects:
+  - entities:
+    - role: player
+      name: Terrell Davis
+      ref: null
+    - role: team
+      name: Georgia Bulldogs
+      ref: null
+- number: '19'
+  uuid: 720426e7-41f0-42ea-972c-31e2ef234130
+  subjects:
+  - entities:
+    - role: player
+      name: Reggie Wayne
+      ref: null
+    - role: team
+      name: Miami Hurricanes
+      ref: null
+- number: '20'
+  uuid: 23705293-03e1-449f-b50f-aeaf939cd829
+  subjects:
+  - entities:
+    - role: player
+      name: Edgerrin James
+      ref: null
+    - role: team
+      name: Miami Hurricanes
+      ref: null
+- number: '21'
+  uuid: 328205aa-1689-4d42-96a4-37c611f56095
+  subjects:
+  - entities:
+    - role: player
+      name: Josh Jacobs
+      ref: null
+    - role: team
+      name: Alabama Crimson Tide
+      ref: null
+- number: '22'
+  uuid: 86b20302-efd1-4c21-8bea-1d7c2b7dc573
+  subjects:
+  - entities:
+    - role: player
+      name: Sam Bradford
+      ref: null
+    - role: team
+      name: Oklahoma Sooners
+      ref: null
+- number: '23'
+  uuid: 482ff400-d0ee-47e0-979b-5f00744e6283
+  subjects:
+  - entities:
+    - role: player
+      name: Vince Young
+      ref: null
+    - role: team
+      name: Texas Longhorns
+      ref: null
+- number: '24'
+  uuid: 4b63a2bc-2d2a-4cd2-9000-b8444fc15edf
+  subjects:
+  - entities:
+    - role: player
+      name: Michael Vick
+      ref: null
+    - role: team
+      name: Virginia Tech Hokies
+      ref: null
+- number: '25'
+  uuid: 34039406-48a0-4e2c-9485-da428b0696c7
+  subjects:
+  - entities:
+    - role: player
+      name: Kordell Stewart
+      ref: null
+    - role: team
+      name: Colorado Buffaloes
+      ref: null
+- number: '26'
+  uuid: 1eb3a253-48b6-4532-b81d-469629cc2345
+  subjects:
+  - entities:
+    - role: player
+      name: Jake Plummer
+      ref: null
+    - role: team
+      name: Arizona State Sun Devils
+      ref: null
+- number: '27'
+  uuid: 50404adb-d205-4928-974c-5066e52bb62c
+  subjects:
+  - entities:
+    - role: player
+      name: Herman Moore
+      ref: null
+    - role: team
+      name: Virginia Cavaliers
+      ref: null
+- number: '28'
+  uuid: 951dd29e-fc6b-4065-9138-6e71411ba8d0
+  subjects:
+  - entities:
+    - role: player
+      name: Johnny Manziel
+      ref: null
+    - role: team
+      name: Texas A&M Aggies
+      ref: null
+- number: '29'
+  uuid: 2af359e8-76a2-44cc-af15-9a915cb7b92c
+  subjects:
+  - entities:
+    - role: player
+      name: Devin Hester
+      ref: null
+    - role: team
+      name: Miami Hurricanes
+      ref: null
+- number: '30'
+  uuid: 86a35797-7a06-448a-b6a6-f06a0587c76e
+  subjects:
+  - entities:
+    - role: player
+      name: Billy Sims
+      ref: null
+    - role: team
+      name: Oklahoma Sooners
+      ref: null
+- number: '31'
+  uuid: 78a06450-c7ad-4f4e-a25d-40f65f22d734
+  subjects:
+  - entities:
+    - role: player
+      name: Jerry Jeudy
+      ref: null
+    - role: team
+      name: Alabama Crimson Tide
+      ref: null
+- number: '32'
+  uuid: d8b20438-309c-4010-bd63-d4d1f934a421
+  subjects:
+  - entities:
+    - role: player
+      name: Jason Sehorn
+      ref: null
+    - role: team
+      name: USC Trojans
+      ref: null
+- number: '33'
+  uuid: 1424872e-0868-46b5-bb16-f2cef87ba34b
+  subjects:
+  - entities:
+    - role: player
+      name: Hines Ward
+      ref: null
+    - role: team
+      name: Georgia Bulldogs
+      ref: null
+- number: '34'
+  uuid: f3df0323-9e3f-4144-bd64-287261f75221
+  subjects:
+  - entities:
+    - role: player
+      name: Willis McGahee
+      ref: null
+    - role: team
+      name: Miami Hurricanes
+      ref: null
+- number: '35'
+  uuid: e72dfc5b-5554-40db-be05-6d7c2fd2f83a
+  subjects:
+  - entities:
+    - role: player
+      name: Andre Ware
+      ref: null
+    - role: team
+      name: Houston Cougars
+      ref: null
+- number: '36'
+  uuid: 0699bec0-ab68-4ac5-af84-ff1f213722bd
+  subjects:
+  - entities:
+    - role: player
+      name: Clinton Portis
+      ref: null
+    - role: team
+      name: Miami Hurricanes
+      ref: null
+- number: '37'
+  uuid: 1200da8b-9570-45d5-9eb4-f6372caeee35
+  subjects:
+  - entities:
+    - role: player
+      name: Jimmy Graham
+      ref: null
+    - role: team
+      name: Miami Hurricanes
+      ref: null
+- number: '38'
+  uuid: 0a89c33e-4cca-4dc4-9a3a-479551b0a6fe
+  subjects:
+  - entities:
+    - role: player
+      name: Mike Rozier
+      ref: null
+    - role: team
+      name: Nebraska Cornhuskers
+      ref: null
+- number: '39'
+  uuid: b574f29e-c5b7-428c-a5ff-3e2202681a6e
+  subjects:
+  - entities:
+    - role: player
+      name: Patrick Mahomes II
+      ref: null
+    - role: team
+      name: Texas Tech Red Raiders
+      ref: null
+- number: '40'
+  uuid: 364f2ee7-f82e-4b75-b284-c8c363d46b40
+  subjects:
+  - entities:
+    - role: player
+      name: Mario Manningham
+      ref: null
+    - role: team
+      name: Michigan Wolverines
+      ref: null
