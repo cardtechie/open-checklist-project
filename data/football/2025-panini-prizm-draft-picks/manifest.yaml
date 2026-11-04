@@ -837,3 +837,225 @@ subsets:
       - '35'
       - '40'
       - '43'
+- id: black-color-blast
+  name: Black Color Blast
+  uuid: debe9a81-6d1f-4c1b-8fb3-55064753d415
+  type:
+  - insert
+  declared_card_count: 35
+- id: black-color-blast-duals
+  name: Black Color Blast Duals
+  uuid: 30886d56-7c27-4fda-aea7-1528b9a08d20
+  type:
+  - insert
+  declared_card_count: 20
+- id: brilliance
+  name: Brilliance
+  uuid: 58f2cb6b-578f-43f9-9ae1-a564c284273d
+  type:
+  - insert
+  declared_card_count: 25
+  parallels:
+  - name: White Sparkle Prizms
+  - name: Blue Ice Prizms
+    print_run: 149
+    serial_numbered: true
+  - name: Orange Pulsar Prizms
+    print_run: 75
+    serial_numbered: true
+  - name: Mojo Prizms
+    print_run: 25
+    serial_numbered: true
+  - name: Gold Prizms
+    print_run: 10
+    serial_numbered: true
+  - name: Black Gold Prizms
+    print_run: 5
+    serial_numbered: true
+  - name: Gold Vinyl Prizms
+    print_run: 1
+    serial_numbered: true
+- id: fearless
+  name: Fearless
+  uuid: a38ed2a6-f3b3-4df2-8abf-20126a43868b
+  type:
+  - insert
+  declared_card_count: 25
+  parallels:
+  - name: Gold Ice Prizms
+  - name: Green Prizms
+  - name: Red Ice Prizms
+  - name: Gold Flash Prizms
+    print_run: 49
+    serial_numbered: true
+  - name: Red Flash Prizms
+    print_run: 49
+    serial_numbered: true
+  - name: Green Pulsar Prizms
+    print_run: 25
+    serial_numbered: true
+  - name: Neon Pink Pulsar Prizms
+    print_run: 25
+    serial_numbered: true
+- id: hype
+  name: Hype
+  uuid: 9e36b540-70d6-4f61-a2bd-9bb3dc74c810
+  type:
+  - insert
+  declared_card_count: 25
+  parallels:
+  - name: White Sparkle Prizms
+  - name: Blue Ice Prizms
+    print_run: 149
+    serial_numbered: true
+  - name: Orange Pulsar Prizms
+    print_run: 75
+    serial_numbered: true
+  - name: Mojo Prizms
+    print_run: 25
+    serial_numbered: true
+  - name: Gold Prizms
+    print_run: 10
+    serial_numbered: true
+  - name: Black Gold Prizms
+    print_run: 5
+    serial_numbered: true
+  - name: Gold Vinyl Prizms
+    print_run: 1
+    serial_numbered: true
+- id: instant-impact
+  name: Instant Impact
+  uuid: 39417b0c-8581-420b-8597-b0495c731c23
+  type:
+  - insert
+  declared_card_count: 25
+  parallels:
+  - name: Gold Ice Prizms
+  - name: Green Prizms
+  - name: Red Ice Prizms
+  - name: Gold Flash Prizms
+    print_run: 49
+    serial_numbered: true
+  - name: Red Flash Prizms
+    print_run: 49
+    serial_numbered: true
+  - name: Green Pulsar Prizms
+    print_run: 25
+    serial_numbered: true
+  - name: Neon Pink Pulsar Prizms
+    print_run: 25
+    serial_numbered: true
+- id: manga
+  name: Manga
+  uuid: b8de9de1-ac69-486f-aa39-ef6f05811de3
+  type:
+  - insert
+  declared_card_count: 15
+- id: new-recruits
+  name: New Recruits
+  uuid: 08757d5b-b3ef-4c95-a890-1466fc4f52f7
+  type:
+  - insert
+  declared_card_count: 25
+  parallels:
+  - name: Gold Ice Prizms
+  - name: Green Prizms
+  - name: Red Ice Prizms
+  - name: Gold Flash Prizms
+    print_run: 49
+    serial_numbered: true
+  - name: Red Flash Prizms
+    print_run: 49
+    serial_numbered: true
+  - name: Green Pulsar Prizms
+    print_run: 25
+    serial_numbered: true
+  - name: Neon Pink Pulsar Prizms
+    print_run: 25
+    serial_numbered: true
+- id: on-campus
+  name: On Campus
+  uuid: 0296883e-86f1-4e95-b4f3-710afc1e7273
+  type:
+  - insert
+  declared_card_count: 15
+- id: prizm-break
+  name: Prizm Break
+  uuid: 4adc7d60-d83e-439a-bd20-8423ecbc2709
+  type:
+  - insert
+  declared_card_count: 25
+  parallels:
+  - name: White Sparkle Prizms
+  - name: Blue Ice Prizms
+    print_run: 149
+    serial_numbered: true
+  - name: Orange Pulsar Prizms
+    print_run: 75
+    serial_numbered: true
+  - name: Mojo Prizms
+    print_run: 25
+    serial_numbered: true
+  - name: Gold Prizms
+    print_run: 10
+    serial_numbered: true
+  - name: Black Gold Prizms
+    print_run: 5
+    serial_numbered: true
+  - name: Gold Vinyl Prizms
+    print_run: 1
+    serial_numbered: true
+- id: stained-glass
+  name: Stained Glass
+  uuid: c16685fb-c221-4b39-9930-a96e33d8afed
+  type:
+  - insert
+  declared_card_count: 15
+- id: student-orientation
+  name: Student Orientation
+  uuid: 5a48a894-231b-48a8-b1ca-7df36ec3ee92
+  type:
+  - insert
+  declared_card_count: 25
+  parallels:
+  - name: Gold Ice Prizms
+  - name: Green Prizms
+  - name: Red Ice Prizms
+  - name: Gold Flash Prizms
+    print_run: 49
+    serial_numbered: true
+  - name: Red Flash Prizms
+    print_run: 49
+    serial_numbered: true
+  - name: Green Pulsar Prizms
+    print_run: 25
+    serial_numbered: true
+  - name: Neon Pink Pulsar Prizms
+    print_run: 25
+    serial_numbered: true
+- id: trophy-hunting
+  name: Trophy Hunting
+  uuid: dcdbf125-9645-459a-ac69-ba93ce03b1b0
+  type:
+  - insert
+  declared_card_count: 25
+  parallels:
+  - name: White Sparkle Prizms
+  - name: Blue Ice Prizms
+    print_run: 149
+    serial_numbered: true
+  - name: Orange Pulsar Prizms
+    print_run: 75
+    serial_numbered: true
+  - name: Mojo Prizms
+    print_run: 25
+    serial_numbered: true
+  - name: Gold Prizms
+    print_run: 10
+    serial_numbered: true
+  - name: Black Gold Prizms
+    print_run: 5
+    serial_numbered: true
+  - name: Gold Vinyl Prizms
+    print_run: 1
+    serial_numbered: true
