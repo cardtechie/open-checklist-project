@@ -274,11 +274,12 @@ class SubsetsListed(Runner):
         bad["subsets_listed"] = "no"
         self.assert_usage(self.write(source(URL_A)), self.write(bad))
 
-    def test_all_sources_not_listing_subsets_reconcile_to_empty(self):
-        code, out, err = self.run_cli(self.write(self.base_only_for_subsets(URL_A)),
-                                      self.write(self.base_only_for_subsets(URL_B)))
-        self.assertEqual(code, cs.EXIT_AGREE, err)
-        self.assertEqual(cwo.parse_discover(out, [])["subsets"], [])
+    def test_all_sources_not_listing_subsets_is_exit_2(self):
+        # Every source base-only for subsets would print `subsets: []`, a false claim
+        # that the product has none.
+        self.assert_usage(self.write(self.base_only_for_subsets(URL_A)),
+                          self.write(self.base_only_for_subsets(URL_B)))
+
 
 
 class Disagree(Runner):

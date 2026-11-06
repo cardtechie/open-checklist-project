@@ -161,7 +161,8 @@ and no other key is allowed:
   subset out because it is hard to extract: say so with a stop (`subsets-unauthorable`).
 - `subsets_listed` (optional, default `true`): `false` keeps the source for the base
   comparison only. It is set **only** by *Recovery after a disagreement* below, for a
-  subsets-only disagreer, and `subsets` must then be `[]`. Never set it at extraction.
+  subsets-only disagreer, and `subsets` must then be `[]`. Never set it at extraction,
+  and never on every input: the comparator exits 2 when no source lists subsets.
 
 Inside one file, a repeated card number, a repeated parallel (same normalized name
 and print run), or a repeated subset name is malformed. Across files, two inputs with the same `url` are

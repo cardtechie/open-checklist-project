@@ -25,7 +25,8 @@ Agreement rules (all must hold):
    `subsets: []` disagrees with one that lists subsets: a missing subset is a
    difference, never a silent pass. A source with `subsets_listed: false` (kept for
    the base comparison only, under a standing rule or a ruling) is left out of this
-   comparison and out of the reconciled `subsets:` list.
+   comparison and out of the reconciled `subsets:` list. At least one source must
+   keep `subsets_listed` true, or the input is malformed (exit 2).
 
 On agreement it prints the Discover block (`<!-- ocp-discover:v1 -->` plus one fenced
 yaml block, carrying the reconciled `subsets:` list) for Discover step 5 to post. `--meta <file>` adds `name`, `genre`,
@@ -363,6 +364,12 @@ def main(argv=None):
                 raise InputError("duplicate source url",
                                  [f"{path} and {seen[url]} both have url {url}"])
             seen[url] = path
+        if not any(subsets_listed(s) for s in sources):
+            # The block would read `subsets: []`, which claims a base-only product.
+            # subsets_listed: false is a recovery rewrite of a non-winning source; the
+            # authoritative source always keeps its subsets.
+            raise InputError("every source has subsets_listed: false",
+                             ["at least one source (the authoritative one) must list subsets"])
         meta = load_meta(args.meta) if args.meta else None
         # Built before comparing so a bad --meta is exit 2 whatever the sources say.
         block = discover_block(sources, meta)
