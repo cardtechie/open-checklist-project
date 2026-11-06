@@ -192,8 +192,10 @@ source's rows and subsets and run `tools/compare_sources.py` exactly as
 **Stop** when:
 
 - `no-source`: no source can be found;
-- `source-disagreement`: `tools/compare_sources.py` exits 10 and neither manufacturer
-  precedence nor an applicable operator ruling settles it (see *Recovery* below).
+- `source-disagreement`: `tools/compare_sources.py` exits 10 and no manufacturer
+  precedence, applicable operator ruling or standing rule settles it (see *Recovery*
+  below). A disagreement a standing rule settles is **not** a stop and needs no
+  ruling.
   Quote its difference JSON in the stop comment as the evidence;
 - `ambiguous-product`: the set name is ambiguous between products, e.g. a "Draft
   Picks" product vs. the flagship of the same brand and year;
@@ -213,8 +215,9 @@ short:
   source is on a manufacturer domain on the closed list there (`paniniamerica.net`,
   `upperdeck.com`, `topps.com`, `leaftradingcards.com`, subdomains included), it is
   authoritative and the recovery runs in this same run. A domain is added only by a
-  doc edit, once verified. No other precedence exists.
-- Otherwise a **trusted operator ruling** names it: a comment whose first line is
+  doc edit, once verified.
+- Otherwise a **trusted operator ruling** names it, and a ruling overrides any
+  standing rule: a comment whose first line is
   `<!-- ocp-discover-ruling:v1 -->` (format in *Stop and report*), from a repository
   owner, member or collaborator, written after the latest `source-disagreement` stop.
   Every URL in it must be in that stop's difference JSON `sources` (the full compared
@@ -222,13 +225,21 @@ short:
   source. Ignore a ruling
   that is older than the stop, untrusted, malformed, or names a URL that was not
   compared.
+- With neither, a **standing rule** names it, with no operator and in this same run,
+  when every difference is a `subsets` entry and exactly one compared source is on the
+  rule's winning domain. The rules live only in the *Standing source-precedence rules*
+  table there (today: Checklist Insider, `checklistinsider.com`, wins on subset
+  ladders). No other precedence exists.
 - Classify each other source by the difference `field`: a source that disagrees with
-  the authoritative one in `card_count`, `card_rows`, `card_numbers`, `card_names`
-  or `subsets` is **dropped**; one that disagrees only in `parallels` is **kept base-only** (rewrite
-  its file with `parallels_listed: false` and `parallels: []`) unless the ruling's
-  `drop:` lists it.
+  the authoritative one in `card_count`, `card_rows`, `card_numbers` or `card_names`
+  is **dropped**; one that disagrees only in `parallels` is **kept base-only** (rewrite
+  its file with `parallels_listed: false` and `parallels: []`); one that disagrees
+  only in `subsets` is **kept for the base** (rewrite its file with
+  `subsets_listed: false` and `subsets: []`); one that disagrees only in both gets
+  both rewrites. A ruling's `drop:` list may drop any of them.
 - Re-run `tools/compare_sources.py`. On exit 0, post its block (step 5) with a note line
-  citing the ruling comment's URL or `manufacturer precedence`. On exit 10, or when the
+  citing the ruling comment's URL, `manufacturer precedence`, or
+  `standing rule <rule id>`. On exit 10, or when the
   authoritative source is itself in a `card_rows` entry, this is a fresh
   `source-disagreement` stop with the new difference JSON; the operator rules again.
 

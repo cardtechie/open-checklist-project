@@ -59,6 +59,14 @@ properties:
               minimum: 1
               maximum: 9007199254740991
             - type: "null"
+  subsets_listed:
+    description: >-
+      Optional; default true. false keeps the source for the base comparison only and
+      leaves it out of the subset comparison, the way parallels_listed false does for
+      ladders. Set only when a standing rule or a ruling settles a subsets-only
+      disagreement against this source (docs/PRODUCER.md -> Recovery after a
+      disagreement). subsets must then be empty.
+    type: boolean
   subsets:
     description: >-
       Every subset (insert, autograph, relic or variation) the source lists for the
@@ -86,12 +94,22 @@ properties:
         parallels_listed:
           description: true when the source lists this subset's own parallel ladder, else false.
           type: boolean
-if:
-  properties:
-    parallels_listed:
-      const: false
-  required: [parallels_listed]
-then:
-  properties:
-    parallels:
-      maxItems: 0
+allOf:
+  - if:
+      properties:
+        parallels_listed:
+          const: false
+      required: [parallels_listed]
+    then:
+      properties:
+        parallels:
+          maxItems: 0
+  - if:
+      properties:
+        subsets_listed:
+          const: false
+      required: [subsets_listed]
+    then:
+      properties:
+        subsets:
+          maxItems: 0
