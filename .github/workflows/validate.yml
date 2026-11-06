@@ -22,7 +22,7 @@ jobs:
           relevant=true
           if [ "$EVENT_NAME" = "pull_request" ]; then
             if files=$(git diff --name-only "$BASE_SHA" "$HEAD_SHA"); then
-              if printf '%s\n' "$files" | grep -Eq '^(data|schemas)/.*\.yaml$|^tools/|^\.github/workflows/validate\.yml$'; then
+              if printf '%s\n' "$files" | grep -Eq '^(data|schemas)/.*\.yaml$|^tools/|^requirements\.txt$|^\.github/workflows/validate\.yml$'; then
                 relevant=true
               else
                 relevant=false
@@ -38,7 +38,7 @@ jobs:
           python-version: 3.11
       - name: Install dependencies
         if: steps.changes.outputs.relevant == 'true'
-        run: pip install pyyaml jsonschema
+        run: pip install -r requirements.txt
       - name: Run tool unit tests
         if: steps.changes.outputs.relevant == 'true'
         run: python -m unittest discover -s tools/tests

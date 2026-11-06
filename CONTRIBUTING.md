@@ -79,7 +79,7 @@ actual counts per node, parallel print runs, numbering gaps, duplicate numbers a
 subjects, and placeholder URLs. It never fails a PR; `tools/validate.py` remains the gate.
 
 ```bash
-pip install pyyaml jsonschema
+pip install -r requirements.txt
 python tools/review_report.py data/baseball/2026-bowman          # one or more set dirs
 python tools/review_report.py --changed-against origin/main      # sets touched by your branch
 ```
