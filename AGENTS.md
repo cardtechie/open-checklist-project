@@ -21,6 +21,13 @@ own. If a rule is missing or wrong, change the doc.
 
 ## Gate commands
 
+Set up the environment once on a fresh clone, before running any gate command. The tools
+import `pyyaml` and `jsonschema`, which [`requirements.txt`](requirements.txt) declares:
+
+```bash
+python -m venv .venv && . .venv/bin/activate && pip install -r requirements.txt
+```
+
 ```bash
 python tools/check_work_order.py <n>   # is work order <n> Ready? exit 0 ready, 10 not ready, 2 error
 python tools/compare_sources.py <files...> [--meta <file>]

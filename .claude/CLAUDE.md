@@ -58,7 +58,7 @@ what validates; major & minor get a new version directory, patch is edited in pl
 
 ```bash
 # Python
-pip install pyyaml jsonschema
+pip install -r requirements.txt
 python tools/validate.py
 
 # Docker

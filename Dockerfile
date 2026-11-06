@@ -3,7 +3,8 @@ FROM python:3.11-slim
 WORKDIR /app
 
 # Install dependencies
-RUN pip install pyyaml jsonschema
+COPY requirements.txt .
+RUN pip install -r requirements.txt
 
 # Copy validation script and schemas
 COPY tools/ tools/

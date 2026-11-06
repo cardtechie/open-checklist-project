@@ -46,7 +46,7 @@ docker run open-checklist-validator
 Alternatively, if you have Python 3.11+ installed:
 
 ```bash
-pip install pyyaml jsonschema
+pip install -r requirements.txt
 python tools/validate.py
 ```
 
