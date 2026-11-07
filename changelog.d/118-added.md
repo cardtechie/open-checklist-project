@@ -1,0 +1,1 @@
+- **[Issue #118]** Record standing source-precedence rules so Discover settles subset disagreements without a per-set ruling.
