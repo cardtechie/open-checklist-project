@@ -15,7 +15,7 @@ Agreement rules (all must hold):
 1. Every source's stated `card_count` is equal.
 2. Each source's `cards` row count equals its own stated `card_count`.
 3. The set of card numbers is equal across sources, and each number's name matches
-   after whitespace-collapse and casefold.
+   after typographic fold, whitespace-collapse and casefold.
 4. Among sources with `parallels_listed: true`, the parallel ladders are equal by
    normalized name and `print_run`. Base-only sources are left out of this
    comparison; they are never counted as disagreeing.
@@ -75,9 +75,21 @@ class InputError(Exception):
 
 # --------------------------------------------------------------------------- helpers
 
+# Typographic fold applied before comparing names (#120): curly or modifier apostrophes
+# fold to ', curly quotes to ", and the hyphen and dash family U+2010..U+2015 to -.
+# U+2212 (minus) and everything else are deliberately left alone. Wording-level
+# equivalence of subset and parallel names is a separate decision (#122).
+TYPOGRAPHIC_FOLD = str.maketrans({
+    "\u2018": "'", "\u2019": "'", "\u201b": "'", "\u02bc": "'",
+    "\u201c": '"', "\u201d": '"', "\u201e": '"', "\u201f": '"',
+    "\u2010": "-", "\u2011": "-", "\u2012": "-", "\u2013": "-", "\u2014": "-", "\u2015": "-",
+})
+
+
 def norm(text):
-    """Whitespace-collapse and casefold: the only normalization the comparator applies."""
-    return " ".join(text.split()).casefold()
+    """Typographic fold, whitespace-collapse and casefold: the only normalization the
+    comparator applies. It builds a comparison key; source strings are never rewritten."""
+    return " ".join(text.translate(TYPOGRAPHIC_FOLD).split()).casefold()
 
 
 def _digit_run_key(run):
