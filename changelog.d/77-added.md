@@ -1,0 +1,1 @@
+- **[Issue #77]** Add 2025 Panini Prizm Draft Picks: the 200-card base set and its 30-parallel Prizm ladder, nine autograph subsets and thirteen insert subsets with their own ladders.
