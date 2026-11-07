@@ -244,6 +244,80 @@ class Subsets(Runner):
         self.assert_usage(self.write(source(URL_A)), self.write(bad))
 
 
+class SubsetsListed(Runner):
+    """`subsets_listed: false` keeps a source for the base only (#118 standing rules)."""
+    URL_CI = "https://www.checklistinsider.com/2025-panini-prizm-draft-picks"
+    LADDER_CI = [sub("Rookie Autographs", "autograph", 40), sub("Fearless", "insert", 20, listed=False)]
+
+    def base_only_for_subsets(self, url, **kw):
+        s = source(url, **kw)
+        s["subsets_listed"] = False
+        s["subsets"] = []
+        return s
+
+    def test_subset_only_disagreers_are_kept_for_the_base(self):
+        # Two sources disagree with the winner only on subsets. Before recovery the
+        # comparator reports subsets differences alone.
+        winner = source(self.URL_CI, subsets=self.LADDER_CI)
+        b = source(URL_B, subsets=[sub("Rookie Autographs", "autograph", 45)])
+        c = source(URL_C, subsets=[sub("Manga", "insert", 20)])
+        diffs = self.differences(winner, b, c)
+        self.assertTrue(diffs)
+        self.assertEqual({d["field"] for d in diffs}, {"subsets"})
+        # Recovery: the winner supplies subsets, the others carry subsets_listed: false.
+        code, out, err = self.run_cli(self.write(winner), self.write(self.base_only_for_subsets(URL_B)),
+                                      self.write(self.base_only_for_subsets(URL_C)))
+        self.assertEqual(code, cs.EXIT_AGREE, err)
+        reasons = []
+        parsed = cwo.parse_discover(out, reasons)
+        self.assertEqual(reasons, [])
+        self.assertEqual([s["url"] for s in parsed["sources"]], [self.URL_CI, URL_B, URL_C])
+        self.assertEqual(parsed["subsets"], self.LADDER_CI)
+
+    def test_two_hundred_card_base_with_two_subset_disagreers(self):
+        cards = [{"number": str(n), "name": f"Player {n}"} for n in range(1, 201)]
+        winner = source(self.URL_CI, cards=cards, subsets=self.LADDER_CI)
+        code, out, err = self.run_cli(self.write(winner),
+                                      self.write(self.base_only_for_subsets(URL_B, cards=cards)),
+                                      self.write(self.base_only_for_subsets(URL_C, cards=cards)))
+        self.assertEqual(code, cs.EXIT_AGREE, err)
+        self.assertEqual([s["card_count"] for s in cwo.parse_discover(out, [])["sources"]], [200] * 3)
+
+    def test_base_disagreement_still_exits_10(self):
+        b = self.base_only_for_subsets(URL_B, cards=CARDS[:2])
+        diffs = self.differences(source(self.URL_CI, subsets=self.LADDER_CI), b)
+        self.assertIn("card_count", {d["field"] for d in diffs})
+        self.assertNotIn("subsets", {d["field"] for d in diffs})
+
+    def test_absent_subsets_listed_behaves_as_before(self):
+        diffs = self.differences(source(URL_A, subsets=[sub("Rookie Autographs")]), source(URL_B))
+        self.assertEqual(diffs, [{"field": "subsets", "name": "Rookie Autographs", "attribute": "listed",
+                                  "values": {URL_A: True, URL_B: False}}])
+
+    def test_explicit_true_behaves_as_absent(self):
+        b = source(URL_B)
+        b["subsets_listed"] = True
+        diffs = self.differences(source(URL_A, subsets=[sub("Rookie Autographs")]), b)
+        self.assertEqual([d["values"] for d in diffs], [{URL_A: True, URL_B: False}])
+
+    def test_subsets_must_be_empty_when_not_listed(self):
+        bad = source(URL_B, subsets=[sub("Rookie Autographs")])
+        bad["subsets_listed"] = False
+        self.assert_usage(self.write(source(URL_A)), self.write(bad))
+
+    def test_subsets_listed_must_be_boolean(self):
+        bad = source(URL_B)
+        bad["subsets_listed"] = "no"
+        self.assert_usage(self.write(source(URL_A)), self.write(bad))
+
+    def test_all_sources_not_listing_subsets_is_exit_2(self):
+        # Every source base-only for subsets would print `subsets: []`, a false claim
+        # that the product has none.
+        self.assert_usage(self.write(self.base_only_for_subsets(URL_A)),
+                          self.write(self.base_only_for_subsets(URL_B)))
+
+
+
 class Disagree(Runner):
     def test_card_count(self):
         b = source(URL_B, cards=CARDS + [{"number": "11", "name": "Ashton Jeanty"}])

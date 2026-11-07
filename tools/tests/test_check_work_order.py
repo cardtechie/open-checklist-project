@@ -72,6 +72,15 @@ class CheckWorkOrderTests(unittest.TestCase):
         self.assertTrue(any(fragment in r for r in verdict["reasons"]),
                         f"{fragment!r} not in {verdict['reasons']}")
 
+    def test_block_with_standing_rule_note_line_is_ready(self):
+        # #118: a block written under a standing rule carries a note line below the
+        # yaml block citing the rule; the checker reads only the yaml block.
+        payload = ready_payload()
+        payload["comments"][-1] = comment(BLOCK + "\nstanding rule subset-ladder-checklist-insider\n")
+        v = self.run_check(payload)
+        self.assertTrue(v["ready"], v["reasons"])
+        self.assertEqual(v["name"], "2025 Panini Prizm Draft Picks")
+
     def test_ready(self):
         v = self.run_check(ready_payload())
         self.assertTrue(v["ready"], v["reasons"])

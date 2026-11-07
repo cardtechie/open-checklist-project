@@ -141,7 +141,8 @@ itself. This section is the single home for the comparator's rules.
 
 Each kept source becomes **one** YAML file matching
 [`tools/schemas/extracted-source.yaml`](../tools/schemas/extracted-source.yaml) (JSON
-Schema 2020-12). All six keys are required, and no other key is allowed:
+Schema 2020-12). These six keys are required, one more (`subsets_listed`) is optional,
+and no other key is allowed:
 
 - `url`: the source page, under the same URL policy as precondition item 4;
 - `card_count`: the source's **own stated** base-set count, a positive integer no larger than 9007199254740991
@@ -158,6 +159,12 @@ Schema 2020-12). All six keys are required, and no other key is allowed:
   `relic` or `variation` and `card_count` the source's **own stated** count, never a count
   of rows you extracted. An explicit `[]` means the source lists none. Never leave a
   subset out because it is hard to extract: say so with a stop (`subsets-unauthorable`).
+- `subsets_listed` (optional, default `true`): `false` keeps the source for the base
+  comparison only. It is set **only** by *Recovery after a disagreement* below, for a
+  source whose disagreement involves subsets (a subsets-only disagreer, or the subsets
+  half of a ladder-and-subsets disagreer), and `subsets` must then be `[]`. Never set
+  it at extraction, and never on every input: the comparator exits 2 when no source
+  lists subsets.
 
 Inside one file, a repeated card number, a repeated parallel (same normalized name
 and print run), or a repeated subset name is malformed. Across files, two inputs with the same `url` are
@@ -185,7 +192,8 @@ sources agree only when **all** of these hold:
 5. Every source lists the same subsets (by normalized name), and each subset has the
    same `type` and `card_count` wherever it is listed. A source with `subsets: []`
    disagrees with one that lists subsets: a missing subset is a difference, never a
-   silent pass.
+   silent pass. A source with `subsets_listed: false` is left out of this comparison
+   and out of the reconciled `subsets:` list; it never counts as disagreeing.
 
 ### Running it
 
@@ -261,8 +269,8 @@ Shimmer /8 rung (exit 10):
    available source, skip the comparator and post that source's block as before.
 3. Act on the exit code:
    - **0**: post the printed block verbatim as the Discover block (Discover step 5).
-   - **10**: apply *Recovery after a disagreement* below when manufacturer precedence
-     or a ruling settles it. Otherwise stop with `source-disagreement`, quoting the
+   - **10**: apply *Recovery after a disagreement* below when a ruling, a standing
+     rule or manufacturer precedence settles it. Otherwise stop with `source-disagreement`, quoting the
      difference JSON in the stop comment as data. That JSON is the stop's evidence.
    - **2**: the extraction is malformed. Fix it by re-extracting from the source, never
      by editing the inputs to force agreement.
@@ -274,7 +282,16 @@ changing the comparator's **inputs** to match it, then running the comparator ag
 The verdict is never overridden: `tools/compare_sources.py` stays the only thing that
 decides agreement.
 
-**1. Pick the authoritative source.** Only two things can name it:
+**1. Pick the authoritative source.** Only three things can name it, checked in this
+order; the first that applies wins:
+
+1. **Manufacturer precedence**, unchanged (below).
+2. **An operator ruling** (format below). A trusted per-set ruling always overrides a
+   standing rule.
+3. **A standing rule** from *Standing source-precedence rules* below (no operator
+   needed), only for a disagreement confined to `subsets` entries.
+
+Nothing else names it.
 
 - **Manufacturer precedence** (no operator needed). When exactly one compared source is
   on the manufacturer's own domain (its checklist or sell sheet), it is authoritative.
@@ -291,20 +308,55 @@ decides agreement.
   Any other host is not a manufacturer source. When two or more compared sources are
   on listed domains, precedence does not apply. A domain is added to this list only
   by an edit to this document, and only once its ownership is verified.
-- **An operator ruling**, in every other case. Never choose a source by any other
-  rule: majority, popularity or "the more complete list" are each an invented rule.
+- **An operator ruling**, in every other case, or a **standing rule** below when no
+  ruling applies. Never choose a source by any other rule: majority, popularity or
+  "the more complete list" are each an invented rule.
+
+**Standing source-precedence rules.** A standing rule is a ruling the operator made
+once for every set, recorded here so Discover does not stop for a per-set ruling on
+the most common disagreement. This table is the rules' single home: a rule is added,
+changed or removed only by an edit to this document, which is reviewed like any other
+change. Any other Discover implementation (cardtechie/set-pipeline-runner#6) takes
+the rules from here rather than keeping its own copy.
+
+| Rule id | Applies to | Winning source | Rationale | Ruled |
+| --- | --- | --- | --- | --- |
+| `subset-ladder-checklist-insider` | `subsets` entries only | `checklistinsider.com` (subdomains included) | Checklist sites routinely split, merge and re-home subsets; the operator picked one site to settle the subset ladder | 2026-11-02 (work order #77) |
+
+A standing rule applies only when **all** of these hold:
+
+- every difference entry in the latest comparator run has `field: subsets`. Any
+  `card_count`, `card_rows`, `card_numbers`, `card_names` or `parallels` entry is
+  outside every standing rule and needs manufacturer precedence or a ruling;
+- exactly one compared source is on the rule's winning domain. When none is, or two
+  or more are, the rule does not apply;
+- manufacturer precedence does not apply, and no applicable trusted ruling exists
+  (written after the latest `source-disagreement` stop, when there is one): a ruling
+  overrides the rule.
+
+When a standing rule settles the disagreement, Discover recovers in this same run:
+there is **no stop and no ruling comment**. Discover stops with
+`source-disagreement` only when no ruling, no standing rule and no manufacturer
+precedence applies.
 
 **2. Classify every other source** against the authoritative one, using the difference
 JSON from the latest run. A source **disagrees** in an entry when its value there
 differs from the authoritative source's value, or, for `card_rows`, when it is listed
 at all.
 
-- **Base disagreer**: it disagrees in any `card_count`, `card_rows`, `card_numbers`,
-  `card_names` or `subsets` entry. It is **dropped**: its file is not passed to the comparator.
+- **Base disagreer**: it disagrees in any `card_count`, `card_rows`, `card_numbers`
+  or `card_names` entry. It is **dropped**: its file is not passed to the comparator.
 - **Ladder-only disagreer**: it disagrees only in `parallels` entries. It is **kept as
   base-only**: rewrite its extracted file with `parallels_listed: false` and
   `parallels: []`. Agreement rule 4 then leaves it out of the ladder comparison, with
   no comparator change. A ruling's `drop:` list may drop it outright instead.
+- **Subsets-only disagreer**: it disagrees only in `subsets` entries. It still
+  corroborates the base set, so it is **kept for the base comparison**: rewrite its
+  extracted file with `subsets_listed: false` and `subsets: []`. Agreement rule 5 then
+  leaves it out of the subset comparison, and the authoritative source supplies the
+  subset ladder. A ruling's `drop:` list may drop it outright instead.
+- **Ladder-and-subsets disagreer**: it disagrees only in `parallels` and `subsets`
+  entries. Apply both rewrites.
 - Every other source is passed unchanged.
 
 If the authoritative source itself is in a `card_rows` entry, it contradicts its own
@@ -313,7 +365,9 @@ count. Neither precedence nor a ruling can settle that: stop again.
 **3. Re-run the comparator** over the authoritative file and the kept files.
 
 - **0**: post the printed block as the Discover block, with a note line below the yaml
-  block citing the ruling comment's URL or `manufacturer precedence`.
+  block citing the ruling comment's URL, `manufacturer precedence`, or the standing
+  rule as `standing rule <rule id>` (for example
+  `standing rule subset-ladder-checklist-insider`).
 - **10**: the ruling did not cover this disagreement (for example, a source that
   appeared since). Stop again with `source-disagreement` and the new difference JSON.
   The operator rules again.

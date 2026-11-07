@@ -19,10 +19,14 @@ Agreement rules (all must hold):
 4. Among sources with `parallels_listed: true`, the parallel ladders are equal by
    normalized name and `print_run`. Base-only sources are left out of this
    comparison; they are never counted as disagreeing.
-5. Every source lists the same subsets (normalized name), and each subset has the same
-   `type` and stated `card_count` wherever it is listed. A source with `subsets: []`
-   disagrees with one that lists subsets: a missing subset is a difference, never a
-   silent pass.
+5. Among sources with `subsets_listed` true (the default when the key is absent),
+   every source lists the same subsets (normalized name), and each subset has the
+   same `type` and stated `card_count` wherever it is listed. A source with
+   `subsets: []` disagrees with one that lists subsets: a missing subset is a
+   difference, never a silent pass. A source with `subsets_listed: false` (kept for
+   the base comparison only, under a standing rule or a ruling) is left out of this
+   comparison and out of the reconciled `subsets:` list. At least one source must
+   keep `subsets_listed` true, or the input is malformed (exit 2).
 
 On agreement it prints the Discover block (`<!-- ocp-discover:v1 -->` plus one fenced
 yaml block, carrying the reconciled `subsets:` list) for Discover step 5 to post. `--meta <file>` adds `name`, `genre`,
@@ -257,18 +261,22 @@ def compare(sources):
                 found["parallels"].append({"field": "parallels", "name": rungs[key],
                                            "print_run": key[1], "values": listed})
 
-    # 5. Subsets, across every source (a source that lists none disagrees with one that does).
-    by_source = {s["url"]: {norm(x["name"]): x for x in s["subsets"]} for s in sources}
+    # 5. Subsets, across every source that lists them (a source that lists none
+    # disagrees with one that does). A `subsets_listed: false` source is base-only for
+    # subsets, the same way a `parallels_listed: false` source is base-only for ladders.
+    subset_sources = [s for s in sources if subsets_listed(s)]
+    subset_urls = [s["url"] for s in subset_sources]
+    by_source = {s["url"]: {norm(x["name"]): x for x in s["subsets"]} for s in subset_sources}
     spelling = {}
-    for s in sources:  # first spelling seen, in input order, names the subset
+    for s in subset_sources:  # first spelling seen, in input order, names the subset
         for key, x in by_source[s["url"]].items():
             spelling.setdefault(key, x["name"])
     for key in sorted(spelling):
-        listed = {u: key in by_source[u] for u in urls}
+        listed = {u: key in by_source[u] for u in subset_urls}
         if not all(listed.values()):
             found["subsets"].append({"field": "subsets", "name": spelling[key],
                                      "attribute": "listed", "values": listed})
-        having = {u: by_source[u][key] for u in urls if key in by_source[u]}
+        having = {u: by_source[u][key] for u in subset_urls if key in by_source[u]}
         if len(having) > 1:
             for attr in ("type", "card_count"):
                 values = {u: x[attr] for u, x in having.items()}
@@ -279,15 +287,22 @@ def compare(sources):
     return [d for f in FIELD_ORDER for d in found[f]]
 
 
+def subsets_listed(source):
+    """Whether a source takes part in the subset comparison (absent key = true)."""
+    return source.get("subsets_listed", True)
+
+
 def reconciled_subsets(sources):
     """The subsets of agreeing sources, as the Discover block carries them.
 
     The first spelling seen (input order) names a subset; `parallels_listed` is true
     when any source lists that subset's ladder, the same way a base-only source is left
-    out of the ladder comparison.
+    out of the ladder comparison. A `subsets_listed: false` source contributes nothing.
     """
     out = {}
     for s in sources:
+        if not subsets_listed(s):
+            continue
         for x in s["subsets"]:
             key = norm(x["name"])
             if key not in out:
@@ -361,6 +376,12 @@ def main(argv=None):
                 raise InputError("duplicate source url",
                                  [f"{path} and {seen[url]} both have url {url}"])
             seen[url] = path
+        if not any(subsets_listed(s) for s in sources):
+            # The block would read `subsets: []`, which claims a base-only product.
+            # subsets_listed: false is a recovery rewrite of a non-winning source; the
+            # authoritative source always keeps its subsets.
+            raise InputError("every source has subsets_listed: false",
+                             ["at least one source (the authoritative one) must list subsets"])
         meta = load_meta(args.meta) if args.meta else None
         # Built before comparing so a bad --meta is exit 2 whatever the sources say.
         block = discover_block(sources, meta)
