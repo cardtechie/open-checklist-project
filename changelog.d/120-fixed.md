@@ -1,0 +1,1 @@
+- **[Issue #120]** Fold curly and straight apostrophes and quotes, and en and em dashes against hyphens, when the source comparator compares names.
