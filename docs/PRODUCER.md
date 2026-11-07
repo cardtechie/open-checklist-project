@@ -165,7 +165,14 @@ malformed.
 
 ### Agreement rules
 
-Names are compared after whitespace-collapse and casefold, and nothing else. The
+Names are compared after a typographic fold, whitespace-collapse and casefold, and
+nothing else. The fold treats curly and modifier apostrophes (U+2018, U+2019, U+201B,
+U+02BC) as `'`, curly quotes (U+201C to U+201F) as `"`, and the hyphen and dash family
+(U+2010 to U+2015: hyphen, non-breaking hyphen, figure dash, en dash, em dash,
+horizontal bar) as `-`. The minus sign (U+2212) is not folded, and nothing broader
+(wording, abbreviations) is equated; when differently worded subset or parallel names
+mean the same thing is #122. The fold only builds the comparison key: the Discover
+block still carries the first source's exact spelling. The
 sources agree only when **all** of these hold:
 
 1. Every source's stated `card_count` is equal.

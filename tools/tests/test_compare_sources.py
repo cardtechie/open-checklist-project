@@ -121,6 +121,34 @@ class Agree(Runner):
         code, _, err = self.run_cli(self.write(source(URL_A)), self.write(b))
         self.assertEqual(code, cs.EXIT_AGREE, err)
 
+    def test_curly_apostrophe_in_a_card_name_agrees_with_a_straight_one(self):
+        a = source(URL_A, cards=[{"number": "1", "name": "Ja\u2019Marr Chase"}])
+        b = source(URL_B, cards=[{"number": "1", "name": "Ja'Marr Chase"}])
+        code, _, err = self.run_cli(self.write(a), self.write(b))
+        self.assertEqual(code, cs.EXIT_AGREE, err)
+
+    def test_en_dash_in_a_parallel_name_agrees_with_a_hyphen(self):
+        rung = [{"name": "Red-White-Blue", "print_run": 99}]
+        a = source(URL_A, parallels=rung)
+        b = source(URL_B, parallels=[{"name": "Red\u2013White\u2014Blue", "print_run": 99}])
+        code, _, err = self.run_cli(self.write(a), self.write(b))
+        self.assertEqual(code, cs.EXIT_AGREE, err)
+
+    def test_a_real_letter_difference_still_disagrees(self):
+        b = source(URL_B, cards=[{"number": "1", "name": "Ja'Mar Chase"}] + copy.deepcopy(CARDS[1:]))
+        a = source(URL_A, cards=[{"number": "1", "name": "Ja\u2019Marr Chase"}] + copy.deepcopy(CARDS[1:]))
+        code, _, err = self.run_cli(self.write(a), self.write(b))
+        self.assertEqual(code, cs.EXIT_DISAGREE, err)
+
+    def test_a_dash_does_not_match_a_space(self):
+        a = source(URL_A, parallels=[{"name": "Red\u2013White", "print_run": 99}])
+        b = source(URL_B, parallels=[{"name": "Red White", "print_run": 99}])
+        code, _, err = self.run_cli(self.write(a), self.write(b))
+        self.assertEqual(code, cs.EXIT_DISAGREE, err)
+
+    def test_minus_sign_is_not_folded(self):
+        self.assertNotEqual(cs.norm("A\u2212B"), cs.norm("A-B"))
+
     def test_card_and_rung_order_do_not_matter(self):
         b = source(URL_B, cards=list(reversed(CARDS)), parallels=list(reversed(LADDER)))
         code, _, err = self.run_cli(self.write(source(URL_A)), self.write(b))
@@ -164,6 +192,14 @@ class Subsets(Runner):
         parsed = cwo.parse_discover(out, reasons)
         self.assertEqual(reasons, [])
         self.assertEqual(parsed["subsets"], [self.AUTO, self.INSERT])  # first spelling names it
+
+    def test_curly_quotes_in_a_subset_name_agree_and_keep_the_first_spelling(self):
+        curly = sub("\u201cGolden\u201d Rookies", "insert", 20)
+        a = source(URL_A, subsets=[curly])
+        b = source(URL_B, subsets=[sub('"Golden" Rookies', "insert", 20)])
+        code, out, err = self.run_cli(self.write(a), self.write(b))
+        self.assertEqual(code, cs.EXIT_AGREE, err)
+        self.assertEqual(cwo.parse_discover(out, [])["subsets"], [curly])
 
     def test_base_only_product_emits_an_explicit_empty_list(self):
         code, out, err = self.run_cli(self.write(source(URL_A)), self.write(source(URL_B)))
