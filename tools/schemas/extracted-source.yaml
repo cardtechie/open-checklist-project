@@ -63,9 +63,10 @@ properties:
     description: >-
       Optional; default true. false keeps the source for the base comparison only and
       leaves it out of the subset comparison, the way parallels_listed false does for
-      ladders. Set only when a standing rule or a ruling settles a subsets-only
-      disagreement against this source (docs/PRODUCER.md -> Recovery after a
-      disagreement). subsets must then be empty.
+      ladders. Set only when a standing rule or a ruling settles a disagreement
+      involving subsets against this source: a subsets-only disagreement, or the
+      subsets half of a combined ladder-and-subsets disagreement (docs/PRODUCER.md ->
+      Recovery after a disagreement). subsets must then be empty.
     type: boolean
   subsets:
     description: >-
