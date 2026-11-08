@@ -222,16 +222,24 @@ def own_set_dirs(data_dir, set_id, reserved_canonical):
 def existing_uuids(data_dir, exclude_dirs=()):
     """Every `uuid:` value committed anywhere under data/ (lower-cased).
 
-    Files under any directory in `exclude_dirs` (resolved paths) are skipped.
+    Files under any directory in `exclude_dirs` (resolved paths) are skipped, but
+    only when the file sits under that directory both lexically (by its path in the
+    tree) and once resolved. A symlink elsewhere under data/ that points into an
+    excluded directory is still read, so the UUID it exposes is not hidden; and a
+    symlink inside an excluded directory that escapes it is read too.
     """
     found = set()
     root = Path(data_dir)
     if not root.is_dir():
         return found
+    real_root = root.resolve()
     excluded = [Path(d).resolve() for d in exclude_dirs]
     for path in root.rglob("*.y*ml"):
-        if excluded and any(path.resolve().is_relative_to(d) for d in excluded):
-            continue
+        if excluded:
+            lexical = real_root / path.relative_to(root)
+            resolved = path.resolve()
+            if any(lexical.is_relative_to(d) and resolved.is_relative_to(d) for d in excluded):
+                continue
         try:
             text = path.read_text(errors="replace")
         except OSError:

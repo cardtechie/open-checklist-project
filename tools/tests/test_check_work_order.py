@@ -216,6 +216,17 @@ class CheckWorkOrderTests(unittest.TestCase):
         self.assertNotReady(v, "already used")
         self.assertFalse(any("already has a data directory" in r for r in v["reasons"]))
 
+    def test_symlink_into_own_set_dir_still_collides(self):
+        # A YAML file outside the owned directory that is a symlink into it must
+        # not be skipped: it exposes the reserved UUID somewhere else under data/.
+        own = self.own_set_dir()
+        d = self.data / "football" / "other-set"
+        d.mkdir(parents=True)
+        (d / "alias.yaml").symlink_to(own / "set.yaml")
+        v = self.run_check(ready_payload())
+        self.assertNotReady(v, "already used")
+        self.assertFalse(any("already has a data directory" in r for r in v["reasons"]))
+
     def test_field_resolved_by_id_when_name_absent(self):
         p = ready_payload()
         for f in p["field_values"]:
