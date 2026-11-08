@@ -168,13 +168,56 @@ def existing_set_ids(data_dir):
             for p in genre.iterdir() if p.is_dir()}
 
 
-def existing_uuids(data_dir):
-    """Every `uuid:` value committed anywhere under data/ (lower-cased)."""
+def set_dirs(data_dir, set_id):
+    """Every `data/<genre>/<set_id>/` directory, across all genres."""
+    root = Path(data_dir)
+    if not (set_id and root.is_dir()):
+        return []
+    return [genre / set_id for genre in root.iterdir()
+            if genre.is_dir() and (genre / set_id).is_dir()]
+
+
+def own_set_dirs(data_dir, set_id, reserved_canonical):
+    """The `data/<genre>/<set_id>/` directories that are the work order's own output.
+
+    A directory is the work order's own when its `set.yaml` top-level `uuid:` equals
+    the reserved UUID (`reserved_canonical`, lower-cased 8-4-4-4-12): the producer
+    commits the reserved UUID unchanged into the set's `set.yaml`, so a different set
+    that merely reuses the slug carries a different UUID and stays a collision. This
+    is what lets the checker run from the set's own PR branch. An unreadable,
+    malformed or non-mapping `set.yaml`, or one with no UUID yet, is not owned.
+    """
+    if not (set_id and reserved_canonical):
+        return set()
+    owned = set()
+    for d in set_dirs(data_dir, set_id):
+        try:
+            data = yaml.safe_load((d / "set.yaml").read_text(errors="replace"))
+        except (OSError, yaml.YAMLError, ValueError, TypeError, OverflowError, RecursionError):
+            continue
+        if not isinstance(data, dict):
+            continue
+        value = data.get("uuid")
+        if not isinstance(value, str) or not UUID_TEXT_RE.match(value.strip()):
+            continue
+        if str(uuidlib.UUID(value.strip())) == reserved_canonical:
+            owned.add(d.resolve())
+    return owned
+
+
+def existing_uuids(data_dir, exclude_dirs=()):
+    """Every `uuid:` value committed anywhere under data/ (lower-cased).
+
+    Files under any directory in `exclude_dirs` (resolved paths) are skipped.
+    """
     found = set()
     root = Path(data_dir)
     if not root.is_dir():
         return found
+    excluded = [Path(d).resolve() for d in exclude_dirs]
     for path in root.rglob("*.y*ml"):
+        if excluded and any(path.resolve().is_relative_to(d) for d in excluded):
+            continue
         try:
             text = path.read_text(errors="replace")
         except OSError:
@@ -473,26 +516,15 @@ def check(payload, data_dir="data"):
     if issue_type_name(issue) != WORK_ORDER_TYPE:
         reasons.append(f"issue type is not '{WORK_ORDER_TYPE}' (got: {issue_type_name(issue)})")
 
-    # 2. set_id: present, a slug, no existing data dir.
-    # The pinned value is checked as written: the producer may not edit pinned
-    # fields, so surrounding whitespace is refused rather than silently stripped.
-    set_id = field_value(payload.get("field_values"), FIELD_SET_ID)
-    set_id = set_id if isinstance(set_id, str) else None
-    if not (set_id and set_id.strip()):
-        set_id = None
-        reasons.append("pinned field set_id is empty")
-    elif set_id != set_id.strip():
-        reasons.append(f"set_id {set_id!r} has surrounding whitespace")
-    elif not SLUG_RE.match(set_id):
-        reasons.append(f"set_id '{set_id}' is not a lowercase slug")
-    elif set_id in existing_set_ids(data_dir):
-        reasons.append(f"set_id '{set_id}' already has a data directory")
-
-    # 3. Reserved set UUID: present, a valid UUID, not already used.
+    # 3 is validated before 2: deciding whether an existing set directory is the work
+    # order's own output needs the reserved UUID. Reasons keep their original order.
+    # Reserved set UUID: present, a valid UUID, not already used.
     raw_uuid = field_value(payload.get("field_values"), FIELD_UUID)
     reserved = None
+    canonical = None
+    uuid_reasons = []
     if not (isinstance(raw_uuid, str) and raw_uuid.strip()):
-        reasons.append("pinned field Reserved set UUID is empty")
+        uuid_reasons.append("pinned field Reserved set UUID is empty")
     else:
         # The producer commits the reserved UUID unchanged, so the verdict returns the
         # field text as written (only trimmed) and canonicalizes solely to compare for
@@ -504,11 +536,36 @@ def check(payload, data_dir="data"):
                 raise ValueError(text)
             canonical = str(uuidlib.UUID(text))
         except ValueError:
-            reasons.append(f"Reserved set UUID '{text}' is not a valid UUID")
+            uuid_reasons.append(f"Reserved set UUID '{text}' is not a valid UUID")
         else:
             reserved = text
-            if canonical in existing_uuids(data_dir):
-                reasons.append(f"Reserved set UUID {reserved} is already used under {data_dir}/")
+
+    # 2. set_id: present, a slug, no existing data dir other than the work order's own.
+    # The pinned value is checked as written: the producer may not edit pinned
+    # fields, so surrounding whitespace is refused rather than silently stripped.
+    set_id = field_value(payload.get("field_values"), FIELD_SET_ID)
+    set_id = set_id if isinstance(set_id, str) else None
+    owned = set()
+    if not (set_id and set_id.strip()):
+        set_id = None
+        reasons.append("pinned field set_id is empty")
+    elif set_id != set_id.strip():
+        reasons.append(f"set_id {set_id!r} has surrounding whitespace")
+    elif not SLUG_RE.match(set_id):
+        reasons.append(f"set_id '{set_id}' is not a lowercase slug")
+    elif set_id in existing_set_ids(data_dir):
+        # Run from the set's own PR branch, the set's directory already exists. It is
+        # not a collision when every directory of that name carries the reserved UUID
+        # in its set.yaml (#121).
+        owned = own_set_dirs(data_dir, set_id, canonical)
+        if not all(d.resolve() in owned for d in set_dirs(data_dir, set_id)):
+            reasons.append(f"set_id '{set_id}' already has a data directory")
+
+    # 3. The UUID collision check skips the work order's own set directories only; the
+    # reserved UUID anywhere else is still a collision.
+    if canonical is not None and canonical in existing_uuids(data_dir, exclude_dirs=owned):
+        uuid_reasons.append(f"Reserved set UUID {reserved} is already used under {data_dir}/")
+    reasons.extend(uuid_reasons)
 
     # 4. Exactly one effective Discover block (last-written trusted one wins), not revoked
     # by a Discover stop or a reservation stop. A trusted `<!-- ocp-discover-stop:v1 -->`
