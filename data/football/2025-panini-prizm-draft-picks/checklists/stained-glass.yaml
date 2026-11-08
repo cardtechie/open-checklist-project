@@ -1,0 +1,150 @@
+- number: '1'
+  uuid: 71e092d4-9c0e-4fcf-a715-fc97be71f3fa
+  subjects:
+  - entities:
+    - role: player
+      name: Jeremiah Smith
+      ref: null
+    - role: team
+      name: Ohio State Buckeyes
+      ref: null
+- number: '2'
+  uuid: 9dd7a8ab-da4f-444d-b531-f3c6da081ebb
+  subjects:
+  - entities:
+    - role: player
+      name: Ryan Williams
+      ref: null
+    - role: team
+      name: Alabama Crimson Tide
+      ref: null
+- number: '3'
+  uuid: 3ee870f5-ce43-4ce5-b2fb-4dc87317f2ea
+  subjects:
+  - entities:
+    - role: player
+      name: Arch Manning
+      ref: null
+    - role: team
+      name: Texas Longhorns
+      ref: null
+- number: '4'
+  uuid: 4f254b81-cf0d-47b3-93e0-6c808080ada0
+  subjects:
+  - entities:
+    - role: player
+      name: Marcel Reed
+      ref: null
+    - role: team
+      name: Texas A&M Aggies
+      ref: null
+- number: '5'
+  uuid: e1a9f1c7-6bcf-4001-8afc-57bd974b6ab7
+  subjects:
+  - entities:
+    - role: player
+      name: Ashton Jeanty
+      ref: null
+    - role: team
+      name: Boise State Broncos
+      ref: null
+- number: '6'
+  uuid: 7f96a3da-c993-4cf1-ba1d-776599c2d2c6
+  subjects:
+  - entities:
+    - role: player
+      name: Dante Moore
+      ref: null
+    - role: team
+      name: Oregon Ducks
+      ref: null
+- number: '7'
+  uuid: 3f734979-491c-470b-a06b-c835e544c895
+  subjects:
+  - entities:
+    - role: player
+      name: Riley Leonard
+      ref: null
+    - role: team
+      name: Notre Dame Fighting Irish
+      ref: null
+- number: '8'
+  uuid: ce45bf2e-4c8e-4a35-8902-76c007c0c49e
+  subjects:
+  - entities:
+    - role: player
+      name: Dylan Raiola
+      ref: null
+    - role: team
+      name: Nebraska Cornhuskers
+      ref: null
+- number: '9'
+  uuid: 8d57c167-0544-4138-9a4d-3585be20edbc
+  subjects:
+  - entities:
+    - role: player
+      name: Tetairoa McMillan
+      ref: null
+    - role: team
+      name: Arizona Wildcats
+      ref: null
+- number: '10'
+  uuid: c5ceb28e-0a8a-4f50-a21c-e351a7df6abc
+  subjects:
+  - entities:
+    - role: player
+      name: Travis Hunter
+      ref: null
+    - role: team
+      name: Colorado Buffaloes
+      ref: null
+- number: '11'
+  uuid: e422c793-4e54-445a-b442-4dbb578b7e13
+  subjects:
+  - entities:
+    - role: player
+      name: Shedeur Sanders
+      ref: null
+    - role: team
+      name: Colorado Buffaloes
+      ref: null
+- number: '12'
+  uuid: 0d9658a2-349b-4d4a-8e83-b1a78765531f
+  subjects:
+  - entities:
+    - role: player
+      name: Cam Ward
+      ref: null
+    - role: team
+      name: Miami Hurricanes
+      ref: null
+- number: '13'
+  uuid: 0793b47b-d0ad-41f9-9cf3-749f392bcc56
+  subjects:
+  - entities:
+    - role: player
+      name: Jalen Milroe
+      ref: null
+    - role: team
+      name: Alabama Crimson Tide
+      ref: null
+- number: '14'
+  uuid: bfea03bb-4452-4a55-b856-7cf0259f90e8
+  subjects:
+  - entities:
+    - role: player
+      name: Abdul Carter
+      ref: null
+    - role: team
+      name: Penn State Nittany Lions
+      ref: null
+- number: '15'
+  uuid: d1ab7624-f52e-4670-a526-e945e95ca888
+  subjects:
+  - entities:
+    - role: player
+      name: Tyler Warren
+      ref: null
+    - role: team
+      name: Penn State Nittany Lions
+      ref: null

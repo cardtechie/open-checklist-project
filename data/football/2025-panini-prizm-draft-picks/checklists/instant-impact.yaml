@@ -1,0 +1,250 @@
+- number: '1'
+  uuid: 9c1e75d4-bb76-4308-b19f-983a892f593a
+  subjects:
+  - entities:
+    - role: player
+      name: Abdul Carter
+      ref: null
+    - role: team
+      name: Penn State Nittany Lions
+      ref: null
+- number: '2'
+  uuid: a4fc39cb-d582-4b10-a5ec-a7689dab39c3
+  subjects:
+  - entities:
+    - role: player
+      name: Ashton Jeanty
+      ref: null
+    - role: team
+      name: Boise State Broncos
+      ref: null
+- number: '3'
+  uuid: 186270c1-a05c-491f-b4ef-83117e0868b3
+  subjects:
+  - entities:
+    - role: player
+      name: Cam Skattebo
+      ref: null
+    - role: team
+      name: Arizona State Sun Devils
+      ref: null
+- number: '4'
+  uuid: 1cc49b0e-9cba-420c-84aa-a45e35f9de2a
+  subjects:
+  - entities:
+    - role: player
+      name: Cam Ward
+      ref: null
+    - role: team
+      name: Miami Hurricanes
+      ref: null
+- number: '5'
+  uuid: 8acd3c5f-3efc-4d4c-b3ba-6aaaa2738d3b
+  subjects:
+  - entities:
+    - role: player
+      name: Dillon Gabriel
+      ref: null
+    - role: team
+      name: Oregon Ducks
+      ref: null
+- number: '6'
+  uuid: 5f96f951-fc56-4590-a099-7a4d288f1c32
+  subjects:
+  - entities:
+    - role: player
+      name: Donovan Edwards
+      ref: null
+    - role: team
+      name: Michigan Wolverines
+      ref: null
+- number: '7'
+  uuid: 8b5c4a44-571b-4c9e-9067-3d63879119a0
+  subjects:
+  - entities:
+    - role: player
+      name: Drew Allar
+      ref: null
+    - role: team
+      name: Penn State Nittany Lions
+      ref: null
+- number: '8'
+  uuid: 1558ead6-8870-4ce3-8bb7-aec701b2048c
+  subjects:
+  - entities:
+    - role: player
+      name: Emeka Egbuka
+      ref: null
+    - role: team
+      name: Ohio State Buckeyes
+      ref: null
+- number: '9'
+  uuid: 27f5331f-ec9d-426b-a741-9a25c9c3997d
+  subjects:
+  - entities:
+    - role: player
+      name: Jalen Milroe
+      ref: null
+    - role: team
+      name: Alabama Crimson Tide
+      ref: null
+- number: '10'
+  uuid: 73c78057-d08d-4433-bf49-e6c59cc25cc3
+  subjects:
+  - entities:
+    - role: player
+      name: James Pearce Jr.
+      ref: null
+    - role: team
+      name: Tennessee Volunteers
+      ref: null
+- number: '11'
+  uuid: d1810a40-5459-4006-93ef-1e75385fb21c
+  subjects:
+  - entities:
+    - role: player
+      name: Jaxson Dart
+      ref: null
+    - role: team
+      name: Ole Miss Rebels
+      ref: null
+- number: '12'
+  uuid: aa5c35f7-35f7-485d-b50d-b7dc6b7f767c
+  subjects:
+  - entities:
+    - role: player
+      name: Luther Burden III
+      ref: null
+    - role: team
+      name: Missouri Tigers
+      ref: null
+- number: '13'
+  uuid: 612f0848-adb0-4a8e-8eb7-17e09609c85c
+  subjects:
+  - entities:
+    - role: player
+      name: Mykel Williams
+      ref: null
+    - role: team
+      name: Georgia Bulldogs
+      ref: null
+- number: '14'
+  uuid: 331e6e63-bc44-45ef-acaf-cdbcd2d21349
+  subjects:
+  - entities:
+    - role: player
+      name: Quinn Ewers
+      ref: null
+    - role: team
+      name: Texas Longhorns
+      ref: null
+- number: '15'
+  uuid: 30b47788-fe07-497c-ab38-2e4dbed774c7
+  subjects:
+  - entities:
+    - role: player
+      name: Shedeur Sanders
+      ref: null
+    - role: team
+      name: Colorado Buffaloes
+      ref: null
+- number: '16'
+  uuid: 4ce4b4c2-e5df-4ebd-89df-3687f24754e6
+  subjects:
+  - entities:
+    - role: player
+      name: Trevor Etienne
+      ref: null
+    - role: team
+      name: Georgia Bulldogs
+      ref: null
+- number: '17'
+  uuid: b22eb24d-56ff-4b55-a71c-0629c1311f77
+  subjects:
+  - entities:
+    - role: player
+      name: Travis Hunter
+      ref: null
+    - role: team
+      name: Colorado Buffaloes
+      ref: null
+- number: '18'
+  uuid: 6b5d7a9b-f902-4e5a-8ebf-039220913048
+  subjects:
+  - entities:
+    - role: player
+      name: Will Howard
+      ref: null
+    - role: team
+      name: Ohio State Buckeyes
+      ref: null
+- number: '19'
+  uuid: 28ae8a83-2a8a-4b05-b6c0-a4536d93a1bd
+  subjects:
+  - entities:
+    - role: player
+      name: Will Johnson
+      ref: null
+    - role: team
+      name: Michigan Wolverines
+      ref: null
+- number: '20'
+  uuid: 2b9a25cc-7f2e-457a-b93b-374ac29ad8ee
+  subjects:
+  - entities:
+    - role: player
+      name: Riley Leonard
+      ref: null
+    - role: team
+      name: Notre Dame Fighting Irish
+      ref: null
+- number: '21'
+  uuid: 17af4f04-8ff8-40c7-ac13-17b40000d1d7
+  subjects:
+  - entities:
+    - role: player
+      name: Arch Manning
+      ref: null
+    - role: team
+      name: Texas Longhorns
+      ref: null
+- number: '22'
+  uuid: 07771c30-d3b7-4a21-84e0-e0708ac383d0
+  subjects:
+  - entities:
+    - role: player
+      name: Dylan Raiola
+      ref: null
+    - role: team
+      name: Nebraska Cornhuskers
+      ref: null
+- number: '23'
+  uuid: f0c840b7-1182-4244-a7f1-12563056a653
+  subjects:
+  - entities:
+    - role: player
+      name: Julian Sayin
+      ref: null
+    - role: team
+      name: Ohio State Buckeyes
+      ref: null
+- number: '24'
+  uuid: 8196ef81-4011-494b-b56f-94e8081cf600
+  subjects:
+  - entities:
+    - role: player
+      name: Mike Matthews
+      ref: null
+    - role: team
+      name: Tennessee Volunteers
+      ref: null
+- number: '25'
+  uuid: 5c396623-0bde-4b67-8f8e-5f132e24b37e
+  subjects:
+  - entities:
+    - role: player
+      name: Zachariah Branch
+      ref: null
+    - role: team
+      name: Georgia Bulldogs
+      ref: null
