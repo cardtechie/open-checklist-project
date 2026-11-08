@@ -227,6 +227,26 @@ class CheckWorkOrderTests(unittest.TestCase):
         self.assertNotReady(v, "already used")
         self.assertFalse(any("already has a data directory" in r for r in v["reasons"]))
 
+    def test_directory_symlink_into_own_set_dir_still_collides(self):
+        # rglob() does not descend through a directory symlink, so an alias of the
+        # owned directory elsewhere under data/ must still expose the reserved UUID.
+        own = self.own_set_dir()
+        (self.data / "football" / "other-set").symlink_to(own, target_is_directory=True)
+        v = self.run_check(ready_payload())
+        self.assertNotReady(v, "already used")
+        self.assertFalse(any("already has a data directory" in r for r in v["reasons"]))
+
+    def test_directory_symlink_cycle_does_not_hang(self):
+        self.own_set_dir()
+        (self.data / "football" / "loop").symlink_to(self.data, target_is_directory=True)
+        v = self.run_check(ready_payload())
+        self.assertNotReady(v, "already used")
+
+    def test_own_set_yaml_uuid_with_whitespace_is_not_owned(self):
+        d = self.own_set_dir()
+        (d / "set.yaml").write_text(f'uuid: " {UUID} "\nset_id: x\nname: x\n')
+        self.assertNotReady(self.run_check(ready_payload()), "already has a data directory")
+
     def test_field_resolved_by_id_when_name_absent(self):
         p = ready_payload()
         for f in p["field_values"]:

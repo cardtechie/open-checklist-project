@@ -17,6 +17,7 @@ can run offline and in tests.
 It never writes to GitHub. Exit 0 = ready, 10 = not ready, 2 = usage or read error.
 """
 import argparse
+import fnmatch
 import ipaddress
 import json
 import re
@@ -212,33 +213,83 @@ def own_set_dirs(data_dir, set_id, reserved_canonical):
         if not isinstance(data, dict):
             continue
         value = data.get("uuid")
-        if not isinstance(value, str) or not UUID_TEXT_RE.match(value.strip()):
+        # The producer commits the reserved UUID unchanged, so surrounding
+        # whitespace (or any other decoration) means this is not the reserved
+        # identity: compare the value exactly as committed, never stripped.
+        if not isinstance(value, str) or not UUID_TEXT_RE.fullmatch(value):
             continue
-        if str(uuidlib.UUID(value.strip())) == reserved_canonical:
+        if str(uuidlib.UUID(value)) == reserved_canonical:
             owned.add(d.resolve())
     return owned
+
+
+def walk_data_tree(root):
+    """Walk `root` once, following directory symlinks, and return what it holds.
+
+    `Path.rglob()` does not descend through a directory symlink, so an alias such as
+    `data/<genre>/other -> <owned set dir>` would never be visited. This walk follows
+    them, entering each real directory once (which also breaks symlink cycles), and
+    records every entry by its PHYSICAL location — its real parent directory plus
+    its own name — so the result does not depend on which path reached it.
+
+    Returns `(yaml_files, dir_links)`: `yaml_files` is a list of
+    `(physical, path)` for every `*.y*ml` entry, and `dir_links` a list of
+    `(physical, target)` for every directory symlink.
+    """
+    seen = set()
+    yaml_files, dir_links = [], []
+    stack = [Path(root)]
+    while stack:
+        d = stack.pop()
+        try:
+            real = d.resolve(strict=True)
+            if real in seen:
+                continue
+            seen.add(real)
+            entries = sorted(d.iterdir())
+        except (OSError, RuntimeError):
+            continue
+        for p in entries:
+            try:
+                if p.is_dir():
+                    if p.is_symlink():
+                        dir_links.append((real / p.name, p.resolve()))
+                    stack.append(p)
+                elif fnmatch.fnmatch(p.name, "*.y*ml"):
+                    yaml_files.append((real / p.name, p))
+            except (OSError, RuntimeError):
+                continue
+    return yaml_files, dir_links
 
 
 def existing_uuids(data_dir, exclude_dirs=()):
     """Every `uuid:` value committed anywhere under data/ (lower-cased).
 
     Files under any directory in `exclude_dirs` (resolved paths) are skipped, but
-    only when the file sits under that directory both lexically (by its path in the
-    tree) and once resolved. A symlink elsewhere under data/ that points into an
-    excluded directory is still read, so the UUID it exposes is not hidden; and a
-    symlink inside an excluded directory that escapes it is read too.
+    only when the file's own directory entry sits inside that directory and the file
+    also resolves inside it. A symlink elsewhere under data/ never hides the UUID it
+    exposes: a file symlink pointing into an excluded directory is read, and a
+    directory symlink outside an excluded directory that resolves into it — or to
+    one of its ancestors — cancels that exclusion outright. A symlink inside an
+    excluded directory that escapes it is read too.
     """
     found = set()
     root = Path(data_dir)
     if not root.is_dir():
         return found
-    real_root = root.resolve()
+    yaml_files, dir_links = walk_data_tree(root)
     excluded = [Path(d).resolve() for d in exclude_dirs]
-    for path in root.rglob("*.y*ml"):
+    excluded = [
+        d for d in excluded
+        if not any(not physical.is_relative_to(d)
+                   and (target.is_relative_to(d) or d.is_relative_to(target))
+                   for physical, target in dir_links)
+    ]
+    for physical, path in yaml_files:
         if excluded:
-            lexical = real_root / path.relative_to(root)
             resolved = path.resolve()
-            if any(lexical.is_relative_to(d) and resolved.is_relative_to(d) for d in excluded):
+            if any(physical.is_relative_to(d) and resolved.is_relative_to(d)
+                   for d in excluded):
                 continue
         try:
             text = path.read_text(errors="replace")
