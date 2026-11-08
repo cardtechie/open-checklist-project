@@ -129,6 +129,11 @@ trusted operator ruling, or `null` when there is none or it is malformed. It is
 informational only and changes neither `reasons` nor `ready`. The checker never
 writes to GitHub.
 
+The checker may be run from a set's own branch: a `data/<genre>/<set_id>/` directory
+whose `set.yaml` carries the reserved UUID is the work order's own output, so neither it
+nor the reserved UUID inside it counts as a collision. Any other directory with that
+`set_id`, or the reserved UUID anywhere else under `data/`, still does.
+
 ## Source comparison
 
 Whether a work order's checklist sources agree is decided by code, not by the agent.

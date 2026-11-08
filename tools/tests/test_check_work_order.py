@@ -135,6 +135,129 @@ class CheckWorkOrderTests(unittest.TestCase):
         (self.data / "football" / "2025-panini-prizm-draft-picks").mkdir()
         self.assertNotReady(self.run_check(ready_payload()), "already has a data directory")
 
+    def own_set_dir(self, set_uuid=UUID, genre="football", set_id="2025-panini-prizm-draft-picks"):
+        d = self.data / genre / set_id
+        (d / "checklists").mkdir(parents=True)
+        (d / "set.yaml").write_text(f"uuid: {set_uuid}\nset_id: {set_id}\nname: x\n")
+        (d / "checklists" / "base.yaml").write_text(f"- number: '1'\n  uuid: {set_uuid}\n")
+        return d
+
+    def test_own_set_branch_is_ready(self):
+        # #121: run from the set's own PR branch, its directory and reserved UUID
+        # are the work order's own output, not collisions.
+        self.own_set_dir()
+        v = self.run_check(ready_payload())
+        self.assertTrue(v["ready"], v["reasons"])
+
+    def test_own_set_branch_with_uppercase_reserved_uuid_is_ready(self):
+        self.own_set_dir()
+        p = ready_payload()
+        p["field_values"][1]["value"] = UUID.upper()
+        v = self.run_check(p)
+        self.assertTrue(v["ready"], v["reasons"])
+
+    def test_set_id_dir_with_other_uuid_is_collision(self):
+        self.own_set_dir(set_uuid="0b8a5d39-1c3e-4f7a-9d2b-5e6f7a8b9c0d")
+        self.assertNotReady(self.run_check(ready_payload()), "already has a data directory")
+
+    def test_set_id_dir_without_set_yaml_is_collision(self):
+        d = self.data / "football" / "2025-panini-prizm-draft-picks"
+        d.mkdir()
+        (d / "base.yaml").write_text(f"uuid: {UUID}\n")
+        v = self.run_check(ready_payload())
+        self.assertNotReady(v, "already has a data directory")
+        self.assertNotReady(v, "already used")
+
+    def test_set_id_dir_in_second_genre_is_collision(self):
+        self.own_set_dir()
+        (self.data / "baseball" / "2025-panini-prizm-draft-picks").mkdir(parents=True)
+        self.assertNotReady(self.run_check(ready_payload()), "already has a data directory")
+
+    def test_own_set_dir_in_two_genres_is_collision(self):
+        # Two fully populated directories with the same set_id both carrying the
+        # reserved UUID: only one can be the work order's own output.
+        self.own_set_dir()
+        self.own_set_dir(genre="baseball")
+        v = self.run_check(ready_payload())
+        self.assertNotReady(v, "already has a data directory")
+        self.assertNotReady(v, "already used")
+
+    def test_symlinked_set_dir_is_not_owned(self):
+        # A branch aliasing data/<genre>/<set_id> to another in-tree set directory
+        # that holds the reserved UUID must not hide that UUID.
+        other = self.own_set_dir(set_id="other-set")
+        (self.data / "football" / "2025-panini-prizm-draft-picks").symlink_to(
+            other, target_is_directory=True)
+        v = self.run_check(ready_payload())
+        self.assertNotReady(v, "already has a data directory")
+        self.assertNotReady(v, "already used")
+
+    def test_symlinked_set_yaml_is_not_owned(self):
+        other = self.own_set_dir(set_id="other-set")
+        d = self.data / "football" / "2025-panini-prizm-draft-picks"
+        d.mkdir(parents=True)
+        (d / "set.yaml").symlink_to(other / "set.yaml")
+        v = self.run_check(ready_payload())
+        self.assertNotReady(v, "already has a data directory")
+        self.assertNotReady(v, "already used")
+
+    def test_own_set_dir_with_invalid_reserved_uuid_is_collision(self):
+        self.own_set_dir()
+        p = ready_payload()
+        p["field_values"][1]["value"] = "not-a-uuid"
+        self.assertNotReady(self.run_check(p), "already has a data directory")
+
+    def test_reserved_uuid_elsewhere_still_collides_on_own_branch(self):
+        self.own_set_dir()
+        d = self.data / "football" / "other-set"
+        d.mkdir(parents=True)
+        (d / "set.yaml").write_text(f"uuid: {UUID}\n")
+        v = self.run_check(ready_payload())
+        self.assertNotReady(v, "already used")
+        self.assertFalse(any("already has a data directory" in r for r in v["reasons"]))
+
+    def test_symlink_into_own_set_dir_still_collides(self):
+        # A YAML file outside the owned directory that is a symlink into it must
+        # not be skipped: it exposes the reserved UUID somewhere else under data/.
+        own = self.own_set_dir()
+        d = self.data / "football" / "other-set"
+        d.mkdir(parents=True)
+        (d / "alias.yaml").symlink_to(own / "set.yaml")
+        v = self.run_check(ready_payload())
+        self.assertNotReady(v, "already used")
+        self.assertFalse(any("already has a data directory" in r for r in v["reasons"]))
+
+    def test_directory_symlink_into_own_set_dir_still_collides(self):
+        # rglob() does not descend through a directory symlink, so an alias of the
+        # owned directory elsewhere under data/ must still expose the reserved UUID.
+        own = self.own_set_dir()
+        (self.data / "football" / "other-set").symlink_to(own, target_is_directory=True)
+        v = self.run_check(ready_payload())
+        self.assertNotReady(v, "already used")
+        self.assertFalse(any("already has a data directory" in r for r in v["reasons"]))
+
+    def test_directory_symlink_cycle_does_not_hang(self):
+        self.own_set_dir()
+        (self.data / "football" / "loop").symlink_to(self.data, target_is_directory=True)
+        v = self.run_check(ready_payload())
+        self.assertNotReady(v, "already used")
+
+    def test_directory_symlink_outside_data_root_is_not_followed(self):
+        # A directory symlink whose target lies outside data/ must not be walked:
+        # the reserved UUID sitting out there is not committed set data.
+        self.own_set_dir()
+        outside = Path(self._tmp.name) / "outside"
+        outside.mkdir()
+        (outside / "set.yaml").write_text(f"uuid: {UUID}\n")
+        (self.data / "football" / "escape").symlink_to(outside, target_is_directory=True)
+        v = self.run_check(ready_payload())
+        self.assertTrue(v["ready"], v["reasons"])
+
+    def test_own_set_yaml_uuid_with_whitespace_is_not_owned(self):
+        d = self.own_set_dir()
+        (d / "set.yaml").write_text(f'uuid: " {UUID} "\nset_id: x\nname: x\n')
+        self.assertNotReady(self.run_check(ready_payload()), "already has a data directory")
+
     def test_field_resolved_by_id_when_name_absent(self):
         p = ready_payload()
         for f in p["field_values"]:
