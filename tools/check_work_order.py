@@ -186,13 +186,27 @@ def own_set_dirs(data_dir, set_id, reserved_canonical):
     that merely reuses the slug carries a different UUID and stays a collision. This
     is what lets the checker run from the set's own PR branch. An unreadable,
     malformed or non-mapping `set.yaml`, or one with no UUID yet, is not owned.
+
+    Ownership is confined to the real data tree: a genre directory, set directory or
+    `set.yaml` that is a symlink, or one that resolves outside `data_dir`, is never
+    owned. Otherwise a branch could alias `data/<genre>/<set_id>` to another in-tree
+    directory holding the reserved UUID and hide that UUID from the collision check.
     """
     if not (set_id and reserved_canonical):
         return set()
+    root = Path(data_dir).resolve()
     owned = set()
     for d in set_dirs(data_dir, set_id):
+        set_yaml = d / "set.yaml"
+        if d.parent.is_symlink() or d.is_symlink() or set_yaml.is_symlink():
+            continue
+        resolved = d.resolve()
+        if not resolved.is_relative_to(root) or resolved == root:
+            continue
+        if not set_yaml.resolve().is_relative_to(resolved):
+            continue
         try:
-            data = yaml.safe_load((d / "set.yaml").read_text(errors="replace"))
+            data = yaml.safe_load(set_yaml.read_text(errors="replace"))
         except (OSError, yaml.YAMLError, ValueError, TypeError, OverflowError, RecursionError):
             continue
         if not isinstance(data, dict):
@@ -555,10 +569,14 @@ def check(payload, data_dir="data"):
         reasons.append(f"set_id '{set_id}' is not a lowercase slug")
     elif set_id in existing_set_ids(data_dir):
         # Run from the set's own PR branch, the set's directory already exists. It is
-        # not a collision when every directory of that name carries the reserved UUID
-        # in its set.yaml (#121).
+        # not a collision only when exactly one directory of that name exists and its
+        # set.yaml carries the reserved UUID (#121). A second directory with the same
+        # set_id is a collision even when it carries the reserved UUID too, and then
+        # nothing is owned, so the UUID check below reports that reuse as well.
+        dirs = set_dirs(data_dir, set_id)
         owned = own_set_dirs(data_dir, set_id, canonical)
-        if not all(d.resolve() in owned for d in set_dirs(data_dir, set_id)):
+        if len(dirs) != 1 or dirs[0].resolve() not in owned:
+            owned = set()
             reasons.append(f"set_id '{set_id}' already has a data directory")
 
     # 3. The UUID collision check skips the work order's own set directories only; the

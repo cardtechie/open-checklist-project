@@ -173,6 +173,34 @@ class CheckWorkOrderTests(unittest.TestCase):
         (self.data / "baseball" / "2025-panini-prizm-draft-picks").mkdir(parents=True)
         self.assertNotReady(self.run_check(ready_payload()), "already has a data directory")
 
+    def test_own_set_dir_in_two_genres_is_collision(self):
+        # Two fully populated directories with the same set_id both carrying the
+        # reserved UUID: only one can be the work order's own output.
+        self.own_set_dir()
+        self.own_set_dir(genre="baseball")
+        v = self.run_check(ready_payload())
+        self.assertNotReady(v, "already has a data directory")
+        self.assertNotReady(v, "already used")
+
+    def test_symlinked_set_dir_is_not_owned(self):
+        # A branch aliasing data/<genre>/<set_id> to another in-tree set directory
+        # that holds the reserved UUID must not hide that UUID.
+        other = self.own_set_dir(set_id="other-set")
+        (self.data / "football" / "2025-panini-prizm-draft-picks").symlink_to(
+            other, target_is_directory=True)
+        v = self.run_check(ready_payload())
+        self.assertNotReady(v, "already has a data directory")
+        self.assertNotReady(v, "already used")
+
+    def test_symlinked_set_yaml_is_not_owned(self):
+        other = self.own_set_dir(set_id="other-set")
+        d = self.data / "football" / "2025-panini-prizm-draft-picks"
+        d.mkdir(parents=True)
+        (d / "set.yaml").symlink_to(other / "set.yaml")
+        v = self.run_check(ready_payload())
+        self.assertNotReady(v, "already has a data directory")
+        self.assertNotReady(v, "already used")
+
     def test_own_set_dir_with_invalid_reserved_uuid_is_collision(self):
         self.own_set_dir()
         p = ready_payload()
