@@ -1,0 +1,1 @@
+- **[Issue #121]** Let the work-order checker run from a set's own PR branch without reporting the set's own directory and reserved UUID as collisions.
