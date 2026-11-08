@@ -232,12 +232,20 @@ def walk_data_tree(root):
     records every entry by its PHYSICAL location — its real parent directory plus
     its own name — so the result does not depend on which path reached it.
 
+    A directory symlink whose target resolves outside `root` is recorded in
+    `dir_links` but never descended into: a branch must not be able to make the
+    checker enumerate (or hang on) files outside the data tree.
+
     Returns `(yaml_files, dir_links)`: `yaml_files` is a list of
     `(physical, path)` for every `*.y*ml` entry, and `dir_links` a list of
     `(physical, target)` for every directory symlink.
     """
     seen = set()
     yaml_files, dir_links = [], []
+    try:
+        root_real = Path(root).resolve(strict=True)
+    except (OSError, RuntimeError):
+        return yaml_files, dir_links
     stack = [Path(root)]
     while stack:
         d = stack.pop()
@@ -253,7 +261,10 @@ def walk_data_tree(root):
             try:
                 if p.is_dir():
                     if p.is_symlink():
-                        dir_links.append((real / p.name, p.resolve()))
+                        target = p.resolve()
+                        dir_links.append((real / p.name, target))
+                        if not target.is_relative_to(root_real):
+                            continue
                     stack.append(p)
                 elif fnmatch.fnmatch(p.name, "*.y*ml"):
                     yaml_files.append((real / p.name, p))

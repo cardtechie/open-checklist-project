@@ -242,6 +242,17 @@ class CheckWorkOrderTests(unittest.TestCase):
         v = self.run_check(ready_payload())
         self.assertNotReady(v, "already used")
 
+    def test_directory_symlink_outside_data_root_is_not_followed(self):
+        # A directory symlink whose target lies outside data/ must not be walked:
+        # the reserved UUID sitting out there is not committed set data.
+        self.own_set_dir()
+        outside = Path(self._tmp.name) / "outside"
+        outside.mkdir()
+        (outside / "set.yaml").write_text(f"uuid: {UUID}\n")
+        (self.data / "football" / "escape").symlink_to(outside, target_is_directory=True)
+        v = self.run_check(ready_payload())
+        self.assertTrue(v["ready"], v["reasons"])
+
     def test_own_set_yaml_uuid_with_whitespace_is_not_owned(self):
         d = self.own_set_dir()
         (d / "set.yaml").write_text(f'uuid: " {UUID} "\nset_id: x\nname: x\n')
