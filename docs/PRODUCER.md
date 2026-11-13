@@ -51,8 +51,8 @@ start.
 
    Optional keys, used when present:
    - `name`: the **exact** Trading Card API set name, when the set already exists there;
-   - `genre` (`Sports`, `TCG` or `Non-Sport`), `sports` (list), `category` (list) and
-     `year`;
+   - `genre` (`Sports`, `TCG` or `Non-Sport`), `sports` (list), `category` (list; the
+     licensing league or body such as `MLB` or `NCAA`, never the sport) and `year`;
    - per source, `parallels_listed: true|false`.
 
    If there is more than one block, the **newest** one wins. Only a block written by a
@@ -100,7 +100,7 @@ Worked Discover block for work order #77:
 name: 2025 Panini Prizm Draft Picks
 genre: Sports
 sports: [Football]
-category: [Football]
+category: [NCAA]
 year: 2025
 sources:
   - url: https://<source>/2025-panini-prizm-draft-picks
@@ -453,8 +453,12 @@ set (`baseball`, `football`) and the genre in lower case otherwise (`tcg`, `non-
   - `set_id` is the pinned `set_id`.
   - `name` comes from the Discover block's `name`. If the block has none, use the title
     minus `[Work Order] `.
-  - `genre`, `sports`, `category` and `years` come from the block or the source. In this
-    repo `category` repeats the sport for sports sets (e.g. `[Baseball]`).
+  - `genre`, `sports`, `category` and `years` come from the block or the source.
+    `category` is the licensing league or body the product is issued under (`MLB`, `NFL`,
+    `NBA`, `NHL`, `NCAA`, `USA Baseball`), read from the licence statement on the source
+    or the Discover block. It is **never the sport**: `[Football]` is wrong for a college
+    football product, which is `[NCAA]`. `tools/validate.py` fails a set whose `category`
+    repeats a `sports` value.
   - `source.name` and `source.url` record the source.
 - `manifest.yaml`:
   - **Base sets** get freshly minted UUIDv4 `uuid`s and a `declared_card_count`. They
