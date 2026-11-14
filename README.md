@@ -26,7 +26,7 @@ one-file-per-card layout.
 
 - **Set v0.3** (manifest form): [`schemas/set/schema.yaml`](schemas/set/schema.yaml) ([docs](schemas/set/README.md))
 - **Manifest v0.2**: [`schemas/manifest/schema.yaml`](schemas/manifest/schema.yaml) ([docs](schemas/manifest/README.md))
-- **Checklist v0.1**: [`schemas/checklist/schema.yaml`](schemas/checklist/schema.yaml) ([docs](schemas/checklist/README.md))
+- **Checklist v0.2**: [`schemas/checklist/schema.yaml`](schemas/checklist/schema.yaml) ([docs](schemas/checklist/README.md))
 
 For the manifest form, the identity/UUID contract, versioning, validation, and examples,
 see the [schemas directory](schemas/README.md).

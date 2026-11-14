@@ -46,7 +46,7 @@ invariants) is the frozen spec in [`schemas/IDENTITY.md`](../schemas/IDENTITY.md
 
 - **Set** v0.3 — `schemas/set/schema.yaml`
 - **Manifest** v0.2 — `schemas/manifest/schema.yaml`
-- **Checklist** v0.1 — `schemas/checklist/schema.yaml`
+- **Checklist** v0.2 — `schemas/checklist/schema.yaml`
 
 Each schema type is a directory with a `schema.yaml` pointer symlink to the current
 version, a `README.md` (also a symlink to the current version's docs), a `CHANGELOG.md`,
