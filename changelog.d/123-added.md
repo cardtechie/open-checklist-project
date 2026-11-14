@@ -1,0 +1,2 @@
+- **[Issue #123]** Add an optional row-level `base: false` flag to the checklist schema (v0.2) for rows that exist only as parallels.
+  - The validator rejects a `base: false` row that no parallel covers; no existing data changes.

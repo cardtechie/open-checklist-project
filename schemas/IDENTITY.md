@@ -53,6 +53,9 @@ parallel_card.uuid = uuidv5(namespace = r.uuid, name = p.name)
 - **`sections` are derived membership, not identity.** A row's section is computed at
   consume time from the manifest's section declarations; it is not committed on the
   row and is not a `uuidv5` input. Re-sectioning a checklist never moves a UUID.
+- **`base: false` removes the plain card, not the identity.** The row still carries its
+  committed `uuid` and remains the namespace for its parallels; only the derivation of
+  the plain card is suppressed. Flipping `base` later never changes any UUID.
 - **Reserved seam for exceptions.** A card present in a parallel with a *different*
   attribute (e.g. a one-off print run) can be expressed by a future additive
   `overrides` field WITHOUT an identity migration — because the override changes an
@@ -101,6 +104,15 @@ nodes reuse the same card `number`.
 9. Node `id`s MUST be unique across the whole manifest (base sets and subsets share
    one id-space — each maps to `checklists/<id>.yaml`). A base set carries no `type`;
    a subset MUST carry at least one type (a list; e.g. [autograph, relic] for an auto-relic).
+
+10. **A `base: false` row MUST be covered by at least one parallel.** A checklist row is
+    its node's implicit base card unless it sets `base: false` (optional boolean, default
+    `true`), which declares that the source lists the row only as parallels. A
+    `base: false` row derives **no plain card**; its parallels still derive from the
+    row's committed `uuid` by the rule in section 2, so the row's identity is unchanged.
+    Coverage is computed from each parallel's `applies_to` (`all`, `numbers`, `except`,
+    `sections`). A `base: false` row no parallel covers would derive no card at all and
+    is a hard error.
 
 ## Namespace constant
 

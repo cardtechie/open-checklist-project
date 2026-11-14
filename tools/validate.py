@@ -132,6 +132,28 @@ def section_of(number, sections):
     return hits
 
 
+def parallel_covers(applies_to, number, sections):
+    """True if a parallel's `applies_to` selects the row with this `number`.
+
+    `applies_to` is `"all"`/absent (every row) or a mapping of `numbers` (only these
+    rows), `except` (all rows but these) and `sections` (rows in the named sections).
+    When several keys are present every one must admit the row. Mirrors the README
+    consume-time `applies`; malformed values are reported by schema validation, so this
+    stays tolerant and never raises."""
+    if not isinstance(applies_to, dict):
+        return True
+    n = str(number)
+    if applies_to.get("numbers") is not None and n not in [str(x) for x in applies_to["numbers"] or []]:
+        return False
+    if applies_to.get("except") is not None and n in [str(x) for x in applies_to["except"] or []]:
+        return False
+    if applies_to.get("sections") is not None:
+        wanted = set(applies_to["sections"] or [])
+        if not wanted.intersection(section_of(number, sections or [])):
+            return False
+    return True
+
+
 def find_dupes(items):
     """Linear-time duplicate finder."""
     seen, dupes = set(), set()
@@ -272,6 +294,14 @@ def validate_v03(set_dir, schemas, rep):
                     if sid not in section_ids:
                         rep.err(where, f"{nid}: parallel {pname} applies_to.sections references undeclared section {sid}")
 
+        # base: false rows must be covered by at least one parallel (IDENTITY.md #10)
+        for r in rows:
+            if r.get("base") is not False or r.get("number") is None:
+                continue
+            n = r.get("number")
+            if not any(parallel_covers(p.get("applies_to", "all"), n, sections) for p in parallels):
+                rep.err(where, f"{nid}: card {n} is base: false but no parallel covers it (it would derive no card)")
+
     # orphan checklist files (present but not referenced by any node)
     if checklist_dir.exists():
         for f in checklist_dir.glob("*.yaml"):
@@ -286,7 +316,7 @@ def main(argv):
     schema_dir = Path(argv[2]) if len(argv) > 2 else SCHEMA_DIR
 
     # Current-version schemas via the `schema.yaml` pointer symlinks
-    # (set -> v0.3, manifest -> v0.2, checklist -> v0.1).
+    # (set -> v0.3, manifest -> v0.2, checklist -> v0.2).
     schemas = {
         "set": load_schema(schema_dir / "set" / "schema.yaml"),
         "manifest": load_schema(schema_dir / "manifest" / "schema.yaml"),

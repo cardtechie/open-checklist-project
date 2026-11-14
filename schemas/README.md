@@ -13,7 +13,7 @@ which has since been removed.
 |---|---|---|---|
 | **Set** | v0.3 (manifest form) | [`set/schema.yaml`](set/schema.yaml) | [set/README.md](set/README.md) |
 | **Manifest** | v0.2 | [`manifest/schema.yaml`](manifest/schema.yaml) | [manifest/README.md](manifest/README.md) |
-| **Checklist** | v0.1 | [`checklist/schema.yaml`](checklist/schema.yaml) | [checklist/README.md](checklist/README.md) |
+| **Checklist** | v0.2 | [`checklist/schema.yaml`](checklist/schema.yaml) | [checklist/README.md](checklist/README.md) |
 
 The identity/UUID contract that spans the manifest form (which UUIDs are committed vs.
 derived, and the cross-file invariants) is the frozen spec in [`IDENTITY.md`](IDENTITY.md).
@@ -61,9 +61,9 @@ schemas/
 │   ├── README.md · CHANGELOG.md
 │   └── v0.1/ · v0.2/
 └── checklist/
-    ├── schema.yaml      # symlink -> v0.1/schema.yaml
+    ├── schema.yaml      # symlink -> v0.2/schema.yaml
     ├── README.md · CHANGELOG.md
-    └── v0.1/
+    └── v0.1/ · v0.2/
 ```
 
 Each schema type is a directory with a `schema.yaml` pointer symlink to the current
@@ -109,7 +109,8 @@ from [`IDENTITY.md`](IDENTITY.md) that schema alone can't express — e.g. globa
 committed UUIDs, unique node ids, checklist-file presence with no orphans,
 base-has-no-type / subset-has-a-type-list, per-node parallel and card-number uniqueness,
 `declared_card_count` matching the row count, `sections` partitioning the checklist, and
-`applies_to` references resolving to existing rows / sections.
+`applies_to` references resolving to existing rows / sections, and every `base: false`
+row being covered by at least one parallel.
 
 To validate against a specific version explicitly:
 
@@ -129,6 +130,7 @@ schema = load_schema("schemas/set/v0.2/schema.yaml")
 - **v0.1** ([schema](manifest/v0.1/schema.yaml), [docs](manifest/v0.1/README.md)) — initial manifest schema: base_sets + product-level subsets, recursive nodes, parallels/`applies_to`, sections, list `type`.
 
 ### Checklist ([changelog](checklist/CHANGELOG.md))
+- **v0.2** ([schema](checklist/v0.2/schema.yaml), [docs](checklist/v0.2/README.md)) — optional row-level `base` (default `true`); `base: false` marks a parallel-only row with no plain card.
 - **v0.1** ([schema](checklist/v0.1/schema.yaml), [docs](checklist/v0.1/README.md)) — initial checklist schema: committed rows with `subjects` as combinations of `entities`.
 
 ---
