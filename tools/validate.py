@@ -142,14 +142,19 @@ def parallel_covers(applies_to, number, sections):
     stays tolerant and never raises."""
     if not isinstance(applies_to, dict):
         return True
+
+    def as_list(value):
+        return value if isinstance(value, list) else []
+
     n = str(number)
-    if applies_to.get("numbers") is not None and n not in [str(x) for x in applies_to["numbers"] or []]:
+    if applies_to.get("numbers") is not None and n not in [str(x) for x in as_list(applies_to["numbers"])]:
         return False
-    if applies_to.get("except") is not None and n in [str(x) for x in applies_to["except"] or []]:
+    if applies_to.get("except") is not None and n in [str(x) for x in as_list(applies_to["except"])]:
         return False
     if applies_to.get("sections") is not None:
-        wanted = set(applies_to["sections"] or [])
-        if not wanted.intersection(section_of(number, sections or [])):
+        wanted = [x for x in as_list(applies_to["sections"]) if isinstance(x, str)]
+        # List membership, not set intersection: a malformed section `id` may be unhashable.
+        if not any(h in wanted for h in section_of(number, as_list(sections))):
             return False
     return True
 

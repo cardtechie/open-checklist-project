@@ -58,6 +58,16 @@ class ParallelCoversTest(unittest.TestCase):
         self.assertFalse(v.parallel_covers({"except": ["1"]}, "1", []))
         self.assertTrue(v.parallel_covers({"except": ["2"]}, "1", []))
 
+    def test_malformed_values_never_raise(self):
+        secs = [{"id": "a", "numbers": ["1"]}, {"id": {"bad": 1}, "numbers": ["1"]}]
+        # Mapping inside applies_to.sections, non-list containers, unhashable section id.
+        self.assertTrue(v.parallel_covers({"sections": ["a", {"x": 1}]}, "1", secs))
+        self.assertFalse(v.parallel_covers({"sections": [{"x": 1}]}, "1", secs))
+        self.assertFalse(v.parallel_covers({"sections": "a"}, "1", secs))
+        self.assertFalse(v.parallel_covers({"sections": ["a"]}, "1", "not-a-list"))
+        self.assertFalse(v.parallel_covers({"numbers": 5}, "1", []))
+        self.assertTrue(v.parallel_covers({"except": 5}, "1", []))
+
     def test_sections(self):
         secs = [{"id": "a", "numbers": ["1"]}, {"id": "b", "numbers": ["2"]}]
         self.assertTrue(v.parallel_covers({"sections": ["a"]}, "1", secs))
