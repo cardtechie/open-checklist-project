@@ -1,0 +1,22 @@
+- number: '1'
+  uuid: 3f574af8-f801-4178-9b13-5c89de827c6f
+  subjects:
+  - entities:
+    - role: player
+      name: Quinn Ewers
+      ref: null
+    - role: team
+      name: Texas Longhorns
+      ref: null
+  notes: 2023 Youth Explosion Signatures.
+- number: '2'
+  uuid: 0bd5f535-c742-4aa3-8be0-52165db46739
+  subjects:
+  - entities:
+    - role: player
+      name: Arch Manning
+      ref: null
+    - role: team
+      name: Texas Longhorns
+      ref: null
+  notes: 2023 Youth Explosion Signatures.
