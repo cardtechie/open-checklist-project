@@ -112,7 +112,9 @@ nodes reuse the same card `number`.
     row's committed `uuid` by the rule in section 2, so the row's identity is unchanged.
     Coverage is computed from each parallel's `applies_to` (`all`, `numbers`, `except`,
     `sections`). A `base: false` row no parallel covers would derive no card at all and
-    is a hard error.
+    is a hard error. This repository ships the schema and the validator only; it contains
+    no expansion step. Any consumer that expands a checklist into cards MUST skip the
+    plain card for a `base: false` row.
 
 ## Namespace constant
 
