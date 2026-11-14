@@ -1,0 +1,1 @@
+- **[Issue #77]** Add the Prizm Draft Picks Update Autographs subset to 2025 Panini Prizm Draft Picks.
