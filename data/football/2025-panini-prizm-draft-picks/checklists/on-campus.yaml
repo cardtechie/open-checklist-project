@@ -1,0 +1,150 @@
+- number: '1'
+  uuid: b7b63a58-5bdc-4a67-9630-14ddcf15671b
+  subjects:
+  - entities:
+    - role: player
+      name: Jeremiah Smith
+      ref: null
+    - role: team
+      name: Ohio State Buckeyes
+      ref: null
+- number: '2'
+  uuid: b5482dc9-099d-4ae1-8c9e-edae1c8b1f4e
+  subjects:
+  - entities:
+    - role: player
+      name: Ryan Williams
+      ref: null
+    - role: team
+      name: Alabama Crimson Tide
+      ref: null
+- number: '3'
+  uuid: 8ad563fd-8a97-4a42-811f-5790454ac10e
+  subjects:
+  - entities:
+    - role: player
+      name: Arch Manning
+      ref: null
+    - role: team
+      name: Texas Longhorns
+      ref: null
+- number: '4'
+  uuid: 6bf75dfc-f4e8-45b0-9d63-45dbacc788a7
+  subjects:
+  - entities:
+    - role: player
+      name: Ashton Jeanty
+      ref: null
+    - role: team
+      name: Boise State Broncos
+      ref: null
+- number: '5'
+  uuid: ff3a5102-a41b-4e7d-a40a-acfb62da8d99
+  subjects:
+  - entities:
+    - role: player
+      name: Riley Leonard
+      ref: null
+    - role: team
+      name: Notre Dame Fighting Irish
+      ref: null
+- number: '6'
+  uuid: fe41dca8-1960-4e27-904d-ef409ed85ce3
+  subjects:
+  - entities:
+    - role: player
+      name: Dylan Raiola
+      ref: null
+    - role: team
+      name: Nebraska Cornhuskers
+      ref: null
+- number: '7'
+  uuid: 16b402fb-79da-4d1d-b847-e8797e2edc7a
+  subjects:
+  - entities:
+    - role: player
+      name: Tetairoa McMillan
+      ref: null
+    - role: team
+      name: Arizona Wildcats
+      ref: null
+- number: '8'
+  uuid: 987dbfe4-993a-4e10-a85a-590531f95b63
+  subjects:
+  - entities:
+    - role: player
+      name: Travis Hunter
+      ref: null
+    - role: team
+      name: Colorado Buffaloes
+      ref: null
+- number: '9'
+  uuid: 5bd4600b-e860-4bd5-832f-761bffb9c6a8
+  subjects:
+  - entities:
+    - role: player
+      name: Shedeur Sanders
+      ref: null
+    - role: team
+      name: Colorado Buffaloes
+      ref: null
+- number: '10'
+  uuid: e189b093-93eb-4bdc-a00a-134a571bb3bb
+  subjects:
+  - entities:
+    - role: player
+      name: Cam Ward
+      ref: null
+    - role: team
+      name: Miami Hurricanes
+      ref: null
+- number: '11'
+  uuid: b32adb3b-dc91-402e-876c-e3f241c8c5c6
+  subjects:
+  - entities:
+    - role: player
+      name: Jalen Milroe
+      ref: null
+    - role: team
+      name: Alabama Crimson Tide
+      ref: null
+- number: '12'
+  uuid: 17faf75b-ffe0-4d24-853a-9cf8f9ef0f65
+  subjects:
+  - entities:
+    - role: player
+      name: Josh Allen
+      ref: null
+    - role: team
+      name: Wyoming Cowboys
+      ref: null
+- number: '13'
+  uuid: 169ba0d2-2da8-4296-a909-d2c9bed1a33d
+  subjects:
+  - entities:
+    - role: player
+      name: Patrick Mahomes II
+      ref: null
+    - role: team
+      name: Texas Tech Red Raiders
+      ref: null
+- number: '14'
+  uuid: e8ade177-6f75-411c-b985-823d57f521e9
+  subjects:
+  - entities:
+    - role: player
+      name: Joe Burrow
+      ref: null
+    - role: team
+      name: LSU Tigers
+      ref: null
+- number: '15'
+  uuid: ffbe4636-cb42-4aab-bc52-d84e06597d43
+  subjects:
+  - entities:
+    - role: player
+      name: Lamar Jackson
+      ref: null
+    - role: team
+      name: Louisville Cardinals
+      ref: null
