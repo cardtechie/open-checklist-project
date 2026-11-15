@@ -828,6 +828,29 @@ subsets:
       - '35'
       - '40'
       - '43'
+- id: prizm-draft-picks-update-autographs
+  name: Prizm Draft Picks Update Autographs
+  uuid: a7904c8a-23c1-43f9-9728-ddf8c240e9be
+  type:
+  - autograph
+  declared_card_count: 2
+  parallels:
+  - name: Black
+    applies_to:
+      numbers:
+      - '2'
+  - name: Gold Prizm
+    applies_to:
+      numbers:
+      - '2'
+  - name: Orange Pulsar Prizm
+    applies_to:
+      numbers:
+      - '2'
+  - name: Silver Prizm
+    applies_to:
+      numbers:
+      - '2'
 - id: black-color-blast
   name: Black Color Blast
   uuid: debe9a81-6d1f-4c1b-8fb3-55064753d415
