@@ -1,0 +1,1 @@
+- **[Issue #136]** Reopen work orders closed by a merged pull request unless it carries `completes-work-order`.
