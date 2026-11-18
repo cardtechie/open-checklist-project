@@ -10,6 +10,7 @@ on:
       - '.github/scripts/**'
       - '.github/workflows/reserve-work-order.yml'
       - '.github/workflows/work-order-tests.yml'
+      - '.github/workflows/work-order-close-guard.yml'
   # A merge queue event carries no path filter, so the job always runs there. It takes
   # seconds and has no dependencies.
   merge_group:
@@ -28,4 +29,4 @@ jobs:
         with:
           node-version: 24
       - name: Run work-order tests
-        run: node --test .github/scripts/work-order.test.js
+        run: node --test .github/scripts/work-order.test.js .github/scripts/work-order-close-guard.test.js

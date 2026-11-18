@@ -1,0 +1,49 @@
+name: Work order close guard
+
+# Reopen a Work Order that a merged pull request closed (#136). A PR linked through the
+# Development sidebar closes its issue on merge, and GitHub has no non-closing link into
+# the default branch. Work orders close when the Set Pipeline marks the set done, so the
+# close is undone here, with one comment, unless the closing PR is labelled
+# completes-work-order. A hand close is left alone. Reopening fires `reopened`, and events
+# caused by GITHUB_TOKEN start no new runs, so the guard cannot loop.
+#
+# The logic lives in .github/scripts/work-order-close-guard.js. The default GITHUB_TOKEN
+# is enough: no project writes.
+
+on:
+  issues:
+    types: [closed]
+
+permissions:
+  contents: read
+
+jobs:
+  guard:
+    # Cheap prefilter on the event snapshot. A payload with no issue type is let through:
+    # the script re-reads the issue through REST and checks the type there.
+    if: >-
+      github.event.issue.type.name == 'Work Order' ||
+      !github.event.issue.type
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+      issues: write
+      pull-requests: read
+    # Two quick close events must not double-comment.
+    concurrency:
+      group: work-order-close-guard-${{ github.event.issue.number }}
+      cancel-in-progress: false
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          sparse-checkout: .github/scripts
+          persist-credentials: false
+      - uses: actions/github-script@f28e40c7f34bde8b3046d885e986cb6290c5673b # v7
+        with:
+          script: |
+            const guard = require(`${process.env.GITHUB_WORKSPACE}/.github/scripts/work-order-close-guard.js`);
+            try {
+              await guard.run({ github, context, core });
+            } catch (err) {
+              core.setFailed(`Close guard failed for #${context.payload.issue.number}: ${err.message}`);
+            }
