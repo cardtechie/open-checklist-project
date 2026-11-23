@@ -51,6 +51,12 @@ To keep PRs reviewable and CI fast, scope each PR to a single concern:
   it across PRs by subset. Do not bundle *multiple* sets together — a single PR
   spanning many sets and tens of thousands of files cannot be meaningfully
   reviewed.
+- **Sanctioned split: a subset may travel in a linked PR.** Whole is the default. A set
+  PR may omit a subset its Discover block lists only when its body (1) names each omitted
+  subset and (2) links the open PR, or the work order comment, that carries it, under the
+  same work order. The set is then complete when the linked PRs together carry every
+  listed subset. A follow-up PR that adds one subset to an existing set directory is
+  normal. A PR that omits a subset without naming where it went is still incomplete.
 - **Keep tooling separate from data.** Changes to `/tools` or `/schemas` go in
   their own PR, not mixed with data additions. Open an issue first for new tooling.
 - **Rebase, don't merge.** Keep your branch's history linear; avoid merge commits

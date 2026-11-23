@@ -524,6 +524,12 @@ A set is done only when **both** hold:
    one. The review report's *Subset completeness* check is the evidence, and the
    producer's step (d) gate (`--require-subsets`) enforces it before a PR is opened.
 
+When the operator sanctions a split (see *Pull request scope* in
+[`CONTRIBUTING.md`](../CONTRIBUTING.md)), item 2 is judged across the linked PRs under
+the same work order: each omitted subset is named in the PR body, with the open PR or work
+order comment that carries it. The `--require-subsets` gate still applies to the set as a
+whole. The unsplit default is unchanged, and a producer never splits a set on its own.
+
 A base set with parallels alone is not done when the Discover block lists any subset.
 CI cannot enforce item 2 by itself, because `validate.py` has no access to the work
 order's Discover block; the producer gate and the reviewer reading the report do. The
