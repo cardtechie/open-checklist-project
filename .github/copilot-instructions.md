@@ -13,7 +13,7 @@
 - One set directory `data/<sport>/<set-id>/` in the v0.3 manifest form: `set.yaml`, `manifest.yaml` and `checklists/<node-id>.yaml`. The per-card explosion is derived and never committed, so do not ask for card files.
 - It is produced from a work order issue (the Discover block) under the Stage A contract in `docs/PRODUCER.md`.
 - The PR body carries `Closes #<work order>`, the source URLs with stated against authored counts, and the review report's *Subset completeness* result.
-- It adds exactly one `changelog.d/<work order>-added.md` fragment, makes no `tools/` or `schemas/` change, and never edits `CHANGELOG.md`.
+- It adds exactly one `changelog.d/<number>-added.md` fragment (the work order number, or this PR's number when another split PR under the same work order already holds that filename), makes no `tools/` or `schemas/` change, and never edits `CHANGELOG.md`.
 
 ## Staged delivery and split PRs
 

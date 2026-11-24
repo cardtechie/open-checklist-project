@@ -526,7 +526,7 @@ A set is done only when **both** hold:
 
 When the operator sanctions a split (see *Pull request scope* in
 [`CONTRIBUTING.md`](../CONTRIBUTING.md)), item 2 is judged across the linked PRs under
-the same work order: each omitted subset is named in the PR body, with the open PR or work
+the same work order: each omitted subset is named in the PR body, with the open or merged PR or work
 order comment that carries it. `review_report.py --require-subsets` reads only the set
 directories in the checkout it runs on and cannot aggregate separate PRs or comments, so on
 a split PR it exits 3 for every omitted subset. That is expected and is not a failure of the
