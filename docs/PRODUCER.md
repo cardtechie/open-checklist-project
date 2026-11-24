@@ -527,8 +527,13 @@ A set is done only when **both** hold:
 When the operator sanctions a split (see *Pull request scope* in
 [`CONTRIBUTING.md`](../CONTRIBUTING.md)), item 2 is judged across the linked PRs under
 the same work order: each omitted subset is named in the PR body, with the open PR or work
-order comment that carries it. The `--require-subsets` gate still applies to the set as a
-whole. The unsplit default is unchanged, and a producer never splits a set on its own.
+order comment that carries it. `review_report.py --require-subsets` reads only the set
+directories in the checkout it runs on and cannot aggregate separate PRs or comments, so on
+a split PR it exits 3 for every omitted subset. That is expected and is not a failure of the
+split. Run the gate on a combined checkout that holds every linked PR's subsets (or the set
+directory once the earlier linked PRs have merged); the set is complete only when that run
+reports no missing subset. The unsplit default is unchanged, and a producer never splits a
+set on its own.
 
 A base set with parallels alone is not done when the Discover block lists any subset.
 CI cannot enforce item 2 by itself, because `validate.py` has no access to the work

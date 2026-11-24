@@ -19,7 +19,7 @@
 
 - A set moves through Stage A (produce), then B (Validate), then C on the Set Pipeline board. One PR is not the whole pipeline.
 - `CONTRIBUTING.md` "Pull request scope" defines the rule: a set PR may omit a Discover-listed subset when its body names the subset and links the open PR, or work order comment, that carries it under the same work order. Apply that rule as written.
-- If the body names where a subset went, check that the named PR exists and carries it. Do not call the omission blocking.
+- If the body names where a subset went, check that the carrier is under the same work order and carries the subset. When the carrier is a PR, confirm it is open (or already merged) and that its body or diff references the same work order. When it is a work order comment, open the linked comment and confirm it is on that work order and carries the subset. A carrier under a different work order does not count. Do not call a verified omission blocking.
 - Flag a missing subset only when the body claims it is present and it is not, or when the body's counts disagree with the diff.
 
 ## The authoritative gate

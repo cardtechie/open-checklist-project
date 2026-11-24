@@ -16,7 +16,7 @@ A set is staged data produced from a source and gated by `python tools/validate.
 
 ## Split PRs
 
-- Apply the rule in `CONTRIBUTING.md` "Pull request scope". A subset the body names and links to another open PR is not missing.
+- Apply the rule in `CONTRIBUTING.md` "Pull request scope". A subset the body names and links to another open PR, or to a work order comment that carries it, under the same work order, is not missing.
 - A follow-up PR that adds one subset to an existing set directory is normal.
 
 ## Ignore
